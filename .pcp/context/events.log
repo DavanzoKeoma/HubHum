@@ -1,2 +1,7 @@
 {"ts": "2026-11-18T13:35:45.557827+00:00", "action": "PCP_NORMALIZE_APPLY", "scope": "all", "sha256": "881a8612206df21a5e13280de5f3ba972b2fc448e9c9802568538e55a779352e", "note": "Initialized .pcp structure, vault placeholders, adapter, git DavanzoKeoma"}
 {"ts": "2026-11-18T13:45:09.404817+00:00", "action": "PCP_COMMIT", "scope": "all", "sha256": "d9df5aac2314b14fd35428aef168289215d4e5bbfcd61a18cc2d193ecc3c1803", "note": "Astro build (5 pages), validator (3 apps), MCP self-test OK"}
+{"ts": "2026-11-18T16:58:07.285120+00:00", "action": "PCP_VAULT_SYNC", "keys_synced": ["dev.github", "ai.groq"], "sha256": "959933664721293f8648c153f967ccf159252b47e17cc8b648bbbac0741213af"}
+{"ts": "2026-11-18T16:58:07.557269+00:00", "action": "VAULT_ACCESS", "key": "ai.groq", "source": "vault.local.jsonl", "sha256": "94861b5db4ccd8ba51961d258e03b7eea8032997f2d6108d1ee290e1dcff7b61"}
+{"ts": "2026-11-18T16:58:07.561285+00:00", "action": "VAULT_ACCESS", "key": "dev.github", "source": "vault.local.jsonl", "sha256": "a3b72897d147e58b9b8ba020ff02c8b0373ccb6d6c60ed90e83f3357ccc21c8e"}
+{"ts": "2026-11-18T16:58:33.142571+00:00", "action": "VAULT_ACCESS", "key": "ai.groq", "source": "vault.local.jsonl", "sha256": "94861b5db4ccd8ba51961d258e03b7eea8032997f2d6108d1ee290e1dcff7b61"}
+{"ts": "2026-11-18T16:58:33.146559+00:00", "action": "VAULT_ACCESS", "key": "dev.github", "source": "vault.local.jsonl", "sha256": "a3b72897d147e58b9b8ba020ff02c8b0373ccb6d6c60ed90e83f3357ccc21c8e"}
