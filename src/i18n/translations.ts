@@ -75,6 +75,16 @@ export interface TranslationDict {
   dialogClose: string;
   dialogLogout: string;
   detailSummaryNotice: string;
+  deviceFlowTitle: string;
+  deviceFlowInstruction: string;
+  deviceFlowOpenBtn: string;
+  deviceFlowPolling: string;
+  deviceFlowCopy: string;
+  deviceFlowCopied: string;
+  deviceFlowSuccess: string;
+  deviceFlowBlocked: string;
+  deviceFlowTokenPlaceholder: string;
+  deviceFlowTokenBtn: string;
 }
 
 export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
@@ -156,6 +166,16 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     dialogClose: 'Close',
     dialogLogout: 'Sign Out',
     detailSummaryNotice: 'Plain-language summary in your language:',
+    deviceFlowTitle: 'Sign in with GitHub',
+    deviceFlowInstruction: 'Copy this code and enter it on GitHub to authorize your account:',
+    deviceFlowOpenBtn: 'Open github.com/login/device →',
+    deviceFlowPolling: 'Waiting for authorization on GitHub...',
+    deviceFlowCopy: 'Copy',
+    deviceFlowCopied: 'Copied!',
+    deviceFlowSuccess: 'Signed in as',
+    deviceFlowBlocked: 'Browser blocked direct cross-origin code request. Paste a read:user token or manage local favorites below.',
+    deviceFlowTokenPlaceholder: 'Paste GitHub read:user token (optional)',
+    deviceFlowTokenBtn: 'Connect',
   },
   it: {
     brandSub: 'App libere per tutti',
@@ -235,6 +255,16 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     dialogClose: 'Chiudi',
     dialogLogout: 'Esci',
     detailSummaryNotice: 'Sintesi chiara nella tua lingua:',
+    deviceFlowTitle: 'Accedi con GitHub',
+    deviceFlowInstruction: 'Copia questo codice e inseriscilo su GitHub per autorizzare il tuo account:',
+    deviceFlowOpenBtn: 'Apri github.com/login/device →',
+    deviceFlowPolling: 'In attesa di autorizzazione su GitHub...',
+    deviceFlowCopy: 'Copia',
+    deviceFlowCopied: 'Copiato!',
+    deviceFlowSuccess: 'Accesso effettuato come',
+    deviceFlowBlocked: 'Il browser ha bloccato la richiesta diretta cross-origin. Inserisci un token read:user o usa i preferiti locali qui sotto.',
+    deviceFlowTokenPlaceholder: 'Incolla token GitHub read:user (opzionale)',
+    deviceFlowTokenBtn: 'Collega',
   },
   es: {
     brandSub: 'Software libre para todos',
@@ -314,6 +344,16 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     dialogClose: 'Cerrar',
     dialogLogout: 'Cerrar sesión',
     detailSummaryNotice: 'Resumen claro en tu idioma:',
+    deviceFlowTitle: 'Iniciar sesión con GitHub',
+    deviceFlowInstruction: 'Copia este código e introdúcelo en GitHub para autorizar tu cuenta:',
+    deviceFlowOpenBtn: 'Abrir github.com/login/device →',
+    deviceFlowPolling: 'Esperando autorización en GitHub...',
+    deviceFlowCopy: 'Copiar',
+    deviceFlowCopied: '¡Copiado!',
+    deviceFlowSuccess: 'Sesión iniciada como',
+    deviceFlowBlocked: 'El navegador bloqueó la solicitud directa. Pega un token read:user o usa tus favoritos locales.',
+    deviceFlowTokenPlaceholder: 'Pega tu token GitHub read:user (opcional)',
+    deviceFlowTokenBtn: 'Conectar',
   },
   fr: {
     brandSub: 'Logiciels libres pour tous',
@@ -393,6 +433,16 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     dialogClose: 'Fermer',
     dialogLogout: 'Déconnexion',
     detailSummaryNotice: 'Résumé clair dans votre langue :',
+    deviceFlowTitle: 'Connexion avec GitHub',
+    deviceFlowInstruction: 'Copiez ce code et saisissez-le sur GitHub pour autoriser votre compte :',
+    deviceFlowOpenBtn: 'Ouvrir github.com/login/device →',
+    deviceFlowPolling: "En attente d'autorisation sur GitHub...",
+    deviceFlowCopy: 'Copier',
+    deviceFlowCopied: 'Copié !',
+    deviceFlowSuccess: 'Connecté en tant que',
+    deviceFlowBlocked: 'Le navigateur a bloqué la requête directe. Collez un jeton read:user ou gérez vos favoris locaux.',
+    deviceFlowTokenPlaceholder: 'Collez un jeton GitHub read:user (optionnel)',
+    deviceFlowTokenBtn: 'Connecter',
   },
   de: {
     brandSub: 'Freie Software für alle',
@@ -471,6 +521,16 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     dialogClose: 'Schließen',
     dialogLogout: 'Abmelden',
     detailSummaryNotice: 'Verständliche Zusammenfassung:',
+    deviceFlowTitle: 'Mit GitHub anmelden',
+    deviceFlowInstruction: 'Kopieren Sie diesen Code und geben Sie ihn auf GitHub ein, um Ihr Konto zu autorisieren:',
+    deviceFlowOpenBtn: 'github.com/login/device öffnen →',
+    deviceFlowPolling: 'Warte auf Bestätigung bei GitHub...',
+    deviceFlowCopy: 'Kopieren',
+    deviceFlowCopied: 'Kopiert!',
+    deviceFlowSuccess: 'Angemeldet als',
+    deviceFlowBlocked: 'Der Browser hat die direkte Anfrage blockiert. Token (read:user) einfügen oder lokale Favoriten nutzen.',
+    deviceFlowTokenPlaceholder: 'GitHub read:user Token einfügen (optional)',
+    deviceFlowTokenBtn: 'Verbinden',
   },
 };
 

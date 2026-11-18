@@ -1,7 +1,6 @@
 /**
- * GitHub OAuth & Dispatch Client Adapter for HubHum.
- * Zero raw alert() dialogs: works with localStorage favorites out of the box and
- * upgrades seamlessly to GitHub OAuth when PUBLIC_GITHUB_OAUTH_CLIENT_ID is set.
+ * Native GitHub Device Authorization Flow & Favorites Adapter for HubHum.
+ * Zero external proxies: uses GitHub's official Device Flow endpoints directly.
  */
 
 export interface GitHubUserSession {
@@ -9,6 +8,14 @@ export interface GitHubUserSession {
   avatarUrl: string;
   accessToken?: string;
   authenticatedAt: string;
+}
+
+export interface DeviceCodeResponse {
+  device_code: string;
+  user_code: string;
+  verification_uri: string;
+  expires_in: number;
+  interval: number;
 }
 
 export interface TranslationDispatchResult {
@@ -20,18 +27,15 @@ export interface TranslationDispatchResult {
 export const HUBHUM_CONFIG = {
   owner: 'DavanzoKeoma',
   repo: 'HubHum',
-  oauthAuthorizeUrl: 'https://github.com/login/oauth/authorize',
-  oauthScopes: 'read:user public_repo',
-  clientId: import.meta.env.PUBLIC_GITHUB_OAUTH_CLIENT_ID || '',
-  oauthProxyUrl: import.meta.env.PUBLIC_GITHUB_OAUTH_PROXY_URL || '',
+  deviceCodeUrl: 'https://github.com/login/device/code',
+  accessTokenUrl: 'https://github.com/login/oauth/access_token',
+  deviceVerifyUrl: 'https://github.com/login/device',
+  oauthScopes: 'read:user',
+  clientId: import.meta.env.PUBLIC_GITHUB_OAUTH_CLIENT_ID || 'Ov23liZDnU0mNqCrMEj9',
 };
 
 const SESSION_KEY = 'hubhum_user_session_v1';
 const FAVORITES_KEY = 'hubhum_favorites_v1';
-
-export function isOAuthConfigured(): boolean {
-  return Boolean(HUBHUM_CONFIG.clientId && HUBHUM_CONFIG.oauthProxyUrl);
-}
 
 export function getSavedSession(): GitHubUserSession | null {
   if (typeof window === 'undefined') return null;
@@ -48,50 +52,114 @@ export function clearSavedSession(): void {
   window.localStorage.removeItem(SESSION_KEY);
 }
 
-export function buildGitHubOAuthUrl(redirectUri: string): string | null {
-  if (!HUBHUM_CONFIG.clientId) return null;
-  const params = new URLSearchParams({
-    client_id: HUBHUM_CONFIG.clientId,
-    redirect_uri: redirectUri,
-    scope: HUBHUM_CONFIG.oauthScopes,
+export async function verifyAndSaveUserToken(accessToken: string): Promise<GitHubUserSession> {
+  const cleanToken = accessToken.trim();
+  if (!cleanToken) {
+    throw new Error('Empty token');
+  }
+  const userRes = await fetch('https://api.github.com/user', {
+    headers: {
+      Authorization: `Bearer ${cleanToken}`,
+      Accept: 'application/vnd.github+json',
+    },
   });
-  return `${HUBHUM_CONFIG.oauthAuthorizeUrl}?${params.toString()}`;
+  if (!userRes.ok) {
+    throw new Error(`GitHub user fetch failed (${userRes.status})`);
+  }
+  const userJson = await userRes.json();
+  const session: GitHubUserSession = {
+    login: userJson.login,
+    avatarUrl: userJson.avatar_url || '',
+    accessToken: cleanToken,
+    authenticatedAt: new Date().toISOString(),
+  };
+  if (typeof window !== 'undefined') {
+    window.localStorage.setItem(SESSION_KEY, JSON.stringify(session));
+  }
+  return session;
 }
 
-export async function handleOAuthCallbackIfPresent(): Promise<GitHubUserSession | null> {
-  if (typeof window === 'undefined' || !isOAuthConfigured()) return null;
-  const params = new URLSearchParams(window.location.search);
-  const code = params.get('code');
-  if (!code) return null;
-
-  try {
-    const cleanRedirect = `${window.location.origin}${window.location.pathname}`;
-    const tokenRes = await fetch(HUBHUM_CONFIG.oauthProxyUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ code, redirect_uri: cleanRedirect }),
-    });
-    const tokenData = await tokenRes.json();
-    const accessToken = tokenData?.access_token;
-    if (!accessToken) return null;
-
-    const userRes = await fetch('https://api.github.com/user', {
-      headers: { Authorization: `Bearer ${accessToken}`, Accept: 'application/vnd.github+json' },
-    });
-    if (!userRes.ok) return null;
-    const userJson = await userRes.json();
-    const session: GitHubUserSession = {
-      login: userJson.login,
-      avatarUrl: userJson.avatar_url || '',
-      accessToken,
-      authenticatedAt: new Date().toISOString(),
-    };
-    window.localStorage.setItem(SESSION_KEY, JSON.stringify(session));
-    window.history.replaceState({}, document.title, cleanRedirect);
-    return session;
-  } catch {
-    return null;
+export async function startDeviceFlow(): Promise<DeviceCodeResponse> {
+  const body = new URLSearchParams({
+    client_id: HUBHUM_CONFIG.clientId,
+    scope: HUBHUM_CONFIG.oauthScopes,
+  });
+  const res = await fetch(HUBHUM_CONFIG.deviceCodeUrl, {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: body.toString(),
+  });
+  if (!res.ok) {
+    throw new Error(`Device code request failed (${res.status})`);
   }
+  const data = (await res.json()) as DeviceCodeResponse;
+  if (!data.device_code || !data.user_code) {
+    throw new Error('Invalid device flow payload');
+  }
+  return data;
+}
+
+function waitAbortable(ms: number, signal?: AbortSignal): Promise<void> {
+  return new Promise((resolve, reject) => {
+    if (signal?.aborted) {
+      reject(new DOMException('Aborted', 'AbortError'));
+      return;
+    }
+    const timer = window.setTimeout(() => {
+      signal?.removeEventListener('abort', onAbort);
+      resolve();
+    }, ms);
+    const onAbort = () => {
+      window.clearTimeout(timer);
+      reject(new DOMException('Aborted', 'AbortError'));
+    };
+    signal?.addEventListener('abort', onAbort, { once: true });
+  });
+}
+
+export async function pollDeviceFlowToken(
+  deviceCode: string,
+  initialIntervalSec = 5,
+  signal?: AbortSignal
+): Promise<GitHubUserSession> {
+  let intervalSec = Math.max(5, initialIntervalSec || 5);
+
+  while (!signal?.aborted) {
+    await waitAbortable(intervalSec * 1000, signal);
+
+    const body = new URLSearchParams({
+      client_id: HUBHUM_CONFIG.clientId,
+      device_code: deviceCode,
+      grant_type: 'urn:ietf:params:oauth:grant-type:device_code',
+    });
+
+    const res = await fetch(HUBHUM_CONFIG.accessTokenUrl, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: body.toString(),
+      signal,
+    });
+    const data = await res.json();
+
+    if (data.access_token) {
+      return verifyAndSaveUserToken(data.access_token);
+    }
+    if (data.error === 'authorization_pending') {
+      continue;
+    }
+    if (data.error === 'slow_down') {
+      intervalSec += 5;
+      continue;
+    }
+    throw new Error(data.error_description || data.error || 'Device authorization failed');
+  }
+  throw new DOMException('Aborted', 'AbortError');
 }
 
 export function getFavorites(): string[] {

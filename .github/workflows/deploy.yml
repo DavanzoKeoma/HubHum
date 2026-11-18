@@ -37,6 +37,7 @@ jobs:
         env:
           SITE_URL: https://davanzokeoma.github.io
           SITE_BASE: ${{ hashFiles('public/CNAME') != '' && '/' || '/HubHum' }}
+          PUBLIC_GITHUB_OAUTH_CLIENT_ID: ${{ vars.PUBLIC_GITHUB_OAUTH_CLIENT_ID || 'Ov23liZDnU0mNqCrMEj9' }}
         run: npm run build
 
       - name: Upload GitHub Pages artifact

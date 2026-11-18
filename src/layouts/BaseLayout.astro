@@ -93,7 +93,8 @@ const {
           </select>
 
           <button type="button" id="oauth-login-btn" class="btn btn-primary">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <img id="oauth-avatar" src="" alt="" width="20" height="20" class="oauth-avatar" style="display:none;" />
+            <svg id="oauth-default-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
             </svg>
@@ -132,6 +133,48 @@ const {
         <h2 id="dialog-title" style="margin:0;font-size:1.15rem;" data-i18n="dialogTitle">Your Saved Favorites</h2>
         <button type="button" id="dialog-close-top" class="btn btn-outline" style="padding:0.25rem 0.65rem;" aria-label="Close">✕</button>
       </div>
+
+      <div id="device-flow-section" class="device-flow-box" style="display:none;">
+        <h3 style="margin:0 0 0.35rem;font-size:0.98rem;" data-i18n="deviceFlowTitle">Sign in with GitHub</h3>
+        <p id="device-flow-instruction" style="margin:0;font-size:0.86rem;color:var(--text-muted);" data-i18n="deviceFlowInstruction">
+          Copy this code and enter it on GitHub to authorize your account:
+        </p>
+
+        <div id="device-code-container" style="display:none;">
+          <div class="device-code-row">
+            <span id="device-user-code" class="device-code-value">----</span>
+            <button type="button" id="copy-device-code-btn" class="btn btn-outline" style="padding:0.32rem 0.72rem;" data-i18n="deviceFlowCopy">Copy</button>
+          </div>
+          <a
+            id="device-verify-link"
+            href="https://github.com/login/device"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+            style="width:100%;"
+            data-i18n="deviceFlowOpenBtn"
+          >
+            Open github.com/login/device →
+          </a>
+        </div>
+
+        <p id="device-status-msg" style="margin:0.55rem 0 0;font-size:0.82rem;color:var(--text-muted);"></p>
+
+        <form id="device-token-fallback" style="display:none;margin-top:0.65rem;gap:0.45rem;flex-wrap:wrap;">
+          <input
+            id="device-token-input"
+            type="password"
+            class="translate-input"
+            style="padding:0.5rem 0.75rem;font-size:0.85rem;"
+            placeholder="Paste GitHub read:user token (optional)"
+            data-i18n-placeholder="deviceFlowTokenPlaceholder"
+          />
+          <button type="submit" class="btn btn-outline" data-i18n="deviceFlowTokenBtn">Connect</button>
+        </form>
+      </div>
+
+      <hr class="dialog-divider" />
+
       <p id="dialog-desc" style="margin:0;color:var(--text-muted);font-size:0.9rem;" data-i18n="dialogDescLocal">
         Your favorite apps are saved instantly in your browser. Click any saved app below to open its guide.
       </p>
@@ -158,12 +201,12 @@ const {
 
     <script>
       import {
-        buildGitHubOAuthUrl,
         clearSavedSession,
         getFavorites,
         getSavedSession,
-        handleOAuthCallbackIfPresent,
-        isOAuthConfigured,
+        pollDeviceFlowToken,
+        startDeviceFlow,
+        verifyAndSaveUserToken,
       } from '../lib/github-oauth';
       import { SUPPORTED_LANGS, TRANSLATIONS, type SupportedLang } from '../i18n/translations';
       import { withBase } from '../lib/url';
@@ -235,25 +278,48 @@ const {
         mobileBtn.setAttribute('aria-expanded', String(isOpen));
       });
 
-      // GitHub OAuth + Favorites Dialog (Zero alert() popups)
+      // GitHub Device Flow + Favorites Dialog
       const loginBtn = document.getElementById('oauth-login-btn');
       const loginLabel = document.getElementById('oauth-login-label');
+      const avatarImg = document.getElementById('oauth-avatar') as HTMLImageElement | null;
+      const defaultIcon = document.getElementById('oauth-default-icon');
       const dialog = document.getElementById('account-dialog') as HTMLDialogElement | null;
       const favList = document.getElementById('dialog-fav-list');
       const dialogDesc = document.getElementById('dialog-desc');
       const logoutBtn = document.getElementById('dialog-logout-btn');
       const closeBtns = [document.getElementById('dialog-close-btn'), document.getElementById('dialog-close-top')];
 
+      const deviceFlowSection = document.getElementById('device-flow-section');
+      const deviceCodeContainer = document.getElementById('device-code-container');
+      const deviceUserCodeEl = document.getElementById('device-user-code');
+      const deviceVerifyLink = document.getElementById('device-verify-link') as HTMLAnchorElement | null;
+      const copyCodeBtn = document.getElementById('copy-device-code-btn');
+      const deviceStatusMsg = document.getElementById('device-status-msg');
+      const tokenFallbackForm = document.getElementById('device-token-fallback') as HTMLFormElement | null;
+      const tokenInput = document.getElementById('device-token-input') as HTMLInputElement | null;
+
+      let activeAbortController: AbortController | null = null;
+
       function renderSessionButton() {
         const session = getSavedSession();
         if (loginLabel && session?.login) {
           loginLabel.textContent = `@${session.login}`;
           loginLabel.removeAttribute('data-i18n');
+          if (avatarImg && session.avatarUrl) {
+            avatarImg.src = session.avatarUrl;
+            avatarImg.style.display = 'inline-block';
+            if (defaultIcon) defaultIcon.style.display = 'none';
+          }
+        } else if (loginLabel) {
+          loginLabel.setAttribute('data-i18n', 'navSignIn');
+          loginLabel.textContent = TRANSLATIONS[currentLang].navSignIn;
+          if (avatarImg) avatarImg.style.display = 'none';
+          if (defaultIcon) defaultIcon.style.display = 'inline-block';
         }
       }
 
-      function openFavoritesDialog() {
-        if (!dialog || !favList || !dialogDesc) return;
+      function renderFavoritesList() {
+        if (!favList || !dialogDesc) return;
         const dict = TRANSLATIONS[currentLang];
         const session = getSavedSession();
         const favs = getFavorites();
@@ -282,33 +348,90 @@ const {
             favList.appendChild(li);
           });
         }
-        dialog.showModal();
+      }
+
+      async function initiateDeviceSignIn() {
+        const dict = TRANSLATIONS[currentLang];
+        if (!deviceFlowSection || !deviceCodeContainer || !deviceUserCodeEl || !deviceStatusMsg) return;
+
+        deviceFlowSection.style.display = 'block';
+        deviceCodeContainer.style.display = 'none';
+        if (tokenFallbackForm) tokenFallbackForm.style.display = 'none';
+        deviceStatusMsg.textContent = dict.deviceFlowPolling;
+
+        activeAbortController?.abort();
+        activeAbortController = new AbortController();
+
+        try {
+          const res = await startDeviceFlow();
+          deviceUserCodeEl.textContent = res.user_code;
+          if (deviceVerifyLink) deviceVerifyLink.href = res.verification_uri || 'https://github.com/login/device';
+          deviceCodeContainer.style.display = 'block';
+
+          const session = await pollDeviceFlowToken(res.device_code, res.interval, activeAbortController.signal);
+          renderSessionButton();
+          renderFavoritesList();
+          deviceCodeContainer.style.display = 'none';
+          deviceStatusMsg.textContent = `${dict.deviceFlowSuccess} @${session.login}`;
+        } catch (err) {
+          if (err instanceof DOMException && err.name === 'AbortError') return;
+          deviceCodeContainer.style.display = 'none';
+          deviceStatusMsg.textContent = dict.deviceFlowBlocked;
+          if (tokenFallbackForm) tokenFallbackForm.style.display = 'flex';
+        }
       }
 
       renderSessionButton();
-      handleOAuthCallbackIfPresent().then((session) => {
-        if (session) renderSessionButton();
-      });
 
       loginBtn?.addEventListener('click', () => {
+        renderFavoritesList();
         const session = getSavedSession();
-        if (!session && isOAuthConfigured()) {
-          const authUrl = buildGitHubOAuthUrl(`${window.location.origin}${window.location.pathname}`);
-          if (authUrl) {
-            window.location.href = authUrl;
-            return;
-          }
+        if (deviceFlowSection) {
+          deviceFlowSection.style.display = session ? 'none' : 'block';
         }
-        openFavoritesDialog();
+        dialog?.showModal();
+        if (!session) {
+          initiateDeviceSignIn();
+        }
+      });
+
+      copyCodeBtn?.addEventListener('click', async () => {
+        const code = deviceUserCodeEl?.textContent || '';
+        if (!code || code === '----') return;
+        try {
+          await navigator.clipboard.writeText(code);
+          copyCodeBtn.textContent = TRANSLATIONS[currentLang].deviceFlowCopied;
+          window.setTimeout(() => {
+            copyCodeBtn.textContent = TRANSLATIONS[currentLang].deviceFlowCopy;
+          }, 1800);
+        } catch {}
+      });
+
+      tokenFallbackForm?.addEventListener('submit', async (ev) => {
+        ev.preventDefault();
+        if (!tokenInput || !deviceStatusMsg) return;
+        const dict = TRANSLATIONS[currentLang];
+        try {
+          const session = await verifyAndSaveUserToken(tokenInput.value);
+          tokenInput.value = '';
+          renderSessionButton();
+          renderFavoritesList();
+          if (tokenFallbackForm) tokenFallbackForm.style.display = 'none';
+          deviceStatusMsg.textContent = `${dict.deviceFlowSuccess} @${session.login}`;
+        } catch {
+          deviceStatusMsg.textContent = dict.deviceFlowBlocked;
+        }
       });
 
       logoutBtn?.addEventListener('click', () => {
+        activeAbortController?.abort();
         clearSavedSession();
-        if (loginLabel) {
-          loginLabel.setAttribute('data-i18n', 'navSignIn');
-          loginLabel.textContent = TRANSLATIONS[currentLang].navSignIn;
-        }
+        renderSessionButton();
         dialog?.close();
+      });
+
+      dialog?.addEventListener('close', () => {
+        activeAbortController?.abort();
       });
 
       closeBtns.forEach((btn) => btn?.addEventListener('click', () => dialog?.close()));
