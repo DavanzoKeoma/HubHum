@@ -21,6 +21,24 @@ export interface TranslationDict {
   catVideo: string;
   catWebApps: string;
   catWebsites: string;
+  liveSearchEyebrow: string;
+  liveSearchPlaceholder: string;
+  liveSearchAria: string;
+  liveSearchLoading: string;
+  liveSearchEmpty: string;
+  liveSearchRateLimit: string;
+  liveSearchRateHint: string;
+  btnAlreadyOnHubHum: string;
+  btnGoWithHubHum: string;
+  convTitle: string;
+  convStep1: string;
+  convStep2: string;
+  convStep3: string;
+  convStep4: string;
+  convDone: string;
+  convTriggerHint: string;
+  convTriggerBtn: string;
+  convPollingHint: string;
   topPicksHeading: string;
   topPicksSub: string;
   allSoftwareHeading: string;
@@ -75,16 +93,12 @@ export interface TranslationDict {
   dialogClose: string;
   dialogLogout: string;
   detailSummaryNotice: string;
-  deviceFlowTitle: string;
-  deviceFlowInstruction: string;
-  deviceFlowOpenBtn: string;
-  deviceFlowPolling: string;
-  deviceFlowCopy: string;
-  deviceFlowCopied: string;
-  deviceFlowSuccess: string;
-  deviceFlowBlocked: string;
-  deviceFlowTokenPlaceholder: string;
-  deviceFlowTokenBtn: string;
+  syncOptionalTitle: string;
+  syncOptionalDesc: string;
+  syncTokenPlaceholder: string;
+  syncConnectBtn: string;
+  syncSuccess: string;
+  syncInvalidToken: string;
 }
 
 export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
@@ -92,7 +106,7 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     brandSub: 'Free software for humans',
     navTopPicks: 'Top Picks',
     navSubmit: 'Submit an App',
-    navSignIn: 'Sign In',
+    navSignIn: 'Favorites',
     navFavorites: 'Favorites',
     eyebrow: 'Hand-picked selection of the best free software',
     heroTitle: 'Powerful free software, zero tech jargon',
@@ -108,6 +122,24 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catVideo: 'Video & Audio',
     catWebApps: 'Web Apps & Cloud',
     catWebsites: 'Websites & SEO',
+    liveSearchEyebrow: "Can't find your favorite open-source app?",
+    liveSearchPlaceholder: 'Search 800M+ open-source projects on GitHub...',
+    liveSearchAria: 'Search open-source projects live on GitHub',
+    liveSearchLoading: 'Searching open-source index...',
+    liveSearchEmpty: 'No matching projects found. Try a broader name or keyword.',
+    liveSearchRateLimit: 'You made several fast searches. Wait a few seconds or paste the project URL below.',
+    liveSearchRateHint: 'Paste URL directly below',
+    btnAlreadyOnHubHum: 'Already on HubHum →',
+    btnGoWithHubHum: 'Go with HubHum ⚡',
+    convTitle: 'Translating App Guide',
+    convStep1: 'Fetching repository structure & latest releases...',
+    convStep2: 'Translating into plain English & mapping features with AI...',
+    convStep3: 'Generating human-friendly guide & checking official download links...',
+    convStep4: 'Publishing static page to HubHum catalog...',
+    convDone: 'Done! Redirecting to your new guide...',
+    convTriggerHint: 'Click below to start automatic conversion in a new tab—this page will redirect automatically as soon as it goes live.',
+    convTriggerBtn: 'Confirm & Start Conversion →',
+    convPollingHint: 'Checking catalog every 4 seconds for the published page...',
     topPicksHeading: 'Top Picks This Week',
     topPicksSub: 'Most trusted apps chosen by the community',
     allSoftwareHeading: 'All Software',
@@ -160,28 +192,25 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
       'All listed software links strictly to official creator channels in full respect of open-source licenses.',
     dialogTitle: 'Your Saved Favorites',
     dialogDescLocal:
-      'Your favorite apps are saved instantly in your browser. Click any saved app below to open its guide.',
-    dialogDescAuth: 'Signed in with GitHub. Manage your saved favorites below.',
-    dialogNoFavs: 'You have not saved any favorite apps yet. Click the heart button on any app card!',
+      'Your favorite apps are saved instantly in this browser—no account needed.',
+    dialogDescAuth: 'Connected to GitHub. Manage your saved favorites below.',
+    dialogNoFavs: 'You have not saved any favorite apps yet. Click the heart button on any app page!',
     dialogClose: 'Close',
-    dialogLogout: 'Sign Out',
+    dialogLogout: 'Disconnect',
     detailSummaryNotice: 'Plain-language summary in your language:',
-    deviceFlowTitle: 'Sign in with GitHub',
-    deviceFlowInstruction: 'Copy this code and enter it on GitHub to authorize your account:',
-    deviceFlowOpenBtn: 'Open github.com/login/device →',
-    deviceFlowPolling: 'Waiting for authorization on GitHub...',
-    deviceFlowCopy: 'Copy',
-    deviceFlowCopied: 'Copied!',
-    deviceFlowSuccess: 'Signed in as',
-    deviceFlowBlocked: 'Browser blocked direct cross-origin code request. Paste a read:user token or manage local favorites below.',
-    deviceFlowTokenPlaceholder: 'Paste GitHub read:user token (optional)',
-    deviceFlowTokenBtn: 'Connect',
+    syncOptionalTitle: 'Optional: Sync & Direct Submission',
+    syncOptionalDesc:
+      'Want to sync your favorites across devices or trigger instant conversions? Enter your GitHub Personal Token or connect your account.',
+    syncTokenPlaceholder: 'GitHub Personal Token (optional)',
+    syncConnectBtn: 'Connect',
+    syncSuccess: 'Connected as',
+    syncInvalidToken: 'Could not verify that token. Local favorites remain saved.',
   },
   it: {
     brandSub: 'App libere per tutti',
     navTopPicks: 'Top della settimana',
     navSubmit: "Proponi un'app",
-    navSignIn: 'Accedi',
+    navSignIn: 'Preferiti',
     navFavorites: 'Preferiti',
     eyebrow: 'La selezione curata a mano dei migliori software gratuiti',
     heroTitle: 'Programmi gratuiti e potenti, senza gergo tecnico',
@@ -197,6 +226,24 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catVideo: 'Video & Audio',
     catWebApps: 'Web App & Cloud',
     catWebsites: 'Siti Web & SEO',
+    liveSearchEyebrow: 'Non trovi il tuo programma open-source preferito?',
+    liveSearchPlaceholder: 'Cerca tra milioni di progetti open-source su GitHub...',
+    liveSearchAria: 'Cerca progetti open-source in tempo reale su GitHub',
+    liveSearchLoading: 'Ricerca in corso tra i progetti open-source...',
+    liveSearchEmpty: 'Nessun progetto trovato. Prova un nome più semplice o un altro termine.',
+    liveSearchRateLimit: 'Hai fatto troppe ricerche veloci. Attendi qualche secondo o incolla direttamente l’URL qui sotto.',
+    liveSearchRateHint: 'Incolla l’URL qui sotto',
+    btnAlreadyOnHubHum: 'Già disponibile →',
+    btnGoWithHubHum: 'Traduci con HubHum ⚡',
+    convTitle: 'Traduzione scheda in corso',
+    convStep1: 'Analisi della struttura del progetto e delle versioni ufficiali...',
+    convStep2: 'Traduzione in linguaggio semplice e analisi delle funzioni con AI...',
+    convStep3: 'Creazione della guida e verifica dei link di download ufficiali...',
+    convStep4: 'Pubblicazione della nuova pagina nel catalogo HubHum...',
+    convDone: 'Fatto! Reindirizzamento alla nuova guida in corso...',
+    convTriggerHint: 'Clicca qui sotto per avviare la conversione automatica in una nuova scheda: questa pagina ti porterà alla guida appena pronta.',
+    convTriggerBtn: 'Conferma e Avvia Conversione →',
+    convPollingHint: 'Controllo automatico del catalogo ogni 4 secondi...',
     topPicksHeading: 'Migliori della Settimana',
     topPicksSub: 'I software più apprezzati dalla community',
     allSoftwareHeading: 'Tutto il Catalogo',
@@ -247,30 +294,27 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
       'Trasparenza affiliazioni (#ad): Alcuni link su HubHum sono link di affiliazione. Se acquisti un servizio tramite questi link potremmo ricevere una commissione, senza costi aggiuntivi per te.',
     footerCredits:
       'Tutti i software rimandano esclusivamente ai canali ufficiali dei rispettivi autori nel rispetto delle licenze open-source.',
-    dialogTitle: 'I tuoi Preferiti Salvati',
+    dialogTitle: 'I tuoi Preferiti',
     dialogDescLocal:
-      'Le tue app preferite vengono salvate istantaneamente nel browser. Clicca su una scheda per aprirla.',
-    dialogDescAuth: 'Accesso effettuato con GitHub. Gestisci i tuoi preferiti salvati qui sotto.',
+      'I tuoi preferiti restano salvati subito in questo browser, senza bisogno di registrazione.',
+    dialogDescAuth: 'Account GitHub collegato. Gestisci i tuoi preferiti qui sotto.',
     dialogNoFavs: 'Non hai ancora salvato nessuna app. Premi il cuore su una qualsiasi scheda!',
     dialogClose: 'Chiudi',
-    dialogLogout: 'Esci',
+    dialogLogout: 'Scollega',
     detailSummaryNotice: 'Sintesi chiara nella tua lingua:',
-    deviceFlowTitle: 'Accedi con GitHub',
-    deviceFlowInstruction: 'Copia questo codice e inseriscilo su GitHub per autorizzare il tuo account:',
-    deviceFlowOpenBtn: 'Apri github.com/login/device →',
-    deviceFlowPolling: 'In attesa di autorizzazione su GitHub...',
-    deviceFlowCopy: 'Copia',
-    deviceFlowCopied: 'Copiato!',
-    deviceFlowSuccess: 'Accesso effettuato come',
-    deviceFlowBlocked: 'Il browser ha bloccato la richiesta diretta cross-origin. Inserisci un token read:user o usa i preferiti locali qui sotto.',
-    deviceFlowTokenPlaceholder: 'Incolla token GitHub read:user (opzionale)',
-    deviceFlowTokenBtn: 'Collega',
+    syncOptionalTitle: 'Opzionale: Sincronizzazione GitHub',
+    syncOptionalDesc:
+      'Vuoi sincronizzare i tuoi preferiti tra dispositivi diversi? Inserisci il tuo GitHub Personal Token o collega il tuo account.',
+    syncTokenPlaceholder: 'GitHub Personal Token (opzionale)',
+    syncConnectBtn: 'Collega',
+    syncSuccess: 'Collegato come',
+    syncInvalidToken: 'Impossibile verificare questo token. I preferiti locali restano al sicuro.',
   },
   es: {
     brandSub: 'Software libre para todos',
     navTopPicks: 'Destacados',
     navSubmit: 'Enviar una app',
-    navSignIn: 'Iniciar sesión',
+    navSignIn: 'Favoritos',
     navFavorites: 'Favoritos',
     eyebrow: 'Selección cuidada del mejor software gratuito',
     heroTitle: 'Software gratuito y potente, sin jerga técnica',
@@ -286,6 +330,24 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catVideo: 'Video y Audio',
     catWebApps: 'Apps Web y Nube',
     catWebsites: 'Sitios Web y SEO',
+    liveSearchEyebrow: '¿No encuentras tu app de código abierto favorita?',
+    liveSearchPlaceholder: 'Busca entre millones de proyectos abiertos en GitHub...',
+    liveSearchAria: 'Buscar proyectos en vivo en GitHub',
+    liveSearchLoading: 'Buscando en el índice abierto...',
+    liveSearchEmpty: 'No se encontraron proyectos. Prueba otra palabra clave.',
+    liveSearchRateLimit: 'Has hecho búsquedas muy rápidas. Espera unos segundos o pega la URL abajo.',
+    liveSearchRateHint: 'Pega la URL abajo',
+    btnAlreadyOnHubHum: 'Ya en HubHum →',
+    btnGoWithHubHum: 'Traducir con HubHum ⚡',
+    convTitle: 'Generando guía de la aplicación',
+    convStep1: 'Analizando la estructura y las versiones oficiales...',
+    convStep2: 'Traduciendo a lenguaje sencillo con IA...',
+    convStep3: 'Generando la guía y verificando enlaces oficiales...',
+    convStep4: 'Publicando página estática en el catálogo de HubHum...',
+    convDone: '¡Listo! Redirigiendo a tu nueva guía...',
+    convTriggerHint: 'Haz clic abajo para iniciar la conversión automática en una nueva pestaña; esta ventana te redirigirá en cuanto esté lista.',
+    convTriggerBtn: 'Confirmar e Iniciar Conversión →',
+    convPollingHint: 'Comprobando el catálogo cada 4 segundos...',
     topPicksHeading: 'Lo Mejor de la Semana',
     topPicksSub: 'Las aplicaciones más valoradas por la comunidad',
     allSoftwareHeading: 'Todo el Catálogo',
@@ -337,29 +399,25 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     footerCredits:
       'Todas las aplicaciones enlazan directamente con los canales oficiales de sus autores respetando las licencias de código abierto.',
     dialogTitle: 'Tus Favoritos Guardados',
-    dialogDescLocal:
-      'Tus aplicaciones favoritas se guardan al instante en tu navegador.',
-    dialogDescAuth: 'Sesión iniciada con GitHub. Administra tus favoritos abajo.',
+    dialogDescLocal: 'Tus aplicaciones favoritas se guardan al instante en este navegador.',
+    dialogDescAuth: 'Cuenta de GitHub conectada. Administra tus favoritos abajo.',
     dialogNoFavs: 'Aún no has guardado aplicaciones favoritas.',
     dialogClose: 'Cerrar',
-    dialogLogout: 'Cerrar sesión',
+    dialogLogout: 'Desconectar',
     detailSummaryNotice: 'Resumen claro en tu idioma:',
-    deviceFlowTitle: 'Iniciar sesión con GitHub',
-    deviceFlowInstruction: 'Copia este código e introdúcelo en GitHub para autorizar tu cuenta:',
-    deviceFlowOpenBtn: 'Abrir github.com/login/device →',
-    deviceFlowPolling: 'Esperando autorización en GitHub...',
-    deviceFlowCopy: 'Copiar',
-    deviceFlowCopied: '¡Copiado!',
-    deviceFlowSuccess: 'Sesión iniciada como',
-    deviceFlowBlocked: 'El navegador bloqueó la solicitud directa. Pega un token read:user o usa tus favoritos locales.',
-    deviceFlowTokenPlaceholder: 'Pega tu token GitHub read:user (opcional)',
-    deviceFlowTokenBtn: 'Conectar',
+    syncOptionalTitle: 'Opcional: Sincronización con GitHub',
+    syncOptionalDesc:
+      '¿Quieres sincronizar tus favoritos entre dispositivos? Introduce tu GitHub Personal Token o conecta tu cuenta.',
+    syncTokenPlaceholder: 'GitHub Personal Token (opcional)',
+    syncConnectBtn: 'Conectar',
+    syncSuccess: 'Conectado como',
+    syncInvalidToken: 'No se pudo verificar el token. Tus favoritos locales siguen guardados.',
   },
   fr: {
     brandSub: 'Logiciels libres pour tous',
     navTopPicks: 'Sélection',
     navSubmit: 'Proposer une app',
-    navSignIn: 'Connexion',
+    navSignIn: 'Favoris',
     navFavorites: 'Favoris',
     eyebrow: 'Sélection soignée des meilleurs logiciels gratuits',
     heroTitle: 'Des logiciels gratuits puissants, sans jargon technique',
@@ -375,6 +433,24 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catVideo: 'Vidéo et Audio',
     catWebApps: 'Apps Web et Cloud',
     catWebsites: 'Sites Web et SEO',
+    liveSearchEyebrow: 'Vous ne trouvez pas votre logiciel libre favori ?',
+    liveSearchPlaceholder: 'Recherchez parmi des millions de projets sur GitHub...',
+    liveSearchAria: 'Rechercher en direct sur GitHub',
+    liveSearchLoading: 'Recherche en cours dans le catalogue ouvert...',
+    liveSearchEmpty: 'Aucun projet trouvé. Essayez un autre mot-clé.',
+    liveSearchRateLimit: 'Recherches trop rapides. Patientez quelques secondes ou collez le lien ci-dessous.',
+    liveSearchRateHint: 'Collez le lien ci-dessous',
+    btnAlreadyOnHubHum: 'Déjà sur HubHum →',
+    btnGoWithHubHum: 'Traduire avec HubHum ⚡',
+    convTitle: 'Traduction de la fiche en cours',
+    convStep1: 'Analyse du projet et des versions officielles...',
+    convStep2: 'Traduction en langage clair avec notre IA...',
+    convStep3: 'Création du guide et contrôle des liens officiels...',
+    convStep4: 'Publication de la page sur le catalogue HubHum...',
+    convDone: 'Terminé ! Redirection vers votre guide...',
+    convTriggerHint: 'Cliquez ci-dessous pour lancer la conversion automatique dans un nouvel onglet ; cette page vous redirigera dès que possible.',
+    convTriggerBtn: 'Confirmer et Lancer la Conversion →',
+    convPollingHint: 'Vérification du catalogue toutes les 4 secondes...',
     topPicksHeading: 'Sélection de la Semaine',
     topPicksSub: 'Les applications les plus appréciées par la communauté',
     allSoftwareHeading: 'Tout le Catalogue',
@@ -426,29 +502,25 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     footerCredits:
       'Tous les logiciels renvoient exclusivement vers les canaux officiels de leurs auteurs.',
     dialogTitle: 'Vos Favoris Enregistrés',
-    dialogDescLocal:
-      'Vos applications favorites sont enregistrées instantanément dans votre navigateur.',
-    dialogDescAuth: 'Connecté via GitHub. Gérez vos favoris ci-dessous.',
+    dialogDescLocal: 'Vos applications favorites sont enregistrées instantanément dans ce navigateur.',
+    dialogDescAuth: 'Compte GitHub connecté. Gérez vos favoris ci-dessous.',
     dialogNoFavs: "Vous n'avez pas encore enregistré de favoris.",
     dialogClose: 'Fermer',
-    dialogLogout: 'Déconnexion',
+    dialogLogout: 'Déconnecter',
     detailSummaryNotice: 'Résumé clair dans votre langue :',
-    deviceFlowTitle: 'Connexion avec GitHub',
-    deviceFlowInstruction: 'Copiez ce code et saisissez-le sur GitHub pour autoriser votre compte :',
-    deviceFlowOpenBtn: 'Ouvrir github.com/login/device →',
-    deviceFlowPolling: "En attente d'autorisation sur GitHub...",
-    deviceFlowCopy: 'Copier',
-    deviceFlowCopied: 'Copié !',
-    deviceFlowSuccess: 'Connecté en tant que',
-    deviceFlowBlocked: 'Le navigateur a bloqué la requête directe. Collez un jeton read:user ou gérez vos favoris locaux.',
-    deviceFlowTokenPlaceholder: 'Collez un jeton GitHub read:user (optionnel)',
-    deviceFlowTokenBtn: 'Connecter',
+    syncOptionalTitle: 'Optionnel : Synchronisation GitHub',
+    syncOptionalDesc:
+      'Vous souhaitez synchroniser vos favoris entre appareils ? Saisissez votre GitHub Personal Token ou connectez votre compte.',
+    syncTokenPlaceholder: 'GitHub Personal Token (optionnel)',
+    syncConnectBtn: 'Connecter',
+    syncSuccess: 'Connecté en tant que',
+    syncInvalidToken: 'Jeton invalide. Vos favoris locaux restent sauvegardés.',
   },
   de: {
     brandSub: 'Freie Software für alle',
     navTopPicks: 'Top-Auswahl',
     navSubmit: 'App vorschlagen',
-    navSignIn: 'Anmelden',
+    navSignIn: 'Favoriten',
     navFavorites: 'Favoriten',
     eyebrow: 'Handverlesene Auswahl der besten kostenlosen Software',
     heroTitle: 'Starke kostenlose Software, ganz ohne Fachjargon',
@@ -464,6 +536,24 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catVideo: 'Video & Audio',
     catWebApps: 'Web-Apps & Cloud',
     catWebsites: 'Websites & SEO',
+    liveSearchEyebrow: 'Ihre Lieblings-App noch nicht dabei?',
+    liveSearchPlaceholder: 'Millionen Open-Source-Projekte auf GitHub durchsuchen...',
+    liveSearchAria: 'Live auf GitHub nach Projekten suchen',
+    liveSearchLoading: 'Suche läuft...',
+    liveSearchEmpty: 'Keine passenden Projekte gefunden. Probieren Sie einen anderen Begriff.',
+    liveSearchRateLimit: 'Zu viele schnelle Suchanfragen. Bitte kurz warten oder URL direkt einfügen.',
+    liveSearchRateHint: 'URL direkt unten einfügen',
+    btnAlreadyOnHubHum: 'Bereits auf HubHum →',
+    btnGoWithHubHum: 'Mit HubHum laden ⚡',
+    convTitle: 'App-Anleitung wird erstellt',
+    convStep1: 'Projektstruktur und aktuelle Releases werden geladen...',
+    convStep2: 'Verständliche Übersetzung mit KI läuft...',
+    convStep3: 'Leitfaden und offizielle Download-Links werden geprüft...',
+    convStep4: 'Statische Seite wird im HubHum-Katalog veröffentlicht...',
+    convDone: 'Fertig! Weiterleitung zur neuen Anleitung...',
+    convTriggerHint: 'Klicken Sie unten, um die automatische Konvertierung in einem neuen Tab zu starten; diese Seite leitet danach automatisch weiter.',
+    convTriggerBtn: 'Bestätigen & Konvertierung starten →',
+    convPollingHint: 'Prüfe Katalog alle 4 Sekunden...',
     topPicksHeading: 'Top-Tipps der Woche',
     topPicksSub: 'Beliebte Programme aus der Community',
     allSoftwareHeading: 'Alle Programme',
@@ -515,22 +605,19 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     footerCredits:
       'Alle Programme verweisen direkt auf die offiziellen Kanäle der Entwickler gemäß Open-Source-Lizenz.',
     dialogTitle: 'Ihre gespeicherten Favoriten',
-    dialogDescLocal: 'Ihre Favoriten werden direkt im Browser gespeichert.',
-    dialogDescAuth: 'Mit GitHub angemeldet. Verwalten Sie Ihre Favoriten unten.',
+    dialogDescLocal: 'Ihre Favoriten werden direkt in diesem Browser gespeichert.',
+    dialogDescAuth: 'Mit GitHub verbunden. Verwalten Sie Ihre Favoriten unten.',
     dialogNoFavs: 'Sie haben noch keine Favoriten gespeichert.',
     dialogClose: 'Schließen',
-    dialogLogout: 'Abmelden',
+    dialogLogout: 'Trennen',
     detailSummaryNotice: 'Verständliche Zusammenfassung:',
-    deviceFlowTitle: 'Mit GitHub anmelden',
-    deviceFlowInstruction: 'Kopieren Sie diesen Code und geben Sie ihn auf GitHub ein, um Ihr Konto zu autorisieren:',
-    deviceFlowOpenBtn: 'github.com/login/device öffnen →',
-    deviceFlowPolling: 'Warte auf Bestätigung bei GitHub...',
-    deviceFlowCopy: 'Kopieren',
-    deviceFlowCopied: 'Kopiert!',
-    deviceFlowSuccess: 'Angemeldet als',
-    deviceFlowBlocked: 'Der Browser hat die direkte Anfrage blockiert. Token (read:user) einfügen oder lokale Favoriten nutzen.',
-    deviceFlowTokenPlaceholder: 'GitHub read:user Token einfügen (optional)',
-    deviceFlowTokenBtn: 'Verbinden',
+    syncOptionalTitle: 'Optional: GitHub-Synchronisierung',
+    syncOptionalDesc:
+      'Möchten Sie Favoriten geräteübergreifend synchronisieren? Geben Sie ein GitHub Personal Token ein oder verbinden Sie Ihr Konto.',
+    syncTokenPlaceholder: 'GitHub Personal Token (optional)',
+    syncConnectBtn: 'Verbinden',
+    syncSuccess: 'Verbunden als',
+    syncInvalidToken: 'Token konnte nicht geprüft werden. Lokale Favoriten bleiben gespeichert.',
   },
 };
 

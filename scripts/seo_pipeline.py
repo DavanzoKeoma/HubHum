@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from ai_router import AllTiersFailedError, generate_card_with_cascade
+from generate_catalog_index import write_catalog_index
 from scouter import ScoutedRepo, classify_repo, fetch_repo_by_url, scout_trending_consumer_apps
 from validator_sanitizer import sanitize_full_document, split_frontmatter, validate_markdown_card
 
@@ -171,7 +172,7 @@ def process_single_repo(
 def main() -> None:
     parser = argparse.ArgumentParser(description="HubHum SEO Pipeline")
     parser.add_argument("--limit", type=int, default=15, help="Max nightly apps to process")
-    parser.add_argument("--repo-url", help="Single GitHub URL for async translation")
+    parser.add_argument("--repo-url", "--single-repo", dest="repo_url", help="Single GitHub URL for async translation")
     parser.add_argument("--repo-urls", help="Comma-separated GitHub URLs (bypasses >500 stars filter)")
     parser.add_argument(
         "--force-provider",
@@ -206,6 +207,8 @@ def main() -> None:
             repo = fetch_repo_by_url(repo_u)
             if process_single_repo(repo, affiliates_data, blocklist, force_provider=provider):
                 published += 1
+        if published > 0:
+            write_catalog_index()
         print(f"Explicit pipeline complete: {published}/{len(explicit_urls)} cards generated.")
         if published == 0:
             raise SystemExit(2)
@@ -220,6 +223,8 @@ def main() -> None:
         provider = "gemini" if args.force_provider == "both" and idx % 2 == 0 else ("groq" if args.force_provider == "both" else args.force_provider)
         if process_single_repo(repo, affiliates_data, blocklist, force_provider=provider):
             published += 1
+    if published > 0:
+        write_catalog_index()
     print(f"Pipeline complete: {published} new cards generated.")
 
 

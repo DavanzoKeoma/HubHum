@@ -41,6 +41,69 @@ DEV_LIBRARY_KEYWORDS = (
     "framework for developers",
 )
 
+TECH_JARGON_TAGS = {
+    "react",
+    "reactjs",
+    "typescript",
+    "javascript",
+    "electron",
+    "c-plus-plus",
+    "cpp",
+    "c",
+    "csharp",
+    "rust",
+    "golang",
+    "go",
+    "python",
+    "java",
+    "kotlin",
+    "swift",
+    "vue",
+    "vuejs",
+    "svelte",
+    "nodejs",
+    "node",
+    "webpack",
+    "vite",
+    "html",
+    "css",
+    "scss",
+    "tailwind",
+    "docker-compose",
+    "api",
+    "sdk",
+    "library",
+    "framework",
+    "boilerplate",
+    "qt",
+    "gtk",
+    "wxwidgets",
+}
+
+TOPIC_CATEGORY_MAP = {
+    "Audio & Video": {"video-editor", "video", "audio", "ffmpeg", "recording", "sound", "media-player", "podcast", "music"},
+    "Productivity & Office": {"notes", "markdown", "todo", "office", "document", "calendar", "productivity", "writing", "pdf"},
+    "Security & Privacy": {"vpn", "password-manager", "passwords", "encryption", "privacy", "security", "firewall", "adblock"},
+    "System Utilities": {"utility", "utilities", "downloader", "system-tools", "backup", "file-manager", "windows", "macos", "linux"},
+    "Web & Cloud Apps": {"cms", "self-hosted", "dashboard", "docker", "web-app", "webapp", "cloud", "blog", "newsletter", "ai", "automation"},
+}
+
+
+def normalize_human_topics(topics: list[str], description: str = "") -> tuple[list[str], str]:
+    """Filter out developer-only stack tags and infer a human macro-category."""
+    cleaned = [t.lower() for t in topics if t and t.lower() not in TECH_JARGON_TAGS]
+    combined_tokens = set(cleaned) | set(re.findall(r"[a-z0-9-]+", description.lower()))
+
+    macro_category = "Productivity & Office"
+    for label, keywords in TOPIC_CATEGORY_MAP.items():
+        if combined_tokens & keywords:
+            macro_category = label
+            break
+
+    if not cleaned:
+        cleaned = [macro_category.lower().replace(" & ", "-").replace(" ", "-")]
+    return cleaned[:4], macro_category
+
 INSTALLER_EXTENSIONS = (".exe", ".msi", ".dmg", ".pkg", ".apk", ".appimage", ".deb")
 SOURCE_ARCHIVE_EXTENSIONS = (".zip", ".tar.gz", ".tgz", ".tar.xz")
 
@@ -246,7 +309,8 @@ def fetch_repo_bundle(owner: str, repo_name: str, token: str | None = None) -> S
 
     topics = meta.get("topics") or []
     desc = meta.get("description") or ""
-    is_webapp, category, _ = classify_repo(desc, topics, readme_excerpt, release_assets)
+    human_topics, _ = normalize_human_topics(topics, desc)
+    is_webapp, category, _ = classify_repo(desc, human_topics, readme_excerpt, release_assets)
 
     html_url = meta["html_url"]
     homepage = (meta.get("homepage") or "").strip()
@@ -272,7 +336,7 @@ def fetch_repo_bundle(owner: str, repo_name: str, token: str | None = None) -> S
         html_url=html_url,
         description=desc,
         stars=int(meta.get("stargazers_count") or 0),
-        topics=topics,
+        topics=human_topics,
         license_id=lic,
         is_webapp=is_webapp,
         category=category,

@@ -1,6 +1,7 @@
 /**
- * Native GitHub Device Authorization Flow & Favorites Adapter for HubHum.
- * Zero external proxies: uses GitHub's official Device Flow endpoints directly.
+ * Local-First Favorites & Zero-Friction GitHub Integration for HubHum.
+ * Zero CORS errors: uses only CORS-enabled GitHub REST API endpoints (`api.github.com`)
+ * and instant browser localStorage persistence.
  */
 
 export interface GitHubUserSession {
@@ -10,28 +11,22 @@ export interface GitHubUserSession {
   authenticatedAt: string;
 }
 
-export interface DeviceCodeResponse {
-  device_code: string;
-  user_code: string;
-  verification_uri: string;
-  expires_in: number;
-  interval: number;
-}
-
 export interface TranslationDispatchResult {
   accepted: boolean;
   mode: 'dispatch' | 'issue_redirect' | 'invalid';
   targetUrl?: string;
 }
 
+export interface ConversionTriggerResult {
+  triggered: boolean;
+  mode: 'dispatch' | 'issue_api' | 'issue_url';
+  issueUrl?: string;
+}
+
 export const HUBHUM_CONFIG = {
   owner: 'DavanzoKeoma',
   repo: 'HubHum',
-  deviceCodeUrl: 'https://github.com/login/device/code',
-  accessTokenUrl: 'https://github.com/login/oauth/access_token',
-  deviceVerifyUrl: 'https://github.com/login/device',
-  oauthScopes: 'read:user',
-  clientId: import.meta.env.PUBLIC_GITHUB_OAUTH_CLIENT_ID || 'Ov23liZDnU0mNqCrMEj9',
+  siteBaseUrl: 'https://davanzokeoma.github.io/HubHum',
 };
 
 const SESSION_KEY = 'hubhum_user_session_v1';
@@ -64,7 +59,7 @@ export async function verifyAndSaveUserToken(accessToken: string): Promise<GitHu
     },
   });
   if (!userRes.ok) {
-    throw new Error(`GitHub user fetch failed (${userRes.status})`);
+    throw new Error(`GitHub verification returned ${userRes.status}`);
   }
   const userJson = await userRes.json();
   const session: GitHubUserSession = {
@@ -77,89 +72,6 @@ export async function verifyAndSaveUserToken(accessToken: string): Promise<GitHu
     window.localStorage.setItem(SESSION_KEY, JSON.stringify(session));
   }
   return session;
-}
-
-export async function startDeviceFlow(): Promise<DeviceCodeResponse> {
-  const body = new URLSearchParams({
-    client_id: HUBHUM_CONFIG.clientId,
-    scope: HUBHUM_CONFIG.oauthScopes,
-  });
-  const res = await fetch(HUBHUM_CONFIG.deviceCodeUrl, {
-    method: 'POST',
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/x-www-form-urlencoded',
-    },
-    body: body.toString(),
-  });
-  if (!res.ok) {
-    throw new Error(`Device code request failed (${res.status})`);
-  }
-  const data = (await res.json()) as DeviceCodeResponse;
-  if (!data.device_code || !data.user_code) {
-    throw new Error('Invalid device flow payload');
-  }
-  return data;
-}
-
-function waitAbortable(ms: number, signal?: AbortSignal): Promise<void> {
-  return new Promise((resolve, reject) => {
-    if (signal?.aborted) {
-      reject(new DOMException('Aborted', 'AbortError'));
-      return;
-    }
-    const timer = window.setTimeout(() => {
-      signal?.removeEventListener('abort', onAbort);
-      resolve();
-    }, ms);
-    const onAbort = () => {
-      window.clearTimeout(timer);
-      reject(new DOMException('Aborted', 'AbortError'));
-    };
-    signal?.addEventListener('abort', onAbort, { once: true });
-  });
-}
-
-export async function pollDeviceFlowToken(
-  deviceCode: string,
-  initialIntervalSec = 5,
-  signal?: AbortSignal
-): Promise<GitHubUserSession> {
-  let intervalSec = Math.max(5, initialIntervalSec || 5);
-
-  while (!signal?.aborted) {
-    await waitAbortable(intervalSec * 1000, signal);
-
-    const body = new URLSearchParams({
-      client_id: HUBHUM_CONFIG.clientId,
-      device_code: deviceCode,
-      grant_type: 'urn:ietf:params:oauth:grant-type:device_code',
-    });
-
-    const res = await fetch(HUBHUM_CONFIG.accessTokenUrl, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
-      body: body.toString(),
-      signal,
-    });
-    const data = await res.json();
-
-    if (data.access_token) {
-      return verifyAndSaveUserToken(data.access_token);
-    }
-    if (data.error === 'authorization_pending') {
-      continue;
-    }
-    if (data.error === 'slow_down') {
-      intervalSec += 5;
-      continue;
-    }
-    throw new Error(data.error_description || data.error || 'Device authorization failed');
-  }
-  throw new DOMException('Aborted', 'AbortError');
 }
 
 export function getFavorites(): string[] {
@@ -200,18 +112,27 @@ export function normalizeGitHubProjectUrl(input: string): { owner: string; repo:
   };
 }
 
-export async function requestAsyncTranslation(projectUrl: string): Promise<TranslationDispatchResult> {
-  const parsed = normalizeGitHubProjectUrl(projectUrl);
-  if (!parsed) {
-    return { accepted: false, mode: 'invalid' };
-  }
+export function buildTranslateIssueUrl(owner: string, repo: string, repoUrl: string): string {
+  const issueParams = new URLSearchParams({
+    title: `[Translate] ${owner}/${repo}`,
+    labels: 'hubhum-translate',
+    body: `HubHum plain-English guide request:\n\nURL: ${repoUrl}`,
+  });
+  return `https://github.com/${HUBHUM_CONFIG.owner}/${HUBHUM_CONFIG.repo}/issues/new?${issueParams.toString()}`;
+}
 
+export async function triggerAppConversion(
+  repoUrl: string,
+  owner: string,
+  repo: string
+): Promise<ConversionTriggerResult> {
   const session = getSavedSession();
-  const dispatchEndpoint = `https://api.github.com/repos/${HUBHUM_CONFIG.owner}/${HUBHUM_CONFIG.repo}/dispatches`;
+  const issueUrl = buildTranslateIssueUrl(owner, repo, repoUrl);
 
   if (session?.accessToken) {
     try {
-      const response = await fetch(dispatchEndpoint, {
+      const dispatchEndpoint = `https://api.github.com/repos/${HUBHUM_CONFIG.owner}/${HUBHUM_CONFIG.repo}/dispatches`;
+      const dispRes = await fetch(dispatchEndpoint, {
         method: 'POST',
         headers: {
           Accept: 'application/vnd.github+json',
@@ -219,31 +140,59 @@ export async function requestAsyncTranslation(projectUrl: string): Promise<Trans
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          event_type: 'translate-app',
+          event_type: 'translate_app',
           client_payload: {
-            repo_url: parsed.url,
+            repo_url: repoUrl,
             requested_by: session.login,
           },
         }),
       });
-      if (response.status === 204 || response.ok) {
-        return { accepted: true, mode: 'dispatch' };
+      if (dispRes.status === 204 || dispRes.ok) {
+        return { triggered: true, mode: 'dispatch' };
+      }
+
+      const issueEndpoint = `https://api.github.com/repos/${HUBHUM_CONFIG.owner}/${HUBHUM_CONFIG.repo}/issues`;
+      const issueRes = await fetch(issueEndpoint, {
+        method: 'POST',
+        headers: {
+          Accept: 'application/vnd.github+json',
+          Authorization: `Bearer ${session.accessToken}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          title: `[Translate] ${owner}/${repo}`,
+          labels: ['hubhum-translate'],
+          body: `HubHum plain-English guide request:\n\nURL: ${repoUrl}`,
+        }),
+      });
+      if (issueRes.status === 201 || issueRes.ok) {
+        return { triggered: true, mode: 'issue_api' };
       }
     } catch {
-      // Fallback to issue submission URL
+      // Fall back cleanly to 1-click issue link
     }
   }
 
-  const issueParams = new URLSearchParams({
-    title: `[Translate] ${parsed.owner}/${parsed.repo}`,
-    labels: 'translate-request',
-    body: `HubHum app guide request:\n\nURL: ${parsed.url}`,
-  });
-  const issueUrl = `https://github.com/${HUBHUM_CONFIG.owner}/${HUBHUM_CONFIG.repo}/issues/new?${issueParams.toString()}`;
+  return {
+    triggered: false,
+    mode: 'issue_url',
+    issueUrl,
+  };
+}
 
+export async function requestAsyncTranslation(projectUrl: string): Promise<TranslationDispatchResult> {
+  const parsed = normalizeGitHubProjectUrl(projectUrl);
+  if (!parsed) {
+    return { accepted: false, mode: 'invalid' };
+  }
+
+  const res = await triggerAppConversion(parsed.url, parsed.owner, parsed.repo);
+  if (res.triggered) {
+    return { accepted: true, mode: 'dispatch' };
+  }
   return {
     accepted: true,
     mode: 'issue_redirect',
-    targetUrl: issueUrl,
+    targetUrl: res.issueUrl,
   };
 }

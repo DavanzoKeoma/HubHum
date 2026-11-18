@@ -1,24 +1,26 @@
-name: Nightly Programmatic SEO Builder & Async Translator
+name: Nightly Programmatic SEO Builder & Instant Translator
 
 on:
   schedule:
     # 03:00 Europe/Rome corrisponde alle 01:00 UTC (ora legale CEST) o 02:00 UTC (ora solare CET).
-    # Il job verifica esattamente l'ora locale Europe/Rome per evitare drift stagionale (Sezione 13.1).
+    # Il job verifica esattamente l'ora locale Europe/Rome per evitare drift stagionale.
     - cron: "0 1,2 * * *"
   repository_dispatch:
-    types: [translate-app]
+    types: [translate-app, translate_app]
+  issues:
+    types: [opened, labeled]
   workflow_dispatch:
     inputs:
       repo_url:
-        description: "Singolo URL GitHub opzionale per tradurre un'app"
+        description: "Optional single GitHub repository URL to translate"
         required: false
         type: string
       repo_urls:
-        description: "Lista URL GitHub separati da virgola (bypassa filtro >500 stelle)"
+        description: "Comma-separated GitHub repository URLs (bypasses >500 stars filter)"
         required: false
         type: string
       force_provider:
-        description: "Provider AI (auto | gemini | groq | both)"
+        description: "AI provider (auto | gemini | groq | both)"
         required: false
         default: "auto"
         type: choice
@@ -28,16 +30,21 @@ on:
           - groq
           - both
       limit:
-        description: "Numero massimo di app notturne"
+        description: "Maximum nightly apps"
         required: false
         default: "15"
         type: string
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   run-seo-pipeline:
+    if: |
+      github.event_name != 'issues' ||
+      contains(github.event.issue.labels.*.name, 'hubhum-translate') ||
+      contains(github.event.issue.labels.*.name, 'translate-request')
     runs-on: ubuntu-latest
     steps:
       - name: Check Europe/Rome 03:00 window for scheduled runs
@@ -65,13 +72,39 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Extract target URL from Issue if applicable
+        id: extract
+        if: steps.timecheck.outputs.run == 'true'
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          ISSUE_BODY: ${{ github.event.issue.body || '' }}
+          ISSUE_TITLE: ${{ github.event.issue.title || '' }}
+          DIRECT_URL: ${{ github.event.client_payload.repo_url || github.event.inputs.repo_url || '' }}
+        run: |
+          python3 - <<'PY'
+          import os, re
+          ev = os.environ.get("EVENT_NAME", "")
+          url = os.environ.get("DIRECT_URL", "").strip()
+          if ev == "issues" and not url:
+              combined = f"{os.environ.get('ISSUE_TITLE', '')}\n{os.environ.get('ISSUE_BODY', '')}"
+              m = re.search(r"https?://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", combined)
+              if m:
+                  url = m.group(0).rstrip(".,;)")
+          slug = ""
+          if url:
+              slug = re.sub(r"[^a-z0-9-]+", "-", url.rstrip("/").split("/")[-1].lower()).strip("-")
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"repo_url={url}\n")
+              fh.write(f"slug={slug}\n")
+          PY
+
       - name: Run Scouting & 2-Tier AI Translation Pipeline (Gemini -> Groq)
         if: steps.timecheck.outputs.run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.HUBHUM_PAT || secrets.GITHUB_TOKEN }}
-          DISPATCH_REPO_URL: ${{ github.event.client_payload.repo_url || github.event.inputs.repo_url || '' }}
+          DISPATCH_REPO_URL: ${{ steps.extract.outputs.repo_url }}
           DISPATCH_REPO_URLS: ${{ github.event.client_payload.repo_urls || github.event.inputs.repo_urls || '' }}
           FORCE_PROVIDER: ${{ github.event.inputs.force_provider || 'auto' }}
           SCOUT_LIMIT: ${{ github.event.inputs.limit || '15' }}
@@ -79,10 +112,11 @@ jobs:
           if [ -n "${DISPATCH_REPO_URLS}" ]; then
             python3 scripts/seo_pipeline.py --repo-urls "${DISPATCH_REPO_URLS}" --force-provider "${FORCE_PROVIDER}"
           elif [ -n "${DISPATCH_REPO_URL}" ]; then
-            python3 scripts/seo_pipeline.py --repo-url "${DISPATCH_REPO_URL}" --force-provider "${FORCE_PROVIDER}"
+            python3 scripts/seo_pipeline.py --single-repo "${DISPATCH_REPO_URL}" --force-provider "${FORCE_PROVIDER}"
           else
             python3 scripts/seo_pipeline.py --limit "${SCOUT_LIMIT}" --force-provider "${FORCE_PROVIDER}"
           fi
+          python3 scripts/generate_catalog_index.py
 
       - name: Validate generated cards
         if: steps.timecheck.outputs.run == 'true'
@@ -93,10 +127,20 @@ jobs:
         run: |
           git config user.name "DavanzoKeoma"
           git config user.email "keomadavanzo@gmail.com"
-          git add content/apps public/icons data/retry_queue.json
+          git add content/apps public/icons public/catalog-index.json data/retry_queue.json
           if git diff --cached --quiet; then
-            echo "Nessuna nuova scheda da salvare."
+            echo "No new cards to commit."
           else
-            git commit -m "chore(seo): aggiorna schede app HubHum"
+            git commit -m "chore(seo): update HubHum app cards and catalog index"
             git push origin main
           fi
+
+      - name: Comment and close translation Issue on completion
+        if: steps.timecheck.outputs.run == 'true' && github.event_name == 'issues' && steps.extract.outputs.slug != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          APP_SLUG: ${{ steps.extract.outputs.slug }}
+        run: |
+          gh issue comment "${ISSUE_NUMBER}" --body "App successfully translated! Available at: https://davanzokeoma.github.io/HubHum/apps/${APP_SLUG}/"
+          gh issue close "${ISSUE_NUMBER}" --reason completed

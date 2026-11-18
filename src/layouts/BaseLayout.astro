@@ -95,10 +95,9 @@ const {
           <button type="button" id="oauth-login-btn" class="btn btn-primary">
             <img id="oauth-avatar" src="" alt="" width="20" height="20" class="oauth-avatar" style="display:none;" />
             <svg id="oauth-default-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
             </svg>
-            <span id="oauth-login-label" data-i18n="navSignIn">Sign In</span>
+            <span id="oauth-login-label" data-i18n="navFavorites">Favorites</span>
           </button>
 
           <button
@@ -134,53 +133,35 @@ const {
         <button type="button" id="dialog-close-top" class="btn btn-outline" style="padding:0.25rem 0.65rem;" aria-label="Close">✕</button>
       </div>
 
-      <div id="device-flow-section" class="device-flow-box" style="display:none;">
-        <h3 style="margin:0 0 0.35rem;font-size:0.98rem;" data-i18n="deviceFlowTitle">Sign in with GitHub</h3>
-        <p id="device-flow-instruction" style="margin:0;font-size:0.86rem;color:var(--text-muted);" data-i18n="deviceFlowInstruction">
-          Copy this code and enter it on GitHub to authorize your account:
-        </p>
-
-        <div id="device-code-container" style="display:none;">
-          <div class="device-code-row">
-            <span id="device-user-code" class="device-code-value">----</span>
-            <button type="button" id="copy-device-code-btn" class="btn btn-outline" style="padding:0.32rem 0.72rem;" data-i18n="deviceFlowCopy">Copy</button>
-          </div>
-          <a
-            id="device-verify-link"
-            href="https://github.com/login/device"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-primary"
-            style="width:100%;"
-            data-i18n="deviceFlowOpenBtn"
-          >
-            Open github.com/login/device →
-          </a>
-        </div>
-
-        <p id="device-status-msg" style="margin:0.55rem 0 0;font-size:0.82rem;color:var(--text-muted);"></p>
-
-        <form id="device-token-fallback" style="display:none;margin-top:0.65rem;gap:0.45rem;flex-wrap:wrap;">
-          <input
-            id="device-token-input"
-            type="password"
-            class="translate-input"
-            style="padding:0.5rem 0.75rem;font-size:0.85rem;"
-            placeholder="Paste GitHub read:user token (optional)"
-            data-i18n-placeholder="deviceFlowTokenPlaceholder"
-          />
-          <button type="submit" class="btn btn-outline" data-i18n="deviceFlowTokenBtn">Connect</button>
-        </form>
-      </div>
+      <p id="dialog-desc" style="margin:0;color:var(--text-muted);font-size:0.9rem;" data-i18n="dialogDescLocal">
+        Your favorite apps are saved instantly in this browser—no account needed.
+      </p>
+      <ul id="dialog-fav-list" class="fav-list"></ul>
 
       <hr class="dialog-divider" />
 
-      <p id="dialog-desc" style="margin:0;color:var(--text-muted);font-size:0.9rem;" data-i18n="dialogDescLocal">
-        Your favorite apps are saved instantly in your browser. Click any saved app below to open its guide.
-      </p>
-      <ul id="dialog-fav-list" class="fav-list"></ul>
+      <details id="sync-optional-details" class="sync-details">
+        <summary class="sync-summary" data-i18n="syncOptionalTitle">Optional: Sync &amp; Direct Submission</summary>
+        <p style="margin:0.45rem 0 0.65rem;font-size:0.86rem;color:var(--text-muted);" data-i18n="syncOptionalDesc">
+          Want to sync your favorites across devices or trigger instant conversions? Enter your GitHub Personal Token or connect your account.
+        </p>
+        <form id="sync-token-form" style="display:flex;gap:0.45rem;flex-wrap:wrap;">
+          <input
+            id="sync-token-input"
+            type="password"
+            class="translate-input"
+            style="padding:0.5rem 0.75rem;font-size:0.86rem;"
+            placeholder="GitHub Personal Token (optional)"
+            aria-label="GitHub Personal Token"
+            data-i18n-placeholder="syncTokenPlaceholder"
+          />
+          <button type="submit" class="btn btn-primary" data-i18n="syncConnectBtn">Connect</button>
+        </form>
+        <p id="sync-status-msg" style="margin:0.5rem 0 0;font-size:0.84rem;color:var(--text-muted);"></p>
+      </details>
+
       <div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-top:1rem;">
-        <button type="button" id="dialog-logout-btn" class="btn btn-outline" style="display:none;" data-i18n="dialogLogout">Sign Out</button>
+        <button type="button" id="dialog-logout-btn" class="btn btn-outline" style="display:none;" data-i18n="dialogLogout">Disconnect</button>
         <button type="button" id="dialog-close-btn" class="btn btn-primary" data-i18n="dialogClose">Close</button>
       </div>
     </dialog>
@@ -204,8 +185,7 @@ const {
         clearSavedSession,
         getFavorites,
         getSavedSession,
-        pollDeviceFlowToken,
-        startDeviceFlow,
+        toggleFavorite,
         verifyAndSaveUserToken,
       } from '../lib/github-oauth';
       import { SUPPORTED_LANGS, TRANSLATIONS, type SupportedLang } from '../i18n/translations';
@@ -278,7 +258,7 @@ const {
         mobileBtn.setAttribute('aria-expanded', String(isOpen));
       });
 
-      // GitHub Device Flow + Favorites Dialog
+      // Local-First Favorites + Optional GitHub Token Sync Dialog (Zero CORS errors)
       const loginBtn = document.getElementById('oauth-login-btn');
       const loginLabel = document.getElementById('oauth-login-label');
       const avatarImg = document.getElementById('oauth-avatar') as HTMLImageElement | null;
@@ -289,16 +269,9 @@ const {
       const logoutBtn = document.getElementById('dialog-logout-btn');
       const closeBtns = [document.getElementById('dialog-close-btn'), document.getElementById('dialog-close-top')];
 
-      const deviceFlowSection = document.getElementById('device-flow-section');
-      const deviceCodeContainer = document.getElementById('device-code-container');
-      const deviceUserCodeEl = document.getElementById('device-user-code');
-      const deviceVerifyLink = document.getElementById('device-verify-link') as HTMLAnchorElement | null;
-      const copyCodeBtn = document.getElementById('copy-device-code-btn');
-      const deviceStatusMsg = document.getElementById('device-status-msg');
-      const tokenFallbackForm = document.getElementById('device-token-fallback') as HTMLFormElement | null;
-      const tokenInput = document.getElementById('device-token-input') as HTMLInputElement | null;
-
-      let activeAbortController: AbortController | null = null;
+      const syncForm = document.getElementById('sync-token-form') as HTMLFormElement | null;
+      const syncInput = document.getElementById('sync-token-input') as HTMLInputElement | null;
+      const syncStatusMsg = document.getElementById('sync-status-msg');
 
       function renderSessionButton() {
         const session = getSavedSession();
@@ -311,8 +284,8 @@ const {
             if (defaultIcon) defaultIcon.style.display = 'none';
           }
         } else if (loginLabel) {
-          loginLabel.setAttribute('data-i18n', 'navSignIn');
-          loginLabel.textContent = TRANSLATIONS[currentLang].navSignIn;
+          loginLabel.setAttribute('data-i18n', 'navFavorites');
+          loginLabel.textContent = TRANSLATIONS[currentLang].navFavorites;
           if (avatarImg) avatarImg.style.display = 'none';
           if (defaultIcon) defaultIcon.style.display = 'inline-block';
         }
@@ -337,47 +310,31 @@ const {
         } else {
           favs.forEach((slug) => {
             const li = document.createElement('li');
+            li.className = 'fav-row';
             const a = document.createElement('a');
             a.href = withBase(`/apps/${slug}`);
             a.className = 'fav-link';
+            a.style.flex = '1';
             a.textContent = slug;
             const arrow = document.createElement('span');
             arrow.textContent = '→';
             a.appendChild(arrow);
+
+            const remBtn = document.createElement('button');
+            remBtn.type = 'button';
+            remBtn.className = 'btn btn-outline';
+            remBtn.style.padding = '0.35rem 0.6rem';
+            remBtn.setAttribute('aria-label', `Remove ${slug} from favorites`);
+            remBtn.textContent = '✕';
+            remBtn.addEventListener('click', () => {
+              toggleFavorite(slug);
+              renderFavoritesList();
+            });
+
             li.appendChild(a);
+            li.appendChild(remBtn);
             favList.appendChild(li);
           });
-        }
-      }
-
-      async function initiateDeviceSignIn() {
-        const dict = TRANSLATIONS[currentLang];
-        if (!deviceFlowSection || !deviceCodeContainer || !deviceUserCodeEl || !deviceStatusMsg) return;
-
-        deviceFlowSection.style.display = 'block';
-        deviceCodeContainer.style.display = 'none';
-        if (tokenFallbackForm) tokenFallbackForm.style.display = 'none';
-        deviceStatusMsg.textContent = dict.deviceFlowPolling;
-
-        activeAbortController?.abort();
-        activeAbortController = new AbortController();
-
-        try {
-          const res = await startDeviceFlow();
-          deviceUserCodeEl.textContent = res.user_code;
-          if (deviceVerifyLink) deviceVerifyLink.href = res.verification_uri || 'https://github.com/login/device';
-          deviceCodeContainer.style.display = 'block';
-
-          const session = await pollDeviceFlowToken(res.device_code, res.interval, activeAbortController.signal);
-          renderSessionButton();
-          renderFavoritesList();
-          deviceCodeContainer.style.display = 'none';
-          deviceStatusMsg.textContent = `${dict.deviceFlowSuccess} @${session.login}`;
-        } catch (err) {
-          if (err instanceof DOMException && err.name === 'AbortError') return;
-          deviceCodeContainer.style.display = 'none';
-          deviceStatusMsg.textContent = dict.deviceFlowBlocked;
-          if (tokenFallbackForm) tokenFallbackForm.style.display = 'flex';
         }
       }
 
@@ -385,53 +342,29 @@ const {
 
       loginBtn?.addEventListener('click', () => {
         renderFavoritesList();
-        const session = getSavedSession();
-        if (deviceFlowSection) {
-          deviceFlowSection.style.display = session ? 'none' : 'block';
-        }
+        if (syncStatusMsg) syncStatusMsg.textContent = '';
         dialog?.showModal();
-        if (!session) {
-          initiateDeviceSignIn();
-        }
       });
 
-      copyCodeBtn?.addEventListener('click', async () => {
-        const code = deviceUserCodeEl?.textContent || '';
-        if (!code || code === '----') return;
-        try {
-          await navigator.clipboard.writeText(code);
-          copyCodeBtn.textContent = TRANSLATIONS[currentLang].deviceFlowCopied;
-          window.setTimeout(() => {
-            copyCodeBtn.textContent = TRANSLATIONS[currentLang].deviceFlowCopy;
-          }, 1800);
-        } catch {}
-      });
-
-      tokenFallbackForm?.addEventListener('submit', async (ev) => {
+      syncForm?.addEventListener('submit', async (ev) => {
         ev.preventDefault();
-        if (!tokenInput || !deviceStatusMsg) return;
+        if (!syncInput || !syncStatusMsg) return;
         const dict = TRANSLATIONS[currentLang];
         try {
-          const session = await verifyAndSaveUserToken(tokenInput.value);
-          tokenInput.value = '';
+          const session = await verifyAndSaveUserToken(syncInput.value);
+          syncInput.value = '';
           renderSessionButton();
           renderFavoritesList();
-          if (tokenFallbackForm) tokenFallbackForm.style.display = 'none';
-          deviceStatusMsg.textContent = `${dict.deviceFlowSuccess} @${session.login}`;
+          syncStatusMsg.textContent = `${dict.syncSuccess} @${session.login}`;
         } catch {
-          deviceStatusMsg.textContent = dict.deviceFlowBlocked;
+          syncStatusMsg.textContent = dict.syncInvalidToken;
         }
       });
 
       logoutBtn?.addEventListener('click', () => {
-        activeAbortController?.abort();
         clearSavedSession();
         renderSessionButton();
-        dialog?.close();
-      });
-
-      dialog?.addEventListener('close', () => {
-        activeAbortController?.abort();
+        renderFavoritesList();
       });
 
       closeBtns.forEach((btn) => btn?.addEventListener('click', () => dialog?.close()));

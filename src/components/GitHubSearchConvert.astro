@@ -1,0 +1,354 @@
+---
+---
+
+<section id="live-search" class="container live-search-section" aria-labelledby="live-search-title">
+  <div class="live-search-card">
+    <div class="live-search-head">
+      <h2 id="live-search-title" class="live-search-title" data-i18n="liveSearchEyebrow">
+        Can't find your favorite open-source app?
+      </h2>
+    </div>
+
+    <div class="live-search-input-wrap">
+      <span class="search-icon" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </span>
+      <input
+        id="gh-live-search-input"
+        class="live-search-input"
+        type="search"
+        role="combobox"
+        aria-expanded="false"
+        aria-controls="gh-search-results-grid"
+        aria-autocomplete="list"
+        aria-label="Search open-source projects live on GitHub"
+        placeholder="Search 800M+ open-source projects on GitHub..."
+        data-i18n-placeholder="liveSearchPlaceholder"
+        data-i18n-aria="liveSearchAria"
+      />
+    </div>
+
+    <div id="gh-search-status" class="live-search-status" aria-live="polite"></div>
+
+    <div
+      id="gh-search-results-grid"
+      class="live-results-grid"
+      role="grid"
+      aria-label="Live GitHub Search Results"
+      style="display:none;"
+    ></div>
+  </div>
+</section>
+
+<dialog id="conversion-dialog" class="hubhum-dialog" aria-labelledby="conv-dialog-title">
+  <div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.65rem;">
+    <h2 id="conv-dialog-title" style="margin:0;font-size:1.12rem;" data-i18n="convTitle">Translating App Guide</h2>
+    <button type="button" id="conv-close-top" class="btn btn-outline" style="padding:0.25rem 0.65rem;" aria-label="Close">✕</button>
+  </div>
+
+  <p id="conv-target-name" style="margin:0 0 0.75rem;font-weight:700;color:var(--text);"></p>
+
+  <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="conv-progressbar">
+    <div id="conv-progress-fill" class="progress-fill" style="width:0%;"></div>
+  </div>
+
+  <p id="conv-step-text" style="margin:0.65rem 0 0;font-size:0.9rem;color:var(--text-muted);font-weight:600;"></p>
+  <p id="conv-polling-note" style="margin:0.35rem 0 0;font-size:0.82rem;color:var(--text-muted);"></p>
+
+  <div id="conv-manual-trigger-box" class="device-flow-box" style="display:none;">
+    <p id="conv-trigger-hint" style="margin:0 0 0.6rem;font-size:0.85rem;color:var(--text-muted);" data-i18n="convTriggerHint">
+      Click below to start automatic conversion in a new tab—this page will redirect automatically as soon as it goes live.
+    </p>
+    <a
+      id="conv-trigger-link"
+      href="#"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="btn btn-cloud"
+      style="width:100%;"
+      data-i18n="convTriggerBtn"
+    >
+      Confirm &amp; Start Conversion →
+    </a>
+  </div>
+
+  <div style="display:flex;justify-content:flex-end;margin-top:1rem;">
+    <button type="button" id="conv-close-btn" class="btn btn-outline" data-i18n="dialogClose">Close</button>
+  </div>
+</dialog>
+
+<script>
+  import { searchGitHubProjects, type LiveGitHubAppResult } from '../lib/github-search';
+  import { triggerAppConversion } from '../lib/github-oauth';
+  import { TRANSLATIONS, type SupportedLang } from '../i18n/translations';
+  import { withBase } from '../lib/url';
+
+  const searchInput = document.getElementById('gh-live-search-input') as HTMLInputElement | null;
+  const statusEl = document.getElementById('gh-search-status');
+  const resultsGrid = document.getElementById('gh-search-results-grid');
+
+  const convDialog = document.getElementById('conversion-dialog') as HTMLDialogElement | null;
+  const convTargetName = document.getElementById('conv-target-name');
+  const convProgressBar = document.getElementById('conv-progressbar');
+  const convProgressFill = document.getElementById('conv-progress-fill');
+  const convStepText = document.getElementById('conv-step-text');
+  const convPollingNote = document.getElementById('conv-polling-note');
+  const convManualBox = document.getElementById('conv-manual-trigger-box');
+  const convTriggerLink = document.getElementById('conv-trigger-link') as HTMLAnchorElement | null;
+  const convCloseBtns = [document.getElementById('conv-close-btn'), document.getElementById('conv-close-top')];
+
+  let debounceTimer: number | null = null;
+  let searchAbort: AbortController | null = null;
+  let pollTimer: number | null = null;
+  let stepTimer: number | null = null;
+
+  function getDict() {
+    const lang = (document.documentElement.lang || 'en') as SupportedLang;
+    return TRANSLATIONS[lang] || TRANSLATIONS.en;
+  }
+
+  function renderSkeletons() {
+    if (!resultsGrid || !searchInput) return;
+    resultsGrid.style.display = 'grid';
+    searchInput.setAttribute('aria-expanded', 'true');
+    resultsGrid.innerHTML = Array.from({ length: 4 })
+      .map(
+        () => `
+      <div class="live-card live-skeleton" role="row">
+        <div role="gridcell" class="skeleton-line" style="width:65%;height:16px;"></div>
+        <div role="gridcell" class="skeleton-line" style="width:92%;height:12px;margin-top:8px;"></div>
+        <div role="gridcell" class="skeleton-line" style="width:45%;height:28px;margin-top:12px;"></div>
+      </div>`
+      )
+      .join('');
+  }
+
+  function clearPollingTimers() {
+    if (pollTimer !== null) {
+      window.clearInterval(pollTimer);
+      pollTimer = null;
+    }
+    if (stepTimer !== null) {
+      window.clearInterval(stepTimer);
+      stepTimer = null;
+    }
+  }
+
+  function setProgress(pct: number, stepLabel: string) {
+    if (convProgressFill) convProgressFill.style.width = `${pct}%`;
+    if (convProgressBar) convProgressBar.setAttribute('aria-valuenow', String(pct));
+    if (convStepText) convStepText.textContent = stepLabel;
+  }
+
+  async function startConversionModal(app: LiveGitHubAppResult) {
+    if (!convDialog || !convTargetName) return;
+    const dict = getDict();
+    clearPollingTimers();
+
+    convTargetName.textContent = `${app.fullName} (★ ${app.starsFormatted})`;
+    if (convManualBox) convManualBox.style.display = 'none';
+    if (convPollingNote) convPollingNote.textContent = dict.convPollingHint;
+    setProgress(15, dict.convStep1);
+    convDialog.showModal();
+
+    const triggerRes = await triggerAppConversion(app.htmlUrl, app.owner, app.repo);
+    if (!triggerRes.triggered && triggerRes.issueUrl && convManualBox && convTriggerLink) {
+      convTriggerLink.href = triggerRes.issueUrl;
+      convManualBox.style.display = 'block';
+    }
+
+    const stages = [
+      { pct: 25, text: dict.convStep1 },
+      { pct: 55, text: dict.convStep2 },
+      { pct: 80, text: dict.convStep3 },
+      { pct: 95, text: dict.convStep4 },
+    ];
+    let stageIdx = 1;
+    stepTimer = window.setInterval(() => {
+      if (stageIdx < stages.length) {
+        setProgress(stages[stageIdx].pct, stages[stageIdx].text);
+        stageIdx += 1;
+      }
+    }, 8000);
+
+    const targetPageUrl = withBase(`/apps/${app.slug}/`);
+    pollTimer = window.setInterval(async () => {
+      try {
+        const res = await fetch(targetPageUrl, { method: 'HEAD', cache: 'no-store' });
+        if (res.ok) {
+          clearPollingTimers();
+          setProgress(100, dict.convDone);
+          window.setTimeout(() => {
+            window.location.href = targetPageUrl;
+          }, 700);
+        }
+      } catch {
+        // Keep polling every 4 seconds
+      }
+    }, 4000);
+  }
+
+  function renderResults(items: LiveGitHubAppResult[]) {
+    if (!resultsGrid || !searchInput) return;
+    const dict = getDict();
+    resultsGrid.innerHTML = '';
+    resultsGrid.style.display = 'grid';
+    searchInput.setAttribute('aria-expanded', 'true');
+
+    items.forEach((app) => {
+      const card = document.createElement('div');
+      card.className = 'live-card';
+      card.setAttribute('role', 'row');
+
+      const header = document.createElement('div');
+      header.className = 'live-card-head';
+      header.setAttribute('role', 'gridcell');
+
+      const left = document.createElement('div');
+      left.style.display = 'flex';
+      left.style.alignItems = 'center';
+      left.style.gap = '0.55rem';
+      left.style.minWidth = '0';
+
+      const img = document.createElement('img');
+      img.src = app.avatarUrl;
+      img.alt = '';
+      img.width = 32;
+      img.height = 32;
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.className = 'live-avatar';
+      img.setAttribute('aria-hidden', 'true');
+
+      const nameWrap = document.createElement('div');
+      nameWrap.style.minWidth = '0';
+      const titleLink = document.createElement('a');
+      titleLink.href = app.htmlUrl;
+      titleLink.target = '_blank';
+      titleLink.rel = 'noopener noreferrer';
+      titleLink.className = 'live-repo-link';
+      titleLink.textContent = app.fullName;
+      titleLink.setAttribute('aria-label', `Open ${app.fullName} on GitHub`);
+      nameWrap.appendChild(titleLink);
+
+      left.appendChild(img);
+      left.appendChild(nameWrap);
+
+      const starBadge = document.createElement('span');
+      starBadge.className = 'tag-chip';
+      starBadge.textContent = `★ ${app.starsFormatted}`;
+
+      header.appendChild(left);
+      header.appendChild(starBadge);
+
+      const desc = document.createElement('p');
+      desc.className = 'live-desc';
+      desc.setAttribute('role', 'gridcell');
+      desc.textContent = app.description;
+
+      const metaRow = document.createElement('div');
+      metaRow.className = 'tag-row';
+      metaRow.setAttribute('role', 'gridcell');
+      metaRow.style.marginBottom = '0.55rem';
+      const catChip = document.createElement('span');
+      catChip.className = 'tag-chip';
+      catChip.textContent = app.humanCategory;
+      metaRow.appendChild(catChip);
+      app.humanTags.forEach((t) => {
+        const tc = document.createElement('span');
+        tc.className = 'tag-chip';
+        tc.textContent = `#${t}`;
+        metaRow.appendChild(tc);
+      });
+
+      const actionCell = document.createElement('div');
+      actionCell.setAttribute('role', 'gridcell');
+      actionCell.style.marginTop = 'auto';
+
+      if (app.existingSlug) {
+        const existingBtn = document.createElement('a');
+        existingBtn.href = withBase(`/apps/${app.existingSlug}/`);
+        existingBtn.className = 'btn btn-success';
+        existingBtn.style.width = '100%';
+        existingBtn.textContent = dict.btnAlreadyOnHubHum;
+        existingBtn.setAttribute('aria-label', `Open existing guide for ${app.fullName}`);
+        actionCell.appendChild(existingBtn);
+      } else {
+        const convertBtn = document.createElement('button');
+        convertBtn.type = 'button';
+        convertBtn.className = 'btn btn-cloud';
+        convertBtn.style.width = '100%';
+        convertBtn.textContent = dict.btnGoWithHubHum;
+        convertBtn.setAttribute('aria-label', `Convert ${app.fullName} with HubHum`);
+        convertBtn.addEventListener('click', () => startConversionModal(app));
+        actionCell.appendChild(convertBtn);
+      }
+
+      card.appendChild(header);
+      card.appendChild(desc);
+      card.appendChild(metaRow);
+      card.appendChild(actionCell);
+      resultsGrid.appendChild(card);
+    });
+  }
+
+  async function runLiveSearch(query: string) {
+    const dict = getDict();
+    if (!statusEl || !resultsGrid || !searchInput) return;
+
+    const clean = query.trim();
+    if (clean.length < 2) {
+      statusEl.textContent = '';
+      resultsGrid.style.display = 'none';
+      resultsGrid.innerHTML = '';
+      searchInput.setAttribute('aria-expanded', 'false');
+      return;
+    }
+
+    searchAbort?.abort();
+    searchAbort = new AbortController();
+    statusEl.textContent = dict.liveSearchLoading;
+    renderSkeletons();
+
+    try {
+      const outcome = await searchGitHubProjects(clean, searchAbort.signal);
+      if (outcome.status === 'ok') {
+        statusEl.textContent = '';
+        renderResults(outcome.items);
+      } else if (outcome.status === 'rate_limited') {
+        resultsGrid.style.display = 'none';
+        searchInput.setAttribute('aria-expanded', 'false');
+        statusEl.innerHTML = '';
+        statusEl.textContent = `${dict.liveSearchRateLimit} `;
+        const link = document.createElement('a');
+        link.href = '#submit';
+        link.textContent = dict.liveSearchRateHint;
+        link.style.fontWeight = '700';
+        link.style.textDecoration = 'underline';
+        statusEl.appendChild(link);
+      } else {
+        resultsGrid.style.display = 'none';
+        searchInput.setAttribute('aria-expanded', 'false');
+        statusEl.textContent = dict.liveSearchEmpty;
+      }
+    } catch (err) {
+      if (err instanceof DOMException && err.name === 'AbortError') return;
+      resultsGrid.style.display = 'none';
+      searchInput.setAttribute('aria-expanded', 'false');
+      statusEl.textContent = dict.liveSearchEmpty;
+    }
+  }
+
+  searchInput?.addEventListener('input', () => {
+    if (debounceTimer !== null) window.clearTimeout(debounceTimer);
+    debounceTimer = window.setTimeout(() => {
+      runLiveSearch(searchInput.value);
+    }, 400);
+  });
+
+  convDialog?.addEventListener('close', clearPollingTimers);
+  convCloseBtns.forEach((b) => b?.addEventListener('click', () => convDialog?.close()));
+</script>

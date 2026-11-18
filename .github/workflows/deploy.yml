@@ -30,8 +30,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Validate Markdown content cards
-        run: python3 scripts/validator_sanitizer.py --check-all
+      - name: Refresh catalog index & validate Markdown content cards
+        run: |
+          python3 scripts/generate_catalog_index.py
+          python3 scripts/validator_sanitizer.py --check-all
 
       - name: Build static Astro site
         env:

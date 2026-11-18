@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AppCard from '../components/AppCard.astro';
+import GitHubSearchConvert from '../components/GitHubSearchConvert.astro';
 import { withBase } from '../lib/url';
 import { CATEGORY_I18N_KEY } from '../i18n/translations';
 
@@ -80,6 +81,8 @@ const categories = [
       ))}
     </div>
   </section>
+
+  <GitHubSearchConvert />
 
   {topPicks.length > 0 && (
     <section id="top-picks" class="section-block container">
