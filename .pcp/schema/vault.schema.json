@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PCPLocalVaultEntry",
+  "description": "Schema formale per singola riga in .pcp/vault.local.jsonl",
+  "type": "object",
+  "required": [
+    "id",
+    "service",
+    "created",
+    "data"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9._-]+$",
+      "description": "Identificatore slug univoco della credenziale"
+    },
+    "service": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nome del servizio (es. ai.gemini, ai.groq, ai.mistral, dev.github)"
+    },
+    "created": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp ISO8601 di creazione"
+    },
+    "rotated": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time",
+      "description": "Timestamp ISO8601 di rotazione/invalidazione (null se attiva)"
+    },
+    "note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Note contestuali opzionali"
+    },
+    "data": {
+      "type": "object",
+      "description": "Oggetto contenente i dati sensibili per il servizio",
+      "minProperties": 1
+    }
+  }
+}

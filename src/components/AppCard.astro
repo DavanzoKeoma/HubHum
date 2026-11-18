@@ -1,0 +1,53 @@
+---
+import { withBase } from '../lib/url';
+
+interface Props {
+  slug: string;
+  title: string;
+  summary: string;
+  category: string;
+  tags: string[];
+  isWebapp: boolean;
+  stars: number;
+}
+
+const { slug, title, summary, category, tags, isWebapp, stars } = Astro.props;
+const initial = title.slice(0, 1).toUpperCase();
+const searchText = `${title} ${summary} ${category} ${tags.join(' ')}`.toLowerCase();
+---
+
+<a
+  href={withBase(`/apps/${slug}`)}
+  class="app-card"
+  data-app-card
+  data-category={category}
+  data-search={searchText}
+>
+  <div>
+    <div class="app-card-top">
+      <div class:list={['app-icon', { cloud: isWebapp }]} aria-hidden="true">
+        {initial}
+      </div>
+      <span class:list={['mode-badge', { cloud: isWebapp }]}>
+        {isWebapp ? '☁️ App nel Cloud' : '💻 Programma Gratis'}
+      </span>
+    </div>
+
+    <h3 class="app-title">{title}</h3>
+    <p class="app-summary">{summary}</p>
+
+    <div class="tag-row">
+      <span class="tag-chip">{category}</span>
+      {tags.slice(0, 3).map((tag) => (
+        <span class="tag-chip">#{tag}</span>
+      ))}
+    </div>
+  </div>
+
+  <div class="app-card-foot">
+    <span>⭐ {stars.toLocaleString('it-IT')} apprezzamenti</span>
+    <span class:list={['card-cta', { cloud: isWebapp }]}>
+      {isWebapp ? 'Lancia nel Cloud →' : 'Scopri & Scarica →'}
+    </span>
+  </div>
+</a>

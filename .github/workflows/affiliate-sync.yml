@@ -1,0 +1,43 @@
+name: Sync Affiliate Links Retroactively
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "data/affiliates_seed.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-affiliates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.HUBHUM_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update SubIDs and tracking URLs across content/apps
+        run: python3 scripts/affiliate_sync.py
+
+      - name: Validate updated cards
+        run: python3 scripts/validator_sanitizer.py --check-all
+
+      - name: Commit and push updated affiliate links
+        run: |
+          git config user.name "DavanzoKeoma"
+          git config user.email "keomadavanzo@gmail.com"
+          git add content/apps
+          if git diff --cached --quiet; then
+            echo "Tutti i link affiliati sono già allineati."
+          else
+            git commit -m "chore(affiliates): aggiorna link e SubID da seed"
+            git push
+          fi

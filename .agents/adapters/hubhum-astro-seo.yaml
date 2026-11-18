@@ -1,0 +1,32 @@
+schema_version: "1.0"
+adapter:
+  id: hubhum-astro-seo
+  name: "HubHum Astro SSG & 3-Tier AI SEO Pipeline"
+  domain: software
+  priority: 4
+stack:
+  frontend:
+    framework: astro
+    version: "^5.1.0"
+    output: static
+    content_collections: true
+    validation: zod
+    hosting: github-pages
+  automation:
+    runtime: python3.11
+    scouting: github-rest-api
+    no_fork: true
+    ai_cascade:
+      tier_1: "google-ai-studio/gemini-2.5-flash"
+      tier_2: "groq/llama-3.3-70b-versatile"
+      tier_3: "mistral/mistral-small-latest"
+  ci_cd:
+    provider: github-actions
+    oidc_pages: true
+    schedule_timezone: "Europe/Rome"
+constraints:
+  zero_git_jargon: true
+  zero_leak_vault: ".pcp/vault.local.jsonl"
+  brand_safety: true
+  ftc_affiliate_disclosure: true
+  github_disclaimer: "HubHum is an independent tool and is not affiliated with GitHub, Inc."

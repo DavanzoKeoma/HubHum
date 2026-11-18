@@ -1,0 +1,84 @@
+---
+import '../styles/global.css';
+import { withBase } from '../lib/url';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'HubHum – App Open-Source Spiegate Semplici',
+  description = 'Scopri le migliori applicazioni gratuite e open-source spiegate in italiano senza gergo tecnico.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href={withBase('/')} class="brand">
+          <span class="brand-mark">H</span>
+          <span>HubHum</span>
+          <span class="brand-sub">App libere per tutti</span>
+        </a>
+
+        <nav class="header-nav" aria-label="Menu principale">
+          <a href={withBase('/#settimana')} class="btn btn-outline">Migliori della settimana</a>
+          <a href={withBase('/#traduci')} class="btn btn-outline">Traduci un'app</a>
+          <button type="button" id="oauth-login-btn" class="btn btn-primary">
+            Accedi
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-disclaimer">
+          HubHum is an independent tool and is not affiliated with GitHub, Inc.
+        </div>
+        <div>
+          Trasparenza affiliazioni (#ad): Alcuni link presenti su HubHum sono link di affiliazione.
+          Se acquisti un servizio tramite questi link potremmo ricevere una commissione, senza costi aggiuntivi per te.
+        </div>
+        <div>
+          Le applicazioni presentate rimandano esclusivamente ai canali ufficiali dei rispettivi autori, nel rispetto delle licenze open-source.
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      import { buildGitHubOAuthUrl, getSavedSession } from '../lib/github-oauth';
+
+      const loginBtn = document.getElementById('oauth-login-btn');
+      if (loginBtn) {
+        const session = getSavedSession();
+        if (session?.login) {
+          loginBtn.textContent = `@${session.login}`;
+        }
+        loginBtn.addEventListener('click', () => {
+          const authUrl = buildGitHubOAuthUrl(window.location.href);
+          if (authUrl) {
+            window.location.href = authUrl;
+          } else {
+            alert(
+              'Accesso rapido pronto: configura il Client ID nelle impostazioni del sito per attivare i preferiti sincronizzati e le recensioni.'
+            );
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

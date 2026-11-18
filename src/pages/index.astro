@@ -1,0 +1,216 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AppCard from '../components/AppCard.astro';
+import { withBase } from '../lib/url';
+
+const allApps = await getCollection('apps');
+const sortedApps = [...allApps].sort((a, b) => (b.data.stars || 0) - (a.data.stars || 0));
+const weeklyApps = sortedApps.filter((app) => app.data.featured_weekly).slice(0, 6);
+const displayWeekly = weeklyApps.length > 0 ? weeklyApps : sortedApps.slice(0, 3);
+const allBundles = await getCollection('bundles');
+
+const categories = [
+  'Tutte',
+  'Produttività',
+  'Sicurezza & Privacy',
+  'Grafica & Design',
+  'Video & Audio',
+  'Web App & Cloud',
+  'Siti Web & SEO',
+];
+---
+
+<BaseLayout
+  title="HubHum – App Store delle Applicazioni Libere"
+  description="Scopri e scarica le migliori app gratuite e open-source spiegate in parole semplici, senza gergo per programmatori."
+>
+  <section class="hero container">
+    <div class="hero-badge">✨ Il catalogo umano dei programmi gratuiti</div>
+    <h1>Programmi gratuiti e potenti, spiegati in parole semplici.</h1>
+    <p>
+      Niente termini complicati o istruzioni per programmatori: scegli cosa ti serve, leggi a cosa serve nella vita reale e scarica subito la versione ufficiale.
+    </p>
+
+    <div class="search-box-wrap">
+      <span class="search-icon" aria-hidden="true">🔍</span>
+      <input
+        id="hubhum-search"
+        class="search-input"
+        type="search"
+        placeholder="Cerca un'app per scopo o nome (es. video, password, blog, PDF)..."
+        aria-label="Cerca applicazioni"
+      />
+    </div>
+
+    <div class="category-pills" role="tablist" aria-label="Categorie applicazioni">
+      {categories.map((cat, idx) => (
+        <button
+          type="button"
+          class:list={['pill', { active: idx === 0 }]}
+          data-category-btn={cat}
+        >
+          {cat}
+        </button>
+      ))}
+    </div>
+  </section>
+
+  <section id="settimana" class="section-block container">
+    <div class="section-head">
+      <h2>🏆 Migliori app della settimana</h2>
+      <span class="section-sub">Le scelte più apprezzate dalla community</span>
+    </div>
+    <div class="apps-grid">
+      {displayWeekly.map((app) => (
+        <AppCard
+          slug={app.data.slug}
+          title={app.data.title}
+          summary={app.data.summary}
+          category={app.data.category}
+          tags={app.data.tags}
+          isWebapp={app.data.is_webapp}
+          stars={app.data.stars}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="section-block container">
+    <div class="section-head">
+      <h2>📚 Tutto il catalogo</h2>
+      <span class="section-sub" id="catalog-count">{sortedApps.length} applicazioni disponibili</span>
+    </div>
+    <div class="apps-grid" id="catalog-grid">
+      {sortedApps.map((app) => (
+        <AppCard
+          slug={app.data.slug}
+          title={app.data.title}
+          summary={app.data.summary}
+          category={app.data.category}
+          tags={app.data.tags}
+          isWebapp={app.data.is_webapp}
+          stars={app.data.stars}
+        />
+      ))}
+    </div>
+    <p id="empty-search-msg" style="display:none; color: var(--text-muted); margin-top: 1rem;">
+      Nessuna app corrisponde alla tua ricerca. Prova con un altro termine o incolla il link qui sotto per tradurla!
+    </p>
+  </section>
+
+  {allBundles.length > 0 && (
+    <section class="section-block container">
+      <div class="section-head">
+        <h2>🗂️ Raccolte guidate</h2>
+        <span class="section-sub">Guide pratiche per scegliere l'alternativa giusta</span>
+      </div>
+      <div class="apps-grid">
+        {allBundles.map((bundle) => (
+          <a href={withBase(`/bundles/${bundle.data.slug}`)} class="app-card">
+            <div>
+              <div class="app-card-top">
+                <div class="app-icon">🗂️</div>
+                <span class="mode-badge">{bundle.data.category}</span>
+              </div>
+              <h3 class="app-title">{bundle.data.title}</h3>
+              <p class="app-summary">{bundle.data.summary}</p>
+            </div>
+            <div class="app-card-foot">
+              <span>{bundle.data.app_slugs.length} app incluse</span>
+              <span class="card-cta">Leggi la guida →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section id="traduci" class="container">
+    <div class="translate-panel">
+      <h2 style="margin-top:0; margin-bottom:0.4rem;">🌍 Traduci un'app da un link GitHub</h2>
+      <p style="margin:0; color:var(--text-muted);">
+        Hai trovato un programma su GitHub ma la pagina è troppo tecnica o solo in inglese? Incolla l'indirizzo web qui sotto: lo traduciamo automaticamente per tutti.
+      </p>
+      <form id="async-translate-form" class="translate-form">
+        <input
+          id="repo-url-input"
+          class="translate-input"
+          type="url"
+          required
+          placeholder="https://github.com/autore/nome-app"
+          aria-label="Indirizzo web del progetto da tradurre"
+        />
+        <button type="submit" class="btn btn-primary">Traduci ora</button>
+      </form>
+      <div id="translate-status" class="status-banner" role="status" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <script>
+    import { requestAsyncTranslation } from '../lib/github-oauth';
+
+    const searchInput = document.getElementById('hubhum-search') as HTMLInputElement | null;
+    const categoryButtons = document.querySelectorAll<HTMLButtonElement>('[data-category-btn]');
+    const catalogGrid = document.getElementById('catalog-grid');
+    const catalogCards = catalogGrid ? catalogGrid.querySelectorAll<HTMLElement>('[data-app-card]') : [];
+    const catalogCount = document.getElementById('catalog-count');
+    const emptyMsg = document.getElementById('empty-search-msg');
+
+    let selectedCategory = 'Tutte';
+
+    function filterCatalog() {
+      const q = (searchInput?.value || '').trim().toLowerCase();
+      let visibleCount = 0;
+
+      catalogCards.forEach((card) => {
+        const cardCat = card.dataset.category || '';
+        const cardSearch = card.dataset.search || '';
+        const matchesCat = selectedCategory === 'Tutte' || cardCat === selectedCategory;
+        const matchesQuery = !q || cardSearch.includes(q);
+        const show = matchesCat && matchesQuery;
+        card.style.display = show ? 'flex' : 'none';
+        if (show) visibleCount += 1;
+      });
+
+      if (catalogCount) {
+        catalogCount.textContent = `${visibleCount} applicazioni disponibili`;
+      }
+      if (emptyMsg) {
+        emptyMsg.style.display = visibleCount === 0 ? 'block' : 'none';
+      }
+    }
+
+    searchInput?.addEventListener('input', filterCatalog);
+    categoryButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        categoryButtons.forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        selectedCategory = btn.dataset.categoryBtn || 'Tutte';
+        filterCatalog();
+      });
+    });
+
+    const translateForm = document.getElementById('async-translate-form') as HTMLFormElement | null;
+    const urlInput = document.getElementById('repo-url-input') as HTMLInputElement | null;
+    const statusBox = document.getElementById('translate-status');
+
+    translateForm?.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      if (!urlInput || !statusBox) return;
+      const result = await requestAsyncTranslation(urlInput.value);
+      statusBox.textContent = result.message;
+      statusBox.classList.add('visible');
+      if (result.accepted && result.mode === 'issue_redirect' && result.targetUrl) {
+        const confirmLink = document.createElement('a');
+        confirmLink.href = result.targetUrl;
+        confirmLink.target = '_blank';
+        confirmLink.rel = 'noopener noreferrer';
+        confirmLink.textContent = ' Conferma invio richiesta →';
+        confirmLink.style.fontWeight = '700';
+        confirmLink.style.marginLeft = '0.4rem';
+        statusBox.appendChild(confirmLink);
+      }
+    });
+  </script>
+</BaseLayout>

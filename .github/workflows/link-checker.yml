@@ -1,0 +1,40 @@
+name: Weekly Release Link Checker & Auto-Repair
+
+on:
+  schedule:
+    - cron: "0 4 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.HUBHUM_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Verify release links and repair 404s
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/link_checker.py
+
+      - name: Commit and push repaired links
+        run: |
+          git config user.name "DavanzoKeoma"
+          git config user.email "keomadavanzo@gmail.com"
+          git add content/apps
+          if git diff --cached --quiet; then
+            echo "Nessun link rotto rilevato."
+          else
+            git commit -m "fix(links): aggiorna link di download obsoleti"
+            git push
+          fi

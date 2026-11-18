@@ -1,0 +1,34 @@
+schema_version: "1.0"
+project:
+  id: hubhum
+  name: "HubHum – a Git Hub for Humans"
+  type: software
+  version: "0.1.0"
+  status: active
+  last_updated: "2026-11-18T14:35:00+01:00"
+  owners:
+    - "DavanzoKeoma <keomadavanzo@gmail.com>"
+  tags:
+    - astro
+    - ssg
+    - programmatic-seo
+    - github-actions
+    - ai-cascade
+    - affiliate-monetization
+  adapters:
+    - hubhum-astro-seo
+  environments:
+    - local
+    - github-pages
+repository:
+  provider: github
+  owner: DavanzoKeoma
+  name: HubHum
+  url: "https://github.com/DavanzoKeoma/HubHum"
+  branch: main
+  no_fork: true
+ssot:
+  path: ".pcp/context/ssot.md"
+  vault: ".pcp/vault.local.jsonl"
+  events_log: ".pcp/context/events.log"
+uncertainties: []

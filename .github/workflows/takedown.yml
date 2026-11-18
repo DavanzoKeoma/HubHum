@@ -1,0 +1,54 @@
+name: Compliance & DMCA Rapid Takedown
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Slug dell'app da rimuovere"
+        required: true
+        type: string
+      reason:
+        description: "Motivo della rimozione"
+        required: false
+        default: "compliance"
+        type: string
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  takedown:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'takedown')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.HUBHUM_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Execute takedown
+        env:
+          TARGET_SLUG: ${{ github.event.inputs.slug || '' }}
+          ISSUE_TITLE: ${{ github.event.issue.title || '' }}
+          REASON: ${{ github.event.inputs.reason || 'dmca-issue' }}
+        run: |
+          SLUG="${TARGET_SLUG}"
+          if [ -z "${SLUG}" ]; then
+            SLUG=$(echo "${ISSUE_TITLE}" | tr '[:upper:]' '[:lower:]' | sed -E 's/^\[?takedown\]?:?\s*//' | tr -cs 'a-z0-9-' '-' | sed 's/^-//;s/-$//')
+          fi
+          python3 scripts/takedown.py "${SLUG}" --reason "${REASON}" --no-commit
+          git config user.name "DavanzoKeoma"
+          git config user.email "keomadavanzo@gmail.com"
+          git add content/apps data/takedown_blocklist.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Remove: [${SLUG}] per compliance"
+            git push
+          fi

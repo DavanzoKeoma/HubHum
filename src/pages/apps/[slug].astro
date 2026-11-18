@@ -1,0 +1,167 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const apps = await getCollection('apps');
+  return apps.map((app) => ({
+    params: { slug: app.data.slug },
+    props: { app },
+  }));
+}
+
+const { app } = Astro.props;
+const { Content } = await render(app);
+const {
+  title,
+  slug,
+  tags,
+  is_webapp,
+  category,
+  summary,
+  stars,
+  source_url,
+  download_url,
+  download_label,
+  license,
+  affiliate_name,
+  affiliate_url,
+  affiliate_pitch,
+} = app.data;
+
+const primaryHref = is_webapp ? (affiliate_url || source_url || '#') : (download_url || source_url || '#');
+const primaryCtaText = is_webapp
+  ? '☁️ Lancia nel Cloud'
+  : `⬇️ ${download_label || 'Scarica Gratis'}`;
+---
+
+<BaseLayout title={`${title} – HubHum`} description={summary || `${title} spiegato semplice su HubHum`}>
+  <div class="container detail-wrap">
+    <a href={withBase('/')} class="breadcrumb">← Torna a tutte le app</a>
+
+    <section class="detail-hero">
+      <div style="display:flex; align-items:center; gap:1rem; max-width:680px;">
+        <div class:list={['app-icon', { cloud: is_webapp }]} style="width:64px; height:64px; font-size:1.5rem;">
+          {title.slice(0, 1).toUpperCase()}
+        </div>
+        <div>
+          <div style="display:flex; flex-wrap:wrap; gap:0.5rem; align-items:center; margin-bottom:0.35rem;">
+            <span class:list={['mode-badge', { cloud: is_webapp }]}>
+              {is_webapp ? '☁️ Web App Cloud' : '💻 App Desktop / Locale'}
+            </span>
+            <span class="tag-chip">{category}</span>
+            {stars > 0 && <span class="tag-chip">⭐ {stars.toLocaleString('it-IT')} apprezzamenti</span>}
+          </div>
+          <h1 style="margin:0; font-size:clamp(1.6rem, 3vw, 2.2rem); line-height:1.15;">{title}</h1>
+          {summary && <p style="margin:0.45rem 0 0; color:var(--text-muted);">{summary}</p>}
+        </div>
+      </div>
+
+      <div class="detail-actions">
+        <a
+          href={primaryHref}
+          target="_blank"
+          rel={is_webapp ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
+          class:list={['btn', is_webapp ? 'btn-cloud' : 'btn-primary']}
+        >
+          {primaryCtaText}
+        </a>
+        <button type="button" class="btn btn-outline" id="favorite-btn" data-slug={slug}>
+          ♡ Salva nei preferiti
+        </button>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <article class="article-card">
+        <Content />
+
+        <div class="disclosure-note">
+          <strong>Trasparenza affiliazioni (#ad):</strong> Alcuni link consigliati su questa pagina sono di affiliazione:
+          se scegli di attivare un servizio tramite questi link potremmo ricevere una commissione, senza costi aggiuntivi per te.
+        </div>
+      </article>
+
+      <aside>
+        {affiliate_url && (
+          <div class="side-card affiliate-card">
+            <span class="mode-badge cloud" style="margin-bottom:0.6rem; display:inline-block;">
+              💡 Consiglio pratico (#ad)
+            </span>
+            <h3 style="margin:0.25rem 0 0.5rem; font-size:1.08rem;">
+              {affiliate_name ? `Servizio consigliato: ${affiliate_name}` : 'Potenzia la tua esperienza'}
+            </h3>
+            <p style="margin:0 0 1rem; font-size:0.92rem; color:var(--text-muted);">
+              {affiliate_pitch || 'Soluzione partner selezionata per questa categoria di applicazioni.'}
+            </p>
+            <a
+              href={affiliate_url}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              class="btn btn-cloud"
+              style="width:100%;"
+            >
+              {is_webapp ? '☁️ Lancia nel Cloud (1-Click)' : `Scopri ${affiliate_name || 'l’offerta'} →`}
+            </a>
+          </div>
+        )}
+
+        <div class="side-card">
+          <h3 style="margin-top:0; font-size:1.05rem;">Dettagli scheda</h3>
+          <ul style="padding-left:1.1rem; margin:0; color:var(--text-muted); font-size:0.9rem;">
+            <li><strong>Categoria:</strong> {category}</li>
+            <li><strong>Modalità:</strong> {is_webapp ? 'Applicazione web nel cloud' : 'Installazione diretta sul dispositivo'}</li>
+            {license && <li><strong>Licenza:</strong> {license}</li>}
+            {source_url && (
+              <li>
+                <strong>Pagina ufficiale:</strong>{' '}
+                <a href={source_url} target="_blank" rel="noopener noreferrer" style="color:var(--accent);">
+                  Apri fonte
+                </a>
+              </li>
+            )}
+          </ul>
+          <div class="tag-row" style="margin-top:0.9rem; margin-bottom:0;">
+            {tags.map((t) => (
+              <span class="tag-chip">#{t}</span>
+            ))}
+          </div>
+        </div>
+
+        <div class="side-card">
+          <h3 style="margin-top:0; font-size:1.05rem;">Hai provato {title}?</h3>
+          <p style="margin:0 0 0.85rem; font-size:0.9rem; color:var(--text-muted);">
+            Aiuta altri utenti a capire se fa al caso loro lasciando un parere veloce.
+          </p>
+          <a
+            href={`https://github.com/DavanzoKeoma/HubHum/issues/new?title=${encodeURIComponent(`Recensione: ${title}`)}&labels=review`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+            style="width:100%;"
+          >
+            ✍️ Lascia una recensione
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+    import { getFavorites, toggleFavorite } from '../../lib/github-oauth';
+
+    const favBtn = document.getElementById('favorite-btn') as HTMLButtonElement | null;
+    if (favBtn) {
+      const slug = favBtn.dataset.slug || '';
+      const renderState = (saved: boolean) => {
+        favBtn.textContent = saved ? '♥ Salvata nei preferiti' : '♡ Salva nei preferiti';
+      };
+      renderState(getFavorites().includes(slug));
+      favBtn.addEventListener('click', () => {
+        const res = toggleFavorite(slug);
+        renderState(res.saved);
+      });
+    }
+  </script>
+</BaseLayout>

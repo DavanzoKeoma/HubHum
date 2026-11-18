@@ -1,0 +1,46 @@
+name: Monthly Bundle Pages Generator
+
+on:
+  schedule:
+    - cron: "0 5 1 * *"
+  workflow_dispatch:
+    inputs:
+      threshold:
+        description: "Numero minimo di app per tag"
+        required: false
+        default: "50"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  generate-bundles:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.HUBHUM_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate monthly bundles
+        env:
+          BUNDLE_THRESHOLD: ${{ github.event.inputs.threshold || '50' }}
+        run: python3 scripts/bundle_generator.py --threshold "${BUNDLE_THRESHOLD}"
+
+      - name: Commit and push bundle pages
+        run: |
+          git config user.name "DavanzoKeoma"
+          git config user.email "keomadavanzo@gmail.com"
+          git add content/bundles
+          if git diff --cached --quiet; then
+            echo "Nessuna nuova raccolta generata."
+          else
+            git commit -m "chore(bundles): genera raccolte mensili"
+            git push
+          fi
