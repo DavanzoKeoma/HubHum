@@ -1,0 +1,287 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/url';
+import { CATEGORY_I18N_KEY } from '../../i18n/translations';
+
+export async function getStaticPaths() {
+  const apps = await getCollection('apps');
+  return apps.map((app) => ({
+    params: { slug: app.data.slug },
+    props: { app },
+  }));
+}
+
+const { app } = Astro.props;
+const { Content } = await render(app);
+const {
+  title,
+  slug,
+  tags,
+  is_webapp,
+  category,
+  summary,
+  stars,
+  icon,
+  source_url,
+  download_url,
+  download_label,
+  license,
+  affiliate_name,
+  affiliate_url,
+  affiliate_pitch,
+  i18n = {},
+} = app.data;
+
+const primaryHref = is_webapp ? (affiliate_url || download_url || source_url || '#') : (download_url || source_url || '#');
+const catI18nKey = CATEGORY_I18N_KEY[category] || 'catProductivity';
+const primaryAria = is_webapp ? `Open ${title} in the cloud` : `Download ${title}`;
+---
+
+<BaseLayout title={`${title} — HubHum`} description={summary || `${title} explained simply on HubHum`}>
+  <div class="container detail-wrap">
+    <a href={withBase('/')} class="breadcrumb" data-i18n="backAllApps">← Back to all software</a>
+
+    <section class="detail-hero">
+      <div style="display:flex; align-items:center; gap:1rem; max-width:680px;">
+        <img
+          src={withBase(icon)}
+          alt=""
+          width="56"
+          height="56"
+          decoding="async"
+          class="app-logo"
+          style="width:56px;height:56px;"
+          aria-hidden="true"
+        />
+        <div>
+          <div style="display:flex; flex-wrap:wrap; gap:0.45rem; align-items:center; margin-bottom:0.35rem;">
+            <span class:list={['mode-badge', { cloud: is_webapp }]}>
+              <span data-i18n={is_webapp ? 'badgeCloud' : 'badgeDesktop'}>
+                {is_webapp ? 'Cloud Web App' : 'Free Desktop App'}
+              </span>
+            </span>
+            <span class="tag-chip" data-i18n={catI18nKey}>{category}</span>
+            {stars > 0 ? (
+              <span class="tag-chip" data-detail-stars={stars}>
+                Chosen by {stars.toLocaleString('en')} users
+              </span>
+            ) : (
+              <span class="new-badge" data-i18n="badgeNew">New</span>
+            )}
+          </div>
+          <h1 style="margin:0; font-size:clamp(1.55rem, 3vw, 2.1rem); line-height:1.15;">{title}</h1>
+          {summary && (
+            <p
+              id="detail-hero-summary"
+              style="margin:0.4rem 0 0; color:var(--text-muted);"
+              data-summary-en={summary}
+              data-summary-it={i18n.it?.summary || summary}
+              data-summary-es={i18n.es?.summary || summary}
+              data-summary-fr={i18n.fr?.summary || summary}
+              data-summary-de={i18n.de?.summary || summary}
+            >
+              {summary}
+            </p>
+          )}
+        </div>
+      </div>
+
+      <div class="detail-actions">
+        <a
+          href={primaryHref}
+          target="_blank"
+          rel={is_webapp ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
+          aria-label={primaryAria}
+          class:list={['btn', is_webapp ? 'btn-cloud' : 'btn-primary']}
+        >
+          {is_webapp ? (
+            <span data-i18n="ctaCloud">Open in Cloud →</span>
+          ) : (
+            <span>{download_label || 'Explore & Download →'}</span>
+          )}
+        </a>
+        <button type="button" class="btn btn-outline" id="favorite-btn" data-slug={slug}>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <span id="favorite-label" data-i18n="saveFavorite">Save to Favorites</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <article class="article-card">
+        <div
+          id="localized-summary-callout"
+          class="localized-callout"
+          style="display:none;"
+        >
+          <strong data-i18n="detailSummaryNotice">Plain-language summary in your language:</strong>{' '}
+          <span id="localized-summary-text"></span>
+        </div>
+
+        <Content />
+
+        <div class="disclosure-note">
+          <strong data-i18n="disclosureTitle">Affiliate transparency (#ad):</strong>{' '}
+          <span data-i18n="disclosureBody">
+            Some links on this page are affiliate links. If you choose to activate a service through them, we may earn a commission at no extra cost to you.
+          </span>
+        </div>
+      </article>
+
+      <aside>
+        {affiliate_url && (
+          <div class="side-card affiliate-card">
+            <span class="mode-badge cloud" style="margin-bottom:0.55rem; display:inline-flex;" data-i18n="partnerTipBadge">
+              Recommended Add-on (#ad)
+            </span>
+            <h2 style="margin:0.25rem 0 0.45rem; font-size:1.05rem;">
+              {affiliate_name ? (
+                <span><span data-i18n="partnerHeadingPrefix">Recommended:</span> {affiliate_name}</span>
+              ) : (
+                <span data-i18n="partnerFallbackHeading">Enhance your setup</span>
+              )}
+            </h2>
+            <p style="margin:0 0 0.9rem; font-size:0.9rem; color:var(--text-muted);">
+              {affiliate_pitch || 'Curated partner solution suited for this software category.'}
+            </p>
+            <a
+              href={affiliate_url}
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              aria-label={`Open partner recommendation ${affiliate_name || ''}`}
+              class="btn btn-cloud"
+              style="width:100%;"
+            >
+              {is_webapp ? (
+                <span data-i18n="partnerCloudBtn">Open in Cloud (1-Click)</span>
+              ) : (
+                <span>
+                  <span data-i18n="partnerDiscoverPrefix">Explore</span> {affiliate_name || 'partner'} →
+                </span>
+              )}
+            </a>
+          </div>
+        )}
+
+        <div class="side-card">
+          <h2 style="margin-top:0; font-size:1.05rem;" data-i18n="detailsHeading">Quick Specs</h2>
+          <ul style="padding-left:1.1rem; margin:0; color:var(--text-muted); font-size:0.9rem;">
+            <li>
+              <strong data-i18n="detailCategory">Category:</strong>{' '}
+              <span data-i18n={catI18nKey}>{category}</span>
+            </li>
+            <li>
+              <strong data-i18n="detailMode">Format:</strong>{' '}
+              <span data-i18n={is_webapp ? 'detailModeCloud' : 'detailModeDesktop'}>
+                {is_webapp ? 'Runs in your browser / cloud' : 'Installs on your device'}
+              </span>
+            </li>
+            {license && (
+              <li>
+                <strong data-i18n="detailLicense">License:</strong> {license}
+              </li>
+            )}
+            {source_url && (
+              <li>
+                <strong data-i18n="detailOfficialPage">Official Page:</strong>{' '}
+                <a
+                  href={source_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="color:var(--accent); text-decoration:underline;"
+                  data-i18n="detailOpenSource"
+                >
+                  Visit source
+                </a>
+              </li>
+            )}
+          </ul>
+          <div class="tag-row" style="margin-top:0.85rem; margin-bottom:0;">
+            {tags.map((t) => (
+              <span class="tag-chip">#{t}</span>
+            ))}
+          </div>
+        </div>
+
+        <div class="side-card">
+          <h2 style="margin-top:0; font-size:1.05rem;">
+            <span data-i18n="reviewTitlePrefix">Have you tried</span> {title}?
+          </h2>
+          <p style="margin:0 0 0.8rem; font-size:0.89rem; color:var(--text-muted);" data-i18n="reviewDesc">
+            Help everyday users decide by sharing a quick review.
+          </p>
+          <a
+            href={`https://github.com/DavanzoKeoma/HubHum/issues/new?title=${encodeURIComponent(`Review: ${title}`)}&labels=review`}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Write a review for ${title}`}
+            class="btn btn-outline"
+            style="width:100%;"
+            data-i18n="reviewBtn"
+          >
+            Write a review
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <script>
+    import { getFavorites, toggleFavorite } from '../../lib/github-oauth';
+    import { TRANSLATIONS, type SupportedLang } from '../../i18n/translations';
+
+    const favBtn = document.getElementById('favorite-btn') as HTMLButtonElement | null;
+    const favLabel = document.getElementById('favorite-label');
+    const heroSummary = document.getElementById('detail-hero-summary');
+    const callout = document.getElementById('localized-summary-callout');
+    const calloutText = document.getElementById('localized-summary-text');
+    const detailStars = document.querySelector<HTMLElement>('[data-detail-stars]');
+
+    function syncDetailLanguage() {
+      const lang = (document.documentElement.lang || 'en') as SupportedLang;
+      const dict = TRANSLATIONS[lang] || TRANSLATIONS.en;
+
+      if (favBtn && favLabel) {
+        const slug = favBtn.dataset.slug || '';
+        const isSaved = getFavorites().includes(slug);
+        favLabel.textContent = isSaved ? dict.savedFavorite : dict.saveFavorite;
+      }
+
+      if (heroSummary) {
+        const localized = heroSummary.dataset[`summary${lang.charAt(0).toUpperCase()}${lang.slice(1)}`];
+        if (localized) heroSummary.textContent = localized;
+        if (callout && calloutText) {
+          if (lang !== 'en' && localized) {
+            calloutText.textContent = localized;
+            callout.style.display = 'block';
+          } else {
+            callout.style.display = 'none';
+          }
+        }
+      }
+
+      if (detailStars) {
+        const count = Number(detailStars.dataset.detailStars || '0');
+        if (count > 0) {
+          detailStars.textContent = `${dict.chosenByPrefix} ${count.toLocaleString(lang)} ${dict.chosenBySuffix}`;
+        }
+      }
+    }
+
+    syncDetailLanguage();
+    window.addEventListener('hubhum:langchange', syncDetailLanguage);
+
+    if (favBtn && favLabel) {
+      const slug = favBtn.dataset.slug || '';
+      favBtn.addEventListener('click', () => {
+        const res = toggleFavorite(slug);
+        const lang = (document.documentElement.lang || 'en') as SupportedLang;
+        const dict = TRANSLATIONS[lang] || TRANSLATIONS.en;
+        favLabel.textContent = res.saved ? dict.savedFavorite : dict.saveFavorite;
+      });
+    }
+  </script>
+</BaseLayout>

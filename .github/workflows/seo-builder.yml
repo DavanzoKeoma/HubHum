@@ -1,0 +1,102 @@
+name: Nightly Programmatic SEO Builder & Async Translator
+
+on:
+  schedule:
+    # 03:00 Europe/Rome corrisponde alle 01:00 UTC (ora legale CEST) o 02:00 UTC (ora solare CET).
+    # Il job verifica esattamente l'ora locale Europe/Rome per evitare drift stagionale (Sezione 13.1).
+    - cron: "0 1,2 * * *"
+  repository_dispatch:
+    types: [translate-app]
+  workflow_dispatch:
+    inputs:
+      repo_url:
+        description: "Singolo URL GitHub opzionale per tradurre un'app"
+        required: false
+        type: string
+      repo_urls:
+        description: "Lista URL GitHub separati da virgola (bypassa filtro >500 stelle)"
+        required: false
+        type: string
+      force_provider:
+        description: "Provider AI (auto | gemini | groq | both)"
+        required: false
+        default: "auto"
+        type: choice
+        options:
+          - auto
+          - gemini
+          - groq
+          - both
+      limit:
+        description: "Numero massimo di app notturne"
+        required: false
+        default: "15"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  run-seo-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Europe/Rome 03:00 window for scheduled runs
+        id: timecheck
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            ROME_HOUR=$(TZ="Europe/Rome" date +%H)
+            echo "Current Europe/Rome hour: ${ROME_HOUR}"
+            if [ "${ROME_HOUR}" != "03" ]; then
+              echo "run=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          fi
+          echo "run=true" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout repository with HUBHUM_PAT (enables deploy.yml chaining)
+        if: steps.timecheck.outputs.run == 'true'
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.HUBHUM_PAT }}
+
+      - name: Setup Python
+        if: steps.timecheck.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run Scouting & 2-Tier AI Translation Pipeline (Gemini -> Groq)
+        if: steps.timecheck.outputs.run == 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.HUBHUM_PAT || secrets.GITHUB_TOKEN }}
+          DISPATCH_REPO_URL: ${{ github.event.client_payload.repo_url || github.event.inputs.repo_url || '' }}
+          DISPATCH_REPO_URLS: ${{ github.event.client_payload.repo_urls || github.event.inputs.repo_urls || '' }}
+          FORCE_PROVIDER: ${{ github.event.inputs.force_provider || 'auto' }}
+          SCOUT_LIMIT: ${{ github.event.inputs.limit || '15' }}
+        run: |
+          if [ -n "${DISPATCH_REPO_URLS}" ]; then
+            python3 scripts/seo_pipeline.py --repo-urls "${DISPATCH_REPO_URLS}" --force-provider "${FORCE_PROVIDER}"
+          elif [ -n "${DISPATCH_REPO_URL}" ]; then
+            python3 scripts/seo_pipeline.py --repo-url "${DISPATCH_REPO_URL}" --force-provider "${FORCE_PROVIDER}"
+          else
+            python3 scripts/seo_pipeline.py --limit "${SCOUT_LIMIT}" --force-provider "${FORCE_PROVIDER}"
+          fi
+
+      - name: Validate generated cards
+        if: steps.timecheck.outputs.run == 'true'
+        run: python3 scripts/validator_sanitizer.py --check-all
+
+      - name: Commit and push new app cards
+        if: steps.timecheck.outputs.run == 'true'
+        run: |
+          git config user.name "DavanzoKeoma"
+          git config user.email "keomadavanzo@gmail.com"
+          git add content/apps public/icons data/retry_queue.json
+          if git diff --cached --quiet; then
+            echo "Nessuna nuova scheda da salvare."
+          else
+            git commit -m "chore(seo): aggiorna schede app HubHum"
+            git push origin main
+          fi

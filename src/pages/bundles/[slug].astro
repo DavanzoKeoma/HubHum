@@ -1,0 +1,62 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AppCard from '../../components/AppCard.astro';
+import { withBase } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const bundles = await getCollection('bundles');
+  return bundles.map((bundle) => ({
+    params: { slug: bundle.data.slug },
+    props: { bundle },
+  }));
+}
+
+const { bundle } = Astro.props;
+const { Content } = await render(bundle);
+const allApps = await getCollection('apps');
+const matchedApps = allApps.filter((a) => bundle.data.app_slugs.includes(a.data.slug));
+---
+
+<BaseLayout title={`${bundle.data.title} — HubHum`} description={bundle.data.summary}>
+  <div class="container detail-wrap">
+    <a href={withBase('/')} class="breadcrumb" data-i18n="backAllApps">← Back to all software</a>
+
+    <section class="detail-hero">
+      <div>
+        <span class="mode-badge" style="margin-bottom:0.5rem; display:inline-flex;">
+          {bundle.data.category}
+        </span>
+        <h1 style="margin:0; font-size:clamp(1.55rem, 3vw, 2.1rem);">{bundle.data.title}</h1>
+        {bundle.data.summary && <p style="margin:0.45rem 0 0; color:var(--text-muted);">{bundle.data.summary}</p>}
+      </div>
+    </section>
+
+    <article class="article-card" style="margin-bottom:1.5rem;">
+      <Content />
+    </article>
+
+    {matchedApps.length > 0 && (
+      <section class="section-block">
+        <div class="section-head">
+          <h2 data-i18n="allSoftwareHeading">All Software</h2>
+        </div>
+        <div class="apps-grid">
+          {matchedApps.map((app) => (
+            <AppCard
+              slug={app.data.slug}
+              title={app.data.title}
+              summary={app.data.summary}
+              category={app.data.category}
+              tags={app.data.tags}
+              isWebapp={app.data.is_webapp}
+              stars={app.data.stars}
+              icon={app.data.icon}
+              i18n={app.data.i18n}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>

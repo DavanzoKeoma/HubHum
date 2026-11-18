@@ -1,0 +1,13 @@
+.pcp/
+.agents/
+*.code-workspace
+HubHum – a Git Hub for Humans.md
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.astro/
+__pycache__/
+*.pyc
+.DS_Store

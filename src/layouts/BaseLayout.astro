@@ -1,0 +1,317 @@
+---
+import '../styles/global.css';
+import { withBase } from '../lib/url';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'HubHum — Powerful Free Software, Zero Tech Jargon',
+  description = 'Discover hand-picked free and open-source software explained in plain language with verified official downloads.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="zhjr7xMD1JGKLOh9ag8b3Qgm2As1fN9T8TJksUHSzwE" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <script is:inline>
+      (function () {
+        var supported = ['en', 'it', 'es', 'fr', 'de'];
+        var lang = 'en';
+        try {
+          var saved = localStorage.getItem('hubhum_lang');
+          if (saved && supported.indexOf(saved) !== -1) {
+            lang = saved;
+          } else if (navigator.languages && navigator.languages.length) {
+            for (var i = 0; i < navigator.languages.length; i++) {
+              var code = String(navigator.languages[i] || '').slice(0, 2).toLowerCase();
+              if (supported.indexOf(code) !== -1) {
+                lang = code;
+                break;
+              }
+            }
+          } else if (navigator.language) {
+            var navCode = String(navigator.language).slice(0, 2).toLowerCase();
+            if (supported.indexOf(navCode) !== -1) lang = navCode;
+          }
+        } catch (_) {}
+        window.__HUBHUM_LANG__ = lang;
+        document.documentElement.lang = lang;
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href={withBase('/')} class="brand">
+          <img src={withBase('/icons/hubhum.svg')} alt="" width="34" height="34" class="brand-mark" aria-hidden="true" />
+          <span>HubHum</span>
+          <span class="brand-sub" data-i18n="brandSub">Free software for humans</span>
+        </a>
+
+        <nav class="header-controls" aria-label="Main navigation">
+          <a
+            href={withBase('/#top-picks')}
+            class="icon-nav-link"
+            title="Top Picks"
+            aria-label="Jump to Top Picks"
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            <span data-i18n="navTopPicks">Top Picks</span>
+          </a>
+
+          <a
+            href={withBase('/#submit')}
+            class="icon-nav-link"
+            title="Submit an App"
+            aria-label="Submit an open-source app"
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="16"></line>
+              <line x1="8" y1="12" x2="16" y2="12"></line>
+            </svg>
+            <span data-i18n="navSubmit">Submit an App</span>
+          </a>
+
+          <label for="lang-switcher" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Language</label>
+          <select id="lang-switcher" class="lang-select" aria-label="Language">
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+            <option value="es">ES</option>
+            <option value="fr">FR</option>
+            <option value="de">DE</option>
+          </select>
+
+          <button type="button" id="oauth-login-btn" class="btn btn-primary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            <span id="oauth-login-label" data-i18n="navSignIn">Sign In</span>
+          </button>
+
+          <button
+            type="button"
+            id="mobile-menu-btn"
+            class="mobile-menu-btn"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="mobile-drawer"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </nav>
+      </div>
+
+      <div id="mobile-drawer" class="container mobile-drawer" aria-label="Mobile navigation">
+        <a href={withBase('/#top-picks')} class="btn btn-outline" data-i18n="navTopPicks">Top Picks</a>
+        <a href={withBase('/#submit')} class="btn btn-outline" data-i18n="navSubmit">Submit an App</a>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <dialog id="account-dialog" class="hubhum-dialog" aria-labelledby="dialog-title">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.5rem;">
+        <h2 id="dialog-title" style="margin:0;font-size:1.15rem;" data-i18n="dialogTitle">Your Saved Favorites</h2>
+        <button type="button" id="dialog-close-top" class="btn btn-outline" style="padding:0.25rem 0.65rem;" aria-label="Close">✕</button>
+      </div>
+      <p id="dialog-desc" style="margin:0;color:var(--text-muted);font-size:0.9rem;" data-i18n="dialogDescLocal">
+        Your favorite apps are saved instantly in your browser. Click any saved app below to open its guide.
+      </p>
+      <ul id="dialog-fav-list" class="fav-list"></ul>
+      <div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-top:1rem;">
+        <button type="button" id="dialog-logout-btn" class="btn btn-outline" style="display:none;" data-i18n="dialogLogout">Sign Out</button>
+        <button type="button" id="dialog-close-btn" class="btn btn-primary" data-i18n="dialogClose">Close</button>
+      </div>
+    </dialog>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-disclaimer">
+          HubHum is an independent tool and is not affiliated with GitHub, Inc.
+        </div>
+        <div data-i18n="footerAffiliate">
+          Affiliate transparency (#ad): Some links on HubHum are affiliate links. If you purchase a service through them, we may earn a commission at no extra cost to you.
+        </div>
+        <div data-i18n="footerCredits">
+          All listed software links strictly to official creator channels in full respect of open-source licenses.
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      import {
+        buildGitHubOAuthUrl,
+        clearSavedSession,
+        getFavorites,
+        getSavedSession,
+        handleOAuthCallbackIfPresent,
+        isOAuthConfigured,
+      } from '../lib/github-oauth';
+      import { SUPPORTED_LANGS, TRANSLATIONS, type SupportedLang } from '../i18n/translations';
+      import { withBase } from '../lib/url';
+
+      const win = window as unknown as { __HUBHUM_LANG__?: string };
+      let currentLang: SupportedLang = (
+        SUPPORTED_LANGS.includes(win.__HUBHUM_LANG__ as SupportedLang) ? win.__HUBHUM_LANG__ : 'en'
+      ) as SupportedLang;
+
+      function applyTranslations(lang: SupportedLang) {
+        currentLang = lang;
+        const dict = TRANSLATIONS[lang];
+        document.documentElement.lang = lang;
+        try {
+          localStorage.setItem('hubhum_lang', lang);
+        } catch {}
+
+        document.querySelectorAll<HTMLElement>('[data-i18n]').forEach((el) => {
+          const key = el.dataset.i18n as keyof typeof dict;
+          if (key && dict[key]) el.textContent = dict[key];
+        });
+
+        document.querySelectorAll<HTMLInputElement>('[data-i18n-placeholder]').forEach((el) => {
+          const key = el.dataset.i18nPlaceholder as keyof typeof dict;
+          if (key && dict[key]) el.placeholder = dict[key];
+        });
+
+        document.querySelectorAll<HTMLElement>('[data-i18n-aria]').forEach((el) => {
+          const key = el.dataset.i18nAria as keyof typeof dict;
+          if (key && dict[key]) el.setAttribute('aria-label', dict[key]);
+        });
+
+        document.querySelectorAll<HTMLElement>('[data-app-card]').forEach((card) => {
+          const sumEl = card.querySelector<HTMLElement>('[data-card-summary]');
+          const localizedSum = card.dataset[`summary${lang.charAt(0).toUpperCase()}${lang.slice(1)}`];
+          if (sumEl && localizedSum) {
+            sumEl.textContent = localizedSum;
+          }
+          const popEl = card.querySelector<HTMLElement>('[data-pop-count]');
+          if (popEl) {
+            const count = Number(popEl.dataset.popCount || '0');
+            if (count > 0) {
+              popEl.textContent = `${dict.chosenByPrefix} ${count.toLocaleString(lang)} ${dict.chosenBySuffix}`;
+            }
+          }
+        });
+
+        window.dispatchEvent(new CustomEvent('hubhum:langchange', { detail: { lang, dict } }));
+      }
+
+      const langSwitcher = document.getElementById('lang-switcher') as HTMLSelectElement | null;
+      if (langSwitcher) {
+        langSwitcher.value = currentLang;
+        langSwitcher.addEventListener('change', () => {
+          const next = langSwitcher.value as SupportedLang;
+          if (SUPPORTED_LANGS.includes(next)) {
+            applyTranslations(next);
+          }
+        });
+      }
+
+      applyTranslations(currentLang);
+
+      // Mobile menu toggle
+      const mobileBtn = document.getElementById('mobile-menu-btn');
+      const mobileDrawer = document.getElementById('mobile-drawer');
+      mobileBtn?.addEventListener('click', () => {
+        const isOpen = mobileDrawer?.classList.toggle('open') || false;
+        mobileBtn.setAttribute('aria-expanded', String(isOpen));
+      });
+
+      // GitHub OAuth + Favorites Dialog (Zero alert() popups)
+      const loginBtn = document.getElementById('oauth-login-btn');
+      const loginLabel = document.getElementById('oauth-login-label');
+      const dialog = document.getElementById('account-dialog') as HTMLDialogElement | null;
+      const favList = document.getElementById('dialog-fav-list');
+      const dialogDesc = document.getElementById('dialog-desc');
+      const logoutBtn = document.getElementById('dialog-logout-btn');
+      const closeBtns = [document.getElementById('dialog-close-btn'), document.getElementById('dialog-close-top')];
+
+      function renderSessionButton() {
+        const session = getSavedSession();
+        if (loginLabel && session?.login) {
+          loginLabel.textContent = `@${session.login}`;
+          loginLabel.removeAttribute('data-i18n');
+        }
+      }
+
+      function openFavoritesDialog() {
+        if (!dialog || !favList || !dialogDesc) return;
+        const dict = TRANSLATIONS[currentLang];
+        const session = getSavedSession();
+        const favs = getFavorites();
+
+        dialogDesc.textContent = session?.login ? dict.dialogDescAuth : dict.dialogDescLocal;
+        if (logoutBtn) logoutBtn.style.display = session?.login ? 'inline-flex' : 'none';
+
+        favList.innerHTML = '';
+        if (favs.length === 0) {
+          const li = document.createElement('li');
+          li.style.color = 'var(--text-muted)';
+          li.style.fontSize = '0.9rem';
+          li.textContent = dict.dialogNoFavs;
+          favList.appendChild(li);
+        } else {
+          favs.forEach((slug) => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = withBase(`/apps/${slug}`);
+            a.className = 'fav-link';
+            a.textContent = slug;
+            const arrow = document.createElement('span');
+            arrow.textContent = '→';
+            a.appendChild(arrow);
+            li.appendChild(a);
+            favList.appendChild(li);
+          });
+        }
+        dialog.showModal();
+      }
+
+      renderSessionButton();
+      handleOAuthCallbackIfPresent().then((session) => {
+        if (session) renderSessionButton();
+      });
+
+      loginBtn?.addEventListener('click', () => {
+        const session = getSavedSession();
+        if (!session && isOAuthConfigured()) {
+          const authUrl = buildGitHubOAuthUrl(`${window.location.origin}${window.location.pathname}`);
+          if (authUrl) {
+            window.location.href = authUrl;
+            return;
+          }
+        }
+        openFavoritesDialog();
+      });
+
+      logoutBtn?.addEventListener('click', () => {
+        clearSavedSession();
+        if (loginLabel) {
+          loginLabel.setAttribute('data-i18n', 'navSignIn');
+          loginLabel.textContent = TRANSLATIONS[currentLang].navSignIn;
+        }
+        dialog?.close();
+      });
+
+      closeBtns.forEach((btn) => btn?.addEventListener('click', () => dialog?.close()));
+    </script>
+  </body>
+</html>

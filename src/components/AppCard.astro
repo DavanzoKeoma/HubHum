@@ -1,0 +1,125 @@
+---
+import { withBase } from '../lib/url';
+import { CATEGORY_I18N_KEY } from '../i18n/translations';
+
+interface I18nBlock {
+  it?: { tagline: string; summary: string };
+  es?: { tagline: string; summary: string };
+  fr?: { tagline: string; summary: string };
+  de?: { tagline: string; summary: string };
+}
+
+interface Props {
+  slug: string;
+  title: string;
+  summary: string;
+  category: string;
+  tags: string[];
+  isWebapp: boolean;
+  stars: number;
+  icon: string;
+  i18n?: I18nBlock;
+  isTopPick?: boolean;
+}
+
+const {
+  slug,
+  title,
+  summary,
+  category,
+  tags,
+  isWebapp,
+  stars,
+  icon,
+  i18n = {},
+  isTopPick = false,
+} = Astro.props;
+
+const catI18nKey = CATEGORY_I18N_KEY[category] || 'catProductivity';
+const searchText = `${title} ${summary} ${i18n.it?.summary || ''} ${category} ${tags.join(' ')}`.toLowerCase();
+const cardAriaLabel = isWebapp ? `Open ${title} in the cloud` : `Explore and download ${title}`;
+---
+
+<a
+  href={withBase(`/apps/${slug}`)}
+  class="app-card"
+  aria-label={cardAriaLabel}
+  data-app-card
+  data-category={category}
+  data-search={searchText}
+  data-top-pick={isTopPick ? 'true' : 'false'}
+  data-summary-en={summary}
+  data-summary-it={i18n.it?.summary || summary}
+  data-summary-es={i18n.es?.summary || summary}
+  data-summary-fr={i18n.fr?.summary || summary}
+  data-summary-de={i18n.de?.summary || summary}
+>
+  <div>
+    <div class="app-card-top">
+      <img
+        src={withBase(icon)}
+        alt=""
+        width="48"
+        height="48"
+        loading="lazy"
+        decoding="async"
+        class="app-logo"
+        aria-hidden="true"
+      />
+      <span class:list={['mode-badge', { cloud: isWebapp }]}>
+        {isWebapp ? (
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+          </svg>
+        ) : (
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+            <line x1="8" y1="21" x2="16" y2="21"></line>
+            <line x1="12" y1="17" x2="12" y2="21"></line>
+          </svg>
+        )}
+        <span data-i18n={isWebapp ? 'badgeCloud' : 'badgeDesktop'}>
+          {isWebapp ? 'Cloud Web App' : 'Free Desktop App'}
+        </span>
+      </span>
+    </div>
+
+    <h3 class="app-title">{title}</h3>
+    <p class="app-summary" data-card-summary>{summary}</p>
+
+    <div class="tag-row">
+      <span class="tag-chip" data-i18n={catI18nKey}>{category}</span>
+      {tags.slice(0, 2).map((tag) => (
+        <span class="tag-chip">#{tag}</span>
+      ))}
+    </div>
+  </div>
+
+  <div class="app-card-foot">
+    {stars > 0 ? (
+      <span class="popularity-stat">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+          <circle cx="9" cy="7" r="4"></circle>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+        </svg>
+        <span data-pop-count={stars}>Chosen by {stars.toLocaleString('en')} users</span>
+      </span>
+    ) : (
+      <span class="new-badge">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 3l1.9 5.8L20 10.7l-5.8 1.9L12 19l-1.9-5.8L4 11.3l5.8-1.9L12 3z"></path>
+        </svg>
+        <span data-i18n="badgeNew">New</span>
+      </span>
+    )}
+
+    <span
+      class:list={['card-cta', { cloud: isWebapp }]}
+      data-i18n={isWebapp ? 'ctaCloud' : 'ctaDesktop'}
+    >
+      {isWebapp ? 'Open in Cloud →' : 'Explore & Download →'}
+    </span>
+  </div>
+</a>

@@ -1,0 +1,628 @@
+{
+  "schema_version": "1.1",
+  "generated_at": "2026-11-18T21:22:34.284236+00:00",
+  "source": "hubhum-curated-catalog-v1",
+  "subid_prefix": "hubhum_01_",
+  "compliance": {
+    "ftc_disclosure_en": "Affiliate transparency (#ad): Some links on HubHum are affiliate links. If you purchase a service through them, we may earn a commission at no extra cost to you.",
+    "github_disclaimer": "HubHum is an independent tool and is not affiliated with GitHub, Inc.",
+    "brand_bidding_allowed": false
+  },
+  "total_merchants": 14,
+  "categories": {
+    "privacy_security": {
+      "label": "Privacy, Torrenting & Security",
+      "human_tags": [
+        "privacy",
+        "security",
+        "vpn",
+        "password",
+        "torrent",
+        "notes"
+      ],
+      "injection_message": "Protect your connection before downloading or using this app.",
+      "cta_label": "Protect your privacy",
+      "i18n": {
+        "it": {
+          "injection_message": "Proteggi la tua connessione prima di scaricare o usare questa app.",
+          "cta_label": "Proteggi la tua privacy"
+        },
+        "es": {
+          "injection_message": "Protege tu conexión antes de descargar o usar esta aplicación.",
+          "cta_label": "Protege tu privacidad"
+        },
+        "fr": {
+          "injection_message": "Protégez votre connexion avant de télécharger ou d'utiliser cette application.",
+          "cta_label": "Protégez votre vie privée"
+        },
+        "de": {
+          "injection_message": "Schützen Sie Ihre Verbindung, bevor Sie diese App herunterladen oder nutzen.",
+          "cta_label": "Privatsphäre schützen"
+        }
+      },
+      "primary_merchant_id": "MER_047",
+      "merchants": [
+        {
+          "merchant_id": "MER_047",
+          "name": "PureVPN",
+          "category_key": "privacy_security",
+          "subid": "hubhum_01_MER047",
+          "tracking_url": "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047",
+          "policy_url": "https://billing.purevpn.com/aff.php?aff=49386762",
+          "network": "Dashboard Propria (In-House Dedicated)",
+          "direct_linking_allowed": true,
+          "ppc_policy": "Direct linking consentito su keyword VPN generiche (no brand bidding) con tracking subid.",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "#ad Promozione sponsorizzata PureVPN",
+          "priority_score": 5.5,
+          "epc_target": "$0.0600",
+          "verified_tracking_link": true
+        },
+        {
+          "merchant_id": "MER_089",
+          "name": "Surfshark VPN",
+          "category_key": "privacy_security",
+          "subid": "hubhum_01_MER089",
+          "tracking_url": "https://surfshark.com/affiliate?subid=hubhum_01_MER089",
+          "policy_url": "https://surfshark.com/affiliate",
+          "network": "Impact",
+          "direct_linking_allowed": true,
+          "ppc_policy": "only_non_brand",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+          "priority_score": 96.0,
+          "epc_target": "$1.85",
+          "verified_tracking_link": false
+        },
+        {
+          "merchant_id": "MER_064",
+          "name": "TorGuard",
+          "category_key": "privacy_security",
+          "subid": "hubhum_01_MER064",
+          "tracking_url": "https://torguard.net/affiliates.php?subid=hubhum_01_MER064",
+          "policy_url": "https://torguard.net/affiliates.php",
+          "network": "In-House / WHMCS",
+          "direct_linking_allowed": true,
+          "ppc_policy": "Consentito su query generiche privacy/vpn (no brand bidding)",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "Affiliate Link: Potremmo ricevere un compenso per i prodotti acquistati tramite questo link.",
+          "priority_score": 9.2,
+          "epc_target": "$0.95",
+          "verified_tracking_link": false
+        },
+        {
+          "merchant_id": "MER_048",
+          "name": "Private Internet Access",
+          "category_key": "privacy_security",
+          "subid": "hubhum_01_MER048",
+          "tracking_url": "https://www.privateinternetaccess.com/pages/affiliates?subid=hubhum_01_MER048",
+          "policy_url": "https://www.privateinternetaccess.com/pages/affiliates",
+          "network": "Dashboard Propria (In-House Dedicated)",
+          "direct_linking_allowed": true,
+          "ppc_policy": "Direct linking permesso su annunci di privacy e sicurezza online non-branded.",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "#ad Link sponsorizzato PIA VPN",
+          "priority_score": 5.5,
+          "epc_target": "$0.0900",
+          "verified_tracking_link": false
+        }
+      ]
+    },
+    "webapp_cms": {
+      "label": "Web Apps, CMS & Cloud Tools",
+      "human_tags": [
+        "webapp",
+        "cms",
+        "cloud",
+        "self-hosted",
+        "blog",
+        "automation"
+      ],
+      "injection_message": "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting.",
+      "cta_label": "Open in Cloud (1-Click)",
+      "i18n": {
+        "it": {
+          "injection_message": "Non vuoi configurare un server a mano? Avvialo in 1 click su un hosting cloud gestito.",
+          "cta_label": "Apri nel Cloud (1-Click)"
+        },
+        "es": {
+          "injection_message": "¿No quieres configurar un servidor manualmente? Ábrelo en 1 clic en un hosting optimizado.",
+          "cta_label": "Abrir en la Nube (1-Clic)"
+        },
+        "fr": {
+          "injection_message": "Vous ne voulez pas configurer un serveur manuellement ? Lancez-le en 1 clic sur un hébergement optimisé.",
+          "cta_label": "Ouvrir dans le Cloud (1-Clic)"
+        },
+        "de": {
+          "injection_message": "Sie möchten keinen Server manuell einrichten? Starten Sie die App mit 1 Klick auf optimiertem Cloud-Hosting.",
+          "cta_label": "In der Cloud öffnen (1-Klick)"
+        }
+      },
+      "primary_merchant_id": "MER_008",
+      "merchants": [
+        {
+          "merchant_id": "MER_008",
+          "name": "InterServer",
+          "category_key": "webapp_cms",
+          "subid": "hubhum_01_MER008",
+          "tracking_url": "https://www.interserver.net/r/1196747?id=hubhum_01_MER008",
+          "policy_url": "https://www.interserver.net/affiliates.html",
+          "network": "Dashboard Propria (In-House)",
+          "direct_linking_allowed": true,
+          "ppc_policy": "Direct linking consentito su keyword di hosting generiche; vietato l'uso del brand name nei termini di ricerca.",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "#ad Promozione sponsorizzata InterServer",
+          "priority_score": 8.0,
+          "epc_target": "$0.0800",
+          "verified_tracking_link": true
+        },
+        {
+          "merchant_id": "MER_009",
+          "name": "ScalaHosting",
+          "category_key": "webapp_cms",
+          "subid": "hubhum_01_MER009",
+          "tracking_url": "https://www.scalahosting.com/affiliate-program.html?subid=hubhum_01_MER009",
+          "policy_url": "https://www.scalahosting.com/affiliate-program.html",
+          "network": "Dashboard Propria (In-House)",
+          "direct_linking_allowed": true,
+          "ppc_policy": "Direct linking permesso su campagne search non-brand; supporta deeplinking a specifiche configurazioni VPS.",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "#ad Link affiliato ScalaHosting",
+          "priority_score": 8.0,
+          "epc_target": "$0.0780",
+          "verified_tracking_link": false
+        },
+        {
+          "merchant_id": "MER_014",
+          "name": "RoseHosting",
+          "category_key": "webapp_cms",
+          "subid": "hubhum_01_MER014",
+          "tracking_url": "https://www.rosehosting.com/affiliate-program.html?subid=hubhum_01_MER014",
+          "policy_url": "https://www.rosehosting.com/affiliate-program.html",
+          "network": "Dashboard Propria (In-House)",
+          "direct_linking_allowed": true,
+          "ppc_policy": "Direct linking consentito su keyword hosting Linux e VPS non-branded.",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "#ad Partner RoseHosting",
+          "priority_score": 5.5,
+          "epc_target": "$0.1000",
+          "verified_tracking_link": false
+        }
+      ]
+    },
+    "graphics_video_design": {
+      "label": "Graphics, Video & Audio",
+      "human_tags": [
+        "graphics",
+        "video",
+        "design",
+        "audio",
+        "editing",
+        "images"
+      ],
+      "injection_message": "Download ready-to-use fonts, templates, and creative assets for your projects.",
+      "cta_label": "Browse ready-to-use templates",
+      "i18n": {
+        "it": {
+          "injection_message": "Scarica font, template e asset creativi pronti all'uso per i tuoi progetti.",
+          "cta_label": "Esplora template e asset pronti"
+        },
+        "es": {
+          "injection_message": "Descarga fuentes, plantillas y recursos creativos listos para usar en tus proyectos.",
+          "cta_label": "Explorar plantillas listas"
+        },
+        "fr": {
+          "injection_message": "Téléchargez des polices, modèles et ressources créatives prêts à l'emploi pour vos projets.",
+          "cta_label": "Explorer les modèles prêts"
+        },
+        "de": {
+          "injection_message": "Laden Sie sofort nutzbare Schriftarten, Vorlagen und Kreativ-Assets für Ihre Projekte herunter.",
+          "cta_label": "Vorlagen & Assets entdecken"
+        }
+      },
+      "primary_merchant_id": "MER_054",
+      "merchants": [
+        {
+          "merchant_id": "MER_054",
+          "name": "Creative Fabrica",
+          "category_key": "graphics_video_design",
+          "subid": "hubhum_01_MER054",
+          "tracking_url": "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054",
+          "policy_url": "https://www.creativefabrica.com/affiliate-program/",
+          "network": "Dashboard Propria (In-House)",
+          "direct_linking_allowed": true,
+          "ppc_policy": "Direct linking permesso verso singoli font, bundle grafici e piani All Access.",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "#ad In collaborazione con Creative Fabrica",
+          "priority_score": 7.5,
+          "epc_target": "$0.3000",
+          "verified_tracking_link": true
+        },
+        {
+          "merchant_id": "MER_349",
+          "name": "Envato Elements Direct",
+          "category_key": "graphics_video_design",
+          "subid": "hubhum_01_MER349",
+          "tracking_url": "https://elements.envato.com/affiliate-program?subid=hubhum_01_MER349",
+          "policy_url": "https://elements.envato.com/affiliate-program",
+          "network": "Impact",
+          "direct_linking_allowed": true,
+          "ppc_policy": "only_non_brand",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+          "priority_score": 98.0,
+          "epc_target": "$5.50",
+          "verified_tracking_link": false
+        },
+        {
+          "merchant_id": "MER_369",
+          "name": "Placeit by Envato",
+          "category_key": "graphics_video_design",
+          "subid": "hubhum_01_MER369",
+          "tracking_url": "https://placeit.net/affiliate?subid=hubhum_01_MER369",
+          "policy_url": "https://placeit.net/affiliate",
+          "network": "Impact",
+          "direct_linking_allowed": true,
+          "ppc_policy": "only_non_brand",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+          "priority_score": 97.0,
+          "epc_target": "$4.60",
+          "verified_tracking_link": false
+        }
+      ]
+    },
+    "webdev_wordpress": {
+      "label": "Websites & Publishing",
+      "human_tags": [
+        "wordpress",
+        "seo",
+        "websites",
+        "ecommerce",
+        "landing",
+        "productivity"
+      ],
+      "injection_message": "Build and optimize your website faster with industry-standard tools.",
+      "cta_label": "Explore website tools",
+      "i18n": {
+        "it": {
+          "injection_message": "Costruisci e ottimizza il tuo sito più velocemente con strumenti professionali.",
+          "cta_label": "Scopri gli strumenti web"
+        },
+        "es": {
+          "injection_message": "Crea y optimiza tu sitio web más rápido con herramientas estándar del sector.",
+          "cta_label": "Explorar herramientas web"
+        },
+        "fr": {
+          "injection_message": "Créez et optimisez votre site web plus rapidement avec des outils de référence.",
+          "cta_label": "Découvrir les outils web"
+        },
+        "de": {
+          "injection_message": "Erstellen und optimieren Sie Ihre Website schneller mit bewährten Standard-Tools.",
+          "cta_label": "Website-Tools entdecken"
+        }
+      },
+      "primary_merchant_id": "MER_276",
+      "merchants": [
+        {
+          "merchant_id": "MER_276",
+          "name": "Rank Math Direct",
+          "category_key": "webdev_wordpress",
+          "subid": "hubhum_01_MER276",
+          "tracking_url": "https://rankmath.com/affiliates/?subid=hubhum_01_MER276",
+          "policy_url": "https://rankmath.com/affiliates/",
+          "network": "Direct",
+          "direct_linking_allowed": true,
+          "ppc_policy": "only_non_brand",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+          "priority_score": 98.0,
+          "epc_target": "$4.30",
+          "verified_tracking_link": false
+        },
+        {
+          "merchant_id": "MER_265",
+          "name": "Elementor Pro Direct",
+          "category_key": "webdev_wordpress",
+          "subid": "hubhum_01_MER265",
+          "tracking_url": "https://elementor.com/affiliates/?subid=hubhum_01_MER265",
+          "policy_url": "https://elementor.com/affiliates/",
+          "network": "Impact",
+          "direct_linking_allowed": true,
+          "ppc_policy": "only_non_brand",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+          "priority_score": 98.0,
+          "epc_target": "$4.90",
+          "verified_tracking_link": false
+        },
+        {
+          "merchant_id": "MER_269",
+          "name": "WP Rocket Direct",
+          "category_key": "webdev_wordpress",
+          "subid": "hubhum_01_MER269",
+          "tracking_url": "https://wp-rocket.me/affiliate/?subid=hubhum_01_MER269",
+          "policy_url": "https://wp-rocket.me/affiliate/",
+          "network": "ShareASale",
+          "direct_linking_allowed": true,
+          "ppc_policy": "only_non_brand",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+          "priority_score": 97.0,
+          "epc_target": "$3.80",
+          "verified_tracking_link": false
+        },
+        {
+          "merchant_id": "MER_023",
+          "name": "ThemeIsle",
+          "category_key": "webdev_wordpress",
+          "subid": "hubhum_01_MER023",
+          "tracking_url": "https://themeisle.com/affiliates/?subid=hubhum_01_MER023",
+          "policy_url": "https://themeisle.com/affiliates/",
+          "network": "Dashboard Propria (AffiliateWP In-House)",
+          "direct_linking_allowed": true,
+          "ppc_policy": "Direct linking consentito con deeplink ai singoli temi (Neve, Hestia) e plugin.",
+          "brand_bidding_forbidden": true,
+          "disclosure_required": true,
+          "disclosure_text": "#ad In collaborazione con ThemeIsle",
+          "priority_score": 8.0,
+          "epc_target": "$0.0600",
+          "verified_tracking_link": false
+        }
+      ]
+    }
+  },
+  "merchants_by_id": {
+    "MER_047": {
+      "merchant_id": "MER_047",
+      "name": "PureVPN",
+      "category_key": "privacy_security",
+      "subid": "hubhum_01_MER047",
+      "tracking_url": "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047",
+      "policy_url": "https://billing.purevpn.com/aff.php?aff=49386762",
+      "network": "Dashboard Propria (In-House Dedicated)",
+      "direct_linking_allowed": true,
+      "ppc_policy": "Direct linking consentito su keyword VPN generiche (no brand bidding) con tracking subid.",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "#ad Promozione sponsorizzata PureVPN",
+      "priority_score": 5.5,
+      "epc_target": "$0.0600",
+      "verified_tracking_link": true
+    },
+    "MER_089": {
+      "merchant_id": "MER_089",
+      "name": "Surfshark VPN",
+      "category_key": "privacy_security",
+      "subid": "hubhum_01_MER089",
+      "tracking_url": "https://surfshark.com/affiliate?subid=hubhum_01_MER089",
+      "policy_url": "https://surfshark.com/affiliate",
+      "network": "Impact",
+      "direct_linking_allowed": true,
+      "ppc_policy": "only_non_brand",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+      "priority_score": 96.0,
+      "epc_target": "$1.85",
+      "verified_tracking_link": false
+    },
+    "MER_048": {
+      "merchant_id": "MER_048",
+      "name": "Private Internet Access",
+      "category_key": "privacy_security",
+      "subid": "hubhum_01_MER048",
+      "tracking_url": "https://www.privateinternetaccess.com/pages/affiliates?subid=hubhum_01_MER048",
+      "policy_url": "https://www.privateinternetaccess.com/pages/affiliates",
+      "network": "Dashboard Propria (In-House Dedicated)",
+      "direct_linking_allowed": true,
+      "ppc_policy": "Direct linking permesso su annunci di privacy e sicurezza online non-branded.",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "#ad Link sponsorizzato PIA VPN",
+      "priority_score": 5.5,
+      "epc_target": "$0.0900",
+      "verified_tracking_link": false
+    },
+    "MER_064": {
+      "merchant_id": "MER_064",
+      "name": "TorGuard",
+      "category_key": "privacy_security",
+      "subid": "hubhum_01_MER064",
+      "tracking_url": "https://torguard.net/affiliates.php?subid=hubhum_01_MER064",
+      "policy_url": "https://torguard.net/affiliates.php",
+      "network": "In-House / WHMCS",
+      "direct_linking_allowed": true,
+      "ppc_policy": "Consentito su query generiche privacy/vpn (no brand bidding)",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "Affiliate Link: Potremmo ricevere un compenso per i prodotti acquistati tramite questo link.",
+      "priority_score": 9.2,
+      "epc_target": "$0.95",
+      "verified_tracking_link": false
+    },
+    "MER_008": {
+      "merchant_id": "MER_008",
+      "name": "InterServer",
+      "category_key": "webapp_cms",
+      "subid": "hubhum_01_MER008",
+      "tracking_url": "https://www.interserver.net/r/1196747?id=hubhum_01_MER008",
+      "policy_url": "https://www.interserver.net/affiliates.html",
+      "network": "Dashboard Propria (In-House)",
+      "direct_linking_allowed": true,
+      "ppc_policy": "Direct linking consentito su keyword di hosting generiche; vietato l'uso del brand name nei termini di ricerca.",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "#ad Promozione sponsorizzata InterServer",
+      "priority_score": 8.0,
+      "epc_target": "$0.0800",
+      "verified_tracking_link": true
+    },
+    "MER_009": {
+      "merchant_id": "MER_009",
+      "name": "ScalaHosting",
+      "category_key": "webapp_cms",
+      "subid": "hubhum_01_MER009",
+      "tracking_url": "https://www.scalahosting.com/affiliate-program.html?subid=hubhum_01_MER009",
+      "policy_url": "https://www.scalahosting.com/affiliate-program.html",
+      "network": "Dashboard Propria (In-House)",
+      "direct_linking_allowed": true,
+      "ppc_policy": "Direct linking permesso su campagne search non-brand; supporta deeplinking a specifiche configurazioni VPS.",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "#ad Link affiliato ScalaHosting",
+      "priority_score": 8.0,
+      "epc_target": "$0.0780",
+      "verified_tracking_link": false
+    },
+    "MER_014": {
+      "merchant_id": "MER_014",
+      "name": "RoseHosting",
+      "category_key": "webapp_cms",
+      "subid": "hubhum_01_MER014",
+      "tracking_url": "https://www.rosehosting.com/affiliate-program.html?subid=hubhum_01_MER014",
+      "policy_url": "https://www.rosehosting.com/affiliate-program.html",
+      "network": "Dashboard Propria (In-House)",
+      "direct_linking_allowed": true,
+      "ppc_policy": "Direct linking consentito su keyword hosting Linux e VPS non-branded.",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "#ad Partner RoseHosting",
+      "priority_score": 5.5,
+      "epc_target": "$0.1000",
+      "verified_tracking_link": false
+    },
+    "MER_349": {
+      "merchant_id": "MER_349",
+      "name": "Envato Elements Direct",
+      "category_key": "graphics_video_design",
+      "subid": "hubhum_01_MER349",
+      "tracking_url": "https://elements.envato.com/affiliate-program?subid=hubhum_01_MER349",
+      "policy_url": "https://elements.envato.com/affiliate-program",
+      "network": "Impact",
+      "direct_linking_allowed": true,
+      "ppc_policy": "only_non_brand",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+      "priority_score": 98.0,
+      "epc_target": "$5.50",
+      "verified_tracking_link": false
+    },
+    "MER_054": {
+      "merchant_id": "MER_054",
+      "name": "Creative Fabrica",
+      "category_key": "graphics_video_design",
+      "subid": "hubhum_01_MER054",
+      "tracking_url": "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054",
+      "policy_url": "https://www.creativefabrica.com/affiliate-program/",
+      "network": "Dashboard Propria (In-House)",
+      "direct_linking_allowed": true,
+      "ppc_policy": "Direct linking permesso verso singoli font, bundle grafici e piani All Access.",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "#ad In collaborazione con Creative Fabrica",
+      "priority_score": 7.5,
+      "epc_target": "$0.3000",
+      "verified_tracking_link": true
+    },
+    "MER_369": {
+      "merchant_id": "MER_369",
+      "name": "Placeit by Envato",
+      "category_key": "graphics_video_design",
+      "subid": "hubhum_01_MER369",
+      "tracking_url": "https://placeit.net/affiliate?subid=hubhum_01_MER369",
+      "policy_url": "https://placeit.net/affiliate",
+      "network": "Impact",
+      "direct_linking_allowed": true,
+      "ppc_policy": "only_non_brand",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+      "priority_score": 97.0,
+      "epc_target": "$4.60",
+      "verified_tracking_link": false
+    },
+    "MER_269": {
+      "merchant_id": "MER_269",
+      "name": "WP Rocket Direct",
+      "category_key": "webdev_wordpress",
+      "subid": "hubhum_01_MER269",
+      "tracking_url": "https://wp-rocket.me/affiliate/?subid=hubhum_01_MER269",
+      "policy_url": "https://wp-rocket.me/affiliate/",
+      "network": "ShareASale",
+      "direct_linking_allowed": true,
+      "ppc_policy": "only_non_brand",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+      "priority_score": 97.0,
+      "epc_target": "$3.80",
+      "verified_tracking_link": false
+    },
+    "MER_276": {
+      "merchant_id": "MER_276",
+      "name": "Rank Math Direct",
+      "category_key": "webdev_wordpress",
+      "subid": "hubhum_01_MER276",
+      "tracking_url": "https://rankmath.com/affiliates/?subid=hubhum_01_MER276",
+      "policy_url": "https://rankmath.com/affiliates/",
+      "network": "Direct",
+      "direct_linking_allowed": true,
+      "ppc_policy": "only_non_brand",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+      "priority_score": 98.0,
+      "epc_target": "$4.30",
+      "verified_tracking_link": false
+    },
+    "MER_265": {
+      "merchant_id": "MER_265",
+      "name": "Elementor Pro Direct",
+      "category_key": "webdev_wordpress",
+      "subid": "hubhum_01_MER265",
+      "tracking_url": "https://elementor.com/affiliates/?subid=hubhum_01_MER265",
+      "policy_url": "https://elementor.com/affiliates/",
+      "network": "Impact",
+      "direct_linking_allowed": true,
+      "ppc_policy": "only_non_brand",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "Link sponsorizzato: potremmo ricevere una commissione senza costi aggiuntivi per te.",
+      "priority_score": 98.0,
+      "epc_target": "$4.90",
+      "verified_tracking_link": false
+    },
+    "MER_023": {
+      "merchant_id": "MER_023",
+      "name": "ThemeIsle",
+      "category_key": "webdev_wordpress",
+      "subid": "hubhum_01_MER023",
+      "tracking_url": "https://themeisle.com/affiliates/?subid=hubhum_01_MER023",
+      "policy_url": "https://themeisle.com/affiliates/",
+      "network": "Dashboard Propria (AffiliateWP In-House)",
+      "direct_linking_allowed": true,
+      "ppc_policy": "Direct linking consentito con deeplink ai singoli temi (Neve, Hestia) e plugin.",
+      "brand_bidding_forbidden": true,
+      "disclosure_required": true,
+      "disclosure_text": "#ad In collaborazione con ThemeIsle",
+      "priority_score": 8.0,
+      "epc_target": "$0.0600",
+      "verified_tracking_link": false
+    }
+  }
+}

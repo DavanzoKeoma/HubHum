@@ -1,0 +1,290 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AppCard from '../components/AppCard.astro';
+import { withBase } from '../lib/url';
+import { CATEGORY_I18N_KEY } from '../i18n/translations';
+
+const allApps = await getCollection('apps');
+const sortedApps = [...allApps].sort((a, b) => (b.data.stars || 0) - (a.data.stars || 0));
+
+// Strict rule: Top Picks includes ONLY top 3 apps with stars > 0 (never 0-star items like MetaMesh-UGA or HubHum)
+const topPicks = sortedApps.filter((app) => (app.data.stars || 0) > 0).slice(0, 3);
+const topPickSlugs = new Set(topPicks.map((app) => app.data.slug));
+const deduplicateCatalog = allApps.length <= 9;
+
+const allBundles = await getCollection('bundles');
+
+const categories = [
+  'All',
+  'Productivity',
+  'Security & Privacy',
+  'Graphics & Design',
+  'Video & Audio',
+  'Web Apps & Cloud',
+  'Websites & SEO',
+];
+---
+
+<BaseLayout
+  title="HubHum — Powerful Free Software, Zero Tech Jargon"
+  description="Hand-picked selection of the best free and open-source software explained without technical jargon."
+>
+  <section class="hero container">
+    <div class="hero-badge">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 3l1.9 5.8L20 10.7l-5.8 1.9L12 19l-1.9-5.8L4 11.3l5.8-1.9L12 3z"></path>
+      </svg>
+      <span data-i18n="eyebrow">Hand-picked selection of the best free software</span>
+    </div>
+
+    <h1 data-i18n="heroTitle">Powerful free software, zero tech jargon</h1>
+    <p data-i18n="heroSubtitle">
+      No complicated terms. Find out what each program really does and download the official version right away.
+    </p>
+
+    <div class="search-box-wrap">
+      <span class="search-icon" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </span>
+      <input
+        id="hubhum-search"
+        class="search-input"
+        type="search"
+        placeholder="Search by name or task (e.g., video, passwords...)"
+        aria-label="Search software catalog"
+        data-i18n-placeholder="searchPlaceholder"
+        data-i18n-aria="searchAriaLabel"
+      />
+    </div>
+
+    <div
+      class="category-pills"
+      role="group"
+      aria-label="Filter by category"
+      data-i18n-aria="categoriesLabel"
+    >
+      {categories.map((cat, idx) => (
+        <button
+          type="button"
+          class="pill"
+          aria-pressed={idx === 0 ? 'true' : 'false'}
+          data-category-btn={cat}
+          data-i18n={CATEGORY_I18N_KEY[cat]}
+        >
+          {cat}
+        </button>
+      ))}
+    </div>
+  </section>
+
+  {topPicks.length > 0 && (
+    <section id="top-picks" class="section-block container">
+      <div class="section-head">
+        <h2 data-i18n="topPicksHeading">Top Picks This Week</h2>
+        <span class="section-sub" data-i18n="topPicksSub">Most trusted apps chosen by the community</span>
+      </div>
+      <div class="top-picks-track">
+        {topPicks.map((app) => (
+          <AppCard
+            slug={app.data.slug}
+            title={app.data.title}
+            summary={app.data.summary}
+            category={app.data.category}
+            tags={app.data.tags}
+            isWebapp={app.data.is_webapp}
+            stars={app.data.stars}
+            icon={app.data.icon}
+            i18n={app.data.i18n}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section-block container">
+    <div class="section-head">
+      <h2 data-i18n="allSoftwareHeading">All Software</h2>
+      <span class="section-sub" id="catalog-count">
+        {deduplicateCatalog ? sortedApps.length - topPicks.length : sortedApps.length} apps available
+      </span>
+    </div>
+    <div class="apps-grid" id="catalog-grid" data-dedup={deduplicateCatalog ? 'true' : 'false'}>
+      {sortedApps.map((app) => {
+        const isTopPick = topPickSlugs.has(app.data.slug);
+        return (
+          <AppCard
+            slug={app.data.slug}
+            title={app.data.title}
+            summary={app.data.summary}
+            category={app.data.category}
+            tags={app.data.tags}
+            isWebapp={app.data.is_webapp}
+            stars={app.data.stars}
+            icon={app.data.icon}
+            i18n={app.data.i18n}
+            isTopPick={isTopPick}
+          />
+        );
+      })}
+    </div>
+    <p id="empty-search-msg" style="display:none; color: var(--text-muted); margin-top: 1rem;" data-i18n="emptySearch">
+      No apps match your search. Try another keyword or submit a link below.
+    </p>
+  </section>
+
+  {allBundles.length > 0 && (
+    <section class="section-block container">
+      <div class="section-head">
+        <h2 data-i18n="guidesHeading">Curated Guides</h2>
+        <span class="section-sub" data-i18n="guidesSub">Practical roundups to help you pick the right free tool</span>
+      </div>
+      <div class="apps-grid">
+        {allBundles.map((bundle) => (
+          <a
+            href={withBase(`/bundles/${bundle.data.slug}`)}
+            class="app-card"
+            aria-label={`Read guide: ${bundle.data.title}`}
+          >
+            <div>
+              <div class="app-card-top">
+                <img
+                  src={withBase('/icons/hubhum.svg')}
+                  alt=""
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                  decoding="async"
+                  class="app-logo"
+                  aria-hidden="true"
+                />
+                <span class="mode-badge">{bundle.data.category}</span>
+              </div>
+              <h3 class="app-title">{bundle.data.title}</h3>
+              <p class="app-summary">{bundle.data.summary}</p>
+            </div>
+            <div class="app-card-foot">
+              <span>
+                {bundle.data.app_slugs.length} <span data-i18n="guideAppsIncluded">apps included</span>
+              </span>
+              <span class="card-cta" data-i18n="guideReadMore">Read guide →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section id="submit" class="container">
+    <div class="translate-panel">
+      <h2 style="margin-top:0; margin-bottom:0.35rem;" data-i18n="submitTitle">Submit an App</h2>
+      <p style="margin:0; color:var(--text-muted);" data-i18n="submitDesc">
+        Paste any GitHub URL to add a plain-English guide to HubHum
+      </p>
+      <form id="async-translate-form" class="translate-form">
+        <input
+          id="repo-url-input"
+          class="translate-input"
+          type="url"
+          required
+          placeholder="https://github.com/author/app-name"
+          aria-label="Project GitHub URL"
+          data-i18n-placeholder="submitPlaceholder"
+        />
+        <button type="submit" class="btn btn-primary" data-i18n="submitBtn">Submit App</button>
+      </form>
+      <div id="translate-status" class="status-banner" role="status" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <script>
+    import { requestAsyncTranslation } from '../lib/github-oauth';
+    import { TRANSLATIONS, type SupportedLang } from '../i18n/translations';
+
+    const searchInput = document.getElementById('hubhum-search') as HTMLInputElement | null;
+    const categoryButtons = document.querySelectorAll<HTMLButtonElement>('[data-category-btn]');
+    const catalogGrid = document.getElementById('catalog-grid');
+    const catalogCards = catalogGrid ? catalogGrid.querySelectorAll<HTMLElement>('[data-app-card]') : [];
+    const catalogCount = document.getElementById('catalog-count');
+    const emptyMsg = document.getElementById('empty-search-msg');
+    const topPicksSection = document.getElementById('top-picks');
+    const shouldDedup = catalogGrid?.dataset.dedup === 'true';
+
+    let selectedCategory = 'All';
+
+    function getActiveDict() {
+      const lang = (document.documentElement.lang || 'en') as SupportedLang;
+      return TRANSLATIONS[lang] || TRANSLATIONS.en;
+    }
+
+    function filterCatalog() {
+      const q = (searchInput?.value || '').trim().toLowerCase();
+      const isDefaultView = !q && selectedCategory === 'All';
+      let visibleCount = 0;
+
+      if (topPicksSection) {
+        topPicksSection.style.display = isDefaultView ? 'block' : 'none';
+      }
+
+      catalogCards.forEach((card) => {
+        const cardCat = card.dataset.category || '';
+        const cardSearch = card.dataset.search || '';
+        const isTopPick = card.dataset.topPick === 'true';
+        const hideDuplicate = isDefaultView && shouldDedup && isTopPick;
+
+        const matchesCat = selectedCategory === 'All' || cardCat === selectedCategory;
+        const matchesQuery = !q || cardSearch.includes(q);
+        const show = !hideDuplicate && matchesCat && matchesQuery;
+        card.style.display = show ? 'flex' : 'none';
+        if (show) visibleCount += 1;
+      });
+
+      const dict = getActiveDict();
+      if (catalogCount) {
+        catalogCount.textContent = `${visibleCount} ${dict.appsAvailableSuffix}`;
+      }
+      if (emptyMsg) {
+        emptyMsg.style.display = visibleCount === 0 ? 'block' : 'none';
+      }
+    }
+
+    filterCatalog();
+    window.addEventListener('hubhum:langchange', filterCatalog);
+    searchInput?.addEventListener('input', filterCatalog);
+
+    categoryButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        categoryButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
+        btn.setAttribute('aria-pressed', 'true');
+        selectedCategory = btn.dataset.categoryBtn || 'All';
+        filterCatalog();
+      });
+    });
+
+    const translateForm = document.getElementById('async-translate-form') as HTMLFormElement | null;
+    const urlInput = document.getElementById('repo-url-input') as HTMLInputElement | null;
+    const statusBox = document.getElementById('translate-status');
+
+    translateForm?.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      if (!urlInput || !statusBox) return;
+      const dict = getActiveDict();
+      const result = await requestAsyncTranslation(urlInput.value);
+      statusBox.textContent = result.accepted ? dict.submitSuccess : dict.submitInvalidUrl;
+      statusBox.classList.add('visible');
+      if (result.accepted && result.mode === 'issue_redirect' && result.targetUrl) {
+        const confirmLink = document.createElement('a');
+        confirmLink.href = result.targetUrl;
+        confirmLink.target = '_blank';
+        confirmLink.rel = 'noopener noreferrer';
+        confirmLink.textContent = ` ${dict.submitConfirmLink}`;
+        confirmLink.style.fontWeight = '700';
+        confirmLink.style.marginLeft = '0.4rem';
+        statusBox.appendChild(confirmLink);
+      }
+    });
+  </script>
+</BaseLayout>
