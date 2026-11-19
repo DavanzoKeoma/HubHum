@@ -16,17 +16,18 @@ from vault_loader import get_secret
 GITHUB_API_BASE = "https://api.github.com"
 USER_AGENT = "HubHum-Bot/1.0 (DavanzoKeoma; keomadavanzo@gmail.com)"
 MAX_README_LINES = 500
-MIN_STARS = 500
+MIN_STARS = 200
 
 CONSUMER_TOPICS = (
-    "windows",
-    "macos",
     "utility",
-    "video-editor",
     "productivity",
+    "video-editor",
     "password-manager",
     "self-hosted",
-    "cms",
+    "audio-player",
+    "markdown-editor",
+    "windows",
+    "macos",
     "design",
 )
 
@@ -39,6 +40,10 @@ DEV_LIBRARY_KEYWORDS = (
     "python package",
     "compiler",
     "framework for developers",
+    "curated list",
+    "awesome list",
+    "cheatsheet",
+    "interview questions",
 )
 
 TECH_JARGON_TAGS = {
@@ -194,10 +199,13 @@ def classify_repo(description: str, topics: list[str], readme: str, release_asse
 
 
 def is_consumer_repo(repo: dict) -> bool:
-    """Enforce NO-FORK, >500 stars, license compatibility, and exclude dev-only libraries."""
+    """Enforce NO-FORK, >200 stars, license compatibility, and exclude dev-only libraries or list repos."""
     if repo.get("fork") is True:
         return False
     if int(repo.get("stargazers_count") or 0) <= MIN_STARS:
+        return False
+    name_low = (repo.get("name") or "").lower()
+    if name_low == "awesome" or name_low.startswith("awesome-"):
         return False
     desc = (repo.get("description") or "").lower()
     if any(kw in desc for kw in DEV_LIBRARY_KEYWORDS):
@@ -362,28 +370,41 @@ def fetch_repo_by_url(repo_url: str, token: str | None = None) -> ScoutedRepo:
 
 
 def scout_trending_consumer_apps(limit: int = 15, token: str | None = None) -> list[ScoutedRepo]:
-    """Query GitHub Search API for popular non-fork consumer repositories (>500 stars)."""
+    """Query GitHub Search API across consumer topics (OR semantics per query) for non-fork apps >200 stars."""
     if token is None:
         token = get_secret("dev.github", "pat", "GITHUB_TOKEN")
 
-    topic_query = " ".join(f"topic:{t}" for t in CONSUMER_TOPICS[:4])
-    q = urllib.parse.quote(f"stars:>{MIN_STARS} fork:false archived:false ({topic_query})")
-    url = f"{GITHUB_API_BASE}/search/repositories?q={q}&sort=stars&order=desc&per_page={min(limit * 2, 40)}"
-    data = _github_get_json(url, token=token)
-
+    project_root = Path(__file__).resolve().parent.parent
+    existing_slugs = {p.stem.lower() for p in (project_root / "content" / "apps").glob("*.md")}
+    seen_full_names: set[str] = set()
     results: list[ScoutedRepo] = []
-    for item in data.get("items", []):
-        if not is_consumer_repo(item):
-            continue
-        owner = item["owner"]["login"]
-        name = item["name"]
+
+    for topic in CONSUMER_TOPICS:
+        q = urllib.parse.quote(f"topic:{topic} stars:>{MIN_STARS} fork:false archived:false")
+        url = f"{GITHUB_API_BASE}/search/repositories?q={q}&sort=stars&order=desc&per_page=15"
         try:
-            bundle = fetch_repo_bundle(owner, name, token=token)
-            results.append(bundle)
+            data = _github_get_json(url, token=token)
         except Exception:
             continue
-        if len(results) >= limit:
-            break
+
+        for item in data.get("items", []):
+            full_name = item.get("full_name") or ""
+            repo_name = item.get("name") or ""
+            slug = re.sub(r"[^a-z0-9-]+", "-", repo_name.lower()).strip("-")
+            if not full_name or full_name in seen_full_names or slug in existing_slugs:
+                continue
+            seen_full_names.add(full_name)
+            if not is_consumer_repo(item):
+                continue
+            owner = item["owner"]["login"]
+            try:
+                bundle = fetch_repo_bundle(owner, repo_name, token=token)
+                existing_slugs.add(bundle.slug)
+                results.append(bundle)
+            except Exception:
+                continue
+            if len(results) >= limit:
+                return results
     return results
 
 

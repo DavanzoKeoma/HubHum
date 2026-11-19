@@ -12,6 +12,106 @@ from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_PATH = PROJECT_ROOT / "data" / "affiliates_seed.json"
 
+CONSUMER_BASE_URLS: dict[str, str] = {
+    "MER_047": "https://billing.purevpn.com/aff.php?aff=49386762",
+    "MER_089": "https://surfshark.com/",
+    "MER_048": "https://www.privateinternetaccess.com/",
+    "MER_064": "https://torguard.net/",
+    "MER_008": "https://www.interserver.net/r/1196747?id={clickid}",
+    "MER_009": "https://www.scalahosting.com/",
+    "MER_014": "https://www.rosehosting.com/",
+    "MER_054": "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=[clickid]",
+    "MER_349": "https://elements.envato.com/",
+    "MER_369": "https://placeit.net/",
+    "MER_269": "https://wp-rocket.me/",
+    "MER_276": "https://rankmath.com/",
+    "MER_265": "https://elementor.com/",
+    "MER_023": "https://themeisle.com/",
+}
+
+TRIPLET_DEFINITIONS: dict[str, list[dict[str, str]]] = {
+    "privacy_security": [
+        {
+            "merchant_id": "MER_047",
+            "context_role": "connection_privacy",
+            "section_hint": "### How to install (Download)",
+            "tip_template": "Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_008",
+            "context_role": "private_cloud_backup",
+            "section_hint": "### What it does in plain English",
+            "tip_template": "For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_054",
+            "context_role": "productivity_assets",
+            "section_hint": "### Key features",
+            "tip_template": "Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica]({url}) (#ad).",
+        },
+    ],
+    "graphics_video_design": [
+        {
+            "merchant_id": "MER_054",
+            "context_role": "fonts_templates",
+            "section_hint": "### Key features",
+            "tip_template": "Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_349",
+            "context_role": "stock_media",
+            "section_hint": "### What it does in plain English",
+            "tip_template": "When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_047",
+            "context_role": "fast_private_transfers",
+            "section_hint": "### How to install (Download)",
+            "tip_template": "Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN]({url}) (#ad).",
+        },
+    ],
+    "webapp_cms": [
+        {
+            "merchant_id": "MER_008",
+            "context_role": "managed_cloud_hosting",
+            "section_hint": "### How to install (Download)",
+            "tip_template": "Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_276",
+            "context_role": "seo_visibility",
+            "section_hint": "### Key features",
+            "tip_template": "Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_047",
+            "context_role": "admin_session_security",
+            "section_hint": "### What it does in plain English",
+            "tip_template": "Protect remote administrator dashboards when managing your site on the go with [PureVPN]({url}) (#ad).",
+        },
+    ],
+    "webdev_wordpress": [
+        {
+            "merchant_id": "MER_276",
+            "context_role": "seo_growth",
+            "section_hint": "### Key features",
+            "tip_template": "Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_269",
+            "context_role": "page_speed_caching",
+            "section_hint": "### What it does in plain English",
+            "tip_template": "Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_008",
+            "context_role": "reliable_cloud_hosting",
+            "section_hint": "### How to install (Download)",
+            "tip_template": "Run your finished project on dependable, budget-friendly cloud hosting via [InterServer]({url}) (#ad).",
+        },
+    ],
+}
+
 CATEGORY_MAPPING: dict[str, dict[str, object]] = {
     "privacy_security": {
         "label": "Privacy, Torrenting & Security",
@@ -116,7 +216,10 @@ CATEGORY_MAPPING: dict[str, dict[str, object]] = {
 }
 
 TARGET_MERCHANT_IDS = tuple(
-    mid for cfg in CATEGORY_MAPPING.values() for mid in cfg["merchant_ids"]  # type: ignore[index]
+    dict.fromkeys(
+        [mid for cfg in CATEGORY_MAPPING.values() for mid in cfg["merchant_ids"]]  # type: ignore[index]
+        + [item["merchant_id"] for items in TRIPLET_DEFINITIONS.values() for item in items]
+    )
 )
 
 
@@ -127,7 +230,7 @@ def build_subid(merchant_id: str) -> str:
 
 
 def apply_subid_to_url(raw_url: str, subid: str) -> str:
-    """Inject the HubHum SubID into a tracked affiliate template or fallback URL."""
+    """Inject the HubHum SubID into a tracked affiliate template or consumer landing URL."""
     if not raw_url:
         return ""
     if "[clickid]" in raw_url:
@@ -143,7 +246,7 @@ def apply_subid_to_url(raw_url: str, subid: str) -> str:
 
 
 def fetch_merchants_from_db(db_path: Path) -> tuple[dict[str, dict], dict[str, dict]]:
-    """Read target merchants and active link configs in read-only mode."""
+    """Read target merchants and active link configs in read-only mode, auditing direct-link policy."""
     uri = f"file:{db_path.as_posix()}?mode=ro"
     conn = sqlite3.connect(uri, uri=True)
     conn.row_factory = sqlite3.Row
@@ -153,7 +256,7 @@ def fetch_merchants_from_db(db_path: Path) -> tuple[dict[str, dict], dict[str, d
         merchant_rows = cur.execute(
             f"""
             SELECT ID_Merchant, Nome, Network_Affiliazione, Categoria,
-                   Direct_Linking_Permesso, PPC_Policy, URL_Policy,
+                   Direct_Linking_Permesso, Richiede_Bridge_Page, PPC_Policy, URL_Policy,
                    Disclosure_Richiesta, Testo_Disclosure_Consigliato,
                    Commissione_Media, Priorita_Score, EPC_Target, Status_URL
             FROM Merchant
@@ -178,47 +281,72 @@ def fetch_merchants_from_db(db_path: Path) -> tuple[dict[str, dict], dict[str, d
         conn.close()
 
 
+def _build_merchant_entry(mid: str, cat_key: str, m: dict, link_cfg: dict | None) -> dict:
+    direct_ok = m["Direct_Linking_Permesso"] == "Sì"
+    bridge_ok = (m.get("Richiede_Bridge_Page") or "No") == "No"
+    if not (direct_ok and bridge_ok):
+        raise RuntimeError(
+            f"Policy Direct-Link violata per {mid} ({m['Nome']}): "
+            f"Direct_Linking={m['Direct_Linking_Permesso']}, Bridge={m.get('Richiede_Bridge_Page')}"
+        )
+
+    subid = build_subid(mid)
+    raw_template = link_cfg["URL_Affiliato"] if link_cfg else CONSUMER_BASE_URLS.get(mid, m["URL_Policy"])
+    tracking_url = apply_subid_to_url(raw_template, subid)
+    has_verified_tracking = bool(link_cfg) or ("aff=" in (m.get("URL_Policy") or ""))
+
+    return {
+        "merchant_id": mid,
+        "name": m["Nome"],
+        "category_key": cat_key,
+        "subid": subid,
+        "tracking_url": tracking_url,
+        "policy_url": m["URL_Policy"],
+        "network": m["Network_Affiliazione"],
+        "direct_linking_allowed": True,
+        "bridge_page_required": False,
+        "ppc_policy": m["PPC_Policy"],
+        "brand_bidding_forbidden": True,
+        "disclosure_required": True,
+        "disclosure_text": m["Testo_Disclosure_Consigliato"],
+        "priority_score": float(m["Priorita_Score"] or 0),
+        "epc_target": m["EPC_Target"],
+        "verified_tracking_link": has_verified_tracking,
+    }
+
+
 def build_seed_payload(db_path: Path) -> dict:
-    """Build the clean, secret-free affiliates_seed.json structure."""
+    """Build the clean, secret-free affiliates_seed.json structure with 3-link contextual triplets."""
     merchants, active_links = fetch_merchants_from_db(db_path)
 
     categories_out: dict[str, dict] = {}
     merchants_index: dict[str, dict] = {}
 
+    for mid in TARGET_MERCHANT_IDS:
+        m = merchants.get(mid)
+        if not m:
+            raise RuntimeError(f"Merchant {mid} non trovato nel database {db_path}")
+        cat_key = next((ck for ck, cfg in CATEGORY_MAPPING.items() if mid in cfg["merchant_ids"]), "webapp_cms")  # type: ignore[operator]
+        merchants_index[mid] = _build_merchant_entry(mid, cat_key, m, active_links.get(mid))
+
     for cat_key, cat_cfg in CATEGORY_MAPPING.items():
-        cat_merchants = []
-        for mid in cat_cfg["merchant_ids"]:  # type: ignore[index]
-            m = merchants.get(mid)
-            if not m:
-                raise RuntimeError(f"Merchant {mid} non trovato nel database {db_path}")
-
-            subid = build_subid(mid)
-            link_cfg = active_links.get(mid)
-            raw_template = link_cfg["URL_Affiliato"] if link_cfg else m["URL_Policy"]
-            tracking_url = apply_subid_to_url(raw_template, subid)
-            has_verified_tracking = bool(link_cfg) or ("aff=" in (m.get("URL_Policy") or ""))
-
-            entry = {
-                "merchant_id": mid,
-                "name": m["Nome"],
-                "category_key": cat_key,
-                "subid": subid,
-                "tracking_url": tracking_url,
-                "policy_url": m["URL_Policy"],
-                "network": m["Network_Affiliazione"],
-                "direct_linking_allowed": m["Direct_Linking_Permesso"] == "Sì",
-                "ppc_policy": m["PPC_Policy"],
-                "brand_bidding_forbidden": True,
-                "disclosure_required": True,
-                "disclosure_text": m["Testo_Disclosure_Consigliato"],
-                "priority_score": float(m["Priorita_Score"] or 0),
-                "epc_target": m["EPC_Target"],
-                "verified_tracking_link": has_verified_tracking,
-            }
-            cat_merchants.append(entry)
-            merchants_index[mid] = entry
-
+        cat_merchants = [merchants_index[mid] for mid in cat_cfg["merchant_ids"]]  # type: ignore[index]
         cat_merchants.sort(key=lambda x: (x["verified_tracking_link"], x["priority_score"]), reverse=True)
+
+        triplet_out = []
+        for tdef in TRIPLET_DEFINITIONS[cat_key]:
+            m_entry = merchants_index[tdef["merchant_id"]]
+            triplet_out.append(
+                {
+                    "merchant_id": m_entry["merchant_id"],
+                    "name": m_entry["name"],
+                    "tracking_url": m_entry["tracking_url"],
+                    "subid": m_entry["subid"],
+                    "context_role": tdef["context_role"],
+                    "section_hint": tdef["section_hint"],
+                    "natural_tip": tdef["tip_template"].format(url=m_entry["tracking_url"]),
+                }
+            )
 
         categories_out[cat_key] = {
             "label": cat_cfg["label"],
@@ -228,13 +356,15 @@ def build_seed_payload(db_path: Path) -> dict:
             "i18n": cat_cfg["i18n"],
             "primary_merchant_id": cat_merchants[0]["merchant_id"],
             "merchants": cat_merchants,
+            "recommended_triplet": triplet_out,
         }
 
     return {
-        "schema_version": "1.1",
+        "schema_version": "1.2",
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "hubhum-curated-catalog-v1",
+        "source": "hubhum-curated-catalog-v2",
         "subid_prefix": "hubhum_01_",
+        "direct_link_policy_audited": True,
         "compliance": {
             "ftc_disclosure_en": (
                 "Affiliate transparency (#ad): Some links on HubHum are affiliate links. "
@@ -260,7 +390,7 @@ def main() -> None:
     payload = build_seed_payload(db_path)
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Exported {payload['total_merchants']} merchants to {OUTPUT_PATH}")
+    print(f"Exported {payload['total_merchants']} merchants (policy audited, 3x triplets) to {OUTPUT_PATH}")
 
 
 if __name__ == "__main__":

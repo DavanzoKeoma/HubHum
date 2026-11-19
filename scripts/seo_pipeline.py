@@ -11,7 +11,7 @@ from pathlib import Path
 from ai_router import AllTiersFailedError, generate_card_with_cascade
 from generate_catalog_index import write_catalog_index
 from scouter import ScoutedRepo, classify_repo, fetch_repo_by_url, scout_trending_consumer_apps
-from validator_sanitizer import sanitize_full_document, split_frontmatter, validate_markdown_card
+from validator_sanitizer import ensure_triplet_links_in_body, sanitize_full_document, split_frontmatter, validate_markdown_card
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_APPS_DIR = PROJECT_ROOT / "content" / "apps"
@@ -32,11 +32,12 @@ def save_json_file(path: Path, payload: object) -> None:
 
 
 def select_affiliate_for_repo(repo: ScoutedRepo, affiliates_data: dict) -> dict:
-    """Pick the top-priority merchant matching the repository category."""
+    """Pick the top-priority merchant and 3-link contextual triplet matching the repository category."""
     _, _, aff_cat_key = classify_repo(repo.description, repo.topics, repo.readme_excerpt, repo.release_assets)
     cat_block = affiliates_data.get("categories", {}).get(aff_cat_key) or affiliates_data["categories"]["webapp_cms"]
     primary_id = cat_block["primary_merchant_id"]
     merchant = affiliates_data["merchants_by_id"][primary_id]
+    triplet = cat_block.get("recommended_triplet") or []
     return {
         "category_key": aff_cat_key,
         "category_label": cat_block["label"],
@@ -47,7 +48,49 @@ def select_affiliate_for_repo(repo: ScoutedRepo, affiliates_data: dict) -> dict:
         "tracking_url": merchant["tracking_url"],
         "subid": merchant["subid"],
         "disclosure_text": merchant["disclosure_text"],
+        "recommended_triplet": triplet,
     }
+
+
+def ensure_triplet_links_in_body(body: str, triplet: list[dict]) -> str:
+    """Ensure at least 3 distinct contextual affiliate links from the triplet appear naturally across sections."""
+    if not triplet:
+        return body
+
+    updated = body
+    present_subids = set(re.findall(r"hubhum_01_MER\d+", updated))
+    if len(present_subids) >= 3:
+        return updated
+
+    for item in triplet:
+        subid = str(item.get("subid") or "")
+        url = str(item.get("tracking_url") or "")
+        tip = str(item.get("natural_tip") or "").strip()
+        heading = str(item.get("section_hint") or "### How to install (Download)")
+        if not tip or (subid and subid in updated) or (url and url in updated):
+            continue
+
+        is_bullet_section = heading in ("### Key features", "### Who it's for")
+        insertion = f"* {tip}" if is_bullet_section else tip
+
+        if heading in updated:
+            parts = updated.split(heading, 1)
+            after = parts[1]
+            next_h_match = re.search(r"\n### |\n\[Official Source / Credits\]", after)
+            if next_h_match:
+                split_pos = next_h_match.start()
+                sec_content = after[:split_pos].rstrip()
+                tail = after[split_pos:]
+                updated = f"{parts[0]}{heading}{sec_content}\n\n{insertion}\n{tail.lstrip(chr(10))}"
+            else:
+                updated = f"{parts[0]}{heading}{after.rstrip()}\n\n{insertion}\n"
+        else:
+            updated = f"{updated.rstrip()}\n\n{insertion}\n"
+
+        if len(set(re.findall(r"hubhum_01_MER\d+", updated))) >= 3:
+            break
+
+    return updated
 
 
 def _clean_sentence(text: str, fallback: str) -> str:
@@ -113,7 +156,8 @@ def enrich_frontmatter(markdown_text: str, repo: ScoutedRepo, aff: dict, provide
             "---",
         ]
     )
-    return sanitize_full_document(f"{frontmatter}\n\n{body}\n")
+    enriched_body = ensure_triplet_links_in_body(body, aff.get("recommended_triplet") or [])
+    return sanitize_full_document(f"{frontmatter}\n\n{enriched_body}\n")
 
 
 def enqueue_retry(repo: ScoutedRepo, reason: str) -> None:

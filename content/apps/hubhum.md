@@ -34,7 +34,7 @@ i18n:
 ---
 
 ### What it does in plain English
-HubHum turns complicated software pages meant for programmers into a clean, friendly catalog anyone can understand. Every listing explains what an app solves in real life, who it helps, and gives you direct links to the official installer without tracking or ads. It updates automatically and adapts to your browser language across English, Italian, Spanish, French, and German.
+HubHum turns complicated software pages meant for programmers into a clean, friendly catalog anyone can understand. Every listing explains what an app solves in real life, who it helps, and gives you direct links to the official installer without tracking or ads. It updates automatically across English, Italian, Spanish, French, and German, while letting privacy-minded readers pair downloads with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Who it's for
 * Everyday people looking for trustworthy free alternatives to expensive subscription software.
@@ -47,6 +47,7 @@ HubHum turns complicated software pages meant for programmers into a clean, frie
 * Automatic multi-language interface supporting English, Italian, Spanish, French, and German.
 * Verified release links checked regularly so you never hit broken download pages.
 * Community-friendly submission box to request a plain-language guide for any public project.
+* Search-friendly architecture ready to pair with optimization tools like [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 HubHum runs directly in your browser as an ultra-fast static web app. Browse the live catalog at [HubHum Live](https://davanzokeoma.github.io/HubHum/), or launch your own web app on managed cloud hosting with [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).

@@ -1,0 +1,22 @@
+{
+  "name": "HubHum — A Git Hub for Humans",
+  "short_name": "HubHum",
+  "description": "Free and open-source software explained in plain language with verified official downloads.",
+  "start_url": "/HubHum/",
+  "scope": "/HubHum/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/HubHum/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/HubHum/icons/hubhum.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

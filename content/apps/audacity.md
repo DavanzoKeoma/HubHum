@@ -35,7 +35,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Audacity lets you record your voice, instruments, or computer audio directly on your laptop with studio-grade clarity. Once recorded, you can cut out mistakes, clean up background hum, layer music behind speech, and export crisp audio files. It works completely free with no subscriptions or hidden limits across Windows, Mac, and Linux.
+Audacity lets you record your voice, instruments, or computer audio directly on your laptop with studio-grade clarity. Once recorded, you can cut out mistakes, clean up background hum, layer music behind speech, and export crisp audio files. If you need royalty-free sound effects or intro tracks to mix beneath your voiceovers, explore [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It works completely free with no subscriptions or hidden limits across Windows, Mac, and Linux.
 
 ### Who it's for
 * Podcasters and narrators producing clear episodes or audiobooks from home.
@@ -56,6 +56,8 @@ Choose the official installer for your device:
 * [Download for Mac ARM64 (.dmg)](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-arm64.dmg)
 * [Download for Mac Intel (.dmg)](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-x86_64.dmg)
 * [Download for Linux (.AppImage)](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-x86_64.AppImage)
+
+Keep large installer downloads and finished episode uploads shielded on public Wi-Fi with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** Completely free, cross-platform, and trusted by millions of podcasters and educators.

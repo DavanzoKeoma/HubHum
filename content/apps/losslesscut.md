@@ -34,7 +34,7 @@ i18n:
 ---
 
 ### What it does in plain English
-LosslessCut works like ultra-fast digital scissors for trimming and cleaning up video and audio files without re-encoding them. It removes unwanted intros, pauses, or outtakes in seconds while preserving the exact original quality from your camera or phone. It saves hours of waiting and hard-drive space compared to heavy commercial video editors.
+LosslessCut works like ultra-fast digital scissors for trimming and cleaning up video and audio files without re-encoding them. It removes unwanted intros, pauses, or outtakes in seconds while preserving the exact original quality from your camera or phone. Need extra B-roll, soundtracks, or motion graphics to pair with your cut clips? Explore [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It saves hours of waiting and hard-drive space compared to commercial video editors.
 
 ### Who it's for
 * Teachers and creators who record long lessons or tutorials and only need to snip out mistakes.
@@ -47,6 +47,7 @@ LosslessCut works like ultra-fast digital scissors for trimming and cleaning up 
 * Extract background music or voice tracks, or swap audio tracks cleanly.
 * Rotate sideways clips and capture crisp full-resolution still frames.
 * Export individual chapters as separate ready-to-share video files.
+* Transfer large raw footage or installer downloads privately without bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### How to install (Download)
 Download the official standalone build for your operating system:

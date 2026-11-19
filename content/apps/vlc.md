@@ -35,7 +35,7 @@ i18n:
 ---
 
 ### What it does in plain English
-VLC is a reliable media player that opens almost any video or audio file you throw at it, right out of the box. You do not need to hunt down confusing codecs or special plugins to make your favorite media work. It also lets you stream content over the internet and convert files into different formats easily.
+VLC is a reliable media player that opens almost any video or audio file you throw at it, right out of the box. You do not need to hunt down confusing codecs or special plugins to make your favorite media work. It also lets you stream content over your network, convert formats, and pair presentations with royalty-free stock footage or soundtracks from [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
 
 ### Who it's for
 * Everyday computer users who just want a dependable player that never gives an "unsupported format" error.
@@ -47,6 +47,7 @@ VLC is a reliable media player that opens almost any video or audio file you thr
 * Adjusts audio and video synchronization with simple keyboard shortcuts.
 * Converts files from one format to another seamlessly.
 * Completely free with no ads, popups, or hidden fees.
+* Keep remote media streams and installer downloads private over shared Wi-Fi with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### How to install (Download)
 * [Download for Windows](https://www.videolan.org/vlc/download-windows.html)

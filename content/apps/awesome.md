@@ -35,28 +35,26 @@ i18n:
 ---
 
 ### What it does in plain English
-Awesome brings together massive, community-driven collections of links covering every interest imaginable. You can quickly discover the best tools, libraries, books, and resources for your favorite hobbies or professional projects. Everything is neatly categorized so you never have to waste time searching through endless search engine results.
+Awesome brings together massive, community-driven collections of links covering every interest imaginable. You can quickly discover the best tools, handbooks, and creative directories for your favorite hobbies or professional projects, and complement your toolkit with stock media and design resources on [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). Everything is neatly categorized so you never have to waste time sifting through endless search engine results.
 
 ### Who it's for
 * Lifelong learners looking for high-quality educational resources and book recommendations.
 * Hobbyists and enthusiasts seeking specialized tools and community guides.
-* Professionals wanting to quickly find reliable software libraries and software foundation.
+* Professionals wanting to quickly find reliable software collections and creative inspiration.
 
 ### Key features
-* Vast directory of curated topic lists ranging from programming languages to gaming.
+* Vast directory of curated topic lists ranging from everyday productivity tools to creative workflows.
 * Community-powered updates ensuring fresh and relevant recommendations.
 * Clean, easy-to-browse categories for instant navigation.
-* Hand-picked learning materials and tutorials for skill development.
+* Hand-picked learning materials and ready-to-use visual templates via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad) for personal and team projects.
 
 ### How to install (Download)
-This project is an online directory of resources and does not require installation. You can visit the official site directly to browse all available lists.
+This project is an online directory of resources and does not require installation. You can visit the official site directly to browse all available lists, and protect your browser sessions on public networks with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 * [Visit the Official Site](https://github.com/sindresorhus/awesome/releases)
 
 ### Pros and Cons
 * **Pros:** Completely free to browse, covers an enormous variety of subjects, regularly updated by passionate contributors.
 * **Cons:** Can sometimes feel overwhelming due to the sheer volume of available links.
-
-#ad In collaborazione con Creative Fabrica: [Browse ready-to-use templates](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) - Download ready-to-use fonts, templates, and creative assets for your projects.
 
 [Official Source / Credits](https://github.com/sindresorhus/awesome)

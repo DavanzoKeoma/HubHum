@@ -35,7 +35,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Joplin is a digital notebook that keeps all your notes, reminders, and documents safely stored on your computer or phone. Every notebook can be protected with encryption so only you can read your private ideas, even when you sync across devices. Your entire archive stays searchable and available offline without relying on paid cloud subscriptions.
+Joplin is a digital notebook that keeps all your notes, reminders, and documents safely stored on your computer or phone. Every notebook can be protected with encryption so only you can read your private ideas, even when syncing with your own cloud folder or private server on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). Your entire archive stays searchable and available offline without relying on paid subscriptions.
 
 ### Who it's for
 * Students looking for a tidy, searchable folder system for lecture notes and study checklists.
@@ -56,6 +56,8 @@ Choose the official installer for your computer below:
 * [Download for Mac (.dmg)](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22.dmg)
 * [Download for Mac Apple Silicon (.dmg)](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22-arm64.DMG)
 * [Download for Linux (.AppImage)](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22.AppImage)
+
+Organizing digital planners, study templates, or clean printable checklists alongside your notebooks? Browse ready-made templates on [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### Pros and Cons
 * **Pros:** Free forever, works offline, and encrypts your notes before they leave your device.

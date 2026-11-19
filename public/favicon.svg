@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="hh-grad" x1="12" y1="8" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <g fill="url(#hh-grad)">
+    <circle cx="19.5" cy="13.5" r="4.8"/>
+    <circle cx="44.5" cy="13.5" r="4.8"/>
+    <circle cx="19.5" cy="24.5" r="5.3"/>
+    <circle cx="44.5" cy="24.5" r="5.3"/>
+    <circle cx="32" cy="34.2" r="5.2"/>
+    <circle cx="19.5" cy="44.5" r="5.3"/>
+    <circle cx="44.5" cy="44.5" r="5.3"/>
+    <path d="M14.3 55.2 A5.2 5.2 0 0 1 24.7 55.2 Z"/>
+    <path d="M39.3 55.2 A5.2 5.2 0 0 1 49.7 55.2 Z"/>
+    <path d="M14.8 25.5 C16.4 30.0 17.0 34.5 16.0 43.2 L20.8 43.2 C20.8 39.2 22.8 36.8 25.7 36.8 C25.2 35.1 25.2 33.3 25.7 31.6 C22.5 31.6 20.6 28.8 20.6 25.5 Z"/>
+    <path d="M49.2 25.5 C47.6 30.0 47.0 34.5 48.0 43.2 L43.2 43.2 C43.2 39.2 41.2 36.8 38.3 36.8 C38.8 35.1 38.8 33.3 38.3 31.6 C41.5 31.6 43.4 28.8 43.4 25.5 Z"/>
+  </g>
+</svg>

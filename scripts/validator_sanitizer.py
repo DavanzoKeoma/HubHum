@@ -134,6 +134,47 @@ def sanitize_markdown_body(body: str) -> str:
     return safe_text
 
 
+def ensure_triplet_links_in_body(body: str, triplet: list[dict]) -> str:
+    """Ensure at least 3 distinct contextual affiliate links from the triplet appear naturally across sections."""
+    if not triplet:
+        return body
+
+    updated = body
+    present_subids = set(re.findall(r"hubhum_01_MER\d+", updated))
+    if len(present_subids) >= 3:
+        return updated
+
+    for item in triplet:
+        subid = str(item.get("subid") or "")
+        url = str(item.get("tracking_url") or "")
+        tip = str(item.get("natural_tip") or "").strip()
+        heading = str(item.get("section_hint") or "### How to install (Download)")
+        if not tip or (subid and subid in updated) or (url and url in updated):
+            continue
+
+        is_bullet_section = heading in ("### Key features", "### Who it's for")
+        insertion = f"* {tip}" if is_bullet_section else tip
+
+        if heading in updated:
+            parts = updated.split(heading, 1)
+            after = parts[1]
+            next_h_match = re.search(r"\n### |\n\[Official Source / Credits\]", after)
+            if next_h_match:
+                split_pos = next_h_match.start()
+                sec_content = after[:split_pos].rstrip()
+                tail = after[split_pos:]
+                updated = f"{parts[0]}{heading}{sec_content}\n\n{insertion}\n{tail.lstrip(chr(10))}"
+            else:
+                updated = f"{parts[0]}{heading}{after.rstrip()}\n\n{insertion}\n"
+        else:
+            updated = f"{updated.rstrip()}\n\n{insertion}\n"
+
+        if len(set(re.findall(r"hubhum_01_MER\d+", updated))) >= 3:
+            break
+
+    return updated
+
+
 def sanitize_full_document(markdown_text: str) -> str:
     """Re-serialize document with sanitized prose while keeping frontmatter intact."""
     normalized = markdown_text.replace("\r\n", "\n").strip()
@@ -193,6 +234,12 @@ def validate_markdown_card(
     for forbidden in ("pull request", "repository", "commit", "deploy"):
         if re.search(rf"\b{re.escape(forbidden)}\b", body_no_urls, re.IGNORECASE):
             errors.append(f"Forbidden tech jargon in body prose: '{forbidden}'")
+
+    distinct_aff_subids = set(re.findall(r"hubhum_01_MER\d+", body))
+    if len(distinct_aff_subids) < 3:
+        errors.append(
+            f"Expected at least 3 distinct contextual affiliate links (hubhum_01_MER*), found {len(distinct_aff_subids)}."
+        )
 
     if strict_urls and allowed_urls is not None:
         aff_hosts = _load_allowed_affiliate_hosts()

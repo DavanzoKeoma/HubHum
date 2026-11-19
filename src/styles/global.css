@@ -84,6 +84,13 @@ select:focus-visible {
   letter-spacing: -0.02em;
 }
 
+.brand-logo {
+  width: 182px;
+  height: 40px;
+  display: block;
+  flex-shrink: 0;
+}
+
 .brand-mark {
   width: 34px;
   height: 34px;

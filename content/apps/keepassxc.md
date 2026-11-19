@@ -34,7 +34,7 @@ i18n:
 ---
 
 ### What it does in plain English
-KeePassXC is an encrypted digital safe that stores all your passwords, PINs, and private notes inside a single protected file on your computer. Unlike subscription password managers that keep your secrets on company servers, your vault stays strictly in your hands. You only need to remember one strong master password to unlock everything safely.
+KeePassXC is an encrypted digital safe that stores all your passwords, PINs, and private notes inside a single protected file on your computer. Unlike subscription password managers that keep your secrets on company servers, your vault stays strictly in your hands—and if you want an off-site encrypted mirror across devices, you can host a private backup folder on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). You only need to remember one strong master password to unlock everything safely.
 
 ### Who it's for
 * Anyone who still reuses simple passwords and wants unique, strong logins for every website.
@@ -47,6 +47,7 @@ KeePassXC is an encrypted digital safe that stores all your passwords, PINs, and
 * Store two-factor verification codes and secure file attachments alongside your logins.
 * Organize personal, work, and financial accounts into clear folders and tags.
 * Check immediately if any saved password has appeared in known online data leaks.
+* Prepare clean printable household emergency recovery planners or document sheets with [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Download the official installer matching your system:

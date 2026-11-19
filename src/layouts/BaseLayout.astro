@@ -8,9 +8,13 @@ interface Props {
 }
 
 const {
-  title = 'HubHum — Powerful Free Software, Zero Tech Jargon',
+  title = 'HubHum — A Git Hub for Humans',
   description = 'Discover hand-picked free and open-source software explained in plain language with verified official downloads.',
 } = Astro.props;
+
+const siteOrigin = (Astro.site?.toString() || 'https://davanzokeoma.github.io').replace(/\/$/, '');
+const ogImageUrl = `${siteOrigin}${withBase('/og-image.png')}`;
+const canonicalUrl = `${siteOrigin}${Astro.url.pathname}`;
 ---
 
 <!doctype html>
@@ -21,6 +25,22 @@ const {
     <meta name="google-site-verification" content="zhjr7xMD1JGKLOh9ag8b3Qgm2As1fN9T8TJksUHSzwE" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="manifest" href={withBase('/manifest.webmanifest')} />
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
+    <link rel="alternate icon" href={withBase('/favicon.ico')} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="HubHum" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
     <script is:inline>
       (function () {
         var supported = ['en', 'it', 'es', 'fr', 'de'];
@@ -50,10 +70,15 @@ const {
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a href={withBase('/')} class="brand">
-          <img src={withBase('/icons/hubhum.svg')} alt="" width="34" height="34" class="brand-mark" aria-hidden="true" />
-          <span>HubHum</span>
-          <span class="brand-sub" data-i18n="brandSub">Free software for humans</span>
+        <a href={withBase('/')} class="brand" aria-label="HubHum — A Git Hub for Humans">
+          <img
+            src={withBase('/logo.svg')}
+            alt="HubHum — A Git Hub for Humans"
+            width="182"
+            height="40"
+            class="brand-logo"
+            decoding="async"
+          />
         </a>
 
         <nav class="header-controls" aria-label="Main navigation">

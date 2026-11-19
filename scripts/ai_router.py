@@ -7,7 +7,7 @@ import urllib.error
 import urllib.request
 
 from scouter import ScoutedRepo
-from validator_sanitizer import sanitize_full_document, validate_markdown_card
+from validator_sanitizer import ensure_triplet_links_in_body, sanitize_full_document, validate_markdown_card
 from vault_loader import get_all_runtime_keys
 
 GEMINI_FLASH_MODELS = (
@@ -43,9 +43,15 @@ STRICT RULES:
    or in the Releases data. Present download links with clear labels, e.g.
    [Download for Windows (.exe)](ORIGINAL_URL). Ignore badges, source
    archives (.zip, .tar.gz), and terminal commands unless no installer exists.
-4. AFFILIATE INJECTION: naturally weave in 1-2 helpful recommendations using
-   the provided affiliate URL (never spam). For web apps (`is_webapp: true`),
-   mention opening in the cloud in 1 click.
+4. TRIPLE NATURAL AFFILIATE INJECTION: `(c) Affiliate Database Mapping`
+   provides a `recommended_triplet` of 3 distinct, policy-audited partner
+   tools for this app's category. Naturally weave ALL 3 distinct affiliate
+   URLs (each with a discreet `(#ad)` disclosure) into 3 separate sections:
+   - 1 contextual tip inside `### What it does in plain English`
+   - 1 complementary productivity/media/SEO bullet inside `### Key features`
+   - 1 privacy/hosting/transfer tip inside `### How to install (Download)`
+   Never lump all 3 links into the same paragraph and never spam.
+   For web apps (`is_webapp: true`), mention opening in the cloud in 1 click.
 5. BRAND SAFETY: never use comparative "killer of X" slogans or third-party
    trademarks; replace them with generic terms (e.g. "commercial video editors").
 6. CREDITS: always end with `[Official Source / Credits](SOURCE_URL)`.
@@ -204,6 +210,10 @@ def generate_card_with_cascade(
         try:
             raw_text, provider_label = fn(api_key, user_prompt)
             raw_md = _strip_code_fence(raw_text)
+            triplet = affiliate_context.get("recommended_triplet") or []
+            if triplet and "\n---\n" in raw_md:
+                hdr, bd = raw_md.split("\n---\n", 1)
+                raw_md = f"{hdr}\n---\n\n{ensure_triplet_links_in_body(bd.strip(), triplet)}\n"
             sanitized_md = sanitize_full_document(raw_md)
             if "Official Source / Credits" not in sanitized_md:
                 sanitized_md = sanitized_md.rstrip() + f"\n\n[Official Source / Credits]({repo.html_url})\n"

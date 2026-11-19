@@ -34,7 +34,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Ghost is a modern publishing platform built for writers, creators, and teams who want to run an independent website and email newsletter in one place. You can write articles in a distraction-free editor, collect subscriber emails, and even offer paid memberships without sharing revenue with closed publishing platforms. Everything runs online in your browser so you can publish from anywhere.
+Ghost is a modern publishing platform built for writers, creators, and teams who want to run an independent website and email newsletter in one place. You can write articles in a distraction-free editor, collect subscriber emails, and even offer paid memberships without sharing revenue with closed publishing platforms. Everything runs online in your browser, so you can safely manage your editorial dashboard from anywhere—even over café Wi-Fi with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Who it's for
 * Independent writers, journalists, and experts turning their articles into a reader-supported newsletter.
@@ -47,6 +47,7 @@ Ghost is a modern publishing platform built for writers, creators, and teams who
 * Offer free sign-ups or paid monthly and yearly memberships with zero platform fees.
 * Built-in search optimization tools and clean URLs right out of the box.
 * Clear reader analytics showing email opens, clicks, and membership growth.
+* Boost search visibility and structured previews across your publishing projects using [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 Because Ghost runs online as a web application, you host it on a cloud server rather than installing it on your personal laptop. Prefer not to set up a server manually? Open it in 1 click on optimized cloud hosting with [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad), or explore the [official Ghost site](https://ghost.org).
