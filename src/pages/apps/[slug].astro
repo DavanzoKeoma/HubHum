@@ -35,7 +35,6 @@ const {
 
 const primaryHref = is_webapp ? (affiliate_url || download_url || source_url || '#') : (download_url || source_url || '#');
 const catI18nKey = CATEGORY_I18N_KEY[category] || 'catProductivity';
-const primaryAria = is_webapp ? `Open ${title} in the cloud` : `Download ${title}`;
 ---
 
 <BaseLayout title={`${title} — HubHum`} description={summary || `${title} explained simply on HubHum`}>
@@ -92,7 +91,6 @@ const primaryAria = is_webapp ? `Open ${title} in the cloud` : `Download ${title
           href={primaryHref}
           target="_blank"
           rel={is_webapp ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
-          aria-label={primaryAria}
           class:list={['btn', is_webapp ? 'btn-cloud' : 'btn-primary']}
         >
           {is_webapp ? (
@@ -120,6 +118,10 @@ const primaryAria = is_webapp ? `Open ${title} in the cloud` : `Download ${title
           <strong data-i18n="detailSummaryNotice">Plain-language summary in your language:</strong>{' '}
           <span id="localized-summary-text"></span>
         </div>
+
+        <h2 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
+          Guide and Overview
+        </h2>
 
         <Content />
 
@@ -151,7 +153,6 @@ const primaryAria = is_webapp ? `Open ${title} in the cloud` : `Download ${title
               href={affiliate_url}
               target="_blank"
               rel="sponsored noopener noreferrer"
-              aria-label={`Open partner recommendation ${affiliate_name || ''}`}
               class="btn btn-cloud"
               style="width:100%;"
             >
