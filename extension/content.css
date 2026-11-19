@@ -1,0 +1,66 @@
+/* HubHum Chrome Extension — Injected GitHub Action Button Styles */
+
+.hubhum-actions-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+.hubhum-humanize-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 28px;
+  padding: 0 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: linear-gradient(135deg, #2563eb 0%, #5b46e8 50%, #7c3aed 100%);
+  color: #ffffff !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  text-decoration: none !important;
+  box-shadow: 0 1px 3px rgba(37, 99, 235, 0.28);
+  transition: transform 0.12s ease, box-shadow 0.15s ease, filter 0.15s ease;
+  white-space: nowrap;
+}
+
+.hubhum-humanize-btn:hover:not(:disabled) {
+  filter: brightness(1.08);
+  box-shadow: 0 3px 8px rgba(124, 58, 237, 0.35);
+  transform: translateY(-1px);
+}
+
+.hubhum-humanize-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.hubhum-humanize-btn:disabled {
+  opacity: 0.88;
+  cursor: wait;
+}
+
+.hubhum-humanize-btn.is-ready {
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  box-shadow: 0 1px 4px rgba(5, 150, 105, 0.32);
+}
+
+.hubhum-humanize-btn svg {
+  flex-shrink: 0;
+}
+
+.hubhum-humanize-btn.is-converting svg {
+  animation: hubhum-pulse 1.1s ease-in-out infinite;
+}
+
+@keyframes hubhum-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(0.92);
+  }
+}

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HubHum – A Git Hub for Humans</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="popup-shell">
+      <header class="brand-header">
+        <div class="brand-left">
+          <img src="../icons/icon-32.png" alt="HubHum" width="32" height="32" class="brand-icon" />
+          <div>
+            <h1 class="brand-title"><span>Hub</span><span class="accent">Hum</span></h1>
+            <p class="brand-payoff">A Git Hub for Humans.</p>
+          </div>
+        </div>
+        <a
+          id="open-catalog-top"
+          href="https://davanzokeoma.github.io/HubHum/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="catalog-chip"
+          title="Apri catalogo HubHum"
+        >
+          Catalogo ↗
+        </a>
+      </header>
+
+      <main class="popup-main">
+        <!-- Repo Summary Box (visibile su repo GitHub validi) -->
+        <section id="repo-card" class="repo-card hidden" aria-label="Dettagli repository">
+          <img id="repo-avatar" src="../icons/icon-48.png" alt="" width="40" height="40" class="repo-avatar" />
+          <div class="repo-meta">
+            <div id="repo-fullname" class="repo-fullname">owner/repo</div>
+            <div class="repo-submeta">
+              <span id="repo-stars" class="stars-pill">★ —</span>
+              <span id="repo-lang" class="lang-pill hidden"></span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Stato Loading -->
+        <section id="state-loading" class="state-panel">
+          <div class="spinner" aria-hidden="true"></div>
+          <p class="muted-text">Verifica stato su HubHum...</p>
+        </section>
+
+        <!-- Stato A: Fuori da un repository GitHub -->
+        <section id="state-outside" class="state-panel hidden">
+          <div class="illustration-badge" aria-hidden="true">
+            <img src="../icons/icon-48.png" alt="" width="48" height="48" />
+          </div>
+          <h2 class="state-heading">Scopri il software senza gergo</h2>
+          <p class="state-copy">
+            Naviga su un repository GitHub per convertirlo in una guida per umani
+          </p>
+          <button type="button" id="btn-open-catalog" class="btn btn-primary btn-full">
+            Apri il catalogo HubHum →
+          </button>
+        </section>
+
+        <!-- Stato B: Già presente nel catalogo -->
+        <section id="state-exists" class="state-panel hidden">
+          <div class="status-badge status-ready">✨ Già disponibile nel catalogo!</div>
+          <p id="exists-desc" class="state-copy">
+            Questo software ha già una guida semplice verificata su HubHum con download ufficiali e sintesi multilingua.
+          </p>
+          <button type="button" id="btn-open-guide" class="btn btn-success btn-full">
+            Apri la Guida HubHum →
+          </button>
+        </section>
+
+        <!-- Stato C: Non presente (pronto alla conversione) -->
+        <section id="state-convert" class="state-panel hidden">
+          <div class="status-badge status-new">Pronto per la traduzione AI</div>
+          <p id="repo-description" class="state-copy">
+            Trasforma questo progetto GitHub in una guida chiara con link ufficiali verificati in meno di un minuto.
+          </p>
+          <button type="button" id="btn-humanize" class="btn btn-primary btn-full">
+            Humanize with HubHum ⚡
+          </button>
+        </section>
+
+        <!-- Stato D: Conversione in corso -->
+        <section id="state-progress" class="state-panel hidden">
+          <div class="progress-header">
+            <span class="progress-title">Traduzione in corso</span>
+            <span id="progress-pct" class="progress-pct">15%</span>
+          </div>
+          <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="15" id="progress-bar">
+            <div id="progress-fill" class="progress-fill" style="width: 15%"></div>
+          </div>
+          <p id="progress-stage" class="progress-stage">
+            15%: Analisi README e ultime release...
+          </p>
+          <p id="progress-hint" class="progress-hint">
+            Puoi chiudere il popup in qualsiasi momento: la build prosegue in background e una notifica ti avviserà al termine.
+          </p>
+          <button type="button" id="btn-progress-open" class="btn btn-success btn-full hidden">
+            Apri la nuova Guida →
+          </button>
+          <button type="button" id="btn-progress-retry" class="btn btn-outline btn-full hidden">
+            Riprova Conversione
+          </button>
+        </section>
+      </main>
+
+      <footer class="popup-footer">
+        <span>Indipendente da GitHub, Inc. • Direct-Link &amp; Open-Source Safe</span>
+      </footer>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
