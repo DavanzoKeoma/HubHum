@@ -95,9 +95,10 @@ const {
           <button type="button" id="oauth-login-btn" class="btn btn-primary">
             <img id="oauth-avatar" src="" alt="" width="20" height="20" class="oauth-avatar" style="display:none;" />
             <svg id="oauth-default-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
             </svg>
-            <span id="oauth-login-label" data-i18n="navFavorites">Favorites</span>
+            <span id="oauth-login-label" data-i18n="navSignIn">Sign In</span>
           </button>
 
           <button
@@ -134,34 +135,28 @@ const {
       </div>
 
       <p id="dialog-desc" style="margin:0;color:var(--text-muted);font-size:0.9rem;" data-i18n="dialogDescLocal">
-        Your favorite apps are saved instantly in this browser—no account needed.
+        Your favorite apps are saved right here in this browser.
       </p>
       <ul id="dialog-fav-list" class="fav-list"></ul>
 
       <hr class="dialog-divider" />
 
-      <details id="sync-optional-details" class="sync-details">
-        <summary class="sync-summary" data-i18n="syncOptionalTitle">Optional: Sync &amp; Direct Submission</summary>
-        <p style="margin:0.45rem 0 0.65rem;font-size:0.86rem;color:var(--text-muted);" data-i18n="syncOptionalDesc">
-          Want to sync your favorites across devices or trigger instant conversions? Enter your GitHub Personal Token or connect your account.
+      <div id="oauth-signin-box">
+        <p style="margin:0 0 0.65rem;font-size:0.86rem;color:var(--text-muted);" data-i18n="oauthSignInDesc">
+          Sign in with one click to link your GitHub profile and sync favorites.
         </p>
-        <form id="sync-token-form" style="display:flex;gap:0.45rem;flex-wrap:wrap;">
-          <input
-            id="sync-token-input"
-            type="password"
-            class="translate-input"
-            style="padding:0.5rem 0.75rem;font-size:0.86rem;"
-            placeholder="GitHub Personal Token (optional)"
-            aria-label="GitHub Personal Token"
-            data-i18n-placeholder="syncTokenPlaceholder"
-          />
-          <button type="submit" class="btn btn-primary" data-i18n="syncConnectBtn">Connect</button>
-        </form>
-        <p id="sync-status-msg" style="margin:0.5rem 0 0;font-size:0.84rem;color:var(--text-muted);"></p>
-      </details>
+        <button type="button" id="github-1click-signin" class="btn btn-github-oauth">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"></path>
+          </svg>
+          <span data-i18n="oauthSignInBtn">Sign in with GitHub</span>
+        </button>
+      </div>
+
+      <p id="oauth-status-msg" style="margin:0.55rem 0 0;font-size:0.84rem;color:var(--text-muted);"></p>
 
       <div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-top:1rem;">
-        <button type="button" id="dialog-logout-btn" class="btn btn-outline" style="display:none;" data-i18n="dialogLogout">Disconnect</button>
+        <button type="button" id="dialog-logout-btn" class="btn btn-outline" style="display:none;" data-i18n="dialogLogout">Sign Out</button>
         <button type="button" id="dialog-close-btn" class="btn btn-primary" data-i18n="dialogClose">Close</button>
       </div>
     </dialog>
@@ -183,10 +178,11 @@ const {
     <script>
       import {
         clearSavedSession,
+        exchangeOAuthCode,
         getFavorites,
         getSavedSession,
+        startGitHubWebOAuth,
         toggleFavorite,
-        verifyAndSaveUserToken,
       } from '../lib/github-oauth';
       import { SUPPORTED_LANGS, TRANSLATIONS, type SupportedLang } from '../i18n/translations';
       import { withBase } from '../lib/url';
@@ -258,7 +254,7 @@ const {
         mobileBtn.setAttribute('aria-expanded', String(isOpen));
       });
 
-      // Local-First Favorites + Optional GitHub Token Sync Dialog (Zero CORS errors)
+      // 1-Click GitHub Web OAuth + Local Favorites
       const loginBtn = document.getElementById('oauth-login-btn');
       const loginLabel = document.getElementById('oauth-login-label');
       const avatarImg = document.getElementById('oauth-avatar') as HTMLImageElement | null;
@@ -266,14 +262,13 @@ const {
       const dialog = document.getElementById('account-dialog') as HTMLDialogElement | null;
       const favList = document.getElementById('dialog-fav-list');
       const dialogDesc = document.getElementById('dialog-desc');
+      const oauthSignInBox = document.getElementById('oauth-signin-box');
+      const githubSignInBtn = document.getElementById('github-1click-signin');
+      const oauthStatusMsg = document.getElementById('oauth-status-msg');
       const logoutBtn = document.getElementById('dialog-logout-btn');
       const closeBtns = [document.getElementById('dialog-close-btn'), document.getElementById('dialog-close-top')];
 
-      const syncForm = document.getElementById('sync-token-form') as HTMLFormElement | null;
-      const syncInput = document.getElementById('sync-token-input') as HTMLInputElement | null;
-      const syncStatusMsg = document.getElementById('sync-status-msg');
-
-      function renderSessionButton() {
+      function renderSessionUI() {
         const session = getSavedSession();
         if (loginLabel && session?.login) {
           loginLabel.textContent = `@${session.login}`;
@@ -283,11 +278,13 @@ const {
             avatarImg.style.display = 'inline-block';
             if (defaultIcon) defaultIcon.style.display = 'none';
           }
+          if (oauthSignInBox) oauthSignInBox.style.display = 'none';
         } else if (loginLabel) {
-          loginLabel.setAttribute('data-i18n', 'navFavorites');
-          loginLabel.textContent = TRANSLATIONS[currentLang].navFavorites;
+          loginLabel.setAttribute('data-i18n', 'navSignIn');
+          loginLabel.textContent = TRANSLATIONS[currentLang].navSignIn;
           if (avatarImg) avatarImg.style.display = 'none';
           if (defaultIcon) defaultIcon.style.display = 'inline-block';
+          if (oauthSignInBox) oauthSignInBox.style.display = 'block';
         }
       }
 
@@ -338,32 +335,39 @@ const {
         }
       }
 
-      renderSessionButton();
+      renderSessionUI();
+
+      // Intercept ?code= returned by GitHub Web OAuth callback
+      const urlParams = new URLSearchParams(window.location.search);
+      const oauthCode = urlParams.get('code');
+      if (oauthCode) {
+        window.history.replaceState({}, document.title, window.location.pathname);
+        if (oauthStatusMsg) oauthStatusMsg.textContent = TRANSLATIONS[currentLang].oauthConnecting;
+        exchangeOAuthCode(oauthCode)
+          .then(() => {
+            renderSessionUI();
+            renderFavoritesList();
+            if (oauthStatusMsg) oauthStatusMsg.textContent = '';
+          })
+          .catch(() => {
+            if (oauthStatusMsg) oauthStatusMsg.textContent = '';
+          });
+      }
 
       loginBtn?.addEventListener('click', () => {
+        renderSessionUI();
         renderFavoritesList();
-        if (syncStatusMsg) syncStatusMsg.textContent = '';
+        if (oauthStatusMsg) oauthStatusMsg.textContent = '';
         dialog?.showModal();
       });
 
-      syncForm?.addEventListener('submit', async (ev) => {
-        ev.preventDefault();
-        if (!syncInput || !syncStatusMsg) return;
-        const dict = TRANSLATIONS[currentLang];
-        try {
-          const session = await verifyAndSaveUserToken(syncInput.value);
-          syncInput.value = '';
-          renderSessionButton();
-          renderFavoritesList();
-          syncStatusMsg.textContent = `${dict.syncSuccess} @${session.login}`;
-        } catch {
-          syncStatusMsg.textContent = dict.syncInvalidToken;
-        }
+      githubSignInBtn?.addEventListener('click', () => {
+        startGitHubWebOAuth();
       });
 
       logoutBtn?.addEventListener('click', () => {
         clearSavedSession();
-        renderSessionButton();
+        renderSessionUI();
         renderFavoritesList();
       });
 

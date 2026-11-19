@@ -317,10 +317,13 @@ def fetch_repo_bundle(owner: str, repo_name: str, token: str | None = None) -> S
     allowed_urls = [html_url]
     if homepage.startswith("http"):
         allowed_urls.append(homepage)
+        if homepage.startswith("http://"):
+            allowed_urls.append("https://" + homepage[7:])
     allowed_urls.extend(a["url"] for a in release_assets)
     allowed_urls.extend(extract_urls_from_text(readme_excerpt))
 
-    primary_url = release_assets[0]["url"] if release_assets else (homepage if homepage.startswith("http") else f"{html_url}/releases")
+    safe_homepage = ("https://" + homepage[7:]) if homepage.startswith("http://") else homepage
+    primary_url = release_assets[0]["url"] if release_assets else (safe_homepage if safe_homepage.startswith("http") else f"{html_url}/releases")
     primary_label = release_assets[0]["label"] if release_assets else "Visit Official Site"
 
     slug = re.sub(r"[^a-z0-9-]+", "-", repo_name.lower()).strip("-")

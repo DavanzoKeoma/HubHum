@@ -40,6 +40,7 @@ jobs:
           SITE_URL: https://davanzokeoma.github.io
           SITE_BASE: ${{ hashFiles('public/CNAME') != '' && '/' || '/HubHum' }}
           PUBLIC_GITHUB_OAUTH_CLIENT_ID: ${{ vars.PUBLIC_GITHUB_OAUTH_CLIENT_ID || 'Ov23liZDnU0mNqCrMEj9' }}
+          PUBLIC_WORKER_URL: ${{ vars.PUBLIC_WORKER_URL || 'https://hubhum-api-bridge.keomadavanzo.workers.dev' }}
         run: npm run build
 
       - name: Upload GitHub Pages artifact

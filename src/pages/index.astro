@@ -204,7 +204,7 @@ const categories = [
   </section>
 
   <script>
-    import { requestAsyncTranslation } from '../lib/github-oauth';
+    import { normalizeGitHubProjectUrl } from '../lib/github-oauth';
     import { TRANSLATIONS, type SupportedLang } from '../i18n/translations';
 
     const searchInput = document.getElementById('hubhum-search') as HTMLInputElement | null;
@@ -275,19 +275,19 @@ const categories = [
       ev.preventDefault();
       if (!urlInput || !statusBox) return;
       const dict = getActiveDict();
-      const result = await requestAsyncTranslation(urlInput.value);
-      statusBox.textContent = result.accepted ? dict.submitSuccess : dict.submitInvalidUrl;
-      statusBox.classList.add('visible');
-      if (result.accepted && result.mode === 'issue_redirect' && result.targetUrl) {
-        const confirmLink = document.createElement('a');
-        confirmLink.href = result.targetUrl;
-        confirmLink.target = '_blank';
-        confirmLink.rel = 'noopener noreferrer';
-        confirmLink.textContent = ` ${dict.submitConfirmLink}`;
-        confirmLink.style.fontWeight = '700';
-        confirmLink.style.marginLeft = '0.4rem';
-        statusBox.appendChild(confirmLink);
+      const parsed = normalizeGitHubProjectUrl(urlInput.value);
+      if (!parsed) {
+        statusBox.textContent = dict.submitInvalidUrl;
+        statusBox.classList.add('visible');
+        return;
       }
+      statusBox.textContent = dict.submitSuccess;
+      statusBox.classList.add('visible');
+      window.dispatchEvent(
+        new CustomEvent('hubhum:convert-url', {
+          detail: { repoUrl: parsed.url, owner: parsed.owner, repo: parsed.repo },
+        })
+      );
     });
   </script>
 </BaseLayout>

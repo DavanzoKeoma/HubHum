@@ -880,6 +880,27 @@ select:focus-visible {
   50% { opacity: 0.5; }
 }
 
+@keyframes hubhum-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.conv-spinner {
+  animation: hubhum-spin 0.9s linear infinite;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.btn-github-oauth {
+  width: 100%;
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.btn-github-oauth:hover {
+  background: #1e293b;
+}
+
 .skeleton-line {
   border-radius: 6px;
   background: #e2e8f0;
