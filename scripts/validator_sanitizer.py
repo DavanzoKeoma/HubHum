@@ -135,11 +135,26 @@ def sanitize_markdown_body(body: str) -> str:
 
 
 def ensure_triplet_links_in_body(body: str, triplet: list[dict]) -> str:
-    """Ensure at least 3 distinct contextual affiliate links from the triplet appear naturally across sections."""
+    """Canonicalize partner SubIDs and ensure >= 3 distinct contextual affiliate links across sections."""
     if not triplet:
         return body
 
     updated = body
+    # Fix LLM-transposed SubIDs (e.g. PureVPN carrying MER054 instead of MER047) before counting
+    host_to_url: dict[str, str] = {}
+    for item in triplet:
+        u = str(item.get("tracking_url") or "")
+        h = urlparse(u).netloc.lower()
+        if h and u:
+            host_to_url[h] = u
+
+    def _canonicalize_aff_link(match: re.Match[str]) -> str:
+        raw = match.group(0)
+        h = urlparse(raw).netloc.lower()
+        return host_to_url.get(h, raw)
+
+    updated = re.sub(r"https?://[^\s\)\]>\"']*hubhum_01_MER\d+[^\s\)\]>\"']*", _canonicalize_aff_link, updated)
+
     present_subids = set(re.findall(r"hubhum_01_MER\d+", updated))
     if len(present_subids) >= 3:
         return updated
@@ -162,8 +177,8 @@ def ensure_triplet_links_in_body(body: str, triplet: list[dict]) -> str:
             if next_h_match:
                 split_pos = next_h_match.start()
                 sec_content = after[:split_pos].rstrip()
-                tail = after[split_pos:]
-                updated = f"{parts[0]}{heading}{sec_content}\n\n{insertion}\n{tail.lstrip(chr(10))}"
+                tail = after[split_pos:].lstrip("\n")
+                updated = f"{parts[0]}{heading}{sec_content}\n\n{insertion}\n\n{tail}"
             else:
                 updated = f"{parts[0]}{heading}{after.rstrip()}\n\n{insertion}\n"
         else:

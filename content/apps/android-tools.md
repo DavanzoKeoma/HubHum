@@ -46,11 +46,10 @@ This collection of helper scripts makes it much easier to build and modify custo
 * Extracts system update files to inspect their inner contents quickly.
 * Compares two different software versions to highlight added, modified, or missing components.
 * Prepares device workspace folders and pushes local updates directly to online code storage platforms.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER269) (#ad).
-
 * Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
+
 ### How to install (Download)
-Because this is an open-source collection of developer scripts, you can download the project files directly from the [Official Source official project page](https://github.com/ShivamKumarJha/android_tools). Follow the setup instructions in the project description to grant execution permissions and run the automated helper scripts on your computer. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Because this is an open-source collection of automation scripts, you can download the project files directly from the [official project page](https://github.com/ShivamKumarJha/android_tools). Follow the setup instructions in the project guide to grant execution permissions and run the automated helper scripts on your computer. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
 
 ### Pros and Cons
 * **Pros:** Free and open-source, saves hours of manual file organization, automates repetitive system building steps.
