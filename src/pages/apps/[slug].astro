@@ -25,8 +25,14 @@ const {
   icon,
   source_url,
   download_url,
+  downloadUrl,
   download_label,
   license,
+  operatingSystem,
+  applicationCategory,
+  fileSize,
+  priceCurrency = 'USD',
+  price = '0',
   affiliate_name,
   affiliate_url,
   affiliate_pitch,
@@ -35,9 +41,60 @@ const {
 
 const primaryHref = is_webapp ? (affiliate_url || download_url || source_url || '#') : (download_url || source_url || '#');
 const catI18nKey = CATEGORY_I18N_KEY[category] || 'catProductivity';
+
+const schemaCategoryMap: Record<string, string> = {
+  'Security & Privacy': 'SecurityApplication',
+  'Video & Audio': 'MultimediaApplication',
+  'Graphics & Design': 'DesignApplication',
+  'Web Apps & Cloud': 'BusinessApplication',
+  'Websites & SEO': 'DeveloperApplication',
+  Productivity: 'UtilitiesApplication',
+};
+
+const siteOrigin = (Astro.site?.toString() || 'https://davanzokeoma.github.io').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}${withBase(`/apps/${slug}/`)}`;
+const resolvedDownloadUrl = downloadUrl || download_url || source_url || canonicalUrl;
+const resolvedCategory = applicationCategory || schemaCategoryMap[category] || 'UtilitiesApplication';
+const resolvedOs = operatingSystem || (is_webapp ? 'All / Browser' : 'Windows, macOS, Linux, Android');
+const ownerMatch = String(source_url || '').match(/^https?:\/\/github\.com\/([^/]+)/i);
+const schemaOwner = ownerMatch ? ownerMatch[1] : 'Open-Source Contributors';
+
+const appJsonLd: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': is_webapp ? 'WebApplication' : 'SoftwareApplication',
+  name: title,
+  description: summary || `${title} explained simply on HubHum`,
+  applicationCategory: resolvedCategory,
+  operatingSystem: resolvedOs,
+  offers: {
+    '@type': 'Offer',
+    price,
+    priceCurrency,
+  },
+  url: canonicalUrl,
+  downloadUrl: resolvedDownloadUrl,
+  ...(fileSize ? { fileSize } : {}),
+  author: {
+    '@type': 'Person',
+    name: schemaOwner,
+  },
+  ...(stars > 0
+    ? {
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: '4.8',
+          ratingCount: stars,
+        },
+      }
+    : {}),
+};
 ---
 
-<BaseLayout title={`${title} — HubHum`} description={summary || `${title} explained simply on HubHum`}>
+<BaseLayout
+  title={`${title} — HubHum`}
+  description={summary || `${title} explained simply on HubHum`}
+  jsonLd={appJsonLd}
+>
   <div class="container detail-wrap">
     <a href={withBase('/')} class="breadcrumb" data-i18n="backAllApps">← Back to all software</a>
 

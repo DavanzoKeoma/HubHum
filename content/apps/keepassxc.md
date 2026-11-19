@@ -18,6 +18,12 @@ affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01
 affiliate_pitch: "Protect your connection before downloading or using sensitive tools."
 featured_weekly: false
 updated_at: "2026-11-18"
+downloadUrl: "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "SecurityApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "Cassaforte personale per le tue password"

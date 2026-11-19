@@ -19,6 +19,12 @@ affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets fo
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-19"
+downloadUrl: "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "MultimediaApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "Converti file video per qualsiasi dispositivo"

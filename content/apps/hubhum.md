@@ -18,6 +18,12 @@ affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
 affiliate_pitch: "Want to host your own independent web app or catalog? Launch it in 1 click on managed cloud hosting."
 featured_weekly: false
 updated_at: "2026-11-18"
+downloadUrl: "https://davanzokeoma.github.io/HubHum/"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "App store open-source a misura d'uomo"

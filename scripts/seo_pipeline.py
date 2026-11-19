@@ -5,12 +5,14 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import subprocess
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 from ai_router import AllTiersFailedError, generate_card_with_cascade
 from generate_catalog_index import write_catalog_index
-from scouter import ScoutedRepo, classify_repo, fetch_repo_by_url, scout_trending_consumer_apps
+from scouter import ScoutedRepo, classify_repo, fetch_repo_by_url, scout_tiered_apps
 from validator_sanitizer import ensure_triplet_links_in_body, sanitize_full_document, split_frontmatter, validate_markdown_card
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -52,52 +54,50 @@ def select_affiliate_for_repo(repo: ScoutedRepo, affiliates_data: dict) -> dict:
     }
 
 
-def ensure_triplet_links_in_body(body: str, triplet: list[dict]) -> str:
-    """Ensure at least 3 distinct contextual affiliate links from the triplet appear naturally across sections."""
-    if not triplet:
-        return body
-
-    updated = body
-    present_subids = set(re.findall(r"hubhum_01_MER\d+", updated))
-    if len(present_subids) >= 3:
-        return updated
-
-    for item in triplet:
-        subid = str(item.get("subid") or "")
-        url = str(item.get("tracking_url") or "")
-        tip = str(item.get("natural_tip") or "").strip()
-        heading = str(item.get("section_hint") or "### How to install (Download)")
-        if not tip or (subid and subid in updated) or (url and url in updated):
-            continue
-
-        is_bullet_section = heading in ("### Key features", "### Who it's for")
-        insertion = f"* {tip}" if is_bullet_section else tip
-
-        if heading in updated:
-            parts = updated.split(heading, 1)
-            after = parts[1]
-            next_h_match = re.search(r"\n### |\n\[Official Source / Credits\]", after)
-            if next_h_match:
-                split_pos = next_h_match.start()
-                sec_content = after[:split_pos].rstrip()
-                tail = after[split_pos:]
-                updated = f"{parts[0]}{heading}{sec_content}\n\n{insertion}\n{tail.lstrip(chr(10))}"
-            else:
-                updated = f"{parts[0]}{heading}{after.rstrip()}\n\n{insertion}\n"
-        else:
-            updated = f"{updated.rstrip()}\n\n{insertion}\n"
-
-        if len(set(re.findall(r"hubhum_01_MER\d+", updated))) >= 3:
-            break
-
-    return updated
-
-
 def _clean_sentence(text: str, fallback: str) -> str:
     cleaned = " ".join(str(text or "").replace('"', "'").split()).rstrip(".")
     if not cleaned:
         cleaned = fallback.rstrip(".")
     return f"{cleaned}."
+
+
+def _commit_batch(batch_count: int) -> None:
+    """Persist intermediate batches to git atomically every N cards so long runs never lose progress."""
+    subprocess.run(
+        [
+            "git",
+            "add",
+            "content/apps",
+            "public/icons",
+            "public/catalog-index.json",
+            "data/catalog-index.json",
+            "data/retry_queue.json",
+        ],
+        cwd=PROJECT_ROOT,
+        check=False,
+    )
+    diff_res = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=PROJECT_ROOT)
+    if diff_res.returncode == 0:
+        return
+    subprocess.run(
+        ["git", "commit", "-m", f"chore(seo): batch commit {batch_count} HubHum app cards"],
+        cwd=PROJECT_ROOT,
+        check=False,
+    )
+    subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=PROJECT_ROOT, check=False)
+    subprocess.run(["git", "push", "origin", "main"], cwd=PROJECT_ROOT, check=False)
+
+
+def _derive_application_category(category: str) -> str:
+    mapping = {
+        "Security & Privacy": "SecurityApplication",
+        "Video & Audio": "MultimediaApplication",
+        "Graphics & Design": "DesignApplication",
+        "Web Apps & Cloud": "BusinessApplication",
+        "Websites & SEO": "DeveloperApplication",
+        "Productivity": "UtilitiesApplication",
+    }
+    return mapping.get(category, "UtilitiesApplication")
 
 
 def enrich_frontmatter(markdown_text: str, repo: ScoutedRepo, aff: dict, provider_used: str) -> str:
@@ -143,8 +143,14 @@ def enrich_frontmatter(markdown_text: str, repo: ScoutedRepo, aff: dict, provide
             f"stars: {repo.stars}",
             f'source_url: "{repo.html_url}"',
             f'download_url: "{repo.primary_download_url}"',
+            f'downloadUrl: "{repo.primary_download_url}"',
             f'download_label: "{repo.primary_download_label}"',
             f'license: "{repo.license_id}"',
+            f'scouting_tier: "{repo.scouting_tier}"',
+            f'operatingSystem: "{repo.operating_system}"',
+            f'applicationCategory: "{_derive_application_category(repo.category)}"',
+            'priceCurrency: "USD"',
+            'price: "0"',
             f'affiliate_merchant_id: "{aff["merchant_id"]}"',
             f'affiliate_name: "{aff["merchant_name"]}"',
             f'affiliate_url: "{aff["tracking_url"]}"',
@@ -214,10 +220,33 @@ def process_single_repo(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="HubHum SEO Pipeline")
-    parser.add_argument("--limit", type=int, default=15, help="Max nightly apps to process")
+    parser = argparse.ArgumentParser(description="HubHum 3-Tier SEO Pipeline")
+    parser.add_argument("--limit", type=int, default=250, help="Max nightly apps to process in this wave")
+    parser.add_argument(
+        "--tier",
+        choices=["all", "tier1", "tier2", "tier3", "trending"],
+        default="all",
+        help="Target scouting tier (500 Tier1 / 300 Tier2 / 200 Tier3)",
+    )
+    parser.add_argument(
+        "--min-delay",
+        type=float,
+        default=4.1,
+        help="Minimum pause (seconds) between consecutive AI requests to stay below 15 RPM",
+    )
+    parser.add_argument(
+        "--batch-commit-size",
+        type=int,
+        default=50,
+        help="Rebuild catalog index and checkpoint-commit every N newly generated cards",
+    )
+    parser.add_argument(
+        "--auto-git-push",
+        action="store_true",
+        help="Automatically commit and push intermediate checkpoints during large batch runs",
+    )
     parser.add_argument("--repo-url", "--single-repo", dest="repo_url", help="Single GitHub URL for async translation")
-    parser.add_argument("--repo-urls", help="Comma-separated GitHub URLs (bypasses >500 stars filter)")
+    parser.add_argument("--repo-urls", help="Comma-separated GitHub URLs (bypasses star threshold)")
     parser.add_argument(
         "--force-provider",
         choices=["auto", "gemini", "groq", "both"],
@@ -245,6 +274,8 @@ def main() -> None:
     if explicit_urls:
         published = 0
         for idx, repo_u in enumerate(explicit_urls):
+            if idx > 0 and args.min_delay > 0:
+                time.sleep(args.min_delay)
             provider = args.force_provider
             if args.force_provider == "both":
                 provider = "groq" if idx == len(explicit_urls) - 1 and len(explicit_urls) > 1 else "gemini"
@@ -258,18 +289,32 @@ def main() -> None:
             raise SystemExit(2)
         return
 
-    repos = scout_trending_consumer_apps(limit=args.limit)
+    repos = scout_tiered_apps(limit=args.limit, tier=args.tier)
     published = 0
+    since_last_checkpoint = 0
     for idx, repo in enumerate(repos):
         target = CONTENT_APPS_DIR / f"{repo.slug}.md"
         if target.exists():
             continue
-        provider = "gemini" if args.force_provider == "both" and idx % 2 == 0 else ("groq" if args.force_provider == "both" else args.force_provider)
+        if idx > 0 and args.min_delay > 0:
+            time.sleep(args.min_delay)
+        provider = (
+            "gemini"
+            if args.force_provider == "both" and idx % 2 == 0
+            else ("groq" if args.force_provider == "both" else args.force_provider)
+        )
         if process_single_repo(repo, affiliates_data, blocklist, force_provider=provider):
             published += 1
+            since_last_checkpoint += 1
+            if args.batch_commit_size > 0 and since_last_checkpoint >= args.batch_commit_size:
+                write_catalog_index()
+                if args.auto_git_push:
+                    _commit_batch(published)
+                since_last_checkpoint = 0
+
     if published > 0:
         write_catalog_index()
-    print(f"Pipeline complete: {published} new cards generated.")
+    print(f"Pipeline complete (tier={args.tier}): {published} new cards generated.")
 
 
 if __name__ == "__main__":

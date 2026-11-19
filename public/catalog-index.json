@@ -5,7 +5,13 @@
     "repo_url": "https://github.com/shivamkumarjha/android_tools",
     "full_name": "shivamkumarjha/android_tools",
     "category": "Productivity",
-    "icon": "/icons/android-tools.png"
+    "icon": "/icons/android-tools.png",
+    "is_webapp": false,
+    "stars": 752,
+    "tier": "tier1_gui",
+    "summary": "Simplify custom Android operating system creation and file management with helpful automation utilities.",
+    "download_url": "https://github.com/AndroidBlobs",
+    "updated_at": "2026-11-19"
   },
   {
     "slug": "audacity",
@@ -13,7 +19,13 @@
     "repo_url": "https://github.com/audacity/audacity",
     "full_name": "audacity/audacity",
     "category": "Video & Audio",
-    "icon": "/icons/audacity.png"
+    "icon": "/icons/audacity.png",
+    "is_webapp": false,
+    "stars": 19101,
+    "tier": "tier1_gui",
+    "summary": "Record your voice, remove background noise, mix tracks, and export podcasts or music free on Windows, Mac, and Linux.",
+    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi",
+    "updated_at": "2026-11-18"
   },
   {
     "slug": "awesome",
@@ -21,7 +33,13 @@
     "repo_url": "https://github.com/sindresorhus/awesome",
     "full_name": "sindresorhus/awesome",
     "category": "Graphics & Design",
-    "icon": "/icons/awesome.png"
+    "icon": "/icons/awesome.png",
+    "is_webapp": false,
+    "stars": 539167,
+    "tier": "tier1_gui",
+    "summary": "Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.",
+    "download_url": "https://github.com/sindresorhus/awesome/releases",
+    "updated_at": "2026-11-19"
   },
   {
     "slug": "gh-stack",
@@ -37,7 +55,13 @@
     "repo_url": "https://github.com/tryghost/ghost",
     "full_name": "tryghost/ghost",
     "category": "Web Apps & Cloud",
-    "icon": "/icons/ghost.png"
+    "icon": "/icons/ghost.png",
+    "is_webapp": true,
+    "stars": 55849,
+    "tier": "tier2_webapp",
+    "summary": "Launch a fast blog, digital magazine, or paid newsletter while keeping complete ownership of your reader list.",
+    "download_url": "https://ghost.org",
+    "updated_at": "2026-11-18"
   },
   {
     "slug": "handbrake",
@@ -45,7 +69,13 @@
     "repo_url": "https://github.com/handbrake/handbrake",
     "full_name": "handbrake/handbrake",
     "category": "Video & Audio",
-    "icon": "/icons/handbrake.png"
+    "icon": "/icons/handbrake.png",
+    "is_webapp": false,
+    "stars": 25054,
+    "tier": "tier1_gui",
+    "summary": "Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen.",
+    "download_url": "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe",
+    "updated_at": "2026-11-19"
   },
   {
     "slug": "hubhum",
@@ -53,7 +83,13 @@
     "repo_url": "https://github.com/davanzokeoma/hubhum",
     "full_name": "davanzokeoma/hubhum",
     "category": "Web Apps & Cloud",
-    "icon": "/icons/hubhum.svg"
+    "icon": "/icons/hubhum.svg",
+    "is_webapp": true,
+    "stars": 0,
+    "tier": "tier2_webapp",
+    "summary": "Discover powerful free software explained in plain language with verified official downloads and zero tech jargon.",
+    "download_url": "https://davanzokeoma.github.io/HubHum/",
+    "updated_at": "2026-11-18"
   },
   {
     "slug": "joplin",
@@ -61,7 +97,13 @@
     "repo_url": "https://github.com/laurent22/joplin",
     "full_name": "laurent22/joplin",
     "category": "Security & Privacy",
-    "icon": "/icons/joplin.png"
+    "icon": "/icons/joplin.png",
+    "is_webapp": false,
+    "stars": 57234,
+    "tier": "tier1_gui",
+    "summary": "Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.",
+    "download_url": "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe",
+    "updated_at": "2026-11-18"
   },
   {
     "slug": "keepassxc",
@@ -69,7 +111,13 @@
     "repo_url": "https://github.com/keepassxreboot/keepassxc",
     "full_name": "keepassxreboot/keepassxc",
     "category": "Security & Privacy",
-    "icon": "/icons/keepassxc.png"
+    "icon": "/icons/keepassxc.png",
+    "is_webapp": false,
+    "stars": 30048,
+    "tier": "tier1_gui",
+    "summary": "Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees.",
+    "download_url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi",
+    "updated_at": "2026-11-18"
   },
   {
     "slug": "losslesscut",
@@ -77,7 +125,13 @@
     "repo_url": "https://github.com/mifi/lossless-cut",
     "full_name": "mifi/lossless-cut",
     "category": "Video & Audio",
-    "icon": "/icons/losslesscut.png"
+    "icon": "/icons/losslesscut.png",
+    "is_webapp": false,
+    "stars": 46153,
+    "tier": "tier1_gui",
+    "summary": "Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times.",
+    "download_url": "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-arm64.dmg",
+    "updated_at": "2026-11-18"
   },
   {
     "slug": "metamesh-uga",
@@ -85,7 +139,13 @@
     "repo_url": "https://github.com/davanzokeoma/metamesh-uga",
     "full_name": "davanzokeoma/metamesh-uga",
     "category": "Web Apps & Cloud",
-    "icon": "/icons/metamesh-uga.svg"
+    "icon": "/icons/metamesh-uga.svg",
+    "is_webapp": true,
+    "stars": 0,
+    "tier": "tier2_webapp",
+    "summary": "Connect your AI assistants to over 13,000 ready-to-use tools through one smart gateway with built-in safety checks.",
+    "download_url": "https://metamesh-uga.dev",
+    "updated_at": "2026-11-18"
   },
   {
     "slug": "sniffnet",
@@ -93,7 +153,13 @@
     "repo_url": "https://github.com/gyulyvgc/sniffnet",
     "full_name": "gyulyvgc/sniffnet",
     "category": "Security & Privacy",
-    "icon": "/icons/sniffnet.png"
+    "icon": "/icons/sniffnet.png",
+    "is_webapp": false,
+    "stars": 43100,
+    "tier": "tier1_gui",
+    "summary": "Easily observe and analyze your computer's internet traffic in real-time with visual graphs, custom alerts, and security filters.",
+    "download_url": "https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_arm64.msi",
+    "updated_at": "2026-11-19"
   },
   {
     "slug": "tv-detox",
@@ -101,7 +167,13 @@
     "repo_url": "https://github.com/ansub/tv-detox",
     "full_name": "ansub/tv-detox",
     "category": "Productivity",
-    "icon": "/icons/tv-detox.png"
+    "icon": "/icons/tv-detox.png",
+    "is_webapp": false,
+    "stars": 2395,
+    "tier": "tier3_powertool",
+    "summary": "Revive old Android televisions by safely removing annoying ads and hidden bloatware using automated assistant prompts.",
+    "download_url": "https://github.com/Ansub/tv-detox/releases/download/v1.5.7/tvhome.apk",
+    "updated_at": "2026-11-19"
   },
   {
     "slug": "vlc",
@@ -109,6 +181,12 @@
     "repo_url": "https://github.com/videolan/vlc",
     "full_name": "videolan/vlc",
     "category": "Video & Audio",
-    "icon": "/icons/vlc.png"
+    "icon": "/icons/vlc.png",
+    "is_webapp": false,
+    "stars": 20504,
+    "tier": "tier1_gui",
+    "summary": "VLC is a versatile media player that opens almost any video or audio file without needing extra downloads.",
+    "download_url": "https://www.videolan.org/vlc",
+    "updated_at": "2026-11-19"
   }
 ]

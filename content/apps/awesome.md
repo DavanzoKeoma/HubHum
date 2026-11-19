@@ -19,6 +19,12 @@ affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets fo
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-19"
+downloadUrl: "https://github.com/sindresorhus/awesome/releases"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "DesignApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "Elenchi curati di argomenti affascinanti."

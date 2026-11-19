@@ -1,0 +1,113 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
+
+const lastUpdated = new Date().toISOString().slice(0, 10);
+---
+
+<BaseLayout
+  title="Privacy Policy — HubHum"
+  description="Zero-cookie, zero-tracking privacy policy for HubHum and the HubHum Chrome Extension (Manifest V3)."
+>
+  <div class="container detail-wrap">
+    <a href={withBase('/')} class="breadcrumb">← Back to HubHum Catalog</a>
+
+    <section class="article-card" style="max-width:860px;margin:0 auto;">
+      <div class="hero-badge" style="margin-bottom:0.85rem;">
+        <span>Chrome Web Store Compliant • Single Purpose &amp; Limited Use</span>
+      </div>
+      <h1 style="margin:0 0 0.5rem;font-size:clamp(1.6rem,3vw,2.1rem);">
+        Privacy Policy — HubHum &amp; Chrome Extension
+      </h1>
+      <p style="margin:0 0 1.4rem;color:var(--text-muted);font-size:0.92rem;">
+        Last updated: <strong>{lastUpdated}</strong> • Bilingual Official Notice (EN / IT)
+      </p>
+
+      <h2 style="margin-top:1.4rem;font-size:1.25rem;color:var(--text);">
+        1. English — Privacy &amp; Data Usage Disclosure
+      </h2>
+      <p>
+        HubHum (&ldquo;we&rdquo;, &ldquo;HubHum – A Git Hub for Humans&rdquo;) respects your privacy and follows strict{' '}
+        <strong>privacy-by-design</strong> and <strong>zero-leak</strong> principles across both our static web catalog
+        and the official Chrome Extension (Manifest V3).
+      </p>
+
+      <ul>
+        <li>
+          <strong>Active Public URL Only:</strong> The extension only reads the active browser tab URL when you visit a
+          public GitHub repository page (<code>https://github.com/:owner/:repo</code>) or click the{' '}
+          <em>&ldquo;Humanize with HubHum&rdquo;</em> action button or extension popup. We never read page form inputs,
+          private repositories, browsing history outside GitHub repository URLs, or personal account tokens.
+        </li>
+        <li>
+          <strong>Zero Profiling, Zero Sale, Zero PII:</strong> We do not collect, store, sell, transfer, or monetize any
+          Personally Identifiable Information (PII), IP logs, health/financial data, or authentication credentials.
+        </li>
+        <li>
+          <strong>Zero Third-Party Tracking Cookies:</strong> HubHum sets no third-party advertising cookies or cross-site
+          behavioral trackers. Local favorites (<code>localStorage</code>) and active extension conversion progress (
+          <code>chrome.storage.local</code>) remain strictly inside your own browser device.
+        </li>
+        <li>
+          <strong>Single Purpose &amp; Limited Use Compliance:</strong> All requested permissions (<code>activeTab</code>,{' '}
+          <code>storage</code>, and <code>notifications</code>) are used exclusively to detect a public GitHub project,
+          convert its documentation via our serverless bridge (
+          <code>https://hubhum-api-bridge.keomadavanzo.workers.dev/api/convert</code>), and notify you when the guide
+          is live. Data handling strictly complies with the Chrome Web Store Developer Program Policy, including Limited
+          Use requirements.
+        </li>
+        <li>
+          <strong>Affiliate Transparency (#ad):</strong> Some recommended tool links inside software guides include an
+          anonymous partner referral tag (SubID) so HubHum can remain free. No personal user data is transmitted via
+          these links.
+        </li>
+      </ul>
+
+      <h2 style="margin-top:1.8rem;font-size:1.25rem;color:var(--text);">
+        2. Italiano — Informativa Privacy &amp; Trattamento Dati
+      </h2>
+      <p>
+        HubHum (&ldquo;HubHum – A Git Hub for Humans&rdquo;) adotta principi rigorosi di <strong>privacy-by-design</strong>{' '}
+        e <strong>zero-tracking</strong> sia sul catalogo web statico sia sull&apos;estensione ufficiale Google Chrome
+        (Manifest V3).
+      </p>
+
+      <ul>
+        <li>
+          <strong>Lettura del solo URL pubblico su azione utente:</strong> L&apos;estensione legge esclusivamente l&apos;URL
+          pubblico della scheda attiva su <code>https://github.com/:owner/:repo</code> per verificare se il software è già
+          presente su HubHum o avviare la conversione in guida semplice su tua esplicita richiesta. Non accede mai a
+          repository privati, credenziali, email o cronologia di navigazione personale.
+        </li>
+        <li>
+          <strong>Nessuna profilazione, nessuna vendita di dati, nessun cookie di tracciamento:</strong> Non raccogliamo,
+          non profiliamo e non vendiamo dati personali identificativi (PII) né utilizziamo cookie di tracciamento di terze
+          parti. Preferiti e stato delle conversioni vengono salvati unicamente in locale nel tuo browser (
+          <code>localStorage</code> / <code>chrome.storage.local</code>).
+        </li>
+        <li>
+          <strong>Conformità Chrome Web Store (Single Purpose &amp; Limited Use):</strong> I permessi{' '}
+          <code>activeTab</code>, <code>storage</code> e <code>notifications</code> servono unicamente allo scopo
+          dichiarato dell&apos;estensione: tradurre schede software open-source in guide chiare e avvisarti con una
+          notifica desktop al completamento.
+        </li>
+      </ul>
+
+      <h2 style="margin-top:1.8rem;font-size:1.25rem;color:var(--text);">
+        3. Contact &amp; Takedown Requests
+      </h2>
+      <p>
+        For privacy questions or open-source project takedown requests, contact the maintainer via{' '}
+        <a
+          href="https://github.com/DavanzoKeoma/HubHum"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color:var(--accent);text-decoration:underline;"
+        >
+          DavanzoKeoma/HubHum on GitHub
+        </a>{' '}
+        or email <code>keomadavanzo@gmail.com</code>.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

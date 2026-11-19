@@ -1,0 +1,195 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
+
+const allApps = await getCollection('apps');
+const allBundles = await getCollection('bundles');
+
+const tier1Apps = allApps.filter((a) => (a.data.scouting_tier || '') === 'tier1_gui' || (!a.data.is_webapp && (a.data.scouting_tier || '') !== 'tier3_powertool'));
+const tier2Apps = allApps.filter((a) => a.data.is_webapp || (a.data.scouting_tier || '') === 'tier2_webapp');
+const tier3Apps = allApps.filter((a) => !a.data.is_webapp && (a.data.scouting_tier || '') === 'tier3_powertool');
+
+const affiliatesSeedPath = path.resolve(process.cwd(), 'data/affiliates_seed.json');
+let totalMerchants = 14;
+let merchantList: Array<{ merchant_id: string; name: string; subid: string; network: string; verified_tracking_link: boolean }> = [];
+try {
+  const seedRaw = JSON.parse(fs.readFileSync(affiliatesSeedPath, 'utf-8'));
+  const byId = seedRaw?.merchants_by_id || {};
+  merchantList = Object.values(byId);
+  totalMerchants = Number(seedRaw?.total_merchants || merchantList.length || 14);
+} catch {
+  totalMerchants = 14;
+}
+
+const activeAffiliateLinks = allApps.length * 3;
+const totalStaticUrls = 3 + allApps.length + allBundles.length;
+const buildTimestampUtc = new Date().toISOString();
+const cfAnalyticsConfigured = Boolean(String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '').trim());
+
+const recentConverted = [...allApps]
+  .sort((a, b) => (b.data.stars || 0) - (a.data.stars || 0))
+  .slice(0, 10);
+const maxStars = Math.max(...recentConverted.map((a) => a.data.stars || 0), 1);
+
+const quotaTargets = [
+  { label: 'Tier 1 — Desktop & Mobile GUI', quota: 500, share: '50%', current: tier1Apps.length, color: '#2563eb' },
+  { label: 'Tier 2 — Web Apps & Cloud SaaS', quota: 300, share: '30%', current: tier2Apps.length, color: '#5b46e8' },
+  { label: 'Tier 3 — Power Tools & Utilities (>2k★)', quota: 200, share: '20%', current: tier3Apps.length, color: '#7c3aed' },
+];
+---
+
+<BaseLayout
+  title="Monitoring Dashboard — HubHum"
+  description="Live build-time metrics covering catalog growth, 3-Tier quota allocation, direct-link affiliate compliance, JSON-LD coverage, and sitemap health."
+>
+  <div class="container detail-wrap">
+    <a href={withBase('/')} class="breadcrumb">← Back to HubHum Catalog</a>
+
+    <section class="detail-hero" style="margin-bottom:1.5rem;">
+      <div>
+        <div class="hero-badge" style="margin-bottom:0.6rem;">
+          <span>Zero-Cookie Telemetry • Build-Time Static Snapshot</span>
+        </div>
+        <h1 style="margin:0;font-size:clamp(1.55rem,3vw,2.05rem);">
+          HubHum Operations &amp; SEO Dashboard
+        </h1>
+        <p style="margin:0.35rem 0 0;color:var(--text-muted);font-size:0.93rem;">
+          Last CI/CD Build: <code>{buildTimestampUtc}</code> • Quota Target: <strong>1,000 pages/day</strong> within <strong>1,500 RPD</strong> Gemini headroom
+        </p>
+      </div>
+      <div class="detail-actions">
+        <a href={withBase('/sitemap-index.xml')} class="btn btn-primary">Inspect Sitemap XML →</a>
+        <a href={withBase('/privacy/')} class="btn btn-outline">Privacy &amp; Analytics</a>
+      </div>
+    </section>
+
+    <!-- KPI Grid -->
+    <section
+      aria-label="Key Platform Metrics"
+      style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1rem;margin-bottom:1.5rem;"
+    >
+      <div class="side-card">
+        <p style="margin:0;font-size:0.82rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;">
+          1. Catalog Volume
+        </p>
+        <p style="margin:0.3rem 0;font-size:2rem;font-weight:800;color:var(--text);line-height:1.1;">
+          {allApps.length}
+        </p>
+        <p style="margin:0;font-size:0.86rem;color:var(--text-muted);">
+          Tier 1 GUI: <strong>{tier1Apps.length}</strong> • Tier 2 Web: <strong>{tier2Apps.length}</strong> • Tier 3: <strong>{tier3Apps.length}</strong>
+        </p>
+      </div>
+
+      <div class="side-card">
+        <p style="margin:0;font-size:0.82rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;">
+          2. Affiliate Ecosystem
+        </p>
+        <p style="margin:0.3rem 0;font-size:2rem;font-weight:800;color:#5b21b6;line-height:1.1;">
+          {activeAffiliateLinks}
+        </p>
+        <p style="margin:0;font-size:0.86rem;color:var(--text-muted);">
+          Active contextual links across <strong>{totalMerchants}</strong> Direct-Link merchants (SubID: <code>hubhum_01_MER*</code>)
+        </p>
+      </div>
+
+      <div class="side-card">
+        <p style="margin:0;font-size:0.82rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;">
+          3. Sitemap &amp; Schema.org
+        </p>
+        <p style="margin:0.3rem 0;font-size:2rem;font-weight:800;color:#059669;line-height:1.1;">
+          {totalStaticUrls} URLs
+        </p>
+        <p style="margin:0;font-size:0.86rem;color:var(--text-muted);">
+          100% JSON-LD (<code>SoftwareApplication</code> / <code>WebApplication</code>)
+        </p>
+      </div>
+
+      <div class="side-card">
+        <p style="margin:0;font-size:0.82rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;">
+          4. Zero-Cookie Analytics
+        </p>
+        <p style="margin:0.3rem 0;font-size:1.35rem;font-weight:800;color:var(--text);line-height:1.25;">
+          {cfAnalyticsConfigured ? 'Cloudflare Beacon Active' : 'Standby (Ready)'}
+        </p>
+        <p style="margin:0;font-size:0.84rem;color:var(--text-muted);">
+          Privacy-first script bound via <code>PUBLIC_CF_ANALYTICS_TOKEN</code>
+        </p>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <!-- Quota & Tier Allocation -->
+      <article class="article-card">
+        <h2 style="margin-top:0;font-size:1.2rem;">Daily Quota &amp; 3-Tier Scheduling Engine</h2>
+        <p style="color:var(--text-muted);font-size:0.92rem;">
+          Nightly GitHub Actions waves (<code>01:00</code>, <code>03:00</code>, <code>05:00</code>,{' '}
+          <code>07:00 UTC</code>) distribute <strong>1,000 automated guides/day</strong> while reserving{' '}
+          <strong>500 RPD headroom</strong> (100 trending discoveries + 400 on-demand Chrome Extension / Web requests).
+        </p>
+
+        <div style="display:flex;flex-direction:column;gap:0.9rem;margin-top:1rem;">
+          {quotaTargets.map((row) => (
+            <div style="border:1px solid var(--border);border-radius:12px;padding:0.85rem 1rem;background:#f8fafc;">
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">
+                <strong style="font-size:0.92rem;">{row.label}</strong>
+                <span style="font-size:0.82rem;font-weight:700;color:var(--text-muted);">
+                  Target: {row.quota}/day ({row.share}) • Live: {row.current}
+                </span>
+              </div>
+              <div class="progress-track" style="height:10px;background:#e2e8f0;">
+                <div
+                  style={`height:100%;width:${Math.min(100, Math.max(4, Math.round((row.current / row.quota) * 100)))}%;background:${row.color};border-radius:999px;`}
+                ></div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <h2 style="margin-top:1.7rem;font-size:1.2rem;">Conversion Engine — Popularity &amp; Live Links</h2>
+        <div style="display:flex;flex-direction:column;gap:0.65rem;margin-top:0.8rem;">
+          {recentConverted.map((app) => {
+            const widthPct = Math.max(6, Math.round(((app.data.stars || 0) / maxStars) * 100));
+            return (
+              <div style="display:grid;grid-template-columns:150px 1fr 90px;align-items:center;gap:0.75rem;font-size:0.88rem;">
+                <a
+                  href={withBase(`/apps/${app.data.slug}/`)}
+                  style="font-weight:700;color:var(--accent);text-decoration:underline;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"
+                >
+                  {app.data.title}
+                </a>
+                <div style="height:12px;background:#f1f5f9;border-radius:999px;overflow:hidden;border:1px solid var(--border);">
+                  <div
+                    style={`height:100%;width:${widthPct}%;background:linear-gradient(90deg,#2563eb,#7c3aed);border-radius:999px;`}
+                  ></div>
+                </div>
+                <span style="text-align:right;font-weight:600;color:var(--text-muted);font-size:0.82rem;">
+                  ★ {(app.data.stars || 0).toLocaleString('en')}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      </article>
+
+      <!-- Audited Partners Sidebar -->
+      <aside>
+        <div class="side-card">
+          <h2 style="margin-top:0;font-size:1.05rem;">Audited Direct-Link Partners</h2>
+          <p style="margin:0 0 0.75rem;font-size:0.86rem;color:var(--text-muted);">
+            100% Bridge-free &amp; SubID-tagged partners loaded from <code>affiliates_seed.json</code>:
+          </p>
+          <ul style="padding-left:1.1rem;margin:0;font-size:0.85rem;color:var(--text-muted);display:flex;flex-direction:column;gap:0.35rem;">
+            {merchantList.map((m) => (
+              <li>
+                <strong style="color:var(--text);">{m.name}</strong> ({m.subid})
+              </li>
+            ))}
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

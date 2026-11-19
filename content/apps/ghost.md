@@ -18,6 +18,12 @@ affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
 affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
 featured_weekly: true
 updated_at: "2026-11-18"
+downloadUrl: "https://ghost.org"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "Blog indipendenti e newsletter a pagamento"

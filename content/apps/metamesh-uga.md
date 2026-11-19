@@ -19,6 +19,12 @@ affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 clic
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: false
 updated_at: "2026-11-18"
+downloadUrl: "https://metamesh-uga.dev"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "Accesso unificato a oltre 13.000 tool AI"

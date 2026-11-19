@@ -18,6 +18,12 @@ affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid
 affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
 featured_weekly: true
 updated_at: "2026-11-18"
+downloadUrl: "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-arm64.dmg"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "MultimediaApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "Taglia video e audio senza perdere qualità"

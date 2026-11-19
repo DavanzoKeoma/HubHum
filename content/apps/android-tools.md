@@ -19,6 +19,12 @@ affiliate_pitch: "Build and optimize your website faster with industry-standard 
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-19"
+downloadUrl: "https://github.com/AndroidBlobs"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "Automatizza la creazione di sistemi Android personalizzati"

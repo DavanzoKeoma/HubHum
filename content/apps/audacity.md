@@ -19,6 +19,12 @@ affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets fo
 ai_provider: "tier2_groq:openai/gpt-oss-120b"
 featured_weekly: false
 updated_at: "2026-11-18"
+downloadUrl: "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "MultimediaApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "Registratore e montaggio audio gratuito"

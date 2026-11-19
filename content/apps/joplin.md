@@ -19,6 +19,12 @@ affiliate_pitch: "Protect your connection before downloading or syncing private 
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-18"
+downloadUrl: "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "SecurityApplication"
+priceCurrency: "USD"
+price: "0"
 i18n:
   it:
     tagline: "Note private e liste cifrate ovunque"

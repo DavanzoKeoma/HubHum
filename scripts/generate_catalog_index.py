@@ -1,4 +1,4 @@
-"""Generate public/catalog-index.json from content/apps/*.md for instant client-side lookup."""
+"""Generate public/catalog-index.json and data/catalog-index.json from content/apps/*.md."""
 
 from __future__ import annotations
 
@@ -10,12 +10,13 @@ from validator_sanitizer import split_frontmatter
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_APPS_DIR = PROJECT_ROOT / "content" / "apps"
-OUTPUT_PATH = PROJECT_ROOT / "public" / "catalog-index.json"
+PUBLIC_INDEX_PATH = PROJECT_ROOT / "public" / "catalog-index.json"
+DATA_INDEX_PATH = PROJECT_ROOT / "data" / "catalog-index.json"
 
 
-def build_catalog_index() -> list[dict[str, str]]:
-    """Collect lightweight slug/name/repo_url metadata for all published apps."""
-    entries: list[dict[str, str]] = []
+def build_catalog_index() -> list[dict[str, object]]:
+    """Collect rich metadata for all published apps for UI, scouter dedupe, and MCP search."""
+    entries: list[dict[str, object]] = []
     if not CONTENT_APPS_DIR.exists():
         return entries
 
@@ -26,6 +27,11 @@ def build_catalog_index() -> list[dict[str, str]]:
         m = re.match(r"^https?://github\.com/([^/]+/[^/?#]+)", source_url, re.IGNORECASE)
         if m:
             full_name = m.group(1).lower()
+
+        is_webapp = bool(meta.get("is_webapp"))
+        stars = int(meta.get("stars") or 0)
+        tier = str(meta.get("scouting_tier") or ("tier2_webapp" if is_webapp else "tier1_gui"))
+
         entries.append(
             {
                 "slug": str(meta.get("slug") or md_path.stem),
@@ -34,6 +40,12 @@ def build_catalog_index() -> list[dict[str, str]]:
                 "full_name": full_name,
                 "category": str(meta.get("category") or "Productivity"),
                 "icon": str(meta.get("icon") or "/icons/hubhum.svg"),
+                "is_webapp": is_webapp,
+                "stars": stars,
+                "tier": tier,
+                "summary": str(meta.get("summary") or ""),
+                "download_url": str(meta.get("download_url") or meta.get("downloadUrl") or ""),
+                "updated_at": str(meta.get("updated_at") or ""),
             }
         )
     return entries
@@ -41,10 +53,12 @@ def build_catalog_index() -> list[dict[str, str]]:
 
 def write_catalog_index() -> Path:
     entries = build_catalog_index()
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"[INDEX] Generated {OUTPUT_PATH} ({len(entries)} apps)")
-    return OUTPUT_PATH
+    payload = json.dumps(entries, ensure_ascii=False, indent=2) + "\n"
+    for target in (PUBLIC_INDEX_PATH, DATA_INDEX_PATH):
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(payload, encoding="utf-8")
+    print(f"[INDEX] Generated {PUBLIC_INDEX_PATH} and {DATA_INDEX_PATH} ({len(entries)} apps)")
+    return PUBLIC_INDEX_PATH
 
 
 if __name__ == "__main__":

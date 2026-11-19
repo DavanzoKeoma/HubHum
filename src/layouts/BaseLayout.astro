@@ -5,16 +5,27 @@ import { withBase } from '../lib/url';
 interface Props {
   title?: string;
   description?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
   title = 'HubHum — A Git Hub for Humans',
   description = 'Discover hand-picked free and open-source software explained in plain language with verified official downloads.',
+  jsonLd,
 } = Astro.props;
 
 const siteOrigin = (Astro.site?.toString() || 'https://davanzokeoma.github.io').replace(/\/$/, '');
 const ogImageUrl = `${siteOrigin}${withBase('/og-image.png')}`;
 const canonicalUrl = `${siteOrigin}${Astro.url.pathname}`;
+const defaultJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'HubHum — A Git Hub for Humans',
+  url: `${siteOrigin}${withBase('/')}`,
+  description,
+};
+const effectiveJsonLd = jsonLd || defaultJsonLd;
+const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '').trim();
 ---
 
 <!doctype html>
@@ -41,6 +52,7 @@ const canonicalUrl = `${siteOrigin}${Astro.url.pathname}`;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
+    <script type="application/ld+json" set:html={JSON.stringify(effectiveJsonLd)} />
     <script is:inline>
       (function () {
         var supported = ['en', 'it', 'es', 'fr', 'de'];
@@ -196,6 +208,11 @@ const canonicalUrl = `${siteOrigin}${Astro.url.pathname}`;
         </div>
         <div data-i18n="footerCredits">
           All listed software links strictly to official creator channels in full respect of open-source licenses.
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:1rem;margin-top:0.35rem;font-weight:600;color:var(--text);">
+          <a href={withBase('/privacy/')} style="text-decoration:underline;">Privacy Policy</a>
+          <a href={withBase('/dashboard/')} style="text-decoration:underline;">Dashboard</a>
+          <a href={withBase('/sitemap-index.xml')} style="text-decoration:underline;">Sitemap</a>
         </div>
       </div>
     </footer>
@@ -398,5 +415,12 @@ const canonicalUrl = `${siteOrigin}${Astro.url.pathname}`;
 
       closeBtns.forEach((btn) => btn?.addEventListener('click', () => dialog?.close()));
     </script>
+    {cfAnalyticsToken && (
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon={JSON.stringify({ token: cfAnalyticsToken })}
+      ></script>
+    )}
   </body>
 </html>
