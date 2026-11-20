@@ -1,0 +1,70 @@
+---
+title: "Continue"
+slug: "continue"
+tagline: "Your open-source intelligent coding assistant"
+summary: "Continue is a flexible open-source coding companion that helps you write, debug, and understand code faster directly inside your favorite text editor."
+tags: ["development", "ai", "coding-assistant", "productivity"]
+is_webapp: false
+category: "Graphics & Design"
+icon: "/icons/continue.png"
+stars: 36524
+source_url: "https://github.com/continuedev/continue"
+download_url: "https://continue.dev"
+downloadUrl: "https://continue.dev"
+download_label: "Visit Official Site"
+license: "Apache-2.0"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "DesignApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_054"
+affiliate_name: "Creative Fabrica"
+affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
+affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-20"
+i18n:
+  it:
+    tagline: "Il tuo assistente di programmazione open source"
+    summary: "Continue è un compagno di programmazione open-source che ti aiuta a scrivere e correggere codice direttamente nel tuo editor preferito."
+  es:
+    tagline: "Tu asistente de programación de código abierto"
+    summary: "Continue es un compañero de código abierto que te ayuda a escribir, depurar y comprender mejor el código dentro de tu editor."
+  fr:
+    tagline: "Votre assistant de programmation open source"
+    summary: "Continue est un compagnon de code open-source qui vous aide à écrire et déboguer du code directement dans votre éditeur favori."
+  de:
+    tagline: "Ihr Open-Source-Programmierassistent"
+    summary: "Continue ist ein Open-Source-Programmierassistent, der Ihnen hilft, Code direkt in Ihrem bevorzugten Editor zu schreiben."
+---
+
+### What it does in plain English
+Continue acts as an intelligent helper that lives inside your workspace to answer questions about your files, generate functions from simple descriptions, and spot errors on the fly. It streamlines your daily programming tasks by connecting smart language models directly to your workflow. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+
+### Who it's for
+* Software developers looking to speed up routine coding tasks and boilerplate generation.
+* Students and hobbyists learning new programming languages who want instant explanations for complex functions.
+* Engineers who prefer open, customizable tools that respect their privacy and workflow habits.
+
+### Key features
+* Directly integrates into popular code editors and command-line interfaces for seamless daily use.
+* Allows you to highlight sections of code to ask for instant explanations, refactoring suggestions, or bug fixes.
+* Fully customizable configuration options so you can connect your preferred language models and backends.
+* Privacy-focused release with removed anonymous telemetry and streamlined offline capabilities.
+* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
+
+### How to install (Download)
+You can easily add Continue to your preferred development environment using the official extension marketplaces and package registries. Choose from the available options below:
+* [Get Continue for VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue)
+* [Get Continue on OpenVSX Registry](https://open-vsx.org/extension/Continue/continue)
+* [Install the Continue CLI via npm](https://www.npmjs.com/package/@continuedev/cli)
+* [Browse Releases on GitHub](https://github.com/continuedev/continue/releases)
+Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+
+### Pros and Cons
+* **Pros:** Completely open-source, highly customizable, and integrates smoothly into existing text editors.
+* **Cons:** Advanced setup and model configuration may take a few minutes for absolute beginners.
+
+[Official Source / Credits](https://github.com/continuedev/continue)

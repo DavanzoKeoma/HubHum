@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "full_name": "siyuan-note/siyuan",
+    "slug": "siyuan",
+    "html_url": "https://github.com/siyuan-note/siyuan",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-20T07:55:16.767487+00:00"
+  },
+  {
+    "full_name": "rtk-ai/rtk",
+    "slug": "rtk",
+    "html_url": "https://github.com/rtk-ai/rtk",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-20T08:06:10.069655+00:00"
+  }
+]
