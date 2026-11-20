@@ -1,0 +1,70 @@
+---
+title: "cz-cli"
+slug: "cz-cli"
+tagline: "Standardize your project change notes effortlessly."
+summary: "cz-cli guides you through interactive prompts to write crystal-clear, structured message logs for every project update you save."
+tags: ["command-line", "productivity", "utilities"]
+is_webapp: false
+category: "Graphics & Design"
+icon: "/icons/cz-cli.png"
+stars: 17502
+source_url: "https://github.com/commitizen/cz-cli"
+download_url: "https://commitizen.github.io/cz-cli/"
+downloadUrl: "https://commitizen.github.io/cz-cli/"
+download_label: "Visit Official Site"
+license: "MIT"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "DesignApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_054"
+affiliate_name: "Creative Fabrica"
+affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
+affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-20"
+i18n:
+  it:
+    tagline: "Standardize your project change notes effortlessly."
+    summary: "cz-cli guides you through interactive prompts to write crystal-clear, structured message logs for every project update you save."
+  es:
+    tagline: "Standardize your project change notes effortlessly."
+    summary: "cz-cli guides you through interactive prompts to write crystal-clear, structured message logs for every project update you save."
+  fr:
+    tagline: "Standardize your project change notes effortlessly."
+    summary: "cz-cli guides you through interactive prompts to write crystal-clear, structured message logs for every project update you save."
+  de:
+    tagline: "Standardize your project change notes effortlessly."
+    summary: "cz-cli guides you through interactive prompts to write crystal-clear, structured message logs for every project update you save."
+---
+
+### What it does in plain English
+cz-cli is a helpful terminal tool that prompts you with specific questions whenever you save or update changes to a project. Instead of guessing how to write a descriptive update note, the tool walks you through structured categories and required fields step by step. When working in teams, this ensures everyone follows the exact same formatting rules, making it vastly easier to read history and generate release summaries. While organizing your development workflow, when you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+
+### Who it's for
+* Software developers who want clean, uniform history logs across team projects.
+* Project maintainers looking to enforce consistent formatting standards without manual policing.
+* Open-source contributors wanting instant feedback on message styling before submitting work.
+
+### Key features
+* Interactive terminal prompts guide you through required project update fields instantly.
+* Fully compatible with standard message conventions and customizable team templates.
+* Built-in retry function lets you fix failed checks without retyping your entire message.
+* Integrates seamlessly with popular hook tools to check formatting automatically.
+* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
+
+### How to install (Download)
+You can easily set up the command utility using your node package manager by running:
+
+```sh
+npm install -g commitizen
+```
+
+Alternatively, visit the [Commitizen Official Website](https://commitizen.github.io/cz-cli/) to read full documentation and guidelines. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+
+### Pros and Cons
+* **Pros:** Free and open source, highly customizable, dramatically improves team clarity.
+* **Cons:** Requires a basic terminal environment and familiarity with command-line tools.
+[Official Source / Credits](https://github.com/commitizen/cz-cli)
