@@ -1,5 +1,19 @@
 [
   {
+    "slug": "agent-desktop",
+    "name": "Agent Desktop",
+    "repo_url": "https://github.com/vercel-labs/agent-desktop",
+    "full_name": "vercel-labs/agent-desktop",
+    "category": "Graphics & Design",
+    "icon": "/icons/agent-desktop.png",
+    "is_webapp": false,
+    "stars": 25637,
+    "tier": "tier3_powertool",
+    "summary": "Agent Desktop lets intelligent assistants view and operate native desktop applications seamlessly through the operating system structure instead of.",
+    "download_url": "https://github.com/vercel-labs/agent-desktop/releases/download/v1.3.1/checksums.txt",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "agent-reach",
     "name": "Agent-Reach",
     "repo_url": "https://github.com/panniantong/agent-reach",
@@ -14,6 +28,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ai-goofish-monitor",
+    "name": "AI Goofish Monitor",
+    "repo_url": "https://github.com/usagi-org/ai-goofish-monitor",
+    "full_name": "usagi-org/ai-goofish-monitor",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/ai-goofish-monitor.png",
+    "is_webapp": true,
+    "stars": 20283,
+    "tier": "tier3_powertool",
+    "summary": "This tool helps you automatically track and analyze product listings on second-hand marketplaces using artificial intelligence.",
+    "download_url": "https://github.com/Usagi-org/ai-goofish-monitor/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "ai-website-cloner-template",
+    "name": "AI Website Cloner Template",
+    "repo_url": "https://github.com/jcodesmore/ai-website-cloner-template",
+    "full_name": "jcodesmore/ai-website-cloner-template",
+    "category": "Productivity",
+    "icon": "/icons/ai-website-cloner-template.png",
+    "is_webapp": false,
+    "stars": 39528,
+    "tier": "tier3_powertool",
+    "summary": "Recreate any website as a clean Next.js app instantly by giving your AI coding assistant a simple link command.",
+    "download_url": "https://dsc.gg/jcodesmore",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "aider",
     "name": "aider",
     "repo_url": "https://github.com/aider-ai/aider",
@@ -25,6 +67,20 @@
     "tier": "tier3_powertool",
     "summary": "Aider acts as a digital partner that helps you write, edit, and manage your code projects directly from your command line interface.",
     "download_url": "https://aider.chat/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "airflow",
+    "name": "Apache Airflow",
+    "repo_url": "https://github.com/apache/airflow",
+    "full_name": "apache/airflow",
+    "category": "Productivity",
+    "icon": "/icons/airflow.png",
+    "is_webapp": false,
+    "stars": 47568,
+    "tier": "tier3_powertool",
+    "summary": "Apache Airflow helps you organize, schedule, and monitor recurring tasks through simple code-based workflows.",
+    "download_url": "https://github.com/apache/airflow/releases/download/3.4.0/apache_airflow-3.4.0-py3-none-any.whl",
     "updated_at": "2026-11-20"
   },
   {
@@ -98,6 +154,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "appium",
+    "name": "Appium",
+    "repo_url": "https://github.com/appium/appium",
+    "full_name": "appium/appium",
+    "category": "Graphics & Design",
+    "icon": "/icons/appium.png",
+    "is_webapp": false,
+    "stars": 22241,
+    "tier": "tier3_powertool",
+    "summary": "Appium is an open-source tool that lets you automate testing for phone, tablet, and computer applications across different platforms using standard.",
+    "download_url": "https://appium.io/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "appports",
+    "name": "AppPorts",
+    "repo_url": "https://github.com/wzh4869/appports",
+    "full_name": "wzh4869/appports",
+    "category": "Productivity",
+    "icon": "/icons/appports.png",
+    "is_webapp": false,
+    "stars": 2288,
+    "tier": "tier3_powertool",
+    "summary": "Seamlessly move bulky Mac applications and personal data to an external drive while keeping lightweight launchers right where you need them.",
+    "download_url": "https://github.com/wzh4869/AppPorts/releases/download/2.3.0/AppPorts2.3.0.dmg",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "appsmith",
     "name": "Appsmith",
     "repo_url": "https://github.com/appsmithorg/appsmith",
@@ -137,6 +221,34 @@
     "tier": "tier2_webapp",
     "summary": "ArchiveBox is a self-hosted tool that saves web pages, media, and documents into durable formats so they never disappear from the internet.",
     "download_url": "https://github.com/ArchiveBox/ArchiveBox/releases/download/v0.9.77/archivebox-0.9.77-py3-none-any.whl",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "archon",
+    "name": "Archon",
+    "repo_url": "https://github.com/coleam00/archon",
+    "full_name": "coleam00/archon",
+    "category": "Graphics & Design",
+    "icon": "/icons/archon.png",
+    "is_webapp": false,
+    "stars": 23963,
+    "tier": "tier3_powertool",
+    "summary": "Archon turns your software development process into repeatable, automated workflows that handle coding tasks with AI agents while keeping you in.",
+    "download_url": "https://github.com/coleam00/Archon/releases/download/v0.14.0/archon-chat-slack-windows-x64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "asciigraph",
+    "name": "asciigraph",
+    "repo_url": "https://github.com/guptarohit/asciigraph",
+    "full_name": "guptarohit/asciigraph",
+    "category": "Graphics & Design",
+    "icon": "/icons/asciigraph.png",
+    "is_webapp": false,
+    "stars": 3101,
+    "tier": "tier3_powertool",
+    "summary": "Turn raw numbers into clean, easy-to-read ASCII line charts right inside your command-line applications.",
+    "download_url": "https://github.com/guptarohit/asciigraph/releases/download/v0.10.0/asciigraph_0.10.0_sha512-checksums.txt",
     "updated_at": "2026-11-20"
   },
   {
@@ -196,6 +308,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "automa",
+    "name": "Automa",
+    "repo_url": "https://github.com/automaapp/automa",
+    "full_name": "automaapp/automa",
+    "category": "Graphics & Design",
+    "icon": "/icons/automa.png",
+    "is_webapp": false,
+    "stars": 21723,
+    "tier": "tier3_powertool",
+    "summary": "Automa lets you create simple step‑by‑step actions that run in your browser, letting you fill forms, take screenshots or scrape data automatically.",
+    "download_url": "https://www.goautoma.com/extension",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "awesome",
     "name": "Awesome",
     "repo_url": "https://github.com/sindresorhus/awesome",
@@ -208,6 +334,20 @@
     "summary": "Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.",
     "download_url": "https://github.com/sindresorhus/awesome/releases",
     "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "awx",
+    "name": "AWX",
+    "repo_url": "https://github.com/ansible/awx",
+    "full_name": "ansible/awx",
+    "category": "Graphics & Design",
+    "icon": "/icons/awx.png",
+    "is_webapp": false,
+    "stars": 15634,
+    "tier": "tier3_powertool",
+    "summary": "AWX provides a visual dashboard to manage and run automated computer tasks across your systems.",
+    "download_url": "https://github.com/ansible/awx/releases",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "basscss",
@@ -263,6 +403,20 @@
     "tier": "tier3_powertool",
     "summary": "Broot is a fast, interactive tool designed to help you explore large directory trees, locate files quickly, and manage your projects without losing.",
     "download_url": "https://dystroy.org/broot",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "bruno",
+    "name": "Bruno",
+    "repo_url": "https://github.com/usebruno/bruno",
+    "full_name": "usebruno/bruno",
+    "category": "Graphics & Design",
+    "icon": "/icons/bruno.png",
+    "is_webapp": false,
+    "stars": 48472,
+    "tier": "tier3_powertool",
+    "summary": "Bruno is a lightweight, offline-first application that helps developers explore, test, and organize web requests directly on their device.",
+    "download_url": "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -644,6 +798,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "dify",
+    "name": "dify",
+    "repo_url": "https://github.com/langgenius/dify",
+    "full_name": "langgenius/dify",
+    "category": "Graphics & Design",
+    "icon": "/icons/dify.png",
+    "is_webapp": false,
+    "stars": 161552,
+    "tier": "tier3_powertool",
+    "summary": "Create custom artificial intelligence workflows, smart assistants, and document search pipelines easily on one collaborative workspace.",
+    "download_url": "https://github.com/langgenius/dify/releases/download/1.20.0/difyctl-v1.20.0-windows-x64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "distrobox",
     "name": "distrobox",
     "repo_url": "https://github.com/89luca89/distrobox",
@@ -770,6 +938,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ego-lite",
+    "name": "ego-lite",
+    "repo_url": "https://github.com/citrolabs/ego-lite",
+    "full_name": "citrolabs/ego-lite",
+    "category": "Graphics & Design",
+    "icon": "/icons/ego-lite.png",
+    "is_webapp": false,
+    "stars": 23811,
+    "tier": "tier3_powertool",
+    "summary": "An ultra-fast browser that lets your AI assistants run web tasks in isolated spaces while you continue browsing undisturbed.",
+    "download_url": "https://lite.ego.app",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "esp32marauder",
     "name": "ESP32Marauder",
     "repo_url": "https://github.com/justcallmekoko/esp32marauder",
@@ -809,6 +991,20 @@
     "tier": "tier3_powertool",
     "summary": "Display your computer hardware and operating system details in the terminal instantly with a lightweight, highly customizable utility.",
     "download_url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.71.0/fastfetch-freebsd-amd64.pkg",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "fastlane",
+    "name": "fastlane",
+    "repo_url": "https://github.com/fastlane/fastlane",
+    "full_name": "fastlane/fastlane",
+    "category": "Security & Privacy",
+    "icon": "/icons/hubhum.svg",
+    "is_webapp": false,
+    "stars": 42408,
+    "tier": "tier3_powertool",
+    "summary": "Say goodbye to repetitive mobile publishing tasks by automating screenshots, code signing certificates, and app store updates in minutes.",
+    "download_url": "https://github.com/fastlane/fastlane/releases/download/2.242.0/fastlane-2.242.0.gem",
     "updated_at": "2026-11-20"
   },
   {
@@ -1106,6 +1302,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "hammerspoon",
+    "name": "Hammerspoon",
+    "repo_url": "https://github.com/hammerspoon/hammerspoon",
+    "full_name": "hammerspoon/hammerspoon",
+    "category": "Graphics & Design",
+    "icon": "/icons/hammerspoon.png",
+    "is_webapp": false,
+    "stars": 16462,
+    "tier": "tier3_powertool",
+    "summary": "Hammerspoon connects your operating system to lightweight scripts so you can control windows, shortcuts, and system settings effortlessly.",
+    "download_url": "https://www.hammerspoon.org",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "handbrake",
     "name": "HandBrake",
     "repo_url": "https://github.com/handbrake/handbrake",
@@ -1188,6 +1398,20 @@
     "summary": "Discover powerful free software explained in plain language with verified official downloads and zero tech jargon.",
     "download_url": "https://davanzokeoma.github.io/HubHum/",
     "updated_at": "2026-11-18"
+  },
+  {
+    "slug": "huginn",
+    "name": "Huginn",
+    "repo_url": "https://github.com/huginn/huginn",
+    "full_name": "huginn/huginn",
+    "category": "Graphics & Design",
+    "icon": "/icons/huginn.png",
+    "is_webapp": false,
+    "stars": 50594,
+    "tier": "tier3_powertool",
+    "summary": "Create smart online agents that monitor websites, read updates, and trigger automated actions on your own private server.",
+    "download_url": "https://github.com/huginn/huginn/releases",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "hyperfine",
@@ -1288,6 +1512,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "instapy",
+    "name": "InstaPy",
+    "repo_url": "https://github.com/instapy/instapy",
+    "full_name": "instapy/instapy",
+    "category": "Graphics & Design",
+    "icon": "/icons/instapy.png",
+    "is_webapp": false,
+    "stars": 18421,
+    "tier": "tier3_powertool",
+    "summary": "InstaPy is a Python tool that automates social media interactions to help you grow your follower base.",
+    "download_url": "https://instapy.org/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "ipatool",
     "name": "ipatool",
     "repo_url": "https://github.com/majd/ipatool",
@@ -1358,6 +1596,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "jj",
+    "name": "JJ",
+    "repo_url": "https://github.com/tidwall/jj",
+    "full_name": "tidwall/jj",
+    "category": "Productivity",
+    "icon": "/icons/jj.png",
+    "is_webapp": false,
+    "stars": 2059,
+    "tier": "tier3_powertool",
+    "summary": "JJ lets you quickly read, update, or delete data inside large structured text files without slowing down your computer.",
+    "download_url": "https://github.com/tidwall/jj/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "jobs-applier-ai-agent",
+    "name": "Jobs_Applier_AI_Agent",
+    "repo_url": "https://github.com/feder-cr/jobs_applier_ai_agent",
+    "full_name": "feder-cr/jobs_applier_ai_agent",
+    "category": "Productivity",
+    "icon": "/icons/jobs-applier-ai-agent.png",
+    "is_webapp": false,
+    "stars": 32575,
+    "tier": "tier3_powertool",
+    "summary": "This tool scans thousands of job postings to find matches for your resume and automatically fills out application forms on your behalf.",
+    "download_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent/releases/download/jobs-latest/manifest.json",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "joplin",
     "name": "Joplin",
     "repo_url": "https://github.com/laurent22/joplin",
@@ -1425,6 +1691,20 @@
     "tier": "tier3_powertool",
     "summary": "KeepingYouAwake sits in your menu bar and stops your Mac from falling asleep while you work, so tasks can finish without interruption.",
     "download_url": "https://keepingyouawake.app",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "kestra",
+    "name": "Kestra",
+    "repo_url": "https://github.com/kestra-io/kestra",
+    "full_name": "kestra-io/kestra",
+    "category": "Graphics & Design",
+    "icon": "/icons/kestra.png",
+    "is_webapp": false,
+    "stars": 30290,
+    "tier": "tier3_powertool",
+    "summary": "Kestra is a powerful open-source platform that helps you automate, schedule, and connect all your digital workflows in one central dashboard.",
+    "download_url": "https://github.com/kestra-io/kestra/releases/download/v2.0.11/checksums_sha256.txt",
     "updated_at": "2026-11-20"
   },
   {
@@ -1526,6 +1806,48 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "lenovolegiontoolkit",
+    "name": "LenovoLegionToolkit",
+    "repo_url": "https://github.com/lenovolegiontoolkit-team/lenovolegiontoolkit",
+    "full_name": "lenovolegiontoolkit-team/lenovolegiontoolkit",
+    "category": "Productivity",
+    "icon": "/icons/lenovolegiontoolkit.png",
+    "is_webapp": false,
+    "stars": 2587,
+    "tier": "tier3_powertool",
+    "summary": "Manage power profiles, fans, battery charging thresholds, and keyboard lighting on Lenovo laptops without heavy software bloat.",
+    "download_url": "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/releases/download/v2.38.0.0/LenovoLegionToolkitSetup-v2.38.0.0.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "leon",
+    "name": "Leon",
+    "repo_url": "https://github.com/leon-ai/leon",
+    "full_name": "leon-ai/leon",
+    "category": "Graphics & Design",
+    "icon": "/icons/leon.png",
+    "is_webapp": false,
+    "stars": 17695,
+    "tier": "tier3_powertool",
+    "summary": "Leon is an open-source personal AI assistant that gets to know you, remembers what matters, and helps you handle daily tasks.",
+    "download_url": "https://getleon.ai",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "licia",
+    "name": "Licia",
+    "repo_url": "https://github.com/liriliri/licia",
+    "full_name": "liriliri/licia",
+    "category": "Graphics & Design",
+    "icon": "/icons/licia.png",
+    "is_webapp": false,
+    "stars": 2383,
+    "tier": "tier3_powertool",
+    "summary": "Licia brings together hundreds of small micro tools to help developers easily manage everyday data manipulation and web browser tasks.",
+    "download_url": "https://licia.liriliri.io",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "linearmouse",
     "name": "LinearMouse",
     "repo_url": "https://github.com/linearmouse/linearmouse",
@@ -1624,6 +1946,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "maxun",
+    "name": "Maxun",
+    "repo_url": "https://github.com/getmaxun/maxun",
+    "full_name": "getmaxun/maxun",
+    "category": "Productivity",
+    "icon": "/icons/maxun.png",
+    "is_webapp": false,
+    "stars": 18528,
+    "tier": "tier3_powertool",
+    "summary": "Extract information, monitor web pages, and automate data collection from any website effortlessly without writing code.",
+    "download_url": "https://www.maxun.dev",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "meetily",
     "name": "meetily",
     "repo_url": "https://github.com/zackriya-solutions/meetily",
@@ -1664,6 +2000,20 @@
     "summary": "Connect your AI assistants to over 13,000 ready-to-use tools through one smart gateway with built-in safety checks.",
     "download_url": "https://metamesh-uga.dev",
     "updated_at": "2026-11-18"
+  },
+  {
+    "slug": "metrics",
+    "name": "Metrics",
+    "repo_url": "https://github.com/lowlighter/metrics",
+    "full_name": "lowlighter/metrics",
+    "category": "Graphics & Design",
+    "icon": "/icons/metrics.png",
+    "is_webapp": false,
+    "stars": 17463,
+    "tier": "tier3_powertool",
+    "summary": "Transform your raw developer statistics into stunning, customizable SVG graphics and profile banners in seconds.",
+    "download_url": "https://metrics.lecoq.io",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "micro",
@@ -1918,6 +2268,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "obtainium",
+    "name": "Obtainium",
+    "repo_url": "https://github.com/imranr98/obtainium",
+    "full_name": "imranr98/obtainium",
+    "category": "Security & Privacy",
+    "icon": "/icons/hubhum.svg",
+    "is_webapp": false,
+    "stars": 21705,
+    "tier": "tier3_powertool",
+    "summary": "Install and update your Android applications directly from developer release pages without relying on traditional app stores.",
+    "download_url": "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-fdroid-release.apk",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "officecli",
     "name": "OfficeCLI",
     "repo_url": "https://github.com/iofficeai/officecli",
@@ -1929,6 +2293,20 @@
     "tier": "tier3_powertool",
     "summary": "OfficeCLI lets AI agents read, edit, and automate Word, Excel, and PowerPoint files instantly.",
     "download_url": "https://github.com/iOfficeAI/OfficeCLI/releases/download/v1.0.163/officecli-win-arm64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "oh-my-claudecode",
+    "name": "oh-my-claudecode",
+    "repo_url": "https://github.com/yeachan-heo/oh-my-claudecode",
+    "full_name": "yeachan-heo/oh-my-claudecode",
+    "category": "Graphics & Design",
+    "icon": "/icons/oh-my-claudecode.png",
+    "is_webapp": false,
+    "stars": 40964,
+    "tier": "tier3_powertool",
+    "summary": "Manage complex coding workflows with intelligent multi-agent automation that keeps tasks running until fully verified. Zero learning curve required.",
+    "download_url": "https://oh-my-claudecode.dev",
     "updated_at": "2026-11-20"
   },
   {
@@ -2184,6 +2562,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "playwright",
+    "name": "Playwright",
+    "repo_url": "https://github.com/microsoft/playwright",
+    "full_name": "microsoft/playwright",
+    "category": "Graphics & Design",
+    "icon": "/icons/playwright.png",
+    "is_webapp": false,
+    "stars": 100635,
+    "tier": "tier3_powertool",
+    "summary": "Playwright automates and tests web pages across all modern browsers with a single tool.",
+    "download_url": "https://playwright.dev",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "pm2",
     "name": "PM2",
     "repo_url": "https://github.com/unitech/pm2",
@@ -2212,6 +2604,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "prefect",
+    "name": "Prefect",
+    "repo_url": "https://github.com/prefecthq/prefect",
+    "full_name": "prefecthq/prefect",
+    "category": "Video & Audio",
+    "icon": "/icons/prefect.png",
+    "is_webapp": false,
+    "stars": 24191,
+    "tier": "tier3_powertool",
+    "summary": "Prefect turns ordinary Python scripts into reliable automated jobs that run on schedule, retry when they fail, and keep you updated.",
+    "download_url": "https://prefect.io",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "prompts",
     "name": "Prompts",
     "repo_url": "https://github.com/terkelg/prompts",
@@ -2237,6 +2643,20 @@
     "tier": "tier2_webapp",
     "summary": "Automate the creation of virtual machines and containers on your server environment with a single copied command.",
     "download_url": "https://community-scripts.org/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "puppeteer",
+    "name": "Puppeteer",
+    "repo_url": "https://github.com/puppeteer/puppeteer",
+    "full_name": "puppeteer/puppeteer",
+    "category": "Graphics & Design",
+    "icon": "/icons/puppeteer.png",
+    "is_webapp": false,
+    "stars": 95874,
+    "tier": "tier3_powertool",
+    "summary": "Puppeteer is a powerful tool that lets you control a web browser through simple instructions to perform repetitive tasks automatically.",
+    "download_url": "https://pptr.dev",
     "updated_at": "2026-11-20"
   },
   {
@@ -2293,6 +2713,20 @@
     "tier": "tier2_webapp",
     "summary": "QwenPaw is a flexible AI assistant that runs on your own computer or in the cloud to help you automate tasks and manage your digital life.",
     "download_url": "https://github.com/agentscope-ai/QwenPaw/releases/download/v2.3.0.post1/QwenPaw-Tauri-2.3.0.post1-Windows-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "rd-agent",
+    "name": "RD-Agent",
+    "repo_url": "https://github.com/microsoft/rd-agent",
+    "full_name": "microsoft/rd-agent",
+    "category": "Video & Audio",
+    "icon": "/icons/rd-agent.png",
+    "is_webapp": false,
+    "stars": 15432,
+    "tier": "tier3_powertool",
+    "summary": "Automate complex data science and quantitative research tasks using intelligent artificial intelligence agents.",
+    "download_url": "https://rdagent.azurewebsites.net/",
     "updated_at": "2026-11-20"
   },
   {
@@ -2394,6 +2828,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "scrapling",
+    "name": "Scrapling",
+    "repo_url": "https://github.com/d4vinci/scrapling",
+    "full_name": "d4vinci/scrapling",
+    "category": "Graphics & Design",
+    "icon": "/icons/scrapling.png",
+    "is_webapp": false,
+    "stars": 104512,
+    "tier": "tier3_powertool",
+    "summary": "Extract data, bypass security checks, and crawl any website seamlessly using a fast Python toolkit.",
+    "download_url": "https://scrapling.readthedocs.io/en/latest/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "self-hosting-guide",
     "name": "Self-Hosting-Guide",
     "repo_url": "https://github.com/mikeroyal/self-hosting-guide",
@@ -2405,6 +2853,20 @@
     "tier": "tier2_webapp",
     "summary": "Learn how to locally host and manage your own software applications and private web servers instead of paying for costly monthly subscriptions.",
     "download_url": "https://github.com/mikeroyal/Self-Hosting-Guide/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "semantic-release",
+    "name": "semantic-release",
+    "repo_url": "https://github.com/semantic-release/semantic-release",
+    "full_name": "semantic-release/semantic-release",
+    "category": "Security & Privacy",
+    "icon": "/icons/semantic-release.png",
+    "is_webapp": true,
+    "stars": 24186,
+    "tier": "tier3_powertool",
+    "summary": "Take the stress out of software versioning by automating version numbers, changelogs, and package releases based on your update messages.",
+    "download_url": "https://semantic-release.org",
     "updated_at": "2026-11-20"
   },
   {
@@ -2464,6 +2926,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "shpotify",
+    "name": "shpotify",
+    "repo_url": "https://github.com/hnarayanan/shpotify",
+    "full_name": "hnarayanan/shpotify",
+    "category": "Productivity",
+    "icon": "/icons/shpotify.png",
+    "is_webapp": false,
+    "stars": 2048,
+    "tier": "tier3_powertool",
+    "summary": "Manage your desktop music playback effortlessly using simple text commands. Jump tracks, adjust volume, and search songs without opening windows.",
+    "download_url": "https://harishnarayanan.org/projects/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "signoz",
     "name": "SigNoz",
     "repo_url": "https://github.com/signoz/signoz",
@@ -2475,6 +2951,48 @@
     "tier": "tier2_webapp",
     "summary": "Monitor your application logs, metrics, and user traffic in a single intuitive dashboard without juggling separate tools.",
     "download_url": "https://github.com/SigNoz/signoz/releases/download/v0.151.0/signoz-community_0.151.0_checksums.txt",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "sim",
+    "name": "Sim",
+    "repo_url": "https://github.com/simstudioai/sim",
+    "full_name": "simstudioai/sim",
+    "category": "Productivity",
+    "icon": "/icons/sim.png",
+    "is_webapp": false,
+    "stars": 30164,
+    "tier": "tier3_powertool",
+    "summary": "Sim is an all-in-one workspace for creating, testing, and running automated smart assistants and workflows.",
+    "download_url": "https://github.com/simstudioai/sim/releases/download/v0.9.63/Sim-0.9.63-universal.dmg",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "skill-seekers",
+    "name": "Skill Seekers",
+    "repo_url": "https://github.com/yusufkaraaslan/skill_seekers",
+    "full_name": "yusufkaraaslan/skill_seekers",
+    "category": "Graphics & Design",
+    "icon": "/icons/skill-seekers.png",
+    "is_webapp": false,
+    "stars": 15347,
+    "tier": "tier3_powertool",
+    "summary": "Skill Seekers converts online guides, code collections, and documents into structured knowledge assets for popular AI systems and assistants.",
+    "download_url": "https://skillseekersweb.com/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "skyvern",
+    "name": "Skyvern",
+    "repo_url": "https://github.com/skyvern-ai/skyvern",
+    "full_name": "skyvern-ai/skyvern",
+    "category": "Productivity",
+    "icon": "/icons/skyvern.png",
+    "is_webapp": false,
+    "stars": 23477,
+    "tier": "tier3_powertool",
+    "summary": "Skyvern uses artificial intelligence and vision to navigate websites, fill out forms, and automate repetitive tasks reliably without breaking when.",
+    "download_url": "https://www.skyvern.com",
     "updated_at": "2026-11-20"
   },
   {
@@ -2520,6 +3038,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "status-trio",
+    "name": "Status Trio",
+    "repo_url": "https://github.com/lingyired/status-trio",
+    "full_name": "lingyired/status-trio",
+    "category": "Video & Audio",
+    "icon": "/icons/status-trio.png",
+    "is_webapp": false,
+    "stars": 2023,
+    "tier": "tier3_powertool",
+    "summary": "Status Trio merges your Wi-Fi, battery, and volume indicators into a single, sleek icon for your menu bar or Dock.",
+    "download_url": "https://github.com/lingyired/status-trio/releases/download/v1.9.6/StatusTrio-1.9.6.dmg",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "stirling-pdf",
     "name": "Stirling-PDF",
     "repo_url": "https://github.com/stirling-tools/stirling-pdf",
@@ -2545,6 +3077,20 @@
     "tier": "tier3_powertool",
     "summary": "Tabby is a modern, highly customizable terminal emulator and connection manager that brings all your remote servers and tools together cleanly.",
     "download_url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "taipy",
+    "name": "Taipy",
+    "repo_url": "https://github.com/avaiga/taipy",
+    "full_name": "avaiga/taipy",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/taipy.png",
+    "is_webapp": true,
+    "stars": 19460,
+    "tier": "tier3_powertool",
+    "summary": "Transform data and machine learning algorithms into production-ready web applications using only Python.",
+    "download_url": "https://github.com/Avaiga/taipy/releases/download/4.1.1/taipy-4.1.1-py3-none-any.whl",
     "updated_at": "2026-11-20"
   },
   {
@@ -2702,6 +3248,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "trigger-dev",
+    "name": "Trigger.dev",
+    "repo_url": "https://github.com/triggerdotdev/trigger.dev",
+    "full_name": "triggerdotdev/trigger.dev",
+    "category": "Graphics & Design",
+    "icon": "/icons/trigger-dev.png",
+    "is_webapp": false,
+    "stars": 16791,
+    "tier": "tier3_powertool",
+    "summary": "Trigger.dev helps you create long-running AI agents that handle complex tasks without timing out or crashing.",
+    "download_url": "https://trigger.dev/changelog",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "trilium",
     "name": "Trilium",
     "repo_url": "https://github.com/triliumnext/trilium",
@@ -2713,6 +3273,20 @@
     "tier": "tier2_webapp",
     "summary": "Trilium is a powerful tool for organizing your notes, ideas, and research into a structured, searchable digital library.",
     "download_url": "https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-arm64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "ts-prune",
+    "name": "ts-prune",
+    "repo_url": "https://github.com/nadeesha/ts-prune",
+    "full_name": "nadeesha/ts-prune",
+    "category": "Graphics & Design",
+    "icon": "/icons/ts-prune.png",
+    "is_webapp": false,
+    "stars": 2060,
+    "tier": "tier3_powertool",
+    "summary": "Scan your TypeScript project to discover functions, variables, and components that are never used elsewhere.",
+    "download_url": "https://github.com/nadeesha/ts-prune/releases",
     "updated_at": "2026-11-20"
   },
   {
@@ -2755,6 +3329,20 @@
     "tier": "tier3_powertool",
     "summary": "Create powerful terminal applications quickly using standard Python type hints without learning complex new syntax rules.",
     "download_url": "https://typer.tiangolo.com/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "uhubctl",
+    "name": "uhubctl",
+    "repo_url": "https://github.com/mvp/uhubctl",
+    "full_name": "mvp/uhubctl",
+    "category": "Productivity",
+    "icon": "/icons/uhubctl.png",
+    "is_webapp": false,
+    "stars": 2867,
+    "tier": "tier3_powertool",
+    "summary": "Manage power to individual USB ports on compatible smart hubs, allowing you to reset frozen devices or save energy with simple commands.",
+    "download_url": "https://github.com/mvp/uhubctl/releases",
     "updated_at": "2026-11-20"
   },
   {
@@ -2842,6 +3430,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "util",
+    "name": "Util",
+    "repo_url": "https://github.com/twitter/util",
+    "full_name": "twitter/util",
+    "category": "Graphics & Design",
+    "icon": "/icons/util.png",
+    "is_webapp": false,
+    "stars": 2718,
+    "tier": "tier3_powertool",
+    "summary": "Util provides a collection of small, helpful tools for managing time, numbers, and data tasks smoothly.",
+    "download_url": "https://twitter.github.io/util",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "vagrant",
+    "name": "Vagrant",
+    "repo_url": "https://github.com/hashicorp/vagrant",
+    "full_name": "hashicorp/vagrant",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/vagrant.png",
+    "is_webapp": true,
+    "stars": 27234,
+    "tier": "tier3_powertool",
+    "summary": "Manage and distribute identical virtual workspaces across different computers effortlessly.",
+    "download_url": "https://github.com/hashicorp/vagrant/releases/download/v2.4.9/vagrant-2.4.9.gem",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "vhs",
     "name": "vhs",
     "repo_url": "https://github.com/charmbracelet/vhs",
@@ -2868,6 +3484,20 @@
     "summary": "VLC is a versatile media player that opens almost any video or audio file without needing extra downloads.",
     "download_url": "https://www.videolan.org/vlc",
     "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "waoowaoo",
+    "name": "waoowaoo",
+    "repo_url": "https://github.com/waooai/waoowaoo",
+    "full_name": "waooai/waoowaoo",
+    "category": "Video & Audio",
+    "icon": "/icons/waoowaoo.png",
+    "is_webapp": false,
+    "stars": 14938,
+    "tier": "tier3_powertool",
+    "summary": "Create professional AI-generated videos and images using a collaborative visual canvas and assistant.",
+    "download_url": "https://github.com/waooAI/waoowaoo/releases",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "warp",
