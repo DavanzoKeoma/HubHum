@@ -8,9 +8,14 @@ import { withBase } from '../lib/url';
 const allApps = await getCollection('apps');
 const allBundles = await getCollection('bundles');
 
-const tier1Apps = allApps.filter((a) => (a.data.scouting_tier || '') === 'tier1_gui' || (!a.data.is_webapp && (a.data.scouting_tier || '') !== 'tier3_powertool'));
-const tier2Apps = allApps.filter((a) => a.data.is_webapp || (a.data.scouting_tier || '') === 'tier2_webapp');
-const tier3Apps = allApps.filter((a) => !a.data.is_webapp && (a.data.scouting_tier || '') === 'tier3_powertool');
+const resolveTier = (app: (typeof allApps)[number]) => {
+  const t = String(app.data.scouting_tier || '').trim();
+  if (t === 'tier1_gui' || t === 'tier2_webapp' || t === 'tier3_powertool') return t;
+  return app.data.is_webapp ? 'tier2_webapp' : 'tier1_gui';
+};
+const tier1Apps = allApps.filter((a) => resolveTier(a) === 'tier1_gui');
+const tier2Apps = allApps.filter((a) => resolveTier(a) === 'tier2_webapp');
+const tier3Apps = allApps.filter((a) => resolveTier(a) === 'tier3_powertool');
 
 const affiliatesSeedPath = path.resolve(process.cwd(), 'data/affiliates_seed.json');
 let totalMerchants = 14;

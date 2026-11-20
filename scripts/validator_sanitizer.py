@@ -127,12 +127,35 @@ def sanitize_markdown_body(body: str) -> str:
         safe_text = pattern.sub(repl, safe_text)
 
     for heading in REQUIRED_HEADINGS:
-        safe_text = re.sub(rf"^{re.escape(heading)}\s*:?\s*$", heading, safe_text, flags=re.MULTILINE)
+        title_part = heading.replace("### ", "")
+        safe_text = re.sub(
+            rf"^#{{1,6}}\s*{re.escape(title_part)}\s*:?\s*$",
+            heading,
+            safe_text,
+            flags=re.MULTILINE | re.IGNORECASE,
+        )
 
     for idx, original_url in enumerate(preserved_urls):
         safe_text = safe_text.replace(f"__URL_{idx}__", original_url)
 
     return safe_text
+
+
+def strip_disallowed_markdown_links(markdown_text: str, allowed_urls: list[str]) -> str:
+    """Replace any third-party Markdown link URLs outside allowed_urls/aff_hosts with plain link text."""
+    aff_hosts = _load_allowed_affiliate_hosts()
+    allowed_norm = {u.rstrip(".,;:/") for u in allowed_urls}
+    allowed_hosts = {urlparse(u).netloc.lower() for u in allowed_urls if urlparse(u).netloc}
+
+    def _filter_link(match: re.Match[str]) -> str:
+        anchor = match.group(1)
+        url = match.group(2).rstrip(".,;:/")
+        host = urlparse(url).netloc.lower()
+        if url in allowed_norm or host in aff_hosts or host in allowed_hosts or any(url.startswith(a) for a in allowed_norm):
+            return f"[{anchor}]({match.group(2)})"
+        return anchor
+
+    return re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", _filter_link, markdown_text)
 
 
 def ensure_triplet_links_in_body(body: str, triplet: list[dict]) -> str:
@@ -194,9 +217,13 @@ def ensure_triplet_links_in_body(body: str, triplet: list[dict]) -> str:
 def sanitize_full_document(markdown_text: str) -> str:
     """Re-serialize document with sanitized prose while keeping frontmatter intact."""
     normalized = markdown_text.replace("\r\n", "\n").strip()
-    if not normalized.startswith("---\n") or "\n---\n" not in normalized:
+    normalized = re.sub(r"^---[ \t]*\n", "---\n", normalized)
+    if not normalized.startswith("---\n"):
         return markdown_text
-    header, body = normalized.split("\n---\n", 1)
+    parts = re.split(r"\n---[ \t]*\n", normalized, maxsplit=1)
+    if len(parts) != 2:
+        return markdown_text
+    header, body = parts
     clean_body = sanitize_markdown_body(body.strip())
     return f"{header}\n---\n\n{clean_body}\n"
 

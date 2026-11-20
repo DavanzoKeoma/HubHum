@@ -8,7 +8,12 @@ import urllib.error
 import urllib.request
 
 from scouter import ScoutedRepo
-from validator_sanitizer import ensure_triplet_links_in_body, sanitize_full_document, validate_markdown_card
+from validator_sanitizer import (
+    ensure_triplet_links_in_body,
+    sanitize_full_document,
+    strip_disallowed_markdown_links,
+    validate_markdown_card,
+)
 from vault_loader import get_all_runtime_keys
 
 GEMINI_FLASH_MODELS = (
@@ -18,8 +23,8 @@ GEMINI_FLASH_MODELS = (
 )
 
 GROQ_CHAT_MODELS = (
-    "openai/gpt-oss-120b",
     "openai/gpt-oss-20b",
+    "openai/gpt-oss-120b",
     "qwen/qwen3.8-27b",
 )
 
@@ -122,7 +127,7 @@ def _call_tier1_gemini(api_key: str, user_prompt: str) -> tuple[str, str]:
                 timeout=35,
             )
             return res["candidates"][0]["content"]["parts"][0]["text"], f"tier1_gemini:{model_name}"
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, KeyError, IndexError, json.JSONDecodeError) as exc:
+        except Exception as exc:
             last_err = exc
             continue
     raise last_err or RuntimeError("No Gemini Flash model available")
@@ -152,7 +157,7 @@ def _call_tier2_groq(api_key: str, user_prompt: str) -> tuple[str, str]:
             if not content:
                 raise RuntimeError(f"Empty response from Groq ({model_name})")
             return content, f"tier2_groq:{model_name}"
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, KeyError, IndexError, json.JSONDecodeError, RuntimeError) as exc:
+        except Exception as exc:
             last_err = exc
             continue
     raise last_err or RuntimeError("No Groq chat model available")
@@ -225,6 +230,10 @@ def generate_card_with_cascade(
             sanitized_md = sanitize_full_document(raw_md)
             if "Official Source / Credits" not in sanitized_md:
                 sanitized_md = sanitized_md.rstrip() + f"\n\n[Official Source / Credits]({repo.html_url})\n"
+            hdr_part, sep_part, bd_part = sanitized_md.partition("\n---\n")
+            if sep_part:
+                bd_part = strip_disallowed_markdown_links(bd_part, repo.allowed_urls)
+                sanitized_md = f"{hdr_part}{sep_part}{bd_part}"
             errors = validate_markdown_card(
                 sanitized_md,
                 allowed_urls=repo.allowed_urls,
@@ -233,7 +242,7 @@ def generate_card_with_cascade(
             if not errors:
                 return sanitized_md, provider_label
             failures.append(f"{tier_name}: validation failed ({'; '.join(errors)})")
-        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, KeyError, IndexError, json.JSONDecodeError, RuntimeError) as exc:
+        except Exception as exc:
             failures.append(f"{tier_name}: call error ({exc})")
 
     raise AllTiersFailedError(" | ".join(failures))
