@@ -42,6 +42,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "appwrite",
+    "name": "Appwrite",
+    "repo_url": "https://github.com/appwrite/appwrite",
+    "full_name": "appwrite/appwrite",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/appwrite.png",
+    "is_webapp": true,
+    "stars": 58419,
+    "tier": "tier2_webapp",
+    "summary": "An open-source cloud backend that gives you secure user login, databases, file storage, and serverless functions in one unified place.",
+    "download_url": "https://appwrite.io",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "ariang",
     "name": "AriaNg",
     "repo_url": "https://github.com/mayswind/ariang",
@@ -112,6 +126,20 @@
     "updated_at": "2026-11-19"
   },
   {
+    "slug": "azul",
+    "name": "Azul",
+    "repo_url": "https://github.com/fschutt/azul",
+    "full_name": "fschutt/azul",
+    "category": "Graphics & Design",
+    "icon": "/icons/azul.png",
+    "is_webapp": false,
+    "stars": 6140,
+    "tier": "tier1_gui",
+    "summary": "Azul is a fast and flexible visual interface framework that helps developers build native desktop apps using familiar layout styles.",
+    "download_url": "https://github.com/fschutt/azul/releases/download/0.2.0/AzMaps-android.apk",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "bili23-downloader",
     "name": "Bili23-Downloader",
     "repo_url": "https://github.com/scottsloan/bili23-downloader",
@@ -140,6 +168,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "casaos",
+    "name": "CasaOS",
+    "repo_url": "https://github.com/icewhaletech/casaos",
+    "full_name": "icewhaletech/casaos",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/casaos.png",
+    "is_webapp": true,
+    "stars": 37678,
+    "tier": "tier2_webapp",
+    "summary": "CasaOS turns any computer into a simple, personal data center for managing your files and smart home devices with ease.",
+    "download_url": "https://github.com/IceWhaleTech/CasaOS/releases/download/v0.4.15/checksums.txt",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "claudecodeui",
     "name": "CloudCLI",
     "repo_url": "https://github.com/siteboon/claudecodeui",
@@ -154,6 +196,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "clickhouse",
+    "name": "ClickHouse",
+    "repo_url": "https://github.com/clickhouse/clickhouse",
+    "full_name": "clickhouse/clickhouse",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/clickhouse.png",
+    "is_webapp": true,
+    "stars": 51033,
+    "tier": "tier2_webapp",
+    "summary": "ClickHouse is a powerful analytics system that helps you sort and examine massive amounts of data in real time.",
+    "download_url": "https://github.com/ClickHouse/ClickHouse/releases/download/v26.9.33.10-stable/clickhouse-client_26.9.33.10_amd64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "codepilot",
+    "name": "CodePilot",
+    "repo_url": "https://github.com/op7418/codepilot",
+    "full_name": "op7418/codepilot",
+    "category": "Productivity",
+    "icon": "/icons/codepilot.png",
+    "is_webapp": false,
+    "stars": 6520,
+    "tier": "tier1_gui",
+    "summary": "Connect to multiple artificial intelligence providers, extend capabilities with custom plugins, and control tasks straight from your phone in one.",
+    "download_url": "https://github.com/op7418/CodePilot/releases/download/v0.67.17/CodePilot.Setup.0.67.17.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "compose-multiplatform",
     "name": "Compose Multiplatform",
     "repo_url": "https://github.com/jetbrains/compose-multiplatform",
@@ -165,6 +235,34 @@
     "tier": "tier1_gui",
     "summary": "Create gorgeous, high-performance user interfaces for mobile, desktop, and web from a single shared codebase.",
     "download_url": "https://jetbrains.com/lp/compose-multiplatform",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "coolify",
+    "name": "Coolify",
+    "repo_url": "https://github.com/coollabsio/coolify",
+    "full_name": "coollabsio/coolify",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/coolify.png",
+    "is_webapp": true,
+    "stars": 66285,
+    "tier": "tier2_webapp",
+    "summary": "Coolify lets you host and manage your own websites, databases, and apps on any server without needing expensive commercial platforms.",
+    "download_url": "https://coolify.io",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "core",
+    "name": "core",
+    "repo_url": "https://github.com/opnsense/core",
+    "full_name": "opnsense/core",
+    "category": "Graphics & Design",
+    "icon": "/icons/core.png",
+    "is_webapp": false,
+    "stars": 4807,
+    "tier": "tier1_gui",
+    "summary": "Manage your network security, traffic rules, and system settings through a clean, unified dashboard.",
+    "download_url": "https://opnsense.org/",
     "updated_at": "2026-11-20"
   },
   {
@@ -249,6 +347,20 @@
     "tier": "tier1_gui",
     "summary": "Create modern graphical user interfaces and data displays in Python using a lightweight toolkit driven by your computer's graphics processor.",
     "download_url": "https://dearpygui.readthedocs.io/en/latest/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "dokploy",
+    "name": "Dokploy",
+    "repo_url": "https://github.com/dokploy/dokploy",
+    "full_name": "dokploy/dokploy",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/dokploy.png",
+    "is_webapp": true,
+    "stars": 38620,
+    "tier": "tier2_webapp",
+    "summary": "An open tool that lets you host websites, software, and databases on your own private server with simple controls.",
+    "download_url": "https://github.com/Dokploy/dokploy/releases/download/v0.31.4/install.sh",
     "updated_at": "2026-11-20"
   },
   {
@@ -392,6 +504,34 @@
     "updated_at": "2026-11-18"
   },
   {
+    "slug": "gitea",
+    "name": "Gitea",
+    "repo_url": "https://github.com/go-gitea/gitea",
+    "full_name": "go-gitea/gitea",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/gitea.png",
+    "is_webapp": true,
+    "stars": 59181,
+    "tier": "tier2_webapp",
+    "summary": "Host your programming projects, review team code changes, and manage tasks easily on your own private server.",
+    "download_url": "https://github.com/go-gitea/gitea/releases/download/v28.4.0/gitea-28.4.0-windows-amd64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "glance",
+    "name": "Glance",
+    "repo_url": "https://github.com/glanceapp/glance",
+    "full_name": "glanceapp/glance",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/glance.png",
+    "is_webapp": true,
+    "stars": 38324,
+    "tier": "tier2_webapp",
+    "summary": "Glance is a lightweight, customizable dashboard that gathers all your news feeds, social streams, weather, and server status into a single organized page.",
+    "download_url": "https://github.com/glanceapp/glance/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "go-app",
     "name": "go-app",
     "repo_url": "https://github.com/maxence-charriere/go-app",
@@ -417,6 +557,20 @@
     "tier": "tier1_gui",
     "summary": "gocui is a lightweight programming tool for creating interactive terminal user interfaces in Go with windows and colors.",
     "download_url": "https://github.com/jroimartin/gocui/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "gogs",
+    "name": "Gogs",
+    "repo_url": "https://github.com/gogs/gogs",
+    "full_name": "gogs/gogs",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/gogs.png",
+    "is_webapp": true,
+    "stars": 47959,
+    "tier": "tier2_webapp",
+    "summary": "Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle.",
+    "download_url": "https://gogs.io",
     "updated_at": "2026-11-20"
   },
   {
@@ -460,6 +614,20 @@
     "summary": "Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen.",
     "download_url": "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe",
     "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "helm-dashboard",
+    "name": "Helm Dashboard",
+    "repo_url": "https://github.com/komodorio/helm-dashboard",
+    "full_name": "komodorio/helm-dashboard",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/helm-dashboard.png",
+    "is_webapp": false,
+    "stars": 5860,
+    "tier": "tier1_gui",
+    "summary": "Manage your server software packages visually without struggling through confusing command-line prompts.",
+    "download_url": "https://github.com/komodorio/helm-dashboard/releases/download/v2.1.3/helm-dashboard_2.1.3_checksums.txt",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "hubhum",
@@ -518,6 +686,48 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "immich",
+    "name": "Immich",
+    "repo_url": "https://github.com/immich-app/immich",
+    "full_name": "immich-app/immich",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/immich.png",
+    "is_webapp": true,
+    "stars": 119698,
+    "tier": "tier2_webapp",
+    "summary": "Manage and back up your photos and videos on your own private cloud storage without sharing your personal memories.",
+    "download_url": "https://github.com/immich-app/immich/releases/download/v3.4.2/app-arm64-v8a-release.apk",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "implot",
+    "name": "implot",
+    "repo_url": "https://github.com/epezent/implot",
+    "full_name": "epezent/implot",
+    "category": "Productivity",
+    "icon": "/icons/implot.png",
+    "is_webapp": false,
+    "stars": 6285,
+    "tier": "tier1_gui",
+    "summary": "ImPlot is a lightweight software library that lets you instantly draw interactive charts and graphs inside your applications.",
+    "download_url": "https://github.com/epezent/implot/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "jan",
+    "name": "Jan",
+    "repo_url": "https://github.com/janhq/jan",
+    "full_name": "janhq/jan",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/jan.png",
+    "is_webapp": true,
+    "stars": 45908,
+    "tier": "tier2_webapp",
+    "summary": "Jan is an open-source alternative to online smart assistants that runs completely offline on your own personal computer.",
+    "download_url": "https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_arm64-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "joplin",
     "name": "Joplin",
     "repo_url": "https://github.com/laurent22/joplin",
@@ -546,6 +756,20 @@
     "updated_at": "2026-11-18"
   },
   {
+    "slug": "khoj",
+    "name": "Khoj",
+    "repo_url": "https://github.com/khoj-ai/khoj",
+    "full_name": "khoj-ai/khoj",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/khoj.png",
+    "is_webapp": true,
+    "stars": 38182,
+    "tier": "tier2_webapp",
+    "summary": "Transform your daily workflow with an open-source AI assistant that chats with your personal documents, browses the web, and automates research.",
+    "download_url": "https://github.com/khoj-ai/khoj/releases/download/2.0.0-beta.28/main.js",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "koharu",
     "name": "Koharu",
     "repo_url": "https://github.com/koharu-rs/koharu",
@@ -557,6 +781,34 @@
     "tier": "tier1_gui",
     "summary": "Koharu is a privacy-focused manga translator that automatically detects, cleans, and translates panels directly on your computer.",
     "download_url": "https://github.com/koharu-rs/koharu/releases/download/0.86.4/koharu_0.86.4_x64-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "leva",
+    "name": "Leva",
+    "repo_url": "https://github.com/pmndrs/leva",
+    "full_name": "pmndrs/leva",
+    "category": "Productivity",
+    "icon": "/icons/leva.png",
+    "is_webapp": false,
+    "stars": 6277,
+    "tier": "tier1_gui",
+    "summary": "Leva provides beautiful, ready-to-use visual panels for adjusting values in web applications instantly.",
+    "download_url": "https://leva.pmnd.rs",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "libreget",
+    "name": "LibreGet",
+    "repo_url": "https://github.com/openselena/libreget",
+    "full_name": "openselena/libreget",
+    "category": "Security & Privacy",
+    "icon": "/icons/libreget.png",
+    "is_webapp": false,
+    "stars": 6350,
+    "tier": "tier1_gui",
+    "summary": "LibreGet is a free, open-source media download manager for courses, videos, music, and files from thousands of websites without tech setup.",
+    "download_url": "https://github.com/OpenSelena/libreget/releases/download/v0.16.6/omniget_0.16.6_x64-portable.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -574,6 +826,34 @@
     "updated_at": "2026-11-18"
   },
   {
+    "slug": "ludusavi",
+    "name": "Ludusavi",
+    "repo_url": "https://github.com/mtkennerly/ludusavi",
+    "full_name": "mtkennerly/ludusavi",
+    "category": "Video & Audio",
+    "icon": "/icons/ludusavi.png",
+    "is_webapp": false,
+    "stars": 6588,
+    "tier": "tier1_gui",
+    "summary": "Ludusavi protects your video game progress by backing up saves across thousands of games and multiple stores in seconds.",
+    "download_url": "https://github.com/mtkennerly/ludusavi/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "mach",
+    "name": "Mach",
+    "repo_url": "https://github.com/hexops/mach",
+    "full_name": "hexops/mach",
+    "category": "Graphics & Design",
+    "icon": "/icons/mach.png",
+    "is_webapp": false,
+    "stars": 4867,
+    "tier": "tier1_gui",
+    "summary": "Mach is a modular game engine and graphics toolkit built for creating fast, cross-platform games and desktop applications.",
+    "download_url": "https://machengine.org",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "medis",
     "name": "Medis",
     "repo_url": "https://github.com/luin/medis",
@@ -585,6 +865,20 @@
     "tier": "tier1_gui",
     "summary": "Manage your database records smoothly with an intuitive visual interface, secure remote connections, and built-in search tools.",
     "download_url": "https://getmedis.com",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "memos",
+    "name": "Memos",
+    "repo_url": "https://github.com/usememos/memos",
+    "full_name": "usememos/memos",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/memos.png",
+    "is_webapp": true,
+    "stars": 64585,
+    "tier": "tier2_webapp",
+    "summary": "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline while keeping your data.",
+    "download_url": "https://github.com/usememos/memos/releases/download/26.11.1/checksums.txt",
     "updated_at": "2026-11-20"
   },
   {
@@ -616,6 +910,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "mongo-express",
+    "name": "mongo-express",
+    "repo_url": "https://github.com/mongo-express/mongo-express",
+    "full_name": "mongo-express/mongo-express",
+    "category": "Video & Audio",
+    "icon": "/icons/mongo-express.png",
+    "is_webapp": false,
+    "stars": 5979,
+    "tier": "tier1_gui",
+    "summary": "mongo-express is a lightweight web application that lets you view, edit, and organize database records easily through your browser.",
+    "download_url": "https://github.com/mongo-express/mongo-express/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "mpv-net",
+    "name": "mpv.net",
+    "repo_url": "https://github.com/mpvnet-player/mpv.net",
+    "full_name": "mpvnet-player/mpv.net",
+    "category": "Video & Audio",
+    "icon": "/icons/mpv-net.png",
+    "is_webapp": false,
+    "stars": 5575,
+    "tier": "tier1_gui",
+    "summary": "mpv.net lets you watch videos, music, and pictures on Windows with a clean, modern interface and high‑quality picture.",
+    "download_url": "https://github.com/mpvnet-player/mpv.net/releases/download/v7.1.2.0/mpv.net-v7.1.2.0-setup-x64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "n8n",
     "name": "n8n",
     "repo_url": "https://github.com/n8n-io/n8n",
@@ -627,6 +949,48 @@
     "tier": "tier2_webapp",
     "summary": "Connect your favorite online tools and artificial intelligence models to automate tedious tasks without writing complex code.",
     "download_url": "https://github.com/n8n-io/n8n/releases/download/n8n%402.48.6/sbom-source.cdx.json",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "nanobot",
+    "name": "nanobot",
+    "repo_url": "https://github.com/hkuds/nanobot",
+    "full_name": "hkuds/nanobot",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/nanobot.png",
+    "is_webapp": true,
+    "stars": 50222,
+    "tier": "tier2_webapp",
+    "summary": "Manage files, automate daily tasks, and chat with a secure personal AI assistant running right from your browser or favorite messaging app.",
+    "download_url": "https://github.com/HKUDS/nanobot/releases/download/v0.4.1/nanobot-tui-darwin-arm64.zip.sha256",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "netdata",
+    "name": "Netdata",
+    "repo_url": "https://github.com/netdata/netdata",
+    "full_name": "netdata/netdata",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/netdata.png",
+    "is_webapp": true,
+    "stars": 81537,
+    "tier": "tier2_webapp",
+    "summary": "Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues.",
+    "download_url": "https://github.com/netdata/netdata/releases/download/v2.13.0/netdata-latest-x64.msi",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "new-api",
+    "name": "New API",
+    "repo_url": "https://github.com/quantumnous/new-api",
+    "full_name": "quantumnous/new-api",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/new-api.png",
+    "is_webapp": true,
+    "stars": 52261,
+    "tier": "tier2_webapp",
+    "summary": "Easily connect, manage, and monitor multiple artificial intelligence services through a single compatible control panel with built-in cost tracking.",
+    "download_url": "https://github.com/QuantumNous/new-api/releases/download/v1.0.0-rc.51/new-api-v1.0.0-rc.51.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -672,6 +1036,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "openblocks",
+    "name": "Openblocks",
+    "repo_url": "https://github.com/openblocks-dev/openblocks",
+    "full_name": "openblocks-dev/openblocks",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/openblocks.png",
+    "is_webapp": false,
+    "stars": 6244,
+    "tier": "tier1_gui",
+    "summary": "Openblocks helps you create professional internal applications without needing to write complex code from scratch.",
+    "download_url": "https://cloud.openblocks.dev",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "panel",
+    "name": "Panel",
+    "repo_url": "https://github.com/holoviz/panel",
+    "full_name": "holoviz/panel",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/panel.png",
+    "is_webapp": false,
+    "stars": 5827,
+    "tier": "tier1_gui",
+    "summary": "Create custom data dashboards and web applications directly from Python code without complex front-end design.",
+    "download_url": "https://panel.holoviz.org",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "persepolis",
     "name": "Persepolis Download Manager",
     "repo_url": "https://github.com/persepolisdm/persepolis",
@@ -683,6 +1075,20 @@
     "tier": "tier1_gui",
     "summary": "Persepolis is a friendly download manager that splits files into multiple segments to boost download speeds and helps you grab online videos with ease.",
     "download_url": "https://github.com/persepolisdm/persepolis/releases/download/5.2.0/persepolis_5.2.0.0_windows_64bit.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "photoprism",
+    "name": "PhotoPrism",
+    "repo_url": "https://github.com/photoprism/photoprism",
+    "full_name": "photoprism/photoprism",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/photoprism.png",
+    "is_webapp": true,
+    "stars": 40470,
+    "tier": "tier2_webapp",
+    "summary": "PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly.",
+    "download_url": "https://www.photoprism.app",
     "updated_at": "2026-11-20"
   },
   {
@@ -728,6 +1134,48 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "pywebview",
+    "name": "pywebview",
+    "repo_url": "https://github.com/r0x0r/pywebview",
+    "full_name": "r0x0r/pywebview",
+    "category": "Graphics & Design",
+    "icon": "/icons/pywebview.png",
+    "is_webapp": false,
+    "stars": 6173,
+    "tier": "tier1_gui",
+    "summary": "Create native desktop user interfaces for Python programs using standard web technologies like HTML, CSS, and JavaScript.",
+    "download_url": "https://pywebview.flowrl.com",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "pywinauto",
+    "name": "pywinauto",
+    "repo_url": "https://github.com/pywinauto/pywinauto",
+    "full_name": "pywinauto/pywinauto",
+    "category": "Graphics & Design",
+    "icon": "/icons/pywinauto.png",
+    "is_webapp": false,
+    "stars": 6446,
+    "tier": "tier1_gui",
+    "summary": "Automate clicks, keystrokes, and text reading in Windows programs using simple Python scripts. Control menus and windows effortlessly.",
+    "download_url": "https://github.com/pywinauto/pywinauto/releases/download/0.6.9/pywinauto-0.6.9-py2.py3-none-any.whl",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "qwenpaw",
+    "name": "QwenPaw",
+    "repo_url": "https://github.com/agentscope-ai/qwenpaw",
+    "full_name": "agentscope-ai/qwenpaw",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/qwenpaw.png",
+    "is_webapp": true,
+    "stars": 38004,
+    "tier": "tier2_webapp",
+    "summary": "Manage chats, automate tasks, and connect across multiple messaging apps using your own private artificial intelligence assistant.",
+    "download_url": "https://github.com/agentscope-ai/QwenPaw/releases/download/v2.3.0.post1/QwenPaw-Tauri-2.3.0.post1-Windows-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "rea",
     "name": "rea",
     "repo_url": "https://github.com/morluto/rea",
@@ -742,6 +1190,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "react-nodegui",
+    "name": "react-nodegui",
+    "repo_url": "https://github.com/nodegui/react-nodegui",
+    "full_name": "nodegui/react-nodegui",
+    "category": "Graphics & Design",
+    "icon": "/icons/react-nodegui.png",
+    "is_webapp": false,
+    "stars": 6178,
+    "tier": "tier1_gui",
+    "summary": "Create fast, native cross-platform desktop applications using familiar React components and lightweight styling.",
+    "download_url": "https://react.nodegui.org",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "reactive-resume",
+    "name": "Reactive Resume",
+    "repo_url": "https://github.com/reactive-resume/reactive-resume",
+    "full_name": "reactive-resume/reactive-resume",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/reactive-resume.png",
+    "is_webapp": true,
+    "stars": 45933,
+    "tier": "tier2_webapp",
+    "summary": "Create, customize, and track your job applications using a secure and free open-source resume builder with live PDF preview.",
+    "download_url": "https://rxresu.me",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "reflex",
     "name": "Reflex",
     "repo_url": "https://github.com/reflex-dev/reflex",
@@ -753,6 +1229,34 @@
     "tier": "tier1_gui",
     "summary": "Create complete web apps entirely in Python without learning complex website languages.",
     "download_url": "https://github.com/reflex-dev/reflex/releases/download/v0.11.0/SHA256SUMS",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "serviette",
+    "name": "serviette",
+    "repo_url": "https://github.com/pathwaycom/serviette",
+    "full_name": "pathwaycom/serviette",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/serviette.png",
+    "is_webapp": true,
+    "stars": 58699,
+    "tier": "tier2_webapp",
+    "summary": "An easy no-code question-answering assistant that keeps answers in sync with your live documents automatically.",
+    "download_url": "https://github.com/pathwaycom/serviette/blob/main/docs/README.md",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "siyuan",
+    "name": "SiYuan",
+    "repo_url": "https://github.com/siyuan-note/siyuan",
+    "full_name": "siyuan-note/siyuan",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/siyuan.png",
+    "is_webapp": true,
+    "stars": 47300,
+    "tier": "tier2_webapp",
+    "summary": "SiYuan is a secure, self-hosted tool for organizing your notes, documents, and ideas with powerful linking and AI assistance.",
+    "download_url": "https://github.com/siyuan-note/siyuan/releases/download/v3.8.11/siyuan-3.8.11-win-arm64.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -812,6 +1316,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "sophiapp",
+    "name": "SophiApp",
+    "repo_url": "https://github.com/sophia-community/sophiapp",
+    "full_name": "sophia-community/sophiapp",
+    "category": "Graphics & Design",
+    "icon": "/icons/sophiapp.png",
+    "is_webapp": false,
+    "stars": 5257,
+    "tier": "tier1_gui",
+    "summary": "SophiApp is a user-friendly tool that lets you customize and optimize your Windows 10 or 11 system using safe, official methods.",
+    "download_url": "https://github.com/Sophia-Community/SophiApp/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "sourcegit",
+    "name": "sourcegit",
+    "repo_url": "https://github.com/sourcegit-org/sourcegit",
+    "full_name": "sourcegit-org/sourcegit",
+    "category": "Graphics & Design",
+    "icon": "/icons/sourcegit.png",
+    "is_webapp": false,
+    "stars": 6553,
+    "tier": "tier1_gui",
+    "summary": "Navigate complex code changes, review history visually, and collaborate smoothly across teams without typing complex terminal commands.",
+    "download_url": "https://github.com/sourcegit-org/sourcegit/releases/download/v2026.24/sourcegit-2026.24.linux.amd64.AppImage",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "spotifast",
     "name": "Spotifast",
     "repo_url": "https://github.com/crmne/spotifast",
@@ -826,6 +1358,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "sqlectron",
+    "name": "Sqlectron",
+    "repo_url": "https://github.com/sqlectron/sqlectron",
+    "full_name": "sqlectron/sqlectron",
+    "category": "Graphics & Design",
+    "icon": "/icons/sqlectron.png",
+    "is_webapp": false,
+    "stars": 4757,
+    "tier": "tier1_gui",
+    "summary": "Sqlectron is a clean, lightweight desktop application designed to connect and query multiple database types with ease.",
+    "download_url": "https://github.com/sqlectron/sqlectron/releases/download/v1.39.0/sqlectron-1.39.0.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "stable-dreamfusion",
     "name": "Stable-Dreamfusion",
     "repo_url": "https://github.com/ashawkey/stable-dreamfusion",
@@ -837,6 +1383,34 @@
     "tier": "tier1_gui",
     "summary": "Transform simple text descriptions or single photos into fully rendered 3D objects using advanced AI diffusion models.",
     "download_url": "https://github.com/ashawkey/stable-dreamfusion/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "stirling-pdf",
+    "name": "Stirling-PDF",
+    "repo_url": "https://github.com/stirling-tools/stirling-pdf",
+    "full_name": "stirling-tools/stirling-pdf",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/stirling-pdf.png",
+    "is_webapp": true,
+    "stars": 97065,
+    "tier": "tier2_webapp",
+    "summary": "Edit, convert, and secure your PDF documents locally without uploading your sensitive files to third-party web services.",
+    "download_url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v3.4.0/Stirling-PDF-windows-arm64-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "studio",
+    "name": "Studio",
+    "repo_url": "https://github.com/outerbase/studio",
+    "full_name": "outerbase/studio",
+    "category": "Graphics & Design",
+    "icon": "/icons/studio.png",
+    "is_webapp": false,
+    "stars": 6015,
+    "tier": "tier1_gui",
+    "summary": "Studio is a lightweight browser interface for managing popular databases with helpful auto-completion, easy data tables, and schema editors.",
+    "download_url": "https://studio.outerbase.com",
     "updated_at": "2026-11-20"
   },
   {
@@ -868,6 +1442,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "toga",
+    "name": "Toga",
+    "repo_url": "https://github.com/beeware/toga",
+    "full_name": "beeware/toga",
+    "category": "Graphics & Design",
+    "icon": "/icons/toga.png",
+    "is_webapp": false,
+    "stars": 5430,
+    "tier": "tier1_gui",
+    "summary": "Toga lets you create native user interfaces for apps across different operating systems using the Python programming language.",
+    "download_url": "https://github.com/beeware/toga/releases/download/v0.5.7/toga-0.5.7-py3-none-any.whl",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "tooljet",
+    "name": "ToolJet",
+    "repo_url": "https://github.com/tooljet/tooljet",
+    "full_name": "tooljet/tooljet",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/tooljet.png",
+    "is_webapp": true,
+    "stars": 41265,
+    "tier": "tier2_webapp",
+    "summary": "Create powerful internal apps, dashboards, and operational tools using a visual builder or simple text prompts.",
+    "download_url": "https://tooljet.com",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "tqdm",
     "name": "tqdm",
     "repo_url": "https://github.com/tqdm/tqdm",
@@ -879,6 +1481,20 @@
     "tier": "tier1_gui",
     "summary": "Add dynamic, lightweight progress meters to your console commands and loops with minimal setup.",
     "download_url": "https://github.com/tqdm/tqdm/releases/download/v4.70.1/tqdm-4.70.1-py3-none-any.whl",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "trilium",
+    "name": "Trilium",
+    "repo_url": "https://github.com/triliumnext/trilium",
+    "full_name": "triliumnext/trilium",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/trilium.png",
+    "is_webapp": true,
+    "stars": 39023,
+    "tier": "tier2_webapp",
+    "summary": "Trilium is a hierarchical note-taking tool that helps you organize massive amounts of information into a searchable, connected library.",
+    "download_url": "https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-arm64.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -896,6 +1512,20 @@
     "updated_at": "2026-11-19"
   },
   {
+    "slug": "tweakpane",
+    "name": "Tweakpane",
+    "repo_url": "https://github.com/cocopon/tweakpane",
+    "full_name": "cocopon/tweakpane",
+    "category": "Graphics & Design",
+    "icon": "/icons/tweakpane.png",
+    "is_webapp": false,
+    "stars": 4716,
+    "tier": "tier1_gui",
+    "summary": "A sleek, dependency-free control panel library that lets you easily adjust values and monitor changes in real time.",
+    "download_url": "https://tweakpane.github.io/docs/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "ufo",
     "name": "UFO",
     "repo_url": "https://github.com/microsoft/ufo",
@@ -907,6 +1537,34 @@
     "tier": "tier1_gui",
     "summary": "Automate complex workflows across multiple operating systems and devices using advanced intelligent digital assistants.",
     "download_url": "https://microsoft.github.io/UFO/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "unsloth",
+    "name": "Unsloth",
+    "repo_url": "https://github.com/unslothai/unsloth",
+    "full_name": "unslothai/unsloth",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/unsloth.png",
+    "is_webapp": true,
+    "stars": 79818,
+    "tier": "tier2_webapp",
+    "summary": "Unsloth allows you to run and customize powerful artificial intelligence models directly on your own computer with ease.",
+    "download_url": "https://github.com/unslothai/unsloth/releases/download/v0.1.920-beta/Unsloth-Desktop-Windows-ARM64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "uptime-kuma",
+    "name": "Uptime Kuma",
+    "repo_url": "https://github.com/louislam/uptime-kuma",
+    "full_name": "louislam/uptime-kuma",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/uptime-kuma.png",
+    "is_webapp": true,
+    "stars": 94676,
+    "tier": "tier2_webapp",
+    "summary": "An easy-to-use monitoring tool that tracks your websites and servers in real time, alerting you instantly if anything goes offline.",
+    "download_url": "https://uptime.kuma.pet",
     "updated_at": "2026-11-20"
   },
   {
@@ -952,6 +1610,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "winit",
+    "name": "winit",
+    "repo_url": "https://github.com/rust-windowing/winit",
+    "full_name": "rust-windowing/winit",
+    "category": "Graphics & Design",
+    "icon": "/icons/winit.png",
+    "is_webapp": false,
+    "stars": 6287,
+    "tier": "tier1_gui",
+    "summary": "Winit lets developers easily create windows and handle user inputs like mouse clicks and keystrokes across multiple operating systems.",
+    "download_url": "https://docs.rs/winit/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "wxwidgets",
     "name": "wxWidgets",
     "repo_url": "https://github.com/wxwidgets/wxwidgets",
@@ -966,6 +1638,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "x11docker",
+    "name": "x11docker",
+    "repo_url": "https://github.com/mviereck/x11docker",
+    "full_name": "mviereck/x11docker",
+    "category": "Security & Privacy",
+    "icon": "/icons/x11docker.png",
+    "is_webapp": false,
+    "stars": 6345,
+    "tier": "tier1_gui",
+    "summary": "Run graphical desktop applications safely inside isolated containers while protecting your host system from security leaks.",
+    "download_url": "https://github.com/mviereck/x11docker/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "yew",
     "name": "Yew",
     "repo_url": "https://github.com/yewstack/yew",
@@ -977,6 +1663,20 @@
     "tier": "tier1_gui",
     "summary": "Create reliable and efficient web applications using modern programming tools and high-performance browser technology.",
     "download_url": "https://yew.rs",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "you-dont-need-gui",
+    "name": "You-Dont-Need-GUI",
+    "repo_url": "https://github.com/you-dont-need/you-dont-need-gui",
+    "full_name": "you-dont-need/you-dont-need-gui",
+    "category": "Graphics & Design",
+    "icon": "/icons/you-dont-need-gui.png",
+    "is_webapp": false,
+    "stars": 5916,
+    "tier": "tier1_gui",
+    "summary": "Ditch slow visual menus and speed up your daily computer tasks using quick text commands.",
+    "download_url": "https://github.com/you-dont-need/You-Dont-Need-GUI/releases",
     "updated_at": "2026-11-20"
   },
   {

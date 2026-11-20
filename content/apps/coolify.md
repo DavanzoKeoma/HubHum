@@ -1,0 +1,65 @@
+---
+title: "Coolify"
+slug: "coolify"
+tagline: "Your own private cloud management platform."
+summary: "Coolify lets you host and manage your own websites, databases, and apps on any server without needing expensive commercial platforms."
+tags: ["hosting", "server-management", "self-hosted"]
+is_webapp: true
+category: "Web Apps & Cloud"
+icon: "/icons/coolify.png"
+stars: 66285
+source_url: "https://github.com/coollabsio/coolify"
+download_url: "https://coolify.io"
+downloadUrl: "https://coolify.io"
+download_label: "Visit Official Site"
+license: "Apache-2.0"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
+ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
+featured_weekly: true
+updated_at: "2026-11-20"
+i18n:
+  it:
+    tagline: "La tua piattaforma cloud privata."
+    summary: "Coolify ti permette di gestire siti web e app sul tuo server senza dipendere da costose piattaforme commerciali."
+  es:
+    tagline: "Tu propia plataforma de nube privada."
+    summary: "Coolify te permite alojar y gestionar tus sitios web y aplicaciones en tu propio servidor sin depender de plataformas comerciales."
+  fr:
+    tagline: "Votre propre plateforme cloud privée."
+    summary: "Coolify vous permet d'héberger et de gérer vos sites web et applications sur votre propre serveur sans dépendre de plateformes payantes."
+  de:
+    tagline: "Ihre eigene private Cloud-Plattform."
+    summary: "Coolify ermöglicht es Ihnen, Ihre Websites und Anwendungen auf Ihrem eigenen Server zu verwalten, ohne auf teure Dienste angewiesen zu sein."
+---
+
+### What it does in plain English
+Coolify turns any computer or server you own into a powerful, automated home for your websites and digital services. It handles the complex setup of your software so you can focus on building instead of managing technical infrastructure. Always remember to secure your remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+
+### Who it's for
+*   **Independent Developers:** People who want to host their own projects without paying monthly fees to big cloud companies.
+*   **Small Business Owners:** Teams looking for a simple way to manage their internal tools and websites on their own hardware.
+
+### Key features
+*   **One-Click Setup:** Easily launch hundreds of different services, databases, and applications with a single click.
+*   **Automatic Security:** Keeps your sites safe with automatic web security certificates and isolated network settings.
+*   **Real-Time Monitoring:** Watch your server's health, memory usage, and performance through a clean, visual dashboard.
+*   **SEO Optimization:** Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
+
+### How to install (Download)
+You can install Coolify on your own server (such as a VPS or home computer) by running the official installation script provided on their website. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+
+[Get started at the official website](https://coolify.io)
+
+### Pros and Cons
+* **Pros:** Completely free and open-source, gives you full control over your data, and works on any server with an internet connection.
+* **Cons:** Requires basic knowledge of how to connect to a server, and you are responsible for the physical or virtual hardware you choose to use.
+
+[Official Source / Credits](https://github.com/coollabsio/coolify)
