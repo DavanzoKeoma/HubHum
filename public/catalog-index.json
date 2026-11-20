@@ -47,7 +47,13 @@
     "repo_url": "https://github.com/github/gh-stack",
     "full_name": "github/gh-stack",
     "category": "Productivity",
-    "icon": "/icons/gh-stack.png"
+    "icon": "/icons/gh-stack.png",
+    "is_webapp": false,
+    "stars": 1784,
+    "tier": "tier3_powertool",
+    "summary": "This tool helps you break down complex work into small, easy-to-review pieces that build on each other automatically.",
+    "download_url": "https://github.com/github/gh-stack/releases/download/v0.3.0/windows-386.exe",
+    "updated_at": "2026-11-19"
   },
   {
     "slug": "ghost",
@@ -90,6 +96,20 @@
     "summary": "Discover powerful free software explained in plain language with verified official downloads and zero tech jargon.",
     "download_url": "https://davanzokeoma.github.io/HubHum/",
     "updated_at": "2026-11-18"
+  },
+  {
+    "slug": "imgui",
+    "name": "imgui",
+    "repo_url": "https://github.com/ocornut/imgui",
+    "full_name": "ocornut/imgui",
+    "category": "Graphics & Design",
+    "icon": "/icons/imgui.png",
+    "is_webapp": false,
+    "stars": 77185,
+    "tier": "tier1_gui",
+    "summary": "Create lightweight software user interfaces and developer tools in C++ without external dependencies or complicated setup.",
+    "download_url": "https://github.com/ocornut/imgui/releases",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "joplin",
@@ -148,6 +168,48 @@
     "updated_at": "2026-11-18"
   },
   {
+    "slug": "n8n",
+    "name": "n8n",
+    "repo_url": "https://github.com/n8n-io/n8n",
+    "full_name": "n8n-io/n8n",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/n8n.png",
+    "is_webapp": true,
+    "stars": 211468,
+    "tier": "tier2_webapp",
+    "summary": "Connect your favorite online tools and artificial intelligence models to automate tedious tasks without writing complex code.",
+    "download_url": "https://github.com/n8n-io/n8n/releases/download/n8n%402.48.6/sbom-source.cdx.json",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "open-webui",
+    "name": "Open WebUI",
+    "repo_url": "https://github.com/open-webui/open-webui",
+    "full_name": "open-webui/open-webui",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/open-webui.png",
+    "is_webapp": true,
+    "stars": 159122,
+    "tier": "tier2_webapp",
+    "summary": "Run smart artificial intelligence models completely offline or connect to cloud services with a friendly, feature-packed web control panel.",
+    "download_url": "https://openwebui.com",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "rea",
+    "name": "rea",
+    "repo_url": "https://github.com/morluto/rea",
+    "full_name": "morluto/rea",
+    "category": "Productivity",
+    "icon": "/icons/rea.png",
+    "is_webapp": false,
+    "stars": 470442,
+    "tier": "tier3_powertool",
+    "summary": "Understand how any software feature works without source code, letting AI agents inspect apps and code down to the binary level.",
+    "download_url": "https://rea.tools",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "sniffnet",
     "name": "Sniffnet",
     "repo_url": "https://github.com/gyulyvgc/sniffnet",
@@ -160,6 +222,20 @@
     "summary": "Easily observe and analyze your computer's internet traffic in real-time with visual graphs, custom alerts, and security filters.",
     "download_url": "https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_arm64.msi",
     "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "tauri",
+    "name": "Tauri",
+    "repo_url": "https://github.com/tauri-apps/tauri",
+    "full_name": "tauri-apps/tauri",
+    "category": "Graphics & Design",
+    "icon": "/icons/tauri.png",
+    "is_webapp": false,
+    "stars": 113010,
+    "tier": "tier1_gui",
+    "summary": "Tauri lets you build secure, lightweight desktop and mobile apps using web technologies like HTML and JavaScript.",
+    "download_url": "https://tauri.app",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "tv-detox",
@@ -188,5 +264,19 @@
     "summary": "VLC is a versatile media player that opens almost any video or audio file without needing extra downloads.",
     "download_url": "https://www.videolan.org/vlc",
     "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "yt-dlp",
+    "name": "yt-dlp",
+    "repo_url": "https://github.com/yt-dlp/yt-dlp",
+    "full_name": "yt-dlp/yt-dlp",
+    "category": "Video & Audio",
+    "icon": "/icons/yt-dlp.png",
+    "is_webapp": false,
+    "stars": 209259,
+    "tier": "tier3_powertool",
+    "summary": "A reliable tool to save audio and video from thousands of online websites directly to your computer.",
+    "download_url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp.exe",
+    "updated_at": "2026-11-20"
   }
 ]

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 import urllib.error
 import urllib.request
 
@@ -18,8 +19,8 @@ GEMINI_FLASH_MODELS = (
 
 GROQ_CHAT_MODELS = (
     "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
     "qwen/qwen3.8-27b",
-    "llama-3.3-70b-versatile",
 )
 
 SYSTEM_INSTRUCTION = """[SYSTEM INSTRUCTION FOR AI ROUTER]
@@ -158,11 +159,18 @@ def _call_tier2_groq(api_key: str, user_prompt: str) -> tuple[str, str]:
 
 
 def _strip_code_fence(text: str) -> str:
-    cleaned = text.strip()
+    cleaned = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
+    cleaned = cleaned.replace("\r\n", "\n")
     if cleaned.startswith("```"):
         lines = cleaned.splitlines()
         if len(lines) >= 3 and lines[-1].strip() == "```":
             cleaned = "\n".join(lines[1:-1]).strip()
+    if not cleaned.startswith("---"):
+        idx = cleaned.find("\n---")
+        if idx != -1:
+            cleaned = cleaned[idx + 1 :].strip()
+    cleaned = re.sub(r"^---[ \t]*\n", "---\n", cleaned)
+    cleaned = re.sub(r"\n---[ \t]*\n", "\n---\n", cleaned, count=1)
     return cleaned
 
 

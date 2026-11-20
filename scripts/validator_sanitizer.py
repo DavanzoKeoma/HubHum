@@ -63,9 +63,10 @@ def _parse_yaml_scalar(val: str) -> object:
 def split_frontmatter(markdown_text: str) -> tuple[dict[str, object], str]:
     """Parse lightweight YAML frontmatter (including nested i18n map) and return (data, body)."""
     normalized = markdown_text.replace("\r\n", "\n").strip()
+    normalized = re.sub(r"^---[ \t]*\n", "---\n", normalized)
     if not normalized.startswith("---\n"):
         raise ValueError("Missing YAML frontmatter at start of file.")
-    parts = normalized.split("\n---\n", 1)
+    parts = re.split(r"\n---[ \t]*\n", normalized, maxsplit=1)
     if len(parts) != 2:
         raise ValueError("YAML frontmatter not closed with '---'.")
 
