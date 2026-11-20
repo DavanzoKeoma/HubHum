@@ -1,0 +1,70 @@
+---
+title: "wttr.in"
+slug: "wttr-in"
+tagline: "The right way to check weather"
+summary: "Get precise, beautifully formatted weather forecasts instantly in your web browser or command-line terminal without installing heavy apps."
+tags: ["weather", "cli", "terminal", "utility", "web-service"]
+is_webapp: false
+category: "Productivity"
+icon: "/icons/wttr-in.png"
+stars: 30804
+source_url: "https://github.com/chubin/wttr.in"
+download_url: "https://wttr.in"
+downloadUrl: "https://wttr.in"
+download_label: "Visit Official Site"
+license: "Apache-2.0"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_276"
+affiliate_name: "Rank Math Direct"
+affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
+affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-20"
+i18n:
+  it:
+    tagline: "Il modo giusto per controllare il meteo"
+    summary: "Ottieni previsioni meteo precise e formattate istantaneamente nel tuo browser o terminale senza installare app pesanti."
+  es:
+    tagline: "La forma correcta de ver el clima"
+    summary: "Obtén pronósticos del tiempo precisos y formateados al instante en tu navegador o terminal sin instalar aplicaciones pesadas."
+  fr:
+    tagline: "La bonne façon de consulter la météo"
+    summary: "Obtenez des prévisions météo précises instantanément dans votre navigateur ou terminal sans installer d'applications lourdes."
+  de:
+    tagline: "Der richtige Weg fürs Wetter"
+    summary: "Erhalte präzise und übersichtliche Wettervorhersagen sofort im Browser oder Terminal, ganz ohne schwere Apps zu installieren."
+---
+
+### What it does in plain English
+wttr.in provides lightning-fast weather forecasts directly inside your web browser or text terminal. It automatically detects your location using your network address and formats current conditions using clean symbols and colors. You can easily check conditions anywhere in the world by simply typing a city name or airport code. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+
+### Who it's for
+* Command-line power users who want quick weather details without opening a browser window.
+* System administrators looking to display live weather updates inside server status bars.
+* Anyone who prefers reading information in a lightweight, distraction-free text format.
+
+### Key features
+* Instant weather checks via simple web addresses or terminal commands.
+* Automatic local weather detection based on your internet connection.
+* Support for global cities, mountain peaks, historical sites, and airport codes.
+* Multiple visual layouts including compact one-line views and detailed multi-day forecasts.
+* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
+
+### How to install (Download)
+No installation or download is necessary to use this service. You can open it instantly in your web browser or query it directly from your terminal using standard tools like `curl`. 
+
+* [Access the official website directly](https://wttr.in)
+* [Use the official fallback service if needed](https://wttr.is)
+
+Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+
+### Pros and Cons
+* **Pros:** Completely free to use, requires no account creation or software installation, and integrates seamlessly into scripts and status bars.
+* **Cons:** Requires an active internet connection to fetch real-time data, and advanced custom formatting options take a few moments to learn.
+
+[Official Source / Credits](https://github.com/chubin/wttr.in)

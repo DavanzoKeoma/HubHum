@@ -12,5 +12,12 @@
     "html_url": "https://github.com/rtk-ai/rtk",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-20T08:06:10.069655+00:00"
+  },
+  {
+    "full_name": "cmderdev/cmder",
+    "slug": "cmder",
+    "html_url": "https://github.com/cmderdev/cmder",
+    "reason": "tier1_gemini: call error (<urlopen error [Errno 104] Connection reset by peer>) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-20T08:19:37.948305+00:00"
   }
 ]

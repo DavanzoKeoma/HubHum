@@ -1,0 +1,72 @@
+---
+title: "Tabby"
+slug: "tabby"
+tagline: "Modern and customizable terminal and connection hub"
+summary: "Tabby is a modern, highly customizable terminal emulator and connection manager that brings all your remote servers and tools together cleanly."
+tags: ["terminal", "ssh", "developer-tools", "productivity"]
+is_webapp: false
+category: "Graphics & Design"
+icon: "/icons/tabby.png"
+stars: 75507
+source_url: "https://github.com/Eugeny/tabby"
+download_url: "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe"
+downloadUrl: "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe"
+download_label: "Download for Windows (.exe)"
+license: "MIT"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "DesignApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_054"
+affiliate_name: "Creative Fabrica"
+affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
+affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-20"
+i18n:
+  it:
+    tagline: "Terminale moderno, altamente personalizzabile e completo"
+    summary: "Tabby è un emulatore di terminale moderno e altamente personalizzabile che riunisce in modo ordinato tutti i server remoti e gli strumenti."
+  es:
+    tagline: "Terminal moderno, altamente personalizable y completo"
+    summary: "Tabby es un emulador de terminal moderno y altamente personalizable que reúne todos tus servidores remotos y herramientas."
+  fr:
+    tagline: "Terminal moderne, hautement personnalisable et complet"
+    summary: "Tabby est un émulateur de terminal moderne et hautement personnalisable qui regroupe tous vos serveurs distants et outils."
+  de:
+    tagline: "Modernes, hochgradig anpassbares und starkes Terminal"
+    summary: "Tabby ist ein moderner, hochgradig anpassbarer Terminal-Emulator, der alle Ihre Remote-Server und Werkzeuge übersichtlich zusammenführt."
+---
+
+### What it does in plain English
+Tabby is a modern tool designed to manage all your command-line sessions, remote server connections, and serial devices in one clean workspace. It replaces clunky traditional windows with a customizable interface featuring tabs, split screens, and themes. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+
+### Who it's for
+* Software developers managing multiple local projects and remote servers simultaneously.
+* System administrators who want a reliable tool to handle secure shell connections and port forwarding.
+* Hobbyists and engineers working with microcontrollers and hardware via serial connections.
+
+### Key features
+* Built-in connection manager for secure shell and telnet servers with automatic jump host handling.
+* Highly customizable appearance with multiple themes, font support, and adjustable color palettes.
+* Split panes and persistent tabs so your workspace stays exactly how you left it.
+* Direct file transfer capabilities during remote sessions using Zmodem.
+* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
+
+### How to install (Download)
+Choose the installer that matches your operating system from the official options below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+
+* [Download for Windows (.exe) - Intel/AMD](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-x64.exe)
+* [Download for Windows (.exe) - ARM64](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe)
+* [Download for Mac (.dmg) - Intel](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-x86_64.dmg)
+* [Download for Mac (.dmg) - Apple Silicon](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-arm64.dmg)
+* [Download for Linux (.AppImage)](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-x64.AppImage)
+* [Download for Linux (.deb)](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.deb)
+
+### Pros and Cons
+* **Pros:** Highly customizable interface, built-in server connection manager, completely free without mandatory subscriptions.
+* **Cons:** Uses more memory than lightweight text-only terminals due to its rich feature set.
+
+[Official Source / Credits](https://github.com/Eugeny/tabby)
