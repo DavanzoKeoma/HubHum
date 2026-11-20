@@ -1,0 +1,64 @@
+---
+title: "Puppeteer"
+slug: "puppeteer"
+tagline: "Automate your web browser tasks effortlessly."
+summary: "Puppeteer is a powerful tool that lets you control a web browser through simple instructions to perform repetitive tasks automatically."
+tags: ["automation", "browser", "productivity"]
+is_webapp: false
+category: "Graphics & Design"
+icon: "/icons/puppeteer.png"
+stars: 95874
+source_url: "https://github.com/puppeteer/puppeteer"
+download_url: "https://pptr.dev"
+downloadUrl: "https://pptr.dev"
+download_label: "Visit Official Site"
+license: "Apache-2.0"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "DesignApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_054"
+affiliate_name: "Creative Fabrica"
+affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
+affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
+ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
+featured_weekly: true
+updated_at: "2026-11-20"
+i18n:
+  it:
+    tagline: "Automatizza le attività del tuo browser."
+    summary: "Puppeteer è uno strumento che ti permette di controllare il browser tramite istruzioni semplici per automatizzare attività ripetitive."
+  es:
+    tagline: "Automatiza las tareas de tu navegador."
+    summary: "Puppeteer es una herramienta que te permite controlar el navegador mediante instrucciones sencillas para automatizar tareas repetitivas."
+  fr:
+    tagline: "Automatisez les tâches de votre navigateur."
+    summary: "Puppeteer est un outil qui vous permet de contrôler votre navigateur via des instructions simples pour automatiser des tâches répétitives."
+  de:
+    tagline: "Automatisieren Sie Ihre Browser-Aufgaben."
+    summary: "Puppeteer ist ein Werkzeug, mit dem Sie Ihren Browser über einfache Anweisungen steuern können, um wiederkehrende Aufgaben zu automatisieren."
+---
+
+### What it does in plain English
+Puppeteer acts like a digital assistant that can navigate websites, click buttons, and fill out forms exactly as a human would. It works behind the scenes to handle repetitive web tasks, such as taking screenshots of pages or gathering data from multiple sites at once. When you need royalty-free stock footage, music tracks, and motion presets alongside your automated browser tasks, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+
+### Who it's for
+* **Data Analysts:** People who need to collect information from various websites without manual clicking.
+* **Quality Testers:** Individuals who want to ensure their websites work correctly by simulating user behavior automatically.
+
+### Key features
+* **Automated Navigation:** Easily move between pages, click links, and interact with menus programmatically.
+* **Visual Capture:** Generate high-quality screenshots or PDF documents of entire web pages with a single command.
+* **Form Interaction:** Automatically fill out forms, log into accounts, and submit data without manual input.
+* **Performance Testing:** Measure how fast your pages load and identify bottlenecks in the user experience.
+* **Creative Integration:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
+
+### How to install (Download)
+Puppeteer is designed for users comfortable with basic command-line tools. You can install it via the official [Puppeteer Documentation](https://pptr.dev/docs). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+
+### Pros and Cons
+* **Pros:** Highly reliable, supports both Chrome and Firefox, and offers extensive control over browser behavior.
+* **Cons:** Requires basic knowledge of programming logic to set up and configure effectively.
+
+[Official Source / Credits](https://github.com/puppeteer/puppeteer)
