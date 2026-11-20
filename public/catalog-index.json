@@ -1,5 +1,33 @@
 [
   {
+    "slug": "agent-reach",
+    "name": "Agent-Reach",
+    "repo_url": "https://github.com/panniantong/agent-reach",
+    "full_name": "panniantong/agent-reach",
+    "category": "Graphics & Design",
+    "icon": "/icons/agent-reach.png",
+    "is_webapp": false,
+    "stars": 113424,
+    "tier": "tier3_powertool",
+    "summary": "Agent-Reach allows your AI assistant to browse and read content from popular social media and video platforms automatically.",
+    "download_url": "https://github.com/Panniantong/Agent-Reach/releases/download/v1.6.1/agent_reach-1.6.1-py3-none-any.whl",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "aider",
+    "name": "aider",
+    "repo_url": "https://github.com/aider-ai/aider",
+    "full_name": "aider-ai/aider",
+    "category": "Graphics & Design",
+    "icon": "/icons/aider.png",
+    "is_webapp": false,
+    "stars": 50191,
+    "tier": "tier3_powertool",
+    "summary": "Collaborate with advanced artificial intelligence directly inside your computer terminal to create programs and update your software projects seamlessly.",
+    "download_url": "https://aider.chat/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "airgorah",
     "name": "Airgorah",
     "repo_url": "https://github.com/martin-olivier/airgorah",
@@ -11,6 +39,20 @@
     "tier": "tier1_gui",
     "summary": "Airgorah is a user-friendly application designed to scan nearby wireless traffic, evaluate network safety, and test home Wi-Fi security.",
     "download_url": "https://github.com/martin-olivier/airgorah/releases/download/v0.9.0/airgorah_0.9.0_aarch64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "analytics",
+    "name": "Plausible Analytics",
+    "repo_url": "https://github.com/plausible/analytics",
+    "full_name": "plausible/analytics",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/analytics.png",
+    "is_webapp": true,
+    "stars": 29895,
+    "tier": "tier2_webapp",
+    "summary": "Plausible provides clear insights into your website traffic without tracking individual visitors or using invasive cookies.",
+    "download_url": "https://plausible.io",
     "updated_at": "2026-11-20"
   },
   {
@@ -53,6 +95,20 @@
     "tier": "tier2_webapp",
     "summary": "An open-source cloud backend that gives you secure user login, databases, file storage, and serverless functions in one unified place.",
     "download_url": "https://appwrite.io",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "archivebox",
+    "name": "ArchiveBox",
+    "repo_url": "https://github.com/archivebox/archivebox",
+    "full_name": "archivebox/archivebox",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/archivebox.png",
+    "is_webapp": true,
+    "stars": 29061,
+    "tier": "tier2_webapp",
+    "summary": "ArchiveBox saves permanent offline copies of web pages, bookmarks, and media so they never disappear from the internet.",
+    "download_url": "https://github.com/ArchiveBox/ArchiveBox/releases/download/v0.9.77/archivebox-0.9.77-py3-none-any.whl",
     "updated_at": "2026-11-20"
   },
   {
@@ -140,6 +196,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "bat",
+    "name": "bat",
+    "repo_url": "https://github.com/sharkdp/bat",
+    "full_name": "sharkdp/bat",
+    "category": "Graphics & Design",
+    "icon": "/icons/bat.png",
+    "is_webapp": false,
+    "stars": 61326,
+    "tier": "tier3_powertool",
+    "summary": "Bat is a modern command-line tool that displays file contents with bright colors, line numbers, and git change tracking.",
+    "download_url": "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-musl_0.26.1_arm64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "beszel",
+    "name": "Beszel",
+    "repo_url": "https://github.com/henrygd/beszel",
+    "full_name": "henrygd/beszel",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/beszel.png",
+    "is_webapp": true,
+    "stars": 27498,
+    "tier": "tier2_webapp",
+    "summary": "Monitor your servers and containers effortlessly with a friendly web interface, historical stats, and instant alerts.",
+    "download_url": "https://github.com/henrygd/beszel/releases/download/v0.21.2/beszel-agent_0.21.2_linux_amd64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "bili23-downloader",
     "name": "Bili23-Downloader",
     "repo_url": "https://github.com/scottsloan/bili23-downloader",
@@ -168,6 +252,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "bubbletea",
+    "name": "Bubble Tea",
+    "repo_url": "https://github.com/charmbracelet/bubbletea",
+    "full_name": "charmbracelet/bubbletea",
+    "category": "Graphics & Design",
+    "icon": "/icons/bubbletea.png",
+    "is_webapp": false,
+    "stars": 45807,
+    "tier": "tier3_powertool",
+    "summary": "Create gorgeous interactive terminal applications in Go using a fun, functional, and stateful architecture inspired by modern web design principles.",
+    "download_url": "https://github.com/charmbracelet/bubbletea/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "casaos",
     "name": "CasaOS",
     "repo_url": "https://github.com/icewhaletech/casaos",
@@ -179,6 +277,34 @@
     "tier": "tier2_webapp",
     "summary": "CasaOS turns any computer into a simple, personal data center for managing your files and smart home devices with ease.",
     "download_url": "https://github.com/IceWhaleTech/CasaOS/releases/download/v0.4.15/checksums.txt",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "changedetection-io",
+    "name": "changedetection.io",
+    "repo_url": "https://github.com/dgtlmoon/changedetection.io",
+    "full_name": "dgtlmoon/changedetection.io",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/changedetection-io.png",
+    "is_webapp": true,
+    "stars": 35914,
+    "tier": "tier2_webapp",
+    "summary": "Monitor any web page for updates, price drops, or restocks and receive instant alerts directly to your favorite messaging apps.",
+    "download_url": "https://changedetection.io",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "cheat-sh",
+    "name": "cheat.sh",
+    "repo_url": "https://github.com/chubin/cheat.sh",
+    "full_name": "chubin/cheat.sh",
+    "category": "Productivity",
+    "icon": "/icons/cheat-sh.png",
+    "is_webapp": false,
+    "stars": 41874,
+    "tier": "tier3_powertool",
+    "summary": "Get lightning-fast programming answers and command reminders directly in your terminal or editor without opening a browser.",
+    "download_url": "https://cheat.sh/",
     "updated_at": "2026-11-20"
   },
   {
@@ -196,6 +322,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "cli",
+    "name": "GitHub CLI",
+    "repo_url": "https://github.com/cli/cli",
+    "full_name": "cli/cli",
+    "category": "Graphics & Design",
+    "icon": "/icons/cli.png",
+    "is_webapp": false,
+    "stars": 47095,
+    "tier": "tier3_powertool",
+    "summary": "GitHub CLI brings your everyday software projects, issues, and teamwork tools directly into your command line window so you never have to leave your screen.",
+    "download_url": "https://github.com/cli/cli/releases/download/v2.105.0/gh_2.105.0_windows_386.msi",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "clickhouse",
     "name": "ClickHouse",
     "repo_url": "https://github.com/clickhouse/clickhouse",
@@ -210,6 +350,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "cobra",
+    "name": "Cobra",
+    "repo_url": "https://github.com/spf13/cobra",
+    "full_name": "spf13/cobra",
+    "category": "Graphics & Design",
+    "icon": "/icons/cobra.png",
+    "is_webapp": false,
+    "stars": 44801,
+    "tier": "tier3_powertool",
+    "summary": "Cobra helps you create powerful software interfaces that allow users to interact with your programs using simple, intuitive text commands.",
+    "download_url": "https://cobra.dev",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "codepilot",
     "name": "CodePilot",
     "repo_url": "https://github.com/op7418/codepilot",
@@ -221,6 +375,20 @@
     "tier": "tier1_gui",
     "summary": "Connect to multiple artificial intelligence providers, extend capabilities with custom plugins, and control tasks straight from your phone in one.",
     "download_url": "https://github.com/op7418/CodePilot/releases/download/v0.67.17/CodePilot.Setup.0.67.17.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "codewhale",
+    "name": "Codewhale",
+    "repo_url": "https://github.com/codewhale-hq/codewhale",
+    "full_name": "codewhale-hq/codewhale",
+    "category": "Graphics & Design",
+    "icon": "/icons/codewhale.png",
+    "is_webapp": false,
+    "stars": 41189,
+    "tier": "tier3_powertool",
+    "summary": "An open-source terminal coding assistant that works with any model, splits tasks across multiple agents, and keeps your data completely transparent.",
+    "download_url": "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codew-windows-arm64.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -308,6 +476,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "dashy",
+    "name": "Dashy",
+    "repo_url": "https://github.com/lissy93/dashy",
+    "full_name": "lissy93/dashy",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/dashy.png",
+    "is_webapp": true,
+    "stars": 27031,
+    "tier": "tier2_webapp",
+    "summary": "Dashy organizes all your web links and online tools into a single, beautiful dashboard page.",
+    "download_url": "https://github.com/lissy93/dashy/releases/download/4.9.0/dashy-4.9.0.tar.gz.intoto.jsonl",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "dbeaver",
     "name": "DBeaver",
     "repo_url": "https://github.com/dbeaver/dbeaver",
@@ -347,6 +529,48 @@
     "tier": "tier1_gui",
     "summary": "Create modern graphical user interfaces and data displays in Python using a lightweight toolkit driven by your computer's graphics processor.",
     "download_url": "https://dearpygui.readthedocs.io/en/latest/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "dive",
+    "name": "dive",
+    "repo_url": "https://github.com/wagoodman/dive",
+    "full_name": "wagoodman/dive",
+    "category": "Graphics & Design",
+    "icon": "/icons/dive.png",
+    "is_webapp": false,
+    "stars": 54742,
+    "tier": "tier3_powertool",
+    "summary": "Dive helps you explore the contents of your container images to identify and remove unnecessary files that bloat your storage space.",
+    "download_url": "https://github.com/wagoodman/dive/releases/download/v0.13.1/dive_0.13.1_linux_amd64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "dockge",
+    "name": "Dockge",
+    "repo_url": "https://github.com/louislam/dockge",
+    "full_name": "louislam/dockge",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/dockge.png",
+    "is_webapp": true,
+    "stars": 24860,
+    "tier": "tier2_webapp",
+    "summary": "Dockge helps you organize, update, and control your software containers in one clean, interactive web dashboard.",
+    "download_url": "https://dockge.kuma.pet",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "dokku",
+    "name": "dokku",
+    "repo_url": "https://github.com/dokku/dokku",
+    "full_name": "dokku/dokku",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/dokku.png",
+    "is_webapp": true,
+    "stars": 32231,
+    "tier": "tier2_webapp",
+    "summary": "Host and manage custom web applications on your own virtual server with simple commands.",
+    "download_url": "https://dokku.com",
     "updated_at": "2026-11-20"
   },
   {
@@ -420,6 +644,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "fd",
+    "name": "fd",
+    "repo_url": "https://github.com/sharkdp/fd",
+    "full_name": "sharkdp/fd",
+    "category": "Graphics & Design",
+    "icon": "/icons/fd.png",
+    "is_webapp": false,
+    "stars": 45130,
+    "tier": "tier3_powertool",
+    "summary": "An incredibly fast, user-friendly tool that helps you locate files and folders on your computer in seconds.",
+    "download_url": "https://github.com/sharkdp/fd/releases/download/v10.5.2/fd-musl_10.5.2_amd64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "flameshot",
     "name": "flameshot",
     "repo_url": "https://github.com/flameshot-org/flameshot",
@@ -462,6 +700,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "fzf",
+    "name": "fzf",
+    "repo_url": "https://github.com/junegunn/fzf",
+    "full_name": "junegunn/fzf",
+    "category": "Graphics & Design",
+    "icon": "/icons/fzf.png",
+    "is_webapp": false,
+    "stars": 84302,
+    "tier": "tier3_powertool",
+    "summary": "Instantly search through files, history, and system items using intelligent matching right inside your computer window.",
+    "download_url": "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_amd64.msi",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "gdbgui",
     "name": "gdbgui",
     "repo_url": "https://github.com/cs01/gdbgui",
@@ -473,6 +725,20 @@
     "tier": "tier1_gui",
     "summary": "gdbgui turns complex program code checks into an interactive visual dashboard right inside your web browser.",
     "download_url": "https://gdbgui.com",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "gemini-cli",
+    "name": "Gemini CLI",
+    "repo_url": "https://github.com/google-gemini/gemini-cli",
+    "full_name": "google-gemini/gemini-cli",
+    "category": "Graphics & Design",
+    "icon": "/icons/gemini-cli.png",
+    "is_webapp": false,
+    "stars": 108947,
+    "tier": "tier3_powertool",
+    "summary": "An intelligent command-line tool that lets you query codebases, automate tasks, and chat with AI directly from your computer terminal.",
+    "download_url": "https://geminicli.com",
     "updated_at": "2026-11-20"
   },
   {
@@ -630,6 +896,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "herdr",
+    "name": "herdr",
+    "repo_url": "https://github.com/herdrdev/herdr",
+    "full_name": "herdrdev/herdr",
+    "category": "Productivity",
+    "icon": "/icons/herdr.png",
+    "is_webapp": false,
+    "stars": 51962,
+    "tier": "tier3_powertool",
+    "summary": "Herdr keeps your background coding assistants running safely, letting you detach, monitor progress, and manage multiple remote sessions effortlessly.",
+    "download_url": "https://github.com/herdrdev/herdr/releases/download/v0.9.5/herdr-linux-aarch64",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "homepage",
+    "name": "homepage",
+    "repo_url": "https://github.com/gethomepage/homepage",
+    "full_name": "gethomepage/homepage",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/homepage.png",
+    "is_webapp": true,
+    "stars": 33747,
+    "tier": "tier2_webapp",
+    "summary": "Create a centralized dashboard for all your favorite apps, services, and live widgets in one custom page.",
+    "download_url": "https://gethomepage.dev",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "hubhum",
     "name": "HubHum",
     "repo_url": "https://github.com/davanzokeoma/hubhum",
@@ -642,6 +936,20 @@
     "summary": "Discover powerful free software explained in plain language with verified official downloads and zero tech jargon.",
     "download_url": "https://davanzokeoma.github.io/HubHum/",
     "updated_at": "2026-11-18"
+  },
+  {
+    "slug": "ifixai",
+    "name": "iFixAi",
+    "repo_url": "https://github.com/ifixai-ai/ifixai",
+    "full_name": "ifixai-ai/ifixai",
+    "category": "Graphics & Design",
+    "icon": "/icons/ifixai.png",
+    "is_webapp": false,
+    "stars": 46239,
+    "tier": "tier3_powertool",
+    "summary": "iFixAi independently audits your automated assistants to verify they follow company rules, never leak data, and do what they are supposed to do.",
+    "download_url": "https://www.ifixai.ai",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "illa-builder",
@@ -714,6 +1022,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ink",
+    "name": "ink",
+    "repo_url": "https://github.com/vadimdemedes/ink",
+    "full_name": "vadimdemedes/ink",
+    "category": "Graphics & Design",
+    "icon": "/icons/ink.png",
+    "is_webapp": false,
+    "stars": 40307,
+    "tier": "tier3_powertool",
+    "summary": "Ink lets you create interactive, colorful, and well-organized command-line tools using familiar component-based logic.",
+    "download_url": "https://term.ink",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "jan",
     "name": "Jan",
     "repo_url": "https://github.com/janhq/jan",
@@ -725,6 +1047,20 @@
     "tier": "tier2_webapp",
     "summary": "Jan is an open-source alternative to online smart assistants that runs completely offline on your own personal computer.",
     "download_url": "https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_arm64-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "jeecgboot",
+    "name": "JeecgBoot",
+    "repo_url": "https://github.com/jeecgboot/jeecgboot",
+    "full_name": "jeecgboot/jeecgboot",
+    "category": "Graphics & Design",
+    "icon": "/icons/jeecgboot.png",
+    "is_webapp": false,
+    "stars": 48539,
+    "tier": "tier3_powertool",
+    "summary": "JeecgBoot is a free, open-source platform that combines smart artificial intelligence with low-code tools to build business software.",
+    "download_url": "https://jeecg.com",
     "updated_at": "2026-11-20"
   },
   {
@@ -740,6 +1076,20 @@
     "summary": "Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.",
     "download_url": "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe",
     "updated_at": "2026-11-18"
+  },
+  {
+    "slug": "karakeep",
+    "name": "Karakeep",
+    "repo_url": "https://github.com/karakeep-app/karakeep",
+    "full_name": "karakeep-app/karakeep",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/karakeep.png",
+    "is_webapp": true,
+    "stars": 30712,
+    "tier": "tier2_webapp",
+    "summary": "Store and organize links, images, notes, and documents in one private, searchable space.",
+    "download_url": "https://karakeep.com",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "keepassxc",
@@ -781,6 +1131,34 @@
     "tier": "tier1_gui",
     "summary": "Koharu is a privacy-focused manga translator that automatically detects, cleans, and translates panels directly on your computer.",
     "download_url": "https://github.com/koharu-rs/koharu/releases/download/0.86.4/koharu_0.86.4_x64-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "langfuse",
+    "name": "Langfuse",
+    "repo_url": "https://github.com/langfuse/langfuse",
+    "full_name": "langfuse/langfuse",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/langfuse.png",
+    "is_webapp": true,
+    "stars": 37654,
+    "tier": "tier2_webapp",
+    "summary": "Langfuse is an open-source engineering platform that helps you trace, evaluate, and monitor AI applications and virtual agents.",
+    "download_url": "https://langfuse.com",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "lazygit",
+    "name": "lazygit",
+    "repo_url": "https://github.com/jesseduffield/lazygit",
+    "full_name": "jesseduffield/lazygit",
+    "category": "Video & Audio",
+    "icon": "/icons/lazygit.png",
+    "is_webapp": false,
+    "stars": 83964,
+    "tier": "tier3_powertool",
+    "summary": "Lazygit brings a clear visual interface to your command-line code manager, making complex version control tasks simple.",
+    "download_url": "https://github.com/jesseduffield/lazygit/releases/download/v0.66.3/checksums.txt",
     "updated_at": "2026-11-20"
   },
   {
@@ -854,6 +1232,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "maigret",
+    "name": "Maigret",
+    "repo_url": "https://github.com/soxoj/maigret",
+    "full_name": "soxoj/maigret",
+    "category": "Security & Privacy",
+    "icon": "/icons/maigret.png",
+    "is_webapp": false,
+    "stars": 41080,
+    "tier": "tier3_powertool",
+    "summary": "Maigret gathers online profile information by scanning thousands of public websites using only a username.",
+    "download_url": "https://github.com/soxoj/maigret/releases/download/v0.6.6/maigret_standalone.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "medis",
     "name": "Medis",
     "repo_url": "https://github.com/luin/medis",
@@ -865,6 +1257,20 @@
     "tier": "tier1_gui",
     "summary": "Manage your database records smoothly with an intuitive visual interface, secure remote connections, and built-in search tools.",
     "download_url": "https://getmedis.com",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "meetily",
+    "name": "meetily",
+    "repo_url": "https://github.com/zackriya-solutions/meetily",
+    "full_name": "zackriya-solutions/meetily",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/meetily.png",
+    "is_webapp": true,
+    "stars": 32898,
+    "tier": "tier2_webapp",
+    "summary": "Capture, transcribe, and summarize your meetings securely on your own computer without sending sensitive audio data to the cloud.",
+    "download_url": "https://github.com/Zackriya-Solutions/meetily/releases/download/v0.5.0/meetily_0.5.0_x64-setup.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -966,6 +1372,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "nanoclaw",
+    "name": "nanoclaw",
+    "repo_url": "https://github.com/nanocoai/nanoclaw",
+    "full_name": "nanocoai/nanoclaw",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/nanoclaw.png",
+    "is_webapp": true,
+    "stars": 31128,
+    "tier": "tier2_webapp",
+    "summary": "Run a private, lightweight AI assistant on your own machine with complete data privacy and container security.",
+    "download_url": "https://nanoclaw.dev",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "navidrome",
+    "name": "Navidrome",
+    "repo_url": "https://github.com/navidrome/navidrome",
+    "full_name": "navidrome/navidrome",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/navidrome.png",
+    "is_webapp": true,
+    "stars": 24852,
+    "tier": "tier2_webapp",
+    "summary": "Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device.",
+    "download_url": "https://github.com/navidrome/navidrome/releases/download/v0.64.2/navidrome_0.64.2_windows_386_installer.msi",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "netdata",
     "name": "Netdata",
     "repo_url": "https://github.com/netdata/netdata",
@@ -1008,6 +1442,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "nocobase",
+    "name": "NocoBase",
+    "repo_url": "https://github.com/nocobase/nocobase",
+    "full_name": "nocobase/nocobase",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/nocobase.png",
+    "is_webapp": true,
+    "stars": 24971,
+    "tier": "tier2_webapp",
+    "summary": "NocoBase is an open-source platform that lets AI agents build and manage your business software while your team stays in control of decisions.",
+    "download_url": "https://www.nocobase.com",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "nuklear",
     "name": "Nuklear",
     "repo_url": "https://github.com/immediate-mode-ui/nuklear",
@@ -1019,6 +1467,62 @@
     "tier": "tier1_gui",
     "summary": "Nuklear is a tiny, highly portable graphical user interface toolkit written in ANSI C that embeds easily into any software project.",
     "download_url": "https://immediate-mode-ui.github.io/Nuklear/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "obsidian-skills",
+    "name": "Obsidian Skills",
+    "repo_url": "https://github.com/obsidianmd/obsidian-skills",
+    "full_name": "obsidianmd/obsidian-skills",
+    "category": "Productivity",
+    "icon": "/icons/obsidian-skills.png",
+    "is_webapp": false,
+    "stars": 53269,
+    "tier": "tier3_powertool",
+    "summary": "Obsidian Skills allows your favorite digital assistants to read, write, and organize your notes automatically.",
+    "download_url": "https://github.com/obsidianmd/obsidian-skills/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "oh-my-pi",
+    "name": "oh-my-pi",
+    "repo_url": "https://github.com/can1357/oh-my-pi",
+    "full_name": "can1357/oh-my-pi",
+    "category": "Productivity",
+    "icon": "/icons/oh-my-pi.png",
+    "is_webapp": false,
+    "stars": 39512,
+    "tier": "tier3_powertool",
+    "summary": "An advanced coding assistant with your development tools fully built-in, designed to write and fix code cleanly on the first try.",
+    "download_url": "https://github.com/can1357/oh-my-pi/releases/download/v19.0.1/omp-windows-arm64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "ohmyzsh",
+    "name": "Oh My Zsh",
+    "repo_url": "https://github.com/ohmyzsh/ohmyzsh",
+    "full_name": "ohmyzsh/ohmyzsh",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/ohmyzsh.png",
+    "is_webapp": false,
+    "stars": 190700,
+    "tier": "tier3_powertool",
+    "summary": "Oh My Zsh transforms your standard terminal into a powerful, themed, and plugin-packed command prompt.",
+    "download_url": "https://ohmyz.sh",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "onyx",
+    "name": "Onyx",
+    "repo_url": "https://github.com/onyx-dot-app/onyx",
+    "full_name": "onyx-dot-app/onyx",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/onyx.png",
+    "is_webapp": true,
+    "stars": 33479,
+    "tier": "tier2_webapp",
+    "summary": "Onyx connects all your apps and documents into one central assistant, letting your team chat with private company knowledge securely.",
+    "download_url": "https://github.com/onyx-dot-app/onyx/releases/download/v5.1.3/Onyx_arm64.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -1050,6 +1554,48 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "openhands",
+    "name": "OpenHands",
+    "repo_url": "https://github.com/openhands/openhands",
+    "full_name": "openhands/openhands",
+    "category": "Productivity",
+    "icon": "/icons/openhands.png",
+    "is_webapp": false,
+    "stars": 93879,
+    "tier": "tier3_powertool",
+    "summary": "OpenHands turns smart coding assistants into a reliable, always-on engineering team that automates your everyday tasks and workflows.",
+    "download_url": "https://github.com/OpenHands/OpenHands/releases/download/v1.42.0/OpenHands-Agent-Canvas-Setup-1.42.0.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "openmausbot",
+    "name": "OpenMausBot",
+    "repo_url": "https://github.com/milind-soni/openmausbot",
+    "full_name": "milind-soni/openmausbot",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/openmausbot.png",
+    "is_webapp": true,
+    "stars": 25971,
+    "tier": "tier2_webapp",
+    "summary": "Manage a custom roster of intelligent software helpers right inside a familiar chat interface on your computer.",
+    "download_url": "https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.173/OpenMausBot-0.1.173-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "pake",
+    "name": "Pake",
+    "repo_url": "https://github.com/tw93/pake",
+    "full_name": "tw93/pake",
+    "category": "Graphics & Design",
+    "icon": "/icons/pake.png",
+    "is_webapp": false,
+    "stars": 63869,
+    "tier": "tier3_powertool",
+    "summary": "Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.",
+    "download_url": "https://github.com/tw93/Pake/releases/download/V3.19.0/ChatGPT_x64.msi",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "panel",
     "name": "Panel",
     "repo_url": "https://github.com/holoviz/panel",
@@ -1061,6 +1607,20 @@
     "tier": "tier1_gui",
     "summary": "Create custom data dashboards and web applications directly from Python code without complex front-end design.",
     "download_url": "https://panel.holoviz.org",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "pentagi",
+    "name": "PentAGI",
+    "repo_url": "https://github.com/vxcontrol/pentagi",
+    "full_name": "vxcontrol/pentagi",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/pentagi.png",
+    "is_webapp": true,
+    "stars": 34653,
+    "tier": "tier2_webapp",
+    "summary": "An autonomous multi-agent system that performs security testing and delivers comprehensive reports based on your plain-language goals.",
+    "download_url": "https://pentagi.com",
     "updated_at": "2026-11-20"
   },
   {
@@ -1089,6 +1649,20 @@
     "tier": "tier2_webapp",
     "summary": "PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly.",
     "download_url": "https://www.photoprism.app",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "proxmoxve",
+    "name": "ProxmoxVE",
+    "repo_url": "https://github.com/community-scripts/proxmoxve",
+    "full_name": "community-scripts/proxmoxve",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/proxmoxve.png",
+    "is_webapp": true,
+    "stars": 30156,
+    "tier": "tier2_webapp",
+    "summary": "This tool provides simple, one-command shortcuts to install hundreds of different services on your home server system.",
+    "download_url": "https://community-scripts.org/",
     "updated_at": "2026-11-20"
   },
   {
@@ -1232,6 +1806,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ripgrep",
+    "name": "ripgrep",
+    "repo_url": "https://github.com/burntsushi/ripgrep",
+    "full_name": "burntsushi/ripgrep",
+    "category": "Graphics & Design",
+    "icon": "/icons/ripgrep.png",
+    "is_webapp": false,
+    "stars": 70085,
+    "tier": "tier3_powertool",
+    "summary": "Ripgrep is a blazing-fast utility that scans your directories for specific text patterns while automatically ignoring unwanted files and folders.",
+    "download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "rtk",
+    "name": "rtk",
+    "repo_url": "https://github.com/rtk-ai/rtk",
+    "full_name": "rtk-ai/rtk",
+    "category": "Security & Privacy",
+    "icon": "/icons/rtk.png",
+    "is_webapp": false,
+    "stars": 87231,
+    "tier": "tier3_powertool",
+    "summary": "Smart tool that compresses command output before your AI coding assistant reads it, cutting token consumption by up to ninety percent.",
+    "download_url": "https://github.com/rtk-ai/rtk/releases/download/v1.2.1/rtk-oss_1.2.1-1_amd64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "serviette",
     "name": "serviette",
     "repo_url": "https://github.com/pathwaycom/serviette",
@@ -1243,6 +1845,48 @@
     "tier": "tier2_webapp",
     "summary": "An easy no-code question-answering assistant that keeps answers in sync with your live documents automatically.",
     "download_url": "https://github.com/pathwaycom/serviette/blob/main/docs/README.md",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "setup-ipsec-vpn",
+    "name": "setup-ipsec-vpn",
+    "repo_url": "https://github.com/hwdsl2/setup-ipsec-vpn",
+    "full_name": "hwdsl2/setup-ipsec-vpn",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/setup-ipsec-vpn.png",
+    "is_webapp": true,
+    "stars": 29087,
+    "tier": "tier2_webapp",
+    "summary": "Easily create your own secure personal virtual private network server in minutes without complicated manual steps.",
+    "download_url": "https://github.com/hwdsl2/setup-ipsec-vpn/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "sherlock",
+    "name": "Sherlock",
+    "repo_url": "https://github.com/sherlock-project/sherlock",
+    "full_name": "sherlock-project/sherlock",
+    "category": "Security & Privacy",
+    "icon": "/icons/sherlock.png",
+    "is_webapp": false,
+    "stars": 114779,
+    "tier": "tier3_powertool",
+    "summary": "Easily discover where a specific username is registered across hundreds of online platforms and social networks in seconds.",
+    "download_url": "https://sherlockproject.xyz",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "signoz",
+    "name": "SigNoz",
+    "repo_url": "https://github.com/signoz/signoz",
+    "full_name": "signoz/signoz",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/signoz.png",
+    "is_webapp": true,
+    "stars": 32688,
+    "tier": "tier2_webapp",
+    "summary": "Monitor your application logs, server performance, and user traffic in a single intuitive dashboard.",
+    "download_url": "https://github.com/SigNoz/signoz/releases/download/v0.151.0/signoz-community_0.151.0_checksums.txt",
     "updated_at": "2026-11-20"
   },
   {
@@ -1610,6 +2254,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "win11debloat",
+    "name": "Win11Debloat",
+    "repo_url": "https://github.com/raphire/win11debloat",
+    "full_name": "raphire/win11debloat",
+    "category": "Graphics & Design",
+    "icon": "/icons/win11debloat.png",
+    "is_webapp": false,
+    "stars": 63350,
+    "tier": "tier3_powertool",
+    "summary": "Remove unwanted pre-installed apps, block background tracking, and declutter your computer interface in just a few clicks.",
+    "download_url": "https://github.com/Raphire/Win11Debloat/releases/download/2026.10.30/Get.ps1",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "winit",
     "name": "winit",
     "repo_url": "https://github.com/rust-windowing/winit",
@@ -1649,6 +2307,20 @@
     "tier": "tier1_gui",
     "summary": "Run graphical desktop applications safely inside isolated containers while protecting your host system from security leaks.",
     "download_url": "https://github.com/mviereck/x11docker/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "yazi",
+    "name": "Yazi",
+    "repo_url": "https://github.com/sxyazi/yazi",
+    "full_name": "sxyazi/yazi",
+    "category": "Graphics & Design",
+    "icon": "/icons/yazi.png",
+    "is_webapp": false,
+    "stars": 43534,
+    "tier": "tier3_powertool",
+    "summary": "Navigate your computer files lightning-fast right inside your command window with real-time previews.",
+    "download_url": "https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-aarch64-unknown-linux-gnu.deb",
     "updated_at": "2026-11-20"
   },
   {
@@ -1705,6 +2377,34 @@
     "tier": "tier3_powertool",
     "summary": "A reliable tool to save audio and video from thousands of online websites directly to your computer.",
     "download_url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "zoxide",
+    "name": "zoxide",
+    "repo_url": "https://github.com/ajeetdsouza/zoxide",
+    "full_name": "ajeetdsouza/zoxide",
+    "category": "Video & Audio",
+    "icon": "/icons/zoxide.png",
+    "is_webapp": false,
+    "stars": 40670,
+    "tier": "tier3_powertool",
+    "summary": "A smarter folder-navigation tool that learns your habits, helping you jump instantly to the directories you use most frequently.",
+    "download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_amd64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "zx",
+    "name": "zx",
+    "repo_url": "https://github.com/google/zx",
+    "full_name": "google/zx",
+    "category": "Graphics & Design",
+    "icon": "/icons/zx.png",
+    "is_webapp": false,
+    "stars": 45859,
+    "tier": "tier3_powertool",
+    "summary": "Simplify your command-line automation tasks by writing clean, readable scripts using JavaScript instead of clunky shell languages.",
+    "download_url": "https://google.github.io/zx/",
     "updated_at": "2026-11-20"
   }
 ]
