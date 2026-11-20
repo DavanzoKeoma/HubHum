@@ -42,6 +42,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "alt-tab-macos",
+    "name": "AltTab",
+    "repo_url": "https://github.com/lwouis/alt-tab-macos",
+    "full_name": "lwouis/alt-tab-macos",
+    "category": "Graphics & Design",
+    "icon": "/icons/alt-tab-macos.png",
+    "is_webapp": false,
+    "stars": 16546,
+    "tier": "tier3_powertool",
+    "summary": "AltTab brings the powerful window-switching behavior of Windows to your Mac, letting you preview and jump between open application windows instantly.",
+    "download_url": "https://alt-tab.app",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "analytics",
     "name": "Analytics",
     "repo_url": "https://github.com/plausible/analytics",
@@ -140,6 +154,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ast-grep",
+    "name": "ast-grep",
+    "repo_url": "https://github.com/ast-grep/ast-grep",
+    "full_name": "ast-grep/ast-grep",
+    "category": "Graphics & Design",
+    "icon": "/icons/ast-grep.png",
+    "is_webapp": false,
+    "stars": 16637,
+    "tier": "tier3_powertool",
+    "summary": "ast-grep is a powerful tool that helps you find and change specific parts of your code using simple patterns instead of complex text searches.",
+    "download_url": "https://ast-grep.github.io/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "audacity",
     "name": "Audacity",
     "repo_url": "https://github.com/audacity/audacity",
@@ -182,6 +210,20 @@
     "updated_at": "2026-11-19"
   },
   {
+    "slug": "basscss",
+    "name": "Basscss",
+    "repo_url": "https://github.com/basscss/basscss",
+    "full_name": "basscss/basscss",
+    "category": "Graphics & Design",
+    "icon": "/icons/basscss.png",
+    "is_webapp": false,
+    "stars": 5899,
+    "tier": "tier3_powertool",
+    "summary": "Basscss is a compact collection of reusable style building blocks that helps you design web pages much faster.",
+    "download_url": "https://basscss.com",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "bat",
     "name": "bat",
     "repo_url": "https://github.com/sharkdp/bat",
@@ -210,6 +252,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "broot",
+    "name": "broot",
+    "repo_url": "https://github.com/canop/broot",
+    "full_name": "canop/broot",
+    "category": "Graphics & Design",
+    "icon": "/icons/hubhum.svg",
+    "is_webapp": false,
+    "stars": 13173,
+    "tier": "tier3_powertool",
+    "summary": "Broot is a fast, interactive tool designed to help you explore large directory trees, locate files quickly, and manage your projects without losing.",
+    "download_url": "https://dystroy.org/broot",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "bubbletea",
     "name": "bubbletea",
     "repo_url": "https://github.com/charmbracelet/bubbletea",
@@ -221,6 +277,20 @@
     "tier": "tier3_powertool",
     "summary": "Create gorgeous text-based user interfaces with a fun, functional stateful toolkit designed for the terminal.",
     "download_url": "https://github.com/charmbracelet/bubbletea/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "bullet",
+    "name": "bullet",
+    "repo_url": "https://github.com/bchao1/bullet",
+    "full_name": "bchao1/bullet",
+    "category": "Graphics & Design",
+    "icon": "/icons/bullet.png",
+    "is_webapp": false,
+    "stars": 3609,
+    "tier": "tier3_powertool",
+    "summary": "Build colorful, user-friendly interactive prompts for text-based computer programs easily like stacking blocks.",
+    "download_url": "https://pypi.org/project/bullet/",
     "updated_at": "2026-11-20"
   },
   {
@@ -291,6 +361,20 @@
     "tier": "tier3_powertool",
     "summary": "Get quick, community-driven programming answers directly in your terminal or editor without ever leaving your workspace.",
     "download_url": "https://cheat.sh/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "clap",
+    "name": "clap",
+    "repo_url": "https://github.com/clap-rs/clap",
+    "full_name": "clap-rs/clap",
+    "category": "Graphics & Design",
+    "icon": "/icons/clap.png",
+    "is_webapp": false,
+    "stars": 16900,
+    "tier": "tier3_powertool",
+    "summary": "Create professional command-line tools with built-in help text, input validation, and user-friendly options.",
+    "download_url": "https://github.com/clap-rs/clap/releases",
     "updated_at": "2026-11-20"
   },
   {
@@ -392,6 +476,48 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "common-utility",
+    "name": "Common.Utility",
+    "repo_url": "https://github.com/laochiangx/common.utility",
+    "full_name": "laochiangx/common.utility",
+    "category": "Graphics & Design",
+    "icon": "/icons/common-utility.png",
+    "is_webapp": false,
+    "stars": 5291,
+    "tier": "tier3_powertool",
+    "summary": "Common.Utility gathers a vast collection of helpful programming scripts and shortcuts to speed up software development tasks.",
+    "download_url": "https://github.com/laochiangx/Common.Utility/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "conemu",
+    "name": "ConEmu",
+    "repo_url": "https://github.com/conemu/conemu",
+    "full_name": "conemu/conemu",
+    "category": "Productivity",
+    "icon": "/icons/conemu.png",
+    "is_webapp": false,
+    "stars": 9294,
+    "tier": "tier3_powertool",
+    "summary": "ConEmu is a powerful Windows console emulator that organizes multiple command-line windows into clean tabs, panes, and customizable layouts.",
+    "download_url": "https://github.com/ConEmu/ConEmu/releases/download/v23.07.24/ConEmuSetup.230724.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "console",
+    "name": "Console",
+    "repo_url": "https://github.com/symfony/console",
+    "full_name": "symfony/console",
+    "category": "Productivity",
+    "icon": "/icons/console.png",
+    "is_webapp": false,
+    "stars": 9812,
+    "tier": "tier3_powertool",
+    "summary": "Console helps creators build clean and reliable text-based interfaces for their software projects.",
+    "download_url": "https://symfony.com/console",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "continue",
     "name": "Continue",
     "repo_url": "https://github.com/continuedev/continue",
@@ -462,6 +588,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "cz-cli",
+    "name": "cz-cli",
+    "repo_url": "https://github.com/commitizen/cz-cli",
+    "full_name": "commitizen/cz-cli",
+    "category": "Graphics & Design",
+    "icon": "/icons/cz-cli.png",
+    "is_webapp": false,
+    "stars": 17502,
+    "tier": "tier3_powertool",
+    "summary": "cz-cli guides you through interactive prompts to write crystal-clear, structured message logs for every project update you save.",
+    "download_url": "https://commitizen.github.io/cz-cli/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "dashy",
     "name": "Dashy",
     "repo_url": "https://github.com/lissy93/dashy",
@@ -501,6 +641,20 @@
     "tier": "tier3_powertool",
     "summary": "Manage over a hundred different database types and message queues in a single tiny app.",
     "download_url": "https://github.com/t8y2/dbx/releases/download/v0.6.72/DBX_0.6.72-beta.20261119.2_arm64-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "distrobox",
+    "name": "distrobox",
+    "repo_url": "https://github.com/89luca89/distrobox",
+    "full_name": "89luca89/distrobox",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/distrobox.png",
+    "is_webapp": true,
+    "stars": 13131,
+    "tier": "tier3_powertool",
+    "summary": "Use any Linux distribution inside your terminal with full file and graphics sharing. Enjoy complete compatibility and software freedom without hassle.",
+    "download_url": "https://distrobox.it/",
     "updated_at": "2026-11-20"
   },
   {
@@ -560,6 +714,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "dozer",
+    "name": "Dozer",
+    "repo_url": "https://github.com/mortennn/dozer",
+    "full_name": "mortennn/dozer",
+    "category": "Graphics & Design",
+    "icon": "/icons/dozer.png",
+    "is_webapp": false,
+    "stars": 8719,
+    "tier": "tier3_powertool",
+    "summary": "Dozer lets you hide cluttered menu bar icons on your Mac for a clean, minimalist workspace.",
+    "download_url": "https://github.com/Mortennn/Dozer/releases/download/v4.0.0/Dozer.4.0.0.dmg",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "dufs",
+    "name": "dufs",
+    "repo_url": "https://github.com/sigoden/dufs",
+    "full_name": "sigoden/dufs",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/dufs.png",
+    "is_webapp": true,
+    "stars": 11138,
+    "tier": "tier3_powertool",
+    "summary": "dufs turns a folder on your computer into a web page where friends can view, download, upload or search files without installing extra tools.",
+    "download_url": "https://github.com/sigoden/dufs/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "easyspider",
     "name": "EasySpider",
     "repo_url": "https://github.com/naibowang/easyspider",
@@ -585,6 +767,20 @@
     "tier": "tier3_powertool",
     "summary": "Create, edit, and collaborate on 3D building models directly in your browser or locally with advanced AI agent support.",
     "download_url": "https://github.com/pascalorg/editor/releases/download/%40pascal-app/cli%401.1.6/pascal-web-runtime-1.1.6.tar.gz.sha256",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "esp32marauder",
+    "name": "ESP32Marauder",
+    "repo_url": "https://github.com/justcallmekoko/esp32marauder",
+    "full_name": "justcallmekoko/esp32marauder",
+    "category": "Graphics & Design",
+    "icon": "/icons/esp32marauder.png",
+    "is_webapp": false,
+    "stars": 13166,
+    "tier": "tier3_powertool",
+    "summary": "ESP32Marauder is a comprehensive collection of wireless auditing tools designed for small pocket-sized microcontrollers.",
+    "download_url": "https://github.com/justcallmekoko/ESP32Marauder/releases/download/v1.20.0/esp32_marauder_v1_20_0_20261028_cyd_2432S024_guition.bin",
     "updated_at": "2026-11-20"
   },
   {
@@ -630,6 +826,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "finetune",
+    "name": "FineTune",
+    "repo_url": "https://github.com/ronitsingh10/finetune",
+    "full_name": "ronitsingh10/finetune",
+    "category": "Video & Audio",
+    "icon": "/icons/finetune.png",
+    "is_webapp": false,
+    "stars": 10220,
+    "tier": "tier3_powertool",
+    "summary": "Take independent volume control of every app on your Mac, boost quiet sounds, and route audio effortlessly from your menu bar.",
+    "download_url": "https://github.com/ronitsingh10/FineTune/releases/download/v1.9.0/FineTune.dmg",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "fish-shell",
     "name": "fish-shell",
     "repo_url": "https://github.com/fish-shell/fish-shell",
@@ -641,6 +851,20 @@
     "tier": "tier3_powertool",
     "summary": "An interactive command line shell that guesses what you want to type as you go. It makes working with your computer's terminal simple and frustration-free.",
     "download_url": "https://github.com/fish-shell/fish-shell/releases/download/4.9.3/fish-4.9.3.pkg",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "fselect",
+    "name": "fselect",
+    "repo_url": "https://github.com/jhspetersson/fselect",
+    "full_name": "jhspetersson/fselect",
+    "category": "Video & Audio",
+    "icon": "/icons/fselect.png",
+    "is_webapp": false,
+    "stars": 4476,
+    "tier": "tier3_powertool",
+    "summary": "fselect lets you locate files on your computer by typing easy, English‑like questions about name, size, date or content, and it returns a list you.",
+    "download_url": "https://github.com/jhspetersson/fselect/releases/download/0.10.4/fselect_0.10.4-1_amd64.deb",
     "updated_at": "2026-11-20"
   },
   {
@@ -742,6 +966,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "gitsome",
+    "name": "gitsome",
+    "repo_url": "https://github.com/donnemartin/gitsome",
+    "full_name": "donnemartin/gitsome",
+    "category": "Graphics & Design",
+    "icon": "/icons/gitsome.png",
+    "is_webapp": false,
+    "stars": 7695,
+    "tier": "tier3_powertool",
+    "summary": "Manage code hosting repositories and tasks directly from your command line with powerful autocompletion and interactive help.",
+    "download_url": "https://github.com/donnemartin/gitsome/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "gitui",
     "name": "gitui",
     "repo_url": "https://github.com/gitui-org/gitui",
@@ -840,6 +1078,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "gping",
+    "name": "gping",
+    "repo_url": "https://github.com/orf/gping",
+    "full_name": "orf/gping",
+    "category": "Graphics & Design",
+    "icon": "/icons/gping.png",
+    "is_webapp": false,
+    "stars": 12746,
+    "tier": "tier3_powertool",
+    "summary": "Transform boring text network tests into real-time visual graphs so you can monitor website speeds and server health instantly.",
+    "download_url": "https://github.com/orf/gping/releases/download/gping-v1.21.0/gping.1",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "gtop",
+    "name": "gtop",
+    "repo_url": "https://github.com/aksakalli/gtop",
+    "full_name": "aksakalli/gtop",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/gtop.png",
+    "is_webapp": true,
+    "stars": 9937,
+    "tier": "tier3_powertool",
+    "summary": "This tool provides a clear, visual overview of your computer's performance and active tasks directly in your command window.",
+    "download_url": "https://github.com/aksakalli/gtop/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "handbrake",
     "name": "HandBrake",
     "repo_url": "https://github.com/handbrake/handbrake",
@@ -852,6 +1118,20 @@
     "summary": "Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen.",
     "download_url": "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe",
     "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "haxor-news",
+    "name": "haxor-news",
+    "repo_url": "https://github.com/donnemartin/haxor-news",
+    "full_name": "donnemartin/haxor-news",
+    "category": "Graphics & Design",
+    "icon": "/icons/haxor-news.png",
+    "is_webapp": false,
+    "stars": 4091,
+    "tier": "tier3_powertool",
+    "summary": "Browse Hacker News from your command line interface with powerful comment filtering and terminal formatting.",
+    "download_url": "https://github.com/donnemartin/haxor-news/releases",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "herdr",
@@ -882,6 +1162,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "http-server",
+    "name": "http-server",
+    "repo_url": "https://github.com/http-party/http-server",
+    "full_name": "http-party/http-server",
+    "category": "Graphics & Design",
+    "icon": "/icons/http-server.png",
+    "is_webapp": false,
+    "stars": 14239,
+    "tier": "tier3_powertool",
+    "summary": "Launch a local web server instantly from any folder to test pages and share files with ease. No complicated setup required.",
+    "download_url": "https://github.com/http-party/http-server/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "hubhum",
     "name": "HubHum",
     "repo_url": "https://github.com/davanzokeoma/hubhum",
@@ -907,6 +1201,20 @@
     "tier": "tier3_powertool",
     "summary": "Accurately measure the speed of software commands with statistical analysis, warmup runs, and automated comparisons.",
     "download_url": "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-musl_2.0.0_amd64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "ice",
+    "name": "Ice",
+    "repo_url": "https://github.com/jordanbaird/ice",
+    "full_name": "jordanbaird/ice",
+    "category": "Productivity",
+    "icon": "/icons/ice.png",
+    "is_webapp": false,
+    "stars": 30067,
+    "tier": "tier3_powertool",
+    "summary": "Ice is a powerful and customizable menu bar manager for macOS that helps you organize, hide, and style your top screen items with ease.",
+    "download_url": "https://icemenubar.app",
     "updated_at": "2026-11-20"
   },
   {
@@ -977,6 +1285,20 @@
     "tier": "tier3_powertool",
     "summary": "Inquirer.js lets you build interactive command-line menus, checkboxes, and text prompts for easy user input. When you need royalty-free stock.",
     "download_url": "https://github.com/SBoudrias/Inquirer.js/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "ipatool",
+    "name": "ipatool",
+    "repo_url": "https://github.com/majd/ipatool",
+    "full_name": "majd/ipatool",
+    "category": "Graphics & Design",
+    "icon": "/icons/ipatool.png",
+    "is_webapp": false,
+    "stars": 12404,
+    "tier": "tier3_powertool",
+    "summary": "A handy tool that lets you look up applications across Apple's digital storefronts and download their installation packages directly to your computer.",
+    "download_url": "https://github.com/majd/ipatool/releases/download/v2.8.1/ipatool-2.8.1-ios-arm64.tar.gz.sha256sum",
     "updated_at": "2026-11-20"
   },
   {
@@ -1092,6 +1414,20 @@
     "updated_at": "2026-11-18"
   },
   {
+    "slug": "keepingyouawake",
+    "name": "KeepingYouAwake",
+    "repo_url": "https://github.com/newmarcel/keepingyouawake",
+    "full_name": "newmarcel/keepingyouawake",
+    "category": "Productivity",
+    "icon": "/icons/keepingyouawake.png",
+    "is_webapp": false,
+    "stars": 7057,
+    "tier": "tier3_powertool",
+    "summary": "KeepingYouAwake sits in your menu bar and stops your Mac from falling asleep while you work, so tasks can finish without interruption.",
+    "download_url": "https://keepingyouawake.app",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "khoj",
     "name": "Khoj",
     "repo_url": "https://github.com/khoj-ai/khoj",
@@ -1148,6 +1484,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "laravel-zero",
+    "name": "Laravel Zero",
+    "repo_url": "https://github.com/laravel-zero/laravel-zero",
+    "full_name": "laravel-zero/laravel-zero",
+    "category": "Graphics & Design",
+    "icon": "/icons/laravel-zero.png",
+    "is_webapp": false,
+    "stars": 4012,
+    "tier": "tier3_powertool",
+    "summary": "Laravel Zero provides a lightweight, elegant foundation for creating custom command-line tools using familiar components.",
+    "download_url": "https://laravel-zero.com",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "lazygit",
     "name": "lazygit",
     "repo_url": "https://github.com/jesseduffield/lazygit",
@@ -1159,6 +1509,34 @@
     "tier": "tier3_powertool",
     "summary": "Manage your code history visually inside your terminal without memorizing confusing command-line codes.",
     "download_url": "https://github.com/jesseduffield/lazygit/releases/download/v0.66.3/checksums.txt",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "lenovolegionlinux",
+    "name": "LenovoLegionLinux",
+    "repo_url": "https://github.com/johnfanv2/lenovolegionlinux",
+    "full_name": "johnfanv2/lenovolegionlinux",
+    "category": "Graphics & Design",
+    "icon": "/icons/lenovolegionlinux.png",
+    "is_webapp": false,
+    "stars": 3573,
+    "tier": "tier3_powertool",
+    "summary": "Manage fan curves, power modes, and battery life on your Lenovo Legion laptop while running Linux.",
+    "download_url": "https://github.com/johnfanv2/LenovoLegionLinux/releases/download/v0.1.8/0001-Add-legion-laptop-v0.1.8.patch",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "linearmouse",
+    "name": "LinearMouse",
+    "repo_url": "https://github.com/linearmouse/linearmouse",
+    "full_name": "linearmouse/linearmouse",
+    "category": "Graphics & Design",
+    "icon": "/icons/linearmouse.png",
+    "is_webapp": false,
+    "stars": 7222,
+    "tier": "tier3_powertool",
+    "summary": "Take complete control over your Mac cursor movement, scrolling speed, and button behaviors.",
+    "download_url": "https://github.com/linearmouse/linearmouse/releases/download/v0.13.0/LinearMouse.dmg",
     "updated_at": "2026-11-20"
   },
   {
@@ -1202,6 +1580,34 @@
     "summary": "Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times.",
     "download_url": "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-arm64.dmg",
     "updated_at": "2026-11-18"
+  },
+  {
+    "slug": "lxrunoffline",
+    "name": "LxRunOffline",
+    "repo_url": "https://github.com/ddosolitary/lxrunoffline",
+    "full_name": "ddosolitary/lxrunoffline",
+    "category": "Graphics & Design",
+    "icon": "/icons/lxrunoffline.png",
+    "is_webapp": false,
+    "stars": 4265,
+    "tier": "tier3_powertool",
+    "summary": "Take full control of your computer's virtual Linux systems by moving, backing up, and running them from any folder or portable drive.",
+    "download_url": "https://github.com/DDoSolitary/LxRunOffline/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "mac-mouse-fix",
+    "name": "Mac Mouse Fix",
+    "repo_url": "https://github.com/noah-nuebling/mac-mouse-fix",
+    "full_name": "noah-nuebling/mac-mouse-fix",
+    "category": "Productivity",
+    "icon": "/icons/mac-mouse-fix.png",
+    "is_webapp": false,
+    "stars": 11266,
+    "tier": "tier3_powertool",
+    "summary": "Upgrade any regular mouse to feel like an expensive Apple trackpad with buttery smooth scrolling and powerful custom gestures.",
+    "download_url": "https://macmousefix.com/",
+    "updated_at": "2026-11-20"
   },
   {
     "slug": "maigret",
@@ -1274,6 +1680,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "miller",
+    "name": "miller",
+    "repo_url": "https://github.com/johnkerl/miller",
+    "full_name": "johnkerl/miller",
+    "category": "Graphics & Design",
+    "icon": "/icons/miller.png",
+    "is_webapp": false,
+    "stars": 10066,
+    "tier": "tier3_powertool",
+    "summary": "Process CSV, TSV, and tabular JSON data effortlessly from your command line using powerful named-field operations.",
+    "download_url": "https://github.com/johnkerl/miller/releases/download/v6.22.0/miller-6.22.0-linux-386.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "modern-unix",
     "name": "Modern Unix",
     "repo_url": "https://github.com/ibraheemdev/modern-unix",
@@ -1313,6 +1733,34 @@
     "tier": "tier3_powertool",
     "summary": "MoneyPrinterV2 streamlines content creation by automating video production and scheduling posts for online platforms.",
     "download_url": "https://github.com/FujiwaraChoki/MoneyPrinterV2/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "ms",
+    "name": "ms",
+    "repo_url": "https://github.com/vercel/ms",
+    "full_name": "vercel/ms",
+    "category": "Graphics & Design",
+    "icon": "/icons/hubhum.svg",
+    "is_webapp": false,
+    "stars": 5566,
+    "tier": "tier3_powertool",
+    "summary": "Convert human-friendly time expressions like hours and days into milliseconds, or vice versa, with zero effort.",
+    "download_url": "https://npmjs.com/ms",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "n-m3u8dl-cli",
+    "name": "N_m3u8DL-CLI",
+    "repo_url": "https://github.com/nilaoda/n_m3u8dl-cli",
+    "full_name": "nilaoda/n_m3u8dl-cli",
+    "category": "Productivity",
+    "icon": "/icons/n-m3u8dl-cli.png",
+    "is_webapp": false,
+    "stars": 16161,
+    "tier": "tier3_powertool",
+    "summary": "Easily download streaming video playlists and media files straight to your computer with automatic decryption and merging features.",
+    "download_url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/3.0.2/N_m3u8DL-CLI-SimpleG.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -1428,6 +1876,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ntrace-core",
+    "name": "NTrace-core",
+    "repo_url": "https://github.com/nxtrace/ntrace-core",
+    "full_name": "nxtrace/ntrace-core",
+    "category": "Graphics & Design",
+    "icon": "/icons/ntrace-core.png",
+    "is_webapp": false,
+    "stars": 8318,
+    "tier": "tier3_powertool",
+    "summary": "Trace network routes visually and troubleshoot connection issues across the internet with a lightweight open-source command tool.",
+    "download_url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.6/nexttrace-tiny_windows_386.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "nx",
     "name": "nx",
     "repo_url": "https://github.com/nrwl/nx",
@@ -1484,6 +1946,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "oha",
+    "name": "oha",
+    "repo_url": "https://github.com/hatoo/oha",
+    "full_name": "hatoo/oha",
+    "category": "Graphics & Design",
+    "icon": "/icons/oha.png",
+    "is_webapp": false,
+    "stars": 10701,
+    "tier": "tier3_powertool",
+    "summary": "Oha is a tiny program that sends traffic to a web application to test its speed and capacity under pressure, featuring a live visual interface.",
+    "download_url": "https://github.com/hatoo/oha/releases/download/v1.17.0/oha-windows-amd64-pgo.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "ohmyzsh",
     "name": "Oh My Zsh",
     "repo_url": "https://github.com/ohmyzsh/ohmyzsh",
@@ -1495,6 +1971,20 @@
     "tier": "tier3_powertool",
     "summary": "Oh My Zsh gives your command window a fresh look, adds handy shortcuts, and keeps everything up to date automatically.",
     "download_url": "https://ohmyz.sh",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "onefetch",
+    "name": "Onefetch",
+    "repo_url": "https://github.com/o2sh/onefetch",
+    "full_name": "o2sh/onefetch",
+    "category": "Graphics & Design",
+    "icon": "/icons/onefetch.png",
+    "is_webapp": false,
+    "stars": 12086,
+    "tier": "tier3_powertool",
+    "summary": "Onefetch is a lightweight tool that displays project information and code statistics for your local projects right in your terminal.",
+    "download_url": "https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-setup.exe",
     "updated_at": "2026-11-20"
   },
   {
@@ -1582,6 +2072,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "opentrace",
+    "name": "OpenTrace",
+    "repo_url": "https://github.com/archeb/opentrace",
+    "full_name": "archeb/opentrace",
+    "category": "Productivity",
+    "icon": "/icons/opentrace.png",
+    "is_webapp": false,
+    "stars": 4495,
+    "tier": "tier3_powertool",
+    "summary": "OpenTrace helps you map the journey of your data across the internet to identify where connection delays or interruptions occur.",
+    "download_url": "https://github.com/Archeb/opentrace/releases/download/v1.5.2/osx-arm64.dmg",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "orca",
     "name": "orca",
     "repo_url": "https://github.com/stablyai/orca",
@@ -1666,6 +2170,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "plandex",
+    "name": "Plandex",
+    "repo_url": "https://github.com/plandex-ai/plandex",
+    "full_name": "plandex-ai/plandex",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/plandex.png",
+    "is_webapp": true,
+    "stars": 15923,
+    "tier": "tier3_powertool",
+    "summary": "Handle large coding tasks across multiple files with an advanced terminal assistant that plans, writes code, and tests automatically.",
+    "download_url": "https://plandex.ai",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "pm2",
     "name": "PM2",
     "repo_url": "https://github.com/unitech/pm2",
@@ -1694,6 +2212,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "prompts",
+    "name": "Prompts",
+    "repo_url": "https://github.com/terkelg/prompts",
+    "full_name": "terkelg/prompts",
+    "category": "Graphics & Design",
+    "icon": "/icons/prompts.png",
+    "is_webapp": false,
+    "stars": 9312,
+    "tier": "tier3_powertool",
+    "summary": "Create beautiful interactive questionnaires in your command-line workflow with a lightweight tool.",
+    "download_url": "https://github.com/terkelg/prompts/releases",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "proxmoxve",
     "name": "ProxmoxVE",
     "repo_url": "https://github.com/community-scripts/proxmoxve",
@@ -1705,6 +2237,34 @@
     "tier": "tier2_webapp",
     "summary": "Automate the creation of virtual machines and containers on your server environment with a single copied command.",
     "download_url": "https://community-scripts.org/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "q",
+    "name": "q",
+    "repo_url": "https://github.com/harelba/q",
+    "full_name": "harelba/q",
+    "category": "Graphics & Design",
+    "icon": "/icons/q.png",
+    "is_webapp": false,
+    "stars": 10360,
+    "tier": "tier3_powertool",
+    "summary": "Query plain text sheets and databases directly using familiar search commands without importing them first.",
+    "download_url": "https://github.com/harelba/q/releases/download/v3.1.6/win-q.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "qrcp",
+    "name": "qrcp",
+    "repo_url": "https://github.com/claudiodangelis/qrcp",
+    "full_name": "claudiodangelis/qrcp",
+    "category": "Video & Audio",
+    "icon": "/icons/qrcp.png",
+    "is_webapp": false,
+    "stars": 10530,
+    "tier": "tier3_powertool",
+    "summary": "Send and receive files between your computer and mobile devices over Wi-Fi simply by scanning a QR code right from your command window.",
+    "download_url": "https://github.com/claudiodangelis/qrcp/releases/download/v0.11.7/qrcp_0.11.7_linux_386.deb",
     "updated_at": "2026-11-20"
   },
   {
@@ -1764,6 +2324,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "reminders-menubar",
+    "name": "Reminders MenuBar",
+    "repo_url": "https://github.com/damascenorafael/reminders-menubar",
+    "full_name": "damascenorafael/reminders-menubar",
+    "category": "Graphics & Design",
+    "icon": "/icons/reminders-menubar.png",
+    "is_webapp": false,
+    "stars": 4022,
+    "tier": "tier3_powertool",
+    "summary": "Manage your daily tasks directly from your Mac menu bar with this seamless app that keeps everything perfectly in sync with Apple Reminders.",
+    "download_url": "https://github.com/DamascenoRafael/reminders-menubar/releases/download/v2.2.0/Reminders-MenuBar.dmg",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "ripgrep",
     "name": "ripgrep",
     "repo_url": "https://github.com/burntsushi/ripgrep",
@@ -1789,6 +2363,34 @@
     "tier": "tier2_webapp",
     "summary": "A robust security shield that filters web traffic, blocks malicious attacks, and keeps your online services safe from hackers.",
     "download_url": "https://ly.cyberserval.tech/d4HFBvC",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "sampler",
+    "name": "sampler",
+    "repo_url": "https://github.com/sqshq/sampler",
+    "full_name": "sqshq/sampler",
+    "category": "Graphics & Design",
+    "icon": "/icons/sampler.png",
+    "is_webapp": false,
+    "stars": 14821,
+    "tier": "tier3_powertool",
+    "summary": "Sampler lets you turn standard command line outputs into live, interactive visual dashboards.",
+    "download_url": "https://github.com/sqshq/sampler/releases/download/v1.1.0/sampler-1.1.0-windows-amd64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "saws",
+    "name": "saws",
+    "repo_url": "https://github.com/donnemartin/saws",
+    "full_name": "donnemartin/saws",
+    "category": "Graphics & Design",
+    "icon": "/icons/saws.png",
+    "is_webapp": false,
+    "stars": 5297,
+    "tier": "tier3_powertool",
+    "summary": "Manage your cloud infrastructure much faster with smart auto-completion, color-coded syntax, and handy shortcuts.",
+    "download_url": "https://github.com/donnemartin/saws/releases",
     "updated_at": "2026-11-20"
   },
   {
@@ -1845,6 +2447,20 @@
     "tier": "tier3_powertool",
     "summary": "Easily discover if a username exists across hundreds of popular social networks with a single search.",
     "download_url": "https://sherlockproject.xyz",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "shiori",
+    "name": "Shiori",
+    "repo_url": "https://github.com/go-shiori/shiori",
+    "full_name": "go-shiori/shiori",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/shiori.png",
+    "is_webapp": true,
+    "stars": 11878,
+    "tier": "tier3_powertool",
+    "summary": "Save online articles and web pages to your own private library with automatic offline archiving.",
+    "download_url": "https://github.com/go-shiori/shiori/releases/download/v1.8.0/checksums.txt",
     "updated_at": "2026-11-20"
   },
   {
@@ -1988,6 +2604,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "termscp",
+    "name": "termscp",
+    "repo_url": "https://github.com/veeso/termscp",
+    "full_name": "veeso/termscp",
+    "category": "Graphics & Design",
+    "icon": "/icons/termscp.png",
+    "is_webapp": false,
+    "stars": 3165,
+    "tier": "tier3_powertool",
+    "summary": "Manage remote files and servers directly from your command line interface with support for multiple cloud and file transfer protocols.",
+    "download_url": "https://github.com/veeso/termscp/releases/download/v1.2.2/termscp_1.2.2-1_amd64.deb",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "termux-app",
     "name": "Termux App",
     "repo_url": "https://github.com/termux/termux-app",
@@ -2013,6 +2643,20 @@
     "tier": "tier3_powertool",
     "summary": "Create sophisticated user interfaces using Python that run smoothly inside both your command line terminal and modern web browsers.",
     "download_url": "https://textual.textualize.io/",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "thaw",
+    "name": "Thaw",
+    "repo_url": "https://github.com/thaw-app/thaw",
+    "full_name": "thaw-app/thaw",
+    "category": "Graphics & Design",
+    "icon": "/icons/thaw.png",
+    "is_webapp": false,
+    "stars": 12830,
+    "tier": "tier3_powertool",
+    "summary": "Thaw hides messy status bar icons on your computer screen, bringing them back instantly when you need them.",
+    "download_url": "https://github.com/thaw-app/Thaw/releases/download/2.1.0/Thaw.dmg",
     "updated_at": "2026-11-20"
   },
   {
@@ -2072,6 +2716,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ts-toolbelt",
+    "name": "ts-toolbelt",
+    "repo_url": "https://github.com/millsp/ts-toolbelt",
+    "full_name": "millsp/ts-toolbelt",
+    "category": "Graphics & Design",
+    "icon": "/icons/ts-toolbelt.png",
+    "is_webapp": false,
+    "stars": 7150,
+    "tier": "tier3_powertool",
+    "summary": "Boost your programming productivity with over 200 ready-to-use type utilities that make writing reliable code easier than ever.",
+    "download_url": "https://millsp.github.io/ts-toolbelt/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "tv-detox",
     "name": "tv-detox",
     "repo_url": "https://github.com/ansub/tv-detox",
@@ -2114,6 +2772,20 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "underscore-string",
+    "name": "underscore.string",
+    "repo_url": "https://github.com/esamattis/underscore.string",
+    "full_name": "esamattis/underscore.string",
+    "category": "Productivity",
+    "icon": "/icons/underscore-string.png",
+    "is_webapp": false,
+    "stars": 3354,
+    "tier": "tier3_powertool",
+    "summary": "Provides reliable text manipulation helpers for JavaScript projects missing built-in formatting functions.",
+    "download_url": "https://esamattis.github.com/underscore.string/",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "unigetui",
     "name": "UniGetUI",
     "repo_url": "https://github.com/devolutions/unigetui",
@@ -2153,6 +2825,20 @@
     "tier": "tier2_webapp",
     "summary": "An easy-to-use self-hosted monitoring tool that keeps a close eye on your websites and services, alerting you instantly if anything goes offline.",
     "download_url": "https://uptime.kuma.pet",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "usql",
+    "name": "usql",
+    "repo_url": "https://github.com/xo/usql",
+    "full_name": "xo/usql",
+    "category": "Productivity",
+    "icon": "/icons/usql.png",
+    "is_webapp": false,
+    "stars": 10175,
+    "tier": "tier3_powertool",
+    "summary": "Connect, query, and manage dozens of different SQL and NoSQL databases from a single intuitive command-line interface.",
+    "download_url": "https://github.com/xo/usql/releases/download/v0.21.6/usql-0.21.6-darwin-amd64.tar.bz2",
     "updated_at": "2026-11-20"
   },
   {
@@ -2223,6 +2909,20 @@
     "tier": "tier3_powertool",
     "summary": "WezTerm is a powerful, fast, and feature-rich terminal workspace that lets you manage multiple command-line sessions effortlessly.",
     "download_url": "https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-setup.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "whatcable",
+    "name": "WhatCable",
+    "repo_url": "https://github.com/darrylmorley/whatcable",
+    "full_name": "darrylmorley/whatcable",
+    "category": "Graphics & Design",
+    "icon": "/icons/whatcable.png",
+    "is_webapp": false,
+    "stars": 9145,
+    "tier": "tier3_powertool",
+    "summary": "A friendly menu bar app that reveals what each USB-C cable plugged into your Mac can actually do and why charging might be slow.",
+    "download_url": "https://whatcable.uk",
     "updated_at": "2026-11-20"
   },
   {
