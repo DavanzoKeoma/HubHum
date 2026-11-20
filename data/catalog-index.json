@@ -42,6 +42,34 @@
     "updated_at": "2026-11-19"
   },
   {
+    "slug": "dbeaver",
+    "name": "DBeaver",
+    "repo_url": "https://github.com/dbeaver/dbeaver",
+    "full_name": "dbeaver/dbeaver",
+    "category": "Graphics & Design",
+    "icon": "/icons/dbeaver.png",
+    "is_webapp": false,
+    "stars": 52488,
+    "tier": "tier1_gui",
+    "summary": "Universal database tool for viewing, editing, and managing hundreds of different database systems effortlessly.",
+    "download_url": "https://github.com/dbeaver/dbeaver/releases/download/26.2.5/dbeaver-ce-26.2.5-windows-aarch64.exe",
+    "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "easyspider",
+    "name": "EasySpider",
+    "repo_url": "https://github.com/naibowang/easyspider",
+    "full_name": "naibowang/easyspider",
+    "category": "Graphics & Design",
+    "icon": "/icons/easyspider.png",
+    "is_webapp": false,
+    "stars": 44798,
+    "tier": "tier1_gui",
+    "summary": "Extract public information from websites visually without writing any code. Automate repetitive browser tasks and save structured data instantly.",
+    "download_url": "https://github.com/NaiboWang/EasySpider/releases/download/v0.6.5/EasySpider_0.6.5_MacOS_Apple_Arm_Chip.7z",
+    "updated_at": "2026-11-20"
+  },
+  {
     "slug": "gh-stack",
     "name": "gh-stack",
     "repo_url": "https://github.com/github/gh-stack",
