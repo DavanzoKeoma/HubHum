@@ -700,6 +700,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "hugo",
+    "name": "Hugo",
+    "tagline": "Build professional websites in seconds.",
+    "repo_url": "https://github.com/gohugoio/hugo",
+    "full_name": "gohugoio/hugo",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-development",
+      "publishing"
+    ],
+    "icon": "/icons/hugo.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 90536,
+    "tier": "tier2_webapp",
+    "summary": "Hugo is a powerful tool that turns your text and images into fast, professional websites with minimal effort.",
+    "i18n": {
+      "it": "Hugo è uno strumento potente che trasforma testi e immagini in siti web veloci e professionali con il minimo sforzo.",
+      "es": "Hugo es una herramienta potente que convierte tus textos e imágenes en sitios web rápidos y profesionales con el mínimo esfuerzo.",
+      "fr": "Hugo est un outil puissant qui transforme vos textes et images en sites web rapides et professionnels avec un minimum d'effort.",
+      "de": "Hugo ist ein leistungsstarkes Werkzeug, das Ihre Texte und Bilder mit minimalem Aufwand in schnelle, professionelle Websites verwandelt."
+    },
+    "download_url": "https://github.com/gohugoio/hugo/releases/download/v0.170.1/hugo_0.170.1_darwin-universal.pkg",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "nextchat",
     "name": "NextChat",
     "tagline": "Chat with dozens of top AIs",
@@ -950,6 +978,34 @@
     },
     "download_url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "strapi",
+    "name": "Strapi",
+    "tagline": "Flexible content management for modern websites.",
+    "repo_url": "https://github.com/strapi/strapi",
+    "full_name": "strapi/strapi",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "web-development"
+    ],
+    "icon": "/icons/strapi.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 73534,
+    "tier": "tier2_webapp",
+    "summary": "Strapi is a tool that helps you organize and manage your website content, allowing you to display it anywhere you choose.",
+    "i18n": {
+      "it": "Strapi ti aiuta a organizzare e gestire i contenuti del tuo sito, permettendoti di pubblicarli ovunque tu voglia.",
+      "es": "Strapi es una herramienta para organizar y gestionar el contenido de tu sitio web, permitiéndote publicarlo donde desees.",
+      "fr": "Strapi est un outil pour organiser et gérer le contenu de votre site web, vous permettant de le diffuser partout.",
+      "de": "Strapi hilft Ihnen, Ihre Website-Inhalte zu organisieren und zu verwalten, damit Sie diese überall anzeigen können."
+    },
+    "download_url": "https://strapi.io",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "ripgrep",
@@ -18002,6 +18058,118 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "bastillion",
+    "name": "Bastillion",
+    "tagline": "Browser-based secure remote server management",
+    "repo_url": "https://github.com/loophole-llc/bastillion",
+    "full_name": "loophole-llc/bastillion",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "security",
+      "ssh"
+    ],
+    "icon": "/icons/bastillion.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 3555,
+    "tier": "tier2_webapp",
+    "summary": "Bastillion provides a friendly, web-based dashboard to manage and access multiple remote servers securely from your browser.",
+    "i18n": {
+      "it": "Bastillion offre una dashboard web intuitiva per gestire e accedere in modo sicuro a più server remoti direttamente dal browser.",
+      "es": "Bastillion ofrece un panel web intuitivo para gestionar y acceder de forma segura a múltiples servidores remotos desde el navegador.",
+      "fr": "Bastillion propose un tableau de bord web intuitif pour gérer et accéder en toute sécurité à plusieurs serveurs distants depuis un navigateur.",
+      "de": "Bastillion bietet ein benutzerfreundliches Web-Dashboard, um sicher und bequem von Ihrem Browser aus auf mehrere Server zuzugreifen."
+    },
+    "download_url": "https://github.com/Loophole-LLC/Bastillion/releases/download/v6.0.4/bastillion-6.0.4.jar",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "im-server",
+    "name": "JuggleIM",
+    "tagline": "Scalable messaging for any application",
+    "repo_url": "https://github.com/juggleim/im-server",
+    "full_name": "juggleim/im-server",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "messaging",
+      "backend"
+    ],
+    "icon": "/icons/im-server.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3544,
+    "tier": "tier2_webapp",
+    "summary": "JuggleIM is a powerful, self-hosted messaging foundation that lets you add chat, group messaging, and bot features to your own software projects.",
+    "i18n": {
+      "it": "JuggleIM è una solida base per la messaggistica che ti permette di aggiungere chat e gruppi alle tue applicazioni in modo semplice.",
+      "es": "JuggleIM es una base de mensajería potente que te permite añadir chats, grupos y bots a tus propios proyectos de software.",
+      "fr": "JuggleIM est une base de messagerie robuste qui vous permet d'ajouter des chats, des groupes et des bots à vos projets logiciels.",
+      "de": "JuggleIM ist eine leistungsstarke Messaging-Basis, mit der Sie Chat-, Gruppen- und Bot-Funktionen in Ihre Softwareprojekte integrieren können."
+    },
+    "download_url": "https://www.juggle.im/docs/guide/intro/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "chat-ollama",
+    "name": "ChatOllama",
+    "tagline": "Your private AI assistant for local documents",
+    "repo_url": "https://github.com/sugarforever/chat-ollama",
+    "full_name": "sugarforever/chat-ollama",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "privacy"
+    ],
+    "icon": "/icons/chat-ollama.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 3527,
+    "tier": "tier2_webapp",
+    "summary": "ChatOllama lets you run smart AI agents on your own computer to chat with your documents and manage tasks without sending data to the cloud.",
+    "i18n": {
+      "it": "ChatOllama ti permette di eseguire agenti AI sul tuo computer per analizzare documenti e gestire attività in totale privacy.",
+      "es": "ChatOllama te permite ejecutar agentes de IA en tu computadora para chatear con tus documentos y gestionar tareas sin usar la nube.",
+      "fr": "ChatOllama vous permet d'exécuter des agents IA sur votre ordinateur pour discuter avec vos documents et gérer vos tâches en privé.",
+      "de": "ChatOllama ermöglicht es Ihnen, KI-Agenten lokal auszuführen, um mit Ihren Dokumenten zu arbeiten, ohne Daten in die Cloud zu senden."
+    },
+    "download_url": "https://github.com/sugarforever/chat-ollama/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "lmnr",
+    "name": "Laminar",
+    "tagline": "Watch and improve your AI agents.",
+    "repo_url": "https://github.com/lmnr-ai/lmnr",
+    "full_name": "lmnr-ai/lmnr",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "observability"
+    ],
+    "icon": "/icons/lmnr.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3516,
+    "tier": "tier2_webapp",
+    "summary": "Laminar helps you track, debug, and evaluate how your AI agents perform in real-time.",
+    "i18n": {
+      "it": "Laminar ti aiuta a tracciare, correggere e valutare le prestazioni dei tuoi agenti AI in tempo reale.",
+      "es": "Laminar te ayuda a rastrear, depurar y evaluar el rendimiento de tus agentes de IA en tiempo real.",
+      "fr": "Laminar vous aide à suivre, déboguer et évaluer les performances de vos agents IA en temps réel.",
+      "de": "Laminar hilft Ihnen dabei, die Leistung Ihrer KI-Agenten in Echtzeit zu verfolgen, zu prüfen und zu bewerten."
+    },
+    "download_url": "https://laminar.sh",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "transgui",
     "name": "Transmission Remote GUI",
     "tagline": "Manage your downloads smoothly and remotely",
@@ -18027,6 +18195,90 @@
       "de": "Steuern Sie Ihre Datei-Downloads über eine schnelle und benutzerfreundliche Desktop-Oberfläche, die sich mit Ihrem Manager verbindet."
     },
     "download_url": "https://github.com/transmission-remote-gui/transgui/releases/download/v5.18.0/transgui-5.18.0-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pinry",
+    "name": "Pinry",
+    "tagline": "Your own private visual bookmarking board",
+    "repo_url": "https://github.com/pinry/pinry",
+    "full_name": "pinry/pinry",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "organization"
+    ],
+    "icon": "/icons/pinry.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (BSD)",
+    "stars": 3436,
+    "tier": "tier2_webapp",
+    "summary": "Pinry is a personal image board that lets you save, tag, and organize your favorite online content in a clean, visual layout.",
+    "i18n": {
+      "it": "Pinry è una bacheca di immagini personale per salvare, etichettare e organizzare i tuoi contenuti online in un layout visivo pulito.",
+      "es": "Pinry es un tablero de imágenes personal para guardar, etiquetar y organizar tu contenido favorito en un diseño visual limpio.",
+      "fr": "Pinry est un tableau d'images personnel pour enregistrer, étiqueter et organiser vos contenus en ligne dans une mise en page claire.",
+      "de": "Pinry ist ein persönliches Bild-Board zum Speichern, Markieren und Organisieren Ihrer Online-Inhalte in einem übersichtlichen Layout."
+    },
+    "download_url": "https://pinry.github.io/pinry/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "opengist",
+    "name": "Opengist",
+    "tagline": "Your own private code snippet manager",
+    "repo_url": "https://github.com/thomiceli/opengist",
+    "full_name": "thomiceli/opengist",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "web-tools"
+    ],
+    "icon": "/icons/opengist.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3414,
+    "tier": "tier2_webapp",
+    "summary": "Opengist is a self-hosted tool that lets you store, organize, and share code snippets just like a personal digital notebook.",
+    "i18n": {
+      "it": "Opengist è uno strumento che ti permette di archiviare, organizzare e condividere frammenti di codice in uno spazio tutto tuo.",
+      "es": "Opengist es una herramienta que te permite almacenar, organizar y compartir fragmentos de código en tu propio espacio privado.",
+      "fr": "Opengist est un outil qui vous permet de stocker, d'organiser et de partager des extraits de code dans votre propre espace privé.",
+      "de": "Opengist ist ein Werkzeug, mit dem Sie Code-Schnipsel in Ihrem eigenen privaten Bereich speichern, organisieren und teilen können."
+    },
+    "download_url": "https://github.com/thomiceli/opengist/releases/download/v1.16.0/checksums.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "textbee",
+    "name": "textbee",
+    "tagline": "Turn your Android phone into an SMS gateway",
+    "repo_url": "https://github.com/textbee/textbee",
+    "full_name": "textbee/textbee",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "sms",
+      "automation"
+    ],
+    "icon": "/icons/textbee.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3385,
+    "tier": "tier2_webapp",
+    "summary": "Textbee lets you send and receive text messages through your own Android phone using a simple web interface or your own custom software.",
+    "i18n": {
+      "it": "Textbee ti permette di inviare e ricevere SMS tramite il tuo telefono Android usando un'interfaccia web o i tuoi software personalizzati.",
+      "es": "Textbee te permite enviar y recibir mensajes de texto desde tu teléfono Android usando una interfaz web o tus propias aplicaciones.",
+      "fr": "Textbee vous permet d'envoyer et de recevoir des SMS via votre téléphone Android en utilisant une interface web ou vos propres logiciels.",
+      "de": "Textbee ermöglicht es Ihnen, SMS über Ihr Android-Handy zu senden und zu empfangen, indem Sie eine Weboberfläche oder eigene Software nutzen."
+    },
+    "download_url": "https://github.com/textbee/textbee/releases/download/v2.10.0/textbee.dev.v2.10.0.apk",
     "updated_at": "2026-11-21"
   },
   {
@@ -18058,6 +18310,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "bambuddy",
+    "name": "Bambuddy",
+    "tagline": "Private control for your 3D printers",
+    "repo_url": "https://github.com/maziggy/bambuddy",
+    "full_name": "maziggy/bambuddy",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "3d-printing",
+      "automation"
+    ],
+    "icon": "/icons/bambuddy.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3369,
+    "tier": "tier2_webapp",
+    "summary": "Take full control of your 3D printer farm without relying on external cloud services.",
+    "i18n": {
+      "it": "Gestisci e monitora le tue stampanti 3D in totale autonomia senza dipendere da servizi cloud esterni.",
+      "es": "Gestiona y monitoriza tus impresoras 3D de forma totalmente privada sin depender de servicios en la nube.",
+      "fr": "Gérez et surveillez vos imprimantes 3D en toute autonomie sans dépendre de services cloud externes.",
+      "de": "Verwalten und überwachen Sie Ihre 3D-Drucker vollständig privat, ohne von externen Cloud-Diensten abhängig zu sein."
+    },
+    "download_url": "https://github.com/maziggy/bambuddy/releases/download/v1.3.2/bambuddy-.1.3.2-windows-x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "linkace",
+    "name": "LinkAce",
+    "tagline": "Your personal, private web bookmark archive",
+    "repo_url": "https://github.com/kovah/linkace",
+    "full_name": "kovah/linkace",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "bookmarks"
+    ],
+    "icon": "/icons/linkace.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 3356,
+    "tier": "tier2_webapp",
+    "summary": "LinkAce helps you save, organize, and archive your favorite websites in a private, self-hosted database that you fully control.",
+    "i18n": {
+      "it": "LinkAce ti aiuta a salvare, organizzare e archiviare i tuoi siti preferiti in un database privato che controlli completamente.",
+      "es": "LinkAce te ayuda a guardar, organizar y archivar tus sitios favoritos en una base de datos privada que controlas por completo.",
+      "fr": "LinkAce vous aide à enregistrer, organiser et archiver vos sites préférés dans une base de données privée que vous contrôlez.",
+      "de": "LinkAce hilft Ihnen beim Speichern, Organisieren und Archivieren Ihrer Lieblingsseiten in einer privaten Datenbank unter Ihrer Kontrolle."
+    },
+    "download_url": "https://www.linkace.org",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "underscore-string",
     "name": "underscore.string",
     "tagline": "Essential text formatting tools for JavaScript.",
@@ -18086,6 +18394,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "proxmenux",
+    "name": "ProxMenux",
+    "tagline": "Easily manage your Proxmox server",
+    "repo_url": "https://github.com/macrimi/proxmenux",
+    "full_name": "macrimi/proxmenux",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "server-management",
+      "homelab"
+    ],
+    "icon": "/icons/proxmenux.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 3340,
+    "tier": "tier2_webapp",
+    "summary": "ProxMenux is a toolkit that simplifies managing your Proxmox server through easy-to-use menus and a real-time web dashboard.",
+    "i18n": {
+      "it": "ProxMenux è un kit di strumenti che semplifica la gestione del server Proxmox tramite menu intuitivi e una dashboard web in tempo reale.",
+      "es": "ProxMenux es un kit de herramientas que simplifica la gestión de tu servidor Proxmox mediante menús intuitivos y un panel web en tiempo real.",
+      "fr": "ProxMenux est une boîte à outils qui simplifie la gestion de votre serveur Proxmox grâce à des menus intuitifs et un tableau de bord web.",
+      "de": "ProxMenux ist ein Toolkit, das die Verwaltung Ihres Proxmox-Servers durch benutzerfreundliche Menüs und ein Echtzeit-Web-Dashboard vereinfacht."
+    },
+    "download_url": "https://github.com/MacRimi/ProxMenux/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "checkcle",
+    "name": "CheckCle",
+    "tagline": "Real-time monitoring for your digital services",
+    "repo_url": "https://github.com/operacle/checkcle",
+    "full_name": "operacle/checkcle",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "monitoring",
+      "server-management"
+    ],
+    "icon": "/icons/checkcle.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3329,
+    "tier": "tier2_webapp",
+    "summary": "CheckCle is a self-hosted platform that keeps track of your websites, servers, and applications to ensure they stay online and perform well.",
+    "i18n": {
+      "it": "CheckCle è una piattaforma che monitora siti web e server per garantire che rimangano sempre attivi e funzionanti.",
+      "es": "CheckCle es una plataforma que supervisa sitios web y servidores para asegurar que siempre estén en línea y funcionando bien.",
+      "fr": "CheckCle est une plateforme qui surveille vos sites web et serveurs pour garantir qu'ils restent en ligne et performants.",
+      "de": "CheckCle ist eine Plattform zur Überwachung von Websites und Servern, damit diese stets erreichbar und leistungsfähig bleiben."
+    },
+    "download_url": "https://checkcle.io",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "awtk",
     "name": "AWTK",
     "tagline": "Create beautiful interfaces for any device.",
@@ -18111,6 +18475,90 @@
       "de": "AWTK ist ein vielseitiges Toolkit, mit dem Sie flüssige und professionelle visuelle Oberflächen für jedes Gerät entwerfen können."
     },
     "download_url": "https://github.com/zlgopen/awtk/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "aiostreams",
+    "name": "AIOStreams",
+    "tagline": "One unified hub for all your streaming sources",
+    "repo_url": "https://github.com/viren070/aiostreams",
+    "full_name": "viren070/aiostreams",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "streaming",
+      "media-center"
+    ],
+    "icon": "/icons/aiostreams.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3293,
+    "tier": "tier2_webapp",
+    "summary": "AIOStreams gathers your various streaming services and addons into a single, organized list that you can filter and sort to your exact preferences.",
+    "i18n": {
+      "it": "AIOStreams unisce i tuoi servizi di streaming e addon in un unico elenco organizzato, filtrabile e ordinabile secondo le tue preferenze.",
+      "es": "AIOStreams reúne tus servicios de streaming y complementos en una lista organizada, que puedes filtrar y ordenar según tus preferencias.",
+      "fr": "AIOStreams rassemble vos services de streaming et extensions dans une liste unique, que vous pouvez filtrer et trier selon vos préférences.",
+      "de": "AIOStreams bündelt Ihre Streaming-Dienste und Addons in einer übersichtlichen Liste, die Sie nach Ihren Wünschen filtern und sortieren können."
+    },
+    "download_url": "https://aiostreams.org/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "vito",
+    "name": "Vito",
+    "tagline": "Simplify your server management and deployment",
+    "repo_url": "https://github.com/vitodeploy/vito",
+    "full_name": "vitodeploy/vito",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "server-management",
+      "web-hosting"
+    ],
+    "icon": "/icons/vito.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3281,
+    "tier": "tier2_webapp",
+    "summary": "Vito is a self-hosted tool that helps you manage your servers and launch your web projects without complex manual configuration.",
+    "i18n": {
+      "it": "Vito è uno strumento auto-ospitato per gestire i tuoi server e pubblicare progetti web senza configurazioni manuali complesse.",
+      "es": "Vito es una herramienta autohospedada para gestionar tus servidores y publicar proyectos web sin configuraciones manuales complejas.",
+      "fr": "Vito est un outil auto-hébergé pour gérer vos serveurs et déployer vos projets web sans configurations manuelles complexes.",
+      "de": "Vito ist ein selbst gehostetes Tool zur Verwaltung Ihrer Server und zur Bereitstellung von Webprojekten ohne komplexe manuelle Einrichtung."
+    },
+    "download_url": "https://vitodeploy.com",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "harbor",
+    "name": "Harbor",
+    "tagline": "Run local AI tools with one command",
+    "repo_url": "https://github.com/av/harbor",
+    "full_name": "av/harbor",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "ai-assistant"
+    ],
+    "icon": "/icons/harbor.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3277,
+    "tier": "tier2_webapp",
+    "summary": "Harbor lets you set up and manage a complete collection of local AI services without the headache of manual configuration.",
+    "i18n": {
+      "it": "Harbor ti permette di configurare e gestire una suite completa di servizi AI locali senza complicazioni tecniche.",
+      "es": "Harbor te permite configurar y gestionar un conjunto completo de servicios de IA locales sin configuraciones manuales.",
+      "fr": "Harbor vous permet de configurer et de gérer une suite complète de services d'IA locaux sans configuration manuelle.",
+      "de": "Harbor ermöglicht es Ihnen, eine vollständige Sammlung lokaler KI-Dienste ohne manuelle Konfiguration einzurichten und zu verwalten."
+    },
+    "download_url": "https://github.com/av/harbor/releases/download/v0.5.20/Harbor_0.5.20_x64-setup.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -18142,6 +18590,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "achat",
+    "name": "AChat",
+    "tagline": "Unified team platform for AI conversations",
+    "repo_url": "https://github.com/aprilnea/achat",
+    "full_name": "aprilnea/achat",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "collaboration"
+    ],
+    "icon": "/icons/achat.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 3255,
+    "tier": "tier2_webapp",
+    "summary": "AChat is a centralized workspace that helps teams manage, organize, and track their AI interactions in one secure, private location.",
+    "i18n": {
+      "it": "AChat è uno spazio di lavoro centralizzato che aiuta i team a gestire, organizzare e monitorare le interazioni con l'AI in modo sicuro.",
+      "es": "AChat es un espacio de trabajo centralizado que ayuda a los equipos a gestionar, organizar y seguir sus interacciones con IA de forma segura.",
+      "fr": "AChat est un espace de travail centralisé qui aide les équipes à gérer, organiser et suivre leurs interactions avec l'IA en toute sécurité.",
+      "de": "AChat ist ein zentraler Arbeitsbereich, der Teams dabei hilft, ihre KI-Interaktionen an einem sicheren Ort zu verwalten und zu organisieren."
+    },
+    "download_url": "https://achat.dev",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "passwordpusher",
+    "name": "PasswordPusher",
+    "tagline": "Share secrets with self-deleting links",
+    "repo_url": "https://github.com/pglombardo/passwordpusher",
+    "full_name": "pglombardo/passwordpusher",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "security",
+      "privacy"
+    ],
+    "icon": "/icons/passwordpusher.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3254,
+    "tier": "tier2_webapp",
+    "summary": "PasswordPusher lets you share sensitive information securely by creating links that automatically delete after they are viewed or expire.",
+    "i18n": {
+      "it": "PasswordPusher ti consente di condividere informazioni sensibili in modo sicuro tramite link che si eliminano dopo la visualizzazione.",
+      "es": "PasswordPusher permite compartir información confidencial de forma segura mediante enlaces que se eliminan tras ser vistos.",
+      "fr": "PasswordPusher permet de partager des informations sensibles via des liens sécurisés qui s'autodétruisent après consultation.",
+      "de": "PasswordPusher ermöglicht den sicheren Austausch sensibler Daten über Links, die sich nach dem Ansehen automatisch löschen."
+    },
+    "download_url": "https://docs.pwpush.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "openchatcut",
     "name": "OpenChatCut",
     "tagline": "Edit videos effortlessly using conversational AI",
@@ -18170,6 +18674,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "autobrr",
+    "name": "autobrr",
+    "tagline": "Automate your downloads in real-time",
+    "repo_url": "https://github.com/autobrr/autobrr",
+    "full_name": "autobrr/autobrr",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "automation",
+      "media"
+    ],
+    "icon": "/icons/autobrr.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v2)",
+    "stars": 3221,
+    "tier": "tier2_webapp",
+    "summary": "Autobrr monitors new content announcements and automatically triggers your downloads the moment they become available.",
+    "i18n": {
+      "it": "Autobrr monitora gli annunci di nuovi contenuti e avvia automaticamente i download nel momento esatto in cui diventano disponibili.",
+      "es": "Autobrr monitorea los anuncios de nuevo contenido y activa automáticamente tus descargas en el momento en que están disponibles.",
+      "fr": "Autobrr surveille les annonces de nouveaux contenus et déclenche automatiquement vos téléchargements dès qu'ils deviennent disponibles.",
+      "de": "Autobrr überwacht Ankündigungen neuer Inhalte und startet Ihre Downloads automatisch, sobald diese verfügbar werden."
+    },
+    "download_url": "https://github.com/autobrr/autobrr/releases/download/v1.91.1/autobrr-desktop_1.91.1_windows_x86_64.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "jailer",
     "name": "Jailer",
     "tagline": "Create safe database subsets easily",
@@ -18195,6 +18727,34 @@
       "de": "Extrahieren Sie konsistente Ausschnitte von Produktdenbanken für Tests und durchsuchen Sie Ihre Datenbeziehungen problemlos."
     },
     "download_url": "https://github.com/Wisser/Jailer/releases/download/v17.3.2/Jailer-database-tools-17.3.2.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "lsp-ai",
+    "name": "LSP-AI",
+    "tagline": "AI-powered coding assistant for any editor",
+    "repo_url": "https://github.com/silasmarvin/lsp-ai",
+    "full_name": "silasmarvin/lsp-ai",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "coding-assistant"
+    ],
+    "icon": "/icons/lsp-ai.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3218,
+    "tier": "tier2_webapp",
+    "summary": "LSP-AI brings intelligent chat and code completion to your favorite text editors by acting as a universal bridge for AI models.",
+    "i18n": {
+      "it": "LSP-AI integra chat intelligente e completamento del codice in qualsiasi editor, fungendo da ponte universale per i modelli AI.",
+      "es": "LSP-AI añade chat inteligente y autocompletado de código a tu editor favorito, funcionando como un puente universal para modelos de IA.",
+      "fr": "LSP-AI intègre le chat intelligent et l'autocomplétion dans votre éditeur, servant de pont universel pour les modèles d'IA.",
+      "de": "LSP-AI bringt intelligente Chat- und Code-Vervollständigungsfunktionen in jeden Editor und dient als universelle Brücke für KI-Modelle."
+    },
+    "download_url": "https://github.com/SilasMarvin/lsp-ai/releases/download/v0.7.1/lsp-ai-aarch64-apple-darwin.gz",
     "updated_at": "2026-11-21"
   },
   {
@@ -18254,6 +18814,90 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "autonomous-company",
+    "name": "Autonomous Company",
+    "tagline": "AI-powered agents for continuous autonomous work",
+    "repo_url": "https://github.com/maxmiksa/autonomous-company",
+    "full_name": "maxmiksa/autonomous-company",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/autonomous-company.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3206,
+    "tier": "tier2_webapp",
+    "summary": "Autonomous Company uses specialized AI agents to research, code, and manage projects on your computer around the clock.",
+    "i18n": {
+      "it": "Autonomous Company utilizza agenti IA specializzati per ricercare, programmare e gestire progetti sul tuo computer ventiquattr'ore su ventiquattro.",
+      "es": "Autonomous Company utiliza agentes de IA especializados para investigar, programar y gestionar proyectos en tu computadora las 24 horas.",
+      "fr": "Autonomous Company utilise des agents IA spécialisés pour rechercher, coder et gérer des projets sur votre ordinateur 24h/24.",
+      "de": "Autonomous Company nutzt spezialisierte KI-Agenten, um rund um die Uhr Projekte auf Ihrem Computer zu recherchieren, zu programmieren und zu verwalten."
+    },
+    "download_url": "https://github.com/MaxMiksa/Autonomous-Company/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "portr",
+    "name": "portr",
+    "tagline": "Share local web projects with anyone",
+    "repo_url": "https://github.com/amalshaji/portr",
+    "full_name": "amalshaji/portr",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-development",
+      "networking"
+    ],
+    "icon": "/icons/portr.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3195,
+    "tier": "tier2_webapp",
+    "summary": "Portr lets you securely share your local web projects with the public internet so you can test and demonstrate your work easily.",
+    "i18n": {
+      "it": "Portr ti permette di condividere in modo sicuro i tuoi progetti web locali con internet per testarli e mostrarli facilmente.",
+      "es": "Portr te permite compartir de forma segura tus proyectos web locales con internet para probarlos y mostrarlos fácilmente.",
+      "fr": "Portr vous permet de partager vos projets web locaux sur internet en toute sécurité pour les tester et les présenter facilement.",
+      "de": "Portr ermöglicht es Ihnen, Ihre lokalen Webprojekte sicher im Internet freizugeben, um sie einfach zu testen und zu präsentieren."
+    },
+    "download_url": "https://github.com/amalshaji/portr/releases/download/v2.1.0/checksums.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "slash",
+    "name": "Slash",
+    "tagline": "Create simple shortcuts for your links",
+    "repo_url": "https://github.com/yourselfhosted/slash",
+    "full_name": "yourselfhosted/slash",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "organization"
+    ],
+    "icon": "/icons/slash.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3193,
+    "tier": "tier2_webapp",
+    "summary": "Slash helps you organize and manage your important web links by turning long, messy addresses into easy-to-remember shortcuts.",
+    "i18n": {
+      "it": "Slash ti aiuta a gestire i tuoi link trasformando indirizzi lunghi e complessi in scorciatoie facili da ricordare.",
+      "es": "Slash te ayuda a organizar tus enlaces convirtiendo direcciones largas y confusas en atajos fáciles de recordar.",
+      "fr": "Slash vous aide à gérer vos liens en transformant des adresses longues et complexes en raccourcis faciles à retenir.",
+      "de": "Slash hilft Ihnen bei der Verwaltung Ihrer Links, indem es lange und komplizierte Adressen in leicht merkbare Abkürzungen verwandelt."
+    },
+    "download_url": "https://github.com/yourselfhosted/slash/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "youtubeplaylistdownloader",
     "name": "YoutubePlaylistDownloader",
     "tagline": "Easily download and convert video playlists",
@@ -18279,6 +18923,62 @@
       "de": "Speichern Sie komplette Kanäle oder einzelne Clips auf Ihrem Computer und wandeln Sie diese in Medienformate um."
     },
     "download_url": "https://github.com/shaked6540/YoutubePlaylistDownloader/releases/download/1.9.35/YoutubePlaylistDownloader.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "libredesk",
+    "name": "LibreDesk",
+    "tagline": "Your private, all-in-one customer support hub.",
+    "repo_url": "https://github.com/abhinavxd/libredesk",
+    "full_name": "abhinavxd/libredesk",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "customer-support",
+      "business-tools"
+    ],
+    "icon": "/icons/libredesk.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3189,
+    "tier": "tier2_webapp",
+    "summary": "LibreDesk helps you manage emails, live chats, and messages in one organized space.",
+    "i18n": {
+      "it": "LibreDesk gestisce email, chat e messaggi in un unico spazio organizzato.",
+      "es": "LibreDesk gestiona correos, chats y mensajes en un espacio organizado.",
+      "fr": "LibreDesk gère vos e-mails, chats et messages dans un espace organisé.",
+      "de": "LibreDesk verwaltet E-Mails, Chats und Nachrichten an einem organisierten Ort."
+    },
+    "download_url": "https://github.com/abhinavxd/libredesk/releases/download/v2.9.2/libredesk_2.9.2_checksums.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "terraform-aws-github-runner",
+    "name": "terraform-aws-github-runner",
+    "tagline": "Scalable automated runners for GitHub Actions",
+    "repo_url": "https://github.com/github-aws-runners/terraform-aws-github-runner",
+    "full_name": "github-aws-runners/terraform-aws-github-runner",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cloud",
+      "automation"
+    ],
+    "icon": "/icons/terraform-aws-github-runner.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3185,
+    "tier": "tier2_webapp",
+    "summary": "This tool helps you automatically create and manage your own private computing power for running automated tasks on GitHub.",
+    "i18n": {
+      "it": "Questo strumento ti aiuta a creare e gestire automaticamente la tua potenza di calcolo privata per eseguire attività automatizzate su GitHub.",
+      "es": "Esta herramienta te ayuda a crear y gestionar automáticamente tu propia potencia de cómputo para ejecutar tareas automatizadas en GitHub.",
+      "fr": "Cet outil vous aide à créer et à gérer automatiquement votre propre puissance de calcul pour exécuter des tâches automatisées sur GitHub.",
+      "de": "Dieses Tool hilft Ihnen, automatisch Ihre eigene Rechenleistung zu erstellen und zu verwalten, um automatisierte Aufgaben auf GitHub auszuführen."
+    },
+    "download_url": "https://github.com/github-aws-runners/terraform-aws-github-runner/releases/download/v8.1.1/github-aws-runners-terraform-aws-github-runner-attestation-66859316.intoto.jsonl",
     "updated_at": "2026-11-21"
   },
   {
@@ -18310,6 +19010,146 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "mirotalksfu",
+    "name": "MiroTalk SFU",
+    "tagline": "Private, high-quality video conferencing platform.",
+    "repo_url": "https://github.com/miroslavpejic85/mirotalksfu",
+    "full_name": "miroslavpejic85/mirotalksfu",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "video-conferencing",
+      "privacy"
+    ],
+    "icon": "/icons/mirotalksfu.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3162,
+    "tier": "tier2_webapp",
+    "summary": "MiroTalk SFU is a self-hosted video meeting tool that gives you complete control over your data and privacy without any usage limits.",
+    "i18n": {
+      "it": "MiroTalk SFU è uno strumento di videoconferenza autogestito che offre il controllo totale sui tuoi dati senza limiti di utilizzo.",
+      "es": "MiroTalk SFU es una herramienta de reuniones por video autohospedada que le brinda control total sobre sus datos sin límites de uso.",
+      "fr": "MiroTalk SFU est un outil de réunion vidéo auto-hébergé qui vous donne un contrôle total sur vos données sans aucune limite d'utilisation.",
+      "de": "MiroTalk SFU ist ein selbst gehostetes Videokonferenz-Tool, das Ihnen die volle Kontrolle über Ihre Daten ohne Nutzungseinschränkungen gibt."
+    },
+    "download_url": "https://sfu.mirotalk.com",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "windsurfapi",
+    "name": "WindsurfAPI",
+    "tagline": "Use premium AI models in any app",
+    "repo_url": "https://github.com/dwgx/windsurfapi",
+    "full_name": "dwgx/windsurfapi",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "proxy"
+    ],
+    "icon": "/icons/windsurfapi.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3159,
+    "tier": "tier2_webapp",
+    "summary": "WindsurfAPI turns your existing AI subscriptions into standard interfaces that work with your favorite coding and chat tools.",
+    "i18n": {
+      "it": "WindsurfAPI trasforma i tuoi abbonamenti AI in interfacce standard compatibili con i tuoi strumenti di programmazione e chat preferiti.",
+      "es": "WindsurfAPI convierte tus suscripciones de IA en interfaces estándar que funcionan con tus herramientas de chat y programación favoritas.",
+      "fr": "WindsurfAPI transforme vos abonnements IA en interfaces standards compatibles avec vos outils de développement et de chat préférés.",
+      "de": "WindsurfAPI macht deine KI-Abonnements mit Standard-Schnittstellen kompatibel für deine bevorzugten Programmier- und Chat-Tools."
+    },
+    "download_url": "https://github.com/dwgx/WindsurfAPI/releases/download/v3.2.11/windsurfapi.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "waline",
+    "name": "Waline",
+    "tagline": "A simple, secure comment system",
+    "repo_url": "https://github.com/walinejs/waline",
+    "full_name": "walinejs/waline",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-development",
+      "comments"
+    ],
+    "icon": "/icons/waline.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v2)",
+    "stars": 3157,
+    "tier": "tier2_webapp",
+    "summary": "Waline provides a lightweight and safe way to add a comment section to your website with support for various storage and hosting services.",
+    "i18n": {
+      "it": "Waline offre un modo leggero e sicuro per aggiungere una sezione commenti al tuo sito web con supporto per vari servizi di hosting.",
+      "es": "Waline ofrece una forma ligera y segura de añadir una sección de comentarios a tu sitio web con soporte para varios servicios de alojamiento.",
+      "fr": "Waline offre un moyen léger et sécurisé d'ajouter une section de commentaires à votre site web avec la prise en charge de divers services d'hébergement.",
+      "de": "Waline bietet eine leichtgewichtige und sichere Möglichkeit, Ihrer Website einen Kommentarbereich mit Unterstützung für verschiedene Hosting-Dienste hinzuzufügen."
+    },
+    "download_url": "https://waline.js.org/en/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "shynet",
+    "name": "Shynet",
+    "tagline": "Privacy-focused web analytics you control.",
+    "repo_url": "https://github.com/milesmcc/shynet",
+    "full_name": "milesmcc/shynet",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "analytics",
+      "privacy"
+    ],
+    "icon": "/icons/shynet.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3156,
+    "tier": "tier2_webapp",
+    "summary": "Shynet provides detailed website traffic insights without using cookies or invasive tracking methods.",
+    "i18n": {
+      "it": "Shynet offre approfondimenti sul traffico del sito senza usare cookie o tracciamenti invasivi.",
+      "es": "Shynet ofrece información sobre el tráfico del sitio sin usar cookies ni rastreo invasivo.",
+      "fr": "Shynet fournit des informations sur le trafic sans utiliser de cookies ou de suivi invasif.",
+      "de": "Shynet bietet Einblicke in den Website-Verkehr ohne Cookies oder invasives Tracking."
+    },
+    "download_url": "https://github.com/milesmcc/shynet/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "project-maya",
+    "name": "Project Maya",
+    "tagline": "Run massive AI models on your hardware.",
+    "repo_url": "https://github.com/mw00/project-maya",
+    "full_name": "mw00/project-maya",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "privacy"
+    ],
+    "icon": "/icons/project-maya.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3149,
+    "tier": "tier2_webapp",
+    "summary": "Project Maya lets you run powerful, large-scale AI models privately on your own computer using your existing graphics cards.",
+    "i18n": {
+      "it": "Project Maya ti permette di eseguire potenti modelli di intelligenza artificiale in privato sul tuo computer usando le tue schede video.",
+      "es": "Project Maya te permite ejecutar potentes modelos de inteligencia artificial de forma privada en tu equipo usando tus tarjetas gráficas.",
+      "fr": "Project Maya vous permet d'exécuter de puissants modèles d'intelligence artificielle en privé sur votre ordinateur via vos cartes graphiques.",
+      "de": "Project Maya ermöglicht es dir, leistungsstarke KI-Modelle privat auf deinem eigenen Computer mit deinen Grafikkarten zu betreiben."
+    },
+    "download_url": "https://huggingface.co/peasantsmith",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "tiez-clipboard",
     "name": "Tiez Clipboard",
     "tagline": "Lightning-fast cross-platform clipboard manager",
@@ -18335,6 +19175,34 @@
       "de": "Erfassen, organisieren und synchronisieren Sie kopierte Texte, Bilder und Links nahtlos über alle Geräte hinweg."
     },
     "download_url": "https://github.com/jimuzhe/tiez-clipboard/releases/download/mac-v0.1.3/TieZ_0.1.3_aarch64.dmg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "littlelink",
+    "name": "LittleLink",
+    "tagline": "A simple, self-hosted link page",
+    "repo_url": "https://github.com/sethcottle/littlelink",
+    "full_name": "sethcottle/littlelink",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-tools",
+      "personal-branding"
+    ],
+    "icon": "/icons/littlelink.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3134,
+    "tier": "tier2_webapp",
+    "summary": "LittleLink allows you to create a personalized landing page for all your social media and website links without relying on third-party services.",
+    "i18n": {
+      "it": "LittleLink ti permette di creare una pagina personale per i tuoi link social senza dipendere da servizi esterni a pagamento.",
+      "es": "LittleLink te permite crear una página personal para todos tus enlaces sociales sin depender de servicios de terceros.",
+      "fr": "LittleLink vous permet de créer une page personnelle pour tous vos liens sociaux sans dépendre de services tiers.",
+      "de": "LittleLink ermöglicht es Ihnen, eine persönliche Seite für alle Ihre sozialen Links zu erstellen, ohne auf Drittanbieter angewiesen zu sein."
+    },
+    "download_url": "https://littlelink.io",
     "updated_at": "2026-11-21"
   },
   {
@@ -18366,6 +19234,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "tianji",
+    "name": "Tianji",
+    "tagline": "All-in-one website monitoring and analytics",
+    "repo_url": "https://github.com/msgbyte/tianji",
+    "full_name": "msgbyte/tianji",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "analytics",
+      "monitoring"
+    ],
+    "icon": "/icons/tianji.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3123,
+    "tier": "tier2_webapp",
+    "summary": "Tianji combines website traffic tracking, server health monitoring, and uptime alerts into one simple, lightweight dashboard.",
+    "i18n": {
+      "it": "Tianji unisce il monitoraggio del traffico, lo stato dei server e gli avvisi di disponibilità in un'unica dashboard intuitiva.",
+      "es": "Tianji combina el seguimiento de tráfico, el estado del servidor y las alertas de tiempo de actividad en un panel sencillo.",
+      "fr": "Tianji regroupe le suivi du trafic, l'état des serveurs et les alertes de disponibilité dans un tableau de bord unique.",
+      "de": "Tianji vereint Website-Traffic-Analyse, Server-Status und Verfügbarkeitsüberwachung in einem einfachen Dashboard."
+    },
+    "download_url": "https://github.com/msgbyte/tianji/releases/download/v1.34.3/tianji-reporter-windows-amd64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "magnetissimo",
+    "name": "Magnetissimo",
+    "tagline": "A smart, self-hosted torrent search engine",
+    "repo_url": "https://github.com/sergiotapia/magnetissimo",
+    "full_name": "sergiotapia/magnetissimo",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "torrent",
+      "search"
+    ],
+    "icon": "/icons/magnetissimo.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3111,
+    "tier": "tier2_webapp",
+    "summary": "Magnetissimo searches multiple torrent sites at once and saves the results to your own private, searchable database.",
+    "i18n": {
+      "it": "Magnetissimo interroga più siti torrent contemporaneamente e salva i risultati nel tuo database privato e ricercabile.",
+      "es": "Magnetissimo busca en varios sitios de torrents a la vez y guarda los resultados en tu propia base de datos privada.",
+      "fr": "Magnetissimo interroge plusieurs sites de torrents simultanément et enregistre les résultats dans votre base de données privée.",
+      "de": "Magnetissimo durchsucht mehrere Torrent-Seiten gleichzeitig und speichert die Ergebnisse in deiner privaten, durchsuchbaren Datenbank."
+    },
+    "download_url": "https://discord.gg/PWYfybKfcw",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "asciigraph",
     "name": "asciigraph",
     "tagline": "Create lightweight line graphs instantly in your terminal",
@@ -18392,6 +19316,34 @@
     },
     "download_url": "https://github.com/guptarohit/asciigraph/releases/download/v0.10.0/asciigraph_0.10.0_sha512-checksums.txt",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "dittofeed",
+    "name": "Dittofeed",
+    "tagline": "Send messages across any channel",
+    "repo_url": "https://github.com/dittofeed/dittofeed",
+    "full_name": "dittofeed/dittofeed",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "customer-engagement",
+      "marketing"
+    ],
+    "icon": "/icons/dittofeed.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3082,
+    "tier": "tier2_webapp",
+    "summary": "Dittofeed lets you create and send email, SMS, push, WhatsApp, Slack and more messages from a single, easy‑to‑use dashboard that you can host yourself.",
+    "i18n": {
+      "it": "Dittofeed ti consente di creare e inviare email, SMS, push, WhatsApp, Slack e altri messaggi da una dashboard semplice, che puoi ospitare sul tuo server.",
+      "es": "Dittofeed te permite crear y enviar correos, SMS, notificaciones push, WhatsApp, Slack y más, todo desde un panel sencillo que puedes alojar en tu propio servidor.",
+      "fr": "Dittofeed vous permet de créer et d’envoyer des e‑mails, SMS, notifications push, WhatsApp, Slack et plus, depuis un tableau de bord simple que vous pouvez héberger vous‑même.",
+      "de": "Dittofeed ermöglicht das Erstellen und Senden von E‑Mails, SMS, Push‑Nachrichten, WhatsApp, Slack und mehr über ein einfaches Dashboard, das Sie selbst hosten können."
+    },
+    "download_url": "https://dittofeed.com/",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "imgui-rs",
@@ -18478,6 +19430,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "gokapi",
+    "name": "Gokapi",
+    "tagline": "Private and secure file sharing",
+    "repo_url": "https://github.com/forceu/gokapi",
+    "full_name": "forceu/gokapi",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "file-sharing",
+      "privacy"
+    ],
+    "icon": "/icons/gokapi.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3028,
+    "tier": "tier2_webapp",
+    "summary": "Gokapi is a private, self-hosted tool that lets you share files securely with automatic expiration and encryption.",
+    "i18n": {
+      "it": "Gokapi è uno strumento privato e autogestito che ti permette di condividere file in sicurezza con scadenza automatica e crittografia.",
+      "es": "Gokapi es una herramienta privada y autohospedada que te permite compartir archivos de forma segura con caducidad automática y cifrado.",
+      "fr": "Gokapi est un outil privé et auto-hébergé qui vous permet de partager des fichiers en toute sécurité avec expiration automatique et chiffrement.",
+      "de": "Gokapi ist ein privates, selbst gehostetes Tool, mit dem Sie Dateien sicher mit automatischer Ablaufzeit und Verschlüsselung teilen können."
+    },
+    "download_url": "https://github.com/Forceu/Gokapi/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "comic-translate",
     "name": "comic-translate",
     "tagline": "Translate comics and manga automatically with AI.",
@@ -18506,6 +19486,90 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "file-viewer",
+    "name": "File Viewer",
+    "tagline": "Preview hundreds of file types instantly.",
+    "repo_url": "https://github.com/flyfish-dev/file-viewer",
+    "full_name": "flyfish-dev/file-viewer",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "web-tools"
+    ],
+    "icon": "/icons/file-viewer.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3012,
+    "tier": "tier2_webapp",
+    "summary": "File Viewer lets you preview over 275 different file formats directly in your web browser without needing a separate conversion server.",
+    "i18n": {
+      "it": "File Viewer permette di visualizzare oltre 275 formati di file direttamente nel browser senza server di conversione.",
+      "es": "File Viewer permite previsualizar más de 275 formatos de archivo directamente en el navegador sin servidores de conversión.",
+      "fr": "File Viewer permet de prévisualiser plus de 275 formats de fichiers directement dans le navigateur sans serveur de conversion.",
+      "de": "File Viewer ermöglicht die Vorschau von über 275 Dateiformaten direkt im Browser, ohne dass ein Konvertierungsserver nötig ist."
+    },
+    "download_url": "https://github.com/flyfish-dev/file-viewer/releases/download/v3.3.5/npm-release-manifest.json",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "vexa",
+    "name": "Vexa",
+    "tagline": "Private AI bots for your meetings",
+    "repo_url": "https://github.com/vexa-ai/vexa",
+    "full_name": "vexa-ai/vexa",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/vexa.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3003,
+    "tier": "tier2_webapp",
+    "summary": "Vexa joins your video calls to create accurate, private meeting transcripts and organizes them into a searchable knowledge base you own.",
+    "i18n": {
+      "it": "Vexa partecipa alle tue videochiamate per creare trascrizioni private e organizzarle in una base di conoscenza che resta di tua proprietà.",
+      "es": "Vexa se une a tus videollamadas para crear transcripciones privadas y organizarlas en una base de conocimiento de tu propiedad.",
+      "fr": "Vexa rejoint vos appels vidéo pour créer des transcriptions privées et les organiser dans une base de connaissances que vous possédez.",
+      "de": "Vexa nimmt an Ihren Videoanrufen teil, erstellt private Transkripte und organisiert diese in einer Wissensdatenbank in Ihrem Besitz."
+    },
+    "download_url": "https://vexa.ai",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "snapotter",
+    "name": "SnapOtter",
+    "tagline": "Your private, all-in-one file toolkit.",
+    "repo_url": "https://github.com/snapotter-hq/snapotter",
+    "full_name": "snapotter-hq/snapotter",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "media-tools"
+    ],
+    "icon": "/icons/snapotter.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3000,
+    "tier": "tier2_webapp",
+    "summary": "SnapOtter provides over 200 tools to convert, edit, and manage your images, videos, audio, and documents entirely on your own hardware.",
+    "i18n": {
+      "it": "SnapOtter offre oltre 200 strumenti per convertire, modificare e gestire file multimediali e documenti direttamente sul tuo server privato.",
+      "es": "SnapOtter ofrece más de 200 herramientas para convertir, editar y gestionar imágenes, vídeos, audio y documentos en tu propio servidor.",
+      "fr": "SnapOtter propose plus de 200 outils pour convertir, modifier et gérer vos fichiers multimédias et documents sur votre propre serveur.",
+      "de": "SnapOtter bietet über 200 Werkzeuge zum Konvertieren, Bearbeiten und Verwalten von Medien und Dokumenten auf Ihrem eigenen Server."
+    },
+    "download_url": "https://github.com/snapotter-hq/SnapOtter/releases/download/v2.3.0/docker-compose-gpu.yml",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "jclasslib",
     "name": "jclasslib",
     "tagline": "Visualize and edit compiled Java bytecode easily.",
@@ -18531,6 +19595,62 @@
       "de": "Ein intuitives Werkzeug zum Öffnen, Prüfen und Bearbeiten von kompilierten Java-Klassendateien und Bytecode."
     },
     "download_url": "https://github.com/ingokegel/jclasslib/releases/download/7.1/jclasslib_win64_7_1.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "yunohost",
+    "name": "YunoHost",
+    "tagline": "Manage your own private server easily.",
+    "repo_url": "https://github.com/yunohost/yunohost",
+    "full_name": "yunohost/yunohost",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "server",
+      "self-hosting"
+    ],
+    "icon": "/icons/yunohost.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 2996,
+    "tier": "tier2_webapp",
+    "summary": "YunoHost is a simple operating system that lets you host your own websites and online services without needing advanced technical skills.",
+    "i18n": {
+      "it": "YunoHost è un sistema operativo semplice per ospitare siti web e servizi online senza competenze tecniche avanzate.",
+      "es": "YunoHost es un sistema operativo sencillo para alojar tus sitios web y servicios en línea sin necesidad de conocimientos técnicos.",
+      "fr": "YunoHost est un système d'exploitation simple pour héberger vos sites web et services en ligne sans compétences techniques.",
+      "de": "YunoHost ist ein einfaches Betriebssystem, mit dem Sie Ihre eigenen Webdienste ohne tiefgreifende technische Kenntnisse hosten können."
+    },
+    "download_url": "https://yunohost.org",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "audiomuse-ai",
+    "name": "AudioMuse-AI",
+    "tagline": "Rediscover your music library through sound.",
+    "repo_url": "https://github.com/neptunehub/audiomuse-ai",
+    "full_name": "neptunehub/audiomuse-ai",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "music",
+      "ai"
+    ],
+    "icon": "/icons/audiomuse-ai.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 2989,
+    "tier": "tier2_webapp",
+    "summary": "AudioMuse-AI analyzes your music collection to create smart playlists and visual maps based on how your songs actually sound.",
+    "i18n": {
+      "it": "AudioMuse-AI analizza la tua libreria musicale per creare playlist intelligenti e mappe visive basate sul suono reale dei brani.",
+      "es": "AudioMuse-AI analiza tu colección de música para crear listas de reproducción inteligentes y mapas visuales basados en el sonido real.",
+      "fr": "AudioMuse-AI analyse votre bibliothèque musicale pour créer des listes de lecture intelligentes et des cartes visuelles basées sur le son.",
+      "de": "AudioMuse-AI analysiert Ihre Musiksammlung, um intelligente Wiedergabelisten und visuelle Karten basierend auf dem Klang zu erstellen."
+    },
+    "download_url": "https://github.com/NeptuneHub/AudioMuse-AI/releases/download/v3.7.3/AudioMuse-AI-aarch64-linux.deb",
     "updated_at": "2026-11-21"
   },
   {
