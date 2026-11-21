@@ -8484,6 +8484,90 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "llama-gpt",
+    "name": "LlamaGPT",
+    "tagline": "Your own private offline AI chatbot",
+    "repo_url": "https://github.com/getumbrel/llama-gpt",
+    "full_name": "getumbrel/llama-gpt",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "chatbot"
+    ],
+    "icon": "/icons/llama-gpt.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 10922,
+    "tier": "tier2_webapp",
+    "summary": "Run a completely private, self-hosted AI assistant right on your own hardware without sending any data to the cloud.",
+    "i18n": {
+      "it": "Esegui un assistente IA completamente privato direttamente sul tuo hardware senza inviare dati nel cloud.",
+      "es": "Ejecuta un asistente de IA totalmente privado y sin conexión en tu propio equipo sin enviar datos a la nube.",
+      "fr": "Exécutez un assistant IA entièrement privé directement sur votre matériel sans envoyer de données dans le cloud.",
+      "de": "Betreiben Sie einen völlig privaten KI-Assistenten auf Ihrer eigenen Hardware, ohne Daten in die Cloud zu senden."
+    },
+    "download_url": "https://apps.umbrel.com/app/llama-gpt",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "lago",
+    "name": "Lago",
+    "tagline": "Open-source usage-based billing infrastructure",
+    "repo_url": "https://github.com/getlago/lago",
+    "full_name": "getlago/lago",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "billing",
+      "metering"
+    ],
+    "icon": "/icons/lago.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 10908,
+    "tier": "tier2_webapp",
+    "summary": "Track product consumption, set up complex pricing tiers, and automate invoices and payments effortlessly.",
+    "i18n": {
+      "it": "Traccia i consumi dei prodotti, imposta prezzi complessi e automatizza fatture e pagamenti senza sforzo.",
+      "es": "Rastrea el consumo del producto, configura precios complejos y automatiza facturas y pagos fácilmente.",
+      "fr": "Suivez la consommation des produits, configurez des tarifs complexes et automatisez factures et paiements.",
+      "de": "Verfolgen Sie Produktnutzung, richten Sie komplexe Preismodelle ein und automatisieren Sie Rechnungen."
+    },
+    "download_url": "https://www.getlago.com",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "omni-tools",
+    "name": "omni-tools",
+    "tagline": "Your all-in-one private browser toolkit.",
+    "repo_url": "https://github.com/iib0011/omni-tools",
+    "full_name": "iib0011/omni-tools",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "utilities",
+      "browser"
+    ],
+    "icon": "/icons/omni-tools.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 10766,
+    "tier": "tier2_webapp",
+    "summary": "Omni-tools is a collection of handy web utilities that process your files directly inside your browser so your personal data never leaves your device.",
+    "i18n": {
+      "it": "Omni-tools offre utilità web per elaborare file direttamente nel browser, garantendo che i dati personali rimangano sul tuo dispositivo.",
+      "es": "Omni-tools reúne utilidades web que procesan tus archivos en el navegador para que tus datos personales nunca salgan del equipo.",
+      "fr": "Omni-tools propose des utilitaires web traitant vos fichiers dans le navigateur afin que vos données personnelles restent sur l'appareil.",
+      "de": "Omni-tools bietet Web-Dienstprogramme zur Dateibearbeitung direkt im Browser, sodass persönliche Daten stets auf dem Gerät bleiben."
+    },
+    "download_url": "https://omnitools.app",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "oha",
     "name": "oha",
     "tagline": "Test website speed with live visual animations",
@@ -8596,6 +8680,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "pandawiki",
+    "name": "PandaWiki",
+    "tagline": "Build AI-powered knowledge bases instantly",
+    "repo_url": "https://github.com/chaitin/pandawiki",
+    "full_name": "chaitin/pandawiki",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "documentation"
+    ],
+    "icon": "/icons/pandawiki.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 10515,
+    "tier": "tier2_webapp",
+    "summary": "An artificial intelligence knowledge base system that helps teams build smart product guides, technical documentation, and help centers.",
+    "i18n": {
+      "it": "Un sistema di basi di conoscenza basato sull'intelligenza artificiale per creare guide intelligenti e centri assistenza.",
+      "es": "Un sistema de base de conocimiento impulsado por IA para crear guías de productos inteligentes y centros de ayuda.",
+      "fr": "Un système de base de connaissances par IA pour créer des guides intelligents et des centres d'aide complets.",
+      "de": "Ein KI-gesteuertes Wissensdatenbank-System zum schnellen Aufbau smarter Produktdokumentationen und Hilfe-Center."
+    },
+    "download_url": "https://pandawiki.docs.baizhi.cloud/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "reactide",
     "name": "reactide",
     "tagline": "Dedicated workspace for React app development",
@@ -8650,6 +8762,90 @@
     },
     "download_url": "https://github.com/easydiffusion/easydiffusion/releases/download/v3.0.16/Easy-Diffusion-Windows.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "feishin",
+    "name": "Feishin",
+    "tagline": "Modern self-hosted music player experience",
+    "repo_url": "https://github.com/jeffvli/feishin",
+    "full_name": "jeffvli/feishin",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "music",
+      "streaming"
+    ],
+    "icon": "/icons/feishin.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 10463,
+    "tier": "tier2_webapp",
+    "summary": "Enjoy your personal music collection anywhere with a sleek, self-hosted desktop and web music player that connects to your own servers.",
+    "i18n": {
+      "it": "Goditi la tua collezione musicale personale ovunque con un lettore elegante e autogestito che si collega ai tuoi server.",
+      "es": "Disfruta de tu colección de música personal en cualquier lugar con un reproductor elegante y autohospedado para tus servidores.",
+      "fr": "Profitez de votre collection musicale personnelle partout grâce à un lecteur élégant et auto-hébergé connecté à vos serveurs.",
+      "de": "Genießen Sie Ihre persönliche Musiksammlung überall mit einem eleganten, selbstgehosteten Player für Ihre eigenen Server."
+    },
+    "download_url": "https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pocket-id",
+    "name": "Pocket ID",
+    "tagline": "Simple password-free sign-in for your apps",
+    "repo_url": "https://github.com/pocket-id/pocket-id",
+    "full_name": "pocket-id/pocket-id",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "security",
+      "authentication"
+    ],
+    "icon": "/icons/pocket-id.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (BSD)",
+    "stars": 10410,
+    "tier": "tier2_webapp",
+    "summary": "Pocket ID provides a secure and easy way to manage user logins for your applications using modern passkey technology instead of passwords.",
+    "i18n": {
+      "it": "Pocket ID offre un modo sicuro e semplice per gestire gli accessi degli utenti alle tue applicazioni utilizzando le passkey al posto delle password.",
+      "es": "Pocket ID ofrece una forma segura y sencilla de gestionar los inicios de sesión de los usuarios mediante tecnología de passkey en lugar de contraseñas.",
+      "fr": "Pocket ID offre un moyen sécurisé et simple de gérer les connexions des utilisateurs à vos applications grâce aux clés d'accès au lieu des mots de passe.",
+      "de": "Pocket ID bietet eine sichere und einfache Möglichkeit, Benutzeranmeldungen für Ihre Anwendungen mit Passkeys anstelle von Passwörtern zu verwalten."
+    },
+    "download_url": "https://github.com/pocket-id/pocket-id/releases/download/v2.19.3/pocket-id_windows_amd64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "dashbeam",
+    "name": "dashbeam",
+    "tagline": "Fast and private peer-to-peer file sharing",
+    "repo_url": "https://github.com/tonyantony300/dashbeam",
+    "full_name": "tonyantony300/dashbeam",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "file-transfer",
+      "p2p"
+    ],
+    "icon": "/icons/dashbeam.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 10370,
+    "tier": "tier2_webapp",
+    "summary": "Transfer files of any size directly between your devices without cloud storage, tracking, or intermediary servers.",
+    "i18n": {
+      "it": "Trasferisci file di qualsiasi dimensione direttamente tra i tuoi dispositivi senza cloud o tracciamento.",
+      "es": "Transfiere archivos de cualquier tamaño directamente entre tus dispositivos sin servidores en la nube.",
+      "fr": "Transférez des fichiers de toute taille directement entre vos appareils sans stockage cloud ni suivi.",
+      "de": "Übertragen Sie Dateien jeder Größe direkt zwischen Geräten ohne Cloud-Speicher oder Nachverfolgung."
+    },
+    "download_url": "https://github.com/tonyantony300/dashbeam/releases/download/v0.7.2/DashBeam_0.7.2_arm64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "gdbgui",
@@ -8736,6 +8932,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "arcane",
+    "name": "Arcane",
+    "tagline": "Modern Docker management designed for everyone.",
+    "repo_url": "https://github.com/getarcaneapp/arcane",
+    "full_name": "getarcaneapp/arcane",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "self-hosted",
+      "management"
+    ],
+    "icon": "/icons/arcane.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (BSD)",
+    "stars": 10242,
+    "tier": "tier2_webapp",
+    "summary": "Easily manage, monitor, and control your software containers through a clean and user-friendly visual dashboard.",
+    "i18n": {
+      "it": "Gestisci e monitora facilmente i tuoi contenitori software tramite una dashboard visiva pulita e intuitiva.",
+      "es": "Administra y monitorea fácilmente tus contenedores de software a través de un panel visual limpio.",
+      "fr": "Gérez et surveillez facilement vos conteneurs logiciels grâce à un tableau de bord visuel et épuré.",
+      "de": "Verwalten und überwachen Sie Ihre Software-Container einfach über ein übersichtliches Dashboard."
+    },
+    "download_url": "https://github.com/getarcaneapp/arcane/releases/download/v3.1.1/arcane-cli_3.1.1_aarch64.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "ufo",
     "name": "UFO",
     "tagline": "Intelligent multi-device task automation agent system",
@@ -8792,6 +9016,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "deploy-your-own-saas",
+    "name": "deploy-your-own-saas",
+    "tagline": "Your own private cloud services collection",
+    "repo_url": "https://github.com/atarity/deploy-your-own-saas",
+    "full_name": "atarity/deploy-your-own-saas",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "self-hosted",
+      "cloud"
+    ],
+    "icon": "/icons/deploy-your-own-saas.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 10208,
+    "tier": "tier2_webapp",
+    "summary": "Discover an extensive hand-curated catalog of private, self-hosted alternatives to popular cloud applications and commercial software.",
+    "i18n": {
+      "it": "Scopri un ampio catalogo curato di alternative private e auto-ospitate alle popolari applicazioni cloud commerciali.",
+      "es": "Descubre un amplio catálogo de alternativas privadas y autoalojadas a las aplicaciones en la nube populares.",
+      "fr": "Découvrez un vaste catalogue d'alternatives privées et auto-hébergées aux applications cloud populaires.",
+      "de": "Entdecken Sie einen umfassenden Katalog privater, selbst gehosteter Alternativen zu gängigen Cloud-Anwendungen."
+    },
+    "download_url": "https://github.com/Atarity/deploy-your-own-saas/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "usql",
     "name": "usql",
     "tagline": "Universal command-line tool for databases",
@@ -8820,6 +9072,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "superplane",
+    "name": "SuperPlane",
+    "tagline": "Automate engineering tasks with smart AI agents",
+    "repo_url": "https://github.com/superplanehq/superplane",
+    "full_name": "superplanehq/superplane",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "development"
+    ],
+    "icon": "/icons/superplane.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 10125,
+    "tier": "tier2_webapp",
+    "summary": "SuperPlane turns routine backlog issues into verified code changes, helping your engineering team focus on human judgment.",
+    "i18n": {
+      "it": "SuperPlane trasforma i problemi di routine in codice verificato, aiutando il team a concentrarsi sulle decisioni cruciali.",
+      "es": "SuperPlane convierte problemas rutinarios en código verificado, ayudando a tu equipo a centrarse en decisiones humanas.",
+      "fr": "SuperPlane transforme les tickets de routine en code vérifié, permettant à votre équipe de se concentrer sur l'essentiel.",
+      "de": "SuperPlane verwandelt Routineaufgaben in verifizierten Code, damit sich Ihr Team auf wichtige Entscheidungen konzentrieren kann."
+    },
+    "download_url": "https://github.com/superplanehq/superplane/releases/download/fleet-manager/v0.1.7/checksums.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "miller",
     "name": "miller",
     "tagline": "Powerful command-line structured text data processor",
@@ -8846,6 +9126,34 @@
     },
     "download_url": "https://github.com/johnkerl/miller/releases/download/v6.22.0/miller-6.22.0-linux-386.deb",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "clickstack",
+    "name": "ClickStack",
+    "tagline": "Unify logs, traces, and metrics easily.",
+    "repo_url": "https://github.com/clickhouse/clickstack",
+    "full_name": "clickhouse/clickstack",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "observability",
+      "monitoring"
+    ],
+    "icon": "/icons/clickstack.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 10061,
+    "tier": "tier2_webapp",
+    "summary": "An open-source observability platform that helps engineers quickly investigate and resolve production issues in one central place.",
+    "i18n": {
+      "it": "Una piattaforma di osservabilità open-source per risolvere rapidamente i problemi di produzione in un unico posto.",
+      "es": "Una plataforma de observabilidad de código abierto para investigar y resolver problemas de producción rápidamente.",
+      "fr": "Une plateforme d'observabilité open-source pour enquêter et résoudre rapidement les problèmes de production.",
+      "de": "Eine Open-Source-Beobachtungsplattform zur schnellen Untersuchung und Behebung von Produktionsproblemen."
+    },
+    "download_url": "https://github.com/ClickHouse/ClickStack/releases/download/cli-v0.9.1/hdx-darwin-arm64",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "rubick",
@@ -8904,6 +9212,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "kanboard",
+    "name": "Kanboard",
+    "tagline": "Simple visual project management software",
+    "repo_url": "https://github.com/kanboard/kanboard",
+    "full_name": "kanboard/kanboard",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "project-management",
+      "kanban"
+    ],
+    "icon": "/icons/kanboard.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 9971,
+    "tier": "tier2_webapp",
+    "summary": "Organize tasks and track project workflows efficiently using visual boards without unnecessary complexity.",
+    "i18n": {
+      "it": "Organizza attività e monitora il flusso di lavoro in modo efficiente usando bacheche visive senza complessità superflue.",
+      "es": "Organiza tareas y realiza un seguimiento de los flujos de trabajo de proyectos de manera eficiente utilizando tableros visuales.",
+      "fr": "Organisez vos tâches et suivez l'avancement de vos projets efficacement à l'aide de tableaux visuels sans complexité.",
+      "de": "Organisieren Sie Aufgaben und verfolgen Sie Projektarbeitsabläufe effizient mit visuellen Tafeln ohne unnötige Komplexität."
+    },
+    "download_url": "https://kanboard.org",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "sophia-script-for-windows",
     "name": "Sophia Script for Windows",
     "tagline": "Fine-tune Windows with advanced control.",
@@ -8960,6 +9296,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "kaneo",
+    "name": "Kaneo",
+    "tagline": "Simple visual project organizer",
+    "repo_url": "https://github.com/usekaneo/kaneo",
+    "full_name": "usekaneo/kaneo",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "project-management",
+      "team-collaboration"
+    ],
+    "icon": "/icons/kaneo.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 9855,
+    "tier": "tier2_webapp",
+    "summary": "Kaneo lets teams see their tasks on boards, calendars or timelines, keeping everything in one place without extra hassle.",
+    "i18n": {
+      "it": "Kaneo permette ai team di visualizzare le attività su bacheche, calendari o diagrammi, mantenendo tutto in un unico posto senza complicazioni.",
+      "es": "Kaneo ayuda a los equipos a ver sus tareas en tableros, calendarios o diagramas, manteniendo todo en un solo lugar sin complicaciones.",
+      "fr": "Kaneo permet aux équipes de visualiser leurs tâches sur des tableaux, calendriers ou diagrammes, en gardant tout au même endroit sans tracas.",
+      "de": "Kaneo ermöglicht Teams, Aufgaben auf Boards, Kalendern oder Zeitplänen zu sehen und alles an einem Ort zu behalten, ohne Aufwand."
+    },
+    "download_url": "https://kaneo.app/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "console",
     "name": "Console",
     "tagline": "Build professional text-based computer tools",
@@ -9013,6 +9377,62 @@
       "de": "Openidea ist ein unglaublich schneller Code-Arbeitsplatz, der vertraute Tastenkombinationen und robuste Werkzeuge bietet, ohne Ihren Computer zu belasten."
     },
     "download_url": "https://github.com/l0ng-ai/openidea/releases/download/v0.1.49/OpenIDEA_0.1.49_arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "runtipi",
+    "name": "Runtipi",
+    "tagline": "Run your own private server easily",
+    "repo_url": "https://github.com/runtipi/runtipi",
+    "full_name": "runtipi/runtipi",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "homeserver",
+      "self-hosted"
+    ],
+    "icon": "/icons/runtipi.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 9749,
+    "tier": "tier2_webapp",
+    "summary": "Transform any computer into a personal home server with an intuitive dashboard and effortless one-click service installation.",
+    "i18n": {
+      "it": "Trasforma qualsiasi computer in un server domestico con una dashboard intuitiva e un'installazione semplificata.",
+      "es": "Convierte cualquier ordenador en un servidor doméstico personal con un panel intuitivo y una instalación sencilla.",
+      "fr": "Transformez n'importe quel ordinateur en serveur personnel avec un tableau de bord intuitif et une installation rapide.",
+      "de": "Verwandeln Sie jeden Computer in einen Heimserver mit übersichtlichem Dashboard und müheloser Einrichtung."
+    },
+    "download_url": "https://www.runtipi.io/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "grocy",
+    "name": "grocy",
+    "tagline": "Manage your home inventory and groceries easily.",
+    "repo_url": "https://github.com/grocy/grocy",
+    "full_name": "grocy/grocy",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "inventory",
+      "household"
+    ],
+    "icon": "/icons/grocy.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 9701,
+    "tier": "tier2_webapp",
+    "summary": "Grocy is a self-hosted household management system that helps you track your groceries, chores, and meal plans all in one place.",
+    "i18n": {
+      "it": "Grocy è un sistema domestico per tracciare scorte, faccende e pasti direttamente dal tuo server.",
+      "es": "Grocy es un sistema propio para controlar alimentos, tareas del hogar y menús diarios.",
+      "fr": "Grocy est un outil personnel pour suivre vos provisions, tâches ménagères et repas.",
+      "de": "Grocy ist eine selbst gehostete Haushaltsverwaltung für Vorräte, Aufgaben und Essenspläne."
+    },
+    "download_url": "https://grocy.info",
     "updated_at": "2026-11-21"
   },
   {
@@ -9072,6 +9492,118 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "wealthfolio",
+    "name": "wealthfolio",
+    "tagline": "Private, local-first personal finance tracker.",
+    "repo_url": "https://github.com/wealthfolio/wealthfolio",
+    "full_name": "wealthfolio/wealthfolio",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "finance",
+      "tracker"
+    ],
+    "icon": "/icons/wealthfolio.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 9668,
+    "tier": "tier2_webapp",
+    "summary": "Manage investments, monitor net worth, track spending, and run financial simulations securely on your own device with absolute privacy.",
+    "i18n": {
+      "it": "Monitora investimenti, patrimonio netto e spese in totale privacy direttamente sul tuo dispositivo senza cloud.",
+      "es": "Controla inversiones, patrimonio neto y gastos con total privacidad directamente en tu dispositivo sin servidores externos.",
+      "fr": "Suivez vos investissements, votre patrimoine et vos dépenses en toute confidentialité directement sur votre appareil.",
+      "de": "Verfolgen Sie Investitionen, Nettovermögen und Ausgaben absolut privat direkt auf Ihrem eigenen Gerät."
+    },
+    "download_url": "https://github.com/wealthfolio/wealthfolio/releases/download/v3.13.1/Wealthfolio_3.13.1_arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "self-hosted",
+    "name": "Self-Hosted",
+    "tagline": "Track app errors on your own server",
+    "repo_url": "https://github.com/getsentry/self-hosted",
+    "full_name": "getsentry/self-hosted",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "monitoring",
+      "errors"
+    ],
+    "icon": "/icons/self-hosted.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 9654,
+    "tier": "tier2_webapp",
+    "summary": "Capture and monitor software bugs and crashes right on your own private infrastructure for complete data privacy.",
+    "i18n": {
+      "it": "Cattura e monitora i problemi software direttamente sulla tua infrastruttura privata per una privacy totale.",
+      "es": "Captura y monitorea fallos de software directamente en tu propia infraestructura privada para mayor privacidad.",
+      "fr": "Capturez et surveillez les bugs logiciels directement sur votre propre infrastructure pour plus de confidentialité.",
+      "de": "Erfassen und überwachen Sie Softwarefehler direkt auf Ihrer eigenen Infrastruktur für maximale Datensicherheit."
+    },
+    "download_url": "https://develop.sentry.dev/self-hosted/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "local-deep-research",
+    "name": "Local Deep Research",
+    "tagline": "Private AI research assistant you control.",
+    "repo_url": "https://github.com/learningcircuit/local-deep-research",
+    "full_name": "learningcircuit/local-deep-research",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "research"
+    ],
+    "icon": "/icons/local-deep-research.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 9619,
+    "tier": "tier2_webapp",
+    "summary": "Perform deep, autonomous research locally using private files and multiple search engines without exposing your sensitive data.",
+    "i18n": {
+      "it": "Esegui ricerche approfondite in locale utilizzando file privati e motori di ricerca multipli senza condividere i tuoi dati.",
+      "es": "Realiza investigaciones profundas en local utilizando archivos privados y múltiples buscadores sin comprometer tus datos.",
+      "fr": "Effectuez des recherches approfondies localement en utilisant vos documents privés et divers moteurs sans quitter votre machine.",
+      "de": "Führen Sie tiefgehende Recherchen lokal durch und nutzen Sie Ihre privaten Dokumente sicher ohne externe Datenweitergabe."
+    },
+    "download_url": "https://github.com/LearningCircuit/local-deep-research/releases/download/v2.0.1/provenance.intoto.jsonl",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "certimate",
+    "name": "Certimate",
+    "tagline": "Automate website security certificates visually.",
+    "repo_url": "https://github.com/certimate-go/certimate",
+    "full_name": "certimate-go/certimate",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ssl",
+      "security"
+    ],
+    "icon": "/icons/certimate.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 9460,
+    "tier": "tier2_webapp",
+    "summary": "Manage website security certificates with a self-hosted visual tool that automates issuance, deployment, renewal, and monitoring.",
+    "i18n": {
+      "it": "Gestisci i certificati di sicurezza con uno strumento visivo che automatizza emissione, distribuzione, rinnovo e monitoraggio.",
+      "es": "Gestiona los certificados de seguridad con una herramienta visual que automatiza la emisión, el despliegue y la renovación.",
+      "fr": "Gérez les certificats de sécurité avec un outil visuel qui automatise l'émission, le déploiement, le renouvellement et le suivi.",
+      "de": "Verwalten Sie Sicherheitszertifikate mit einem visuellen Tool, das Ausstellung, Bereitstellung, Verlängerung und Überwachung automatisiert."
+    },
+    "download_url": "https://github.com/certimate-go/certimate/releases/download/v0.4.38/checksums.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "youtube-dl-gui",
     "name": "youtube-dl-gui",
     "tagline": "Simple desktop app for downloading videos.",
@@ -9128,6 +9660,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "rakazo",
+    "name": "Rakazo",
+    "tagline": "Your own self-hosted intelligent AI teammates",
+    "repo_url": "https://github.com/elie222/rakazo",
+    "full_name": "elie222/rakazo",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "self-hosted"
+    ],
+    "icon": "/icons/rakazo.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9393,
+    "tier": "tier2_webapp",
+    "summary": "Run persistent AI assistants with their own memory, routines, and virtual computers on your own hardware.",
+    "i18n": {
+      "it": "Esegui assistenti IA persistenti con memoria e computer virtuali direttamente sul tuo hardware.",
+      "es": "Ejecuta asistentes de IA persistentes con su propia memoria y ordenadores virtuales en tu hardware.",
+      "fr": "Exécutez des assistants IA persistants avec leur propre mémoire et bureau virtuel sur votre matériel.",
+      "de": "Betreiben Sie persistente KI-Assistenten mit eigenem Speicher und virtuellen Computern auf Ihrer Hardware."
+    },
+    "download_url": "https://github.com/elie222/rakazo/releases/download/v0.13.0/Rakazo-Setup-0.13.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "highlight",
+    "name": "Highlight",
+    "tagline": "Full-stack monitoring and session replay",
+    "repo_url": "https://github.com/highlight/highlight",
+    "full_name": "highlight/highlight",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "monitoring",
+      "error-tracking"
+    ],
+    "icon": "/icons/highlight.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 9392,
+    "tier": "tier2_webapp",
+    "summary": "Understand why bugs happen with complete session replays, error tracking, logs, and performance traces for modern web applications.",
+    "i18n": {
+      "it": "Scopri perché si verificano i bug con registrazioni delle sessioni, tracciamento degli errori e log per le tue applicazioni web.",
+      "es": "Comprende por qué ocurren los errores con reproducciones de sesiones, seguimiento de fallos y registros para tus aplicaciones web.",
+      "fr": "Comprenez l'origine des bugs grâce à des enregistrements de sessions, un suivi des erreurs et des journaux pour vos applications.",
+      "de": "Verstehen Sie Fehlerursachen durch vollständige Sitzungsaufzeichnungen, Fehlerverfolgung und Protokolle für Ihre Webanwendungen."
+    },
+    "download_url": "https://app.highlight.io",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "bili23-downloader",
     "name": "Bili23-Downloader",
     "tagline": "Save and organize your favorite online videos",
@@ -9154,6 +9742,34 @@
     },
     "download_url": "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_windows_x64.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "databasus",
+    "name": "databasus",
+    "tagline": "Secure self-hosted database backup manager",
+    "repo_url": "https://github.com/databasus/databasus",
+    "full_name": "databasus/databasus",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "postgresql",
+      "backup"
+    ],
+    "icon": "/icons/databasus.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9312,
+    "tier": "tier2_webapp",
+    "summary": "Databasus is a free, self-hosted tool that automates database backups, point-in-time recovery, and restore verification across multiple cloud storages.",
+    "i18n": {
+      "it": "Databasus è un tool gratuito e autogestito per automatizzare backup, recupero puntuale e verifica dei database.",
+      "es": "Databasus es una herramienta gratuita para automatizar copias de seguridad de bases de datos y recuperación precisa.",
+      "fr": "Databasus est un outil gratuit et auto-hébergé pour automatiser les sauvegardes et la restauration de bases de données.",
+      "de": "Databasus ist ein kostenloses, selbstgehostetes Tool zur Automatisierung von Datenbank-Backups und Wiederherstellungen."
+    },
+    "download_url": "https://databasus.com",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "prompts",
@@ -9184,6 +9800,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "teslamate",
+    "name": "teslamate",
+    "tagline": "Powerful self-hosted data logger for Tesla",
+    "repo_url": "https://github.com/teslamate-org/teslamate",
+    "full_name": "teslamate-org/teslamate",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "tesla",
+      "data-logger"
+    ],
+    "icon": "/icons/teslamate.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 9298,
+    "tier": "tier2_webapp",
+    "summary": "Track your vehicle trips, charging costs, and battery health with a private data logger that puts you in full control.",
+    "i18n": {
+      "it": "Monitora i viaggi, i costi di ricarica e la salute della batteria della tua auto con un registro privato e sicuro.",
+      "es": "Monitorea tus viajes, costos de carga y salud de la batería con un registrador de datos privado bajo tu control.",
+      "fr": "Suivez vos trajets, vos coûts de recharge et l'état de votre batterie grâce à un journal de bord privé et sécurisé.",
+      "de": "Verfolgen Sie Fahrten, Ladekosten und den Batteriezustand mit einem privaten Datenlogger, der Ihnen die Kontrolle gibt."
+    },
+    "download_url": "https://docs.teslamate.org",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "conemu",
     "name": "ConEmu",
     "tagline": "Customizable Windows terminal with tabs and splits.",
@@ -9210,6 +9854,62 @@
     },
     "download_url": "https://github.com/ConEmu/ConEmu/releases/download/v23.07.24/ConEmuSetup.230724.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "atlas",
+    "name": "Atlas",
+    "tagline": "Track and coordinate coding agents seamlessly.",
+    "repo_url": "https://github.com/tryatlas/atlas",
+    "full_name": "tryatlas/atlas",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "agents"
+    ],
+    "icon": "/icons/atlas.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9178,
+    "tier": "tier2_webapp",
+    "summary": "Atlas records coding agent sessions, links them to code changes, and lets your team collaborate on artificial intelligence workflows.",
+    "i18n": {
+      "it": "Atlas registra le sessioni degli agenti di codifica, le collega alle modifiche del codice e favorisce la collaborazione.",
+      "es": "Atlas registra sesiones de agentes de código, las vincula con cambios y permite colaborar en flujos de trabajo.",
+      "fr": "Atlas enregistre les sessions d'agents de codage, les relie aux modifications et facilite la collaboration.",
+      "de": "Atlas zeichnet Programmieragenten-Sitzungen auf, verknüpft sie mit Codeänderungen und fördert Teamarbeit."
+    },
+    "download_url": "https://github.com/tryatlas/atlas/releases/download/alpha-0.5.1/Atlas_0.5.1_x64_en-US.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "microsandbox",
+    "name": "microsandbox",
+    "tagline": "Run untrusted workloads in secure microVMs",
+    "repo_url": "https://github.com/superradcompany/microsandbox",
+    "full_name": "superradcompany/microsandbox",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "virtualization",
+      "security"
+    ],
+    "icon": "/icons/microsandbox.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9163,
+    "tier": "tier2_webapp",
+    "summary": "Execute untrusted code, AI agents, and development environments safely using lightning-fast local virtual machines with instant startup times.",
+    "i18n": {
+      "it": "Esegui codice non verificato e agenti IA in sicurezza usando macchine virtuali locali superveloci con avvio immediato.",
+      "es": "Ejecuta código no confiable y agentes de IA de forma segura usando máquinas virtuales locales rápidas con inicio instantáneo.",
+      "fr": "Exécutez du code non sécurisé et des agents IA en toute sécurité grâce à des machines virtuelles locales ultrarapides.",
+      "de": "Führe nicht vertrauenswürdigen Code und KI-Agenten sicher in ultraschnellen lokalen virtuellen Maschinen ohne Verzögerung aus."
+    },
+    "download_url": "https://github.com/superradcompany/microsandbox/releases/download/v0.7.16/msb-metrics-windows-aarch64.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "whatcable",

@@ -96,5 +96,12 @@
     "html_url": "https://github.com/rememberber/MooTool",
     "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-21T17:25:57.699000+00:00"
+  },
+  {
+    "full_name": "MervinPraison/PraisonAI",
+    "slug": "praisonai",
+    "html_url": "https://github.com/MervinPraison/PraisonAI",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-21T17:29:19.130676+00:00"
   }
 ]
