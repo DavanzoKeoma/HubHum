@@ -6,7 +6,7 @@ macro_category: "Security & Privacy"
 macro_slug: "security-privacy"
 intent: "pillar"
 summary: "Protect passwords, monitor network traffic, and declutter operating systems safely with transparent free software."
-child_slugs: ["security-privacy/password-network-privacy", "security-privacy/system-cleaners-auditors"]
+child_slugs: ["security-privacy/password-network-privacy"]
 sibling_slugs: []
 app_slugs: ["sherlock", "mole", "win11debloat", "sniffnet", "maigret", "pentagi", "gitleaks", "keepassxc", "setup-ipsec-vpn", "pangolin", "safeline", "termix", "v2raya", "esp32marauder", "sophia-script-for-windows", "gui-for-singbox", "bleachbit", "airgorah"]
 updated_at: "2026-11-21"

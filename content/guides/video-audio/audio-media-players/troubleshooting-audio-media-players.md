@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/how-to-choose-audio-media-players"]
-app_slugs: ["navidrome", "spotify-tui", "audacity", "spotifast", "finetune"]
+app_slugs: ["pear-desktop", "navidrome", "vlc", "spotify-tui", "audacity"]
 updated_at: "2026-11-21"
 ---
 
@@ -30,8 +30,8 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 ### Recommended Alternatives Covered
 
+- **[Pear Desktop](/HubHum/apps/pear-desktop/)** (Desktop App) — Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer.
 - **[Navidrome](/HubHum/apps/navidrome/)** (Self-Hosted Web App) — Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device.
+- **[VLC](/HubHum/apps/vlc/)** (Desktop App) — VLC is a versatile media player that opens almost any video or audio file without needing extra downloads.
 - **[spotify-tui](/HubHum/apps/spotify-tui/)** (CLI Tool) — Manage your music player with a lightning-fast interface that runs entirely inside your text terminal.
 - **[Audacity](/HubHum/apps/audacity/)** (Desktop App) — Record your voice, remove background noise, mix tracks, and export podcasts or music free on Windows, Mac, and Linux.
-- **[Spotifast](/HubHum/apps/spotifast/)** (Desktop App) — Spotifast provides a snappy, native desktop home for your music library, allowing you to browse playlists, search tracks, and control playback directly from your computer.
-- **[FineTune](/HubHum/apps/finetune/)** (Desktop App) — Take independent volume control of every app on your Mac, boost quiet sounds, and route audio effortlessly from your menu bar.

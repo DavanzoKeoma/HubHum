@@ -4,15 +4,17 @@ slug: "top-free-apps-this-week"
 category: "Curated Guides"
 summary: "Essential free tools to organize private notes, edit video and audio without limits, protect passwords, and publish online."
 tags: ["collection", "productivity", "privacy", "video"]
-app_slugs: ["joplin", "ghost", "losslesscut", "keepassxc", "audacity"]
-updated_at: "2026-11-18"
+app_slugs: ["joplin", "ghost", "losslesscut", "keepassxc", "audacity", "cc-switch"]
+updated_at: "2026-11-21"
 ---
 
 ### Why this curated guide
 Every week we highlight trustworthy free software that replaces costly monthly subscriptions with simple, reliable alternatives you control.
 
 ### Featured highlights
-* **Private notes everywhere:** Use **Joplin** to keep encrypted notebooks across your phone and laptop.
-* **Independent publishing:** Launch a newsletter and blog with **Ghost** while keeping full ownership of your readers.
-* **Fast video & audio editing:** Trim clips instantly with **LosslessCut** and record crisp audio using **Audacity**.
-* **Local password safety:** Protect every login inside an offline **KeePassXC** vault with zero recurring fees.
+* **[Joplin](/HubHum/apps/joplin/)** (*Desktop App*): Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.
+* **[Ghost](/HubHum/apps/ghost/)** (*Self-Hosted Web App*): Launch a fast blog, digital magazine, or paid newsletter while keeping complete ownership of your reader list.
+* **[LosslessCut](/HubHum/apps/losslesscut/)** (*Desktop App*): Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times.
+* **[KeePassXC](/HubHum/apps/keepassxc/)** (*Desktop App*): Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees.
+* **[Audacity](/HubHum/apps/audacity/)** (*Desktop App*): Record your voice, remove background noise, mix tracks, and export podcasts or music free on Windows, Mac, and Linux.
+* **[CC Switch](/HubHum/apps/cc-switch/)** (*Desktop App*): Switch between different AI service providers with a single click and organize your prompts, plugins, and helper tools in one unified dashboard.

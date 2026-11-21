@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "video-audio/free-video-editors"
 child_slugs: []
 sibling_slugs: ["video-audio/free-video-editors/best-free-video-editors", "video-audio/free-video-editors/how-to-choose-free-video-editors"]
-app_slugs: ["yt-dlp", "losslesscut", "handbrake", "vlc", "concat"]
+app_slugs: ["yt-dlp", "losslesscut", "handbrake", "concat", "youtube-dl-gui"]
 updated_at: "2026-11-21"
 ---
 
@@ -33,5 +33,5 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 - **[yt-dlp](/HubHum/apps/yt-dlp/)** (CLI Tool) — A reliable tool to save audio and video from thousands of online websites directly to your computer.
 - **[LosslessCut](/HubHum/apps/losslesscut/)** (Desktop App) — Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times.
 - **[HandBrake](/HubHum/apps/handbrake/)** (Desktop App) — Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen.
-- **[VLC](/HubHum/apps/vlc/)** (Desktop App) — VLC is a versatile media player that opens almost any video or audio file without needing extra downloads.
 - **[Concat](/HubHum/apps/concat/)** (Self-Hosted Web App) — Concat is a completely free, privacy-focused video editor that runs entirely on your device with no watermarks, subscriptions, or uploads.
+- **[youtube-dl-gui](/HubHum/apps/youtube-dl-gui/)** (Desktop App) — Download online videos easily with a clean visual window instead of using complicated text commands.

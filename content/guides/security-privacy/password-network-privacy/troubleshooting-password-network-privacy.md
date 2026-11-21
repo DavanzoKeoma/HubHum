@@ -1,23 +1,23 @@
 ---
-title: "Common Password Managers, VPNs & Network Monitors Problems & How to Fix Them"
+title: "Common Privacy Tools, VPNs & Network Monitors Problems & How to Fix Them"
 slug: "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"
 level: 3
 macro_category: "Security & Privacy"
 macro_slug: "security-privacy"
-sub_topic: "Password Managers, VPNs & Network Monitors"
+sub_topic: "Privacy Tools, VPNs & Network Monitors"
 sub_slug: "password-network-privacy"
 intent: "troubleshooting"
-summary: "Practical troubleshooting tips for terminal tools vs GUI installers, self-hosted setup, and system compatibility in Password Managers, VPNs & Network Monitors."
+summary: "Practical troubleshooting tips for terminal tools vs GUI installers, self-hosted setup, and system compatibility in Privacy Tools, VPNs & Network Monitors."
 parent_slug: "security-privacy/password-network-privacy"
 child_slugs: []
 sibling_slugs: ["security-privacy/password-network-privacy/best-password-network-privacy", "security-privacy/password-network-privacy/how-to-choose-password-network-privacy"]
-app_slugs: ["sniffnet", "gitleaks", "keepassxc", "setup-ipsec-vpn", "pangolin"]
+app_slugs: ["sherlock", "mole", "win11debloat", "sniffnet", "maigret"]
 updated_at: "2026-11-21"
 ---
 
-## Fixing Common Problems with Free Password Managers, VPNs & Network Monitors
+## Fixing Common Problems with Free Privacy Tools, VPNs & Network Monitors
 
-Moving away from expensive commercial software occasionally brings small setup questions. Here are the most common hurdles everyday users face with **Password Managers, VPNs & Network Monitors** and how to avoid them:
+Moving away from expensive commercial software occasionally brings small setup questions. Here are the most common hurdles everyday users face with **Privacy Tools, VPNs & Network Monitors** and how to avoid them:
 
 ### 1. Opening a Command-Line Tool Expecting Visual Buttons
 Some top tools (marked **CLI Tool**) do not open a traditional window—double-clicking their executable flashes a terminal and closes. Check the format badge before downloading: choose a **Desktop App** if you prefer visual buttons, or open a terminal prompt when running CLI tools.
@@ -30,8 +30,8 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 ### Recommended Alternatives Covered
 
+- **[Sherlock](/HubHum/apps/sherlock/)** (CLI Tool) — Easily discover where a specific username is registered across hundreds of online platforms and social networks in seconds.
+- **[Mole](/HubHum/apps/mole/)** (Desktop App) — Mole is an open-source system cleaner that removes junk files, uninstalls applications completely, and monitors system performance.
+- **[Win11Debloat](/HubHum/apps/win11debloat/)** (Desktop App) — Remove unwanted pre-installed apps, block background tracking, and declutter your computer interface in just a few clicks.
 - **[Sniffnet](/HubHum/apps/sniffnet/)** (Desktop App) — Easily observe and analyze your computer's internet traffic in real-time with visual graphs, custom alerts, and security filters.
-- **[Gitleaks](/HubHum/apps/gitleaks/)** (CLI Tool) — Scan your code repositories and directories to find accidentally exposed passwords, API keys, and sensitive tokens before they leak.
-- **[KeePassXC](/HubHum/apps/keepassxc/)** (Desktop App) — Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees.
-- **[setup-ipsec-vpn](/HubHum/apps/setup-ipsec-vpn/)** (Self-Hosted Web App) — Easily create your own secure personal virtual private network server in minutes without complicated manual steps.
-- **[Pangolin](/HubHum/apps/pangolin/)** (Self-Hosted Web App) — Safely connect to your private web apps, remote desktops, and servers without exposing them to the public internet.
+- **[Maigret](/HubHum/apps/maigret/)** (CLI Tool) — Maigret gathers online profile information by scanning thousands of public websites using only a username.

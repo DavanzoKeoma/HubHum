@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Window Switchers & Everyday Wo
 parent_slug: "productivity/desktop-workflow-helpers"
 child_slugs: []
 sibling_slugs: ["productivity/desktop-workflow-helpers/best-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"]
-app_slugs: ["orca", "openhands", "termux-app", "dbeaver", "bruno", "ifixai"]
+app_slugs: ["cc-switch", "orca", "openhands", "termux-app", "pake", "dbeaver"]
 updated_at: "2026-11-21"
 ---
 
@@ -25,9 +25,9 @@ Switching to free open-source tools in **Window Switchers & Everyday Workflow He
 
 ### Great Starting Points in Window Switchers & Everyday Workflow Helpers
 
+- **[CC Switch](/HubHum/apps/cc-switch/)** (Desktop App) — Switch between different AI service providers with a single click and organize your prompts, plugins, and helper tools in one unified dashboard.
 - **[orca](/HubHum/apps/orca/)** (Desktop App) — Orca lets you run multiple AI coding assistants at the same time, giving each helper its own dedicated workspace so they never interfere with each other.
 - **[OpenHands](/HubHum/apps/openhands/)** (Desktop App) — OpenHands turns smart coding assistants into a reliable, always-on engineering team that automates your everyday tasks and workflows.
 - **[Termux App](/HubHum/apps/termux-app/)** (Desktop App) — Turn your Android device into a powerful Linux workstation with a complete command line environment and package manager.
+- **[Pake](/HubHum/apps/pake/)** (Desktop App) — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.
 - **[DBeaver](/HubHum/apps/dbeaver/)** (Desktop App) — Universal database tool for viewing, editing, and managing hundreds of different database systems effortlessly.
-- **[Bruno](/HubHum/apps/bruno/)** (Desktop App) — Bruno is a lightweight, offline-first application that helps developers explore, test, and organize web requests directly on their device.
-- **[iFixAi](/HubHum/apps/ifixai/)** (Desktop App) — iFixAi independently audits your automated assistants to verify they follow company rules, never leak data, and do what they are supposed to do.

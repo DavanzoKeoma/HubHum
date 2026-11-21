@@ -6,7 +6,7 @@ macro_category: "Web Apps & Cloud"
 macro_slug: "web-apps-cloud"
 intent: "pillar"
 summary: "Run modern dashboards, publishing tools, bookmark hubs, and family cloud apps directly in your browser."
-child_slugs: ["web-apps-cloud/self-hosted-cloud-apps", "web-apps-cloud/server-dashboards-automation"]
+child_slugs: ["web-apps-cloud/self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cloud-apps", "web-apps-cloud/server-dashboards-automation"]
 sibling_slugs: []
 app_slugs: ["n8n", "dify", "open-webui", "immich", "stirling-pdf", "uptime-kuma", "netdata", "unsloth", "coolify", "memos", "gitea", "serviette", "appwrite", "ghost", "new-api", "clickhouse", "huginn", "nanobot"]
 updated_at: "2026-11-21"
@@ -14,7 +14,7 @@ updated_at: "2026-11-21"
 
 ## Why Explore Free Web Apps & Cloud Software?
 
-This central guide brings together **70 verified free applications** in the **Web Apps & Cloud** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **105 verified free applications** in the **Web Apps & Cloud** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Web Apps & Cloud
 
