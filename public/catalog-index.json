@@ -15399,6 +15399,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "agenta",
+    "name": "Agenta",
+    "tagline": "Build and share AI coworkers by chatting",
+    "repo_url": "https://github.com/agenta-ai/agenta",
+    "full_name": "agenta-ai/agenta",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/agenta.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 4925,
+    "tier": "tier2_webapp",
+    "summary": "Agenta is a collaborative workspace where teams build, test, and manage custom AI agents that handle complex tasks and automations.",
+    "i18n": {
+      "it": "Agenta è uno spazio di lavoro collaborativo per creare, testare e gestire assistenti AI personalizzati per automatizzare il lavoro di squadra.",
+      "es": "Agenta es un espacio de trabajo colaborativo para crear, probar y gestionar asistentes de IA personalizados que automatizan tareas en equipo.",
+      "fr": "Agenta est un espace de travail collaboratif pour créer, tester et gérer des assistants IA personnalisés afin d'automatiser le travail d'équipe.",
+      "de": "Agenta ist ein kollaborativer Arbeitsbereich zum Erstellen, Testen und Verwalten maßgeschneiderter KI-Agenten für die Team-Automatisierung."
+    },
+    "download_url": "https://www.agenta.ai",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "mach",
     "name": "Mach",
     "tagline": "High-performance game engine and graphics toolkit",
@@ -15452,6 +15480,34 @@
       "de": "ZapFast ist eine leichte und schnelle Messaging-Anwendung, die eine effiziente native Alternative zu schwereren Web-Versionen bietet."
     },
     "download_url": "https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-v0.21.3-aarch64-pc-windows-msvc.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "qui",
+    "name": "qui",
+    "tagline": "A modern, fast interface for qBittorrent",
+    "repo_url": "https://github.com/autobrr/qui",
+    "full_name": "autobrr/qui",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "file-sharing",
+      "productivity"
+    ],
+    "icon": "/icons/qui.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v2)",
+    "stars": 4825,
+    "tier": "tier2_webapp",
+    "summary": "Manage multiple file-sharing instances from one simple, responsive dashboard that automates your daily download workflows.",
+    "i18n": {
+      "it": "Gestisci più istanze di condivisione file da un'unica dashboard reattiva che automatizza i tuoi flussi di lavoro.",
+      "es": "Gestiona múltiples instancias de intercambio de archivos desde un panel sencillo que automatiza tus tareas diarias.",
+      "fr": "Gérez plusieurs instances de partage de fichiers depuis un tableau de bord simple qui automatise vos tâches.",
+      "de": "Verwalten Sie mehrere Dateifreigabe-Instanzen über ein einfaches Dashboard, das Ihre täglichen Arbeitsabläufe automatisiert."
+    },
+    "download_url": "https://github.com/autobrr/qui/releases/download/v1.36.0/qui_1.36.0_windows_x86_64.msi",
     "updated_at": "2026-11-21"
   },
   {
@@ -15567,6 +15623,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "switch",
+    "name": "Switch",
+    "tagline": "AI teammates for your chat apps",
+    "repo_url": "https://github.com/sandbox-quantum/switch",
+    "full_name": "sandbox-quantum/switch",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/switch.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 4681,
+    "tier": "tier2_webapp",
+    "summary": "Switch brings intelligent AI assistants directly into your team's existing messaging apps to help manage tasks, documents, and workflows.",
+    "i18n": {
+      "it": "Switch integra assistenti AI intelligenti nelle tue app di messaggistica per gestire compiti, documenti e flussi di lavoro.",
+      "es": "Switch integra asistentes de IA inteligentes en tus aplicaciones de mensajería para gestionar tareas, documentos y flujos de trabajo.",
+      "fr": "Switch intègre des assistants IA intelligents dans vos applications de messagerie pour gérer les tâches, documents et flux de travail.",
+      "de": "Switch integriert intelligente KI-Assistenten in Ihre Messaging-Apps, um Aufgaben, Dokumente und Arbeitsabläufe zu verwalten."
+    },
+    "download_url": "https://github.com/sandbox-quantum/switch/releases/download/switch-console-v0.41.1/switch-console-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "piik",
+    "name": "Piik",
+    "tagline": "Private screen sharing for friends",
+    "repo_url": "https://github.com/tntcrafthim/piik",
+    "full_name": "tntcrafthim/piik",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "streaming",
+      "screen-sharing"
+    ],
+    "icon": "/icons/piik.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4668,
+    "tier": "tier2_webapp",
+    "summary": "Piik lets you share your screen, games, or movies with friends in a private, browser-based room without needing complex software.",
+    "i18n": {
+      "it": "Piik ti permette di condividere lo schermo, giochi o film con amici in una stanza privata via browser senza software complessi.",
+      "es": "Piik te permite compartir tu pantalla, juegos o películas con amigos en una sala privada desde el navegador sin software complejo.",
+      "fr": "Piik vous permet de partager votre écran, vos jeux ou vos films avec des amis dans un salon privé via navigateur sans logiciel complexe.",
+      "de": "Piik ermöglicht es dir, deinen Bildschirm, Spiele oder Filme mit Freunden in einem privaten Browser-Raum ohne komplexe Software zu teilen."
+    },
+    "download_url": "https://github.com/TNTcraftHIM/Piik/releases/download/v2.8.0/piik-app-android-universal.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "webui",
     "name": "webui",
     "tagline": "Use any browser as app interface",
@@ -15623,6 +15735,90 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "dagu",
+    "name": "Dagu",
+    "tagline": "Simple local workflow and task automation",
+    "repo_url": "https://github.com/dagucloud/dagu",
+    "full_name": "dagucloud/dagu",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "automation",
+      "productivity"
+    ],
+    "icon": "/icons/dagu.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 4644,
+    "tier": "tier2_webapp",
+    "summary": "Dagu helps you organize and schedule your existing scripts and tasks into reliable workflows without needing complex software setups.",
+    "i18n": {
+      "it": "Dagu ti aiuta a organizzare e pianificare i tuoi script esistenti in flussi di lavoro affidabili senza configurazioni complesse.",
+      "es": "Dagu te ayuda a organizar y programar tus scripts existentes en flujos de trabajo fiables sin configuraciones complejas.",
+      "fr": "Dagu vous aide à organiser et planifier vos scripts existants en flux de travail fiables sans configurations complexes.",
+      "de": "Dagu hilft Ihnen, Ihre bestehenden Skripte und Aufgaben ohne komplexe Setups in zuverlässige Workflows zu organisieren."
+    },
+    "download_url": "https://github.com/dagucloud/dagu/releases/download/v2.27.0/dagu-windows-amd64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "prest",
+    "name": "pREST",
+    "tagline": "Instant web connections for your databases",
+    "repo_url": "https://github.com/prest/prest",
+    "full_name": "prest/prest",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "database",
+      "web-tools"
+    ],
+    "icon": "/icons/prest.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4637,
+    "tier": "tier2_webapp",
+    "summary": "pREST turns your existing database into a ready-to-use web service, allowing you to manage data without writing custom backend code.",
+    "i18n": {
+      "it": "pREST trasforma il tuo database in un servizio web pronto all'uso, permettendoti di gestire i dati senza scrivere codice backend.",
+      "es": "pREST convierte tu base de datos en un servicio web listo para usar, permitiéndote gestionar datos sin escribir código de backend.",
+      "fr": "pREST transforme votre base de données en un service web prêt à l'emploi, vous permettant de gérer vos données sans écrire de code backend.",
+      "de": "pREST macht Ihre Datenbank zu einem einsatzbereiten Webdienst, sodass Sie Daten ohne manuellen Programmieraufwand verwalten können."
+    },
+    "download_url": "https://github.com/prest/prest/releases/download/v2.6.0/prest_checksums.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "your-spotify",
+    "name": "Your Spotify",
+    "tagline": "Your personal music listening statistics dashboard",
+    "repo_url": "https://github.com/yooooomi/your_spotify",
+    "full_name": "yooooomi/your_spotify",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "music",
+      "statistics"
+    ],
+    "icon": "/icons/your-spotify.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 4632,
+    "tier": "tier2_webapp",
+    "summary": "Your Spotify is a private dashboard that tracks your listening habits and provides detailed insights into your music history.",
+    "i18n": {
+      "it": "Your Spotify è un pannello privato che monitora le tue abitudini di ascolto e offre statistiche dettagliate sulla tua cronologia musicale.",
+      "es": "Your Spotify es un panel privado que rastrea tus hábitos de escucha y ofrece estadísticas detalladas sobre tu historial musical.",
+      "fr": "Your Spotify est un tableau de bord privé qui suit vos habitudes d'écoute et fournit des statistiques détaillées sur votre historique musical.",
+      "de": "Your Spotify ist ein privates Dashboard, das Ihre Hörgewohnheiten verfolgt und detaillierte Einblicke in Ihre Musikgeschichte bietet."
+    },
+    "download_url": "https://github.com/Yooooomi/your_spotify/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "desktop-cc-gui",
     "name": "desktop-cc-gui",
     "tagline": "Unify multiple AI coding assistants easily.",
@@ -15648,6 +15844,62 @@
       "de": "Verwalten und steuern Sie verschiedene KI-Schreibassistenten in einer einzigen, übersichtlichen Desktop-Anwendung."
     },
     "download_url": "https://github.com/zhukunpenglinyutong/desktop-cc-gui/releases/download/v1.2.5/CC.GUI_1.2.5_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "13ft",
+    "name": "13ft",
+    "tagline": "Access articles without paywalls or ads",
+    "repo_url": "https://github.com/wasi-master/13ft",
+    "full_name": "wasi-master/13ft",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-tools",
+      "privacy"
+    ],
+    "icon": "/icons/13ft.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4599,
+    "tier": "tier2_webapp",
+    "summary": "13ft is a self-hosted tool that helps you view web content by bypassing common paywalls and intrusive advertisements.",
+    "i18n": {
+      "it": "13ft è uno strumento che ti permette di visualizzare contenuti web superando paywall e pubblicità fastidiose.",
+      "es": "13ft es una herramienta que te ayuda a ver contenido web evitando muros de pago y anuncios intrusivos.",
+      "fr": "13ft est un outil qui vous aide à consulter du contenu web en contournant les murs de paiement et les publicités.",
+      "de": "13ft ist ein Tool, mit dem Sie Webinhalte ohne Bezahlschranken und störende Werbung betrachten können."
+    },
+    "download_url": "https://github.com/wasi-master/13ft/releases/download/v0.5.0/portable.py",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "cloudflare-ddns",
+    "name": "Cloudflare DDNS",
+    "tagline": "Keep your home network accessible remotely.",
+    "repo_url": "https://github.com/timothymiller/cloudflare-ddns",
+    "full_name": "timothymiller/cloudflare-ddns",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "networking",
+      "cloudflare"
+    ],
+    "icon": "/icons/cloudflare-ddns.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 4572,
+    "tier": "tier2_webapp",
+    "summary": "This tool automatically updates your domain name settings whenever your home internet IP address changes.",
+    "i18n": {
+      "it": "Questo strumento aggiorna automaticamente le impostazioni del tuo dominio ogni volta che cambia l'indirizzo IP di casa.",
+      "es": "Esta herramienta actualiza automáticamente la configuración de tu dominio cada vez que cambia tu dirección IP de casa.",
+      "fr": "Cet outil met à jour automatiquement les paramètres de votre domaine chaque fois que votre adresse IP domestique change.",
+      "de": "Dieses Tool aktualisiert automatisch Ihre Domain-Einstellungen, sobald sich Ihre IP-Adresse zu Hause ändert."
+    },
+    "download_url": "https://timknowsbest.com/free-dynamic-dns",
     "updated_at": "2026-11-21"
   },
   {
@@ -15707,6 +15959,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "locally-uncensored",
+    "name": "Locally Uncensored",
+    "tagline": "Your private AI studio for desktop",
+    "repo_url": "https://github.com/purpledoubled/locally-uncensored",
+    "full_name": "purpledoubled/locally-uncensored",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "privacy"
+    ],
+    "icon": "/icons/locally-uncensored.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 4539,
+    "tier": "tier2_webapp",
+    "summary": "Run chat, image generation, and coding tools directly on your computer without needing an internet connection or complex setup.",
+    "i18n": {
+      "it": "Esegui chat, generazione di immagini e strumenti di programmazione direttamente sul tuo PC senza internet o configurazioni complesse.",
+      "es": "Ejecuta chats, generación de imágenes y herramientas de programación en tu PC sin necesidad de internet ni configuraciones difíciles.",
+      "fr": "Utilisez des outils de discussion, de création d'images et de code directement sur votre PC sans internet ni installation complexe.",
+      "de": "Nutze Chat, Bildgenerierung und Programmierwerkzeuge direkt auf deinem PC, ganz ohne Internet oder komplizierte Einrichtung."
+    },
+    "download_url": "https://github.com/PurpleDoubleD/locally-uncensored/releases/download/v3.1.2/Locally.Uncensored_3.1.2_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "opentrace",
     "name": "OpenTrace",
     "tagline": "Visualize your internet connection path easily",
@@ -15733,6 +16013,62 @@
     },
     "download_url": "https://github.com/Archeb/opentrace/releases/download/v1.5.2/osx-arm64.dmg",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "wakapi",
+    "name": "Wakapi",
+    "tagline": "Track your coding time privately.",
+    "repo_url": "https://github.com/muety/wakapi",
+    "full_name": "muety/wakapi",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "coding"
+    ],
+    "icon": "/icons/wakapi.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4480,
+    "tier": "tier2_webapp",
+    "summary": "Wakapi is a private, self-hosted tool that records how much time you spend on different programming projects and languages.",
+    "i18n": {
+      "it": "Wakapi è uno strumento privato e autogestito che registra quanto tempo dedichi ai tuoi progetti di programmazione.",
+      "es": "Wakapi es una herramienta privada y autohospedada que registra cuánto tiempo pasas en tus proyectos de programación.",
+      "fr": "Wakapi est un outil privé et auto-hébergé qui enregistre le temps passé sur vos différents projets de programmation.",
+      "de": "Wakapi ist ein privates, selbst gehostetes Tool, das aufzeichnet, wie viel Zeit Sie mit verschiedenen Programmierprojekten verbringen."
+    },
+    "download_url": "https://wakapi.dev",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kubero",
+    "name": "Kubero",
+    "tagline": "Easy self-hosted app management platform",
+    "repo_url": "https://github.com/kubero-dev/kubero",
+    "full_name": "kubero-dev/kubero",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "hosting",
+      "cloud"
+    ],
+    "icon": "/icons/kubero.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 4479,
+    "tier": "tier2_webapp",
+    "summary": "Kubero lets you host and manage your own applications easily without needing complex technical knowledge.",
+    "i18n": {
+      "it": "Kubero ti permette di ospitare e gestire le tue applicazioni facilmente senza conoscenze tecniche complesse.",
+      "es": "Kubero te permite alojar y gestionar tus propias aplicaciones fácilmente sin necesidad de conocimientos técnicos complejos.",
+      "fr": "Kubero vous permet d'héberger et de gérer vos propres applications facilement sans connaissances techniques complexes.",
+      "de": "Kubero ermöglicht es Ihnen, Ihre eigenen Anwendungen einfach und ohne komplexes technisches Fachwissen zu verwalten."
+    },
+    "download_url": "https://demo.kubero.dev",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "fselect",
@@ -15819,6 +16155,202 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "autobase",
+    "name": "Autobase",
+    "tagline": "Automate your PostgreSQL database infrastructure easily.",
+    "repo_url": "https://github.com/autobase-tech/autobase",
+    "full_name": "autobase-tech/autobase",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "database",
+      "postgresql"
+    ],
+    "icon": "/icons/autobase.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4449,
+    "tier": "tier2_webapp",
+    "summary": "Autobase helps you manage and deploy professional-grade database clusters on your own servers without needing specialized technical skills.",
+    "i18n": {
+      "it": "Autobase ti aiuta a gestire e distribuire cluster di database professionali sui tuoi server senza competenze tecniche avanzate.",
+      "es": "Autobase le ayuda a gestionar y desplegar grupos de bases de datos profesionales en sus propios servidores sin conocimientos técnicos.",
+      "fr": "Autobase vous aide à gérer et déployer des clusters de bases de données professionnels sur vos serveurs sans compétences techniques.",
+      "de": "Autobase hilft Ihnen bei der Verwaltung und Bereitstellung professioneller Datenbank-Cluster auf eigenen Servern ohne Fachwissen."
+    },
+    "download_url": "https://autobase.tech",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "blackcandy",
+    "name": "Black Candy",
+    "tagline": "Your own private music streaming server",
+    "repo_url": "https://github.com/blackcandy-org/blackcandy",
+    "full_name": "blackcandy-org/blackcandy",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "music",
+      "streaming"
+    ],
+    "icon": "/icons/blackcandy.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4434,
+    "tier": "tier2_webapp",
+    "summary": "Black Candy lets you host your own music collection and stream it to any device.",
+    "i18n": {
+      "it": "Black Candy ti permette di ospitare la tua collezione musicale e trasmetterla su qualsiasi dispositivo.",
+      "es": "Black Candy te permite alojar tu propia colección de música y transmitirla a cualquier dispositivo.",
+      "fr": "Black Candy vous permet d'héberger votre collection musicale et de la diffuser sur n'importe quel appareil.",
+      "de": "Black Candy ermöglicht es Ihnen, Ihre Musiksammlung zu hosten und auf jedes Gerät zu streamen."
+    },
+    "download_url": "https://github.com/blackcandy-org/blackcandy/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "harnessrouter",
+    "name": "HarnessRouter",
+    "tagline": "Unified interface for agent harnesses",
+    "repo_url": "https://github.com/harnessrouter/harnessrouter",
+    "full_name": "harnessrouter/harnessrouter",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/harnessrouter.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 4398,
+    "tier": "tier2_webapp",
+    "summary": "HarnessRouter connects various AI agent tools into one simple system, allowing you to manage tasks and workflows through a single interface.",
+    "i18n": {
+      "it": "HarnessRouter collega diversi strumenti di agenti AI in un unico sistema, permettendoti di gestire attività e flussi di lavoro da un'interfaccia.",
+      "es": "HarnessRouter conecta varias herramientas de agentes AI en un sistema único, permitiéndote gestionar tareas y flujos desde una interfaz.",
+      "fr": "HarnessRouter connecte divers outils d'agents IA en un seul système, vous permettant de gérer vos tâches et flux via une interface unique.",
+      "de": "HarnessRouter verbindet verschiedene KI-Agenten-Tools zu einem System, damit Sie Aufgaben und Abläufe über eine Oberfläche steuern können."
+    },
+    "download_url": "https://harnessrouter.ai/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "seanime",
+    "name": "Seanime",
+    "tagline": "Your personal anime and manga hub.",
+    "repo_url": "https://github.com/5rahim/seanime",
+    "full_name": "5rahim/seanime",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "media-server",
+      "anime"
+    ],
+    "icon": "/icons/seanime.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 4345,
+    "tier": "tier2_webapp",
+    "summary": "Seanime organizes your local media library and provides a unified interface for streaming anime and reading manga on any device.",
+    "i18n": {
+      "it": "Seanime organizza la tua libreria multimediale e offre un'interfaccia unificata per guardare anime e leggere manga su qualsiasi dispositivo.",
+      "es": "Seanime organiza tu biblioteca multimedia y ofrece una interfaz unificada para ver anime y leer manga en cualquier dispositivo.",
+      "fr": "Seanime organise votre bibliothèque multimédia et offre une interface unifiée pour regarder des anime et lire des mangas sur tout appareil.",
+      "de": "Seanime organisiert deine Mediathek und bietet eine einheitliche Oberfläche zum Streamen von Anime und Lesen von Manga auf jedem Gerät."
+    },
+    "download_url": "https://github.com/5rahim/seanime/releases/download/v3.10.5/seanime-denshi-3.10.5_Windows_x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "neriplayer",
+    "name": "NeriPlayer",
+    "tagline": "Unified music player for all sources",
+    "repo_url": "https://github.com/cwuom/neriplayer",
+    "full_name": "cwuom/neriplayer",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "icon": "/icons/neriplayer.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 4330,
+    "tier": "tier2_webapp",
+    "summary": "NeriPlayer is a versatile Android music app that combines your local files, online streaming services, and self-hosted music libraries into one place.",
+    "i18n": {
+      "it": "NeriPlayer è un versatile lettore musicale Android che unisce file locali, servizi di streaming e librerie musicali personali in un'unica app.",
+      "es": "NeriPlayer es un versátil reproductor de música para Android que combina tus archivos locales, servicios de streaming y bibliotecas personales.",
+      "fr": "NeriPlayer est une application Android polyvalente qui regroupe vos fichiers locaux, services de streaming et bibliothèques musicales personnelles.",
+      "de": "NeriPlayer ist ein vielseitiger Android-Musik-Player, der lokale Dateien, Streaming-Dienste und persönliche Musikbibliotheken an einem Ort vereint."
+    },
+    "download_url": "https://github.com/cwuom/NeriPlayer/releases/download/NeriPlayer-09526815.11171823/NeriPlayer-09526815.11171823-arm64-v8a.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "uptrace",
+    "name": "Uptrace",
+    "tagline": "Monitor your software performance and health",
+    "repo_url": "https://github.com/uptrace/uptrace",
+    "full_name": "uptrace/uptrace",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "monitoring",
+      "analytics"
+    ],
+    "icon": "/icons/uptrace.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 4320,
+    "tier": "tier2_webapp",
+    "summary": "Uptrace helps you track how your applications are performing by organizing logs, metrics, and activity data in one clear place.",
+    "i18n": {
+      "it": "Uptrace organizza log e metriche in un'unica interfaccia per monitorare le prestazioni e risolvere i problemi delle tue applicazioni.",
+      "es": "Uptrace organiza registros y métricas en una sola interfaz para monitorear el rendimiento y resolver problemas en tus aplicaciones.",
+      "fr": "Uptrace centralise les journaux et les mesures dans une interface unique pour surveiller les performances et résoudre les problèmes.",
+      "de": "Uptrace bündelt Protokolle und Metriken an einem Ort, um die Leistung Ihrer Anwendungen zu überwachen und Fehler schnell zu beheben."
+    },
+    "download_url": "https://github.com/uptrace/uptrace/releases/download/v2.1.0/uptrace_windows_amd64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ironcalc",
+    "name": "IronCalc",
+    "tagline": "A modern, high-performance spreadsheet engine.",
+    "repo_url": "https://github.com/ironcalc/ironcalc",
+    "full_name": "ironcalc/ironcalc",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "data"
+    ],
+    "icon": "/icons/ironcalc.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 4284,
+    "tier": "tier2_webapp",
+    "summary": "IronCalc provides a powerful foundation for building, reading, and writing spreadsheet files across various platforms and applications.",
+    "i18n": {
+      "it": "IronCalc offre una base potente per creare, leggere e scrivere file di fogli di calcolo su diverse piattaforme e applicazioni.",
+      "es": "IronCalc proporciona una base potente para crear, leer y escribir archivos de hojas de cálculo en diversas plataformas y aplicaciones.",
+      "fr": "IronCalc fournit une base puissante pour créer, lire et écrire des fichiers de tableur sur diverses plateformes et applications.",
+      "de": "IronCalc bietet eine leistungsstarke Grundlage zum Erstellen, Lesen und Schreiben von Tabellenkalkulationsdateien auf verschiedenen Plattformen."
+    },
+    "download_url": "https://www.ironcalc.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "lxrunoffline",
     "name": "LxRunOffline",
     "tagline": "Manage and move your computer environments easily",
@@ -15875,6 +16407,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "2fauth",
+    "name": "2FAuth",
+    "tagline": "Securely manage your login codes anywhere.",
+    "repo_url": "https://github.com/bubka/2fauth",
+    "full_name": "bubka/2fauth",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "security",
+      "privacy"
+    ],
+    "icon": "/icons/2fauth.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 4233,
+    "tier": "tier2_webapp",
+    "summary": "2FAuth is a private, self-hosted tool that stores your two-factor authentication codes and generates them on any device you choose.",
+    "i18n": {
+      "it": "2FAuth è uno strumento privato per archiviare e generare i tuoi codici di autenticazione a due fattori su qualsiasi dispositivo.",
+      "es": "2FAuth es una herramienta privada para almacenar y generar tus códigos de autenticación de dos factores en cualquier dispositivo.",
+      "fr": "2FAuth est un outil privé pour stocker et générer vos codes d'authentification à deux facteurs sur n'importe quel appareil.",
+      "de": "2FAuth ist ein privates Tool zum Speichern und Generieren Ihrer Zwei-Faktor-Authentifizierungscodes auf jedem beliebigen Gerät."
+    },
+    "download_url": "https://docs.2fauth.app/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "scrcpy-gui",
     "name": "Scrcpy GUI",
     "tagline": "Control and mirror Android effortlessly",
@@ -15900,6 +16460,202 @@
       "de": "Eine übersichtliche und moderne Benutzeroberfläche zur einfachen Anzeige und Steuerung Ihres Android-Geräts."
     },
     "download_url": "https://github.com/SimonAKing/scrcpy-gui/releases/download/v2.5.0/Scrcpy.GUI-2.5.0-win-ia32.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hi-events",
+    "name": "Hi.Events",
+    "tagline": "Take full control of event ticketing",
+    "repo_url": "https://github.com/hieventsdev/hi.events",
+    "full_name": "hieventsdev/hi.events",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "events",
+      "ticketing"
+    ],
+    "icon": "/icons/hi-events.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 4198,
+    "tier": "tier2_webapp",
+    "summary": "Hi.Events is an open-source platform that lets you sell tickets and manage events without paying high fees or losing your customer data.",
+    "i18n": {
+      "it": "Hi.Events è una piattaforma open source per vendere biglietti e gestire eventi mantenendo il pieno controllo sui dati e senza costi extra.",
+      "es": "Hi.Events es una plataforma de código abierto para vender entradas y gestionar eventos sin pagar comisiones altas ni perder tus datos.",
+      "fr": "Hi.Events est une plateforme open source pour vendre des billets et gérer des événements sans frais cachés ni perte de données clients.",
+      "de": "Hi.Events ist eine Open-Source-Plattform für den Ticketverkauf und die Eventverwaltung ohne hohe Gebühren oder Datenverlust."
+    },
+    "download_url": "https://hi.events",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "personal-management-system",
+    "name": "Personal Management System",
+    "tagline": "Your private hub for organizing personal data.",
+    "repo_url": "https://github.com/volmarg/personal-management-system",
+    "full_name": "volmarg/personal-management-system",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "self-hosted"
+    ],
+    "icon": "/icons/personal-management-system.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4196,
+    "tier": "tier2_webapp",
+    "summary": "This web application acts as a central dashboard to store your notes, passwords, finances, and files in one private, secure location.",
+    "i18n": {
+      "it": "Questa applicazione web funge da cruscotto centrale per archiviare note, password, finanze e file in un unico luogo privato e sicuro.",
+      "es": "Esta aplicación web actúa como un panel central para guardar tus notas, contraseñas, finanzas y archivos en un lugar privado y seguro.",
+      "fr": "Cette application web sert de tableau de bord central pour stocker vos notes, mots de passe, finances et fichiers dans un espace privé.",
+      "de": "Diese Webanwendung dient als zentrales Dashboard, um Notizen, Passwörter, Finanzen und Dateien an einem privaten Ort zu speichern."
+    },
+    "download_url": "https://personal-management-system.pl/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "job-ops",
+    "name": "JobOps",
+    "tagline": "Streamline your job search and applications",
+    "repo_url": "https://github.com/dakheera47/job-ops",
+    "full_name": "dakheera47/job-ops",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "career"
+    ],
+    "icon": "/icons/job-ops.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 4193,
+    "tier": "tier2_webapp",
+    "summary": "JobOps helps you find, track, and tailor your job applications across multiple platforms from one organized dashboard.",
+    "i18n": {
+      "it": "JobOps ti aiuta a trovare, tracciare e personalizzare le candidature su diverse piattaforme da un'unica dashboard organizzata.",
+      "es": "JobOps te ayuda a encontrar, rastrear y personalizar tus solicitudes de empleo en varias plataformas desde un panel centralizado.",
+      "fr": "JobOps vous aide à trouver, suivre et personnaliser vos candidatures sur plusieurs plateformes depuis un tableau de bord unique.",
+      "de": "JobOps hilft Ihnen dabei, Bewerbungen über verschiedene Plattformen hinweg von einem zentralen Dashboard aus zu finden und zu verwalten."
+    },
+    "download_url": "https://jobops.app/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "godoxy",
+    "name": "godoxy",
+    "tagline": "Simple self-hosted web gateway",
+    "repo_url": "https://github.com/yusing/godoxy",
+    "full_name": "yusing/godoxy",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "reverse-proxy",
+      "self-hosting"
+    ],
+    "icon": "/icons/godoxy.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 4192,
+    "tier": "tier2_webapp",
+    "summary": "GoDoxy is a lightweight tool that automatically routes web traffic to your private apps and containers.",
+    "i18n": {
+      "it": "GoDoxy è uno strumento leggero che instrada automaticamente il traffico web alle tue app private.",
+      "es": "GoDoxy es una herramienta ligera que enruta automáticamente el tráfico web a sus aplicaciones privadas.",
+      "fr": "GoDoxy est un outil léger qui achemine automatiquement le trafic web vers vos applications privées.",
+      "de": "GoDoxy ist ein leichtgewichtiges Tool, das Webverkehr automatisch zu Ihren privaten Apps leitet."
+    },
+    "download_url": "https://github.com/yusing/godoxy/releases/download/v0.34.0/godoxy-agent-linux-amd64",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nodewarden",
+    "name": "NodeWarden",
+    "tagline": "Secure Cloud Password Vault",
+    "repo_url": "https://github.com/shuaiplus/nodewarden",
+    "full_name": "shuaiplus/nodewarden",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "password-manager",
+      "cloudflare-workers"
+    ],
+    "icon": "/icons/nodewarden.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 4187,
+    "tier": "tier2_webapp",
+    "summary": "NodeWarden lets you run a Bitwarden‑compatible password manager on Cloudflare Workers, giving you a fast, offline‑ready web vault and full sync across devices.",
+    "i18n": {
+      "it": "NodeWarden ti permette di eseguire un gestore di password compatibile con Bitwarden su Cloudflare Workers, offrendo un web vault veloce, offline e sincronizzazione completa tra dispositivi.",
+      "es": "NodeWarden te permite ejecutar un gestor de contraseñas compatible con Bitwarden en Cloudflare Workers, con un web vault rápido, disponible sin conexión y sincronización total entre dispositivos.",
+      "fr": "NodeWarden te permet d'exécuter un gestionnaire de mots de passe compatible Bitwarden sur Cloudflare Workers, avec un web vault rapide, utilisable hors ligne et synchronisation complète entre appareils.",
+      "de": "NodeWarden ermöglicht es dir, einen Bitwarden‑kompatiblen Passwort‑Manager auf Cloudflare Workers auszuführen, mit einem schnellen, offline‑fähigen Web‑Vault und vollständiger Synchronisation zwischen Geräten."
+    },
+    "download_url": "https://nodewarden.app",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "radar",
+    "name": "Radar",
+    "tagline": "Clear visual dashboard for your cluster.",
+    "repo_url": "https://github.com/skyhook-io/radar",
+    "full_name": "skyhook-io/radar",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "kubernetes",
+      "monitoring"
+    ],
+    "icon": "/icons/radar.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 4182,
+    "tier": "tier2_webapp",
+    "summary": "Radar provides a simple, visual way to see what is happening inside your cluster, helping you spot and fix issues quickly.",
+    "i18n": {
+      "it": "Radar offre un modo semplice e visivo per vedere cosa succede nel tuo cluster, aiutandoti a individuare e risolvere i problemi rapidamente.",
+      "es": "Radar ofrece una forma sencilla y visual de ver lo que sucede en tu clúster, ayudándote a detectar y solucionar problemas rápidamente.",
+      "fr": "Radar offre un moyen simple et visuel de voir ce qui se passe dans votre cluster, vous aidant à repérer et résoudre les problèmes rapidement.",
+      "de": "Radar bietet eine einfache und visuelle Möglichkeit, Vorgänge in Ihrem Cluster zu sehen, damit Sie Probleme schnell finden und beheben können."
+    },
+    "download_url": "https://github.com/skyhook-io/radar/releases/download/v1.21.1/radar-desktop_v1.21.1_linux_amd64.AppImage",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "agenticresourceregistry",
+    "name": "Agentic Resource Registry",
+    "tagline": "Centralize and share your coding agent tools.",
+    "repo_url": "https://github.com/agenticresourceregistry/agenticresourceregistry",
+    "full_name": "agenticresourceregistry/agenticresourceregistry",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "ai-tools"
+    ],
+    "icon": "/icons/agenticresourceregistry.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 4168,
+    "tier": "tier2_webapp",
+    "summary": "This platform helps teams organize and discover internal coding agent resources in one secure, self-hosted location.",
+    "i18n": {
+      "it": "Una piattaforma per centralizzare e scoprire strumenti e risorse per agenti di programmazione all'interno del tuo team.",
+      "es": "Una plataforma para centralizar y descubrir herramientas y recursos para agentes de programación dentro de tu equipo.",
+      "fr": "Une plateforme pour centraliser et découvrir des outils et ressources pour agents de programmation au sein de votre équipe.",
+      "de": "Eine Plattform zur Zentralisierung und Entdeckung von Tools und Ressourcen für Programmier-Agenten in Ihrem Team."
+    },
+    "download_url": "https://github.com/AgenticResourceRegistry/AgenticResourceRegistry/releases/download/v1.17.1/observal-windows-arm64.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -15931,6 +16687,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "fugleramme",
+    "name": "fugleramme",
+    "tagline": "Turn bird songs into vintage art",
+    "repo_url": "https://github.com/arnegiacomo/fugleramme",
+    "full_name": "arnegiacomo/fugleramme",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "nature",
+      "smart-home"
+    ],
+    "icon": "/icons/fugleramme.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4100,
+    "tier": "tier2_webapp",
+    "summary": "Fugleramme listens to local birds and displays beautiful, hand-cut 1800s illustrations of the species it hears on any screen.",
+    "i18n": {
+      "it": "Fugleramme riconosce gli uccelli dal canto e mostra eleganti illustrazioni storiche dell'800 su qualsiasi schermo.",
+      "es": "Fugleramme identifica aves por su canto y muestra hermosas ilustraciones clásicas del siglo XIX en cualquier pantalla.",
+      "fr": "Fugleramme identifie les oiseaux par leur chant et affiche de superbes illustrations du XIXe siècle sur n'importe quel écran.",
+      "de": "Fugleramme erkennt Vögel am Gesang und zeigt handverlesene Illustrationen aus dem 19."
+    },
+    "download_url": "https://github.com/arnegiacomo/fugleramme/releases/download/v0.33.0/uv.lock",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "haxor-news",
     "name": "haxor-news",
     "tagline": "Browse Hacker News directly in terminal",
@@ -15957,6 +16741,62 @@
     },
     "download_url": "https://github.com/donnemartin/haxor-news/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "rustpad",
+    "name": "Rustpad",
+    "tagline": "Fast and private real-time collaborative editing",
+    "repo_url": "https://github.com/ekzhang/rustpad",
+    "full_name": "ekzhang/rustpad",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "collaboration"
+    ],
+    "icon": "/icons/rustpad.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4086,
+    "tier": "tier2_webapp",
+    "summary": "Rustpad is a lightweight, self-hosted text editor that lets multiple people write and edit code together in a web browser.",
+    "i18n": {
+      "it": "Rustpad è un editor di testo leggero e autogestito che permette a più persone di scrivere e modificare codice insieme nel browser.",
+      "es": "Rustpad es un editor de texto ligero y autohospedado que permite a varias personas escribir y editar código juntas en un navegador.",
+      "fr": "Rustpad est un éditeur de texte léger et auto-hébergé qui permet à plusieurs personnes d'écrire et de modifier du code ensemble.",
+      "de": "Rustpad ist ein leichtgewichtiger, selbst gehosteter Texteditor, mit dem mehrere Personen gemeinsam im Browser Code schreiben können."
+    },
+    "download_url": "https://rustpad.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "docker-zerotier-planet",
+    "name": "Docker ZeroTier Planet",
+    "tagline": "Self‑hosted ZeroTier network hub",
+    "repo_url": "https://github.com/xubiaolin/docker-zerotier-planet",
+    "full_name": "xubiaolin/docker-zerotier-planet",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "zerotier",
+      "self-hosted"
+    ],
+    "icon": "/icons/docker-zerotier-planet.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 4085,
+    "tier": "tier2_webapp",
+    "summary": "Run your own ZeroTier root server on a Linux box with Docker, giving you a private network manager and file service.",
+    "i18n": {
+      "it": "Installa su un server Linux un nodo ZeroTier con Docker, ottenendo un gestore di rete privato e un servizio di download dei file.",
+      "es": "Ejecuta en un servidor Linux un nodo ZeroTier mediante Docker, obteniendo un gestor de red privado y un servicio de descarga de archivos.",
+      "fr": "Installez sur un serveur Linux un nœud ZeroTier via Docker, obtenant ainsi un gestionnaire de réseau privé et un service de téléchargement de fichiers.",
+      "de": "Betreiben Sie auf einem Linux‑Server einen ZeroTier‑Knoten mit Docker und erhalten einen privaten Netzwerk‑Manager sowie einen Dateidownload‑Dienst."
+    },
+    "download_url": "https://github.com/xubiaolin/docker-zerotier-planet/releases",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "wslmanager",
@@ -16071,6 +16911,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "linux-android",
+    "name": "Linux on Android",
+    "tagline": "Turn old phones into Linux desktops",
+    "repo_url": "https://github.com/mayukh4/linux-android",
+    "full_name": "mayukh4/linux-android",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "android",
+      "linux"
+    ],
+    "icon": "/icons/linux-android.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 4017,
+    "tier": "tier2_webapp",
+    "summary": "Transform your unused Android device into a fully functional Linux desktop or a smart home server without needing a computer.",
+    "i18n": {
+      "it": "Trasforma il tuo vecchio smartphone Android in un vero computer Linux o in un server per la casa intelligente senza usare un PC.",
+      "es": "Transforma tu antiguo teléfono Android en un escritorio Linux funcional o en un servidor para el hogar inteligente sin usar un PC.",
+      "fr": "Transformez votre ancien téléphone Android en un bureau Linux complet ou en un serveur domotique sans avoir besoin d'un PC.",
+      "de": "Verwandeln Sie Ihr altes Android-Gerät in einen vollwertigen Linux-Desktop oder Smart-Home-Server, ganz ohne einen Computer."
+    },
+    "download_url": "https://youtu.be/tYm2rQpkOcg",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "laravel-zero",
     "name": "Laravel Zero",
     "tagline": "Build custom command-line tools easily.",
@@ -16099,6 +16967,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "open-compute",
+    "name": "open-compute",
+    "tagline": "Run your web services on your hardware.",
+    "repo_url": "https://github.com/elliothux/open-compute",
+    "full_name": "elliothux/open-compute",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-hosting",
+      "self-hosted"
+    ],
+    "icon": "/icons/open-compute.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3999,
+    "tier": "tier2_webapp",
+    "summary": "This tool lets you host and manage your own web applications on your own machine using a simple, single-file system.",
+    "i18n": {
+      "it": "Questo strumento ti permette di ospitare e gestire le tue applicazioni web sul tuo computer tramite un sistema semplice e compatto.",
+      "es": "Esta herramienta te permite alojar y gestionar tus aplicaciones web en tu propia máquina usando un sistema sencillo y compacto.",
+      "fr": "Cet outil vous permet d'héberger et de gérer vos applications web sur votre propre machine via un système simple et compact.",
+      "de": "Dieses Tool ermöglicht es Ihnen, Ihre Webanwendungen auf Ihrem eigenen Rechner mit einem einfachen, kompakten System zu hosten."
+    },
+    "download_url": "https://github.com/elliothux/open-compute/releases/download/v0.4.0/ocd-v0.4.0-darwin-arm64",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "linkstack",
+    "name": "LinkStack",
+    "tagline": "Your own private link-sharing hub",
+    "repo_url": "https://github.com/linkstackorg/linkstack",
+    "full_name": "linkstackorg/linkstack",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-tools",
+      "personal-branding"
+    ],
+    "icon": "/icons/linkstack.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3958,
+    "tier": "tier2_webapp",
+    "summary": "LinkStack lets you create a professional profile page to showcase all your important links in one place while keeping full control of your data.",
+    "i18n": {
+      "it": "Crea una pagina professionale per raccogliere tutti i tuoi link in un unico posto, mantenendo il pieno controllo sui tuoi dati personali.",
+      "es": "Crea una página profesional para mostrar todos tus enlaces importantes en un solo lugar, manteniendo el control total de tu información.",
+      "fr": "Créez une page professionnelle pour regrouper tous vos liens importants au même endroit tout en gardant le contrôle total de vos données.",
+      "de": "Erstelle eine professionelle Profilseite, um alle wichtigen Links an einem Ort zu bündeln und dabei die volle Kontrolle über deine Daten zu behalten."
+    },
+    "download_url": "https://linkstack.org",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "codex-desktop-linux",
     "name": "ChatGPT Community for Linux",
     "tagline": "Official ChatGPT experience tailored for Linux",
@@ -16124,6 +17048,34 @@
       "de": "Eine inoffizielle Desktop-App, die das offizielle ChatGPT-Erlebnis mit flexibler Paketunterstützung auf Linux bringt."
     },
     "download_url": "https://github.com/ilysenko/codex-desktop-linux/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "shaarli",
+    "name": "Shaarli",
+    "tagline": "Your own private, lightning-fast bookmark manager.",
+    "repo_url": "https://github.com/shaarli/shaarli",
+    "full_name": "shaarli/shaarli",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "web-tools"
+    ],
+    "icon": "/icons/shaarli.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 3924,
+    "tier": "tier2_webapp",
+    "summary": "Shaarli is a minimalist tool that lets you save, organize, and share your favorite links from across the web on your own personal server.",
+    "i18n": {
+      "it": "Shaarli è uno strumento minimalista che ti permette di salvare, organizzare e condividere i tuoi link preferiti sul tuo server personale.",
+      "es": "Shaarli es una herramienta minimalista que te permite guardar, organizar y compartir tus enlaces favoritos en tu propio servidor personal.",
+      "fr": "Shaarli est un outil minimaliste qui vous permet d'enregistrer, d'organiser et de partager vos liens favoris sur votre propre serveur.",
+      "de": "Shaarli ist ein minimalistisches Werkzeug, mit dem Sie Ihre Lieblingslinks speichern, organisieren und auf Ihrem eigenen Server teilen können."
+    },
+    "download_url": "https://shaarli.readthedocs.io/",
     "updated_at": "2026-11-21"
   },
   {
@@ -16211,6 +17163,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "adventurelog",
+    "name": "AdventureLog",
+    "tagline": "Your personal private travel diary",
+    "repo_url": "https://github.com/seanmorley15/adventurelog",
+    "full_name": "seanmorley15/adventurelog",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "travel",
+      "maps"
+    ],
+    "icon": "/icons/adventurelog.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 3896,
+    "tier": "tier2_webapp",
+    "summary": "AdventureLog is a private digital space to map your travels, organize trip itineraries, and store memories without relying on big tech companies.",
+    "i18n": {
+      "it": "AdventureLog è uno spazio digitale privato per mappare i tuoi viaggi, organizzare itinerari e conservare ricordi senza dipendere da grandi aziende.",
+      "es": "AdventureLog es un espacio digital privado para mapear tus viajes, organizar itinerarios y guardar recuerdos sin depender de grandes empresas.",
+      "fr": "AdventureLog est un espace numérique privé pour cartographier vos voyages, organiser vos itinéraires et garder vos souvenirs sans dépendre des géants.",
+      "de": "AdventureLog ist ein privater digitaler Ort, um Ihre Reisen zu kartieren, Routen zu planen und Erinnerungen ohne Abhängigkeit von Großkonzernen zu speichern."
+    },
+    "download_url": "https://adventurelog.app",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "stablediffusion-infinity",
     "name": "stablediffusion-infinity",
     "tagline": "Expand pictures infinitely using artificial intelligence",
@@ -16236,6 +17216,62 @@
       "de": "Erstellen Sie atemberaubende, endlose Kunstwerke, indem Sie nahtlos neue Hintergrunddetails um jedes Foto herum generieren."
     },
     "download_url": "https://github.com/lkwq007/stablediffusion-infinity/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "memories",
+    "name": "Memories",
+    "tagline": "Fast photo management for your cloud",
+    "repo_url": "https://github.com/pulsejet/memories",
+    "full_name": "pulsejet/memories",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "photos",
+      "nextcloud"
+    ],
+    "icon": "/icons/memories.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3885,
+    "tier": "tier2_webapp",
+    "summary": "Memories is a powerful photo and video gallery that integrates directly into your private cloud storage to keep your media organized.",
+    "i18n": {
+      "it": "Memories è una galleria di foto e video che si integra nel tuo spazio cloud privato per mantenere i tuoi file sempre organizzati.",
+      "es": "Memories es una galería de fotos y videos que se integra en tu almacenamiento en la nube para mantener tus archivos organizados.",
+      "fr": "Memories est une galerie photo et vidéo qui s'intègre à votre stockage cloud privé pour garder vos fichiers bien organisés.",
+      "de": "Memories ist eine Foto- und Videogalerie, die sich in Ihren privaten Cloud-Speicher integriert, um Ihre Medien übersichtlich zu halten."
+    },
+    "download_url": "https://memories.gallery",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kitchenowl",
+    "name": "kitchenowl",
+    "tagline": "Smart grocery lists and meal planning",
+    "repo_url": "https://github.com/tombursch/kitchenowl",
+    "full_name": "tombursch/kitchenowl",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "grocery",
+      "recipes"
+    ],
+    "icon": "/icons/kitchenowl.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3879,
+    "tier": "tier2_webapp",
+    "summary": "Manage household grocery lists, recipes, meal plans, and shared expenses in one clean, self-hosted workspace.",
+    "i18n": {
+      "it": "Organizza liste della spesa, ricette, piani alimentari e spese condivise in un'unica piattaforma personale.",
+      "es": "Gestiona listas de compras, recetas, planes de comidas y gastos compartidos en un espacio propio.",
+      "fr": "Gérez vos listes de courses, recettes, menus de la semaine et dépenses partagées sur votre propre serveur.",
+      "de": "Organisieren Sie Einkaufslisten, Rezepte, Essenspläne und Haushaltsausgaben in einer eigenen Umgebung."
+    },
+    "download_url": "https://github.com/TomBursch/kitchenowl/releases/download/v0.8.1/kitchenowl_Android.apk",
     "updated_at": "2026-11-21"
   },
   {
@@ -16323,6 +17359,90 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "yamtrack",
+    "name": "Yamtrack",
+    "tagline": "Your personal hub for tracking all media.",
+    "repo_url": "https://github.com/fuzzygrim/yamtrack",
+    "full_name": "fuzzygrim/yamtrack",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "media-tracker",
+      "self-hosted"
+    ],
+    "icon": "/icons/yamtrack.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3855,
+    "tier": "tier2_webapp",
+    "summary": "Yamtrack is a private, self-hosted dashboard that helps you organize movies, books, games, and shows in one convenient place.",
+    "i18n": {
+      "it": "Yamtrack è una piattaforma privata per organizzare film, libri, giochi e serie TV in un unico posto.",
+      "es": "Yamtrack es un panel privado para organizar películas, libros, juegos y programas en un solo lugar.",
+      "fr": "Yamtrack est un tableau de bord privé pour organiser vos films, livres, jeux et séries en un seul endroit.",
+      "de": "Yamtrack ist eine private Plattform zur Verwaltung von Filmen, Büchern, Spielen und Serien an einem Ort."
+    },
+    "download_url": "https://github.com/FuzzyGrim/Yamtrack/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "openoutreach",
+    "name": "OpenOutreach",
+    "tagline": "AI-powered outreach that finds your customers.",
+    "repo_url": "https://github.com/eracle/openoutreach",
+    "full_name": "eracle/openoutreach",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "business"
+    ],
+    "icon": "/icons/openoutreach.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3807,
+    "tier": "tier2_webapp",
+    "summary": "OpenOutreach is an intelligent tool that finds potential business leads and sends personalized emails directly from your own mailbox.",
+    "i18n": {
+      "it": "OpenOutreach è uno strumento intelligente che trova potenziali contatti commerciali e invia email personalizzate dalla tua casella postale.",
+      "es": "OpenOutreach es una herramienta inteligente que encuentra clientes potenciales y envía correos electrónicos personalizados desde tu propio buzón.",
+      "fr": "OpenOutreach est un outil intelligent qui trouve des prospects commerciaux et envoie des e-mails personnalisés depuis votre propre boîte mail.",
+      "de": "OpenOutreach ist ein intelligentes Tool, das potenzielle Geschäftskontakte findet und personalisierte E-Mails direkt aus Ihrem Postfach sendet."
+    },
+    "download_url": "https://openoutreach.app",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ansible-nas",
+    "name": "Ansible-NAS",
+    "tagline": "Turn any computer into a home server.",
+    "repo_url": "https://github.com/davestephens/ansible-nas",
+    "full_name": "davestephens/ansible-nas",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "server",
+      "automation"
+    ],
+    "icon": "/icons/ansible-nas.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3802,
+    "tier": "tier2_webapp",
+    "summary": "Easily transform a standard Ubuntu computer into a fully functional home server with a wide range of pre-configured applications.",
+    "i18n": {
+      "it": "Trasforma facilmente un computer Ubuntu standard in un server domestico completo con una vasta gamma di applicazioni preconfigurate.",
+      "es": "Transforma fácilmente una computadora con Ubuntu en un servidor doméstico completo con una amplia gama de aplicaciones preconfiguradas.",
+      "fr": "Transformez facilement un ordinateur Ubuntu standard en un serveur domestique complet avec une large gamme d'applications préconfigurées.",
+      "de": "Verwandeln Sie einen Standard-Ubuntu-Computer ganz einfach in einen voll funktionsfähigen Heimserver mit vielen vorinstallierten Anwendungen."
+    },
+    "download_url": "https://github.com/davestephens/ansible-nas/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "picview",
     "name": "PicView",
     "tagline": "Fast, free picture viewer",
@@ -16348,6 +17468,62 @@
       "de": "PicView ermöglicht es Ihnen, Fotos schnell zu öffnen und zu organisieren, bietet zahlreiche Bearbeitungswerkzeuge und ist völlig kostenlos und ohne Tracking."
     },
     "download_url": "https://github.com/Ruben2776/PicView/releases/download/5.2.2/Setup-PicView-v5.2.2-win-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "openbiliclaw",
+    "name": "OpenBiliClaw",
+    "tagline": "Your private, AI-powered content discovery agent.",
+    "repo_url": "https://github.com/whiteguo233/openbiliclaw",
+    "full_name": "whiteguo233/openbiliclaw",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "content-discovery"
+    ],
+    "icon": "/icons/openbiliclaw.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3794,
+    "tier": "tier2_webapp",
+    "summary": "OpenBiliClaw learns your personal interests to find content across multiple platforms while keeping all your data private on your own computer.",
+    "i18n": {
+      "it": "OpenBiliClaw impara i tuoi interessi per trovare contenuti su varie piattaforme, mantenendo tutti i tuoi dati privati sul tuo computer.",
+      "es": "OpenBiliClaw aprende tus intereses para encontrar contenido en varias plataformas, manteniendo todos tus datos privados en tu computadora.",
+      "fr": "OpenBiliClaw apprend vos centres d'intérêt pour trouver du contenu sur diverses plateformes, tout en gardant vos données privées sur votre PC.",
+      "de": "OpenBiliClaw lernt Ihre Interessen kennen, um Inhalte plattformübergreifend zu finden, während alle Daten privat auf Ihrem Computer bleiben."
+    },
+    "download_url": "https://github.com/whiteguo233/OpenBiliClaw/releases/download/openbiliclaw-v0.3.239/OpenBiliClaw-windows-0.3.239-Setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "token-monitor",
+    "name": "Token Monitor",
+    "tagline": "Track all your AI coding tool usage.",
+    "repo_url": "https://github.com/javis603/token-monitor",
+    "full_name": "javis603/token-monitor",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/token-monitor.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3784,
+    "tier": "tier2_webapp",
+    "summary": "Monitor token usage, costs, and limits across dozens of AI coding tools in one simple, synchronized dashboard.",
+    "i18n": {
+      "it": "Tieni traccia di token, costi e limiti di tutti i tuoi strumenti di programmazione AI in un'unica dashboard sincronizzata.",
+      "es": "Supervisa el uso de tokens, costes y límites de todas tus herramientas de programación con IA en un panel sincronizado.",
+      "fr": "Surveillez la consommation de jetons, les coûts et les limites de tous vos outils de codage IA dans un tableau de bord unique.",
+      "de": "Überwachen Sie Token-Verbrauch, Kosten und Limits all Ihrer KI-Programmierwerkzeuge in einem zentralen Dashboard."
+    },
+    "download_url": "https://github.com/Javis603/token-monitor/releases/download/v0.95.1/Token-Monitor-0.95.1.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -16379,6 +17555,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "anakin",
+    "name": "Anakin",
+    "tagline": "Turn any website into clean data",
+    "repo_url": "https://github.com/anakin-inc/anakin",
+    "full_name": "anakin-inc/anakin",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "automation",
+      "ai-tools"
+    ],
+    "icon": "/icons/anakin.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3764,
+    "tier": "tier2_webapp",
+    "summary": "Anakin is a self-hosted tool that converts complex websites into simple, organized text or data ready for your AI projects.",
+    "i18n": {
+      "it": "Anakin è uno strumento auto-ospitato che converte siti web complessi in testo o dati organizzati pronti per i tuoi progetti di intelligenza artificiale.",
+      "es": "Anakin es una herramienta autoalojada que convierte sitios web complejos en texto o datos organizados listos para tus proyectos de inteligencia artificial.",
+      "fr": "Anakin est un outil auto-hébergé qui convertit des sites web complexes en texte ou en données organisées, prêts pour vos projets d'intelligence artificielle.",
+      "de": "Anakin ist ein selbst gehostetes Tool, das komplexe Websites in einfachen, organisierten Text oder Daten für Ihre KI-Projekte umwandelt."
+    },
+    "download_url": "https://anakin.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "oxicloud",
+    "name": "OxiCloud",
+    "tagline": "Fast and lightweight private cloud storage",
+    "repo_url": "https://github.com/atalayalabs/oxicloud",
+    "full_name": "atalayalabs/oxicloud",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cloud",
+      "storage"
+    ],
+    "icon": "/icons/oxicloud.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3734,
+    "tier": "tier2_webapp",
+    "summary": "OxiCloud provides a simple way to host your own files, photos, and calendars without the complexity of traditional heavy software suites.",
+    "i18n": {
+      "it": "OxiCloud offre un modo semplice per gestire file, foto e calendari in autonomia senza la complessità dei software tradizionali.",
+      "es": "OxiCloud ofrece una forma sencilla de alojar tus archivos, fotos y calendarios sin la complejidad de los sistemas tradicionales.",
+      "fr": "OxiCloud offre un moyen simple d'héberger vos fichiers, photos et calendriers sans la complexité des suites logicielles lourdes.",
+      "de": "OxiCloud bietet eine einfache Möglichkeit, eigene Dateien, Fotos und Kalender ohne die Komplexität herkömmlicher Software zu verwalten."
+    },
+    "download_url": "https://github.com/AtalayaLabs/OxiCloud/releases/download/v0.10.1/SHA256SUMS",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "eac-desktop",
     "name": "EAC-Desktop",
     "tagline": "Harmonious desktop workspace for intelligent assistants",
@@ -16404,6 +17636,118 @@
       "de": "EAC-Desktop organisiert Konversationsagenten, Projektdateien und Tool-Erweiterungen in einem nahtlosen Arbeitsbereich."
     },
     "download_url": "https://github.com/Ebony-Vinyl/EAC-Desktop/releases/download/launcher-v0.1.0/EAC-Launcher-0.1.0-x64-portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "bark-server",
+    "name": "Bark Server",
+    "tagline": "Custom push notifications for your iPhone",
+    "repo_url": "https://github.com/finb/bark-server",
+    "full_name": "finb/bark-server",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "notifications",
+      "server"
+    ],
+    "icon": "/icons/bark-server.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3722,
+    "tier": "tier2_webapp",
+    "summary": "Bark Server acts as the central hub that allows you to send personalized push notifications directly to your iPhone.",
+    "i18n": {
+      "it": "Bark Server funge da centro di controllo per inviare notifiche personalizzate direttamente sul tuo iPhone.",
+      "es": "Bark Server actúa como el centro que te permite enviar notificaciones personalizadas directamente a tu iPhone.",
+      "fr": "Bark Server sert de centre de contrôle pour envoyer des notifications personnalisées directement sur votre iPhone.",
+      "de": "Bark Server fungiert als zentrale Stelle, um personalisierte Push-Benachrichtigungen direkt auf dein iPhone zu senden."
+    },
+    "download_url": "https://github.com/Finb/bark-server/releases/download/v2.4.0/bark-server_windows_386.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "timelinize",
+    "name": "timelinize",
+    "tagline": "Your entire digital life, unified.",
+    "repo_url": "https://github.com/timelinize/timelinize",
+    "full_name": "timelinize/timelinize",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "privacy",
+      "data-management"
+    ],
+    "icon": "/icons/timelinize.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3710,
+    "tier": "tier2_webapp",
+    "summary": "Collect your photos, messages, and location history into one private, searchable timeline stored entirely on your own computer.",
+    "i18n": {
+      "it": "Raccogli foto, messaggi e cronologia in una linea temporale privata e consultabile, salvata interamente sul tuo computer.",
+      "es": "Reúne tus fotos, mensajes e historial de ubicaciones en una línea de tiempo privada y organizada en tu propio ordenador.",
+      "fr": "Rassemblez vos photos, messages et historique de localisation dans une chronologie privée stockée sur votre ordinateur.",
+      "de": "Sammeln Sie Fotos, Nachrichten und Standortverläufe in einer privaten Zeitleiste, die vollständig auf Ihrem Computer gespeichert ist."
+    },
+    "download_url": "https://timelinize.com",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "twinny",
+    "name": "twinny",
+    "tagline": "Private AI coding assistant for VS Code",
+    "repo_url": "https://github.com/twinnydotdev/twinny",
+    "full_name": "twinnydotdev/twinny",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "coding"
+    ],
+    "icon": "/icons/twinny.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3704,
+    "tier": "tier2_webapp",
+    "summary": "Twinny is a private, open-source AI tool that helps you write code, chat, and review projects directly within your editor.",
+    "i18n": {
+      "it": "Twinny è uno strumento AI open source che ti aiuta a scrivere codice, chattare e revisionare progetti direttamente nel tuo editor.",
+      "es": "Twinny es una herramienta de IA de código abierto que te ayuda a escribir código, chatear y revisar proyectos desde tu editor.",
+      "fr": "Twinny est un outil d'IA open source qui vous aide à écrire du code, discuter et réviser vos projets directement dans votre éditeur.",
+      "de": "Twinny ist ein Open-Source-KI-Tool, das Ihnen beim Schreiben von Code, beim Chatten und bei der Projektprüfung direkt im Editor hilft."
+    },
+    "download_url": "https://twinny.dev",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "commafeed",
+    "name": "CommaFeed",
+    "tagline": "A private, self-hosted news reader.",
+    "repo_url": "https://github.com/athou/commafeed",
+    "full_name": "athou/commafeed",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "rss",
+      "news-reader"
+    ],
+    "icon": "/icons/commafeed.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3652,
+    "tier": "tier2_webapp",
+    "summary": "CommaFeed is a personal news reader that gathers all your favorite websites in one place without tracking or ads.",
+    "i18n": {
+      "it": "CommaFeed è un lettore di notizie personale che raccoglie i tuoi siti preferiti in un unico posto senza tracciamento o pubblicità.",
+      "es": "CommaFeed es un lector de noticias personal que reúne todos tus sitios web favoritos en un solo lugar sin rastreo ni anuncios.",
+      "fr": "CommaFeed est un lecteur de nouvelles personnel qui rassemble tous vos sites préférés au même endroit sans suivi ni publicité.",
+      "de": "CommaFeed ist ein persönlicher Nachrichten-Reader, der alle Ihre Lieblingsseiten an einem Ort ohne Tracking oder Werbung sammelt."
+    },
+    "download_url": "https://github.com/Athou/commafeed/releases/download/7.5.3/commafeed-7.5.3-h2-windows-x86_64-runner.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -16463,6 +17807,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "wireguard-install",
+    "name": "WireGuard VPN Server Installer",
+    "tagline": "Set up your own private VPN server",
+    "repo_url": "https://github.com/hwdsl2/wireguard-install",
+    "full_name": "hwdsl2/wireguard-install",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "vpn",
+      "privacy"
+    ],
+    "icon": "/icons/wireguard-install.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3634,
+    "tier": "tier2_webapp",
+    "summary": "This tool automates the creation of a private, high-performance VPN server on your own cloud or home server in just a few minutes.",
+    "i18n": {
+      "it": "Questo strumento automatizza la creazione di un server VPN privato e ad alte prestazioni sul tuo server in pochi minuti.",
+      "es": "Esta herramienta automatiza la creación de un servidor VPN privado y de alto rendimiento en tu propio servidor en pocos minutos.",
+      "fr": "Cet outil automatise la création d'un serveur VPN privé et performant sur votre propre serveur en quelques minutes seulement.",
+      "de": "Dieses Tool automatisiert die Einrichtung eines privaten, leistungsstarken VPN-Servers auf Ihrem eigenen Server in wenigen Minuten."
+    },
+    "download_url": "https://github.com/hwdsl2/wireguard-install/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "remi",
     "name": "remi",
     "tagline": "Python GUI in your browser",
@@ -16515,6 +17887,34 @@
       "de": "nanoMuse ist ein Open-Source-Assistent für alle deine Geräte, der eigenständig arbeitet und vor wichtigen Aktionen nachfragt."
     },
     "download_url": "https://github.com/nano-muse/nanoMuse/releases/download/v1.0.9/nanoMuse-Desktop-1.0.9-win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "freehire",
+    "name": "freehire",
+    "tagline": "Find tech jobs directly from companies.",
+    "repo_url": "https://github.com/strelov1/freehire",
+    "full_name": "strelov1/freehire",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "jobs",
+      "career"
+    ],
+    "icon": "/icons/freehire.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 3619,
+    "tier": "tier2_webapp",
+    "summary": "Freehire is a search engine that pulls job listings directly from company career pages to ensure you see only real, active opportunities.",
+    "i18n": {
+      "it": "Freehire è un motore di ricerca che preleva le offerte di lavoro direttamente dai siti aziendali, eliminando intermediari e link non validi.",
+      "es": "Freehire es un buscador que extrae ofertas de trabajo directamente de las webs corporativas, evitando intermediarios y enlaces caducados.",
+      "fr": "Freehire est un moteur de recherche qui récupère les offres d'emploi directement sur les sites des entreprises, sans intermédiaires ni liens morts.",
+      "de": "Freehire ist eine Suchmaschine, die Stellenanzeigen direkt von Unternehmensseiten bezieht und so Vermittler und tote Links ausschließt."
+    },
+    "download_url": "https://freehire.me",
     "updated_at": "2026-11-21"
   },
   {
