@@ -4480,6 +4480,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "asdf",
+    "name": "asdf",
+    "tagline": "Manage all language versions in one tool",
+    "repo_url": "https://github.com/asdf-vm/asdf",
+    "full_name": "asdf-vm/asdf",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "development",
+      "utilities"
+    ],
+    "icon": "/icons/asdf.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 25627,
+    "tier": "tier3_powertool",
+    "summary": "Easily handle multiple programming language versions across projects using a single convenient tool.",
+    "i18n": {
+      "it": "Gestisci facilmente diverse versioni di linguaggi di programmazione tra i progetti usando un unico strumento conveniente.",
+      "es": "Administra fácilmente múltiples versiones de lenguajes de programación en tus proyectos usando una única herramienta.",
+      "fr": "Gérez facilement plusieurs versions de langages de programmation sur vos projets grâce à un outil unique et pratique.",
+      "de": "Verwalten Sie problemlos mehrere Programmiersprachenversionen über Projekte hinweg mit einem einzigen praktischen Werkzeug."
+    },
+    "download_url": "https://github.com/asdf-vm/asdf/releases/download/v0.20.2/asdf-v0.20.2-darwin-amd64.tar.gz.md5",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "responsively-app",
     "name": "Responsively App",
     "tagline": "Test responsive web pages instantly",
@@ -4760,6 +4788,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "social-analyzer",
+    "name": "social-analyzer",
+    "tagline": "Find online profiles across thousand sites.",
+    "repo_url": "https://github.com/qeeqbox/social-analyzer",
+    "full_name": "qeeqbox/social-analyzer",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "privacy",
+      "security"
+    ],
+    "icon": "/icons/social-analyzer.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 24600,
+    "tier": "tier3_powertool",
+    "summary": "Quickly locate and analyze user profiles across more than a thousand social networks using a simple tool.",
+    "i18n": {
+      "it": "Individua e analizza rapidamente profili utente su oltre mille social network utilizzando uno strumento semplice.",
+      "es": "Localiza y analiza rápidamente perfiles de usuario en más de mil redes sociales utilizando una herramienta sencilla.",
+      "fr": "Localisez et analysez rapidement des profils d'utilisateurs sur plus d'un millier de réseaux sociaux.",
+      "de": "Spüre Benutzerprofile schnell auf über tausend sozialen Netzwerken auf und analysiere sie."
+    },
+    "download_url": "https://github.com/qeeqbox/social-analyzer/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "exa",
     "name": "exa",
     "tagline": "Modern, colorful replacement for traditional directory listings.",
@@ -4870,6 +4926,34 @@
     },
     "download_url": "https://semantic-release.org",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "superfile",
+    "name": "superfile",
+    "tagline": "Modern and colorful terminal file manager",
+    "repo_url": "https://github.com/yorukot/superfile",
+    "full_name": "yorukot/superfile",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "file-manager"
+    ],
+    "icon": "/icons/superfile.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 24115,
+    "tier": "tier3_powertool",
+    "summary": "Manage files inside your command window with style using a feature-packed visual file navigator.",
+    "i18n": {
+      "it": "Gestisci i file all'interno della finestra di comando con stile usando un navigatore di file visivo e ricco di funzioni.",
+      "es": "Organiza tus archivos dentro de la ventana de comandos con estilo usando un navegador visual repleto de funciones útiles.",
+      "fr": "Gérez vos fichiers dans la fenêtre de commande avec style grâce à un navigateur visuel doté de nombreuses fonctionnalités.",
+      "de": "Verwalten Sie Dateien in Ihrem Befehlsfenster stilvoll mit einem funktionsreichen visuellen Dateinavigationstool."
+    },
+    "download_url": "https://github.com/yorukot/superfile/releases/download/v1.6.1/superfile-v1.6.1-checksums.txt",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "archon",
@@ -5122,6 +5206,34 @@
     },
     "download_url": "https://github.com/pranshuparmar/witr/releases/download/v0.3.4/witr-0.3.4-linux-amd64.apk",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "svgo",
+    "name": "svgo",
+    "tagline": "Shrink vector graphics effortlessly.",
+    "repo_url": "https://github.com/svg/svgo",
+    "full_name": "svg/svgo",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "svg",
+      "optimization"
+    ],
+    "icon": "/icons/svgo.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 22834,
+    "tier": "tier3_powertool",
+    "summary": "Automatically clean up and shrink SVG graphic files to speed up web pages and apps.",
+    "i18n": {
+      "it": "Automatically clean up and shrink SVG graphic files to speed up web pages and apps.",
+      "es": "Automatically clean up and shrink SVG graphic files to speed up web pages and apps.",
+      "fr": "Automatically clean up and shrink SVG graphic files to speed up web pages and apps.",
+      "de": "Automatically clean up and shrink SVG graphic files to speed up web pages and apps."
+    },
+    "download_url": "https://svgo.dev/",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "waveterm",
@@ -5486,6 +5598,34 @@
     },
     "download_url": "https://goaccess.io",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "ava",
+    "name": "ava",
+    "tagline": "Fast concurrent testing for JavaScript code",
+    "repo_url": "https://github.com/avajs/ava",
+    "full_name": "avajs/ava",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "testing",
+      "development"
+    ],
+    "icon": "/icons/ava.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 20826,
+    "tier": "tier3_powertool",
+    "summary": "AVA is a modern test runner for JavaScript that runs multiple tests simultaneously in isolated environments for fast, reliable results.",
+    "i18n": {
+      "it": "AVA è un moderno strumento di test per JavaScript che esegue più test in parallelo in ambienti isolati.",
+      "es": "AVA es un moderno ejecutor de pruebas para JavaScript que ejecuta múltiples pruebas simultáneamente en entornos aislados.",
+      "fr": "AVA est un exécuteur de tests moderne pour JavaScript qui lance plusieurs tests en même temps dans des environnements isolés.",
+      "de": "AVA ist ein moderner Test-Runner für JavaScript, der mehrere Tests gleichzeitig in isolierten Umgebungen ausführt."
+    },
+    "download_url": "https://github.com/avajs/ava/releases",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "companyos",
@@ -5936,6 +6076,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "hurl",
+    "name": "hurl",
+    "tagline": "Run and test web requests easily.",
+    "repo_url": "https://github.com/orange-opensource/hurl",
+    "full_name": "orange-opensource/hurl",
+    "category": "Productivity",
+    "tags": [
+      "http",
+      "testing"
+    ],
+    "icon": "/icons/hurl.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 19346,
+    "tier": "tier3_powertool",
+    "summary": "Run and test web requests using simple text files instead of complex code.",
+    "i18n": {
+      "it": "Esegui e testa richieste web utilizzando semplici file di testo invece di codice complesso.",
+      "es": "Ejecuta y prueba peticiones web usando archivos de texto simples en lugar de código complejo.",
+      "fr": "Exécutez et testez des requêtes web à l'aide de simples fichiers texte au lieu de code complexe.",
+      "de": "Führen Sie Web-Anfragen mit einfachen Textdateien anstelle von komplexem Code aus und testen Sie Antworten problemlos."
+    },
+    "download_url": "https://github.com/Orange-OpenSource/hurl/releases/download/8.1.0/hurl-8.1.0-x86_64-pc-windows-msvc-installer.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "concat",
     "name": "Concat",
     "tagline": "Free open-source local video editor.",
@@ -5961,6 +6129,34 @@
       "de": "Ein kostenloser lokaler Videoeditor ohne Wasserzeichen oder Abonnements, der Ihre Dateien sicher auf Ihrem Geraet behaelt."
     },
     "download_url": "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-windows-x86_64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "xerj",
+    "name": "xerj",
+    "tagline": "AI search engine and memory server",
+    "repo_url": "https://github.com/xerj-org/xerj",
+    "full_name": "xerj-org/xerj",
+    "category": "Productivity",
+    "tags": [
+      "ai-search",
+      "assistant-memory"
+    ],
+    "icon": "/icons/xerj.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 19229,
+    "tier": "tier3_powertool",
+    "summary": "An AI-powered local search engine and assistant memory server that indexes your code, documents, logs, and files for instant retrieval.",
+    "i18n": {
+      "it": "Un motore di ricerca locale basato su intelligenza artificiale che indicizza codice, documenti e file per un recupero immediato.",
+      "es": "Un motor de búsqueda local con IA que indexa tu código, documentos y archivos para recuperarlos al instante sin complicaciones.",
+      "fr": "Un moteur de recherche local propulsé par l'IA qui indexe le code, les documents et les fichiers pour un accès instantané.",
+      "de": "Eine lokale KI-Suchmaschine, die Code, Dokumente und Dateien für den sofortigen und präzisen Abruf indiziert."
+    },
+    "download_url": "https://github.com/xerj-org/xerj/releases/download/v1.0.0-rc.104/xerj-1.0.0-rc.104-aarch64-unknown-linux-gnu.deb",
     "updated_at": "2026-11-21"
   },
   {
@@ -6188,6 +6384,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "katana",
+    "name": "Katana",
+    "tagline": "Next-generation intelligent website crawling and spidering",
+    "repo_url": "https://github.com/projectdiscovery/katana",
+    "full_name": "projectdiscovery/katana",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "spider",
+      "automation"
+    ],
+    "icon": "/icons/katana.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 17878,
+    "tier": "tier3_powertool",
+    "summary": "Discover website links, hidden pages, and interactive features automatically using standard or browser-based modes.",
+    "i18n": {
+      "it": "Scopri link, pagine nascoste e funzioni interattive dei siti web automaticamente con modalità standard o basate su browser.",
+      "es": "Descubre enlaces, páginas ocultas y funciones interactivas en sitios web automáticamente usando modos estándar o de navegador.",
+      "fr": "Découvrez des liens, des pages cachées et des fonctionnalités interactives sur des sites Web automatiquement en mode standard ou navigateur.",
+      "de": "Entdecken Sie Website-Links, versteckte Seiten und interaktive Funktionen automatisch im Standard- oder Browser-Modus."
+    },
+    "download_url": "https://github.com/projectdiscovery/katana/releases/download/v1.8.0/katana-1.8.0-checksums.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "ctop",
     "name": "ctop",
     "tagline": "Real-time dashboard for your software containers",
@@ -6216,6 +6440,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "click",
+    "name": "Click",
+    "tagline": "Build custom command-line tools fast",
+    "repo_url": "https://github.com/pallets/click",
+    "full_name": "pallets/click",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "developer-tools"
+    ],
+    "icon": "/icons/click.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 17838,
+    "tier": "tier3_powertool",
+    "summary": "Create powerful, flexible command-line tools in Python with minimal effort and automatic help pages.",
+    "i18n": {
+      "it": "Crea strumenti da riga di comando potenti e flessibili in Python con il minimo sforzo e guide automatiche.",
+      "es": "Crea herramientas de comandos potentes y flexibles en Python con el mínimo esfuerzo y ayudas automáticas.",
+      "fr": "Créez des outils en ligne de commande puissants et flexibles en Python avec un effort minimal et de l'aide automatique.",
+      "de": "Erstellen Sie leistungsstarke Befehlszeilentools in Python mit minimalem Aufwand und automatischer Hilfe."
+    },
+    "download_url": "https://github.com/pallets/click/releases/download/8.5.1/click-8.5.1-py3-none-any.whl",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "leon",
     "name": "Leon",
     "tagline": "Your open-source personal AI assistant.",
@@ -6242,6 +6494,34 @@
     },
     "download_url": "https://getleon.ai",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "effect",
+    "name": "Effect",
+    "tagline": "Build robust and reliable code safely.",
+    "repo_url": "https://github.com/effect-ts/effect",
+    "full_name": "effect-ts/effect",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "programming",
+      "development"
+    ],
+    "icon": "/icons/effect.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 17646,
+    "tier": "tier3_powertool",
+    "summary": "Effect is a programming toolkit that helps you write safe, organized, and dependable applications without unexpected crashes.",
+    "i18n": {
+      "it": "Effect è un set di strumenti di programmazione per scrivere applicazioni sicure, organizzate e prive di errori imprevisti.",
+      "es": "Effect es un conjunto de herramientas para escribir aplicaciones seguras, organizadas y sin bloqueos inesperados.",
+      "fr": "Effect est une boîte à outils de programmation pour concevoir des applications sûres, organisées et sans plantages.",
+      "de": "Effect ist ein Programmier-Toolkit, mit dem Sie sichere, organisierte und fehlerfreie Anwendungen schreiben können."
+    },
+    "download_url": "https://effect.website",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "cz-cli",
@@ -16855,6 +17135,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "postbird",
+    "name": "Postbird",
+    "tagline": "Ultra-fast lightweight database manager",
+    "repo_url": "https://github.com/paxa/postbird",
+    "full_name": "paxa/postbird",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "postgresql"
+    ],
+    "icon": "/icons/postbird.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1642,
+    "tier": "tier1_gui",
+    "summary": "Manage PostgreSQL databases effortlessly with an ultra-fast, lightweight client featuring built-in AI search tools.",
+    "i18n": {
+      "it": "Gestisci database PostgreSQL senza sforzo con un client leggero e velocissimo dotato di strumenti di ricerca IA integrati.",
+      "es": "Gestiona bases de datos PostgreSQL sin esfuerzo con un cliente ligero y ultrarrápido con herramientas de IA integradas.",
+      "fr": "Gérez des bases de données PostgreSQL sans effort grâce à un client ultra-rapide et léger doté d'outils d'IA intégrés.",
+      "de": "Verwalten Sie PostgreSQL-Datenbanken mühelos mit einem ultraschnellen, leichten Client mit integrierten KI-Tools."
+    },
+    "download_url": "https://github.com/Paxa/postbird/releases/download/v0.9.2/Postbird-macos-arm64.dmg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "downvid",
+    "name": "DownVid",
+    "tagline": "Save online videos effortlessly in high quality",
+    "repo_url": "https://github.com/downvid/downvid",
+    "full_name": "downvid/downvid",
+    "category": "Video & Audio",
+    "tags": [
+      "downloader",
+      "video"
+    ],
+    "icon": "/icons/downvid.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1635,
+    "tier": "tier1_gui",
+    "summary": "DownVid is a modern, cross-platform video downloader that helps you save high-definition media from popular websites without watermarks.",
+    "i18n": {
+      "it": "DownVid è un downloader video moderno e multipiattaforma che consente di salvare contenuti multimediali senza filigrana.",
+      "es": "DownVid es un descargador de videos moderno y multiplataforma que permite guardar contenido multimedia sin marcas de agua.",
+      "fr": "DownVid est un téléchargeur de vidéos moderne et multiplateforme pour enregistrer des médias en HD sans filigrane.",
+      "de": "DownVid ist ein moderner, plattformübergreifender Video-Downloader zum Speichern von Medien ohne Wasserzeichen."
+    },
+    "download_url": "https://github.com/Downvid/downvid/releases/download/v1.12.0/DownVid-Wails-windows-x64-1.12.0-installer.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "shoes4",
     "name": "shoes4",
     "tagline": "Create friendly cross-platform graphic apps easily.",
@@ -17023,6 +17359,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "noutube",
+    "name": "NouTube",
+    "tagline": "Enjoy ad-free video and music streaming",
+    "repo_url": "https://github.com/nonbili/noutube",
+    "full_name": "nonbili/noutube",
+    "category": "Productivity",
+    "tags": [
+      "streaming",
+      "media"
+    ],
+    "icon": "/icons/noutube.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1559,
+    "tier": "tier1_gui",
+    "summary": "Stream your favorite videos and music without interruptions or advertisements, and keep media playing in the background while using other apps.",
+    "i18n": {
+      "it": "Riproduci video e musica senza fastidiose pubblicità e continua ad ascoltare in background mentre usi altre applicazioni.",
+      "es": "Reproduce tus vídeos y música favoritos sin interrupciones y mantén el audio activo en segundo plano mientras usas otras apps.",
+      "fr": "Diffusez vos vidéos et musiques sans interruption publicitaire, et continuez l'écoute en arrière-plan tout en naviguant.",
+      "de": "Streamen Sie Medien ohne Werbeunterbrechungen und lassen Sie Musik im Hintergrund weiterlaufen, während Sie andere Apps nutzen."
+    },
+    "download_url": "https://github.com/nonbili/NouTube/releases/download/v0.7.10/app-full-arm64-v8a-release.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "grok-app",
     "name": "Grok App",
     "tagline": "Modern desktop workbench for assistant workflows",
@@ -17048,6 +17412,34 @@
       "de": "Verwalten Sie multiprojektfähige Arbeitsbereiche und chatten Sie mit KI-Assistenten über eine übersichtliche App."
     },
     "download_url": "https://github.com/RongleCat/grok-app/releases/download/v0.2.51/Grok_0.2.51_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "tomato",
+    "name": "Tomato",
+    "tagline": "Minimalist Pomodoro timer for focus",
+    "repo_url": "https://github.com/nsh07/tomato",
+    "full_name": "nsh07/tomato",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "timer"
+    ],
+    "icon": "/icons/tomato.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 1549,
+    "tier": "tier1_gui",
+    "summary": "Stay focused and track your study habits with a clean, beautifully designed Pomodoro timer that works across desktop and mobile.",
+    "i18n": {
+      "it": "Rimani concentrato e monitora le tue abitudini di studio con un timer Pomodoro pulito e dal design curato per desktop e dispositivi mobili.",
+      "es": "Mantén la concentración y registra tus hábitos de estudio con un temporizador Pomodoro limpio y elegante para ordenadores y móviles.",
+      "fr": "Restez concentré et suivez vos habitudes de travail grâce à un minuteur Pomodoro épuré et esthétique pour ordinateurs et mobiles.",
+      "de": "Bleiben Sie konzentriert und verfolgen Sie Ihre Lerngewohnheiten mit einem sauberen, eleganten Pomodoro-Timer für Desktop und Mobilgeräte."
+    },
+    "download_url": "https://github.com/nsh07/Tomato/releases/download/v2.0.1/tomato-v2.0.1-x86_64.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -17132,6 +17524,34 @@
       "de": "Laden Sie Online-Welten durch Erkunden herunter, speichern Sie Kartendaten lokal und erweitern Sie Ihre Sichtweite im Spiel."
     },
     "download_url": "https://github.com/mircokroon/minecraft-world-downloader/releases/download/v1.18.1/world-downloader.jar",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "sunnify-spotify-downloader",
+    "name": "Sunnify Spotify Downloader",
+    "tagline": "Download Spotify playlists to local audio",
+    "repo_url": "https://github.com/sunnypatell/sunnify-spotify-downloader",
+    "full_name": "sunnypatell/sunnify-spotify-downloader",
+    "category": "Productivity",
+    "tags": [
+      "music",
+      "downloader"
+    ],
+    "icon": "/icons/sunnify-spotify-downloader.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Custom Open License",
+    "stars": 1526,
+    "tier": "tier1_gui",
+    "summary": "Easily save your favorite music albums and tracks locally as audio files complete with artwork and correct tags.",
+    "i18n": {
+      "it": "Salva facilmente i tuoi brani preferiti come file audio locali completi di copertina e tag corretti senza bisogno di abbonamenti.",
+      "es": "Guarda fácilmente tus álbumes y canciones favoritas como archivos de audio locales con carátulas y etiquetas sin suscripción.",
+      "fr": "Enregistrez facilement vos morceaux préférés sous forme de fichiers audio locaux avec pochettes et étiquettes sans abonnement.",
+      "de": "Speichern Sie Ihre Lieblingsalben und Titel ganz einfach lokal als Audiodateien mit Cover und Tags ohne teure Abonnements."
+    },
+    "download_url": "https://github.com/sunnypatell/sunnify-spotify-downloader/releases/download/v2.7.0/Sunnify-Windows-CLI.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -17247,6 +17667,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "digler",
+    "name": "digler",
+    "tagline": "Unearth lost and deleted data easily.",
+    "repo_url": "https://github.com/ostafen/digler",
+    "full_name": "ostafen/digler",
+    "category": "Productivity",
+    "tags": [
+      "data-recovery",
+      "forensics"
+    ],
+    "icon": "/icons/digler.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 1503,
+    "tier": "tier1_gui",
+    "summary": "Digler is a flexible tool for forensic disk analysis and file recovery, designed to help you retrieve lost or deleted files from storage devices.",
+    "i18n": {
+      "it": "Digler è uno strumento flessibile per l'analisi forense dei dischi e il recupero dati, progettato per aiutarti a ritrovare file eliminati.",
+      "es": "Digler es una herramienta flexible para el análisis forense de discos y la recuperación de datos eliminados de dispositivos.",
+      "fr": "Digler est un outil flexible d'analyse de disques et de récupération de données pour retrouver des fichiers supprimés.",
+      "de": "Digler ist ein flexibles Werkzeug zur Festplattenanalyse und Datenwiederherstellung, um gelöschte Dateien aufzuspüren."
+    },
+    "download_url": "https://github.com/ostafen/digler/releases/download/v0.1.0/digler-windows-amd64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "dock",
     "name": "Dock",
     "tagline": "Flexible customizable workspace layout system",
@@ -17272,6 +17720,34 @@
       "de": "Create flexible multi-window software interfaces where users can easily rearrange, drag, and dock panels."
     },
     "download_url": "https://github.com/wieslawsoltes/Dock/releases/download/v12.1.5/Dock.Avalonia.12.1.5.nupkg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "lime",
+    "name": "Lime",
+    "tagline": "An intelligent full-stack AI agent companion.",
+    "repo_url": "https://github.com/limecloud/lime",
+    "full_name": "limecloud/lime",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/lime.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 1496,
+    "tier": "tier1_gui",
+    "summary": "An open-source AI agent that handles coding, research, file management, and terminal workflows with clear inspection steps.",
+    "i18n": {
+      "it": "Un agente IA open source che gestisce programmazione, ricerca e gestione file con passaggi di controllo chiari.",
+      "es": "Un agente de IA de código abierto para gestionar programación, investigación y archivos con total visibilidad.",
+      "fr": "Un agent IA open source qui gère le code, la recherche et les fichiers avec des étapes de contrôle claires.",
+      "de": "Ein Open-Source-KI-Agent für Programmierung, Recherche und Dateiverwaltung mit transparenten Prüfschritten."
+    },
+    "download_url": "https://github.com/limecloud/lime/releases/download/v1.180.0/Lime-1.180.0.Setup.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -17356,6 +17832,62 @@
       "de": "Durchsuchen und installieren Sie von der Community erstellte Anwendungen und Spiele auf Ihren kompatiblen Geräten."
     },
     "download_url": "https://github.com/fortheusers/hb-appstore/releases/download/v2.3.2/appstore.nro",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "soul-of-waifu",
+    "name": "Soul-of-Waifu",
+    "tagline": "Bring your favorite characters to life.",
+    "repo_url": "https://github.com/jofizcd/soul-of-waifu",
+    "full_name": "jofizcd/soul-of-waifu",
+    "category": "Productivity",
+    "tags": [
+      "ai-companion",
+      "roleplay"
+    ],
+    "icon": "/icons/soul-of-waifu.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1475,
+    "tier": "tier1_gui",
+    "summary": "An immersive desktop companion app featuring animated avatars, voice chat, and local intelligence that evolves with you.",
+    "i18n": {
+      "it": "Un'app compagna desktop immersiva con avatar animati, chat vocale e intelligenza locale che evolve insieme a te.",
+      "es": "Una aplicación de compañía de escritorio inmersiva con avatares animados, chat de voz e inteligencia local.",
+      "fr": "Une application compagnon de bureau immersive avec des avatars animés, du chat vocal et une IA locale.",
+      "de": "Eine immersive Desktop-Begleit-App mit animierten Avataren, Sprachchat und lokaler Intelligenz."
+    },
+    "download_url": "https://github.com/jofizcd/Soul-of-Waifu/releases/download/v2.5.1/Soul-of-Waifu-v2.5.1.rar",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "getstoreapp",
+    "name": "GetStoreApp",
+    "tagline": "Download Microsoft Store apps offline easily",
+    "repo_url": "https://github.com/gaoyifei1011/getstoreapp",
+    "full_name": "gaoyifei1011/getstoreapp",
+    "category": "Productivity",
+    "tags": [
+      "windows",
+      "utilities"
+    ],
+    "icon": "/icons/getstoreapp.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 1474,
+    "tier": "tier1_gui",
+    "summary": "Download Microsoft Store application packages directly for offline installation without needing to sign into an online account.",
+    "i18n": {
+      "it": "Scarica pacchetti di applicazioni Microsoft Store direttamente per l'installazione offline senza account.",
+      "es": "Descarga paquetes de aplicaciones de Microsoft Store directamente para instalación sin conexión y sin cuenta.",
+      "fr": "Téléchargez des paquets d'applications Microsoft Store directement pour une installation hors ligne sans compte.",
+      "de": "Laden Sie Microsoft Store-Anwendungspakete direkt für die Offline-Installation ohne Online-Konto herunter."
+    },
+    "download_url": "https://github.com/Gaoyifei1011/GetStoreApp/releases/download/v6.27.1106.0/GetStoreAppNonStorePackage_6.27.1106.0_x86_x64_arm64.cer",
     "updated_at": "2026-11-21"
   },
   {
@@ -17611,6 +18143,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "kanmail",
+    "name": "Kanmail",
+    "tagline": "Turn your email inbox into a kanban board.",
+    "repo_url": "https://github.com/oxygem/kanmail",
+    "full_name": "oxygem/kanmail",
+    "category": "Productivity",
+    "tags": [
+      "email",
+      "productivity"
+    ],
+    "icon": "/icons/kanmail.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 1392,
+    "tier": "tier1_gui",
+    "summary": "Kanmail organizes your emails into a visual kanban board layout, helping you manage messages like project tasks.",
+    "i18n": {
+      "it": "Kanmail organizza le tue email in una bacheca visiva, aiutandoti a gestire i messaggi come progetti.",
+      "es": "Kanmail organiza tus correos electrónicos en un tablero visual tipo kanban para gestionar mensajes como proyectos.",
+      "fr": "Kanmail organise vos e-mails dans un tableau visuel pour gérer vos messages comme des tâches.",
+      "de": "Kanmail organisiert Ihre E-Mails in einem visuellen Kanban-Board, um Nachrichten wie Aufgaben zu verwalten."
+    },
+    "download_url": "https://kanmail.io",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "guislice",
     "name": "GUIslice",
     "tagline": "Design touchscreens for microcontrollers visually.",
@@ -17692,6 +18252,34 @@
       "de": "Ein einfaches Werkzeug zur Überwachung und Verwaltung des PHP-Leistungs-Caches Ihrer Website in Echtzeit."
     },
     "download_url": "https://github.com/amnuts/opcache-gui/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "open-pdf-studio",
+    "name": "Open PDF Studio",
+    "tagline": "Free open-source PDF editor for technical drawings",
+    "repo_url": "https://github.com/openaec-foundation/open-pdf-studio",
+    "full_name": "openaec-foundation/open-pdf-studio",
+    "category": "Productivity",
+    "tags": [
+      "pdf-editor",
+      "architectural-drawings"
+    ],
+    "icon": "/icons/open-pdf-studio.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (LGPL)",
+    "stars": 1359,
+    "tier": "tier1_gui",
+    "summary": "A free open-source PDF viewer and editor designed for technical drawings, featuring markup tools, measurement scaling, revision comparison, and CAD import.",
+    "i18n": {
+      "it": "Un editor PDF open-source gratuito progettato per disegni tecnici, con strumenti di markup, misurazioni in scala e importazione CAD.",
+      "es": "Un visor y editor de PDF gratuito y abierto para planos técnicos, que incluye herramientas de marcado, escalas y comparación de revisiones.",
+      "fr": "Un éditeur PDF open-source gratuit pour les plans techniques, doté d'outils de balisage, de mesure à l'échelle et de comparaison.",
+      "de": "Ein kostenloser Open-Source-PDF-Editor für technische Zeichnungen mit Markup-Werkzeugen, Maßstabsberechnung und CAD-Import."
+    },
+    "download_url": "https://github.com/OpenAEC-Foundation/open-pdf-studio/releases/download/v2026.48.2/Open.PDF.Studio_2026.48.2_x64-setup.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -17779,6 +18367,90 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "apiark",
+    "name": "ApiArk",
+    "tagline": "Lightweight privacy-first software developer utility",
+    "repo_url": "https://github.com/berbicanes/apiark",
+    "full_name": "berbicanes/apiark",
+    "category": "Productivity",
+    "tags": [
+      "developer-tools",
+      "api-testing"
+    ],
+    "icon": "/icons/apiark.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1305,
+    "tier": "tier1_gui",
+    "summary": "Test and organize web requests locally without cloud logins or massive RAM usage.",
+    "i18n": {
+      "it": "Testa e organizza richieste web in locale senza accessi cloud o consumo eccessivo di memoria.",
+      "es": "Prueba y organiza peticiones web localmente sin inicios de sesión en la nube ni consumo masivo de RAM.",
+      "fr": "Testez et organisez des requêtes web localement sans connexion cloud ni utilisation massive de mémoire.",
+      "de": "Testen und verwalten Sie Web-Anfragen lokal ohne Cloud-Anmeldung oder massiven Arbeitsspeicherverbrauch."
+    },
+    "download_url": "https://github.com/berbicanes/apiark/releases/download/v0.4.6/apiark-cli-windows-x86_64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "lastwave-desktop",
+    "name": "LastWave-Desktop",
+    "tagline": "High fidelity desktop music streaming client",
+    "repo_url": "https://github.com/clash-projects/lastwave-desktop",
+    "full_name": "clash-projects/lastwave-desktop",
+    "category": "Productivity",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "icon": "/icons/lastwave-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Custom Open License",
+    "stars": 1296,
+    "tier": "tier1_gui",
+    "summary": "Enjoy high fidelity music streaming and audiophile playback controls on your desktop with live synchronized lyrics.",
+    "i18n": {
+      "it": "Enjoy high fidelity music streaming and audiophile playback controls on your desktop with live synchronized lyrics.",
+      "es": "Enjoy high fidelity music streaming and audiophile playback controls on your desktop with live synchronized lyrics.",
+      "fr": "Enjoy high fidelity music streaming and audiophile playback controls on your desktop with live synchronized lyrics.",
+      "de": "Enjoy high fidelity music streaming and audiophile playback controls on your desktop with live synchronized lyrics."
+    },
+    "download_url": "https://github.com/Clash-Projects/LastWave-Desktop/releases/download/v2.2.0/lastwave_2.2.0_windows-x86_64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "launcher",
+    "name": "Flashpoint Launcher",
+    "tagline": "Explore and play preserved web classics.",
+    "repo_url": "https://github.com/flashpointproject/launcher",
+    "full_name": "flashpointproject/launcher",
+    "category": "Productivity",
+    "tags": [
+      "games",
+      "preservation"
+    ],
+    "icon": "/icons/launcher.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 1286,
+    "tier": "tier1_gui",
+    "summary": "Browse, manage, and play thousands of preserved vintage web games and animations from a single friendly desktop application.",
+    "i18n": {
+      "it": "Browse, manage, and play thousands of preserved vintage web games and animations from a single friendly desktop application.",
+      "es": "Browse, manage, and play thousands of preserved vintage web games and animations from a single friendly desktop application.",
+      "fr": "Browse, manage, and play thousands of preserved vintage web games and animations from a single friendly desktop application.",
+      "de": "Browse, manage, and play thousands of preserved vintage web games and animations from a single friendly desktop application."
+    },
+    "download_url": "https://github.com/FlashpointProject/launcher/releases/download/14.0.3/Flashpoint-14.0.3_win-ia32.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "implot3d",
     "name": "ImPlot3D",
     "tagline": "Fast interactive 3D graphs",
@@ -17863,6 +18535,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "nora",
+    "name": "Nora",
+    "tagline": "An elegant music player for desktop",
+    "repo_url": "https://github.com/sandakan/nora",
+    "full_name": "sandakan/nora",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "audio"
+    ],
+    "icon": "/icons/nora.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1264,
+    "tier": "tier1_gui",
+    "summary": "Enjoy local music playback on your desktop with an elegant player featuring synced lyrics, custom themes, and library organization tools.",
+    "i18n": {
+      "it": "Goditi la riproduzione musicale locale sul tuo computer con un elegante lettore dotato di testi sincronizzati e temi personalizzati.",
+      "es": "Disfruta de tu música local con un elegante reproductor de escritorio que incluye letras sincronizadas y temas personalizados.",
+      "fr": "Profitez de votre musique locale avec un lecteur élégant doté de paroles synchronisées et de thèmes personnalisés.",
+      "de": "Genießen Sie lokale Musikwiedergabe mit einem eleganten Player, der synchrone Liedtexte und anpassbare Designs bietet."
+    },
+    "download_url": "https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-win-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "oleafly",
+    "name": "Oleafly",
+    "tagline": "Free open research writing and collaboration",
+    "repo_url": "https://github.com/oleafly/oleafly",
+    "full_name": "oleafly/oleafly",
+    "category": "Productivity",
+    "tags": [
+      "latex",
+      "typst"
+    ],
+    "icon": "/icons/oleafly.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1263,
+    "tier": "tier1_gui",
+    "summary": "Write and compile academic papers with built-in tools for references, live collaboration, and smart assistance.",
+    "i18n": {
+      "it": "Scrivi e compila documenti accademici con strumenti integrati per citazioni, collaborazione in tempo reale e intelligenza artificiale.",
+      "es": "Escribe y compila documentos académicos con herramientas integradas para referencias, colaboración en vivo y asistencia inteligente.",
+      "fr": "Rédigez et compilez des documents académiques avec des outils intégrés pour les références, la collaboration en direct et l'assistance.",
+      "de": "Schreiben und kompilieren Sie wissenschaftliche Arbeiten mit integrierten Werkzeugen für Referenzen und Live-Zusammenarbeit."
+    },
+    "download_url": "https://github.com/Oleafly/Oleafly/releases/download/v0.4.13/Oleafly_0.4.13_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "rymdport",
     "name": "rymdport",
     "tagline": "Securely share files between your devices",
@@ -17888,6 +18616,34 @@
       "de": "Senden Sie Dateien, Ordner und Text einfach und sicher zwischen verschiedenen Geräten mit starker Verschlüsselung."
     },
     "download_url": "https://rymdport.github.io/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "aether-app",
+    "name": "Aether",
+    "tagline": "Join private, self‑run online communities",
+    "repo_url": "https://github.com/aethereans/aether-app",
+    "full_name": "aethereans/aether-app",
+    "category": "Productivity",
+    "tags": [
+      "community",
+      "privacy"
+    ],
+    "icon": "/icons/aether-app.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1257,
+    "tier": "tier1_gui",
+    "summary": "Aether lets you chat, share posts, and create your own independent community that stays private and free from any central control.",
+    "i18n": {
+      "it": "Aether ti permette di chiacchierare, condividere post e creare una comunità indipendente che rimane privata e senza controllo centrale.",
+      "es": "Aether te permite chatear, compartir publicaciones y crear tu propia comunidad independiente que se mantiene privada y sin control central.",
+      "fr": "Aether vous permet de discuter, partager des publications et créer votre propre communauté indépendante, privée et sans contrôle central.",
+      "de": "Aether ermöglicht es Ihnen, zu chatten, Beiträge zu teilen und Ihre eigene unabhängige Gemeinschaft zu bauen, die privat bleibt und keine zentrale Kontrolle hat."
+    },
+    "download_url": "https://getaether.net",
     "updated_at": "2026-11-21"
   },
   {
@@ -17972,6 +18728,90 @@
       "de": "Ein benutzerfreundliches Desktop-Werkzeug zum Suchen, Herunterladen und Verwalten von Comic-Kapiteln."
     },
     "download_url": "https://github.com/Zeal-L/BiliBili-Manga-Downloader/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pideck",
+    "name": "PiDeck",
+    "tagline": "Manage your local AI coding sessions",
+    "repo_url": "https://github.com/ayuayue/pideck",
+    "full_name": "ayuayue/pideck",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/pideck.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1235,
+    "tier": "tier1_gui",
+    "summary": "An open-source desktop workbench that helps you organize multiple local project chats, coding assistants, and histories.",
+    "i18n": {
+      "it": "Un ambiente di lavoro desktop open source per organizzare chat locali, assistenti di codice e cronologie.",
+      "es": "Un entorno de escritorio de código abierto para organizar chats locales, asistentes y historiales.",
+      "fr": "Un espace de travail de bureau open-source pour organiser vos discussions locales et assistants de code.",
+      "de": "Ein Open-Source-Desktop-Arbeitsbereich zum Organisieren lokaler Chats, Codierungsassistenten und Verläufe."
+    },
+    "download_url": "https://github.com/ayuayue/PiDeck/releases/download/v0.13.2/PiDeck-0.13.2-portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "markeron",
+    "name": "MarkerOn",
+    "tagline": "Lightweight desktop screen annotation tool",
+    "repo_url": "https://github.com/ifer47/markeron",
+    "full_name": "ifer47/markeron",
+    "category": "Graphics & Design",
+    "tags": [
+      "annotation",
+      "presentation"
+    ],
+    "icon": "/icons/markeron.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 1225,
+    "tier": "tier1_gui",
+    "summary": "Draw, highlight, and annotate directly on your computer screen using simple keyboard shortcuts.",
+    "i18n": {
+      "it": "Disegna ed evidenzia direttamente sullo schermo del tuo computer con scorciatoie da tastiera.",
+      "es": "Dibuja, resalta y anota directamente en la pantalla de tu computadora usando atajos de teclado.",
+      "fr": "Dessinez et annotez directement sur l'écran de votre ordinateur à l'aide de raccourcis clavier.",
+      "de": "Zeichnen und markieren Sie direkt auf Ihrem Computerbildschirm mit Tastenkombinationen."
+    },
+    "download_url": "https://github.com/ifer47/markeron/releases/download/v2.31.0/MarkerOn_2.31.0_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "octo-web",
+    "name": "octo-web",
+    "tagline": "Modern web and desktop workspace interface",
+    "repo_url": "https://github.com/mininglamp-oss/octo-web",
+    "full_name": "mininglamp-oss/octo-web",
+    "category": "Productivity",
+    "tags": [
+      "chat",
+      "productivity"
+    ],
+    "icon": "/icons/octo-web.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 1225,
+    "tier": "tier1_gui",
+    "summary": "Manage collaborative chats and automated assistant tasks through a unified web and desktop interface built for human and artificial intelligence teamwork.",
+    "i18n": {
+      "it": "Gestisci chat e attività assistite da intelligenza artificiale tramite un'interfaccia unificata per web e desktop.",
+      "es": "Gestiona chats y tareas asistidas por inteligencia artificial mediante una interfaz unificada para web y escritorio.",
+      "fr": "Gérez les discussions et les tâches assistées par intelligence artificielle via une interface web et bureau unifiée.",
+      "de": "Verwalten Sie Chats und KI-gestützte Aufgaben über eine einheitliche Web- und Desktop-Benutzeroberfläche."
+    },
+    "download_url": "https://github.com/Mininglamp-OSS",
     "updated_at": "2026-11-21"
   },
   {
@@ -18087,6 +18927,90 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "dockit",
+    "name": "dockit",
+    "tagline": "Manage NoSQL databases with natural language",
+    "repo_url": "https://github.com/geek-fun/dockit",
+    "full_name": "geek-fun/dockit",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "nosql"
+    ],
+    "icon": "/icons/dockit.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 1145,
+    "tier": "tier1_gui",
+    "summary": "A private, open-source desktop workspace for querying and managing Elasticsearch, MongoDB, DynamoDB, and OpenSearch using plain English.",
+    "i18n": {
+      "it": "Un ambiente desktop privato e open source per interrogare e gestire database NoSQL utilizzando semplici comandi in linguaggio naturale.",
+      "es": "Un espacio de trabajo de escritorio privado y de código abierto para consultar y gestionar bases de datos NoSQL con lenguaje natural.",
+      "fr": "Un espace de travail de bureau privé et open source pour interroger et gérer des bases de données NoSQL en langage naturel.",
+      "de": "Ein privater, Open-Source-Desktop-Arbeitsbereich zum Abfragen und Verwalten von NoSQL-Datenbanken über einfache Alltagssprache."
+    },
+    "download_url": "https://github.com/geek-fun/dockit/releases/download/v2.0.3/DocKit_2.0.3_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "af-media-bar",
+    "name": "AF-Media-Bar",
+    "tagline": "Sleek desktop media controls and lyrics.",
+    "repo_url": "https://github.com/af-desktop/af-media-bar",
+    "full_name": "af-desktop/af-media-bar",
+    "category": "Video & Audio",
+    "tags": [
+      "media",
+      "lyrics"
+    ],
+    "icon": "/icons/af-media-bar.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 1144,
+    "tier": "tier1_gui",
+    "summary": "Manage music playback, view synchronized song lyrics, and control audio output directly from your Windows desktop taskbar.",
+    "i18n": {
+      "it": "Gestisci la riproduzione musicale, visualizza i testi sincronizzati e controlla l'audio direttamente dalla barra delle applicazioni di Windows.",
+      "es": "Gestiona la reproducción de música, ve letras sincronizadas y controla el audio directamente desde la barra de tareas de Windows.",
+      "fr": "Gérez la lecture musicale, affichez les paroles synchronisées et contrôlez l'audio directement depuis la barre des tâches Windows.",
+      "de": "Verwalten Sie die Musikwiedergabe, sehen Sie synchronisierte Liedtexte und steuern Sie Audio direkt über die Windows-Taskleiste."
+    },
+    "download_url": "https://github.com/af-desktop/AF-Media-Bar/releases/download/v1.7.1/AFMediaBar-Setup-v1.7.1-win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "librecrawl",
+    "name": "LibreCrawl",
+    "tagline": "Free open-source website audit and SEO crawler",
+    "repo_url": "https://github.com/phialsbasement/librecrawl",
+    "full_name": "phialsbasement/librecrawl",
+    "category": "Productivity",
+    "tags": [
+      "seo",
+      "website-audit"
+    ],
+    "icon": "/icons/librecrawl.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1134,
+    "tier": "tier1_gui",
+    "summary": "Crawl websites, analyze links, extract technical SEO data, and export results with zero subscription fees.",
+    "i18n": {
+      "it": "Analizza siti web, controlla i link, estrai dati SEO tecnici ed esporta i risultati senza costi di abbonamento.",
+      "es": "Rastrea sitios web, analiza enlaces, extrae datos SEO y exporta resultados sin pagar tarifas de suscripción.",
+      "fr": "Explorez des sites web, analysez des liens, extrayez des données SEO et exportez vos rapports sans abonnement.",
+      "de": "Durchsuchen Sie Websites, analysieren Sie Links und exportieren Sie SEO-Daten komplett ohne Abonnementgebühren."
+    },
+    "download_url": "https://github.com/PhialsBasement/LibreCrawl/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "discounted-udemy-course-enroller",
     "name": "Discounted-Udemy-Course-Enroller",
     "tagline": "Automatically claim free Udemy course coupons.",
@@ -18112,6 +19036,34 @@
       "de": "Finde und belege kostenlose Online-Kurse mit aktiven Rabattgutscheinen."
     },
     "download_url": "https://github.com/techtanic/Discounted-Udemy-Course-Enroller/releases/download/v2.3.6/DUCE-CLI-windows.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "once-power",
+    "name": "OncePower",
+    "tagline": "Batch rename and organize files easily.",
+    "repo_url": "https://github.com/ilgnefz/once_power",
+    "full_name": "ilgnefz/once_power",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "utilities"
+    ],
+    "icon": "/icons/once-power.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 1114,
+    "tier": "tier1_gui",
+    "summary": "Easily batch rename files and organize folders on your computer without writing complex rules or code.",
+    "i18n": {
+      "it": "Rinomina facilmente file in blocco e organizza le cartelle del computer senza scrivere regole o codici complessi.",
+      "es": "Renombra archivos por lotes y organiza carpetas fácilmente en tu computadora sin escribir reglas ni códigos complejos.",
+      "fr": "Renommez facilement des fichiers par lot et organisez vos dossiers sans avoir à écrire de règles ou de codes complexes.",
+      "de": "Benennen Sie Dateien mühelos im Stapel um und organisieren Sie Ordner ohne komplexe Regeln oder Programmierung."
+    },
+    "download_url": "https://github.com/ilgnefz/once_power/releases/download/v3.2.5/OncePower-v3.2.5-Windows-x64-Install.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -18227,6 +19179,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "officedex",
+    "name": "officedex",
+    "tagline": "Create rich office documents using artificial intelligence",
+    "repo_url": "https://github.com/officecli/officedex",
+    "full_name": "officecli/officedex",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "documents"
+    ],
+    "icon": "/icons/officedex.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 1062,
+    "tier": "tier1_gui",
+    "summary": "Transform simple text prompts into fully formatted Word documents, presentations, and spreadsheets automatically without manual formatting.",
+    "i18n": {
+      "it": "Trasforma semplici messaggi di testo in documenti formattati, presentazioni e fogli di calcolo automaticamente.",
+      "es": "Transforma sencillos mensajes de texto en documentos formateados, presentaciones y hojas de cálculo de forma automática.",
+      "fr": "Transformez de simples invites textuelles en documents formatés, présentations et feuilles de calcul en toute simplicité.",
+      "de": "Verwandeln Sie einfache Texteingaben automatisch in formatierte Dokumente, Präsentationen und Tabellenkalkulationen."
+    },
+    "download_url": "https://github.com/officecli/officedex/releases/download/v1.0.28/OfficeDex-v1.0.28-windows-amd64-installer.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "store-pos",
+    "name": "Store-POS",
+    "tagline": "Free desktop point of sale",
+    "repo_url": "https://github.com/tngoman/store-pos",
+    "full_name": "tngoman/store-pos",
+    "category": "Productivity",
+    "tags": [
+      "point-of-sale",
+      "inventory"
+    ],
+    "icon": "/icons/store-pos.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 1057,
+    "tier": "tier1_gui",
+    "summary": "A free, offline-friendly cash register app for small shops that supports barcode scanning, inventory tracking, and multiple connected terminals.",
+    "i18n": {
+      "it": "Un'app gratuita per cassa per piccoli negozi che supporta la scansione dei codici a barre, il controllo delle scorte e più terminali collegati.",
+      "es": "Una aplicación gratuita de punto de venta para pequeñas tiendas que admite escaneo de códigos de barras, control de inventario y múltiples terminales.",
+      "fr": "Une application gratuite de caisse pour les petites boutiques, prenant en charge le scan de codes-barres, la gestion des stocks et plusieurs terminaux.",
+      "de": "Eine kostenlose Kassen-App für kleine Geschäfte, die Barcode-Scanning, Inventarverwaltung und mehrere verbundene Terminals unterstützt."
+    },
+    "download_url": "https://github.com/tngoman/Store-POS/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "aerion",
     "name": "Aerion",
     "tagline": "Lightweight and secure open-source email client.",
@@ -18255,6 +19263,118 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "copybook-generator",
+    "name": "Copybook Generator",
+    "tagline": "Create custom practice sheets instantly.",
+    "repo_url": "https://github.com/jaywcjlove/copybook-generator",
+    "full_name": "jaywcjlove/copybook-generator",
+    "category": "Productivity",
+    "tags": [
+      "writing",
+      "education"
+    ],
+    "icon": "/icons/copybook-generator.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 1055,
+    "tier": "tier1_gui",
+    "summary": "Design personalized writing and math practice sheets with custom fonts and grids, then export them as ready-to-print PDF files.",
+    "i18n": {
+      "it": "Progetta fogli di scrittura e matematica personalizzati con caratteri e griglie su misura, ed esportali in comodi PDF pronti per la stampa.",
+      "es": "Diseña hojas de práctica de escritura y matemáticas con fuentes y cuadrículas personalizadas, y expórtalas como PDF listos para imprimir.",
+      "fr": "Concevez des feuilles d'écriture et de mathématiques personnalisées avec des polices adaptées et exportez-les en fichiers PDF prêts à imprimer.",
+      "de": "Entwerfen Sie personalisierte Schreib- und Mathe-Übungsblätter mit eigenen Schriftarten und exportieren Sie diese als druckfertige PDFs."
+    },
+    "download_url": "https://wangchujiang.com/copybook-generator/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "mouzi",
+    "name": "mouzi",
+    "tagline": "Keep your downloads folder automatically tidy",
+    "repo_url": "https://github.com/hsr88/mouzi",
+    "full_name": "hsr88/mouzi",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "utilities"
+    ],
+    "icon": "/icons/mouzi.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1046,
+    "tier": "tier1_gui",
+    "summary": "Mouzi is a lightweight desktop utility that runs quietly in the background to organize your downloads and documents automatically.",
+    "i18n": {
+      "it": "Mouzi è un'utilità leggera che organizza automaticamente i tuoi file scaricati lavorando silenziosamente in background.",
+      "es": "Mouzi es una utilidad de escritorio que organiza automáticamente tus archivos descargados mientras funciona discretamente.",
+      "fr": "Mouzi est un utilitaire léger qui organise automatiquement vos fichiers téléchargés en arrière-plan sans bruit.",
+      "de": "Mouzi ist ein leichtgewichtiger Helfer, der Ihre heruntergeladenen Dateien im Hintergrund vollautomatisch sortiert."
+    },
+    "download_url": "https://github.com/hsr88/mouzi/releases/download/v0.2.1/Mouzi_0.2.1_x64-portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gitcomet",
+    "name": "GitComet",
+    "tagline": "Lightning-fast visual control for code projects",
+    "repo_url": "https://github.com/auto-explore/gitcomet",
+    "full_name": "auto-explore/gitcomet",
+    "category": "Productivity",
+    "tags": [
+      "git",
+      "version-control"
+    ],
+    "icon": "/icons/gitcomet.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1044,
+    "tier": "tier1_gui",
+    "summary": "Manage code changes across large repositories effortlessly using an ultra-responsive visual interface designed for local privacy.",
+    "i18n": {
+      "it": "Gestisci le modifiche del codice senza sforzo su grandi archivi usando un'interfaccia visiva ultra-reattiva e privata.",
+      "es": "Gestiona cambios de código en repositorios grandes sin esfuerzo usando una interfaz visual ultra-responsiva y privada.",
+      "fr": "Gérez les modifications de code sur de grands dépôts avec une interface visuelle ultra-réactive conçue pour la confidentialité.",
+      "de": "Verwalten Sie Code-Änderungen in großen Archiven mühelos über eine extrem reaktionsschnelle, datenschutzfreundliche Benutzeroberfläche."
+    },
+    "download_url": "https://github.com/Auto-Explore/GitComet/releases/download/v0.3.4/gitcomet-v0.3.4-windows-arm64.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "aether-gui",
+    "name": "Aether-GUI",
+    "tagline": "One-click censorship circumvention desktop app",
+    "repo_url": "https://github.com/matinsenpai/aether-gui",
+    "full_name": "matinsenpai/aether-gui",
+    "category": "Productivity",
+    "tags": [
+      "privacy",
+      "security"
+    ],
+    "icon": "/icons/aether-gui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1040,
+    "tier": "tier1_gui",
+    "summary": "Aether-GUI wraps advanced tunneling software in a simple, friendly desktop window so you can bypass restricted networks instantly.",
+    "i18n": {
+      "it": "Aether-GUI racchiude un potente strumento di tunneling in una comoda finestra per superare le restrizioni di rete con un clic.",
+      "es": "Aether-GUI convierte una herramienta de túneles complejos en una interfaz sencilla para saltar restricciones de red fácilmente.",
+      "fr": "Aether-GUI simplifie un logiciel de tunneling avancé pour vous aider à contourner les réseaux restreints en un seul clic.",
+      "de": "Aether-GUI verpackt erweiterte Verbindungswerkzeuge in eine einfache Benutzeroberfläche für uneingeschränkten Internetzugang."
+    },
+    "download_url": "https://github.com/MatinSenPai/Aether-GUI/releases/download/v0.8.0/Aether-GUI_0.8.0_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "wireguird",
     "name": "wireguird",
     "tagline": "Simple Linux visual client for Wireguard",
@@ -18280,6 +19400,34 @@
       "de": "Verwalten Sie Ihre sicheren privaten Netzwerktunnel mühelos mit einer übersichtlichen visuellen Menüleistenanzeige unter Linux."
     },
     "download_url": "https://github.com/UnnoTed/wireguird/releases/download/v1.1.0/wireguird_amd64.deb",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "echo-agent",
+    "name": "Echo Agent",
+    "tagline": "Open-source desktop artificial intelligence with memory",
+    "repo_url": "https://github.com/fuyuxiang/echo-agent",
+    "full_name": "fuyuxiang/echo-agent",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/echo-agent.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Custom Open License",
+    "stars": 1034,
+    "tier": "tier1_gui",
+    "summary": "An open-source artificial intelligence assistant that remembers your context, learns from past tasks, and operates locally on your computer.",
+    "i18n": {
+      "it": "Un assistente di intelligenza artificiale open source che ricorda il tuo contesto e impara dai compiti passati.",
+      "es": "Un asistente de inteligencia artificial de código abierto que recuerda tu contexto y aprende de tareas pasadas.",
+      "fr": "Un assistant d'intelligence artificielle open source qui retient votre contexte et apprend de vos tâches passées.",
+      "de": "Ein Open-Source-KI-Assistent, der sich Ihren Kontext merkt und aus vergangenen Aufgaben lernt."
+    },
+    "download_url": "https://github.com/fuyuxiang/echo-agent/releases/download/v0.3.11/EchoAgent_0.3.11_x64-setup.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -18364,6 +19512,258 @@
       "de": "Dieses kostenlose Tool analysiert ein Sudoku-Foto, erkennt die Zahlen und berechnet die Lösung."
     },
     "download_url": "https://github.com/neeru1207/AI_Sudoku/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hanshuang-codex",
+    "name": "Hanshuang Codex",
+    "tagline": "Easily manage AI tools and custom developer memory profiles.",
+    "repo_url": "https://github.com/aimeoa/hanshuang-codex",
+    "full_name": "aimeoa/hanshuang-codex",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/hanshuang-codex.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 1002,
+    "tier": "tier1_gui",
+    "summary": "Hanshuang Codex is a free desktop companion for managing AI code assistants, prompt injections, and reverse-engineering toolkits with zero technical friction.",
+    "i18n": {
+      "it": "Hanshuang Codex è un programma desktop gratuito per gestire assistenti di programmazione IA e strumenti di ingegneria inversa.",
+      "es": "Hanshuang Codex es una aplicación de escritorio gratuita para gestionar asistentes de programación y herramientas de ingeniería inversa.",
+      "fr": "Hanshuang Codex est un outil de bureau gratuit pour gérer des assistants de codage IA et des boîtes à outils de rétro-ingénierie.",
+      "de": "Hanshuang Codex ist ein kostenloses Desktop-Dienstprogramm zur Verwaltung von KI-Assistenten und Reverse-Engineering-Toolkits."
+    },
+    "download_url": "https://github.com/aimeoa/hanshuang-codex/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "wesight",
+    "name": "WeSight",
+    "tagline": "Your desktop command center for AI agents",
+    "repo_url": "https://github.com/freestylefly/wesight",
+    "full_name": "freestylefly/wesight",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "agents"
+    ],
+    "icon": "/icons/wesight.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 975,
+    "tier": "tier1_gui",
+    "summary": "WeSight brings local coding and automation assistants into one friendly desktop workspace, combining visual chat, file monitoring, and flexible model routing.",
+    "i18n": {
+      "it": "WeSight riunisce assistenti di programmazione locali in un'unica scrivania digitale, unendo chat visiva e controllo dei file.",
+      "es": "WeSight reúne asistentes locales de programación en un espacio de trabajo visual, conectando chat y control de archivos.",
+      "fr": "WeSight regroupe des assistants de codage locaux dans un espace de travail visuel avec chat et suivi de fichiers.",
+      "de": "WeSight vereint lokale KI-Programmierhelfer in einem übersichtlichen Arbeitsbereich mit Chat und Dateisignalen."
+    },
+    "download_url": "https://github.com/freestylefly/wesight/releases/download/v1.0.12/WeSight.Setup.1.0.12.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "torrentplayer",
+    "name": "TorrentPlayer",
+    "tagline": "Stream any torrent video or audio instantly.",
+    "repo_url": "https://github.com/torrentplayer/torrentplayer",
+    "full_name": "torrentplayer/torrentplayer",
+    "category": "Video & Audio",
+    "tags": [
+      "streaming",
+      "torrent"
+    ],
+    "icon": "/icons/torrentplayer.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 974,
+    "tier": "tier1_gui",
+    "summary": "Play movies, shows, and audio straight from torrents without waiting, ads, accounts, or tracking.",
+    "i18n": {
+      "it": "Guarda film e ascolta musica direttamente dai torrent senza attese, pubblicità o account.",
+      "es": "Disfruta de películas y música directamente desde torrents sin esperas, anuncios ni cuentas.",
+      "fr": "Regardez des films et écoutez de la musique directement depuis les torrents sans attente, publicité ni compte.",
+      "de": "Spielen Sie Filme und Musik direkt von Torrents ab, ganz ohne Wartezeiten, Werbung oder Konten."
+    },
+    "download_url": "https://github.com/torrentplayer/torrentplayer/releases/download/v0.3.3/TorrentPlayer_0.3.3_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "markra",
+    "name": "Markra",
+    "tagline": "Local markdown writing with native AI",
+    "repo_url": "https://github.com/markrahq/markra",
+    "full_name": "markrahq/markra",
+    "category": "Productivity",
+    "tags": [
+      "markdown",
+      "editor"
+    ],
+    "icon": "/icons/markra.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 971,
+    "tier": "tier1_gui",
+    "summary": "Markra is a local-first markdown editor with built-in artificial intelligence that keeps your notes private on your computer.",
+    "i18n": {
+      "it": "Markra è un editor markdown locale con intelligenza artificiale integrata che mantiene i tuoi appunti privati sul tuo computer.",
+      "es": "Markra es un editor de markdown local con inteligencia artificial incorporada que mantiene tus notas privadas en tu computadora.",
+      "fr": "Markra est un éditeur markdown local doté d'une intelligence artificielle intégrée qui garde vos notes privées sur votre ordinateur.",
+      "de": "Markra ist ein lokaler Markdown-Editor mit integrierter künstlicher Intelligenz, der Ihre Notizen privat auf Ihrem Computer speichert."
+    },
+    "download_url": "https://github.com/markrahq/markra/releases/download/v2.14.8/Markra_2.14.8_windows_x64_setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "rowel",
+    "name": "Rowel",
+    "tagline": "Secure local-first private passwords manager",
+    "repo_url": "https://github.com/fwdai/rowel",
+    "full_name": "fwdai/rowel",
+    "category": "Security & Privacy",
+    "tags": [
+      "passwords",
+      "security"
+    ],
+    "icon": "/icons/rowel.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 970,
+    "tier": "tier1_gui",
+    "summary": "Store all your passwords, keys, and private files in a secure vault on your own devices without sharing data with online subscription services.",
+    "i18n": {
+      "it": "Conserva tutte le tue password e chiavi crittografate sui tuoi dispositivi senza alcun abbonamento online.",
+      "es": "Guarda todas tus contraseñas y claves cifradas en tus propios dispositivos sin suscripciones en la nube.",
+      "fr": "Conservez vos mots de passe et clés chiffrés sur vos appareils en toute autonomie et sans abonnement.",
+      "de": "Bewahren Sie Passwörter und Schlüssel verschlüsselt auf Ihren Geräten auf, ganz ohne Online-Abonnement."
+    },
+    "download_url": "https://github.com/fwdai/rowel/releases/download/v1.1.2/Rowel_1.1.2_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "deepseek-harness-desktop",
+    "name": "DeepSeek Harness Desktop",
+    "tagline": "Your complete desktop AI coding workspace",
+    "repo_url": "https://github.com/ningbainb/deepseek-harness-desktop",
+    "full_name": "ningbainb/deepseek-harness-desktop",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "coding"
+    ],
+    "icon": "/icons/deepseek-harness-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 950,
+    "tier": "tier1_gui",
+    "summary": "An open-source desktop workspace bringing advanced AI conversation, file management, and project tools into one app.",
+    "i18n": {
+      "it": "Un'applicazione desktop open-source per gestire conversazioni con l'intelligenza artificiale e file di progetto.",
+      "es": "Una aplicación de escritorio de código abierto que reúne conversaciones de IA y herramientas de gestión de proyectos.",
+      "fr": "Une application de bureau open-source regroupant des conversations d'intelligence artificielle et des outils de code.",
+      "de": "Eine Open-Source-Desktop-Anwendung für KI-Konversationen, Dateiverwaltung und Projekt-Automatisierung."
+    },
+    "download_url": "https://github.com/ningbainb/deepseek-harness-desktop/releases/download/desktop-v5.3.6/DeepSeek-Harness-Desktop-Setup-5.3.6-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "qymcad",
+    "name": "QymCAD",
+    "tagline": "Parametric 3D mechanical design software",
+    "repo_url": "https://github.com/qymis-tech/qymcad",
+    "full_name": "qymis-tech/qymcad",
+    "category": "Graphics & Design",
+    "tags": [
+      "cad",
+      "3d-modeling"
+    ],
+    "icon": "/icons/qymcad.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 946,
+    "tier": "tier1_gui",
+    "summary": "Design precise 3D mechanical parts and assemblies without subscriptions or cloud storage using a powerful professional modeling kernel.",
+    "i18n": {
+      "it": "Progetta parti meccaniche e assemblaggi 3D precisi senza abbonamenti o cloud utilizzando un potente motore geometrico professionale.",
+      "es": "Diseña piezas mecánicas y ensamblajes 3D precisos sin suscripciones ni nube utilizando un potente motor de modelado profesional.",
+      "fr": "Concevez des pièces mécaniques et des assemblages 3D précis sans abonnements ni cloud grâce à un puissant moteur de modélisation.",
+      "de": "Entwerfen Sie präzise mechanische 3D-Teile und Baugruppen ohne Abonnements oder Cloud mit einem leistungsstarken Modellierkern."
+    },
+    "download_url": "https://github.com/QymIs-Tech/QymCAD/releases/download/v0.1.1-dev.20261026/qymcad-0.1.1-dev.20261026-x64.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "mimi",
+    "name": "Mimi",
+    "tagline": "Live translated subtitles for any video.",
+    "repo_url": "https://github.com/yuxino/mimi",
+    "full_name": "yuxino/mimi",
+    "category": "Video & Audio",
+    "tags": [
+      "subtitles",
+      "translation"
+    ],
+    "icon": "/icons/mimi.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (MIT)",
+    "stars": 943,
+    "tier": "tier1_gui",
+    "summary": "Convert computer audio or microphone speech into real-time translated subtitles on your screen.",
+    "i18n": {
+      "it": "Converti l'audio del computer o del microfono in sottotitoli tradotti in tempo reale sullo schermo.",
+      "es": "Convierte el audio de la computadora o el micrófono en subtítulos traducidos en tiempo real.",
+      "fr": "Convertissez l'audio de l'ordinateur ou du microphone en sous-titres traduits en temps réel.",
+      "de": "Wandeln Sie Computer- oder Mikrofon-Audio in echtzeit-übersetzte Untertitel auf dem Bildschirm um."
+    },
+    "download_url": "https://github.com/yuxino/Mimi/releases/download/v1.7.5/mimi_1.7.5_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pi-agent-desktop",
+    "name": "Pi Agent Desktop",
+    "tagline": "Local desktop AI coding agent companion.",
+    "repo_url": "https://github.com/abcwyc/pi-agent-desktop",
+    "full_name": "abcwyc/pi-agent-desktop",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "coding"
+    ],
+    "icon": "/icons/pi-agent-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 940,
+    "tier": "tier1_gui",
+    "summary": "Experience advanced AI coding assistance directly on your desktop without complex terminal setups or environment configurations.",
+    "i18n": {
+      "it": "Sperimenta un assistente di codifica basato su IA direttamente sul tuo desktop senza configurazioni di terminale.",
+      "es": "Experimenta la asistencia de código de IA directamente en tu escritorio sin configuraciones complejas de terminal.",
+      "fr": "Profitez d'une assistance de codage IA directement sur votre bureau sans configurations de terminal complexes.",
+      "de": "Nutzen Sie fortschrittliche KI-Programmierung direkt auf Ihrem Desktop ohne komplexe Terminal-Einrichtungen."
+    },
+    "download_url": "https://github.com/abcwyc/pi-agent-desktop/releases/download/v0.8.7/Pi.Agent_0.8.7_x64-setup.exe",
     "updated_at": "2026-11-21"
   },
   {

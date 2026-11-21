@@ -54,5 +54,12 @@
     "html_url": "https://github.com/MervinPraison/PraisonAI",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-21T17:29:19.130676+00:00"
+  },
+  {
+    "full_name": "agentlas-ai/Agentlas-OS",
+    "slug": "agentlas-os",
+    "html_url": "https://github.com/agentlas-ai/Agentlas-OS",
+    "reason": "tier1_gemini: call error (Invalid IPv6 URL) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-21T19:33:21.615616+00:00"
   }
 ]
