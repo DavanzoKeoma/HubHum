@@ -11,13 +11,13 @@ summary: "Everyday open-source software to edit PDFs, read e-books comfortably, 
 parent_slug: "productivity"
 child_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
 sibling_slugs: []
-app_slugs: ["flutter", "react-native", "chatgpt", "uni-app", "claude-code-templates", "jobs-applier-ai-agent", "gopeed", "llamafile", "readest", "fmt", "jcode", "flutterexampleapps", "ab-download-manager", "xerj", "uwebsockets", "mars", "burn", "lynx"]
+app_slugs: ["flutter", "react-native", "chatgpt", "uni-app", "claude-code-templates", "jobs-applier-ai-agent", "gopeed", "llamafile", "readest", "fmt", "jcode", "flutterexampleapps", "ab-download-manager", "xerj", "uwebsockets", "mars", "burn", "duf"]
 updated_at: "2026-11-21"
 ---
 
 ## Plain-English Overview: Free PDF, Document & E-Book Tools
 
-This topic hub groups **99 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **131 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

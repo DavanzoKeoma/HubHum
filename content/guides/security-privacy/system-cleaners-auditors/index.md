@@ -11,7 +11,7 @@ summary: "Free system cleanup utilities and privacy auditing tools that remove u
 parent_slug: "security-privacy"
 child_slugs: ["security-privacy/system-cleaners-auditors/best-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
 sibling_slugs: []
-app_slugs: ["mole", "pentagi", "termix", "sophia-script-for-windows", "cloud-torrent", "sophiapp"]
+app_slugs: ["mole", "pentagi", "termix", "sophia-script-for-windows", "sophiapp", "magnetissimo"]
 updated_at: "2026-11-21"
 ---
 
@@ -28,5 +28,5 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[PentAGI](/HubHum/apps/pentagi/)** — An autonomous multi-agent system that performs security testing and delivers comprehensive reports based on your plain-language goals. *(Self-Hosted Web App · License: Open Source (MIT))*
 - **[Termix](/HubHum/apps/termix/)** — Termix is a flexible, self-hosted platform that lets you organize and control your remote servers, files, and connections from a single dashboard. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/)** — An advanced PowerShell tool helps you customize, clean up, and fine-tune Windows 10 and 11 safely. *(Desktop App · License: Open Source (MIT))*
-- **[Cloud Torrent](/HubHum/apps/cloud-torrent/)** — Cloud Torrent lets you manage your file downloads from any web browser and stream your media directly from your own server. *(Self-Hosted Web App · License: Custom Open License)*
 - **[SophiApp](/HubHum/apps/sophiapp/)** — SophiApp is a user-friendly tool that lets you customize and optimize your Windows 10 or 11 system using safe, official methods. *(Desktop App · License: Open Source (MIT))*
+- **[Magnetissimo](/HubHum/apps/magnetissimo/)** — Magnetissimo searches multiple torrent sites at once and saves the results to your own private, searchable database. *(Self-Hosted Web App · License: Open Source (MIT))*

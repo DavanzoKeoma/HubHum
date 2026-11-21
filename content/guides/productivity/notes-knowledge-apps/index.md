@@ -11,13 +11,13 @@ summary: "Distraction-free note-taking and personal knowledge organizers with of
 parent_slug: "productivity"
 child_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
 sibling_slugs: []
-app_slugs: ["awesome", "nextchat", "joplin", "obsidian-skills", "kazumi", "dbx", "wiki", "editor", "notable", "react-native-web", "obtainium", "leon", "capacitor", "imageglass", "carla", "libevent", "openwhispr", "psutil"]
+app_slugs: ["awesome", "nextchat", "joplin", "obsidian-skills", "kazumi", "dbx", "wiki", "editor", "notable", "react-native-web", "obtainium", "leon", "capacitor", "claudecodeui", "bottom", "gh-dash", "openwhispr", "psutil"]
 updated_at: "2026-11-21"
 ---
 
 ## Plain-English Overview: Encrypted Notes, Wikis & Knowledge Apps
 
-This topic hub groups **115 vetted free tools** specializing in **Encrypted Notes, Wikis & Knowledge Apps** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **148 vetted free tools** specializing in **Encrypted Notes, Wikis & Knowledge Apps** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

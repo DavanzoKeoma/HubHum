@@ -11,7 +11,7 @@ summary: "Compare Mole vs PentAGI and 6 free tools for Privacy Cleaners & System
 parent_slug: "security-privacy/system-cleaners-auditors"
 child_slugs: []
 sibling_slugs: ["security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
-app_slugs: ["mole", "pentagi", "termix", "sophia-script-for-windows", "cloud-torrent", "sophiapp"]
+app_slugs: ["mole", "pentagi", "termix", "sophia-script-for-windows", "sophiapp", "magnetissimo"]
 updated_at: "2026-11-21"
 ---
 
@@ -27,8 +27,8 @@ Comparing **Mole** and **PentAGI** highlights two distinct approaches in **Priva
 | [PentAGI](/HubHum/apps/pentagi/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 34,653 | Open Source (MIT) |
 | [Termix](/HubHum/apps/termix/) | Desktop App | Windows, macOS, Linux | ★ 16,079 | Open Source (Apache 2.0) |
 | [Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/) | Desktop App | Windows | ★ 9,971 | Open Source (MIT) |
-| [Cloud Torrent](/HubHum/apps/cloud-torrent/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 6,249 | Custom Open License |
 | [SophiApp](/HubHum/apps/sophiapp/) | Desktop App | Windows | ★ 5,257 | Open Source (MIT) |
+| [Magnetissimo](/HubHum/apps/magnetissimo/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 3,111 | Open Source (MIT) |
 
 ### When to Pick Which Option
 - **Choose [Mole](/HubHum/apps/mole/) (Desktop App)** if you need what it specializes in: Mole is an open-source system cleaner that removes junk files, uninstalls applications completely, and monitors system performance — it installs directly as a desktop application (Windows, macOS) (75,661 GitHub stars, vs PentAGI which runs as a Self-Hosted Web App).

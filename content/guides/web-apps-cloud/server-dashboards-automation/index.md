@@ -11,13 +11,13 @@ summary: "Visual cloud panels that replace complex commands with one clean brows
 parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"]
 sibling_slugs: []
-app_slugs: ["dify", "open-webui", "uptime-kuma", "unsloth", "coolify", "appwrite", "clickhouse", "jeecgboot", "puter", "appsmith", "tooljet", "ai-website-cloner-template", "dokploy", "casaos", "langfuse", "glances", "homepage", "meetily"]
+app_slugs: ["dify", "open-webui", "uptime-kuma", "unsloth", "coolify", "appwrite", "clickhouse", "jeecgboot", "puter", "appsmith", "tooljet", "dokploy", "khoj", "casaos", "langfuse", "glances", "homepage", "signoz"]
 updated_at: "2026-11-21"
 ---
 
 ## Plain-English Overview: Server Dashboards, Monitoring & Cloud Panels
 
-This topic hub groups **114 vetted free tools** specializing in **Server Dashboards, Monitoring & Cloud Panels** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **123 vetted free tools** specializing in **Server Dashboards, Monitoring & Cloud Panels** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -35,4 +35,4 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Puter](/HubHum/apps/puter/)** — Puter is a free, open-source internet computer that brings all your files, applications, and games together in one accessible web place. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
 - **[Appsmith](/HubHum/apps/appsmith/)** — Create custom internal tools, admin panels, and dashboards visually while connecting to your databases and web services. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
 - **[ToolJet](/HubHum/apps/tooljet/)** — Create powerful internal apps, dashboards, and operational tools using a visual builder or simple text prompts. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
-- **[AI Website Cloner Template](/HubHum/apps/ai-website-cloner-template/)** — Recreate any website as a clean Next.js app instantly by giving your AI coding assistant a simple link command. *(Self-Hosted Web App · License: Open Source (MIT))*
+- **[Dokploy](/HubHum/apps/dokploy/)** — An open tool that lets you host websites, software, and databases on your own private server with simple controls. *(Self-Hosted Web App · License: Custom Open License)*

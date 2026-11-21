@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "security-privacy/free-password-managers"
 child_slugs: []
 sibling_slugs: ["security-privacy/free-password-managers/best-free-password-managers", "security-privacy/free-password-managers/how-to-choose-free-password-managers"]
-app_slugs: ["gitleaks", "keepassxc", "pocket-id", "git-credential-manager", "lesspass"]
+app_slugs: ["gitleaks", "keepassxc", "hackbrowserdata", "clients", "pocket-id"]
 updated_at: "2026-11-21"
 ---
 
@@ -32,6 +32,6 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 - **[Gitleaks](/HubHum/apps/gitleaks/)** (CLI Tool) — Scan your code repositories and directories to find accidentally exposed passwords, API keys, and sensitive tokens before they leak.
 - **[KeePassXC](/HubHum/apps/keepassxc/)** (Desktop App) — Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees.
+- **[HackBrowserData](/HubHum/apps/hackbrowserdata/)** (CLI Tool) — This tool helps you securely extract and view saved passwords, history, and cookies from various web browsers on your computer.
+- **[Bitwarden](/HubHum/apps/clients/)** (CLI Tool) — Bitwarden is a secure digital vault that remembers your passwords and sensitive information across all your devices.
 - **[Pocket ID](/HubHum/apps/pocket-id/)** (Self-Hosted Web App) — Pocket ID provides a secure and easy way to manage user logins for your applications using modern passkey technology instead of passwords.
-- **[Git Credential Manager](/HubHum/apps/git-credential-manager/)** (Desktop App) — Git Credential Manager simplifies how you sign in to your coding accounts by securely storing your access details across all your devices.
-- **[LessPass](/HubHum/apps/lesspass/)** (Self-Hosted Web App) — LessPass creates unique passwords on the fly using a master password, eliminating the need to sync or store your sensitive data.

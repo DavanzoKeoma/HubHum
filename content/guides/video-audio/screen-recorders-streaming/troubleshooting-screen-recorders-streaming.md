@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming"]
-app_slugs: ["seanime", "streamlink-twitch-gui", "downvid", "markeron", "kiri"]
+app_slugs: ["streamlink", "openscreen", "esearch", "streamcap", "seanime"]
 updated_at: "2026-11-21"
 ---
 
@@ -30,8 +30,8 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 ### Recommended Alternatives Covered
 
+- **[Streamlink](/HubHum/apps/streamlink/)** (CLI Tool) — Streamlink lets you watch live video content directly in your favorite media player instead of using resource-heavy web browsers.
+- **[OpenScreen](/HubHum/apps/openscreen/)** (Desktop App) — OpenScreen is a free, open-source tool that lets you record your screen and turn your captures into polished product demos and walkthroughs.
+- **[eSearch](/HubHum/apps/esearch/)** (Desktop App) — eSearch is a versatile utility that combines screen recording, text recognition, and instant translation into one seamless experience.
+- **[StreamCap](/HubHum/apps/streamcap/)** (Desktop App) — StreamCap automatically monitors and records live broadcasts from dozens of websites so you never miss your favorite content.
 - **[Seanime](/HubHum/apps/seanime/)** (Self-Hosted Web App) — Seanime organizes your local media library and provides a unified interface for streaming anime and reading manga on any device.
-- **[streamlink-twitch-gui](/HubHum/apps/streamlink-twitch-gui/)** (Desktop App) — A lightweight desktop application that lets you watch Twitch streams in your favorite media player instead of a heavy web browser.
-- **[DownVid](/HubHum/apps/downvid/)** (Desktop App) — DownVid is a modern, cross-platform video downloader that helps you save high-definition media from popular websites without watermarks.
-- **[MarkerOn](/HubHum/apps/markeron/)** (Desktop App) — Draw, highlight, and annotate directly on your computer screen using simple keyboard shortcuts.
-- **[Kiri](/HubHum/apps/kiri/)** (Desktop App) — Capture screenshots, record desktop video, and extract text from images with a fast local tool that keeps all your files completely private.

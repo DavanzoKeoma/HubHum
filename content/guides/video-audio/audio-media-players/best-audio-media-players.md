@@ -11,7 +11,7 @@ summary: "Compare Pear Desktop vs Navidrome and 8 free tools for Audio Editors &
 parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/how-to-choose-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
-app_slugs: ["pear-desktop", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear", "autoclip", "listen1-desktop"]
+app_slugs: ["pear-desktop", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear", "beets", "autoclip"]
 updated_at: "2026-11-21"
 ---
 
@@ -29,8 +29,8 @@ Comparing **Pear Desktop** and **Navidrome** highlights two distinct approaches 
 | [spotify-tui](/HubHum/apps/spotify-tui/) | CLI Tool | Windows, macOS, Linux | ★ 19,434 | Open Source (MIT) |
 | [Audacity](/HubHum/apps/audacity/) | Desktop App | Windows, macOS, Linux | ★ 19,101 | Open Source (GPL v3) |
 | [Nuclear](/HubHum/apps/nuclear/) | Desktop App | Windows, macOS, Linux | ★ 18,978 | Open Source (AGPL v3) |
+| [beets](/HubHum/apps/beets/) | CLI Tool | Windows, macOS, Linux | ★ 15,967 | Open Source (MIT) |
 | [autoclip](/HubHum/apps/autoclip/) | Desktop App | Windows, macOS | ★ 12,533 | Open Source (MIT) |
-| [listen1_desktop](/HubHum/apps/listen1-desktop/) | Desktop App | Windows, macOS, Linux | ★ 11,451 | Open Source (MIT) |
 
 ### When to Pick Which Option
 - **Choose [Pear Desktop](/HubHum/apps/pear-desktop/) (Desktop App)** if you need what it specializes in: Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer — it installs directly as a desktop application (Windows, macOS, Linux) (34,107 GitHub stars, vs Navidrome which runs as a Self-Hosted Web App).

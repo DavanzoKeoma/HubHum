@@ -11,13 +11,13 @@ summary: "Verified free tools to inspect network connections, encrypt traffic, a
 parent_slug: "security-privacy"
 child_slugs: ["security-privacy/password-network-privacy/best-password-network-privacy", "security-privacy/password-network-privacy/how-to-choose-password-network-privacy", "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"]
 sibling_slugs: []
-app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "safeline", "v2raya", "metube", "esp32marauder", "netmaker", "gui-for-singbox", "bleachbit", "docker-ipsec-vpn-server", "airgorah", "wireguard-install", "wireguird"]
+app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "safeline", "v2raya", "metube", "esp32marauder", "netmaker", "gui-for-singbox", "bleachbit", "docker-ipsec-vpn-server", "airgorah", "cloud-torrent", "wireguard-install", "vpnhood"]
 updated_at: "2026-11-21"
 ---
 
 ## Plain-English Overview: Privacy Tools, VPNs & Network Monitors
 
-This topic hub groups **17 vetted free tools** specializing in **Privacy Tools, VPNs & Network Monitors** inside **Security & Privacy**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **19 vetted free tools** specializing in **Privacy Tools, VPNs & Network Monitors** inside **Security & Privacy**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Privacy Cleaners & System Audi
 parent_slug: "security-privacy/system-cleaners-auditors"
 child_slugs: []
 sibling_slugs: ["security-privacy/system-cleaners-auditors/best-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
-app_slugs: ["mole", "pentagi", "termix", "sophia-script-for-windows", "cloud-torrent", "sophiapp"]
+app_slugs: ["mole", "pentagi", "termix", "sophia-script-for-windows", "sophiapp", "magnetissimo"]
 updated_at: "2026-11-21"
 ---
 
@@ -29,5 +29,5 @@ Switching to free open-source tools in **Privacy Cleaners & System Auditors** le
 - **[PentAGI](/HubHum/apps/pentagi/)** (Self-Hosted Web App) — An autonomous multi-agent system that performs security testing and delivers comprehensive reports based on your plain-language goals.
 - **[Termix](/HubHum/apps/termix/)** (Desktop App) — Termix is a flexible, self-hosted platform that lets you organize and control your remote servers, files, and connections from a single dashboard.
 - **[Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/)** (Desktop App) — An advanced PowerShell tool helps you customize, clean up, and fine-tune Windows 10 and 11 safely.
-- **[Cloud Torrent](/HubHum/apps/cloud-torrent/)** (Self-Hosted Web App) — Cloud Torrent lets you manage your file downloads from any web browser and stream your media directly from your own server.
 - **[SophiApp](/HubHum/apps/sophiapp/)** (Desktop App) — SophiApp is a user-friendly tool that lets you customize and optimize your Windows 10 or 11 system using safe, official methods.
+- **[Magnetissimo](/HubHum/apps/magnetissimo/)** (Self-Hosted Web App) — Magnetissimo searches multiple torrent sites at once and saves the results to your own private, searchable database.

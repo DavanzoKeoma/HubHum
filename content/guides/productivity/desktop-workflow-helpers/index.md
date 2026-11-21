@@ -17,7 +17,7 @@ updated_at: "2026-11-21"
 
 ## Plain-English Overview: Window Switchers & Everyday Workflow Helpers
 
-This topic hub groups **202 vetted free tools** specializing in **Window Switchers & Everyday Workflow Helpers** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **255 vetted free tools** specializing in **Window Switchers & Everyday Workflow Helpers** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
