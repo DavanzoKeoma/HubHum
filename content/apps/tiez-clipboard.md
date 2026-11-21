@@ -1,0 +1,74 @@
+---
+title: "Tiez Clipboard"
+slug: "tiez-clipboard"
+tagline: "Lightning-fast cross-platform clipboard manager"
+summary: "Capture, organize, and sync your copied text, images, and links across devices effortlessly with privacy protection."
+tags: ["clipboard", "productivity", "sync", "utility"]
+is_webapp: false
+app_type: "desktop"
+category: "Productivity"
+icon: "/icons/tiez-clipboard.png"
+stars: 3138
+source_url: "https://github.com/jimuzhe/tiez-clipboard"
+download_url: "https://github.com/jimuzhe/tiez-clipboard/releases/download/mac-v0.1.3/TieZ_0.1.3_aarch64.dmg"
+downloadUrl: "https://github.com/jimuzhe/tiez-clipboard/releases/download/mac-v0.1.3/TieZ_0.1.3_aarch64.dmg"
+download_label: "Download for Mac (.dmg)"
+license: "Open Source (GPL v3)"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-21"
+i18n:
+  it:
+    tagline: "Gestore appunti veloce e multipiattaforma"
+    summary: "Cattura, organizza e sincronizza testi, immagini e link copiati su tutti i tuoi dispositivi in totale sicurezza."
+  es:
+    tagline: "Gestor de portapapeles rápido y multiplataforma"
+    summary: "Captura, organiza y sincroniza textos, imágenes y enlaces copiados entre tus dispositivos de forma segura y sencilla."
+  fr:
+    tagline: "Gestionnaire de presse-papiers rapide et multiplateforme"
+    summary: "Capturez, organisez et synchronisez vos textes, images et liens copiés sur tous vos appareils en toute sécurité."
+  de:
+    tagline: "Blitzschneller, plattformübergreifender Zwischenspeicher"
+    summary: "Erfassen, organisieren und synchronisieren Sie kopierte Texte, Bilder und Links nahtlos über alle Geräte hinweg."
+---
+
+### What it does in plain English
+Tiez Clipboard is a lightweight desktop utility that automatically remembers everything you copy, including text, images, and website links. It keeps your history neatly organized with custom tags and themes while offering privacy tools to hide sensitive details like passwords. You can also sync your clipboard history across multiple devices securely without losing time.
+
+### Who it's for
+* Writers and researchers who frequently collect snippets, quotes, and images from various sources
+* Developers and designers looking for quick access to recently copied code blocks and color codes
+* Anyone who wants a reliable way to sync copied notes and links between different computers
+
+### Key features
+* **Smart Capture:** Automatically saves text, rich text, images, and file paths as you copy them.
+* **Privacy Protection:** Automatically hides sensitive numbers and private data in your previews.
+* **Cross-Device Sync:** Keeps your clipboard history connected across computers using your preferred storage.
+* **Custom Themes:** Choose from multiple built-in visual styles to match your desktop aesthetic.
+* **Global Search and Tags:** Find past items instantly using custom color tags or text search.
+
+### How to install (Download)
+You can download the application directly for your Mac using the official installers below:
+* [Download for Mac (.dmg) - Apple Silicon](https://github.com/jimuzhe/tiez-clipboard/releases/download/mac-v0.1.3/TieZ_0.1.3_aarch64.dmg)
+* [Download for Mac (.dmg) - Intel](https://github.com/jimuzhe/tiez-clipboard/releases/download/mac-v0.1.3/TieZ_0.1.3_x64.dmg)
+
+### Pros and Cons
+* **Pros:** Fast native performance, highly customizable themes, built-in privacy masking, and flexible sync options.
+* **Cons:** Currently focused primarily on macOS support, with other platforms in development.
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/jimuzhe/tiez-clipboard)

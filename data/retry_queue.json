@@ -68,5 +68,19 @@
     "html_url": "https://github.com/ashawkey/torch-ngp",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-21T17:20:14.553388+00:00"
+  },
+  {
+    "full_name": "yangbin1322/hongguo-player",
+    "slug": "hongguo-player",
+    "html_url": "https://github.com/yangbin1322/hongguo-player",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-21T17:21:46.113515+00:00"
+  },
+  {
+    "full_name": "PurpleDoubleD/locally-uncensored",
+    "slug": "locally-uncensored",
+    "html_url": "https://github.com/PurpleDoubleD/locally-uncensored",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-21T17:21:53.247725+00:00"
   }
 ]

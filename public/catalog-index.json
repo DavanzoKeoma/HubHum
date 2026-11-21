@@ -10612,6 +10612,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "angular-electron",
+    "name": "angular-electron",
+    "tagline": "Build desktop apps with Angular and Electron",
+    "repo_url": "https://github.com/belnadris/angular-electron",
+    "full_name": "belnadris/angular-electron",
+    "category": "Productivity",
+    "tags": [
+      "angular",
+      "desktop"
+    ],
+    "icon": "/icons/angular-electron.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 5705,
+    "tier": "tier1_gui",
+    "summary": "Create fast desktop applications using modern web tools and native system capabilities in a single setup.",
+    "i18n": {
+      "it": "Crea applicazioni desktop veloci usando strumenti web moderni e funzionalità di sistema native in un unico ambiente.",
+      "es": "Crea aplicaciones de escritorio rápidas utilizando herramientas web modernas y funciones nativas del sistema en un solo entorno.",
+      "fr": "Créez des applications de bureau rapides en utilisant des outils web modernes et des fonctionnalités système natives.",
+      "de": "Erstellen Sie schnelle Desktop-Anwendungen mit modernen Web-Tools und nativen Systemfunktionen in einer Einrichtung."
+    },
+    "download_url": "https://belnadris.github.io/angular-electron/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "mpv-net",
     "name": "mpv.net",
     "tagline": "Smooth video playback for Windows",
@@ -10666,6 +10694,34 @@
     },
     "download_url": "https://npmjs.com/ms",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "open-science",
+    "name": "AIPOCH Open-Science",
+    "tagline": "Local-first AI research workbench for reproducible science",
+    "repo_url": "https://github.com/aipoch/open-science",
+    "full_name": "aipoch/open-science",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "research"
+    ],
+    "icon": "/icons/open-science.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 5557,
+    "tier": "tier1_gui",
+    "summary": "An open-source AI assistant workbench that helps you conduct scientific research locally, execute code, and share verifiable results.",
+    "i18n": {
+      "it": "Un ambiente di ricerca basato su intelligenza artificiale per condurre studi scientifici localmente e condividere risultati verificabili.",
+      "es": "Una herramienta de investigación de IA de código abierto para realizar ciencia localmente, ejecutar código y compartir resultados verificables.",
+      "fr": "Un plan de travail de recherche en IA open source pour mener des études scientifiques localement et partager des résultats vérifiables.",
+      "de": "Eine Open-Source-KI-Workbench zur Durchführung wissenschaftlicher Forschung, Ausführung von Code und Freigabe überprüfbarer Ergebnisse."
+    },
+    "download_url": "https://github.com/aipoch/open-science/releases/download/v1.3.2/aipoch-open-science-1.3.2-win-x64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "toga",
@@ -10752,6 +10808,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "soundnode-app",
+    "name": "soundnode-app",
+    "tagline": "Listen to music without opening browser",
+    "repo_url": "https://github.com/soundnode/soundnode-app",
+    "full_name": "soundnode/soundnode-app",
+    "category": "Productivity",
+    "tags": [
+      "music",
+      "audio"
+    ],
+    "icon": "/icons/soundnode-app.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 5287,
+    "tier": "tier1_gui",
+    "summary": "Soundnode App brings your favorite online music stream directly to your desktop computer with native keyboard shortcuts and clean playback.",
+    "i18n": {
+      "it": "Soundnode App porta il tuo streaming musicale preferito direttamente sul computer desktop con comode scorciatoie da tastiera.",
+      "es": "Soundnode App lleva tu transmisión de música favorita directamente a tu ordenador de escritorio con atajos de teclado nativos.",
+      "fr": "Soundnode App apporte votre flux musical en ligne préféré directement sur votre ordinateur de bureau avec des raccourcis clavier.",
+      "de": "Soundnode App bringt Ihren Lieblingsmusik-Stream direkt auf Ihren Desktop-Computer mit nativen Tastenkombinationen."
+    },
+    "download_url": "https://soundnode.github.io/soundnode-website/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "sophiapp",
     "name": "SophiApp",
     "tagline": "Fine-tune your Windows settings easily.",
@@ -10780,6 +10864,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "desktopnaotu",
+    "name": "DesktopNaotu",
+    "tagline": "Offline desktop mind mapping tool",
+    "repo_url": "https://github.com/naotu/desktopnaotu",
+    "full_name": "naotu/desktopnaotu",
+    "category": "Productivity",
+    "tags": [
+      "mind-map",
+      "productivity"
+    ],
+    "icon": "/icons/desktopnaotu.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 5093,
+    "tier": "tier1_gui",
+    "summary": "Create and organize mind maps locally without needing an internet connection.",
+    "i18n": {
+      "it": "Crea e organizza mappe mentali localmente senza bisogno di una connessione internet.",
+      "es": "Crea y organiza mapas mentales localmente sin necesidad de conexión a internet.",
+      "fr": "Créez et organisez des cartes mentales localement sans connexion Internet.",
+      "de": "Erstellen und organisieren Sie Mindmaps lokal ohne Internetverbindung."
+    },
+    "download_url": "https://github.com/NaoTu/DesktopNaotu/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "anymodelbot",
+    "name": "AnyModelBot",
+    "tagline": "Your own AI bots on any model",
+    "repo_url": "https://github.com/modelflare-ai/anymodelbot",
+    "full_name": "modelflare-ai/anymodelbot",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/anymodelbot.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 4969,
+    "tier": "tier1_gui",
+    "summary": "Run custom open-source AI assistant teams locally on your computer using top artificial intelligence models with absolute privacy.",
+    "i18n": {
+      "it": "Esegui team di assistenti IA open source sul tuo computer utilizzando i migliori modelli con assoluta privacy.",
+      "es": "Ejecuta equipos de asistentes de IA de código abierto en tu ordenador usando los mejores modelos con total privacidad.",
+      "fr": "Exécutez des équipes d'assistants IA open source sur votre ordinateur en utilisant les meilleurs modèles en toute confidentialité.",
+      "de": "Führe Open-Source-KI-Assistententeams lokal auf deinem Computer aus und nutze die besten Modelle mit absoluter Privatsphäre."
+    },
+    "download_url": "https://github.com/modelflare-ai/AnyModelBot/releases/download/v0.1.44/anymodel-bot-0.1.44-win-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "mach",
     "name": "Mach",
     "tagline": "High-performance game engine and graphics toolkit",
@@ -10806,6 +10946,34 @@
     },
     "download_url": "https://machengine.org",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "zapfast",
+    "name": "zapfast",
+    "tagline": "Lightning fast native WhatsApp desktop app.",
+    "repo_url": "https://github.com/crmne/zapfast",
+    "full_name": "crmne/zapfast",
+    "category": "Productivity",
+    "tags": [
+      "messaging",
+      "whatsapp"
+    ],
+    "icon": "/icons/zapfast.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 4858,
+    "tier": "tier1_gui",
+    "summary": "ZapFast is a lightweight, high-performance messaging client built for speed, offering an efficient native alternative to heavy web-based chat apps.",
+    "i18n": {
+      "it": "ZapFast è un'applicazione di messaggistica leggera e veloce, progettata per offrire un'alternativa nativa efficiente alle pesanti versioni web.",
+      "es": "ZapFast es una aplicación de mensajería ligera y rápida, diseñada para ofrecer una alternativa nativa eficiente a las pesadas versiones web.",
+      "fr": "ZapFast est une application de messagerie légère et rapide, conçue pour offrir une alternative native efficace aux lourdes versions web.",
+      "de": "ZapFast ist eine leichte und schnelle Messaging-Anwendung, die eine effiziente native Alternative zu schwereren Web-Versionen bietet."
+    },
+    "download_url": "https://github.com/crmne/zapfast/releases/download/v0.21.3/zapfast-v0.21.3-aarch64-pc-windows-msvc.msi",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "core",
@@ -10976,6 +11144,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "desktop-cc-gui",
+    "name": "desktop-cc-gui",
+    "tagline": "Unify multiple AI coding assistants easily.",
+    "repo_url": "https://github.com/zhukunpenglinyutong/desktop-cc-gui",
+    "full_name": "zhukunpenglinyutong/desktop-cc-gui",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "coding"
+    ],
+    "icon": "/icons/desktop-cc-gui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 4612,
+    "tier": "tier1_gui",
+    "summary": "Manage and chat with multiple AI coding engines inside a single friendly desktop window without using text commands.",
+    "i18n": {
+      "it": "Collega diversi strumenti di programmazione IA in un'unica interfaccia grafica senza usare finestre di comandi.",
+      "es": "Administra y chatea con varias inteligencias artificiales de código en una sola ventana sin usar terminales.",
+      "fr": "Générez et discutez avec plusieurs moteurs de code IA dans une seule interface visuelle sans utiliser de terminal.",
+      "de": "Verwalten und steuern Sie verschiedene KI-Schreibassistenten in einer einzigen, übersichtlichen Desktop-Anwendung."
+    },
+    "download_url": "https://github.com/zhukunpenglinyutong/desktop-cc-gui/releases/download/v1.2.5/CC.GUI_1.2.5_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "codeg",
     "name": "Codeg",
     "tagline": "Collaborative multi-agent AI coding workspace",
@@ -11058,6 +11254,34 @@
     },
     "download_url": "https://github.com/jhspetersson/fselect/releases/download/0.10.4/fselect_0.10.4-1_amd64.deb",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "lap",
+    "name": "Lap",
+    "tagline": "Private offline photo manager for huge libraries",
+    "repo_url": "https://github.com/julyx10/lap",
+    "full_name": "julyx10/lap",
+    "category": "Productivity",
+    "tags": [
+      "photos",
+      "offline-first"
+    ],
+    "icon": "/icons/lap.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 4462,
+    "tier": "tier1_gui",
+    "summary": "Manage large local photo collections securely without cloud subscriptions or forced uploads.",
+    "i18n": {
+      "it": "Organizza grandi raccolte di foto locali in modo sicuro senza abbonamenti cloud o caricamenti obbligatori.",
+      "es": "Organiza grandes colecciones de fotos locales de forma segura sin suscripciones en la nube ni cargas obligatorias.",
+      "fr": "Organisez de grandes collections de photos locales en toute sécurité sans abonnements cloud ni transferts obligatoires.",
+      "de": "Organisieren Sie große lokale Fotobibliotheken sicher ohne Cloud-Abonnements oder erzwungene Uploads."
+    },
+    "download_url": "https://github.com/julyx10/lap/releases/download/v0.4.1/Lap_0.4.1_arm64_en-US.msi",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "linux-wifi-hotspot",
@@ -11256,6 +11480,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "claude-devtools",
+    "name": "claude-devtools",
+    "tagline": "Visual debugger for AI coding sessions",
+    "repo_url": "https://github.com/matt1398/claude-devtools",
+    "full_name": "matt1398/claude-devtools",
+    "category": "Productivity",
+    "tags": [
+      "ai-coding",
+      "developer-tools"
+    ],
+    "icon": "/icons/claude-devtools.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 4051,
+    "tier": "tier1_gui",
+    "summary": "A free, open-source tool that turns hidden AI coding logs into a clear visual dashboard.",
+    "i18n": {
+      "it": "Uno strumento gratuito e open-source che trasforma i log nascosti dell'AI in una dashboard visiva.",
+      "es": "Una herramienta gratuita y de código abierto que convierte los registros ocultos de la IA en un panel visual claro.",
+      "fr": "Un outil gratuit et open source qui transforme les journaux cachés de l'IA en un tableau de bord visuel.",
+      "de": "Ein kostenloses Open-Source-Tool, das versteckte KI-Protokolle in ein klares visuelles Dashboard verwandelt."
+    },
+    "download_url": "https://github.com/matt1398/claude-devtools/releases/download/v0.5.0/claude-devtools-Setup-0.5.0-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "qtexamples",
     "name": "QtExamples",
     "tagline": "Master desktop app development in C++.",
@@ -11340,6 +11592,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "codex-desktop-linux",
+    "name": "ChatGPT Community for Linux",
+    "tagline": "Official ChatGPT experience tailored for Linux",
+    "repo_url": "https://github.com/ilysenko/codex-desktop-linux",
+    "full_name": "ilysenko/codex-desktop-linux",
+    "category": "Productivity",
+    "tags": [
+      "chatgpt",
+      "linux"
+    ],
+    "icon": "/icons/codex-desktop-linux.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3939,
+    "tier": "tier1_gui",
+    "summary": "An unofficial community-maintained desktop app bringing the official ChatGPT experience to Linux systems with flexible package support.",
+    "i18n": {
+      "it": "Un'applicazione desktop non ufficiale che porta l'esperienza ChatGPT su Linux con supporto per vari formati di pacchetto.",
+      "es": "Una aplicación de escritorio no oficial que lleva la experiencia oficial de ChatGPT a sistemas Linux de forma sencilla.",
+      "fr": "Une application de bureau non officielle apportant l'expérience ChatGPT officielle sur les systèmes Linux.",
+      "de": "Eine inoffizielle Desktop-App, die das offizielle ChatGPT-Erlebnis mit flexibler Paketunterstützung auf Linux bringt."
+    },
+    "download_url": "https://github.com/ilysenko/codex-desktop-linux/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "tutti",
+    "name": "Tutti",
+    "tagline": "Collaborate effortlessly with multiple artificial intelligence as",
+    "repo_url": "https://github.com/tutti-os/tutti",
+    "full_name": "tutti-os/tutti",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "collaboration"
+    ],
+    "icon": "/icons/tutti.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3923,
+    "tier": "tier1_gui",
+    "summary": "Tutti provides a real-time shared workspace where you can connect multiple artificial intelligence assistants, share context, and execute workflows without endless copy-pasting.",
+    "i18n": {
+      "it": "Tutti offre uno spazio di lavoro condiviso in tempo reale per connettere più assistenti di intelligenza artificiale senza dover copiare continuamente i testi.",
+      "es": "Tutti ofrece un espacio de trabajo compartido en tiempo real para conectar varios asistentes virtuales y coordinar tareas sin copiar y pegar constantemente.",
+      "fr": "Tutti propose un espace de travail partagé en temps réel pour connecter plusieurs assistants virtuels et échanger des fichiers sans copier-coller sans fin.",
+      "de": "Tutti bietet einen gemeinsamen Echtzeit-Arbeitsbereich zur Verbindung mehrerer Assistenten, um Abläufe ohne ständiges Kopieren nahtlos zu steuern."
+    },
+    "download_url": "https://github.com/tutti-os/tutti/releases/download/v0.2.33/Tutti-0.2.33-win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "ricochet",
     "name": "ricochet",
     "tagline": "Anonymous peer-to-peer secure messaging tool",
@@ -11368,6 +11676,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "githubstarsmanager",
+    "name": "GithubStarsManager",
+    "tagline": "AI organizes your starred repositories effortlessly.",
+    "repo_url": "https://github.com/amintacccp/githubstarsmanager",
+    "full_name": "amintacccp/githubstarsmanager",
+    "category": "Productivity",
+    "tags": [
+      "github",
+      "productivity"
+    ],
+    "icon": "/icons/githubstarsmanager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3900,
+    "tier": "tier1_gui",
+    "summary": "Automatically sync, summarize, and categorize your starred GitHub repositories using artificial intelligence and smart semantic search.",
+    "i18n": {
+      "it": "Sincronizza, riassumi e categorizza automaticamente i tuoi preferiti di GitHub usando l'intelligenza artificiale e la ricerca semantica.",
+      "es": "Sincroniza, resume y categoriza automáticamente tus repositorios favoritos de GitHub utilizando inteligencia artificial y búsqueda semántica.",
+      "fr": "Synchronisez, résumez et catégorisez automatiquement vos dépôts GitHub favoris grâce à l'intelligence artificielle et la recherche sémantique.",
+      "de": "Synchronisieren, fassen und kategorisieren Sie Ihre markierten GitHub-Repositories automatisch mit künstlicher Intelligenz und semantischer Suche."
+    },
+    "download_url": "https://github.com/AmintaCCCP/GithubStarsManager/releases/download/v0.9.1/GitHub.Stars.Manager.Setup.0.9.1.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "stablediffusion-infinity",
     "name": "stablediffusion-infinity",
     "tagline": "Expand pictures infinitely using artificial intelligence",
@@ -11393,6 +11729,34 @@
       "de": "Erstellen Sie atemberaubende, endlose Kunstwerke, indem Sie nahtlos neue Hintergrunddetails um jedes Foto herum generieren."
     },
     "download_url": "https://github.com/lkwq007/stablediffusion-infinity/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "golutra",
+    "name": "golutra",
+    "tagline": "One person, one AI squad.",
+    "repo_url": "https://github.com/golutra/golutra",
+    "full_name": "golutra/golutra",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/golutra.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 3878,
+    "tier": "tier1_gui",
+    "summary": "Golutra is a multi-agent orchestration workspace that unifies your existing command-line tools into a coordinated team for parallel execution and automated workflows.",
+    "i18n": {
+      "it": "Golutra è uno spazio di lavoro multi-agente che unisce i tuoi strumenti a riga di comando in un team coordinato per flussi automatizzati.",
+      "es": "Golutra es un espacio de trabajo multi-agente que unifica tus herramientas de línea de comandos en un equipo coordinado para flujos automatizados.",
+      "fr": "Golutra est un espace de travail multi-agent qui unifie vos outils de ligne de commande en une équipe coordonnée pour des flux automatisés.",
+      "de": "Golutra ist ein Multi-Agenten-Arbeitsbereich, der Ihre vorhandenen Befehlszeilentools zu einem koordinierten Team für automatisierte Abläufe bündelt."
+    },
+    "download_url": "https://github.com/golutra/golutra/releases/download/v0.3.5/golutra_windows_aarch64.msi",
     "updated_at": "2026-11-21"
   },
   {
@@ -11508,6 +11872,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "eac-desktop",
+    "name": "EAC-Desktop",
+    "tagline": "Harmonious desktop workspace for intelligent assistants",
+    "repo_url": "https://github.com/ebony-vinyl/eac-desktop",
+    "full_name": "ebony-vinyl/eac-desktop",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "assistant"
+    ],
+    "icon": "/icons/eac-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 3732,
+    "tier": "tier1_gui",
+    "summary": "EAC-Desktop organizes conversational agents, project files, and tool extensions into a seamless, native desktop workspace.",
+    "i18n": {
+      "it": "EAC-Desktop organizza agenti di conversazione, file di progetto ed estensioni in un ambiente desktop fluido.",
+      "es": "EAC-Desktop organiza agentes conversacionales, archivos de proyecto y extensiones en un espacio de trabajo fluido.",
+      "fr": "EAC-Desktop organise les agents de conversation, les fichiers de projet et les extensions dans un espace unifié.",
+      "de": "EAC-Desktop organisiert Konversationsagenten, Projektdateien und Tool-Erweiterungen in einem nahtlosen Arbeitsbereich."
+    },
+    "download_url": "https://github.com/Ebony-Vinyl/EAC-Desktop/releases/download/launcher-v0.1.0/EAC-Launcher-0.1.0-x64-portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "masterhttprelayvpn-rust",
     "name": "MasterHttpRelayVPN-RUST",
     "tagline": "Bypass internet blocks using your own Google account",
@@ -11588,6 +11980,34 @@
       "de": "remi ermöglicht es Ihnen, Python‑GUIs zu erstellen, die in jedem Webbrowser angezeigt werden, sodass Sie sie lokal oder von überall aus nutzen können."
     },
     "download_url": "https://github.com/rawpython/remi/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nanomuse",
+    "name": "nanoMuse",
+    "tagline": "Your own personal AI agent everywhere",
+    "repo_url": "https://github.com/nano-muse/nanomuse",
+    "full_name": "nano-muse/nanomuse",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/nanomuse.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 3626,
+    "tier": "tier1_gui",
+    "summary": "nanoMuse is an open-source personal digital assistant that runs across all your devices, keeps working when closed, and checks with you before making major changes.",
+    "i18n": {
+      "it": "nanoMuse è un assistente digitale personale open source che funziona su tutti i tuoi dispositivi e chiede conferma prima di procedere.",
+      "es": "nanoMuse es un asistente digital personal de código abierto que funciona en todos tus dispositivos y te consulta antes de actuar.",
+      "fr": "nanoMuse est un assistant numérique personnel open source qui fonctionne sur tous vos appareils et demande confirmation avant d'agir.",
+      "de": "nanoMuse ist ein Open-Source-Assistent für alle deine Geräte, der eigenständig arbeitet und vor wichtigen Aktionen nachfragt."
+    },
+    "download_url": "https://github.com/nano-muse/nanoMuse/releases/download/v1.0.9/nanoMuse-Desktop-1.0.9-win-x64.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -11815,6 +12235,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "openchatcut",
+    "name": "OpenChatCut",
+    "tagline": "Edit videos effortlessly using conversational AI",
+    "repo_url": "https://github.com/0xsline/openchatcut",
+    "full_name": "0xsline/openchatcut",
+    "category": "Video & Audio",
+    "tags": [
+      "video-editor",
+      "ai"
+    ],
+    "icon": "/icons/openchatcut.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3253,
+    "tier": "tier1_gui",
+    "summary": "An open-source, privacy-focused video editor that lets you cut clips, add effects, and edit multi-track timelines using chat instructions.",
+    "i18n": {
+      "it": "Un editor video open-source orientato alla privacy che consente di tagliare clip e gestire timeline multi-traccia tramite chat.",
+      "es": "Un editor de video de código abierto centrado en la privacidad para cortar clips y gestionar líneas de tiempo mediante chat.",
+      "fr": "Un éditeur vidéo open source axé sur la confidentialité pour couper des clips et gérer des lignes temporelles par chat.",
+      "de": "Ein quelloffener, datenschutzfreundlicher Videoeditor zum Schneiden von Clips und Verwalten von Spuren per Chat."
+    },
+    "download_url": "https://github.com/0xsline/OpenChatCut/releases/download/v0.2.17/OpenChatCut-0.2.17-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "jailer",
     "name": "Jailer",
     "tagline": "Create safe database subsets easily",
@@ -11868,6 +12316,34 @@
       "de": "Ein plattformübergreifender Reader zum Suchen, Herunterladen und Genießen von Büchern und Comics."
     },
     "download_url": "https://github.com/POf-L/Fanqie-novel-Downloader/releases/download/unsigned-v2026.11.21-457-r863/FanqieNovelDownloader-tauri-windows-arm64-portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pixeval",
+    "name": "Pixeval",
+    "tagline": "Modern cross-platform viewer for artwork",
+    "repo_url": "https://github.com/pixeval/pixeval",
+    "full_name": "pixeval/pixeval",
+    "category": "Productivity",
+    "tags": [
+      "artwork",
+      "viewer"
+    ],
+    "icon": "/icons/pixeval.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 3208,
+    "tier": "tier1_gui",
+    "summary": "Browse, search, and manage your favorite artwork collections from online creative communities with a fast and modern application.",
+    "i18n": {
+      "it": "Sfoglia, cerca e gestisci le tue raccolte di opere preferite da community creative con un'applicazione veloce e moderna.",
+      "es": "Explora, busca y administra tus colecciones de arte favoritas de comunidades creativas con una aplicación rápida y moderna.",
+      "fr": "Parcourez, recherchez et gérez vos collections d'œuvres préférées issues de communautés créatives grâce à une application rapide.",
+      "de": "Durchsuche, finde und verwalte deine Lieblingskunstsammlungen aus Kreativ-Communitys mit einer schnellen und modernen App."
+    },
+    "download_url": "https://github.com/Pixeval/Pixeval/releases/download/5.0.15/Pixeval-win-arm64-Setup.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -11927,6 +12403,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "tiez-clipboard",
+    "name": "Tiez Clipboard",
+    "tagline": "Lightning-fast cross-platform clipboard manager",
+    "repo_url": "https://github.com/jimuzhe/tiez-clipboard",
+    "full_name": "jimuzhe/tiez-clipboard",
+    "category": "Productivity",
+    "tags": [
+      "clipboard",
+      "productivity"
+    ],
+    "icon": "/icons/tiez-clipboard.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 3138,
+    "tier": "tier1_gui",
+    "summary": "Capture, organize, and sync your copied text, images, and links across devices effortlessly with privacy protection.",
+    "i18n": {
+      "it": "Cattura, organizza e sincronizza testi, immagini e link copiati su tutti i tuoi dispositivi in totale sicurezza.",
+      "es": "Captura, organiza y sincroniza textos, imágenes y enlaces copiados entre tus dispositivos de forma segura y sencilla.",
+      "fr": "Capturez, organisez et synchronisez vos textes, images et liens copiés sur tous vos appareils en toute sécurité.",
+      "de": "Erfassen, organisieren und synchronisieren Sie kopierte Texte, Bilder und Links nahtlos über alle Geräte hinweg."
+    },
+    "download_url": "https://github.com/jimuzhe/tiez-clipboard/releases/download/mac-v0.1.3/TieZ_0.1.3_aarch64.dmg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pile",
+    "name": "Pile",
+    "tagline": "Reflective digital journaling with local privacy",
+    "repo_url": "https://github.com/udarajay/pile",
+    "full_name": "udarajay/pile",
+    "category": "Productivity",
+    "tags": [
+      "journaling",
+      "privacy"
+    ],
+    "icon": "/icons/pile.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Custom Open License",
+    "stars": 3123,
+    "tier": "tier1_gui",
+    "summary": "Pile is a clean desktop app for private journaling that keeps your personal thoughts secure locally while offering optional artificial intelligence insights.",
+    "i18n": {
+      "it": "Pile è un'applicazione desktop pulita per il diario personale che mantiene i tuoi pensieri sicuri localmente.",
+      "es": "Pile es una aplicación de escritorio limpia para escribir tu diario personal manteniendo tus datos seguros de forma local.",
+      "fr": "Pile est une application de bureau épurée pour tenir votre journal intime tout en gardant vos données sécurisées localement.",
+      "de": "Pile ist eine übersichtliche Desktop-App für private Tagebücher, die Ihre persönlichen Gedanken sicher auf dem Gerät speichert."
+    },
+    "download_url": "https://github.com/UdaraJay/Pile/releases/download/v0.9.9/Pile-Setup-0.9.9.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "asciigraph",
     "name": "asciigraph",
     "tagline": "Create lightweight line graphs instantly in your terminal",
@@ -11980,6 +12512,34 @@
       "de": "Dieses Werkzeug ermöglicht es Programmierern, interaktive Menüs und Bedienfelder für ihre Software mit der Programmiersprache Rust zu erstellen."
     },
     "download_url": "https://github.com/imgui-rs/imgui-rs/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pinvou-agent",
+    "name": "Pinvou Agent",
+    "tagline": "All-in-one desktop AI work workspace.",
+    "repo_url": "https://github.com/pinvou/pinvou-agent",
+    "full_name": "pinvou/pinvou-agent",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "desktop"
+    ],
+    "icon": "/icons/pinvou-agent.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3043,
+    "tier": "tier1_gui",
+    "summary": "An open-source desktop workspace that brings everyday tasks, visual design, and coding assistance together into real tangible deliverables.",
+    "i18n": {
+      "it": "Uno spazio di lavoro desktop open-source che unisce attività quotidiane, design visivo e programmazione in veri file concreti.",
+      "es": "Un espacio de trabajo de escritorio que combina tareas diarias, diseño visual y desarrollo de código en resultados reales.",
+      "fr": "Un espace de travail de bureau open-source qui rassemble les tâches quotidiennes, le design et le codage en livrables réels.",
+      "de": "Ein Open-Source-Desktop-Arbeitsbereich, der alltägliche Aufgaben, Grafikdesign und Programmierung in echte Ergebnisse verwandelt."
+    },
+    "download_url": "https://github.com/Pinvou/pinvou-agent/releases/download/v1.0.2/pinvou-agent_1.0.2-windows-x64-setup.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -12064,6 +12624,62 @@
       "de": "Ein intuitives Werkzeug zum Öffnen, Prüfen und Bearbeiten von kompilierten Java-Klassendateien und Bytecode."
     },
     "download_url": "https://github.com/ingokegel/jclasslib/releases/download/7.1/jclasslib_win64_7_1.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "tauon",
+    "name": "Tauon",
+    "tagline": "Streamlined music player for desktop",
+    "repo_url": "https://github.com/taiko2k/tauon",
+    "full_name": "taiko2k/tauon",
+    "category": "Video & Audio",
+    "tags": [
+      "audio",
+      "music-player"
+    ],
+    "icon": "/icons/tauon.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 2983,
+    "tier": "tier1_gui",
+    "summary": "Enjoy a fast, beautiful desktop music player that handles local collections, gapless playback, and streaming servers with ease.",
+    "i18n": {
+      "it": "Goditi un lettore musicale desktop veloce e pulito che gestisce collezioni locali, riproduzione senza pause e server di streaming.",
+      "es": "Disfruta de un reproductor de música de escritorio rápido y limpio que gestiona colecciones locales y servidores de streaming.",
+      "fr": "Profitez d'un lecteur de musique de bureau rapide et épuré qui gère les collections locales et les serveurs de streaming.",
+      "de": "Genießen Sie einen schnellen Musikplayer für den Desktop, der lokale Sammlungen und Streaming-Server problemlos verwaltet."
+    },
+    "download_url": "https://github.com/Taiko2k/Tauon/releases/download/v14.0.0/TauonMusicBox-windows-installer.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "clawpanel",
+    "name": "ClawPanel",
+    "tagline": "Manage multiple AI agents easily",
+    "repo_url": "https://github.com/qingchencloud/clawpanel",
+    "full_name": "qingchencloud/clawpanel",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "dashboard"
+    ],
+    "icon": "/icons/clawpanel.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 2936,
+    "tier": "tier1_gui",
+    "summary": "Manage and control multiple intelligent assistant engines from a single user-friendly desktop and web dashboard.",
+    "i18n": {
+      "it": "Gestisci e controlla più motori di assistenti intelligenti da un'unica dashboard desktop e web intuitiva.",
+      "es": "Gestiona y controla múltiples motores de asistentes inteligentes desde un único panel de control intuitivo.",
+      "fr": "Gérez et contrôlez plusieurs moteurs d'assistants intelligents à partir d'un tableau de bord intuitif.",
+      "de": "Verwalten und steuern Sie mehrere intelligente Assistenz-Engines von einem einzigen intuitiven Dashboard aus."
+    },
+    "download_url": "https://github.com/qingchencloud/clawpanel/releases/download/v0.22.5/ClawPanel_0.22.5_x64-setup-full.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -12235,6 +12851,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "geekdesk",
+    "name": "GeekDesk",
+    "tagline": "Beautiful custom desktop launcher and search",
+    "repo_url": "https://github.com/bookerliu/geekdesk",
+    "full_name": "bookerliu/geekdesk",
+    "category": "Productivity",
+    "tags": [
+      "launcher",
+      "desktop"
+    ],
+    "icon": "/icons/geekdesk.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 2826,
+    "tier": "tier1_gui",
+    "summary": "A lightweight, customizable desktop launcher with ultra-fast search and frosted glass visuals to keep your favorite apps organized.",
+    "i18n": {
+      "it": "Un launcher desktop leggero e personalizzabile con ricerca ultraveloce e grafica in vetro satinato per organizzare le tue app.",
+      "es": "Un lanzador de escritorio ligero con búsqueda ultrarrápida y efectos visuales de cristal esmerilado para ordenar tus aplicaciones.",
+      "fr": "Un lanceur de bureau léger doté d'une recherche ultra-rapide et d'un design en verre givré pour organiser vos applications favorites.",
+      "de": "Ein leichter, anpassbarer Desktop-Starter mit ultraschneller Suche und Milchglas-Optik, um Ihre Lieblings-Apps zu organisieren."
+    },
+    "download_url": "https://github.com/BookerLiu/GeekDesk/wiki/1.-GeekDesk%E6%9E%81%E5%AE%A2%E6%A1%8C%E9%9D%A2-%E7%AE%80%E4%BB%8B%E2%9A%A1",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "homebridge-config-ui-x",
     "name": "homebridge-config-ui-x",
     "tagline": "Manage your smart home server browser dashboard.",
@@ -12316,6 +12960,62 @@
       "de": "Verbinden Sie Python-Funktionen visuell für flexible Arbeitsabläufe und exportieren Sie Layouts direkt als sauberen Code."
     },
     "download_url": "https://nodezator.com",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pluely",
+    "name": "Pluely",
+    "tagline": "Invisible private AI assistant for calls",
+    "repo_url": "https://github.com/iamsrikanthnani/pluely",
+    "full_name": "iamsrikanthnani/pluely",
+    "category": "Productivity",
+    "tags": [
+      "ai-assistant",
+      "productivity"
+    ],
+    "icon": "/icons/pluely.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 2793,
+    "tier": "tier1_gui",
+    "summary": "An ultra-fast, private AI assistant that runs invisibly during meetings, interviews, and live conversations without showing up on screen shares.",
+    "i18n": {
+      "it": "Un assistente IA veloce e privato che funziona in modo invisibile durante riunioni e colloqui senza apparire sulle condivisioni schermo.",
+      "es": "Un asistente de IA rápido y privado que funciona de forma invisible durante reuniones y entrevistas sin mostrarse en las pantallas compartidas.",
+      "fr": "Un assistant IA ultra-rapide et privé qui fonctionne en toute discrétion pendant vos réunions et entretiens sans apparaître à l'écran.",
+      "de": "Ein ultraschneller und privater KI-Assistent, der während Besprechungen und Interviews unsichtbar läuft und bei Bildschirmfreigaben verborgen bleibt."
+    },
+    "download_url": "https://github.com/iamsrikanthnani/pluely/releases/download/app-v1.2.0/Pluely_1.2.0_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pagekin",
+    "name": "Pagekin",
+    "tagline": "Write and organize long novels with AI assistance",
+    "repo_url": "https://github.com/ethanyoq/pagekin",
+    "full_name": "ethanyoq/pagekin",
+    "category": "Productivity",
+    "tags": [
+      "writing",
+      "novel"
+    ],
+    "icon": "/icons/pagekin.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 2766,
+    "tier": "tier1_gui",
+    "summary": "Pagekin is a free, open-source desktop application that helps you plan, draft, and organize long novels using your own artificial intelligence models.",
+    "i18n": {
+      "it": "Pagekin è un'applicazione desktop open-source per pianificare, scrivere e organizzare romanzi lunghi utilizzando i tuoi modelli di IA.",
+      "es": "Pagekin es una aplicación de escritorio gratuita y de código abierto para planificar, redactar y organizar novelas usando tus modelos de IA.",
+      "fr": "Pagekin est une application de bureau gratuite pour planifier, rédiger et organiser des romans à l'aide de vos propres modèles d'IA.",
+      "de": "Pagekin ist eine kostenlose Desktop-Anwendung zum Planen, Entwerfen und Organisieren langer Romane mit Ihren eigenen KI-Modellen."
+    },
+    "download_url": "https://github.com/EthanYoQ/Pagekin/releases/download/v1.5.0/ai-novel-writer-setup-1.5.0.exe",
     "updated_at": "2026-11-21"
   },
   {
