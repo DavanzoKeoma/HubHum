@@ -107,20 +107,24 @@ const primarySchema =
         name: guide.data.title,
         description: guide.data.summary,
         url: canonicalUrl,
-        mainEntity: {
-          '@type': 'ItemList',
-          numberOfItems: matchedApps.length,
-          itemListElement: matchedApps.slice(0, 10).map((a, idx) => ({
-            '@type': 'ListItem',
-            position: idx + 1,
-            name: a.data.title,
-            url: `${siteOrigin}${withBase(`/apps/${a.data.slug}/`)}`,
-          })),
-        },
       };
+
+const featuredAppsSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `${guide.data.title} — Featured Software`,
+  numberOfItems: matchedApps.length,
+  itemListElement: matchedApps.slice(0, 12).map((a, idx) => ({
+    '@type': 'ListItem',
+    position: idx + 1,
+    name: a.data.title,
+    url: `${siteOrigin}${withBase(`/apps/${a.data.slug}/`)}`,
+  })),
+};
 
 const jsonLd = [
   primarySchema,
+  ...(matchedApps.length > 0 ? [featuredAppsSchema] : []),
   {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',

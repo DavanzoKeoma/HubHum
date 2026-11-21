@@ -2,9 +2,8 @@ name: Nightly Programmatic SEO Builder & Instant Translator
 
 on:
   schedule:
-    # 4 staggered daily waves targeting 1,000 pages/day within Gemini 1,500 RPD ceiling
-    # (01:00 UTC -> 250 Tier 1 | 03:00 UTC -> 250 Tier 1 | 05:00 UTC -> 250 Tier 2 | 07:00 UTC -> 50 Tier 2 + 200 Tier 3)
-    - cron: "0 1,3,5,7 * * *"
+    # Multiple daily catch-up windows resilient to GitHub free-tier cron delays/skips
+    - cron: "0 1,3,5,7,11,15,19,23 * * *"
   repository_dispatch:
     types: [translate-app, translate_app]
   issues:
@@ -30,6 +29,11 @@ on:
           - tier2
           - tier3
           - trending
+      count:
+        description: "Number of new cards to generate (overrides limit if set)"
+        required: false
+        default: ""
+        type: string
       force_provider:
         description: "AI provider (auto | gemini | groq | both)"
         required: false
@@ -59,43 +63,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - name: Determine wave partition for 1,000/day Tier quota
+      - name: Determine quota-aware wave allocation
         id: wave
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             UTC_HOUR=$(date -u +%H)
             echo "UTC hour: ${UTC_HOUR}"
-            case "${UTC_HOUR}" in
-              01|02)
-                echo "mode=wave1" >> "$GITHUB_OUTPUT"
-                echo "tier=tier1" >> "$GITHUB_OUTPUT"
-                echo "tier_key=tier1_gui" >> "$GITHUB_OUTPUT"
-                echo "limit=250" >> "$GITHUB_OUTPUT"
-                ;;
-              03|04)
-                echo "mode=wave2" >> "$GITHUB_OUTPUT"
-                echo "tier=tier1" >> "$GITHUB_OUTPUT"
-                echo "tier_key=tier1_gui" >> "$GITHUB_OUTPUT"
-                echo "limit=250" >> "$GITHUB_OUTPUT"
-                ;;
-              05|06)
-                echo "mode=wave3" >> "$GITHUB_OUTPUT"
-                echo "tier=tier2" >> "$GITHUB_OUTPUT"
-                echo "tier_key=tier2_webapp" >> "$GITHUB_OUTPUT"
-                echo "limit=250" >> "$GITHUB_OUTPUT"
-                ;;
-              *)
-                echo "mode=wave4_split" >> "$GITHUB_OUTPUT"
-                echo "tier=all" >> "$GITHUB_OUTPUT"
-                echo "tier_key=all" >> "$GITHUB_OUTPUT"
-                echo "limit=250" >> "$GITHUB_OUTPUT"
-                ;;
-            esac
+            echo "mode=quota_adaptive" >> "$GITHUB_OUTPUT"
+            echo "tier=all" >> "$GITHUB_OUTPUT"
+            echo "limit=250" >> "$GITHUB_OUTPUT"
           else
             echo "mode=manual_or_ondemand" >> "$GITHUB_OUTPUT"
             echo "tier=${{ github.event.inputs.tier || 'all' }}" >> "$GITHUB_OUTPUT"
-            echo "tier_key=all" >> "$GITHUB_OUTPUT"
-            echo "limit=${{ github.event.inputs.limit || '250' }}" >> "$GITHUB_OUTPUT"
+            echo "limit=${{ github.event.inputs.count || github.event.inputs.limit || '250' }}" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Checkout repository with HUBHUM_PAT (enables deploy.yml chaining)
@@ -156,41 +136,83 @@ jobs:
             python3 scripts/seo_pipeline.py --repo-urls "${DISPATCH_REPO_URLS}" --force-provider "${FORCE_PROVIDER}" --min-delay 4.1
           elif [ -n "${DISPATCH_REPO_URL}" ]; then
             python3 scripts/seo_pipeline.py --single-repo "${DISPATCH_REPO_URL}" --force-provider "${FORCE_PROVIDER}" --min-delay 0
+          elif [ "${SCOUT_TIER}" = "trending" ]; then
+            python3 scripts/seo_pipeline.py --tier trending --limit "${SCOUT_LIMIT}" --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 --min-delay 4.1
           else
-            EFFECTIVE_LIMIT="${SCOUT_LIMIT}"
-            if [ "${EVENT_NAME}" = "schedule" ] && [ -f "data/daily_quota_state.json" ]; then
-              EFFECTIVE_LIMIT=$(python3 - <<'PY'
-          import json, os
+            python3 - <<'PY'
+          import json, os, sys
           from datetime import datetime, timezone
           from pathlib import Path
-          raw = int(os.environ.get("SCOUT_LIMIT") or "250")
-          state = json.loads(Path("data/daily_quota_state.json").read_text(encoding="utf-8"))
-          today = datetime.now(timezone.utc).date().isoformat()
-          if state.get("date_utc") == today:
-              rem = max(0, 1000 - int(state.get("total_generated_today", 0)))
-              print(min(raw, rem))
+
+          sys.path.insert(0, "scripts")
+          from recover_quota_waves import compute_catalog_status, execute_streaming_recovery
+
+          event_name = os.environ.get("EVENT_NAME", "")
+          tier = os.environ.get("SCOUT_TIER", "all").strip() or "all"
+          raw_limit = max(0, int(os.environ.get("SCOUT_LIMIT") or "250"))
+          force_provider = os.environ.get("FORCE_PROVIDER", "auto").strip() or "auto"
+
+          effective_limit = raw_limit
+          quota_path = Path("data/daily_quota_state.json")
+          if event_name == "schedule" and quota_path.exists():
+              state = json.loads(quota_path.read_text(encoding="utf-8"))
+              today = datetime.now(timezone.utc).date().isoformat()
+              if state.get("date_utc") == today:
+                  rem_today = max(0, 1000 - int(state.get("total_generated_today", 0)))
+                  effective_limit = min(raw_limit, rem_today)
+
+          if effective_limit <= 0:
+              print("Daily quota (1,000/day) already satisfied for today UTC; preserving 500 RPD headroom.")
+              sys.exit(0)
+
+          if tier == "tier1":
+              t1, t2, t3 = effective_limit, 0, 0
+          elif tier == "tier2":
+              t1, t2, t3 = 0, effective_limit, 0
+          elif tier == "tier3":
+              t1, t2, t3 = 0, 0, effective_limit
           else:
-              print(raw)
+              status = compute_catalog_status()
+              deltas = status.get("remaining_deltas", {})
+              d1 = max(0, int(deltas.get("tier1_gui", 0)))
+              d2 = max(0, int(deltas.get("tier2_webapp", 0)))
+              d3 = max(0, int(deltas.get("tier3_powertool", 0)))
+              total_delta = d1 + d2 + d3
+              if total_delta <= 0:
+                  # Balanced 50/30/20 wave split even after catalog reaches 1,000
+                  t1 = int(round(effective_limit * 0.50))
+                  t2 = int(round(effective_limit * 0.30))
+                  t3 = max(0, effective_limit - t1 - t2)
+              else:
+                  t1 = min(d1, int(round(effective_limit * (d1 / total_delta))))
+                  t2 = min(d2, int(round(effective_limit * (d2 / total_delta))))
+                  t3 = min(d3, max(0, effective_limit - t1 - t2))
+                  leftover = effective_limit - (t1 + t2 + t3)
+                  if leftover > 0 and d1 > t1:
+                      add = min(leftover, d1 - t1)
+                      t1 += add
+                      leftover -= add
+                  if leftover > 0 and d2 > t2:
+                      add = min(leftover, d2 - t2)
+                      t2 += add
+                      leftover -= add
+                  if leftover > 0 and d3 > t3:
+                      t3 += min(leftover, d3 - t3)
+
+          print(f"[WAVE PLAN] mode={os.environ.get('WAVE_MODE')} tier={tier} -> tier1={t1}, tier2={t2}, tier3={t3}")
+          res = execute_streaming_recovery(
+              tier1_target=t1,
+              tier2_target=t2,
+              tier3_target=t3,
+              min_delay=4.1,
+              batch_commit_size=50,
+              commit_batches=False,
+              force_provider=force_provider,
+          )
+          print("[WAVE RESULT]", json.dumps(res))
           PY
-              )
-            fi
-            if [ "${EFFECTIVE_LIMIT}" -le 0 ]; then
-              echo "Daily quota (1,000/day) already satisfied for today UTC; preserving 500 RPD headroom."
-            elif [ "${WAVE_MODE}" = "wave4_split" ]; then
-              T2_LIM=$(( EFFECTIVE_LIMIT < 50 ? EFFECTIVE_LIMIT : 50 ))
-              T3_LIM=$(( EFFECTIVE_LIMIT - T2_LIM ))
-              python3 scripts/seo_pipeline.py --tier tier2 --limit "${T2_LIM}" --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 --auto-git-push --min-delay 4.1
-              if [ "${T3_LIM}" -gt 0 ]; then
-                python3 scripts/seo_pipeline.py --tier tier3 --limit "${T3_LIM}" --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 --auto-git-push --min-delay 4.1
-              fi
-            else
-              AUTO_PUSH_FLAG=""
-              if [ "${EVENT_NAME}" = "schedule" ]; then
-                AUTO_PUSH_FLAG="--auto-git-push"
-              fi
-              python3 scripts/seo_pipeline.py --tier "${SCOUT_TIER}" --limit "${EFFECTIVE_LIMIT}" --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 ${AUTO_PUSH_FLAG} --min-delay 4.1
-            fi
           fi
+          python3 scripts/cluster_orchestrator.py --generate-all
           python3 scripts/generate_catalog_index.py
 
       - name: Validate all Markdown cards
@@ -198,7 +220,7 @@ jobs:
 
       - name: Commit and push remaining batch cards
         run: |
-          git add content/apps public/icons public/catalog-index.json data/catalog-index.json data/retry_queue.json data/processed_repos.json data/daily_quota_state.json
+          git add content/apps content/guides content/bundles public/icons public/catalog-index.json data/catalog-index.json data/clusters_manifest.json src/data/app_cluster_map.json data/retry_queue.json data/processed_repos.json data/daily_quota_state.json
           if git diff --cached --quiet; then
             echo "No remaining un-committed cards."
           else

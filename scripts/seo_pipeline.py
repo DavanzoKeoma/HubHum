@@ -17,6 +17,7 @@ from validator_sanitizer import (
     TRUNCATED_ENDING_WORDS,
     ensure_triplet_links_in_body,
     is_summary_truncated,
+    relocate_affiliate_links_to_sponsored_section,
     sanitize_full_document,
     split_frontmatter,
     validate_markdown_card,
@@ -248,7 +249,8 @@ def enrich_frontmatter(markdown_text: str, repo: ScoutedRepo, aff: dict, provide
             "---",
         ]
     )
-    enriched_body = ensure_triplet_links_in_body(body, aff.get("recommended_triplet") or [])
+    isolated_body = relocate_affiliate_links_to_sponsored_section(body, aff.get("recommended_triplet") or [])
+    enriched_body = ensure_triplet_links_in_body(isolated_body, aff.get("recommended_triplet") or [])
     return sanitize_full_document(f"{frontmatter}\n\n{enriched_body}\n")
 
 

@@ -13,6 +13,7 @@ from validator_sanitizer import split_frontmatter
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_APPS_DIR = PROJECT_ROOT / "content" / "apps"
 CONTENT_GUIDES_DIR = PROJECT_ROOT / "content" / "guides"
+CONTENT_BUNDLES_DIR = PROJECT_ROOT / "content" / "bundles"
 MANIFEST_PATH = PROJECT_ROOT / "data" / "clusters_manifest.json"
 APP_CLUSTER_MAP_PATH = PROJECT_ROOT / "src" / "data" / "app_cluster_map.json"
 
@@ -29,14 +30,20 @@ MACRO_DEFINITIONS: list[dict[str, object]] = [
             {
                 "sub_slug": "free-video-editors",
                 "sub_topic": "Video Cutters, Converters & Downloaders",
-                "keywords": ("video", "handbrake", "cutter", "lossless", "transcod", "bili23", "youtube", "yt-dlp", "vlc", "mpv", "concat", "screen"),
-                "sub_summary": "Compare video trimming, file conversion, playback, and media downloading tools with honest format details.",
+                "keywords": ("handbrake", "cutter", "lossless", "transcod", "bili23", "youtube", "yt-dlp", "concat", "subtitle", "video-editor"),
+                "sub_summary": "Compare video trimming, file conversion, subtitling, and media downloading tools with honest format details.",
             },
             {
                 "sub_slug": "audio-media-players",
                 "sub_topic": "Audio Editors & Music Players",
-                "keywords": ("audio", "music", "audacity", "spotif", "navidrome", "finetune", "shpotify", "sound", "equalizer"),
+                "keywords": ("audio", "music", "audacity", "spotif", "navidrome", "finetune", "shpotify", "sound", "equalizer", "podcast"),
                 "sub_summary": "Reliable desktop and self-hosted players for organizing music libraries, editing audio tracks, and clear playback.",
+            },
+            {
+                "sub_slug": "screen-recorders-streaming",
+                "sub_topic": "Screen Recorders, Streaming & Media Players",
+                "keywords": ("vlc", "mpv", "obs", "screen", "recorder", "capture", "stream", "player", "media", "video"),
+                "sub_summary": "Free screen recorders, desktop media players, and streaming tools that work smoothly on any computer.",
             },
         ],
     },
@@ -49,7 +56,7 @@ MACRO_DEFINITIONS: list[dict[str, object]] = [
             {
                 "sub_slug": "photo-image-tools",
                 "sub_topic": "Photo Optimizers, Galleries & Screen Capture",
-                "keywords": ("photo", "image", "flameshot", "screenshot", "photoprism", "koharu", "diffusion", "optim"),
+                "keywords": ("photo", "image", "flameshot", "screenshot", "photoprism", "koharu", "diffusion", "optim", "drawing"),
                 "sub_summary": "Free creative apps for compressing photos, capturing crisp screenshots, and organizing visual collections.",
             },
             {
@@ -67,15 +74,21 @@ MACRO_DEFINITIONS: list[dict[str, object]] = [
         "pillar_summary": "Protect passwords, monitor network traffic, and declutter operating systems safely with transparent free software.",
         "subpillars": [
             {
+                "sub_slug": "free-password-managers",
+                "sub_topic": "Free Password Managers & Auth Vaults",
+                "keywords": ("password", "keepass", "bitwarden", "vaultwarden", "auth", "2fa", "totp", "passkey", "credential"),
+                "sub_summary": "Offline and self-hosted password managers and 2FA vaults that keep your logins encrypted under your control.",
+            },
+            {
                 "sub_slug": "password-network-privacy",
-                "sub_topic": "Password Managers, VPNs & Network Monitors",
-                "keywords": ("password", "keepass", "vpn", "singbox", "v2ray", "sniffnet", "firewall", "safeline", "ipsec", "airgorah", "marauder"),
-                "sub_summary": "Verified free tools to lock down logins, inspect network connections, and protect your everyday browsing.",
+                "sub_topic": "Privacy Tools, VPNs & Network Monitors",
+                "keywords": ("vpn", "wireguard", "singbox", "v2ray", "sniffnet", "firewall", "safeline", "ipsec", "airgorah", "marauder", "encryption", "privacy"),
+                "sub_summary": "Verified free tools to inspect network connections, encrypt traffic, and protect your everyday browsing.",
             },
             {
                 "sub_slug": "system-cleaners-auditors",
                 "sub_topic": "Privacy Cleaners & System Auditors",
-                "keywords": ("bleachbit", "debloat", "sophia", "win11", "gitleaks", "sherlock", "maigret", "mole", "termix", "pentagi", "pangolin"),
+                "keywords": ("bleachbit", "debloat", "sophia", "win11", "gitleaks", "sherlock", "maigret", "mole", "termix", "pentagi", "pangolin", "backup"),
                 "sub_summary": "Free system cleanup utilities and privacy auditing tools that remove unnecessary bloat and tracking.",
             },
         ],
@@ -88,14 +101,20 @@ MACRO_DEFINITIONS: list[dict[str, object]] = [
         "subpillars": [
             {
                 "sub_slug": "notes-knowledge-apps",
-                "sub_topic": "Note-Taking & Knowledge Apps",
-                "keywords": ("note", "joplin", "markdown", "knowledge", "writing", "doc", "awesome", "pdf", "obsidian", "editor", "dbx"),
+                "sub_topic": "Encrypted Notes, Wikis & Knowledge Apps",
+                "keywords": ("note", "joplin", "markdown", "knowledge", "writing", "obsidian", "editor", "todo", "calendar"),
                 "sub_summary": "Distraction-free note-taking and personal knowledge organizers with offline control over your writing.",
+            },
+            {
+                "sub_slug": "pdf-document-office-tools",
+                "sub_topic": "Free PDF, Document & E-Book Tools",
+                "keywords": ("pdf", "ebook", "epub", "reader", "doc", "office", "ocr", "scan", "paperless", "rss"),
+                "sub_summary": "Everyday open-source software to edit PDFs, read e-books comfortably, organize documents, and scan files.",
             },
             {
                 "sub_slug": "desktop-workflow-helpers",
                 "sub_topic": "Window Switchers & Everyday Workflow Helpers",
-                "keywords": ("window", "menu", "mouse", "switch", "alt-tab", "thaw", "ice", "uniget", "dbeaver", "bruno", "automa"),
+                "keywords": ("window", "menu", "mouse", "switch", "alt-tab", "thaw", "ice", "uniget", "dbeaver", "bruno", "automa", "launcher", "clipboard", "file-manager", "backup"),
                 "sub_summary": "Lightweight free helpers that organize windows, speed up repetitive tasks, and tidy up your computer.",
             },
         ],
@@ -107,15 +126,21 @@ MACRO_DEFINITIONS: list[dict[str, object]] = [
         "pillar_summary": "Run modern dashboards, publishing tools, bookmark hubs, and family cloud apps directly in your browser.",
         "subpillars": [
             {
+                "sub_slug": "self-hosted-cms-blogs",
+                "sub_topic": "Self-Hosted CMS, Blogs & Publishing Platforms",
+                "keywords": ("cms", "blog", "ghost", "wiki", "outline", "bookstack", "publish", "knowledge-base", "rss"),
+                "sub_summary": "Open-source web publishing platforms and team wikis that replace expensive hosted subscriptions.",
+            },
+            {
                 "sub_slug": "self-hosted-cloud-apps",
-                "sub_topic": "Personal Cloud Hubs, Wikis & Bookmark Apps",
-                "keywords": ("wiki", "bookmark", "linkwarden", "karakeep", "ghost", "siyuan", "trilium", "memos", "immich", "archive", "resume", "hubhum"),
-                "sub_summary": "Browser-based workspaces for saving links, publishing articles, and backing up photos privately.",
+                "sub_topic": "Personal Cloud Hubs, Photos & File Sharing",
+                "keywords": ("bookmark", "linkwarden", "karakeep", "siyuan", "trilium", "memos", "immich", "archive", "resume", "hubhum", "nextcloud", "file-sharing", "cloud-storage", "photo-gallery"),
+                "sub_summary": "Browser-based workspaces for saving links, backing up family photos, and sharing cloud storage privately.",
             },
             {
                 "sub_slug": "server-dashboards-automation",
                 "sub_topic": "Server Dashboards, Monitoring & Cloud Panels",
-                "keywords": ("dashboard", "casaos", "coolify", "dokploy", "dockge", "uptime", "beszel", "dashy", "homepage", "glance", "analytics", "dify", "appsmith"),
+                "keywords": ("dashboard", "casaos", "coolify", "dokploy", "dockge", "uptime", "beszel", "dashy", "homepage", "glance", "analytics", "dify", "appsmith", "crm", "erp", "invoicing"),
                 "sub_summary": "Visual cloud panels that replace complex commands with one clean browser control center.",
             },
         ],
@@ -568,6 +593,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
         )
 
     manifest["total_guide_pages"] = generated_files
+    manifest["bundles"] = generate_bundle_sets(apps, today)
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
     MANIFEST_PATH.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -577,10 +603,152 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
     return manifest
 
 
+def _pick_bundle_apps(apps: list[dict], preferred_slugs: tuple[str, ...], category: str | None = None, app_type: str | None = None, limit: int = 6) -> list[dict]:
+    """Select existing high-signal apps for curated bundle sets without fabricating missing slugs."""
+    by_slug = {a["slug"]: a for a in apps}
+    picked: list[dict] = []
+    seen: set[str] = set()
+    for s in preferred_slugs:
+        if s in by_slug and s not in seen:
+            picked.append(by_slug[s])
+            seen.add(s)
+    for a in apps:
+        if len(picked) >= limit:
+            break
+        if a["slug"] in seen:
+            continue
+        if category and a["category"] != category:
+            continue
+        if app_type and a["app_type"] != app_type:
+            continue
+        if a["app_type"] == "resource":
+            continue
+        picked.append(a)
+        seen.add(a["slug"])
+    return picked[:limit]
+
+
+def generate_bundle_sets(apps: list[dict], today: str) -> list[str]:
+    """Generate and refresh curated bundle Markdown sets in content/bundles/."""
+    CONTENT_BUNDLES_DIR.mkdir(parents=True, exist_ok=True)
+    bundle_specs = [
+        {
+            "slug": "top-free-apps-this-week",
+            "title": "Top Free Open-Source Picks of the Week",
+            "category": "Curated Guides",
+            "summary": "Essential free tools to organize private notes, edit video and audio without limits, protect passwords, and publish online.",
+            "tags": ["collection", "productivity", "privacy", "video"],
+            "preferred": ("joplin", "ghost", "losslesscut", "keepassxc", "audacity"),
+            "filter_cat": None,
+            "filter_type": "desktop",
+            "why": "Every week we highlight trustworthy free software that replaces costly monthly subscriptions with simple, reliable alternatives you control.",
+        },
+        {
+            "slug": "privacy-security-starter-pack",
+            "title": "Complete Free Privacy & Security Starter Pack",
+            "category": "Security & Privacy",
+            "summary": "Lock down passwords, monitor network traffic, clean system trackers, and browse safely with zero subscription fees.",
+            "tags": ["privacy", "security", "password-manager", "vpn"],
+            "preferred": ("keepassxc", "sniffnet", "bleachbit", "localsend", "gitleaks"),
+            "filter_cat": "Security & Privacy",
+            "filter_type": None,
+            "why": "Replace scattered security utilities and paid trackers with verified open-source tools you can audit and run directly.",
+        },
+        {
+            "slug": "self-hosted-personal-cloud-bundle",
+            "title": "Self-Hosted Personal Cloud & Publishing Bundle",
+            "category": "Web Apps & Cloud",
+            "summary": "Run private photo backups, dashboards, CMS blogs, and bookmark hubs on your own server or mini-PC.",
+            "tags": ["self-hosted", "cloud", "photos", "cms"],
+            "preferred": ("immich", "casaos", "coolify", "ghost", "linkwarden", "memos"),
+            "filter_cat": "Web Apps & Cloud",
+            "filter_type": "selfhosted",
+            "why": "Keep full ownership of family memories, notes, websites, and server panels while running cleanly with 1-click cloud hosting or local Docker.",
+        },
+        {
+            "slug": "creator-video-audio-studio-bundle",
+            "title": "Free Creator Video & Audio Studio Bundle",
+            "category": "Video & Audio",
+            "summary": "Cut footage without re-encoding, convert formats fast, record audio cleanly, and manage offline music libraries.",
+            "tags": ["video", "audio", "creator", "media"],
+            "preferred": ("vlc", "handbrake", "losslesscut", "audacity", "yt-dlp", "navidrome"),
+            "filter_cat": "Video & Audio",
+            "filter_type": None,
+            "why": "Build a complete multimedia workstation with zero watermarks, zero subscription lock-in, and official creator installers.",
+        },
+        {
+            "slug": "paperless-office-notes-bundle",
+            "title": "Paperless Office, PDF & Knowledge Vault Bundle",
+            "category": "Productivity",
+            "summary": "Manage PDFs, encrypted notes, e-books, and personal wikis cleanly without proprietary cloud formats.",
+            "tags": ["notes", "pdf", "office", "knowledge"],
+            "preferred": ("joplin", "stirling-pdf", "siyuan", "trilium", "sumatra-pdf"),
+            "filter_cat": "Productivity",
+            "filter_type": None,
+            "why": "Keep your everyday documents, receipts, study notes, and reference libraries fast, searchable, and portable.",
+        },
+        {
+            "slug": "desktop-productivity-power-pack",
+            "title": "Everyday Desktop Workflow & Utility Power Pack",
+            "category": "Productivity",
+            "summary": "Switch windows effortlessly, organize backups, share files across devices, and trim daily desktop friction.",
+            "tags": ["desktop", "workflow", "windows", "macos"],
+            "preferred": ("alt-tab-macos", "localsend", "flameshot", "unigetui", "dbeaver", "bruno"),
+            "filter_cat": "Productivity",
+            "filter_type": "desktop",
+            "why": "Small, lightweight desktop helpers save hours every week without cluttering your system or prompting for upgrades.",
+        },
+    ]
+
+    created_slugs: list[str] = []
+    for spec in bundle_specs:
+        picked = _pick_bundle_apps(
+            apps,
+            spec["preferred"],  # type: ignore[arg-type]
+            category=spec["filter_cat"],  # type: ignore[arg-type]
+            app_type=spec["filter_type"],  # type: ignore[arg-type]
+            limit=6,
+        )
+        if len(picked) < 3:
+            continue
+        tags_yaml = ", ".join(f'"{t}"' for t in spec["tags"])
+        slugs_yaml = ", ".join(f'"{a["slug"]}"' for a in picked)
+        bullets = "\n".join(
+            f"* **[{a['title']}](/HubHum/apps/{a['slug']}/)** (*{_format_app_type(a['app_type'])}*): {a['summary']}"
+            for a in picked
+        )
+        content = "\n".join(
+            [
+                "---",
+                f'title: "{_escape_yaml(str(spec["title"]))}"',
+                f'slug: "{spec["slug"]}"',
+                f'category: "{spec["category"]}"',
+                f'summary: "{_escape_yaml(str(spec["summary"]))}"',
+                f"tags: [{tags_yaml}]",
+                f"app_slugs: [{slugs_yaml}]",
+                f'updated_at: "{today}"',
+                "---",
+                "",
+                "### Why this curated guide",
+                str(spec["why"]),
+                "",
+                "### Featured highlights",
+                bullets,
+                "",
+            ]
+        )
+        out_path = CONTENT_BUNDLES_DIR / f"{spec['slug']}.md"
+        out_path.write_text(content, encoding="utf-8")
+        created_slugs.append(str(spec["slug"]))
+
+    return created_slugs
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="HubHum 5-Level Topic Cluster Orchestrator")
     parser.add_argument("--generate", action="store_true", help="Generate Level 1-3 guides and update cluster manifest")
+    parser.add_argument("--generate-all", action="store_true", help="Generate all Topic Clusters (Levels 1-3) and Curated Bundle Sets")
     args = parser.parse_args()
     res = generate_clusters()
-    print(f"[CLUSTERS] Generated {res['total_guide_pages']} guide pages across {len(res['pillars'])} macro-pillars.")
+    print(f"[CLUSTERS] Generated {res['total_guide_pages']} guide pages across {len(res['pillars'])} macro-pillars and {len(res.get('bundles', []))} bundle sets.")
     print(json.dumps(res, indent=2))

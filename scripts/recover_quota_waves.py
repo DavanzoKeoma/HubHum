@@ -52,6 +52,26 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "note-taking",
             "screen-recorder",
             "media-player",
+            "pdf",
+            "image-editor",
+            "photo-editor",
+            "file-manager",
+            "backup",
+            "email-client",
+            "ebook-reader",
+            "music-player",
+            "drawing",
+            "clipboard",
+            "calendar",
+            "screenshot",
+            "encryption",
+            "vpn",
+            "subtitle",
+            "recorder",
+            "rss-reader",
+            "launcher",
+            "pomodoro",
+            "todo",
         ),
     },
     "tier2": {
@@ -68,6 +88,22 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "analytics",
             "wiki",
             "bookmark-manager",
+            "nextcloud",
+            "crm",
+            "erp",
+            "photo-gallery",
+            "media-server",
+            "rss",
+            "note-taking",
+            "password-manager",
+            "uptime",
+            "home-automation",
+            "blog",
+            "knowledge-base",
+            "file-sharing",
+            "cloud-storage",
+            "invoicing",
+            "project-management",
         ),
     },
     "tier3": {
@@ -196,7 +232,7 @@ def execute_streaming_recovery(
         for topic in topics:
             if published_by_tier[tier_arg] >= target_count:
                 break
-            for page_num in (1, 2, 3, 4):
+            for page_num in (1, 2, 3, 4, 5):
                 if published_by_tier[tier_arg] >= target_count:
                     break
                 _throttle_github_search()
@@ -251,6 +287,13 @@ def execute_streaming_recovery(
                         bundle.is_webapp = False
                         bundle.app_type = "desktop"
                         bundle.scouting_tier = "tier1_gui"
+                        if bundle.category not in (
+                            "Productivity",
+                            "Security & Privacy",
+                            "Video & Audio",
+                            "Graphics & Design",
+                        ):
+                            bundle.category = "Productivity"
                     elif tier_arg == "tier2":
                         bundle.is_webapp = True
                         bundle.app_type = "selfhosted"
