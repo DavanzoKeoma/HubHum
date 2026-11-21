@@ -44,17 +44,17 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
           Personally Identifiable Information (PII), IP logs, health/financial data, or authentication credentials.
         </li>
         <li>
-          <strong>Web Traffic Analytics (GA4 &amp; Cloudflare Web Analytics):</strong> When configured via{' '}
-          <code>PUBLIC_GA_MEASUREMENT_ID</code>, the HubHum website uses Google Analytics 4 (<code>gtag.js</code>) with{' '}
-          <code>anonymize_ip: true</code>, <code>allow_google_signals: false</code>, and{' '}
-          <code>allow_ad_personalization_signals: false</code> solely to measure aggregated page views, referral
-          sources, and popular software guides. Cross-site ad tracking, remarketing, and personal user profiling remain
-          disabled, and local extension/favorite preferences (<code>localStorage</code> /{' '}
+          <strong>Web Traffic Analytics (Google Tag Manager &amp; GA4):</strong> HubHum loads container{' '}
+          <code>GTM-NNT4QBLT</code> (<code>googletagmanager.com/gtm.js</code>) asynchronously via Google Tag Manager{' '}
+          and supports Google Analytics 4 (<code>gtag.js</code> when <code>PUBLIC_GA_MEASUREMENT_ID</code> is set) and
+          Cloudflare Web Analytics solely to measure aggregated page views, referral sources, and popular software
+          guides. IP anonymization is enabled (<code>anonymize_ip: true</code>), Google Signals and ad personalization
+          remain disabled, and local extension/favorite preferences (<code>localStorage</code> /{' '}
           <code>chrome.storage.local</code>) never leave your device.
         </li>
         <li>
-          <strong>How to Disable / Opt Out:</strong> You can disable analytics at any time using your browser&apos;s
-          tracking protection, the{' '}
+          <strong>How to Disable / Opt Out:</strong> You can disable both GTM (<code>GTM-NNT4QBLT</code>) and GA4 at
+          any time using your browser&apos;s tracking protection, the{' '}
           <a
             href="https://tools.google.com/dlpage/gaoptout"
             target="_blank"
@@ -62,7 +62,8 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
             style="color:var(--accent-fg-text);text-decoration:underline;"
           >
             Google Analytics Opt-out Browser Add-on
-          </a>, or our instant browser opt-out toggle below (stored locally as <code>hubhum_ga_optout</code>).
+          </a>, or our instant browser opt-out toggle below (stored locally as <code>hubhum_ga_optout</code>), which
+          blocks loading of the tag container cleanly.
         </li>
         <li>
           <strong>Single Purpose &amp; Limited Use Compliance:</strong> All requested permissions (<code>activeTab</code>,{' '}
@@ -96,13 +97,13 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
           repository privati, credenziali, email o cronologia di navigazione personale.
         </li>
         <li>
-          <strong>Statistiche di traffico (GA4 &amp; Cloudflare Web Analytics):</strong> Quando configurato tramite{' '}
-          <code>PUBLIC_GA_MEASUREMENT_ID</code>, il sito HubHum utilizza Google Analytics 4 (<code>gtag.js</code>) con{' '}
-          <code>anonymize_ip: true</code>, Google Signals disattivati e personalizzazione annunci disabilitata al solo
-          fine di rilevare visite aggregate, provenienza del traffico e guide più consultate. Nessuna profilazione PII,
-          nessun remarketing e nessun accesso ai preferiti locali (<code>localStorage</code> /{' '}
-          <code>chrome.storage.local</code>). Puoi disattivare il rilevamento in qualsiasi momento tramite il componente
-          ufficiale di Google o il pulsante di opt-out locale qui sotto.
+          <strong>Statistiche di traffico (Google Tag Manager &amp; GA4):</strong> Il sito HubHum utilizza in modo
+          asincrono il contenitore Google Tag Manager <code>GTM-NNT4QBLT</code> (<code>googletagmanager.com/gtm.js</code>)
+          insieme a Google Analytics 4 (<code>gtag.js</code>) e Cloudflare Web Analytics esclusivamente per rilevare visite
+          aggregate, provenienza del traffico e guide più consultate, con anonimizzazione IP e personalizzazione annunci
+          disattivate. Nessuna profilazione PII, nessun remarketing e nessun accesso ai preferiti locali (
+          <code>localStorage</code> / <code>chrome.storage.local</code>). Il controllo opt-out qui sotto (
+          <code>hubhum_ga_optout=1</code>) impedisce il caricamento sia di GTM sia di GA4.
         </li>
         <li>
           <strong>Conformità Chrome Web Store (Single Purpose &amp; Limited Use):</strong> I permessi{' '}
@@ -122,7 +123,7 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
           Loading analytics preference...
         </p>
         <button type="button" id="ga-optout-btn" class="btn btn-outline">
-          Disable Google Analytics 4 in This Browser
+          Disable Analytics (GTM &amp; GA4) in This Browser
         </button>
       </div>
 
@@ -160,13 +161,13 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
       const disabled = isOptedOut();
       if (optOutStatus) {
         optOutStatus.textContent = disabled
-          ? 'Current status: Google Analytics 4 is DISABLED in this browser (hubhum_ga_optout=1).'
-          : 'Current status: IP-anonymized Google Analytics 4 is allowed when enabled on the site (hubhum_ga_optout=0).';
+          ? 'Current status: Google Tag Manager (GTM-NNT4QBLT) and GA4 are DISABLED in this browser (hubhum_ga_optout=1).'
+          : 'Current status: IP-anonymized analytics (GTM-NNT4QBLT / GA4) are allowed on this site (hubhum_ga_optout=0).';
       }
       if (optOutBtn) {
         optOutBtn.textContent = disabled
           ? 'Re-enable Analytics in This Browser'
-          : 'Disable Google Analytics 4 in This Browser';
+          : 'Disable Analytics (GTM & GA4) in This Browser';
       }
     }
 

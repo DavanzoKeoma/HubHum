@@ -34,6 +34,9 @@ const activeAffiliateLinks = allApps.length * 3;
 const totalStaticUrls = 5 + allApps.length + allBundles.length + allGuides.length;
 const buildTimestampUtc = new Date().toISOString();
 const cfAnalyticsConfigured = Boolean(String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '').trim());
+const rawGtmId = String(import.meta.env.PUBLIC_GTM_CONTAINER_ID || 'GTM-NNT4QBLT').trim();
+const gtmContainerId = /^GTM-[A-Z0-9]+$/i.test(rawGtmId) ? rawGtmId : '';
+const gtmConfigured = Boolean(gtmContainerId);
 const rawGaId = String(import.meta.env.PUBLIC_GA_MEASUREMENT_ID || '').trim();
 const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
 const gaConfigured = Boolean(gaMeasurementId);
@@ -121,10 +124,11 @@ const quotaTargets = [
           4. Traffic &amp; Web Analytics
         </p>
         <p style="margin:0.3rem 0;font-size:1.35rem;font-weight:800;color:var(--text);line-height:1.25;">
-          {gaConfigured ? `GA4 Active (${gaMeasurementId})` : cfAnalyticsConfigured ? 'Cloudflare Beacon Active' : 'GA4 Standby (Ready)'}
+          {gtmConfigured ? `GTM Active (${gtmContainerId})` : gaConfigured ? `GA4 Active (${gaMeasurementId})` : cfAnalyticsConfigured ? 'Cloudflare Beacon Active' : 'Standby (Ready)'}
         </p>
         <p style="margin:0;font-size:0.84rem;color:var(--text-muted);">
-          GA4: <code>{gaConfigured ? gaMeasurementId : 'Unset'}</code> • CF Beacon:{' '}
+          GTM: <code>{gtmConfigured ? gtmContainerId : 'Unset'}</code> • GA4:{' '}
+          <code>{gaConfigured ? gaMeasurementId : 'Via GTM / Unset'}</code> • CF:{' '}
           <code>{cfAnalyticsConfigured ? 'Active' : 'Standby'}</code>
         </p>
       </div>
@@ -138,15 +142,23 @@ const quotaTargets = [
             Traffic &amp; Analytics
           </h2>
           <p style="margin:0;font-size:0.9rem;color:var(--text-muted);">
-            Live configuration state and direct operator links to Google Analytics 4 and Google Search Console.
+            Live configuration state and direct operator links to Google Tag Manager, Google Analytics 4, and Google Search Console.
           </p>
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:0.6rem;">
           <a
-            href="https://analytics.google.com/"
+            href="https://tagmanager.google.com/"
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-primary"
+          >
+            Open Tag Manager →
+          </a>
+          <a
+            href="https://analytics.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
           >
             Open Google Analytics 4 →
           </a>
@@ -161,17 +173,30 @@ const quotaTargets = [
         </div>
       </div>
 
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0.85rem;">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:0.85rem;">
+        <div style="border:1px solid var(--border);border-radius:var(--radius-md);padding:0.9rem;background:var(--surface-muted);">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;margin-bottom:0.35rem;">
+            <strong style="font-size:0.92rem;color:var(--text);">Google Tag Manager</strong>
+            <span class={gtmConfigured ? 'new-badge' : 'mode-badge cli'}>
+              {gtmConfigured ? `Active (${gtmContainerId})` : 'Standby (Ready)'}
+            </span>
+          </div>
+          <p style="margin:0;font-size:0.84rem;color:var(--text-muted);">
+            Asynchronously loads <code>gtm.js?id={gtmContainerId || 'GTM-NNT4QBLT'}</code> and initializes{' '}
+            <code>dataLayer</code> / <code>gtag</code> unless disabled via browser opt-out (<code>hubhum_ga_optout=1</code>).
+          </p>
+        </div>
+
         <div style="border:1px solid var(--border);border-radius:var(--radius-md);padding:0.9rem;background:var(--surface-muted);">
           <div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;margin-bottom:0.35rem;">
             <strong style="font-size:0.92rem;color:var(--text);">Google Analytics 4</strong>
             <span class={gaConfigured ? 'new-badge' : 'mode-badge cli'}>
-              {gaConfigured ? `Active (${gaMeasurementId})` : 'Standby (Ready)'}
+              {gaConfigured ? `Active (${gaMeasurementId})` : gtmConfigured ? 'Managed via GTM' : 'Standby (Ready)'}
             </span>
           </div>
           <p style="margin:0;font-size:0.84rem;color:var(--text-muted);">
-            Loads <code>gtag.js</code> asynchronously with <code>anonymize_ip: true</code> and ad personalization disabled
-            whenever repository variable <code>PUBLIC_GA_MEASUREMENT_ID</code> is set.
+            Optional standalone <code>gtag.js</code> via <code>PUBLIC_GA_MEASUREMENT_ID</code> or managed directly inside
+            container <code>{gtmContainerId || 'GTM-NNT4QBLT'}</code> with IP anonymization enabled.
           </p>
         </div>
 
@@ -203,9 +228,9 @@ const quotaTargets = [
       </div>
 
       <p style="margin:0.9rem 0 0;font-size:0.83rem;color:var(--text-muted);">
-        Activate GA4 via GitHub Actions Variables:{' '}
-        <code>gh variable set PUBLIC_GA_MEASUREMENT_ID --body &quot;G-XXXXXXXXXX&quot; --repo DavanzoKeoma/HubHum</code>{' '}
-        • Privacy controls &amp; browser opt-out documented on{' '}
+        Override container via GitHub Actions Variables:{' '}
+        <code>PUBLIC_GTM_CONTAINER_ID</code> (default <code>GTM-NNT4QBLT</code>) or standalone{' '}
+        <code>PUBLIC_GA_MEASUREMENT_ID</code> • Privacy controls &amp; browser opt-out documented on{' '}
         <a href={withBase('/privacy/')} style="color:var(--accent-fg-text);text-decoration:underline;">
           /privacy/
         </a>.
