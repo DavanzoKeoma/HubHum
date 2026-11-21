@@ -8,13 +8,13 @@ intent: "pillar"
 summary: "Discover free screenshot tools, image optimizers, photo galleries, and 3D creative software for everyday projects."
 child_slugs: ["graphics-design/photo-image-tools", "graphics-design/3d-visual-design-tools"]
 sibling_slugs: []
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "photoprism", "flameshot", "slint", "customtkinter", "easydiffusion", "tkinter-designer", "imageoptim", "stable-dreamfusion", "pyqt-fluent-widgets", "cura", "koharu"]
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "photoprism", "flameshot", "slint", "customtkinter", "easydiffusion", "tkinter-designer", "imageoptim", "stable-dreamfusion", "modly", "open-codesign", "pyqt-fluent-widgets", "cura", "koharu", "triangula", "ttkbootstrap"]
 updated_at: "2026-11-21"
 ---
 
 ## Why Explore Free Graphics & Design Software?
 
-This central guide brings together **13 verified free applications** in the **Graphics & Design** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **17 verified free applications** in the **Graphics & Design** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Graphics & Design
 

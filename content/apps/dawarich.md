@@ -12,7 +12,7 @@ stars: 11004
 source_url: "https://github.com/Freika/dawarich"
 download_url: "https://github.com/Freika/dawarich/releases/download/1.23.0/docker-compose.yml"
 downloadUrl: "https://github.com/Freika/dawarich/releases/download/1.23.0/docker-compose.yml"
-download_label: "Download (docker-compose.yml)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

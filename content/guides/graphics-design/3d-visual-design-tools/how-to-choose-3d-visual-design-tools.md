@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what 3D Modeling & Visual Interface
 parent_slug: "graphics-design/3d-visual-design-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/3d-visual-design-tools/best-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "slint", "customtkinter", "tkinter-designer", "pyqt-fluent-widgets"]
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "slint", "customtkinter", "tkinter-designer", "open-codesign"]
 updated_at: "2026-11-21"
 ---
 
@@ -30,4 +30,4 @@ Switching to free open-source tools in **3D Modeling & Visual Interface Studios*
 - **[slint](/HubHum/apps/slint/)** (CLI Tool) — Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup.
 - **[CustomTkinter](/HubHum/apps/customtkinter/)** (CLI Tool) — Create gorgeous, modern desktop app interfaces in Python using sleek pre-made elements that automatically adapt to light and dark modes.
 - **[Tkinter Designer](/HubHum/apps/tkinter-designer/)** (Desktop App) — Tkinter Designer automatically converts visual screen layouts into working Python code, saving you hours of tedious manual coding.
-- **[PyQt-Fluent-Widgets](/HubHum/apps/pyqt-fluent-widgets/)** (Desktop App) — Transform desktop software interfaces with modern, sleek visual elements inspired by contemporary design systems.
+- **[open-codesign](/HubHum/apps/open-codesign/)** (Desktop App) — An open-source desktop app that transforms simple text descriptions into polished design prototypes and slide decks locally on your computer.

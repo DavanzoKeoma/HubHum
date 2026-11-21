@@ -12,7 +12,7 @@ stars: 10061
 source_url: "https://github.com/ClickHouse/ClickStack"
 download_url: "https://github.com/ClickHouse/ClickStack/releases/download/cli-v0.9.1/hdx-darwin-arm64"
 downloadUrl: "https://github.com/ClickHouse/ClickStack/releases/download/cli-v0.9.1/hdx-darwin-arm64"
-download_label: "Download (hdx-darwin-arm64)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

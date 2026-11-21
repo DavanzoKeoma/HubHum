@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/lucasdillmann/nginx-ignition/releases/download/
 download_label: "Download for Windows (.exe)"
 license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, Linux, Android"
+operatingSystem: "Windows, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

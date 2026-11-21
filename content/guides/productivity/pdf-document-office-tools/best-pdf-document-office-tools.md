@@ -11,7 +11,7 @@ summary: "Compare ChatGPT vs Jobs_Applier_AI_Agent and 8 free tools for PDF, Doc
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
-app_slugs: ["chatgpt", "jobs-applier-ai-agent", "dbx", "ab-download-manager", "waoowaoo", "console", "persepolis", "everywhere"]
+app_slugs: ["chatgpt", "jobs-applier-ai-agent", "dbx", "ab-download-manager", "waoowaoo", "reactide", "flyingmouse-format", "everywhere"]
 updated_at: "2026-11-21"
 ---
 
@@ -26,10 +26,10 @@ Comparing **ChatGPT** and **Jobs_Applier_AI_Agent** highlights two distinct appr
 | [ChatGPT](/HubHum/apps/chatgpt/) | Desktop App | Windows, macOS, Linux | ★ 54,673 | Custom Open License |
 | [Jobs_Applier_AI_Agent](/HubHum/apps/jobs-applier-ai-agent/) | Desktop App | Windows, macOS, Linux | ★ 32,575 | Open Source (MIT) |
 | [dbx](/HubHum/apps/dbx/) | Desktop App | Windows, macOS, Linux | ★ 31,013 | Open Source (Apache 2.0) |
-| [AB Download Manager](/HubHum/apps/ab-download-manager/) | Desktop App | Windows, macOS, Linux, Android | ★ 19,436 | Open Source (Apache 2.0) |
+| [AB Download Manager](/HubHum/apps/ab-download-manager/) | Desktop App | Windows, macOS, Linux | ★ 19,436 | Open Source (Apache 2.0) |
 | [waoowaoo](/HubHum/apps/waoowaoo/) | Desktop App | Windows, macOS, Linux | ★ 14,938 | Custom Open License |
-| [Console](/HubHum/apps/console/) | Desktop App | Windows, macOS, Linux | ★ 9,812 | Open Source (MIT) |
-| [Persepolis Download Manager](/HubHum/apps/persepolis/) | Desktop App | Windows, macOS, Linux | ★ 7,501 | Open Source (GPL v3) |
+| [reactide](/HubHum/apps/reactide/) | Desktop App | macOS, Linux | ★ 10,485 | Open Source (MIT) |
+| [FlyingMouse Format](/HubHum/apps/flyingmouse-format/) | Desktop App | Windows | ★ 7,183 | Custom Open License |
 | [Everywhere](/HubHum/apps/everywhere/) | Desktop App | Windows, macOS | ★ 6,363 | Custom Open License |
 
 ### When to Pick Which Option

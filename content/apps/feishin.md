@@ -6,7 +6,7 @@ summary: "Enjoy your personal music collection anywhere with a sleek, self-hoste
 tags: ["music", "streaming", "self-hosted", "audio"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Video & Audio"
 icon: "/icons/feishin.png"
 stars: 10463
 source_url: "https://github.com/jeffvli/feishin"
@@ -16,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

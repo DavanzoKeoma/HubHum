@@ -4,25 +4,25 @@ slug: "yaaw"
 tagline: "Clean web dashboard for file downloads"
 summary: "Manage your background file transfers and downloads through a clean, browser-based dashboard without extra software."
 tags: ["downloads", "manager", "web-ui", "utility"]
-is_webapp: false
-app_type: "desktop"
-category: "Productivity"
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
 icon: "/icons/yaaw.png"
 stars: 2354
 source_url: "https://github.com/binux/yaaw"
 download_url: "https://binux.github.io/yaaw/demo/"
 downloadUrl: "https://binux.github.io/yaaw/demo/"
-download_label: "Visit Official Site"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "UtilitiesApplication"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_047"
-affiliate_name: "PureVPN"
-affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
-affiliate_pitch: "Protect your connection before downloading or using this app."
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Want to launch it in 1 click on an optimized cloud server without manual setup?"
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -65,8 +65,8 @@ You can test and use the live interface directly via the [Official Demo Website]
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
-* **Private Internet Access:** Optional privacy-focused VPN client for multiple devices — [Private Internet Access](https://www.privateinternetaccess.com/?subid=hubhum_01_MER048) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **ScalaHosting:** Optional managed VPS cloud hosting for web applications — [ScalaHosting](https://www.scalahosting.com/?subid=hubhum_01_MER009) (#ad)
+* **RoseHosting:** Optional managed Linux cloud server hosting — [RoseHosting](https://www.rosehosting.com/?subid=hubhum_01_MER014) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/binux/yaaw)

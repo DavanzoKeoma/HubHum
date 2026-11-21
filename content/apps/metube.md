@@ -6,7 +6,7 @@ summary: "MeTube is a free, self-hosted web interface that lets you download vid
 tags: ["video-downloader", "self-hosted", "web-ui"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/metube.png"
 stars: 15321
 source_url: "https://github.com/alexta69/metube"
@@ -16,7 +16,7 @@ download_label: "Official Setup & Docs →"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

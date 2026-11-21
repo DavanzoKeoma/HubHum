@@ -11,7 +11,7 @@ summary: "Compare Awesome vs Joplin and 8 free tools for Encrypted Notes, Wikis 
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
-app_slugs: ["awesome", "joplin", "obsidian-skills", "codewhale", "jumpserver", "editor", "jcode", "listen1-desktop"]
+app_slugs: ["awesome", "joplin", "obsidian-skills", "codewhale", "jumpserver", "editor", "jcode", "console"]
 updated_at: "2026-11-21"
 ---
 
@@ -30,7 +30,7 @@ Comparing **Awesome** and **Joplin** highlights two distinct approaches in **Enc
 | [JumpServer](/HubHum/apps/jumpserver/) | Desktop App | Windows, macOS, Linux | ★ 31,991 | Open Source (GPL v3) |
 | [Pascal Editor](/HubHum/apps/editor/) | Desktop App | Windows, macOS, Linux | ★ 25,648 | Open Source (MIT) |
 | [jcode](/HubHum/apps/jcode/) | Desktop App | Windows | ★ 21,936 | Open Source (MIT) |
-| [listen1_desktop](/HubHum/apps/listen1-desktop/) | Desktop App | Windows, macOS, Linux | ★ 11,451 | Open Source (MIT) |
+| [Console](/HubHum/apps/console/) | Desktop App | Windows, macOS, Linux | ★ 9,812 | Open Source (MIT) |
 
 ### When to Pick Which Option
 - **Choose [Awesome](/HubHum/apps/awesome/) (Open Reference)** if you need what it specializes in: Explore carefully organized collections of interesting topics, software tools, and guides curated by experts — it works in **Open Reference** mode (All / Reference) (539,167 GitHub stars, vs Joplin which runs as a Desktop App).

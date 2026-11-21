@@ -12,7 +12,7 @@ stars: 10125
 source_url: "https://github.com/superplanehq/superplane"
 download_url: "https://github.com/superplanehq/superplane/releases/download/fleet-manager/v0.1.7/checksums.txt"
 downloadUrl: "https://github.com/superplanehq/superplane/releases/download/fleet-manager/v0.1.7/checksums.txt"
-download_label: "Download (checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

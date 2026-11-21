@@ -11,13 +11,13 @@ summary: "Open-source web publishing platforms and team wikis that replace expen
 parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/troubleshooting-self-hosted-cms-blogs"]
 sibling_slugs: []
-app_slugs: ["n8n", "netdata", "appwrite", "ghost", "huginn", "jeecgboot", "puter", "ai-website-cloner-template", "trilium", "glance", "meetily", "nanoclaw", "skyvern", "airbyte", "rocketride-server", "windmill", "deepwiki-open", "docs"]
+app_slugs: ["n8n", "netdata", "appwrite", "ghost", "huginn", "jeecgboot", "puter", "ai-website-cloner-template", "trilium", "glance", "meetily", "nanoclaw", "skyvern", "airbyte", "rocketride-server", "windmill", "deepwiki-open", "freshrss"]
 updated_at: "2026-11-21"
 ---
 
 ## Plain-English Overview: Self-Hosted CMS, Blogs & Publishing Platforms
 
-This topic hub groups **29 vetted free tools** specializing in **Self-Hosted CMS, Blogs & Publishing Platforms** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **36 vetted free tools** specializing in **Self-Hosted CMS, Blogs & Publishing Platforms** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

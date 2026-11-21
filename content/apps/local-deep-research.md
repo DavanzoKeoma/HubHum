@@ -12,7 +12,7 @@ stars: 9619
 source_url: "https://github.com/LearningCircuit/local-deep-research"
 download_url: "https://github.com/LearningCircuit/local-deep-research/releases/download/v2.0.1/provenance.intoto.jsonl"
 downloadUrl: "https://github.com/LearningCircuit/local-deep-research/releases/download/v2.0.1/provenance.intoto.jsonl"
-download_label: "Download (provenance.intoto.jsonl)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

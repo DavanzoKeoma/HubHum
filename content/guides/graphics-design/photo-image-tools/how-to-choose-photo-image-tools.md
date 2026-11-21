@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Photo Optimizers, Galleries & 
 parent_slug: "graphics-design/photo-image-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
-app_slugs: ["photoprism", "flameshot", "easydiffusion", "imageoptim", "stable-dreamfusion", "koharu"]
+app_slugs: ["photoprism", "flameshot", "easydiffusion", "imageoptim", "stable-dreamfusion", "modly"]
 updated_at: "2026-11-21"
 ---
 
@@ -30,4 +30,4 @@ Switching to free open-source tools in **Photo Optimizers, Galleries & Screen Ca
 - **[Easy Diffusion](/HubHum/apps/easydiffusion/)** (Desktop App) — Turn text descriptions into breathtaking images right on your own computer with a simple, friendly control panel and zero technical setup.
 - **[ImageOptim](/HubHum/apps/imageoptim/)** (Desktop App) — Make your digital pictures load faster by shrinking their file sizes automatically without losing any visual quality.
 - **[Stable-Dreamfusion](/HubHum/apps/stable-dreamfusion/)** (Desktop App) — Transform simple text descriptions or single photos into fully rendered 3D objects using advanced AI diffusion models.
-- **[Koharu](/HubHum/apps/koharu/)** (Desktop App) — Koharu is a privacy-focused manga translator that automatically detects, cleans, and translates panels directly on your computer.
+- **[Modly](/HubHum/apps/modly/)** (Desktop App) — Transform any 2D photo into a realistic 3D model right on your computer using privacy-focused local artificial intelligence.

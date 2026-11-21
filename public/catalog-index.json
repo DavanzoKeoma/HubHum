@@ -7117,7 +7117,7 @@
     "tagline": "Self-hosted video downloader with web UI",
     "repo_url": "https://github.com/alexta69/metube",
     "full_name": "alexta69/metube",
-    "category": "Web Apps & Cloud",
+    "category": "Security & Privacy",
     "tags": [
       "video-downloader",
       "self-hosted"
@@ -8769,7 +8769,7 @@
     "tagline": "Modern self-hosted music player experience",
     "repo_url": "https://github.com/jeffvli/feishin",
     "full_name": "jeffvli/feishin",
-    "category": "Web Apps & Cloud",
+    "category": "Video & Audio",
     "tags": [
       "music",
       "streaming"
@@ -8797,7 +8797,7 @@
     "tagline": "Simple password-free sign-in for your apps",
     "repo_url": "https://github.com/pocket-id/pocket-id",
     "full_name": "pocket-id/pocket-id",
-    "category": "Web Apps & Cloud",
+    "category": "Security & Privacy",
     "tags": [
       "security",
       "authentication"
@@ -11653,7 +11653,7 @@
     "tagline": "Listen to music without opening browser",
     "repo_url": "https://github.com/soundnode/soundnode-app",
     "full_name": "soundnode/soundnode-app",
-    "category": "Productivity",
+    "category": "Video & Audio",
     "tags": [
       "music",
       "audio"
@@ -12836,7 +12836,7 @@
     "icon": "/icons/nanomuse.png",
     "is_webapp": false,
     "app_type": "desktop",
-    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "operatingSystem": "Windows, macOS, Linux, iOS",
     "license": "Open Source (GPL v3)",
     "stars": 3626,
     "tier": "tier1_gui",
@@ -13172,7 +13172,7 @@
     "icon": "/icons/pixeval.png",
     "is_webapp": false,
     "app_type": "desktop",
-    "operatingSystem": "Windows, macOS, Linux, Android",
+    "operatingSystem": "Windows, macOS, Linux",
     "license": "Open Source (GPL v3)",
     "stars": 3208,
     "tier": "tier1_gui",
@@ -13556,7 +13556,7 @@
     "tagline": "Smooth desktop Twitch streams without browser stutter",
     "repo_url": "https://github.com/streamlink/streamlink-twitch-gui",
     "full_name": "streamlink/streamlink-twitch-gui",
-    "category": "Productivity",
+    "category": "Video & Audio",
     "tags": [
       "streaming",
       "twitch"
@@ -13928,7 +13928,7 @@
     "icon": "/icons/agentero.png",
     "is_webapp": false,
     "app_type": "desktop",
-    "operatingSystem": "Windows, macOS, Linux, Android",
+    "operatingSystem": "Windows, macOS, Linux",
     "license": "Open Source (MIT)",
     "stars": 2725,
     "tier": "tier1_gui",
@@ -14536,7 +14536,7 @@
     "tagline": "Create cross-platform audio plugins easily",
     "repo_url": "https://github.com/iplug2/iplug2",
     "full_name": "iplug2/iplug2",
-    "category": "Productivity",
+    "category": "Video & Audio",
     "tags": [
       "audio",
       "plugins"
@@ -14648,7 +14648,7 @@
     "tagline": "Easily download and organize Bilibili videos.",
     "repo_url": "https://github.com/lanyeeee/bilibili-video-downloader",
     "full_name": "lanyeeee/bilibili-video-downloader",
-    "category": "Productivity",
+    "category": "Video & Audio",
     "tags": [
       "downloader",
       "video"
@@ -14816,18 +14816,18 @@
     "tagline": "Clean web dashboard for file downloads",
     "repo_url": "https://github.com/binux/yaaw",
     "full_name": "binux/yaaw",
-    "category": "Productivity",
+    "category": "Web Apps & Cloud",
     "tags": [
       "downloads",
       "manager"
     ],
     "icon": "/icons/yaaw.png",
-    "is_webapp": false,
-    "app_type": "desktop",
-    "operatingSystem": "Windows, macOS, Linux",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
     "license": "Custom Open License",
     "stars": 2354,
-    "tier": "tier1_gui",
+    "tier": "tier2_webapp",
     "summary": "Manage your background file transfers and downloads through a clean, browser-based dashboard without extra software.",
     "i18n": {
       "it": "Gestisci i tuoi trasferimenti e download in background tramite una dashboard basata su browser senza software extra.",
@@ -14852,7 +14852,7 @@
     "icon": "/icons/globalprotect-openconnect.png",
     "is_webapp": false,
     "app_type": "desktop",
-    "operatingSystem": "Windows, macOS, Linux, Android",
+    "operatingSystem": "Windows, macOS, Linux",
     "license": "Open Source (GPL v3)",
     "stars": 2350,
     "tier": "tier1_gui",
@@ -15020,7 +15020,7 @@
     "icon": "/icons/anubias.png",
     "is_webapp": false,
     "app_type": "desktop",
-    "operatingSystem": "Android, iOS",
+    "operatingSystem": "iOS",
     "license": "Open Source (GPL v3)",
     "stars": 2278,
     "tier": "tier1_gui",
@@ -15048,7 +15048,7 @@
     "icon": "/icons/skales.png",
     "is_webapp": false,
     "app_type": "desktop",
-    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "operatingSystem": "Windows, macOS, Linux, iOS",
     "license": "Custom Open License",
     "stars": 2238,
     "tier": "tier1_gui",
@@ -15300,7 +15300,7 @@
     "icon": "/icons/nginx-ignition.png",
     "is_webapp": false,
     "app_type": "desktop",
-    "operatingSystem": "Windows, Linux, Android",
+    "operatingSystem": "Windows, Linux",
     "license": "Open Source (MIT)",
     "stars": 2145,
     "tier": "tier1_gui",

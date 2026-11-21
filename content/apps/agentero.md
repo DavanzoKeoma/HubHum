@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/poco-ai/Agentero/releases/download/v0.17.0/Agen
 download_label: "Download for Windows (.exe)"
 license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

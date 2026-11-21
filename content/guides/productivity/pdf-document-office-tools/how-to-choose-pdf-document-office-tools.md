@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what PDF, Document & E-Book Tools t
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
-app_slugs: ["chatgpt", "jobs-applier-ai-agent", "dbx", "ab-download-manager", "waoowaoo", "console"]
+app_slugs: ["chatgpt", "jobs-applier-ai-agent", "dbx", "ab-download-manager", "waoowaoo", "reactide"]
 updated_at: "2026-11-21"
 ---
 
@@ -30,4 +30,4 @@ Switching to free open-source tools in **PDF, Document & E-Book Tools** lets you
 - **[dbx](/HubHum/apps/dbx/)** (Desktop App) — Manage over a hundred different database types in one lightning-fast, ultra-compact application.
 - **[AB Download Manager](/HubHum/apps/ab-download-manager/)** (Desktop App) — A modern desktop and mobile application that dramatically increases your download speeds and neatly organizes your files.
 - **[waoowaoo](/HubHum/apps/waoowaoo/)** (Desktop App) — Create professional AI-generated videos and images using a collaborative visual canvas and assistant.
-- **[Console](/HubHum/apps/console/)** (Desktop App) — Console helps creators build clean and reliable text-based interfaces for their software projects.
+- **[reactide](/HubHum/apps/reactide/)** (Desktop App) — Reactide is a specialized desktop application that streamlines React development with live code reloading, integrated servers, and visual state mapping.

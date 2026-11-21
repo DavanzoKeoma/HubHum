@@ -11,13 +11,13 @@ summary: "Reliable desktop and self-hosted players for organizing music librarie
 parent_slug: "video-audio"
 child_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/how-to-choose-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
 sibling_slugs: []
-app_slugs: ["pear-desktop", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear", "autoclip", "spotifast", "finetune", "flyingmouse-format", "go-music-dl", "mpv-net", "shpotify"]
+app_slugs: ["pear-desktop", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear", "autoclip", "listen1-desktop", "spotifast", "feishin", "finetune", "go-music-dl", "mpv-net", "soundnode-app", "tauon", "spleetergui", "iplug2", "shpotify"]
 updated_at: "2026-11-21"
 ---
 
 ## Plain-English Overview: Audio Editors & Music Players
 
-This topic hub groups **13 vetted free tools** specializing in **Audio Editors & Music Players** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **18 vetted free tools** specializing in **Audio Editors & Music Players** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -31,8 +31,8 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Audacity](/HubHum/apps/audacity/)** — Record your voice, remove background noise, mix tracks, and export podcasts or music free on Windows, Mac, and Linux. *(Desktop App · License: Open Source (GPL v3))*
 - **[Nuclear](/HubHum/apps/nuclear/)** — Enjoy music without ads or tracking. *(Desktop App · License: Open Source (AGPL v3))*
 - **[autoclip](/HubHum/apps/autoclip/)** — Convert lengthy podcasts, interviews, and courses into bite-sized social media clips complete with captions and cover art automatically on your computer. *(Desktop App · License: Open Source (MIT))*
+- **[listen1_desktop](/HubHum/apps/listen1-desktop/)** — Enjoy seamless access to your favorite songs from multiple music providers in one unified desktop application. *(Desktop App · License: Open Source (MIT))*
 - **[Spotifast](/HubHum/apps/spotifast/)** — Spotifast provides a snappy, native desktop home for your music library, allowing you to browse playlists, search tracks, and control playback directly from your computer. *(Desktop App · License: Open Source (MIT))*
+- **[Feishin](/HubHum/apps/feishin/)** — Enjoy your personal music collection anywhere with a sleek, self-hosted desktop and web music player that connects to your own servers. *(Self-Hosted Web App · License: Open Source (GPL v3))*
 - **[FineTune](/HubHum/apps/finetune/)** — Take independent volume control of every app on your Mac, boost quiet sounds, and route audio effortlessly from your menu bar. *(Desktop App · License: Open Source (GPL v3))*
-- **[FlyingMouse Format](/HubHum/apps/flyingmouse-format/)** — Easily convert images, documents, audio, and video files right on your computer without uploading anything to the internet. *(Desktop App · License: Custom Open License)*
 - **[go-music-dl](/HubHum/apps/go-music-dl/)** — Search, stream, and download music from over ten major streaming networks into a single, unified player interface with optional AI remote controls. *(Desktop App · License: Open Source (AGPL v3))*
-- **[mpv.net](/HubHum/apps/mpv-net/)** — mpv.net lets you watch videos, music, and pictures on Windows with a clean, modern interface and high‑quality picture. *(Desktop App · License: Open Source (GPL v2))*

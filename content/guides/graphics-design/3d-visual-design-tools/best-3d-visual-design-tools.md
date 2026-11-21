@@ -7,11 +7,11 @@ macro_slug: "graphics-design"
 sub_topic: "3D Modeling & Visual Interface Studios"
 sub_slug: "3d-visual-design-tools"
 intent: "comparison"
-summary: "Compare UI UX Pro Max Skill vs open-design and 7 free tools for 3D Modeling & Visual Interface Studios with honest format, OS, and license details."
+summary: "Compare UI UX Pro Max Skill vs open-design and 8 free tools for 3D Modeling & Visual Interface Studios with honest format, OS, and license details."
 parent_slug: "graphics-design/3d-visual-design-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/3d-visual-design-tools/how-to-choose-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "slint", "customtkinter", "tkinter-designer", "pyqt-fluent-widgets", "cura"]
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "slint", "customtkinter", "tkinter-designer", "open-codesign", "pyqt-fluent-widgets", "cura"]
 updated_at: "2026-11-21"
 ---
 
@@ -19,7 +19,7 @@ updated_at: "2026-11-21"
 
 Comparing **UI UX Pro Max Skill** and **open-design** highlights two distinct approaches in **3D Modeling & Visual Interface Studios**. **UI UX Pro Max Skill** runs as a **Open Reference** on **All / Reference** (151,922 GitHub stars): An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning. By contrast, **open-design** runs as a **Desktop App** on **Windows, macOS** (108,776 GitHub stars): Create websites, prototypes, motion graphics, and presentations with your team and coding agents in one open workspace.
 
-### Side-by-Side Comparison (7 Tools Reviewed)
+### Side-by-Side Comparison (8 Tools Reviewed)
 
 | Software | Format | Systems Supported | GitHub Stars | License |
 | --- | --- | --- | --- | --- |
@@ -28,6 +28,7 @@ Comparing **UI UX Pro Max Skill** and **open-design** highlights two distinct ap
 | [slint](/HubHum/apps/slint/) | CLI Tool | Windows | ★ 24,653 | Custom Open License |
 | [CustomTkinter](/HubHum/apps/customtkinter/) | CLI Tool | Windows, macOS | ★ 13,619 | Open Source (MIT) |
 | [Tkinter Designer](/HubHum/apps/tkinter-designer/) | Desktop App | Windows, macOS, Linux | ★ 10,246 | Open Source (BSD) |
+| [open-codesign](/HubHum/apps/open-codesign/) | Desktop App | Windows, macOS, Linux | ★ 8,250 | Open Source (MIT) |
 | [PyQt-Fluent-Widgets](/HubHum/apps/pyqt-fluent-widgets/) | Desktop App | Windows, macOS, Linux | ★ 8,166 | Open Source (GPL v3) |
 | [Cura](/HubHum/apps/cura/) | Desktop App | Windows, macOS, Linux | ★ 7,088 | Open Source (LGPL) |
 

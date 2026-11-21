@@ -7,11 +7,11 @@ macro_slug: "video-audio"
 sub_topic: "Video Cutters, Converters & Downloaders"
 sub_slug: "free-video-editors"
 intent: "comparison"
-summary: "Compare yt-dlp vs LosslessCut and 6 free tools for Video Cutters, Converters & Downloaders with honest format, OS, and license details."
+summary: "Compare yt-dlp vs LosslessCut and 8 free tools for Video Cutters, Converters & Downloaders with honest format, OS, and license details."
 parent_slug: "video-audio/free-video-editors"
 child_slugs: []
 sibling_slugs: ["video-audio/free-video-editors/how-to-choose-free-video-editors", "video-audio/free-video-editors/troubleshooting-free-video-editors"]
-app_slugs: ["yt-dlp", "losslesscut", "handbrake", "concat", "youtube-dl-gui", "bili23-downloader"]
+app_slugs: ["yt-dlp", "losslesscut", "handbrake", "concat", "youtube-dl-gui", "bili23-downloader", "openchatcut", "streamlink-twitch-gui"]
 updated_at: "2026-11-21"
 ---
 
@@ -19,7 +19,7 @@ updated_at: "2026-11-21"
 
 Comparing **yt-dlp** and **LosslessCut** highlights two distinct approaches in **Video Cutters, Converters & Downloaders**. **yt-dlp** runs as a **CLI Tool** on **Windows** (209,259 GitHub stars): A reliable tool to save audio and video from thousands of online websites directly to your computer. By contrast, **LosslessCut** runs as a **Desktop App** on **Windows, macOS, Linux** (46,153 GitHub stars): Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times.
 
-### Side-by-Side Comparison (6 Tools Reviewed)
+### Side-by-Side Comparison (8 Tools Reviewed)
 
 | Software | Format | Systems Supported | GitHub Stars | License |
 | --- | --- | --- | --- | --- |
@@ -29,6 +29,8 @@ Comparing **yt-dlp** and **LosslessCut** highlights two distinct approaches in *
 | [Concat](/HubHum/apps/concat/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 19,264 | Open Source (AGPL v3) |
 | [youtube-dl-gui](/HubHum/apps/youtube-dl-gui/) | Desktop App | Windows, Linux | ★ 9,429 | Public Domain / Free |
 | [Bili23-Downloader](/HubHum/apps/bili23-downloader/) | Desktop App | Windows, macOS, Linux | ★ 9,323 | Open Source (GPL v3) |
+| [OpenChatCut](/HubHum/apps/openchatcut/) | Desktop App | Windows, macOS, Linux | ★ 3,253 | Open Source (AGPL v3) |
+| [streamlink-twitch-gui](/HubHum/apps/streamlink-twitch-gui/) | Desktop App | Windows, Linux | ★ 2,877 | Open Source (MIT) |
 
 ### When to Pick Which Option
 - **Choose [yt-dlp](/HubHum/apps/yt-dlp/) (CLI Tool)** if you need what it specializes in: A reliable tool to save audio and video from thousands of online websites directly to your computer — it runs as fast terminal commands suited for automation and batch scripts (no graphical buttons) (209,259 GitHub stars, vs LosslessCut which runs as a Desktop App).

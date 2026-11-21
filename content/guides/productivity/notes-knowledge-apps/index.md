@@ -11,13 +11,13 @@ summary: "Distraction-free note-taking and personal knowledge organizers with of
 parent_slug: "productivity"
 child_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
 sibling_slugs: []
-app_slugs: ["awesome", "joplin", "obsidian-skills", "codewhale", "jumpserver", "editor", "jcode", "listen1-desktop", "openidea", "modly", "sourcegit", "kun", "studio", "sqlectron", "pythonguis-examples", "notes", "akhq", "orbtk"]
+app_slugs: ["awesome", "joplin", "obsidian-skills", "codewhale", "jumpserver", "editor", "jcode", "console", "openidea", "munder-difflin", "persepolis", "sourcegit", "kun", "studio", "plexo", "desktopnaotu", "sqlectron", "pythonguis-examples"]
 updated_at: "2026-11-21"
 ---
 
 ## Plain-English Overview: Encrypted Notes, Wikis & Knowledge Apps
 
-This topic hub groups **29 vetted free tools** specializing in **Encrypted Notes, Wikis & Knowledge Apps** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **40 vetted free tools** specializing in **Encrypted Notes, Wikis & Knowledge Apps** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -31,8 +31,8 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[JumpServer](/HubHum/apps/jumpserver/)** — An open-source privileged access management platform offering a unified workspace to safely connect to servers, databases, and cloud environments. *(Desktop App · License: Open Source (GPL v3))*
 - **[Pascal Editor](/HubHum/apps/editor/)** — Create, edit, and collaborate on 3D building models directly in your browser or locally with advanced AI agent support. *(Desktop App · License: Open Source (MIT))*
 - **[jcode](/HubHum/apps/jcode/)** — jcode is a high-performance assistant harness that lets you run dozens of AI coding agents in parallel without slowing down your computer. *(Desktop App · License: Open Source (MIT))*
-- **[listen1_desktop](/HubHum/apps/listen1-desktop/)** — Enjoy seamless access to your favorite songs from multiple music providers in one unified desktop application. *(Desktop App · License: Open Source (MIT))*
+- **[Console](/HubHum/apps/console/)** — Console helps creators build clean and reliable text-based interfaces for their software projects. *(Desktop App · License: Open Source (MIT))*
 - **[openidea](/HubHum/apps/openidea/)** — Openidea is a blazingly fast native code workspace built to give you familiar keyboard shortcuts and robust tools without heavy computer resource usage. *(Desktop App · License: Open Source (Apache 2.0))*
-- **[Modly](/HubHum/apps/modly/)** — Transform any 2D photo into a realistic 3D model right on your computer using privacy-focused local artificial intelligence. *(Desktop App · License: Custom Open License)*
+- **[Munder Difflin](/HubHum/apps/munder-difflin/)** — Manage a visual office of artificial intelligence workers that handle research, coding, and writing using your existing assistant subscriptions. *(Desktop App · License: Open Source (MIT))*
+- **[Persepolis Download Manager](/HubHum/apps/persepolis/)** — Persepolis is a friendly download manager that splits files into multiple segments to boost download speeds and helps you grab online videos with ease. *(Desktop App · License: Open Source (GPL v3))*
 - **[sourcegit](/HubHum/apps/sourcegit/)** — Navigate complex code changes, review history visually, and collaborate smoothly across teams without typing complex terminal commands. *(Desktop App · License: Open Source (MIT))*
-- **[Kun](/HubHum/apps/kun/)** — Manage coding, writing, design, and research in one private desktop workspace powered by your own intelligent assistants. *(Desktop App · License: Custom Open License)*

@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/skalesapp/skales/releases/download/v12.9.65/Ska
 download_label: "Download for Windows (.exe)"
 license: "Custom Open License"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android, iOS"
+operatingSystem: "Windows, macOS, Linux, iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

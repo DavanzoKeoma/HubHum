@@ -12,7 +12,7 @@ stars: 9460
 source_url: "https://github.com/certimate-go/certimate"
 download_url: "https://github.com/certimate-go/certimate/releases/download/v0.4.38/checksums.txt"
 downloadUrl: "https://github.com/certimate-go/certimate/releases/download/v0.4.38/checksums.txt"
-download_label: "Download (checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
