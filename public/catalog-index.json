@@ -8525,6 +8525,180 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "akhq",
+    "name": "AKHQ",
+    "repo_url": "https://github.com/tchiotludo/akhq",
+    "full_name": "tchiotludo/akhq",
+    "category": "Productivity",
+    "tags": [
+      "kafka",
+      "database"
+    ],
+    "icon": "/icons/akhq.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3876,
+    "tier": "tier1_gui",
+    "summary": "AKHQ is a web-based user interface designed to help you easily manage and monitor Apache Kafka clusters, data streams, and consumer groups.",
+    "i18n": {
+      "it": "AKHQ è un'interfaccia web progettata per aiutarti a gestire e monitorare facilmente cluster e flussi di dati Apache Kafka.",
+      "es": "AKHQ es una interfaz web diseñada para ayudarte a gestionar y supervisar fácilmente clústeres y flujos de datos de Apache Kafka.",
+      "fr": "AKHQ est une interface web conçue pour vous aider à gérer et surveiller facilement vos clusters et flux de données Apache Kafka.",
+      "de": "AKHQ ist eine Weboberfläche, mit der Sie Apache Kafka-Cluster und Datenströme einfach verwalten und überwachen können."
+    },
+    "download_url": "https://github.com/tchiotludo/akhq/releases/download/0.29.0/akhq-0.29.0-all.jar",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "triangula",
+    "name": "Triangula",
+    "repo_url": "https://github.com/rh12503/triangula",
+    "full_name": "rh12503/triangula",
+    "category": "Productivity",
+    "tags": [
+      "art",
+      "design"
+    ],
+    "icon": "/icons/triangula.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3876,
+    "tier": "tier1_gui",
+    "summary": "Triangula transforms your favorite images into unique, high-quality geometric art using a smart mathematical process.",
+    "i18n": {
+      "it": "Triangula trasforma le tue foto in opere d'arte geometriche uniche e di alta qualità usando un processo matematico intelligente.",
+      "es": "Triangula transforma tus fotos favoritas en arte geométrico único y de alta calidad mediante un proceso matemático inteligente.",
+      "fr": "Triangula transforme vos photos en œuvres d'art géométriques uniques et de haute qualité grâce à un processus mathématique intelligent.",
+      "de": "Triangula verwandelt Ihre Lieblingsbilder mit einem intelligenten mathematischen Prozess in einzigartige, hochwertige geometrische Kunst."
+    },
+    "download_url": "https://github.com/rh12503/triangula/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "picview",
+    "name": "PicView",
+    "repo_url": "https://github.com/ruben2776/picview",
+    "full_name": "ruben2776/picview",
+    "category": "Productivity",
+    "tags": [
+      "photo-viewer",
+      "image-organizer"
+    ],
+    "icon": "/icons/picview.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3801,
+    "tier": "tier1_gui",
+    "summary": "PicView lets you open and organize photos quickly, with many editing tools, and it’s completely free and private.",
+    "i18n": {
+      "it": "PicView ti permette di aprire e organizzare le foto rapidamente, con tanti strumenti di modifica, ed è completamente gratuito e senza tracciamento.",
+      "es": "PicView te permite abrir y organizar fotos rápidamente, con muchas herramientas de edición, y es totalmente gratuito y sin rastreo.",
+      "fr": "PicView vous permet d’ouvrir et d’organiser vos photos rapidement, avec de nombreux outils d’édition, le tout gratuitement et sans suivi.",
+      "de": "PicView ermöglicht es Ihnen, Fotos schnell zu öffnen und zu organisieren, bietet zahlreiche Bearbeitungswerkzeuge und ist völlig kostenlos und ohne Tracking."
+    },
+    "download_url": "https://github.com/Ruben2776/PicView/releases/download/5.2.2/Setup-PicView-v5.2.2-win-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "orbtk",
+    "name": "orbtk",
+    "repo_url": "https://github.com/redox-os/orbtk",
+    "full_name": "redox-os/orbtk",
+    "category": "Productivity",
+    "tags": [
+      "ui",
+      "toolkit"
+    ],
+    "icon": "/icons/orbtk.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3778,
+    "tier": "tier1_gui",
+    "summary": "OrbTk is a cross-platform user interface toolkit designed for building scalable applications using the Rust programming language.",
+    "i18n": {
+      "it": "OrbTk è un kit di strumenti per interfacce utente multipiattaforma progettato per creare applicazioni scalabili in Rust.",
+      "es": "OrbTk es un kit de herramientas de interfaz de usuario multiplataforma diseñado para crear aplicaciones escalables usando Rust.",
+      "fr": "OrbTk est une boîte à outils d'interface utilisateur multiplateforme conçue pour créer des applications évolutives en Rust.",
+      "de": "OrbTk ist ein plattformübergreifendes Benutzeroberflächen-Toolkit, das für skalierbare Anwendungen in Rust entwickelt wurde."
+    },
+    "download_url": "https://github.com/redox-os/orbtk/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "masterhttprelayvpn-rust",
+    "name": "MasterHttpRelayVPN-RUST",
+    "repo_url": "https://github.com/therealaleph/masterhttprelayvpn-rust",
+    "full_name": "therealaleph/masterhttprelayvpn-rust",
+    "category": "Productivity",
+    "tags": [
+      "privacy",
+      "proxy"
+    ],
+    "icon": "/icons/masterhttprelayvpn-rust.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3652,
+    "tier": "tier1_gui",
+    "summary": "This lightweight app routes your web traffic securely through a personal Google script, keeping your online activity completely hidden from internet service providers.",
+    "i18n": {
+      "it": "Questa applicazione leggera instrada il tuo traffico web attraverso uno script personale di Google, mantenendo privata la tua navigazione.",
+      "es": "Esta aplicación ligera redirige tu tráfico web de forma segura mediante un script personal de Google para mantener tu actividad privada.",
+      "fr": "Cette application légère achemine votre trafic web en toute sécurité via un script Google personnel pour masquer votre navigation.",
+      "de": "Diese leichte Anwendung leitet Ihren Webverkehr über ein persönliches Google-Skript um und schützt so Ihre Privatsphäre."
+    },
+    "download_url": "https://github.com/therealaleph/MasterHttpRelayVPN-RUST/releases/download/v1.9.38/mhrv-rs-android-arm64-v8a-v1.9.38.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "rio",
+    "name": "Rio",
+    "repo_url": "https://github.com/rio-labs/rio",
+    "full_name": "rio-labs/rio",
+    "category": "Productivity",
+    "tags": [
+      "web-development",
+      "gui"
+    ],
+    "icon": "/icons/rio.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3649,
+    "tier": "tier1_gui",
+    "summary": "Create modern websites and applications entirely in Python without touching HTML, CSS, or JavaScript.",
+    "i18n": {
+      "it": "Crea siti moderni interamente in Python senza scrivere HTML, CSS o JavaScript.",
+      "es": "Crea sitios web y aplicaciones modernas usando solo Python sin HTML, CSS ni JavaScript.",
+      "fr": "Créez des sites modernes entièrement en Python sans HTML, CSS ni JavaScript.",
+      "de": "Entwickeln Sie moderne Websites und Apps komplett in Python ohne HTML, CSS oder JavaScript."
+    },
+    "download_url": "https://rio.dev",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "remi",
+    "name": "remi",
+    "repo_url": "https://github.com/rawpython/remi",
+    "full_name": "rawpython/remi",
+    "category": "Productivity",
+    "tags": [
+      "gui"
+    ],
+    "icon": "/icons/remi.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3630,
+    "tier": "tier1_gui",
+    "summary": "remi lets you build Python GUIs that run in any web browser, so you can use them locally or from anywhere on your network.",
+    "i18n": {
+      "it": "remi ti permette di creare interfacce Python che si aprono in qualsiasi browser, così puoi usarle localmente o da remoto.",
+      "es": "remi te permite crear interfaces Python que se muestran en cualquier navegador, para que las uses localmente o desde cualquier lugar de tu red.",
+      "fr": "remi vous permet de créer des interfaces Python qui s'affichent dans n'importe quel navigateur, afin de les utiliser localement ou à distance.",
+      "de": "remi ermöglicht es Ihnen, Python‑GUIs zu erstellen, die in jedem Webbrowser angezeigt werden, sodass Sie sie lokal oder von überall aus nutzen können."
+    },
+    "download_url": "https://github.com/rawpython/remi/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "bullet",
     "name": "bullet",
     "repo_url": "https://github.com/bchao1/bullet",
@@ -8548,6 +8722,31 @@
     },
     "download_url": "https://pypi.org/project/bullet/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "python-uiautomation-for-windows",
+    "name": "Python-UIAutomation-for-Windows",
+    "repo_url": "https://github.com/yinkaisheng/python-uiautomation-for-windows",
+    "full_name": "yinkaisheng/python-uiautomation-for-windows",
+    "category": "Productivity",
+    "tags": [
+      "automation",
+      "windows"
+    ],
+    "icon": "/icons/python-uiautomation-for-windows.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3590,
+    "tier": "tier1_gui",
+    "summary": "This tool allows you to control Windows software by simulating mouse clicks and keyboard typing through simple programming commands.",
+    "i18n": {
+      "it": "Questo strumento permette di controllare i programmi Windows simulando clic e tasti premuti tramite semplici comandi di programmazione.",
+      "es": "Esta herramienta permite controlar programas de Windows simulando clics y pulsaciones de teclas mediante comandos de programación sencillos.",
+      "fr": "Cet outil permet de contrôler les logiciels Windows en simulant des clics et des frappes au clavier via des commandes de programmation.",
+      "de": "Dieses Tool ermöglicht die Steuerung von Windows-Programmen durch die Simulation von Mausklicks und Tastatureingaben mittels einfacher Befehle."
+    },
+    "download_url": "https://github.com/yinkaisheng/Python-UIAutomation-for-Windows/releases",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "lenovolegionlinux",
@@ -8575,6 +8774,56 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "transgui",
+    "name": "Transmission Remote GUI",
+    "repo_url": "https://github.com/transmission-remote-gui/transgui",
+    "full_name": "transmission-remote-gui/transgui",
+    "category": "Productivity",
+    "tags": [
+      "bittorrent",
+      "download-manager"
+    ],
+    "icon": "/icons/transgui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3474,
+    "tier": "tier1_gui",
+    "summary": "Take full control of your BitTorrent downloads from a fast, user-friendly desktop interface that connects to your remote download manager.",
+    "i18n": {
+      "it": "Prendi il controllo totale dei tuoi file scaricati tramite un'interfaccia desktop veloce e intuitiva per la gestione remota.",
+      "es": "Controla por completo tus descargas de archivos con una interfaz de escritorio rápida y cómoda conectada a tu gestor.",
+      "fr": "Prenez le contrôle total de vos téléchargements grâce à une interface de bureau rapide et intuitive connectée à distance.",
+      "de": "Steuern Sie Ihre Datei-Downloads über eine schnelle und benutzerfreundliche Desktop-Oberfläche, die sich mit Ihrem Manager verbindet."
+    },
+    "download_url": "https://github.com/transmission-remote-gui/transgui/releases/download/v5.18.0/transgui-5.18.0-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "garbro",
+    "name": "GARbro",
+    "repo_url": "https://github.com/morkt/garbro",
+    "full_name": "morkt/garbro",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "gaming"
+    ],
+    "icon": "/icons/garbro.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3372,
+    "tier": "tier1_gui",
+    "summary": "GARbro lets you browse, extract, and convert internal game resources and packed archive files from visual novels effortlessly.",
+    "i18n": {
+      "it": "GARbro consente di sfogliare, estrarre e convertire facilmente le risorse interne e i file di archivio compressi delle visual novel.",
+      "es": "GARbro te permite explorar, extraer y convertir recursos internos y archivos comprimidos de juegos visual novel fácilmente.",
+      "fr": "GARbro vous permet de parcourir, d'extraire et de convertir facilement les ressources internes et les fichiers d'archives.",
+      "de": "GARbro ermöglicht das Durchsuchen, Extrahieren und Konvertieren interner Spielressourcen und komprimierter Archive mühelos."
+    },
+    "download_url": "https://github.com/morkt/GARbro/releases/download/v1.5.44/GARbro-v1.5.44-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "underscore-string",
     "name": "underscore.string",
     "repo_url": "https://github.com/esamattis/underscore.string",
@@ -8598,6 +8847,131 @@
     },
     "download_url": "https://esamattis.github.com/underscore.string/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "awtk",
+    "name": "AWTK",
+    "repo_url": "https://github.com/zlgopen/awtk",
+    "full_name": "zlgopen/awtk",
+    "category": "Productivity",
+    "tags": [
+      "gui",
+      "embedded"
+    ],
+    "icon": "/icons/awtk.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3328,
+    "tier": "tier1_gui",
+    "summary": "AWTK is a versatile toolkit that helps you design and run smooth, professional visual interfaces on everything from tiny gadgets to desktop computers.",
+    "i18n": {
+      "it": "AWTK è un kit di strumenti versatile che ti aiuta a progettare interfacce visive fluide e professionali su ogni tipo di dispositivo.",
+      "es": "AWTK es un kit de herramientas versátil que te ayuda a diseñar y ejecutar interfaces visuales fluidas en cualquier dispositivo.",
+      "fr": "AWTK est un kit d'outils polyvalent qui vous aide à concevoir et à exécuter des interfaces visuelles fluides sur tout type d'appareil.",
+      "de": "AWTK ist ein vielseitiges Toolkit, mit dem Sie flüssige und professionelle visuelle Oberflächen für jedes Gerät entwerfen können."
+    },
+    "download_url": "https://github.com/zlgopen/awtk/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "sherloq",
+    "name": "Sherloq",
+    "repo_url": "https://github.com/guidobartoli/sherloq",
+    "full_name": "guidobartoli/sherloq",
+    "category": "Productivity",
+    "tags": [
+      "forensics",
+      "image-analysis"
+    ],
+    "icon": "/icons/sherloq.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3264,
+    "tier": "tier1_gui",
+    "summary": "Sherloq is an open-source research workspace that helps you inspect digital images for hidden alterations, manipulation traces, and editing history.",
+    "i18n": {
+      "it": "Sherloq è uno strumento open-source per analizzare le immagini digitali alla ricerca di alterazioni nascoste e tracce di modifica.",
+      "es": "Sherloq es una herramienta de código abierto para examinar imágenes digitales en busca de modificaciones ocultas y rastros de edición.",
+      "fr": "Sherloq est un espace de recherche open-source pour analyser des images numériques à la recherche d'altérations et de trucages.",
+      "de": "Sherloq ist ein Open-Source-Werkzeug zur Untersuchung digitaler Bilder auf versteckte Bearbeitungsspuren und Manipulationen."
+    },
+    "download_url": "https://github.com/GuidoBartoli/sherloq/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "jailer",
+    "name": "Jailer",
+    "repo_url": "https://github.com/wisser/jailer",
+    "full_name": "wisser/jailer",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "icon": "/icons/jailer.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3220,
+    "tier": "tier1_gui",
+    "summary": "Extract neat, consistent slices of production databases for testing and analyze your data relationships without breaking integrity.",
+    "i18n": {
+      "it": "Estrai porzioni coerenti di database di produzione per i test e naviga tra le relazioni dei dati in modo semplice e sicuro.",
+      "es": "Extrae porciones coherentes de bases de datos de producción para pruebas y navega por tus relaciones de datos sin romper integridad.",
+      "fr": "Extrayez des tranches cohérentes de bases de données de production pour vos tests et naviguez facilement dans vos relations de données.",
+      "de": "Extrahieren Sie konsistente Ausschnitte von Produktdenbanken für Tests und durchsuchen Sie Ihre Datenbeziehungen problemlos."
+    },
+    "download_url": "https://github.com/Wisser/Jailer/releases/download/v17.3.2/Jailer-database-tools-17.3.2.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "fanqie-novel-downloader",
+    "name": "Fanqie-novel-Downloader",
+    "repo_url": "https://github.com/pof-l/fanqie-novel-downloader",
+    "full_name": "pof-l/fanqie-novel-downloader",
+    "category": "Productivity",
+    "tags": [
+      "reader",
+      "books"
+    ],
+    "icon": "/icons/fanqie-novel-downloader.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3213,
+    "tier": "tier1_gui",
+    "summary": "A cross-platform reading companion to search, download, and enjoy novels, comics, and short videos without distractions.",
+    "i18n": {
+      "it": "Un lettore multipiattaforma per cercare, scaricare e goderti libri, fumetti e video offline.",
+      "es": "Un lector multiplataforma para buscar, descargar y disfrutar libros, cómics y videos sin internet.",
+      "fr": "Un lecteur multiplateforme pour rechercher, télécharger et lire des livres et bandes dessinées.",
+      "de": "Ein plattformübergreifender Reader zum Suchen, Herunterladen und Genießen von Büchern und Comics."
+    },
+    "download_url": "https://github.com/POf-L/Fanqie-novel-Downloader/releases/download/unsigned-v2026.11.21-457-r863/FanqieNovelDownloader-tauri-windows-arm64-portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "youtubeplaylistdownloader",
+    "name": "YoutubePlaylistDownloader",
+    "repo_url": "https://github.com/shaked6540/youtubeplaylistdownloader",
+    "full_name": "shaked6540/youtubeplaylistdownloader",
+    "category": "Productivity",
+    "tags": [
+      "downloader",
+      "media"
+    ],
+    "icon": "/icons/youtubeplaylistdownloader.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3191,
+    "tier": "tier1_gui",
+    "summary": "Save entire video channels or single clips directly to your computer and convert them into your favorite media formats.",
+    "i18n": {
+      "it": "Salva interi canali video o singoli file sul tuo computer e convertili nei tuoi formati multimediali preferiti.",
+      "es": "Guarda canales de video enteros o clips sueltos en tu computadora y conviértelos a tus formatos preferidos.",
+      "fr": "Enregistrez des chaînes entières ou des clips sur votre ordinateur et convertissez-les dans vos formats favoris.",
+      "de": "Speichern Sie komplette Kanäle oder einzelne Clips auf Ihrem Computer und wandeln Sie diese in Medienformate um."
+    },
+    "download_url": "https://github.com/shaked6540/YoutubePlaylistDownloader/releases/download/1.9.35/YoutubePlaylistDownloader.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "termscp",
@@ -8650,6 +9024,156 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "imgui-rs",
+    "name": "imgui-rs",
+    "repo_url": "https://github.com/imgui-rs/imgui-rs",
+    "full_name": "imgui-rs/imgui-rs",
+    "category": "Productivity",
+    "tags": [
+      "programming",
+      "tools"
+    ],
+    "icon": "/icons/imgui-rs.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3069,
+    "tier": "tier1_gui",
+    "summary": "This tool allows programmers to build interactive menus and control panels for their software using the Rust programming language.",
+    "i18n": {
+      "it": "Questo strumento permette agli sviluppatori di creare menu interattivi e pannelli di controllo per il software usando il linguaggio Rust.",
+      "es": "Esta herramienta permite a los programadores crear menús interactivos y paneles de control para su software usando el lenguaje Rust.",
+      "fr": "Cet outil permet aux développeurs de créer des menus interactifs et des panneaux de contrôle pour leurs logiciels avec le langage Rust.",
+      "de": "Dieses Werkzeug ermöglicht es Programmierern, interaktive Menüs und Bedienfelder für ihre Software mit der Programmiersprache Rust zu erstellen."
+    },
+    "download_url": "https://github.com/imgui-rs/imgui-rs/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hatchzip",
+    "name": "HatchZip",
+    "repo_url": "https://github.com/xevrion/hatchzip",
+    "full_name": "xevrion/hatchzip",
+    "category": "Productivity",
+    "tags": [
+      "archive",
+      "extractor"
+    ],
+    "icon": "/icons/hatchzip.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3029,
+    "tier": "tier1_gui",
+    "summary": "HatchZip deletes archive parts as it extracts them, so you only need free disk space for the final files instead of both the archive and the extracted content.",
+    "i18n": {
+      "it": "HatchZip elimina le parti dell'archivio mentre le estrae, così ti serve solo lo spazio per i file finali.",
+      "es": "HatchZip elimina partes del archivo mientras las extrae, necesitando espacio solo para los archivos finales.",
+      "fr": "HatchZip supprime les parties de l'archive au fur et à mesure, nécessitant de l'espace uniquement pour les fichiers finaux.",
+      "de": "HatchZip löscht Archivteile während des Entpackens, sodass Sie nur Speicherplatz für die finalen Dateien benötigen."
+    },
+    "download_url": "https://github.com/xevrion/hatchzip/releases/download/v0.1.10/HatchZip-x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "comic-translate",
+    "name": "comic-translate",
+    "repo_url": "https://github.com/ogkalu2/comic-translate",
+    "full_name": "ogkalu2/comic-translate",
+    "category": "Productivity",
+    "tags": [
+      "translation",
+      "comics"
+    ],
+    "icon": "/icons/comic-translate.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3018,
+    "tier": "tier1_gui",
+    "summary": "Translate comics, manga, and graphic novels into multiple languages instantly using advanced artificial intelligence models.",
+    "i18n": {
+      "it": "Traduci fumetti, manga e romanzi grafici in più lingue all'istante utilizzando modelli avanzati di intelligenza artificiale.",
+      "es": "Traduce cómics, manga y novelas gráficas a varios idiomas al instante utilizando modelos avanzados de inteligencia artificial.",
+      "fr": "Traduisez des bandes dessinées et des romans graphiques en plusieurs langues instantanément grâce à l'intelligence artificielle.",
+      "de": "Übersetze Comics, Manga und Graphic Novels sofort in mehrere Sprachen mithilfe fortschrittlicher künstlicher Intelligenz."
+    },
+    "download_url": "https://github.com/ogkalu2/comic-translate/releases/download/v3.0.3/ct-3.0.3-win-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "jclasslib",
+    "name": "jclasslib",
+    "repo_url": "https://github.com/ingokegel/jclasslib",
+    "full_name": "ingokegel/jclasslib",
+    "category": "Productivity",
+    "tags": [
+      "bytecode",
+      "developer-tools"
+    ],
+    "icon": "/icons/jclasslib.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2997,
+    "tier": "tier1_gui",
+    "summary": "An intuitive tool that opens, inspects, and modifies compiled Java class files and low-level bytecode directly.",
+    "i18n": {
+      "it": "Uno strumento intuitivo per aprire, ispezionare e modificare file di classe Java compilati e bytecode di basso livello.",
+      "es": "Una herramienta intuitiva para abrir, inspeccionar y modificar archivos de clase Java compilados y código de bytes.",
+      "fr": "Un outil intuitif pour ouvrir, inspecter et modifier des fichiers de classe Java compilés et du bytecode.",
+      "de": "Ein intuitives Werkzeug zum Öffnen, Prüfen und Bearbeiten von kompilierten Java-Klassendateien und Bytecode."
+    },
+    "download_url": "https://github.com/ingokegel/jclasslib/releases/download/7.1/jclasslib_win64_7_1.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "exifcleaner",
+    "name": "ExifCleaner",
+    "repo_url": "https://github.com/sztheory/exifcleaner",
+    "full_name": "sztheory/exifcleaner",
+    "category": "Productivity",
+    "tags": [
+      "privacy",
+      "images"
+    ],
+    "icon": "/icons/exifcleaner.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2909,
+    "tier": "tier1_gui",
+    "summary": "Strip hidden personal information like locations and camera details from your images, videos, and documents with a simple drag-and-drop tool.",
+    "i18n": {
+      "it": "Elimina informazioni personali nascoste come posizioni e dettagli della fotocamera da immagini, video e documenti con un semplice strumento.",
+      "es": "Elimina información personal oculta como ubicaciones y detalles de cámaras de tus imágenes, videos y documentos fácilmente.",
+      "fr": "Effacez les informations personnelles cachées telles que les emplacements de vos images et documents en un clin d'œil.",
+      "de": "Löschen Sie versteckte persönliche Informationen wie Standorte und Kameradetails aus Bildern und Dokumenten per Drag & Drop."
+    },
+    "download_url": "https://github.com/szTheory/exifcleaner/releases/download/v4.8.0/ExifCleaner.4.8.0.portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "wailbrew",
+    "name": "WailBrew",
+    "repo_url": "https://github.com/wickenico/wailbrew",
+    "full_name": "wickenico/wailbrew",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "utilities"
+    ],
+    "icon": "/icons/wailbrew.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2870,
+    "tier": "tier1_gui",
+    "summary": "WailBrew provides a friendly graphical interface for managing your macOS software packages without needing to use the terminal.",
+    "i18n": {
+      "it": "WailBrew offre un'interfaccia grafica intuitiva per gestire i pacchetti software su macOS senza usare il terminale.",
+      "es": "WailBrew ofrece una interfaz gráfica intuitiva para gestionar paquetes de software en macOS sin usar la terminal.",
+      "fr": "WailBrew propose une interface graphique intuitive pour gérer vos logiciels sur macOS sans utiliser le terminal.",
+      "de": "WailBrew bietet eine intuitive grafische Oberfläche zur Verwaltung Ihrer macOS-Softwarepakete ohne Terminal-Nutzung."
+    },
+    "download_url": "https://wailbrew.app",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "uhubctl",
     "name": "uhubctl",
     "repo_url": "https://github.com/mvp/uhubctl",
@@ -8673,6 +9197,106 @@
     },
     "download_url": "https://github.com/mvp/uhubctl/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "pi-apps",
+    "name": "Pi-Apps",
+    "repo_url": "https://github.com/botspot/pi-apps",
+    "full_name": "botspot/pi-apps",
+    "category": "Productivity",
+    "tags": [
+      "raspberry-pi",
+      "linux"
+    ],
+    "icon": "/icons/pi-apps.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2856,
+    "tier": "tier1_gui",
+    "summary": "Discover and install hundreds of popular apps on your Raspberry Pi safely and effortlessly with this friendly community app store.",
+    "i18n": {
+      "it": "Scopri e installa centinaia di app popolari sul tuo Raspberry Pi in modo semplice e sicuro con questo store comunitario.",
+      "es": "Descubre e instala cientos de aplicaciones populares en tu Raspberry Pi de forma segura y sencilla con esta tienda comunitaria.",
+      "fr": "Découvrez et installez des centaines d'applications populaires sur votre Raspberry Pi en toute simplicité grâce à cette logithèque.",
+      "de": "Entdecken und installieren Sie Hunderte beliebter Apps auf Ihrem Raspberry Pi sicher und mühelos mit diesem Community-App-Store."
+    },
+    "download_url": "https://github.com/Botspot/pi-apps/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gui-for-clash",
+    "name": "GUI for Clash",
+    "repo_url": "https://github.com/gui-for-cores/gui.for.clash",
+    "full_name": "gui-for-cores/gui.for.clash",
+    "category": "Productivity",
+    "tags": [
+      "network",
+      "gui"
+    ],
+    "icon": "/icons/gui-for-clash.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2847,
+    "tier": "tier1_gui",
+    "summary": "A friendly desktop program that lets you set up and control Clash without typing commands, making your internet connection easier to manage.",
+    "i18n": {
+      "it": "Un programma desktop che ti permette di configurare e controllare Clash senza usare la riga di comando, semplificando la gestione della tua connessione internet.",
+      "es": "Una aplicación de escritorio fácil de usar que te permite configurar y controlar Clash sin necesidad de escribir comandos, facilitando la gestión de tu conexión a internet.",
+      "fr": "Un programme de bureau convivial qui vous permet de configurer et de contrôler Clash sans lignes de commande, simplifiant la gestion de votre connexion internet.",
+      "de": "Eine benutzerfreundliche Desktop‑Anwendung, mit der Sie Clash einrichten und steuern können, ohne Befehle einzugeben, und die Ihre Internetverbindung leichter verwalten lässt."
+    },
+    "download_url": "https://gui-for-cores.github.io/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "homebridge-config-ui-x",
+    "name": "homebridge-config-ui-x",
+    "repo_url": "https://github.com/homebridge/homebridge-config-ui-x",
+    "full_name": "homebridge/homebridge-config-ui-x",
+    "category": "Productivity",
+    "tags": [
+      "smart-home",
+      "dashboard"
+    ],
+    "icon": "/icons/homebridge-config-ui-x.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2817,
+    "tier": "tier1_gui",
+    "summary": "Homebridge UI lets you monitor, configure, and back up your smart home setup directly from any standard web browser.",
+    "i18n": {
+      "it": "Monitora, configura e gestisci facilmente il tuo server per la casa intelligente tramite una comoda interfaccia web.",
+      "es": "Monitorea, configura y respalda todo tu sistema de automatización hogareña directamente desde cualquier navegador web.",
+      "fr": "Surveillez, configurez et sauvegardez votre installation domotique directement depuis une interface web intuitive.",
+      "de": "Überwachen, konfigurieren und verwalten Sie Ihre Smart-Home-Zentrale ganz unkompliziert über einen Webbrowser."
+    },
+    "download_url": "https://github.com/homebridge/homebridge-config-ui-x/releases/download/v5.30.1/SHASUMS256.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "rinf",
+    "name": "Rinf",
+    "repo_url": "https://github.com/cunarist/rinf",
+    "full_name": "cunarist/rinf",
+    "category": "Productivity",
+    "tags": [
+      "flutter",
+      "cross-platform"
+    ],
+    "icon": "/icons/rinf.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2808,
+    "tier": "tier1_gui",
+    "summary": "Build ultra-fast cross-platform applications by pairing high-performance Rust business logic with flexible Flutter graphical interfaces.",
+    "i18n": {
+      "it": "Crea applicazioni multi-piattaforma ultra-rapide unendo la logica di calcolo in Rust con le interfacce grafiche flessibili di Flutter.",
+      "es": "Crea aplicaciones multiplataforma ultrarrápidas uniendo la lógica de Rust con las interfaces gráficas flexibles y modernas de Flutter.",
+      "fr": "Créez des applications multiplateformes ultra-rapides en associant la logique de calcul de Rust aux interfaces graphiques de Flutter.",
+      "de": "Erstelle blitzschnelle plattformübergreifende Anwendungen, indem du leistungsstarke Rust-Logik mit flexiblen Flutter-Oberflächen versiehst."
+    },
+    "download_url": "https://github.com/cunarist/rinf/releases",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "util",
