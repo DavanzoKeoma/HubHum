@@ -42,27 +42,6 @@
     "queued_at": "2026-11-20T08:30:36.157303+00:00"
   },
   {
-    "full_name": "streamlink/streamlink-twitch-gui",
-    "slug": "streamlink-twitch-gui",
-    "html_url": "https://github.com/streamlink/streamlink-twitch-gui",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
-    "queued_at": "2026-11-21T12:27:23.088231+00:00"
-  },
-  {
-    "full_name": "HarnessMD/munder-difflin",
-    "slug": "munder-difflin",
-    "html_url": "https://github.com/HarnessMD/munder-difflin",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
-    "queued_at": "2026-11-21T12:32:29.554800+00:00"
-  },
-  {
-    "full_name": "OpenCoworkAI/open-codesign",
-    "slug": "open-codesign",
-    "html_url": "https://github.com/OpenCoworkAI/open-codesign",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-21T12:32:48.155257+00:00"
-  },
-  {
     "full_name": "rmyndharis/OpenWA",
     "slug": "openwa",
     "html_url": "https://github.com/rmyndharis/OpenWA",
@@ -82,5 +61,12 @@
     "html_url": "https://github.com/alexta69/metube",
     "reason": "tier1_gemini: validation failed (URL not present in source metadata or affiliate seed: http://<your-server-ip) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-21T12:35:49.865020+00:00"
+  },
+  {
+    "full_name": "ashawkey/torch-ngp",
+    "slug": "torch-ngp",
+    "html_url": "https://github.com/ashawkey/torch-ngp",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-21T17:20:14.553388+00:00"
   }
 ]

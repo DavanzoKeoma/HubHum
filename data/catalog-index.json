@@ -8904,6 +8904,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "munder-difflin",
+    "name": "Munder Difflin",
+    "tagline": "Run an interactive office of AI agents",
+    "repo_url": "https://github.com/harnessmd/munder-difflin",
+    "full_name": "harnessmd/munder-difflin",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "agents"
+    ],
+    "icon": "/icons/munder-difflin.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9680,
+    "tier": "tier1_gui",
+    "summary": "Manage a visual office of artificial intelligence workers that handle research, coding, and writing using your existing assistant subscriptions.",
+    "i18n": {
+      "it": "Gestisci un ufficio visivo di assistenti intelligenti che si occupano di ricerca, programmazione e scrittura usando i tuoi abbonamenti.",
+      "es": "Administra una oficina virtual de asistentes que manejan investigación, código y redacción utilizando tus suscripciones actuales.",
+      "fr": "Pilotez un bureau virtuel d'assistants qui gèrent vos recherches, vos codes et vos rédactions en utilisant vos abonnements actifs.",
+      "de": "Steuere ein visuelles Büro aus intelligenten Mitarbeitern für Recherchen und Programmierung mit deinen bestehenden Abonnements."
+    },
+    "download_url": "https://github.com/HarnessMD/munder-difflin/releases/download/v0.5.5/Munder-Difflin-0.5.5-win-x64-portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "youtube-dl-gui",
     "name": "youtube-dl-gui",
     "tagline": "Simple desktop app for downloading videos.",
@@ -9266,6 +9294,34 @@
     },
     "download_url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.6/nexttrace-tiny_windows_386.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "open-codesign",
+    "name": "open-codesign",
+    "tagline": "Turn text prompts into interactive design prototypes",
+    "repo_url": "https://github.com/opencoworkai/open-codesign",
+    "full_name": "opencoworkai/open-codesign",
+    "category": "Graphics & Design",
+    "tags": [
+      "ai-design",
+      "prototyping"
+    ],
+    "icon": "/icons/open-codesign.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8250,
+    "tier": "tier1_gui",
+    "summary": "An open-source desktop app that transforms simple text descriptions into polished design prototypes and slide decks locally on your computer.",
+    "i18n": {
+      "it": "Un'applicazione desktop open source che trasforma descrizioni di testo in prototipi di design raffinati direttamente sul tuo computer.",
+      "es": "Una aplicación de escritorio de código abierto que convierte descripciones de texto en prototipos de diseño pulidos localmente.",
+      "fr": "Une application de bureau open-source qui convertit vos descriptions textuelles en prototypes de design soignés sur votre ordinateur.",
+      "de": "Eine Open-Source-Desktop-App, die einfache Textbeschreibungen lokal auf Ihrem Computer in ausgefeilte Design-Prototypen verwandelt."
+    },
+    "download_url": "https://github.com/OpenCoworkAI/open-codesign/releases/download/v0.3.0/open-codesign-0.3.0-arm64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "gui-for-singbox",
@@ -10526,6 +10582,34 @@
     },
     "download_url": "https://panel.holoviz.org",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "plexo",
+    "name": "Plexo",
+    "tagline": "Combine internet connections for faster downloads.",
+    "repo_url": "https://github.com/anmolkapil/plexo",
+    "full_name": "anmolkapil/plexo",
+    "category": "Productivity",
+    "tags": [
+      "downloads",
+      "network"
+    ],
+    "icon": "/icons/plexo.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 5793,
+    "tier": "tier1_gui",
+    "summary": "Plexo speeds up your large file downloads and torrents by intelligently combining multiple available network connections at once.",
+    "i18n": {
+      "it": "Plexo accelera i download combinando intelligentemente più connessioni di rete disponibili contemporaneamente.",
+      "es": "Plexo acelera las descargas combinando de manera inteligente múltiples conexiones de red disponibles a la vez.",
+      "fr": "Plexo accélère vos téléchargements en combinant intelligemment plusieurs connexions réseau disponibles simultanément.",
+      "de": "Plexo beschleunigt Ihre Downloads, indem mehrere verfügbare Netzwerkverbindungen intelligent gebündelt werden."
+    },
+    "download_url": "https://github.com/anmolkapil/plexo/releases/download/v1.0.0-rc.15/plexo-1.0.0-rc.15-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "mpv-net",
@@ -12011,6 +12095,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "streamlink-twitch-gui",
+    "name": "streamlink-twitch-gui",
+    "tagline": "Smooth desktop Twitch streams without browser stutter",
+    "repo_url": "https://github.com/streamlink/streamlink-twitch-gui",
+    "full_name": "streamlink/streamlink-twitch-gui",
+    "category": "Productivity",
+    "tags": [
+      "streaming",
+      "twitch"
+    ],
+    "icon": "/icons/streamlink-twitch-gui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2877,
+    "tier": "tier1_gui",
+    "summary": "A lightweight desktop application that lets you watch Twitch streams in your favorite media player instead of a heavy web browser.",
+    "i18n": {
+      "it": "Un'applicazione desktop leggera per guardare i video di Twitch nel tuo lettore multimediale preferito.",
+      "es": "Una aplicación de escritorio ligera para ver transmisiones de Twitch en tu reproductor multimedia favorito.",
+      "fr": "Une application de bureau légère pour regarder des flux Twitch dans votre lecteur multimédia préféré.",
+      "de": "Eine leichte Desktop-Anwendung zum Anschauen von Twitch-Streams in Ihrem bevorzugten Medienplayer."
+    },
+    "download_url": "https://github.com/streamlink/streamlink-twitch-gui/releases/download/v2.5.3/streamlink-twitch-gui-v2.5.3-win32-installer.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "wailbrew",
     "name": "WailBrew",
     "tagline": "Simple visual manager for Homebrew packages",
@@ -12571,6 +12683,258 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "vorta",
+    "name": "Vorta",
+    "tagline": "Secure and smart desktop backup manager",
+    "repo_url": "https://github.com/borgbase/vorta",
+    "full_name": "borgbase/vorta",
+    "category": "Productivity",
+    "tags": [
+      "backups",
+      "security"
+    ],
+    "icon": "/icons/vorta.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 2534,
+    "tier": "tier1_gui",
+    "summary": "Protect your important computer files from loss or hardware failure using a fast, encrypted backup manager for desktop computers.",
+    "i18n": {
+      "it": "Proteggi i tuoi file importanti da perdite o guasti hardware utilizzando un gestore di copie di sicurezza cifrato e veloce.",
+      "es": "Protege tus archivos importantes contra pérdidas o fallos de hardware utilizando un gestor de copias de seguridad cifrado.",
+      "fr": "Protégez vos fichiers importants contre la perte ou les pannes matérielles grâce à un gestionnaire de sauvegarde chiffré.",
+      "de": "Schützen Sie Ihre wichtigen Computerdateien mit einem schnellen und verschlüsselten Sicherungsmanager vor Verlust."
+    },
+    "download_url": "https://github.com/borgbase/vorta/releases/download/v0.12.2/Vorta-v0.12.2-arm.dmg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "elawidgettools",
+    "name": "ElaWidgetTools",
+    "tagline": "Fluent design style components for desktop",
+    "repo_url": "https://github.com/liniyous/elawidgettools",
+    "full_name": "liniyous/elawidgettools",
+    "category": "Productivity",
+    "tags": [
+      "widgets",
+      "desktop"
+    ],
+    "icon": "/icons/elawidgettools.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2527,
+    "tier": "tier1_gui",
+    "summary": "A modern design component library for desktop software development that brings a polished visual style and smooth interactions to applications.",
+    "i18n": {
+      "it": "Una moderna libreria di componenti per lo sviluppo desktop che offre uno stile visivo curato e interazioni fluide per le applicazioni.",
+      "es": "Una moderna biblioteca de componentes para el desarrollo de escritorio que aporta un estilo visual pulido e interacciones fluidas.",
+      "fr": "Une bibliothèque moderne de composants pour le développement de bureau qui apporte un style visuel soigné et des interactions fluides.",
+      "de": "Eine moderne Komponentenbibliothek für die Desktop-Entwicklung, die Anwendungen einen ausgefeilten visuellen Stil verleiht."
+    },
+    "download_url": "https://github.com/Liniyous/ElaWidgetTools/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "thatproject",
+    "name": "ThatProject",
+    "tagline": "Exciting microcontroller and hardware DIY tutorials",
+    "repo_url": "https://github.com/0015/thatproject",
+    "full_name": "0015/thatproject",
+    "category": "Productivity",
+    "tags": [
+      "iot",
+      "microcontroller"
+    ],
+    "icon": "/icons/thatproject.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 2489,
+    "tier": "tier1_gui",
+    "summary": "ThatProject provides step-by-step guides, sample code, and video tutorials for creating interactive gadgets with microcontroller boards.",
+    "i18n": {
+      "it": "ThatProject offre guide passo passo, codice di esempio e tutorial video per creare dispositivi interattivi con microcontrollori.",
+      "es": "ThatProject ofrece guías paso a paso, código de ejemplo y tutoriales en video para crear dispositivos interactivos.",
+      "fr": "ThatProject propose des guides étape par étape, du code source et des tutoriels vidéo pour créer des gadgets connectés.",
+      "de": "ThatProject bietet Schritt-für-Schritt-Anleitungen, Quellcode und Video-Tutorials für interaktive Mikrocontroller-Projekte."
+    },
+    "download_url": "https://youtube.com/thatproject",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "winrar-keygen",
+    "name": "WinRAR Keygen",
+    "tagline": "Understand how WinRAR licenses are generated.",
+    "repo_url": "https://github.com/bitcookies/winrar-keygen",
+    "full_name": "bitcookies/winrar-keygen",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "compression"
+    ],
+    "icon": "/icons/winrar-keygen.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2482,
+    "tier": "tier1_gui",
+    "summary": "An educational tool and utility that explains and demonstrates the mathematical principles behind WinRAR license file generation.",
+    "i18n": {
+      "it": "Uno strumento didattico che spiega e dimostra i principi matematici dietro la creazione dei file di licenza di WinRAR.",
+      "es": "Una herramienta educativa y de utilidad que explica y demuestra los principios matemáticos detrás de las licencias de WinRAR.",
+      "fr": "Un outil pédagogique qui explique et démontre les principes mathématiques derrière la création des fichiers de licence WinRAR.",
+      "de": "Ein Lernprogramm, das die mathematischen Prinzipien hinter der Erstellung von WinRAR-Lizenzdateien erklärt und veranschaulicht."
+    },
+    "download_url": "https://github.com/bitcookies/winrar-keygen/releases/download/v4.3.0/winrar-keygen-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "iplug2",
+    "name": "iPlug2",
+    "tagline": "Create cross-platform audio plugins easily",
+    "repo_url": "https://github.com/iplug2/iplug2",
+    "full_name": "iplug2/iplug2",
+    "category": "Productivity",
+    "tags": [
+      "audio",
+      "plugins"
+    ],
+    "icon": "/icons/iplug2.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 2452,
+    "tier": "tier1_gui",
+    "summary": "Build professional audio plugins and applications for computers, mobile devices, and the web using a single C++ codebase.",
+    "i18n": {
+      "it": "Crea plugin e applicazioni audio professionali per computer, dispositivi mobili e web utilizzando un unico codice C++.",
+      "es": "Desarrolla complementos y aplicaciones de audio profesionales para ordenadores, móviles y web con un solo código base de C++.",
+      "fr": "Développez des plugins et applications audio professionnels pour ordinateurs, mobiles et web à l'aide d'un seul code source C++.",
+      "de": "Entwickeln Sie professionelle Audio-Plugins und Apps für Computer, Mobilgeräte und das Web mit einer einzigen C++-Basis."
+    },
+    "download_url": "https://iplug2.github.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "redisclient",
+    "name": "RedisClient",
+    "tagline": "Visual manager for Redis data",
+    "repo_url": "https://github.com/caoxinyu/redisclient",
+    "full_name": "caoxinyu/redisclient",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "productivity"
+    ],
+    "icon": "/icons/redisclient.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Custom Open License",
+    "stars": 2447,
+    "tier": "tier1_gui",
+    "summary": "A free desktop tool that lets you view, edit, and organize Redis database entries using a familiar file explorer interface.",
+    "i18n": {
+      "it": "Un tool desktop gratuito che consente di visualizzare, modificare e organizzare le voci del database Redis tramite un'interfaccia simile a un'esploratore di file.",
+      "es": "Una herramienta de escritorio gratuita que permite ver, editar y organizar entradas de la base de datos Redis mediante una interfaz similar a un explorador de archivos.",
+      "fr": "Un outil de bureau gratuit qui permet d'afficher, de modifier et d'organiser les entrées de la base de données Redis via une interface semblable à un explorateur de fichiers.",
+      "de": "Ein kostenloses Desktop-Tool, das es ermöglicht, Einträge der Redis-Datenbank über eine Benutzeroberfläche ähnlich einem Datei-Explorer anzuzeigen, zu bearbeiten und zu organisieren."
+    },
+    "download_url": "https://github.com/caoxinyu/RedisClient/releases/download/2.0.0/redisclient-win32.x86.2.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "alisthelper",
+    "name": "alisthelper",
+    "tagline": "Simplify and manage your cloud storage desktop tool",
+    "repo_url": "https://github.com/xmarmalade/alisthelper",
+    "full_name": "xmarmalade/alisthelper",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "cloud"
+    ],
+    "icon": "/icons/alisthelper.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 2435,
+    "tier": "tier1_gui",
+    "summary": "Manage your local cloud file manager easily with background launching, system tray control, and custom startup settings.",
+    "i18n": {
+      "it": "Gestisci il tuo gestore di file cloud con avvio in background, controllo nel vassoio di sistema e impostazioni personalizzate.",
+      "es": "Administra tu gestor de archivos en la nube con inicio en segundo plano, control de bandeja y configuraciones personalizadas.",
+      "fr": "Gérez votre gestionnaire de fichiers cloud avec lancement en arrière-plan, contrôle de la barre des tâches et paramètres.",
+      "de": "Verwalten Sie Ihren Cloud-Dateimanager ganz einfach mit Hintergrundstart, Systemleisten-Steuerung und benutzerdefinierten Optionen."
+    },
+    "download_url": "https://github.com/Xmarmalade/alisthelper/releases/download/v0.2.0/AlistHelper_installer_v0.2.0_windows-x86_64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "real-video-enhancer",
+    "name": "REAL-Video-Enhancer",
+    "tagline": "Enhance and upscale videos effortlessly.",
+    "repo_url": "https://github.com/tntwise/real-video-enhancer",
+    "full_name": "tntwise/real-video-enhancer",
+    "category": "Productivity",
+    "tags": [
+      "video",
+      "upscaling"
+    ],
+    "icon": "/icons/real-video-enhancer.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 2428,
+    "tier": "tier1_gui",
+    "summary": "Easily interpolate, upscale, decompress, and denoise your videos using modern hardware acceleration on Windows, Linux, and MacOS.",
+    "i18n": {
+      "it": "Interpola, ingrandisci, decomprimi e rimuovi il rumore dai video sfruttando l'accelerazione hardware su Windows, Linux e MacOS.",
+      "es": "Interpola, mejora, descomprime y reduce el ruido de tus vídeos fácilmente utilizando aceleración por hardware en Windows, Linux y MacOS.",
+      "fr": "Interpolez, améliorez, décompressez et réduisez le bruit de vos vidéos grâce à l'accélération matérielle sur Windows, Linux et MacOS.",
+      "de": "Interpolieren, skalieren, dekomprimieren und entrauschen Sie Ihre Videos ganz einfach mit Hardwarebeschleunigung auf Windows, Linux und MacOS."
+    },
+    "download_url": "https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/RVE-2.4.1/REAL-Video-Enhancer-2.4.1-Windows-Setup_x86_64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "bilibili-video-downloader",
+    "name": "Bilibili Video Downloader",
+    "tagline": "Easily download and organize Bilibili videos.",
+    "repo_url": "https://github.com/lanyeeee/bilibili-video-downloader",
+    "full_name": "lanyeeee/bilibili-video-downloader",
+    "category": "Productivity",
+    "tags": [
+      "downloader",
+      "video"
+    ],
+    "icon": "/icons/bilibili-video-downloader.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2409,
+    "tier": "tier1_gui",
+    "summary": "A modern desktop tool for downloading videos, shows, and courses from Bilibili with subtitles and metadata support.",
+    "i18n": {
+      "it": "Uno strumento desktop per scaricare video e serie da Bilibili con sottotitoli e metadati inclusi.",
+      "es": "Una herramienta de escritorio para descargar videos y series de Bilibili con subtítulos y metadatos.",
+      "fr": "Un outil de bureau pour télécharger des vidéos et séries Bilibili avec sous-titres et métadonnées.",
+      "de": "Ein Desktop-Tool zum Herunterladen von Videos und Serien von Bilibili inklusive Untertiteln."
+    },
+    "download_url": "https://github.com/lanyeeee/bilibili-video-downloader/releases/download/v0.2.1/bilibili-video-downloader_0.2.1_windows_x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "tv-detox",
     "name": "tv-detox",
     "tagline": "Speed up slow smart televisions effortlessly.",
@@ -12627,6 +12991,146 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ns-usbloader",
+    "name": "ns-usbloader",
+    "tagline": "Manage console files and payloads easily.",
+    "repo_url": "https://github.com/developersu/ns-usbloader",
+    "full_name": "developersu/ns-usbloader",
+    "category": "Productivity",
+    "tags": [
+      "utility",
+      "console"
+    ],
+    "icon": "/icons/ns-usbloader.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 2367,
+    "tier": "tier1_gui",
+    "summary": "Manage console files, split or merge large archives, and send startup payloads right from your computer with an intuitive interface.",
+    "i18n": {
+      "it": "Gestisci file di gioco, dividi o unisci archivi pesanti e invia payload direttamente dal computer con un'interfaccia intuitiva.",
+      "es": "Gestiona archivos de consola, divide o une archivos grandes y envía cargas útiles directamente desde tu ordenador con facilidad.",
+      "fr": "Gérez les fichiers de console, divisez ou fusionnez des archives et envoyez des charges utiles depuis votre ordinateur.",
+      "de": "Verwalten Sie Konsolendateien, teilen oder kombinieren Sie Archive und senden Sie Start-Payloads direkt von Ihrem Computer."
+    },
+    "download_url": "https://github.com/developersu/ns-usbloader/releases/download/v7.4/Installer-7.4.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "wxformbuilder",
+    "name": "wxFormBuilder",
+    "tagline": "Design native desktop app interfaces visually.",
+    "repo_url": "https://github.com/wxformbuilder/wxformbuilder",
+    "full_name": "wxformbuilder/wxformbuilder",
+    "category": "Productivity",
+    "tags": [
+      "gui-builder",
+      "developer-tools"
+    ],
+    "icon": "/icons/wxformbuilder.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 2365,
+    "tier": "tier1_gui",
+    "summary": "Create native application windows and controls visually without writing layout code by hand.",
+    "i18n": {
+      "it": "Crea finestre e controlli per applicazioni in modo visivo senza scrivere codice a mano.",
+      "es": "Crea ventanas de aplicaciones y controles visualmente sin escribir código a mano.",
+      "fr": "Créez des fenêtres et des contrôles d'applications visuellement sans écrire de code de mise en page.",
+      "de": "Erstellen Sie Anwendungsfenster und Steuerelemente visuell, ohne Layout-Code manuell zu schreiben."
+    },
+    "download_url": "https://github.com/wxFormBuilder/wxFormBuilder/releases/download/v4.2.1/wxFormBuilder-4.2.1-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "yaaw",
+    "name": "yaaw",
+    "tagline": "Clean web dashboard for file downloads",
+    "repo_url": "https://github.com/binux/yaaw",
+    "full_name": "binux/yaaw",
+    "category": "Productivity",
+    "tags": [
+      "downloads",
+      "manager"
+    ],
+    "icon": "/icons/yaaw.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 2354,
+    "tier": "tier1_gui",
+    "summary": "Manage your background file transfers and downloads through a clean, browser-based dashboard without extra software.",
+    "i18n": {
+      "it": "Gestisci i tuoi trasferimenti e download in background tramite una dashboard basata su browser senza software extra.",
+      "es": "Gestiona tus transferencias y descargas en segundo plano a través de un panel web limpio sin software adicional.",
+      "fr": "Gérez vos transferts et téléchargements de fichiers via un tableau de bord basé sur un navigateur sans logiciel.",
+      "de": "Verwalten Sie Ihre Hintergrund-Dateitransfers über ein übersichtliches, browserbasiertes Dashboard ohne zusätzliche Software."
+    },
+    "download_url": "https://binux.github.io/yaaw/demo/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "globalprotect-openconnect",
+    "name": "GlobalProtect-openconnect",
+    "tagline": "Secure enterprise gateway and network connection",
+    "repo_url": "https://github.com/yuezk/globalprotect-openconnect",
+    "full_name": "yuezk/globalprotect-openconnect",
+    "category": "Security & Privacy",
+    "tags": [
+      "vpn",
+      "security"
+    ],
+    "icon": "/icons/globalprotect-openconnect.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 2350,
+    "tier": "tier1_gui",
+    "summary": "Connect securely to corporate networks with browser single sign-on, multi-factor authentication, and multi-platform support.",
+    "i18n": {
+      "it": "Connettiti in modo sicuro alle reti aziendali con accesso singolo del browser, autenticazione a più fattori e supporto multi-piattaforma.",
+      "es": "Conéctate de forma segura a redes corporativas con inicio de sesión único en el navegador, autenticación multifactor y soporte multiplataforma.",
+      "fr": "Connectez-vous en toute sécurité aux réseaux d'entreprise avec authentification unique via navigateur et prise en charge multiplateforme.",
+      "de": "Verbinden Sie sich sicher mit Unternehmensnetzwerken über Browser-Single-Sign-On, Mehrfaktor-Authentifizierung und plattformübergreifende Unterstützung."
+    },
+    "download_url": "https://github.com/yuezk/GlobalProtect-openconnect/releases/download/v3.7.1/GPConnect_3.7.1_windows-arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "moneymanagerex",
+    "name": "Money Manager Ex",
+    "tagline": "Track personal finances and cash flow.",
+    "repo_url": "https://github.com/moneymanagerex/moneymanagerex",
+    "full_name": "moneymanagerex/moneymanagerex",
+    "category": "Productivity",
+    "tags": [
+      "finance",
+      "budget"
+    ],
+    "icon": "/icons/moneymanagerex.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 2296,
+    "tier": "tier1_gui",
+    "summary": "An easy-to-use personal finance manager that helps you organize accounts, track spending, and forecast budgets securely.",
+    "i18n": {
+      "it": "Un gestore finanziario personale facile da usare per organizzare conti, monitorare le spese e pianificare i budget.",
+      "es": "Una aplicación de finanzas personales para organizar cuentas, controlar gastos y planificar presupuestos de forma segura.",
+      "fr": "Un gestionnaire de finances personnelles simple pour organiser vos comptes, suivre vos dépenses et planifier vos budgets.",
+      "de": "Ein benutzerfreundliches Haushaltsbuch zur Verwaltung von Konten, Ausgaben und Budgetplanung ohne Cloud-Zwang."
+    },
+    "download_url": "https://github.com/moneymanagerex/moneymanagerex/releases/download/v1.9.4/mmex-1.9.4-win32.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "appports",
     "name": "AppPorts",
     "tagline": "Move heavy apps and reclaim Mac storage",
@@ -12653,6 +13157,202 @@
     },
     "download_url": "https://github.com/wzh4869/AppPorts/releases/download/2.3.0/AppPorts2.3.0.dmg",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "anubias",
+    "name": "Anubias",
+    "tagline": "Build native mobile apps easily with GUI.",
+    "repo_url": "https://github.com/4xmen/anubias",
+    "full_name": "4xmen/anubias",
+    "category": "Productivity",
+    "tags": [
+      "mobile-apps",
+      "gui-builder"
+    ],
+    "icon": "/icons/anubias.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 2278,
+    "tier": "tier1_gui",
+    "summary": "Anubias is a visual app creation workspace that helps you design and export native applications for mobile and desktop devices without complex coding.",
+    "i18n": {
+      "it": "Uno spazio di lavoro visivo per progettare ed esportare applicazioni native per dispositivi mobili e desktop senza programmazione complessa.",
+      "es": "Un espacio de trabajo visual para diseñar y exportar aplicaciones nativas para móviles y escritorios sin programación compleja.",
+      "fr": "Un espace de travail visuel pour concevoir et exporter des applications natives pour mobiles et ordinateurs sans code complexe.",
+      "de": "Ein visueller Arbeitsbereich zum Entwerfen und Exportieren nativer Anwendungen für mobile Geräte und Desktops ohne komplexe Programmierung."
+    },
+    "download_url": "https://anubias.app/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nyaovim",
+    "name": "NyaoVim",
+    "tagline": "Extendable text editor with web interfaces.",
+    "repo_url": "https://github.com/rhysd/nyaovim",
+    "full_name": "rhysd/nyaovim",
+    "category": "Productivity",
+    "tags": [
+      "editor",
+      "text-editor"
+    ],
+    "icon": "/icons/nyaovim.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 2233,
+    "tier": "tier1_gui",
+    "summary": "NyaoVim is a modern text editor frontend that lets you customize your workspace using standard HTML, CSS, and JavaScript web tools.",
+    "i18n": {
+      "it": "NyaoVim è un editor di testo moderno che consente di personalizzare l'interfaccia usando HTML, CSS e JavaScript.",
+      "es": "NyaoVim es un editor de texto moderno que te permite personalizar tu espacio de trabajo usando componentes web.",
+      "fr": "NyaoVim est un éditeur de texte moderne qui vous permet de personnaliser votre interface avec des outils web.",
+      "de": "NyaoVim ist ein moderner Texteditor, bei dem Sie die Benutzeroberfläche mit HTML, CSS und JavaScript anpassen."
+    },
+    "download_url": "https://github.com/rhysd/NyaoVim/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kubebox",
+    "name": "kubebox",
+    "tagline": "Manage container clusters right from your terminal.",
+    "repo_url": "https://github.com/astefanutti/kubebox",
+    "full_name": "astefanutti/kubebox",
+    "category": "Productivity",
+    "tags": [
+      "kubernetes",
+      "system-utility"
+    ],
+    "icon": "/icons/kubebox.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 2225,
+    "tier": "tier1_gui",
+    "summary": "An interactive terminal and web console for monitoring and managing container clusters easily without complex setup.",
+    "i18n": {
+      "it": "Una console interattiva per terminale e web per monitorare e gestire i cluster di container senza configurazioni complesse.",
+      "es": "Una consola interactiva de terminal y web para supervisar y gestionar clústeres de contenedores fácilmente.",
+      "fr": "Une console interactive de terminal et Web pour surveiller et gérer vos clusters de conteneurs en toute simplicité.",
+      "de": "Eine interaktive Terminal- und Webkonsole zur einfachen Überwachung und Verwaltung Ihrer Container-Cluster."
+    },
+    "download_url": "https://github.com/astefanutti/kubebox/releases/download/v0.10.0/kubebox-windows.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pygubu",
+    "name": "pygubu",
+    "tagline": "Build Python user interfaces visually and easily.",
+    "repo_url": "https://github.com/alejandroautalan/pygubu",
+    "full_name": "alejandroautalan/pygubu",
+    "category": "Productivity",
+    "tags": [
+      "gui",
+      "tkinter"
+    ],
+    "icon": "/icons/pygubu.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2168,
+    "tier": "tier1_gui",
+    "summary": "Create graphical windows and forms for Python scripts using an intuitive visual designer instead of writing layout code by hand.",
+    "i18n": {
+      "it": "Progetta finestre e moduli per script Python usando un designer visivo intuitivo invece di scrivere codice di layout a mano.",
+      "es": "Diseña ventanas y formularios para scripts de Python usando un diseñador visual intuitivo en lugar de escribir código a mano.",
+      "fr": "Concevez des fenêtres et des formulaires pour des scripts Python à l'aide d'un outil visuel intuitif au lieu de coder à la main.",
+      "de": "Entwerfen Sie Fenster und Formulare für Python-Skripte mit einem visuellen Designer, anstatt Layout-Code manuell zu schreiben."
+    },
+    "download_url": "https://github.com/alejandroautalan/pygubu/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "omnibot",
+    "name": "OmniBot",
+    "tagline": "Your on-phone mobile artificial intelligence assistant",
+    "repo_url": "https://github.com/omnimind-ai/omnibot",
+    "full_name": "omnimind-ai/omnibot",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "android"
+    ],
+    "icon": "/icons/omnibot.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux, Android",
+    "license": "Custom Open License",
+    "stars": 2154,
+    "tier": "tier1_gui",
+    "summary": "OmniBot runs directly on your Android device as an intelligent agent capable of operating terminals and managing daily tasks.",
+    "i18n": {
+      "it": "OmniBot agisce sul tuo dispositivo Android come assistente intelligente in grado di gestire attività e terminali.",
+      "es": "OmniBot opera directamente en tu dispositivo Android como un agente inteligente capaz de gestionar tareas y terminales.",
+      "fr": "OmniBot fonctionne sur votre appareil Android comme un agent intelligent capable de gérer des tâches et des terminaux.",
+      "de": "OmniBot läuft direkt auf Ihrem Android-Gerät als intelligenter Agent zur Steuerung von Aufgaben und Terminals."
+    },
+    "download_url": "https://github.com/omnimind-ai/OmniBot/releases/download/v0.7.0/OpenOmniBot-v0.7.0-standard.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ndm",
+    "name": "ndm",
+    "tagline": "Manage code packages visually and easily",
+    "repo_url": "https://github.com/720kb/ndm",
+    "full_name": "720kb/ndm",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "developer-tools"
+    ],
+    "icon": "/icons/ndm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 2151,
+    "tier": "tier1_gui",
+    "summary": "Manage your software building blocks and add-ons through a clean window instead of typing complex commands.",
+    "i18n": {
+      "it": "Gestisci i componenti aggiuntivi dei tuoi progetti tramite una finestra pulita invece di digitare comandi complessi.",
+      "es": "Gestiona los complementos de tus proyectos mediante una ventana limpia en lugar de escribir comandos complejos.",
+      "fr": "Gérez les modules complémentaires de vos projets via une fenêtre claire au lieu de saisir des commandes complexes.",
+      "de": "Verwalten Sie Ihre Projektkomponenten über ein übersichtliches Fenster anstatt komplizierte Befehle einzugeben."
+    },
+    "download_url": "https://github.com/720kb/ndm/releases/download/v1.2.0/ndm-1.2.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nginx-ignition",
+    "name": "nginx-ignition",
+    "tagline": "Visual control panel for web servers",
+    "repo_url": "https://github.com/lucasdillmann/nginx-ignition",
+    "full_name": "lucasdillmann/nginx-ignition",
+    "category": "Productivity",
+    "tags": [
+      "web-server",
+      "utilities"
+    ],
+    "icon": "/icons/nginx-ignition.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux, Android",
+    "license": "Open Source (MIT)",
+    "stars": 2145,
+    "tier": "tier1_gui",
+    "summary": "Manage web traffic, security certificates, and website routing through an intuitive visual dashboard without editing raw configuration files.",
+    "i18n": {
+      "it": "Gestisci traffico web, certificati di sicurezza e reindirizzamenti tramite una dashboard visiva senza modificare file di configurazione.",
+      "es": "Gestiona tráfico web, certificados de seguridad y rutas de sitios web mediante un panel visual intuitivo sin editar archivos de configuración.",
+      "fr": "Gérez le trafic web, les certificats de sécurité et le routage des sites via un tableau de bord visuel sans modifier de fichiers.",
+      "de": "Verwalten Sie Web-Traffic, Sicherheitszertifikate und Website-Routing über ein intuitives Dashboard ohne manuelle Konfigurationsdateien."
+    },
+    "download_url": "https://github.com/lucasdillmann/nginx-ignition/releases/download/2.51.1/nginx-ignition-2.51.1.windows-amd64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "ts-prune",
