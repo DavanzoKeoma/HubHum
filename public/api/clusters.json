@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-21T20:15:05.299536+00:00",
+  "generated_at": "2026-11-21T21:05:16.453349+00:00",
   "total_guide_pages": 70,
   "pillars": [
     {
       "macro_slug": "video-audio",
       "category": "Video & Audio",
-      "app_count": 56,
+      "app_count": 70,
       "url": "https://davanzokeoma.github.io/HubHum/guides/video-audio/",
       "subpillars": [
         {
           "sub_slug": "video-audio/free-video-editors",
           "sub_topic": "Video Cutters, Converters & Downloaders",
-          "app_count": 16,
+          "app_count": 18,
           "articles": [
             "video-audio/free-video-editors/best-free-video-editors",
             "video-audio/free-video-editors/how-to-choose-free-video-editors",
@@ -28,7 +28,7 @@
         {
           "sub_slug": "video-audio/audio-media-players",
           "sub_topic": "Audio Editors & Music Players",
-          "app_count": 33,
+          "app_count": 41,
           "articles": [
             "video-audio/audio-media-players/best-audio-media-players",
             "video-audio/audio-media-players/how-to-choose-audio-media-players",
@@ -44,7 +44,7 @@
         {
           "sub_slug": "video-audio/screen-recorders-streaming",
           "sub_topic": "Screen Recorders, Streaming & Media Players",
-          "app_count": 7,
+          "app_count": 11,
           "articles": [
             "video-audio/screen-recorders-streaming/best-screen-recorders-streaming",
             "video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming",
@@ -62,13 +62,13 @@
     {
       "macro_slug": "graphics-design",
       "category": "Graphics & Design",
-      "app_count": 24,
+      "app_count": 26,
       "url": "https://davanzokeoma.github.io/HubHum/guides/graphics-design/",
       "subpillars": [
         {
           "sub_slug": "graphics-design/photo-image-tools",
           "sub_topic": "Photo Optimizers, Galleries & Screen Capture",
-          "app_count": 9,
+          "app_count": 11,
           "articles": [
             "graphics-design/photo-image-tools/best-photo-image-tools",
             "graphics-design/photo-image-tools/how-to-choose-photo-image-tools",
@@ -102,13 +102,13 @@
     {
       "macro_slug": "security-privacy",
       "category": "Security & Privacy",
-      "app_count": 35,
+      "app_count": 38,
       "url": "https://davanzokeoma.github.io/HubHum/guides/security-privacy/",
       "subpillars": [
         {
           "sub_slug": "security-privacy/free-password-managers",
           "sub_topic": "Free Password Managers & Auth Vaults",
-          "app_count": 12,
+          "app_count": 13,
           "articles": [
             "security-privacy/free-password-managers/best-free-password-managers",
             "security-privacy/free-password-managers/how-to-choose-free-password-managers",
@@ -124,7 +124,7 @@
         {
           "sub_slug": "security-privacy/password-network-privacy",
           "sub_topic": "Privacy Tools, VPNs & Network Monitors",
-          "app_count": 17,
+          "app_count": 19,
           "articles": [
             "security-privacy/password-network-privacy/best-password-network-privacy",
             "security-privacy/password-network-privacy/how-to-choose-password-network-privacy",
@@ -158,13 +158,13 @@
     {
       "macro_slug": "productivity",
       "category": "Productivity",
-      "app_count": 416,
+      "app_count": 534,
       "url": "https://davanzokeoma.github.io/HubHum/guides/productivity/",
       "subpillars": [
         {
           "sub_slug": "productivity/notes-knowledge-apps",
           "sub_topic": "Encrypted Notes, Wikis & Knowledge Apps",
-          "app_count": 115,
+          "app_count": 148,
           "articles": [
             "productivity/notes-knowledge-apps/best-notes-knowledge-apps",
             "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps",
@@ -180,7 +180,7 @@
         {
           "sub_slug": "productivity/pdf-document-office-tools",
           "sub_topic": "Free PDF, Document & E-Book Tools",
-          "app_count": 99,
+          "app_count": 131,
           "articles": [
             "productivity/pdf-document-office-tools/best-pdf-document-office-tools",
             "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools",
@@ -196,7 +196,7 @@
         {
           "sub_slug": "productivity/desktop-workflow-helpers",
           "sub_topic": "Window Switchers & Everyday Workflow Helpers",
-          "app_count": 202,
+          "app_count": 255,
           "articles": [
             "productivity/desktop-workflow-helpers/best-desktop-workflow-helpers",
             "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers",
@@ -214,13 +214,13 @@
     {
       "macro_slug": "web-apps-cloud",
       "category": "Web Apps & Cloud",
-      "app_count": 276,
+      "app_count": 351,
       "url": "https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/",
       "subpillars": [
         {
           "sub_slug": "web-apps-cloud/self-hosted-cms-blogs",
           "sub_topic": "Self-Hosted CMS, Blogs & Publishing Platforms",
-          "app_count": 77,
+          "app_count": 145,
           "articles": [
             "web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs",
             "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs",
@@ -236,7 +236,7 @@
         {
           "sub_slug": "web-apps-cloud/self-hosted-cloud-apps",
           "sub_topic": "Personal Cloud Hubs, Photos & File Sharing",
-          "app_count": 85,
+          "app_count": 83,
           "articles": [
             "web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps",
             "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps",
@@ -252,7 +252,7 @@
         {
           "sub_slug": "web-apps-cloud/server-dashboards-automation",
           "sub_topic": "Server Dashboards, Monitoring & Cloud Panels",
-          "app_count": 114,
+          "app_count": 123,
           "articles": [
             "web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation",
             "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation",
@@ -270,13 +270,13 @@
     {
       "macro_slug": "utilities-power-tools",
       "category": "Utilities & Power Tools",
-      "app_count": 192,
+      "app_count": 230,
       "url": "https://davanzokeoma.github.io/HubHum/guides/utilities-power-tools/",
       "subpillars": [
         {
           "sub_slug": "utilities-power-tools/modern-terminal-apps",
           "sub_topic": "Modern Terminal Emulators & Fast File Finders",
-          "app_count": 93,
+          "app_count": 105,
           "articles": [
             "utilities-power-tools/modern-terminal-apps/best-modern-terminal-apps",
             "utilities-power-tools/modern-terminal-apps/how-to-choose-modern-terminal-apps",
@@ -292,7 +292,7 @@
         {
           "sub_slug": "utilities-power-tools/automation-power-utilities",
           "sub_topic": "Automation & System Power Utilities",
-          "app_count": 99,
+          "app_count": 125,
           "articles": [
             "utilities-power-tools/automation-power-utilities/best-automation-power-utilities",
             "utilities-power-tools/automation-power-utilities/how-to-choose-automation-power-utilities",
