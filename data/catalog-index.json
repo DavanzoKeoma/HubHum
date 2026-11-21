@@ -6748,6 +6748,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "vercel",
+    "name": "Vercel",
+    "tagline": "Publish web apps instantly and securely.",
+    "repo_url": "https://github.com/vercel/vercel",
+    "full_name": "vercel/vercel",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "publishing",
+      "hosting"
+    ],
+    "icon": "/icons/vercel.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 16646,
+    "tier": "tier3_powertool",
+    "summary": "Build and publish modern web applications instantly without managing complicated server infrastructure.",
+    "i18n": {
+      "it": "Crea e pubblica applicazioni web all'istante senza gestire infrastrutture di server complesse.",
+      "es": "Crea y publica aplicaciones web al instante sin gestionar infraestructura de servidores compleja.",
+      "fr": "Créez et publiez des applications web instantanément sans gérer d'infrastructure serveur complexe.",
+      "de": "Erstellen und veröffentlichen Sie moderne Webanwendungen sofort, ohne komplizierte Server-Infrastruktur zu verwalten."
+    },
+    "download_url": "https://vercel.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "freshrss",
     "name": "FreshRSS",
     "tagline": "Collect and read your favorite news",
