@@ -42,13 +42,6 @@
     "queued_at": "2026-11-20T08:30:36.157303+00:00"
   },
   {
-    "full_name": "ashawkey/torch-ngp",
-    "slug": "torch-ngp",
-    "html_url": "https://github.com/ashawkey/torch-ngp",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-21T17:20:14.553388+00:00"
-  },
-  {
     "full_name": "yangbin1322/hongguo-player",
     "slug": "hongguo-player",
     "html_url": "https://github.com/yangbin1322/hongguo-player",
@@ -89,13 +82,6 @@
     "html_url": "https://github.com/Syngnat/GoNavi",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-21T17:25:46.084147+00:00"
-  },
-  {
-    "full_name": "rememberber/MooTool",
-    "slug": "mootool",
-    "html_url": "https://github.com/rememberber/MooTool",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-21T17:25:57.699000+00:00"
   },
   {
     "full_name": "MervinPraison/PraisonAI",
