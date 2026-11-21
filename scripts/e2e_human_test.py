@@ -8,12 +8,15 @@ import os
 import re
 import sys
 import tempfile
+import threading
 import urllib.request
 from pathlib import Path
 from urllib.parse import urlparse
 
 from playwright.sync_api import Page, expect, sync_playwright
 
+GLOBAL_TIMEOUT_SEC = 180
+ACTION_TIMEOUT_MS = 30000
 LIVE_URL = "https://davanzokeoma.github.io/HubHum/"
 WORKER_HEALTH_URL = "https://hubhum-api-bridge.keomadavanzo.workers.dev/api/health"
 WORKER_CONVERT_URL = "https://hubhum-api-bridge.keomadavanzo.workers.dev/api/convert"
@@ -45,7 +48,7 @@ def verify_worker_health() -> None:
 
 def verify_theme_and_i18n(page: Page, shots: Path) -> None:
     print("\n=== STEP A1: Brand, Light/Dark Theme Toggle & 5-Language i18n ===")
-    page.goto(LIVE_URL, wait_until="networkidle", timeout=45000)
+    page.goto(LIVE_URL, wait_until="networkidle", timeout=ACTION_TIMEOUT_MS)
 
     logo = page.locator("img.brand-logo")
     expect(logo).to_be_visible(timeout=15000)
@@ -254,9 +257,11 @@ def verify_mobile_viewport(p_playwright, shots: Path, audit_dir: Path | None = N
     print("\n=== STEP D: Mobile Viewport (375x812) Navigation, Drawer & Overflow Check ===")
     browser = p_playwright.chromium.launch(headless=True)
     ctx = browser.new_context(viewport={"width": 375, "height": 812}, is_mobile=True, has_touch=True, locale="en-US")
+    ctx.set_default_timeout(ACTION_TIMEOUT_MS)
+    ctx.set_default_navigation_timeout(ACTION_TIMEOUT_MS)
     m_page = ctx.new_page()
     try:
-        m_page.goto(LIVE_URL, wait_until="networkidle", timeout=45000)
+        m_page.goto(LIVE_URL, wait_until="networkidle", timeout=ACTION_TIMEOUT_MS)
         # Check horizontal overflow <= 1px
         has_overflow = m_page.evaluate("() => document.documentElement.scrollWidth > window.innerWidth + 1")
         assert not has_overflow, "Detected horizontal overflow on 375px mobile viewport!"
@@ -286,28 +291,41 @@ def main() -> int:
     parser.add_argument("--blind-audit-dir", default="", help="Optional folder for capturing DOM text + screenshots")
     args = parser.parse_args()
 
+    def _on_global_timeout() -> None:
+        print(f"\n[ERROR] Global E2E timeout exceeded ({GLOBAL_TIMEOUT_SEC}s). Aborting safely.", file=sys.stderr, flush=True)
+        os._exit(3)
+
+    watchdog = threading.Timer(GLOBAL_TIMEOUT_SEC, _on_global_timeout)
+    watchdog.daemon = True
+    watchdog.start()
+
     shots = screenshot_dir(args.screenshots_dir)
     audit_dir = Path(args.blind_audit_dir) if args.blind_audit_dir.strip() else None
     if audit_dir:
         audit_dir.mkdir(parents=True, exist_ok=True)
 
-    verify_worker_health()
+    try:
+        verify_worker_health()
 
-    with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True)
-        context = browser.new_context(viewport={"width": 1280, "height": 800}, locale="en-US")
-        page = context.new_page()
-        try:
-            verify_theme_and_i18n(page, shots)
-            verify_pagination_and_underlinenav(page)
-            verify_favorites_dialog_a11y(page)
-            verify_five_level_topic_clusters(page, shots, audit_dir=audit_dir)
-            verify_live_github_search(page, args.query)
-        finally:
-            context.close()
-            browser.close()
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
+            context = browser.new_context(viewport={"width": 1280, "height": 800}, locale="en-US")
+            context.set_default_timeout(ACTION_TIMEOUT_MS)
+            context.set_default_navigation_timeout(ACTION_TIMEOUT_MS)
+            page = context.new_page()
+            try:
+                verify_theme_and_i18n(page, shots)
+                verify_pagination_and_underlinenav(page)
+                verify_favorites_dialog_a11y(page)
+                verify_five_level_topic_clusters(page, shots, audit_dir=audit_dir)
+                verify_live_github_search(page, args.query)
+            finally:
+                context.close()
+                browser.close()
 
-        verify_mobile_viewport(pw, shots, audit_dir=audit_dir)
+            verify_mobile_viewport(pw, shots, audit_dir=audit_dir)
+    finally:
+        watchdog.cancel()
 
     print("\nALL DESKTOP + MOBILE E2E & TOPIC CLUSTER CHECKS PASSED 100%.")
     return 0
