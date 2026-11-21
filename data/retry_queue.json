@@ -68,5 +68,19 @@
     "html_url": "https://github.com/rmyndharis/OpenWA",
     "reason": "tier1_gemini: validation failed (Field 'summary' appears truncated or incomplete: 'OpenWA is a self-hosted messaging gateway letting you control your communication infrastructure without hidden fees or vendor lock-in.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-21T12:34:33.824499+00:00"
+  },
+  {
+    "full_name": "n8n-io/self-hosted-ai-starter-kit",
+    "slug": "self-hosted-ai-starter-kit",
+    "html_url": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Richten Sie schnell eine lokale KI-Umgebung mit privaten Sprachmodellen und automatisierten Tools auf Ihrer eigenen Hardware ein.') | tier2_groq: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons)",
+    "queued_at": "2026-11-21T12:35:33.625662+00:00"
+  },
+  {
+    "full_name": "alexta69/metube",
+    "slug": "metube",
+    "html_url": "https://github.com/alexta69/metube",
+    "reason": "tier1_gemini: validation failed (URL not present in source metadata or affiliate seed: http://<your-server-ip) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-21T12:35:49.865020+00:00"
   }
 ]

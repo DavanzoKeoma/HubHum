@@ -6225,6 +6225,56 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "openship",
+    "name": "openship",
+    "repo_url": "https://github.com/oblien/openship",
+    "full_name": "oblien/openship",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "deployment",
+      "self-hosted"
+    ],
+    "icon": "/icons/openship.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 15375,
+    "tier": "tier2_webapp",
+    "summary": "Manage, build, and publish your web applications effortlessly on your own servers or computers.",
+    "i18n": {
+      "it": "Pubblica e gestisci le tue applicazioni web facilmente sui tuoi server personali o computer.",
+      "es": "Gestiona, compila y publica tus aplicaciones web fácilmente en tus propios servidores u ordenadores.",
+      "fr": "Gérez, compilez et publiez vos applications web facilement sur vos propres serveurs ou ordinateurs.",
+      "de": "Verwalten, erstellen und veröffentlichen Sie Ihre Webanwendungen ganz einfach auf eigenen Servern."
+    },
+    "download_url": "https://github.com/oblien/openship/releases/download/v1.0.1/Openship-arm64.dmg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "onedev",
+    "name": "OneDev",
+    "repo_url": "https://github.com/theonedev/onedev",
+    "full_name": "theonedev/onedev",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "development",
+      "collaboration"
+    ],
+    "icon": "/icons/onedev.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 15370,
+    "tier": "tier2_webapp",
+    "summary": "OneDev is a unified platform combining code hosting, task tracking, automated testing, and smart AI assistance in a single lightweight tool.",
+    "i18n": {
+      "it": "OneDev unisce hosting di codice, gestione attività, test automatici e assistenza intelligente in un unico strumento leggero.",
+      "es": "OneDev combina alojamiento de código, seguimiento de tareas, pruebas automáticas y asistencia inteligente en una sola herramienta.",
+      "fr": "OneDev regroupe l'hébergement de code, le suivi des tâches, les tests automatiques et l'assistance intelligente dans un outil léger.",
+      "de": "OneDev vereint Code-Hosting, Aufgabenverfolgung, automatisierte Tests und intelligente Unterstützung in einem einzigen Tool."
+    },
+    "download_url": "https://onedev.io",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "skill-seekers",
     "name": "Skill Seekers",
     "repo_url": "https://github.com/yusufkaraaslan/skill_seekers",
@@ -6248,6 +6298,106 @@
     },
     "download_url": "https://skillseekersweb.com/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "cachet",
+    "name": "cachet",
+    "repo_url": "https://github.com/cachethq/cachet",
+    "full_name": "cachethq/cachet",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "status-page",
+      "monitoring"
+    ],
+    "icon": "/icons/cachet.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 15272,
+    "tier": "tier2_webapp",
+    "summary": "Cachet is a self-hosted status page system that lets you communicate downtime and system performance clearly to your users.",
+    "i18n": {
+      "it": "Cachet è un sistema di pagina di stato autogestito per comunicare interruzioni e prestazioni dei servizi ai tuoi utenti.",
+      "es": "Cachet es un sistema de página de estado autohospedado para comunicar caídas y rendimiento de servicios a tus usuarios.",
+      "fr": "Cachet est un système de page de statut hébergé par vos soins pour communiquer clairement les pannes à vos utilisateurs.",
+      "de": "Cachet ist ein selbst gehostetes Statusseitensystem, um Ausfälle und Systemleistungen transparent zu kommunizieren."
+    },
+    "download_url": "https://cachethq.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "peach",
+    "name": "Peach",
+    "repo_url": "https://github.com/peach-mitao/peach",
+    "full_name": "peach-mitao/peach",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "video",
+      "metadata"
+    ],
+    "icon": "/icons/peach.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 15226,
+    "tier": "tier2_webapp",
+    "summary": "Peach lets you collect, tag, and watch your personal video files with automatic title and cover fetching, all stored locally on your computer.",
+    "i18n": {
+      "it": "Peach ti permette di raccogliere, etichettare e guardare i tuoi video personali, recuperando automaticamente titoli e copertine, tutto salvato localmente sul tuo computer.",
+      "es": "Peach te ayuda a reunir, etiquetar y reproducir tus videos personales, obteniendo automáticamente títulos y portadas, todo guardado localmente en tu ordenador.",
+      "fr": "Peach vous permet de rassembler, taguer et lire vos vidéos personnelles, en récupérant automatiquement titres et couvertures, le tout stocké localement sur votre ordinateur.",
+      "de": "Peach ermöglicht das Sammeln, Taggen und Abspielen Ihrer persönlichen Videos, holt automatisch Titel und Cover und speichert alles lokal auf Ihrem Rechner."
+    },
+    "download_url": "https://peach.video",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "audiobookshelf",
+    "name": "Audiobookshelf",
+    "repo_url": "https://github.com/advplyr/audiobookshelf",
+    "full_name": "advplyr/audiobookshelf",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "audiobooks",
+      "podcasts"
+    ],
+    "icon": "/icons/audiobookshelf.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 15085,
+    "tier": "tier2_webapp",
+    "summary": "Host your own private streaming server for audiobooks and podcasts with automatic progress syncing and multi-user support.",
+    "i18n": {
+      "it": "Gestisci il tuo server di streaming per audiolibri e podcast con sincronizzazione dei progressi e supporto multiutente.",
+      "es": "Aloja tu propio servidor de streaming para audiolibros y podcasts con sincronización de progreso y soporte multiusuario.",
+      "fr": "Hbergez votre propre serveur de streaming pour livres audio et podcasts avec synchronisation des progrès et multi-utilisateurs.",
+      "de": "Betreiben Sie Ihren eigenen Streaming-Server für Hörbücher und Podcasts mit Fortschrittssynchronisation und Mehrbenutzerbetrieb."
+    },
+    "download_url": "https://audiobookshelf.org",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "notesnook",
+    "name": "Notesnook",
+    "repo_url": "https://github.com/streetwriters/notesnook",
+    "full_name": "streetwriters/notesnook",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "notes",
+      "privacy"
+    ],
+    "icon": "/icons/notesnook.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 14952,
+    "tier": "tier2_webapp",
+    "summary": "Notesnook is a private, open-source note-taking app that completely protects your personal information with military-grade encryption.",
+    "i18n": {
+      "it": "Notesnook è un'applicazione di appunti privata e open-source che protegge totalmente i tuoi dati personali con crittografia avanzata.",
+      "es": "Notesnook es una aplicación de notas privada y de código abierto que protege tu información personal con cifrado avanzado.",
+      "fr": "Notesnook est une application de notes privée et open-source qui protège entièrement vos données personnelles avec un cryptage de pointe.",
+      "de": "Notesnook ist eine private Open-Source-Notiz-App, die Ihre persönlichen Daten vollständig durch moderne Verschlüsselung schützt."
+    },
+    "download_url": "https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_win.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "waoowaoo",
@@ -6325,6 +6475,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "romm",
+    "name": "romm",
+    "repo_url": "https://github.com/rommapp/romm",
+    "full_name": "rommapp/romm",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "retro-gaming",
+      "emulation"
+    ],
+    "icon": "/icons/romm.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 14441,
+    "tier": "tier2_webapp",
+    "summary": "RomM is a powerful self-hosted web app that organizes your classic game collection, automatically fetches rich artwork and information, and lets you play directly in your browser.",
+    "i18n": {
+      "it": "RomM è un'applicazione web self-hosted per organizzare e giocare alla tua collezione di videogiochi classici direttamente nel browser.",
+      "es": "RomM es una aplicación web autohospedada que organiza tu colección de juegos clásicos y te permite jugar directamente en el navegador.",
+      "fr": "RomM est une application web autohébergée qui organise votre collection de jeux classiques et vous permet de jouer directement dans le navigateur.",
+      "de": "RomM ist eine selbst gehostete Web-App, die Ihre Retro-Spielesammlung organisiert und direkt im Browser spielbar macht."
+    },
+    "download_url": "https://romm.app",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "http-server",
     "name": "http-server",
     "repo_url": "https://github.com/http-party/http-server",
@@ -6348,6 +6523,81 @@
     },
     "download_url": "https://github.com/http-party/http-server/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "automatisch",
+    "name": "Automatisch",
+    "repo_url": "https://github.com/automatisch/automatisch",
+    "full_name": "automatisch/automatisch",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "automation",
+      "workflows"
+    ],
+    "icon": "/icons/automatisch.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 14028,
+    "tier": "tier2_webapp",
+    "summary": "Connect your favorite online services and automate repetitive tasks without writing code or risking data privacy.",
+    "i18n": {
+      "it": "Collega i tuoi servizi online preferiti e automatizza i compiti ripetitivi senza scrivere codice o rischiare la privacy dei dati.",
+      "es": "Conecta tus servicios en línea favoritos y automatiza tareas repetitivas sin escribir código ni arriesgar la privacidad de tus datos.",
+      "fr": "Connectez vos services en ligne préférés et automatisez vos tâches répétitives sans écrire de code ni risquer la confidentialité.",
+      "de": "Verbinden Sie Ihre Online-Dienste und automatisieren Sie wiederkehrende Aufgaben ohne Code oder Kompromisse beim Datenschutz."
+    },
+    "download_url": "https://automatisch.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "mealie",
+    "name": "Mealie",
+    "repo_url": "https://github.com/mealie-recipes/mealie",
+    "full_name": "mealie-recipes/mealie",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "recipes",
+      "meal-planner"
+    ],
+    "icon": "/icons/mealie.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 13965,
+    "tier": "tier2_webapp",
+    "summary": "Organize family recipes, plan weekly meals, and automatically pull ingredient lists from any website into one private digital cookbook.",
+    "i18n": {
+      "it": "Organizza ricette di famiglia, pianifica i pasti settimanali e importa ingredienti da qualsiasi sito web in un unico ricettario digitale.",
+      "es": "Organiza recetas familiares, planifica comidas semanales e importa ingredientes de cualquier sitio web en un recetario digital privado.",
+      "fr": "Organisez vos recettes, planifiez vos repas de la semaine et importez automatiquement des ingrédients depuis n'importe quel site web.",
+      "de": "Organisieren Sie Familienrezepte, planen Sie wöchentliche Mahlzeiten und importieren Sie Zutaten automatisch von jeder Website."
+    },
+    "download_url": "https://docs.mealie.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "quantdinger",
+    "name": "QuantDinger",
+    "repo_url": "https://github.com/openbyteinc/quantdinger",
+    "full_name": "openbyteinc/quantdinger",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "trading",
+      "artificial-intelligence"
+    ],
+    "icon": "/icons/quantdinger.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 13895,
+    "tier": "tier2_webapp",
+    "summary": "Create custom trading strategies using artificial intelligence, test them against historical market data, and run live sessions on your own server.",
+    "i18n": {
+      "it": "Sviluppa strategie di trading personalizzate, testale sui dati storici ed esegui sessioni in tempo reale sul tuo server.",
+      "es": "Desarrolla estrategias de trading personalizadas, pruébalas con datos históricos y ejecuta sesiones en vivo en tu propio servidor.",
+      "fr": "Développez des stratégies de trading personnalisées, testez-les sur des données historiques et exécutez des sessions en direct.",
+      "de": "Entwickeln Sie benutzerdefinierte Handelsstrategien, testen Sie diese an historischen Daten und führen Sie Live-Sitzungen aus."
+    },
+    "download_url": "https://ai.quantdinger.com",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "pysimplegui",
@@ -6398,6 +6648,31 @@
     },
     "download_url": "https://github.com/TomSchimansky/CustomTkinter/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "nightingale",
+    "name": "Nightingale",
+    "repo_url": "https://github.com/ccfos/nightingale",
+    "full_name": "ccfos/nightingale",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "monitoring",
+      "alerting"
+    ],
+    "icon": "/icons/nightingale.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 13510,
+    "tier": "tier2_webapp",
+    "summary": "Nightingale is a free, self-hosted tool that watches your servers and databases to send you alerts when something goes wrong.",
+    "i18n": {
+      "it": "Nightingale è uno strumento gratuito e auto-ospitato che monitora i tuoi server e database per inviare avvisi in caso di problemi.",
+      "es": "Nightingale es una herramienta gratuita y autoalojada que supervisa tus servidores y bases de datos para enviarte alertas cuando algo falla.",
+      "fr": "Nightingale est un outil gratuit et auto-hébergé qui surveille vos serveurs et bases de données pour vous alerter en cas de problème.",
+      "de": "Nightingale ist ein kostenloses, selbst gehostetes Tool, das Ihre Server und Datenbanken überwacht, um Sie bei Problemen zu benachrichtigen."
+    },
+    "download_url": "https://github.com/ccfos/nightingale/releases/download/v9.3.0/checksums.txt",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "ariang",
@@ -6500,6 +6775,56 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "wallabag",
+    "name": "wallabag",
+    "repo_url": "https://github.com/wallabag/wallabag",
+    "full_name": "wallabag/wallabag",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "reading-list",
+      "self-hosted"
+    ],
+    "icon": "/icons/wallabag.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 13071,
+    "tier": "tier2_webapp",
+    "summary": "Capture online articles and clean web pages to your own reading library, stripping away annoying pop-ups and distractions.",
+    "i18n": {
+      "it": "Cattura articoli online e pagine pulite nella tua libreria di lettura personale, rimuovendo pop-up e distrazioni.",
+      "es": "Captura artículos en línea y páginas web limpias en tu biblioteca personal de lectura, eliminando anuncios molestos.",
+      "fr": "Capturez des articles en ligne et des pages web épurées dans votre bibliothèque personnelle sans distractions.",
+      "de": "Erfassen Sie Online-Artikel und saubere Webseiten in Ihrer persönlichen Lesebibliothek ohne störende Werbung."
+    },
+    "download_url": "https://wallabag.org",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gatus",
+    "name": "Gatus",
+    "repo_url": "https://github.com/twin/gatus",
+    "full_name": "twin/gatus",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "monitoring",
+      "dashboard"
+    ],
+    "icon": "/icons/gatus.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 12855,
+    "tier": "tier2_webapp",
+    "summary": "Gatus is a smart dashboard that watches your websites and apps to ensure they are working correctly.",
+    "i18n": {
+      "it": "Gatus è una dashboard intelligente che controlla siti e app per assicurarsi che funzionino.",
+      "es": "Gatus es un panel inteligente que vigila tus sitios y aplicaciones para asegurar su funcionamiento.",
+      "fr": "Gatus est un tableau de bord intelligent qui surveille vos sites et applications.",
+      "de": "Gatus ist ein intelligentes Dashboard, das Ihre Webseiten und Apps überwacht."
+    },
+    "download_url": "https://gatus.io",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "thaw",
     "name": "Thaw",
     "repo_url": "https://github.com/thaw-app/thaw",
@@ -6548,6 +6873,56 @@
     },
     "download_url": "https://github.com/orf/gping/releases/download/gping-v1.21.0/gping.1",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "planka",
+    "name": "Planka",
+    "repo_url": "https://github.com/plankanban/planka",
+    "full_name": "plankanban/planka",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "kanban",
+      "project-management"
+    ],
+    "icon": "/icons/planka.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 12699,
+    "tier": "tier2_webapp",
+    "summary": "Manage team tasks effortlessly using self-hosted, real-time Kanban boards with drag-and-drop support.",
+    "i18n": {
+      "it": "Gestisci le attività del team con bacheche Kanban in tempo reale e trascinamento semplice.",
+      "es": "Gestiona las tareas del equipo usando tableros Kanban en tiempo reale y fáciles de usar.",
+      "fr": "Gérez les tâches de votre équipe grâce à des tableaux Kanban en temps réel et intuitifs.",
+      "de": "Verwalten Sie Teamaufgaben einfach über selbst gehostete Echtzeit-Kanban-Tafeln."
+    },
+    "download_url": "https://planka.app",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "umbrel",
+    "name": "umbrelOS",
+    "repo_url": "https://github.com/getumbrel/umbrel",
+    "full_name": "getumbrel/umbrel",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "self-hosting",
+      "cloud"
+    ],
+    "icon": "/icons/umbrel.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 12596,
+    "tier": "tier2_webapp",
+    "summary": "Take back control of your digital life by turning any spare computer into a private cloud server for photos, files, and apps.",
+    "i18n": {
+      "it": "Riprendi il controllo dei tuoi dati trasformando qualsiasi computer in un server cloud privato per foto, file e app.",
+      "es": "Recupera el control de tus datos convirtiendo cualquier ordenador en un servidor en la nube privado para fotos, archivos y apps.",
+      "fr": "Reprenez le contrôle de vos données en transformant n'importe quel ordinateur en serveur cloud privé pour photos, fichiers et applications.",
+      "de": "Übernehmen Sie die Kontrolle über Ihre Daten, indem Sie jeden Computer in einen privaten Cloud-Server für Fotos und Apps verwandeln."
+    },
+    "download_url": "https://umbrel.com",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "autoclip",
@@ -6650,6 +7025,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "kavita",
+    "name": "Kavita",
+    "repo_url": "https://github.com/kareadita/kavita",
+    "full_name": "kareadita/kavita",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "reading",
+      "manga"
+    ],
+    "icon": "/icons/kavita.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 12159,
+    "tier": "tier2_webapp",
+    "summary": "Organize and stream your personal comic, manga, and book library across all your devices using a private server.",
+    "i18n": {
+      "it": "Organizza e leggi la tua libreria personale di fumetti e libri su qualsiasi dispositivo usando un server privato.",
+      "es": "Organiza y transmite tu biblioteca personal de cómics, manga y libros en todos tus dispositivos con un servidor.",
+      "fr": "Organisez et lisez votre bibliothèque personnelle de mangas et de livres sur tous vos appareils via un serveur.",
+      "de": "Organisieren und streamen Sie Ihre persönliche Comic- und Bücherbibliothek auf all Ihren Geräten."
+    },
+    "download_url": "https://www.kavitareader.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "onefetch",
     "name": "Onefetch",
     "repo_url": "https://github.com/o2sh/onefetch",
@@ -6673,6 +7073,31 @@
     },
     "download_url": "https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-setup.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "netmaker",
+    "name": "Netmaker",
+    "repo_url": "https://github.com/gravitl/netmaker",
+    "full_name": "gravitl/netmaker",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "networking",
+      "security"
+    ],
+    "icon": "/icons/netmaker.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 11881,
+    "tier": "tier2_webapp",
+    "summary": "Netmaker creates fast, secure, and distributed virtual private networks using WireGuard technology to connect your devices easily.",
+    "i18n": {
+      "it": "Netmaker realizza reti virtuali sicure e veloci utilizzando la tecnologia WireGuard per connettere i tuoi dispositivi senza sforzo.",
+      "es": "Netmaker crea redes virtuales seguras y rápidas usando la tecnología WireGuard para conectar tus dispositivos fácilmente.",
+      "fr": "Netmaker crée des réseaux virtuels sécurisés et rapides en utilisant la technologie WireGuard pour connecter vos appareils facilement.",
+      "de": "Netmaker erstellt schnelle und sichere virtuelle Netzwerke mit WireGuard, um Ihre Geräte unkompliziert zu verbinden."
+    },
+    "download_url": "https://github.com/gravitl/netmaker/releases/download/v1.8.0/nmctl-windows-amd64.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "shiori",
@@ -6700,6 +7125,81 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ekko-studio",
+    "name": "Ekko Studio",
+    "repo_url": "https://github.com/ekkolearnai/ekko-studio",
+    "full_name": "ekkolearnai/ekko-studio",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "chat"
+    ],
+    "icon": "/icons/ekko-studio.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 11810,
+    "tier": "tier2_webapp",
+    "summary": "Manage multiple artificial intelligence assistants, chat rooms, visual workflows, and coding helpers directly from your desktop or web browser.",
+    "i18n": {
+      "it": "Gestisci assistenti intelligenti multipli, chat di gruppo, flussi di lavoro visivi e strumenti di programmazione direttamente dal tuo computer.",
+      "es": "Gestiona múltiples asistentes inteligentes, chats grupales, flujos visuales de trabajo y herramientas de código directamente desde tu ordenador.",
+      "fr": "Gérez plusieurs assistants intelligents, salons de discussion, flux de travail visuels et assistants de code directement depuis votre bureau.",
+      "de": "Verwalten Sie mehrere intelligente Assistenten, Gruppenchats, visuelle Arbeitsabläufe und Programmierhilfen direkt auf Ihrem Computer."
+    },
+    "download_url": "https://github.com/EKKOLearnAI/ekko-studio/releases/download/v0.8.30/Ekko.Studio-0.8.30-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nginx-ui",
+    "name": "Nginx UI",
+    "repo_url": "https://github.com/0xjacky/nginx-ui",
+    "full_name": "0xjacky/nginx-ui",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "nginx",
+      "web-ui"
+    ],
+    "icon": "/icons/nginx-ui.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 11810,
+    "tier": "tier2_webapp",
+    "summary": "Nginx UI provides a user-friendly dashboard to manage web server settings, monitor system performance, and handle security certificates effortlessly.",
+    "i18n": {
+      "it": "Nginx UI offre una comoda dashboard per gestire le impostazioni del server, monitorare le prestazioni e rinnovare i certificati.",
+      "es": "Nginx UI ofrece un panel intuitivo para administrar ajustes del servidor, monitorizar el rendimiento y gestionar certificados.",
+      "fr": "Nginx UI propose un tableau de bord intuitif pour gérer les paramètres du serveur, surveiller les performances et les certificats.",
+      "de": "Nginx UI bietet ein intuitives Dashboard zur Verwaltung von Servereinstellungen, zur Systemüberwachung und für Sicherheitszertifikate."
+    },
+    "download_url": "https://github.com/0xJacky/nginx-ui/releases/download/v3.0.6/app-dist.tar.gz.minisig",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "homer",
+    "name": "Homer",
+    "repo_url": "https://github.com/homer-dashboard/homer",
+    "full_name": "homer-dashboard/homer",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "dashboard",
+      "server-tools"
+    ],
+    "icon": "/icons/homer.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 11734,
+    "tier": "tier2_webapp",
+    "summary": "Homer creates a clean, organized landing page to help you quickly access all your self-hosted services and web tools in one place.",
+    "i18n": {
+      "it": "Homer crea una pagina iniziale ordinata per accedere rapidamente a tutti i tuoi servizi e strumenti web in un unico posto.",
+      "es": "Homer crea una página de inicio organizada para acceder rápidamente a todos tus servicios y herramientas web desde un solo lugar.",
+      "fr": "Homer crée une page d'accueil organisée pour accéder rapidement à tous vos services et outils web depuis un seul endroit.",
+      "de": "Homer erstellt eine übersichtliche Startseite, damit Sie schnell auf alle Ihre Dienste und Web-Tools an einem Ort zugreifen können."
+    },
+    "download_url": "https://homer-demo.netlify.app/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "medis",
     "name": "Medis",
     "repo_url": "https://github.com/luin/medis",
@@ -6723,6 +7223,56 @@
     },
     "download_url": "https://getmedis.com",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "owncast",
+    "name": "owncast",
+    "repo_url": "https://github.com/owncast/owncast",
+    "full_name": "owncast/owncast",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "streaming",
+      "video"
+    ],
+    "icon": "/icons/owncast.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 11684,
+    "tier": "tier2_webapp",
+    "summary": "Take complete control of your live video broadcasts and audience chat by hosting your own private streaming server.",
+    "i18n": {
+      "it": "Prendi il controllo totale delle tue trasmissioni video in diretta e della chat ospitando il tuo server di streaming personale.",
+      "es": "Toma el control absoluto de tus transmisiones de video en vivo y chat alojando tu propio servidor privado de streaming.",
+      "fr": "Prenez le contrôle total de vos diffusions vidéo en direct et de votre chat en hébergeant votre propre serveur personnel.",
+      "de": "Übernehmen Sie die vollständige Kontrolle über Ihre Live-Videostreams und den Zuschauer-Chat mit einem eigenen Server."
+    },
+    "download_url": "https://owncast.online",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "bore",
+    "name": "bore",
+    "repo_url": "https://github.com/ekzhang/bore",
+    "full_name": "ekzhang/bore",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "tunnel",
+      "networking"
+    ],
+    "icon": "/icons/bore.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 11619,
+    "tier": "tier2_webapp",
+    "summary": "bore lets you make your computer’s local programs reachable from anywhere on the internet, without needing complex setup.",
+    "i18n": {
+      "it": "bore ti permette di rendere raggiungibili da internet i programmi che girano sul tuo computer, senza configurazioni complicate.",
+      "es": "bore permite que los programas que ejecutas en tu computadora sean accesibles desde cualquier lugar en internet, sin configuraciones complejas.",
+      "fr": "bore vous permet de rendre vos programmes locaux accessibles depuis Internet, sans configuration compliquée.",
+      "de": "bore ermöglicht es, Programme auf deinem Rechner über das Internet erreichbar zu machen, ohne aufwändige Einrichtung."
+    },
+    "download_url": "https://bore.pub",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "nuklear",
@@ -6775,6 +7325,31 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "linkding",
+    "name": "linkding",
+    "repo_url": "https://github.com/sissbruecker/linkding",
+    "full_name": "sissbruecker/linkding",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "bookmarks",
+      "self-hosted"
+    ],
+    "icon": "/icons/linkding.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 11439,
+    "tier": "tier2_webapp",
+    "summary": "Store, tag, and organize all your favorite web links on your own server.",
+    "i18n": {
+      "it": "Conserva e organizza i tuoi collegamenti web preferiti sul tuo server.",
+      "es": "Guarda y organiza tus enlaces web favoritos en tu propio servidor.",
+      "fr": "Stockez et organisez vos liens web favoris sur votre propre serveur.",
+      "de": "Speichern und organisieren Sie Ihre Web-Links auf Ihrem eigenen Server."
+    },
+    "download_url": "https://linkding.link/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "mac-mouse-fix",
     "name": "Mac Mouse Fix",
     "repo_url": "https://github.com/noah-nuebling/mac-mouse-fix",
@@ -6798,6 +7373,56 @@
     },
     "download_url": "https://macmousefix.com/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "blinko",
+    "name": "Blinko",
+    "repo_url": "https://github.com/blinkospace/blinko",
+    "full_name": "blinkospace/blinko",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "notes",
+      "ai"
+    ],
+    "icon": "/icons/blinko.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 11232,
+    "tier": "tier2_webapp",
+    "summary": "Blinko is a private, self-hosted note-taking tool that uses artificial intelligence to help you instantly capture and find your ideas.",
+    "i18n": {
+      "it": "Blinko è uno strumento di appunti privato e autogestito che usa l'intelligenza artificiale per trovare rapidamente le tue idee.",
+      "es": "Blinko es una herramienta de notas privada y autohospedada que utiliza inteligencia artificial para capturar y buscar tus ideas.",
+      "fr": "Blinko est un outil de notes privé et auto-hébergé qui utilise l'intelligence artificielle pour retrouver facilement vos idées.",
+      "de": "Blinko ist ein privates, selbstgehostetes Notiztool, das künstliche Intelligenz nutzt, um Ihre Ideen blitzschnell wiederzufinden."
+    },
+    "download_url": "https://github.com/blinkospace/blinko/releases/download/1.8.9/Blinko_1.8.9_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "aihot",
+    "name": "AIHOT",
+    "repo_url": "https://github.com/kkkkhazix/aihot",
+    "full_name": "kkkkhazix/aihot",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "news"
+    ],
+    "icon": "/icons/aihot.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 11176,
+    "tier": "tier2_webapp",
+    "summary": "An intelligent web framework that automatically finds hot topics, filters articles, and publishes daily industry digests.",
+    "i18n": {
+      "it": "Un framework web intelligente che trova notizie calde, filtra articoli e pubblica digest giornalieri di settore.",
+      "es": "Un marco web inteligente que encuentra temas populares, filtra artículos y publica resúmenes diarios de la industria.",
+      "fr": "Un cadre web intelligent qui trouve des sujets tendances, filtre les articles et publie des résumés sectoriels.",
+      "de": "Ein intelligentes Web-Framework, das heiße Themen findet, Artikel filtert und tägliche Branchenberichte veröffentlicht."
+    },
+    "download_url": "https://aihot.news",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "dufs",
