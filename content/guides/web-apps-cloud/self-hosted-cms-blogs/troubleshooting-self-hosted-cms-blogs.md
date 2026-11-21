@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "web-apps-cloud/self-hosted-cms-blogs"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs"]
-app_slugs: ["n8n", "netdata", "appwrite", "ghost", "huginn"]
+app_slugs: ["n8n", "hugo", "strapi", "gitea", "ghost"]
 updated_at: "2026-11-21"
 ---
 
@@ -31,7 +31,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 ### Recommended Alternatives Covered
 
 - **[n8n](/HubHum/apps/n8n/)** (Self-Hosted Web App) — Connect your favorite online tools and artificial intelligence models to automate tedious tasks without writing complex code.
-- **[Netdata](/HubHum/apps/netdata/)** (Self-Hosted Web App) — Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues.
-- **[Appwrite](/HubHum/apps/appwrite/)** (Self-Hosted Web App) — An open-source cloud backend that gives you secure user login, databases, file storage, and serverless functions in one unified place.
+- **[Hugo](/HubHum/apps/hugo/)** (Self-Hosted Web App) — Hugo is a powerful tool that turns your text and images into fast, professional websites with minimal effort.
+- **[Strapi](/HubHum/apps/strapi/)** (Self-Hosted Web App) — Strapi is a tool that helps you organize and manage your website content, allowing you to display it anywhere you choose.
+- **[Gitea](/HubHum/apps/gitea/)** (Self-Hosted Web App) — Host your programming projects, review team code changes, and manage tasks easily on your own private server.
 - **[Ghost](/HubHum/apps/ghost/)** (Self-Hosted Web App) — Launch a fast blog, digital magazine, or paid newsletter while keeping complete ownership of your reader list.
-- **[Huginn](/HubHum/apps/huginn/)** (Self-Hosted Web App) — Create smart online agents that monitor websites, read updates, and trigger automated actions on your own private server.

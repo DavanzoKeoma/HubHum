@@ -12,7 +12,7 @@ stars: 4637
 source_url: "https://github.com/prest/prest"
 download_url: "https://github.com/prest/prest/releases/download/v2.6.0/prest_checksums.txt"
 downloadUrl: "https://github.com/prest/prest/releases/download/v2.6.0/prest_checksums.txt"
-download_label: "Download (prest_checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

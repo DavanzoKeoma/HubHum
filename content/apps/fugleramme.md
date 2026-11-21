@@ -12,7 +12,7 @@ stars: 4100
 source_url: "https://github.com/arnegiacomo/fugleramme"
 download_url: "https://github.com/arnegiacomo/fugleramme/releases/download/v0.33.0/uv.lock"
 downloadUrl: "https://github.com/arnegiacomo/fugleramme/releases/download/v0.33.0/uv.lock"
-download_label: "Download (uv.lock)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

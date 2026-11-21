@@ -12,7 +12,7 @@ stars: 3218
 source_url: "https://github.com/SilasMarvin/lsp-ai"
 download_url: "https://github.com/SilasMarvin/lsp-ai/releases/download/v0.7.1/lsp-ai-aarch64-apple-darwin.gz"
 downloadUrl: "https://github.com/SilasMarvin/lsp-ai/releases/download/v0.7.1/lsp-ai-aarch64-apple-darwin.gz"
-download_label: "Download (lsp-ai-aarch64-apple-darwin.gz)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

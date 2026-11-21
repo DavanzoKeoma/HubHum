@@ -6,7 +6,7 @@ summary: "LessPass creates unique passwords on the fly using a master password, 
 tags: ["security", "privacy", "passwords"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/lesspass.png"
 stars: 6086
 source_url: "https://github.com/lesspass/lesspass"
@@ -16,7 +16,7 @@ download_label: "Official Setup & Docs →"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/BeyondDimension/SteamTools/releases/download/3.
 download_label: "Download for Windows (.exe)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android, iOS"
+operatingSystem: "Windows, macOS, Linux, iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

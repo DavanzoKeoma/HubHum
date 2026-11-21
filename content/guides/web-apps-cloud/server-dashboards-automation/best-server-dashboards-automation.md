@@ -11,7 +11,7 @@ summary: "Compare dify vs Open WebUI and 8 free tools for Server Dashboards, Mon
 parent_slug: "web-apps-cloud/server-dashboards-automation"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"]
-app_slugs: ["dify", "open-webui", "uptime-kuma", "coolify", "serviette", "new-api", "clickhouse", "nanobot"]
+app_slugs: ["dify", "open-webui", "uptime-kuma", "unsloth", "coolify", "appwrite", "clickhouse", "jeecgboot"]
 updated_at: "2026-11-21"
 ---
 
@@ -26,11 +26,11 @@ Comparing **dify** and **Open WebUI** highlights two distinct approaches in **Se
 | [dify](/HubHum/apps/dify/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 161,552 | Custom Open License |
 | [Open WebUI](/HubHum/apps/open-webui/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 159,122 | Custom Open License |
 | [Uptime Kuma](/HubHum/apps/uptime-kuma/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 94,676 | Open Source (MIT) |
+| [Unsloth](/HubHum/apps/unsloth/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 79,818 | Open Source (Apache 2.0) |
 | [Coolify](/HubHum/apps/coolify/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 66,285 | Open Source (Apache 2.0) |
-| [serviette](/HubHum/apps/serviette/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 58,699 | Open Source (MIT) |
-| [New API](/HubHum/apps/new-api/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 52,261 | Open Source (AGPL v3) |
+| [Appwrite](/HubHum/apps/appwrite/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 58,419 | Open Source (BSD) |
 | [ClickHouse](/HubHum/apps/clickhouse/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 51,033 | Open Source (Apache 2.0) |
-| [nanobot](/HubHum/apps/nanobot/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 50,222 | Open Source (MIT) |
+| [JeecgBoot](/HubHum/apps/jeecgboot/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 48,539 | Open Source (Apache 2.0) |
 
 ### When to Pick Which Option
 - **Choose [dify](/HubHum/apps/dify/) (Self-Hosted Web App)** if you need what it specializes in: Create custom artificial intelligence workflows, smart assistants, and document search pipelines easily on one collaborative workspace — it runs on your own private server or local computer so files stay under your control (161,552 GitHub stars, vs Open WebUI which runs as a Self-Hosted Web App).

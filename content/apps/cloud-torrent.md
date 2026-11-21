@@ -6,7 +6,7 @@ summary: "Cloud Torrent lets you manage your file downloads from any web browser
 tags: ["file-management", "streaming", "productivity"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/cloud-torrent.png"
 stars: 6249
 source_url: "https://github.com/jpillora/cloud-torrent"
@@ -16,7 +16,7 @@ download_label: "Download for Android (.apk)"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

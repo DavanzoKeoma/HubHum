@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools"]
-app_slugs: ["chatgpt", "jobs-applier-ai-agent", "dbx", "ab-download-manager", "waoowaoo"]
+app_slugs: ["flutter", "react-native", "chatgpt", "uni-app", "claude-code-templates"]
 updated_at: "2026-11-21"
 ---
 
@@ -30,8 +30,8 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 ### Recommended Alternatives Covered
 
+- **[Flutter](/HubHum/apps/flutter/)** (Desktop App) — Create gorgeous, lightning-fast apps for phones, web, and computers from a single shared set of instructions.
+- **[React Native](/HubHum/apps/react-native/)** (Desktop App) — Create genuine mobile applications for Android and iOS using familiar coding languages and components.
 - **[ChatGPT](/HubHum/apps/chatgpt/)** (Desktop App) — Access popular artificial intelligence assistants right from your computer desktop without opening a web browser.
-- **[Jobs_Applier_AI_Agent](/HubHum/apps/jobs-applier-ai-agent/)** (Desktop App) — This tool scans thousands of job postings to find matches for your resume and automatically fills out application forms on your behalf.
-- **[dbx](/HubHum/apps/dbx/)** (Desktop App) — Manage over a hundred different database types in one lightning-fast, ultra-compact application.
-- **[AB Download Manager](/HubHum/apps/ab-download-manager/)** (Desktop App) — A modern desktop and mobile application that dramatically increases your download speeds and neatly organizes your files.
-- **[waoowaoo](/HubHum/apps/waoowaoo/)** (Desktop App) — Create professional AI-generated videos and images using a collaborative visual canvas and assistant.
+- **[uni-app](/HubHum/apps/uni-app/)** (Desktop App) — Create native mobile, web, and mini-programs using a single unified codebase and familiar language syntax.
+- **[claude-code-templates](/HubHum/apps/claude-code-templates/)** (Open Reference) — Browse thousands of pre-made components, tools, and custom shortcuts to supercharge your terminal coding assistant instantly.

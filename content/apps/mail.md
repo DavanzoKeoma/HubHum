@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/flectar/mail/releases/download/v0.1.0-alpha.7/f
 download_label: "Download for Windows (.exe)"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android, iOS"
+operatingSystem: "Windows, macOS, Linux, iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

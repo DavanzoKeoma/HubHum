@@ -12,17 +12,17 @@ stars: 5653
 source_url: "https://github.com/umputun/remark42"
 download_url: "https://github.com/umputun/remark42/releases/download/v1.18.0/remark42_1.18.0_checksums.txt"
 downloadUrl: "https://github.com/umputun/remark42/releases/download/v1.18.0/remark42_1.18.0_checksums.txt"
-download_label: "Download (remark42_1.18.0_checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_008"
-affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Want to launch it in 1 click on an optimized cloud server without manual setup?"
+affiliate_merchant_id: "MER_276"
+affiliate_name: "Rank Math Direct"
+affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
+affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -64,8 +64,8 @@ Remark42 is designed to be hosted on your own server. You can find the official 
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **ScalaHosting:** Optional managed VPS cloud hosting for web applications — [ScalaHosting](https://www.scalahosting.com/?subid=hubhum_01_MER009) (#ad)
-* **RoseHosting:** Optional managed Linux cloud server hosting — [RoseHosting](https://www.rosehosting.com/?subid=hubhum_01_MER014) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **Elementor Pro Direct:** Optional visual page builder for WordPress sites — [Elementor Pro Direct](https://elementor.com/?subid=hubhum_01_MER265) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/umputun/remark42)

@@ -12,7 +12,7 @@ stars: 3734
 source_url: "https://github.com/AtalayaLabs/OxiCloud"
 download_url: "https://github.com/AtalayaLabs/OxiCloud/releases/download/v0.10.1/SHA256SUMS"
 downloadUrl: "https://github.com/AtalayaLabs/OxiCloud/releases/download/v0.10.1/SHA256SUMS"
-download_label: "Download (SHA256SUMS)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

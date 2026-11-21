@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/skyjake/lagrange/releases/download/v2.0.3/lagra
 download_label: "Download for Windows (.exe)"
 license: "Open Source (BSD)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

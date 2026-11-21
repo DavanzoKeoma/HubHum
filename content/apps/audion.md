@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/dupitydumb/Audion/releases/download/v1.4.3/audi
 download_label: "Download for Windows (.exe)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"

@@ -12,7 +12,7 @@ stars: 3195
 source_url: "https://github.com/amalshaji/portr"
 download_url: "https://github.com/amalshaji/portr/releases/download/v2.1.0/checksums.txt"
 downloadUrl: "https://github.com/amalshaji/portr/releases/download/v2.1.0/checksums.txt"
-download_label: "Download (checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

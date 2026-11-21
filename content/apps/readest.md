@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/readest/readest/releases/download/v0.12.20/Read
 download_label: "Download for Windows (.exe)"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

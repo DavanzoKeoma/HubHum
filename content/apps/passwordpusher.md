@@ -6,7 +6,7 @@ summary: "PasswordPusher lets you share sensitive information securely by creati
 tags: ["security", "privacy", "productivity"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/passwordpusher.png"
 stars: 3254
 source_url: "https://github.com/pglombardo/PasswordPusher"
@@ -16,7 +16,7 @@ download_label: "Official Setup & Docs →"
 license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

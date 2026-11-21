@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps"]
-app_slugs: ["awesome", "joplin", "obsidian-skills", "codewhale", "jumpserver"]
+app_slugs: ["awesome", "nextchat", "joplin", "obsidian-skills", "kazumi"]
 updated_at: "2026-11-21"
 ---
 
@@ -31,7 +31,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 ### Recommended Alternatives Covered
 
 - **[Awesome](/HubHum/apps/awesome/)** (Open Reference) — Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.
+- **[NextChat](/HubHum/apps/nextchat/)** (Desktop App) — Easily converse with multiple artificial intelligence models in one clean interface without complex setup.
 - **[Joplin](/HubHum/apps/joplin/)** (Desktop App) — Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.
 - **[Obsidian Skills](/HubHum/apps/obsidian-skills/)** (Open Reference) — Obsidian Skills allows your favorite digital assistants to read, write, and organize your notes automatically.
-- **[Codewhale](/HubHum/apps/codewhale/)** (Desktop App) — An open-source terminal coding assistant that works with any model, splits tasks across multiple agents, and keeps your data completely transparent.
-- **[JumpServer](/HubHum/apps/jumpserver/)** (Desktop App) — An open-source privileged access management platform offering a unified workspace to safely connect to servers, databases, and cloud environments.
+- **[Kazumi](/HubHum/apps/kazumi/)** (Desktop App) — Kazumi is a flexible streaming application that lets you organize, watch, and enhance your favorite animated series effortlessly.

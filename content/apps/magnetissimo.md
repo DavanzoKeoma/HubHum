@@ -6,7 +6,7 @@ summary: "Magnetissimo searches multiple torrent sites at once and saves the res
 tags: ["torrent", "search", "self-hosted"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/magnetissimo.png"
 stars: 3111
 source_url: "https://github.com/sergiotapia/magnetissimo"
@@ -16,7 +16,7 @@ download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

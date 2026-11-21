@@ -12,7 +12,7 @@ stars: 3185
 source_url: "https://github.com/github-aws-runners/terraform-aws-github-runner"
 download_url: "https://github.com/github-aws-runners/terraform-aws-github-runner/releases/download/v8.1.1/github-aws-runners-terraform-aws-github-runner-attestation-66859316.intoto.jsonl"
 downloadUrl: "https://github.com/github-aws-runners/terraform-aws-github-runner/releases/download/v8.1.1/github-aws-runners-terraform-aws-github-runner-attestation-66859316.intoto.jsonl"
-download_label: "Download (github-aws-runners-terraform-aws-github-runner-attestation-66859316.intoto.jsonl)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

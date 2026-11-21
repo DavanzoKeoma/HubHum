@@ -6,7 +6,7 @@ summary: "Brook helps you manage and secure your network traffic across differen
 tags: ["network", "security", "privacy"]
 is_webapp: false
 app_type: "desktop"
-category: "Security & Privacy"
+category: "Productivity"
 icon: "/icons/brook.png"
 stars: 15200
 source_url: "https://github.com/txthinking/brook"
@@ -15,8 +15,8 @@ downloadUrl: "https://github.com/txthinking/brook/releases/download/v20270101/br
 download_label: "Download for Windows (.exe)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android, iOS"
-applicationCategory: "SecurityApplication"
+operatingSystem: "Windows, macOS, Linux, iOS"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

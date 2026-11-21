@@ -6,7 +6,7 @@ summary: "Convert computer audio or microphone speech into real-time translated 
 tags: ["subtitles", "translation", "accessibility", "audio"]
 is_webapp: false
 app_type: "desktop"
-category: "Video & Audio"
+category: "Productivity"
 icon: "/icons/mimi.png"
 stars: 943
 source_url: "https://github.com/yuxino/Mimi"
@@ -15,8 +15,8 @@ downloadUrl: "https://github.com/yuxino/Mimi/releases/download/v1.7.5/mimi_1.7.5
 download_label: "Download for Windows (.exe)"
 license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "MultimediaApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

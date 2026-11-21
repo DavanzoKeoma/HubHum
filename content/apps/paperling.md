@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/Razee4315/Paperling/releases/download/v1.2.0/Pa
 download_label: "Download for Windows (.exe)"
 license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

@@ -6,7 +6,7 @@ summary: "AudioMuse-AI analyzes your music collection to create smart playlists 
 tags: ["music", "ai", "self-hosted", "media-server"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Video & Audio"
 icon: "/icons/audiomuse-ai.png"
 stars: 2989
 source_url: "https://github.com/NeptuneHub/AudioMuse-AI"
@@ -16,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/ahpxex/Aictionary/releases/download/v3.6.0/Aict
 download_label: "Download for Windows (.msi)"
 license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

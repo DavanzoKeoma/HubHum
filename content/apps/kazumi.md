@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/Predidit/Kazumi/releases/download/2.4.5/Kazumi_
 download_label: "Download for Mac (.dmg)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android, iOS"
+operatingSystem: "Windows, macOS, Linux, iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

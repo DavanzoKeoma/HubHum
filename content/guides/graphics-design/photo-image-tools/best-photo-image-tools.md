@@ -11,7 +11,7 @@ summary: "Compare PhotoPrism vs flameshot and 8 free tools for Photo Optimizers,
 parent_slug: "graphics-design/photo-image-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
-app_slugs: ["photoprism", "flameshot", "easydiffusion", "imageoptim", "stable-dreamfusion", "modly", "koharu", "triangula"]
+app_slugs: ["photoprism", "flameshot", "easydiffusion", "imageoptim", "stable-dreamfusion", "modly", "open-codesign", "koharu"]
 updated_at: "2026-11-21"
 ---
 
@@ -29,8 +29,8 @@ Comparing **PhotoPrism** and **flameshot** highlights two distinct approaches in
 | [ImageOptim](/HubHum/apps/imageoptim/) | Desktop App | Windows, macOS, Linux | ★ 10,046 | Open Source (GPL v2) |
 | [Stable-Dreamfusion](/HubHum/apps/stable-dreamfusion/) | Desktop App | Windows, macOS, Linux | ★ 8,881 | Open Source (Apache 2.0) |
 | [Modly](/HubHum/apps/modly/) | Desktop App | Windows, macOS, Linux | ★ 8,737 | Custom Open License |
+| [open-codesign](/HubHum/apps/open-codesign/) | Desktop App | Windows, macOS, Linux | ★ 8,250 | Open Source (MIT) |
 | [Koharu](/HubHum/apps/koharu/) | Desktop App | Windows, macOS, Linux | ★ 6,752 | Open Source (Apache 2.0) |
-| [Triangula](/HubHum/apps/triangula/) | Desktop App | Windows, macOS, Linux | ★ 3,876 | Open Source (MIT) |
 
 ### When to Pick Which Option
 - **Choose [PhotoPrism](/HubHum/apps/photoprism/) (Self-Hosted Web App)** if you need what it specializes in: PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly — it runs on your own private server or local computer so files stay under your control (40,470 GitHub stars, vs flameshot which runs as a Desktop App).

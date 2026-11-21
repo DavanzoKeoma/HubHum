@@ -6,7 +6,7 @@ summary: "NeriPlayer is a versatile Android music app that combines your local f
 tags: ["audio", "music", "android", "media-player"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Video & Audio"
 icon: "/icons/neriplayer.png"
 stars: 4330
 source_url: "https://github.com/cwuom/NeriPlayer"
@@ -16,7 +16,7 @@ download_label: "Download for Android (.apk)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

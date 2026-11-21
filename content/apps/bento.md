@@ -12,7 +12,7 @@ stars: 5681
 source_url: "https://github.com/nyblnet/bento"
 download_url: "https://github.com/nyblnet/bento/releases/download/v1.2.13/Bento_Slides.bento.html"
 downloadUrl: "https://github.com/nyblnet/bento/releases/download/v1.2.13/Bento_Slides.bento.html"
-download_label: "Download (Bento_Slides.bento.html)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

@@ -12,7 +12,7 @@ stars: 7600
 source_url: "https://github.com/MightyMoud/sidekick"
 download_url: "https://github.com/MightyMoud/sidekick/releases/download/v0.6.6/sidekick_0.6.6_checksums.txt"
 downloadUrl: "https://github.com/MightyMoud/sidekick/releases/download/v0.6.6/sidekick_0.6.6_checksums.txt"
-download_label: "Download (sidekick_0.6.6_checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

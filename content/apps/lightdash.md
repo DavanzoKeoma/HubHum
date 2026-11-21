@@ -12,7 +12,7 @@ stars: 6242
 source_url: "https://github.com/lightdash/lightdash"
 download_url: "https://github.com/lightdash/lightdash/releases/download/3.361.0/blast-radius.json"
 downloadUrl: "https://github.com/lightdash/lightdash/releases/download/3.361.0/blast-radius.json"
-download_label: "Download (blast-radius.json)"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

@@ -4,7 +4,7 @@ slug: "top-free-apps-this-week"
 category: "Curated Guides"
 summary: "Essential free tools to organize private notes, edit video and audio without limits, protect passwords, and publish online."
 tags: ["collection", "productivity", "privacy", "video"]
-app_slugs: ["joplin", "ghost", "losslesscut", "keepassxc", "audacity", "cc-switch"]
+app_slugs: ["joplin", "ghost", "losslesscut", "keepassxc", "audacity", "flutter"]
 updated_at: "2026-11-21"
 ---
 
@@ -17,4 +17,4 @@ Every week we highlight trustworthy free software that replaces costly monthly s
 * **[LosslessCut](/HubHum/apps/losslesscut/)** (*Desktop App*): Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times.
 * **[KeePassXC](/HubHum/apps/keepassxc/)** (*Desktop App*): Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees.
 * **[Audacity](/HubHum/apps/audacity/)** (*Desktop App*): Record your voice, remove background noise, mix tracks, and export podcasts or music free on Windows, Mac, and Linux.
-* **[CC Switch](/HubHum/apps/cc-switch/)** (*Desktop App*): Switch between different AI service providers with a single click and organize your prompts, plugins, and helper tools in one unified dashboard.
+* **[Flutter](/HubHum/apps/flutter/)** (*Desktop App*): Create gorgeous, lightning-fast apps for phones, web, and computers from a single shared set of instructions.

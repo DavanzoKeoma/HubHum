@@ -6,7 +6,7 @@ summary: "Easily download videos and audio from thousands of websites directly t
 tags: ["downloader", "media", "video", "audio"]
 is_webapp: false
 app_type: "desktop"
-category: "Video & Audio"
+category: "Productivity"
 icon: "/icons/neodlp.png"
 stars: 590
 source_url: "https://github.com/neosubhamoy/neodlp"
@@ -16,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

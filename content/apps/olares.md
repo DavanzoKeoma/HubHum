@@ -12,7 +12,7 @@ stars: 5373
 source_url: "https://github.com/beclab/Olares"
 download_url: "https://github.com/beclab/Olares/releases/download/1.12.8/install.ps1"
 downloadUrl: "https://github.com/beclab/Olares/releases/download/1.12.8/install.ps1"
-download_label: "Download (install.ps1)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

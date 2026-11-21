@@ -6,7 +6,7 @@ summary: "NodeWarden lets you run a Bitwarden‑compatible password manager on C
 tags: ["password-manager", "cloudflare-workers"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/nodewarden.png"
 stars: 4187
 source_url: "https://github.com/shuaiplus/nodewarden"
@@ -16,7 +16,7 @@ download_label: "Official Setup & Docs →"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what 3D Modeling & Visual Interface
 parent_slug: "graphics-design/3d-visual-design-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/3d-visual-design-tools/best-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "slint", "customtkinter", "tkinter-designer", "open-codesign"]
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "react-native-elements", "slint", "best-flutter-ui-templates", "customtkinter"]
 updated_at: "2026-11-21"
 ---
 
@@ -27,7 +27,7 @@ Switching to free open-source tools in **3D Modeling & Visual Interface Studios*
 
 - **[UI UX Pro Max Skill](/HubHum/apps/ui-ux-pro-max-skill/)** (Open Reference) — An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning.
 - **[open-design](/HubHum/apps/open-design/)** (Desktop App) — Create websites, prototypes, motion graphics, and presentations with your team and coding agents in one open workspace.
+- **[React Native Elements](/HubHum/apps/react-native-elements/)** (Desktop App) — A complete set of ready-to-use visual building blocks designed to help you craft mobile applications for multiple devices effortlessly.
 - **[slint](/HubHum/apps/slint/)** (CLI Tool) — Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup.
+- **[Best-Flutter-UI-Templates](/HubHum/apps/best-flutter-ui-templates/)** (Desktop App) — This collection provides high-quality, ready-to-use visual designs for mobile applications.
 - **[CustomTkinter](/HubHum/apps/customtkinter/)** (CLI Tool) — Create gorgeous, modern desktop app interfaces in Python using sleek pre-made elements that automatically adapt to light and dark modes.
-- **[Tkinter Designer](/HubHum/apps/tkinter-designer/)** (Desktop App) — Tkinter Designer automatically converts visual screen layouts into working Python code, saving you hours of tedious manual coding.
-- **[open-codesign](/HubHum/apps/open-codesign/)** (Desktop App) — An open-source desktop app that transforms simple text descriptions into polished design prototypes and slide decks locally on your computer.

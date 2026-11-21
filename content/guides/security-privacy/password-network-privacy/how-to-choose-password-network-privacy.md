@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Privacy Tools, VPNs & Network 
 parent_slug: "security-privacy/password-network-privacy"
 child_slugs: []
 sibling_slugs: ["security-privacy/password-network-privacy/best-password-network-privacy", "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"]
-app_slugs: ["sherlock", "mole", "win11debloat", "sniffnet", "maigret", "pentagi"]
+app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin"]
 updated_at: "2026-11-21"
 ---
 
@@ -26,8 +26,8 @@ Switching to free open-source tools in **Privacy Tools, VPNs & Network Monitors*
 ### Great Starting Points in Privacy Tools, VPNs & Network Monitors
 
 - **[Sherlock](/HubHum/apps/sherlock/)** (CLI Tool) — Easily discover where a specific username is registered across hundreds of online platforms and social networks in seconds.
-- **[Mole](/HubHum/apps/mole/)** (Desktop App) — Mole is an open-source system cleaner that removes junk files, uninstalls applications completely, and monitors system performance.
 - **[Win11Debloat](/HubHum/apps/win11debloat/)** (Desktop App) — Remove unwanted pre-installed apps, block background tracking, and declutter your computer interface in just a few clicks.
 - **[Sniffnet](/HubHum/apps/sniffnet/)** (Desktop App) — Easily observe and analyze your computer's internet traffic in real-time with visual graphs, custom alerts, and security filters.
 - **[Maigret](/HubHum/apps/maigret/)** (CLI Tool) — Maigret gathers online profile information by scanning thousands of public websites using only a username.
-- **[PentAGI](/HubHum/apps/pentagi/)** (Self-Hosted Web App) — An autonomous multi-agent system that performs security testing and delivers comprehensive reports based on your plain-language goals.
+- **[setup-ipsec-vpn](/HubHum/apps/setup-ipsec-vpn/)** (Self-Hosted Web App) — Easily create your own secure personal virtual private network server in minutes without complicated manual steps.
+- **[Pangolin](/HubHum/apps/pangolin/)** (Self-Hosted Web App) — Safely connect to your private web apps, remote desktops, and servers without exposing them to the public internet.

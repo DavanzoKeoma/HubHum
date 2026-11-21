@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/KiWi233333/JiwuChat/releases/download/v2.0.5/Ji
 download_label: "Download for Windows (.exe)"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

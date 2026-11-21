@@ -6,7 +6,7 @@ summary: "Roxy-WI lets you see and control multiple proxy and high‑availabilit
 tags: ["proxy", "ha", "network-management"]
 is_webapp: false
 app_type: "desktop"
-category: "Security & Privacy"
+category: "Productivity"
 icon: "/icons/roxy-wi.png"
 stars: 1838
 source_url: "https://github.com/roxy-wi/roxy-wi"
@@ -16,7 +16,7 @@ download_label: "Visit Official Site"
 license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

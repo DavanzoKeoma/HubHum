@@ -12,7 +12,7 @@ stars: 3012
 source_url: "https://github.com/flyfish-dev/file-viewer"
 download_url: "https://github.com/flyfish-dev/file-viewer/releases/download/v3.3.5/npm-release-manifest.json"
 downloadUrl: "https://github.com/flyfish-dev/file-viewer/releases/download/v3.3.5/npm-release-manifest.json"
-download_label: "Download (npm-release-manifest.json)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

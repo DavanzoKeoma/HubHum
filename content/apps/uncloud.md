@@ -12,7 +12,7 @@ stars: 5629
 source_url: "https://github.com/psviderski/uncloud"
 download_url: "https://github.com/psviderski/uncloud/releases/download/v0.22.0/checksums.txt"
 downloadUrl: "https://github.com/psviderski/uncloud/releases/download/v0.22.0/checksums.txt"
-download_label: "Download (checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

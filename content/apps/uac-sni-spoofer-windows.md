@@ -6,7 +6,7 @@ summary: "A bilingual Windows desktop application featuring dual tunneling engin
 tags: ["windows", "networking", "proxy", "security"]
 is_webapp: false
 app_type: "desktop"
-category: "Security & Privacy"
+category: "Productivity"
 icon: "/icons/uac-sni-spoofer-windows.png"
 stars: 548
 source_url: "https://github.com/Floxu1/UAC-SNI-Spoofer-Windows"
@@ -16,7 +16,7 @@ download_label: "Download (SHA256SUMS.txt)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

@@ -12,7 +12,7 @@ stars: 3555
 source_url: "https://github.com/Loophole-LLC/Bastillion"
 download_url: "https://github.com/Loophole-LLC/Bastillion/releases/download/v6.0.4/bastillion-6.0.4.jar"
 downloadUrl: "https://github.com/Loophole-LLC/Bastillion/releases/download/v6.0.4/bastillion-6.0.4.jar"
-download_label: "Download (bastillion-6.0.4.jar)"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

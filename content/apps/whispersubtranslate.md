@@ -6,7 +6,7 @@ summary: "Extract accurate subtitles from your videos and translate them into mu
 tags: ["subtitles", "translation", "video", "speech-to-text"]
 is_webapp: false
 app_type: "desktop"
-category: "Video & Audio"
+category: "Productivity"
 icon: "/icons/whispersubtranslate.png"
 stars: 853
 source_url: "https://github.com/Blue-B/WhisperSubTranslate"
@@ -16,7 +16,7 @@ download_label: "Download (WhisperSubTranslate-v2.5.2-win-x64.zip.sha256)"
 license: "Custom Open License"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

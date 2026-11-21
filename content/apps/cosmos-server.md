@@ -12,7 +12,7 @@ stars: 6204
 source_url: "https://github.com/azukaar/Cosmos-Server"
 download_url: "https://github.com/azukaar/Cosmos-Server/releases/download/v0.24.0/cosmos-cloud-0.24.0-amd64.zip.md5"
 downloadUrl: "https://github.com/azukaar/Cosmos-Server/releases/download/v0.24.0/cosmos-cloud-0.24.0-amd64.zip.md5"
-download_label: "Download (cosmos-cloud-0.24.0-amd64.zip.md5)"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

@@ -6,7 +6,7 @@ summary: "Black Candy lets you host your own music collection and stream it to a
 tags: ["music", "streaming", "self-hosted"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Video & Audio"
 icon: "/icons/blackcandy.png"
 stars: 4434
 source_url: "https://github.com/blackcandy-org/blackcandy"
@@ -16,7 +16,7 @@ download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

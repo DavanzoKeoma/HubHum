@@ -12,7 +12,7 @@ stars: 6895
 source_url: "https://github.com/hexclave/hexclave"
 download_url: "https://github.com/hexclave/hexclave/releases/download/dashboard-v1.0.137/dashboard-1.0.137-darwin-arm64.tar.zst"
 downloadUrl: "https://github.com/hexclave/hexclave/releases/download/dashboard-v1.0.137/dashboard-1.0.137-darwin-arm64.tar.zst"
-download_label: "Download (dashboard-1.0.137-darwin-arm64.tar.zst)"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

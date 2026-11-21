@@ -12,7 +12,7 @@ stars: 8762
 source_url: "https://github.com/PrivateBin/PrivateBin"
 download_url: "https://github.com/PrivateBin/PrivateBin/releases/download/2.1.1/multiple.intoto.jsonl"
 downloadUrl: "https://github.com/PrivateBin/PrivateBin/releases/download/2.1.1/multiple.intoto.jsonl"
-download_label: "Download (multiple.intoto.jsonl)"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

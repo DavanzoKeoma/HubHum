@@ -12,7 +12,7 @@ stars: 7223
 source_url: "https://github.com/beenuar/AiSOC"
 download_url: "https://github.com/beenuar/AiSOC/releases/download/v23.6.0/aisoc-sbom-v23.6.0.spdx.json"
 downloadUrl: "https://github.com/beenuar/AiSOC/releases/download/v23.6.0/aisoc-sbom-v23.6.0.spdx.json"
-download_label: "Download (aisoc-sbom-v23.6.0.spdx.json)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

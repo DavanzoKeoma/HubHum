@@ -6,7 +6,7 @@ summary: "Manage network connections and routing rules efficiently with a lightw
 tags: ["networking", "proxy", "security", "desktop"]
 is_webapp: false
 app_type: "desktop"
-category: "Security & Privacy"
+category: "Productivity"
 icon: "/icons/zephyr.png"
 stars: 751
 source_url: "https://github.com/Juwan-Hwang/Zephyr"
@@ -16,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

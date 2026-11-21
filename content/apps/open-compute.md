@@ -12,7 +12,7 @@ stars: 3999
 source_url: "https://github.com/elliothux/open-compute"
 download_url: "https://github.com/elliothux/open-compute/releases/download/v0.4.0/ocd-v0.4.0-darwin-arm64"
 downloadUrl: "https://github.com/elliothux/open-compute/releases/download/v0.4.0/ocd-v0.4.0-darwin-arm64"
-download_label: "Download (ocd-v0.4.0-darwin-arm64)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

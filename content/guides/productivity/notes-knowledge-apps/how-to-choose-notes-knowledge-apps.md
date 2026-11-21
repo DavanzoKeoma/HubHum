@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Encrypted Notes, Wikis & Knowl
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
-app_slugs: ["awesome", "joplin", "obsidian-skills", "codewhale", "jumpserver", "editor"]
+app_slugs: ["awesome", "nextchat", "joplin", "obsidian-skills", "kazumi", "dbx"]
 updated_at: "2026-11-21"
 ---
 
@@ -26,8 +26,8 @@ Switching to free open-source tools in **Encrypted Notes, Wikis & Knowledge Apps
 ### Great Starting Points in Encrypted Notes, Wikis & Knowledge Apps
 
 - **[Awesome](/HubHum/apps/awesome/)** (Open Reference) — Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.
+- **[NextChat](/HubHum/apps/nextchat/)** (Desktop App) — Easily converse with multiple artificial intelligence models in one clean interface without complex setup.
 - **[Joplin](/HubHum/apps/joplin/)** (Desktop App) — Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.
 - **[Obsidian Skills](/HubHum/apps/obsidian-skills/)** (Open Reference) — Obsidian Skills allows your favorite digital assistants to read, write, and organize your notes automatically.
-- **[Codewhale](/HubHum/apps/codewhale/)** (Desktop App) — An open-source terminal coding assistant that works with any model, splits tasks across multiple agents, and keeps your data completely transparent.
-- **[JumpServer](/HubHum/apps/jumpserver/)** (Desktop App) — An open-source privileged access management platform offering a unified workspace to safely connect to servers, databases, and cloud environments.
-- **[Pascal Editor](/HubHum/apps/editor/)** (Desktop App) — Create, edit, and collaborate on 3D building models directly in your browser or locally with advanced AI agent support.
+- **[Kazumi](/HubHum/apps/kazumi/)** (Desktop App) — Kazumi is a flexible streaming application that lets you organize, watch, and enhance your favorite animated series effortlessly.
+- **[dbx](/HubHum/apps/dbx/)** (Desktop App) — Manage over a hundred different database types in one lightning-fast, ultra-compact application.

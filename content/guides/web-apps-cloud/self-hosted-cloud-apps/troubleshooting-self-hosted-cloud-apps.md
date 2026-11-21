@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "web-apps-cloud/self-hosted-cloud-apps"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps"]
-app_slugs: ["immich", "stirling-pdf", "unsloth", "memos", "gitea"]
+app_slugs: ["immich", "stirling-pdf", "netdata", "memos", "serviette"]
 updated_at: "2026-11-21"
 ---
 
@@ -32,6 +32,6 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 - **[Immich](/HubHum/apps/immich/)** (Self-Hosted Web App) — Manage and back up your photos and videos on your own private cloud storage without sharing your personal memories.
 - **[Stirling-PDF](/HubHum/apps/stirling-pdf/)** (Self-Hosted Web App) — Edit, convert, and secure your PDF documents locally without uploading your sensitive files to third-party web services.
-- **[Unsloth](/HubHum/apps/unsloth/)** (Self-Hosted Web App) — Unsloth allows you to run and customize powerful artificial intelligence models directly on your own computer with ease.
+- **[Netdata](/HubHum/apps/netdata/)** (Self-Hosted Web App) — Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues.
 - **[Memos](/HubHum/apps/memos/)** (Self-Hosted Web App) — Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline while keeping your data.
-- **[Gitea](/HubHum/apps/gitea/)** (Self-Hosted Web App) — Host your programming projects, review team code changes, and manage tasks easily on your own private server.
+- **[serviette](/HubHum/apps/serviette/)** (Self-Hosted Web App) — An easy no-code question-answering assistant that keeps answers in sync with your live documents automatically.

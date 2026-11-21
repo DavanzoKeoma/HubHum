@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Video Cutters, Converters & Do
 parent_slug: "video-audio/free-video-editors"
 child_slugs: []
 sibling_slugs: ["video-audio/free-video-editors/best-free-video-editors", "video-audio/free-video-editors/troubleshooting-free-video-editors"]
-app_slugs: ["yt-dlp", "losslesscut", "handbrake", "concat", "youtube-dl-gui", "bili23-downloader"]
+app_slugs: ["yt-dlp", "losslesscut", "handbrake", "concat", "shotcut", "youtube-dl-gui"]
 updated_at: "2026-11-21"
 ---
 
@@ -29,5 +29,5 @@ Switching to free open-source tools in **Video Cutters, Converters & Downloaders
 - **[LosslessCut](/HubHum/apps/losslesscut/)** (Desktop App) — Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times.
 - **[HandBrake](/HubHum/apps/handbrake/)** (Desktop App) — Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen.
 - **[Concat](/HubHum/apps/concat/)** (Self-Hosted Web App) — Concat is a completely free, privacy-focused video editor that runs entirely on your device with no watermarks, subscriptions, or uploads.
+- **[Shotcut](/HubHum/apps/shotcut/)** (Desktop App) — Shotcut is a free, powerful tool that lets you trim, edit, and polish your video projects on any computer.
 - **[youtube-dl-gui](/HubHum/apps/youtube-dl-gui/)** (Desktop App) — Download online videos easily with a clean visual window instead of using complicated text commands.
-- **[Bili23-Downloader](/HubHum/apps/bili23-downloader/)** (Desktop App) — A free, cross-platform video downloading companion that lets you save online shows, music, and clips effortlessly.

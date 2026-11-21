@@ -6,7 +6,7 @@ summary: "Amplify microscopic movements and color shifts from webcams or video f
 tags: ["video", "webcam", "analysis", "motion"]
 is_webapp: false
 app_type: "desktop"
-category: "Video & Audio"
+category: "Productivity"
 icon: "/icons/live-video-magnification.png"
 stars: 549
 source_url: "https://github.com/tschnz/Live-Video-Magnification"
@@ -16,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

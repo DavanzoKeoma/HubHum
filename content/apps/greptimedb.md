@@ -12,7 +12,7 @@ stars: 6824
 source_url: "https://github.com/GreptimeTeam/greptimedb"
 download_url: "https://github.com/GreptimeTeam/greptimedb/releases/download/v1.3.1/greptime-android-arm64-v1.3.1.sha256sum"
 downloadUrl: "https://github.com/GreptimeTeam/greptimedb/releases/download/v1.3.1/greptime-android-arm64-v1.3.1.sha256sum"
-download_label: "Download (greptime-android-arm64-v1.3.1.sha256sum)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

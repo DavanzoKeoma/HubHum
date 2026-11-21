@@ -1,0 +1,33 @@
+---
+title: "How to Choose and Use Free Password Managers & Auth Vaults Safely"
+slug: "security-privacy/free-password-managers/how-to-choose-free-password-managers"
+level: 3
+macro_category: "Security & Privacy"
+macro_slug: "security-privacy"
+sub_topic: "Free Password Managers & Auth Vaults"
+sub_slug: "free-password-managers"
+intent: "foundations"
+summary: "Beginner-friendly guide explaining what Password Managers & Auth Vaults tools do, desktop vs self-hosted vs terminal formats, and how to download safely."
+parent_slug: "security-privacy/free-password-managers"
+child_slugs: []
+sibling_slugs: ["security-privacy/free-password-managers/best-free-password-managers", "security-privacy/free-password-managers/troubleshooting-free-password-managers"]
+app_slugs: ["gitleaks", "keepassxc", "pocket-id", "git-credential-manager", "lesspass", "personal-management-system"]
+updated_at: "2026-11-21"
+---
+
+## How to Choose Free Password Managers & Auth Vaults Without Getting Lost
+
+Switching to free open-source tools in **Password Managers & Auth Vaults** lets you avoid recurring monthly fees and keep ownership of your files. Before downloading anything, focus on three practical checks:
+
+1. **Pick the right format for your comfort level:** **Desktop Apps** install with visual windows and menus; **Self-Hosted Web Apps** run on hardware or a server you control; **CLI Tools** operate via text commands inside a terminal window.
+2. **Verify the official creator source:** Every HubHum card links directly to official GitHub releases or creator sites to help you avoid bundled adware—always check your operating system and run local security scans as standard practice.
+3. **Check community activity and license:** GitHub star counts and human-readable licenses shown on every table help confirm an active project.
+
+### Great Starting Points in Password Managers & Auth Vaults
+
+- **[Gitleaks](/HubHum/apps/gitleaks/)** (CLI Tool) — Scan your code repositories and directories to find accidentally exposed passwords, API keys, and sensitive tokens before they leak.
+- **[KeePassXC](/HubHum/apps/keepassxc/)** (Desktop App) — Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees.
+- **[Pocket ID](/HubHum/apps/pocket-id/)** (Self-Hosted Web App) — Pocket ID provides a secure and easy way to manage user logins for your applications using modern passkey technology instead of passwords.
+- **[Git Credential Manager](/HubHum/apps/git-credential-manager/)** (Desktop App) — Git Credential Manager simplifies how you sign in to your coding accounts by securely storing your access details across all your devices.
+- **[LessPass](/HubHum/apps/lesspass/)** (Self-Hosted Web App) — LessPass creates unique passwords on the fly using a master password, eliminating the need to sync or store your sensitive data.
+- **[Personal Management System](/HubHum/apps/personal-management-system/)** (Self-Hosted Web App) — This web application acts as a central dashboard to store your notes, passwords, finances, and files in one private, secure location.

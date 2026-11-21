@@ -12,7 +12,7 @@ stars: 3414
 source_url: "https://github.com/thomiceli/opengist"
 download_url: "https://github.com/thomiceli/opengist/releases/download/v1.16.0/checksums.txt"
 downloadUrl: "https://github.com/thomiceli/opengist/releases/download/v1.16.0/checksums.txt"
-download_label: "Download (checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

@@ -6,7 +6,7 @@ summary: "Download videos, playlists, and audio from thousands of sites easily w
 tags: ["downloader", "media", "privacy", "open-source"]
 is_webapp: false
 app_type: "desktop"
-category: "Video & Audio"
+category: "Productivity"
 icon: "/icons/arroxy.png"
 stars: 889
 source_url: "https://github.com/Arroxy/Arroxy"
@@ -16,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

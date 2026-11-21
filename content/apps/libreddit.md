@@ -12,7 +12,7 @@ stars: 5198
 source_url: "https://github.com/libreddit/libreddit"
 download_url: "https://github.com/libreddit/libreddit/releases/download/v0.30.1/libreddit"
 downloadUrl: "https://github.com/libreddit/libreddit/releases/download/v0.30.1/libreddit"
-download_label: "Download (libreddit)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

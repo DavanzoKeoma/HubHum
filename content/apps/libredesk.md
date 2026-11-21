@@ -12,7 +12,7 @@ stars: 3189
 source_url: "https://github.com/abhinavxd/libredesk"
 download_url: "https://github.com/abhinavxd/libredesk/releases/download/v2.9.2/libredesk_2.9.2_checksums.txt"
 downloadUrl: "https://github.com/abhinavxd/libredesk/releases/download/v2.9.2/libredesk_2.9.2_checksums.txt"
-download_label: "Download (libredesk_2.9.2_checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

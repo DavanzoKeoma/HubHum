@@ -6,7 +6,7 @@ summary: "This tool allows you to set up a secure, private VPN server on your ow
 tags: ["vpn", "security", "privacy", "networking"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/docker-ipsec-vpn-server.png"
 stars: 7161
 source_url: "https://github.com/hwdsl2/docker-ipsec-vpn-server"
@@ -16,7 +16,7 @@ download_label: "Official Setup & Docs →"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

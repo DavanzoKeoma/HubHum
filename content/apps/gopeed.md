@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/GopeedLab/gopeed/releases/download/v1.9.3/Gopee
 download_label: "Download for Windows (.exe)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android, iOS"
+operatingSystem: "Windows, macOS, Linux, iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"

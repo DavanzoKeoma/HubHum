@@ -11,13 +11,13 @@ summary: "Free creative apps for compressing photos, capturing crisp screenshots
 parent_slug: "graphics-design"
 child_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
 sibling_slugs: []
-app_slugs: ["photoprism", "flameshot", "easydiffusion", "imageoptim", "stable-dreamfusion", "modly", "koharu", "triangula"]
+app_slugs: ["photoprism", "flameshot", "easydiffusion", "imageoptim", "stable-dreamfusion", "modly", "open-codesign", "koharu", "triangula"]
 updated_at: "2026-11-21"
 ---
 
 ## Plain-English Overview: Photo Optimizers, Galleries & Screen Capture
 
-This topic hub groups **8 vetted free tools** specializing in **Photo Optimizers, Galleries & Screen Capture** inside **Graphics & Design**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **9 vetted free tools** specializing in **Photo Optimizers, Galleries & Screen Capture** inside **Graphics & Design**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -30,5 +30,6 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[ImageOptim](/HubHum/apps/imageoptim/)** — Make your digital pictures load faster by shrinking their file sizes automatically without losing any visual quality. *(Desktop App · License: Open Source (GPL v2))*
 - **[Stable-Dreamfusion](/HubHum/apps/stable-dreamfusion/)** — Transform simple text descriptions or single photos into fully rendered 3D objects using advanced AI diffusion models. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Modly](/HubHum/apps/modly/)** — Transform any 2D photo into a realistic 3D model right on your computer using privacy-focused local artificial intelligence. *(Desktop App · License: Custom Open License)*
+- **[open-codesign](/HubHum/apps/open-codesign/)** — An open-source desktop app that transforms simple text descriptions into polished design prototypes and slide decks locally on your computer. *(Desktop App · License: Open Source (MIT))*
 - **[Koharu](/HubHum/apps/koharu/)** — Koharu is a privacy-focused manga translator that automatically detects, cleans, and translates panels directly on your computer. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Triangula](/HubHum/apps/triangula/)** — Triangula transforms your favorite images into unique, high-quality geometric art using a smart mathematical process. *(Desktop App · License: Open Source (MIT))*

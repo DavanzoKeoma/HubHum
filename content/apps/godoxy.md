@@ -12,7 +12,7 @@ stars: 4192
 source_url: "https://github.com/yusing/godoxy"
 download_url: "https://github.com/yusing/godoxy/releases/download/v0.34.0/godoxy-agent-linux-amd64"
 downloadUrl: "https://github.com/yusing/godoxy/releases/download/v0.34.0/godoxy-agent-linux-amd64"
-download_label: "Download (godoxy-agent-linux-amd64)"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"

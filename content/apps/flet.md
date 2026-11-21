@@ -15,7 +15,7 @@ downloadUrl: "https://github.com/flet-dev/flet/releases/download/v1.1.2/flet-1.1
 download_label: "Download (flet-1.1.2-py3-none-any.whl)"
 license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Android, iOS"
+operatingSystem: "iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
