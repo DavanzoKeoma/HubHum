@@ -47,5 +47,26 @@
     "html_url": "https://github.com/streamlink/streamlink-twitch-gui",
     "reason": "tier1_gemini: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
     "queued_at": "2026-11-21T12:27:23.088231+00:00"
+  },
+  {
+    "full_name": "HarnessMD/munder-difflin",
+    "slug": "munder-difflin",
+    "html_url": "https://github.com/HarnessMD/munder-difflin",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-21T12:32:29.554800+00:00"
+  },
+  {
+    "full_name": "OpenCoworkAI/open-codesign",
+    "slug": "open-codesign",
+    "html_url": "https://github.com/OpenCoworkAI/open-codesign",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-21T12:32:48.155257+00:00"
+  },
+  {
+    "full_name": "rmyndharis/OpenWA",
+    "slug": "openwa",
+    "html_url": "https://github.com/rmyndharis/OpenWA",
+    "reason": "tier1_gemini: validation failed (Field 'summary' appears truncated or incomplete: 'OpenWA is a self-hosted messaging gateway letting you control your communication infrastructure without hidden fees or vendor lock-in.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-21T12:34:33.824499+00:00"
   }
 ]

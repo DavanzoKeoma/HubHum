@@ -5325,6 +5325,31 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "docuseal",
+    "name": "DocuSeal",
+    "repo_url": "https://github.com/docusealco/docuseal",
+    "full_name": "docusealco/docuseal",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "signatures",
+      "pdf"
+    ],
+    "icon": "/icons/docuseal.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 19110,
+    "tier": "tier2_webapp",
+    "summary": "An open-source digital document signing platform that lets you easily create forms, collect electronic signatures, and process paperwork online.",
+    "i18n": {
+      "it": "Una piattaforma open-source per la firma digitale che consente di creare moduli, raccogliere firme e gestire documenti online.",
+      "es": "Una plataforma de firma digital de código abierto que permite crear formularios, recopilar firmas electrónicas y procesar trámites.",
+      "fr": "Une plateforme open source de signature numérique pour créer des formulaires, recueillir des signatures et gérer vos documents.",
+      "de": "Eine Open-Source-Plattform für digitale Unterschriften, um Formulare zu erstellen, Unterschriften einzuholen und Dokumente zu verwalten."
+    },
+    "download_url": "https://www.docuseal.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "audacity",
     "name": "Audacity",
     "repo_url": "https://github.com/audacity/audacity",
@@ -5375,6 +5400,31 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "windmill",
+    "name": "Windmill",
+    "repo_url": "https://github.com/windmill-labs/windmill",
+    "full_name": "windmill-labs/windmill",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "automation",
+      "productivity"
+    ],
+    "icon": "/icons/windmill.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 18665,
+    "tier": "tier2_webapp",
+    "summary": "Windmill helps you turn scripts into professional tools, automated workflows, and AI-powered apps in one central place.",
+    "i18n": {
+      "it": "Windmill ti permette di trasformare script in strumenti professionali, flussi di lavoro automatizzati e app basate su intelligenza artificiale.",
+      "es": "Windmill te ayuda a convertir scripts en herramientas profesionales, flujos de trabajo automatizados y aplicaciones con inteligencia artificial.",
+      "fr": "Windmill vous aide à transformer des scripts en outils professionnels, en flux automatisés et en applications basées sur l'intelligence artificielle.",
+      "de": "Windmill hilft Ihnen dabei, Skripte in professionelle Werkzeuge, automatisierte Abläufe und KI-gestützte Anwendungen zu verwandeln."
+    },
+    "download_url": "https://github.com/windmill-labs/windmill/releases/download/v1.881.1/windmill-ee.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "maxun",
     "name": "Maxun",
     "repo_url": "https://github.com/getmaxun/maxun",
@@ -5398,6 +5448,31 @@
     },
     "download_url": "https://www.maxun.dev",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "deepwiki-open",
+    "name": "DeepWiki Open",
+    "repo_url": "https://github.com/asyncfuncai/deepwiki-open",
+    "full_name": "asyncfuncai/deepwiki-open",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "documentation"
+    ],
+    "icon": "/icons/deepwiki-open.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 18469,
+    "tier": "tier2_webapp",
+    "summary": "Automatically create beautiful, interactive documentation and visual diagrams for any code storage folder using artificial intelligence.",
+    "i18n": {
+      "it": "Crea automaticamente documentazione interattiva e diagrammi visivi per qualsiasi archivio di codice utilizzando l'intelligenza artificiale.",
+      "es": "Crea automáticamente documentación interactiva y diagramas visuales para cualquier repositorio de código utilizando inteligencia artificial.",
+      "fr": "Créez automatiquement de la documentation interactive et des diagrammes visuels pour n'importe quel dossier de code grâce à l'intelligence artificielle.",
+      "de": "Erstellen Sie automatisch interaktive Dokumentationen und visuelle Diagramme für jedes Code-Archiv mithilfe künstlicher Intelligenz."
+    },
+    "download_url": "https://grok-wiki.com/",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "instapy",
@@ -5575,6 +5650,56 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "docs",
+    "name": "Docs",
+    "repo_url": "https://github.com/suitenumerique/docs",
+    "full_name": "suitenumerique/docs",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "collaboration",
+      "text-editor"
+    ],
+    "icon": "/icons/docs.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 17004,
+    "tier": "tier2_webapp",
+    "summary": "Docs lets teams write, organize, and share documents together in real time, keeping data under your control.",
+    "i18n": {
+      "it": "Docs consente ai team di scrivere, organizzare e condividere documenti in tempo reale, mantenendo i dati sotto il tuo controllo.",
+      "es": "Docs permite a los equipos escribir, organizar y compartir documentos en tiempo real, manteniendo los datos bajo tu control.",
+      "fr": "Docs permet aux équipes d'écrire, organiser et partager des documents en temps réel, tout en gardant les données sous votre contrôle.",
+      "de": "Docs ermöglicht Teams, Dokumente in Echtzeit zu schreiben, zu organisieren und zu teilen, während die Daten unter Ihrer Kontrolle bleiben."
+    },
+    "download_url": "https://docs.la-suite.eu/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "surfsense",
+    "name": "SurfSense",
+    "repo_url": "https://github.com/modsetter/surfsense",
+    "full_name": "modsetter/surfsense",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "privacy"
+    ],
+    "icon": "/icons/surfsense.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 16907,
+    "tier": "tier2_webapp",
+    "summary": "An air-gapped, privacy-focused open source desktop tool that helps you research, transform, and edit documents completely on your own machine.",
+    "i18n": {
+      "it": "Un assistente per documenti open source focalizzato sulla privacy che ti aiuta a ricercare e modificare i file direttamente sul tuo computer.",
+      "es": "Una herramienta de escritorio de código abierto centrada en la privacidad para investigar, transformar y editar documentos en tu ordenador.",
+      "fr": "Un outil de bureau open source axé sur la confidentialité pour rechercher, transformer et éditer des documents directement sur votre machine.",
+      "de": "Ein datenschutzorientiertes Open-Source-Desktop-Tool zum Recherchieren, Transformieren und Bearbeiten von Dokumenten auf Ihrem Computer."
+    },
+    "download_url": "https://github.com/MODSetter/SurfSense/releases/download/v2.3.1/SurfSense-Setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "clap",
     "name": "clap",
     "repo_url": "https://github.com/clap-rs/clap",
@@ -5623,6 +5748,31 @@
     },
     "download_url": "https://trigger.dev/changelog",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "freshrss",
+    "name": "FreshRSS",
+    "repo_url": "https://github.com/freshrss/freshrss",
+    "full_name": "freshrss/freshrss",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "rss",
+      "news-aggregator"
+    ],
+    "icon": "/icons/freshrss.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 16639,
+    "tier": "tier2_webapp",
+    "summary": "Stay up to date with your favorite websites and blogs by gathering all your news feeds in one clean, private place.",
+    "i18n": {
+      "it": "Rimani aggiornato sui tuoi siti preferiti riunendo tutti i feed di notizie in un unico spazio pulito e privato.",
+      "es": "Mantente al día con tus sitios web favoritos reuniendo todas tus fuentes de noticias en un solo lugar limpio y privado.",
+      "fr": "Restez informé de vos sites préférés en regroupant tous vos flux d'actualités dans un espace propre et privé.",
+      "de": "Bleiben Sie bei Ihren Lieblings-Websites auf dem Laufenden, indem Sie alle Nachrichteneeds an einem sauberen Ort bündeln."
+    },
+    "download_url": "https://freshrss.org",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "ast-grep",
@@ -5700,6 +5850,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "bentopdf",
+    "name": "bentopdf",
+    "repo_url": "https://github.com/alam00000/bentopdf",
+    "full_name": "alam00000/bentopdf",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "pdf",
+      "privacy"
+    ],
+    "icon": "/icons/bentopdf.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 16420,
+    "tier": "tier2_webapp",
+    "summary": "Process, edit, and organize your PDF files right inside your web browser without uploading them to any external servers.",
+    "i18n": {
+      "it": "Elabora, modifica e organizza i tuoi file PDF direttamente nel browser senza caricarli su server esterni.",
+      "es": "Procesa, edita y organiza tus archivos PDF directamente en tu navegador web sin subirlos a servidores externos.",
+      "fr": "Traitez, modifiez et organisez vos fichiers PDF directement dans votre navigateur sans les envoyer sur des serveurs.",
+      "de": "Bearbeiten, konvertieren und verwalten Sie Ihre PDF-Dateien direkt im Browser, ohne sie auf externe Server zu laden."
+    },
+    "download_url": "https://bentopdf.com/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "paradev",
     "name": "Paradev",
     "repo_url": "https://github.com/paradevai/paradev",
@@ -5748,6 +5923,31 @@
     },
     "download_url": "https://nicegui.io",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "server",
+    "name": "server",
+    "repo_url": "https://github.com/gotify/server",
+    "full_name": "gotify/server",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "notifications",
+      "websocket"
+    ],
+    "icon": "/icons/server.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 16227,
+    "tier": "tier2_webapp",
+    "summary": "A private notification server that lets you send and receive instant push messages across your devices seamlessly.",
+    "i18n": {
+      "it": "Un server di notifiche privato che consente di inviare e ricevere messaggi in tempo reale su tutti i dispositivi.",
+      "es": "Un servidor de notificaciones privado para enviar y recibir mensajes en tiempo real en todos tus dispositivos.",
+      "fr": "Un serveur de notifications privé pour envoyer et recevoir des messages en temps réel sur tous vos appareils.",
+      "de": "Ein privater Benachrichtigungsserver zum Senden und Empfangen von Echtzeitnachrichten auf Ihren Geräten."
+    },
+    "download_url": "https://gotify.net",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "terminalizer",
@@ -5873,6 +6073,56 @@
     },
     "download_url": "https://github.com/v2rayA/v2rayA/releases/download/v2.5.16/installer_windows_inno_arm64_2.5.16.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "trek",
+    "name": "TREK",
+    "repo_url": "https://github.com/liketrek/trek",
+    "full_name": "liketrek/trek",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "travel",
+      "planner"
+    ],
+    "icon": "/icons/trek.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 15851,
+    "tier": "tier2_webapp",
+    "summary": "Plan trips together in real time, manage shared expenses, build detailed itineraries, and store all your bookings in one self-hosted app.",
+    "i18n": {
+      "it": "Pianifica viaggi insieme in tempo reale, gestisci spese condivise, crea itinerari dettagliati e organizza tutte le prenotazioni.",
+      "es": "Planifica viajes en tiempo real, gestiona gastos compartidos, crea itinerarios detallados y guarda todas tus reservas fácilmente.",
+      "fr": "Planifiez des voyages en temps réel, gérez les dépenses partagées, créez des itinéraires détaillés et stockez vos réservations.",
+      "de": "Planen Sie Reisen gemeinsam in Echtzeit, verwalten Sie Ausgaben, erstellen Sie detaillierte Routen und speichern Sie Buchungen."
+    },
+    "download_url": "https://demo.liketrek.com",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "documenso",
+    "name": "Documenso",
+    "repo_url": "https://github.com/documenso/documenso",
+    "full_name": "documenso/documenso",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "document-signing",
+      "productivity"
+    ],
+    "icon": "/icons/documenso.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "stars": 15850,
+    "tier": "tier2_webapp",
+    "summary": "Documenso is a free, open-source tool that lets you create and sign digital documents securely.",
+    "i18n": {
+      "it": "Documenso è uno strumento open-source che ti permette di creare e firmare documenti digitali in modo sicuro.",
+      "es": "Documenso es una herramienta de código abierto que te permite crear y firmar documentos digitales de forma segura.",
+      "fr": "Documenso est un outil open source qui vous permet de créer et de signer des documents numériques en toute sécurité.",
+      "de": "Documenso ist ein Open-Source-Tool, mit dem Sie digitale Dokumente sicher erstellen und signieren können."
+    },
+    "download_url": "https://documenso.com",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "dearpygui",
@@ -6900,6 +7150,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "rubick",
+    "name": "Rubick",
+    "repo_url": "https://github.com/rubickcenter/rubick",
+    "full_name": "rubickcenter/rubick",
+    "category": "Productivity",
+    "tags": [
+      "toolbox",
+      "productivity"
+    ],
+    "icon": "/icons/rubick.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 10058,
+    "tier": "tier1_gui",
+    "summary": "Rubick is a lightweight desktop assistant that lets you launch apps, search files, and install useful add-ons using a simple keyword search.",
+    "i18n": {
+      "it": "Rubick è un assistente desktop leggero che consente di avviare app, cercare file e installare componenti aggiuntivi utili con facilità.",
+      "es": "Rubick es un asistente de escritorio ligero que te ayuda a abrir aplicaciones, buscar archivos y añadir complementos fácilmente.",
+      "fr": "Rubick est un assistant de bureau léger pour lancer des applications, rechercher des fichiers et installer des modules utiles.",
+      "de": "Rubick ist ein leichter Desktop-Assistent zum schnellen Starten von Apps, Durchsuchen von Dateien und Installieren von Erweiterungen."
+    },
+    "download_url": "https://github.com/rubickCenter/rubick/releases/download/v4.3.8/rubick-Setup-4.3.8-ia32.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "imageoptim",
     "name": "ImageOptim",
     "repo_url": "https://github.com/imageoptim/imageoptim",
@@ -6998,6 +7273,31 @@
     },
     "download_url": "https://symfony.com/console",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "openidea",
+    "name": "openidea",
+    "repo_url": "https://github.com/l0ng-ai/openidea",
+    "full_name": "l0ng-ai/openidea",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "programming"
+    ],
+    "icon": "/icons/openidea.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 9752,
+    "tier": "tier1_gui",
+    "summary": "Openidea is a blazingly fast native code workspace built to give you familiar keyboard shortcuts and robust tools without heavy computer resource usage.",
+    "i18n": {
+      "it": "Openidea è uno spazio di lavoro per programmatori incredibilmente veloce, progettato per offrire scorciatoie familiari e strumenti potenti senza consumare troppe risorse.",
+      "es": "Openidea es un espacio de trabajo de código ultrarrápido diseñado para ofrecerte atajos familiares y herramientas robustas sin consumir recursos excesivos.",
+      "fr": "Openidea est un espace de travail de code extrêmement rapide conçu pour vous offrir des raccourcis familiers et des outils puissants sans alourdir votre système.",
+      "de": "Openidea ist ein unglaublich schneller Code-Arbeitsplatz, der vertraute Tastenkombinationen und robuste Werkzeuge bietet, ohne Ihren Computer zu belasten."
+    },
+    "download_url": "https://github.com/l0ng-ai/openidea/releases/download/v0.1.49/OpenIDEA_0.1.49_arm64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "fyrox",
@@ -7250,6 +7550,56 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "binggpt",
+    "name": "BingGPT",
+    "repo_url": "https://github.com/dice2o/binggpt",
+    "full_name": "dice2o/binggpt",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "desktop"
+    ],
+    "icon": "/icons/binggpt.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 8845,
+    "tier": "tier1_gui",
+    "summary": "Chat with an intelligent assistant right on your desktop without needing specific web browsers.",
+    "i18n": {
+      "it": "Chatta con un assistente intelligente direttamente sul desktop senza bisogno di browser specifici.",
+      "es": "Chatea con un asistente inteligente en tu escritorio sin necesidad de navegadores específicos.",
+      "fr": "Discutez avec un assistant intelligent directement sur votre bureau sans navigateur spécifique.",
+      "de": "Chatten Sie mit einem intelligenten Assistenten direkt auf dem Desktop, ganz ohne spezifische Browser."
+    },
+    "download_url": "https://github.com/dice2o/BingGPT/releases/download/v0.3.7/BingGPT-0.3.7-win32-arm64-Setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "modly",
+    "name": "Modly",
+    "repo_url": "https://github.com/lightningpixel/modly",
+    "full_name": "lightningpixel/modly",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "3d-modeling"
+    ],
+    "icon": "/icons/modly.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 8737,
+    "tier": "tier1_gui",
+    "summary": "Transform any 2D photo into a realistic 3D model right on your computer using privacy-focused local artificial intelligence.",
+    "i18n": {
+      "it": "Crea modelli 3D realistici partendo da qualsiasi foto usando intelligenza artificiale locale e rispettosa della privacy.",
+      "es": "Transforma cualquier foto en un modelo 3D realista directamente en tu ordenador utilizando inteligencia artificial local.",
+      "fr": "Créez des modèles 3D réalistes à partir de vos photos en utilisant l'intelligence artificielle locale sur votre machine.",
+      "de": "Verwandeln Sie jedes Foto direkt auf Ihrem Computer mithilfe lokaler künstlicher Intelligenz in ein realistisches 3D-Modell."
+    },
+    "download_url": "https://github.com/lightningpixel/modly/releases/download/v0.5.0/Modly-Setup-0.5.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "dozer",
     "name": "Dozer",
     "repo_url": "https://github.com/mortennn/dozer",
@@ -7350,6 +7700,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "pi-desktop",
+    "name": "PI-Desktop",
+    "repo_url": "https://github.com/vastsa/pi-desktop",
+    "full_name": "vastsa/pi-desktop",
+    "category": "Productivity",
+    "tags": [
+      "automation",
+      "developer-tools"
+    ],
+    "icon": "/icons/pi-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 8119,
+    "tier": "tier1_gui",
+    "summary": "Manage AI coding assistants, switch between models, and run local tasks inside a single desktop application.",
+    "i18n": {
+      "it": "Gestisci assistenti di scrittura codice, cambia modello e organizza attività in locale all'interno di un'unica applicazione.",
+      "es": "Gestiona asistentes de código, cambia de modelo y ejecuta tareas de forma local desde una única aplicación de escritorio.",
+      "fr": "Gérez vos assistants de code, changez de modèle et exécutez vos tâches localement depuis une seule application de bureau.",
+      "de": "Verwalten Sie KI-Assistenten, wechseln Sie Modelle und führen Sie lokale Aufgaben in einer übersichtlichen Desktop-App aus."
+    },
+    "download_url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.23.0/PI-Desktop-Portable-0.23.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "guilite",
     "name": "GuiLite",
     "repo_url": "https://github.com/idea4good/guilite",
@@ -7398,6 +7773,31 @@
     },
     "download_url": "https://github.com/donnemartin/gitsome/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "ecopaste",
+    "name": "EcoPaste",
+    "repo_url": "https://github.com/ecopastehub/ecopaste",
+    "full_name": "ecopastehub/ecopaste",
+    "category": "Productivity",
+    "tags": [
+      "clipboard",
+      "desktop"
+    ],
+    "icon": "/icons/ecopaste.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 7594,
+    "tier": "tier1_gui",
+    "summary": "EcoPaste is a lightweight, local-first clipboard manager that saves your copy history and keeps your sensitive data private.",
+    "i18n": {
+      "it": "EcoPaste è un gestore di appunti leggero e locale che salva la cronologia di copia mantenendo privati i dati sensibili.",
+      "es": "EcoPaste es un gestor de portapapeles ligero que guarda tu historial de copia y mantiene privados tus datos sensibles.",
+      "fr": "EcoPaste est un gestionnaire de presse-papiers léger qui enregistre votre historique tout en protégeant vos données.",
+      "de": "EcoPaste ist ein schneller Zwischenspeicher für Windows und Mac, der Ihren Kopierverlauf lokal und sicher speichert."
+    },
+    "download_url": "https://github.com/EcoPasteHub/EcoPaste/releases/download/v1.1.0/EcoPaste_1.1.0_arm64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "arwes",
@@ -7525,6 +7925,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "flyingmouse-format",
+    "name": "FlyingMouse Format",
+    "repo_url": "https://github.com/laofeng-mouse/flyingmouse-format",
+    "full_name": "laofeng-mouse/flyingmouse-format",
+    "category": "Video & Audio",
+    "tags": [
+      "converter",
+      "offline"
+    ],
+    "icon": "/icons/flyingmouse-format.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 7183,
+    "tier": "tier1_gui",
+    "summary": "Easily convert images, documents, audio, and video files right on your computer without uploading anything to the internet.",
+    "i18n": {
+      "it": "Converti facilmente immagini, documenti, audio e video direttamente sul tuo computer senza caricare nulla online.",
+      "es": "Convierte fácilmente imágenes, documentos, audio y video directamente en tu computadora sin subir nada a internet.",
+      "fr": "Convertissez facilement des images, documents, audio et vidéo directement sur votre ordinateur sans rien envoyer en ligne.",
+      "de": "Wandeln Sie Bilder, Dokumente, Audio- und Videodateien einfach direkt auf Ihrem Computer um, ganz ohne Internet-Upload."
+    },
+    "download_url": "https://github.com/LaoFeng-mouse/flyingmouse-format/releases/download/v0.8.3/FlyingMouse-Format-Setup-0.8.3-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "ts-toolbelt",
     "name": "ts-toolbelt",
     "repo_url": "https://github.com/millsp/ts-toolbelt",
@@ -7625,6 +8050,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "reqable-app",
+    "name": "reqable-app",
+    "repo_url": "https://github.com/reqable/reqable-app",
+    "full_name": "reqable/reqable-app",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "testing"
+    ],
+    "icon": "/icons/reqable-app.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 6968,
+    "tier": "tier1_gui",
+    "summary": "Capture, inspect, and test your web traffic and connections seamlessly across all your devices without complicated setups.",
+    "i18n": {
+      "it": "Cattura, ispeziona e testa il traffico web e le connessioni in modo semplice su tutti i tuoi dispositivi senza configurazioni complesse.",
+      "es": "Captura, inspecciona y prueba el tráfico web y las conexiones fácilmente en todos tus dispositivos sin configuraciones complejas.",
+      "fr": "Capturez, inspectez et testez vos flux web et vos connexions en toute simplicité sur tous vos appareils sans configurations complexes.",
+      "de": "Erfassen, prüfen und testen Sie Ihren Webverkehr und Ihre Verbindungen ganz einfach auf all Ihren Geräten ohne komplexe Setups."
+    },
+    "download_url": "https://github.com/reqable/reqable-app/releases/download/3.3.14/reqable-app-windows-x86_64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "koharu",
     "name": "Koharu",
     "repo_url": "https://github.com/koharu-rs/koharu",
@@ -7673,6 +8123,31 @@
     },
     "download_url": "https://github.com/martin-olivier/airgorah/releases/download/v0.9.0/airgorah_0.9.0_aarch64.deb",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "go-music-dl",
+    "name": "go-music-dl",
+    "repo_url": "https://github.com/guohuiyuan/go-music-dl",
+    "full_name": "guohuiyuan/go-music-dl",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "downloader"
+    ],
+    "icon": "/icons/go-music-dl.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 6661,
+    "tier": "tier1_gui",
+    "summary": "Search, stream, and download music from over ten major streaming networks into a single, unified player interface with optional AI remote controls.",
+    "i18n": {
+      "it": "Cerca, ascolta e scarica brani da più servizi musicali in un'unica interfaccia unita con controlli di riproduzione intelligenti.",
+      "es": "Busca, reproduce y descarga canciones de múltiples servicios de música en una sola interfaz con controles de reproducción inteligentes.",
+      "fr": "Recherchez, écoutez et téléchargez des morceaux de plus de dix services de streaming dans une interface unique et unifiée.",
+      "de": "Suchen, streamen und laden Sie Musik von über zehn großen Streaming-Netzwerken in einer einzigen, einheitlichen Benutzeroberfläche herunter."
+    },
+    "download_url": "https://github.com/guohuiyuan/go-music-dl/releases/download/v1.1.7/go-music-dl_darwin_amd64.dmg",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "ludusavi",
@@ -7750,6 +8225,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "winbox",
+    "name": "WinBox",
+    "repo_url": "https://github.com/nextapps-de/winbox",
+    "full_name": "nextapps-de/winbox",
+    "category": "Productivity",
+    "tags": [
+      "window-manager",
+      "ui-library"
+    ],
+    "icon": "/icons/winbox.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 6459,
+    "tier": "tier1_gui",
+    "summary": "WinBox is a lightweight, high-performance window manager for modern web projects, letting you create movable and resizable floating windows effortlessly.",
+    "i18n": {
+      "it": "WinBox è un gestore di finestre leggero e performante per il web, che consente di creare finestre mobili e ridimensionabili.",
+      "es": "WinBox es un administrador de ventanas ligero y de alto rendimiento que te permite crear ventanas flotantes fácilmente.",
+      "fr": "WinBox est un gestionnaire de fenêtres léger et performant pour le web, idéal pour créer des fenêtres flottantes.",
+      "de": "WinBox ist ein leichtgewichtiger, schneller Fenster-Manager für das Web, mit dem Sie bewegliche Fenster erstellen."
+    },
+    "download_url": "https://github.com/nextapps-de/winbox/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "pywinauto",
     "name": "pywinauto",
     "repo_url": "https://github.com/pywinauto/pywinauto",
@@ -7773,6 +8273,56 @@
     },
     "download_url": "https://github.com/pywinauto/pywinauto/releases/download/0.6.9/pywinauto-0.6.9-py2.py3-none-any.whl",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "kun",
+    "name": "Kun",
+    "repo_url": "https://github.com/kunagent/kun",
+    "full_name": "kunagent/kun",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/kun.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 6384,
+    "tier": "tier1_gui",
+    "summary": "Manage coding, writing, design, and research in one private desktop workspace powered by your own intelligent assistants.",
+    "i18n": {
+      "it": "Gestisci codice, scrittura e ricerche in un unico spazio privato sul desktop alimentato dai tuoi assistenti intelligenti.",
+      "es": "Gestiona código, redacción y diseño en un entorno de escritorio privado impulsado por tus propios asistentes inteligentes.",
+      "fr": "Gérez le code, l'écriture et la recherche dans un espace de bureau privé propulsé par vos assistants intelligents.",
+      "de": "Verwalten Sie Code, Schreiben und Recherchen in einem privaten Desktop-Arbeitsbereich mit eigenen intelligenten Assistenten."
+    },
+    "download_url": "https://github.com/KunAgent/Kun/releases/download/v0.4.5/Kun-0.4.5-win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "everywhere",
+    "name": "Everywhere",
+    "repo_url": "https://github.com/sylinko/everywhere",
+    "full_name": "sylinko/everywhere",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/everywhere.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 6363,
+    "tier": "tier1_gui",
+    "summary": "An intelligent desktop assistant that reads your screen context instantly, letting you get help across any application without taking screenshots.",
+    "i18n": {
+      "it": "Un assistente intelligente per desktop che comprende istantaneamente il contesto dello schermo per aiutarti in ogni applicazione.",
+      "es": "Un asistente de escritorio inteligente que lee el contexto de tu pantalla para brindarte ayuda instantánea en cualquier aplicación.",
+      "fr": "Un assistant de bureau intelligent qui lit instantanément le contexte de votre écran pour vous aider à travers toutes vos applications.",
+      "de": "Ein intelligenter Desktop-Assistent, der deinen Bildschirmkontext sofort erfasst, um dir in jeder Anwendung nahtlos zu helfen."
+    },
+    "download_url": "https://github.com/Sylinko/Everywhere/releases/download/v0.8.2/Everywhere-Windows-x64-Setup-v0.8.2.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "libreget",
@@ -7925,6 +8475,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "lobsterai",
+    "name": "LobsterAI",
+    "repo_url": "https://github.com/netease-youdao/lobsterai",
+    "full_name": "netease-youdao/lobsterai",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "desktop"
+    ],
+    "icon": "/icons/lobsterai.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 6207,
+    "tier": "tier1_gui",
+    "summary": "An open-source desktop assistant that completes real tasks like data analysis, document editing, and web research right on your computer.",
+    "i18n": {
+      "it": "Un assistente desktop open-source che completa compiti reali come analisi dati e ricerca web direttamente sul tuo computer.",
+      "es": "Un asistente de escritorio open-source que realiza tareas reales como análisis de datos e investigación web en tu ordenador.",
+      "fr": "Un assistant de bureau open-source qui effectue de vraies tâches comme l'analyse de données et la recherche web sur votre ordinateur.",
+      "de": "Ein Open-Source-Desktop-Assistent, der echte Aufgaben wie Datenanalyse und Recherchen direkt auf deinem Computer erledigt."
+    },
+    "download_url": "https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.20/LobsterAI--win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "react-nodegui",
     "name": "react-nodegui",
     "repo_url": "https://github.com/nodegui/react-nodegui",
@@ -7975,6 +8550,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "hongguo-desktop-releases",
+    "name": "Hongguo Desktop",
+    "repo_url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases",
+    "full_name": "waligoraamodio288-rgb/hongguo-desktop-releases",
+    "category": "Productivity",
+    "tags": [
+      "video",
+      "streaming"
+    ],
+    "icon": "/icons/hongguo-desktop-releases.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 6169,
+    "tier": "tier1_gui",
+    "summary": "Enjoy seamless video streaming and show tracking directly on your Windows computer without needing phone emulators.",
+    "i18n": {
+      "it": "Goditi lo streaming video fluido e il monitoraggio degli spettacoli direttamente sul tuo PC Windows senza emulatori.",
+      "es": "Disfruta de transmisión de video fluida y seguimiento de programas directamente en tu PC con Windows sin emuladores.",
+      "fr": "Profitez du streaming vidéo fluide et du suivi de vos séries directement sur votre PC Windows sans émulateur.",
+      "de": "Genießen Sie flüssiges Video-Streaming und Serienverfolgung direkt auf Ihrem Windows-PC ohne Emulator."
+    },
+    "download_url": "https://github.com/waligoraamodio288-rgb/hongguo-desktop-releases/releases/download/v1.0.104/hongguo-1.0.104-windows-x86_64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "azul",
     "name": "Azul",
     "repo_url": "https://github.com/fschutt/azul",
@@ -8023,6 +8623,31 @@
     },
     "download_url": "https://studio.outerbase.com",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "mangodisk",
+    "name": "MangoDisk",
+    "repo_url": "https://github.com/harry0703/mangodisk",
+    "full_name": "harry0703/mangodisk",
+    "category": "Productivity",
+    "tags": [
+      "disk-cleaner",
+      "storage-analyzer"
+    ],
+    "icon": "/icons/mangodisk.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 6009,
+    "tier": "tier1_gui",
+    "summary": "Reclaim lost hard drive space safely by clearing hidden caches, duplicate files, and leftover app data across macOS, Windows, and Linux.",
+    "i18n": {
+      "it": "Recupera spazio prezioso sul disco eliminando in sicurezza cache nascoste, file duplicati e dati residui su ogni sistema.",
+      "es": "Recupera espacio en tu disco duro de forma segura limpiando cachés ocultas, archivos duplicados y datos residuales.",
+      "fr": "Libérez de l'espace disque en toute sécurité en supprimant les caches cachés, les doublons et les fichiers résiduels.",
+      "de": "Gewinnen Sie Festplattenspeicher sicher zurück, indem Sie versteckte Caches, Duplikate und App-Reste bereinigen."
+    },
+    "download_url": "https://github.com/harry0703/MangoDisk/releases/download/v2.1.1/MangoDisk-2.1.1-windows-cli.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "mongo-express",
