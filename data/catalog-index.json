@@ -12655,6 +12655,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "opensign",
+    "name": "OpenSign",
+    "tagline": "Free and open source document signing",
+    "repo_url": "https://github.com/opensignlabs/opensign",
+    "full_name": "opensignlabs/opensign",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "business"
+    ],
+    "icon": "/icons/opensign.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 7319,
+    "tier": "tier2_webapp",
+    "summary": "OpenSign is a secure, user-friendly platform that lets you sign and manage digital documents without expensive monthly subscriptions.",
+    "i18n": {
+      "it": "OpenSign è una piattaforma sicura per firmare e gestire documenti digitali senza costosi abbonamenti mensili.",
+      "es": "OpenSign es una plataforma segura para firmar y gestionar documentos digitales sin necesidad de suscripciones costosas.",
+      "fr": "OpenSign est une plateforme sécurisée pour signer et gérer vos documents numériques sans abonnements mensuels coûteux.",
+      "de": "OpenSign ist eine sichere Plattform zum Signieren und Verwalten digitaler Dokumente ohne teure monatliche Abonnements."
+    },
+    "download_url": "https://www.opensignlabs.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "wxwidgets",
     "name": "wxWidgets",
     "tagline": "Build native desktop apps seamlessly.",
@@ -12681,6 +12709,90 @@
     },
     "download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.4/wxMSW-3.3.4-Setup.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "wger",
+    "name": "wger",
+    "tagline": "Your personal fitness and nutrition manager",
+    "repo_url": "https://github.com/wger-project/wger",
+    "full_name": "wger-project/wger",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "fitness",
+      "health"
+    ],
+    "icon": "/icons/wger.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 7299,
+    "tier": "tier2_webapp",
+    "summary": "wger is a free tool to help you track your workouts, diet plans, and body measurements in one organized place.",
+    "i18n": {
+      "it": "wger è uno strumento gratuito per monitorare allenamenti, piani alimentari e misure corporee in un unico posto organizzato.",
+      "es": "wger es una herramienta gratuita para registrar tus entrenamientos, planes de dieta y medidas corporales en un solo lugar.",
+      "fr": "wger est un outil gratuit pour suivre vos entraînements, vos régimes alimentaires et vos mesures corporelles au même endroit.",
+      "de": "wger ist ein kostenloses Werkzeug, um Workouts, Ernährungspläne und Körpermaße an einem zentralen Ort zu verwalten."
+    },
+    "download_url": "https://wger.de",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gpt-load",
+    "name": "GPT-Load",
+    "tagline": "Unified gateway for all your AI services",
+    "repo_url": "https://github.com/tbphp/gpt-load",
+    "full_name": "tbphp/gpt-load",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "gateway"
+    ],
+    "icon": "/icons/gpt-load.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 7243,
+    "tier": "tier2_webapp",
+    "summary": "GPT-Load acts as a central hub to manage multiple AI accounts, keys, and usage policies through a single, easy-to-use interface.",
+    "i18n": {
+      "it": "GPT-Load funge da centro di controllo per gestire account, chiavi e utilizzo di diversi servizi AI tramite un'unica interfaccia.",
+      "es": "GPT-Load actúa como un centro para gestionar múltiples cuentas, claves y políticas de uso de IA desde una sola interfaz sencilla.",
+      "fr": "GPT-Load sert de hub central pour gérer vos comptes, clés et politiques d'utilisation d'IA via une interface unique et intuitive.",
+      "de": "GPT-Load dient als zentrale Anlaufstelle zur Verwaltung mehrerer KI-Konten, Schlüssel und Nutzungsrichtlinien über eine einzige Oberfläche."
+    },
+    "download_url": "https://github.com/tbphp/gpt-load/releases/download/v2.0.0-rc.66/gpt-load-windows-amd64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "aisoc",
+    "name": "AiSOC",
+    "tagline": "Open-source AI security operations center",
+    "repo_url": "https://github.com/beenuar/aisoc",
+    "full_name": "beenuar/aisoc",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "security",
+      "ai"
+    ],
+    "icon": "/icons/aisoc.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 7223,
+    "tier": "tier2_webapp",
+    "summary": "AiSOC automatically collects security data, identifies threats, and uses AI agents to investigate incidents with full transparency.",
+    "i18n": {
+      "it": "AiSOC raccoglie dati di sicurezza, identifica minacce e usa agenti AI per indagare sugli incidenti con totale trasparenza.",
+      "es": "AiSOC recopila datos de seguridad, identifica amenazas y utiliza agentes de IA para investigar incidentes con total transparencia.",
+      "fr": "AiSOC collecte des données de sécurité, identifie les menaces et utilise des agents IA pour enquêter sur les incidents en toute transparence.",
+      "de": "AiSOC sammelt Sicherheitsdaten, erkennt Bedrohungen und nutzt KI-Agenten, um Vorfälle mit voller Transparenz zu untersuchen."
+    },
+    "download_url": "https://github.com/beenuar/AiSOC/releases/download/v23.6.0/aisoc-sbom-v23.6.0.spdx.json",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "linearmouse",
@@ -12739,6 +12851,90 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "docker-ipsec-vpn-server",
+    "name": "docker-ipsec-vpn-server",
+    "tagline": "Create your own private VPN server",
+    "repo_url": "https://github.com/hwdsl2/docker-ipsec-vpn-server",
+    "full_name": "hwdsl2/docker-ipsec-vpn-server",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "vpn",
+      "security"
+    ],
+    "icon": "/icons/docker-ipsec-vpn-server.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 7161,
+    "tier": "tier2_webapp",
+    "summary": "This tool allows you to set up a secure, private VPN server on your own hardware to encrypt your internet traffic.",
+    "i18n": {
+      "it": "Questo strumento ti permette di configurare un server VPN privato sul tuo hardware per proteggere il traffico internet.",
+      "es": "Esta herramienta te permite configurar un servidor VPN privado en tu propio equipo para cifrar tu tráfico de internet.",
+      "fr": "Cet outil vous permet de configurer un serveur VPN privé sur votre matériel pour chiffrer votre trafic internet.",
+      "de": "Dieses Tool ermöglicht es Ihnen, einen privaten VPN-Server auf Ihrer eigenen Hardware einzurichten, um Ihren Internetverkehr zu verschlüsseln."
+    },
+    "download_url": "https://hub.docker.com/r/hwdsl2/ipsec-vpn-server",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pulse",
+    "name": "Pulse",
+    "tagline": "Unified health monitoring for your home servers",
+    "repo_url": "https://github.com/rcourtman/pulse",
+    "full_name": "rcourtman/pulse",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "monitoring",
+      "server-management"
+    ],
+    "icon": "/icons/pulse.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 7154,
+    "tier": "tier2_webapp",
+    "summary": "Pulse is a central dashboard that tracks the health of your servers, containers, and storage devices in one simple, organized view.",
+    "i18n": {
+      "it": "Pulse è una dashboard centrale che monitora lo stato di salute di server, contenitori e dispositivi di archiviazione in un'unica vista.",
+      "es": "Pulse es un panel central que rastrea el estado de tus servidores, contenedores y dispositivos de almacenamiento en una vista sencilla.",
+      "fr": "Pulse est un tableau de bord central qui surveille l'état de vos serveurs, conteneurs et périphériques de stockage en une seule vue.",
+      "de": "Pulse ist ein zentrales Dashboard, das den Status Ihrer Server, Container und Speichergeräte in einer einfachen Übersicht zusammenfasst."
+    },
+    "download_url": "https://github.com/rcourtman/Pulse/releases/download/v6.8.0/pulse-agent-windows-386.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "dramaclaw",
+    "name": "DramaClaw",
+    "tagline": "Create professional films from simple scripts.",
+    "repo_url": "https://github.com/dramaclaw/dramaclaw",
+    "full_name": "dramaclaw/dramaclaw",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "video-production",
+      "ai-tools"
+    ],
+    "icon": "/icons/dramaclaw.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 7152,
+    "tier": "tier2_webapp",
+    "summary": "DramaClaw is a complete production pipeline that turns your written stories into finished videos using advanced artificial intelligence tools.",
+    "i18n": {
+      "it": "DramaClaw è una piattaforma di produzione completa che trasforma le tue storie scritte in video finiti usando strumenti di intelligenza artificiale.",
+      "es": "DramaClaw es una plataforma de producción completa que convierte tus historias escritas en videos terminados usando herramientas de inteligencia artificial.",
+      "fr": "DramaClaw est une plateforme de production complète qui transforme vos histoires écrites en vidéos finies grâce à des outils d'intelligence artificielle.",
+      "de": "DramaClaw ist eine komplette Produktionsplattform, die Ihre geschriebenen Geschichten mithilfe von KI-Werkzeugen in fertige Videos verwandelt."
+    },
+    "download_url": "https://github.com/dramaclaw/dramaclaw/releases/download/v2.1.3/DramaClaw-Setup-2.1.3.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "ts-toolbelt",
     "name": "ts-toolbelt",
     "tagline": "The ultimate type helper library",
@@ -12765,6 +12961,90 @@
     },
     "download_url": "https://millsp.github.io/ts-toolbelt/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "suparagent",
+    "name": "Suparagent",
+    "tagline": "Your personal workspace for AI coworkers",
+    "repo_url": "https://github.com/anil-matcha/suparagent",
+    "full_name": "anil-matcha/suparagent",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/suparagent.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7141,
+    "tier": "tier2_webapp",
+    "summary": "Create and manage specialized AI agents that handle tasks, remember project details, and follow your instructions in a secure workspace.",
+    "i18n": {
+      "it": "Crea agenti AI specializzati che gestiscono attività, ricordano i dettagli dei progetti e seguono le tue istruzioni in uno spazio sicuro.",
+      "es": "Crea y gestiona agentes de IA especializados que realizan tareas, recuerdan detalles de proyectos y siguen tus instrucciones de forma segura.",
+      "fr": "Créez et gérez des agents IA spécialisés qui gèrent vos tâches, mémorisent vos projets et suivent vos instructions dans un espace sécurisé.",
+      "de": "Erstellen und verwalten Sie spezialisierte KI-Agenten, die Aufgaben erledigen, Projektdetails speichern und Ihre Anweisungen sicher ausführen."
+    },
+    "download_url": "https://suparagent.ai",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "evidence",
+    "name": "Evidence",
+    "tagline": "Build interactive data reports using code",
+    "repo_url": "https://github.com/evidence-dev/evidence",
+    "full_name": "evidence-dev/evidence",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "data-visualization",
+      "business-intelligence"
+    ],
+    "icon": "/icons/evidence.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 7140,
+    "tier": "tier2_webapp",
+    "summary": "Evidence lets you create professional data dashboards by writing simple text and database queries instead of using complex visual tools.",
+    "i18n": {
+      "it": "Evidence permette di creare dashboard dati professionali scrivendo semplici testi e interrogazioni invece di usare strumenti visivi complessi.",
+      "es": "Evidence permite crear paneles de datos profesionales escribiendo textos y consultas simples en lugar de usar herramientas visuales complejas.",
+      "fr": "Evidence permet de créer des tableaux de bord professionnels en écrivant des textes et des requêtes simples plutôt que des outils visuels.",
+      "de": "Evidence ermöglicht die Erstellung professioneller Daten-Dashboards durch einfaches Schreiben von Texten und Abfragen statt komplexer visueller Tools."
+    },
+    "download_url": "https://evidence.dev",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "blocky",
+    "name": "Blocky",
+    "tagline": "Fast, private ad-blocking for your network",
+    "repo_url": "https://github.com/0xerr0r/blocky",
+    "full_name": "0xerr0r/blocky",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "privacy",
+      "networking"
+    ],
+    "icon": "/icons/blocky.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7119,
+    "tier": "tier2_webapp",
+    "summary": "Blocky is a lightweight tool that filters out ads and trackers for every device on your home network.",
+    "i18n": {
+      "it": "Blocky è uno strumento leggero che filtra pubblicità e traccianti per tutti i dispositivi della tua rete domestica.",
+      "es": "Blocky es una herramienta ligera que filtra anuncios y rastreadores para todos los dispositivos de tu red doméstica.",
+      "fr": "Blocky est un outil léger qui filtre les publicités et les traceurs pour tous les appareils de votre réseau domestique.",
+      "de": "Blocky ist ein leichtgewichtiges Tool, das Werbung und Tracker für alle Geräte in Ihrem Heimnetzwerk herausfiltert."
+    },
+    "download_url": "https://github.com/0xERR0R/blocky/releases/download/v0.36.0/blocky_checksums.txt",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "walk",
@@ -12823,6 +13103,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "sandstorm",
+    "name": "Sandstorm",
+    "tagline": "Your own private web productivity suite.",
+    "repo_url": "https://github.com/sandstorm-io/sandstorm",
+    "full_name": "sandstorm-io/sandstorm",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "self-hosting"
+    ],
+    "icon": "/icons/sandstorm.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 7081,
+    "tier": "tier2_webapp",
+    "summary": "Sandstorm lets you run your own private server to host documents, spreadsheets, and tools as easily as installing apps on a phone.",
+    "i18n": {
+      "it": "Sandstorm ti permette di gestire il tuo server privato per documenti e strumenti, proprio come installare app sul tuo telefono.",
+      "es": "Sandstorm te permite ejecutar tu propio servidor privado para documentos y herramientas con la facilidad de instalar apps en tu móvil.",
+      "fr": "Sandstorm vous permet d'héberger vos propres documents et outils sur un serveur privé, aussi simplement qu'une application mobile.",
+      "de": "Sandstorm ermöglicht es Ihnen, einen eigenen privaten Server für Dokumente und Tools zu betreiben, so einfach wie App-Installationen."
+    },
+    "download_url": "https://sandstorm.org",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "open-multi-agent",
+    "name": "Open Multi-Agent",
+    "tagline": "Own, approve, and audit your AI agents.",
+    "repo_url": "https://github.com/open-multi-agent/open-multi-agent",
+    "full_name": "open-multi-agent/open-multi-agent",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/open-multi-agent.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 7067,
+    "tier": "tier2_webapp",
+    "summary": "Open Multi-Agent is a private, self-hosted system for coordinating AI agents with human oversight and verifiable records.",
+    "i18n": {
+      "it": "Open Multi-Agent è un sistema privato per coordinare agenti AI con supervisione umana e registri verificabili.",
+      "es": "Open Multi-Agent es un sistema privado para coordinar agentes de IA con supervisión humana y registros verificables.",
+      "fr": "Open Multi-Agent est un système privé pour coordonner des agents IA avec une supervision humaine et des journaux vérifiables.",
+      "de": "Open Multi-Agent ist ein privates System zur Koordination von KI-Agenten mit menschlicher Aufsicht und nachvollziehbaren Protokollen."
+    },
+    "download_url": "https://open-multi-agent.com/go/repo",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "keepingyouawake",
     "name": "KeepingYouAwake",
     "tagline": "Keep your Mac awake effortlessly",
@@ -12879,6 +13215,118 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "hexclave",
+    "name": "Hexclave",
+    "tagline": "Manage user infrastructure in one place",
+    "repo_url": "https://github.com/hexclave/hexclave",
+    "full_name": "hexclave/hexclave",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "infrastructure",
+      "user-management"
+    ],
+    "icon": "/icons/hexclave.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 6895,
+    "tier": "tier2_webapp",
+    "summary": "Hexclave handles essential user management tasks like logins, team roles, and payments so you can focus on building your product.",
+    "i18n": {
+      "it": "Hexclave gestisce accessi, ruoli dei team e pagamenti, permettendoti di concentrarti esclusivamente sullo sviluppo del tuo prodotto.",
+      "es": "Hexclave maneja inicios de sesión, roles de equipo y pagos para que puedas concentrarte en crear tu producto sin complicaciones.",
+      "fr": "Hexclave prend en charge les connexions, les rôles d'équipe et les paiements pour vous permettre de vous concentrer sur votre produit.",
+      "de": "Hexclave übernimmt Anmeldungen, Teamrollen und Zahlungen, damit Sie sich voll auf die Entwicklung Ihres Produkts konzentrieren können."
+    },
+    "download_url": "https://github.com/hexclave/hexclave/releases/download/dashboard-v1.0.137/dashboard-1.0.137-darwin-arm64.tar.zst",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "taxhacker",
+    "name": "TaxHacker",
+    "tagline": "Automate your accounting with private AI",
+    "repo_url": "https://github.com/vas3k/taxhacker",
+    "full_name": "vas3k/taxhacker",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "finance",
+      "ai"
+    ],
+    "icon": "/icons/taxhacker.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 6895,
+    "tier": "tier2_webapp",
+    "summary": "TaxHacker uses artificial intelligence to scan your receipts and invoices, turning messy paperwork into an organized financial database.",
+    "i18n": {
+      "it": "TaxHacker usa l'intelligenza artificiale per scansionare ricevute e fatture, trasformando i documenti in un database finanziario ordinato.",
+      "es": "TaxHacker utiliza inteligencia artificial para escanear recibos y facturas, convirtiendo el papeleo en una base de datos organizada.",
+      "fr": "TaxHacker utilise l'intelligence artificielle pour scanner vos reçus et factures, transformant vos documents en une base de données ordonnée.",
+      "de": "TaxHacker nutzt künstliche Intelligenz, um Belege und Rechnungen zu scannen und in eine strukturierte Finanzdatenbank zu verwandeln."
+    },
+    "download_url": "https://taxhacker.app",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "sparkyfitness",
+    "name": "SparkyFitness",
+    "tagline": "Your private, all-in-one family health tracker.",
+    "repo_url": "https://github.com/codewithcj/sparkyfitness",
+    "full_name": "codewithcj/sparkyfitness",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "health",
+      "fitness"
+    ],
+    "icon": "/icons/sparkyfitness.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 6848,
+    "tier": "tier2_webapp",
+    "summary": "SparkyFitness helps you track nutrition, fitness, and health goals in one private space that you control completely.",
+    "i18n": {
+      "it": "SparkyFitness ti permette di monitorare alimentazione, fitness e salute in uno spazio privato che controlli interamente.",
+      "es": "SparkyFitness te ayuda a registrar nutrición, ejercicio y metas de salud en un espacio privado que tú controlas totalmente.",
+      "fr": "SparkyFitness vous aide à suivre votre nutrition, votre forme physique et vos objectifs de santé dans un espace privé que vous contrôlez.",
+      "de": "SparkyFitness hilft Ihnen dabei, Ernährung, Fitness und Gesundheitsziele an einem privaten Ort zu verwalten, den Sie vollständig kontrollieren."
+    },
+    "download_url": "https://github.com/CodeWithCJ/SparkyFitness/releases/download/v1.12.1/app-release.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "greptimedb",
+    "name": "GreptimeDB",
+    "tagline": "Unified data storage for all your signals.",
+    "repo_url": "https://github.com/greptimeteam/greptimedb",
+    "full_name": "greptimeteam/greptimedb",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "database",
+      "observability"
+    ],
+    "icon": "/icons/greptimedb.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 6824,
+    "tier": "tier2_webapp",
+    "summary": "GreptimeDB combines metrics, logs, and traces into one simple system to help you monitor your digital services without juggling multiple tools.",
+    "i18n": {
+      "it": "GreptimeDB unisce metriche, log e tracce in un unico sistema per monitorare i servizi digitali senza gestire strumenti multipli.",
+      "es": "GreptimeDB combina métricas, registros y rastreos en un sistema simple para monitorear servicios digitales sin usar múltiples herramientas.",
+      "fr": "GreptimeDB combine métriques, journaux et traces dans un système unique pour surveiller vos services sans multiplier les outils.",
+      "de": "GreptimeDB vereint Metriken, Protokolle und Traces in einem System, um digitale Dienste ohne den Einsatz vieler Tools zu überwachen."
+    },
+    "download_url": "https://github.com/GreptimeTeam/greptimedb/releases/download/v1.3.1/greptime-android-arm64-v1.3.1.sha256sum",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "koharu",
     "name": "Koharu",
     "tagline": "Local-first AI manga translator and editor",
@@ -12905,6 +13353,34 @@
     },
     "download_url": "https://github.com/koharu-rs/koharu/releases/download/0.86.4/koharu_0.86.4_x64-setup.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "arcreel",
+    "name": "ArcReel",
+    "tagline": "AI-powered workspace for video storytelling",
+    "repo_url": "https://github.com/arcreel/arcreel",
+    "full_name": "arcreel/arcreel",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "video-production",
+      "ai-tools"
+    ],
+    "icon": "/icons/arcreel.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 6701,
+    "tier": "tier2_webapp",
+    "summary": "ArcReel is a self-hosted workspace that turns scripts and stories into consistent, professional-grade short-form videos.",
+    "i18n": {
+      "it": "ArcReel è una piattaforma auto-ospitata che trasforma copioni e storie in video brevi coerenti e di qualità professionale.",
+      "es": "ArcReel es un espacio de trabajo autohospedado que convierte guiones e historias en videos cortos coherentes y de calidad profesional.",
+      "fr": "ArcReel est un espace de travail auto-hébergé qui transforme des scripts et des histoires en vidéos courtes cohérentes et professionnelles.",
+      "de": "ArcReel ist eine selbstgehostete Plattform, die Skripte und Geschichten in konsistente, professionelle Kurzvideos verwandelt."
+    },
+    "download_url": "https://arc-reel.com",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "airgorah",
@@ -12935,6 +13411,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "bookorbit",
+    "name": "BookOrbit",
+    "tagline": "Your personal library, synced everywhere.",
+    "repo_url": "https://github.com/bookorbit/bookorbit",
+    "full_name": "bookorbit/bookorbit",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "books",
+      "reading"
+    ],
+    "icon": "/icons/bookorbit.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 6697,
+    "tier": "tier2_webapp",
+    "summary": "BookOrbit organizes your ebooks, audiobooks, and comics into a private library that stays perfectly synced across all your devices.",
+    "i18n": {
+      "it": "BookOrbit organizza i tuoi ebook, audiolibri e fumetti in una libreria privata perfettamente sincronizzata su tutti i tuoi dispositivi.",
+      "es": "BookOrbit organiza tus libros electrónicos, audiolibros y cómics en una biblioteca privada sincronizada en todos tus dispositivos.",
+      "fr": "BookOrbit organise vos livres numériques, livres audio et bandes dessinées dans une bibliothèque privée synchronisée sur tous vos appareils.",
+      "de": "BookOrbit organisiert deine E-Books, Hörbücher und Comics in einer privaten Bibliothek, die auf allen Geräten synchron bleibt."
+    },
+    "download_url": "https://bookorbit.app",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "flame",
+    "name": "Flame",
+    "tagline": "A beautiful dashboard for your apps",
+    "repo_url": "https://github.com/pawelmalak/flame",
+    "full_name": "pawelmalak/flame",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "dashboard",
+      "productivity"
+    ],
+    "icon": "/icons/flame.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 6679,
+    "tier": "tier2_webapp",
+    "summary": "Flame is a personal startpage that organizes your favorite websites and tools into one clean, easy-to-access hub for your browser.",
+    "i18n": {
+      "it": "Flame è una pagina iniziale personale che organizza i tuoi siti e strumenti preferiti in un unico hub pulito e facile da consultare.",
+      "es": "Flame es una página de inicio personal que organiza tus sitios y herramientas favoritas en un centro limpio y fácil de acceder.",
+      "fr": "Flame est une page d'accueil personnelle qui organise vos sites et outils préférés dans un hub propre et facile d'accès.",
+      "de": "Flame ist eine persönliche Startseite, die Ihre Lieblingsseiten und -tools in einem übersichtlichen Hub für Ihren Browser zusammenfasst."
+    },
+    "download_url": "https://github.com/pawelmalak/flame/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "go-music-dl",
     "name": "go-music-dl",
     "tagline": "All-in-one multi-platform music search and downloader",
@@ -12960,6 +13492,34 @@
       "de": "Suchen, streamen und laden Sie Musik von über zehn großen Streaming-Netzwerken in einer einzigen, einheitlichen Benutzeroberfläche herunter."
     },
     "download_url": "https://github.com/guohuiyuan/go-music-dl/releases/download/v1.1.7/go-music-dl_darwin_amd64.dmg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "calibre-web-automated",
+    "name": "Calibre-Web-Automated",
+    "tagline": "Automate your entire digital book library",
+    "repo_url": "https://github.com/crocodilestick/calibre-web-automated",
+    "full_name": "crocodilestick/calibre-web-automated",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "books",
+      "automation"
+    ],
+    "icon": "/icons/calibre-web-automated.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 6644,
+    "tier": "tier2_webapp",
+    "summary": "Calibre-Web-Automated turns your digital book collection into a fully managed, self-hosted library that organizes and updates itself.",
+    "i18n": {
+      "it": "Calibre-Web-Automated trasforma la tua collezione di libri in una libreria digitale autogestita che si organizza e aggiorna da sola.",
+      "es": "Calibre-Web-Automated convierte tu colección de libros en una biblioteca digital autogestionada que se organiza y actualiza sola.",
+      "fr": "Calibre-Web-Automated transforme votre collection de livres en une bibliothèque numérique autonome qui s'organise et se met à jour seule.",
+      "de": "Calibre-Web-Automated macht Ihre digitale Büchersammlung zu einer vollständig verwalteten Bibliothek, die sich selbst organisiert und aktualisiert."
+    },
+    "download_url": "https://github.com/crocodilestick/Calibre-Web-Automated",
     "updated_at": "2026-11-21"
   },
   {
@@ -13047,6 +13607,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "mission-control",
+    "name": "Mission Control",
+    "tagline": "Central dashboard for your AI agents",
+    "repo_url": "https://github.com/builderz-labs/mission-control",
+    "full_name": "builderz-labs/mission-control",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/mission-control.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 6514,
+    "tier": "tier2_webapp",
+    "summary": "Mission Control provides a unified workspace to manage, monitor, and review the tasks performed by your various AI agent runtimes.",
+    "i18n": {
+      "it": "Mission Control offre uno spazio di lavoro unificato per gestire, monitorare e revisionare le attività dei tuoi agenti AI.",
+      "es": "Mission Control proporciona un espacio de trabajo unificado para gestionar, supervisar y revisar las tareas de tus agentes de IA.",
+      "fr": "Mission Control offre un espace de travail unifié pour gérer, surveiller et examiner les tâches de vos agents IA.",
+      "de": "Mission Control bietet eine einheitliche Arbeitsumgebung zur Verwaltung, Überwachung und Überprüfung von Aufgaben Ihrer KI-Agenten."
+    },
+    "download_url": "https://mc.builderz.dev",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "winbox",
     "name": "WinBox",
     "tagline": "Modern HTML5 window manager for web apps.",
@@ -13101,6 +13689,34 @@
     },
     "download_url": "https://github.com/pywinauto/pywinauto/releases/download/0.6.9/pywinauto-0.6.9-py2.py3-none-any.whl",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "soduwork",
+    "name": "SoduWork",
+    "tagline": "AI-powered team collaboration and task management",
+    "repo_url": "https://github.com/mdiri-ai/soduwork",
+    "full_name": "mdiri-ai/soduwork",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/soduwork.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 6405,
+    "tier": "tier2_webapp",
+    "summary": "SoduWork helps teams manage AI agents by setting clear goals, verifying results through automated reviews, and saving successful workflows.",
+    "i18n": {
+      "it": "SoduWork aiuta i team a gestire gli agenti AI definendo obiettivi chiari, verificando i risultati e salvando i flussi di lavoro efficaci.",
+      "es": "SoduWork ayuda a los equipos a gestionar agentes de IA estableciendo objetivos claros, verificando resultados y guardando flujos de trabajo.",
+      "fr": "SoduWork aide les équipes à gérer les agents IA en définissant des objectifs clairs, en vérifiant les résultats et en sauvegardant les méthodes.",
+      "de": "SoduWork hilft Teams bei der Verwaltung von KI-Agenten durch klare Zielvorgaben, automatisierte Ergebnisprüfungen und gespeicherte Arbeitsabläufe."
+    },
+    "download_url": "https://github.com/mdiri-ai/SoduWork/releases/download/v1.13.19/SoduWork-1.13.19-Setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "kun",
@@ -13215,6 +13831,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "rainbond",
+    "name": "Rainbond",
+    "tagline": "Simple app deployment platform",
+    "repo_url": "https://github.com/goodrain/rainbond",
+    "full_name": "goodrain/rainbond",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "app-deployment",
+      "cloud-platform"
+    ],
+    "icon": "/icons/rainbond.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 6306,
+    "tier": "tier2_webapp",
+    "summary": "Rainbond lets you run and manage your software projects on your own servers without needing to learn complex container tools.",
+    "i18n": {
+      "it": "Rainbond ti permette di eseguire e gestire i tuoi progetti software sui tuoi server senza dover imparare strumenti di container complessi.",
+      "es": "Rainbond te permite ejecutar y administrar tus proyectos de software en tus propios servidores sin necesidad de aprender herramientas de contenedores complejas.",
+      "fr": "Rainbond vous permet d’exécuter et de gérer vos projets logiciels sur vos propres serveurs sans devoir maîtriser des outils de conteneurs complexes.",
+      "de": "Rainbond ermöglicht es Ihnen, Ihre Softwareprojekte auf eigenen Servern zu betreiben und zu verwalten, ohne komplexe Container‑Werkzeuge erlernen zu müssen."
+    },
+    "download_url": "https://www.rainbond.io",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "winit",
     "name": "winit",
     "tagline": "Cross-platform window creation and management library.",
@@ -13299,6 +13943,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "cloud-torrent",
+    "name": "Cloud Torrent",
+    "tagline": "Manage and stream files remotely",
+    "repo_url": "https://github.com/jpillora/cloud-torrent",
+    "full_name": "jpillora/cloud-torrent",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "file-management",
+      "streaming"
+    ],
+    "icon": "/icons/cloud-torrent.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 6249,
+    "tier": "tier2_webapp",
+    "summary": "Cloud Torrent lets you manage your file downloads from any web browser and stream your media directly from your own server.",
+    "i18n": {
+      "it": "Cloud Torrent ti permette di gestire i download da qualsiasi browser e riprodurre i tuoi file multimediali direttamente dal tuo server.",
+      "es": "Cloud Torrent te permite gestionar tus descargas desde cualquier navegador y transmitir tus archivos multimedia directamente desde tu servidor.",
+      "fr": "Cloud Torrent vous permet de gérer vos téléchargements depuis n'importe quel navigateur et de diffuser vos médias depuis votre serveur.",
+      "de": "Cloud Torrent ermöglicht es Ihnen, Downloads über jeden Browser zu verwalten und Medien direkt von Ihrem eigenen Server zu streamen."
+    },
+    "download_url": "https://github.com/jpillora/cloud-torrent/releases/download/v0.9.4/cloud-torrent_0.9.4_linux_386.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "openblocks",
     "name": "Openblocks",
     "tagline": "Build custom business tools visually",
@@ -13327,6 +13999,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "lightdash",
+    "name": "Lightdash",
+    "tagline": "Turn your data into smart dashboards.",
+    "repo_url": "https://github.com/lightdash/lightdash",
+    "full_name": "lightdash/lightdash",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "analytics",
+      "data-visualization"
+    ],
+    "icon": "/icons/lightdash.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 6242,
+    "tier": "tier2_webapp",
+    "summary": "Lightdash helps teams build interactive charts and data reports that update automatically using your existing business information.",
+    "i18n": {
+      "it": "Lightdash aiuta i team a creare grafici e report interattivi che si aggiornano automaticamente usando le informazioni aziendali esistenti.",
+      "es": "Lightdash ayuda a los equipos a crear gráficos e informes interactivos que se actualizan automáticamente usando tu información empresarial.",
+      "fr": "Lightdash aide les équipes à créer des graphiques et des rapports interactifs qui se mettent à jour automatiquement avec vos données.",
+      "de": "Lightdash hilft Teams, interaktive Diagramme und Berichte zu erstellen, die sich automatisch mit Ihren Unternehmensdaten aktualisieren."
+    },
+    "download_url": "https://github.com/lightdash/lightdash/releases/download/3.361.0/blast-radius.json",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "dograh",
+    "name": "Dograh",
+    "tagline": "Build custom AI voice agents easily.",
+    "repo_url": "https://github.com/dograh-hq/dograh",
+    "full_name": "dograh-hq/dograh",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "voice"
+    ],
+    "icon": "/icons/dograh.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (BSD)",
+    "stars": 6240,
+    "tier": "tier2_webapp",
+    "summary": "Dograh is an open-source platform that lets you design and run your own automated voice assistants for phone calls and customer interactions.",
+    "i18n": {
+      "it": "Dograh è una piattaforma open source per progettare e gestire assistenti vocali automatizzati per chiamate e interazioni con i clienti.",
+      "es": "Dograh es una plataforma de código abierto para diseñar y ejecutar tus propios asistentes de voz automatizados para llamadas y clientes.",
+      "fr": "Dograh est une plateforme open source pour concevoir et gérer vos propres assistants vocaux automatisés pour les appels et les clients.",
+      "de": "Dograh ist eine Open-Source-Plattform zum Entwerfen und Ausführen eigener automatisierter Sprachassistenten für Anrufe und Kunden."
+    },
+    "download_url": "https://app.dograh.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "lobsterai",
     "name": "LobsterAI",
     "tagline": "Your open-source desktop AI assistant.",
@@ -13352,6 +14080,62 @@
       "de": "Ein Open-Source-Desktop-Assistent, der echte Aufgaben wie Datenanalyse und Recherchen direkt auf deinem Computer erledigt."
     },
     "download_url": "https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.20/LobsterAI--win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "cosmos-server",
+    "name": "Cosmos-Server",
+    "tagline": "Secure and simple home server management",
+    "repo_url": "https://github.com/azukaar/cosmos-server",
+    "full_name": "azukaar/cosmos-server",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "self-hosting",
+      "privacy"
+    ],
+    "icon": "/icons/cosmos-server.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 6204,
+    "tier": "tier2_webapp",
+    "summary": "Cosmos-Server provides a secure, all-in-one dashboard to manage your personal home server, applications, and data privacy with ease.",
+    "i18n": {
+      "it": "Cosmos-Server offre una dashboard sicura per gestire facilmente il tuo server domestico, le applicazioni e la privacy dei tuoi dati.",
+      "es": "Cosmos-Server ofrece un panel de control seguro para gestionar fácilmente tu servidor doméstico, tus aplicaciones y la privacidad de tus datos.",
+      "fr": "Cosmos-Server propose un tableau de bord sécurisé pour gérer facilement votre serveur domestique, vos applications et la confidentialité de vos données.",
+      "de": "Cosmos-Server bietet ein sicheres Dashboard zur einfachen Verwaltung Ihres Heimservers, Ihrer Anwendungen und Ihrer Datensicherheit."
+    },
+    "download_url": "https://github.com/azukaar/Cosmos-Server/releases/download/v0.24.0/cosmos-cloud-0.24.0-amd64.zip.md5",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "agent-autoloop",
+    "name": "Agent Autoloop",
+    "tagline": "Automate your AI agents to work independently.",
+    "repo_url": "https://github.com/kkkkhazix/agent-autoloop",
+    "full_name": "kkkkhazix/agent-autoloop",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "automation",
+      "ai"
+    ],
+    "icon": "/icons/agent-autoloop.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 6196,
+    "tier": "tier2_webapp",
+    "summary": "Agent Autoloop acts as a smart manager for your AI tools, handling tasks in the background and only interrupting you when a decision is needed.",
+    "i18n": {
+      "it": "Agent Autoloop gestisce i tuoi strumenti IA in background, intervenendo solo quando è necessaria una tua decisione.",
+      "es": "Agent Autoloop gestiona tus herramientas de IA en segundo plano, interrumpiéndote solo cuando se requiere una decisión.",
+      "fr": "Agent Autoloop gère vos outils IA en arrière-plan et ne vous sollicite que lorsqu'une décision est nécessaire.",
+      "de": "Agent Autoloop verwaltet Ihre KI-Tools im Hintergrund und unterbricht Sie nur, wenn eine Entscheidung erforderlich ist."
+    },
+    "download_url": "https://github.com/KKKKhazix/agent-autoloop/releases",
     "updated_at": "2026-11-21"
   },
   {
@@ -13467,6 +14251,90 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "vikunja",
+    "name": "Vikunja",
+    "tagline": "Your personal, private task manager",
+    "repo_url": "https://github.com/go-vikunja/vikunja",
+    "full_name": "go-vikunja/vikunja",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "organization"
+    ],
+    "icon": "/icons/vikunja.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 6133,
+    "tier": "tier2_webapp",
+    "summary": "Vikunja is a flexible task management tool that lets you organize your to-do lists exactly how you want.",
+    "i18n": {
+      "it": "Vikunja è uno strumento flessibile per organizzare le tue liste di cose da fare mantenendo i tuoi dati sempre sotto il tuo controllo.",
+      "es": "Vikunja es una herramienta flexible para organizar tus listas de tareas manteniendo tus datos siempre bajo tu propio control.",
+      "fr": "Vikunja est un outil flexible pour organiser vos listes de tâches tout en gardant vos données sous votre propre contrôle.",
+      "de": "Vikunja ist ein flexibles Tool zur Verwaltung deiner Aufgaben, mit dem du deine Daten jederzeit selbst kontrollieren kannst."
+    },
+    "download_url": "https://github.com/go-vikunja/vikunja/releases/download/v2.8.0/Vikunja.Desktop-v2.8.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ezbookkeeping",
+    "name": "ezBookkeeping",
+    "tagline": "Private and powerful personal finance tracking",
+    "repo_url": "https://github.com/mayswind/ezbookkeeping",
+    "full_name": "mayswind/ezbookkeeping",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "finance",
+      "privacy"
+    ],
+    "icon": "/icons/ezbookkeeping.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 6108,
+    "tier": "tier2_webapp",
+    "summary": "Take full control of your money with this private, self-hosted tool that helps you track spending and visualize your financial habits.",
+    "i18n": {
+      "it": "Prendi il controllo del tuo denaro con questo strumento privato e autogestito per monitorare le spese e analizzare le tue abitudini finanziarie.",
+      "es": "Toma el control total de tu dinero con esta herramienta privada y autohospedada para registrar gastos y visualizar tus hábitos financieros.",
+      "fr": "Prenez le contrôle de votre argent avec cet outil privé et auto-hébergé pour suivre vos dépenses et visualiser vos habitudes financières.",
+      "de": "Behalten Sie die volle Kontrolle über Ihr Geld mit diesem privaten, selbst gehosteten Tool zur Ausgabenverfolgung und Finanzanalyse."
+    },
+    "download_url": "https://ezbookkeeping.mayswind.net",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "lesspass",
+    "name": "LessPass",
+    "tagline": "Generate passwords without storing them",
+    "repo_url": "https://github.com/lesspass/lesspass",
+    "full_name": "lesspass/lesspass",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "security",
+      "privacy"
+    ],
+    "icon": "/icons/lesspass.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 6086,
+    "tier": "tier2_webapp",
+    "summary": "LessPass creates unique passwords on the fly using a master password, eliminating the need to sync or store your sensitive data.",
+    "i18n": {
+      "it": "LessPass crea password uniche al volo usando una password principale, eliminando la necessità di sincronizzare o salvare i tuoi dati.",
+      "es": "LessPass crea contraseñas únicas al instante usando una contraseña maestra, eliminando la necesidad de sincronizar o guardar tus datos.",
+      "fr": "LessPass crée des mots de passe uniques à la volée avec un mot de passe maître, évitant ainsi de synchroniser ou stocker vos données.",
+      "de": "LessPass erstellt einzigartige Passwörter mit einem Hauptpasswort, sodass Sie Ihre Daten nicht synchronisieren oder speichern müssen."
+    },
+    "download_url": "https://www.lesspass.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "studio",
     "name": "Studio",
     "tagline": "Manage your databases right from your browser.",
@@ -13520,6 +14388,34 @@
       "de": "Gewinnen Sie Festplattenspeicher sicher zurück, indem Sie versteckte Caches, Duplikate und App-Reste bereinigen."
     },
     "download_url": "https://github.com/harry0703/MangoDisk/releases/download/v2.1.1/MangoDisk-2.1.1-windows-cli.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "scanopy",
+    "name": "Scanopy",
+    "tagline": "Automatically map and track your network",
+    "repo_url": "https://github.com/scanopy/scanopy",
+    "full_name": "scanopy/scanopy",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "network",
+      "monitoring"
+    ],
+    "icon": "/icons/scanopy.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 5986,
+    "tier": "tier2_webapp",
+    "summary": "Scanopy creates and updates your network diagrams automatically so you never have to draw them by hand again.",
+    "i18n": {
+      "it": "Scanopy crea e aggiorna automaticamente i diagrammi di rete, eliminando la necessità di disegnarli manualmente.",
+      "es": "Scanopy crea y actualiza diagramas de red automáticamente para que no tengas que dibujarlos a mano.",
+      "fr": "Scanopy crée et met à jour automatiquement vos schémas réseau pour éviter les dessins manuels.",
+      "de": "Scanopy erstellt und aktualisiert Netzwerkdiagramme automatisch, sodass kein manuelles Zeichnen nötig ist."
+    },
+    "download_url": "https://github.com/scanopy/scanopy/releases/download/v0.20.1/scanopy-daemon-windows-amd64.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -13691,6 +14587,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "papra",
+    "name": "Papra",
+    "tagline": "Your private digital document archive",
+    "repo_url": "https://github.com/papra-hq/papra",
+    "full_name": "papra-hq/papra",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "archiving"
+    ],
+    "icon": "/icons/papra.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 5766,
+    "tier": "tier2_webapp",
+    "summary": "Papra is a simple, organized way to store, search, and manage all your important documents in one secure digital space.",
+    "i18n": {
+      "it": "Papra è un modo semplice e organizzato per archiviare, cercare e gestire tutti i tuoi documenti importanti in uno spazio digitale sicuro.",
+      "es": "Papra es una forma sencilla y organizada de almacenar, buscar y gestionar todos tus documentos importantes en un espacio digital seguro.",
+      "fr": "Papra est un moyen simple et organisé de stocker, rechercher et gérer tous vos documents importants dans un espace numérique sécurisé.",
+      "de": "Papra ist eine einfache und organisierte Möglichkeit, alle Ihre wichtigen Dokumente an einem sicheren digitalen Ort zu speichern und zu verwalten."
+    },
+    "download_url": "https://demo.papra.app",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "angular-electron",
     "name": "angular-electron",
     "tagline": "Build desktop apps with Angular and Electron",
@@ -13716,6 +14640,90 @@
       "de": "Erstellen Sie schnelle Desktop-Anwendungen mit modernen Web-Tools und nativen Systemfunktionen in einer Einrichtung."
     },
     "download_url": "https://belnadris.github.io/angular-electron/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "bento",
+    "name": "Bento",
+    "tagline": "A complete presentation suite in one file.",
+    "repo_url": "https://github.com/nyblnet/bento",
+    "full_name": "nyblnet/bento",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "presentation",
+      "productivity"
+    ],
+    "icon": "/icons/bento.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 5681,
+    "tier": "tier2_webapp",
+    "summary": "Bento is a portable presentation tool that packs the editor and viewer into a single file, letting you work entirely offline without accounts.",
+    "i18n": {
+      "it": "Bento è uno strumento portatile che racchiude editor e visualizzatore in un unico file, funzionando offline senza bisogno di account.",
+      "es": "Bento es una herramienta portátil que incluye editor y visor en un solo archivo, permitiéndote trabajar sin conexión y sin cuentas.",
+      "fr": "Bento est un outil portable qui intègre l'éditeur et le lecteur dans un seul fichier, pour travailler hors ligne sans aucun compte.",
+      "de": "Bento ist ein portables Tool, das Editor und Betrachter in einer Datei vereint und komplett offline ohne Benutzerkonto funktioniert."
+    },
+    "download_url": "https://github.com/nyblnet/bento/releases/download/v1.2.13/Bento_Slides.bento.html",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "remark42",
+    "name": "Remark42",
+    "tagline": "Private and simple website comment engine",
+    "repo_url": "https://github.com/umputun/remark42",
+    "full_name": "umputun/remark42",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-tools",
+      "privacy"
+    ],
+    "icon": "/icons/remark42.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 5653,
+    "tier": "tier2_webapp",
+    "summary": "Remark42 is a lightweight, privacy-focused comment system that lets you add discussion features to your website without tracking your visitors.",
+    "i18n": {
+      "it": "Remark42 è un sistema di commenti leggero che permette di aggiungere discussioni al tuo sito web senza tracciare i visitatori.",
+      "es": "Remark42 es un sistema de comentarios ligero que permite añadir discusiones a tu sitio web sin rastrear a tus visitantes.",
+      "fr": "Remark42 est un système de commentaires léger qui permet d'ajouter des discussions à votre site web sans suivre vos visiteurs.",
+      "de": "Remark42 ist ein leichtgewichtiges Kommentarsystem, mit dem Sie Diskussionen auf Ihrer Website hinzufügen können, ohne Besucher zu verfolgen."
+    },
+    "download_url": "https://github.com/umputun/remark42/releases/download/v1.18.0/remark42_1.18.0_checksums.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "uncloud",
+    "name": "Uncloud",
+    "tagline": "Simple container management for your servers",
+    "repo_url": "https://github.com/psviderski/uncloud",
+    "full_name": "psviderski/uncloud",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cloud",
+      "containers"
+    ],
+    "icon": "/icons/uncloud.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 5629,
+    "tier": "tier2_webapp",
+    "summary": "Uncloud lets you deploy and manage web applications across multiple servers without the complexity of traditional orchestration tools.",
+    "i18n": {
+      "it": "Uncloud ti permette di distribuire e gestire applicazioni web su più server senza la complessità degli strumenti tradizionali.",
+      "es": "Uncloud te permite desplegar y gestionar aplicaciones web en múltiples servidores sin la complejidad de las herramientas tradicionales.",
+      "fr": "Uncloud vous permet de déployer et de gérer des applications web sur plusieurs serveurs sans la complexité des outils traditionnels.",
+      "de": "Uncloud ermöglicht es Ihnen, Webanwendungen auf mehreren Servern bereitzustellen und zu verwalten, ohne die Komplexität herkömmlicher Tools."
+    },
+    "download_url": "https://github.com/psviderski/uncloud/releases/download/v0.22.0/checksums.txt",
     "updated_at": "2026-11-21"
   },
   {
@@ -13803,6 +14811,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "deskcommcrm",
+    "name": "DeskcommCRM",
+    "tagline": "Your own AI-powered sales command center.",
+    "repo_url": "https://github.com/melgarafael/deskcommcrm",
+    "full_name": "melgarafael/deskcommcrm",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "crm",
+      "ai"
+    ],
+    "icon": "/icons/deskcommcrm.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 5510,
+    "tier": "tier2_webapp",
+    "summary": "DeskcommCRM is a self-hosted sales platform that uses AI agents to manage customer conversations and sales pipelines directly on WhatsApp.",
+    "i18n": {
+      "it": "DeskcommCRM è una piattaforma di vendita che usa agenti IA per gestire conversazioni e vendite su WhatsApp, mantenendo i dati sotto il tuo controllo.",
+      "es": "DeskcommCRM es una plataforma de ventas que utiliza agentes de IA para gestionar conversaciones y ventas en WhatsApp, manteniendo tus datos bajo tu control.",
+      "fr": "DeskcommCRM est une plateforme de vente utilisant des agents IA pour gérer les conversations et les ventes sur WhatsApp, tout en gardant vos données privées.",
+      "de": "DeskcommCRM ist eine Verkaufsplattform, die KI-Agenten zur Verwaltung von WhatsApp-Gesprächen nutzt und Ihnen die volle Kontrolle über Ihre Daten gibt."
+    },
+    "download_url": "https://deskcomm.com.br",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "loopforge",
+    "name": "LoopForge",
+    "tagline": "Standardize software delivery with coding agents",
+    "repo_url": "https://github.com/tencent/loopforge",
+    "full_name": "tencent/loopforge",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "automation",
+      "development"
+    ],
+    "icon": "/icons/loopforge.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 5494,
+    "tier": "tier2_webapp",
+    "summary": "LoopForge provides a secure, self-hosted workspace to manage and automate software development tasks using intelligent coding assistants.",
+    "i18n": {
+      "it": "LoopForge offre uno spazio di lavoro sicuro e autogestito per automatizzare i compiti di programmazione tramite assistenti intelligenti.",
+      "es": "LoopForge ofrece un espacio de trabajo seguro y autohospedado para gestionar y automatizar tareas de desarrollo con asistentes de código.",
+      "fr": "LoopForge fournit un espace de travail sécurisé et auto-hébergé pour gérer et automatiser les tâches de développement via des assistants.",
+      "de": "LoopForge bietet einen sicheren, selbst gehosteten Arbeitsbereich zur Verwaltung und Automatisierung von Programmieraufgaben durch KI-Assistenten."
+    },
+    "download_url": "https://loopforge.cn",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "toga",
     "name": "Toga",
     "tagline": "Build native app interfaces using Python.",
@@ -13829,6 +14893,146 @@
     },
     "download_url": "https://github.com/beeware/toga/releases/download/v0.5.7/toga-0.5.7-py3-none-any.whl",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "sun-panel",
+    "name": "Sun-Panel",
+    "tagline": "Organize your server and NAS links",
+    "repo_url": "https://github.com/hslr-s/sun-panel",
+    "full_name": "hslr-s/sun-panel",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "dashboard",
+      "nas"
+    ],
+    "icon": "/icons/sun-panel.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 5389,
+    "tier": "tier2_webapp",
+    "summary": "Sun-Panel is a visual dashboard that helps you organize all your web links, server tools, and network services in one clean, easy-to-use homepage.",
+    "i18n": {
+      "it": "Sun-Panel è una dashboard visiva che ti aiuta a organizzare tutti i tuoi link web, strumenti server e servizi di rete in un'unica pagina iniziale.",
+      "es": "Sun-Panel es un panel visual que te ayuda a organizar todos tus enlaces web, herramientas de servidor y servicios en una página de inicio limpia.",
+      "fr": "Sun-Panel est un tableau de bord visuel qui vous aide à organiser tous vos liens web, outils serveur et services réseau sur une page d'accueil claire.",
+      "de": "Sun-Panel ist ein visuelles Dashboard, mit dem Sie alle Ihre Weblinks, Server-Tools und Netzwerkdienste auf einer übersichtlichen Startseite verwalten."
+    },
+    "download_url": "https://doc.sun-panel.top",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "olares",
+    "name": "Olares",
+    "tagline": "Your private AI-powered cloud platform",
+    "repo_url": "https://github.com/beclab/olares",
+    "full_name": "beclab/olares",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "cloud"
+    ],
+    "icon": "/icons/olares.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 5373,
+    "tier": "tier2_webapp",
+    "summary": "Olares turns your own hardware into a private, easy-to-use cloud system for running AI agents and managing your digital life.",
+    "i18n": {
+      "it": "Olares trasforma il tuo hardware in un sistema cloud privato per gestire agenti IA e i tuoi dati personali in totale autonomia.",
+      "es": "Olares convierte tu propio hardware en un sistema de nube privado para ejecutar agentes de IA y gestionar tu vida digital.",
+      "fr": "Olares transforme votre matériel en un système cloud privé pour exécuter des agents IA et gérer vos données personnelles.",
+      "de": "Olares verwandelt Ihre eigene Hardware in ein privates Cloud-System, um KI-Agenten auszuführen und Ihre Daten sicher zu verwalten."
+    },
+    "download_url": "https://github.com/beclab/Olares/releases/download/1.12.8/install.ps1",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "dossier",
+    "name": "Dossier",
+    "tagline": "Manage your job search in one place",
+    "repo_url": "https://github.com/aientech/dossier",
+    "full_name": "aientech/dossier",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "career"
+    ],
+    "icon": "/icons/dossier.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 5351,
+    "tier": "tier2_webapp",
+    "summary": "Dossier helps you organize your career history and automatically creates tailored resumes and cover letters for every job application.",
+    "i18n": {
+      "it": "Dossier organizza la tua carriera e crea automaticamente curriculum e lettere di presentazione su misura per ogni candidatura.",
+      "es": "Dossier organiza tu historial profesional y redacta automáticamente currículums y cartas de presentación adaptadas a cada oferta.",
+      "fr": "Dossier organise votre parcours professionnel et rédige automatiquement des CV et lettres de motivation adaptés à chaque poste.",
+      "de": "Dossier organisiert Ihren beruflichen Werdegang und erstellt automatisch maßgeschneiderte Lebensläufe und Anschreiben für jede Bewerbung."
+    },
+    "download_url": "https://github.com/AienTech/dossier/releases/download/v1.15.1/Dossier-1.15.1-win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "isso",
+    "name": "Isso",
+    "tagline": "Lightweight, private-first website commenting system",
+    "repo_url": "https://github.com/isso-comments/isso",
+    "full_name": "isso-comments/isso",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-tools",
+      "privacy"
+    ],
+    "icon": "/icons/isso.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 5314,
+    "tier": "tier2_webapp",
+    "summary": "Isso provides a simple, privacy-focused way to add a comment section to your website without tracking your visitors.",
+    "i18n": {
+      "it": "Isso offre un modo semplice e rispettoso della privacy per aggiungere una sezione commenti al tuo sito senza tracciare i visitatori.",
+      "es": "Isso ofrece una forma sencilla y privada de añadir una sección de comentarios a tu sitio web sin rastrear a tus visitantes.",
+      "fr": "Isso offre un moyen simple et respectueux de la vie privée d'ajouter une section de commentaires à votre site sans suivre vos visiteurs.",
+      "de": "Isso bietet eine einfache und datenschutzfreundliche Möglichkeit, einen Kommentarbereich auf Ihrer Website hinzuzufügen, ohne Besucher zu verfolgen."
+    },
+    "download_url": "https://isso-comments.de",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "youtube-automation-agent",
+    "name": "YouTube Automation Agent",
+    "tagline": "Your personal AI assistant for YouTube",
+    "repo_url": "https://github.com/darkzogx/youtube-automation-agent",
+    "full_name": "darkzogx/youtube-automation-agent",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "automation",
+      "video-creation"
+    ],
+    "icon": "/icons/youtube-automation-agent.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 5302,
+    "tier": "tier2_webapp",
+    "summary": "This tool helps you manage a YouTube channel by researching topics, writing scripts, and creating videos while keeping you in full control.",
+    "i18n": {
+      "it": "Questo strumento ti aiuta a gestire un canale YouTube ricercando argomenti, scrivendo script e creando video sotto il tuo controllo.",
+      "es": "Esta herramienta te ayuda a gestionar un canal de YouTube investigando temas, escribiendo guiones y creando vídeos bajo tu control.",
+      "fr": "Cet outil vous aide à gérer une chaîne YouTube en recherchant des sujets, en écrivant des scripts et en créant des vidéos sous votre contrôle.",
+      "de": "Dieses Tool hilft Ihnen bei der Verwaltung eines YouTube-Kanals, indem es Themen recherchiert, Skripte schreibt und Videos unter Ihrer Kontrolle erstellt."
+    },
+    "download_url": "https://github.com/darkzOGx/youtube-automation-agent#readme",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "saws",
@@ -13943,6 +15147,174 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "homelable",
+    "name": "Homelable",
+    "tagline": "Visualize and manage your home network",
+    "repo_url": "https://github.com/pouzor/homelable",
+    "full_name": "pouzor/homelable",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "network",
+      "monitoring"
+    ],
+    "icon": "/icons/homelable.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 5243,
+    "tier": "tier2_webapp",
+    "summary": "Homelable helps you map, document, and monitor all the devices and services running on your home network in one central place.",
+    "i18n": {
+      "it": "Homelable ti aiuta a mappare, documentare e monitorare tutti i dispositivi e i servizi della tua rete domestica in un unico posto.",
+      "es": "Homelable te ayuda a mapear, documentar y monitorear todos los dispositivos y servicios de tu red doméstica en un solo lugar.",
+      "fr": "Homelable vous aide à cartographier, documenter et surveiller tous les appareils et services de votre réseau domestique au même endroit.",
+      "de": "Homelable hilft Ihnen dabei, alle Geräte und Dienste in Ihrem Heimnetzwerk an einem zentralen Ort zu erfassen, zu dokumentieren und zu überwachen."
+    },
+    "download_url": "https://homelable.net",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "astron-rpa",
+    "name": "AstronRPA",
+    "tagline": "Automate repetitive tasks with visual workflows.",
+    "repo_url": "https://github.com/iflytek/astron-rpa",
+    "full_name": "iflytek/astron-rpa",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "automation",
+      "productivity"
+    ],
+    "icon": "/icons/astron-rpa.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 5238,
+    "tier": "tier2_webapp",
+    "summary": "AstronRPA helps you build automated workflows for desktop and web tasks without needing to write complex code.",
+    "i18n": {
+      "it": "AstronRPA ti aiuta a creare flussi di lavoro automatizzati per attività desktop e web senza scrivere codice complesso.",
+      "es": "AstronRPA te ayuda a crear flujos de trabajo automatizados para tareas de escritorio y web sin necesidad de escribir código complejo.",
+      "fr": "AstronRPA vous aide à créer des flux de travail automatisés pour vos tâches de bureau et web sans avoir à écrire de code complexe.",
+      "de": "AstronRPA hilft Ihnen beim Erstellen automatisierter Arbeitsabläufe für Desktop- und Webaufgaben, ohne dass Sie komplexen Code schreiben müssen."
+    },
+    "download_url": "https://github.com/iflytek/astron-rpa/releases/download/v1.1.7/astron-rpa-1.1.7-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "colanode",
+    "name": "Colanode",
+    "tagline": "Private, local-first team collaboration workspace.",
+    "repo_url": "https://github.com/colanode/colanode",
+    "full_name": "colanode/colanode",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "collaboration",
+      "productivity"
+    ],
+    "icon": "/icons/colanode.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 5215,
+    "tier": "tier2_webapp",
+    "summary": "Colanode is a secure, all-in-one platform for team messaging, document creation, and project management that keeps your data under your control.",
+    "i18n": {
+      "it": "Colanode è una piattaforma sicura per messaggistica, documenti e gestione progetti che ti permette di mantenere il controllo dei tuoi dati.",
+      "es": "Colanode es una plataforma segura para mensajería, documentos y gestión de proyectos que te permite mantener el control de tus datos.",
+      "fr": "Colanode est une plateforme sécurisée pour la messagerie, les documents et la gestion de projets qui vous permet de garder le contrôle de vos données.",
+      "de": "Colanode ist eine sichere Plattform für Nachrichten, Dokumente und Projektmanagement, mit der Sie die volle Kontrolle über Ihre Daten behalten."
+    },
+    "download_url": "https://github.com/colanode/colanode/releases/download/v0.4.7/Colanode-0.4.7.Setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "libreddit",
+    "name": "Libreddit",
+    "tagline": "A private, ad-free way to browse Reddit.",
+    "repo_url": "https://github.com/libreddit/libreddit",
+    "full_name": "libreddit/libreddit",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "privacy",
+      "web-tools"
+    ],
+    "icon": "/icons/libreddit.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 5198,
+    "tier": "tier2_webapp",
+    "summary": "Libreddit provides a lightweight, private interface for viewing content without tracking, advertisements, or unnecessary data collection.",
+    "i18n": {
+      "it": "Libreddit offre un'interfaccia leggera e privata per visualizzare i contenuti senza tracciamento, pubblicità o raccolta dati superflua.",
+      "es": "Libreddit ofrece una interfaz ligera y privada para ver contenido sin rastreo, publicidad ni recopilación innecesaria de datos.",
+      "fr": "Libreddit offre une interface légère et privée pour consulter du contenu sans suivi, publicité ou collecte de données inutile.",
+      "de": "Libreddit bietet eine leichtgewichtige und private Oberfläche, um Inhalte ohne Tracking, Werbung oder unnötige Datensammlung anzusehen."
+    },
+    "download_url": "https://github.com/libreddit/libreddit/releases/download/v0.30.1/libreddit",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "mediacms",
+    "name": "MediaCMS",
+    "tagline": "Your own private video sharing platform",
+    "repo_url": "https://github.com/mediacms-io/mediacms",
+    "full_name": "mediacms-io/mediacms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "video-hosting",
+      "media-management"
+    ],
+    "icon": "/icons/mediacms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 5198,
+    "tier": "tier2_webapp",
+    "summary": "MediaCMS allows you to host and manage your own video and media library without relying on big commercial platforms.",
+    "i18n": {
+      "it": "MediaCMS ti permette di ospitare e gestire la tua libreria video in totale autonomia senza dipendere da grandi piattaforme commerciali.",
+      "es": "MediaCMS te permite alojar y gestionar tu propia biblioteca de videos sin depender de grandes plataformas comerciales.",
+      "fr": "MediaCMS vous permet d'héberger et de gérer votre propre bibliothèque vidéo sans dépendre des grandes plateformes commerciales.",
+      "de": "MediaCMS ermöglicht es Ihnen, Ihre eigene Video- und Medienbibliothek zu hosten, ohne auf große kommerzielle Plattformen angewiesen zu sein."
+    },
+    "download_url": "https://mediacms.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kimai",
+    "name": "Kimai",
+    "tagline": "Professional time tracking for everyone",
+    "repo_url": "https://github.com/kimai/kimai",
+    "full_name": "kimai/kimai",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "time-tracking"
+    ],
+    "icon": "/icons/kimai.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 5172,
+    "tier": "tier2_webapp",
+    "summary": "Kimai is a flexible time-tracking tool that helps you manage project hours, generate detailed reports, and create professional invoices.",
+    "i18n": {
+      "it": "Kimai è uno strumento flessibile per gestire le ore di lavoro, creare report dettagliati e generare fatture professionali.",
+      "es": "Kimai es una herramienta flexible para gestionar horas de proyectos, generar informes detallados y crear facturas profesionales.",
+      "fr": "Kimai est un outil flexible pour gérer vos heures de projet, générer des rapports détaillés et créer des factures professionnelles.",
+      "de": "Kimai ist ein flexibles Werkzeug zur Verwaltung von Projektzeiten, Erstellung detaillierter Berichte und professioneller Rechnungen."
+    },
+    "download_url": "https://www.kimai.org",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "desktopnaotu",
     "name": "DesktopNaotu",
     "tagline": "Offline desktop mind mapping tool",
@@ -13968,6 +15340,34 @@
       "de": "Erstellen und organisieren Sie Mindmaps lokal ohne Internetverbindung."
     },
     "download_url": "https://github.com/NaoTu/DesktopNaotu/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "whodb",
+    "name": "WhoDB",
+    "tagline": "A simple, visual workspace for databases",
+    "repo_url": "https://github.com/clidey/whodb",
+    "full_name": "clidey/whodb",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "database",
+      "productivity"
+    ],
+    "icon": "/icons/whodb.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 5065,
+    "tier": "tier2_webapp",
+    "summary": "WhoDB provides a unified, easy-to-use interface for exploring, editing, and managing your database information in one place.",
+    "i18n": {
+      "it": "WhoDB offre un'interfaccia unificata e intuitiva per esplorare, modificare e gestire i dati dei tuoi database in un unico posto.",
+      "es": "WhoDB ofrece una interfaz unificada y fácil de usar para explorar, editar y gestionar la información de sus bases de datos en un solo lugar.",
+      "fr": "WhoDB offre une interface unifiée et facile à utiliser pour explorer, modifier et gérer vos données de base de données en un seul endroit.",
+      "de": "WhoDB bietet eine einheitliche und benutzerfreundliche Oberfläche, um Ihre Datenbankinformationen an einem Ort zu erkunden, zu bearbeiten und zu verwalten."
+    },
+    "download_url": "https://github.com/clidey/whodb/releases/download/0.139.0/whodb-cli-windows-amd64.exe",
     "updated_at": "2026-11-21"
   },
   {

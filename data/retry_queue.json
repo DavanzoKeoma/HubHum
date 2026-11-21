@@ -61,5 +61,12 @@
     "html_url": "https://github.com/coaidev/coai",
     "reason": "tier1_gemini: call error (Invalid IPv6 URL) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-21T19:51:36.364589+00:00"
+  },
+  {
+    "full_name": "baserow/baserow",
+    "slug": "baserow",
+    "html_url": "https://github.com/baserow/baserow",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'Baserow est une plateforme intuitive qui vous permet d'organiser vos données, d'automatiser vos tâches et de créer des applications via une interface simple.') | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-21T19:57:28.371777+00:00"
   }
 ]
