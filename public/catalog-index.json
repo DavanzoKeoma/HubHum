@@ -175,6 +175,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "cc-switch",
+    "name": "CC Switch",
+    "repo_url": "https://github.com/farion1231/cc-switch",
+    "full_name": "farion1231/cc-switch",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/cc-switch.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 156134,
+    "tier": "tier1_gui",
+    "summary": "Switch between different AI service providers with a single click and organize your prompts, plugins, and helper tools in one unified dashboard.",
+    "i18n": {
+      "it": "Passa da un fornitore di intelligenza artificiale all'altro con un solo clic e organizza prompt e strumenti in un unico pannello.",
+      "es": "Cambia entre diferentes proveedores de IA con un solo clic y organiza tus prompts y herramientas en un panel unificado.",
+      "fr": "Basculez entre différents fournisseurs d'intelligence artificielle en un clic et organisez vos prompts dans un tableau de bord.",
+      "de": "Wechseln Sie mit nur einem Klick zwischen verschiedenen KI-Diensten und verwalten Sie Ihre Prompts in einem Dashboard."
+    },
+    "download_url": "https://github.com/farion1231/cc-switch/releases/download/v4.0.37/CC-Switch-v4.0.37-Windows-arm64.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "ui-ux-pro-max-skill",
     "name": "UI UX Pro Max Skill",
     "repo_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
@@ -348,6 +373,31 @@
     },
     "download_url": "https://geminicli.com",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "open-design",
+    "name": "open-design",
+    "repo_url": "https://github.com/nexu-io/open-design",
+    "full_name": "nexu-io/open-design",
+    "category": "Graphics & Design",
+    "tags": [
+      "ai",
+      "design"
+    ],
+    "icon": "/icons/open-design.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 108776,
+    "tier": "tier1_gui",
+    "summary": "Create websites, prototypes, motion graphics, and presentations with your team and coding agents in one open workspace.",
+    "i18n": {
+      "it": "Crea siti web, prototipi e presentazioni con il tuo team e agenti di intelligenza artificiale in un unico spazio.",
+      "es": "Crea sitios web, prototipos y presentaciones con tu equipo y agentes de inteligencia artificial en un solo espacio.",
+      "fr": "Créez des sites web, des prototypes et des présentations avec votre équipe et des agents IA dans un espace unique.",
+      "de": "Erstellen Sie Websites, Prototypen und Präsentationen mit Ihrem Team und KI-Agenten in einem einzigen Arbeitsbereich."
+    },
+    "download_url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.27.2/open-design-0.27.2-win-x64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "terminal",
@@ -1123,6 +1173,31 @@
     },
     "download_url": "https://github.com/wagoodman/dive/releases/download/v0.13.1/dive_0.13.1_linux_amd64.deb",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "repo_url": "https://github.com/lencx/chatgpt",
+    "full_name": "lencx/chatgpt",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "chat"
+    ],
+    "icon": "/icons/chatgpt.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 54673,
+    "tier": "tier1_gui",
+    "summary": "Access popular artificial intelligence assistants right from your computer desktop without opening a web browser.",
+    "i18n": {
+      "it": "Accedi agli assistenti di intelligenza artificiale direttamente dal desktop del tuo computer senza aprire un browser web.",
+      "es": "Accede a asistentes de inteligencia artificial directamente desde el escritorio de tu ordenador sin abrir un navegador.",
+      "fr": "Accédez à des assistants d'intelligence artificielle directement depuis votre bureau d'ordinateur sans ouvrir de navigateur.",
+      "de": "Greifen Sie direkt von Ihrem Computer-Desktop aus auf künstliche Intelligenz zu, ohne einen Webbrowser öffnen zu müssen."
+    },
+    "download_url": "https://github.com/lencx/ChatGPT/releases/download/v1.1.0/ChatGPT_1.1.0_windows_x86_64.msi",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "obsidian-skills",
@@ -2500,6 +2575,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "pear-desktop",
+    "name": "Pear Desktop",
+    "repo_url": "https://github.com/pear-devs/pear-desktop",
+    "full_name": "pear-devs/pear-desktop",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "desktop"
+    ],
+    "icon": "/icons/pear-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 34107,
+    "tier": "tier1_gui",
+    "summary": "Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer.",
+    "i18n": {
+      "it": "Pear Desktop offre un'esperienza musicale nativa e dedicata, con temi personalizzati e supporto per potenti plugin sul tuo computer.",
+      "es": "Pear Desktop ofrece una experiencia de reproductor de música nativa y dedicada con temas personalizados y soporte para complementos.",
+      "fr": "Pear Desktop offre une expérience de lecteur de musique native avec des thèmes personnalisés et la prise en charge de plugins.",
+      "de": "Pear Desktop bietet ein dediziertes, natives Musikplayer-Erlebnis mit benutzerdefinierten Themen und starker Plugin-Unterstützung."
+    },
+    "download_url": "https://github.com/pear-devs/pear-desktop/releases/download/v3.12.1/YouTube-Music-3.12.1.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "claude-code-templates",
     "name": "claude-code-templates",
     "repo_url": "https://github.com/davila7/claude-code-templates",
@@ -2823,6 +2923,31 @@
     },
     "download_url": "https://www.egui.rs/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "devtoys",
+    "name": "DevToys",
+    "repo_url": "https://github.com/devtoys-app/devtoys",
+    "full_name": "devtoys-app/devtoys",
+    "category": "Productivity",
+    "tags": [
+      "developer-tools",
+      "utilities"
+    ],
+    "icon": "/icons/devtoys.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 32299,
+    "tier": "tier1_gui",
+    "summary": "An all-in-one desktop utility that handles dozens of daily coding and formatting tasks right from your clipboard.",
+    "i18n": {
+      "it": "Un'utilità desktop all-in-one che gestisce decine di attività quotidiane di codifica e formattazione direttamente dagli appunti.",
+      "es": "Una utilidad de escritorio todo en uno que maneja docenas de tareas diarias de codificación y formato directamente desde el portapapeles.",
+      "fr": "Un utilitaire de bureau tout-en-un qui gère des dizaines de tâches quotidiennes de codage et de formatage directement depuis le presse-papiers.",
+      "de": "Ein praktisches Desktop-Werkzeug für Dutzende tägliche Programmier- und Formatierungsaufgaben direkt aus der Zwischenablage."
+    },
+    "download_url": "https://github.com/DevToys-app/DevToys/releases/download/v1.0.13.0/64360VelerSoftware.DevToys_1.0.13.0_neutral_._j80j2txgjg9dj.msixbundle",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "dokku",
@@ -3875,6 +4000,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "responsively-app",
+    "name": "Responsively App",
+    "repo_url": "https://github.com/responsively-org/responsively-app",
+    "full_name": "responsively-org/responsively-app",
+    "category": "Productivity",
+    "tags": [
+      "web-development",
+      "responsive-design"
+    ],
+    "icon": "/icons/responsively-app.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 25575,
+    "tier": "tier1_gui",
+    "summary": "Preview your website designs simultaneously across dozens of different phone and tablet screens in one unified window.",
+    "i18n": {
+      "it": "Visualizza i tuoi progetti web simultaneamente su decine di schermi diversi di smartphone e tablet in un'unica finestra.",
+      "es": "Previsualiza tus diseños web simultáneamente en decenas de pantallas diferentes de teléfonos y tabletas en una ventana.",
+      "fr": "Prévisualisez vos créations web simultanément sur des dizaines d'écrans de téléphones et tablettes dans une seule fenêtre.",
+      "de": "Vorschau Ihrer Webdesigns gleichzeitig auf Dutzenden verschiedener Handy- und Tablett-Bildschirmen in einem einzigen Fenster."
+    },
+    "download_url": "https://responsively.app",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "tmux",
     "name": "Oh my tmux!",
     "repo_url": "https://github.com/gpakosz/.tmux",
@@ -4048,6 +4198,31 @@
     },
     "download_url": "https://github.com/navidrome/navidrome/releases/download/v0.64.2/navidrome_0.64.2_windows_386_installer.msi",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "bongocat",
+    "name": "BongoCat",
+    "repo_url": "https://github.com/ayangweb/bongocat",
+    "full_name": "ayangweb/bongocat",
+    "category": "Productivity",
+    "tags": [
+      "desktop",
+      "pet"
+    ],
+    "icon": "/icons/bongocat.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 24714,
+    "tier": "tier1_gui",
+    "summary": "An interactive desktop cat companion that sits on your screen, following your mouse and reacting to every keyboard stroke or gamepad press.",
+    "i18n": {
+      "it": "Un simpatico gatto interattivo sul desktop che segue il mouse e reagisce a ogni tasto premuto sulla tastiera.",
+      "es": "Una mascota interactiva en el escritorio que sigue tu ratón y reacciona a cada pulsación de tecla.",
+      "fr": "Un compagnon de bureau interactif qui suit votre souris et réagit à chaque touche de clavier.",
+      "de": "Ein interaktiver Desktop-Begleiter, der Ihrer Maus folgt und auf jede Tastatureingabe reagiert."
+    },
+    "download_url": "https://github.com/ayangweb/BongoCat/releases/download/v2.4.1/BongoCat_2.4.1_x64.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "slint",
@@ -5075,6 +5250,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ab-download-manager",
+    "name": "AB Download Manager",
+    "repo_url": "https://github.com/amir1376/ab-download-manager",
+    "full_name": "amir1376/ab-download-manager",
+    "category": "Productivity",
+    "tags": [
+      "download-manager",
+      "productivity"
+    ],
+    "icon": "/icons/ab-download-manager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 19436,
+    "tier": "tier1_gui",
+    "summary": "A modern desktop and mobile application that dramatically increases your download speeds and neatly organizes your files.",
+    "i18n": {
+      "it": "A modern desktop and mobile application that dramatically increases your download speeds and neatly organizes your files.",
+      "es": "A modern desktop and mobile application that dramatically increases your download speeds and neatly organizes your files.",
+      "fr": "A modern desktop and mobile application that dramatically increases your download speeds and neatly organizes your files.",
+      "de": "A modern desktop and mobile application that dramatically increases your download speeds and neatly organizes your files."
+    },
+    "download_url": "https://github.com/amir1376/ab-download-manager/releases/download/v1.11.4/ABDownloadManager_1.11.4_windows_arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "spotify-tui",
     "name": "spotify-tui",
     "repo_url": "https://github.com/rigellute/spotify-tui",
@@ -5148,6 +5348,31 @@
     },
     "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi",
     "updated_at": "2026-11-18"
+  },
+  {
+    "slug": "nuclear",
+    "name": "Nuclear",
+    "repo_url": "https://github.com/nukeop/nuclear",
+    "full_name": "nukeop/nuclear",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "player"
+    ],
+    "icon": "/icons/nuclear.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 18978,
+    "tier": "tier1_gui",
+    "summary": "Enjoy music without ads or tracking.",
+    "i18n": {
+      "it": "Goditi la musica senza pubblicità o tracciamento.",
+      "es": "Disfruta música sin anuncios ni rastreo.",
+      "fr": "Profitez de la musique sans publicités ni suivi.",
+      "de": "Genieße Musik ohne Werbung oder Tracking."
+    },
+    "download_url": "https://github.com/nukeop/nuclear/releases/download/player%401.56.4/Nuclear_1.56.4_x64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "maxun",
@@ -5700,6 +5925,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "cc-haha",
+    "name": "cc-haha",
+    "repo_url": "https://github.com/nanmicoder/cc-haha",
+    "full_name": "nanmicoder/cc-haha",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "developer-tools"
+    ],
+    "icon": "/icons/cc-haha.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 15503,
+    "tier": "tier1_gui",
+    "summary": "An all-in-one desktop and mobile workspace for managing AI coding assistants, multi-agent teams, and automated workflows locally.",
+    "i18n": {
+      "it": "Un ambiente di lavoro desktop e mobile all-in-one per gestire assistenti di codifica IA, team multi-agente e flussi di lavoro.",
+      "es": "Un entorno de trabajo de escritorio y móvil todo en uno para gestionar asistentes de programación de IA y equipos de agentes.",
+      "fr": "Un espace de travail de bureau et mobile tout-en-un pour gérer des assistants de code IA, des équipes d'agents et des tâches.",
+      "de": "Ein All-in-One-Desktop- und Mobil-Arbeitsplatz zur Verwaltung von KI-Programmierassistenten und automatisierten Arbeitsabläufen."
+    },
+    "download_url": "https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.9/Claude-Code-Haha-0.7.9-Windows-arm64-Setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "rd-agent",
     "name": "RD-Agent",
     "repo_url": "https://github.com/microsoft/rd-agent",
@@ -6050,6 +6300,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "autoclip",
+    "name": "autoclip",
+    "repo_url": "https://github.com/zhouxiaoka/autoclip",
+    "full_name": "zhouxiaoka/autoclip",
+    "category": "Video & Audio",
+    "tags": [
+      "video-editing",
+      "ai"
+    ],
+    "icon": "/icons/autoclip.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 12533,
+    "tier": "tier1_gui",
+    "summary": "Convert lengthy podcasts, interviews, and courses into bite-sized social media clips complete with captions and cover art automatically on your computer.",
+    "i18n": {
+      "it": "Converti podcast e interviste in brevi clip per i social con sottotitoli automatici direttamente sul tuo computer.",
+      "es": "Transforma podcasts y entrevistas en clips cortos para redes sociales con subtítulos automáticos en tu propia computadora.",
+      "fr": "Convertissez des podcasts et entretiens en courts clips pour les réseaux sociaux avec sous-titres automatiques.",
+      "de": "Verwandeln Sie Podcasts und Interviews ganz einfach in kurze Social-Media-Clips mit automatischen Untertiteln."
+    },
+    "download_url": "https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "escrcpy",
     "name": "escrcpy",
     "repo_url": "https://github.com/viarotel-org/escrcpy",
@@ -6225,6 +6500,31 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "listen1-desktop",
+    "name": "listen1_desktop",
+    "repo_url": "https://github.com/listen1/listen1_desktop",
+    "full_name": "listen1/listen1_desktop",
+    "category": "Productivity",
+    "tags": [
+      "music",
+      "desktop"
+    ],
+    "icon": "/icons/listen1-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 11451,
+    "tier": "tier1_gui",
+    "summary": "Enjoy seamless access to your favorite songs from multiple music providers in one unified desktop application.",
+    "i18n": {
+      "it": "Goditi un accesso semplice ai tuoi brani preferiti da più piattaforme musicali in un'unica applicazione desktop.",
+      "es": "Disfruta de un acceso fluido a tus canciones favoritas de múltiples proveedores musicales en una sola aplicación.",
+      "fr": "Profitez d'un accès fluide à vos chansons préférées de multiples fournisseurs de musique sur une seule application.",
+      "de": "Genießen Sie den nahtlosen Zugriff auf Ihre Lieblingssongs von mehreren Musikdiensten in einer einzigen App."
+    },
+    "download_url": "https://github.com/listen1/listen1_desktop/releases/download/v2.33.0/listen1_2.33.0_win.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "mac-mouse-fix",
     "name": "Mac Mouse Fix",
     "repo_url": "https://github.com/noah-nuebling/mac-mouse-fix",
@@ -6373,6 +6673,31 @@
     },
     "download_url": "https://github.com/claudiodangelis/qrcp/releases/download/v0.11.7/qrcp_0.11.7_linux_386.deb",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "reactide",
+    "name": "reactide",
+    "repo_url": "https://github.com/reactide/reactide",
+    "full_name": "reactide/reactide",
+    "category": "Productivity",
+    "tags": [
+      "ide",
+      "development"
+    ],
+    "icon": "/icons/reactide.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 10485,
+    "tier": "tier1_gui",
+    "summary": "Reactide is a specialized desktop application that streamlines React development with live code reloading, integrated servers, and visual state mapping.",
+    "i18n": {
+      "it": "Reactide è un programma desktop specializzato che semplifica lo sviluppo in React con ricaricamento dal vivo e mappa visiva dello stato.",
+      "es": "Reactide es una aplicación de escritorio especializada que agiliza el desarrollo en React con recarga en vivo y mapas de estado visuales.",
+      "fr": "Reactide est une application de bureau spécialisée qui simplifie le développement React avec rechargement en direct et arbres de composants.",
+      "de": "Reactide ist eine spezialisierte Desktop-Anwendung, die die React-Entwicklung mit Live-Reloading und visueller Zustandszuordnung vereinfacht."
+    },
+    "download_url": "https://github.com/reactide/reactide/releases/download/v3.0-beta/Reactide-3.0.0.dmg",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "easydiffusion",
@@ -9299,6 +9624,106 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "nodezator",
+    "name": "Nodezator",
+    "repo_url": "https://github.com/indiesmiths/nodezator",
+    "full_name": "indiesmiths/nodezator",
+    "category": "Productivity",
+    "tags": [
+      "node-editor",
+      "visual-programming"
+    ],
+    "icon": "/icons/nodezator.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2796,
+    "tier": "tier1_gui",
+    "summary": "Connect Python functions visually to create flexible workflows, then export your layouts directly back into clean Python code.",
+    "i18n": {
+      "it": "Collega le funzioni Python visivamente per creare flussi di lavoro flessibili ed esporta i layout direttamente in codice pulito.",
+      "es": "Conecta funciones de Python visualmente para crear flujos flexibles y exporta tus diseños directamente a código limpio.",
+      "fr": "Connectez des fonctions Python visuellement pour créer des flux flexibles et exportez vos dispositions en code propre.",
+      "de": "Verbinden Sie Python-Funktionen visuell für flexible Arbeitsabläufe und exportieren Sie Layouts direkt als sauberen Code."
+    },
+    "download_url": "https://nodezator.com",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "spleetergui",
+    "name": "SpleeterGui",
+    "repo_url": "https://github.com/boy1dr/spleetergui",
+    "full_name": "boy1dr/spleetergui",
+    "category": "Productivity",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "icon": "/icons/spleetergui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2751,
+    "tier": "tier1_gui",
+    "summary": "SpleeterGui allows you to split any song into separate vocal and instrumental tracks using simple drag-and-drop controls on your Windows computer.",
+    "i18n": {
+      "it": "SpleeterGui ti permette di dividere ogni brano in tracce vocali e strumentali separate usando semplici controlli su Windows.",
+      "es": "SpleeterGui te permite dividir cualquier canción en pistas vocales e instrumentales separadas mediante controles sencillos en Windows.",
+      "fr": "SpleeterGui vous permet de diviser n'importe quelle chanson en pistes vocales et instrumentales distinctes sur votre ordinateur Windows.",
+      "de": "SpleeterGui ermöglicht es Ihnen, jeden Song mit einfachen Steuerelementen unter Windows in separate Gesangs- und Instrumentenspuren zu zerlegen."
+    },
+    "download_url": "https://github.com/boy1dr/SpleeterGui/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ariang-native",
+    "name": "AriaNg-Native",
+    "repo_url": "https://github.com/mayswind/ariang-native",
+    "full_name": "mayswind/ariang-native",
+    "category": "Productivity",
+    "tags": [
+      "downloads",
+      "manager"
+    ],
+    "icon": "/icons/ariang-native.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2728,
+    "tier": "tier1_gui",
+    "summary": "A powerful desktop application that lets you manage and control your file downloads cleanly without needing a web browser.",
+    "i18n": {
+      "it": "Una potente applicazione desktop che consente di gestire e controllare i download di file senza bisogno di un browser web.",
+      "es": "Una potente aplicación de escritorio que te permite gestionar y controlar tus descargas de archivos sin usar un navegador web.",
+      "fr": "Une puissante application de bureau qui vous permet de gérer et de contrôler vos téléchargements de fichiers sans navigateur.",
+      "de": "Eine leistungsstarke Desktop-Anwendung, mit der Sie Dateidownloads ganz ohne Webbrowser bequem verwalten und steuern können."
+    },
+    "download_url": "https://github.com/mayswind/AriaNg-Native/releases/download/1.3.15/AriaNg_Native-1.3.15-Windows-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "capy",
+    "name": "Capy",
+    "repo_url": "https://github.com/capy-ui/capy",
+    "full_name": "capy-ui/capy",
+    "category": "Productivity",
+    "tags": [
+      "zig",
+      "gui"
+    ],
+    "icon": "/icons/capy.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2718,
+    "tier": "tier1_gui",
+    "summary": "Capy is a lightweight graphical toolkit that lets creators build native user interfaces using the Zig programming language for multiple operating systems.",
+    "i18n": {
+      "it": "Capy is a lightweight graphical toolkit that lets creators build native user interfaces using the Zig programming language for multiple operating systems.",
+      "es": "Capy is a lightweight graphical toolkit that lets creators build native user interfaces using the Zig programming language for multiple operating systems.",
+      "fr": "Capy is a lightweight graphical toolkit that lets creators build native user interfaces using the Zig programming language for multiple operating systems.",
+      "de": "Capy is a lightweight graphical toolkit that lets creators build native user interfaces using the Zig programming language for multiple operating systems."
+    },
+    "download_url": "https://capy-ui.org",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "util",
     "name": "Util",
     "repo_url": "https://github.com/twitter/util",
@@ -9324,6 +9749,156 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "qdirstat",
+    "name": "QDirStat",
+    "repo_url": "https://github.com/shundhammer/qdirstat",
+    "full_name": "shundhammer/qdirstat",
+    "category": "Productivity",
+    "tags": [
+      "storage",
+      "disk-analyzer"
+    ],
+    "icon": "/icons/qdirstat.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2670,
+    "tier": "tier1_gui",
+    "summary": "Scan your computer hard drives to find space-hogging files and folders visually, helping you clear out clutter and free up storage instantly.",
+    "i18n": {
+      "it": "Analizza i dischi per trovare file e cartelle che occupano spazio, aiutandoti a fare pulizia e liberare memoria all'istante.",
+      "es": "Analiza tus discos para localizar archivos pesados de forma visual, ayudándote a eliminar la basura y recuperar almacenamiento.",
+      "fr": "Analysez vos disques pour repérer les fichiers volumineux et faire le tri afin de libérer de l'espace de stockage en un clin d'œil.",
+      "de": "Durchsuchen Sie Ihre Festplatten nach großen Dateien und Ordnern, um übersichtlich Platz zu schaffen und Speicher freizugeben."
+    },
+    "download_url": "https://github.com/shundhammer/qdirstat/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ttkbootstrap",
+    "name": "ttkbootstrap",
+    "repo_url": "https://github.com/israel-dryer/ttkbootstrap",
+    "full_name": "israel-dryer/ttkbootstrap",
+    "category": "Productivity",
+    "tags": [
+      "gui",
+      "design"
+    ],
+    "icon": "/icons/ttkbootstrap.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2666,
+    "tier": "tier1_gui",
+    "summary": "Transform plain Python desktop applications into modern, professional software using dozens of ready-made light and dark themes.",
+    "i18n": {
+      "it": "Trasforma semplici applicazioni desktop Python in software moderni e professionali usando decine di temi chiari e scuri pronti all'uso.",
+      "es": "Transforma aplicaciones de escritorio de Python en software moderno y profesional utilizando docenas de temas claros y oscuros listos.",
+      "fr": "Transformez des applications de bureau Python ordinaires en logiciels modernes et élégants grâce à des dizaines de thèmes prêts à l'emploi.",
+      "de": "Verwandeln Sie einfache Python-Desktop-Anwendungen mithilfe Dutzender heller und dunkler Themen in moderne, professionelle Software."
+    },
+    "download_url": "https://www.ttkbootstrap.org",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "phoenix",
+    "name": "Phoenix",
+    "repo_url": "https://github.com/wxwidgets/phoenix",
+    "full_name": "wxwidgets/phoenix",
+    "category": "Productivity",
+    "tags": [
+      "gui",
+      "desktop"
+    ],
+    "icon": "/icons/phoenix.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2639,
+    "tier": "tier1_gui",
+    "summary": "Create native desktop user interfaces for Python applications across Windows, Mac, and Linux with a familiar look and feel.",
+    "i18n": {
+      "it": "Crea interfacce utente desktop native per app Python su Windows, Mac e Linux con un aspetto familiare.",
+      "es": "Crea interfaces de usuario de escritorio nativas para aplicaciones de Python en Windows, Mac y Linux.",
+      "fr": "Créez des interfaces utilisateur de bureau natives pour les applications Python sur Windows, Mac et Linux.",
+      "de": "Erstellen Sie native Desktop-Benutzeroberflächen für Python-Anwendungen unter Windows, Mac und Linux."
+    },
+    "download_url": "https://github.com/wxWidgets/Phoenix/releases/download/wxPython-4.3.2/wxpython-4.3.2%2Bubuntu2204-cp310-cp310-linux_x86_64.whl",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "goneovim",
+    "name": "goneovim",
+    "repo_url": "https://github.com/akiyosi/goneovim",
+    "full_name": "akiyosi/goneovim",
+    "category": "Productivity",
+    "tags": [
+      "text-editor",
+      "productivity"
+    ],
+    "icon": "/icons/goneovim.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2627,
+    "tier": "tier1_gui",
+    "summary": "Goneovim provides a friendly graphical window for the powerful Neovim text editor.",
+    "i18n": {
+      "it": "Goneovim offre una finestra grafica intuitiva per l'editor di testo Neovim.",
+      "es": "Goneovim proporciona una ventana gráfica amigable para el potente editor de texto Neovim.",
+      "fr": "Goneovim offre une fenêtre graphique conviviale pour l'éditeur de texte Neovim.",
+      "de": "Goneovim bietet ein benutzerfreundliches grafisches Fenster für den leistungsstarken Neovim-Texteditor."
+    },
+    "download_url": "https://github.com/akiyosi/goneovim/releases/download/v0.6.17/goneovim-v0.6.17-linux-arm64.tar.bz2",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "go-sciter",
+    "name": "go-sciter",
+    "repo_url": "https://github.com/sciter-sdk/go-sciter",
+    "full_name": "sciter-sdk/go-sciter",
+    "category": "Productivity",
+    "tags": [
+      "ui",
+      "desktop"
+    ],
+    "icon": "/icons/go-sciter.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2609,
+    "tier": "tier1_gui",
+    "summary": "go-sciter lets Go programmers create modern desktop windows using familiar web design tools, without heavy browsers.",
+    "i18n": {
+      "it": "go-sciter consente a chi programma in Go di trasformare design HTML e CSS in finestre desktop moderne, senza dipendere da browser ingombranti.",
+      "es": "go-sciter permite a los programadores de Go convertir diseños HTML y CSS en ventanas de escritorio modernas, sin necesidad de navegadores pesados.",
+      "fr": "go-sciter permet aux développeurs Go de transformer des maquettes HTML et CSS en fenêtres de bureau modernes, sans recourir à des navigateurs lourds.",
+      "de": "go-sciter ermöglicht Go‑Entwicklern, HTML‑ und CSS‑Designs in moderne Desktop‑Fenster zu verwandeln, ohne schwere Browser zu benötigen."
+    },
+    "download_url": "https://sciter.com",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "git-cola",
+    "name": "git-cola",
+    "repo_url": "https://github.com/git-cola/git-cola",
+    "full_name": "git-cola/git-cola",
+    "category": "Productivity",
+    "tags": [
+      "developer-tools",
+      "git"
+    ],
+    "icon": "/icons/git-cola.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2588,
+    "tier": "tier1_gui",
+    "summary": "Manage code history and track project changes visually without messing with complicated command line steps.",
+    "i18n": {
+      "it": "Gestisci la cronologia del codice e monitora le modifiche visivamente senza passaggi complessi da riga di comando.",
+      "es": "Gestiona el historial de código y supervisa los cambios visualmente sin pasos de comandos complejos.",
+      "fr": "Gérez l'historique du code et suivez les modifications visuellement sans étapes de ligne de commande complexes.",
+      "de": "Verwalte den Code-Verlauf und verfolge Änderungen visuell ganz ohne komplexe Befehlszeilenschritte."
+    },
+    "download_url": "https://git-cola.gitlab.io/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "lenovolegiontoolkit",
     "name": "LenovoLegionToolkit",
     "repo_url": "https://github.com/lenovolegiontoolkit-team/lenovolegiontoolkit",
@@ -9347,6 +9922,56 @@
     },
     "download_url": "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/releases/download/v2.38.0.0/LenovoLegionToolkitSetup-v2.38.0.0.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "examples",
+    "name": "examples",
+    "repo_url": "https://github.com/pyqt/examples",
+    "full_name": "pyqt/examples",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "workflow"
+    ],
+    "icon": "/icons/examples.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2572,
+    "tier": "tier1_gui",
+    "summary": "Explore ready‑made examples that show how to build desktop applications with Python and Qt, from simple widgets to full‑featured demos.",
+    "i18n": {
+      "it": "Scopri esempi pratici per costruire applicazioni desktop con Python e Qt, dal semplice Hello World alle demo avanzate.",
+      "es": "Explora ejemplos prácticos para construir aplicaciones de escritorio con Python y Qt, desde widgets básicos hasta demostraciones completas.",
+      "fr": "Découvrez des exemples pratiques pour construire des applications de bureau avec Python et Qt, du simple Hello World aux démonstrations avancées.",
+      "de": "Entdecke praxisnahe Beispiele, um Desktop‑Anwendungen mit Python und Qt zu erstellen, von einfachen Widgets bis zu vollständigen Demo‑Apps."
+    },
+    "download_url": "https://github.com/pyqt/examples/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gong-wpf-dragdrop",
+    "name": "GongSolutions.WPF.DragDrop",
+    "repo_url": "https://github.com/punker76/gong-wpf-dragdrop",
+    "full_name": "punker76/gong-wpf-dragdrop",
+    "category": "Productivity",
+    "tags": [
+      "wpf",
+      "drag-drop"
+    ],
+    "icon": "/icons/gong-wpf-dragdrop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 2571,
+    "tier": "tier1_gui",
+    "summary": "Add smooth drag and drop features to your Windows desktop software without writing complicated code.",
+    "i18n": {
+      "it": "Aggiungi funzioni di trascinamento fluide alle tue applicazioni Windows senza scrivere codice complicato.",
+      "es": "Añade funciones fluidas de arrastrar y soltar a tus programas de Windows sin escribir código complicado.",
+      "fr": "Ajoutez des fonctions de glisser-déposer fluides à vos logiciels Windows sans code compliqué.",
+      "de": "Fügen Sie Ihren Windows-Programmen reibungslose Drag-and-Drop-Funktionen hinzu, ohne komplizierten Code."
+    },
+    "download_url": "https://github.com/punker76/gong-wpf-dragdrop/releases",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "tv-detox",
