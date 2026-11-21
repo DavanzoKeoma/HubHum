@@ -42,46 +42,11 @@
     "queued_at": "2026-11-20T08:30:36.157303+00:00"
   },
   {
-    "full_name": "yangbin1322/hongguo-player",
-    "slug": "hongguo-player",
-    "html_url": "https://github.com/yangbin1322/hongguo-player",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
-    "queued_at": "2026-11-21T17:21:46.113515+00:00"
-  },
-  {
     "full_name": "PurpleDoubleD/locally-uncensored",
     "slug": "locally-uncensored",
     "html_url": "https://github.com/PurpleDoubleD/locally-uncensored",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-21T17:21:53.247725+00:00"
-  },
-  {
-    "full_name": "Stack-Cairn/LiveAgent",
-    "slug": "liveagent",
-    "html_url": "https://github.com/Stack-Cairn/LiveAgent",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-21T17:25:01.189266+00:00"
-  },
-  {
-    "full_name": "SimoHypers/limusic",
-    "slug": "limusic",
-    "html_url": "https://github.com/SimoHypers/limusic",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-21T17:25:31.877331+00:00"
-  },
-  {
-    "full_name": "Tavris1/ComfyUI-Easy-Install",
-    "slug": "comfyui-easy-install",
-    "html_url": "https://github.com/Tavris1/ComfyUI-Easy-Install",
-    "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'Installez et gérez facilement des générateurs d'art visuel sur Windows grâce à un panneau de configuration tout-en-un.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-21T17:25:39.725153+00:00"
-  },
-  {
-    "full_name": "Syngnat/GoNavi",
-    "slug": "gonavi",
-    "html_url": "https://github.com/Syngnat/GoNavi",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-21T17:25:46.084147+00:00"
   },
   {
     "full_name": "MervinPraison/PraisonAI",

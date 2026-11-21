@@ -12040,6 +12040,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "hongguo-player",
+    "name": "Hongguo Player",
+    "tagline": "Watch short dramas directly on your PC.",
+    "repo_url": "https://github.com/yangbin1322/hongguo-player",
+    "full_name": "yangbin1322/hongguo-player",
+    "category": "Productivity",
+    "tags": [
+      "video-player",
+      "entertainment"
+    ],
+    "icon": "/icons/hongguo-player.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Custom Open License",
+    "stars": 4541,
+    "tier": "tier1_gui",
+    "summary": "Enjoy seamless short drama viewing on your desktop without needing an Android emulator, featuring vertical mode and auto-play.",
+    "i18n": {
+      "it": "Goditi i tuoi show brevi preferiti sul computer senza emulatori, con riproduzione automatica e modalità verticale.",
+      "es": "Mira tus dramas favoritos en la computadora sin emuladores, con reproducción automática y modo vertical.",
+      "fr": "Profitez de vos séries courtes sur ordinateur sans émulateur, avec lecture automatique et mode vertical.",
+      "de": "Erleben Sie kurze Dramen am Computer ganz ohne Emulator, inklusive automatischer Wiedergabe und vertikalem Modus."
+    },
+    "download_url": "https://github.com/yangbin1322/hongguo-player/releases/download/v1.2.31/hongguo-v1.2.31-windows-amd64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "opentrace",
     "name": "OpenTrace",
     "tagline": "Visualize your internet connection path easily",
@@ -15007,6 +15035,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "liveagent",
+    "name": "LiveAgent",
+    "tagline": "Your local-first intelligent desktop assistant.",
+    "repo_url": "https://github.com/stack-cairn/liveagent",
+    "full_name": "stack-cairn/liveagent",
+    "category": "Productivity",
+    "tags": [
+      "ai-agent",
+      "desktop-client"
+    ],
+    "icon": "/icons/liveagent.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2272,
+    "tier": "tier1_gui",
+    "summary": "An intelligent desktop assistant that connects multiple AI models directly to your local file system, runs commands, and handles daily tasks with complete privacy.",
+    "i18n": {
+      "it": "Un assistente desktop che collega modelli di intelligenza artificiale al tuo file system per gestire attività quotidiane in totale privacy.",
+      "es": "Un asistente de escritorio que conecta modelos de inteligencia artificial a tus archivos locales para automatizar tareas diarias con privacidad.",
+      "fr": "Un assistant de bureau qui connecte des modèles d'intelligence artificielle à vos fichiers locaux pour automatiser vos tâches quotidiennes.",
+      "de": "Ein Desktop-Assistent, der KI-Modelle mit Ihrem lokalen Dateisystem verbindet, um tägliche Aufgaben privat und sicher zu automatisieren."
+    },
+    "download_url": "https://github.com/Stack-Cairn/LiveAgent/releases/download/v2.0.30/LiveAgent-v2.0.30-Windows-x64-Setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "skales",
     "name": "Skales",
     "tagline": "Your private local AI desktop assistant.",
@@ -15203,6 +15259,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "limusic",
+    "name": "limusic",
+    "tagline": "Ad-free native desktop music player",
+    "repo_url": "https://github.com/simohypers/limusic",
+    "full_name": "simohypers/limusic",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "desktop"
+    ],
+    "icon": "/icons/limusic.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 2171,
+    "tier": "tier1_gui",
+    "summary": "Enjoy your favorite music videos and playlists without ads using a fast native desktop application.",
+    "i18n": {
+      "it": "Goditi i tuoi brani e video musicali preferiti senza interruzioni pubblicitarie grazie a un'applicazione desktop veloce.",
+      "es": "Disfruta de tus canciones y videos musicales favoritos sin anuncios con una aplicación de escritorio rápida y moderna.",
+      "fr": "Profitez de vos morceaux et vidéos préférés sans publicité grâce à une application de bureau rapide et native.",
+      "de": "Genießen Sie Ihre Lieblingslieder und Musikvideos völlig werbefrei mit einer schnellen Desktop-Anwendung."
+    },
+    "download_url": "https://github.com/SimoHypers/limusic/releases/download/v1.4.1/limusic_1.4.1_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "pygubu",
     "name": "pygubu",
     "tagline": "Build Python user interfaces visually and easily.",
@@ -15315,6 +15399,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "comfyui-easy-install",
+    "name": "ComfyUI-Easy-Install",
+    "tagline": "One-click portable installation for ComfyUI.",
+    "repo_url": "https://github.com/tavris1/comfyui-easy-install",
+    "full_name": "tavris1/comfyui-easy-install",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "image-generation"
+    ],
+    "icon": "/icons/comfyui-easy-install.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2115,
+    "tier": "tier1_gui",
+    "summary": "Install, manage, and customize ComfyUI effortlessly on Windows with a self-contained environment and user-friendly desktop companion.",
+    "i18n": {
+      "it": "Installa, gestisci e personalizza ComfyUI su Windows facilmente con un ambiente autonomo e un pratico pannello di controllo.",
+      "es": "Instala, administra y personaliza ComfyUI en Windows sin complicaciones gracias a un entorno autocontenido y un escritorio intuitivo.",
+      "fr": "Installez, gérez et personnalisez ComfyUI sur Windows en toute simplicité grâce à un environnement autonome et un panneau dédié.",
+      "de": "Installieren, verwalten und personalisieren Sie ComfyUI unter Windows ganz einfach mit einer autarken Umgebung und Desktop-Oberfläche."
+    },
+    "download_url": "https://github.com/Tavris1/ComfyUI-Easy-Install/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "flutter-rs",
     "name": "flutter-rs",
     "tagline": "Build native desktop apps with ease",
@@ -15368,6 +15480,34 @@
       "de": "Gestalten und verwalten Sie Tastaturlayouts visuell über eine intuitive Benutzeroberfläche mit direkter Online-Anbindung."
     },
     "download_url": "https://nickcoutsos.github.io/keymap-editor",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gonavi",
+    "name": "GoNavi",
+    "tagline": "Lightweight multi-source database client with AI",
+    "repo_url": "https://github.com/syngnat/gonavi",
+    "full_name": "syngnat/gonavi",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "icon": "/icons/gonavi.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 2106,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple database types with lightning speed, built-in artificial intelligence assistance, and zero bloat.",
+    "i18n": {
+      "it": "Gestisci più tipi di database con velocità straordinaria, assistenza di intelligenza artificiale integrata e senza sprechi.",
+      "es": "Gestiona múltiples tipos de bases de datos con gran velocidad, asistencia de inteligencia artificial integrada y sin hinchazón.",
+      "fr": "Gérez plusieurs types de bases de données avec une vitesse fulgurante, une assistance par IA intégrée et zéro surcharge.",
+      "de": "Verwalten Sie verschiedene Datenbanktypen mit blitzschneller Leistung, integrierter KI-Assistenz und ohne unnötigen Ballast."
+    },
+    "download_url": "https://github.com/Syngnat/GoNavi/releases/download/v1.2.3/GoNavi-1.2.3-Windows-Amd64-Portable.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -15987,6 +16127,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "mail",
+    "name": "Flectar Mail",
+    "tagline": "Blazing fast native email client",
+    "repo_url": "https://github.com/flectar/mail",
+    "full_name": "flectar/mail",
+    "category": "Productivity",
+    "tags": [
+      "email",
+      "calendar"
+    ],
+    "icon": "/icons/mail.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1966,
+    "tier": "tier1_gui",
+    "summary": "Flectar Mail is an ultra-lightweight, native email, calendar, and contacts app designed for instant startup and minimal memory use.",
+    "i18n": {
+      "it": "Flectar Mail è un'applicazione leggera e nativa per email, calendario e contatti, pensata per avviarsi subito e consumare pochissima memoria.",
+      "es": "Flectar Mail es una aplicación nativa y ligera para correo, calendario y contactos, diseñada para un inicio instantáneo y mínimo uso de memoria.",
+      "fr": "Flectar Mail est une application native légère pour les e-mails, calendriers et contacts, conçue pour un démarrage instantané et peu de mémoire.",
+      "de": "Flectar Mail ist eine extrem leichte, native App für E-Mails, Kalender und Kontakte, die sofort startet und kaum Arbeitsspeicher benötigt."
+    },
+    "download_url": "https://github.com/flectar/mail/releases/download/v0.1.0-alpha.7/flectar-mail-0.1.0-alpha.7-windows-x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "gnvim",
     "name": "gnvim",
     "tagline": "Fast and lightweight text editor interface",
@@ -16015,6 +16183,146 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "hermes-cn-desktop",
+    "name": "Hermes-CN-Desktop",
+    "tagline": "Native desktop assistant client for Windows and Mac",
+    "repo_url": "https://github.com/eynzof/hermes-cn-desktop",
+    "full_name": "eynzof/hermes-cn-desktop",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/hermes-cn-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 1944,
+    "tier": "tier1_gui",
+    "summary": "Hermes Agent CN Desktop brings an isolated artificial intelligence assistant core to your computer with a polished graphical interface.",
+    "i18n": {
+      "it": "Hermes Agent CN Desktop porta un nucleo di assistente IA sul tuo computer con un'interfaccia grafica raffinata.",
+      "es": "Hermes Agent CN Desktop trae un núcleo de asistente de IA aislado a tu ordenador con una interfaz gráfica pulida.",
+      "fr": "Hermes Agent CN Desktop apporte un noyau d'assistant IA isolé sur votre ordinateur avec une interface graphique soignée.",
+      "de": "Hermes Agent CN Desktop bringt einen isolierten KI-Assistentenkern mit einer polierten Benutzeroberfläche auf Ihren Computer."
+    },
+    "download_url": "https://github.com/Eynzof/Hermes-CN-Desktop/releases/download/v0.9.0/Hermes_Agent_CN_Desktop_0.9.0_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "easy-stock",
+    "name": "easy-stock",
+    "tagline": "AI-powered desktop research hub for stocks",
+    "repo_url": "https://github.com/jundizhou/easy-stock",
+    "full_name": "jundizhou/easy-stock",
+    "category": "Productivity",
+    "tags": [
+      "finance",
+      "stocks"
+    ],
+    "icon": "/icons/easy-stock.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Custom Open License",
+    "stars": 1939,
+    "tier": "tier1_gui",
+    "summary": "An intelligent desktop workbench that combines market data, stock analysis, and portfolio tracking with advanced artificial intelligence.",
+    "i18n": {
+      "it": "Un ambiente di lavoro intelligente per analizzare dati di mercato, titoli e portafogli con l'ausilio dell'intelligenza artificiale.",
+      "es": "Un entorno de escritorio inteligente que combina datos de mercado, análisis de acciones y seguimiento de carteras con inteligencia artificial.",
+      "fr": "Un espace de travail de bureau intelligent qui combine données de marché, analyse d'actions et suivi de portefeuille avec l'intelligence artificielle.",
+      "de": "Ein intelligenter Desktop-Arbeitsplatz, der Marktdaten, Aktienanalysen und Portfolio-Überwachung mit künstlicher Intelligenz verbindet."
+    },
+    "download_url": "https://github.com/jundizhou/easy-stock/releases/download/v1.7.6/easy-stock-v1.7.6-windows-x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "starnet",
+    "name": "starnet",
+    "tagline": "Live pixel-art station for AI agents",
+    "repo_url": "https://github.com/androoagi/starnet",
+    "full_name": "androoagi/starnet",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "agents"
+    ],
+    "icon": "/icons/starnet.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 1910,
+    "tier": "tier1_gui",
+    "summary": "Manage and watch real artificial intelligence agents work together inside an interactive pixel-art space station on your computer.",
+    "i18n": {
+      "it": "Gestisci e guarda agenti di intelligenza artificiale reali lavorare insieme all'interno di una stazione spaziale interattiva.",
+      "es": "Gestiona y observa a agentes de inteligencia artificial reales trabajar juntos dentro de una estación espacial interactiva.",
+      "fr": "Gérez et observez de vrais agents d'intelligence artificialle travailler ensemble dans une station spatiale interactive.",
+      "de": "Verwalten und beobachten Sie echte KI-Agenten, die gemeinsam in einer interaktiven Pixel-Art-Raumstation arbeiten."
+    },
+    "download_url": "https://github.com/androoAGI/starnet/releases/download/v0.15.4/StarNet_0.15.4_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "skills-hub",
+    "name": "skills-hub",
+    "tagline": "Install once, sync AI agent skills everywhere.",
+    "repo_url": "https://github.com/qufei1993/skills-hub",
+    "full_name": "qufei1993/skills-hub",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "developer-tools"
+    ],
+    "icon": "/icons/skills-hub.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1883,
+    "tier": "tier1_gui",
+    "summary": "Manage your AI agent skills in one centralized desktop application and instantly sync them to dozens of coding assistants.",
+    "i18n": {
+      "it": "Gestisci le tue competenze di intelligenza artificiale in un'unica applicazione e sincronizzale all'istante.",
+      "es": "Administra tus habilidades de inteligencia artificial en una sola aplicación y sincronízalas al instante.",
+      "fr": "Gérez vos compétences en IA dans une seule application et synchronisez-les instantanément.",
+      "de": "Verwalten Sie Ihre KI-Kompetenzen zentral in einer Anwendung und synchronisieren Sie diese sofort."
+    },
+    "download_url": "https://github.com/qufei1993/skills-hub/releases/download/v1.1.1/Skills-Hub-v1.1.1-Windows-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hope-agent",
+    "name": "Hope Agent",
+    "tagline": "Your personal AI assistant that remembers you",
+    "repo_url": "https://github.com/shiwenwen/hope-agent",
+    "full_name": "shiwenwen/hope-agent",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/hope-agent.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1871,
+    "tier": "tier1_gui",
+    "summary": "Hope Agent is a desktop assistant that learns your habits and completes tasks across your devices while keeping your data private.",
+    "i18n": {
+      "it": "Hope Agent è un assistente desktop che impara le tue abitudini e completa le attività sui tuoi dispositivi mantenendo i dati privati.",
+      "es": "Hope Agent es un asistente de escritorio que aprende tus hábitos y completa tareas en tus dispositivos manteniendo tus datos privados.",
+      "fr": "Hope Agent est un assistant de bureau qui apprend vos habitudes et effectue des tâches sur vos appareils tout en gardant vos données privées.",
+      "de": "Hope Agent ist ein Desktop-Assistent, der Ihre Gewohnheiten lernt und Aufgaben auf Ihren Geräten erledigt, während Ihre Daten privat bleiben."
+    },
+    "download_url": "https://github.com/shiwenwen/hope-agent/releases/download/v0.75.0/Hope.Agent_0.75.0_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "json-splora",
     "name": "JSON-Splora",
     "tagline": "Easily edit and filter JSON data.",
@@ -16040,6 +16348,34 @@
       "de": "JSON-Splora ist eine Desktop-Anwendung zum schnellen Anzeigen, Bearbeiten und Filtern von strukturierten Datendateien."
     },
     "download_url": "https://github.com/wellsjo/JSON-Splora/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "claude-prism",
+    "name": "ClaudePrism",
+    "tagline": "Offline scientific writing with Claude AI",
+    "repo_url": "https://github.com/delibae/claude-prism",
+    "full_name": "delibae/claude-prism",
+    "category": "Productivity",
+    "tags": [
+      "latex",
+      "scientific-writing"
+    ],
+    "icon": "/icons/claude-prism.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1859,
+    "tier": "tier1_gui",
+    "summary": "An offline-first scientific workspace combining LaTeX, Python, and Claude AI to help researchers write papers locally.",
+    "i18n": {
+      "it": "Un ambiente di scrittura scientifica offline che unisce LaTeX, Python e Claude AI per ricercatori.",
+      "es": "Un espacio de trabajo científico local que combina LaTeX, Python y Claude AI para redactar documentos.",
+      "fr": "Un espace de travail scientifique local combinant LaTeX, Python et Claude AI pour les chercheurs.",
+      "de": "Ein lokaler wissenschaftlicher Arbeitsbereich für LaTeX, Python und Claude AI zur Dokumentenerstellung."
+    },
+    "download_url": "https://github.com/delibae/claude-prism/releases/download/v1.3.1/ClaudePrism-Windows-setup.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -16181,6 +16517,34 @@
     },
     "download_url": "https://github.com/github/gh-stack/releases/download/v0.3.0/windows-386.exe",
     "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "petrichor",
+    "name": "Petrichor",
+    "tagline": "Sleek offline music player for macOS",
+    "repo_url": "https://github.com/kushalpandya/petrichor",
+    "full_name": "kushalpandya/petrichor",
+    "category": "Video & Audio",
+    "tags": [
+      "audio",
+      "player"
+    ],
+    "icon": "/icons/petrichor.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 1780,
+    "tier": "tier1_gui",
+    "summary": "Petrichor is a modern offline music player designed for macOS that organizes your local audio files and supports dozens of formats effortlessly.",
+    "i18n": {
+      "it": "Petrichor è un lettore musicale offline per macOS che organizza i tuoi file audio locali supportando decine di formati senza sforzo.",
+      "es": "Petrichor es un reproductor de música sin conexión para macOS que organiza tus archivos de audio locales y admite múltiples formatos.",
+      "fr": "Petrichor est un lecteur de musique hors-ligne pour macOS qui organise vos fichiers audio locaux et gère de nombreux formats.",
+      "de": "Petrichor ist ein moderner Offline-Musikplayer für macOS, der lokale Audiodateien organisiert und zahlreiche Formate unterstützt."
+    },
+    "download_url": "https://github.com/kushalpandya/Petrichor/releases/download/v1.7.3/Petrichor-1.7.3-Universal.dmg",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "jmcomic-downloader",
@@ -16432,6 +16796,62 @@
       "de": "Erstellen Sie übersichtliche schwebende Steuerungstafeln für Webprojekte mit Reglern, Farbauswahlen und Kontrollkästchen."
     },
     "download_url": "https://lil-gui.georgealways.com/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "deva",
+    "name": "Deva",
+    "tagline": "Your chat-powered personal AI team",
+    "repo_url": "https://github.com/sqfcyily/deva",
+    "full_name": "sqfcyily/deva",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/deva.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1656,
+    "tier": "tier1_gui",
+    "summary": "Manage complex projects and multi-member artificial intelligence teams through simple, natural conversations right on your computer.",
+    "i18n": {
+      "it": "Gestisci progetti complessi e team di intelligenza artificiale tramite semplici conversazioni sul tuo computer.",
+      "es": "Gestiona proyectos complejos y equipos de inteligencia artificial mediante sencillas conversaciones en tu ordenador.",
+      "fr": "Gérez des projets complexes et des équipes d'intelligence artificielle grâce à des conversations simples sur votre ordinateur.",
+      "de": "Verwalten Sie komplexe Projekte und KI-Teams durch einfache, natürliche Unterhaltungen direkt auf Ihrem Computer."
+    },
+    "download_url": "https://github.com/sqfcyily/deva/releases/download/v0.1.16/Deva-0.1.16-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "opencove",
+    "name": "opencove",
+    "tagline": "Infinite visual canvas for AI work",
+    "repo_url": "https://github.com/deadwavewave/opencove",
+    "full_name": "deadwavewave/opencove",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "developer-tools"
+    ],
+    "icon": "/icons/opencove.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1654,
+    "tier": "tier1_gui",
+    "summary": "An infinite visual canvas workspace that keeps your artificial intelligence coding assistants, command lines, tasks, and notes visible side by side.",
+    "i18n": {
+      "it": "Uno spazio di lavoro visivo infinito che mantiene assistenti di codifica, terminali e note visibili fianco a fianco.",
+      "es": "Un espacio de trabajo visual infinito que mantiene tus asistentes de código, terminales y notas visibles lado a lado.",
+      "fr": "Un espace de travail visuel infini qui maintient vos assistants de code, terminaux et notes visibles côte à côte.",
+      "de": "Ein unendlicher visueller Arbeitsbereich, der Ihre KI-Coding-Assistenten, Terminals und Notizen nebeneinander sichtbar hält."
+    },
+    "download_url": "https://github.com/DeadWaveWave/opencove/releases/download/v0.5.2/OpenCove-0.5.2-win-x64.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -16964,6 +17384,986 @@
       "de": "Verwandeln Sie Software-Oberflächen mit einer modernen Sammlung an anpassbaren Themes und polierten visuellen Elementen."
     },
     "download_url": "https://github.com/mkpaz/atlantafx/releases/download/v3.0.0/AtlantaFX-3.0.0-scene-builder-plugin.jar",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "iaito",
+    "name": "iaito",
+    "tagline": "Friendly graphical interface for code analysis",
+    "repo_url": "https://github.com/hteso/iaito",
+    "full_name": "hteso/iaito",
+    "category": "Productivity",
+    "tags": [
+      "security",
+      "development-tools"
+    ],
+    "icon": "/icons/iaito.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1461,
+    "tier": "tier1_gui",
+    "summary": "Explore complex software code using a visual interface rather than a text-based window.",
+    "i18n": {
+      "it": "Esplora codice software complesso usando un'interfaccia visiva anziché una finestra di testo.",
+      "es": "Explora código de software complejo usando una interfaz visual en lugar de una ventana de texto.",
+      "fr": "Explorez du code logiciel complexe à l'aide d'une interface visuelle plutôt qu'une fenêtre textuelle.",
+      "de": "Erkunden Sie komplexen Softwarecode über eine visuelle Benutzeroberfläche statt per Befehlszeile."
+    },
+    "download_url": "https://github.com/radareorg/cutter",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gifcurry",
+    "name": "gifcurry",
+    "tagline": "Turn your favorite videos into custom GIFs",
+    "repo_url": "https://github.com/lettier/gifcurry",
+    "full_name": "lettier/gifcurry",
+    "category": "Video & Audio",
+    "tags": [
+      "video-editor",
+      "gif-maker"
+    ],
+    "icon": "/icons/gifcurry.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (BSD)",
+    "stars": 1457,
+    "tier": "tier1_gui",
+    "summary": "Easily convert video clips into animations or short movies with custom text overlays, cropping, and adjustable settings.",
+    "i18n": {
+      "it": "Converti facilmente clip video in animazioni o brevi filmati con sovrapposizioni di testo, ritaglio e impostazioni regolabili.",
+      "es": "Convierte fácilmente clips de video en animaciones o videos cortos con texto superpuesto, recortes y ajustes personalizados.",
+      "fr": "Convertissez facilement des clips vidéo en animations ou courtes vidéos avec du texte superposé, du recadrage et des réglages.",
+      "de": "Konvertieren Sie Videoclips ganz einfach in Animationen mit benutzerdefiniertem Text, Zuschnitt und anpassbaren Einstellungen."
+    },
+    "download_url": "https://github.com/lettier/gifcurry/releases/download/6.0.1.0/gifcurry-6.0.1.0-x86_64.AppImage",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "lwgui",
+    "name": "LWGUI",
+    "tagline": "Lightweight and powerful shader custom inspector",
+    "repo_url": "https://github.com/jasonma0012/lwgui",
+    "full_name": "jasonma0012/lwgui",
+    "category": "Productivity",
+    "tags": [
+      "unity",
+      "shaders"
+    ],
+    "icon": "/icons/lwgui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1440,
+    "tier": "tier1_gui",
+    "summary": "LWGUI is a lightweight, flexible, and powerful shader graphical user interface system built for Unity to maximize material inspector productivity.",
+    "i18n": {
+      "it": "LWGUI è un sistema leggero e flessibile per la gestione degli shader in Unity per migliorare la produttività degli ispettori.",
+      "es": "LWGUI es un sistema ligero y flexible de interfaz para sombreadores en Unity que maximiza la productividad del inspector.",
+      "fr": "LWGUI est un système léger et flexible d'interface pour shader sous Unity afin d'optimiser la productivité des inspecteurs.",
+      "de": "LWGUI ist ein leichtes und flexibles Shader-Oberflächensystem für Unity zur Maximierung der Inspektoren-Produktivität."
+    },
+    "download_url": "https://github.com/JasonMa0012/LWGUI/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pytauri",
+    "name": "pytauri",
+    "tagline": "Build desktop apps using Python easily.",
+    "repo_url": "https://github.com/pytauri/pytauri",
+    "full_name": "pytauri/pytauri",
+    "category": "Productivity",
+    "tags": [
+      "desktop",
+      "gui"
+    ],
+    "icon": "/icons/pytauri.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 1439,
+    "tier": "tier1_gui",
+    "summary": "Create fast desktop user interfaces using your preferred Python language and web technologies without dealing with complex lower-level setup.",
+    "i18n": {
+      "it": "Realizza interfacce desktop veloci usando Python e tecnologie web senza affrontare configurazioni complesse di basso livello.",
+      "es": "Desarrolla interfaces de usuario rápidas utilizando Python y tecnologías web sin lidiar con configuraciones complejas.",
+      "fr": "Concevez des interfaces de bureau rapides avec Python et des technologies web sans configuration de bas niveau complexe.",
+      "de": "Entwickeln Sie schnelle Benutzeroberflächen mit Python und Webtechnologien ohne komplexe Low-Level-Einrichtung."
+    },
+    "download_url": "https://pytauri.github.io/pytauri/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "seabird",
+    "name": "Seabird",
+    "tagline": "Explore cloud clusters with ease",
+    "repo_url": "https://github.com/getseabird/seabird",
+    "full_name": "getseabird/seabird",
+    "category": "Productivity",
+    "tags": [
+      "kubernetes",
+      "ide"
+    ],
+    "icon": "/icons/seabird.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MPL 2.0)",
+    "stars": 1436,
+    "tier": "tier1_gui",
+    "summary": "Manage your server clusters effortlessly with an intuitive desktop environment built for smooth navigation and live monitoring.",
+    "i18n": {
+      "it": "Gestisci i tuoi cluster di server senza sforzo con un ambiente desktop intuitivo e orientato al monitoraggio.",
+      "es": "Gestiona tus clústeres de servidores sin esfuerzo con un entorno de escritorio intuitivo y enfocado en el monitoreo.",
+      "fr": "Gérez vos grappes de serveurs facilement grâce à un environnement de bureau intuitif conçu pour le suivi en direct.",
+      "de": "Verwalte deine Server-Cluster einfach mit einer intuitiven Desktop-Umgebung für reibungslose Navigation und Live-Überwachung."
+    },
+    "download_url": "https://github.com/getseabird/seabird/releases/download/v0.6.0/seabird_windows_amd64.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "youtube-dl-wpf",
+    "name": "youtube-dl-wpf",
+    "tagline": "Easy visual controller for video downloaders.",
+    "repo_url": "https://github.com/database64128/youtube-dl-wpf",
+    "full_name": "database64128/youtube-dl-wpf",
+    "category": "Video & Audio",
+    "tags": [
+      "downloader",
+      "windows"
+    ],
+    "icon": "/icons/youtube-dl-wpf.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1436,
+    "tier": "tier1_gui",
+    "summary": "Easily download online videos and whole playlists with a clean desktop window instead of typing complex commands.",
+    "i18n": {
+      "it": "Scarica facilmente video online e intere playlist con una comoda finestra per il desktop senza comandi complessi.",
+      "es": "Descarga fácilmente videos en línea y listas de reproducción completas con una ventana limpia sin comandos complejos.",
+      "fr": "Téléchargez facilement des vidéos en ligne et des listes de lecture entières avec une fenêtre de bureau épurée.",
+      "de": "Laden Sie ganz einfach Online-Videos und ganze Wiedergabelisten über ein übersichtliches Desktop-Fenster herunter."
+    },
+    "download_url": "https://github.com/database64128/youtube-dl-wpf/releases/download/v1.13.1/youtube-dl-wpf-v1.13.1-windows-arm64.7z",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gdlv",
+    "name": "gdlv",
+    "tagline": "Visual interface for debugging Go programs",
+    "repo_url": "https://github.com/aarzilli/gdlv",
+    "full_name": "aarzilli/gdlv",
+    "category": "Productivity",
+    "tags": [
+      "debugging",
+      "developer-tools"
+    ],
+    "icon": "/icons/gdlv.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 1426,
+    "tier": "tier1_gui",
+    "summary": "An intuitive graphical window for examining Go software code execution, inspecting variables, and tracking bugs effortlessly.",
+    "i18n": {
+      "it": "Una finestra grafica intuitiva per esaminare l'esecuzione del codice Go, ispezionare variabili e tracciare errori facilmente.",
+      "es": "Una ventana gráfica intuitiva para examinar la ejecución de código Go, inspeccionar variables y rastrear errores fácilmente.",
+      "fr": "Une fenêtre graphique intuitive pour examiner l'exécution du code Go, inspecter les variables et suivre les bugs facilement.",
+      "de": "Ein intuitives grafisches Fenster zur Überprüfung von Go-Codeausführung, Inspektion von Variablen und Fehlersuche."
+    },
+    "download_url": "https://github.com/aarzilli/gdlv/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "fvim",
+    "name": "FVim",
+    "tagline": "High-performance graphical interface for Neovim.",
+    "repo_url": "https://github.com/yatli/fvim",
+    "full_name": "yatli/fvim",
+    "category": "Productivity",
+    "tags": [
+      "editor",
+      "writing"
+    ],
+    "icon": "/icons/fvim.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1403,
+    "tier": "tier1_gui",
+    "summary": "FVim is a fast, cross-platform graphical user interface for Neovim that brings smooth font rendering, window splitting, and modern themes to your text editing setup.",
+    "i18n": {
+      "it": "FVim è un'interfaccia grafica per Neovim che offre rendering dei caratteri fluido, divisione delle finestre e temi moderni.",
+      "es": "FVim es una interfaz gráfica rápida y multiplataforma para Neovim que ofrece renderizado fluido y temas modernos.",
+      "fr": "FVim est une interface graphique rapide pour Neovim offrant un rendu de police fluide et des thèmes modernes.",
+      "de": "FVim ist eine schnelle, plattformübergreifende grafische Benutzeroberfläche für Neovim mit flüssigem Textrendering."
+    },
+    "download_url": "https://github.com/yatli/fvim/releases/download/v0.3.549%2Bee4316c/fvim-linux-amd64-v0.3.548%2Bg2e4087d-2-gee4316c.deb",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "guislice",
+    "name": "GUIslice",
+    "tagline": "Design touchscreens for microcontrollers visually.",
+    "repo_url": "https://github.com/impulseadventure/guislice",
+    "full_name": "impulseadventure/guislice",
+    "category": "Productivity",
+    "tags": [
+      "embedded",
+      "display"
+    ],
+    "icon": "/icons/guislice.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1376,
+    "tier": "tier1_gui",
+    "summary": "GUIslice lets you create custom visual touch screens for popular microcontroller boards and microcomputers using a simple visual layout designer.",
+    "i18n": {
+      "it": "GUIslice consente di creare schermate touch personalizzate per schede di controllo e microcomputer con un semplice editor visuale.",
+      "es": "GUIslice te permite crear pantallas táctiles personalizadas para placas de microcontroladores utilizando un diseñador visual sencillo.",
+      "fr": "GUIslice vous permet de créer des écrans tactiles personnalisés pour vos cartes électroniques grâce à un simple concepteur visuel.",
+      "de": "Mit GUIslice erstellen Sie benutzerdefinierte Touchscreens für gängige Mikrocontroller-Platinen über einen visuellen Editor."
+    },
+    "download_url": "https://github.com/ImpulseAdventure/GUIslice/releases/download/v0.17.2/GUIslice_ref.pdf",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "imgui-sfml",
+    "name": "imgui-sfml",
+    "tagline": "Easily add graphical interfaces to your games.",
+    "repo_url": "https://github.com/sfml/imgui-sfml",
+    "full_name": "sfml/imgui-sfml",
+    "category": "Productivity",
+    "tags": [
+      "cplusplus",
+      "game-development"
+    ],
+    "icon": "/icons/imgui-sfml.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1374,
+    "tier": "tier1_gui",
+    "summary": "This lightweight library connects user interface controls directly to your multimedia window environment.",
+    "i18n": {
+      "it": "Questa libreria collega i controlli dell'interfaccia utente direttamente al tuo ambiente di finestre multimediali.",
+      "es": "Esta biblioteca conecta los controles de interfaz de usuario directamente a tu entorno de ventanas multimedia.",
+      "fr": "Cette bibliothèque connecte les contrôles d'interface utilisateur directement à votre environnement de fenêtres.",
+      "de": "Diese Bibliothek verbindet Benutzeroberflächenelemente direkt mit Ihrer Multimedia-Fensterumgebung."
+    },
+    "download_url": "https://github.com/SFML/imgui-sfml/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "opcache-gui",
+    "name": "opcache-gui",
+    "tagline": "Simple visual dashboard for PHP performance",
+    "repo_url": "https://github.com/amnuts/opcache-gui",
+    "full_name": "amnuts/opcache-gui",
+    "category": "Productivity",
+    "tags": [
+      "web-development",
+      "php"
+    ],
+    "icon": "/icons/opcache-gui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 1366,
+    "tier": "tier1_gui",
+    "summary": "This tool provides a clear, visual way to monitor and manage your website's PHP performance cache in real-time.",
+    "i18n": {
+      "it": "Uno strumento semplice per monitorare e gestire in tempo reale la cache delle prestazioni PHP del tuo sito web.",
+      "es": "Una herramienta sencilla para supervisar y gestionar en tiempo real la caché de rendimiento PHP de tu sitio web.",
+      "fr": "Un outil simple pour surveiller et gérer en temps réel le cache de performance PHP de votre site web.",
+      "de": "Ein einfaches Werkzeug zur Überwachung und Verwaltung des PHP-Leistungs-Caches Ihrer Website in Echtzeit."
+    },
+    "download_url": "https://github.com/amnuts/opcache-gui/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kafka-king",
+    "name": "Kafka-King",
+    "tagline": "Manage data streams easily with desktop GUI",
+    "repo_url": "https://github.com/bronya0/kafka-king",
+    "full_name": "bronya0/kafka-king",
+    "category": "Productivity",
+    "tags": [
+      "kafka",
+      "developer-tools"
+    ],
+    "icon": "/icons/kafka-king.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 1345,
+    "tier": "tier1_gui",
+    "summary": "Kafka-King is a modern desktop application that lets you manage data streaming clusters without using complex command-line tools.",
+    "i18n": {
+      "it": "Kafka-King è un'applicazione desktop moderna per gestire cluster di streaming dati senza usare complessi comandi.",
+      "es": "Kafka-King es una moderna aplicación de escritorio para administrar cúmulos de datos sin usar la terminal.",
+      "fr": "Kafka-King est une application de bureau moderne pour administrer les flux de données sans utiliser la console.",
+      "de": "Kafka-King ist eine moderne Desktop-Anwendung zur Verwaltung von Daten-Streams ohne komplexe Befehlszeilen."
+    },
+    "download_url": "https://github.com/Bronya0/Kafka-King/releases/download/v0.47/Kafka-King-v0.47-macos.dmg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "copperspice",
+    "name": "CopperSpice",
+    "tagline": "Modern cross-platform C++ software libraries",
+    "repo_url": "https://github.com/copperspice/copperspice",
+    "full_name": "copperspice/copperspice",
+    "category": "Productivity",
+    "tags": [
+      "cplusplus",
+      "development"
+    ],
+    "icon": "/icons/copperspice.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Custom Open License",
+    "stars": 1331,
+    "tier": "tier1_gui",
+    "summary": "CopperSpice provides a collection of modern, open-source C++ libraries designed to help developers build fast and reliable desktop software.",
+    "i18n": {
+      "it": "CopperSpice offre una raccolta di librerie C++ moderne e open-source progettate per creare software desktop veloci e affidabili.",
+      "es": "CopperSpice ofrece una colección de librerías C++ modernas de código abierto diseñadas para crear software de escritorio fiable.",
+      "fr": "CopperSpice propose un ensemble de bibliothèques C++ modernes et open-source conçues pour créer des applications de bureau.",
+      "de": "CopperSpice bietet eine Sammlung moderner, Open-Source-C++-Bibliotheken zur Entwicklung schneller und zuverlässiger Desktop-Software."
+    },
+    "download_url": "https://github.com/copperspice/copperspice/releases/download/cs-2.1.0/setup-CopperSpice-2.1.0-x64-MinGW.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "onedrivegui",
+    "name": "OneDriveGUI",
+    "tagline": "Manage Linux cloud storage with ease.",
+    "repo_url": "https://github.com/bpozdena/onedrivegui",
+    "full_name": "bpozdena/onedrivegui",
+    "category": "Productivity",
+    "tags": [
+      "linux",
+      "cloud-storage"
+    ],
+    "icon": "/icons/onedrivegui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1331,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple cloud storage accounts effortlessly on Linux with a clear visual interface and real-time synchronization tracking.",
+    "i18n": {
+      "it": "Gestisci più account di archiviazione cloud su Linux con un'interfaccia visiva chiara e monitoraggio della sincronizzazione in tempo reale.",
+      "es": "Administra múltiples cuentas de almacenamiento en la nube en Linux con una interfaz visual clara y seguimiento de sincronización en tiempo real.",
+      "fr": "Gérez plusieurs comptes de stockage cloud sur Linux avec une interface visuelle claire et un suivi de synchronisation en temps réel.",
+      "de": "Verwalten Sie mehrere Cloud-Speicherkonten unter Linux mit einer klaren visuellen Oberfläche und Echtzeit-Synchronisierungsüberwachung."
+    },
+    "download_url": "https://github.com/bpozdena/OneDriveGUI/releases/download/v2.4.0/OneDriveGUI-2.4.0-x86_64.AppImage",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "implot3d",
+    "name": "ImPlot3D",
+    "tagline": "Fast interactive 3D graphs",
+    "repo_url": "https://github.com/brenocq/implot3d",
+    "full_name": "brenocq/implot3d",
+    "category": "Productivity",
+    "tags": [
+      "3d",
+      "visualization"
+    ],
+    "icon": "/icons/implot3d.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1285,
+    "tier": "tier1_gui",
+    "summary": "ImPlot3D lets you add real‑time, interactive 3‑dimensional graphs to your applications, with smooth rotation, zoom and many styling options.",
+    "i18n": {
+      "it": "ImPlot3D consente di inserire grafici tridimensionali in tempo reale nelle tue applicazioni, con rotazione fluida, zoom e molte opzioni di stile.",
+      "es": "ImPlot3D permite añadir gráficos tridimensionales en tiempo real a tus programas, con rotación suave, zoom y varias opciones de estilo.",
+      "fr": "ImPlot3D vous permet d’intégrer des graphiques 3D dans vos applications, avec rotation fluide, zoom et plusieurs styles.",
+      "de": "ImPlot3D ermöglicht das Einbinden von interaktiven 3‑dimensionalen Diagrammen in Ihre Programme, mit flüssiger Drehung, Zoom und Stiloptionen."
+    },
+    "download_url": "https://github.com/brenocq/implot3d/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "guijs",
+    "name": "guijs",
+    "tagline": "Manage JavaScript software projects visually",
+    "repo_url": "https://github.com/akryum/guijs",
+    "full_name": "akryum/guijs",
+    "category": "Productivity",
+    "tags": [
+      "developer-tools",
+      "desktop-app"
+    ],
+    "icon": "/icons/guijs.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1280,
+    "tier": "tier1_gui",
+    "summary": "An intuitive graphical control center designed to help you easily manage JavaScript projects without touching the command line.",
+    "i18n": {
+      "it": "Un centro di controllo intuitivo per gestire facilmente i progetti JavaScript senza usare la riga di comando.",
+      "es": "Un panel de control intuitivo diseñado para gestionar proyectos de JavaScript sin usar la línea de comandos.",
+      "fr": "Un panneau de contrôle visuel intuitif pour gérer facilement vos projets de programmation sans utiliser le terminal.",
+      "de": "Eine intuitive Benutzeroberfläche zur einfachen Verwaltung von Programmierprojekten ohne Befehlszeile."
+    },
+    "download_url": "https://github.com/Akryum/guijs/releases/download/v0.1.19/guijs-debug.x64.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "avalonia-funcui",
+    "name": "Avalonia.FuncUI",
+    "tagline": "Build cross-platform desktop user interfaces.",
+    "repo_url": "https://github.com/fsprojects/avalonia.funcui",
+    "full_name": "fsprojects/avalonia.funcui",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "desktop"
+    ],
+    "icon": "/icons/avalonia-funcui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1270,
+    "tier": "tier1_gui",
+    "summary": "Create native cross-platform applications using the F# programming language and user interface toolkits.",
+    "i18n": {
+      "it": "Crea applicazioni native multi-piattaforma utilizzando il linguaggio di programmazione F# e toolkit grafici.",
+      "es": "Crea aplicaciones nativas multiplataforma utilizando el lenguaje de programación F# y kits de herramientas.",
+      "fr": "Développez des applications natives multiplateformes en utilisant le langage de programmation F# et des outils graphiques.",
+      "de": "Entwickeln Sie native plattformübergreifende Anwendungen mit der Programmiersprache F# und Benutzeroberflächen-Toolkits."
+    },
+    "download_url": "https://funcui.avaloniaui.net/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "rymdport",
+    "name": "rymdport",
+    "tagline": "Securely share files between your devices",
+    "repo_url": "https://github.com/jacalz/rymdport",
+    "full_name": "jacalz/rymdport",
+    "category": "Productivity",
+    "tags": [
+      "file-sharing",
+      "encryption"
+    ],
+    "icon": "/icons/rymdport.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1259,
+    "tier": "tier1_gui",
+    "summary": "Easily and safely send files, folders, and text between different devices using strong end-to-end encryption.",
+    "i18n": {
+      "it": "Invia facilmente file, cartelle e testo tra diversi dispositivi utilizzando una forte crittografia end-to-end.",
+      "es": "Envía fácilmente archivos, carpetas y texto entre diferentes dispositivos usando cifrado de extremo a extremo.",
+      "fr": "Envoyez facilement des fichiers, dossiers et textes entre appareils grâce à un chiffrement de bout en bout.",
+      "de": "Senden Sie Dateien, Ordner und Text einfach und sicher zwischen verschiedenen Geräten mit starker Verschlüsselung."
+    },
+    "download_url": "https://rymdport.github.io/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "spot",
+    "name": "Spot",
+    "tagline": "Build native desktop apps with Go",
+    "repo_url": "https://github.com/roblillack/spot",
+    "full_name": "roblillack/spot",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "gui"
+    ],
+    "icon": "/icons/spot.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1249,
+    "tier": "tier1_gui",
+    "summary": "Spot is a toolkit that helps programmers create simple, responsive desktop applications using the Go programming language.",
+    "i18n": {
+      "it": "Spot è un kit di strumenti che aiuta i programmatori a creare applicazioni desktop semplici e reattive usando il linguaggio Go.",
+      "es": "Spot es un conjunto de herramientas que ayuda a los programadores a crear aplicaciones de escritorio sencillas y reactivas usando Go.",
+      "fr": "Spot est une boîte à outils qui aide les développeurs à créer des applications de bureau simples et réactives avec le langage Go.",
+      "de": "Spot ist ein Toolkit, das Programmierern hilft, einfache und reaktionsschnelle Desktop-Anwendungen mit der Programmiersprache Go zu erstellen."
+    },
+    "download_url": "https://github.com/roblillack/spot/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "sqlite-gui",
+    "name": "sqlite-gui",
+    "tagline": "Lightweight, fast editor for SQLite databases",
+    "repo_url": "https://github.com/little-brother/sqlite-gui",
+    "full_name": "little-brother/sqlite-gui",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "sqlite"
+    ],
+    "icon": "/icons/sqlite-gui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v2)",
+    "stars": 1246,
+    "tier": "tier1_gui",
+    "summary": "Manage and edit SQLite databases on Windows with a fast, lightweight tool that requires no installation.",
+    "i18n": {
+      "it": "Gestisci e modifica database SQLite su Windows con uno strumento leggero e veloce che non richiede installazione.",
+      "es": "Administra y edita bases de datos SQLite en Windows con una herramienta rápida y ligera que no requiere instalación.",
+      "fr": "Gérez et modifiez des bases de données SQLite sous Windows avec un outil rapide et léger qui ne nécessite aucune installation.",
+      "de": "Verwalten und bearbeiten Sie SQLite-Datenbanken unter Windows mit einem schnellen, leichten Tool ohne Installation."
+    },
+    "download_url": "https://github.com/little-brother/sqlite-gui/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "bilibili-manga-downloader",
+    "name": "BiliBili Manga Downloader",
+    "tagline": "Easily download and manage web comics",
+    "repo_url": "https://github.com/zeal-l/bilibili-manga-downloader",
+    "full_name": "zeal-l/bilibili-manga-downloader",
+    "category": "Productivity",
+    "tags": [
+      "manga",
+      "downloader"
+    ],
+    "icon": "/icons/bilibili-manga-downloader.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1235,
+    "tier": "tier1_gui",
+    "summary": "A user-friendly desktop utility designed to search, download, and organize digital comic chapters directly on your computer.",
+    "i18n": {
+      "it": "Un'applicazione desktop intuitiva per cercare, scaricare e gestire capitoli di fumetti direttamente sul tuo computer.",
+      "es": "Una utilidad de escritorio para buscar, descargar y organizar capítulos de cómics directamente en tu computadora.",
+      "fr": "Un outil de bureau intuitif pour rechercher, télécharger et organiser des chapitres de bandes dessinées.",
+      "de": "Ein benutzerfreundliches Desktop-Werkzeug zum Suchen, Herunterladen und Verwalten von Comic-Kapiteln."
+    },
+    "download_url": "https://github.com/Zeal-L/BiliBili-Manga-Downloader/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "cui",
+    "name": "CUI",
+    "tagline": "Lightweight immediate-mode UI components for C",
+    "repo_url": "https://github.com/yappologistic/cui",
+    "full_name": "yappologistic/cui",
+    "category": "Productivity",
+    "tags": [
+      "gui",
+      "ui-library"
+    ],
+    "icon": "/icons/cui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1213,
+    "tier": "tier1_gui",
+    "summary": "Build native desktop and browser interfaces in C without external dependencies, featuring built-in motion and hundreds of components.",
+    "i18n": {
+      "it": "Crea interfacce native in C senza dipendenze esterne, con animazioni fluide e centinaia di componenti pronti all'uso.",
+      "es": "Crea interfaces nativas en C sin dependencias externas, con animaciones fluidas y cientos de componentes integrados.",
+      "fr": "Créez des interfaces natives en C sans dépendances externes, avec des animations fluides et des centaines de composants.",
+      "de": "Erstellen Sie native C-Oberflächen ohne externe Abhängigkeiten, mit flüssigen Animationen und Hunderten von Komponenten."
+    },
+    "download_url": "https://github.com/yappologistic/CUI/releases/download/v1.4.0/cui.c",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "core2d",
+    "name": "Core2D",
+    "tagline": "Create custom data-driven 2D diagrams easily.",
+    "repo_url": "https://github.com/wieslawsoltes/core2d",
+    "full_name": "wieslawsoltes/core2d",
+    "category": "Productivity",
+    "tags": [
+      "diagrams",
+      "vector-graphics"
+    ],
+    "icon": "/icons/core2d.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1186,
+    "tier": "tier1_gui",
+    "summary": "Design and organize visual layouts by connecting shapes directly to your data.",
+    "i18n": {
+      "it": "Progetta schemi visivi collegando le forme direttamente ai tuoi dati.",
+      "es": "Diseña esquemas visuales conectando formas directamente a tus datos.",
+      "fr": "Concevez des schémas visuels en liant des formes à vos données.",
+      "de": "Entwerfen Sie visuelle Layouts, indem Sie Formen direkt mit Ihren Daten verknüpfen."
+    },
+    "download_url": "https://github.com/wieslawsoltes/Core2D/releases/download/11.0.0-rc1.1/Core2D.11.0.0-rc1.1.nupkg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "yolov8-pyside6-gui",
+    "name": "YOLOv8-PySide6-GUI",
+    "tagline": "Simple visual object detector",
+    "repo_url": "https://github.com/jai-wei/yolov8-pyside6-gui",
+    "full_name": "jai-wei/yolov8-pyside6-gui",
+    "category": "Productivity",
+    "tags": [
+      "object-detection",
+      "gui"
+    ],
+    "icon": "/icons/yolov8-pyside6-gui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1162,
+    "tier": "tier1_gui",
+    "summary": "YoloSide lets you open a photo or video, click a button, and instantly see labeled boxes around every detected object—no coding needed.",
+    "i18n": {
+      "it": "YoloSide ti consente di aprire foto o video, cliccare un pulsante e vedere subito riquadri attorno a tutti gli oggetti rilevati, senza programmare.",
+      "es": "YoloSide abre una foto o video, haces clic y aparecen cajas etiquetadas alrededor de cada objeto detectado, sin necesidad de programar.",
+      "fr": "YoloSide vous permet d'ouvrir une photo ou une vidéo, de cliquer sur un bouton et de voir immédiatement des cadres étiquetés autour de chaque objet détecté, sans coder.",
+      "de": "YoloSide öffnet ein Bild oder Video, Sie klicken einen Knopf und sehen sofort beschriftete Kästchen um jedes erkannte Objekt, ganz ohne Programmierung."
+    },
+    "download_url": "https://github.com/Jai-wei/YOLOv8-PySide6-GUI/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hyprmod",
+    "name": "HyprMod",
+    "tagline": "Live Settings for Hyprland",
+    "repo_url": "https://github.com/bluemancz/hyprmod",
+    "full_name": "bluemancz/hyprmod",
+    "category": "Productivity",
+    "tags": [
+      "linux",
+      "desktop"
+    ],
+    "icon": "/icons/hyprmod.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1154,
+    "tier": "tier1_gui",
+    "summary": "Easily tweak Hyprland settings with a live preview, undo changes, and manage profiles—all from a friendly GTK interface.",
+    "i18n": {
+      "it": "Modifica facilmente le impostazioni di Hyprland con anteprima in tempo reale, annulla modifiche e gestisci profili, tutto da un'interfaccia GTK.",
+      "es": "Ajusta fácilmente la configuración de Hyprland con vista previa en tiempo real, deshace cambios y gestiona perfiles, todo desde una interfaz GTK.",
+      "fr": "Ajustez facilement les paramètres de Hyprland avec aperçu en temps réel, annulez les modifications et gérez les profils, le tout depuis une interface GTK.",
+      "de": "Passen Sie die Hyprland-Einstellungen einfach mit Live-Vorschau an, können Änderungen zurücknehmen und Profile verwalten – alles über eine GTK-Oberfläche."
+    },
+    "download_url": "https://github.com/BlueManCZ/hyprmod/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "discounted-udemy-course-enroller",
+    "name": "Discounted-Udemy-Course-Enroller",
+    "tagline": "Automatically claim free Udemy course coupons.",
+    "repo_url": "https://github.com/techtanic/discounted-udemy-course-enroller",
+    "full_name": "techtanic/discounted-udemy-course-enroller",
+    "category": "Productivity",
+    "tags": [
+      "education",
+      "automation"
+    ],
+    "icon": "/icons/discounted-udemy-course-enroller.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1128,
+    "tier": "tier1_gui",
+    "summary": "Automatically find and join 100% discounted online learning courses with a simple tool.",
+    "i18n": {
+      "it": "Trova e iscriviti automaticamente a corsi online gratuiti con coupon dedicati.",
+      "es": "Encuentra y únete automáticamente a cursos online gratuitos con cupones activos.",
+      "fr": "Trouvez et rejoignez automatiquement des cours en ligne gratuits avec des codes promo.",
+      "de": "Finde und belege kostenlose Online-Kurse mit aktiven Rabattgutscheinen."
+    },
+    "download_url": "https://github.com/techtanic/Discounted-Udemy-Course-Enroller/releases/download/v2.3.6/DUCE-CLI-windows.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "uassetgui",
+    "name": "UAssetGUI",
+    "tagline": "Examine and modify Unreal Engine game assets",
+    "repo_url": "https://github.com/atenfyr/uassetgui",
+    "full_name": "atenfyr/uassetgui",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "gaming"
+    ],
+    "icon": "/icons/uassetgui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 1112,
+    "tier": "tier1_gui",
+    "summary": "A specialized tool for low-level examination and modification of Unreal Engine game asset files by hand.",
+    "i18n": {
+      "it": "Uno strumento specializzato per l'analisi e la modifica manuale a basso livello dei file di gioco Unreal Engine.",
+      "es": "Una herramienta especializada para examinar y modificar manualmente los archivos de recursos de juegos Unreal Engine.",
+      "fr": "Un outil spécialisé pour l'examen et la modification manuelle de bas niveau des fichiers de ressources Unreal Engine.",
+      "de": "Ein spezialisiertes Werkzeug zur manuellen Low-Level-Untersuchung und Bearbeitung von Unreal Engine Spieldateien."
+    },
+    "download_url": "https://github.com/atenfyr/UAssetGUI/releases/download/v1.1.0/UAssetGUI.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "qstudio",
+    "name": "qstudio",
+    "tagline": "Free universal database tool and notebook",
+    "repo_url": "https://github.com/timestored/qstudio",
+    "full_name": "timestored/qstudio",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "icon": "/icons/qstudio.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 1102,
+    "tier": "tier1_gui",
+    "summary": "Browse databases, run queries, and build visual reports using a free, universal data analysis companion.",
+    "i18n": {
+      "it": "Esplora database, esegui query e crea report visivi utilizzando un pratico assistente per l'analisi dei dati.",
+      "es": "Explora bases de datos, ejecuta consultas y crea informes visuales utilizando un completo asistente de análisis.",
+      "fr": "Parcourez des bases de données, exécutez des requêtes et créez des rapports visuels grâce à un outil polyvalent.",
+      "de": "Durchsuchen Sie Datenbanken, führen Sie Abfragen aus und erstellen Sie visuelle Berichte mit einem Datenhelfer."
+    },
+    "download_url": "https://github.com/timestored/qstudio/releases/download/5.09/qstudio-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "s3manager",
+    "name": "s3manager",
+    "tagline": "Manage your cloud storage buckets easily.",
+    "repo_url": "https://github.com/cloudlena/s3manager",
+    "full_name": "cloudlena/s3manager",
+    "category": "Productivity",
+    "tags": [
+      "storage",
+      "cloud"
+    ],
+    "icon": "/icons/s3manager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 1073,
+    "tier": "tier1_gui",
+    "summary": "A clean web interface for browsing, uploading, and organizing your cloud storage buckets from any provider without complicated software.",
+    "i18n": {
+      "it": "Un'interfaccia web pulita per esplorare, caricare e organizzare i tuoi spazi di archiviazione cloud da qualsiasi fornitore.",
+      "es": "Una interfaz web limpia para explorar, subir y organizar tus espacios de almacenamiento en la nube desde cualquier proveedor.",
+      "fr": "Une interface web claire pour parcourir, transférer et organiser vos espaces de stockage en ligne depuis n'importe quel fournisseur.",
+      "de": "Eine übersichtliche Web-Oberfläche zum Durchsuchen, Hochladen und Verwalten Ihrer Cloud-Speicher von jedem Anbieter."
+    },
+    "download_url": "https://github.com/cloudlena/s3manager/releases/download/v0.13.0/checksums.txt",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "macytdl",
+    "name": "MacYTDL",
+    "tagline": "Download videos easily on Mac",
+    "repo_url": "https://github.com/section83/macytdl",
+    "full_name": "section83/macytdl",
+    "category": "Video & Audio",
+    "tags": [
+      "video-download",
+      "macos"
+    ],
+    "icon": "/icons/macytdl.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 1068,
+    "tier": "tier1_gui",
+    "summary": "MacYTDL lets you save videos and playlists from many websites directly to your Mac, handling all the behind‑the‑scenes work for you.",
+    "i18n": {
+      "it": "MacYTDL ti permette di salvare video e playlist da molti siti web direttamente sul tuo Mac, gestendo tutto il lavoro in background per te.",
+      "es": "MacYTDL te permite guardar videos y listas de reproducción de numerosos sitios web directamente en tu Mac, ocupándose de todo el proceso en segundo plano.",
+      "fr": "MacYTDL vous permet d’enregistrer des vidéos et des listes de lecture provenant de nombreux sites web directement sur votre Mac, en gérant tout le travail en arrière‑plan pour vous.",
+      "de": "MacYTDL ermöglicht es Ihnen, Videos und Playlisten von vielen Websites direkt auf Ihren Mac zu speichern, während alle Hintergrundarbeiten automatisch erledigt werden."
+    },
+    "download_url": "https://github.com/section83/MacYTDL/releases/download/1.32/MacYTDL-v1.32.dmg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "aerion",
+    "name": "Aerion",
+    "tagline": "Lightweight and secure open-source email client.",
+    "repo_url": "https://github.com/hkdb/aerion",
+    "full_name": "hkdb/aerion",
+    "category": "Productivity",
+    "tags": [
+      "email",
+      "productivity"
+    ],
+    "icon": "/icons/aerion.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 1055,
+    "tier": "tier1_gui",
+    "summary": "Aerion is a fast, resource-friendly email client designed to manage multiple accounts cleanly without slowing down your computer.",
+    "i18n": {
+      "it": "Aerion è un client di posta elettronico veloce e leggero progettato per gestire più account in modo pulito e sicuro.",
+      "es": "Aerion es un cliente de correo rápido y eficiente diseñado para gestionar múltiples cuentas sin ralentizar tu ordenador.",
+      "fr": "Aerion est un client de messagerie rapide et léger conçu pour gérer plusieurs comptes sans ralentir votre ordinateur.",
+      "de": "Aerion ist ein schneller und ressourcenschonender E-Mail-Client zur übersichtlichen Verwaltung mehrerer Konten."
+    },
+    "download_url": "https://github.com/hkdb/aerion/releases/download/v0.3.6/Aerion-windows-amd64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "wireguird",
+    "name": "wireguird",
+    "tagline": "Simple Linux visual client for Wireguard",
+    "repo_url": "https://github.com/unnoted/wireguird",
+    "full_name": "unnoted/wireguird",
+    "category": "Security & Privacy",
+    "tags": [
+      "wireguard",
+      "vpn"
+    ],
+    "icon": "/icons/wireguird.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1039,
+    "tier": "tier1_gui",
+    "summary": "Manage your secure private network tunnels effortlessly with a clean visual menu bar indicator on Linux systems.",
+    "i18n": {
+      "it": "Gestisci i tuoi tunnel di rete privata sicura senza sforzo con un comodo indicatore visivo sulla barra dei menu nei sistemi Linux.",
+      "es": "Gestiona tus túneles de red privada de forma sencilla con un indicador visual limpio en la barra de menú en sistemas Linux.",
+      "fr": "Gérez vos tunnels de réseau privé sécurisé sans effort grâce à un indicateur visuel épuré dans la barre des menus sous Linux.",
+      "de": "Verwalten Sie Ihre sicheren privaten Netzwerktunnel mühelos mit einer übersichtlichen visuellen Menüleistenanzeige unter Linux."
+    },
+    "download_url": "https://github.com/UnnoTed/wireguird/releases/download/v1.1.0/wireguird_amd64.deb",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hexwalk",
+    "name": "HexWalk",
+    "tagline": "Inspect, scan, and edit binary files.",
+    "repo_url": "https://github.com/gcarmix/hexwalk",
+    "full_name": "gcarmix/hexwalk",
+    "category": "Productivity",
+    "tags": [
+      "hex-editor",
+      "binary-analyzer"
+    ],
+    "icon": "/icons/hexwalk.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1029,
+    "tier": "tier1_gui",
+    "summary": "HexWalk is a powerful tool to view, edit, and analyze raw binary files with built-in signature scanning and file comparisons.",
+    "i18n": {
+      "it": "Uno strumento avanzato per visualizzare, modificare e analizzare file binari con scansione delle firme integrata.",
+      "es": "Una potente herramienta para ver, editar y analizar archivos binarios sin procesar con análisis de firmas integrado.",
+      "fr": "Un outil puissant pour afficher, modifier et analyser des fichiers binaires bruts avec recherche de signatures.",
+      "de": "Ein leistungsstarkes Werkzeug zum Anzeigen, Bearbeiten und Analysieren von Binärdateien mit integrierter Signaturerkennung."
+    },
+    "download_url": "https://github.com/gcarmix/HexWalk/releases/download/v2.2.1/HexWalk_2.2.1_Windows_X64_Installer.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "android-cookbook-examples",
+    "name": "Android-Cookbook-Examples",
+    "tagline": "Massive collection of Android sample code",
+    "repo_url": "https://github.com/iandarwin/android-cookbook-examples",
+    "full_name": "iandarwin/android-cookbook-examples",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "code-examples"
+    ],
+    "icon": "/icons/android-cookbook-examples.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 1021,
+    "tier": "tier1_gui",
+    "summary": "Explore over one hundred working code examples for mobile apps, covering sensors, databases, and user interfaces.",
+    "i18n": {
+      "it": "Esplora oltre cento esempi di codice funzionante per app mobili, coprendo sensori, database e interfacce utente.",
+      "es": "Explora más de cien ejemplos de código funcional para aplicaciones móviles, abarcando sensores, bases de datos y pantallas.",
+      "fr": "Explorez plus d'une centaine d'exemples de code fonctionnels pour applications mobiles, couvrant capteurs et interfaces.",
+      "de": "Entdecken Sie über hundert funktionierende Code-Beispiele für mobile Apps, einschließlich Sensoren und Benutzeroberflächen."
+    },
+    "download_url": "https://androidcookbook.com/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ai-sudoku",
+    "name": "AI_Sudoku",
+    "tagline": "Solve Sudoku puzzles from photos",
+    "repo_url": "https://github.com/neeru1207/ai_sudoku",
+    "full_name": "neeru1207/ai_sudoku",
+    "category": "Productivity",
+    "tags": [
+      "puzzle",
+      "image-processing"
+    ],
+    "icon": "/icons/ai-sudoku.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Public Domain / Free",
+    "stars": 1018,
+    "tier": "tier1_gui",
+    "summary": "This free tool scans a photo of a Sudoku puzzle, identifies the numbers, and calculates the solution for you.",
+    "i18n": {
+      "it": "Questo strumento gratuito analizza una foto di un Sudoku, riconosce i numeri e calcola la soluzione.",
+      "es": "Esta herramienta gratuita analiza una foto de un Sudoku, reconoce los números y calcula la solución.",
+      "fr": "Cet outil gratuit analyse une photo de Sudoku, reconnaît les chiffres et calcule la solution.",
+      "de": "Dieses kostenlose Tool analysiert ein Sudoku-Foto, erkennt die Zahlen und berechnet die Lösung."
+    },
+    "download_url": "https://github.com/neeru1207/AI_Sudoku/releases",
     "updated_at": "2026-11-21"
   },
   {
