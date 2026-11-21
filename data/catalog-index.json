@@ -19795,6 +19795,734 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "easy-writing",
+    "name": "Easy Writing",
+    "tagline": "Local open-source AI novel writing app",
+    "repo_url": "https://github.com/yilujian/easy-writing",
+    "full_name": "yilujian/easy-writing",
+    "category": "Productivity",
+    "tags": [
+      "writing",
+      "novel"
+    ],
+    "icon": "/icons/easy-writing.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 936,
+    "tier": "tier1_gui",
+    "summary": "Write stories offline with complete data privacy, chapter backups, and optional artificial intelligence assistance.",
+    "i18n": {
+      "it": "Scrivi storie offline con totale privacy dei dati, backup dei capitoli e assistenza intelligente opzionale.",
+      "es": "Escribe historias sin conexión con total privacidad de datos, copias de seguridad y asistencia de inteligencia artificial.",
+      "fr": "Rédigez vos histoires hors ligne avec une confidentialité totale des données et une assistance intelligente optionnelle.",
+      "de": "Schreiben Sie Geschichten offline mit vollständigem Datenschutz, Kapitel-Backups und optionaler KI-Unterstützung."
+    },
+    "download_url": "https://github.com/yilujian/easy-writing/releases/download/v2.1.1/easy-writing_2.1.1_windows-x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "whalebird-desktop",
+    "name": "whalebird-desktop",
+    "tagline": "Stay connected across the Fediverse easily.",
+    "repo_url": "https://github.com/h3poteto/whalebird-desktop",
+    "full_name": "h3poteto/whalebird-desktop",
+    "category": "Productivity",
+    "tags": [
+      "fediverse",
+      "mastodon"
+    ],
+    "icon": "/icons/whalebird-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 931,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple Mastodon and Fediverse accounts from a clean, chat-inspired desktop app workspace.",
+    "i18n": {
+      "it": "Gestisci più account Mastodon e del Fediverso da un'applicazione desktop pulita e ispirata alle chat.",
+      "es": "Administra múltiples cuentas de Mastodon y del Fediverso desde una aplicación de escritorio limpia.",
+      "fr": "Gérez plusieurs comptes Mastodon et du Fediverse depuis une application de bureau claire et organisée.",
+      "de": "Verwalte mehrere Mastodon- und Fediverse-Konten über eine übersichtliche, chat-ähnliche Desktop-App."
+    },
+    "download_url": "https://github.com/h3poteto/whalebird-desktop/releases/download/v6.3.1/Whalebird-6.3.1-win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "frog",
+    "name": "Frog",
+    "tagline": "Extract text from any screen instantly",
+    "repo_url": "https://github.com/tenderowl/frog",
+    "full_name": "tenderowl/frog",
+    "category": "Productivity",
+    "tags": [
+      "ocr",
+      "text-extraction"
+    ],
+    "icon": "/icons/frog.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 917,
+    "tier": "tier1_gui",
+    "summary": "Frog is a friendly desktop tool that pulls readable text out of images, videos, web pages, and scanned documents in seconds.",
+    "i18n": {
+      "it": "Frog è un pratico strumento per estrarre testo da immagini, video e documenti con un semplice clic.",
+      "es": "Frog es una sencilla herramienta de escritorio para extraer texto legible de imágenes, vídeos y documentos.",
+      "fr": "Frog est un outil de bureau convivial pour extraire du texte à partir d'images, de vidéos et de documents.",
+      "de": "Frog ist ein praktisches Desktop-Werkzeug, um Text aus Bildern, Videos und Dokumenten auszulesen."
+    },
+    "download_url": "https://getfrog.app/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "lumina-note",
+    "name": "Lumina-Note",
+    "tagline": "Modern Markdown notes with AI agent assistance",
+    "repo_url": "https://github.com/blueberrycongee/lumina-note",
+    "full_name": "blueberrycongee/lumina-note",
+    "category": "Productivity",
+    "tags": [
+      "markdown",
+      "notes"
+    ],
+    "icon": "/icons/lumina-note.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 913,
+    "tier": "tier1_gui",
+    "summary": "Manage your personal knowledge base using local Markdown files enhanced with an intelligent assistant that can organize, summarize, and connect your notes.",
+    "i18n": {
+      "it": "Gestisci la tua base di conoscenza personale utilizzando file Markdown locali arricchiti da un assistente intelligente che organizza e collega le tue note.",
+      "es": "Gestiona tu base de conocimiento personal con archivos Markdown locales mejorados mediante un asistente inteligente que organiza y conecta tus notas.",
+      "fr": "Gérez votre base de connaissances personnelle à l'aide de fichiers Markdown locaux améliorés par un assistant intelligent qui organise et relie vos notes.",
+      "de": "Verwalten Sie Ihre persönliche Wissensdatenbank mit lokalen Markdown-Dateien, unterstützt von einem intelligenten Assistenten, der Ihre Notizen organisiert."
+    },
+    "download_url": "https://github.com/blueberrycongee/Lumina-Note/releases/download/v1.4.11/Lumina-Note-Setup-1.4.11.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "sing-box-windows",
+    "name": "Sing-Box Windows",
+    "tagline": "Modern cross-platform proxy client manager",
+    "repo_url": "https://github.com/xinggaoya/sing-box-windows",
+    "full_name": "xinggaoya/sing-box-windows",
+    "category": "Productivity",
+    "tags": [
+      "proxy",
+      "networking"
+    ],
+    "icon": "/icons/sing-box-windows.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 913,
+    "tier": "tier1_gui",
+    "summary": "Manage network proxy subscriptions, monitor live traffic, and toggle connection modes across multiple operating systems with a clean desktop interface.",
+    "i18n": {
+      "it": "Gestisci abbonamenti proxy di rete, monitora il traffico in tempo reale e cambia modalità di connessione su più sistemi operativi.",
+      "es": "Administra suscripciones de proxy de red, supervisa tráfico en vivo y cambia modos de conexión en múltiples sistemas operativos.",
+      "fr": "Gérez vos abonnements proxy, surveillez le trafic en direct et basculez entre les modes de connexion avec une interface fluide.",
+      "de": "Verwalten Sie Netzwerk-Proxy-Abos, überwachen Sie Live-Traffic und wechseln Sie Verbindungsmodi über eine saubere Benutzeroberfläche."
+    },
+    "download_url": "https://github.com/xinggaoya/sing-box-windows/releases/download/v2.4.0/sing-box-windows_2.4.0_arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "arroxy",
+    "name": "Arroxy",
+    "tagline": "Free open-source video downloader for everyone",
+    "repo_url": "https://github.com/arroxy/arroxy",
+    "full_name": "arroxy/arroxy",
+    "category": "Video & Audio",
+    "tags": [
+      "downloader",
+      "media"
+    ],
+    "icon": "/icons/arroxy.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 889,
+    "tier": "tier1_gui",
+    "summary": "Download videos, playlists, and audio from thousands of sites easily without ads or account limits.",
+    "i18n": {
+      "it": "Scarica facilmente video, playlist e audio da migliaia di siti senza pubblicità o limiti di account.",
+      "es": "Descarga vídeos, listas de reproducción y audio de miles de sitios fácilmente sin anuncios.",
+      "fr": "Téléchargez des vidéos, des listes de lecture et de l'audio depuis des milliers de sites sans publicité.",
+      "de": "Laden Sie ganz einfach Videos, Playlists und Audio von Tausenden von Websites ohne Werbung herunter."
+    },
+    "download_url": "https://github.com/Arroxy/Arroxy/releases/download/v0.7.4/Arroxy-win-x64-Portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "claude-keysmith",
+    "name": "claude-keysmith",
+    "tagline": "Manage instructions for your coding assistant",
+    "repo_url": "https://github.com/jia-ethan/claude-keysmith",
+    "full_name": "jia-ethan/claude-keysmith",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/claude-keysmith.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 886,
+    "tier": "tier1_gui",
+    "summary": "Safely preview, apply, and remove custom instructions for your local AI coding assistant without touching sensitive account settings.",
+    "i18n": {
+      "it": "Visualizza in anteprima, applica e rimuovi istruzioni per il tuo assistente di programmazione IA in modo sicuro e semplice.",
+      "es": "Obtén una vista previa, aplica y elimina instrucciones personalizadas para tu asistente de programación de forma segura.",
+      "fr": "Prévisualisez, appliquez et supprimez des instructions pour votre assistant de programmation IA en toute sécurité.",
+      "de": "Vorschau, Anwendung und Entfernung benutzerdefinierter Anweisungen für Ihren KI-Programmierassistenten ohne Risiko."
+    },
+    "download_url": "https://github.com/Jia-Ethan/claude-keysmith/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "dev-janitor",
+    "name": "Dev-Janitor",
+    "tagline": "Clean junk files and manage dev tools",
+    "repo_url": "https://github.com/cocojojo5213/dev-janitor",
+    "full_name": "cocojojo5213/dev-janitor",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "developer-tools"
+    ],
+    "icon": "/icons/dev-janitor.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 872,
+    "tier": "tier1_gui",
+    "summary": "Easily clean up hidden development junk files, manage coding tools, and scan for security issues on your computer.",
+    "i18n": {
+      "it": "Rimuovi facilmente file spazzatura nascosti, gestisci gli strumenti di sviluppo e controlla la sicurezza del computer.",
+      "es": "Elimina fácilmente archivos innecesarios de desarrollo, administra herramientas de programación y revisa problemas de seguridad.",
+      "fr": "Supprimez facilement les fichiers de développement inutiles, gérez les outils de code et vérifiez les problèmes de sécurité.",
+      "de": "Entfernen Sie ganz einfach versteckte Entwicklerdateien, verwalten Sie Programmiertools und prüfen Sie Sicherheitsprobleme."
+    },
+    "download_url": "https://github.com/cocojojo5213/Dev-Janitor/releases/download/v2.5.1/Dev.Janitor_2.5.1_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "shell-rs",
+    "name": "shell-rs",
+    "tagline": "High-performance GPU-rendered native remote connection manager",
+    "repo_url": "https://github.com/since2006/shell-rs",
+    "full_name": "since2006/shell-rs",
+    "category": "Productivity",
+    "tags": [
+      "ssh",
+      "system-utility"
+    ],
+    "icon": "/icons/shell-rs.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 864,
+    "tier": "tier1_gui",
+    "summary": "Manage servers, browse files, and forward ports using a fast, secure native tool built with modern GPU graphics.",
+    "i18n": {
+      "it": "Gestisci server, esplora file e inoltra porte usando uno strumento nativo veloce e sicuro basato su grafica moderna.",
+      "es": "Administra servidores, explora archivos y redirige puertos usando una herramienta nativa rápida y segura con gráficos modernos.",
+      "fr": "Gérez des serveurs, parcourez des fichiers et transférez des ports à l'aide d'un outil natif rapide et sécurisé.",
+      "de": "Verwalten Sie Server, durchsuchen Sie Dateien und leiten Sie Ports mit einem schnellen und sicheren nativen Werkzeug weiter."
+    },
+    "download_url": "https://github.com/since2006/shell-rs/releases/download/v0.1.19/ShellRS-0.1.19-windows-x86_64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "incarnamind",
+    "name": "IncarnaMind",
+    "tagline": "Verify AI writing against local files.",
+    "repo_url": "https://github.com/incarnamind/incarnamind",
+    "full_name": "incarnamind/incarnamind",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "document-management"
+    ],
+    "icon": "/icons/incarnamind.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 860,
+    "tier": "tier1_gui",
+    "summary": "An open-source desktop app that checks what your AI assistant writes sentence by sentence against your personal document library.",
+    "i18n": {
+      "it": "Un'applicazione desktop open source che controlla riga per riga ciò che scrive la tua intelligenza artificiale.",
+      "es": "Una aplicación de escritorio de código abierto que comprueba lo que escribe tu inteligencia artificial contra tus documentos.",
+      "fr": "Une application de bureau open source qui vérifie phrase par phrase ce que rédige votre assistant d'intelligence artificielle.",
+      "de": "Eine Open-Source-Desktop-App, die von Ihrer KI verfasste Texte Satz für Satz mit Ihren persönlichen Dokumenten abgleicht."
+    },
+    "download_url": "https://github.com/IncarnaMind/IncarnaMind/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "whispersubtranslate",
+    "name": "WhisperSubTranslate",
+    "tagline": "Turn any video into multilingual subtitles locally.",
+    "repo_url": "https://github.com/blue-b/whispersubtranslate",
+    "full_name": "blue-b/whispersubtranslate",
+    "category": "Video & Audio",
+    "tags": [
+      "subtitles",
+      "translation"
+    ],
+    "icon": "/icons/whispersubtranslate.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 853,
+    "tier": "tier1_gui",
+    "summary": "Extract accurate subtitles from your videos and translate them into multiple languages right on your computer without sharing data or needing subscriptions.",
+    "i18n": {
+      "it": "Estrai sottotitoli dai video e traducili in varie lingue direttamente sul computer senza condividere dati o abbonamenti.",
+      "es": "Extrae subtítulos de tus videos y tradúcelos a varios idiomas directamente en tu equipo sin compartir datos ni pagar.",
+      "fr": "Extrayez des sous-titres de vos vidéos et traduisez-les en plusieurs langues directement sur votre ordinateur en toute sécurité.",
+      "de": "Extrahieren Sie Untertitel aus Videos und übersetzen Sie diese direkt auf Ihrem Computer ohne Cloud oder Abonnements."
+    },
+    "download_url": "https://github.com/Blue-B/WhisperSubTranslate/releases/download/v2.5.2/WhisperSubTranslate-v2.5.2-win-x64.zip.sha256",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "aictionary",
+    "name": "Aictionary",
+    "tagline": "Lightning-fast offline dictionary with smart definitions",
+    "repo_url": "https://github.com/ahpxex/aictionary",
+    "full_name": "ahpxex/aictionary",
+    "category": "Productivity",
+    "tags": [
+      "dictionary",
+      "offline"
+    ],
+    "icon": "/icons/aictionary.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (MIT)",
+    "stars": 851,
+    "tier": "tier1_gui",
+    "summary": "A lightning-fast desktop and mobile dictionary app featuring rich offline word databases, text-to-speech audio, and flashcard syncing.",
+    "i18n": {
+      "it": "Un dizionario rapido per desktop e dispositivi mobili con database offline completi, sintesi vocale e sincronizzazione di schede.",
+      "es": "Una aplicación de diccionario rápida con bases de datos fuera de línea completas, audio de texto a voz y sincronización de tarjetas.",
+      "fr": "Une application de dictionnaire rapide avec des bases de données hors-ligne riches, un synthétiseur vocal et des fiches mémo.",
+      "de": "Eine schnelle Wörterbuch-App mit umfangreichen Offline-Datenbanken, Sprachausgabe und praktischer Lernkarten-Synchronisation."
+    },
+    "download_url": "https://github.com/ahpxex/Aictionary/releases/download/v3.6.0/Aictionary-v3.6.0_windows_x86_64.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "quick-picture-viewer",
+    "name": "Quick Picture Viewer",
+    "tagline": "Lightning-fast alternative photo viewer for Windows.",
+    "repo_url": "https://github.com/moduleart/quick-picture-viewer",
+    "full_name": "moduleart/quick-picture-viewer",
+    "category": "Productivity",
+    "tags": [
+      "photography",
+      "viewer"
+    ],
+    "icon": "/icons/quick-picture-viewer.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 838,
+    "tier": "tier1_gui",
+    "summary": "Browse, flip, and touch up your digital photos instantly with a clean, lightweight desktop picture viewer designed for speed.",
+    "i18n": {
+      "it": "Browse, flip, and touch up your digital photos instantly with a clean, lightweight desktop picture viewer designed for speed.",
+      "es": "Browse, flip, and touch up your digital photos instantly with a clean, lightweight desktop picture viewer designed for speed.",
+      "fr": "Browse, flip, and touch up your digital photos instantly with a clean, lightweight desktop picture viewer designed for speed.",
+      "de": "Browse, flip, and touch up your digital photos instantly with a clean, lightweight desktop picture viewer designed for speed."
+    },
+    "download_url": "https://github.com/ModuleArt/quick-picture-viewer/releases/download/v3.1.4/QuickPictureViewer-Setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "edge-drop",
+    "name": "Edge-Drop",
+    "tagline": "Your smart clipboard on screen edge",
+    "repo_url": "https://github.com/deepender25/edge-drop",
+    "full_name": "deepender25/edge-drop",
+    "category": "Productivity",
+    "tags": [
+      "clipboard",
+      "windows"
+    ],
+    "icon": "/icons/edge-drop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 827,
+    "tier": "tier1_gui",
+    "summary": "Edge-Drop is a handy clipboard shelf that lives on the edge of your screen, letting you instantly paste or drag text, images, and files into any app.",
+    "i18n": {
+      "it": "Edge-Drop posiziona la cronologia degli appunti sul bordo dello schermo per incollare o trascinare facilmente qualsiasi contenuto.",
+      "es": "Edge-Drop mantiene tu historial de portapapeles en el borde de la pantalla para arrastrar y pegar archivos o texto rápidamente.",
+      "fr": "Edge-Drop place votre historique de presse-papier sur le bord de l'écran pour glisser et déposer facilement vos éléments.",
+      "de": "Edge-Drop zeigt Ihren Zwischenablageverlauf direkt am Bildschirmrand, um Dateien und Text mühelos per Drag & Drop zu nutzen."
+    },
+    "download_url": "https://github.com/Deepender25/Edge-Drop/releases/download/v0.4.0/Edge-Drop-Setup-0.4.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "everest",
+    "name": "Everest",
+    "tagline": "Lightweight, beautiful web service testing tool",
+    "repo_url": "https://github.com/rohitawate/everest",
+    "full_name": "rohitawate/everest",
+    "category": "Productivity",
+    "tags": [
+      "developer",
+      "utility"
+    ],
+    "icon": "/icons/everest.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 822,
+    "tier": "tier1_gui",
+    "summary": "Everest is a fast, stylish tool for testing web services and viewing server responses without slowing down your computer.",
+    "i18n": {
+      "it": "Everest è un comodo strumento per testare servizi web e visualizzare le risposte del server senza rallentare il computer.",
+      "es": "Everest es una herramienta rápida y elegante para probar servicios web y ver respuestas del servidor sin ralentizar tu PC.",
+      "fr": "Everest est un outil rapide et stylé pour tester des services web et afficher les réponses du serveur sans ralentir.",
+      "de": "Everest ist ein schnelles Tool zum Testen von Webdiensten und Anzeigen von Serverantworten ohne den Computer zu belasten."
+    },
+    "download_url": "https://github.com/RohitAwate/Everest/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "bossconsole",
+    "name": "BossConsole",
+    "tagline": "Native multi-threaded operator console for AI agents",
+    "repo_url": "https://github.com/risa-labs-inc/bossconsole",
+    "full_name": "risa-labs-inc/bossconsole",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/bossconsole.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 819,
+    "tier": "tier1_gui",
+    "summary": "BossConsole provides a dedicated native workspace to run automated coding assistants with real browsers, terminals, and file editors.",
+    "i18n": {
+      "it": "BossConsole offre uno spazio di lavoro nativo per eseguire assistenti di programmazione con browser e terminali reali.",
+      "es": "BossConsole ofrece un espacio de trabajo nativo para ejecutar asistentes con navegadores, terminales y editores reales.",
+      "fr": "BossConsole fournit un espace de travail natif pour exécuter des assistants de code avec des navigateurs et terminaux réels.",
+      "de": "BossConsole bietet einen nativen Arbeitsbereich zum Ausführen von Programmierassistenten mit echten Browsern und Terminals."
+    },
+    "download_url": "https://github.com/risa-labs-inc/BossConsole/releases/download/v9.5.45/BOSS-9.5.45-arm64.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "cyrene-agent",
+    "name": "Cyrene-Agent",
+    "tagline": "Your animated virtual desktop AI companion",
+    "repo_url": "https://github.com/playa-cyrene/cyrene-agent",
+    "full_name": "playa-cyrene/cyrene-agent",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "desktop"
+    ],
+    "icon": "/icons/cyrene-agent.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 810,
+    "tier": "tier1_gui",
+    "summary": "Meet your interactive desktop assistant featuring live character animation, personalized long-term memory, and multi-mode support for everyday work, coding, and learning.",
+    "i18n": {
+      "it": "Incontra il tuo assistente virtuale interattivo con animazioni dei personaggi, memoria a lungo termine e supporto per lavoro, programmazione e studio.",
+      "es": "Conoce a tu asistente virtual interactivo con animación de personajes, memoria a largo plazo y soporte para trabajo, programación y aprendizaje.",
+      "fr": "Découvrez votre assistant virtuel interactif doté d'animations de personnages, de mémoire à long terme et de modes pour le travail et l'apprentissage.",
+      "de": "Erlebe deinen interaktiven Desktop-Assistenten mit Charakteranimationen, langfristigem Gedächtnis und Unterstützung für Arbeit, Programmierung und Lernen."
+    },
+    "download_url": "https://github.com/Playa-Cyrene/Cyrene-Agent/releases/download/v1.3.7/Cyrene-Setup-1.3.7.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "swiftdl",
+    "name": "SwiftDL",
+    "tagline": "Supercharge your everyday file downloads.",
+    "repo_url": "https://github.com/harshsinghsv/swiftdl",
+    "full_name": "harshsinghsv/swiftdl",
+    "category": "Productivity",
+    "tags": [
+      "downloader",
+      "tauri"
+    ],
+    "icon": "/icons/swiftdl.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 804,
+    "tier": "tier1_gui",
+    "summary": "Accelerate your downloads by splitting files across multiple concurrent connections with instant resume support.",
+    "i18n": {
+      "it": "Accelerate your downloads by splitting files across multiple concurrent connections with instant resume support.",
+      "es": "Accelerate your downloads by splitting files across multiple concurrent connections with instant resume support.",
+      "fr": "Accelerate your downloads by splitting files across multiple concurrent connections with instant resume support.",
+      "de": "Accelerate your downloads by splitting files across multiple concurrent connections with instant resume support."
+    },
+    "download_url": "https://github.com/harshsinghsv/swiftdl/releases/download/v0.4.2/SwiftDL_0.4.2_arm64_installer.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "shiba",
+    "name": "Shiba",
+    "tagline": "Lightning-fast keyboard-friendly Markdown document viewer",
+    "repo_url": "https://github.com/rhysd/shiba",
+    "full_name": "rhysd/shiba",
+    "category": "Productivity",
+    "tags": [
+      "markdown",
+      "viewer"
+    ],
+    "icon": "/icons/shiba.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 802,
+    "tier": "tier1_gui",
+    "summary": "Shiba is a fast, lightweight Markdown preview companion designed for writers and developers who prefer navigating documents entirely with keyboard shortcuts.",
+    "i18n": {
+      "it": "Shiba è un visualizzatore di Markdown leggero e veloce progettato per chi preferisce navigare tra i documenti usando la tastiera.",
+      "es": "Shiba es un visor de Markdown rápido y ligero diseñado para quienes prefieren navegar por documentos usando atajos de teclado.",
+      "fr": "Shiba est une visionneuse Markdown rapide et légère conçue pour naviguer dans les documents facilement avec les raccourcis clavier.",
+      "de": "Shiba ist ein schneller und leichter Markdown-Betrachter, der für die bequeme Dokumentennavigation per Tastatur entwickelt wurde."
+    },
+    "download_url": "https://github.com/rhysd/Shiba/releases/download/v2.0.0-alpha.4/shiba_x64_v2.0.0-alpha.4.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "tweakphp",
+    "name": "tweakphp",
+    "tagline": "Quickly experiment with PHP code fragments",
+    "repo_url": "https://github.com/tweakphp/tweakphp",
+    "full_name": "tweakphp/tweakphp",
+    "category": "Productivity",
+    "tags": [
+      "php",
+      "development"
+    ],
+    "icon": "/icons/tweakphp.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 801,
+    "tier": "tier1_gui",
+    "summary": "TweakPHP is a lightweight desktop workspace designed to let you write, test, and experiment with PHP code snippets instantly.",
+    "i18n": {
+      "it": "TweakPHP è un ambiente desktop leggero progettato per scrivere, testare e sperimentare frammenti di codice PHP istantaneamente.",
+      "es": "TweakPHP es un entorno de escritorio ligero diseñado para escribir, probar y experimentar con fragmentos de código PHP al instante.",
+      "fr": "TweakPHP est un espace de travail de bureau léger conçu pour écrire, tester et expérimenter des extraits de code PHP instantanément.",
+      "de": "TweakPHP ist ein leichter Desktop-Arbeitsbereich, mit dem Sie PHP-Code-Snippets sofort schreiben, testen und ausprobieren können."
+    },
+    "download_url": "https://github.com/tweakphp/tweakphp/releases/download/v0.15.0/TweakPHP.Setup.0.15.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "opencode-studio",
+    "name": "Opencode Studio",
+    "tagline": "Manage your local OpenCode environment visually",
+    "repo_url": "https://github.com/microck/opencode-studio",
+    "full_name": "microck/opencode-studio",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "configuration"
+    ],
+    "icon": "/icons/opencode-studio.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 796,
+    "tier": "tier1_gui",
+    "summary": "Manage your local AI coding assistant setups, plugins, and server rules effortlessly through a visual control panel instead of editing raw configuration files.",
+    "i18n": {
+      "it": "Gestisci assistenti di codifica e componenti aggiuntivi tramite un pannello di controllo visivo senza modificare file di configurazione.",
+      "es": "Administra asistentes de programación y complementos mediante un panel de control visual sin modificar archivos de texto complejos.",
+      "fr": "Gérez vos assistants de code et extensions via un panneau de configuration visuel sans modifier de fichiers texte complexes.",
+      "de": "Verwalten Sie KI-Assistenten und Erweiterungen über ein visuelles Kontrollpanel, ganz ohne manuelle Konfigurationsbearbeitung."
+    },
+    "download_url": "https://github.com/Microck/opencode-studio/releases/download/v2.6.0/SHA256SUMS",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "perspec",
+    "name": "Perspec",
+    "tagline": "Fix image perspective and straighten documents.",
+    "repo_url": "https://github.com/ad-si/perspec",
+    "full_name": "ad-si/perspec",
+    "category": "Productivity",
+    "tags": [
+      "scanning",
+      "productivity"
+    ],
+    "icon": "/icons/perspec.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 793,
+    "tier": "tier1_gui",
+    "summary": "Perspec is a desktop tool that automatically straightens slanted photos of documents, whiteboards, and facades with smart corner detection.",
+    "i18n": {
+      "it": "Perspec raddrizza automaticamente foto storte di documenti e lavagne grazie al rilevamento intelligente degli angoli.",
+      "es": "Perspec endereza automáticamente fotos inclinadas de documentos y pizarras mediante detección inteligente de esquinas.",
+      "fr": "Perspec redresse automatiquement les photos inclinées de documents et tableaux blancs grâce à une détection intelligente.",
+      "de": "Perspec begradigt schiefe Fotos von Dokumenten und Whiteboards automatisch durch intelligente Eckenerkennung."
+    },
+    "download_url": "https://github.com/ad-si/Perspec/releases/download/v1.2.1.0/Perspec_arm64.AppImage",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "orfeo",
+    "name": "Orfeo",
+    "tagline": "Master piano with interactive MIDI lessons",
+    "repo_url": "https://github.com/squarebow/orfeo",
+    "full_name": "squarebow/orfeo",
+    "category": "Productivity",
+    "tags": [
+      "midi",
+      "piano"
+    ],
+    "icon": "/icons/orfeo.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 767,
+    "tier": "tier1_gui",
+    "summary": "Transform any MIDI song into an interactive piano lesson with falling notes, slow-down practice, and zero distractions.",
+    "i18n": {
+      "it": "Trasforma qualsiasi brano MIDI in una lezione interattiva di pianoforte con note che cadono e pratica personalizzata.",
+      "es": "Convierte cualquier archivo MIDI en una lección interactiva de piano con notas deslizantes y práctica a tu ritmo.",
+      "fr": "Transformez n'importe quel morceau MIDI en leçon de piano interactive avec notes défilantes et sans distractions.",
+      "de": "Verwandeln Sie jeden MIDI-Song in eine interaktive Klavierstunde mit fallenden Noten und flexiblem Üben."
+    },
+    "download_url": "https://github.com/Squarebow/Orfeo/releases/download/v1.8.0/Orfeo-1.8.0-portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "dsh-desktop",
+    "name": "dsh_desktop",
+    "tagline": "Ready-to-use DeepSeek desktop client with built-in runtime",
+    "repo_url": "https://github.com/myyangyunfan/dsh_desktop",
+    "full_name": "myyangyunfan/dsh_desktop",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "desktop"
+    ],
+    "icon": "/icons/dsh-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 755,
+    "tier": "tier1_gui",
+    "summary": "An all-in-one desktop companion that bundles popular helper plugins and a built-in runtime, letting you launch your AI workspace instantly without manual terminal setup.",
+    "i18n": {
+      "it": "Un client desktop completo che raccoglie plugin popolari e un motore integrato, permettendoti di avviare il tuo spazio di lavoro IA senza configurazioni complesse.",
+      "es": "Un espacio de trabajo de escritorio que integra complementos populares y un motor independiente para que puedas iniciar tus herramientas de IA sin complicaciones.",
+      "fr": "Un espace de travail de bureau regroupant des modules populaires et un moteur intégré pour lancer vos outils d'intelligence artificielle en un clic.",
+      "de": "Ein praktischer Desktop-Client, der beliebte Helfer-Plugins und eine integrierte Laufzeitumgebung bündelt, sodass Sie Ihren KI-Arbeitsbereich sofort starten können."
+    },
+    "download_url": "https://github.com/myYangyunfan/dsh_desktop/releases/download/v1.1.0/DSH-Desktop-Setup-1.1.0-win-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "guark",
+    "name": "Guark",
+    "tagline": "Build native desktop apps with Go.",
+    "repo_url": "https://github.com/guark/guark",
+    "full_name": "guark/guark",
+    "category": "Productivity",
+    "tags": [
+      "desktop",
+      "development"
+    ],
+    "icon": "/icons/guark.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 754,
+    "tier": "tier1_gui",
+    "summary": "Create powerful cross-platform desktop applications by pairing fast system logic with modern web user interfaces.",
+    "i18n": {
+      "it": "Crea potenti applicazioni desktop multipiattaforma abbinando una logica di sistema veloce a interfacce web moderne.",
+      "es": "Crea potentes aplicaciones de escritorio multiplataforma combinando lógica rápida del sistema con interfaces web modernas.",
+      "fr": "Créez de puissantes applications de bureau multiplateformes en associant une logique système rapide à des interfaces web modernes.",
+      "de": "Entwickle leistungsstarke plattformübergreifende Desktop-Anwendungen, indem du Systemlogik mit modernen Webschnittstellen verbindest."
+    },
+    "download_url": "https://github.com/guark/guark/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "jiwuchat",
+    "name": "JiwuChat",
+    "tagline": "Lightweight chat app with smart assistants",
+    "repo_url": "https://github.com/kiwi233333/jiwuchat",
+    "full_name": "kiwi233333/jiwuchat",
+    "category": "Productivity",
+    "tags": [
+      "messaging",
+      "chat"
+    ],
+    "icon": "/icons/jiwuchat.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (AGPL v3)",
+    "stars": 753,
+    "tier": "tier1_gui",
+    "summary": "JiwuChat is a fast, multi-platform messaging app featuring voice calls, file sharing, and built-in artificial intelligence assistants.",
+    "i18n": {
+      "it": "JiwuChat è un'app di messaggistica multipiattaforma veloce con chiamate vocali, condivisione file e assistenti IA integrati.",
+      "es": "JiwuChat es una aplicación de mensajería multiplataforma rápida con llamadas de voz, archivos y asistentes de inteligencia artificial.",
+      "fr": "JiwuChat est une application de messagerie multiplateforme rapide avec appels vocaux, partage de fichiers et assistants IA intégrés.",
+      "de": "JiwuChat ist eine schnelle, plattformübergreifende Messaging-App mit Sprachanrufen, Dateifreigabe und integrierten KI-Assistenten."
+    },
+    "download_url": "https://github.com/KiWi233333/JiwuChat/releases/download/v2.0.5/JiwuChat_2.0.5_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "android-tools",
     "name": "Android Tools",
     "tagline": "Automate custom Android operating system creation",
@@ -19821,6 +20549,678 @@
     },
     "download_url": "https://github.com/AndroidBlobs",
     "updated_at": "2026-11-19"
+  },
+  {
+    "slug": "zephyr",
+    "name": "Zephyr",
+    "tagline": "Modern and secure network proxy manager",
+    "repo_url": "https://github.com/juwan-hwang/zephyr",
+    "full_name": "juwan-hwang/zephyr",
+    "category": "Security & Privacy",
+    "tags": [
+      "networking",
+      "proxy"
+    ],
+    "icon": "/icons/zephyr.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 751,
+    "tier": "tier1_gui",
+    "summary": "Manage network connections and routing rules efficiently with a lightweight desktop application designed for privacy.",
+    "i18n": {
+      "it": "Gestisci connessioni di rete e regole di routing con un'applicazione desktop leggera progettata per la privacy.",
+      "es": "Gestiona conexiones de red y reglas de enrutamiento con una aplicación de escritorio ligera diseñada para la privacidad.",
+      "fr": "Gérez vos connexions réseau et vos règles de routage avec une application de bureau légère conçue pour la confidentialité.",
+      "de": "Verwalten Sie Netzwerkverbindungen und Routing-Regeln effizient mit einer leichten Desktop-Anwendung für Datenschutz."
+    },
+    "download_url": "https://github.com/Juwan-Hwang/Zephyr/releases/download/v2.5.0/Zephyr_2.5.0_windows-aarch64-setup-full.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "httptoolkit-desktop",
+    "name": "httptoolkit-desktop",
+    "tagline": "Debug network traffic with ease",
+    "repo_url": "https://github.com/httptoolkit/httptoolkit-desktop",
+    "full_name": "httptoolkit/httptoolkit-desktop",
+    "category": "Productivity",
+    "tags": [
+      "networking",
+      "debugging"
+    ],
+    "icon": "/icons/httptoolkit-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 741,
+    "tier": "tier1_gui",
+    "summary": "Inspect, analyze, and debug HTTP and HTTPS network traffic passing through your applications and devices with a friendly desktop tool.",
+    "i18n": {
+      "it": "Ispeziona e analizza il traffico di rete HTTP e HTTPS delle tue applicazioni tramite un comodo programma desktop.",
+      "es": "Inspecciona y analiza el tráfico de red HTTP y HTTPS de tus aplicaciones utilizando una útil aplicación de escritorio.",
+      "fr": "Inspectez et analysez le trafic réseau HTTP et HTTPS de vos applications à l'aide d'un outil de bureau convivial.",
+      "de": "Überwachen und analysieren Sie HTTP- und HTTPS-Netzwerkverkehr Ihrer Anwendungen mit einem praktischen Desktop-Werkzeug."
+    },
+    "download_url": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.27.4/HttpToolkit-1.27.4.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "screenarc",
+    "name": "ScreenArc",
+    "tagline": "Create cinematic screen recordings with auto-zoom",
+    "repo_url": "https://github.com/tamnguyenvan/screenarc",
+    "full_name": "tamnguyenvan/screenarc",
+    "category": "Video & Audio",
+    "tags": [
+      "screen-recorder",
+      "video-editor"
+    ],
+    "icon": "/icons/screenarc.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 735,
+    "tier": "tier1_gui",
+    "summary": "Capture your screen effortlessly with smooth automated zooms and mouse tracking, then polish your videos with a built-in visual editor.",
+    "i18n": {
+      "it": "Registra lo schermo con zoom automatico e tracciamento del mouse, poi perfeziona i video con un editor visivo integrato.",
+      "es": "Captura tu pantalla con zoom automático y seguimiento del mouse, y edita tus videos fácilmente con un editor visual integrado.",
+      "fr": "Capturez votre écran avec des zooms automatiques fluides et un suivi de souris, puis peaufinez vos vidéos.",
+      "de": "Nehmen Sie Ihren Bildschirm auf und nutzen Sie automatische Zoomeffekte sowie Mausverfolgung für perfekte Videos."
+    },
+    "download_url": "https://github.com/tamnguyenvan/screenarc/releases/download/v1.4.1/ScreenArc.Setup.1.4.1.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "chapar",
+    "name": "Chapar",
+    "tagline": "Fast native API testing client",
+    "repo_url": "https://github.com/chapar-rest/chapar",
+    "full_name": "chapar-rest/chapar",
+    "category": "Productivity",
+    "tags": [
+      "developer-tools",
+      "rest"
+    ],
+    "icon": "/icons/chapar.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (BSD)",
+    "stars": 734,
+    "tier": "tier1_gui",
+    "summary": "Test and inspect REST, gRPC, and WebSocket connections locally without cloud accounts or bloated software.",
+    "i18n": {
+      "it": "Testa e ispeziona connessioni REST, gRPC e WebSocket in locale senza account cloud o software pesante.",
+      "es": "Prueba e inspecciona conexiones REST, gRPC y WebSocket localmente sin cuentas en la nube ni software pesado.",
+      "fr": "Testez et inspectez les connexions REST, gRPC et WebSocket en local sans comptes cloud ni logiciels lourds.",
+      "de": "Testen und untersuchen Sie REST-, gRPC- und WebSocket-Verbindungen lokal ohne Cloud-Konten oder aufgeblähte Software."
+    },
+    "download_url": "https://github.com/chapar-rest/chapar/releases/download/v0.13.0/chapar-macos-v0.13.0-amd64.dmg",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "deepseek-harness-studio",
+    "name": "DeepSeek Harness Studio",
+    "tagline": "No-code desktop studio for AI workflows",
+    "repo_url": "https://github.com/fufankeji/deepseek-harness-studio",
+    "full_name": "fufankeji/deepseek-harness-studio",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "desktop"
+    ],
+    "icon": "/icons/deepseek-harness-studio.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 731,
+    "tier": "tier1_gui",
+    "summary": "Manage local AI models, run ready-made workflows, and discover plugins easily with a friendly desktop workspace for Windows and macOS.",
+    "i18n": {
+      "it": "Gestisci modelli IA locali, esegui flussi pronti e scopri plugin con un comodo spazio di lavoro per Windows e macOS.",
+      "es": "Gestiona modelos de IA locales, ejecuta flujos listos y descubre complementos con un entorno sencillo para Windows y macOS.",
+      "fr": "Gérez des modèles IA locaux, exécutez des flux prêts et découvrez des plugins avec un espace de travail pour Windows et macOS.",
+      "de": "Verwalten Sie lokale KI-Modelle, nutzen Sie fertige Arbeitsabläufe und entdecken Sie Plugins in einer App für Windows und macOS."
+    },
+    "download_url": "https://www.beyondata.com/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "tavotto",
+    "name": "Tavotto",
+    "tagline": "Make AI-drawn research figures publication-ready",
+    "repo_url": "https://github.com/tavotto/tavotto",
+    "full_name": "tavotto/tavotto",
+    "category": "Productivity",
+    "tags": [
+      "science",
+      "research"
+    ],
+    "icon": "/icons/tavotto.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (AGPL v3)",
+    "stars": 728,
+    "tier": "tier1_gui",
+    "summary": "Tavotto lets you easily edit and polish scientific figures created by scripts or artificial intelligence without touching your underlying code.",
+    "i18n": {
+      "it": "Modifica e rifinisci facilmente le figure scientifiche generate da script o intelligenza artificiale senza toccare il codice sottostante.",
+      "es": "Edita y pule fácilmente figuras científicas creadas por scripts o inteligencia artificial sin tocar tu código original.",
+      "fr": "Modifiez et peaufinez facilement vos graphiques scientifiques générés par des scripts sans modifier votre code source.",
+      "de": "Bearbeiten und verfeinern Sie wissenschaftliche Diagramme aus Skripten ganz einfach, ohne Ihren zugrunde liegenden Code zu ändern."
+    },
+    "download_url": "https://github.com/Tavotto/Tavotto/releases/download/v0.21.3/Tavotto-0.21.3-Windows-Setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "horizon",
+    "name": "Horizon",
+    "tagline": "Manage all your terminal sessions anywhere.",
+    "repo_url": "https://github.com/peters/horizon",
+    "full_name": "peters/horizon",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "productivity"
+    ],
+    "icon": "/icons/horizon.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 725,
+    "tier": "tier1_gui",
+    "summary": "Horizon is a GPU-accelerated terminal board that organizes all your sessions, tools, and workflows on a single infinite canvas.",
+    "i18n": {
+      "it": "Horizon è una lavagna per terminale accelerata via GPU che organizza tutte le tue sessioni su una singola canvas infinita.",
+      "es": "Horizon es un panel de terminal acelerado por GPU que organiza todas tus sesiones y herramientas en un lienzo infinito.",
+      "fr": "Horizon est un tableau de terminal accéléré par GPU qui organise toutes vos sessions et outils sur un canevas infini.",
+      "de": "Horizon ist ein GPU-beschleunigtes Terminal-Board, das alle Ihre Sitzungen und Werkzeuge auf einer unendlichen Canvas anordnet."
+    },
+    "download_url": "https://github.com/peters/horizon/releases/download/v0.2.7/horizon-installer-win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "codex-app-manager",
+    "name": "Codex App Manager",
+    "tagline": "Easily manage and update your desktop applications.",
+    "repo_url": "https://github.com/wangnov/codex-app-manager",
+    "full_name": "wangnov/codex-app-manager",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "desktop"
+    ],
+    "icon": "/icons/codex-app-manager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 710,
+    "tier": "tier1_gui",
+    "summary": "Easily install, update, and clean up your desktop applications with a single friendly control center.",
+    "i18n": {
+      "it": "Installa, aggiorna e rimuovi facilmente le tue applicazioni desktop con un comodo pannello di controllo.",
+      "es": "Instala, actualiza y limpia fácilmente tus aplicaciones de escritorio con un panel de control intuitivo.",
+      "fr": "Installez, mettez à jour et supprimez vos applications de bureau en toute simplicité grâce à un panneau dédié.",
+      "de": "Installieren, aktualisieren und bereinigen Sie Ihre Desktop-Anwendungen ganz einfach über ein praktisches Tool."
+    },
+    "download_url": "https://github.com/Wangnov/Codex-App-Manager/releases/download/v0.5.17/CodexAppManager_0.5.17_arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "opentypeless",
+    "name": "OpenTypeless",
+    "tagline": "Speak naturally and type anywhere with AI.",
+    "repo_url": "https://github.com/tover0314-w/opentypeless",
+    "full_name": "tover0314-w/opentypeless",
+    "category": "Productivity",
+    "tags": [
+      "voice-typing",
+      "transcription"
+    ],
+    "icon": "/icons/opentypeless.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 696,
+    "tier": "tier1_gui",
+    "summary": "Transform your voice into polished text across any desktop application using hotkeys and advanced artificial intelligence.",
+    "i18n": {
+      "it": "Traduci la tua voce in testo perfetto in qualsiasi applicazione desktop usando scorciatoie e intelligenza artificiale.",
+      "es": "Convierte tu voz en texto pulido dentro de cualquier programa de escritorio usando atajos y potente inteligencia artificial.",
+      "fr": "Transformez votre voix en texte soigné dans n'importe quelle application grâce à des raccourcis et à l'intelligence artificielle.",
+      "de": "Verwandeln Sie Ihre Stimme in polierten Text in jeder Desktop-Anwendung mithilfe von Tastenkombinationen und Künstlicher Intelligenz."
+    },
+    "download_url": "https://github.com/tover0314-w/opentypeless/releases/download/v1.1.61/OpenTypeless_1.1.61_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kition",
+    "name": "Kition",
+    "tagline": "Open professional productivity suite with AI agents",
+    "repo_url": "https://github.com/kitionai/kition",
+    "full_name": "kitionai/kition",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "workspace"
+    ],
+    "icon": "/icons/kition.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 681,
+    "tier": "tier1_gui",
+    "summary": "Manage notes, spreadsheets, design files, and videos in one desktop workspace alongside a built-in AI assistant.",
+    "i18n": {
+      "it": "Gestisci note, fogli di calcolo, file di design e video in un unico spazio di lavoro con un assistente IA integrato.",
+      "es": "Gestiona notas, hojas de cálculo, archivos de diseño y vídeos en un espacio de trabajo con un asistente de IA integrado.",
+      "fr": "Gérez notes, tableurs, fichiers de design et vidéos dans un espace de travail de bureau avec un assistant IA intégré.",
+      "de": "Verwalten Sie Notizen, Tabellen, Designdateien und Videos in einem Desktop-Arbeitsbereich mit einem integrierten KI-Assistenten."
+    },
+    "download_url": "https://kition.ai",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "docufinder",
+    "name": "Docufinder",
+    "tagline": "Search local computer documents by content",
+    "repo_url": "https://github.com/chrisryugj/docufinder",
+    "full_name": "chrisryugj/docufinder",
+    "category": "Productivity",
+    "tags": [
+      "search",
+      "offline"
+    ],
+    "icon": "/icons/docufinder.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Custom Open License",
+    "stars": 680,
+    "tier": "tier1_gui",
+    "summary": "Find files on your computer instantly by searching inside documents rather than just relying on file names.",
+    "i18n": {
+      "it": "Trova file sul computer cercando all'interno dei documenti anziché solo nei nomi.",
+      "es": "Encuentra archivos en tu ordenador buscando dentro del texto de los documentos.",
+      "fr": "Trouvez des fichiers sur votre ordinateur en cherchant directement dans le texte.",
+      "de": "Finden Sie Dateien auf Ihrem Computer, indem Sie im Text statt nur in Dateinamen suchen."
+    },
+    "download_url": "https://github.com/chrisryugj/Docufinder/releases/download/v3.8.17/Anything.Lite_3.8.17_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "unyo-app",
+    "name": "Unyo",
+    "tagline": "Stream anime and read manga ad-free.",
+    "repo_url": "https://github.com/k3vinb5/unyo-app",
+    "full_name": "k3vinb5/unyo-app",
+    "category": "Productivity",
+    "tags": [
+      "anime",
+      "manga"
+    ],
+    "icon": "/icons/unyo-app.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 675,
+    "tier": "tier1_gui",
+    "summary": "Unyo is a clean desktop application designed for streaming your favorite anime and reading manga without intrusive advertisements.",
+    "i18n": {
+      "it": "Unyo è un'applicazione desktop pulita per guardare anime e leggere manga senza pubblicità, sincronizzando automaticamente i tuoi elenchi.",
+      "es": "Unyo es una aplicación de escritorio limpia para transmitir anime y leer manga sin anuncios molestos, sincronizando tu progreso automáticamente.",
+      "fr": "Unyo est une application de bureau conçue pour diffuser des animes et lire des mangas sans publicité tout en synchronisant vos listes.",
+      "de": "Unyo ist eine saubere Desktop-Anwendung zum Streamen von Animes und Lesen von Mangas ohne Werbung mit automatischer Listen-Synchronisierung."
+    },
+    "download_url": "https://github.com/K3vinb5/unyo-app/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nativeshell",
+    "name": "nativeshell",
+    "tagline": "Advanced multi-window framework for desktop apps",
+    "repo_url": "https://github.com/nativeshell/nativeshell",
+    "full_name": "nativeshell/nativeshell",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "desktop"
+    ],
+    "icon": "/icons/nativeshell.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 664,
+    "tier": "tier1_gui",
+    "summary": "Build powerful desktop software with multiple windows, menus, and drag-and-drop features using a single code foundation.",
+    "i18n": {
+      "it": "Crea potenti programmi desktop con finestre multiple, menu e trascinamento utilizzando un'unica base di codice.",
+      "es": "Crea potentes programas de escritorio con múltiples ventanas y funciones de arrastrar y soltar usando una base de código.",
+      "fr": "Créez des logiciels de bureau puissants dotés de plusieurs fenêtres et de menus à l'aide d'une base de code unique.",
+      "de": "Erstellen Sie leistungsstarke Desktop-Software mit mehreren Fenstern und Menüs auf Basis einer einzigen Codebasis."
+    },
+    "download_url": "https://nativeshell.dev",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nomi",
+    "name": "Nomi",
+    "tagline": "Pro-grade local-first video creation studio.",
+    "repo_url": "https://github.com/aqm857886159/nomi",
+    "full_name": "aqm857886159/nomi",
+    "category": "Productivity",
+    "tags": [
+      "ai-video",
+      "desktop-app"
+    ],
+    "icon": "/icons/nomi.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (AGPL v3)",
+    "stars": 661,
+    "tier": "tier1_gui",
+    "summary": "Create professional AI videos directly on your computer using your preferred models and timelines without subscriptions.",
+    "i18n": {
+      "it": "Crea video professionali direttamente sul tuo computer usando i tuoi modelli preferiti senza abbonamenti.",
+      "es": "Crea videos profesionales directamente en tu computadora usando tus modelos favoritos sin suscripciones.",
+      "fr": "Créez des vidéos professionnelles directement sur votre ordinateur en utilisant vos modèles préférés.",
+      "de": "Erstellen Sie professionelle KI-Videos direkt auf Ihrem Computer mit Ihren bevorzugten Modellen."
+    },
+    "download_url": "https://github.com/aqm857886159/Nomi/releases/download/v0.24.1/Nomi-win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "jet-pilot",
+    "name": "JET Pilot",
+    "tagline": "Manage cloud clusters with speed and style.",
+    "repo_url": "https://github.com/unxsist/jet-pilot",
+    "full_name": "unxsist/jet-pilot",
+    "category": "Productivity",
+    "tags": [
+      "kubernetes",
+      "devops"
+    ],
+    "icon": "/icons/jet-pilot.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 660,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple cloud server clusters in one fast, beautiful desktop hub without accounts or tracking.",
+    "i18n": {
+      "it": "Gestisci più cluster cloud in un'unica applicazione desktop veloce, senza account né tracciamento dei dati personali.",
+      "es": "Gestiona múltiples clústeres de servidores en un centro de escritorio rápido y visual, sin cuentas ni seguimiento.",
+      "fr": "Gérez plusieurs clusters cloud depuis un espace de bureau rapide et élégant, sans aucun compte ni suivi.",
+      "de": "Verwalten Sie mehrere Cloud-Cluster in einem schnellen Desktop-Hub ganz ohne Benutzerkonten oder Datenerfassung."
+    },
+    "download_url": "https://github.com/unxsist/jet-pilot/releases/download/v2.3.1/JET.Pilot_2.3.1_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ebou",
+    "name": "Ebou",
+    "tagline": "Messenger-style decentralized social network client",
+    "repo_url": "https://github.com/terhechte/ebou",
+    "full_name": "terhechte/ebou",
+    "category": "Productivity",
+    "tags": [
+      "mastodon",
+      "messenger"
+    ],
+    "icon": "/icons/ebou.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 648,
+    "tier": "tier1_gui",
+    "summary": "Browse decentralized social media feeds grouped by author in a clean messenger layout for easier reading.",
+    "i18n": {
+      "it": "Esplora i feed social decentralizzati raggruppati per autore in un layout di chat pulito per una lettura più semplice.",
+      "es": "Explora los feeds sociales descentralizados agrupados por autor en un diseño de chat limpio para una lectura más fácil.",
+      "fr": "Parcourez les flux sociaux décentralisés regroupés par auteur dans une mise en page de chat propre pour une lecture facile.",
+      "de": "Durchstöbern Sie dezentrale Social-Media-Feeds nach Autor gruppiert in einem übersichtlichen Chat-Layout für einfaches Lesen."
+    },
+    "download_url": "https://terhech.de/ebou/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "openwiki",
+    "name": "OpenWiki",
+    "tagline": "Turn captured text into AI knowledge",
+    "repo_url": "https://github.com/kdsz001/openwiki",
+    "full_name": "kdsz001/openwiki",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "ai"
+    ],
+    "icon": "/icons/openwiki.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 645,
+    "tier": "tier1_gui",
+    "summary": "Capture anything you copy on your computer and let artificial intelligence organize it into a personal knowledge base.",
+    "i18n": {
+      "it": "Cattura qualsiasi testo copiato sul computer e lascia che l'intelligenza artificiale lo organizzi in una base di conoscenza.",
+      "es": "Captura cualquier texto que copies y deja que la inteligencia artificial lo organice en una base de conocimiento personal.",
+      "fr": "Capturez tout ce que vous copiez et laissez l'intelligence artificiale l'organiser dans une base de connaissances.",
+      "de": "Erfassen Sie kopierte Inhalte und lassen Sie künstliche Intelligenz sie in einer persönlichen Wissensbasis organisieren."
+    },
+    "download_url": "https://github.com/kdsz001/OpenWiki/releases/download/v0.3.30/OpenWiki_0.3.30_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hugagentos",
+    "name": "HugAgentOS",
+    "tagline": "Run autonomous 24/7 assistants anywhere",
+    "repo_url": "https://github.com/zju-real/hugagentos",
+    "full_name": "zju-real/hugagentos",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/hugagentos.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 635,
+    "tier": "tier1_gui",
+    "summary": "An open-source agent platform that keeps working in the cloud even after you close your computer or go offline.",
+    "i18n": {
+      "it": "Una piattaforma di intelligenza artificiale che continua a lavorare nel cloud anche quando chiudi il computer.",
+      "es": "Una plataforma de agentes que sigue trabajando en la nube incluso después de cerrar tu ordenador.",
+      "fr": "Une plateforme d'agents qui continue de fonctionner dans le cloud même après la fermeture de votre ordinateur.",
+      "de": "Eine Agentenplattform, die in der Cloud weiterarbeitet, selbst wenn Sie Ihren Computer ausschalten."
+    },
+    "download_url": "https://github.com/ZJU-REAL/HugAgentOS/releases/download/desktop-v1.0.2/HugAgentOS_1.0.2_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "wayland",
+    "name": "Wayland",
+    "tagline": "One desktop command center for every AI agent.",
+    "repo_url": "https://github.com/ferroxlabs/wayland",
+    "full_name": "ferroxlabs/wayland",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/wayland.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 618,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple artificial intelligence assistants from a single local command center on your computer.",
+    "i18n": {
+      "it": "Gestisci più assistenti di intelligenza artificiale da un'unica postazione locale sul tuo computer senza passare da una nuvola all'altra.",
+      "es": "Administra múltiples asistentes de inteligencia artificial desde un centro de control local en tu ordenador sin depender de la nube.",
+      "fr": "Gérez plusieurs assistants d'intelligence artificielle à partir d'un seul panneau de commande local sur votre ordinateur personnel.",
+      "de": "Verwalten Sie mehrere künstliche Intelligenzen von einem zentralen lokalen Ort auf Ihrem Computer aus, ohne Cloud-Zwänge."
+    },
+    "download_url": "https://github.com/FerroxLabs/wayland/releases/download/v0.13.2/Wayland-0.13.2-win-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "sciencefair",
+    "name": "sciencefair",
+    "tagline": "Free open-source desktop science library app",
+    "repo_url": "https://github.com/sciencefair-land/sciencefair",
+    "full_name": "sciencefair-land/sciencefair",
+    "category": "Productivity",
+    "tags": [
+      "science",
+      "literature"
+    ],
+    "icon": "/icons/sciencefair.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 610,
+    "tier": "tier1_gui",
+    "summary": "Discover, read, and manage scientific literature with an open-source tool that puts you in total control.",
+    "i18n": {
+      "it": "Scopri, leggi e gestisci letteratura scientifica con uno strumento open-source che ti offre il pieno controllo.",
+      "es": "Descubre, lee y organiza literatura científica con una herramienta de código abierto que te da el control total.",
+      "fr": "Découvrez, lisez et gérez de la littérature scientifique avec un outil open source qui vous donne le contrôle.",
+      "de": "Entdecken, lesen und verwalten Sie wissenschaftliche Literatur mit einem Open-Source-Tool für volle Kontrolle."
+    },
+    "download_url": "https://github.com/sciencefair-land/sciencefair/releases/download/v1.0.6/sciencefair-setup-1.0.6.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "file-converter-pro",
+    "name": "File Converter Pro",
+    "tagline": "Convert files locally without internet uploads.",
+    "repo_url": "https://github.com/hyacinthe-primus/file-converter-pro",
+    "full_name": "hyacinthe-primus/file-converter-pro",
+    "category": "Productivity",
+    "tags": [
+      "converter",
+      "offline"
+    ],
+    "icon": "/icons/file-converter-pro.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 606,
+    "tier": "tier1_gui",
+    "summary": "A free, fully offline Windows application to convert documents, images, audio, and video directly on your computer.",
+    "i18n": {
+      "it": "Un'applicazione Windows gratuita e offline per convertire documenti, immagini, audio e video direttamente sul tuo PC.",
+      "es": "Una aplicación de Windows gratuita y totalmente fuera de línea para convertir documentos, imágenes, audio y vídeo.",
+      "fr": "Une application Windows gratuite et entièrement hors ligne pour convertir documents, images, audio et vidéo.",
+      "de": "Eine kostenlose Windows-Anwendung zum lokalen Konvertieren von Dokumenten, Bildern, Audio und Video ohne Uploads."
+    },
+    "download_url": "https://github.com/Hyacinthe-primus/File-Converter-Pro/releases/download/v1.0.8/FileConverterPro_Setup_v1.0.8.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gtg",
+    "name": "Getting Things GNOME!",
+    "tagline": "Organize tasks and projects effortlessly",
+    "repo_url": "https://github.com/getting-things-gnome/gtg",
+    "full_name": "getting-things-gnome/gtg",
+    "category": "Productivity",
+    "tags": [
+      "tasks",
+      "productivity"
+    ],
+    "icon": "/icons/gtg.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 605,
+    "tier": "tier1_gui",
+    "summary": "Manage daily tasks and complex projects smoothly with a flexible desktop planner designed for personal productivity.",
+    "i18n": {
+      "it": "Gestisci le attività quotidiane e i progetti complessi con un pianificatore desktop flessibile per la produttività personale.",
+      "es": "Gestiona tareas diarias y proyectos complejos sin complicaciones con un planificador de escritorio flexible.",
+      "fr": "Gérez vos tâches quotidiennes et projets complexes grâce à un planificateur de bureau flexible et intuitif.",
+      "de": "Verwalten Sie tägliche Aufgaben und komplexe Projekte reibungslos mit einem flexiblen Desktop-Planer."
+    },
+    "download_url": "https://github.com/getting-things-gnome/gtg/releases/download/v0.6/gtg-0.6.0.tar.xz.sha256sum",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "paperling",
+    "name": "Paperling",
+    "tagline": "Distraction-free markdown reader and editor",
+    "repo_url": "https://github.com/razee4315/paperling",
+    "full_name": "razee4315/paperling",
+    "category": "Productivity",
+    "tags": [
+      "markdown",
+      "editor"
+    ],
+    "icon": "/icons/paperling.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 604,
+    "tier": "tier1_gui",
+    "summary": "Open and edit markdown files instantly with live preview, math rendering, and optional AI help without complex vaults.",
+    "i18n": {
+      "it": "Apri e modifica file markdown all'istante con anteprima live e supporto per formule matematiche senza configurazioni complesse.",
+      "es": "Abre y edita archivos markdown al instante con vista previa en vivo y renderizado de fórmulas sin sistemas de bovedas pesados.",
+      "fr": "Ouvrez et modifiez vos notes markdown instantanément avec aperçu en direct et rendu mathématique sans dossiers encombrants.",
+      "de": "Öffnen und bearbeiten Sie Markdown-Dateien sofort mit Live-Vorschau und mathematischem Satz ohne komplizierte Einrichtung."
+    },
+    "download_url": "https://github.com/Razee4315/Paperling/releases/download/v1.2.0/Paperling_1.2.0_arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hermespet",
+    "name": "HermesPet",
+    "tagline": "Your interactive desktop AI companion for Mac",
+    "repo_url": "https://github.com/basionwang-bot/hermespet",
+    "full_name": "basionwang-bot/hermespet",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "macos"
+    ],
+    "icon": "/icons/hermespet.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 603,
+    "tier": "tier1_gui",
+    "summary": "HermesPet brings artificial intelligence directly into your MacBook menu bar and screen edges, combining multiple AI assistants and live system monitoring into a single control center.",
+    "i18n": {
+      "it": "HermesPet porta l'intelligenza artificiale direttamente nella barra dei menu e sui bordi dello schermo del tuo MacBook, unendo assistenti multipli e monitoraggio di sistema in un unico centro di controllo.",
+      "es": "HermesPet integra la inteligencia artificial directamente en la barra de menús y los bordes de la pantalla de tu MacBook.",
+      "fr": "HermesPet intègre l'intelligence artificielle directement dans la barre des menus et sur les bords de l'écran de votre MacBook.",
+      "de": "HermesPet bringt künstliche Intelligenz direkt in die Menüleiste und an die Bildschirmränder Ihres MacBooks und vereint mehrere KI-Assistenten sowie die Systemüberwachung in einer zentralen Steuerung."
+    },
+    "download_url": "https://github.com/basionwang-bot/HermesPet/releases/download/v1.6.0-beta.3/HermesPet-1.6.0-beta.3-AppleSilicon.dmg",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "hubhum",
