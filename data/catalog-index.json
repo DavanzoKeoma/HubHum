@@ -6328,6 +6328,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "openwa",
+    "name": "OpenWA",
+    "tagline": "Free open-source WhatsApp API gateway solution",
+    "repo_url": "https://github.com/rmyndharis/openwa",
+    "full_name": "rmyndharis/openwa",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "whatsapp",
+      "messaging"
+    ],
+    "icon": "/icons/openwa.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 17147,
+    "tier": "tier2_webapp",
+    "summary": "Manage WhatsApp messages and automate chats using a free, self-hosted API gateway with a built-in dashboard.",
+    "i18n": {
+      "it": "Gestisci i messaggi di WhatsApp e automatizza le chat usando un gateway API self-hosted gratuito.",
+      "es": "Gestiona mensajes de WhatsApp y automatiza chats usando una pasarela API autohospedada gratuita.",
+      "fr": "Gérez les messages WhatsApp et automatisez les discussions grâce à une passerelle API auto-hébergée.",
+      "de": "Verwalten Sie WhatsApp-Nachrichten und automatisieren Sie Chats mit einem kostenlosen self-hosted API-Gateway."
+    },
+    "download_url": "https://www.open-wa.org",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "docs",
     "name": "Docs",
     "tagline": "Collaborative Text Editor",
@@ -6972,6 +7000,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "self-hosted-ai-starter-kit",
+    "name": "Self-hosted AI Starter Kit",
+    "tagline": "Run local AI workflows securely and privately.",
+    "repo_url": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
+    "full_name": "n8n-io/self-hosted-ai-starter-kit",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/self-hosted-ai-starter-kit.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 15382,
+    "tier": "tier2_webapp",
+    "summary": "Quickly initialize a complete local artificial intelligence environment using automated setup templates.",
+    "i18n": {
+      "it": "Inizializza rapidamente un ambiente di intelligenza artificiale locale completo utilizzando modelli di configurazione.",
+      "es": "Inicialice rápidamente un entorno completo de inteligencia artificial local utilizando plantillas automatizadas.",
+      "fr": "Initialisez rapidement un environnement d'intelligence artificielle local complet à l'aide de modèles automatisés.",
+      "de": "Initialisieren Sie schnell eine vollständige lokale KI-Umgebung mit automatisierten Einrichtungsvorlagen."
+    },
+    "download_url": "https://n8n.io",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "openship",
     "name": "openship",
     "tagline": "Self-hosted deployment and cloud manager",
@@ -7054,6 +7110,34 @@
     },
     "download_url": "https://skillseekersweb.com/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "metube",
+    "name": "metube",
+    "tagline": "Self-hosted video downloader with web UI",
+    "repo_url": "https://github.com/alexta69/metube",
+    "full_name": "alexta69/metube",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "video-downloader",
+      "self-hosted"
+    ],
+    "icon": "/icons/metube.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 15321,
+    "tier": "tier2_webapp",
+    "summary": "MeTube is a free, self-hosted web interface that lets you download videos, audio, and subtitles from YouTube and hundreds of other sites directly to your server.",
+    "i18n": {
+      "it": "MeTube è un'interfaccia web gratuita e self-hosted che ti permette di scaricare video, audio e sottotitoli da YouTube e centinaia di altri siti direttamente sul tuo server.",
+      "es": "MeTube es una interfaz web gratuita y autoalojada que te permite descargar videos, audio y subtítulos de YouTube y cientos de otros sitios directamente en tu servidor.",
+      "fr": "MeTube est une interface web gratuite et auto-hébergée qui vous permet de télécharger des vidéos, de l'audio et des sous-titres depuis YouTube et des centaines d'autres sites directement sur votre serveur.",
+      "de": "MeTube ist eine kostenlose, selbst gehostete Web-Oberfläche, mit der Sie Videos, Audios und Untertitel von YouTube und hunderten anderen Seiten direkt auf Ihren Server herunterladen können."
+    },
+    "download_url": "https://github.com/alexta69/metube/releases",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "cachet",
@@ -8316,6 +8400,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "hive",
+    "name": "Hive",
+    "tagline": "Run autonomous business AI agent colonies",
+    "repo_url": "https://github.com/aden-hive/hive",
+    "full_name": "aden-hive/hive",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/hive.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 11166,
+    "tier": "tier2_webapp",
+    "summary": "Manage collaborative groups of smart assistant helpers that handle complex multi-step work automatically while you stay in control.",
+    "i18n": {
+      "it": "Coordina gruppi di assistenti intelligenti che gestiscono lavori complessi e ripetitivi in autonomia mantenendo il pieno controllo.",
+      "es": "Coordina grupos de asistentes inteligentes que gestionan trabajos complejos y repetitivos automáticamente mientras mantienes el control.",
+      "fr": "Coordonnez des groupes d'assistants intelligents qui réalisent des tâches complexes en toute autonomie tout en gardant le contrôle.",
+      "de": "Koordinieren Sie Gruppen intelligenter Assistenten, die komplexe Aufgaben automatisch erledigen, während Sie die Kontrolle behalten."
+    },
+    "download_url": "https://github.com/aden-hive/hive/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "dufs",
     "name": "dufs",
     "tagline": "Simple online folder sharing",
@@ -8342,6 +8454,34 @@
     },
     "download_url": "https://github.com/sigoden/dufs/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "dawarich",
+    "name": "Dawarich",
+    "tagline": "Track and visualize your location history",
+    "repo_url": "https://github.com/freika/dawarich",
+    "full_name": "freika/dawarich",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "location-tracker",
+      "self-hosted"
+    ],
+    "icon": "/icons/dawarich.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 11004,
+    "tier": "tier2_webapp",
+    "summary": "Keep a private journal of your travels and visited places with a self-hosted location tracking and mapping hub.",
+    "i18n": {
+      "it": "Mantieni un registro privato dei tuoi viaggi e luoghi visitati con un gestore di mappe e posizioni privato.",
+      "es": "Mantén un diario privado de tus viajes y lugares visitados con un centro privado de mapas y ubicaciones.",
+      "fr": "Conservez un journal privé de vos voyages et lieux visités avec un outil cartographique personnel.",
+      "de": "Führen Sie ein privates Tagebuch Ihrer Reisen und besuchten Orte mit einem eigenen Standort-Tracker."
+    },
+    "download_url": "https://github.com/Freika/dawarich/releases/download/1.23.0/docker-compose.yml",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "oha",
@@ -13075,6 +13215,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "agentero",
+    "name": "Agentero",
+    "tagline": "Your AI-powered research and reading workspace",
+    "repo_url": "https://github.com/poco-ai/agentero",
+    "full_name": "poco-ai/agentero",
+    "category": "Productivity",
+    "tags": [
+      "research",
+      "pdf"
+    ],
+    "icon": "/icons/agentero.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (MIT)",
+    "stars": 2725,
+    "tier": "tier1_gui",
+    "summary": "Read research papers, organize notes, and collaborate directly with AI assistants in a unified local workspace.",
+    "i18n": {
+      "it": "Leggi documenti di ricerca, organizza note e collabora con assistenti IA in un unico spazio di lavoro locale.",
+      "es": "Lee documentos de investigación, organiza notas y colabora con asistentes de IA en un entorno local unificado.",
+      "fr": "Lisez des documents de recherche, organisez vos notes et collaborez avec des assistants IA dans un espace de travail unifié.",
+      "de": "Lesen Sie Forschungsarbeiten, organisieren Sie Notizen und arbeiten Sie direkt mit KI-Assistenten in einem lokalen Bereich."
+    },
+    "download_url": "https://github.com/poco-ai/Agentero/releases/download/v0.17.0/Agentero_0.17.0_arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "capy",
     "name": "Capy",
     "tagline": "Build native desktop and web apps",
@@ -13129,6 +13297,90 @@
     },
     "download_url": "https://twitter.github.io/util",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "oh-my-ppt",
+    "name": "oh-my-ppt",
+    "tagline": "AI-powered local slide creation tool",
+    "repo_url": "https://github.com/arcsin1/oh-my-ppt",
+    "full_name": "arcsin1/oh-my-ppt",
+    "category": "Productivity",
+    "tags": [
+      "presentations",
+      "ai"
+    ],
+    "icon": "/icons/oh-my-ppt.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 2680,
+    "tier": "tier1_gui",
+    "summary": "Create gorgeous slide decks offline from simple text prompts using a private desktop application.",
+    "i18n": {
+      "it": "Genera presentazioni straordinarie offline da semplici descrizioni con un'app desktop privata.",
+      "es": "Crea diapositivas hermosas sin conexión a partir de descripciones con una aplicación privada.",
+      "fr": "Générez des diapositives hors ligne à partir de descriptions simples via une application privée.",
+      "de": "Generieren Sie Folien offline aus einfachen Textbeschreibungen mit einer privaten Desktop-App."
+    },
+    "download_url": "https://github.com/arcsin1/oh-my-ppt/releases/download/v2.11.0/oh-my-ppt-2.11.0-win.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "codenomad",
+    "name": "CodeNomad",
+    "tagline": "Your ultimate command center for AI coding.",
+    "repo_url": "https://github.com/neuralnomadsai/codenomad",
+    "full_name": "neuralnomadsai/codenomad",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "developer-tools"
+    ],
+    "icon": "/icons/codenomad.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2679,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple projects, deep chat sessions, and code changes easily with a powerful visual workspace for AI-assisted development.",
+    "i18n": {
+      "it": "Gestisci più progetti e sessioni di chat con uno spazio di lavoro visivo pensato per lo sviluppo assistito dall'intelligenza artificiale.",
+      "es": "Gestiona múltiples proyectos y sesiones de chat fácilmente con un espacio de trabajo visual para el desarrollo asistido por IA.",
+      "fr": "Gérez plusieurs projets et sessions de discussion avec un espace de travail visuel conçu pour le développement assisté par intelligence artificielle.",
+      "de": "Verwalte mehrere Projekte und Chat-Sitzungen ganz einfach mit einem visuellen Arbeitsbereich für KI-gestützte Entwicklung."
+    },
+    "download_url": "https://github.com/NeuralNomadsAI/CodeNomad/releases/download/v1.1.0/CodeNomad-Tauri-windows-x64-1.1.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "antares",
+    "name": "Antares",
+    "tagline": "Modern and fast productivity SQL client",
+    "repo_url": "https://github.com/antares-sql/antares",
+    "full_name": "antares-sql/antares",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "icon": "/icons/antares.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2670,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple databases effortlessly with a sleek, user-friendly interface designed for everyday developers.",
+    "i18n": {
+      "it": "Gestisci più database senza sforzo con un'interfaccia elegante e intuitiva pensata per gli sviluppatori.",
+      "es": "Gestiona múltiples bases de datos fácilmente con una interfaz elegante y accesible diseñada para desarrolladores.",
+      "fr": "Gérez plusieurs bases de données facilement grâce à une interface élégante et intuitive conçue pour les développeurs.",
+      "de": "Verwalten Sie mehrere Datenbanken mühelos mit einer eleganten und benutzerfreundlichen Benutzeroberfläche."
+    },
+    "download_url": "https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-portable.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "qdirstat",
@@ -13212,6 +13464,34 @@
       "de": "Erstellen Sie native Desktop-Benutzeroberflächen für Python-Anwendungen unter Windows, Mac und Linux."
     },
     "download_url": "https://github.com/wxWidgets/Phoenix/releases/download/wxPython-4.3.2/wxpython-4.3.2%2Bubuntu2204-cp310-cp310-linux_x86_64.whl",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "translate-subtitle-file",
+    "name": "Translate-Subtitle-File",
+    "tagline": "Translate subtitle files using artificial intelligence.",
+    "repo_url": "https://github.com/1c7/translate-subtitle-file",
+    "full_name": "1c7/translate-subtitle-file",
+    "category": "Video & Audio",
+    "tags": [
+      "subtitles",
+      "translation"
+    ],
+    "icon": "/icons/translate-subtitle-file.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 2638,
+    "tier": "tier1_gui",
+    "summary": "Translate video subtitle files instantly using top artificial intelligence providers with your own keys for the lowest cost.",
+    "i18n": {
+      "it": "Traduci i sottotitoli dei video istantaneamente usando le migliori intelligenze artificiali con le tue chiavi.",
+      "es": "Traduce subtítulos de video al instante usando los mejores proveedores de inteligencia artificial con tus propias claves.",
+      "fr": "Traduisez instantanément vos sous-titres vidéo en utilisant les meilleurs modèles d'intelligence artificielle.",
+      "de": "Übersetzen Sie Videountertitel sofort über führende KI-Dienste mit Ihren eigenen Schlüsseln für maximale Ersparnis."
+    },
+    "download_url": "https://zimoo.app",
     "updated_at": "2026-11-21"
   },
   {
@@ -13495,6 +13775,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "bitterbot-desktop",
+    "name": "bitterbot-desktop",
+    "tagline": "Your personal AI with living memory.",
+    "repo_url": "https://github.com/bitterbot-ai/bitterbot-desktop",
+    "full_name": "bitterbot-ai/bitterbot-desktop",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/bitterbot-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2481,
+    "tier": "tier1_gui",
+    "summary": "An open source personal AI assistant that runs entirely on your hardware, remembers past projects, and learns new skills over time.",
+    "i18n": {
+      "it": "Un assistente IA personale open source che gira sul tuo hardware, ricorda i progetti passati e impara nuove abilità nel tempo.",
+      "es": "Un asistente de IA personal de código abierto que se ejecuta en tu hardware, recuerda proyectos y aprende nuevas habilidades.",
+      "fr": "Un assistant IA personnel open source qui s'exécute sur votre matériel, mémorise vos projets et apprend de nouvelles compétences.",
+      "de": "Ein Open-Source-KI-Assistent für Ihren Computer, der sich an vergangene Projekte erinnert und kontinuierlich neue Fähigkeiten lernt."
+    },
+    "download_url": "https://github.com/Bitterbot-AI/bitterbot-desktop/releases/download/v1.14.2/bitterbot-1.14.2-darwin-arm64.manifest.json",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "beav",
+    "name": "Beav",
+    "tagline": "All-in-one AI content workspace and media manager",
+    "repo_url": "https://github.com/jamailar/beav",
+    "full_name": "jamailar/beav",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "content-creation"
+    ],
+    "icon": "/icons/beav.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 2478,
+    "tier": "tier1_gui",
+    "summary": "Manage social media posts, brainstorm ideas, write scripts, and edit videos across dozens of platforms from a single desktop app.",
+    "i18n": {
+      "it": "Gestisci post, idee, script e video su decine di piattaforme da un'unica applicazione desktop con intelligenza artificiale.",
+      "es": "Gestiona publicaciones, ideas, guiones y videos en múltiples plataformas desde una sola aplicación de escritorio.",
+      "fr": "Gérez vos publications, idées, scripts et vidéos sur de nombreuses plateformes depuis une application de bureau unique.",
+      "de": "Verwalten Sie Beiträge, Ideen, Skripte und Videos über zahlreiche Plattformen hinweg in einer einzigen Desktop-App."
+    },
+    "download_url": "https://github.com/Jamailar/Beav/releases/download/v2.10.10/Beav_2.10.10_arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "iplug2",
     "name": "iPlug2",
     "tagline": "Create cross-platform audio plugins easily",
@@ -13691,6 +14027,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "sheprd",
+    "name": "sheprd",
+    "tagline": "Manage workspaces, terminals, and AI agents effortlessly.",
+    "repo_url": "https://github.com/sheprd-labs/sheprd",
+    "full_name": "sheprd-labs/sheprd",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "workspace"
+    ],
+    "icon": "/icons/sheprd.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 2369,
+    "tier": "tier1_gui",
+    "summary": "Organize coding tasks, check code diffs, chat with helper assistants, and track remote servers from one unified native desktop workspace.",
+    "i18n": {
+      "it": "Organizza attività di codice, controlla modifiche e monitora server remoti da un unico ambiente nativo per desktop.",
+      "es": "Organiza tareas de código, revisa cambios y supervisa servidores remotos desde un único espacio de trabajo nativo.",
+      "fr": "Organisez vos tâches de code, examinez les modifications et suivez des serveurs distants depuis un bureau unique.",
+      "de": "Organisieren Sie Code-Aufgaben, prüfen Sie Änderungen und überwachen Sie Remote-Server von einem zentralen Ort aus."
+    },
+    "download_url": "https://github.com/sheprd-labs/sheprd/releases/download/v20261118.1/Sheprd-20261118.1-aarch64-pc-windows-msvc-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "ns-usbloader",
     "name": "ns-usbloader",
     "tagline": "Manage console files and payloads easily.",
@@ -13803,6 +14167,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "tauri-ui",
+    "name": "tauri-ui",
+    "tagline": "Build native desktop apps easily",
+    "repo_url": "https://github.com/agmmnn/tauri-ui",
+    "full_name": "agmmnn/tauri-ui",
+    "category": "Productivity",
+    "tags": [
+      "desktop",
+      "development"
+    ],
+    "icon": "/icons/tauri-ui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2346,
+    "tier": "tier1_gui",
+    "summary": "Create fast desktop software by combining modern web interfaces with native operating system controls right out of the box.",
+    "i18n": {
+      "it": "Realizza software desktop veloci combinando interfacce web moderne con controlli nativi del sistema operativo.",
+      "es": "Desarrolla software de escritorio rápido combinando interfaces web modernas con controles nativos del sistema.",
+      "fr": "Concevez des logiciels de bureau rapides en associant des interfaces web modernes et des contrôles natifs.",
+      "de": "Entwickeln Sie schnelle Desktop-Software durch die Kombination moderner Web-Oberflächen mit nativen Systemsteuerungen."
+    },
+    "download_url": "https://github.com/agmmnn/tauri-ui/releases/download/create-tauri-ui%401.2.1/tauri-ui-smoke-v1.2.1-windows-x64-portable.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "omnilogue",
+    "name": "Omnilogue",
+    "tagline": "Explore your AI assistant conversation history",
+    "repo_url": "https://github.com/jhlee0409/omnilogue",
+    "full_name": "jhlee0409/omnilogue",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "history"
+    ],
+    "icon": "/icons/omnilogue.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2333,
+    "tier": "tier1_gui",
+    "summary": "Browse, search, and analyze your AI coding assistant history from dozens of tools completely offline in one unified dashboard.",
+    "i18n": {
+      "it": "Naviga, cerca e analizza la cronologia del tuo assistente di codifica AI completamente offline in un'unica dashboard.",
+      "es": "Explora, busca y analiza el historial de tu asistente de codificación de IA completamente offline en un panel unificado.",
+      "fr": "Parcourez, recherchez et analysez l'historique de vos assistants de codage IA entièrement hors ligne dans un tableau de bord unifié.",
+      "de": "Durchsuchen, finden und analysieren Sie den Verlauf Ihrer KI-Programmierassistenten komplett offline in einem einzigen Dashboard."
+    },
+    "download_url": "https://github.com/jhlee0409/omnilogue/releases/download/v2.0.0/Claude.Code.History.Viewer_2.0.0_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "moneymanagerex",
     "name": "Money Manager Ex",
     "tagline": "Track personal finances and cash flow.",
@@ -13859,6 +14279,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "open-cowork",
+    "name": "Open Cowork",
+    "tagline": "Your personal open-source AI desktop assistant",
+    "repo_url": "https://github.com/opencoworkai/open-cowork",
+    "full_name": "opencoworkai/open-cowork",
+    "category": "Productivity",
+    "tags": [
+      "ai-agent",
+      "productivity"
+    ],
+    "icon": "/icons/open-cowork.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 2283,
+    "tier": "tier1_gui",
+    "summary": "An open-source AI desktop application that lets you run smart assistants locally, manage files, and automate workflows securely.",
+    "i18n": {
+      "it": "Un'applicazione IA desktop open-source per gestire file, automatizzare flussi di lavoro ed eseguire assistenti in sicurezza.",
+      "es": "Una aplicación de escritorio con IA de código abierto para gestionar archivos, automatizar tareas y ejecutar asistentes localmente.",
+      "fr": "Une application de bureau IA open-source pour gérer des fichiers, automatiser des flux de travail et exécuter des assistants.",
+      "de": "Eine Open-Source-KI-Desktop-Anwendung zur Verwaltung von Dateien, Automatisierung von Arbeitsabläufen und sicheren Ausführung."
+    },
+    "download_url": "https://github.com/OpenCoworkAI/open-cowork/releases/download/v3.3.1/Open.Cowork-3.3.1-win-x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "anubias",
     "name": "Anubias",
     "tagline": "Build native mobile apps easily with GUI.",
@@ -13884,6 +14332,34 @@
       "de": "Ein visueller Arbeitsbereich zum Entwerfen und Exportieren nativer Anwendungen für mobile Geräte und Desktops ohne komplexe Programmierung."
     },
     "download_url": "https://anubias.app/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "skales",
+    "name": "Skales",
+    "tagline": "Your private local AI desktop assistant.",
+    "repo_url": "https://github.com/skalesapp/skales",
+    "full_name": "skalesapp/skales",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/skales.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Custom Open License",
+    "stars": 2238,
+    "tier": "tier1_gui",
+    "summary": "Skales is a private, local AI assistant that lives directly on your computer to handle files, browse the web, and complete multi-step tasks.",
+    "i18n": {
+      "it": "Skales è un assistente AI privato che vive sul tuo computer per gestire file, navigare e completare attività complesse.",
+      "es": "Skales es un asistente de IA privado que vive en tu ordenador para gestionar archivos, navegar y completar tareas complejas.",
+      "fr": "Skales est un assistant IA privé installé sur votre ordinateur pour gérer vos fichiers, naviguer et accomplir des tâches.",
+      "de": "Skales ist ein privater KI-Assistent auf Ihrem Computer, der Dateien verwaltet, im Web surft und Aufgaben erledigt."
+    },
+    "download_url": "https://github.com/skalesapp/skales/releases/download/v12.9.65/Skales-Setup-12.9.65-arm64.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -13915,6 +14391,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "memmy-agent",
+    "name": "memmy-agent",
+    "tagline": "Give every AI your shared memory",
+    "repo_url": "https://github.com/memtensor/memmy-agent",
+    "full_name": "memtensor/memmy-agent",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "memory"
+    ],
+    "icon": "/icons/memmy-agent.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 2227,
+    "tier": "tier1_gui",
+    "summary": "Memmy unites your different artificial intelligence assistants with a single, private local memory hub so every tool remembers your preferences and projects.",
+    "i18n": {
+      "it": "Memmy unisce i tuoi assistenti di intelligenza artificiale con una memoria locale privata condivisa.",
+      "es": "Memmy conecta tus asistentes de inteligencia artificial mediante un centro de memoria local compartido y privado.",
+      "fr": "Memmy relie vos assistants d'intelligence artificielle avec un espace de mémoire locale privé et commun.",
+      "de": "Memmy verbindet Ihre KI-Assistenten mit einem gemeinsamen, privaten lokalen Speicher für dauerhaften Kontext."
+    },
+    "download_url": "https://github.com/MemTensor/memmy-agent/releases/download/v1.2.7/Memmy-1.2.7-win32-x64-cn-signed.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "kubebox",
     "name": "kubebox",
     "tagline": "Manage container clusters right from your terminal.",
@@ -13940,6 +14444,62 @@
       "de": "Eine interaktive Terminal- und Webkonsole zur einfachen Überwachung und Verwaltung Ihrer Container-Cluster."
     },
     "download_url": "https://github.com/astefanutti/kubebox/releases/download/v0.10.0/kubebox-windows.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "navop",
+    "name": "Navop",
+    "tagline": "Fast native workspace for servers and databases",
+    "repo_url": "https://github.com/feigecode/navop",
+    "full_name": "feigecode/navop",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "system-utility"
+    ],
+    "icon": "/icons/navop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 2202,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple databases, secure server terminals, and AI assistance inside one blazing-fast native window without browser overhead.",
+    "i18n": {
+      "it": "Gestisci database, terminali server e intelligenza artificiale in un'unica finestra nativa superveloce senza rallentamenti.",
+      "es": "Administra múltiples bases de datos, terminales de servidores e IA en una sola ventana nativa rápida sin depender del navegador.",
+      "fr": "Gérez vos bases de données, terminaux de serveurs et l'IA dans une seule fenêtre native ultra-rapide sans surcoût de navigateur.",
+      "de": "Verwalten Sie Datenbanken, Serverterminals und KI in einem einzigen, ultraschnellen nativen Fenster ganz ohne Browser-Belastung."
+    },
+    "download_url": "https://github.com/feigeCode/navop/releases/download/v0.23.4/navop-0.23.4-win32.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "runjs",
+    "name": "RunJS",
+    "tagline": "Instant JavaScript and TypeScript playground",
+    "repo_url": "https://github.com/lukehaas/runjs",
+    "full_name": "lukehaas/runjs",
+    "category": "Productivity",
+    "tags": [
+      "developer-tools",
+      "coding"
+    ],
+    "icon": "/icons/runjs.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 2177,
+    "tier": "tier1_gui",
+    "summary": "RunJS is an interactive desktop scratchpad that executes JavaScript and TypeScript code instantly as you type.",
+    "i18n": {
+      "it": "RunJS è un blocco note desktop interattivo che esegue codice JavaScript e TypeScript in tempo reale mentre scrivi.",
+      "es": "RunJS es un bloc de notas de escritorio interactivo que ejecuta código JavaScript y TypeScript al instante mientras escribes.",
+      "fr": "RunJS est un bloc-notes de bureau interactif qui exécute du code JavaScript et TypeScript instantanément pendant que vous tapez.",
+      "de": "RunJS ist ein interaktiver Desktop-Schreibblock, der JavaScript- und TypeScript-Code sofort während der Eingabe ausführt."
+    },
+    "download_url": "https://github.com/lukehaas/RunJS/releases/download/v4.1.0/RunJS-Setup-4.1.0.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -14111,6 +14671,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "devhub",
+    "name": "DevHub",
+    "tagline": "All-in-one offline developer toolbox for Mac",
+    "repo_url": "https://github.com/jaywcjlove/devhub",
+    "full_name": "jaywcjlove/devhub",
+    "category": "Productivity",
+    "tags": [
+      "developer-tools",
+      "productivity"
+    ],
+    "icon": "/icons/devhub.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 2050,
+    "tier": "tier1_gui",
+    "summary": "DevHub brings together over 100 everyday programming utilities into a single offline Mac app, replacing random browser tabs and temporary scripts.",
+    "i18n": {
+      "it": "DevHub raccoglie oltre 100 utilità di programmazione in un'unica app Mac offline, sostituendo schede del browser e script temporanei.",
+      "es": "DevHub reúne más de 100 utilidades de programación en una sola aplicación offline para Mac, eliminando pestañas y scripts dispersos.",
+      "fr": "DevHub rassemble plus de 100 utilitaires de programmation dans une seule application Mac hors ligne pour simplifier vos tâches quotidiennes.",
+      "de": "DevHub vereint über 100 Programmierwerkzeuge in einer einzigen Offline-Mac-App und ersetzt so unzählige Browsertabs und Skripte."
+    },
+    "download_url": "https://wangchujiang.com/DevHub",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "shpotify",
     "name": "shpotify",
     "tagline": "Control Spotify easily from terminal commands",
@@ -14139,6 +14727,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "atomic-chat",
+    "name": "Atomic Chat",
+    "tagline": "Run private local artificial intelligence safely.",
+    "repo_url": "https://github.com/atomicbot-ai/atomic-chat",
+    "full_name": "atomicbot-ai/atomic-chat",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "privacy"
+    ],
+    "icon": "/icons/atomic-chat.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 2042,
+    "tier": "tier1_gui",
+    "summary": "Run open-source artificial intelligence models directly on your computer without sending personal data to the cloud.",
+    "i18n": {
+      "it": "Esegui modelli di intelligenza artificiale open source direttamente sul tuo computer senza inviare dati personali sul cloud.",
+      "es": "Ejecuta modelos de inteligencia artificial de código abierto directamente en tu computadora sin enviar datos personales a la nube.",
+      "fr": "Exécutez des modèles d'intelligence artificielle open source directement sur votre ordinateur sans envoyer de données personnelles dans le cloud.",
+      "de": "Führen Sie Open-Source-KI-Modelle direkt auf Ihrem Computer aus, ohne persönliche Daten in die Cloud zu senden."
+    },
+    "download_url": "https://github.com/AtomicBot-ai/Atomic-Chat/releases/download/v2.4.7/Atomic.Chat_2.4.7_arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "py-gpt",
+    "name": "py-gpt",
+    "tagline": "All-in-one desktop artificial intelligence assistant",
+    "repo_url": "https://github.com/szczyglis-dev/py-gpt",
+    "full_name": "szczyglis-dev/py-gpt",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/py-gpt.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Custom Open License",
+    "stars": 2035,
+    "tier": "tier1_gui",
+    "summary": "Connect multiple leading artificial intelligence models directly on your desktop for chatting, automated tasks, and document research.",
+    "i18n": {
+      "it": "Collega diversi modelli di intelligenza artificiale direttamente sul tuo computer per chat, automazioni e ricerca.",
+      "es": "Conecta múltiples modelos de inteligencia artificial directamente en tu escritorio para chat, tareas e investigación.",
+      "fr": "Connectez plusieurs modèles d'intelligence artificielle sur votre ordinateur pour le clavardage et les tâches.",
+      "de": "Verbinden Sie führende KI-Modelle direkt auf Ihrem Computer für Chats, Automatisierungen und Recherchen."
+    },
+    "download_url": "https://github.com/szczyglis-dev/py-gpt/releases/download/v2.9.1/PyGPT-2.9.1-aarch64.AppImage",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "status-trio",
     "name": "Status Trio",
     "tagline": "Combine your Mac status icons into one.",
@@ -14165,6 +14809,62 @@
     },
     "download_url": "https://github.com/lingyired/status-trio/releases/download/v1.9.6/StatusTrio-1.9.6.dmg",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "chat-ai-desktop",
+    "name": "Chat AI Desktop",
+    "tagline": "Access AI instantly from your menu bar.",
+    "repo_url": "https://github.com/sonnylazuardi/chat-ai-desktop",
+    "full_name": "sonnylazuardi/chat-ai-desktop",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "desktop"
+    ],
+    "icon": "/icons/chat-ai-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 1996,
+    "tier": "tier1_gui",
+    "summary": "Chat AI Desktop provides a lightweight menu bar wrapper for popular AI chat services on Windows and Mac.",
+    "i18n": {
+      "it": "Chat AI Desktop offre un comodo accesso rapido ai servizi di chat IA direttamente dalla barra dei menu.",
+      "es": "Chat AI Desktop ofrece una barra de menú ligera para acceder rápidamente a populares servicios de chat con IA.",
+      "fr": "Chat AI Desktop offre un accès rapide et léger aux services de chat IA directement depuis votre barre de menu.",
+      "de": "Chat AI Desktop bietet eine leichte Menüleisten-Verknüpfung für beliebte KI-Chatdienste auf Windows und Mac."
+    },
+    "download_url": "https://github.com/sonnylazuardi/chat-ai-desktop/releases/download/v0.5.0/chatgpt.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "igdm",
+    "name": "IGdm",
+    "tagline": "Manage your Instagram messages on desktop.",
+    "repo_url": "https://github.com/igdmapps/igdm",
+    "full_name": "igdmapps/igdm",
+    "category": "Productivity",
+    "tags": [
+      "social-media",
+      "messaging"
+    ],
+    "icon": "/icons/igdm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1987,
+    "tier": "tier1_gui",
+    "summary": "IGdm is a dedicated desktop application that lets you read and send Instagram direct messages directly from your computer.",
+    "i18n": {
+      "it": "IGdm è un'applicazione desktop che ti permette di leggere e inviare messaggi diretti di Instagram comodamente dal tuo computer.",
+      "es": "IGdm es una aplicación de escritorio que te permite leer y enviar mensajes directos de Instagram directamente desde tu ordenador.",
+      "fr": "IGdm est une application de bureau qui vous permet de lire et d'envoyer des messages directs Instagram depuis votre ordinateur.",
+      "de": "IGdm ist eine Desktop-Anwendung, mit der du Instagram-Direktnachrichten bequem von deinem Computer aus lesen und versenden kannst."
+    },
+    "download_url": "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm-Setup-3.0.4.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "gh-stack",

@@ -42,27 +42,6 @@
     "queued_at": "2026-11-20T08:30:36.157303+00:00"
   },
   {
-    "full_name": "rmyndharis/OpenWA",
-    "slug": "openwa",
-    "html_url": "https://github.com/rmyndharis/OpenWA",
-    "reason": "tier1_gemini: validation failed (Field 'summary' appears truncated or incomplete: 'OpenWA is a self-hosted messaging gateway letting you control your communication infrastructure without hidden fees or vendor lock-in.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-21T12:34:33.824499+00:00"
-  },
-  {
-    "full_name": "n8n-io/self-hosted-ai-starter-kit",
-    "slug": "self-hosted-ai-starter-kit",
-    "html_url": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
-    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Richten Sie schnell eine lokale KI-Umgebung mit privaten Sprachmodellen und automatisierten Tools auf Ihrer eigenen Hardware ein.') | tier2_groq: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons)",
-    "queued_at": "2026-11-21T12:35:33.625662+00:00"
-  },
-  {
-    "full_name": "alexta69/metube",
-    "slug": "metube",
-    "html_url": "https://github.com/alexta69/metube",
-    "reason": "tier1_gemini: validation failed (URL not present in source metadata or affiliate seed: http://<your-server-ip) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-21T12:35:49.865020+00:00"
-  },
-  {
     "full_name": "ashawkey/torch-ngp",
     "slug": "torch-ngp",
     "html_url": "https://github.com/ashawkey/torch-ngp",
@@ -82,5 +61,40 @@
     "html_url": "https://github.com/PurpleDoubleD/locally-uncensored",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-21T17:21:53.247725+00:00"
+  },
+  {
+    "full_name": "Stack-Cairn/LiveAgent",
+    "slug": "liveagent",
+    "html_url": "https://github.com/Stack-Cairn/LiveAgent",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-21T17:25:01.189266+00:00"
+  },
+  {
+    "full_name": "SimoHypers/limusic",
+    "slug": "limusic",
+    "html_url": "https://github.com/SimoHypers/limusic",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-21T17:25:31.877331+00:00"
+  },
+  {
+    "full_name": "Tavris1/ComfyUI-Easy-Install",
+    "slug": "comfyui-easy-install",
+    "html_url": "https://github.com/Tavris1/ComfyUI-Easy-Install",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'Installez et gérez facilement des générateurs d'art visuel sur Windows grâce à un panneau de configuration tout-en-un.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-21T17:25:39.725153+00:00"
+  },
+  {
+    "full_name": "Syngnat/GoNavi",
+    "slug": "gonavi",
+    "html_url": "https://github.com/Syngnat/GoNavi",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-21T17:25:46.084147+00:00"
+  },
+  {
+    "full_name": "rememberber/MooTool",
+    "slug": "mootool",
+    "html_url": "https://github.com/rememberber/MooTool",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-21T17:25:57.699000+00:00"
   }
 ]
