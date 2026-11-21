@@ -5,7 +5,8 @@ tagline: "Easily search and download Apple app packages"
 summary: "A handy tool that lets you look up applications across Apple's digital storefronts and download their installation packages directly to your computer."
 tags: ["apple", "utilities", "downloads"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/ipatool.png"
 stars: 12404
 source_url: "https://github.com/majd/ipatool"
@@ -15,7 +16,7 @@ download_label: "Download (ipatool-2.8.1-ios-arm64.tar.gz.sha256sum)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "macOS, iOS"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

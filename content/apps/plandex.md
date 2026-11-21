@@ -3,19 +3,20 @@ title: "Plandex"
 slug: "plandex"
 tagline: "Autonomous AI coding agent for large projects."
 summary: "Handle large coding tasks across multiple files with an advanced terminal assistant that plans, writes code, and tests automatically."
-tags: ["ai", "coding-assistant", "developer-tools", "terminal"]
-is_webapp: true
-category: "Web Apps & Cloud"
+tags: ["ai", "coding-assistant", "developer-tools", "system-utility"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/plandex.png"
 stars: 15923
 source_url: "https://github.com/plandex-ai/plandex"
 download_url: "https://plandex.ai"
 downloadUrl: "https://plandex.ai"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

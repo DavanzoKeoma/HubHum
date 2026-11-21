@@ -3,19 +3,20 @@ title: "Warp"
 slug: "warp"
 tagline: "Smart modern terminal with built-in coding agents."
 summary: "Warp reimagines the classic computer command line with modern collaboration tools, intelligent AI helpers, and smooth multi-user workflows."
-tags: ["terminal", "developer-tools", "ai", "productivity"]
-is_webapp: true
-category: "Web Apps & Cloud"
+tags: ["system-utility", "developer-tools", "ai", "productivity"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/warp.png"
 stars: 66062
 source_url: "https://github.com/warpdotdev/warp"
 download_url: "https://warp.dev"
 downloadUrl: "https://warp.dev"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "AGPL-3.0"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

@@ -5,6 +5,7 @@ tagline: "Lightweight control center for Lenovo laptops."
 summary: "Manage power profiles, fans, battery charging thresholds, and keyboard lighting on Lenovo laptops without heavy software bloat."
 tags: ["system", "utilities"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/lenovolegiontoolkit.png"
 stars: 2587
@@ -13,7 +14,7 @@ download_url: "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/r
 downloadUrl: "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/releases/download/v2.38.0.0/LenovoLegionToolkitSetup-v2.38.0.0.exe"
 download_label: "Download for Windows (.exe)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

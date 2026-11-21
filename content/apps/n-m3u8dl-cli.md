@@ -5,7 +5,8 @@ tagline: "Simple and fast online video stream downloader"
 summary: "Easily download streaming video playlists and media files straight to your computer with automatic decryption and merging features."
 tags: ["downloader", "media", "streaming", "tools"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/n-m3u8dl-cli.png"
 stars: 16161
 source_url: "https://github.com/nilaoda/N_m3u8DL-CLI"

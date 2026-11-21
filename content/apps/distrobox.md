@@ -3,19 +3,20 @@ title: "distrobox"
 slug: "distrobox"
 tagline: "Run any Linux distribution seamlessly anywhere"
 summary: "Use any Linux distribution inside your terminal with full file and graphics sharing. Enjoy complete compatibility and software freedom without hassle."
-tags: ["linux", "containers", "terminal"]
-is_webapp: true
-category: "Web Apps & Cloud"
+tags: ["linux", "containers", "system-utility"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/distrobox.png"
 stars: 13131
 source_url: "https://github.com/89luca89/distrobox"
 download_url: "https://distrobox.it/"
 downloadUrl: "https://distrobox.it/"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "GPL-3.0"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

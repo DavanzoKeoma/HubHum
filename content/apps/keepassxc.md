@@ -5,25 +5,26 @@ tagline: "Offline personal password vault"
 summary: "Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees."
 tags: ["security", "privacy", "passwords", "utility"]
 is_webapp: false
+app_type: "desktop"
 category: "Security & Privacy"
 icon: "/icons/keepassxc.png"
 stars: 30048
 source_url: "https://github.com/keepassxreboot/keepassxc"
 download_url: "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi"
+downloadUrl: "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi"
 download_label: "Download for Windows (.msi)"
 license: "GPL-3.0"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "SecurityApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_047"
 affiliate_name: "PureVPN"
 affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
 affiliate_pitch: "Protect your connection before downloading or using sensitive tools."
 featured_weekly: false
 updated_at: "2026-11-18"
-downloadUrl: "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "SecurityApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Cassaforte personale per le tue password"

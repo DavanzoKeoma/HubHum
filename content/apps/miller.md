@@ -3,9 +3,10 @@ title: "miller"
 slug: "miller"
 tagline: "Powerful command-line structured text data processor"
 summary: "Process CSV, TSV, and tabular JSON data effortlessly from your command line using powerful named-field operations."
-tags: ["cli", "data-processing", "csv", "json", "utilities"]
+tags: ["system-utility", "data-processing", "csv", "json"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/miller.png"
 stars: 10066
 source_url: "https://github.com/johnkerl/miller"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "NOASSERTION"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

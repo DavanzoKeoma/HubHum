@@ -3,9 +3,10 @@ title: "Koharu"
 slug: "koharu"
 tagline: "Local-first AI manga translator and editor"
 summary: "Koharu is a privacy-focused manga translator that automatically detects, cleans, and translates panels directly on your computer."
-tags: ["translation", "manga", "ai", "privacy", "editor"]
+tags: ["translation", "manga", "ai", "privacy"]
 is_webapp: false
-category: "Productivity"
+app_type: "desktop"
+category: "Graphics & Design"
 icon: "/icons/koharu.png"
 stars: 6752
 source_url: "https://github.com/koharu-rs/koharu"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Apache-2.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "UtilitiesApplication"
+applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_276"

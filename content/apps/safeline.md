@@ -3,9 +3,10 @@ title: "SafeLine"
 slug: "safeline"
 tagline: "Block web attacks and secure apps instantly."
 summary: "A robust security shield that filters web traffic, blocks malicious attacks, and keeps your online services safe from hackers."
-tags: ["security", "firewall", "web-protection", "self-hosted"]
+tags: ["security", "firewall", "web-protection", "cloud-app"]
 is_webapp: true
-category: "Web Apps & Cloud"
+app_type: "webapp"
+category: "Security & Privacy"
 icon: "/icons/safeline.png"
 stars: 23341
 source_url: "https://github.com/chaitin/SafeLine"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "GPL-3.0"
 scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

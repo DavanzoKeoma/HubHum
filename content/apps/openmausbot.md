@@ -5,6 +5,7 @@ tagline: "Your own team of local AI bots"
 summary: "Manage a custom roster of intelligent software helpers right inside a familiar chat interface on your computer."
 tags: ["ai", "chat-app", "automation", "local-first"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/openmausbot.png"
 stars: 25971

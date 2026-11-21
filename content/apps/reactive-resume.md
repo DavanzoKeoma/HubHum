@@ -5,6 +5,7 @@ tagline: "Secure and free online resume builder"
 summary: "Create, customize, and track your job applications using a secure and free open-source resume builder with live PDF preview."
 tags: ["resume", "builder", "privacy", "career"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/reactive-resume.png"
 stars: 45933

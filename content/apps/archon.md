@@ -2,10 +2,11 @@
 title: "Archon"
 slug: "archon"
 tagline: "Automate AI coding workflows"
-summary: "Archon turns your software development process into repeatable, automated workflows that handle coding tasks with AI agents while keeping you in."
+summary: "Archon solves the problem of inconsistent results when asking AI to write code by turning your specific development steps into a fixed, repeatable recipe."
 tags: ["automation", "ai-coding", "workflow"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/archon.png"
 stars: 23963
 source_url: "https://github.com/coleam00/Archon"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

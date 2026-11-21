@@ -5,6 +5,7 @@ tagline: "Smart visual assistant for automated screen tasks."
 summary: "MobileAgent is a multi-platform smart assistant that automates screen actions across computers and mobile devices by visually recognizing user interfaces."
 tags: ["automation", "assistant", "productivity", "ai"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/mobileagent.png"
 stars: 9393

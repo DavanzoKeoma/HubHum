@@ -5,17 +5,18 @@ tagline: "Know what your USB-C cables do."
 summary: "A friendly menu bar app that reveals what each USB-C cable plugged into your Mac can actually do and why charging might be slow."
 tags: ["macos", "utility", "hardware", "menu-bar"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/whatcable.png"
 stars: 9145
 source_url: "https://github.com/darrylmorley/whatcable"
 download_url: "https://whatcable.uk"
 downloadUrl: "https://whatcable.uk"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "NOASSERTION"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"
@@ -37,7 +38,7 @@ i18n:
     summary: "Une application de barre de menu qui révèle les capacités réelles de chaque câble USB-C branché sur votre Mac."
   de:
     tagline: "Erfahren Sie, was Ihre USB-C-Kabel leisten."
-    summary: "Eine praktische Menüleisten-App zeigt die tatsächlichen Fähigkeiten jedes am Mac angeschlossenen USB-C-Kabels an."
+    summary: "Eine praktische Menüleisten-App zeigt die tatsächlichen Fähigkeiten jedes am Mac angeschlossenen USB-C-Kabels."
 ---
 
 ### What it does in plain English

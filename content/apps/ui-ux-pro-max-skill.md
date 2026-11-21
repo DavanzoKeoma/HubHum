@@ -5,6 +5,7 @@ tagline: "AI design intelligence for professional user interfaces"
 summary: "An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning."
 tags: ["design", "ui-ux", "ai", "development"]
 is_webapp: false
+app_type: "desktop"
 category: "Graphics & Design"
 icon: "/icons/ui-ux-pro-max-skill.png"
 stars: 151922
@@ -13,7 +14,7 @@ download_url: "https://www.uupm.cc/"
 downloadUrl: "https://www.uupm.cc/"
 download_label: "Visit Official Site"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
 applicationCategory: "DesignApplication"
 priceCurrency: "USD"

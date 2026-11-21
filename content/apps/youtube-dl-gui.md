@@ -5,6 +5,7 @@ tagline: "Simple desktop app for downloading videos."
 summary: "Download online videos easily with a clean visual window instead of using complicated text commands."
 tags: ["video", "downloader", "desktop", "media"]
 is_webapp: false
+app_type: "desktop"
 category: "Video & Audio"
 icon: "/icons/youtube-dl-gui.png"
 stars: 9429

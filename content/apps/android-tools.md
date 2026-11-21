@@ -5,13 +5,20 @@ tagline: "Automate custom Android operating system creation"
 summary: "Simplify custom Android operating system creation and file management with helpful automation utilities."
 tags: ["android", "automation", "development"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/android-tools.png"
 stars: 752
 source_url: "https://github.com/ShivamKumarJha/android_tools"
 download_url: "https://github.com/AndroidBlobs"
-download_label: "Visit Official Site"
+downloadUrl: "https://github.com/AndroidBlobs"
+download_label: "Get Command-Line Tool →"
 license: "GPL-3.0"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_276"
 affiliate_name: "Rank Math Direct"
 affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
@@ -19,12 +26,6 @@ affiliate_pitch: "Build and optimize your website faster with industry-standard 
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-19"
-downloadUrl: "https://github.com/AndroidBlobs"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "UtilitiesApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Automatizza la creazione di sistemi Android personalizzati"

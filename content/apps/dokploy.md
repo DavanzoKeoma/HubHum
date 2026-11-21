@@ -3,8 +3,9 @@ title: "Dokploy"
 slug: "dokploy"
 tagline: "Easily host and manage online applications"
 summary: "An open tool that lets you host websites, software, and databases on your own private server with simple controls."
-tags: ["hosting", "server-management", "databases", "docker"]
+tags: ["hosting", "server-management", "databases", "cloud-app"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/dokploy.png"
 stars: 38620

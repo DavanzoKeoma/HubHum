@@ -5,6 +5,7 @@ tagline: "Easily download video and audio files"
 summary: "A reliable tool to save audio and video from thousands of online websites directly to your computer."
 tags: ["downloader", "media", "video"]
 is_webapp: false
+app_type: "cli"
 category: "Video & Audio"
 icon: "/icons/yt-dlp.png"
 stars: 209259

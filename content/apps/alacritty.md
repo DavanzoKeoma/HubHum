@@ -3,9 +3,10 @@ title: "Alacritty"
 slug: "alacritty"
 tagline: "Ultra-fast, modern terminal for your computer"
 summary: "Alacritty is a high-performance terminal emulator that uses your graphics card to provide a smooth and responsive typing experience."
-tags: ["productivity", "tools", "terminal"]
+tags: ["productivity", "tools", "system-utility"]
 is_webapp: false
-category: "Productivity"
+app_type: "desktop"
+category: "Utilities & Power Tools"
 icon: "/icons/alacritty.png"
 stars: 66236
 source_url: "https://github.com/alacritty/alacritty"
@@ -13,7 +14,7 @@ download_url: "https://github.com/alacritty/alacritty/releases/download/v0.17.0/
 downloadUrl: "https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-portable.exe"
 download_label: "Download for Windows (.exe)"
 license: "Apache-2.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

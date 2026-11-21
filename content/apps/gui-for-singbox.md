@@ -5,7 +5,8 @@ tagline: "Manage your network connections effortlessly."
 summary: "GUI for SingBox is a friendly desktop application that helps you easily configure and manage your personal internet routing and connection rules."
 tags: ["networking", "desktop", "utility", "open-source"]
 is_webapp: false
-category: "Productivity"
+app_type: "desktop"
+category: "Security & Privacy"
 icon: "/icons/gui-for-singbox.png"
 stars: 8232
 source_url: "https://github.com/GUI-for-Cores/GUI.for.SingBox"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "GPL-3.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "UtilitiesApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_276"

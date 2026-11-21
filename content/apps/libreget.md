@@ -5,7 +5,8 @@ tagline: "Grab any link, get your file"
 summary: "LibreGet is a free, open-source media download manager for courses, videos, music, and files from thousands of websites without tech setup."
 tags: ["downloader", "media-downloader", "video-downloader", "course-downloader"]
 is_webapp: false
-category: "Security & Privacy"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/libreget.png"
 stars: 6350
 source_url: "https://github.com/OpenSelena/libreget"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "GPL-3.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

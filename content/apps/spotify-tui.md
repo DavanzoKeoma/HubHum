@@ -3,9 +3,10 @@ title: "spotify-tui"
 slug: "spotify-tui"
 tagline: "Control your music directly from the command line"
 summary: "Manage your music player with a lightning-fast interface that runs entirely inside your text terminal."
-tags: ["audio", "terminal", "music", "productivity"]
+tags: ["audio", "system-utility", "music", "productivity"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Video & Audio"
 icon: "/icons/spotify-tui.png"
 stars: 19434
 source_url: "https://github.com/Rigellute/spotify-tui"
@@ -15,7 +16,7 @@ download_label: "Download (spotify-tui-linux.sha256)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

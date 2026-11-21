@@ -3,9 +3,10 @@ title: "kitty"
 slug: "kitty"
 tagline: "Blazing fast hardware-accelerated computer terminal"
 summary: "Kitty is a powerful, graphics-friendly command-line window that renders text smoothly using your computer graphics card."
-tags: ["terminal", "productivity", "developer-tools"]
+tags: ["system-utility", "productivity", "developer-tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Utilities & Power Tools"
 icon: "/icons/kitty.png"
 stars: 35760
 source_url: "https://github.com/kovidgoyal/kitty"
@@ -13,9 +14,9 @@ download_url: "https://github.com/kovidgoyal/kitty/releases/download/v0.51.0/kit
 downloadUrl: "https://github.com/kovidgoyal/kitty/releases/download/v0.51.0/kitty-0.51.0.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

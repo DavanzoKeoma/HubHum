@@ -5,7 +5,8 @@ tagline: "Test website speed with live visual animations"
 summary: "Oha is a tiny program that sends traffic to a web application to test its speed and capacity under pressure, featuring a live visual interface."
 tags: ["stress-testing", "performance", "networking", "developer-tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/oha.png"
 stars: 10701
 source_url: "https://github.com/hatoo/oha"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

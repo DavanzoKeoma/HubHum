@@ -2,20 +2,21 @@
 title: "Agent Desktop"
 slug: "agent-desktop"
 tagline: "Control desktop apps using AI assistants."
-summary: "Agent Desktop lets intelligent assistants view and operate native desktop applications seamlessly through the operating system structure instead of."
-tags: ["ai", "automation", "desktop", "cli"]
+summary: "Agent Desktop gives artificial intelligence assistants the ability to see and interact with native desktop programs."
+tags: ["ai", "automation", "desktop", "system-utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/agent-desktop.png"
 stars: 25637
 source_url: "https://github.com/vercel-labs/agent-desktop"
 download_url: "https://github.com/vercel-labs/agent-desktop/releases/download/v1.3.1/checksums.txt"
 downloadUrl: "https://github.com/vercel-labs/agent-desktop/releases/download/v1.3.1/checksums.txt"
-download_label: "Download (checksums.txt)"
+download_label: "Get Command-Line Tool →"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "macOS"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"
@@ -31,13 +32,13 @@ i18n:
     summary: "Agent Desktop consente agli assistenti intelligenti di visualizzare e utilizzare app desktop native tramite la struttura del sistema."
   es:
     tagline: "Controla aplicaciones de escritorio con IA."
-    summary: "Agent Desktop permite a los asistentes inteligentes ver y operar aplicaciones de escritorio nativas a trav\u00e9s del sistema operativo."
+    summary: "Agent Desktop permite a los asistentes inteligentes ver y operar aplicaciones de escritorio nativas a través del sistema operativo."
   fr:
     tagline: "Pilotez des applications de bureau avec l'IA."
     summary: "Agent Desktop permet aux assistants intelligents de visualiser et d'utiliser des applications de bureau natives."
   de:
     tagline: "Steuern Sie Desktop-Apps mit KI-Assistenten."
-    summary: "Agent Desktop erm\u00f6glicht intelligenten Assistenten die Anzeige und Bedienung nativer Desktop-Anwendungen."
+    summary: "Agent Desktop ermöglicht intelligenten Assistenten die Anzeige und Bedienung nativer Desktop-Anwendungen."
 ---
 
 ### What it does in plain English

@@ -3,8 +3,9 @@ title: "Immich"
 slug: "immich"
 tagline: "Your private media server and backup"
 summary: "Manage and back up your photos and videos on your own private cloud storage without sharing your personal memories."
-tags: ["photos", "self-hosted", "backup", "gallery"]
+tags: ["photos", "cloud-app", "backup", "gallery"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/immich.png"
 stars: 119698

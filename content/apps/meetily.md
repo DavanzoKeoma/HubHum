@@ -3,8 +3,9 @@ title: "meetily"
 slug: "meetily"
 tagline: "Private AI meeting notes on your device"
 summary: "Capture, transcribe, and summarize your meetings securely on your own computer without sending sensitive audio data to the cloud."
-tags: ["ai", "meetings", "privacy", "transcription", "productivity"]
+tags: ["ai", "meetings", "privacy", "transcription"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/meetily.png"
 stars: 32898

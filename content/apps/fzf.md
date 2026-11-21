@@ -3,9 +3,10 @@ title: "fzf"
 slug: "fzf"
 tagline: "Lightning-fast interactive command-line search tool"
 summary: "Instantly search through files, history, and system items using intelligent matching right inside your computer window."
-tags: ["command-line", "search", "productivity", "utilities"]
+tags: ["system-utility", "search", "productivity", "utilities"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/fzf.png"
 stars: 84302
 source_url: "https://github.com/junegunn/fzf"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.msi)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

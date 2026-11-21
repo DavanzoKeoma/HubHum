@@ -3,9 +3,10 @@ title: "Yazi"
 slug: "yazi"
 tagline: "Blazing fast terminal file manager"
 summary: "Navigate your computer files lightning-fast right inside your command window with real-time previews."
-tags: ["terminal", "file-manager", "rust", "productivity"]
+tags: ["system-utility", "file-manager", "productivity"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/yazi.png"
 stars: 43534
 source_url: "https://github.com/sxyazi/yazi"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

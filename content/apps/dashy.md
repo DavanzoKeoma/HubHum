@@ -5,6 +5,7 @@ tagline: "Your custom homepage for all apps"
 summary: "Dashy organizes all your web links and online tools into a single, beautiful dashboard page."
 tags: ["dashboard", "home-server", "organization", "productivity"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/dashy.png"
 stars: 27031

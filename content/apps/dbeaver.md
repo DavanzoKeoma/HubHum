@@ -5,7 +5,8 @@ tagline: "Manage all your databases anywhere easily."
 summary: "Universal database tool for viewing, editing, and managing hundreds of different database systems effortlessly."
 tags: ["database", "sql", "developer-tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/dbeaver.png"
 stars: 52488
 source_url: "https://github.com/dbeaver/dbeaver"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Apache-2.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

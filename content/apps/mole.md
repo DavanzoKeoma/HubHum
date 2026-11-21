@@ -5,7 +5,8 @@ tagline: "Keep your computer clean and light."
 summary: "Mole is an open-source system cleaner that removes junk files, uninstalls applications completely, and monitors system performance."
 tags: ["cleaner", "maintenance", "utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Security & Privacy"
 icon: "/icons/mole.png"
 stars: 75661
 source_url: "https://github.com/tw93/Mole"
@@ -13,9 +14,9 @@ download_url: "https://github.com/tw93/Mole/releases/download/V1.73.0/analyze-da
 downloadUrl: "https://github.com/tw93/Mole/releases/download/V1.73.0/analyze-darwin-amd64"
 download_label: "Download (analyze-darwin-amd64)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS"
-applicationCategory: "DesignApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

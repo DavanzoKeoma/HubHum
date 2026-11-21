@@ -3,8 +3,9 @@ title: "Tkinter Designer"
 slug: "tkinter-designer"
 tagline: "Turn design mockups into Python interfaces instantly."
 summary: "Tkinter Designer automatically converts visual screen layouts into working Python code, saving you hours of tedious manual coding."
-tags: ["python", "design", "gui", "development"]
+tags: ["design", "gui", "development"]
 is_webapp: false
+app_type: "desktop"
 category: "Graphics & Design"
 icon: "/icons/tkinter-designer.png"
 stars: 10246

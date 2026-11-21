@@ -5,7 +5,8 @@ tagline: "Your ultimate AI coding agent partner"
 summary: "An advanced coding assistant with your development tools fully built-in, designed to write and fix code cleanly on the first try."
 tags: ["ai", "coding", "productivity", "developer-tools"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/oh-my-pi.png"
 stars: 39512
 source_url: "https://github.com/can1357/oh-my-pi"

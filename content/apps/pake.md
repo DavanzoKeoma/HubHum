@@ -5,7 +5,8 @@ tagline: "Turn websites into lightweight desktop apps"
 summary: "Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat."
 tags: ["desktop-app", "productivity", "web-wrapper"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/pake.png"
 stars: 63869
 source_url: "https://github.com/tw93/Pake"
@@ -13,9 +14,9 @@ download_url: "https://github.com/tw93/Pake/releases/download/V3.19.0/ChatGPT_x6
 downloadUrl: "https://github.com/tw93/Pake/releases/download/V3.19.0/ChatGPT_x64.msi"
 download_label: "Download for Windows (.msi)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

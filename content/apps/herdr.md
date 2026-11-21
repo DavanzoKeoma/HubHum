@@ -3,9 +3,10 @@ title: "herdr"
 slug: "herdr"
 tagline: "The smart runtime for your coding agents."
 summary: "Herdr keeps your background coding assistants running safely, letting you detach, monitor progress, and manage multiple remote sessions effortlessly."
-tags: ["developer-tools", "terminal", "automation", "productivity"]
+tags: ["developer-tools", "system-utility", "automation", "productivity"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/herdr.png"
 stars: 51962
 source_url: "https://github.com/herdrdev/herdr"

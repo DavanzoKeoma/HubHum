@@ -3,9 +3,10 @@ title: "q"
 slug: "q"
 tagline: "Run standard SQL queries on text files"
 summary: "Query plain text sheets and databases directly using familiar search commands without importing them first."
-tags: ["database", "data-analysis", "command-line", "sql"]
+tags: ["database", "data-analysis", "system-utility", "sql"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/q.png"
 stars: 10360
 source_url: "https://github.com/harelba/q"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "GPL-3.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

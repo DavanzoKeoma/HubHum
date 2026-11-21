@@ -5,6 +5,7 @@ tagline: "Simple, private, and lightweight website statistics."
 summary: "Plausible provides clear insights into your website traffic without tracking individual visitors or using invasive cookies."
 tags: ["analytics", "privacy", "web-tools"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/analytics.png"
 stars: 29895

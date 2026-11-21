@@ -5,6 +5,7 @@ tagline: "Your own private mini hosting cloud"
 summary: "Host and manage custom web applications on your own virtual server with simple commands."
 tags: ["hosting", "server", "management", "cloud"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/dokku.png"
 stars: 32231

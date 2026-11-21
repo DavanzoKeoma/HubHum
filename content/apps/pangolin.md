@@ -5,7 +5,8 @@ tagline: "Secure private access and connectivity platform."
 summary: "Safely connect to your private web apps, remote desktops, and servers without exposing them to the public internet."
 tags: ["networking", "security", "zero-trust", "vpn-alternative"]
 is_webapp: true
-category: "Web Apps & Cloud"
+app_type: "webapp"
+category: "Security & Privacy"
 icon: "/icons/pangolin.png"
 stars: 23897
 source_url: "https://github.com/fosrl/pangolin"
@@ -15,7 +16,7 @@ download_label: "Download (installer_linux_amd64)"
 license: "NOASSERTION"
 scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

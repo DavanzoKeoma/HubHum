@@ -3,9 +3,10 @@ title: "Navidrome"
 slug: "navidrome"
 tagline: "Your personal self-hosted music streaming service"
 summary: "Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device."
-tags: ["music", "streaming", "self-hosted", "audio"]
+tags: ["music", "streaming", "cloud-app", "audio"]
 is_webapp: true
-category: "Web Apps & Cloud"
+app_type: "webapp"
+category: "Video & Audio"
 icon: "/icons/navidrome.png"
 stars: 24852
 source_url: "https://github.com/navidrome/navidrome"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.msi)"
 license: "GPL-3.0"
 scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

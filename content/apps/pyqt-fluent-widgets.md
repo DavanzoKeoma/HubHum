@@ -5,6 +5,7 @@ tagline: "Modern interface components for desktop apps"
 summary: "Transform desktop software interfaces with modern, sleek visual elements inspired by contemporary design systems."
 tags: ["development", "interface", "design", "desktop"]
 is_webapp: false
+app_type: "desktop"
 category: "Graphics & Design"
 icon: "/icons/pyqt-fluent-widgets.png"
 stars: 8166

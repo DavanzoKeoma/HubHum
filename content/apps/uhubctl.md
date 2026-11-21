@@ -3,15 +3,16 @@ title: "uhubctl"
 slug: "uhubctl"
 tagline: "Take complete control of USB port power."
 summary: "Manage power to individual USB ports on compatible smart hubs, allowing you to reset frozen devices or save energy with simple commands."
-tags: ["hardware", "usb", "power-management", "utilities", "automation"]
+tags: ["hardware", "usb", "power-management", "utilities"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/uhubctl.png"
 stars: 2867
 source_url: "https://github.com/mvp/uhubctl"
 download_url: "https://github.com/mvp/uhubctl/releases"
 downloadUrl: "https://github.com/mvp/uhubctl/releases"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "NOASSERTION"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"

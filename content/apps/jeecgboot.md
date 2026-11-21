@@ -3,9 +3,10 @@ title: "JeecgBoot"
 slug: "jeecgboot"
 tagline: "Build business software instantly using AI."
 summary: "JeecgBoot is a free, open-source platform that combines smart artificial intelligence with low-code tools to build business software."
-tags: ["ai", "low-code", "developer-tools", "java"]
-is_webapp: false
-category: "Graphics & Design"
+tags: ["ai", "low-code", "developer-tools"]
+is_webapp: true
+app_type: "webapp"
+category: "Web Apps & Cloud"
 icon: "/icons/jeecgboot.png"
 stars: 48539
 source_url: "https://github.com/jeecgboot/JeecgBoot"
@@ -13,9 +14,9 @@ download_url: "https://jeecg.com"
 downloadUrl: "https://jeecg.com"
 download_label: "Visit Official Site"
 license: "Apache-2.0"
-scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

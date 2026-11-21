@@ -3,9 +3,10 @@ title: "gping"
 slug: "gping"
 tagline: "Ping internet connections with live graphs"
 summary: "Transform boring text network tests into real-time visual graphs so you can monitor website speeds and server health instantly."
-tags: ["networking", "monitoring", "terminal"]
+tags: ["networking", "monitoring", "system-utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/gping.png"
 stars: 12746
 source_url: "https://github.com/orf/gping"
@@ -15,7 +16,7 @@ download_label: "Download (gping.1)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

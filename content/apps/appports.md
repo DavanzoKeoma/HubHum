@@ -3,8 +3,9 @@ title: "AppPorts"
 slug: "appports"
 tagline: "Move heavy apps and reclaim Mac storage"
 summary: "Seamlessly move bulky Mac applications and personal data to an external drive while keeping lightweight launchers right where you need them."
-tags: ["macos", "storage management", "utility", "open source"]
+tags: ["macos", "storage-management", "utility", "open-source"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/appports.png"
 stars: 2288
@@ -13,7 +14,7 @@ download_url: "https://github.com/wzh4869/AppPorts/releases/download/2.3.0/AppPo
 downloadUrl: "https://github.com/wzh4869/AppPorts/releases/download/2.3.0/AppPorts2.3.0.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "Apache-2.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

@@ -3,9 +3,10 @@ title: "witr"
 slug: "witr"
 tagline: "Trace any process back to its origin"
 summary: "Discover why a process, port, or container is running on your machine with clear relationship chains and an interactive dashboard."
-tags: ["system-monitor", "debugging", "cli", "tui"]
+tags: ["system-monitor", "debugging", "system-utility", "tui"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/witr.png"
 stars: 23043
 source_url: "https://github.com/pranshuparmar/witr"
@@ -15,7 +16,7 @@ download_label: "Download for Android (.apk)"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

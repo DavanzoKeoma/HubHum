@@ -4,7 +4,8 @@ slug: "illa-builder"
 tagline: "Build internal tools without coding"
 summary: "ILLA Builder is a free, open-source platform that lets you create dashboards and admin panels by dragging and dropping components."
 tags: ["low-code", "internal-tools"]
-is_webapp: false
+is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/illa-builder.png"
 stars: 12357
@@ -13,7 +14,7 @@ download_url: "https://github.com/illacloud/illa-builder/releases"
 downloadUrl: "https://github.com/illacloud/illa-builder/releases"
 download_label: "Visit Official Site"
 license: "Apache-2.0"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"

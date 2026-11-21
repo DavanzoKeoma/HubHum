@@ -5,15 +5,16 @@ tagline: "Build native Windows desktop applications easily."
 summary: "Walk helps software creators build traditional graphical user interfaces for Windows desktop environments using simple code."
 tags: ["windows", "desktop", "development", "gui"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/walk.png"
 stars: 7101
 source_url: "https://github.com/lxn/walk"
 download_url: "https://github.com/lxn/walk/releases"
 downloadUrl: "https://github.com/lxn/walk/releases"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "NOASSERTION"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
@@ -34,7 +35,7 @@ i18n:
     summary: "Ayuda a los creadores a diseñar interfaces gráficas nativas para Windows con código sencillo."
   fr:
     tagline: "Créez des applications de bureau Windows facilement."
-    summary: "Il aide les créateurs à concevoir des interfaces graphiques natives pour Windows avec du code simple."
+    summary: "Il aide les créateurs à concevoir des interfaces graphiques natives pour Windows avec du code."
   de:
     tagline: "Erstellen Sie Windows-Desktop-Anwendungen ganz einfach."
     summary: "Es hilft Entwicklern, native grafische Benutzeroberflächen für Windows mit einfachem Code zu erstellen."

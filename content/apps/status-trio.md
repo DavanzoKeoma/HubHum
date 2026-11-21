@@ -5,7 +5,8 @@ tagline: "Combine your Mac status icons into one."
 summary: "Status Trio merges your Wi-Fi, battery, and volume indicators into a single, sleek icon for your menu bar or Dock."
 tags: ["macos", "utility", "productivity"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/status-trio.png"
 stars: 2023
 source_url: "https://github.com/lingyired/status-trio"
@@ -13,9 +14,9 @@ download_url: "https://github.com/lingyired/status-trio/releases/download/v1.9.6
 downloadUrl: "https://github.com/lingyired/status-trio/releases/download/v1.9.6/StatusTrio-1.9.6.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "Apache-2.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

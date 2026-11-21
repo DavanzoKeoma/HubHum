@@ -5,6 +5,7 @@ tagline: "Visualize your internet connection path easily"
 summary: "OpenTrace helps you map the journey of your data across the internet to identify where connection delays or interruptions occur."
 tags: ["networking", "tools", "diagnostics"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/opentrace.png"
 stars: 4495
@@ -13,7 +14,7 @@ download_url: "https://github.com/Archeb/opentrace/releases/download/v1.5.2/osx-
 downloadUrl: "https://github.com/Archeb/opentrace/releases/download/v1.5.2/osx-arm64.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

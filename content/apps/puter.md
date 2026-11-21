@@ -4,7 +4,8 @@ slug: "puter"
 tagline: "Your personal cloud computer anywhere"
 summary: "Puter is a free, open-source internet computer that brings all your files, applications, and games together in one accessible web place."
 tags: ["cloud", "desktop", "opensource", "selfhosted"]
-is_webapp: false
+is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/puter.png"
 stars: 44214
@@ -13,7 +14,7 @@ download_url: "https://puter.com"
 downloadUrl: "https://puter.com"
 download_label: "Visit Official Site"
 license: "AGPL-3.0"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"

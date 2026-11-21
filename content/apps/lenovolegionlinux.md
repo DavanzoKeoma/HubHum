@@ -5,7 +5,8 @@ tagline: "Control Lenovo Legion laptops on Linux"
 summary: "Manage fan curves, power modes, and battery life on your Lenovo Legion laptop while running Linux."
 tags: ["linux", "hardware", "laptop", "utilities"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/lenovolegionlinux.png"
 stars: 3573
 source_url: "https://github.com/johnfanv2/LenovoLegionLinux"
@@ -13,9 +14,9 @@ download_url: "https://github.com/johnfanv2/LenovoLegionLinux/releases/download/
 downloadUrl: "https://github.com/johnfanv2/LenovoLegionLinux/releases/download/v0.1.8/0001-Add-legion-laptop-v0.1.8.patch"
 download_label: "Download (0001-Add-legion-laptop-v0.1.8.patch)"
 license: "GPL-2.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

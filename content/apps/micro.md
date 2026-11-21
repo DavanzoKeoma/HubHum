@@ -3,9 +3,10 @@ title: "micro"
 slug: "micro"
 tagline: "A modern, easy-to-use text editor"
 summary: "Micro is a simple text editor designed for your terminal that makes writing and editing files intuitive and efficient."
-tags: ["text-editor", "productivity", "terminal"]
+tags: ["text-editor", "productivity", "system-utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/micro.png"
 stars: 29922
 source_url: "https://github.com/micro-editor/micro"
@@ -15,7 +16,7 @@ download_label: "Download (micro-2.0.15-freebsd32.tar.gz.sha)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

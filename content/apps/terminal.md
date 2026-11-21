@@ -3,9 +3,10 @@ title: "terminal"
 slug: "terminal"
 tagline: "Modern command-line environment for Windows."
 summary: "Manage multiple command-line tools in tabs with custom styles and fast performance. Say goodbye to plain windows and hello to a customizable workspace."
-tags: ["windows", "terminal"]
+tags: ["windows", "system-utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/terminal.png"
 stars: 105455
 source_url: "https://github.com/microsoft/terminal"
@@ -15,7 +16,7 @@ download_label: "Download (Microsoft.Windows.Console.ConPTY.1.25.261109001.nupkg
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

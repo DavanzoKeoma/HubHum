@@ -3,9 +3,10 @@ title: "UniGetUI"
 slug: "unigetui"
 tagline: "Manage all your computer software easily."
 summary: "UniGetUI brings all your system tools and software updates together into one clean, friendly control panel."
-tags: ["software-manager", "updates", "windows", "macos", "linux"]
+tags: ["software-manager", "updates", "windows", "macos"]
 is_webapp: false
-category: "Security & Privacy"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/unigetui.png"
 stars: 27140
 source_url: "https://github.com/Devolutions/UniGetUI"
@@ -13,9 +14,9 @@ download_url: "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3
 downloadUrl: "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.4/UniGetUI.Installer.arm64.exe"
 download_label: "Download for Windows (.exe)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

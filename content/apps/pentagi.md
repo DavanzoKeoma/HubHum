@@ -3,9 +3,10 @@ title: "PentAGI"
 slug: "pentagi"
 tagline: "Autonomous AI agents for ethical security testing"
 summary: "An autonomous multi-agent system that performs security testing and delivers comprehensive reports based on your plain-language goals."
-tags: ["security", "ai-agents", "automation", "penetration-testing"]
+tags: ["security", "automation", "penetration-testing"]
 is_webapp: true
-category: "Web Apps & Cloud"
+app_type: "webapp"
+category: "Security & Privacy"
 icon: "/icons/pentagi.png"
 stars: 34653
 source_url: "https://github.com/vxcontrol/pentagi"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "MIT"
 scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

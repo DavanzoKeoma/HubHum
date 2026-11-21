@@ -3,9 +3,10 @@ title: "WindTerm"
 slug: "windterm"
 tagline: "Fast and professional server command center"
 summary: "WindTerm is a high-speed command line and remote server manager designed for everyday system administration."
-tags: ["terminal", "ssh", "developer tools", "networking"]
+tags: ["system-utility", "ssh", "developer-tools", "networking"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "desktop"
+category: "Utilities & Power Tools"
 icon: "/icons/windterm.png"
 stars: 32717
 source_url: "https://github.com/kingToolbox/WindTerm"
@@ -13,9 +14,9 @@ download_url: "https://github.com/kingToolbox/WindTerm/releases/download/2.7.0/W
 downloadUrl: "https://github.com/kingToolbox/WindTerm/releases/download/2.7.0/WindTerm_2.7.0_Mac_Portable_x86_64.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "Open Source"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

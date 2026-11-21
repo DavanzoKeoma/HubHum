@@ -5,7 +5,8 @@ tagline: "Get Android app updates from source"
 summary: "Install and update your Android applications directly from developer release pages without relying on traditional app stores."
 tags: ["android", "updates", "open-source", "utilities"]
 is_webapp: false
-category: "Security & Privacy"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/hubhum.svg"
 stars: 21705
 source_url: "https://github.com/ImranR98/Obtainium"
@@ -13,9 +14,9 @@ download_url: "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/ap
 downloadUrl: "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-fdroid-release.apk"
 download_label: "Download for Android (.apk)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Android"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

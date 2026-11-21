@@ -5,13 +5,20 @@ tagline: "Comfortably monitor your home network traffic"
 summary: "Easily observe and analyze your computer's internet traffic in real-time with visual graphs, custom alerts, and security filters."
 tags: ["network", "security", "monitor", "privacy"]
 is_webapp: false
+app_type: "desktop"
 category: "Security & Privacy"
 icon: "/icons/sniffnet.png"
 stars: 43100
 source_url: "https://github.com/GyulyVGC/sniffnet"
 download_url: "https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_arm64.msi"
+downloadUrl: "https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_arm64.msi"
 download_label: "Download for Windows (.msi)"
 license: "Apache-2.0"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "SecurityApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_047"
 affiliate_name: "PureVPN"
 affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
@@ -19,12 +26,6 @@ affiliate_pitch: "Protect your connection before downloading or using this app."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-19"
-downloadUrl: "https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_arm64.msi"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "SecurityApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Monitora comodamente il traffico di rete"

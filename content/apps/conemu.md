@@ -3,9 +3,10 @@ title: "ConEmu"
 slug: "conemu"
 tagline: "Customizable Windows terminal with tabs and splits."
 summary: "ConEmu is a powerful Windows console emulator that organizes multiple command-line windows into clean tabs, panes, and customizable layouts."
-tags: ["terminal", "windows", "productivity", "developer-tools"]
+tags: ["system-utility", "windows", "productivity", "developer-tools"]
 is_webapp: false
-category: "Productivity"
+app_type: "desktop"
+category: "Utilities & Power Tools"
 icon: "/icons/conemu.png"
 stars: 9294
 source_url: "https://github.com/ConEmu/ConEmu"
@@ -13,7 +14,7 @@ download_url: "https://github.com/ConEmu/ConEmu/releases/download/v23.07.24/ConE
 downloadUrl: "https://github.com/ConEmu/ConEmu/releases/download/v23.07.24/ConEmuSetup.230724.exe"
 download_label: "Download for Windows (.exe)"
 license: "BSD-3-Clause"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

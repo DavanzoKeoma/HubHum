@@ -5,6 +5,7 @@ tagline: "Lightning-fast real-time data analytics engine"
 summary: "ClickHouse is a powerful analytics system that helps you sort and examine massive amounts of data in real time."
 tags: ["database", "analytics", "real-time", "data"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/clickhouse.png"
 stars: 51033

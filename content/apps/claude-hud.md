@@ -5,13 +5,14 @@ tagline: "Track assistant memory and tasks effortlessly."
 summary: "Claude HUD is a helpful companion plugin that displays live memory usage, rate limits, and task progress directly beneath your assistant prompt."
 tags: ["plugin", "assistant", "productivity", "monitoring"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/claude-hud.png"
 stars: 29270
 source_url: "https://github.com/jarrodwatts/claude-hud"
 download_url: "https://github.com/jarrodwatts/claude-hud/releases"
 downloadUrl: "https://github.com/jarrodwatts/claude-hud/releases"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"

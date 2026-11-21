@@ -3,8 +3,9 @@ title: "Beszel"
 slug: "beszel"
 tagline: "Lightweight server and container monitoring"
 summary: "Monitor your servers and containers effortlessly with a friendly web interface, historical stats, and instant alerts."
-tags: ["monitoring", "servers", "docker", "sysadmin"]
+tags: ["monitoring", "servers", "cloud-app", "sysadmin"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/beszel.png"
 stars: 27498

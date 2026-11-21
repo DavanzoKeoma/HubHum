@@ -5,7 +5,8 @@ tagline: "Shrink your container images easily"
 summary: "Dive helps you explore the contents of your container images to identify and remove unnecessary files that bloat your storage space."
 tags: ["containers", "optimization", "storage"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/dive.png"
 stars: 54742
 source_url: "https://github.com/wagoodman/dive"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

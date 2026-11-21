@@ -3,8 +3,9 @@ title: "Glance"
 slug: "glance"
 tagline: "Your favorite online feeds in one place."
 summary: "Glance is a lightweight, customizable dashboard that gathers all your news feeds, social streams, weather, and server status into a single organized page."
-tags: ["dashboard", "rss", "widgets", "self-hosted"]
+tags: ["dashboard", "rss", "widgets", "cloud-app"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/glance.png"
 stars: 38324

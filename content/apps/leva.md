@@ -3,17 +3,18 @@ title: "Leva"
 slug: "leva"
 tagline: "Gorgeous user controls for web applications"
 summary: "Leva provides beautiful, ready-to-use visual panels for adjusting values in web applications instantly."
-tags: ["development", "gui", "components", "react"]
+tags: ["development", "gui", "components"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/leva.png"
 stars: 6277
 source_url: "https://github.com/pmndrs/leva"
 download_url: "https://leva.pmnd.rs"
 downloadUrl: "https://leva.pmnd.rs"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

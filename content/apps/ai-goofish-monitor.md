@@ -4,8 +4,9 @@ slug: "ai-goofish-monitor"
 tagline: "Smart automated monitoring for second-hand goods."
 summary: "This tool helps you automatically track and analyze product listings on second-hand marketplaces using artificial intelligence."
 tags: ["automation", "shopping", "ai"]
-is_webapp: true
-category: "Web Apps & Cloud"
+is_webapp: false
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/ai-goofish-monitor.png"
 stars: 20283
 source_url: "https://github.com/Usagi-org/ai-goofish-monitor"
@@ -13,9 +14,9 @@ download_url: "https://github.com/Usagi-org/ai-goofish-monitor/releases"
 downloadUrl: "https://github.com/Usagi-org/ai-goofish-monitor/releases"
 download_label: "Visit Official Site"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

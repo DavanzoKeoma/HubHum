@@ -5,7 +5,8 @@ tagline: "Manage code history with a friendly visual screen."
 summary: "Navigate complex code changes, review history visually, and collaborate smoothly across teams without typing complex terminal commands."
 tags: ["git", "developer-tools", "version-control", "gui"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/sourcegit.png"
 stars: 6553
 source_url: "https://github.com/sourcegit-org/sourcegit"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.AppImage)"
 license: "MIT"
 scouting_tier: "tier1_gui"
 operatingSystem: "Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

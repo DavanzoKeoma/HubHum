@@ -3,9 +3,10 @@ title: "iTerm2-Color-Schemes"
 slug: "iterm2-color-schemes"
 tagline: "Over 1000 gorgeous themes for terminals."
 summary: "Transform your daily terminal experience with over a thousand professionally curated color schemes and styling presets."
-tags: ["terminal", "themes", "customization", "productivity"]
+tags: ["system-utility", "themes", "customization", "productivity"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/iterm2-color-schemes.png"
 stars: 27332
 source_url: "https://github.com/mbadolato/iTerm2-Color-Schemes"
@@ -15,7 +16,7 @@ download_label: "Download (alacritty-themes.7z)"
 license: "NOASSERTION"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

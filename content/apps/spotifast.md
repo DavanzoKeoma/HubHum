@@ -2,9 +2,10 @@
 title: "Spotifast"
 slug: "spotifast"
 tagline: "Lightning-fast native music desktop app"
-summary: "Spotifast brings your entire music library and playback controls into a lightweight, high-performance desktop application without relying on heavy."
+summary: "Spotifast provides a snappy, native desktop home for your music library, allowing you to browse playlists, search tracks, and control playback directly from your computer."
 tags: ["music", "desktop", "audio", "streaming"]
 is_webapp: false
+app_type: "desktop"
 category: "Video & Audio"
 icon: "/icons/spotifast.png"
 stars: 10570

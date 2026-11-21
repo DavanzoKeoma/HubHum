@@ -2,9 +2,10 @@
 title: "fish-shell"
 slug: "fish-shell"
 tagline: "A friendly and smart command line"
-summary: "An interactive command line shell that guesses what you want to type as you go. It makes working with your computer's terminal simple and frustration-free."
-tags: ["terminal", "shell", "productivity", "command-line"]
+summary: "This tool gives you a friendly command line helper that remembers your past commands and finishes them for you automatically."
+tags: ["system-utility", "automation", "productivity"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/fish-shell.png"
 stars: 34480
@@ -13,7 +14,7 @@ download_url: "https://github.com/fish-shell/fish-shell/releases/download/4.9.3/
 downloadUrl: "https://github.com/fish-shell/fish-shell/releases/download/4.9.3/fish-4.9.3.pkg"
 download_label: "Download for Mac (.pkg)"
 license: "NOASSERTION"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

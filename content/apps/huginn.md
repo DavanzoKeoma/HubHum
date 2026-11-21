@@ -3,9 +3,10 @@ title: "Huginn"
 slug: "huginn"
 tagline: "Build custom automated web agents easily"
 summary: "Create smart online agents that monitor websites, read updates, and trigger automated actions on your own private server."
-tags: ["automation", "web-scraping", "self-hosted", "rss"]
-is_webapp: false
-category: "Graphics & Design"
+tags: ["automation", "web-scraping", "cloud-app", "rss"]
+is_webapp: true
+app_type: "webapp"
+category: "Web Apps & Cloud"
 icon: "/icons/huginn.png"
 stars: 50594
 source_url: "https://github.com/huginn/huginn"
@@ -13,9 +14,9 @@ download_url: "https://github.com/huginn/huginn/releases"
 downloadUrl: "https://github.com/huginn/huginn/releases"
 download_label: "Visit Official Site"
 license: "MIT"
-scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

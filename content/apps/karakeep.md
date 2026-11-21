@@ -3,8 +3,9 @@ title: "Karakeep"
 slug: "karakeep"
 tagline: "Your AI-powered personal digital clutter keeper"
 summary: "Store and organize links, images, notes, and documents in one private, searchable space."
-tags: ["bookmarking", "self-hosted", "ai", "notes", "archive"]
+tags: ["bookmarking", "cloud-app", "ai", "notes"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/karakeep.png"
 stars: 30712

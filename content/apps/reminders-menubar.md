@@ -5,7 +5,8 @@ tagline: "Quick Mac menu bar task manager"
 summary: "Manage your daily tasks directly from your Mac menu bar with this seamless app that keeps everything perfectly in sync with Apple Reminders."
 tags: ["productivity", "macos", "task-management", "utilities"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/reminders-menubar.png"
 stars: 4022
 source_url: "https://github.com/DamascenoRafael/reminders-menubar"
@@ -13,9 +14,9 @@ download_url: "https://github.com/DamascenoRafael/reminders-menubar/releases/dow
 downloadUrl: "https://github.com/DamascenoRafael/reminders-menubar/releases/download/v2.2.0/Reminders-MenuBar.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

@@ -142,6 +142,8 @@ def _atomic_git_commit(published_so_far: int, total_target: int) -> None:
             "public/catalog-index.json",
             "data/catalog-index.json",
             "data/retry_queue.json",
+            "data/processed_repos.json",
+            "data/daily_quota_state.json",
         ],
         cwd=PROJECT_ROOT,
         check=True,
@@ -239,21 +241,28 @@ def execute_streaming_recovery(
                         continue
 
                     if tier_arg == "tier1":
+                        if bundle.app_type == "cli":
+                            continue
                         raw_topics = {t.lower() for t in (item.get("topics") or [])}
                         if not bundle.release_assets and not (
                             raw_topics & {"gui", "desktop-app", "windows", "macos", "android", "ios"}
                         ):
                             continue
                         bundle.is_webapp = False
+                        bundle.app_type = "desktop"
                         bundle.scouting_tier = "tier1_gui"
                     elif tier_arg == "tier2":
                         bundle.is_webapp = True
+                        bundle.app_type = "webapp"
                         bundle.category = "Web Apps & Cloud"
                         bundle.operating_system = "All / Browser"
                         bundle.scouting_tier = "tier2_webapp"
                     elif tier_arg == "tier3":
                         bundle.is_webapp = False
+                        bundle.app_type = "cli"
                         bundle.scouting_tier = "tier3_powertool"
+                        if bundle.category == "Graphics & Design":
+                            bundle.category = "Utilities & Power Tools"
 
                     if last_ai_ts > 0 and min_delay > 0:
                         elapsed = time.monotonic() - last_ai_ts

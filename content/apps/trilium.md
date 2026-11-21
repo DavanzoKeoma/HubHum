@@ -5,6 +5,7 @@ tagline: "Build your personal knowledge base easily."
 summary: "Trilium is a hierarchical note-taking tool that helps you organize massive amounts of information into a searchable, connected library."
 tags: ["notes", "knowledge-base", "productivity"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/trilium.png"
 stars: 39023

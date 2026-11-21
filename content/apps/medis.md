@@ -5,7 +5,8 @@ tagline: "Beautiful and easy database management app"
 summary: "Manage your database records smoothly with an intuitive visual interface, secure remote connections, and built-in search tools."
 tags: ["database", "management", "developer-tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/medis.png"
 stars: 11711
 source_url: "https://github.com/luin/medis"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "MIT"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

@@ -5,13 +5,20 @@ tagline: "Unified hub for 13,000+ AI tools"
 summary: "Connect your AI assistants to over 13,000 ready-to-use tools through one smart gateway with built-in safety checks."
 tags: ["ai", "automation", "cloud", "tools"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/metamesh-uga.svg"
 stars: 0
 source_url: "https://github.com/DavanzoKeoma/metamesh-uga"
 download_url: "https://metamesh-uga.dev"
+downloadUrl: "https://metamesh-uga.dev"
 download_label: "Visit Official Site"
 license: "MIT"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_008"
 affiliate_name: "InterServer"
 affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
@@ -19,12 +26,6 @@ affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 clic
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: false
 updated_at: "2026-11-18"
-downloadUrl: "https://metamesh-uga.dev"
-scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Accesso unificato a oltre 13.000 tool AI"

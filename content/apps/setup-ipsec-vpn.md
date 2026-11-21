@@ -3,9 +3,10 @@ title: "setup-ipsec-vpn"
 slug: "setup-ipsec-vpn"
 tagline: "Set up your private VPN server"
 summary: "Easily create your own secure personal virtual private network server in minutes without complicated manual steps."
-tags: ["vpn", "security", "server", "privacy", "networking"]
+tags: ["vpn", "security", "server", "privacy"]
 is_webapp: true
-category: "Web Apps & Cloud"
+app_type: "webapp"
+category: "Security & Privacy"
 icon: "/icons/setup-ipsec-vpn.png"
 stars: 29087
 source_url: "https://github.com/hwdsl2/setup-ipsec-vpn"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "NOASSERTION"
 scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

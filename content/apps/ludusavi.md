@@ -5,7 +5,8 @@ tagline: "Easily backup all your game saves"
 summary: "Ludusavi protects your video game progress by backing up saves across thousands of games and multiple stores in seconds."
 tags: ["backup", "gaming", "utility", "save-games"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/ludusavi.png"
 stars: 6588
 source_url: "https://github.com/mtkennerly/ludusavi"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "MIT"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

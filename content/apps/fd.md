@@ -3,9 +3,10 @@ title: "fd"
 slug: "fd"
 tagline: "Lightning-fast alternative to standard file search."
 summary: "An incredibly fast, user-friendly tool that helps you locate files and folders on your computer in seconds."
-tags: ["search", "utility", "command-line", "productivity"]
+tags: ["search", "utility", "system-utility", "productivity"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/fd.png"
 stars: 45130
 source_url: "https://github.com/sharkdp/fd"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

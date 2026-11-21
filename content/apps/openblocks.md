@@ -4,7 +4,8 @@ slug: "openblocks"
 tagline: "Build custom business tools visually"
 summary: "Openblocks helps you create professional internal applications without needing to write complex code from scratch."
 tags: ["development", "productivity", "business"]
-is_webapp: false
+is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/openblocks.png"
 stars: 6244
@@ -13,7 +14,7 @@ download_url: "https://cloud.openblocks.dev"
 downloadUrl: "https://cloud.openblocks.dev"
 download_label: "Visit Official Site"
 license: "AGPL-3.0"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"

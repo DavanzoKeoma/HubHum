@@ -5,7 +5,8 @@ tagline: "Easily clean and customize Windows computers."
 summary: "Remove unwanted pre-installed apps, block background tracking, and declutter your computer interface in just a few clicks."
 tags: ["windows", "system", "customization", "privacy"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Security & Privacy"
 icon: "/icons/win11debloat.png"
 stars: 63350
 source_url: "https://github.com/Raphire/Win11Debloat"
@@ -13,9 +14,9 @@ download_url: "https://github.com/Raphire/Win11Debloat/releases/download/2026.10
 downloadUrl: "https://github.com/Raphire/Win11Debloat/releases/download/2026.10.30/Get.ps1"
 download_label: "Download (Get.ps1)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

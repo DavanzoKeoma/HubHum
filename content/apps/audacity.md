@@ -5,13 +5,20 @@ tagline: "Free multitrack audio recorder & editor"
 summary: "Record your voice, remove background noise, mix tracks, and export podcasts or music free on Windows, Mac, and Linux."
 tags: ["audio", "editing", "podcasts", "music"]
 is_webapp: false
+app_type: "desktop"
 category: "Video & Audio"
 icon: "/icons/audacity.png"
 stars: 19101
 source_url: "https://github.com/audacity/audacity"
 download_url: "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi"
+downloadUrl: "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi"
 download_label: "Download for Windows (.msi)"
 license: "GPL-3.0"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "MultimediaApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_054"
 affiliate_name: "Creative Fabrica"
 affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
@@ -19,12 +26,6 @@ affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets fo
 ai_provider: "tier2_groq:openai/gpt-oss-120b"
 featured_weekly: false
 updated_at: "2026-11-18"
-downloadUrl: "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "MultimediaApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Registratore e montaggio audio gratuito"

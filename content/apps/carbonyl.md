@@ -3,19 +3,20 @@ title: "Carbonyl"
 slug: "carbonyl"
 tagline: "Browse the web directly inside your terminal"
 summary: "Carbonyl brings a fully functional browser right into your text-based command console, letting you view websites, play videos, and run complex web."
-tags: ["browser", "terminal", "chromium", "command-line", "web"]
-is_webapp: true
-category: "Video & Audio"
+tags: ["browser", "system-utility", "chromium", "web"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/carbonyl.png"
 stars: 19607
 source_url: "https://github.com/fathyb/carbonyl"
 download_url: "https://github.com/fathyb/carbonyl/releases"
 downloadUrl: "https://github.com/fathyb/carbonyl/releases"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "BSD-3-Clause"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "MultimediaApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

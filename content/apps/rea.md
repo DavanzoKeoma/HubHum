@@ -3,17 +3,18 @@ title: "rea"
 slug: "rea"
 tagline: "Reverse engineer software features using AI agents"
 summary: "Understand how any software feature works without source code, letting AI agents inspect apps and code down to the binary level."
-tags: ["reverse-engineering", "ai-agents", "developer-tools", "automation"]
+tags: ["security", "automation", "developer-tools"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/rea.png"
 stars: 470442
 source_url: "https://github.com/morluto/rea"
 download_url: "https://rea.tools"
 downloadUrl: "https://rea.tools"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Linux, Android"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

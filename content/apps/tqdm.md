@@ -3,9 +3,10 @@ title: "tqdm"
 slug: "tqdm"
 tagline: "Instant smart progress bars for scripts"
 summary: "Add dynamic, lightweight progress meters to your console commands and loops with minimal setup."
-tags: ["python", "cli", "utility", "productivity"]
+tags: ["system-utility", "utility", "productivity"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/tqdm.png"
 stars: 31391
 source_url: "https://github.com/tqdm/tqdm"
@@ -13,9 +14,9 @@ download_url: "https://github.com/tqdm/tqdm/releases/download/v4.70.1/tqdm-4.70.
 downloadUrl: "https://github.com/tqdm/tqdm/releases/download/v4.70.1/tqdm-4.70.1-py3-none-any.whl"
 download_label: "Download (tqdm-4.70.1-py3-none-any.whl)"
 license: "NOASSERTION"
-scouting_tier: "tier1_gui"
-operatingSystem: "All / Browser"
-applicationCategory: "MultimediaApplication"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

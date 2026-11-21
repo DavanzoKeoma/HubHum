@@ -3,9 +3,10 @@ title: "Tabby"
 slug: "tabby"
 tagline: "Modern and customizable terminal and connection hub"
 summary: "Tabby is a modern, highly customizable terminal emulator and connection manager that brings all your remote servers and tools together cleanly."
-tags: ["terminal", "ssh", "developer-tools", "productivity"]
+tags: ["system-utility", "ssh", "developer-tools", "productivity"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Utilities & Power Tools"
 icon: "/icons/tabby.png"
 stars: 75507
 source_url: "https://github.com/Eugeny/tabby"
@@ -13,9 +14,9 @@ download_url: "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-
 downloadUrl: "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe"
 download_label: "Download for Windows (.exe)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

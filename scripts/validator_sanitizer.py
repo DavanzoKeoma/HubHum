@@ -21,6 +21,34 @@ REQUIRED_HEADINGS = (
     "### Pros and Cons",
 )
 
+TRUNCATED_ENDING_WORDS = (
+    "or", "and", "with", "without", "to", "for", "from", "in", "on", "at", "by",
+    "of", "as", "into", "like", "than", "that", "which", "who", "a", "an", "the",
+    "your", "their", "its", "heavy", "modern", "simple", "free", "using", "via",
+    "over", "under", "between", "through", "such", "while", "during", "across",
+    # IT / ES / FR / DE dangling stopwords
+    "o", "e", "con", "senza", "per", "da", "su", "di", "il", "lo", "la", "i", "gli", "le", "un", "una",
+    "y", "sin", "para", "por", "de", "el", "los", "las", "ou", "et", "avec", "sans", "pour", "par",
+    "sur", "dans", "les", "une", "oder", "und", "mit", "ohne", "für", "von", "zu", "auf", "der", "die", "das", "ein", "eine",
+)
+
+TRUNCATED_SUMMARY_RE = re.compile(
+    r"\b(?:" + "|".join(re.escape(w) for w in TRUNCATED_ENDING_WORDS) + r")\.$",
+    re.IGNORECASE,
+)
+
+
+def is_summary_truncated(summary: str) -> bool:
+    """Return True if a summary ends mid-thought on ellipsis or a dangling stopword."""
+    s = str(summary or "").strip()
+    if not s:
+        return True
+    if s.endswith("...") or s.endswith("…"):
+        return True
+    if s[-1] not in ".!?":
+        return True
+    return bool(TRUNCATED_SUMMARY_RE.search(s))
+
 TRADEMARK_REPLACEMENTS: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"\b(?:the\s+)?killer\s+of\s+[A-Z0-9][A-Za-z0-9\s.+_-]{1,30}", re.IGNORECASE), "a free alternative to commercial software"),
     (re.compile(r"\bAdobe\s+Premiere(?:\s+Pro)?\b", re.IGNORECASE), "commercial video editors"),
@@ -263,8 +291,20 @@ def validate_markdown_card(
         errors.append("Field 'tags' must contain at least one item.")
     if "is_webapp" in meta and not isinstance(meta["is_webapp"], bool):
         errors.append("Field 'is_webapp' must be boolean (true/false).")
-    if str(meta.get("summary") or "").endswith("..."):
-        errors.append("Field 'summary' must be complete without trailing '...'.")
+    if "app_type" in meta and str(meta["app_type"]) not in ("desktop", "webapp", "cli"):
+        errors.append(f"Invalid app_type '{meta['app_type']}': expected desktop, webapp, or cli.")
+
+    main_summary = str(meta.get("summary") or "").strip()
+    if is_summary_truncated(main_summary):
+        errors.append(f"Field 'summary' appears truncated or incomplete: '{main_summary}'")
+
+    raw_i18n = meta.get("i18n")
+    if isinstance(raw_i18n, dict):
+        for lang_code, lang_block in raw_i18n.items():
+            if isinstance(lang_block, dict) and lang_block.get("summary"):
+                l_sum = str(lang_block.get("summary") or "").strip()
+                if is_summary_truncated(l_sum):
+                    errors.append(f"Field 'i18n.{lang_code}.summary' appears truncated or incomplete: '{l_sum}'")
 
     for heading in REQUIRED_HEADINGS:
         if heading not in body:

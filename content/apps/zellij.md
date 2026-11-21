@@ -3,9 +3,10 @@ title: "zellij"
 slug: "zellij"
 tagline: "Your modern terminal workspace and companion."
 summary: "Zellij is a powerful terminal workspace manager that lets you organize multiple tasks on your screen effortlessly."
-tags: ["terminal", "workspace", "productivity", "developer-tools"]
+tags: ["system-utility", "workspace", "productivity", "developer-tools"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/zellij.png"
 stars: 36154
 source_url: "https://github.com/zellij-org/zellij"

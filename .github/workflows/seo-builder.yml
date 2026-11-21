@@ -69,27 +69,32 @@ jobs:
               01|02)
                 echo "mode=wave1" >> "$GITHUB_OUTPUT"
                 echo "tier=tier1" >> "$GITHUB_OUTPUT"
+                echo "tier_key=tier1_gui" >> "$GITHUB_OUTPUT"
                 echo "limit=250" >> "$GITHUB_OUTPUT"
                 ;;
               03|04)
                 echo "mode=wave2" >> "$GITHUB_OUTPUT"
                 echo "tier=tier1" >> "$GITHUB_OUTPUT"
+                echo "tier_key=tier1_gui" >> "$GITHUB_OUTPUT"
                 echo "limit=250" >> "$GITHUB_OUTPUT"
                 ;;
               05|06)
                 echo "mode=wave3" >> "$GITHUB_OUTPUT"
                 echo "tier=tier2" >> "$GITHUB_OUTPUT"
+                echo "tier_key=tier2_webapp" >> "$GITHUB_OUTPUT"
                 echo "limit=250" >> "$GITHUB_OUTPUT"
                 ;;
               *)
                 echo "mode=wave4_split" >> "$GITHUB_OUTPUT"
                 echo "tier=all" >> "$GITHUB_OUTPUT"
+                echo "tier_key=all" >> "$GITHUB_OUTPUT"
                 echo "limit=250" >> "$GITHUB_OUTPUT"
                 ;;
             esac
           else
             echo "mode=manual_or_ondemand" >> "$GITHUB_OUTPUT"
             echo "tier=${{ github.event.inputs.tier || 'all' }}" >> "$GITHUB_OUTPUT"
+            echo "tier_key=all" >> "$GITHUB_OUTPUT"
             echo "limit=${{ github.event.inputs.limit || '250' }}" >> "$GITHUB_OUTPUT"
           fi
 
@@ -145,20 +150,46 @@ jobs:
           WAVE_MODE: ${{ steps.wave.outputs.mode }}
           SCOUT_TIER: ${{ steps.wave.outputs.tier }}
           SCOUT_LIMIT: ${{ steps.wave.outputs.limit }}
+          EVENT_NAME: ${{ github.event_name }}
         run: |
           if [ -n "${DISPATCH_REPO_URLS}" ]; then
             python3 scripts/seo_pipeline.py --repo-urls "${DISPATCH_REPO_URLS}" --force-provider "${FORCE_PROVIDER}" --min-delay 4.1
           elif [ -n "${DISPATCH_REPO_URL}" ]; then
             python3 scripts/seo_pipeline.py --single-repo "${DISPATCH_REPO_URL}" --force-provider "${FORCE_PROVIDER}" --min-delay 0
-          elif [ "${WAVE_MODE}" = "wave4_split" ]; then
-            python3 scripts/seo_pipeline.py --tier tier2 --limit 50 --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 --auto-git-push --min-delay 4.1
-            python3 scripts/seo_pipeline.py --tier tier3 --limit 200 --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 --auto-git-push --min-delay 4.1
           else
-            AUTO_PUSH_FLAG=""
-            if [ "${{ github.event_name }}" = "schedule" ]; then
-              AUTO_PUSH_FLAG="--auto-git-push"
+            EFFECTIVE_LIMIT="${SCOUT_LIMIT}"
+            if [ "${EVENT_NAME}" = "schedule" ] && [ -f "data/daily_quota_state.json" ]; then
+              EFFECTIVE_LIMIT=$(python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+          raw = int(os.environ.get("SCOUT_LIMIT") or "250")
+          state = json.loads(Path("data/daily_quota_state.json").read_text(encoding="utf-8"))
+          today = datetime.now(timezone.utc).date().isoformat()
+          if state.get("date_utc") == today:
+              rem = max(0, 1000 - int(state.get("total_generated_today", 0)))
+              print(min(raw, rem))
+          else:
+              print(raw)
+          PY
+              )
             fi
-            python3 scripts/seo_pipeline.py --tier "${SCOUT_TIER}" --limit "${SCOUT_LIMIT}" --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 ${AUTO_PUSH_FLAG} --min-delay 4.1
+            if [ "${EFFECTIVE_LIMIT}" -le 0 ]; then
+              echo "Daily quota (1,000/day) already satisfied for today UTC; preserving 500 RPD headroom."
+            elif [ "${WAVE_MODE}" = "wave4_split" ]; then
+              T2_LIM=$(( EFFECTIVE_LIMIT < 50 ? EFFECTIVE_LIMIT : 50 ))
+              T3_LIM=$(( EFFECTIVE_LIMIT - T2_LIM ))
+              python3 scripts/seo_pipeline.py --tier tier2 --limit "${T2_LIM}" --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 --auto-git-push --min-delay 4.1
+              if [ "${T3_LIM}" -gt 0 ]; then
+                python3 scripts/seo_pipeline.py --tier tier3 --limit "${T3_LIM}" --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 --auto-git-push --min-delay 4.1
+              fi
+            else
+              AUTO_PUSH_FLAG=""
+              if [ "${EVENT_NAME}" = "schedule" ]; then
+                AUTO_PUSH_FLAG="--auto-git-push"
+              fi
+              python3 scripts/seo_pipeline.py --tier "${SCOUT_TIER}" --limit "${EFFECTIVE_LIMIT}" --force-provider "${FORCE_PROVIDER}" --batch-commit-size 50 ${AUTO_PUSH_FLAG} --min-delay 4.1
+            fi
           fi
           python3 scripts/generate_catalog_index.py
 
@@ -167,12 +198,19 @@ jobs:
 
       - name: Commit and push remaining batch cards
         run: |
-          git add content/apps public/icons public/catalog-index.json data/catalog-index.json data/retry_queue.json
+          git add content/apps public/icons public/catalog-index.json data/catalog-index.json data/retry_queue.json data/processed_repos.json data/daily_quota_state.json
           if git diff --cached --quiet; then
             echo "No remaining un-committed cards."
           else
             git commit -m "chore(seo): update HubHum app cards and catalog index"
-            git pull --rebase origin main || true
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              git merge -X ours --no-edit origin/main
+              python3 scripts/generate_catalog_index.py
+              git add public/catalog-index.json data/catalog-index.json
+              git commit --amend --no-edit
+            fi
             git push origin main
           fi
 

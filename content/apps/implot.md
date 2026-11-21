@@ -3,17 +3,18 @@ title: "implot"
 slug: "implot"
 tagline: "Fast interactive data plots for apps"
 summary: "ImPlot is a lightweight software library that lets you instantly draw interactive charts and graphs inside your applications."
-tags: ["development", "plotting", "charts", "graphics", "c++"]
+tags: ["development", "plotting", "charts", "graphics"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/implot.png"
 stars: 6285
 source_url: "https://github.com/epezent/implot"
 download_url: "https://github.com/epezent/implot/releases"
 downloadUrl: "https://github.com/epezent/implot/releases"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

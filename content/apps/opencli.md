@@ -3,15 +3,16 @@ title: "OpenCLI"
 slug: "opencli"
 tagline: "Turn any website into simple commands."
 summary: "Convert websites and logged-in browser sessions into clean, automated command lines that both humans and AI agents can easily use."
-tags: ["automation", "browser", "ai", "cli"]
+tags: ["automation", "browser", "ai", "system-utility"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/opencli.png"
 stars: 31188
 source_url: "https://github.com/jackwener/OpenCLI"
 download_url: "https://opencli.info/"
 downloadUrl: "https://opencli.info/"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"

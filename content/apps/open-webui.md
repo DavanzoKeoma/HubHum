@@ -3,8 +3,9 @@ title: "Open WebUI"
 slug: "open-webui"
 tagline: "Your own private smart assistant dashboard"
 summary: "Run smart artificial intelligence models completely offline or connect to cloud services with a friendly, feature-packed web control panel."
-tags: ["ai", "chat", "self-hosted", "productivity"]
+tags: ["ai", "chat", "cloud-app", "productivity"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/open-webui.png"
 stars: 159122

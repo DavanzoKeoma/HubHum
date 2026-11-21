@@ -5,7 +5,8 @@ tagline: "Shrink your images without losing quality."
 summary: "Make your digital pictures load faster by shrinking their file sizes automatically without losing any visual quality."
 tags: ["images", "optimization", "utilities", "mac"]
 is_webapp: false
-category: "Security & Privacy"
+app_type: "desktop"
+category: "Graphics & Design"
 icon: "/icons/imageoptim.png"
 stars: 10046
 source_url: "https://github.com/ImageOptim/ImageOptim"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "GPL-2.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "SecurityApplication"
+applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

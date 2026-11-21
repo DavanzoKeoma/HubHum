@@ -5,7 +5,8 @@ tagline: "Manage coding agents from anywhere."
 summary: "Control popular artificial intelligence coding tools from your mobile phone or web browser remotely."
 tags: ["ai", "development", "mobile", "productivity"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/claudecodeui.png"
 stars: 14699
 source_url: "https://github.com/siteboon/claudecodeui"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "AGPL-3.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

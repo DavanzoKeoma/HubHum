@@ -5,6 +5,7 @@ tagline: "Your own private home cloud system"
 summary: "CasaOS turns any computer into a simple, personal data center for managing your files and smart home devices with ease."
 tags: ["cloud", "storage", "home-automation"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/casaos.png"
 stars: 37678

@@ -5,6 +5,7 @@ tagline: "Run private AI models on your computer."
 summary: "Jan is an open-source alternative to online smart assistants that runs completely offline on your own personal computer."
 tags: ["ai", "privacy", "offline", "chatgpt-alternative"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/jan.png"
 stars: 45908

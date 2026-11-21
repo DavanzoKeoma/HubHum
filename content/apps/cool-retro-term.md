@@ -3,9 +3,10 @@ title: "cool-retro-term"
 slug: "cool-retro-term"
 tagline: "Vintage-style terminal with retro aesthetics"
 summary: "This application transforms your computer's command window into a nostalgic, glowing display that mimics classic 1980s cathode tube screens."
-tags: ["terminal", "retro", "customization"]
+tags: ["system-utility", "retro", "customization"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Utilities & Power Tools"
 icon: "/icons/cool-retro-term.png"
 stars: 26577
 source_url: "https://github.com/Swordfish90/cool-retro-term"
@@ -13,9 +14,9 @@ download_url: "https://github.com/Swordfish90/cool-retro-term/releases/download/
 downloadUrl: "https://github.com/Swordfish90/cool-retro-term/releases/download/2.0.0-beta2/cool-retro-term-2.0.0-beta2.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "Open Source"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

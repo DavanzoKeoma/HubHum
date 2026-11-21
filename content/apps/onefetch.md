@@ -3,9 +3,10 @@ title: "Onefetch"
 slug: "onefetch"
 tagline: "Display instant project statistics in your terminal."
 summary: "Onefetch is a lightweight tool that displays project information and code statistics for your local projects right in your terminal."
-tags: ["git", "command-line", "statistics", "developer-tools"]
+tags: ["git", "system-utility", "statistics", "developer-tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/onefetch.png"
 stars: 12086
 source_url: "https://github.com/o2sh/onefetch"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

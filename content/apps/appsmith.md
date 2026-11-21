@@ -4,7 +4,8 @@ slug: "appsmith"
 tagline: "Build custom internal dashboards effortlessly"
 summary: "Create custom internal tools, admin panels, and dashboards visually while connecting to your databases and web services."
 tags: ["dashboards", "admin-panel", "low-code", "developer-tools"]
-is_webapp: false
+is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/appsmith.png"
 stars: 41281
@@ -13,7 +14,7 @@ download_url: "https://www.appsmith.com"
 downloadUrl: "https://www.appsmith.com"
 download_label: "Visit Official Site"
 license: "Apache-2.0"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"

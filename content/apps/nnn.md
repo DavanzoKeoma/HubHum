@@ -3,9 +3,10 @@ title: "nnn"
 slug: "nnn"
 tagline: "Fast, tiny file navigator"
 summary: "nnn lets you browse, move, rename and search files from the command line with a tiny, lightning‑fast interface that works on almost any computer."
-tags: ["file manager", "productivity"]
+tags: ["file-manager", "productivity"]
 is_webapp: false
-category: "Security & Privacy"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/nnn.png"
 stars: 22129
 source_url: "https://github.com/jarun/nnn"
@@ -15,7 +16,7 @@ download_label: "Download (nnn-5.3.tar.gz.sig)"
 license: "BSD-2-Clause"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Android"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

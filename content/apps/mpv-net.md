@@ -5,6 +5,7 @@ tagline: "Smooth video playback for Windows"
 summary: "mpv.net lets you watch videos, music, and pictures on Windows with a clean, modern interface and high‑quality picture."
 tags: ["video", "media", "windows"]
 is_webapp: false
+app_type: "desktop"
 category: "Video & Audio"
 icon: "/icons/mpv-net.png"
 stars: 5575

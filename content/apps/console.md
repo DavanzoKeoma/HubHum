@@ -5,15 +5,16 @@ tagline: "Build professional text-based computer tools"
 summary: "Console helps creators build clean and reliable text-based interfaces for their software projects."
 tags: ["development", "tools"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/console.png"
 stars: 9812
 source_url: "https://github.com/symfony/console"
 download_url: "https://symfony.com/console"
 downloadUrl: "https://symfony.com/console"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

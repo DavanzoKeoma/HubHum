@@ -5,6 +5,7 @@ tagline: "Your ultimate multi-model AI desktop assistant."
 summary: "Connect to multiple artificial intelligence providers, extend capabilities with custom plugins, and control tasks straight from your phone in one."
 tags: ["ai", "desktop", "productivity", "automation"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/codepilot.png"
 stars: 6520

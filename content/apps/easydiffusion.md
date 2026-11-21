@@ -3,8 +3,9 @@ title: "Easy Diffusion"
 slug: "easydiffusion"
 tagline: "Create stunning AI artwork locally and effortlessly."
 summary: "Turn text descriptions into breathtaking images right on your own computer with a simple, friendly control panel and zero technical setup."
-tags: ["ai-art", "image-generation", "stable-diffusion", "graphics", "creative"]
+tags: ["ai-art", "image-generation", "stable-diffusion", "graphics"]
 is_webapp: false
+app_type: "desktop"
 category: "Graphics & Design"
 icon: "/icons/easydiffusion.png"
 stars: 10480

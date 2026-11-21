@@ -5,15 +5,16 @@ tagline: "Transform your standard mouse into a trackpad"
 summary: "Upgrade any regular mouse to feel like an expensive Apple trackpad with buttery smooth scrolling and powerful custom gestures."
 tags: ["macos", "mouse", "productivity", "utilities"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/mac-mouse-fix.png"
 stars: 11266
 source_url: "https://github.com/noah-nuebling/mac-mouse-fix"
 download_url: "https://macmousefix.com/"
 downloadUrl: "https://macmousefix.com/"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "NOASSERTION"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

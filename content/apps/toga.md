@@ -3,9 +3,10 @@ title: "Toga"
 slug: "toga"
 tagline: "Build native app interfaces using Python."
 summary: "Toga lets you create native user interfaces for apps across different operating systems using the Python programming language."
-tags: ["python", "interface", "developer", "toolkit"]
+tags: ["interface", "developer", "toolkit"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/toga.png"
 stars: 5430
 source_url: "https://github.com/beeware/toga"
@@ -13,9 +14,9 @@ download_url: "https://github.com/beeware/toga/releases/download/v0.5.7/toga-0.5
 downloadUrl: "https://github.com/beeware/toga/releases/download/v0.5.7/toga-0.5.7-py3-none-any.whl"
 download_label: "Download (toga-0.5.7-py3-none-any.whl)"
 license: "BSD-3-Clause"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

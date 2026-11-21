@@ -5,7 +5,8 @@ tagline: "Prepare 3D models for printing effortlessly."
 summary: "Cura transforms 3D digital shapes into instructions your 3D printer can understand and build."
 tags: ["3d-printing", "slicer", "manufacturing"]
 is_webapp: false
-category: "Productivity"
+app_type: "desktop"
+category: "Graphics & Design"
 icon: "/icons/cura.png"
 stars: 7088
 source_url: "https://github.com/Ultimaker/Cura"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "LGPL-3.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "UtilitiesApplication"
+applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_276"

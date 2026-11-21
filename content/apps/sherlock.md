@@ -5,6 +5,7 @@ tagline: "Find social media accounts by username instantly."
 summary: "Easily discover where a specific username is registered across hundreds of online platforms and social networks in seconds."
 tags: ["username-search", "privacy", "social-media", "investigation"]
 is_webapp: false
+app_type: "desktop"
 category: "Security & Privacy"
 icon: "/icons/sherlock.png"
 stars: 114779
@@ -13,7 +14,7 @@ download_url: "https://sherlockproject.xyz"
 downloadUrl: "https://sherlockproject.xyz"
 download_label: "Visit Official Site"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "All / Browser"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"

@@ -3,9 +3,10 @@ title: "Reflex"
 slug: "reflex"
 tagline: "Build custom web applications in Python."
 summary: "Create complete web apps entirely in Python without learning complex website languages."
-tags: ["python", "web-development", "full-stack"]
+tags: ["web-development", "full-stack"]
 is_webapp: false
-category: "Web Apps & Cloud"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/reflex.png"
 stars: 29042
 source_url: "https://github.com/reflex-dev/reflex"
@@ -13,9 +14,9 @@ download_url: "https://github.com/reflex-dev/reflex/releases/download/v0.11.0/SH
 downloadUrl: "https://github.com/reflex-dev/reflex/releases/download/v0.11.0/SHA256SUMS"
 download_label: "Download (SHA256SUMS)"
 license: "Apache-2.0"
-scouting_tier: "tier1_gui"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

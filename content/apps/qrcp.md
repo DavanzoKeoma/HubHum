@@ -3,9 +3,10 @@ title: "qrcp"
 slug: "qrcp"
 tagline: "Transfer files via QR codes instantly."
 summary: "Send and receive files between your computer and mobile devices over Wi-Fi simply by scanning a QR code right from your command window."
-tags: ["file sharing", "network", "qr code", "utility"]
+tags: ["file-sharing", "network", "qr-code", "utility"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/qrcp.png"
 stars: 10530
 source_url: "https://github.com/claudiodangelis/qrcp"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

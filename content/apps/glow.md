@@ -3,9 +3,10 @@ title: "Glow"
 slug: "glow"
 tagline: "Render markdown documents directly in terminal."
 summary: "Glow renders markdown files with beautiful styling directly in your command line interface, making it easy to read documentation and notes."
-tags: ["markdown", "cli", "terminal", "reader"]
+tags: ["markdown", "system-utility", "reader"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/glow.png"
 stars: 28101
 source_url: "https://github.com/charmbracelet/glow"
@@ -15,7 +16,7 @@ download_label: "Download for Android (.apk)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

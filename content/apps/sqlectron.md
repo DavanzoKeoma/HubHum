@@ -5,7 +5,8 @@ tagline: "Simple and lightweight database management tool."
 summary: "Sqlectron is a clean, lightweight desktop application designed to connect and query multiple database types with ease."
 tags: ["database", "sql", "developer-tools", "desktop"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/sqlectron.png"
 stars: 4757
 source_url: "https://github.com/sqlectron/sqlectron"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "MIT"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

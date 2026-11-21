@@ -5,6 +5,7 @@ tagline: "Build custom business systems with AI agents."
 summary: "NocoBase is an open-source platform that lets AI agents build and manage your business software while your team stays in control of decisions."
 tags: ["nocode", "ai", "business", "automation"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/nocobase.png"
 stars: 24971

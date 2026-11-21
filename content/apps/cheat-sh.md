@@ -3,15 +3,16 @@ title: "cheat.sh"
 slug: "cheat-sh"
 tagline: "Instant coding answers inside your editor."
 summary: "Get lightning-fast programming answers and command reminders directly in your terminal or editor without opening a browser."
-tags: ["development", "terminal", "cheat-sheet", "productivity"]
+tags: ["development", "system-utility", "cheat-sheet", "productivity"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/cheat-sh.png"
 stars: 41874
 source_url: "https://github.com/chubin/cheat.sh"
 download_url: "https://cheat.sh/"
 downloadUrl: "https://cheat.sh/"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"

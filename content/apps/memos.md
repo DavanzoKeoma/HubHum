@@ -3,8 +3,9 @@ title: "Memos"
 slug: "memos"
 tagline: "Your private timeline for everyday thoughts"
 summary: "Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline while keeping your data."
-tags: ["notes", "self-hosted", "timeline", "privacy"]
+tags: ["notes", "cloud-app", "timeline", "privacy"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/memos.png"
 stars: 64585

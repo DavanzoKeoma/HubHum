@@ -5,15 +5,16 @@ tagline: "Keep your Mac awake effortlessly"
 summary: "KeepingYouAwake sits in your menu bar and stops your Mac from falling asleep while you work, so tasks can finish without interruption."
 tags: ["macos", "utility", "productivity"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/keepingyouawake.png"
 stars: 7057
 source_url: "https://github.com/newmarcel/KeepingYouAwake"
 download_url: "https://keepingyouawake.app"
 downloadUrl: "https://keepingyouawake.app"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

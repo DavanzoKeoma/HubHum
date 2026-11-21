@@ -5,6 +5,7 @@ tagline: "Turn text and photos into 3D models"
 summary: "Transform simple text descriptions or single photos into fully rendered 3D objects using advanced AI diffusion models."
 tags: ["3d", "ai", "text-to-3d", "diffusion"]
 is_webapp: false
+app_type: "desktop"
 category: "Graphics & Design"
 icon: "/icons/stable-dreamfusion.png"
 stars: 8881

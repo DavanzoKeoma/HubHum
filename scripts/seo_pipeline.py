@@ -12,14 +12,22 @@ from pathlib import Path
 
 from ai_router import AllTiersFailedError, generate_card_with_cascade
 from generate_catalog_index import write_catalog_index
-from scouter import ScoutedRepo, classify_repo, fetch_repo_by_url, scout_tiered_apps
-from validator_sanitizer import ensure_triplet_links_in_body, sanitize_full_document, split_frontmatter, validate_markdown_card
+from scouter import ScoutedRepo, classify_repo, fetch_repo_by_url, record_processed_repo, sanitize_human_tags, scout_tiered_apps
+from validator_sanitizer import (
+    TRUNCATED_ENDING_WORDS,
+    ensure_triplet_links_in_body,
+    is_summary_truncated,
+    sanitize_full_document,
+    split_frontmatter,
+    validate_markdown_card,
+)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_APPS_DIR = PROJECT_ROOT / "content" / "apps"
 AFFILIATES_PATH = PROJECT_ROOT / "data" / "affiliates_seed.json"
 RETRY_QUEUE_PATH = PROJECT_ROOT / "data" / "retry_queue.json"
 BLOCKLIST_PATH = PROJECT_ROOT / "data" / "takedown_blocklist.json"
+DAILY_QUOTA_STATE_PATH = PROJECT_ROOT / "data" / "daily_quota_state.json"
 
 
 def load_json_file(path: Path, default: object) -> object:
@@ -54,11 +62,76 @@ def select_affiliate_for_repo(repo: ScoutedRepo, affiliates_data: dict) -> dict:
     }
 
 
+def _strip_trailing_dangling_words(clause: str) -> str:
+    """Recursively strip trailing prepositions/articles/conjunctions so sentences never end mid-thought."""
+    words = clause.strip().rstrip(".,;:!?—- ").split()
+    dangling = set(TRUNCATED_ENDING_WORDS)
+    while len(words) > 4 and words[-1].lower().strip(".,;:!?\"'()[]") in dangling:
+        words.pop()
+    return " ".join(words).rstrip(".,;:!?—- ")
+
+
+def clean_complete_summary(text: str, fallback: str, max_len: int = 210) -> str:
+    """Return a clean, self-contained summary ending in terminal punctuation without mid-phrase cuts."""
+    normalized = " ".join(str(text or "").replace('"', "'").replace("...", "").replace("…", "").split())
+    clean_fallback = " ".join(str(fallback or "").replace('"', "'").replace("...", "").replace("…", "").split())
+    if not normalized or len(normalized) < 12:
+        normalized = clean_fallback
+
+    sentences = [s.strip() for s in re.split(r"(?<=[.!?])\s+", normalized) if s.strip()]
+    candidate = sentences[0] if sentences else normalized
+
+    if len(candidate) > max_len:
+        # Try clean clause split before max_len instead of arbitrary word slicing
+        sub_clauses = re.split(r"\s*(?:,|;|—|\s-\s|\swhile\s|\sfeaturing\s|\swithout\s)\s*", candidate)
+        rebuilt = sub_clauses[0]
+        for part in sub_clauses[1:]:
+            if len(rebuilt) + len(part) + 2 <= max_len:
+                rebuilt = f"{rebuilt}, {part}"
+            else:
+                break
+        candidate = rebuilt if len(rebuilt) >= 45 else candidate
+
+    stripped = _strip_trailing_dangling_words(candidate)
+    if not stripped or len(stripped) < 15:
+        stripped = _strip_trailing_dangling_words(clean_fallback) or "Free open-source software explained in plain language"
+    res = f"{stripped}."
+    if is_summary_truncated(res):
+        safe_fb = _strip_trailing_dangling_words(clean_fallback)
+        return f"{safe_fb}." if safe_fb else "Free open-source software for everyday users."
+    return res
+
+
 def _clean_sentence(text: str, fallback: str) -> str:
-    cleaned = " ".join(str(text or "").replace('"', "'").split()).rstrip(".")
-    if not cleaned:
-        cleaned = fallback.rstrip(".")
-    return f"{cleaned}."
+    return clean_complete_summary(text, fallback)
+
+
+def record_daily_quota_progress(tier_key: str) -> None:
+    """Track UTC daily generated count per tier in data/daily_quota_state.json for idempotent cron waves."""
+    today = datetime.now(timezone.utc).date().isoformat()
+    state = {
+        "date_utc": today,
+        "daily_target": 1000,
+        "gemini_rpd_ceiling": 1500,
+        "reserved_headroom": 500,
+        "generated_by_tier": {"tier1_gui": 0, "tier2_webapp": 0, "tier3_powertool": 0},
+        "total_generated_today": 0,
+    }
+    if DAILY_QUOTA_STATE_PATH.exists():
+        try:
+            loaded = json.loads(DAILY_QUOTA_STATE_PATH.read_text(encoding="utf-8"))
+            if isinstance(loaded, dict) and loaded.get("date_utc") == today:
+                state["generated_by_tier"].update(loaded.get("generated_by_tier") or {})
+                state["total_generated_today"] = int(loaded.get("total_generated_today") or 0)
+        except Exception:
+            pass
+
+    if tier_key not in state["generated_by_tier"]:
+        state["generated_by_tier"][tier_key] = 0
+    state["generated_by_tier"][tier_key] += 1
+    state["total_generated_today"] = sum(int(v) for v in state["generated_by_tier"].values())
+    state["updated_at_utc"] = datetime.now(timezone.utc).isoformat()
+    save_json_file(DAILY_QUOTA_STATE_PATH, state)
 
 
 def _commit_batch(batch_count: int) -> None:
@@ -72,6 +145,8 @@ def _commit_batch(batch_count: int) -> None:
             "public/catalog-index.json",
             "data/catalog-index.json",
             "data/retry_queue.json",
+            "data/processed_repos.json",
+            "data/daily_quota_state.json",
         ],
         cwd=PROJECT_ROOT,
         check=False,
@@ -84,7 +159,18 @@ def _commit_batch(batch_count: int) -> None:
         cwd=PROJECT_ROOT,
         check=False,
     )
-    subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=PROJECT_ROOT, check=False)
+    subprocess.run(["git", "fetch", "origin", "main"], cwd=PROJECT_ROOT, check=False)
+    rebase_res = subprocess.run(["git", "rebase", "origin/main"], cwd=PROJECT_ROOT, check=False)
+    if rebase_res.returncode != 0:
+        subprocess.run(["git", "rebase", "--abort"], cwd=PROJECT_ROOT, check=False)
+        subprocess.run(["git", "merge", "-X", "ours", "--no-edit", "origin/main"], cwd=PROJECT_ROOT, check=False)
+        write_catalog_index()
+        subprocess.run(
+            ["git", "add", "public/catalog-index.json", "data/catalog-index.json"],
+            cwd=PROJECT_ROOT,
+            check=False,
+        )
+        subprocess.run(["git", "commit", "--amend", "--no-edit"], cwd=PROJECT_ROOT, check=False)
     subprocess.run(["git", "push", "origin", "main"], cwd=PROJECT_ROOT, check=False)
 
 
@@ -94,6 +180,7 @@ def _derive_application_category(category: str) -> str:
         "Video & Audio": "MultimediaApplication",
         "Graphics & Design": "DesignApplication",
         "Web Apps & Cloud": "BusinessApplication",
+        "Utilities & Power Tools": "UtilitiesApplication",
         "Websites & SEO": "DeveloperApplication",
         "Productivity": "UtilitiesApplication",
     }
@@ -107,13 +194,11 @@ def enrich_frontmatter(markdown_text: str, repo: ScoutedRepo, aff: dict, provide
     fallback_summary = repo.description.strip() or f"{repo.name} is a free open-source application."
     match_intro = re.search(r"### What it does in plain English\s+([^\n#]+)", body)
     raw_summary = str(meta.get("summary") or (match_intro.group(1) if match_intro else fallback_summary))
-    if len(raw_summary) > 155:
-        first_sent = raw_summary.split(".")[0].strip()
-        raw_summary = first_sent if 40 <= len(first_sent) <= 155 else raw_summary[:150].rsplit(" ", 1)[0]
-    safe_summary = _clean_sentence(raw_summary, fallback_summary)
+    safe_summary = clean_complete_summary(raw_summary, fallback_summary, max_len=210)
     safe_tagline = str(meta.get("tagline") or repo.category).replace('"', "'")[:65]
 
-    tags_list = meta.get("tags") if isinstance(meta.get("tags"), list) else (repo.topics[:3] or ["utility"])
+    raw_tags = meta.get("tags") if isinstance(meta.get("tags"), list) else repo.topics
+    tags_list = sanitize_human_tags([str(t) for t in raw_tags], category=repo.category, app_type=repo.app_type)
     tags_yaml = ", ".join(f'"{str(t).lower()}"' for t in tags_list[:5])
     safe_title = str(meta.get("title") or repo.name).replace('"', "'")
     safe_pitch = aff["injection_message"].replace('"', "'")
@@ -124,7 +209,7 @@ def enrich_frontmatter(markdown_text: str, repo: ScoutedRepo, aff: dict, provide
     for lang in ("it", "es", "fr", "de"):
         lang_obj = raw_i18n.get(lang) if isinstance(raw_i18n.get(lang), dict) else {}
         l_tag = str(lang_obj.get("tagline") or safe_tagline).replace('"', "'")
-        l_sum = _clean_sentence(str(lang_obj.get("summary") or safe_summary), safe_summary)
+        l_sum = clean_complete_summary(str(lang_obj.get("summary") or safe_summary), safe_summary, max_len=210)
         i18n_lines.append(f"  {lang}:")
         i18n_lines.append(f'    tagline: "{l_tag}"')
         i18n_lines.append(f'    summary: "{l_sum}"')
@@ -138,6 +223,7 @@ def enrich_frontmatter(markdown_text: str, repo: ScoutedRepo, aff: dict, provide
             f'summary: "{safe_summary}"',
             f"tags: [{tags_yaml}]",
             f"is_webapp: {str(repo.is_webapp).lower()}",
+            f'app_type: "{repo.app_type}"',
             f'category: "{repo.category}"',
             f'icon: "{repo.icon_path}"',
             f"stars: {repo.stars}",
@@ -211,7 +297,9 @@ def process_single_repo(
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(final_card, encoding="utf-8")
         dequeue_retry(repo.slug)
-        print(f"[PUBLISHED] {out_path.name} via {tier_used} (merchant={aff['merchant_id']})")
+        record_processed_repo(repo.slug, repo.full_name, repo.html_url)
+        record_daily_quota_progress(repo.scouting_tier)
+        print(f"[PUBLISHED] {out_path.name} via {tier_used} (merchant={aff['merchant_id']}, type={repo.app_type})")
         return True
     except AllTiersFailedError as exc:
         print(f"[QUEUED] {repo.full_name}: {exc}")

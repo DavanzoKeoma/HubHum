@@ -3,8 +3,9 @@ title: "SigNoz"
 slug: "signoz"
 tagline: "All-in-one open source app monitoring platform"
 summary: "Monitor your application logs, server performance, and user traffic in a single intuitive dashboard."
-tags: ["monitoring", "observability", "logs", "traces", "metrics"]
+tags: ["monitoring", "observability", "logs", "traces"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/signoz.png"
 stars: 32688

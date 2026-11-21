@@ -5,7 +5,8 @@ tagline: "Navigate your folders in seconds"
 summary: "A smarter folder-navigation tool that learns your habits, helping you jump instantly to the directories you use most frequently."
 tags: ["productivity", "utilities"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/zoxide.png"
 stars: 40670
 source_url: "https://github.com/ajeetdsouza/zoxide"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

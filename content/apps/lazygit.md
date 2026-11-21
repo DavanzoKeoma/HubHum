@@ -2,20 +2,21 @@
 title: "lazygit"
 slug: "lazygit"
 tagline: "Simple visual control for your code"
-summary: "Lazygit brings a clear visual interface to your command-line code manager, making complex version control tasks simple."
-tags: ["development", "terminal", "version-control", "productivity"]
+summary: "Lazygit transforms tedious command-line tasks into a fast, interactive experience right inside your terminal."
+tags: ["development", "system-utility", "version-control", "productivity"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/lazygit.png"
 stars: 83964
 source_url: "https://github.com/jesseduffield/lazygit"
 download_url: "https://github.com/jesseduffield/lazygit/releases/download/v0.66.3/checksums.txt"
 downloadUrl: "https://github.com/jesseduffield/lazygit/releases/download/v0.66.3/checksums.txt"
-download_label: "Download (checksums.txt)"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "MultimediaApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

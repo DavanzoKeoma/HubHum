@@ -3,8 +3,9 @@ title: "ArchiveBox"
 slug: "archivebox"
 tagline: "Preserve and store your favorite websites."
 summary: "ArchiveBox saves permanent offline copies of web pages, bookmarks, and media so they never disappear from the internet."
-tags: ["archiving", "self-hosted", "bookmarks", "backup"]
+tags: ["archiving", "cloud-app", "bookmarks", "backup"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/archivebox.png"
 stars: 29061

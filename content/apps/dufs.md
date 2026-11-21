@@ -3,19 +3,20 @@ title: "dufs"
 slug: "dufs"
 tagline: "Simple online folder sharing"
 summary: "dufs turns a folder on your computer into a web page where friends can view, download, upload or search files without installing extra tools."
-tags: ["file sharing", "web"]
-is_webapp: true
-category: "Web Apps & Cloud"
+tags: ["file-sharing", "web"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/dufs.png"
 stars: 11138
 source_url: "https://github.com/sigoden/dufs"
 download_url: "https://github.com/sigoden/dufs/releases"
 downloadUrl: "https://github.com/sigoden/dufs/releases"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

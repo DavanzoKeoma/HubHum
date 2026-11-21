@@ -4,8 +4,9 @@ slug: "dify"
 tagline: "Build custom smart AI apps visually"
 summary: "Create custom artificial intelligence workflows, smart assistants, and document search pipelines easily on one collaborative workspace."
 tags: ["ai", "workflow", "automation"]
-is_webapp: false
-category: "Graphics & Design"
+is_webapp: true
+app_type: "webapp"
+category: "Web Apps & Cloud"
 icon: "/icons/dify.png"
 stars: 161552
 source_url: "https://github.com/langgenius/dify"
@@ -13,9 +14,9 @@ download_url: "https://github.com/langgenius/dify/releases/download/1.20.0/difyc
 downloadUrl: "https://github.com/langgenius/dify/releases/download/1.20.0/difyctl-v1.20.0-windows-x64.exe"
 download_label: "Download for Windows (.exe)"
 license: "NOASSERTION"
-scouting_tier: "tier3_powertool"
-operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

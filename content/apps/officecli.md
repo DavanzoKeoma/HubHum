@@ -3,9 +3,10 @@ title: "OfficeCLI"
 slug: "officecli"
 tagline: "Empower AI agents with Office files."
 summary: "OfficeCLI lets AI agents read, edit, and automate Word, Excel, and PowerPoint files instantly."
-tags: ["office", "automation", "ai-agents", "cli"]
+tags: ["office", "automation", "system-utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/officecli.png"
 stars: 33470
 source_url: "https://github.com/iOfficeAI/OfficeCLI"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

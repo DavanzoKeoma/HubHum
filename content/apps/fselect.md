@@ -5,7 +5,8 @@ tagline: "Find any file with simple queries"
 summary: "fselect lets you locate files on your computer by typing easy, English‑like questions about name, size, date or content, and it returns a list you."
 tags: ["file-search", "productivity"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/fselect.png"
 stars: 4476
 source_url: "https://github.com/jhspetersson/fselect"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

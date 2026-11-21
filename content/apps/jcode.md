@@ -3,9 +3,10 @@ title: "jcode"
 slug: "jcode"
 tagline: "Run multiple parallel coding assistants instantly."
 summary: "jcode is a high-performance assistant harness that lets you run dozens of AI coding agents in parallel without slowing down your computer."
-tags: ["rust", "productivity", "development", "parallel-agents"]
+tags: ["productivity", "development", "parallel-agents"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/jcode.png"
 stars: 21936
 source_url: "https://github.com/1jehuang/jcode"
@@ -13,9 +14,9 @@ download_url: "https://github.com/1jehuang/jcode/releases/download/v1.0.1/jcode-
 downloadUrl: "https://github.com/1jehuang/jcode/releases/download/v1.0.1/jcode-windows-aarch64.exe"
 download_label: "Download for Windows (.exe)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

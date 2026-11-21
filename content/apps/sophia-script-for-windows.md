@@ -5,7 +5,8 @@ tagline: "Fine-tune Windows with advanced control."
 summary: "An advanced PowerShell tool helps you customize, clean up, and fine-tune Windows 10 and 11 safely."
 tags: ["windows", "powershell", "customization", "system"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Security & Privacy"
 icon: "/icons/sophia-script-for-windows.png"
 stars: 9971
 source_url: "https://github.com/farag2/Sophia-Script-for-Windows"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "MIT"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

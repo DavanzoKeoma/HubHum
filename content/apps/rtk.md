@@ -5,7 +5,8 @@ tagline: "Cut AI coding assistant token costs."
 summary: "Smart tool that compresses command output before your AI coding assistant reads it, cutting token consumption by up to ninety percent."
 tags: ["ai", "developer-tools", "productivity", "optimization"]
 is_webapp: false
-category: "Security & Privacy"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/rtk.png"
 stars: 87231
 source_url: "https://github.com/rtk-ai/rtk"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

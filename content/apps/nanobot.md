@@ -3,8 +3,9 @@ title: "nanobot"
 slug: "nanobot"
 tagline: "Your lightweight self-hosted personal AI companion"
 summary: "Manage files, automate daily tasks, and chat with a secure personal AI assistant running right from your browser or favorite messaging app."
-tags: ["ai", "assistant", "automation", "python"]
+tags: ["ai", "assistant", "automation"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/nanobot.png"
 stars: 50222

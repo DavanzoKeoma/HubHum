@@ -5,7 +5,8 @@ tagline: "Manage all your servers in one place."
 summary: "Termix is a flexible, self-hosted platform that lets you organize and control your remote servers, files, and connections from a single dashboard."
 tags: ["server-management", "productivity", "ssh", "tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Security & Privacy"
 icon: "/icons/termix.png"
 stars: 16079
 source_url: "https://github.com/Termix-SSH/Termix"
@@ -13,9 +14,9 @@ download_url: "https://github.com/Termix-SSH/Termix/releases/download/v26.11.2/t
 downloadUrl: "https://github.com/Termix-SSH/Termix/releases/download/v26.11.2/termix_windows_arm64_nsis.exe"
 download_label: "Download for Windows (.exe)"
 license: "Apache-2.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

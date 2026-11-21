@@ -5,7 +5,8 @@ tagline: "Automate your mobile app publishing workflow"
 summary: "Say goodbye to repetitive mobile publishing tasks by automating screenshots, code signing certificates, and app store updates in minutes."
 tags: ["automation", "mobile", "developer-tools"]
 is_webapp: false
-category: "Security & Privacy"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/hubhum.svg"
 stars: 42408
 source_url: "https://github.com/fastlane/fastlane"
@@ -15,7 +16,7 @@ download_label: "Download (fastlane-2.242.0.gem)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Android, iOS"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

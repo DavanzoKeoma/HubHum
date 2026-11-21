@@ -3,9 +3,10 @@ title: "winget-cli"
 slug: "winget-cli"
 tagline: "Easily manage software on Windows computers"
 summary: "Install, update, and manage all your Windows software in one place using simple text commands. No more searching websites for downloads."
-tags: ["windows", "installer", "package-manager", "command-line"]
+tags: ["windows", "installer", "package-manager", "system-utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/winget-cli.png"
 stars: 26627
 source_url: "https://github.com/microsoft/winget-cli"
@@ -15,7 +16,7 @@ download_label: "Download (DesktopAppInstaller_Dependencies.json)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

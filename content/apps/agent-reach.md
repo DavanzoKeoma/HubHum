@@ -5,7 +5,8 @@ tagline: "Give your AI agent internet access"
 summary: "Agent-Reach allows your AI assistant to browse and read content from popular social media and video platforms automatically."
 tags: ["ai", "automation", "tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/agent-reach.png"
 stars: 113424
 source_url: "https://github.com/Panniantong/Agent-Reach"
@@ -15,7 +16,7 @@ download_label: "Download (agent_reach-1.6.1-py3-none-any.whl)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

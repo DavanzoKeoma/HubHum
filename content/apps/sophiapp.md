@@ -5,7 +5,8 @@ tagline: "Fine-tune your Windows settings easily."
 summary: "SophiApp is a user-friendly tool that lets you customize and optimize your Windows 10 or 11 system using safe, official methods."
 tags: ["windows", "optimization", "system-tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Security & Privacy"
 icon: "/icons/sophiapp.png"
 stars: 5257
 source_url: "https://github.com/Sophia-Community/SophiApp"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "MIT"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

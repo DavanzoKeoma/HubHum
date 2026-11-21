@@ -3,8 +3,9 @@ title: "Khoj"
 slug: "khoj"
 tagline: "Your personal autonomous AI second brain"
 summary: "Transform your daily workflow with an open-source AI assistant that chats with your personal documents, browses the web, and automates research."
-tags: ["ai", "assistant", "search", "self-hosted"]
+tags: ["ai", "assistant", "search", "cloud-app"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/khoj.png"
 stars: 38182

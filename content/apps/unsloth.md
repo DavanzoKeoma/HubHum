@@ -3,8 +3,9 @@ title: "Unsloth"
 slug: "unsloth"
 tagline: "Run and train AI models locally."
 summary: "Unsloth allows you to run and customize powerful artificial intelligence models directly on your own computer with ease."
-tags: ["ai", "machine learning", "productivity"]
+tags: ["ai", "machine-learning", "productivity"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/unsloth.png"
 stars: 79818

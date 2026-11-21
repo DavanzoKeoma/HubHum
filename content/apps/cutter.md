@@ -3,9 +3,10 @@ title: "Cutter"
 slug: "cutter"
 tagline: "Powerful free reverse engineering platform"
 summary: "Cutter is an advanced, customizable reverse engineering platform powered by a robust backend engine."
-tags: ["reverse-engineering", "security", "analysis"]
+tags: ["security", "analysis"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/cutter.png"
 stars: 20242
 source_url: "https://github.com/rizinorg/cutter"
@@ -15,7 +16,7 @@ download_label: "Download for Mac (.dmg)"
 license: "GPL-3.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

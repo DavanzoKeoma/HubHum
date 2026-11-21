@@ -3,8 +3,9 @@ title: "Shiori"
 slug: "shiori"
 tagline: "Your own private offline bookmark manager"
 summary: "Save online articles and web pages to your own private library with automatic offline archiving."
-tags: ["bookmarks", "reader", "offline", "archive", "web-app"]
+tags: ["bookmarks", "reader", "offline", "archive"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/shiori.png"
 stars: 11878
@@ -13,7 +14,7 @@ download_url: "https://github.com/go-shiori/shiori/releases/download/v1.8.0/chec
 downloadUrl: "https://github.com/go-shiori/shiori/releases/download/v1.8.0/checksums.txt"
 download_label: "Download (checksums.txt)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"

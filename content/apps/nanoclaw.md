@@ -3,8 +3,9 @@ title: "nanoclaw"
 slug: "nanoclaw"
 tagline: "Your own secure, containerized AI assistant"
 summary: "Run a private, lightweight AI assistant on your own machine with complete data privacy and container security."
-tags: ["ai-assistant", "self-hosted", "docker", "privacy", "automation"]
+tags: ["ai-assistant", "cloud-app", "privacy", "automation"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/nanoclaw.png"
 stars: 31128

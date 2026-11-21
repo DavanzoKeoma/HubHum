@@ -3,15 +3,16 @@ title: "OpenClaude"
 slug: "openclaude"
 tagline: "Your personal AI coding assistant in the terminal"
 summary: "OpenClaude is a powerful tool that brings AI-powered coding help directly into your command line interface."
-tags: ["ai", "coding", "terminal", "developer-tools"]
+tags: ["ai", "coding", "system-utility", "developer-tools"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/openclaude.png"
 stars: 34438
 source_url: "https://github.com/Twigpine/openclaude"
 download_url: "https://openclaude.twigpine.com"
 downloadUrl: "https://openclaude.twigpine.com"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "NOASSERTION"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"

@@ -5,6 +5,7 @@ tagline: "Powerful yet simple to use screenshot software"
 summary: "Capture your screen instantly, highlight key details with built-in drawing tools, and share your images effortlessly."
 tags: ["screenshots", "productivity", "utilities"]
 is_webapp: false
+app_type: "desktop"
 category: "Graphics & Design"
 icon: "/icons/flameshot.png"
 stars: 31599

@@ -5,6 +5,7 @@ tagline: "Automate everyday tasks with intelligent workflows."
 summary: "Connect your favorite online tools and artificial intelligence models to automate tedious tasks without writing complex code."
 tags: ["automation", "workflow", "ai", "integration"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/n8n.png"
 stars: 211468

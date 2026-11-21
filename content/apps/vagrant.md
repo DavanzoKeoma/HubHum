@@ -4,8 +4,9 @@ slug: "vagrant"
 tagline: "Create consistent portable development environments instantly."
 summary: "Manage and distribute identical virtual workspaces across different computers effortlessly."
 tags: ["virtualization", "development", "tools"]
-is_webapp: true
-category: "Web Apps & Cloud"
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/vagrant.png"
 stars: 27234
 source_url: "https://github.com/hashicorp/vagrant"
@@ -14,8 +15,8 @@ downloadUrl: "https://github.com/hashicorp/vagrant/releases/download/v2.4.9/vagr
 download_label: "Download (vagrant-2.4.9.gem)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

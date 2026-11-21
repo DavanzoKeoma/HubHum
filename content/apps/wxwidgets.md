@@ -3,9 +3,10 @@ title: "wxWidgets"
 slug: "wxwidgets"
 tagline: "Build native desktop apps seamlessly."
 summary: "Create native-looking desktop applications for Windows, Mac, and Linux using a single programming language."
-tags: ["development", "gui", "cross-platform", "c++"]
+tags: ["development", "gui", "cross-platform"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/wxwidgets.png"
 stars: 7310
 source_url: "https://github.com/wxWidgets/wxWidgets"
@@ -13,9 +14,9 @@ download_url: "https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.4/w
 downloadUrl: "https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.4/wxMSW-3.3.4-Setup.exe"
 download_label: "Download for Windows (.exe)"
 license: "Open Source"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

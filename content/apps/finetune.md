@@ -5,6 +5,7 @@ tagline: "Total control over every app sound."
 summary: "Take independent volume control of every app on your Mac, boost quiet sounds, and route audio effortlessly from your menu bar."
 tags: ["audio", "mac", "utilities"]
 is_webapp: false
+app_type: "desktop"
 category: "Video & Audio"
 icon: "/icons/finetune.png"
 stars: 10220
@@ -13,7 +14,7 @@ download_url: "https://github.com/ronitsingh10/FineTune/releases/download/v1.9.0
 downloadUrl: "https://github.com/ronitsingh10/FineTune/releases/download/v1.9.0/FineTune.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"

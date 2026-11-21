@@ -5,7 +5,8 @@ tagline: "Explore and test your web requests"
 summary: "Bruno is a lightweight, offline-first application that helps developers explore, test, and organize web requests directly on their device."
 tags: ["development", "testing", "tools", "offline"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/bruno.png"
 stars: 48472
 source_url: "https://github.com/usebruno/bruno"
@@ -13,9 +14,9 @@ download_url: "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_
 downloadUrl: "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.exe"
 download_label: "Download for Windows (.exe)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

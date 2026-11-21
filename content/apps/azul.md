@@ -3,9 +3,10 @@ title: "Azul"
 slug: "azul"
 tagline: "High performance native desktop application creator"
 summary: "Azul is a fast and flexible visual interface framework that helps developers build native desktop apps using familiar layout styles."
-tags: ["rust", "desktop", "gui", "framework"]
+tags: ["desktop", "gui"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/azul.png"
 stars: 6140
 source_url: "https://github.com/fschutt/azul"
@@ -13,9 +14,9 @@ download_url: "https://github.com/fschutt/azul/releases/download/0.2.0/AzMaps-an
 downloadUrl: "https://github.com/fschutt/azul/releases/download/0.2.0/AzMaps-android.apk"
 download_label: "Download for Android (.apk)"
 license: "MIT"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

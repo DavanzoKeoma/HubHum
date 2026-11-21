@@ -3,8 +3,9 @@ title: "Self-Hosting-Guide"
 slug: "self-hosting-guide"
 tagline: "Master local servers and private cloud applications."
 summary: "Learn how to locally host and manage your own software applications and private web servers instead of paying for costly monthly subscriptions."
-tags: ["self-hosting", "docker", "cloud", "servers", "automation"]
+tags: ["self-hosting", "cloud-app", "cloud", "servers"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/self-hosting-guide.png"
 stars: 23615

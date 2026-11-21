@@ -2,10 +2,11 @@
 title: "v2rayA"
 slug: "v2raya"
 tagline: "Manage secure web proxy connections easily."
-summary: "A user-friendly web dashboard for controlling secure internet connections, organizing subscription nodes, and routing network traffic on your."
+summary: "v2rayA provides a clean web-based control center for managing advanced internet connection tunnels and proxy rules."
 tags: ["networking", "proxy", "security", "web-client"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Security & Privacy"
 icon: "/icons/v2raya.png"
 stars: 15876
 source_url: "https://github.com/v2rayA/v2rayA"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "AGPL-3.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

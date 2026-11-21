@@ -3,8 +3,9 @@ title: "homepage"
 slug: "homepage"
 tagline: "Your modern and fast application dashboard."
 summary: "Create a centralized dashboard for all your favorite apps, services, and live widgets in one custom page."
-tags: ["dashboard", "docker", "startpage", "widgets"]
+tags: ["dashboard", "cloud-app", "startpage", "widgets"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/homepage.png"
 stars: 33747

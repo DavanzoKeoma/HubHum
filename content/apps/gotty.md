@@ -3,9 +3,10 @@ title: "gotty"
 slug: "gotty"
 tagline: "Turn your command line tools into web apps."
 summary: "Share your command line terminal directly through a web browser window easily and securely."
-tags: ["terminal", "web-app", "utilities", "sharing"]
-is_webapp: true
-category: "Web Apps & Cloud"
+tags: ["system-utility", "web-app", "utilities", "sharing"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/hubhum.svg"
 stars: 19557
 source_url: "https://github.com/yudai/gotty"
@@ -14,8 +15,8 @@ downloadUrl: "https://github.com/yudai/gotty/releases/download/v1.0.1/SHA256SUMS
 download_label: "Download (SHA256SUMS)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

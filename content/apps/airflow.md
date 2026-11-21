@@ -5,7 +5,8 @@ tagline: "Automate and schedule your complex tasks."
 summary: "Apache Airflow helps you organize, schedule, and monitor recurring tasks through simple code-based workflows."
 tags: ["automation", "productivity", "workflow"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/airflow.png"
 stars: 47568
 source_url: "https://github.com/apache/airflow"

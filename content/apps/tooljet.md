@@ -5,6 +5,7 @@ tagline: "Build custom internal tools and dashboards visually"
 summary: "Create powerful internal apps, dashboards, and operational tools using a visual builder or simple text prompts."
 tags: ["low-code", "internal-tools", "dashboards", "automation"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/tooljet.png"
 stars: 41265

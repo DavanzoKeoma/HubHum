@@ -3,9 +3,10 @@ title: "bat"
 slug: "bat"
 tagline: "A colorful clone of file readers"
 summary: "Bat is a modern command-line tool that displays file contents with bright colors, line numbers, and git change tracking."
-tags: ["terminal", "syntax-highlighting", "productivity", "development"]
+tags: ["system-utility", "syntax-highlighting", "productivity", "development"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/bat.png"
 stars: 61326
 source_url: "https://github.com/sharkdp/bat"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"
@@ -37,7 +38,7 @@ i18n:
     summary: "Bat affiche des fichiers avec des couleurs éclatantes, des numéros de ligne et le suivi des modifications."
   de:
     tagline: "Ein moderner, farbiger Datei-Betrachter."
-    summary: "Bat zeigt Textdateien mit lebendigen Farben, Zeilennummern und Git-Änderungsverfolgung im Terminal an."
+    summary: "Bat zeigt Textdateien mit lebendigen Farben, Zeilennummern und Git-Änderungsverfolgung im Terminal."
 ---
 
 ### What it does in plain English

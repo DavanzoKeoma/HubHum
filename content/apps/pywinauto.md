@@ -3,9 +3,10 @@ title: "pywinauto"
 slug: "pywinauto"
 tagline: "Automate Windows desktop apps easily."
 summary: "Automate clicks, keystrokes, and text reading in Windows programs using simple Python scripts. Control menus and windows effortlessly."
-tags: ["automation", "python", "windows"]
+tags: ["automation", "windows"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/pywinauto.png"
 stars: 6446
 source_url: "https://github.com/pywinauto/pywinauto"
@@ -13,9 +14,9 @@ download_url: "https://github.com/pywinauto/pywinauto/releases/download/0.6.9/py
 downloadUrl: "https://github.com/pywinauto/pywinauto/releases/download/0.6.9/pywinauto-0.6.9-py2.py3-none-any.whl"
 download_label: "Download (pywinauto-0.6.9-py2.py3-none-any.whl)"
 license: "BSD-3-Clause"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

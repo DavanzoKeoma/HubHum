@@ -5,7 +5,8 @@ tagline: "Your smart all in one coding assistant"
 summary: "Kilo Code is an open source AI assistant that helps you write, plan, and debug code directly inside your favorite text editor."
 tags: ["ai", "coding", "developer-tools", "open-source"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/kilocode.png"
 stars: 28061
 source_url: "https://github.com/Kilo-Org/kilocode"

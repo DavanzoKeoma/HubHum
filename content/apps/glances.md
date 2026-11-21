@@ -3,17 +3,18 @@ title: "Glances"
 slug: "glances"
 tagline: "Modern cross-platform system monitoring dashboard"
 summary: "Glances is an open-source tool that lets you monitor your computer's processor, memory, network, and active tasks in real time."
-tags: ["system-monitor", "dashboard", "cross-platform", "terminal"]
+tags: ["system-monitor", "dashboard", "cross-platform", "system-utility"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/glances.png"
 stars: 33993
 source_url: "https://github.com/nicolargo/glances"
 download_url: "https://nicolargo.github.io/glances/"
 downloadUrl: "https://nicolargo.github.io/glances/"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "NOASSERTION"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"

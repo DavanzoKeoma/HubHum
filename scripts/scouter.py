@@ -31,6 +31,7 @@ ONDEMAND_HEADROOM = 400  # Headroom part 2: Chrome extension + Web on-demand con
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_APPS_DIR = PROJECT_ROOT / "content" / "apps"
+PROCESSED_REPOS_PATH = PROJECT_ROOT / "data" / "processed_repos.json"
 CATALOG_INDEX_PATHS = (
     PROJECT_ROOT / "data" / "catalog-index.json",
     PROJECT_ROOT / "public" / "catalog-index.json",
@@ -84,6 +85,21 @@ DEV_LIBRARY_KEYWORDS = (
     "awesome list",
     "cheatsheet",
     "interview questions",
+    "immediate mode gui",
+    "gui library",
+    "ui library",
+    "widget toolkit",
+    "gui framework",
+    "ui framework",
+    "cross-platform gui",
+    "rust gui",
+    "golang gui",
+    "python gui",
+    "c++ gui",
+    "tui library",
+    "terminal ui framework",
+    "component library",
+    "wrapper for",
 )
 
 TECH_JARGON_TAGS = {
@@ -97,9 +113,11 @@ TECH_JARGON_TAGS = {
     "c",
     "csharp",
     "rust",
+    "rust-lang",
     "golang",
     "go",
     "python",
+    "python3",
     "java",
     "kotlin",
     "swift",
@@ -123,14 +141,82 @@ TECH_JARGON_TAGS = {
     "qt",
     "gtk",
     "wxwidgets",
+    "reverse-engineering",
+    "ai-agents",
+    "gplv2",
+    "gplv3",
+    "mit",
+    "apache-2",
+    "cli",
+    "terminal",
+    "shell",
+    "bash",
+    "zsh",
+    "dotfiles",
+    "neovim",
+    "vim",
+    "command-line",
+}
+
+TAG_HUMAN_REMAP = {
+    "reverse-engineering": "security",
+    "ai-agents": "automation",
+    "cli": "system-utility",
+    "terminal": "system-utility",
+    "command-line": "system-utility",
+    "shell": "automation",
+    "bash": "automation",
+    "zsh": "productivity",
+    "dotfiles": "productivity",
+    "neovim": "writing",
+    "vim": "writing",
+    "docker": "cloud-app",
+    "self-hosted": "cloud-app",
+}
+
+KNOWN_CLI_OR_TOOLKIT_SLUGS = {
+    "lazygit", "zoxide", "tqdm", "ohmyzsh", "bat", "fd", "fzf", "ripgrep",
+    "yazi", "btop", "fastfetch", "starship", "atuin", "zellij", "tmux",
+    "neovim", "helix", "jq", "yq", "just", "mise", "uv", "ruff", "aria2",
+    "yt-dlp", "ffmpeg", "eza", "delta", "gitui", "gemini-cli", "angular-cli",
+    "cz-cli", "officecli", "inquirer-js", "cli", "n-m3u8dl-cli",
+    # UI toolkits/frameworks & CLI/Dev utilities
+    "imgui", "egui", "yew", "avalonia", "wxwidgets", "slint", "fyne",
+    "dearpygui", "customtkinter", "nuklear", "gocui", "guilite", "arwes",
+    "tweakpane", "winit", "toga", "pywebview", "nicegui", "gdbgui",
+    "agent-desktop", "agent-reach", "aider", "airflow", "android-tools",
+    "appium", "archon", "ast-grep", "awx", "azul", "basscss", "broot",
+    "bullet", "carbonyl", "cheat-sh", "claude-code-templates", "claude-hud",
+    "cobra", "common-utility", "compose-multiplatform", "continue",
+    "create-t3-app", "ctop", "distrobox", "dive", "dufs", "exa",
+    "fastlane", "fselect", "fx", "fyrox", "gh-stack", "glow", "go-app",
+    "goaccess", "gping", "gtop", "gitsome", "herdr", "http-server",
+    "hyperfine", "implot", "instapy", "jj", "kestra", "kilocode", "leva",
+    "licia", "linux-command", "lxrunoffline", "metrics", "micro", "miller",
+    "ms", "ntrace-core", "nx", "oh-my-claudecode", "oh-my-pi", "oha",
+    "onefetch", "plandex", "playwright", "pm2", "powershell", "prefect",
+    "puppeteer", "pysimplegui", "pywinauto", "q", "qrcp", "qwen-code",
+    "rd-agent", "react-nodegui", "reflex", "rtk", "sampler", "saws",
+    "scrapling", "semantic-release", "skill-seekers", "sloth",
+    "spaceship-prompt", "spotify-tui", "taipy", "tauri", "terminal",
+    "terminalizer", "termscp", "trigger-dev", "ts-prune", "ts-toolbelt",
+    "typer", "ufo", "uhubctl", "underscore-string", "usql", "util",
+    "vagrant", "vhs", "walk", "winget-cli", "witr", "wtf", "wttr-in",
+    "xterm-js", "you-dont-need-gui", "zx",
+}
+
+DESKTOP_TERMINAL_SLUGS = {
+    "alacritty", "conemu", "cool-retro-term", "kitty", "tabby",
+    "waveterm", "wezterm", "windterm", "cmux",
 }
 
 TOPIC_CATEGORY_MAP = {
-    "Video & Audio": {"video-editor", "video", "audio", "ffmpeg", "recording", "sound", "media-player", "podcast", "music"},
-    "Productivity": {"notes", "markdown", "todo", "office", "document", "calendar", "productivity", "writing", "pdf", "cli", "terminal", "utility"},
+    "Video & Audio": {"video-editor", "video", "audio", "ffmpeg", "recording", "sound", "media-player", "podcast", "music", "streaming"},
+    "Productivity": {"notes", "markdown", "todo", "office", "document", "calendar", "productivity", "writing", "pdf"},
     "Security & Privacy": {"vpn", "password-manager", "passwords", "encryption", "privacy", "security", "firewall", "adblock"},
-    "Graphics & Design": {"design", "vector", "image", "photo", "svg", "drawing", "mockup", "graphics"},
-    "Web Apps & Cloud": {"cms", "self-hosted", "dashboard", "docker", "web-app", "webapp", "saas", "cloud", "blog", "newsletter", "ai", "automation"},
+    "Graphics & Design": {"design", "vector", "image-editor", "photo-editor", "svg-editor", "drawing", "mockup", "graphics", "3d-modeling", "pixel-art"},
+    "Web Apps & Cloud": {"cms", "self-hosted", "dashboard", "docker", "web-app", "webapp", "saas", "cloud", "blog", "newsletter"},
+    "Utilities & Power Tools": {"cli", "terminal", "command-line", "utility", "automation", "devtools", "developer-tools", "shell", "system-utility"},
 }
 
 INSTALLER_EXTENSIONS = (".exe", ".msi", ".dmg", ".pkg", ".apk", ".appimage", ".deb")
@@ -175,6 +261,7 @@ class ScoutedRepo:
     primary_download_url: str = ""
     primary_download_label: str = ""
     scouting_tier: str = "tier1_gui"
+    app_type: str = "desktop"
     operating_system: str = "Windows, macOS, Linux"
 
 
@@ -213,12 +300,29 @@ def _throttle_github_search() -> None:
 
 
 def load_existing_catalog_state() -> tuple[set[str], set[str]]:
-    """Return known lowercase slugs and full_names from content/apps/ and catalog-index.json."""
+    """Return known lowercase slugs and canonical owner/repo full_names across files, index, and processed cache."""
     known_slugs: set[str] = set()
     known_repos: set[str] = set()
 
     if CONTENT_APPS_DIR.exists():
         known_slugs.update(p.stem.lower() for p in CONTENT_APPS_DIR.glob("*.md"))
+
+    if PROCESSED_REPOS_PATH.exists():
+        try:
+            proc_data = json.loads(PROCESSED_REPOS_PATH.read_text(encoding="utf-8"))
+            if isinstance(proc_data, dict):
+                for s in proc_data.get("slugs", []):
+                    if s:
+                        known_slugs.add(str(s).lower().strip())
+                for r in proc_data.get("full_names", []):
+                    if r:
+                        known_repos.add(str(r).lower().strip())
+                for u in proc_data.get("repo_urls", []):
+                    m = re.match(r"^https?://github\.com/([^/]+/[^/?#]+)", str(u), re.IGNORECASE)
+                    if m:
+                        known_repos.add(m.group(1).lower().strip())
+        except Exception:
+            pass
 
     for idx_path in CATALOG_INDEX_PATHS:
         if not idx_path.exists():
@@ -229,20 +333,81 @@ def load_existing_catalog_state() -> tuple[set[str], set[str]]:
                 for item in items:
                     slug = str(item.get("slug") or "").lower().strip()
                     full_name = str(item.get("full_name") or "").lower().strip()
+                    repo_url = str(item.get("repo_url") or "").lower().strip()
                     if slug:
                         known_slugs.add(slug)
                     if full_name:
                         known_repos.add(full_name)
+                    if repo_url:
+                        m = re.match(r"^https?://github\.com/([^/]+/[^/?#]+)", repo_url, re.IGNORECASE)
+                        if m:
+                            known_repos.add(m.group(1).lower().strip())
         except Exception:
             continue
 
     return known_slugs, known_repos
 
 
+def record_processed_repo(slug: str, full_name: str, repo_url: str = "") -> None:
+    """Append newly processed canonical repo identifiers to persistent data/processed_repos.json."""
+    state: dict[str, list[str]] = {"slugs": [], "full_names": [], "repo_urls": []}
+    if PROCESSED_REPOS_PATH.exists():
+        try:
+            loaded = json.loads(PROCESSED_REPOS_PATH.read_text(encoding="utf-8"))
+            if isinstance(loaded, dict):
+                state["slugs"] = list(loaded.get("slugs") or [])
+                state["full_names"] = list(loaded.get("full_names") or [])
+                state["repo_urls"] = list(loaded.get("repo_urls") or [])
+        except Exception:
+            pass
+
+    s_norm = str(slug or "").lower().strip()
+    f_norm = str(full_name or "").lower().strip()
+    u_norm = str(repo_url or "").rstrip("/").lower().strip()
+    if s_norm and s_norm not in state["slugs"]:
+        state["slugs"].append(s_norm)
+    if f_norm and f_norm not in state["full_names"]:
+        state["full_names"].append(f_norm)
+    if u_norm and u_norm not in state["repo_urls"]:
+        state["repo_urls"].append(u_norm)
+
+    PROCESSED_REPOS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    PROCESSED_REPOS_PATH.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def sanitize_human_tags(topics: list[str], category: str = "Productivity", app_type: str = "desktop") -> list[str]:
+    """Strip dev stack tags and remap cryptic topics to friendly human tags."""
+    cleaned: list[str] = []
+    for raw_t in topics:
+        t = re.sub(r"[^a-z0-9-]+", "-", str(raw_t or "").lower()).strip("-")
+        if not t:
+            continue
+        if t in TAG_HUMAN_REMAP:
+            t = TAG_HUMAN_REMAP[t]
+        elif t in TECH_JARGON_TAGS:
+            continue
+        if t and t not in cleaned:
+            cleaned.append(t)
+
+    if not cleaned:
+        fallback_by_cat = {
+            "Security & Privacy": ["privacy", "security"],
+            "Video & Audio": ["media-tools", "multimedia"],
+            "Graphics & Design": ["creative-tools", "design"],
+            "Web Apps & Cloud": ["cloud-app", "web-workspace"],
+            "Utilities & Power Tools": ["system-utility", "automation"] if app_type == "cli" else ["system-utility", "productivity"],
+            "Productivity": ["productivity", "workflow"],
+        }
+        cleaned = fallback_by_cat.get(category, ["productivity", "open-source"])
+    return cleaned[:4]
+
+
 def normalize_human_topics(topics: list[str], description: str = "") -> tuple[list[str], str]:
     """Filter out developer-only stack tags and infer a human macro-category."""
-    cleaned = [t.lower() for t in topics if t and t.lower() not in TECH_JARGON_TAGS]
-    combined_tokens = set(cleaned) | set(re.findall(r"[a-z0-9-]+", description.lower()))
+    desc_low = description.lower()
+    topic_set = {str(t or "").lower() for t in topics if t}
+    desc_tokens = set(re.findall(r"[a-z0-9-]+", desc_low))
+    combined_tokens = topic_set | desc_tokens
 
     macro_category = "Productivity"
     for label, keywords in TOPIC_CATEGORY_MAP.items():
@@ -250,9 +415,8 @@ def normalize_human_topics(topics: list[str], description: str = "") -> tuple[li
             macro_category = label
             break
 
-    if not cleaned:
-        cleaned = [macro_category.lower().replace(" & ", "-").replace(" ", "-")]
-    return cleaned[:4], macro_category
+    cleaned = sanitize_human_tags(topics, category=macro_category)
+    return cleaned, macro_category
 
 
 def truncate_readme(text: str, max_lines: int = MAX_README_LINES) -> tuple[str, bool]:
@@ -263,28 +427,139 @@ def truncate_readme(text: str, max_lines: int = MAX_README_LINES) -> tuple[str, 
     return "\n".join(lines[:max_lines]) + "\n\n[... contenuto abbreviato per limite di lunghezza ...]", True
 
 
-def classify_repo(description: str, topics: list[str], readme: str, release_assets: list[dict[str, str]]) -> tuple[bool, str, str]:
-    """Infer is_webapp, human category, and affiliate category key."""
-    combined = f"{description} {' '.join(topics)} {readme[:1500]}".lower()
+def classify_app_type_and_category(
+    slug: str,
+    title: str,
+    description: str,
+    topics: list[str],
+    readme: str,
+    has_desktop_installer: bool,
+    current_tier: str = "",
+) -> tuple[str, str, str, bool, str]:
+    """Deterministically classify (app_type, category, scouting_tier, is_webapp, aff_cat_key).
 
+    Uses strict word-boundary regexes on title, slug, description, and topics (never
+    prose filler in READMEs or substring traps like 'obs' inside 'jobs').
+    """
+    slug_low = slug.lower().strip()
+    meta_text = f"{title} {slug_low} {description} {' '.join(topics)}".lower()
+    topic_set = {t.lower().strip() for t in topics if t}
+
+    is_known_cli_or_tk = slug_low in KNOWN_CLI_OR_TOOLKIT_SLUGS or slug_low.endswith("-cli")
+    has_cli_signal = is_known_cli_or_tk or bool(
+        re.search(
+            r"\b(?:command[- ]line|terminal utility|shell prompt|directory jumper|progress bar|fuzzy finder|"
+            r"zsh framework|gui library|ui library|widget toolkit|immediate mode gui|terminal ui|tui|"
+            r"game engine|rendering engine|plotting library|css framework|utility library)\b",
+            meta_text,
+        )
+    ) or bool(topic_set & {"cli", "terminal", "command-line", "zsh", "shell", "dotfiles", "tui"})
+
+    has_webapp_signal = current_tier == "tier2_webapp" or slug_low in {
+        "analytics", "core", "openblocks", "dify", "maxun", "skyvern", "puter", "ai-website-cloner-template",
+    } or (
+        not has_desktop_installer
+        and not has_cli_signal
+        and slug_low not in DESKTOP_TERMINAL_SLUGS
+        and bool(
+            re.search(
+                r"\b(?:self-hosted|web app|webapp|saas|browser-based|cms|control panel|web dashboard|"
+                r"cloud workspace|headless cms|wiki platform|webmail|knowledge base server|media server|"
+                r"music server|homepage dashboard|analytics platform|low-code|no-code)\b",
+                meta_text,
+            )
+            or (topic_set & {"self-hosted", "cms", "web-app", "webapp", "saas", "dashboard"})
+        )
+    )
+
+    is_security_domain = slug_low not in {"joplin", "photoprism", "reactive-resume", "analytics", "core", "memos", "meetily", "siyuan", "jan", "appsmith", "illa-builder"} and bool(
+        re.search(
+            r"\b(?:password manager|passwords|vpn|ipsec|wireguard|adblock|firewall|network monitor|"
+            r"packet analyzer|secret scanning|system cleaner|debloat|debloating|waf|"
+            r"bleachbit|gitleaks|sniffnet|safeline|v2raya|setup-ipsec-vpn|singbox|esp32marauder|airgorah|keepass|bitwarden|vaultwarden|maigret|sherlock|pangolin|pentagi|win11debloat|sophiapp|sophia-script-for-windows)\b",
+            meta_text,
+        )
+        or (topic_set & {"password-manager", "vpn", "adblock", "firewall"})
+    )
+    is_video_audio_domain = bool(
+        re.search(
+            r"\b(?:video editor|video player|video downloader|screen recorder|audio editor|audio player|"
+            r"music player|media player|media server|music streaming|subtitle|podcast|transcoder|"
+            r"ffmpeg|handbrake|obs studio|losslesscut|audacity|vlc|navidrome|spotifast|yt-dlp|bili23-downloader|mpv-net|finetune|youtube-dl-gui)\b",
+            meta_text,
+        )
+        or (topic_set & {"video-editor", "audio-player", "media-player", "screen-recorder", "music", "podcast"})
+    )
+    is_graphics_domain = bool(
+        re.search(
+            r"\b(?:image editor|photo editor|photo optimizer|image optimizer|vector graphics|svg editor|"
+            r"drawing app|painting app|screenshot tool|screenshot|mockup|3d modeling|3d printing|3d slicer|"
+            r"pixel art|design tool|figma|cad software|illustration|flameshot|imageoptim|cura|easydiffusion|photoprism|koharu|stable-dreamfusion)\b",
+            meta_text,
+        )
+        or (topic_set & {"design", "vector", "image-editor", "photo-editor", "drawing", "mockup", "3d-modeling"})
+    )
+
+    if slug_low in DESKTOP_TERMINAL_SLUGS:
+        return "desktop", "Utilities & Power Tools", "tier1_gui", False, "webdev_wordpress"
+
+    if is_known_cli_or_tk or (has_cli_signal and not has_desktop_installer and current_tier != "tier2_webapp"):
+        app_type = "cli"
+        scouting_tier = "tier3_powertool"
+        is_webapp = False
+        if slug_low == "awesome" or slug_low.startswith("awesome-"):
+            return app_type, "Productivity", scouting_tier, is_webapp, "webdev_wordpress"
+        if is_security_domain:
+            return app_type, "Security & Privacy", scouting_tier, is_webapp, "privacy_security"
+        if is_video_audio_domain:
+            return app_type, "Video & Audio", scouting_tier, is_webapp, "graphics_video_design"
+        if is_graphics_domain:
+            return app_type, "Graphics & Design", scouting_tier, is_webapp, "graphics_video_design"
+        return app_type, "Utilities & Power Tools", scouting_tier, is_webapp, "webdev_wordpress"
+
+    if has_webapp_signal or (current_tier == "tier2_webapp" and not has_cli_signal):
+        app_type = "webapp"
+        scouting_tier = "tier2_webapp"
+        is_webapp = True
+        if is_security_domain:
+            return app_type, "Security & Privacy", scouting_tier, is_webapp, "privacy_security"
+        if is_video_audio_domain:
+            return app_type, "Video & Audio", scouting_tier, is_webapp, "graphics_video_design"
+        if is_graphics_domain:
+            return app_type, "Graphics & Design", scouting_tier, is_webapp, "graphics_video_design"
+        return app_type, "Web Apps & Cloud", scouting_tier, is_webapp, "webapp_cms"
+
+    if has_cli_signal and current_tier == "tier3_powertool" and not has_desktop_installer:
+        return "cli", "Utilities & Power Tools", "tier3_powertool", False, "webdev_wordpress"
+
+    if is_security_domain:
+        cat, aff = "Security & Privacy", "privacy_security"
+    elif is_video_audio_domain:
+        cat, aff = "Video & Audio", "graphics_video_design"
+    elif is_graphics_domain:
+        cat, aff = "Graphics & Design", "graphics_video_design"
+    elif re.search(r"\b(?:seo|landing page|website builder|static site)\b", meta_text):
+        cat, aff = "Websites & SEO", "webdev_wordpress"
+    else:
+        cat, aff = "Productivity", "webdev_wordpress"
+
+    return "desktop", cat, "tier1_gui", False, aff
+
+
+def classify_repo(description: str, topics: list[str], readme: str, release_assets: list[dict[str, str]]) -> tuple[bool, str, str]:
+    """Infer is_webapp, human category, and affiliate category key from metadata signals."""
     has_desktop_installer = any(
         asset["url"].lower().endswith(INSTALLER_EXTENSIONS) for asset in release_assets
     )
-    is_webapp = any(
-        k in combined for k in ("cms", "self-hosted", "web app", "webapp", "saas", "dashboard", "blogging", "publishing", "docker")
-    ) and not has_desktop_installer
-
-    if any(k in combined for k in ("password", "vpn", "privacy", "security", "encryption", "torrent", "adblock")):
-        return is_webapp, "Security & Privacy", "privacy_security"
-    if any(k in combined for k in ("video", "audio", "ffmpeg", "subtitle", "video editing", "screen recorder")):
-        return is_webapp, "Video & Audio", "graphics_video_design"
-    if is_webapp:
-        return True, "Web Apps & Cloud", "webapp_cms"
-    if any(k in combined for k in ("wordpress", "seo", "landing page", "website builder")):
-        return is_webapp, "Websites & SEO", "webdev_wordpress"
-    if any(k in combined for k in ("design", "vector", "image", "photo", "svg", "drawing", "mockup")):
-        return is_webapp, "Graphics & Design", "graphics_video_design"
-    return False, "Productivity", "webdev_wordpress"
+    _, cat, _, is_webapp, aff = classify_app_type_and_category(
+        slug="",
+        title="",
+        description=description,
+        topics=topics,
+        readme=readme,
+        has_desktop_installer=has_desktop_installer,
+    )
+    return is_webapp, cat, aff
 
 
 def derive_operating_system(is_webapp: bool, release_assets: list[dict[str, str]], topics: list[str]) -> str:
@@ -429,25 +704,34 @@ def fetch_repo_bundle(
     if not release_assets and fallback_assets:
         release_assets = fallback_assets
 
+    slug = re.sub(r"[^a-z0-9-]+", "-", repo_name.lower()).strip("-")
     topics = meta.get("topics") or []
     desc = meta.get("description") or ""
     stars_count = int(meta.get("stargazers_count") or 0)
-    human_topics, _ = normalize_human_topics(topics, desc)
-    is_webapp, category, _ = classify_repo(desc, human_topics, readme_excerpt, release_assets)
+    has_desktop_installer = any(
+        asset["url"].lower().endswith(INSTALLER_EXTENSIONS) for asset in release_assets
+    )
 
+    app_type, category, detected_tier, is_webapp, _ = classify_app_type_and_category(
+        slug=slug,
+        title=meta.get("name") or repo_name,
+        description=desc,
+        topics=topics,
+        readme=readme_excerpt,
+        has_desktop_installer=has_desktop_installer,
+        current_tier=scouting_tier or "",
+    )
     if scouting_tier is None:
-        if is_webapp:
-            scouting_tier = "tier2_webapp"
-        elif release_assets or any(t in ("gui", "desktop-app", "windows", "macos", "android", "ios") for t in topics):
-            scouting_tier = "tier1_gui"
-        elif stars_count > 2000:
-            scouting_tier = "tier3_powertool"
-        else:
-            scouting_tier = "tier1_gui"
-
+        scouting_tier = detected_tier
     if scouting_tier == "tier2_webapp":
         is_webapp = True
+        app_type = "webapp"
+    elif scouting_tier == "tier3_powertool" and app_type == "desktop" and not has_desktop_installer:
+        app_type = "cli"
+        if category == "Graphics & Design":
+            category = "Utilities & Power Tools"
 
+    human_topics = sanitize_human_tags(topics, category=category, app_type=app_type)
     operating_system = derive_operating_system(is_webapp, release_assets, topics)
 
     html_url = meta["html_url"]
@@ -462,9 +746,15 @@ def fetch_repo_bundle(
 
     safe_homepage = ("https://" + homepage[7:]) if homepage.startswith("http://") else homepage
     primary_url = release_assets[0]["url"] if release_assets else (safe_homepage if safe_homepage.startswith("http") else f"{html_url}/releases")
-    primary_label = release_assets[0]["label"] if release_assets else "Visit Official Site"
+    if release_assets:
+        primary_label = release_assets[0]["label"]
+    elif app_type == "cli":
+        primary_label = "Get Command-Line Tool →"
+    elif is_webapp:
+        primary_label = "Open in Cloud →"
+    else:
+        primary_label = "Visit Official Site"
 
-    slug = re.sub(r"[^a-z0-9-]+", "-", repo_name.lower()).strip("-")
     lic = (meta.get("license") or {}).get("spdx_id") or "Open Source"
     avatar_url = ((meta.get("owner") or {}).get("avatar_url") or "").strip()
     icon_path = download_repo_icon(slug, avatar_url)
@@ -489,6 +779,7 @@ def fetch_repo_bundle(
         primary_download_url=primary_url,
         primary_download_label=primary_label,
         scouting_tier=scouting_tier,
+        app_type=app_type,
         operating_system=operating_system,
     )
 
@@ -551,6 +842,9 @@ def _search_tier_candidates(
                 except Exception:
                     continue
 
+                if tier_key == "tier1_gui" and bundle.app_type == "cli":
+                    continue
+
                 if require_installer and not bundle.release_assets and tier_key == "tier1_gui":
                     # Still allow GUI repos with explicit consumer mobile/desktop topics even without GitHub releases assets
                     raw_topics = {t.lower() for t in (item.get("topics") or [])}
@@ -559,8 +853,12 @@ def _search_tier_candidates(
 
                 if tier_key == "tier2_webapp":
                     bundle.is_webapp = True
+                    bundle.app_type = "webapp"
                     bundle.category = "Web Apps & Cloud"
                     bundle.operating_system = "All / Browser"
+                elif tier_key == "tier3_powertool":
+                    bundle.app_type = "cli"
+                    bundle.is_webapp = False
 
                 collected.append(bundle)
                 if len(collected) >= tier_limit:

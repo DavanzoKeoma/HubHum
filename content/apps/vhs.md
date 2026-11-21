@@ -3,9 +3,10 @@ title: "vhs"
 slug: "vhs"
 tagline: "Record stunning terminal animations as code."
 summary: "Create beautiful animated GIFs of your command-line workflows simply by writing simple script files."
-tags: ["terminal", "animation", "gif", "cli", "recording"]
+tags: ["system-utility", "animation", "gif", "recording"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/vhs.png"
 stars: 21348
 source_url: "https://github.com/charmbracelet/vhs"
@@ -15,7 +16,7 @@ download_label: "Download for Android (.apk)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux, Android"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

@@ -5,6 +5,7 @@ tagline: "Free up disk space and privacy"
 summary: "BleachBit quickly cleans unwanted junk files from your computer to free up valuable storage space and protect your personal privacy."
 tags: ["system-cleaner", "privacy", "maintenance"]
 is_webapp: false
+app_type: "desktop"
 category: "Security & Privacy"
 icon: "/icons/bleachbit.png"
 stars: 7542

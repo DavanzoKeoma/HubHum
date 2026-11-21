@@ -3,9 +3,10 @@ title: "gitui"
 slug: "gitui"
 tagline: "Blazing fast terminal interface for git"
 summary: "Manage code changes, stashes, and commit logs directly inside your command-line terminal with blazing speed."
-tags: ["git", "terminal", "command-line", "developer-tools"]
+tags: ["git", "system-utility", "developer-tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/gitui.png"
 stars: 22675
 source_url: "https://github.com/gitui-org/gitui"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.msi)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

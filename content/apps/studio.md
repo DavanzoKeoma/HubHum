@@ -3,9 +3,10 @@ title: "Studio"
 slug: "studio"
 tagline: "Manage your databases right from your browser."
 summary: "Studio is a lightweight browser interface for managing popular databases with helpful auto-completion, easy data tables, and schema editors."
-tags: ["database", "sqlite", "mysql", "postgresql", "developer-tools"]
+tags: ["database", "sqlite", "mysql", "postgresql"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/studio.png"
 stars: 6015
 source_url: "https://github.com/outerbase/studio"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "AGPL-3.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

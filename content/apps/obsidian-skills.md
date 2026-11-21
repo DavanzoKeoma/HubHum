@@ -5,6 +5,7 @@ tagline: "Supercharge your notes with intelligent automation."
 summary: "Obsidian Skills allows your favorite digital assistants to read, write, and organize your notes automatically."
 tags: ["productivity", "automation", "notes"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/obsidian-skills.png"
 stars: 53269
@@ -13,7 +14,7 @@ download_url: "https://github.com/obsidianmd/obsidian-skills/releases"
 downloadUrl: "https://github.com/obsidianmd/obsidian-skills/releases"
 download_label: "Visit Official Site"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

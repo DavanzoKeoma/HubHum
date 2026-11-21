@@ -5,6 +5,7 @@ tagline: "Build and scale apps effortlessly"
 summary: "An open-source cloud backend that gives you secure user login, databases, file storage, and serverless functions in one unified place."
 tags: ["backend", "cloud", "database", "authentication"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/appwrite.png"
 stars: 58419

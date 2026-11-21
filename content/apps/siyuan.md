@@ -5,6 +5,7 @@ tagline: "Your private, AI-powered knowledge workspace."
 summary: "SiYuan is a secure, self-hosted tool for organizing your notes, documents, and ideas with powerful linking and AI assistance."
 tags: ["productivity", "privacy", "knowledge-management"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/siyuan.png"
 stars: 47300

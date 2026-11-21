@@ -3,9 +3,10 @@ title: "fastfetch"
 slug: "fastfetch"
 tagline: "Lightning-fast system specs for your terminal"
 summary: "Display your computer hardware and operating system details in the terminal instantly with a lightweight, highly customizable utility."
-tags: ["system-info", "terminal", "utility", "performance"]
+tags: ["system-info", "system-utility", "utility", "performance"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/fastfetch.png"
 stars: 25414
 source_url: "https://github.com/fastfetch-cli/fastfetch"
@@ -37,7 +38,7 @@ i18n:
     summary: "Affichez les détails matériels de votre ordinateur dans le terminal instantanément grâce à un utilitaire léger et personnalisable."
   de:
     tagline: "Blitz швидкие Systeminfos für das Terminal"
-    summary: "Zeigen Sie Computerhardware- und Betriebssystemdetails im Terminal sofort mit einem leichten, anpassbaren Dienstprogramm an."
+    summary: "Zeigen Sie Computerhardware- und Betriebssystemdetails im Terminal sofort mit einem leichten, anpassbaren Dienstprogramm."
 ---
 
 ### What it does in plain English

@@ -3,19 +3,20 @@ title: "WTF"
 slug: "wtf"
 tagline: "Your terminal personal information dashboard."
 summary: "Get a glanceable personal information dashboard right inside your command-line interface. Monitor important stats and external data sources effortlessly."
-tags: ["terminal", "dashboard", "developer-tools", "monitoring"]
-is_webapp: true
-category: "Web Apps & Cloud"
+tags: ["system-utility", "dashboard", "developer-tools", "monitoring"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/wtf.png"
 stars: 17153
 source_url: "https://github.com/wtfutil/wtf"
 download_url: "https://github.com/wtfutil/wtf/releases/download/v0.51.0/tessera_0.51.0_checksums.txt"
 downloadUrl: "https://github.com/wtfutil/wtf/releases/download/v0.51.0/tessera_0.51.0_checksums.txt"
-download_label: "Download (tessera_0.51.0_checksums.txt)"
+download_label: "Get Command-Line Tool →"
 license: "MPL-2.0"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

@@ -3,9 +3,10 @@ title: "GitHub CLI"
 slug: "cli"
 tagline: "Manage your code projects right inside your terminal window."
 summary: "GitHub CLI brings your everyday software projects, issues, and teamwork tools directly into your command line window so you never have to leave your screen."
-tags: ["developer-tools", "terminal"]
+tags: ["developer-tools", "system-utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/cli.png"
 stars: 47095
 source_url: "https://github.com/cli/cli"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.msi)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

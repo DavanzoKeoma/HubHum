@@ -4,8 +4,9 @@ slug: "ctop"
 tagline: "Real-time dashboard for your software containers"
 summary: "Monitor active application environments with an interactive, easy-to-read live screen that tracks resource usage instantly."
 tags: ["monitoring", "containers", "utilities"]
-is_webapp: true
-category: "Web Apps & Cloud"
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/ctop.png"
 stars: 17857
 source_url: "https://github.com/bcicen/ctop"
@@ -14,8 +15,8 @@ downloadUrl: "https://github.com/bcicen/ctop/releases/download/v0.7.7/ctop-0.7.7
 download_label: "Download (ctop-0.7.7-darwin-amd64)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

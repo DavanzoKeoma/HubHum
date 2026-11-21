@@ -5,6 +5,7 @@ tagline: "Fast and simple newsletter management tool"
 summary: "Listmonk is a self-hosted platform that helps you manage mailing lists and send newsletters with a clean, modern dashboard."
 tags: ["newsletter", "marketing", "email"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/listmonk.png"
 stars: 24390

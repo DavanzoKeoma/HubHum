@@ -5,7 +5,8 @@ tagline: "Lightweight cross-platform database manager"
 summary: "Manage over a hundred different database types in one lightning-fast, ultra-compact application."
 tags: ["database", "management", "developer-tools", "ai"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/dbx.png"
 stars: 31013
 source_url: "https://github.com/t8y2/dbx"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Apache-2.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

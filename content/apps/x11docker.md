@@ -3,9 +3,10 @@ title: "x11docker"
 slug: "x11docker"
 tagline: "Run graphical desktop apps securely in containers"
 summary: "Run graphical desktop applications safely inside isolated containers while protecting your host system from security leaks."
-tags: ["security", "containers", "linux", "desktop", "virtualization"]
+tags: ["security", "containers", "linux", "desktop"]
 is_webapp: false
-category: "Security & Privacy"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/x11docker.png"
 stars: 6345
 source_url: "https://github.com/mviereck/x11docker"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "MIT"
 scouting_tier: "tier1_gui"
 operatingSystem: "All / Browser"
-applicationCategory: "SecurityApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

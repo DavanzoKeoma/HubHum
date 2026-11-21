@@ -3,9 +3,10 @@ title: "PhotoPrism"
 slug: "photoprism"
 tagline: "Organize and browse your photos privately"
 summary: "PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly."
-tags: ["photos", "ai", "self-hosted", "privacy"]
+tags: ["photos", "ai", "cloud-app", "privacy"]
 is_webapp: true
-category: "Web Apps & Cloud"
+app_type: "webapp"
+category: "Graphics & Design"
 icon: "/icons/photoprism.png"
 stars: 40470
 source_url: "https://github.com/photoprism/photoprism"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "NOASSERTION"
 scouting_tier: "tier2_webapp"
 operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

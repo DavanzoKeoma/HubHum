@@ -3,9 +3,10 @@ title: "Hyperfine"
 slug: "hyperfine"
 tagline: "Lightning fast command benchmarking utility"
 summary: "Accurately measure the speed of software commands with statistical analysis, warmup runs, and automated comparisons."
-tags: ["benchmarking", "performance", "command-line", "optimization"]
+tags: ["benchmarking", "performance", "system-utility", "optimization"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/hyperfine.png"
 stars: 29303
 source_url: "https://github.com/sharkdp/hyperfine"

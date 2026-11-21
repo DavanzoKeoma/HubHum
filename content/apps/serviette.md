@@ -5,6 +5,7 @@ tagline: "Always up-to-date no-code chat server"
 summary: "An easy no-code question-answering assistant that keeps answers in sync with your live documents automatically."
 tags: ["rag", "ai", "search", "documents"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/serviette.png"
 stars: 58699

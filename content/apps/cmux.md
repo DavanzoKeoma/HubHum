@@ -3,9 +3,10 @@ title: "cmux"
 slug: "cmux"
 tagline: "Smart terminal built for coding assistants"
 summary: "A lightning-fast macOS terminal designed to organize multiple coding assistants, featuring visual tabs and live notifications."
-tags: ["terminal", "developer-tools", "macos", "automation"]
+tags: ["system-utility", "developer-tools", "macos", "automation"]
 is_webapp: false
-category: "Productivity"
+app_type: "desktop"
+category: "Utilities & Power Tools"
 icon: "/icons/cmux.png"
 stars: 28839
 source_url: "https://github.com/manaflow-ai/cmux"
@@ -13,7 +14,7 @@ download_url: "https://github.com/manaflow-ai/cmux/releases/download/v0.65.2.2/c
 downloadUrl: "https://github.com/manaflow-ai/cmux/releases/download/v0.65.2.2/cmux-macos-arm64.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "NOASSERTION"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

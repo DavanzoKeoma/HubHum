@@ -3,8 +3,9 @@ title: "OpenHands"
 slug: "openhands"
 tagline: "Your self-hosted AI developer control center"
 summary: "OpenHands turns smart coding assistants into a reliable, always-on engineering team that automates your everyday tasks and workflows."
-tags: ["ai", "development", "automation", "self-hosted"]
+tags: ["ai", "development", "automation", "cloud-app"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/openhands.png"
 stars: 93879
@@ -13,7 +14,7 @@ download_url: "https://github.com/OpenHands/OpenHands/releases/download/v1.42.0/
 downloadUrl: "https://github.com/OpenHands/OpenHands/releases/download/v1.42.0/OpenHands-Agent-Canvas-Setup-1.42.0.exe"
 download_label: "Download for Windows (.exe)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

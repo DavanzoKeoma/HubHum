@@ -5,6 +5,7 @@ tagline: "Your own private workspace for code"
 summary: "Host your programming projects, review team code changes, and manage tasks easily on your own private server."
 tags: ["development", "collaboration", "hosting", "productivity"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/gitea.png"
 stars: 59181

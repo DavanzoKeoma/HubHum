@@ -5,13 +5,20 @@ tagline: "Encrypted private notes & to-do lists"
 summary: "Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access."
 tags: ["notes", "privacy", "productivity", "markdown"]
 is_webapp: false
-category: "Security & Privacy"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/joplin.png"
 stars: 57234
 source_url: "https://github.com/laurent22/joplin"
 download_url: "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe"
+downloadUrl: "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe"
 download_label: "Download for Windows (.exe)"
 license: "MIT"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_047"
 affiliate_name: "PureVPN"
 affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
@@ -19,12 +26,6 @@ affiliate_pitch: "Protect your connection before downloading or syncing private 
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-18"
-downloadUrl: "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "SecurityApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Note private e liste cifrate ovunque"

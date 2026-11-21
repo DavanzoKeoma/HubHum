@@ -5,7 +5,8 @@ tagline: "Fine-tune your Mac mouse and trackpad"
 summary: "Take complete control over your Mac cursor movement, scrolling speed, and button behaviors."
 tags: ["mouse", "trackpad", "macos", "utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/linearmouse.png"
 stars: 7222
 source_url: "https://github.com/linearmouse/linearmouse"
@@ -13,9 +14,9 @@ download_url: "https://github.com/linearmouse/linearmouse/releases/download/v0.1
 downloadUrl: "https://github.com/linearmouse/linearmouse/releases/download/v0.13.0/LinearMouse.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

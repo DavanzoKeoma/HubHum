@@ -3,9 +3,10 @@ title: "ESP32Marauder"
 slug: "esp32marauder"
 tagline: "Portable wireless security testing toolkit"
 summary: "ESP32Marauder is a comprehensive collection of wireless auditing tools designed for small pocket-sized microcontrollers."
-tags: ["security", "networking", "bluetooth", "wifi", "hardware"]
+tags: ["security", "networking", "bluetooth", "wifi"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Security & Privacy"
 icon: "/icons/esp32marauder.png"
 stars: 13166
 source_url: "https://github.com/justcallmekoko/ESP32Marauder"
@@ -13,9 +14,9 @@ download_url: "https://github.com/justcallmekoko/ESP32Marauder/releases/download
 downloadUrl: "https://github.com/justcallmekoko/ESP32Marauder/releases/download/v1.20.0/esp32_marauder_v1_20_0_20261028_cyd_2432S024_guition.bin"
 download_label: "Download (esp32_marauder_v1_20_0_20261028_cyd_2432S024_guition.bin)"
 license: "Open Source"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

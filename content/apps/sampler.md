@@ -3,9 +3,10 @@ title: "sampler"
 slug: "sampler"
 tagline: "Visualize any command line process easily."
 summary: "Sampler lets you turn standard command line outputs into live, interactive visual dashboards."
-tags: ["terminal", "monitoring", "dashboard", "developer-tools"]
+tags: ["system-utility", "monitoring", "dashboard", "developer-tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/sampler.png"
 stars: 14821
 source_url: "https://github.com/sqshq/sampler"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "GPL-3.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

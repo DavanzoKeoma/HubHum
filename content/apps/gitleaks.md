@@ -4,7 +4,8 @@ slug: "gitleaks"
 tagline: "Find hardcoded secrets in your files."
 summary: "Scan your code repositories and directories to find accidentally exposed passwords, API keys, and sensitive tokens before they leak."
 tags: ["security", "privacy", "development", "audit"]
-is_webapp: true
+is_webapp: false
+app_type: "desktop"
 category: "Security & Privacy"
 icon: "/icons/gitleaks.png"
 stars: 31205
@@ -13,7 +14,7 @@ download_url: "https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gi
 downloadUrl: "https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_checksums.txt"
 download_label: "Download (gitleaks_8.30.1_checksums.txt)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "All / Browser"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"

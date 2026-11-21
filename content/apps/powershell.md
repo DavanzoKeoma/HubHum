@@ -3,9 +3,10 @@ title: "PowerShell"
 slug: "powershell"
 tagline: "Automate everyday computer tasks effortlessly."
 summary: "PowerShell helps you automate repetitive system tasks, manage configurations, and process structured data seamlessly across Windows, Mac, and Linux."
-tags: ["automation", "scripting", "command-line", "cross-platform"]
+tags: ["automation", "scripting", "system-utility", "cross-platform"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/powershell.png"
 stars: 56254
 source_url: "https://github.com/PowerShell/PowerShell"
@@ -15,7 +16,7 @@ download_label: "Download for Mac (.pkg)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

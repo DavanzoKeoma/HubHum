@@ -5,6 +5,7 @@ tagline: "Automate your job search and applications."
 summary: "This tool scans thousands of job postings to find matches for your resume and automatically fills out application forms on your behalf."
 tags: ["productivity", "automation", "career"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/jobs-applier-ai-agent.png"
 stars: 32575
@@ -13,7 +14,7 @@ download_url: "https://github.com/feder-cr/Jobs_Applier_AI_Agent/releases/downlo
 downloadUrl: "https://github.com/feder-cr/Jobs_Applier_AI_Agent/releases/download/jobs-latest/manifest.json"
 download_label: "Download (manifest.json)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

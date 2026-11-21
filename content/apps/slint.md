@@ -3,8 +3,9 @@ title: "slint"
 slug: "slint"
 tagline: "Build native user interfaces for apps easily."
 summary: "Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup."
-tags: ["gui", "toolkit", "cross-platform", "native", "development"]
+tags: ["gui", "toolkit", "cross-platform", "native"]
 is_webapp: false
+app_type: "cli"
 category: "Graphics & Design"
 icon: "/icons/slint.png"
 stars: 24653
@@ -13,7 +14,7 @@ download_url: "https://github.com/slint-ui/slint/releases/download/v1.19.0/Slint
 downloadUrl: "https://github.com/slint-ui/slint/releases/download/v1.19.0/Slint-cpp-1.19.0-win64-MSVC-AMD64.exe"
 download_label: "Download for Windows (.exe)"
 license: "NOASSERTION"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, Android"
 applicationCategory: "DesignApplication"
 priceCurrency: "USD"
@@ -34,7 +35,7 @@ i18n:
     summary: "Slint es un conjunto de herramientas de código abierto para diseñar interfaces ligeras en ordenadores, móviles y dispositivos integrados."
   fr:
     tagline: "Créez des interfaces utilisateur natives pour vos apps."
-    summary: "Slint est un kit d'outils open-source pour concevoir des interfaces légères sur tous vos appareils grâce à un balisage simple."
+    summary: "Slint est un kit d'outils open-source pour concevoir des interfaces légères sur tous vos appareils grâce à un balisage."
   de:
     tagline: "Erstellen Sie native Benutzeroberflächen für Apps."
     summary: "Slint ist ein Open-Source-Toolkit zum Entwerfen leichter Benutzeroberflächen für Desktops, Handys und eingebettete Geräte."

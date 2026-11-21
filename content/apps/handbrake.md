@@ -5,13 +5,20 @@ tagline: "Convert media files for any device"
 summary: "Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen."
 tags: ["video", "converter", "media", "transcoder"]
 is_webapp: false
+app_type: "desktop"
 category: "Video & Audio"
 icon: "/icons/handbrake.png"
 stars: 25054
 source_url: "https://github.com/HandBrake/HandBrake"
 download_url: "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe"
+downloadUrl: "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe"
 download_label: "Download for Windows (.exe)"
 license: "NOASSERTION"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "MultimediaApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_054"
 affiliate_name: "Creative Fabrica"
 affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
@@ -19,12 +26,6 @@ affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets fo
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-19"
-downloadUrl: "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "MultimediaApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Converti file video per qualsiasi dispositivo"

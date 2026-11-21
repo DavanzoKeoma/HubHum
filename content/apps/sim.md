@@ -5,6 +5,7 @@ tagline: "Build and manage AI workflows visually."
 summary: "Sim is an all-in-one workspace for creating, testing, and running automated smart assistants and workflows."
 tags: ["ai", "workflows", "automation", "workspace"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/sim.png"
 stars: 30164
@@ -13,7 +14,7 @@ download_url: "https://github.com/simstudioai/sim/releases/download/v0.9.63/Sim-
 downloadUrl: "https://github.com/simstudioai/sim/releases/download/v0.9.63/Sim-0.9.63-universal.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "Apache-2.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

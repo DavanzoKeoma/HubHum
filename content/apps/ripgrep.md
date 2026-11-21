@@ -3,9 +3,10 @@ title: "ripgrep"
 slug: "ripgrep"
 tagline: "Lightning-fast text search tool for folders."
 summary: "Ripgrep is a blazing-fast utility that scans your directories for specific text patterns while automatically ignoring unwanted files and folders."
-tags: ["search", "command-line", "productivity", "utility"]
+tags: ["search", "system-utility", "productivity", "utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/ripgrep.png"
 stars: 70085
 source_url: "https://github.com/BurntSushi/ripgrep"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "Unlicense"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

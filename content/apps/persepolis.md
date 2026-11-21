@@ -5,7 +5,8 @@ tagline: "Speed up and organize all your downloads."
 summary: "Persepolis is a friendly download manager that splits files into multiple segments to boost download speeds and helps you grab online videos with ease."
 tags: ["download-manager", "productivity", "utilities"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/persepolis.png"
 stars: 7501
 source_url: "https://github.com/persepolisdm/persepolis"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "GPL-3.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

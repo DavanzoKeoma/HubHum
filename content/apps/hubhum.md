@@ -5,25 +5,26 @@ tagline: "Open-source app store for humans"
 summary: "Discover powerful free software explained in plain language with verified official downloads and zero tech jargon."
 tags: ["webapp", "catalog", "productivity", "opensource"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/hubhum.svg"
 stars: 0
 source_url: "https://github.com/DavanzoKeoma/HubHum"
 download_url: "https://davanzokeoma.github.io/HubHum/"
+downloadUrl: "https://davanzokeoma.github.io/HubHum/"
 download_label: "Visit Live Catalog"
 license: "MIT"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_008"
 affiliate_name: "InterServer"
 affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
 affiliate_pitch: "Want to host your own independent web app or catalog? Launch it in 1 click on managed cloud hosting."
 featured_weekly: false
 updated_at: "2026-11-18"
-downloadUrl: "https://davanzokeoma.github.io/HubHum/"
-scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "App store open-source a misura d'uomo"

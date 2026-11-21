@@ -5,7 +5,8 @@ tagline: "Organize large coding projects into manageable steps."
 summary: "This tool helps you break down complex work into small, easy-to-review pieces that build on each other automatically."
 tags: ["development", "productivity"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/gh-stack.png"
 stars: 1784
 source_url: "https://github.com/github/gh-stack"

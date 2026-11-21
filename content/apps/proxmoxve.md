@@ -5,6 +5,7 @@ tagline: "Instant setup for your home server"
 summary: "This tool provides simple, one-command shortcuts to install hundreds of different services on your home server system."
 tags: ["server", "automation", "tools"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/proxmoxve.png"
 stars: 30156

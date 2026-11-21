@@ -5,7 +5,8 @@ tagline: "Quickly view and edit data files"
 summary: "fx lets you open data files, see what's inside, and make simple changes without hassle, all from a single easy-to-use program."
 tags: ["data", "viewer", "editor"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/fx.png"
 stars: 20720
 source_url: "https://github.com/antonmedv/fx"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

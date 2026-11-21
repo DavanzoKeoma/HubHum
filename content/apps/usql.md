@@ -3,9 +3,10 @@ title: "usql"
 slug: "usql"
 tagline: "Universal command-line tool for databases"
 summary: "Connect, query, and manage dozens of different SQL and NoSQL databases from a single intuitive command-line interface."
-tags: ["database", "sql", "command-line", "postgresql", "mysql"]
+tags: ["database", "sql", "system-utility", "postgresql"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/usql.png"
 stars: 10175
 source_url: "https://github.com/xo/usql"

@@ -3,9 +3,10 @@ title: "Panel"
 slug: "panel"
 tagline: "Build interactive Python web apps easily."
 summary: "Create custom data dashboards and web applications directly from Python code without complex front-end design."
-tags: ["python", "dashboards", "data-visualization", "web-apps"]
+tags: ["dashboards", "data-visualization", "web-apps"]
 is_webapp: false
-category: "Web Apps & Cloud"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/panel.png"
 stars: 5827
 source_url: "https://github.com/holoviz/panel"
@@ -15,7 +16,7 @@ download_label: "Visit Official Site"
 license: "BSD-3-Clause"
 scouting_tier: "tier1_gui"
 operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

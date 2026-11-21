@@ -3,19 +3,20 @@ title: "Autocomplete"
 slug: "autocomplete"
 tagline: "Instant smart suggestions for your terminal"
 summary: "Speed up your command line workflow with smart, contextual popups that predict commands as you type. Never memorize complex flags again."
-tags: ["terminal", "developer-tools", "productivity"]
-is_webapp: true
-category: "Web Apps & Cloud"
+tags: ["system-utility", "developer-tools", "productivity"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/autocomplete.png"
 stars: 25206
 source_url: "https://github.com/withfig/autocomplete"
 download_url: "https://fig.io"
 downloadUrl: "https://fig.io"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

@@ -3,15 +3,16 @@ title: "wttr.in"
 slug: "wttr-in"
 tagline: "The right way to check weather"
 summary: "Get precise, beautifully formatted weather forecasts instantly in your web browser or command-line terminal without installing heavy apps."
-tags: ["weather", "cli", "terminal", "utility", "web-service"]
+tags: ["weather", "system-utility", "utility", "web-service"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/wttr-in.png"
 stars: 30804
 source_url: "https://github.com/chubin/wttr.in"
 download_url: "https://wttr.in"
 downloadUrl: "https://wttr.in"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"

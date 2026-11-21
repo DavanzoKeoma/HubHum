@@ -3,8 +3,9 @@ title: "Dockge"
 slug: "dockge"
 tagline: "Easily manage your software stacks"
 summary: "Dockge helps you organize, update, and control your software containers in one clean, interactive web dashboard."
-tags: ["docker", "server", "management", "utilities"]
+tags: ["cloud-app", "server", "management", "utilities"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/dockge.png"
 stars: 24860

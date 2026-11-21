@@ -5,6 +5,7 @@ tagline: "Track user accounts across thousands of websites"
 summary: "Maigret gathers online profile information by scanning thousands of public websites using only a username."
 tags: ["osint", "username-search", "security", "privacy"]
 is_webapp: false
+app_type: "desktop"
 category: "Security & Privacy"
 icon: "/icons/maigret.png"
 stars: 41080
@@ -13,7 +14,7 @@ download_url: "https://github.com/soxoj/maigret/releases/download/v0.6.6/maigret
 downloadUrl: "https://github.com/soxoj/maigret/releases/download/v0.6.6/maigret_standalone.exe"
 download_label: "Download for Windows (.exe)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"

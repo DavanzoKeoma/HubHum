@@ -4,8 +4,9 @@ slug: "jumpserver"
 tagline: "Secure remote access and server management"
 summary: "An open-source privileged access management platform offering a unified workspace to safely connect to servers, databases, and cloud environments."
 tags: ["security", "devops", "cloud", "administration"]
-is_webapp: true
-category: "Web Apps & Cloud"
+is_webapp: false
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/jumpserver.png"
 stars: 31991
 source_url: "https://github.com/jumpserver/jumpserver"
@@ -13,9 +14,9 @@ download_url: "https://github.com/jumpserver/jumpserver/releases/download/v5.2.0
 downloadUrl: "https://github.com/jumpserver/jumpserver/releases/download/v5.2.0/cn-quick_start.sh"
 download_label: "Download (cn-quick_start.sh)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

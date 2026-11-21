@@ -3,9 +3,10 @@ title: "Codewhale"
 slug: "codewhale"
 tagline: "Your open-source terminal coding assistant"
 summary: "An open-source terminal coding assistant that works with any model, splits tasks across multiple agents, and keeps your data completely transparent."
-tags: ["terminal", "coding assistant", "rust", "ai"]
+tags: ["system-utility", "coding-assistant", "ai"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/codewhale.png"
 stars: 41189
 source_url: "https://github.com/codewhale-hq/Codewhale"
@@ -13,9 +14,9 @@ download_url: "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10
 downloadUrl: "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codew-windows-arm64.exe"
 download_label: "Download for Windows (.exe)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

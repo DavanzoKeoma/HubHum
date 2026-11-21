@@ -3,9 +3,10 @@ title: "termscp"
 slug: "termscp"
 tagline: "Fast terminal file explorer and transfer"
 summary: "Manage remote files and servers directly from your command line interface with support for multiple cloud and file transfer protocols."
-tags: ["terminal", "file transfer", "sftp", "s3", "command line"]
+tags: ["system-utility", "file-transfer", "sftp", "s3"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/termscp.png"
 stars: 3165
 source_url: "https://github.com/veeso/termscp"
@@ -15,7 +16,7 @@ download_label: "Download for Linux (.deb)"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

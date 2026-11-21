@@ -5,7 +5,8 @@ tagline: "Control your phone screen from computer"
 summary: "Display and control your Android device graphically on your computer screen in real-time."
 tags: ["android", "mirroring", "utility"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/escrcpy.png"
 stars: 12427
 source_url: "https://github.com/viarotel-org/escrcpy"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Apache-2.0"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

@@ -5,6 +5,7 @@ tagline: "Your personal customizable AI assistant"
 summary: "Manage chats, automate tasks, and connect across multiple messaging apps using your own private artificial intelligence assistant."
 tags: ["ai", "assistant", "productivity", "automation"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/qwenpaw.png"
 stars: 38004

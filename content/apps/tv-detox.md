@@ -5,13 +5,20 @@ tagline: "Speed up slow smart televisions effortlessly."
 summary: "Revive old Android televisions by safely removing annoying ads and hidden bloatware using automated assistant prompts."
 tags: ["android", "tv", "optimization"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/tv-detox.png"
 stars: 2395
 source_url: "https://github.com/Ansub/tv-detox"
 download_url: "https://github.com/Ansub/tv-detox/releases/download/v1.5.7/tvhome.apk"
+downloadUrl: "https://github.com/Ansub/tv-detox/releases/download/v1.5.7/tvhome.apk"
 download_label: "Download for Android (.apk)"
 license: "MIT"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_276"
 affiliate_name: "Rank Math Direct"
 affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
@@ -19,12 +26,6 @@ affiliate_pitch: "Build and optimize your website faster with industry-standard 
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-19"
-downloadUrl: "https://github.com/Ansub/tv-detox/releases/download/v1.5.7/tvhome.apk"
-scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "UtilitiesApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Velocizza le vecchie smart TV senza fatica."

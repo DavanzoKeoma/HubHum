@@ -5,6 +5,7 @@ tagline: "Save and organize your favorite online videos"
 summary: "A free, cross-platform video downloading companion that lets you save online shows, music, and clips effortlessly."
 tags: ["downloader", "video", "media", "utilities"]
 is_webapp: false
+app_type: "desktop"
 category: "Video & Audio"
 icon: "/icons/bili23-downloader.png"
 stars: 9323

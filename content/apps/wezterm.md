@@ -3,9 +3,10 @@ title: "WezTerm"
 slug: "wezterm"
 tagline: "High-performance GPU-accelerated terminal emulator"
 summary: "WezTerm is a powerful, fast, and feature-rich terminal workspace that lets you manage multiple command-line sessions effortlessly."
-tags: ["terminal", "developer-tools", "productivity"]
+tags: ["system-utility", "developer-tools", "productivity"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Utilities & Power Tools"
 icon: "/icons/wezterm.png"
 stars: 29617
 source_url: "https://github.com/wezterm/wezterm"
@@ -13,9 +14,9 @@ download_url: "https://github.com/wezterm/wezterm/releases/download/20240203-110
 downloadUrl: "https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-setup.exe"
 download_label: "Download for Windows (.exe)"
 license: "NOASSERTION"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

@@ -5,7 +5,8 @@ tagline: "Fast and lightweight visual network routing tool"
 summary: "Trace network routes visually and troubleshoot connection issues across the internet with a lightweight open-source command tool."
 tags: ["networking", "network-tools", "traceroute", "diagnostics"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/ntrace-core.png"
 stars: 8318
 source_url: "https://github.com/nxtrace/NTrace-core"
@@ -15,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "GPL-3.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

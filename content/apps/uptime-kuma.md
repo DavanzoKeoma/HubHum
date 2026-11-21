@@ -3,8 +3,9 @@ title: "Uptime Kuma"
 slug: "uptime-kuma"
 tagline: "Track website and server uptime easily"
 summary: "An easy-to-use monitoring tool that tracks your websites and servers in real time, alerting you instantly if anything goes offline."
-tags: ["monitoring", "uptime", "self-hosted", "dashboard"]
+tags: ["monitoring", "uptime", "cloud-app", "dashboard"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/uptime-kuma.png"
 stars: 94676

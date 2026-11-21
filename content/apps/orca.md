@@ -2,10 +2,11 @@
 title: "orca"
 slug: "orca"
 tagline: "Run multiple AI coding agents in parallel"
-summary: "Manage a fleet of AI coding agents simultaneously across isolated workspaces, letting you chat, review code, and track tasks from your desktop or."
+summary: "Orca lets you run multiple AI coding assistants at the same time, giving each helper its own dedicated workspace so they never interfere with each other."
 tags: ["ai", "development", "productivity", "automation"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/orca.png"
 stars: 130248
 source_url: "https://github.com/stablyai/orca"
@@ -13,9 +14,9 @@ download_url: "https://github.com/stablyai/orca/releases/download/v1.4.265/orca-
 downloadUrl: "https://github.com/stablyai/orca/releases/download/v1.4.265/orca-windows-setup.exe"
 download_label: "Download for Windows (.exe)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

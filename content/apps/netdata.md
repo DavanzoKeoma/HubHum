@@ -5,6 +5,7 @@ tagline: "Real-time health monitoring for your systems"
 summary: "Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues."
 tags: ["monitoring", "observability", "performance"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/netdata.png"
 stars: 81537

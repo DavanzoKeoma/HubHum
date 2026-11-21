@@ -5,25 +5,26 @@ tagline: "Instant lossless video & audio trimmer"
 summary: "Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times."
 tags: ["video", "audio", "editing", "utility"]
 is_webapp: false
+app_type: "desktop"
 category: "Video & Audio"
 icon: "/icons/losslesscut.png"
 stars: 46153
 source_url: "https://github.com/mifi/lossless-cut"
 download_url: "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-arm64.dmg"
+downloadUrl: "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-arm64.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "GPL-2.0"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows, macOS, Linux, Android"
+applicationCategory: "MultimediaApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_054"
 affiliate_name: "Creative Fabrica"
 affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
 affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
 featured_weekly: true
 updated_at: "2026-11-18"
-downloadUrl: "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-arm64.dmg"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "MultimediaApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Taglia video e audio senza perdere qualità"

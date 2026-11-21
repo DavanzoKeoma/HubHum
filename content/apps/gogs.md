@@ -3,8 +3,9 @@ title: "Gogs"
 slug: "gogs"
 tagline: "The painless way to host Git"
 summary: "Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle."
-tags: ["git", "self-hosted", "development", "collaboration"]
+tags: ["git", "cloud-app", "development", "collaboration"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/gogs.png"
 stars: 47959

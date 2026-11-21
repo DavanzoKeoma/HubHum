@@ -3,9 +3,10 @@ title: "asciinema"
 slug: "asciinema"
 tagline: "Record and stream terminal sessions easily."
 summary: "Capture, replay, and share your command-line sessions in a lightweight format instead of heavy video files."
-tags: ["terminal", "recorder", "streaming", "cli"]
+tags: ["system-utility", "recorder", "streaming"]
 is_webapp: false
-category: "Video & Audio"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/asciinema.png"
 stars: 17977
 source_url: "https://github.com/asciinema/asciinema"
@@ -15,7 +16,7 @@ download_label: "Download (asciinema-aarch64-apple-darwin)"
 license: "GPL-3.0"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

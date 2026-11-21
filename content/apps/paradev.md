@@ -5,7 +5,8 @@ tagline: "Run multiple coding agents simultaneously."
 summary: "Paradev lets you manage several automated coding assistants at once in one workspace without juggling terminal tabs."
 tags: ["productivity", "automation", "development"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/paradev.png"
 stars: 16417
 source_url: "https://github.com/ParadevAI/Paradev"
@@ -13,9 +14,9 @@ download_url: "https://github.com/ParadevAI/Paradev/releases/download/desktop-v2
 downloadUrl: "https://github.com/ParadevAI/Paradev/releases/download/desktop-v2.0.10/Paradev-2.0.10-arm64.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS, Linux"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

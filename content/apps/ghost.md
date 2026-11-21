@@ -5,25 +5,26 @@ tagline: "Independent publishing & paid newsletters"
 summary: "Launch a fast blog, digital magazine, or paid newsletter while keeping complete ownership of your reader list."
 tags: ["webapp", "cms", "blog", "newsletter"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/ghost.png"
 stars: 55849
 source_url: "https://github.com/TryGhost/Ghost"
 download_url: "https://ghost.org"
+downloadUrl: "https://ghost.org"
 download_label: "Visit Official Site"
 license: "MIT"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
 affiliate_merchant_id: "MER_008"
 affiliate_name: "InterServer"
 affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
 affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
 featured_weekly: true
 updated_at: "2026-11-18"
-downloadUrl: "https://ghost.org"
-scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
-priceCurrency: "USD"
-price: "0"
 i18n:
   it:
     tagline: "Blog indipendenti e newsletter a pagamento"

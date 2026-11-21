@@ -5,6 +5,7 @@ tagline: "Your smart internal team knowledge assistant"
 summary: "Onyx connects all your apps and documents into one central assistant, letting your team chat with private company knowledge securely."
 tags: ["ai", "search", "knowledge", "productivity"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/onyx.png"
 stars: 33479

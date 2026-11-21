@@ -4,8 +4,9 @@ slug: "easyspider"
 tagline: "Visual code-free web data collection software"
 summary: "Extract public information from websites visually without writing any code. Automate repetitive browser tasks and save structured data instantly."
 tags: ["web-scraper", "automation", "no-code", "data-collection"]
-is_webapp: false
-category: "Graphics & Design"
+is_webapp: true
+app_type: "webapp"
+category: "Web Apps & Cloud"
 icon: "/icons/easyspider.png"
 stars: 44798
 source_url: "https://github.com/NaiboWang/EasySpider"
@@ -13,9 +14,9 @@ download_url: "https://github.com/NaiboWang/EasySpider/releases/download/v0.6.5/
 downloadUrl: "https://github.com/NaiboWang/EasySpider/releases/download/v0.6.5/EasySpider_0.6.5_MacOS_Apple_Arm_Chip.7z"
 download_label: "Download (EasySpider_0.6.5_MacOS_Apple_Arm_Chip.7z)"
 license: "AGPL-3.0"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+scouting_tier: "tier2_webapp"
+operatingSystem: "All / Browser"
+applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

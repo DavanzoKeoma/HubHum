@@ -3,9 +3,10 @@ title: "Taipy"
 slug: "taipy"
 tagline: "Turn Python code into web apps."
 summary: "Transform data and machine learning algorithms into production-ready web applications using only Python."
-tags: ["python", "web-apps", "data-science", "artificial-intelligence"]
-is_webapp: true
-category: "Web Apps & Cloud"
+tags: ["web-apps", "data-science", "artificial-intelligence"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/taipy.png"
 stars: 19460
 source_url: "https://github.com/Avaiga/taipy"
@@ -14,8 +15,8 @@ downloadUrl: "https://github.com/Avaiga/taipy/releases/download/4.1.1/taipy-4.1.
 download_label: "Download (taipy-4.1.1-py3-none-any.whl)"
 license: "Apache-2.0"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"

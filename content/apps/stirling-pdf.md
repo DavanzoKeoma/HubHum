@@ -5,6 +5,7 @@ tagline: "Your all-in-one private PDF toolkit."
 summary: "Edit, convert, and secure your PDF documents locally without uploading your sensitive files to third-party web services."
 tags: ["pdf", "productivity", "utilities", "open-source"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/stirling-pdf.png"
 stars: 97065

@@ -3,15 +3,16 @@ title: "underscore.string"
 slug: "underscore-string"
 tagline: "Essential text formatting tools for JavaScript."
 summary: "Provides reliable text manipulation helpers for JavaScript projects missing built-in formatting functions."
-tags: ["javascript", "text-formatting", "development"]
+tags: ["text-formatting", "development"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/underscore-string.png"
 stars: 3354
 source_url: "https://github.com/esamattis/underscore.string"
 download_url: "https://esamattis.github.com/underscore.string/"
 downloadUrl: "https://esamattis.github.com/underscore.string/"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "Open Source"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"

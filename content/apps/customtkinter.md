@@ -3,17 +3,18 @@ title: "CustomTkinter"
 slug: "customtkinter"
 tagline: "Modern python visual interface library"
 summary: "Create gorgeous, modern desktop app interfaces in Python using sleek pre-made elements that automatically adapt to light and dark modes."
-tags: ["python", "user-interface", "desktop", "design"]
+tags: ["user-interface", "desktop", "design"]
 is_webapp: false
+app_type: "cli"
 category: "Graphics & Design"
 icon: "/icons/customtkinter.png"
 stars: 13619
 source_url: "https://github.com/TomSchimansky/CustomTkinter"
 download_url: "https://github.com/TomSchimansky/CustomTkinter/releases"
 downloadUrl: "https://github.com/TomSchimansky/CustomTkinter/releases"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS"
 applicationCategory: "DesignApplication"
 priceCurrency: "USD"

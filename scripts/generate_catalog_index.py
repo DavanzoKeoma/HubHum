@@ -31,6 +31,7 @@ def build_catalog_index() -> list[dict[str, object]]:
         is_webapp = bool(meta.get("is_webapp"))
         stars = int(meta.get("stars") or 0)
         tier = str(meta.get("scouting_tier") or ("tier2_webapp" if is_webapp else "tier1_gui"))
+        app_type = str(meta.get("app_type") or ("webapp" if is_webapp else ("cli" if tier == "tier3_powertool" else "desktop")))
 
         entries.append(
             {
@@ -41,6 +42,7 @@ def build_catalog_index() -> list[dict[str, object]]:
                 "category": str(meta.get("category") or "Productivity"),
                 "icon": str(meta.get("icon") or "/icons/hubhum.svg"),
                 "is_webapp": is_webapp,
+                "app_type": app_type,
                 "stars": stars,
                 "tier": tier,
                 "summary": str(meta.get("summary") or ""),

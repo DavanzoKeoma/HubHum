@@ -3,9 +3,10 @@ title: "Termux App"
 slug: "termux-app"
 tagline: "Run a full Linux terminal on Android."
 summary: "Turn your Android device into a powerful Linux workstation with a complete command line environment and package manager."
-tags: ["terminal", "linux", "android", "developer-tools"]
+tags: ["system-utility", "linux", "android", "developer-tools"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/termux-app.png"
 stars: 65246
 source_url: "https://github.com/termux/termux-app"
@@ -13,9 +14,9 @@ download_url: "https://github.com/termux/termux-app/releases/download/v0.118.3/t
 downloadUrl: "https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_arm64-v8a.apk"
 download_label: "Download for Android (.apk)"
 license: "NOASSERTION"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

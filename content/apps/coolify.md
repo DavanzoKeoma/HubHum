@@ -3,8 +3,9 @@ title: "Coolify"
 slug: "coolify"
 tagline: "Your own private cloud management platform."
 summary: "Coolify lets you host and manage your own websites, databases, and apps on any server without needing expensive commercial platforms."
-tags: ["hosting", "server-management", "self-hosted"]
+tags: ["hosting", "server-management", "cloud-app"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/coolify.png"
 stars: 66285

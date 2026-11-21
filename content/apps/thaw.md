@@ -5,7 +5,8 @@ tagline: "Clean up your computer screen instantly"
 summary: "Thaw hides messy status bar icons on your computer screen, bringing them back instantly when you need them."
 tags: ["productivity", "macos", "utilities", "organization"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/thaw.png"
 stars: 12830
 source_url: "https://github.com/thaw-app/Thaw"
@@ -13,9 +14,9 @@ download_url: "https://github.com/thaw-app/Thaw/releases/download/2.1.0/Thaw.dmg
 downloadUrl: "https://github.com/thaw-app/Thaw/releases/download/2.1.0/Thaw.dmg"
 download_label: "Download for Mac (.dmg)"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"

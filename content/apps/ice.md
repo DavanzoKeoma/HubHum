@@ -5,15 +5,16 @@ tagline: "Clean up your Mac menu bar"
 summary: "Ice is a powerful and customizable menu bar manager for macOS that helps you organize, hide, and style your top screen items with ease."
 tags: ["macos", "menu-bar", "productivity", "utility"]
 is_webapp: false
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/ice.png"
 stars: 30067
 source_url: "https://github.com/jordanbaird/Ice"
 download_url: "https://icemenubar.app"
 downloadUrl: "https://icemenubar.app"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "GPL-3.0"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"

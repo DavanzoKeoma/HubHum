@@ -3,8 +3,9 @@ title: "Airgorah"
 slug: "airgorah"
 tagline: "Audit and test your wireless network security."
 summary: "Airgorah is a user-friendly application designed to scan nearby wireless traffic, evaluate network safety, and test home Wi-Fi security."
-tags: ["wifi", "security", "auditing", "linux", "network"]
+tags: ["wifi", "security", "auditing", "linux"]
 is_webapp: false
+app_type: "desktop"
 category: "Security & Privacy"
 icon: "/icons/airgorah.png"
 stars: 6699

@@ -5,6 +5,7 @@ tagline: "Open-source platform for AI app observability"
 summary: "Langfuse is an open-source engineering platform that helps you trace, evaluate, and monitor AI applications and virtual agents."
 tags: ["ai", "observability", "analytics", "developer-tools"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/langfuse.png"
 stars: 37654

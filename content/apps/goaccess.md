@@ -3,19 +3,20 @@ title: "GoAccess"
 slug: "goaccess"
 tagline: "Real-time web server log analytics dashboard"
 summary: "Analyze website traffic instantly in your terminal or via a live browser dashboard with zero heavy configuration."
-tags: ["analytics", "logs", "monitoring", "terminal", "security"]
-is_webapp: true
-category: "Security & Privacy"
+tags: ["analytics", "logs", "monitoring", "system-utility"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/goaccess.png"
 stars: 21143
 source_url: "https://github.com/allinurl/goaccess"
 download_url: "https://goaccess.io"
 downloadUrl: "https://goaccess.io"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
 scouting_tier: "tier3_powertool"
-operatingSystem: "All / Browser"
-applicationCategory: "SecurityApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"

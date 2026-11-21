@@ -3,8 +3,9 @@ title: "New API"
 slug: "new-api"
 tagline: "Unified gateway for artificial intelligence models"
 summary: "Easily connect, manage, and monitor multiple artificial intelligence services through a single compatible control panel with built-in cost tracking."
-tags: ["ai", "gateway", "api", "management"]
+tags: ["ai", "gateway", "management"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/new-api.png"
 stars: 52261

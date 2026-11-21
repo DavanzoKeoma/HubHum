@@ -5,6 +5,7 @@ tagline: "Automatically track website content and price changes"
 summary: "Monitor any web page for updates, price drops, or restocks and receive instant alerts directly to your favorite messaging apps."
 tags: ["monitoring", "tracking", "automation", "alerts"]
 is_webapp: true
+app_type: "webapp"
 category: "Web Apps & Cloud"
 icon: "/icons/changedetection-io.png"
 stars: 35914

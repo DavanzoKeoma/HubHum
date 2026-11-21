@@ -3,15 +3,16 @@ title: "JJ"
 slug: "jj"
 tagline: "Fast command-line tool for reading and editing structured text."
 summary: "JJ lets you quickly read, update, or delete data inside large structured text files without slowing down your computer."
-tags: ["cli", "json", "utility", "developer-tools"]
+tags: ["system-utility", "json", "utility", "developer-tools"]
 is_webapp: false
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/jj.png"
 stars: 2059
 source_url: "https://github.com/tidwall/jj"
 download_url: "https://github.com/tidwall/jj/releases"
 downloadUrl: "https://github.com/tidwall/jj/releases"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "MIT"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux, Android"

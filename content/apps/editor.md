@@ -3,9 +3,10 @@ title: "Pascal Editor"
 slug: "editor"
 tagline: "Open-source 3D architecture and building editor"
 summary: "Create, edit, and collaborate on 3D building models directly in your browser or locally with advanced AI agent support."
-tags: ["3d", "architecture", "bim", "mcp", "react"]
+tags: ["3d", "architecture", "bim", "mcp"]
 is_webapp: false
-category: "Graphics & Design"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/editor.png"
 stars: 25648
 source_url: "https://github.com/pascalorg/editor"
@@ -13,9 +14,9 @@ download_url: "https://github.com/pascalorg/editor/releases/download/%40pascal-a
 downloadUrl: "https://github.com/pascalorg/editor/releases/download/%40pascal-app/cli%401.1.6/pascal-web-runtime-1.1.6.tar.gz.sha256"
 download_label: "Download (pascal-web-runtime-1.1.6.tar.gz.sha256)"
 license: "MIT"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "DesignApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"
