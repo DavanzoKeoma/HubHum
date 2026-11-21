@@ -6,7 +6,7 @@ summary: "Netmaker creates fast, secure, and distributed virtual private network
 tags: ["networking", "security", "vpn", "wireguard"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/netmaker.png"
 stars: 11881
 source_url: "https://github.com/gravitl/netmaker"
@@ -16,7 +16,7 @@ download_label: "Download for Windows (.exe)"
 license: "Custom Open License"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"
@@ -68,7 +68,7 @@ For server setups and alternative cloud setup methods, check out the instruction
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
 * **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+* **Private Internet Access:** Optional privacy-focused VPN client for multiple devices — [Private Internet Access](https://www.privateinternetaccess.com/?subid=hubhum_01_MER048) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/gravitl/netmaker)

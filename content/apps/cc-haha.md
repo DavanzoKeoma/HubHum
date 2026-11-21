@@ -15,14 +15,14 @@ downloadUrl: "https://github.com/NanmiCoder/cc-haha/releases/download/v0.7.9/Cla
 download_label: "Download for Windows (.exe)"
 license: "Custom Open License"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_276"
-affiliate_name: "Rank Math Direct"
-affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
-affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -76,8 +76,8 @@ cc-haha brings together multiple AI coding assistants, automated task teams, and
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
-* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
 * **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/NanmiCoder/cc-haha)

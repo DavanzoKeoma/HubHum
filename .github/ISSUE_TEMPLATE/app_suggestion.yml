@@ -1,0 +1,56 @@
+name: Suggest a Free App
+description: Propose a free, open-source software project for HubHum in plain English
+title: "[App Suggestion]: "
+labels: ["hubhum-translate", "app-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest an open-source application to feature on **HubHum** ("A Git Hub for Humans"). Every listed tool links strictly to official creator channels.
+  - type: input
+    id: app_name
+    attributes:
+      label: Software Name
+      placeholder: e.g. KeePassXC, Obsidian Alternative, LosslessCut
+    validations:
+      required: true
+  - type: input
+    id: repo_url
+    attributes:
+      label: Official GitHub Repository URL
+      description: Paste the canonical https://github.com/owner/repo URL
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Everyday Category
+      options:
+        - Productivity
+        - Security & Privacy
+        - Video & Audio
+        - Graphics & Design
+        - Web Apps & Cloud
+        - Utilities & Power Tools
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: How People Use It
+      options:
+        - Desktop App (GUI Installer)
+        - Self-Hosted Web App
+        - Cloud Web App (Browser)
+        - Command-Line / Terminal Tool
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What Does It Do in Plain English?
+      description: Explain in 1-2 simple sentences without technical jargon why everyday users should try it.
+      placeholder: Helps you trim videos without losing quality or waiting for slow conversions.
+    validations:
+      required: true

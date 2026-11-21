@@ -568,6 +568,50 @@ select:focus-visible {
   font-weight: 700;
 }
 
+/* Secondary Format & OS Quick Filter Pills */
+.quick-filter-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 0.75rem;
+  align-items: center;
+}
+
+.quick-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.quick-filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 34px;
+  padding: 0.25rem 0.78rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.quick-filter-pill:hover {
+  color: var(--text);
+  border-color: var(--borderColor-strong);
+}
+
+.quick-filter-pill[aria-pressed='true'] {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-fg-text);
+  font-weight: 700;
+}
+
 /* Sections & Grids */
 .section-block {
   padding: 1.15rem 0;

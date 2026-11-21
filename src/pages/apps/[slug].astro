@@ -521,6 +521,43 @@ const combinedJsonLd = [
           detailStars.textContent = `★ ${count.toLocaleString(lang)} ${dict.starsSuffix}`;
         }
       }
+
+      const articleEl = document.querySelector('article.article-card');
+      if (articleEl) {
+        const headingMap: Record<string, keyof typeof dict> = {
+          'what it does in plain english': 'secWhatItDoes',
+          "who it's for": 'secWhoItsFor',
+          'key features': 'secKeyFeatures',
+          'how to install (download)': 'secHowToInstall',
+          'pros and cons': 'secProsAndCons',
+          'sponsored partner tools (#ad)': 'secSponsoredTools',
+        };
+        articleEl.querySelectorAll<HTMLElement>('h2, h3').forEach((h) => {
+          if (!h.dataset.origHeading) {
+            h.dataset.origHeading = (h.textContent || '').trim().toLowerCase();
+          }
+          const dictKey = headingMap[h.dataset.origHeading];
+          if (dictKey && dict[dictKey]) {
+            h.textContent = dict[dictKey];
+          }
+        });
+
+        articleEl.querySelectorAll<HTMLElement>('p > em, p > strong, li > strong').forEach((el) => {
+          if (!el.dataset.origText) {
+            el.dataset.origText = (el.textContent || '').trim();
+          }
+          const origLow = el.dataset.origText.toLowerCase();
+          if (origLow.startsWith('optional commercial services unrelated')) {
+            el.textContent = dict.secSponsoredNote;
+          } else if (origLow.startsWith('official source')) {
+            el.textContent = dict.secOfficialSource;
+          } else if (origLow === 'pros:' || origLow === 'pros') {
+            el.textContent = el.dataset.origText.endsWith(':') ? `${dict.labelPros}:` : dict.labelPros;
+          } else if (origLow === 'cons:' || origLow === 'cons') {
+            el.textContent = el.dataset.origText.endsWith(':') ? `${dict.labelCons}:` : dict.labelCons;
+          }
+        });
+      }
     }
 
     syncDetailLanguage();

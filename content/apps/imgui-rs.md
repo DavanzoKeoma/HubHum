@@ -5,24 +5,24 @@ tagline: "Create custom software interfaces easily."
 summary: "This tool allows programmers to build interactive menus and control panels for their software using the Rust programming language."
 tags: ["programming", "tools", "interface-design"]
 is_webapp: false
-app_type: "desktop"
-category: "Productivity"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/imgui-rs.png"
 stars: 3069
 source_url: "https://github.com/imgui-rs/imgui-rs"
 download_url: "https://github.com/imgui-rs/imgui-rs/releases"
 downloadUrl: "https://github.com/imgui-rs/imgui-rs/releases"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "Open Source (Apache 2.0)"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_276"
-affiliate_name: "Rank Math Direct"
-affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
-affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -66,8 +66,8 @@ This project is a library intended for use within software development projects.
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
-* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
 * **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/imgui-rs/imgui-rs)

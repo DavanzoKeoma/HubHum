@@ -22,7 +22,7 @@ price: "0"
 affiliate_merchant_id: "MER_054"
 affiliate_name: "Creative Fabrica"
 affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
-affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
+affiliate_pitch: "Compatible asset libraries, templates, and fonts for your creative projects."
 ai_provider: "tier2_groq:openai/gpt-oss-120b"
 featured_weekly: true
 updated_at: "2026-11-20"
@@ -65,8 +65,8 @@ It shows the media in a clean window that you can customize with different color
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
 * **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Placeit by Envato:** Optional browser-based mockup and template generator — [Placeit by Envato](https://placeit.net/?subid=hubhum_01_MER369) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/mpvnet-player/mpv.net)

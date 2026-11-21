@@ -5,24 +5,24 @@ tagline: "Modern themes and gorgeous styles for standard Python user interf"
 summary: "Transform plain Python desktop applications into modern, professional software using dozens of ready-made light and dark themes."
 tags: ["gui", "design", "themes", "development"]
 is_webapp: false
-app_type: "desktop"
-category: "Productivity"
+app_type: "cli"
+category: "Graphics & Design"
 icon: "/icons/ttkbootstrap.png"
 stars: 2666
 source_url: "https://github.com/israel-dryer/ttkbootstrap"
 download_url: "https://www.ttkbootstrap.org"
 downloadUrl: "https://www.ttkbootstrap.org"
-download_label: "Visit Official Site"
+download_label: "Get Command-Line Tool →"
 license: "Open Source (MIT)"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "UtilitiesApplication"
+applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_276"
-affiliate_name: "Rank Math Direct"
-affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
-affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+affiliate_merchant_id: "MER_054"
+affiliate_name: "Creative Fabrica"
+affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
+affiliate_pitch: "Compatible asset libraries, templates, and fonts for your creative projects."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -77,8 +77,8 @@ Visit the [Official Website & Documentation](https://www.ttkbootstrap.org) to re
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
-* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Placeit by Envato:** Optional browser-based mockup and template generator — [Placeit by Envato](https://placeit.net/?subid=hubhum_01_MER369) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/israel-dryer/ttkbootstrap)

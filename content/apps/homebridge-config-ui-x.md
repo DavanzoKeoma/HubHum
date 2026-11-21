@@ -4,25 +4,25 @@ slug: "homebridge-config-ui-x"
 tagline: "Manage your smart home server browser dashboard."
 summary: "Homebridge UI lets you monitor, configure, and back up your smart home setup directly from any standard web browser."
 tags: ["smart-home", "dashboard", "automation"]
-is_webapp: false
-app_type: "desktop"
-category: "Productivity"
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
 icon: "/icons/homebridge-config-ui-x.png"
 stars: 2817
 source_url: "https://github.com/homebridge/homebridge-config-ui-x"
 download_url: "https://github.com/homebridge/homebridge-config-ui-x/releases/download/v5.30.1/SHASUMS256.txt"
 downloadUrl: "https://github.com/homebridge/homebridge-config-ui-x/releases/download/v5.30.1/SHASUMS256.txt"
-download_label: "Download (SHASUMS256.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "UtilitiesApplication"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_276"
-affiliate_name: "Rank Math Direct"
-affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
-affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Want to launch it in 1 click on an optimized cloud server without manual setup?"
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -73,8 +73,8 @@ For step-by-step instructions on setting up your system and running the manager 
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
-* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
 * **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **ScalaHosting:** Optional managed VPS cloud hosting for web applications — [ScalaHosting](https://www.scalahosting.com/?subid=hubhum_01_MER009) (#ad)
+* **RoseHosting:** Optional managed Linux cloud server hosting — [RoseHosting](https://www.rosehosting.com/?subid=hubhum_01_MER014) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/homebridge/homebridge-config-ui-x)

@@ -33,16 +33,16 @@ const matchedApps = guide.data.app_slugs
   .map((s) => appsBySlug.get(s))
   .filter((a): a is NonNullable<typeof a> => Boolean(a));
 
-const levelLabel =
+const levelI18nKey =
   guide.data.level === 1
-    ? 'Main Category Guide'
+    ? 'guideLevelPillar'
     : guide.data.level === 2
-    ? 'Focus Topic Hub'
+    ? 'guideLevelSubpillar'
     : guide.data.intent === 'comparison'
-    ? 'Comparison Guide'
+    ? 'guideLevelComparison'
     : guide.data.intent === 'foundations'
-    ? 'Beginner Foundations'
-    : 'Troubleshooting Guide';
+    ? 'guideLevelFoundations'
+    : 'guideLevelTroubleshooting';
 
 const siteOrigin = (Astro.site?.toString() || 'https://davanzokeoma.github.io').replace(/\/$/, '');
 const canonicalUrl = `${siteOrigin}${withBase(`/guides/${guide.data.slug}/`)}`;
@@ -170,10 +170,12 @@ const jsonLd = [
     <section class="detail-hero">
       <div style="max-width:780px;">
         <div style="display:flex;flex-wrap:wrap;gap:0.45rem;align-items:center;margin-bottom:0.45rem;">
-          <span class="mode-badge">{levelLabel}</span>
+          <span class="mode-badge" data-i18n={levelI18nKey}>Main Category Guide</span>
           <span class="tag-chip">{guide.data.macro_category}</span>
           {matchedApps.length > 0 && (
-            <span class="tag-chip">{matchedApps.length} free tools reviewed</span>
+            <span class="tag-chip">
+              {matchedApps.length} <span data-i18n="guideToolsCoveredSuffix">tools covered</span>
+            </span>
           )}
         </div>
         <h1 style="margin:0;font-size:clamp(1.55rem,3vw,2.15rem);line-height:1.18;">
@@ -197,17 +199,30 @@ const jsonLd = [
     {childGuides.length > 0 && (
       <section class="section-block" aria-labelledby="subguides-heading">
         <div class="section-head">
-          <h2 id="subguides-heading">
+          <h2 id="subguides-heading" data-i18n={guide.data.level === 1 ? 'guideSubpillarsHeading' : 'guideArticlesHeading'}>
             {guide.data.level === 1 ? 'Focus Topics in This Category' : 'Practical Guides & Comparisons'}
           </h2>
-          <span class="section-sub">Choose a guide below to compare options and find step-by-step advice</span>
+          <span class="section-sub" data-i18n="guideGuidesSub">
+            Choose a guide below to compare options and find step-by-step advice
+          </span>
         </div>
         <div class="apps-grid">
           {childGuides.map((child) => (
             <a href={withBase(`/guides/${child.data.slug}/`)} class="app-card">
               <div>
                 <div class="app-card-top">
-                  <span class="mode-badge">
+                  <span
+                    class="mode-badge"
+                    data-i18n={
+                      child.data.level === 2
+                        ? 'guideLevelSubpillar'
+                        : child.data.intent === 'comparison'
+                        ? 'guideLevelComparison'
+                        : child.data.intent === 'foundations'
+                        ? 'guideLevelFoundations'
+                        : 'guideLevelTroubleshooting'
+                    }
+                  >
                     {child.data.level === 2
                       ? 'Focus Topic Hub'
                       : child.data.intent === 'comparison'
@@ -221,7 +236,9 @@ const jsonLd = [
                 <p class="app-summary">{child.data.summary}</p>
               </div>
               <div class="app-card-foot">
-                <span class="popularity-stat">{child.data.app_slugs.length} tools covered</span>
+                <span class="popularity-stat">
+                  {child.data.app_slugs.length} <span data-i18n="guideToolsCoveredSuffix">tools covered</span>
+                </span>
                 <span class="card-cta" data-i18n="guideReadMore">Explore guide →</span>
               </div>
             </a>
@@ -244,7 +261,16 @@ const jsonLd = [
             <a href={withBase(`/guides/${sib.data.slug}/`)} class="app-card">
               <div>
                 <div class="app-card-top">
-                  <span class="mode-badge">
+                  <span
+                    class="mode-badge"
+                    data-i18n={
+                      sib.data.intent === 'comparison'
+                        ? 'guideLevelComparison'
+                        : sib.data.intent === 'foundations'
+                        ? 'guideLevelFoundations'
+                        : 'guideLevelTroubleshooting'
+                    }
+                  >
                     {sib.data.intent === 'comparison'
                       ? 'Comparison'
                       : sib.data.intent === 'foundations'
@@ -256,7 +282,9 @@ const jsonLd = [
                 <p class="app-summary">{sib.data.summary}</p>
               </div>
               <div class="app-card-foot">
-                <span class="popularity-stat">{sib.data.app_slugs.length} tools</span>
+                <span class="popularity-stat">
+                  {sib.data.app_slugs.length} <span data-i18n="guideToolsCoveredSuffix">tools covered</span>
+                </span>
                 <span class="card-cta" data-i18n="guideReadMore">Explore guide →</span>
               </div>
             </a>
@@ -268,8 +296,10 @@ const jsonLd = [
     {matchedApps.length > 0 && (
       <section class="section-block" aria-labelledby="cluster-apps-heading">
         <div class="section-head">
-          <h2 id="cluster-apps-heading">Verified Free Software Featured in This Guide</h2>
-          <span class="section-sub">Click any tool to open its plain-English sheet and official download links</span>
+          <h2 id="cluster-apps-heading" data-i18n="guideFeaturedAppsHeading">Verified Free Software Featured in This Guide</h2>
+          <span class="section-sub" data-i18n="guideFeaturedAppsSub">
+            Click any tool to open its plain-English sheet and official download links
+          </span>
         </div>
         <div class="apps-grid">
           {matchedApps.map((app) => (
@@ -281,6 +311,7 @@ const jsonLd = [
               tags={app.data.tags}
               isWebapp={app.data.is_webapp}
               appType={app.data.app_type}
+              operatingSystem={app.data.operatingSystem}
               stars={app.data.stars}
               icon={app.data.icon}
               i18n={app.data.i18n}
@@ -290,4 +321,110 @@ const jsonLd = [
       </section>
     )}
   </div>
+
+  <script>
+    import { TRANSLATIONS, type SupportedLang } from '../../i18n/translations';
+
+    function syncGuideBodyHeadings() {
+      const lang = (document.documentElement.lang || 'en') as SupportedLang;
+      const article = document.querySelector('article.article-card');
+      if (!article) return;
+
+      const localizedPrefix: Record<SupportedLang, Record<string, string>> = {
+        en: {},
+        it: {
+          'when to pick which option': 'Quale Opzione Scegliere',
+          'recommended alternatives covered': 'Alternative Consigliate in Questa Guida',
+          'recommended reading guides': 'Guide Consigliate',
+          'all qualifying software in this topic': 'Tutti i Software Inclusi in Questo Tema',
+        },
+        es: {
+          'when to pick which option': 'Cuándo Elegir Cada Opción',
+          'recommended alternatives covered': 'Alternativas Recomendadas en Esta Guía',
+          'recommended reading guides': 'Guías Recomendadas',
+          'all qualifying software in this topic': 'Todo el Software en Este Tema',
+        },
+        fr: {
+          'when to pick which option': 'Quelle Option Choisir',
+          'recommended alternatives covered': 'Alternatives Recommandées dans Ce Guide',
+          'recommended reading guides': 'Guides Recommandés',
+          'all qualifying software in this topic': 'Tous les Logiciels de Ce Thème',
+        },
+        de: {
+          'when to pick which option': 'Welche Option Sie Wählen Sollten',
+          'recommended alternatives covered': 'Empfohlene Alternativen in Diesem Ratgeber',
+          'recommended reading guides': 'Empfohlene Ratgeber',
+          'all qualifying software in this topic': 'Alle Programme zu Diesem Thema',
+        },
+      };
+
+      const prefixMap: Record<SupportedLang, Array<[string, string]>> = {
+        en: [],
+        it: [
+          ['quick answer:', 'Risposta Rapida:'],
+          ['side-by-side comparison', 'Confronto Diretto'],
+          ['how to choose free ', 'Come Scegliere Gratis: '],
+          ['fixing common problems with free ', 'Risolvere i Problemi Comuni: '],
+          ['why explore free ', 'Perché Usare Software Libero in '],
+          ['great starting points in ', 'Migliori Punti di Partenza: '],
+          ['explore focus guides inside ', 'Esplora i Sotto-temi di '],
+          ['top featured ', 'Software Più Apprezzati in '],
+          ['plain-english overview:', 'Panoramica Semplice:'],
+        ],
+        es: [
+          ['quick answer:', 'Respuesta Rápida:'],
+          ['side-by-side comparison', 'Comparativa Directa'],
+          ['how to choose free ', 'Cómo Elegir Gratis: '],
+          ['fixing common problems with free ', 'Soluciones Comunes: '],
+          ['why explore free ', 'Por Qué Usar Software Libre en '],
+          ['great starting points in ', 'Buenos Puntos de Partida: '],
+          ['plain-english overview:', 'Resumen Sencillo:'],
+        ],
+        fr: [
+          ['quick answer:', 'Réponse Rapide :'],
+          ['side-by-side comparison', 'Comparatif Direct'],
+          ['how to choose free ', 'Comment Choisir Gratuitement : '],
+          ['fixing common problems with free ', 'Résoudre les Problèmes Courants : '],
+          ['why explore free ', 'Pourquoi Explorer les Logiciels Libres en '],
+          ['plain-english overview:', 'Présentation Simple :'],
+        ],
+        de: [
+          ['quick answer:', 'Kurzantwort:'],
+          ['side-by-side comparison', 'Direkter Vergleich'],
+          ['how to choose free ', 'Richtig Auswählen: '],
+          ['fixing common problems with free ', 'Häufige Probleme Lösen: '],
+          ['why explore free ', 'Warum Freie Software in '],
+          ['plain-english overview:', 'Einfacher Überblick:'],
+        ],
+      };
+
+      const dict = TRANSLATIONS[lang] || TRANSLATIONS.en;
+      void dict;
+      article.querySelectorAll<HTMLElement>('h2, h3').forEach((el) => {
+        if (!el.dataset.origHeading) {
+          el.dataset.origHeading = (el.textContent || '').trim();
+        }
+        const orig = el.dataset.origHeading;
+        const low = orig.toLowerCase();
+        if (lang === 'en') {
+          el.textContent = orig;
+          return;
+        }
+        if (localizedPrefix[lang]?.[low]) {
+          el.textContent = localizedPrefix[lang][low];
+          return;
+        }
+        for (const [engPre, locPre] of prefixMap[lang] || []) {
+          if (low.startsWith(engPre)) {
+            el.textContent = locPre + orig.slice(engPre.length);
+            return;
+          }
+        }
+        el.textContent = orig;
+      });
+    }
+
+    syncGuideBodyHeadings();
+    window.addEventListener('hubhum:langchange', syncGuideBodyHeadings);
+  </script>
 </BaseLayout>

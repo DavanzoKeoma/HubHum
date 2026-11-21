@@ -231,8 +231,9 @@ KNOWN_CLI_OR_TOOLKIT_SLUGS = {
     "typer", "ufo", "uhubctl", "underscore-string", "usql", "util",
     "vagrant", "vhs", "walk", "winget-cli", "witr", "wtf", "wttr-in",
     "xterm-js", "zx",
-    # Technical developer / security / OSINT tools better classified as CLI/Power tools than everyday desktop GUIs
+    # Technical developer / security / OSINT / UI-toolkit tools better classified as CLI/Power tools than everyday desktop GUIs
     "rea", "sherlock", "maigret", "cutter", "gitleaks",
+    "orbtk", "awtk", "imgui-rs", "rinf", "remi", "ttkbootstrap", "jclasslib", "python-uiautomation-for-windows", "iced",
 }
 
 LICENSE_HUMAN_MAP: dict[str, str] = {
@@ -548,19 +549,36 @@ def classify_app_type_and_category(
         or (topic_set & {"design", "vector", "image-editor", "photo-editor", "drawing", "mockup", "3d-modeling"})
     )
 
+    is_torrent_or_dl_domain = bool(
+        re.search(
+            r"\b(?:torrent|bittorrent|transgui|ariang|aria2|yt-dlp|youtube-dl|bili23|metube|"
+            r"fanqie-novel-downloader|youtubeplaylistdownloader|download-manager)\b",
+            meta_text,
+        )
+        or (topic_set & {"torrent", "bittorrent", "downloader"})
+    )
+    is_webdev_seo_domain = bool(
+        re.search(
+            r"\b(?:wordpress|seo|blogging|static site|website builder|headless cms|ghost|hugo|hexo|jekyll|strapi|payload|directus|grav|wagtail)\b",
+            meta_text,
+        )
+        or (topic_set & {"wordpress", "seo", "blog", "cms"})
+    )
+
     # 0. Open Reference / Curated Guides / Skill Packs (never labeled Desktop App)
     if slug_low in KNOWN_REFERENCE_SLUGS or slug_low.startswith("awesome-") or re.search(
         r"\b(?:curated list|awesome list|collections of|cheatsheet|prompt library|ai skill|ui ux)\b",
         meta_text,
     ):
         ref_cat = "Productivity"
+        ref_aff = "productivity_utilities"
         if "self-hosting" in slug_low:
-            ref_cat = "Web Apps & Cloud"
+            ref_cat, ref_aff = "Web Apps & Cloud", "webapp_cms"
         elif is_graphics_domain:
-            ref_cat = "Graphics & Design"
+            ref_cat, ref_aff = "Graphics & Design", "graphics_video_design"
         elif slug_low in {"linux-command", "cheat-sh", "you-dont-need-gui"}:
-            ref_cat = "Utilities & Power Tools"
-        return "resource", ref_cat, "tier3_powertool", False, "webdev_wordpress"
+            ref_cat, ref_aff = "Utilities & Power Tools", "productivity_utilities"
+        return "resource", ref_cat, "tier3_powertool", False, ref_aff
 
     is_known_cli_or_tk = slug_low in KNOWN_CLI_OR_TOOLKIT_SLUGS or slug_low.endswith("-cli")
     has_cli_signal = is_known_cli_or_tk or bool(
@@ -594,25 +612,30 @@ def classify_app_type_and_category(
     )
 
     if slug_low in DESKTOP_TERMINAL_SLUGS:
-        return "desktop", "Utilities & Power Tools", "tier1_gui", False, "webdev_wordpress"
+        return "desktop", "Utilities & Power Tools", "tier1_gui", False, "productivity_utilities"
 
     if is_known_cli_or_tk or (has_cli_signal and not has_desktop_installer and current_tier != "tier2_webapp"):
         app_type = "cli"
         scouting_tier = "tier3_powertool"
         is_webapp = False
-        if is_security_domain:
-            return app_type, "Security & Privacy", scouting_tier, is_webapp, "privacy_security"
+        if is_security_domain or is_torrent_or_dl_domain:
+            cat = "Security & Privacy" if is_security_domain else ("Video & Audio" if is_video_audio_domain else "Utilities & Power Tools")
+            return app_type, cat, scouting_tier, is_webapp, "privacy_security"
         if is_video_audio_domain:
             return app_type, "Video & Audio", scouting_tier, is_webapp, "graphics_video_design"
         if is_graphics_domain:
             return app_type, "Graphics & Design", scouting_tier, is_webapp, "graphics_video_design"
-        return app_type, "Utilities & Power Tools", scouting_tier, is_webapp, "webdev_wordpress"
+        if is_webdev_seo_domain:
+            return app_type, "Websites & SEO", scouting_tier, is_webapp, "webdev_wordpress"
+        return app_type, "Utilities & Power Tools", scouting_tier, is_webapp, "productivity_utilities"
 
     if has_webapp_signal or (current_tier == "tier2_webapp" and not has_cli_signal):
         app_type = "webapp" if is_hosted_browser_app else "selfhosted"
         scouting_tier = "tier2_webapp"
         is_webapp = True
-        if is_security_domain:
+        if is_webdev_seo_domain:
+            return app_type, "Web Apps & Cloud", scouting_tier, is_webapp, "webdev_wordpress"
+        if is_security_domain or is_torrent_or_dl_domain:
             return app_type, "Security & Privacy", scouting_tier, is_webapp, "privacy_security"
         if is_video_audio_domain:
             return app_type, "Video & Audio", scouting_tier, is_webapp, "graphics_video_design"
@@ -621,18 +644,21 @@ def classify_app_type_and_category(
         return app_type, "Web Apps & Cloud", scouting_tier, is_webapp, "webapp_cms"
 
     if has_cli_signal and current_tier == "tier3_powertool" and not has_desktop_installer:
-        return "cli", "Utilities & Power Tools", "tier3_powertool", False, "webdev_wordpress"
+        return "cli", "Utilities & Power Tools", "tier3_powertool", False, "productivity_utilities"
 
     if is_security_domain:
         cat, aff = "Security & Privacy", "privacy_security"
+    elif is_torrent_or_dl_domain:
+        cat = "Video & Audio" if is_video_audio_domain else "Productivity"
+        aff = "privacy_security"
     elif is_video_audio_domain:
         cat, aff = "Video & Audio", "graphics_video_design"
     elif is_graphics_domain:
         cat, aff = "Graphics & Design", "graphics_video_design"
-    elif re.search(r"\b(?:seo|landing page|website builder|static site)\b", meta_text):
+    elif is_webdev_seo_domain:
         cat, aff = "Websites & SEO", "webdev_wordpress"
     else:
-        cat, aff = "Productivity", "webdev_wordpress"
+        cat, aff = "Productivity", "productivity_utilities"
 
     return "desktop", cat, "tier1_gui", False, aff
 

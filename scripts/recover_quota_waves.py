@@ -72,6 +72,18 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "launcher",
             "pomodoro",
             "todo",
+            "viewer",
+            "client",
+            "manager",
+            "studio",
+            "converter",
+            "organizer",
+            "scanner",
+            "music",
+            "video",
+            "notes",
+            "kanban",
+            "desktop",
         ),
     },
     "tier2": {
@@ -104,6 +116,15 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "cloud-storage",
             "invoicing",
             "project-management",
+            "monitoring",
+            "automation",
+            "forms",
+            "survey",
+            "billing",
+            "kanban",
+            "reader",
+            "podcast",
+            "storage",
         ),
     },
     "tier3": {
@@ -232,7 +253,7 @@ def execute_streaming_recovery(
         for topic in topics:
             if published_by_tier[tier_arg] >= target_count:
                 break
-            for page_num in (1, 2, 3, 4, 5):
+            for page_num in (1, 2, 3, 4, 5, 6):
                 if published_by_tier[tier_arg] >= target_count:
                     break
                 _throttle_github_search()
@@ -280,6 +301,8 @@ def execute_streaming_recovery(
                         if bundle.app_type in ("cli", "resource"):
                             continue
                         raw_topics = {t.lower() for t in (item.get("topics") or [])}
+                        if raw_topics & {"ui-library", "gui-library", "widget-toolkit", "rust-gui", "python-gui", "sdk", "framework", "game-engine"}:
+                            continue
                         if not bundle.release_assets and not (
                             raw_topics & {"gui", "desktop-app", "windows", "macos", "android", "ios"}
                         ):

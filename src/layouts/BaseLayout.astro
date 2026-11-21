@@ -23,6 +23,14 @@ const defaultJsonLd = {
   name: 'HubHum — A Git Hub for Humans',
   url: `${siteOrigin}${withBase('/')}`,
   description,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${siteOrigin}${withBase('/')}?q={search_term_string}`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
 };
 const effectiveJsonLd = jsonLd || defaultJsonLd;
 const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '').trim();
@@ -42,6 +50,13 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" type="application/rss+xml" title="HubHum — Free Open-Source Software Feed" href={withBase('/feed.xml')} />
+    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+    <link rel="alternate" hreflang="en" href={canonicalUrl} />
+    <link rel="alternate" hreflang="it" href={canonicalUrl} />
+    <link rel="alternate" hreflang="es" href={canonicalUrl} />
+    <link rel="alternate" hreflang="fr" href={canonicalUrl} />
+    <link rel="alternate" hreflang="de" href={canonicalUrl} />
     <link rel="manifest" href={withBase('/manifest.webmanifest')} />
     <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
     <link rel="alternate icon" href={withBase('/favicon.ico')} />
@@ -97,7 +112,10 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
       <div class="container header-inner">
         <a href={withBase('/')} class="brand" aria-label="HubHum — A Git Hub for Humans">
           <img
+            id="brand-logo-img"
             src={withBase('/logo.svg')}
+            data-logo-light={withBase('/logo.svg')}
+            data-logo-dark={withBase('/logo-dark.svg')}
             alt="HubHum — A Git Hub for Humans"
             width="176"
             height="38"
@@ -105,6 +123,12 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
             decoding="async"
           />
         </a>
+        <script is:inline>
+          if (document.documentElement.dataset.theme === 'dark') {
+            var logoEl = document.getElementById('brand-logo-img');
+            if (logoEl && logoEl.dataset && logoEl.dataset.logoDark) logoEl.src = logoEl.dataset.logoDark;
+          }
+        </script>
 
         <nav class="header-controls" aria-label="Main navigation">
           <a
@@ -282,6 +306,7 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
       const themeToggleBtn = document.getElementById('theme-toggle-btn') as HTMLButtonElement | null;
       const moonIcon = document.getElementById('theme-icon-moon');
       const sunIcon = document.getElementById('theme-icon-sun');
+      const brandLogoImg = document.getElementById('brand-logo-img') as HTMLImageElement | null;
 
       function applyTheme(nextTheme: 'light' | 'dark') {
         document.documentElement.dataset.theme = nextTheme;
@@ -294,6 +319,11 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
         if (moonIcon && sunIcon) {
           moonIcon.style.display = nextTheme === 'dark' ? 'none' : 'inline-block';
           sunIcon.style.display = nextTheme === 'dark' ? 'inline-block' : 'none';
+        }
+        if (brandLogoImg) {
+          const lightSrc = brandLogoImg.dataset.logoLight || withBase('/logo.svg');
+          const darkSrc = brandLogoImg.dataset.logoDark || withBase('/logo-dark.svg');
+          brandLogoImg.src = nextTheme === 'dark' ? darkSrc : lightSrc;
         }
       }
 

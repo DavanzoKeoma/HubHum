@@ -12,7 +12,7 @@ stars: 13510
 source_url: "https://github.com/ccfos/nightingale"
 download_url: "https://github.com/ccfos/nightingale/releases/download/v9.3.0/checksums.txt"
 downloadUrl: "https://github.com/ccfos/nightingale/releases/download/v9.3.0/checksums.txt"
-download_label: "Download (checksums.txt)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
@@ -22,7 +22,7 @@ price: "0"
 affiliate_merchant_id: "MER_008"
 affiliate_name: "InterServer"
 affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
+affiliate_pitch: "Want to launch it in 1 click on an optimized cloud server without manual setup?"
 ai_provider: "tier2_groq:qwen/qwen3.8-27b"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -69,7 +69,7 @@ Nightingale is a web application that runs on a server. You can download the lat
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
 * **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **ScalaHosting:** Optional managed VPS cloud hosting for web applications — [ScalaHosting](https://www.scalahosting.com/?subid=hubhum_01_MER009) (#ad)
+* **RoseHosting:** Optional managed Linux cloud server hosting — [RoseHosting](https://www.rosehosting.com/?subid=hubhum_01_MER014) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/ccfos/nightingale)

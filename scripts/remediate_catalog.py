@@ -238,8 +238,16 @@ def remediate_all() -> dict[str, object]:
                 cleaned_oses = [o.strip() for o in cur_os.split(",") if o.strip() and o.strip() != "Android"]
                 meta["operatingSystem"] = ", ".join(cleaned_oses) if cleaned_oses else "Windows, macOS, Linux"
 
-        # Isolate all #ad partner links strictly inside ### Sponsored Partner Tools (#ad)
-        cat_block = aff_cats.get(aff_key) or aff_cats.get("webapp_cms") or {}
+        # Isolate all #ad partner links strictly inside ### Sponsored Partner Tools (#ad) AND align frontmatter merchant
+        cat_block = aff_cats.get(aff_key) or aff_cats.get("productivity_utilities") or aff_cats.get("webapp_cms") or {}
+        merchants_by_id = affiliates_data.get("merchants_by_id") or {}
+        primary_id = str(cat_block.get("primary_merchant_id") or "")
+        if primary_id and primary_id in merchants_by_id:
+            pm = merchants_by_id[primary_id]
+            meta["affiliate_merchant_id"] = pm.get("merchant_id", primary_id)
+            meta["affiliate_name"] = pm.get("name", meta.get("affiliate_name", ""))
+            meta["affiliate_url"] = pm.get("tracking_url", meta.get("affiliate_url", ""))
+            meta["affiliate_pitch"] = str(cat_block.get("injection_message") or meta.get("affiliate_pitch", "")).replace('"', "'")
         triplet = cat_block.get("recommended_triplet") or []
         new_body = relocate_affiliate_links_to_sponsored_section(body, triplet=triplet).strip()
         if "### Sponsored Partner Tools (#ad)" in new_body:

@@ -22,7 +22,7 @@ price: "0"
 affiliate_merchant_id: "MER_054"
 affiliate_name: "Creative Fabrica"
 affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
-affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
+affiliate_pitch: "Compatible asset libraries, templates, and fonts for your creative projects."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-20"
@@ -71,8 +71,8 @@ You can also explore documentation and project files directly on the [Official S
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
-* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Placeit by Envato:** Optional browser-based mockup and template generator — [Placeit by Envato](https://placeit.net/?subid=hubhum_01_MER369) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)

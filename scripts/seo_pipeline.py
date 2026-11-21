@@ -12,7 +12,15 @@ from pathlib import Path
 
 from ai_router import AllTiersFailedError, generate_card_with_cascade
 from generate_catalog_index import write_catalog_index
-from scouter import ScoutedRepo, classify_repo, fetch_repo_by_url, humanize_license, record_processed_repo, sanitize_human_tags, scout_tiered_apps
+from scouter import (
+    ScoutedRepo,
+    classify_app_type_and_category,
+    fetch_repo_by_url,
+    humanize_license,
+    record_processed_repo,
+    sanitize_human_tags,
+    scout_tiered_apps,
+)
 from validator_sanitizer import (
     TRUNCATED_ENDING_WORDS,
     ensure_triplet_links_in_body,
@@ -43,9 +51,19 @@ def save_json_file(path: Path, payload: object) -> None:
 
 
 def select_affiliate_for_repo(repo: ScoutedRepo, affiliates_data: dict) -> dict:
-    """Pick the top-priority merchant and 3-link contextual triplet matching the repository category."""
-    _, _, aff_cat_key = classify_repo(repo.description, repo.topics, repo.readme_excerpt, repo.release_assets)
-    cat_block = affiliates_data.get("categories", {}).get(aff_cat_key) or affiliates_data["categories"]["webapp_cms"]
+    """Pick the top-priority merchant and 3-link contextual triplet matching the repository domain."""
+    has_installer = bool(str(repo.primary_download_url or "").lower().endswith((".exe", ".msi", ".dmg", ".pkg", ".appimage", ".deb", ".apk")))
+    _, _, _, _, aff_cat_key = classify_app_type_and_category(
+        slug=repo.slug,
+        title=repo.name,
+        description=repo.description,
+        topics=repo.topics,
+        readme=repo.readme_excerpt,
+        has_desktop_installer=has_installer,
+        current_tier=repo.scouting_tier,
+    )
+    cats = affiliates_data.get("categories", {})
+    cat_block = cats.get(aff_cat_key) or cats.get("productivity_utilities") or cats["webapp_cms"]
     primary_id = cat_block["primary_merchant_id"]
     merchant = affiliates_data["merchants_by_id"][primary_id]
     triplet = cat_block.get("recommended_triplet") or []

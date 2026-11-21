@@ -19,6 +19,7 @@ interface Props {
   tags: string[];
   isWebapp: boolean;
   appType?: AppType;
+  operatingSystem?: string;
   stars: number;
   icon: string;
   i18n?: I18nBlock;
@@ -33,6 +34,7 @@ const {
   tags,
   isWebapp,
   appType,
+  operatingSystem = 'Windows, macOS, Linux',
   stars,
   icon,
   i18n = {},
@@ -105,6 +107,7 @@ const cardAriaLabel =
   data-app-card
   data-category={category}
   data-app-type={resolvedType}
+  data-os={operatingSystem}
   data-search={searchText}
   data-top-pick={isTopPick ? 'true' : 'false'}
   data-summary-en={summary}

@@ -1,0 +1,35 @@
+name: Report a Bug, Broken Link or Bad Translation
+description: Report a broken official download link, misclassified format/OS, or translation mistake
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help keep HubHum accurate and safe. Tell us which app page, guide, or UI element needs fixing.
+  - type: input
+    id: page_url
+    attributes:
+      label: Affected HubHum Page or App Slug
+      placeholder: https://davanzokeoma.github.io/HubHum/apps/vlc/
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type
+      options:
+        - Broken or outdated official download link
+        - Wrong format or operating system label (e.g. CLI labeled as Desktop App)
+        - Confusing jargon or translation error (EN/IT/ES/FR/DE)
+        - Layout, accessibility, or Dark Mode contrast bug
+        - Compromised / unsafe upstream repository (Takedown request)
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe what you expected vs. what appears on the page.
+    validations:
+      required: true

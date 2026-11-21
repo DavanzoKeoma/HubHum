@@ -9,15 +9,37 @@ import { CATEGORY_I18N_KEY } from '../i18n/translations';
 const PAGE_SIZE = 24;
 
 const allApps = await getCollection('apps');
-const sortedApps = [...allApps].sort((a, b) => (b.data.stars || 0) - (a.data.stars || 0));
+const isConsumerFormat = (app: (typeof allApps)[number]) =>
+  app.data.app_type === 'desktop' || app.data.app_type === 'selfhosted' || app.data.app_type === 'webapp';
 
-const topPicks = sortedApps
-  .filter(
-    (app) =>
-      (app.data.stars || 0) > 0 &&
-      (app.data.app_type === 'desktop' || app.data.app_type === 'selfhosted')
-  )
-  .slice(0, 3);
+const sortedApps = [...allApps].sort((a, b) => {
+  const aConsumer = isConsumerFormat(a) ? 0 : 1;
+  const bConsumer = isConsumerFormat(b) ? 0 : 1;
+  if (aConsumer !== bConsumer) return aConsumer - bConsumer;
+  return (b.data.stars || 0) - (a.data.stars || 0);
+});
+
+const CONSUMER_TOP_PICK_SLUGS = [
+  'vlc',
+  'keepassxc',
+  'joplin',
+  'audacity',
+  'losslesscut',
+  'handbrake',
+  'stirling-pdf',
+  'immich',
+  'flameshot',
+  'localsend',
+  'bleachbit',
+];
+const consumerPool = sortedApps.filter((app) => isConsumerFormat(app) && (app.data.stars || 0) > 0);
+const curatedPicks = CONSUMER_TOP_PICK_SLUGS
+  .map((s) => consumerPool.find((app) => app.data.slug === s))
+  .filter((app): app is NonNullable<typeof app> => Boolean(app));
+const topPicks = [
+  ...curatedPicks,
+  ...consumerPool.filter((app) => !curatedPicks.some((c) => c.data.slug === app.data.slug)),
+].slice(0, 6);
 const topPickSlugs = new Set(topPicks.map((app) => app.data.slug));
 const initialPageApps = sortedApps.slice(0, PAGE_SIZE);
 const totalPages = Math.max(1, Math.ceil(sortedApps.length / PAGE_SIZE));
@@ -104,6 +126,36 @@ for (const cat of categories.slice(1)) {
         ))}
       </div>
     </div>
+
+    <div class="quick-filter-stack">
+      <div class="quick-filter-row" role="group" aria-label="Filter by format" data-i18n-aria="filterFormatLabel">
+        <button type="button" class="quick-filter-pill" aria-pressed="true" data-format-btn="all" data-i18n="filterFormatAll">
+          All Formats
+        </button>
+        <button type="button" class="quick-filter-pill" aria-pressed="false" data-format-btn="desktop">
+          🖥 <span data-i18n="filterFormatDesktop">Desktop Apps (GUI)</span>
+        </button>
+        <button type="button" class="quick-filter-pill" aria-pressed="false" data-format-btn="selfhosted">
+          ☁ <span data-i18n="filterFormatSelfHosted">Self-Hosted Apps</span>
+        </button>
+        <button type="button" class="quick-filter-pill" aria-pressed="false" data-format-btn="cli">
+          ⚡ <span data-i18n="filterFormatCli">Developer / CLI Tools</span>
+        </button>
+      </div>
+
+      <div class="quick-filter-row" role="group" aria-label="Filter by operating system" data-i18n-aria="filterOsLabel">
+        <button type="button" class="quick-filter-pill" aria-pressed="true" data-os-btn="all" data-i18n="filterOsAll">
+          All Systems
+        </button>
+        <button type="button" class="quick-filter-pill" aria-pressed="false" data-os-btn="windows">Windows</button>
+        <button type="button" class="quick-filter-pill" aria-pressed="false" data-os-btn="macos">macOS</button>
+        <button type="button" class="quick-filter-pill" aria-pressed="false" data-os-btn="linux">Linux</button>
+        <button type="button" class="quick-filter-pill" aria-pressed="false" data-os-btn="android">Android</button>
+        <button type="button" class="quick-filter-pill" aria-pressed="false" data-os-btn="browser" data-i18n="filterOsBrowser">
+          Browser / Cloud
+        </button>
+      </div>
+    </div>
   </section>
 
   {topPicks.length > 0 && (
@@ -122,6 +174,7 @@ for (const cat of categories.slice(1)) {
             tags={app.data.tags}
             isWebapp={app.data.is_webapp}
             appType={app.data.app_type}
+            operatingSystem={app.data.operatingSystem}
             stars={app.data.stars}
             icon={app.data.icon}
             i18n={app.data.i18n}
@@ -148,6 +201,7 @@ for (const cat of categories.slice(1)) {
           tags={app.data.tags}
           isWebapp={app.data.is_webapp}
           appType={app.data.app_type}
+          operatingSystem={app.data.operatingSystem}
           stars={app.data.stars}
           icon={app.data.icon}
           i18n={app.data.i18n}
@@ -262,6 +316,7 @@ for (const cat of categories.slice(1)) {
       icon: string;
       is_webapp: boolean;
       app_type?: AppType;
+      operatingSystem?: string;
       stars: number;
       summary: string;
       i18n?: Record<string, string>;
@@ -281,6 +336,8 @@ for (const cat of categories.slice(1)) {
     const PAGE_SIZE = 24;
     const searchInput = document.getElementById('hubhum-search') as HTMLInputElement | null;
     const categoryButtons = document.querySelectorAll<HTMLButtonElement>('[data-category-btn]');
+    const formatButtons = document.querySelectorAll<HTMLButtonElement>('[data-format-btn]');
+    const osButtons = document.querySelectorAll<HTMLButtonElement>('[data-os-btn]');
     const catalogGrid = document.getElementById('catalog-grid');
     const catalogSection = document.getElementById('catalog-section');
     const catalogCount = document.getElementById('catalog-count');
@@ -294,6 +351,8 @@ for (const cat of categories.slice(1)) {
     const paginationBar = document.getElementById('pagination-bar');
 
     let selectedCategory = 'All';
+    let selectedFormat = 'all';
+    let selectedOs = 'all';
     let currentPage = 1;
     let visibleExtraPages = 0;
     let catalogCache: CatalogEntry[] | null = null;
@@ -378,6 +437,7 @@ for (const cat of categories.slice(1)) {
       card.setAttribute('data-app-card', '');
       card.dataset.category = item.category;
       card.dataset.appType = appType;
+      card.dataset.os = item.operatingSystem || 'Windows, macOS, Linux';
       card.dataset.summaryEn = item.summary;
       card.dataset.summaryIt = item.i18n?.it || item.summary;
       card.dataset.summaryEs = item.i18n?.es || item.summary;
@@ -491,12 +551,24 @@ for (const cat of categories.slice(1)) {
       }
     }
 
+    function isConsumerAppEntry(item: CatalogEntry): boolean {
+      const t = item.app_type || (item.is_webapp ? 'webapp' : 'desktop');
+      return t === 'desktop' || t === 'selfhosted' || t === 'webapp';
+    }
+
     async function renderCatalogPage() {
       const q = (searchInput?.value || '').trim().toLowerCase();
-      const isDefaultView = !q && selectedCategory === 'All' && currentPage === 1 && visibleExtraPages === 0;
+      const isDefaultView =
+        !q &&
+        selectedCategory === 'All' &&
+        selectedFormat === 'all' &&
+        selectedOs === 'all' &&
+        currentPage === 1 &&
+        visibleExtraPages === 0;
 
       if (topPicksSection) {
-        topPicksSection.style.display = !q && selectedCategory === 'All' ? 'block' : 'none';
+        topPicksSection.style.display =
+          !q && selectedCategory === 'All' && selectedFormat === 'all' && selectedOs === 'all' ? 'block' : 'none';
       }
 
       if (!hasInteracted) {
@@ -506,13 +578,34 @@ for (const cat of categories.slice(1)) {
       }
 
       const allItems = await ensureCatalogLoaded();
-      const filtered = allItems.filter((item) => {
-        const matchesCat = selectedCategory === 'All' || item.category === selectedCategory;
-        if (!matchesCat) return false;
-        if (!q) return true;
-        const hay = `${item.name} ${item.summary} ${Object.values(item.i18n || {}).join(' ')} ${item.category} ${(item.tags || []).join(' ')}`.toLowerCase();
-        return hay.includes(q);
-      });
+      const filtered = allItems
+        .filter((item) => {
+          const t = item.app_type || (item.is_webapp ? 'webapp' : 'desktop');
+          const matchesCat = selectedCategory === 'All' || item.category === selectedCategory;
+          if (!matchesCat) return false;
+          if (selectedFormat === 'desktop' && t !== 'desktop') return false;
+          if (selectedFormat === 'selfhosted' && t !== 'selfhosted' && t !== 'webapp') return false;
+          if (selectedFormat === 'cli' && t !== 'cli' && t !== 'resource') return false;
+          if (selectedOs !== 'all') {
+            const osLow = String(item.operatingSystem || '').toLowerCase();
+            if (selectedOs === 'browser') {
+              if (!osLow.includes('browser') && !osLow.includes('self-hosted') && !osLow.includes('online')) return false;
+            } else if (!osLow.includes(selectedOs)) {
+              return false;
+            }
+          }
+          if (!q) return true;
+          const hay = `${item.name} ${item.summary} ${Object.values(item.i18n || {}).join(' ')} ${item.category} ${(item.tags || []).join(' ')}`.toLowerCase();
+          return hay.includes(q);
+        })
+        .sort((a, b) => {
+          if (selectedFormat === 'all') {
+            const ac = isConsumerAppEntry(a) ? 0 : 1;
+            const bc = isConsumerAppEntry(b) ? 0 : 1;
+            if (ac !== bc) return ac - bc;
+          }
+          return (b.stars || 0) - (a.stars || 0);
+        });
 
       const startIdx = (currentPage - 1) * PAGE_SIZE;
       const endIdx = Math.min(filtered.length, startIdx + PAGE_SIZE * (1 + visibleExtraPages));
@@ -533,6 +626,14 @@ for (const cat of categories.slice(1)) {
       Number(catalogCount?.dataset.totalApps || '0'),
       Math.min(PAGE_SIZE, Number(catalogCount?.dataset.totalApps || '0'))
     );
+
+    // Support Schema.org SearchAction URL (?q=...)
+    const initialSearchQuery = new URLSearchParams(window.location.search).get('q');
+    if (initialSearchQuery && searchInput) {
+      searchInput.value = initialSearchQuery;
+      hasInteracted = true;
+      renderCatalogPage();
+    }
 
     window.addEventListener('hubhum:langchange', () => {
       const totalEl = catalogCount;
@@ -557,6 +658,30 @@ for (const cat of categories.slice(1)) {
         categoryButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
         btn.setAttribute('aria-pressed', 'true');
         selectedCategory = btn.dataset.categoryBtn || 'All';
+        currentPage = 1;
+        visibleExtraPages = 0;
+        renderCatalogPage();
+      });
+    });
+
+    formatButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        hasInteracted = true;
+        formatButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
+        btn.setAttribute('aria-pressed', 'true');
+        selectedFormat = btn.dataset.formatBtn || 'all';
+        currentPage = 1;
+        visibleExtraPages = 0;
+        renderCatalogPage();
+      });
+    });
+
+    osButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        hasInteracted = true;
+        osButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
+        btn.setAttribute('aria-pressed', 'true');
+        selectedOs = btn.dataset.osBtn || 'all';
         currentPage = 1;
         visibleExtraPages = 0;
         renderCatalogPage();

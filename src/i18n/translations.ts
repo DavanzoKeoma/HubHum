@@ -138,6 +138,35 @@ export interface TranslationDict {
   oauthSignInBtn: string;
   oauthSignInDesc: string;
   oauthConnecting: string;
+  filterFormatLabel: string;
+  filterFormatAll: string;
+  filterFormatDesktop: string;
+  filterFormatSelfHosted: string;
+  filterFormatCli: string;
+  filterOsLabel: string;
+  filterOsAll: string;
+  filterOsBrowser: string;
+  secWhatItDoes: string;
+  secWhoItsFor: string;
+  secKeyFeatures: string;
+  secHowToInstall: string;
+  secProsAndCons: string;
+  secSponsoredTools: string;
+  secSponsoredNote: string;
+  secOfficialSource: string;
+  labelPros: string;
+  labelCons: string;
+  guideLevelPillar: string;
+  guideLevelSubpillar: string;
+  guideLevelComparison: string;
+  guideLevelFoundations: string;
+  guideLevelTroubleshooting: string;
+  guideSubpillarsHeading: string;
+  guideArticlesHeading: string;
+  guideGuidesSub: string;
+  guideFeaturedAppsHeading: string;
+  guideFeaturedAppsSub: string;
+  guideToolsCoveredSuffix: string;
 }
 
 export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
@@ -275,6 +304,36 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     oauthSignInBtn: 'Sign in with GitHub',
     oauthSignInDesc: 'Sign in with one click to link your GitHub profile and sync favorites.',
     oauthConnecting: 'Connecting your GitHub account...',
+    filterFormatLabel: 'Filter by format',
+    filterFormatAll: 'All Formats',
+    filterFormatDesktop: 'Desktop Apps (GUI)',
+    filterFormatSelfHosted: 'Self-Hosted Apps',
+    filterFormatCli: 'Developer / CLI Tools',
+    filterOsLabel: 'Filter by operating system',
+    filterOsAll: 'All Systems',
+    filterOsBrowser: 'Browser / Cloud',
+    secWhatItDoes: 'What it does in plain English',
+    secWhoItsFor: "Who it's for",
+    secKeyFeatures: 'Key features',
+    secHowToInstall: 'How to install (Download)',
+    secProsAndCons: 'Pros and Cons',
+    secSponsoredTools: 'Sponsored Partner Tools (#ad)',
+    secSponsoredNote:
+      'Optional commercial services unrelated to the open-source developer. Clicking an #ad link helps fund HubHum at no extra cost to you.',
+    secOfficialSource: 'Official Source & Credits:',
+    labelPros: 'Pros',
+    labelCons: 'Cons',
+    guideLevelPillar: 'Main Category Guide',
+    guideLevelSubpillar: 'Focus Topic Hub',
+    guideLevelComparison: 'Comparison Guide',
+    guideLevelFoundations: 'Beginner Foundations',
+    guideLevelTroubleshooting: 'Troubleshooting Guide',
+    guideSubpillarsHeading: 'Focus Topics in This Category',
+    guideArticlesHeading: 'Practical Guides & Comparisons',
+    guideGuidesSub: 'Choose a guide below to compare options and find step-by-step advice',
+    guideFeaturedAppsHeading: 'Verified Free Software Featured in This Guide',
+    guideFeaturedAppsSub: 'Click any tool to open its plain-English sheet and official download links',
+    guideToolsCoveredSuffix: 'tools covered',
   },
   it: {
     brandSub: 'App libere per tutti',
@@ -410,6 +469,36 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     oauthSignInBtn: 'Accedi con GitHub',
     oauthSignInDesc: 'Accedi in 1 click per collegare il tuo profilo GitHub ai tuoi preferiti.',
     oauthConnecting: 'Collegamento account GitHub in corso...',
+    filterFormatLabel: 'Filtra per formato',
+    filterFormatAll: 'Tutti i Formati',
+    filterFormatDesktop: 'App Desktop (GUI)',
+    filterFormatSelfHosted: 'App Self-Hosted',
+    filterFormatCli: 'Strumenti per Sviluppatori / CLI',
+    filterOsLabel: 'Filtra per sistema operativo',
+    filterOsAll: 'Tutti i Sistemi',
+    filterOsBrowser: 'Browser / Cloud',
+    secWhatItDoes: 'Cosa fa in parole semplici',
+    secWhoItsFor: 'A chi è utile',
+    secKeyFeatures: 'Funzionalità principali',
+    secHowToInstall: 'Come installarlo (Download ufficiale)',
+    secProsAndCons: 'Pro e Contro',
+    secSponsoredTools: 'Strumenti Partner Sponsorizzati (#ad)',
+    secSponsoredNote:
+      'Servizi commerciali opzionali non affiliati allo sviluppatore open-source. I link #ad aiutano a sostenere HubHum senza costi extra.',
+    secOfficialSource: 'Fonte Ufficiale e Crediti:',
+    labelPros: 'Pro',
+    labelCons: 'Contro',
+    guideLevelPillar: 'Guida Principale di Categoria',
+    guideLevelSubpillar: 'Focus Tematico',
+    guideLevelComparison: 'Guida Comparativa',
+    guideLevelFoundations: 'Guida per Principianti',
+    guideLevelTroubleshooting: 'Risoluzione Problemi',
+    guideSubpillarsHeading: 'Argomenti in Questa Categoria',
+    guideArticlesHeading: 'Guide Pratiche e Confronti',
+    guideGuidesSub: 'Scegli una guida qui sotto per confrontare le alternative passo dopo passo',
+    guideFeaturedAppsHeading: 'Software Gratuiti Verificati in Questa Guida',
+    guideFeaturedAppsSub: 'Apri qualsiasi scheda per leggere la guida semplice e scaricare dai canali ufficiali',
+    guideToolsCoveredSuffix: 'strumenti analizzati',
   },
   es: {
     brandSub: 'Software libre para todos',
@@ -545,6 +634,36 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     oauthSignInBtn: 'Iniciar sesión con GitHub',
     oauthSignInDesc: 'Inicia sesión en 1 clic para conectar tu cuenta de GitHub y tus favoritos.',
     oauthConnecting: 'Conectando tu cuenta de GitHub...',
+    filterFormatLabel: 'Filtrar por formato',
+    filterFormatAll: 'Todos los Formatos',
+    filterFormatDesktop: 'Apps de Escritorio (GUI)',
+    filterFormatSelfHosted: 'Apps Autoalojadas',
+    filterFormatCli: 'Herramientas CLI / Dev',
+    filterOsLabel: 'Filtrar por sistema operativo',
+    filterOsAll: 'Todos los Sistemas',
+    filterOsBrowser: 'Navegador / Nube',
+    secWhatItDoes: 'Qué hace explicado de forma sencilla',
+    secWhoItsFor: 'Para quién es útil',
+    secKeyFeatures: 'Funciones principales',
+    secHowToInstall: 'Cómo instalarlo (Descarga oficial)',
+    secProsAndCons: 'Pros y Contras',
+    secSponsoredTools: 'Herramientas Asociadas Patrocinadas (#ad)',
+    secSponsoredNote:
+      'Servicios comerciales opcionales ajenos al autor original. Los enlaces #ad ayudan a mantener HubHum gratis sin coste adicional.',
+    secOfficialSource: 'Fuente Oficial y Créditos:',
+    labelPros: 'Pros',
+    labelCons: 'Contras',
+    guideLevelPillar: 'Guía Principal de Categoría',
+    guideLevelSubpillar: 'Tema Específico',
+    guideLevelComparison: 'Guía Comparativa',
+    guideLevelFoundations: 'Guía para Principiantes',
+    guideLevelTroubleshooting: 'Solución de Problemas',
+    guideSubpillarsHeading: 'Temas en Esta Categoría',
+    guideArticlesHeading: 'Guías Prácticas y Comparativas',
+    guideGuidesSub: 'Elige una guía para comparar alternativas paso a paso',
+    guideFeaturedAppsHeading: 'Software Gratuito Verificado en Esta Guía',
+    guideFeaturedAppsSub: 'Abre cualquier ficha para ver el resumen sencillo y enlaces oficiales',
+    guideToolsCoveredSuffix: 'herramientas analizadas',
   },
   fr: {
     brandSub: 'Logiciels libres pour tous',
@@ -680,6 +799,36 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     oauthSignInBtn: 'Se connecter avec GitHub',
     oauthSignInDesc: 'Connectez-vous en 1 clic pour associer votre compte GitHub et vos favoris.',
     oauthConnecting: 'Connexion à GitHub en cours...',
+    filterFormatLabel: 'Filtrer par format',
+    filterFormatAll: 'Tous les Formats',
+    filterFormatDesktop: 'Apps Bureau (GUI)',
+    filterFormatSelfHosted: 'Apps Auto-hébergées',
+    filterFormatCli: 'Outils Développeurs / CLI',
+    filterOsLabel: 'Filtrer par système',
+    filterOsAll: 'Tous les Systèmes',
+    filterOsBrowser: 'Navigateur / Cloud',
+    secWhatItDoes: 'À quoi ça sert en termes simples',
+    secWhoItsFor: 'Pour qui est-ce adapté',
+    secKeyFeatures: 'Fonctionnalités clés',
+    secHowToInstall: "Comment l'installer (Téléchargement)",
+    secProsAndCons: 'Avantages et Inconvénients',
+    secSponsoredTools: 'Outils Partenaires Sponsorisés (#ad)',
+    secSponsoredNote:
+      'Services commerciaux optionnels sans lien avec le développeur open-source. Ces liens #ad soutiennent HubHum sans surcoût.',
+    secOfficialSource: 'Source Officielle et Crédits :',
+    labelPros: 'Avantages',
+    labelCons: 'Limites',
+    guideLevelPillar: 'Guide Principal de Catégorie',
+    guideLevelSubpillar: 'Thème Ciblé',
+    guideLevelComparison: 'Comparatif Détaillé',
+    guideLevelFoundations: 'Guide Débutant',
+    guideLevelTroubleshooting: 'Dépannage & Solutions',
+    guideSubpillarsHeading: 'Sous-thèmes dans Cette Catégorie',
+    guideArticlesHeading: 'Guides Pratiques & Comparatifs',
+    guideGuidesSub: 'Choisissez un guide ci-dessous pour comparer les options étape par étape',
+    guideFeaturedAppsHeading: 'Logiciels Gratuits Vérifiés dans Ce Guide',
+    guideFeaturedAppsSub: 'Cliquez sur une fiche pour consulter l’explication simple et le lien officiel',
+    guideToolsCoveredSuffix: 'outils couverts',
   },
   de: {
     brandSub: 'Freie Software für alle',
@@ -815,6 +964,36 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     oauthSignInBtn: 'Mit GitHub anmelden',
     oauthSignInDesc: 'Melden Sie sich mit 1 Klick an, um Ihr GitHub-Konto zu verbinden.',
     oauthConnecting: 'GitHub-Konto wird verbunden...',
+    filterFormatLabel: 'Nach Format filtern',
+    filterFormatAll: 'Alle Formate',
+    filterFormatDesktop: 'Desktop-Apps (GUI)',
+    filterFormatSelfHosted: 'Self-Hosted-Apps',
+    filterFormatCli: 'Entwickler- & CLI-Tools',
+    filterOsLabel: 'Nach System filtern',
+    filterOsAll: 'Alle Systeme',
+    filterOsBrowser: 'Browser / Cloud',
+    secWhatItDoes: 'Was es einfach erklärt macht',
+    secWhoItsFor: 'Für wen es geeignet ist',
+    secKeyFeatures: 'Hauptfunktionen',
+    secHowToInstall: 'Installation & Download',
+    secProsAndCons: 'Vorteile & Nachteile',
+    secSponsoredTools: 'Gesponserte Partner-Tools (#ad)',
+    secSponsoredNote:
+      'Optionale kommerzielle Dienste ohne Verbindung zum Open-Source-Autor. Mit #ad markierte Links finanzieren HubHum ohne Aufpreis.',
+    secOfficialSource: 'Offizielle Quelle & Credits:',
+    labelPros: 'Vorteile',
+    labelCons: 'Nachteile',
+    guideLevelPillar: 'Hauptkategorie-Ratgeber',
+    guideLevelSubpillar: 'Themen-Hub',
+    guideLevelComparison: 'Vergleichsratgeber',
+    guideLevelFoundations: 'Einsteiger-Grundlagen',
+    guideLevelTroubleshooting: 'Fehlerbehebung',
+    guideSubpillarsHeading: 'Schwerpunkte in dieser Kategorie',
+    guideArticlesHeading: 'Praxisratgeber & Vergleiche',
+    guideGuidesSub: 'Wählen Sie unten einen Ratgeber für Vergleiche und Schritt-für-Schritt-Tipps',
+    guideFeaturedAppsHeading: 'Geprüfte kostenlose Software in diesem Ratgeber',
+    guideFeaturedAppsSub: 'Öffnen Sie eine Karte für verständliche Infos und offizielle Download-Links',
+    guideToolsCoveredSuffix: 'Programme behandelt',
   },
 };
 

@@ -19,10 +19,10 @@ operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_008"
-affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
+affiliate_merchant_id: "MER_276"
+affiliate_name: "Rank Math Direct"
+affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
+affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
 featured_weekly: true
 updated_at: "2026-11-18"
 i18n:
@@ -64,8 +64,8 @@ Because Ghost runs online as a web application, you host it on a cloud server ra
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
 * **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **Elementor Pro Direct:** Optional visual page builder for WordPress sites — [Elementor Pro Direct](https://elementor.com/?subid=hubhum_01_MER265) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/TryGhost/Ghost)
