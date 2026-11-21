@@ -7,7 +7,7 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
 
 <BaseLayout
   title="Privacy Policy — HubHum"
-  description="Zero-cookie, zero-tracking privacy policy for HubHum and the HubHum Chrome Extension (Manifest V3)."
+  description="Privacy-by-design disclosure for HubHum and the HubHum Chrome Extension (Manifest V3), including optional IP-anonymized GA4 analytics and 1-click browser opt-out."
 >
   <div class="container detail-wrap">
     <a href={withBase('/')} class="breadcrumb">← Back to HubHum Catalog</a>
@@ -44,9 +44,25 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
           Personally Identifiable Information (PII), IP logs, health/financial data, or authentication credentials.
         </li>
         <li>
-          <strong>Zero Third-Party Tracking Cookies:</strong> HubHum sets no third-party advertising cookies or cross-site
-          behavioral trackers. Local favorites (<code>localStorage</code>) and active extension conversion progress (
-          <code>chrome.storage.local</code>) remain strictly inside your own browser device.
+          <strong>Web Traffic Analytics (GA4 &amp; Cloudflare Web Analytics):</strong> When configured via{' '}
+          <code>PUBLIC_GA_MEASUREMENT_ID</code>, the HubHum website uses Google Analytics 4 (<code>gtag.js</code>) with{' '}
+          <code>anonymize_ip: true</code>, <code>allow_google_signals: false</code>, and{' '}
+          <code>allow_ad_personalization_signals: false</code> solely to measure aggregated page views, referral
+          sources, and popular software guides. Cross-site ad tracking, remarketing, and personal user profiling remain
+          disabled, and local extension/favorite preferences (<code>localStorage</code> /{' '}
+          <code>chrome.storage.local</code>) never leave your device.
+        </li>
+        <li>
+          <strong>How to Disable / Opt Out:</strong> You can disable analytics at any time using your browser&apos;s
+          tracking protection, the{' '}
+          <a
+            href="https://tools.google.com/dlpage/gaoptout"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="color:var(--accent-fg-text);text-decoration:underline;"
+          >
+            Google Analytics Opt-out Browser Add-on
+          </a>, or our instant browser opt-out toggle below (stored locally as <code>hubhum_ga_optout</code>).
         </li>
         <li>
           <strong>Single Purpose &amp; Limited Use Compliance:</strong> All requested permissions (<code>activeTab</code>,{' '}
@@ -80,10 +96,13 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
           repository privati, credenziali, email o cronologia di navigazione personale.
         </li>
         <li>
-          <strong>Nessuna profilazione, nessuna vendita di dati, nessun cookie di tracciamento:</strong> Non raccogliamo,
-          non profiliamo e non vendiamo dati personali identificativi (PII) né utilizziamo cookie di tracciamento di terze
-          parti. Preferiti e stato delle conversioni vengono salvati unicamente in locale nel tuo browser (
-          <code>localStorage</code> / <code>chrome.storage.local</code>).
+          <strong>Statistiche di traffico (GA4 &amp; Cloudflare Web Analytics):</strong> Quando configurato tramite{' '}
+          <code>PUBLIC_GA_MEASUREMENT_ID</code>, il sito HubHum utilizza Google Analytics 4 (<code>gtag.js</code>) con{' '}
+          <code>anonymize_ip: true</code>, Google Signals disattivati e personalizzazione annunci disabilitata al solo
+          fine di rilevare visite aggregate, provenienza del traffico e guide più consultate. Nessuna profilazione PII,
+          nessun remarketing e nessun accesso ai preferiti locali (<code>localStorage</code> /{' '}
+          <code>chrome.storage.local</code>). Puoi disattivare il rilevamento in qualsiasi momento tramite il componente
+          ufficiale di Google o il pulsante di opt-out locale qui sotto.
         </li>
         <li>
           <strong>Conformità Chrome Web Store (Single Purpose &amp; Limited Use):</strong> I permessi{' '}
@@ -92,6 +111,20 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
           notifica desktop al completamento.
         </li>
       </ul>
+
+      <div
+        style="margin-top:1.5rem;padding:1rem;border:1px solid var(--border);border-radius:var(--radius-md);background:var(--surface-muted);"
+      >
+        <h2 style="margin:0 0 0.4rem;font-size:1.1rem;color:var(--text);">
+          Analytics Opt-Out Preference (This Browser)
+        </h2>
+        <p id="ga-optout-status" style="margin:0 0 0.75rem;font-size:0.9rem;color:var(--text-muted);">
+          Loading analytics preference...
+        </p>
+        <button type="button" id="ga-optout-btn" class="btn btn-outline">
+          Disable Google Analytics 4 in This Browser
+        </button>
+      </div>
 
       <h2 style="margin-top:1.8rem;font-size:1.25rem;color:var(--text);">
         3. Contact &amp; Takedown Requests
@@ -102,7 +135,7 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
           href="https://github.com/DavanzoKeoma/HubHum"
           target="_blank"
           rel="noopener noreferrer"
-          style="color:var(--accent);text-decoration:underline;"
+          style="color:var(--accent-fg-text);text-decoration:underline;"
         >
           DavanzoKeoma/HubHum on GitHub
         </a>{' '}
@@ -110,4 +143,39 @@ const lastUpdated = new Date().toISOString().slice(0, 10);
       </p>
     </section>
   </div>
+
+  <script>
+    const optOutBtn = document.getElementById('ga-optout-btn') as HTMLButtonElement | null;
+    const optOutStatus = document.getElementById('ga-optout-status');
+
+    function isOptedOut(): boolean {
+      try {
+        return localStorage.getItem('hubhum_ga_optout') === '1';
+      } catch {
+        return false;
+      }
+    }
+
+    function syncOptOutUi() {
+      const disabled = isOptedOut();
+      if (optOutStatus) {
+        optOutStatus.textContent = disabled
+          ? 'Current status: Google Analytics 4 is DISABLED in this browser (hubhum_ga_optout=1).'
+          : 'Current status: IP-anonymized Google Analytics 4 is allowed when enabled on the site (hubhum_ga_optout=0).';
+      }
+      if (optOutBtn) {
+        optOutBtn.textContent = disabled
+          ? 'Re-enable Analytics in This Browser'
+          : 'Disable Google Analytics 4 in This Browser';
+      }
+    }
+
+    syncOptOutUi();
+    optOutBtn?.addEventListener('click', () => {
+      try {
+        localStorage.setItem('hubhum_ga_optout', isOptedOut() ? '0' : '1');
+      } catch {}
+      syncOptOutUi();
+    });
+  </script>
 </BaseLayout>

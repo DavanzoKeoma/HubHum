@@ -31,9 +31,12 @@ try {
 }
 
 const activeAffiliateLinks = allApps.length * 3;
-const totalStaticUrls = 4 + allApps.length + allBundles.length + allGuides.length;
+const totalStaticUrls = 5 + allApps.length + allBundles.length + allGuides.length;
 const buildTimestampUtc = new Date().toISOString();
 const cfAnalyticsConfigured = Boolean(String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '').trim());
+const rawGaId = String(import.meta.env.PUBLIC_GA_MEASUREMENT_ID || '').trim();
+const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
+const gaConfigured = Boolean(gaMeasurementId);
 
 const recentConverted = [...allApps]
   .sort((a, b) => (b.data.stars || 0) - (a.data.stars || 0))
@@ -93,7 +96,7 @@ const quotaTargets = [
         <p style="margin:0;font-size:0.82rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;">
           2. Affiliate Ecosystem
         </p>
-        <p style="margin:0.3rem 0;font-size:2rem;font-weight:800;color:#5b21b6;line-height:1.1;">
+        <p style="margin:0.3rem 0;font-size:2rem;font-weight:800;color:var(--cloud-fg-text);line-height:1.1;">
           {activeAffiliateLinks}
         </p>
         <p style="margin:0;font-size:0.86rem;color:var(--text-muted);">
@@ -105,7 +108,7 @@ const quotaTargets = [
         <p style="margin:0;font-size:0.82rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;">
           3. Sitemap &amp; Schema.org
         </p>
-        <p style="margin:0.3rem 0;font-size:2rem;font-weight:800;color:#059669;line-height:1.1;">
+        <p style="margin:0.3rem 0;font-size:2rem;font-weight:800;color:var(--new-text);line-height:1.1;">
           {totalStaticUrls} URLs
         </p>
         <p style="margin:0;font-size:0.86rem;color:var(--text-muted);">
@@ -115,15 +118,98 @@ const quotaTargets = [
 
       <div class="side-card">
         <p style="margin:0;font-size:0.82rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;">
-          4. Zero-Cookie Analytics
+          4. Traffic &amp; Web Analytics
         </p>
         <p style="margin:0.3rem 0;font-size:1.35rem;font-weight:800;color:var(--text);line-height:1.25;">
-          {cfAnalyticsConfigured ? 'Cloudflare Beacon Active' : 'Standby (Ready)'}
+          {gaConfigured ? `GA4 Active (${gaMeasurementId})` : cfAnalyticsConfigured ? 'Cloudflare Beacon Active' : 'GA4 Standby (Ready)'}
         </p>
         <p style="margin:0;font-size:0.84rem;color:var(--text-muted);">
-          Privacy-first script bound via <code>PUBLIC_CF_ANALYTICS_TOKEN</code>
+          GA4: <code>{gaConfigured ? gaMeasurementId : 'Unset'}</code> • CF Beacon:{' '}
+          <code>{cfAnalyticsConfigured ? 'Active' : 'Standby'}</code>
         </p>
       </div>
+    </section>
+
+    <!-- Traffic & Analytics Console Links -->
+    <section id="traffic-analytics" class="side-card" style="margin-bottom:1.5rem;">
+      <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:1rem;margin-bottom:1rem;">
+        <div>
+          <h2 style="margin:0 0 0.25rem;font-size:1.2rem;color:var(--text);">
+            Traffic &amp; Analytics
+          </h2>
+          <p style="margin:0;font-size:0.9rem;color:var(--text-muted);">
+            Live configuration state and direct operator links to Google Analytics 4 and Google Search Console.
+          </p>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:0.6rem;">
+          <a
+            href="https://analytics.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Open Google Analytics 4 →
+          </a>
+          <a
+            href="https://search.google.com/search-console"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline"
+          >
+            Open Search Console →
+          </a>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0.85rem;">
+        <div style="border:1px solid var(--border);border-radius:var(--radius-md);padding:0.9rem;background:var(--surface-muted);">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;margin-bottom:0.35rem;">
+            <strong style="font-size:0.92rem;color:var(--text);">Google Analytics 4</strong>
+            <span class={gaConfigured ? 'new-badge' : 'mode-badge cli'}>
+              {gaConfigured ? `Active (${gaMeasurementId})` : 'Standby (Ready)'}
+            </span>
+          </div>
+          <p style="margin:0;font-size:0.84rem;color:var(--text-muted);">
+            Loads <code>gtag.js</code> asynchronously with <code>anonymize_ip: true</code> and ad personalization disabled
+            whenever repository variable <code>PUBLIC_GA_MEASUREMENT_ID</code> is set.
+          </p>
+        </div>
+
+        <div style="border:1px solid var(--border);border-radius:var(--radius-md);padding:0.9rem;background:var(--surface-muted);">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;margin-bottom:0.35rem;">
+            <strong style="font-size:0.92rem;color:var(--text);">Google Search Console</strong>
+            <span class="new-badge">Verified</span>
+          </div>
+          <p style="margin:0;font-size:0.84rem;color:var(--text-muted);">
+            Ownership meta tag embedded in every page;{' '}
+            <a href={withBase('/sitemap-index.xml')} style="color:var(--accent-fg-text);text-decoration:underline;">
+              sitemap-index.xml
+            </a>{' '}
+            exposes <strong>{totalStaticUrls} URLs</strong>.
+          </p>
+        </div>
+
+        <div style="border:1px solid var(--border);border-radius:var(--radius-md);padding:0.9rem;background:var(--surface-muted);">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;margin-bottom:0.35rem;">
+            <strong style="font-size:0.92rem;color:var(--text);">Cloudflare Web Analytics</strong>
+            <span class={cfAnalyticsConfigured ? 'new-badge' : 'mode-badge cli'}>
+              {cfAnalyticsConfigured ? 'Active' : 'Standby (Optional)'}
+            </span>
+          </div>
+          <p style="margin:0;font-size:0.84rem;color:var(--text-muted);">
+            Zero-cookie beacon controlled cleanly via repository variable <code>PUBLIC_CF_ANALYTICS_TOKEN</code>.
+          </p>
+        </div>
+      </div>
+
+      <p style="margin:0.9rem 0 0;font-size:0.83rem;color:var(--text-muted);">
+        Activate GA4 via GitHub Actions Variables:{' '}
+        <code>gh variable set PUBLIC_GA_MEASUREMENT_ID --body &quot;G-XXXXXXXXXX&quot; --repo DavanzoKeoma/HubHum</code>{' '}
+        • Privacy controls &amp; browser opt-out documented on{' '}
+        <a href={withBase('/privacy/')} style="color:var(--accent-fg-text);text-decoration:underline;">
+          /privacy/
+        </a>.
+      </p>
     </section>
 
     <div class="detail-grid">
@@ -138,14 +224,14 @@ const quotaTargets = [
 
         <div style="display:flex;flex-direction:column;gap:0.9rem;margin-top:1rem;">
           {quotaTargets.map((row) => (
-            <div style="border:1px solid var(--border);border-radius:12px;padding:0.85rem 1rem;background:#f8fafc;">
+            <div style="border:1px solid var(--border);border-radius:12px;padding:0.85rem 1rem;background:var(--surface-muted);">
               <div style="display:flex;justify-content:space-between;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">
                 <strong style="font-size:0.92rem;">{row.label}</strong>
                 <span style="font-size:0.82rem;font-weight:700;color:var(--text-muted);">
                   Target: {row.quota}/day ({row.share}) • Live: {row.current}
                 </span>
               </div>
-              <div class="progress-track" style="height:10px;background:#e2e8f0;">
+              <div class="progress-track" style="height:10px;background:var(--border);">
                 <div
                   style={`height:100%;width:${Math.min(100, Math.max(4, Math.round((row.current / row.quota) * 100)))}%;background:${row.color};border-radius:999px;`}
                 ></div>
@@ -162,11 +248,11 @@ const quotaTargets = [
               <div style="display:grid;grid-template-columns:150px 1fr 90px;align-items:center;gap:0.75rem;font-size:0.88rem;">
                 <a
                   href={withBase(`/apps/${app.data.slug}/`)}
-                  style="font-weight:700;color:var(--accent);text-decoration:underline;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"
+                  style="font-weight:700;color:var(--accent-fg-text);text-decoration:underline;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"
                 >
                   {app.data.title}
                 </a>
-                <div style="height:12px;background:#f1f5f9;border-radius:999px;overflow:hidden;border:1px solid var(--border);">
+                <div style="height:12px;background:var(--surface-muted);border-radius:999px;overflow:hidden;border:1px solid var(--border);">
                   <div
                     style={`height:100%;width:${widthPct}%;background:linear-gradient(90deg,#2563eb,#7c3aed);border-radius:999px;`}
                   ></div>

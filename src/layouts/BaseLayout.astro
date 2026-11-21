@@ -26,6 +26,8 @@ const defaultJsonLd = {
 };
 const effectiveJsonLd = jsonLd || defaultJsonLd;
 const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '').trim();
+const rawGaId = String(import.meta.env.PUBLIC_GA_MEASUREMENT_ID || '').trim();
+const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
 ---
 
 <!doctype html>
@@ -496,6 +498,32 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
         src="https://static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon={JSON.stringify({ token: cfAnalyticsToken })}
       ></script>
+    )}
+    {gaMeasurementId && (
+      <>
+        <script is:inline define:vars={{ gaMeasurementId }}>
+          (function () {
+            try {
+              if (localStorage.getItem('hubhum_ga_optout') === '1') {
+                window['ga-disable-' + gaMeasurementId] = true;
+                return;
+              }
+            } catch (_) {}
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              window.dataLayer.push(arguments);
+            }
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', gaMeasurementId, {
+              anonymize_ip: true,
+              allow_google_signals: false,
+              allow_ad_personalization_signals: false,
+            });
+          })();
+        </script>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
+      </>
     )}
   </body>
 </html>
