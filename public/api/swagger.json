@@ -1,0 +1,212 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "HubHum Open-Source Software Directory API",
+    "version": "1.1.0",
+    "description": "Public read-only JSON, RSS, and plain-text RAG API for HubHum (\"A Git Hub for Humans\"). Exposes 1,000+ curated free and open-source software applications, hierarchical Topic Cluster guides, and upstream release links with zero authentication required.",
+    "license": {
+      "name": "MIT",
+      "url": "https://github.com/DavanzoKeoma/HubHum/blob/main/LICENSE"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://davanzokeoma.github.io/HubHum",
+      "description": "Production GitHub Pages Static Endpoint"
+    }
+  ],
+  "paths": {
+    "/api/catalog.json": {
+      "get": {
+        "summary": "Get the complete structured catalog of indexed open-source software",
+        "operationId": "getCatalog",
+        "responses": {
+          "200": {
+            "description": "Successful catalog JSON payload",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CatalogResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/clusters.json": {
+      "get": {
+        "summary": "Get hierarchical Topic Cluster pillars, sub-pillars, and curated starter bundles",
+        "operationId": "getClusters",
+        "responses": {
+          "200": {
+            "description": "Successful clusters JSON payload",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClustersResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/feed.xml": {
+      "get": {
+        "summary": "Get the RSS 2.0 syndication feed of latest apps and Topic Guides",
+        "operationId": "getRssFeed",
+        "responses": {
+          "200": {
+            "description": "RSS 2.0 XML document",
+            "content": {
+              "application/rss+xml": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "summary": "Get concise LLM navigation map (llms.txt standard)",
+        "operationId": "getLlmsTxt",
+        "responses": {
+          "200": {
+            "description": "Markdown summary index for LLM agents",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/llms-full.txt": {
+      "get": {
+        "summary": "Get plain-English digest of all cataloged applications grouped by category",
+        "operationId": "getLlmsFullTxt",
+        "responses": {
+          "200": {
+            "description": "Complete Markdown digest of all apps",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/catalog-rag.txt": {
+      "get": {
+        "summary": "Get compact 2-line single-file RAG digest for all indexed apps and categories",
+        "operationId": "getCatalogRagTxt",
+        "responses": {
+          "200": {
+            "description": "Compact single-file RAG index",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/codebase-full.txt": {
+      "get": {
+        "summary": "Get complete architecture map, endpoint reference, guide tree, and full catalog digest",
+        "operationId": "getCodebaseFullTxt",
+        "responses": {
+          "200": {
+            "description": "Full site and catalog context file",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AppEntry": {
+        "type": "object",
+        "properties": {
+          "slug": { "type": "string" },
+          "name": { "type": "string" },
+          "tagline": { "type": "string" },
+          "summary": { "type": "string" },
+          "category": { "type": "string" },
+          "tier": {
+            "type": "string",
+            "enum": ["tier1_gui", "tier2_webapp", "tier3_powertool"]
+          },
+          "app_type": {
+            "type": "string",
+            "enum": ["desktop", "webapp", "selfhosted", "cli", "resource"]
+          },
+          "is_webapp": { "type": "boolean" },
+          "operatingSystem": { "type": "string" },
+          "license": { "type": "string" },
+          "stars": { "type": "integer" },
+          "repo_url": { "type": "string", "format": "uri" },
+          "download_url": { "type": "string", "format": "uri" },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "updated_at": { "type": "string" }
+        }
+      },
+      "CatalogResponse": {
+        "type": "object",
+        "properties": {
+          "schema_version": { "type": "string" },
+          "project": { "type": "string" },
+          "site_url": { "type": "string", "format": "uri" },
+          "generated_at": { "type": "string", "format": "date-time" },
+          "total_apps": { "type": "integer" },
+          "tier_counts": { "type": "object" },
+          "app_type_counts": { "type": "object" },
+          "categories": { "type": "object" },
+          "apps": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/AppEntry" }
+          }
+        }
+      },
+      "ClustersResponse": {
+        "type": "object",
+        "properties": {
+          "schema_version": { "type": "string" },
+          "generated_at": { "type": "string" },
+          "total_guide_pages": { "type": "integer" },
+          "pillars": {
+            "type": "array",
+            "items": { "type": "object" }
+          },
+          "bundles": {
+            "type": "array",
+            "items": { "type": "object" }
+          }
+        }
+      }
+    }
+  }
+}

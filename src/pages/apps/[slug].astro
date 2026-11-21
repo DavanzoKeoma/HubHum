@@ -203,8 +203,24 @@ if (clusterInfo) {
   breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: title, item: canonicalUrl });
 }
 
+const sourceCodeJsonLd: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareSourceCode',
+  name: `${title} Source Code`,
+  codeRepository: source_url || resolvedDownloadUrl || canonicalUrl,
+  programmingLanguage: 'Open-Source Software',
+  license: license || 'Open Source License',
+  runtimePlatform: resolvedOs || 'Cross-platform',
+  targetProduct: {
+    '@type': is_webapp ? 'WebApplication' : 'SoftwareApplication',
+    name: title,
+    url: canonicalUrl,
+  },
+};
+
 const combinedJsonLd = [
   appJsonLd,
+  sourceCodeJsonLd,
   {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',

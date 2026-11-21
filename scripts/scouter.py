@@ -720,6 +720,13 @@ def is_consumer_repo(repo: dict, min_stars: int = MIN_STARS) -> bool:
     if name_low == "awesome" or name_low.startswith("awesome-"):
         return False
     desc = (repo.get("description") or "").lower()
+    topics_raw = " ".join(str(t) for t in (repo.get("topics") or []))
+    safety_text = f"{name_low} {desc} {topics_raw}".lower()
+    if re.search(
+        r"\b(?:keygen|crack|piracy|warez|cheat|aimbot|exploit|payload|ransomware|stealer|nsfw|hentai|adult|bypass-paywall)\b",
+        safety_text,
+    ):
+        return False
     if any(kw in desc for kw in DEV_LIBRARY_KEYWORDS):
         return False
     lic = (repo.get("license") or {}).get("spdx_id") or "NOASSERTION"

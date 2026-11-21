@@ -37,14 +37,24 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
     "tier1": {
         "tier_key": "tier1_gui",
         "min_stars": 500,
+        "fallback_min_stars": 200,
         "topics": (
             "gui",
             "desktop-app",
+            "cross-platform",
             "windows",
             "macos",
             "linux",
+            "linux-desktop",
             "android",
             "ios",
+            "electron-app",
+            "tauri",
+            "flutter-app",
+            "qt",
+            "gtk",
+            "avalonia",
+            "productivity",
             "video-editor",
             "password-manager",
             "audio-player",
@@ -61,16 +71,49 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "ebook-reader",
             "music-player",
             "drawing",
+            "vector-graphics",
+            "3d-printing",
+            "cad",
+            "animation",
+            "streaming",
+            "podcast",
+            "radio",
+            "iptv",
+            "torrent-client",
+            "download-manager",
             "clipboard",
+            "clipboard-manager",
             "calendar",
             "screenshot",
             "encryption",
             "vpn",
+            "vpn-client",
+            "firewall",
+            "system-monitor",
+            "uninstaller",
+            "cleaner",
+            "archive",
+            "compression",
+            "ocr",
+            "translator",
+            "flashcards",
+            "journal",
+            "habit-tracker",
             "subtitle",
             "recorder",
             "rss-reader",
             "launcher",
+            "terminal-emulator",
+            "git-client",
+            "database-client",
+            "finance",
+            "budget",
             "pomodoro",
+            "timer",
+            "weather",
+            "maps",
+            "calculator",
+            "emulator",
             "todo",
             "viewer",
             "client",
@@ -84,11 +127,13 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "notes",
             "kanban",
             "desktop",
+            "open-source",
         ),
     },
     "tier2": {
         "tier_key": "tier2_webapp",
         "min_stars": 200,
+        "fallback_min_stars": 100,
         "topics": (
             "self-hosted",
             "cms",
@@ -97,6 +142,7 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "saas",
             "dashboard",
             "docker",
+            "homelab",
             "analytics",
             "wiki",
             "bookmark-manager",
@@ -105,16 +151,25 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "erp",
             "photo-gallery",
             "media-server",
+            "music-server",
+            "ebook-server",
             "rss",
             "note-taking",
             "password-manager",
             "uptime",
+            "status-page",
             "home-automation",
+            "smart-home",
             "blog",
             "knowledge-base",
+            "collaboration",
             "file-sharing",
+            "cloud",
             "cloud-storage",
             "invoicing",
+            "finance",
+            "inventory",
+            "helpdesk",
             "project-management",
             "monitoring",
             "automation",
@@ -125,11 +180,29 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "reader",
             "podcast",
             "storage",
+            "webmail",
+            "chat",
+            "forum",
+            "fediverse",
+            "matrix",
+            "video-conferencing",
+            "recipes",
+            "meal-planner",
+            "url-shortener",
+            "pastebin",
+            "vpn",
+            "adblock",
+            "backup",
+            "git",
+            "nocode",
+            "lowcode",
+            "webui",
         ),
     },
     "tier3": {
         "tier_key": "tier3_powertool",
         "min_stars": 2000,
+        "fallback_min_stars": 1000,
         "topics": (
             "cli",
             "terminal",
@@ -139,6 +212,10 @@ TIER_QUERY_SETS: dict[str, dict[str, object]] = {
             "productivity",
             "devtools",
             "developer-tools",
+            "tui",
+            "shell",
+            "rust-cli",
+            "go-cli",
         ),
     },
 }
@@ -209,7 +286,7 @@ def _atomic_git_commit(published_so_far: int, total_target: int) -> None:
     if diff_res.returncode == 0:
         return
     msg = f"chore(seo): atomic batch commit {published_so_far}/{total_target} HubHum app cards"
-    subprocess.run(["git", "commit", "-m", msg], cwd=PROJECT_ROOT, check=True)
+    subprocess.run(["git", "commit", "-q", "-m", msg], cwd=PROJECT_ROOT, check=True)
     print(f"[ATOMIC COMMIT] {msg}", flush=True)
 
 
@@ -245,118 +322,184 @@ def execute_streaming_recovery(
             continue
         cfg = TIER_QUERY_SETS[tier_arg]
         tier_key = str(cfg["tier_key"])
-        min_stars = int(cfg["min_stars"])
+        primary_stars = int(cfg["min_stars"])
+        fallback_stars = int(cfg.get("fallback_min_stars") or primary_stars)
+        star_passes = [primary_stars] if fallback_stars >= primary_stars else [primary_stars, fallback_stars]
         topics: tuple[str, ...] = cfg["topics"]  # type: ignore[assignment]
 
-        print(f"\n--- Streaming {tier_arg} ({tier_key}, target={target_count}, min_stars>{min_stars}) ---", flush=True)
-
-        for topic in topics:
+        for pass_idx, min_stars in enumerate(star_passes):
             if published_by_tier[tier_arg] >= target_count:
                 break
-            for page_num in (1, 2, 3, 4, 5, 6):
+            pass_label = "primary" if pass_idx == 0 else "fallback"
+            print(
+                f"\n--- Streaming {tier_arg} [{pass_label}] ({tier_key}, "
+                f"remaining={target_count - published_by_tier[tier_arg]}, min_stars>{min_stars}) ---",
+                flush=True,
+            )
+
+            for topic in topics:
                 if published_by_tier[tier_arg] >= target_count:
                     break
-                _throttle_github_search()
-                raw_q = f"topic:{topic} stars:>{min_stars} fork:false archived:false"
-                encoded_q = urllib.parse.quote(raw_q)
-                url = f"{GITHUB_API_BASE}/search/repositories?q={encoded_q}&sort=stars&order=desc&per_page=30&page={page_num}"
-                try:
-                    data = _github_get_json(url, token=token)
-                except Exception as exc:
-                    print(f"[SEARCH WARN] {topic} p{page_num}: {exc}", flush=True)
-                    break
-
-                items = data.get("items", [])
-                if not items:
-                    break
-
-                for item in items:
+                for page_num in range(1, 11):
                     if published_by_tier[tier_arg] >= target_count:
                         break
-                    full_name = str(item.get("full_name") or "")
-                    repo_name = str(item.get("name") or "")
-                    slug = re.sub(r"[^a-z0-9-]+", "-", repo_name.lower()).strip("-")
-                    if (
-                        not full_name
-                        or not slug
-                        or slug in known_slugs
-                        or slug in blocklist
-                        or full_name.lower() in known_repos
-                        or (CONTENT_APPS_DIR / f"{slug}.md").exists()
-                    ):
-                        continue
-                    if not is_consumer_repo(item, min_stars=min_stars):
-                        continue
-
-                    known_slugs.add(slug)
-                    known_repos.add(full_name.lower())
-
-                    owner = item["owner"]["login"]
+                    _throttle_github_search()
+                    raw_q = f"topic:{topic} stars:>{min_stars} fork:false archived:false"
+                    encoded_q = urllib.parse.quote(raw_q)
+                    url = f"{GITHUB_API_BASE}/search/repositories?q={encoded_q}&sort=stars&order=desc&per_page=30&page={page_num}"
                     try:
-                        bundle = fetch_repo_bundle(owner, repo_name, token=token, scouting_tier=tier_key)
-                    except Exception:
-                        continue
+                        data = _github_get_json(url, token=token)
+                    except Exception as exc:
+                        print(f"[SEARCH WARN] {topic} p{page_num}: {exc}", flush=True)
+                        break
 
-                    if tier_arg == "tier1":
-                        if bundle.app_type in ("cli", "resource"):
+                    items = data.get("items", [])
+                    if not items:
+                        break
+
+                    for item in items:
+                        if published_by_tier[tier_arg] >= target_count:
+                            break
+                        full_name = str(item.get("full_name") or "")
+                        repo_name = str(item.get("name") or "")
+                        slug = re.sub(r"[^a-z0-9-]+", "-", repo_name.lower()).strip("-")
+                        if (
+                            not full_name
+                            or not slug
+                            or slug in known_slugs
+                            or slug in blocklist
+                            or full_name.lower() in known_repos
+                            or (CONTENT_APPS_DIR / f"{slug}.md").exists()
+                        ):
                             continue
+                        if not is_consumer_repo(item, min_stars=min_stars):
+                            continue
+
                         raw_topics = {t.lower() for t in (item.get("topics") or [])}
-                        if raw_topics & {"ui-library", "gui-library", "widget-toolkit", "rust-gui", "python-gui", "sdk", "framework", "game-engine"}:
-                            continue
-                        if not bundle.release_assets and not (
-                            raw_topics & {"gui", "desktop-app", "windows", "macos", "android", "ios"}
+                        desc_low = str(item.get("description") or "").lower()
+                        if tier_arg == "tier1" and (
+                            raw_topics
+                            & {
+                                "ui-library",
+                                "gui-library",
+                                "widget-toolkit",
+                                "rust-gui",
+                                "python-gui",
+                                "sdk",
+                                "framework",
+                                "game-engine",
+                                "self-hosted",
+                                "docker",
+                                "web-app",
+                                "webapp",
+                                "saas",
+                                "cli",
+                                "tui",
+                            }
                         ):
                             continue
-                        bundle.is_webapp = False
-                        bundle.app_type = "desktop"
-                        bundle.scouting_tier = "tier1_gui"
-                        if bundle.category not in (
-                            "Productivity",
-                            "Security & Privacy",
-                            "Video & Audio",
-                            "Graphics & Design",
-                        ):
-                            bundle.category = "Productivity"
-                    elif tier_arg == "tier2":
-                        bundle.is_webapp = True
-                        bundle.app_type = "selfhosted"
-                        bundle.category = "Web Apps & Cloud"
-                        bundle.operating_system = "Self-Hosted / Browser"
-                        bundle.scouting_tier = "tier2_webapp"
-                    elif tier_arg == "tier3":
-                        bundle.is_webapp = False
-                        if bundle.app_type != "resource":
-                            bundle.app_type = "cli"
-                        bundle.scouting_tier = "tier3_powertool"
-                        if bundle.category == "Graphics & Design":
-                            bundle.category = "Utilities & Power Tools"
 
-                    if last_ai_ts > 0 and min_delay > 0:
-                        elapsed = time.monotonic() - last_ai_ts
-                        if elapsed < min_delay:
-                            time.sleep(min_delay - elapsed)
-                    last_ai_ts = time.monotonic()
+                        known_slugs.add(slug)
+                        known_repos.add(full_name.lower())
 
-                    if process_single_repo(bundle, affiliates_data, blocklist, force_provider=force_provider):
-                        published_by_tier[tier_arg] += 1
-                        total_published += 1
-                        since_last_commit += 1
+                        owner = item["owner"]["login"]
+                        try:
+                            bundle = fetch_repo_bundle(owner, repo_name, token=token, scouting_tier=tier_key)
+                        except Exception:
+                            continue
 
-                        if total_published % 10 == 0:
-                            print(
-                                f"[PROGRESS] {total_published}/{total_target} "
-                                f"(tier1={published_by_tier['tier1']}/{tier1_target}, "
-                                f"tier2={published_by_tier['tier2']}/{tier2_target}, "
-                                f"tier3={published_by_tier['tier3']}/{tier3_target})",
-                                flush=True,
+                        if tier_arg == "tier1":
+                            if bundle.app_type in ("cli", "resource", "webapp", "selfhosted"):
+                                continue
+                            has_desktop_kw = any(
+                                kw in desc_low
+                                for kw in (
+                                    "desktop",
+                                    "windows",
+                                    "macos",
+                                    "linux",
+                                    "android",
+                                    "ios",
+                                    "gui",
+                                    "electron",
+                                    "tauri",
+                                    "flutter",
+                                    "player",
+                                    "editor",
+                                    "viewer",
+                                    "client",
+                                    "manager",
+                                )
                             )
+                            desktop_topics = {
+                                "gui",
+                                "desktop-app",
+                                "desktop",
+                                "cross-platform",
+                                "windows",
+                                "macos",
+                                "linux-desktop",
+                                "android",
+                                "ios",
+                                "electron-app",
+                                "tauri",
+                                "flutter-app",
+                                "qt",
+                                "gtk",
+                                "avalonia",
+                            }
+                            if not bundle.release_assets and not (raw_topics & desktop_topics) and (pass_idx == 0 or not has_desktop_kw):
+                                continue
+                            bundle.is_webapp = False
+                            bundle.app_type = "desktop"
+                            bundle.scouting_tier = "tier1_gui"
+                            if bundle.category not in (
+                                "Productivity",
+                                "Security & Privacy",
+                                "Video & Audio",
+                                "Graphics & Design",
+                            ):
+                                bundle.category = "Productivity"
+                        elif tier_arg == "tier2":
+                            bundle.is_webapp = True
+                            bundle.app_type = "selfhosted"
+                            bundle.category = "Web Apps & Cloud"
+                            bundle.operating_system = "Self-Hosted / Browser"
+                            bundle.scouting_tier = "tier2_webapp"
+                        elif tier_arg == "tier3":
+                            bundle.is_webapp = False
+                            if bundle.app_type != "resource":
+                                bundle.app_type = "cli"
+                            bundle.scouting_tier = "tier3_powertool"
+                            if bundle.category == "Graphics & Design":
+                                bundle.category = "Utilities & Power Tools"
 
-                        if batch_commit_size > 0 and since_last_commit >= batch_commit_size:
-                            if commit_batches:
-                                _atomic_git_commit(total_published, total_target)
-                            else:
-                                write_catalog_index()
-                            since_last_commit = 0
+                        if last_ai_ts > 0 and min_delay > 0:
+                            elapsed = time.monotonic() - last_ai_ts
+                            if elapsed < min_delay:
+                                time.sleep(min_delay - elapsed)
+                        last_ai_ts = time.monotonic()
+
+                        if process_single_repo(bundle, affiliates_data, blocklist, force_provider=force_provider):
+                            published_by_tier[tier_arg] += 1
+                            total_published += 1
+                            since_last_commit += 1
+
+                            if total_published % 10 == 0:
+                                print(
+                                    f"[PROGRESS] {total_published}/{total_target} "
+                                    f"(tier1={published_by_tier['tier1']}/{tier1_target}, "
+                                    f"tier2={published_by_tier['tier2']}/{tier2_target}, "
+                                    f"tier3={published_by_tier['tier3']}/{tier3_target})",
+                                    flush=True,
+                                )
+
+                            if batch_commit_size > 0 and since_last_commit >= batch_commit_size:
+                                if commit_batches:
+                                    _atomic_git_commit(total_published, total_target)
+                                else:
+                                    write_catalog_index()
+                                since_last_commit = 0
 
     if since_last_commit > 0:
         if commit_batches:

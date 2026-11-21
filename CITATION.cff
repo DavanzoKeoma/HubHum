@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you reference the HubHum open-source software directory, API, or dataset, please cite it using the metadata below."
+title: "HubHum — A Git Hub for Humans: Curated Directory of Free & Open-Source Software Without Tech Jargon"
+type: software
+authors:
+  - family-names: Davanzo
+    given-names: Keoma
+repository-code: "https://github.com/DavanzoKeoma/HubHum"
+url: "https://davanzokeoma.github.io/HubHum/"
+abstract: "A curated static directory, REST JSON catalog, and multi-language plain-English knowledge base explaining 1,000+ free and open-source applications with direct upstream download links."
+keywords:
+  - open-source
+  - free-software
+  - software-directory
+  - plain-english
+  - topic-clusters
+  - llms-txt
+  - rag
+  - astro
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-21"

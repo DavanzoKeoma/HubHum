@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "HubHum Open-Source Software Directory",
+  "name_for_model": "hubhum_catalog",
+  "description_for_human": "Discover 1,000+ free and open-source desktop apps, self-hosted web tools, and CLI utilities explained in plain English with direct upstream download links.",
+  "description_for_model": "Read-only curated open-source software catalog and topic cluster knowledge base. Query /api/catalog.json for structured app metadata (desktop, selfhosted, webapp, cli, resource), /api/clusters.json for pillar guides and bundles, /catalog-rag.txt or /llms-full.txt for compact full-catalog RAG retrieval, and /feed.xml for latest updates.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://davanzokeoma.github.io/HubHum/api/openapi.yaml"
+  },
+  "logo_url": "https://davanzokeoma.github.io/HubHum/favicon.svg",
+  "contact_email": "security@hubhum.org",
+  "legal_info_url": "https://davanzokeoma.github.io/HubHum/privacy/"
+}
