@@ -5740,6 +5740,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "best-flutter-ui-templates",
+    "name": "Best-Flutter-UI-Templates",
+    "tagline": "Professional mobile app design layouts",
+    "repo_url": "https://github.com/mitesh77/best-flutter-ui-templates",
+    "full_name": "mitesh77/best-flutter-ui-templates",
+    "category": "Productivity",
+    "tags": [
+      "design",
+      "mobile-apps"
+    ],
+    "icon": "/icons/best-flutter-ui-templates.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 22871,
+    "tier": "tier1_gui",
+    "summary": "This collection provides high-quality, ready-to-use visual designs for mobile applications.",
+    "i18n": {
+      "it": "Questa raccolta offre design visivi pronti all'uso per applicazioni mobili.",
+      "es": "Esta colección ofrece diseños visuales listos para usar en aplicaciones móviles.",
+      "fr": "Cette collection propose des designs visuels prêts à l'emploi pour les applications mobiles.",
+      "de": "Diese Sammlung bietet hochwertige, gebrauchsfertige visuelle Designs für mobile Apps."
+    },
+    "download_url": "https://github.com/mitesh77/Best-Flutter-UI-Templates/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "svgo",
     "name": "svgo",
     "tagline": "Shrink vector graphics effortlessly.",
@@ -5908,6 +5936,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "react-native-web",
+    "name": "React Native for Web",
+    "tagline": "Run mobile app interfaces on websites",
+    "repo_url": "https://github.com/necolas/react-native-web",
+    "full_name": "necolas/react-native-web",
+    "category": "Productivity",
+    "tags": [
+      "web-development",
+      "mobile-development"
+    ],
+    "icon": "/icons/react-native-web.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 22162,
+    "tier": "tier1_gui",
+    "summary": "This tool allows developers to use mobile app code to create responsive, high-performance websites that look and feel like native apps.",
+    "i18n": {
+      "it": "Questo strumento permette di usare il codice delle app mobile per creare siti web reattivi che funzionano come applicazioni native.",
+      "es": "Esta herramienta permite usar código de aplicaciones móviles para crear sitios web responsivos que funcionan como aplicaciones nativas.",
+      "fr": "Cet outil permet d'utiliser le code d'applications mobiles pour créer des sites web réactifs qui fonctionnent comme des applications natives.",
+      "de": "Dieses Werkzeug ermöglicht die Nutzung von Mobile-App-Code für die Erstellung reaktionsschneller Websites, die sich wie native Apps anfühlen."
+    },
+    "download_url": "https://necolas.github.io/react-native-web",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "nnn",
     "name": "nnn",
     "tagline": "Fast, tiny file navigator",
@@ -6046,6 +6102,34 @@
     },
     "download_url": "https://github.com/SBoudrias/Inquirer.js/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "flutterexampleapps",
+    "name": "FlutterExampleApps",
+    "tagline": "Learn mobile app creation with examples",
+    "repo_url": "https://github.com/iampawan/flutterexampleapps",
+    "full_name": "iampawan/flutterexampleapps",
+    "category": "Productivity",
+    "tags": [
+      "education",
+      "mobile-development"
+    ],
+    "icon": "/icons/flutterexampleapps.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Custom Open License",
+    "stars": 21502,
+    "tier": "tier1_gui",
+    "summary": "This collection provides a wide variety of practical app examples to help you learn how to build mobile software from the ground up.",
+    "i18n": {
+      "it": "Questa raccolta offre una vasta gamma di esempi pratici per aiutarti a imparare come creare software mobile da zero.",
+      "es": "Esta colección ofrece una gran variedad de ejemplos prácticos para ayudarte a aprender cómo crear software móvil desde cero.",
+      "fr": "Cette collection propose une grande variété d'exemples pratiques pour vous aider à apprendre à créer des logiciels mobiles à partir de zéro.",
+      "de": "Diese Sammlung bietet eine Vielzahl praktischer Beispiele, die Ihnen helfen, die Erstellung mobiler Software von Grund auf zu erlernen."
+    },
+    "download_url": "https://github.com/iampawan/FlutterExampleApps/releases",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "xterm-js",
@@ -6412,6 +6496,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "activitywatch",
+    "name": "ActivityWatch",
+    "tagline": "Private and automatic time tracking",
+    "repo_url": "https://github.com/activitywatch/activitywatch",
+    "full_name": "activitywatch/activitywatch",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "privacy"
+    ],
+    "icon": "/icons/activitywatch.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MPL 2.0)",
+    "stars": 19766,
+    "tier": "tier1_gui",
+    "summary": "ActivityWatch records how you spend your time on your computer and phone while keeping all your data strictly private on your own device.",
+    "i18n": {
+      "it": "ActivityWatch registra come trascorri il tuo tempo al computer e al telefono, mantenendo tutti i dati privati sul tuo dispositivo.",
+      "es": "ActivityWatch registra cómo pasas tu tiempo en el ordenador y el móvil, manteniendo todos tus datos privados en tu propio dispositivo.",
+      "fr": "ActivityWatch enregistre la façon dont vous passez votre temps sur votre ordinateur et votre téléphone tout en gardant vos données privées.",
+      "de": "ActivityWatch zeichnet auf, wie Sie Ihre Zeit am Computer und Handy verbringen, während alle Daten privat auf Ihrem Gerät bleiben."
+    },
+    "download_url": "https://github.com/ActivityWatch/activitywatch/releases/download/v0.14.3/activitywatch-tauri-v0.14.3-windows-aarch64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "convertx",
     "name": "ConvertX",
     "tagline": "Convert files online, your way",
@@ -6748,6 +6860,34 @@
     "updated_at": "2026-11-18"
   },
   {
+    "slug": "uwebsockets",
+    "name": "uWebSockets",
+    "tagline": "High-speed, secure web server technology",
+    "repo_url": "https://github.com/unetworking/uwebsockets",
+    "full_name": "unetworking/uwebsockets",
+    "category": "Productivity",
+    "tags": [
+      "web-server",
+      "networking"
+    ],
+    "icon": "/icons/uwebsockets.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 19029,
+    "tier": "tier1_gui",
+    "summary": "uWebSockets provides a fast and secure foundation for building real-time web applications that handle high traffic with ease.",
+    "i18n": {
+      "it": "uWebSockets offre una base rapida e sicura per creare applicazioni web in tempo reale in grado di gestire facilmente traffico elevato.",
+      "es": "uWebSockets ofrece una base rápida y segura para crear aplicaciones web en tiempo real que manejan un tráfico elevado con facilidad.",
+      "fr": "uWebSockets fournit une base rapide et sécurisée pour créer des applications web en temps réel gérant facilement un trafic important.",
+      "de": "uWebSockets bietet eine schnelle und sichere Grundlage für die Erstellung von Echtzeit-Webanwendungen, die hohen Datenverkehr bewältigen."
+    },
+    "download_url": "https://github.com/uNetworking/uWebSockets/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "nuclear",
     "name": "Nuclear",
     "tagline": "Free music player, no ads",
@@ -6801,6 +6941,34 @@
       "de": "Windmill hilft Ihnen dabei, Skripte in professionelle Werkzeuge, automatisierte Abläufe und KI-gestützte Anwendungen zu verwandeln."
     },
     "download_url": "https://github.com/windmill-labs/windmill/releases/download/v1.881.1/windmill-ee.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "airsim",
+    "name": "AirSim",
+    "tagline": "Realistic simulation for autonomous vehicles",
+    "repo_url": "https://github.com/microsoft/airsim",
+    "full_name": "microsoft/airsim",
+    "category": "Productivity",
+    "tags": [
+      "simulation",
+      "robotics"
+    ],
+    "icon": "/icons/airsim.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 18627,
+    "tier": "tier1_gui",
+    "summary": "AirSim provides a high-fidelity virtual environment to test and train self-driving cars and drones safely.",
+    "i18n": {
+      "it": "AirSim offre un ambiente virtuale ad alta fedeltà per testare e addestrare auto a guida autonoma e droni in totale sicurezza.",
+      "es": "AirSim proporciona un entorno virtual de alta fidelidad para probar y entrenar coches autónomos y drones de forma segura.",
+      "fr": "AirSim offre un environnement virtuel haute fidélité pour tester et entraîner des voitures autonomes et des drones en toute sécurité.",
+      "de": "AirSim bietet eine hochpräzise virtuelle Umgebung, um selbstfahrende Autos und Drohnen sicher zu testen und zu trainieren."
+    },
+    "download_url": "https://github.com/microsoft/AirSim/releases/download/v1.8.1-windows/CityEnviron.zip.001",
     "updated_at": "2026-11-21"
   },
   {
@@ -7028,6 +7196,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "mars",
+    "name": "Mars",
+    "tagline": "Reliable mobile network and logging tools",
+    "repo_url": "https://github.com/tencent/mars",
+    "full_name": "tencent/mars",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "mobile"
+    ],
+    "icon": "/icons/mars.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 17667,
+    "tier": "tier1_gui",
+    "summary": "Mars is a set of tools designed to help mobile apps manage network connections and record system logs efficiently.",
+    "i18n": {
+      "it": "Mars è un insieme di strumenti per gestire le connessioni di rete e registrare i log di sistema nelle applicazioni mobili.",
+      "es": "Mars es un conjunto de herramientas para gestionar conexiones de red y registrar datos de sistema en aplicaciones móviles.",
+      "fr": "Mars est un ensemble d'outils pour gérer les connexions réseau et enregistrer les journaux système dans les applications mobiles.",
+      "de": "Mars ist eine Sammlung von Werkzeugen zur Verwaltung von Netzwerkverbindungen und Systemprotokollen in mobilen Anwendungen."
+    },
+    "download_url": "https://github.com/Tencent/mars/releases",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "effect",
     "name": "Effect",
     "tagline": "Build robust and reliable code safely.",
@@ -7053,6 +7249,34 @@
       "de": "Effect ist ein Programmier-Toolkit, mit dem Sie sichere, organisierte und fehlerfreie Anwendungen schreiben können."
     },
     "download_url": "https://effect.website",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "flet",
+    "name": "Flet",
+    "tagline": "Build apps using only Python",
+    "repo_url": "https://github.com/flet-dev/flet",
+    "full_name": "flet-dev/flet",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "productivity"
+    ],
+    "icon": "/icons/flet.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 17584,
+    "tier": "tier1_gui",
+    "summary": "Create professional desktop, mobile, and web applications using simple Python code without needing to learn complex web design tools.",
+    "i18n": {
+      "it": "Crea applicazioni professionali per desktop, mobile e web usando solo Python senza dover imparare complessi strumenti di design web.",
+      "es": "Crea aplicaciones profesionales para escritorio, móvil y web usando solo Python sin necesidad de aprender herramientas de diseño web.",
+      "fr": "Créez des applications professionnelles pour bureau, mobile et web avec Python sans avoir à apprendre des outils de conception web.",
+      "de": "Erstellen Sie professionelle Desktop-, Mobil- und Webanwendungen mit Python, ohne komplexe Webdesign-Tools erlernen zu müssen."
+    },
+    "download_url": "https://github.com/flet-dev/flet/releases/download/v1.1.2/flet-1.1.2-py3-none-any.whl",
     "updated_at": "2026-11-21"
   },
   {
@@ -7165,6 +7389,34 @@
       "de": "Verwalten Sie WhatsApp-Nachrichten und automatisieren Sie Chats mit einem kostenlosen self-hosted API-Gateway."
     },
     "download_url": "https://www.open-wa.org",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "capacitor",
+    "name": "Capacitor",
+    "tagline": "Turn web projects into mobile apps",
+    "repo_url": "https://github.com/ionic-team/capacitor",
+    "full_name": "ionic-team/capacitor",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "mobile"
+    ],
+    "icon": "/icons/capacitor.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 17134,
+    "tier": "tier1_gui",
+    "summary": "Capacitor allows you to take your existing web-based projects and turn them into native mobile applications for iOS and Android.",
+    "i18n": {
+      "it": "Capacitor ti permette di trasformare i tuoi progetti web esistenti in applicazioni mobili native per iOS e Android.",
+      "es": "Capacitor te permite convertir tus proyectos web existentes en aplicaciones móviles nativas para iOS y Android.",
+      "fr": "Capacitor vous permet de transformer vos projets web existants en applications mobiles natives pour iOS et Android.",
+      "de": "Mit Capacitor können Sie Ihre bestehenden Webprojekte in native mobile Anwendungen für iOS und Android umwandeln."
+    },
+    "download_url": "https://capacitorjs.com",
     "updated_at": "2026-11-21"
   },
   {
@@ -7504,6 +7756,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "burn",
+    "name": "Burn",
+    "tagline": "A flexible and fast deep learning framework.",
+    "repo_url": "https://github.com/tracel-ai/burn",
+    "full_name": "tracel-ai/burn",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "machine-learning"
+    ],
+    "icon": "/icons/burn.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 16320,
+    "tier": "tier1_gui",
+    "summary": "Burn is a modern tool for building and running artificial intelligence models that works seamlessly across different types of hardware.",
+    "i18n": {
+      "it": "Burn è uno strumento moderno per creare ed eseguire modelli di intelligenza artificiale su diversi tipi di hardware.",
+      "es": "Burn es una herramienta moderna para crear y ejecutar modelos de inteligencia artificial que funciona en diversos dispositivos.",
+      "fr": "Burn est un outil moderne pour créer et exécuter des modèles d'intelligence artificielle sur différents types de matériel.",
+      "de": "Burn ist ein modernes Werkzeug zum Erstellen und Ausführen von Modellen der künstlichen Intelligenz auf verschiedener Hardware."
+    },
+    "download_url": "https://burn.dev",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "server",
     "name": "server",
     "tagline": "Send and receive push messages instantly",
@@ -7728,6 +8008,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "shotcut",
+    "name": "Shotcut",
+    "tagline": "Professional video editing made accessible.",
+    "repo_url": "https://github.com/mltframework/shotcut",
+    "full_name": "mltframework/shotcut",
+    "category": "Video & Audio",
+    "tags": [
+      "video-editor",
+      "multimedia"
+    ],
+    "icon": "/icons/shotcut.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 15750,
+    "tier": "tier1_gui",
+    "summary": "Shotcut is a free, powerful tool that lets you trim, edit, and polish your video projects on any computer.",
+    "i18n": {
+      "it": "Shotcut è uno strumento gratuito e potente per tagliare, modificare e rifinire i tuoi video su qualsiasi computer.",
+      "es": "Shotcut es una herramienta gratuita y potente que te permite recortar, editar y pulir tus proyectos de video en cualquier computadora.",
+      "fr": "Shotcut est un outil gratuit et puissant qui vous permet de couper, monter et peaufiner vos projets vidéo sur n'importe quel ordinateur.",
+      "de": "Shotcut ist ein kostenloses und leistungsstarkes Programm, mit dem Sie Videoprojekte auf jedem Computer bearbeiten und verfeinern können."
+    },
+    "download_url": "https://github.com/mltframework/shotcut/releases/download/v26.11.15/shotcut-win64-26.11.15.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "dearpygui",
     "name": "DearPyGui",
     "tagline": "Build fast interactive Python windows instantly.",
@@ -7782,6 +8090,34 @@
     },
     "download_url": "https://github.com/ansible/awx/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "gsy-github-app-flutter",
+    "name": "GSY Github App",
+    "tagline": "A feature-rich mobile client for Github.",
+    "repo_url": "https://github.com/carguo/gsy_github_app_flutter",
+    "full_name": "carguo/gsy_github_app_flutter",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "development"
+    ],
+    "icon": "/icons/gsy-github-app-flutter.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 15513,
+    "tier": "tier1_gui",
+    "summary": "This app provides a comprehensive way to manage your personal projects and explore code directly from your mobile device.",
+    "i18n": {
+      "it": "Questa app offre un modo completo per gestire i tuoi progetti personali ed esplorare il codice direttamente dal tuo dispositivo mobile.",
+      "es": "Esta aplicación ofrece una forma completa de gestionar tus proyectos personales y explorar código directamente desde tu dispositivo móvil.",
+      "fr": "Cette application offre un moyen complet de gérer vos projets personnels et d'explorer le code directement depuis votre appareil mobile.",
+      "de": "Diese App bietet eine umfassende Möglichkeit, Ihre persönlichen Projekte zu verwalten und Code direkt von Ihrem Mobilgerät aus zu erkunden."
+    },
+    "download_url": "https://github.com/CarGuo/gsy_github_app_flutter/releases/download/8.1.1/app-release.apk",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "cc-haha",
@@ -8008,6 +8344,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "lynx",
+    "name": "Lynx",
+    "tagline": "Build native apps using web skills",
+    "repo_url": "https://github.com/lynx-family/lynx",
+    "full_name": "lynx-family/lynx",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "mobile"
+    ],
+    "icon": "/icons/lynx.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 15268,
+    "tier": "tier1_gui",
+    "summary": "Lynx helps developers create high-performance mobile and web applications using familiar tools like CSS and React.",
+    "i18n": {
+      "it": "Lynx consente agli sviluppatori di creare app mobili e web ad alte prestazioni utilizzando strumenti familiari come CSS e React.",
+      "es": "Lynx ayuda a los desarrolladores a crear aplicaciones móviles y web de alto rendimiento utilizando herramientas familiares como CSS y React.",
+      "fr": "Lynx aide les développeurs à créer des applications mobiles et web performantes en utilisant des outils familiers comme CSS et React.",
+      "de": "Lynx hilft Entwicklern, leistungsstarke Mobil- und Webanwendungen mit vertrauten Werkzeugen wie CSS und React zu erstellen."
+    },
+    "download_url": "https://github.com/lynx-family/lynx/releases/download/4.2.0/LynxExplorer-noasan-release.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "peach",
     "name": "Peach",
     "tagline": "Simple video library organizer",
@@ -8036,6 +8400,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "brook",
+    "name": "Brook",
+    "tagline": "A flexible tool for private network connections",
+    "repo_url": "https://github.com/txthinking/brook",
+    "full_name": "txthinking/brook",
+    "category": "Security & Privacy",
+    "tags": [
+      "network",
+      "security"
+    ],
+    "icon": "/icons/brook.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 15200,
+    "tier": "tier1_gui",
+    "summary": "Brook helps you manage and secure your network traffic across different devices.",
+    "i18n": {
+      "it": "Brook ti aiuta a gestire e proteggere il traffico di rete su vari dispositivi creando percorsi sicuri e cifrati per i tuoi dati.",
+      "es": "Brook te ayuda a gestionar y asegurar el tráfico de red en tus dispositivos creando rutas privadas y cifradas para tu información.",
+      "fr": "Brook vous aide à gérer et sécuriser votre trafic réseau sur vos appareils en créant des chemins privés et chiffrés pour vos données.",
+      "de": "Brook hilft Ihnen bei der Verwaltung und Sicherung Ihres Netzwerkverkehrs, indem es private und verschlüsselte Wege für Ihre Daten schafft."
+    },
+    "download_url": "https://github.com/txthinking/brook/releases/download/v20270101/brook_windows_386.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "audiobookshelf",
     "name": "Audiobookshelf",
     "tagline": "Your personal audiobook and podcast streaming hub",
@@ -8061,6 +8453,34 @@
       "de": "Betreiben Sie Ihren eigenen Streaming-Server für Hörbücher und Podcasts mit Fortschrittssynchronisation und Mehrbenutzerbetrieb."
     },
     "download_url": "https://audiobookshelf.org",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "imageglass",
+    "name": "ImageGlass",
+    "tagline": "Fast, modern, and versatile photo viewing.",
+    "repo_url": "https://github.com/d2phap/imageglass",
+    "full_name": "d2phap/imageglass",
+    "category": "Productivity",
+    "tags": [
+      "photography",
+      "utilities"
+    ],
+    "icon": "/icons/imageglass.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 15026,
+    "tier": "tier1_gui",
+    "summary": "ImageGlass is a lightweight tool that lets you browse over 90 different image formats with speed and ease.",
+    "i18n": {
+      "it": "ImageGlass è uno strumento leggero che permette di visualizzare oltre 90 formati di immagine con estrema velocità e semplicità.",
+      "es": "ImageGlass es una herramienta ligera que permite ver más de 90 formatos de imagen con rapidez y facilidad en tu computadora.",
+      "fr": "ImageGlass est un outil léger qui permet de parcourir plus de 90 formats d'image avec rapidité et simplicité sur votre ordinateur.",
+      "de": "ImageGlass ist ein leichtgewichtiges Programm, mit dem Sie über 90 Bildformate schnell und einfach auf Ihrem Computer betrachten können."
+    },
+    "download_url": "https://github.com/d2phap/ImageGlass/releases/download/10.0.6.906/ImageGlass_10.0.6.906_win-x64.msi",
     "updated_at": "2026-11-21"
   },
   {
@@ -8176,6 +8596,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "carla",
+    "name": "CARLA",
+    "tagline": "Advanced simulator for autonomous driving research",
+    "repo_url": "https://github.com/carla-simulator/carla",
+    "full_name": "carla-simulator/carla",
+    "category": "Productivity",
+    "tags": [
+      "simulation",
+      "autonomous-driving"
+    ],
+    "icon": "/icons/carla.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 14673,
+    "tier": "tier1_gui",
+    "summary": "CARLA is a professional-grade simulation platform designed to help researchers train and test self-driving vehicle systems in virtual environments.",
+    "i18n": {
+      "it": "CARLA è una piattaforma di simulazione professionale creata per testare e addestrare sistemi di guida autonoma in ambienti virtuali.",
+      "es": "CARLA es una plataforma de simulación profesional diseñada para ayudar a investigar, entrenar y probar sistemas de vehículos autónomos.",
+      "fr": "CARLA est une plateforme de simulation professionnelle conçue pour aider à tester et entraîner des systèmes de conduite autonome.",
+      "de": "CARLA ist eine professionelle Simulationsplattform, die Forschern hilft, Systeme für autonomes Fahren in virtuellen Umgebungen zu testen."
+    },
+    "download_url": "https://carla.org",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "romm",
     "name": "romm",
     "tagline": "Manage and play retro games anywhere",
@@ -8201,6 +8649,34 @@
       "de": "RomM ist eine selbst gehostete Web-App, die Ihre Retro-Spielesammlung organisiert und direkt im Browser spielbar macht."
     },
     "download_url": "https://romm.app",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ghost-downloader-3",
+    "name": "Ghost Downloader 3",
+    "tagline": "All‑in‑one video and file downloader",
+    "repo_url": "https://github.com/xiaoyouchr/ghost-downloader-3",
+    "full_name": "xiaoyouchr/ghost-downloader-3",
+    "category": "Productivity",
+    "tags": [
+      "downloader",
+      "media"
+    ],
+    "icon": "/icons/ghost-downloader-3.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 14344,
+    "tier": "tier1_gui",
+    "summary": "Ghost Downloader lets you save videos, music, torrents and files from sites with one easy program that runs on Windows, macOS, Linux and Android.",
+    "i18n": {
+      "it": "Ghost Downloader ti permette di salvare video, musica, torrent e altri file da molti siti con un unico programma semplice che funziona su Windows, macOS, Linux e Android.",
+      "es": "Ghost Downloader te permite guardar videos, música, torrents y archivos de varios sitios con un solo programa fácil que funciona en Windows, macOS, Linux y Android.",
+      "fr": "Ghost Downloader vous permet d’enregistrer vidéos, musiques, torrents et fichiers depuis de nombreux sites avec un seul programme simple qui fonctionne sous Windows, macOS, Linux et Android.",
+      "de": "Ghost Downloader ermöglicht das Speichern von Videos, Musik, Torrents und Dateien von vielen Seiten mit einem einzigen einfachen Programm, das unter Windows, macOS, Linux und Android läuft."
+    },
+    "download_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.11/Ghost-Downloader-v4.5.11-Windows-arm64-Setup.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -8257,6 +8733,34 @@
       "de": "Verbinden Sie Ihre Online-Dienste und automatisieren Sie wiederkehrende Aufgaben ohne Code oder Kompromisse beim Datenschutz."
     },
     "download_url": "https://automatisch.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pillow",
+    "name": "Pillow",
+    "tagline": "Powerful image processing for your projects",
+    "repo_url": "https://github.com/python-pillow/pillow",
+    "full_name": "python-pillow/pillow",
+    "category": "Productivity",
+    "tags": [
+      "imaging",
+      "graphics"
+    ],
+    "icon": "/icons/pillow.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 14004,
+    "tier": "tier1_gui",
+    "summary": "Pillow is a versatile tool that adds professional-grade image editing and manipulation capabilities to your computer programs.",
+    "i18n": {
+      "it": "Pillow è uno strumento versatile che aggiunge capacità di modifica e manipolazione delle immagini ai tuoi programmi.",
+      "es": "Pillow es una herramienta versátil que añade capacidades de edición y manipulación de imágenes a tus programas.",
+      "fr": "Pillow est un outil polyvalent qui ajoute des capacités de retouche et de manipulation d'images à vos programmes.",
+      "de": "Pillow ist ein vielseitiges Werkzeug, das Ihren Programmen professionelle Funktionen zur Bildbearbeitung hinzufügt."
+    },
+    "download_url": "https://github.com/python-pillow/Pillow/releases/download/13.0.0/pillow-13.0.0.cdx.json",
     "updated_at": "2026-11-21"
   },
   {
@@ -8652,6 +9156,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "copyq",
+    "name": "CopyQ",
+    "tagline": "Advanced clipboard history and management",
+    "repo_url": "https://github.com/hluk/copyq",
+    "full_name": "hluk/copyq",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "clipboard"
+    ],
+    "icon": "/icons/copyq.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 12677,
+    "tier": "tier1_gui",
+    "summary": "CopyQ saves everything you copy, allowing you to easily browse, edit, and reuse your clipboard history across all your applications.",
+    "i18n": {
+      "it": "CopyQ salva tutto ciò che copi, permettendoti di consultare, modificare e riutilizzare facilmente la cronologia degli appunti.",
+      "es": "CopyQ guarda todo lo que copias, permitiéndote explorar, editar y reutilizar fácilmente tu historial de portapapeles.",
+      "fr": "CopyQ enregistre tout ce que vous copiez, vous permettant de consulter, modifier et réutiliser facilement votre historique.",
+      "de": "CopyQ speichert alles, was Sie kopieren, damit Sie Ihren Zwischenablage-Verlauf einfach durchsuchen und wiederverwenden können."
+    },
+    "download_url": "https://github.com/hluk/CopyQ/releases/download/v17.0.0/copyq-17.0.0-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "umbrel",
     "name": "umbrelOS",
     "tagline": "Your own private home server operating system.",
@@ -8846,6 +9378,62 @@
     },
     "download_url": "https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-setup.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "libevent",
+    "name": "Libevent",
+    "tagline": "Efficient background task management for software.",
+    "repo_url": "https://github.com/libevent/libevent",
+    "full_name": "libevent/libevent",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "performance"
+    ],
+    "icon": "/icons/libevent.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 11988,
+    "tier": "tier1_gui",
+    "summary": "Libevent helps computer programs handle many simultaneous tasks smoothly without slowing down or crashing.",
+    "i18n": {
+      "it": "Libevent aiuta i programmi a gestire molte attività simultanee in modo fluido senza rallentamenti.",
+      "es": "Libevent ayuda a los programas a manejar muchas tareas simultáneas de forma fluida y sin bloqueos.",
+      "fr": "Libevent aide les logiciels à gérer plusieurs tâches simultanées de manière fluide sans ralentissement.",
+      "de": "Libevent hilft Programmen dabei, viele gleichzeitige Aufgaben reibungslos und ohne Abstürze zu bewältigen."
+    },
+    "download_url": "https://github.com/libevent/libevent/releases/download/release-2.1.13-stable/libevent-2.1.13-stable.tar.gz.asc",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "openwhispr",
+    "name": "OpenWhispr",
+    "tagline": "Private voice-to-text and AI assistant",
+    "repo_url": "https://github.com/openwhispr/openwhispr",
+    "full_name": "openwhispr/openwhispr",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "ai"
+    ],
+    "icon": "/icons/openwhispr.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 11984,
+    "tier": "tier1_gui",
+    "summary": "OpenWhispr turns your voice into text and notes while keeping your data private on your own computer.",
+    "i18n": {
+      "it": "OpenWhispr trasforma la tua voce in testo e note mantenendo i tuoi dati privati sul tuo computer.",
+      "es": "OpenWhispr convierte tu voz en texto y notas manteniendo tus datos privados en tu propia computadora.",
+      "fr": "OpenWhispr transforme votre voix en texte et en notes tout en gardant vos données privées sur votre ordinateur.",
+      "de": "OpenWhispr verwandelt Ihre Stimme in Text und Notizen, während Ihre Daten privat auf Ihrem Computer bleiben."
+    },
+    "download_url": "https://github.com/OpenWhispr/openwhispr/releases/download/v1.12.0/OpenWhispr-Setup-1.12.0.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "netmaker",
@@ -9156,6 +9744,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "psutil",
+    "name": "psutil",
+    "tagline": "Monitor system health and performance easily",
+    "repo_url": "https://github.com/giampaolo/psutil",
+    "full_name": "giampaolo/psutil",
+    "category": "Productivity",
+    "tags": [
+      "system-monitoring",
+      "performance"
+    ],
+    "icon": "/icons/psutil.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 11330,
+    "tier": "tier1_gui",
+    "summary": "A simple tool that lets you track your computer's performance, including CPU, memory, and active programs, using the Python language.",
+    "i18n": {
+      "it": "Uno strumento semplice per monitorare le prestazioni del computer, inclusi CPU, memoria e programmi attivi, tramite il linguaggio Python.",
+      "es": "Una herramienta sencilla para seguir el rendimiento de tu computadora, incluyendo CPU, memoria y programas activos, usando el lenguaje Python.",
+      "fr": "Un outil simple pour suivre les performances de votre ordinateur, y compris le processeur, la mémoire et les programmes, via le langage Python.",
+      "de": "Ein einfaches Werkzeug zur Überwachung der Computerleistung, einschließlich CPU, Arbeitsspeicher und aktiver Programme, mit der Sprache Python."
+    },
+    "download_url": "https://psutil.io",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "mac-mouse-fix",
     "name": "Mac Mouse Fix",
     "tagline": "Transform your standard mouse into a trackpad",
@@ -9209,6 +9825,34 @@
       "de": "Blinko ist ein privates, selbstgehostetes Notiztool, das künstliche Intelligenz nutzt, um Ihre Ideen blitzschnell wiederzufinden."
     },
     "download_url": "https://github.com/blinkospace/blinko/releases/download/1.8.9/Blinko_1.8.9_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "vidbee",
+    "name": "VidBee",
+    "tagline": "Download, transcribe, and organize your media.",
+    "repo_url": "https://github.com/nexmoe/vidbee",
+    "full_name": "nexmoe/vidbee",
+    "category": "Video & Audio",
+    "tags": [
+      "media",
+      "productivity"
+    ],
+    "icon": "/icons/vidbee.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 11191,
+    "tier": "tier1_gui",
+    "summary": "VidBee captures online videos and audio, turns them into searchable text, and helps you summarize or translate content using your own AI tools.",
+    "i18n": {
+      "it": "VidBee scarica video e audio dal web, li trasforma in testi ricercabili e ti aiuta a riassumerli o tradurli con i tuoi strumenti AI preferiti.",
+      "es": "VidBee captura videos y audios, los convierte en texto buscable y te ayuda a resumir o traducir el contenido usando tus herramientas de IA.",
+      "fr": "VidBee récupère vos vidéos et audios, les transcrit en texte et vous aide à les résumer ou les traduire avec vos outils d'IA préférés.",
+      "de": "VidBee lädt Videos und Audios herunter, erstellt durchsuchbare Transkripte und hilft beim Zusammenfassen oder Übersetzen mit eigener KI."
+    },
+    "download_url": "https://github.com/nexmoe/VidBee/releases/download/v2.5.0/vidbee-2.5.0-portable.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -9377,6 +10021,33 @@
       "de": "Verfolgen Sie Produktnutzung, richten Sie komplexe Preismodelle ein und automatisieren Sie Rechnungen."
     },
     "download_url": "https://www.getlago.com",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "proton-native",
+    "name": "proton-native",
+    "tagline": "Lightweight desktop app builder",
+    "repo_url": "https://github.com/kusti8/proton-native",
+    "full_name": "kusti8/proton-native",
+    "category": "Productivity",
+    "tags": [
+      "desktop-apps"
+    ],
+    "icon": "/icons/proton-native.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 10867,
+    "tier": "tier1_gui",
+    "summary": "Create fast, cross-platform desktop applications using familiar web coding skills without heavy overhead.",
+    "i18n": {
+      "it": "Crea applicazioni desktop veloci e multi-piattaforma usando le tue competenze di programmazione web senza sovraccarichi pesanti.",
+      "es": "Crea aplicaciones de escritorio rápidas y multiplataforma usando tus habilidades de programación web sin sobrecargas pesadas.",
+      "fr": "Créez des applications de bureau rapides et multiplateformes en utilisant vos compétences en programmation web sans surcharge lourde.",
+      "de": "Erstellen Sie schnelle, plattformübergreifende Desktop-Anwendungen mit Ihren Web-Programmierungsfähigkeiten ohne hohe Systemlast."
+    },
+    "download_url": "https://proton-native.js.org",
     "updated_at": "2026-11-21"
   },
   {
@@ -9629,6 +10300,34 @@
       "de": "Genießen Sie Ihre persönliche Musiksammlung überall mit einem eleganten, selbstgehosteten Player für Ihre eigenen Server."
     },
     "download_url": "https://github.com/jeffvli/feishin/releases/download/v1.17.0/Feishin-1.17.0-win-arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "dnsserver",
+    "name": "Technitium DNS Server",
+    "tagline": "Private, secure, and ad-free internet browsing.",
+    "repo_url": "https://github.com/technitiumsoftware/dnsserver",
+    "full_name": "technitiumsoftware/dnsserver",
+    "category": "Productivity",
+    "tags": [
+      "privacy",
+      "networking"
+    ],
+    "icon": "/icons/dnsserver.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 10420,
+    "tier": "tier1_gui",
+    "summary": "Take control of your home network by filtering out ads and tracking while keeping your browsing activity private from your internet provider.",
+    "i18n": {
+      "it": "Gestisci la tua rete domestica bloccando pubblicità e tracciamento, mantenendo la tua attività online privata dal tuo fornitore internet.",
+      "es": "Toma el control de tu red doméstica bloqueando anuncios y rastreadores mientras mantienes tu actividad privada frente a tu proveedor de internet.",
+      "fr": "Prenez le contrôle de votre réseau domestique en bloquant les publicités et le suivi tout en gardant vos activités privées face à votre fournisseur.",
+      "de": "Übernehmen Sie die Kontrolle über Ihr Heimnetzwerk, indem Sie Werbung und Tracking blockieren und Ihre Online-Aktivitäten vor Ihrem Anbieter schützen."
+    },
+    "download_url": "https://technitium.com/dns/",
     "updated_at": "2026-11-21"
   },
   {
@@ -9910,6 +10609,34 @@
     },
     "download_url": "https://github.com/xo/usql/releases/download/v0.21.6/usql-0.21.6-darwin-amd64.tar.bz2",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "uno",
+    "name": "Uno Platform",
+    "tagline": "Build once, run on every device.",
+    "repo_url": "https://github.com/unoplatform/uno",
+    "full_name": "unoplatform/uno",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "cross-platform"
+    ],
+    "icon": "/icons/uno.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 10128,
+    "tier": "tier1_gui",
+    "summary": "Uno Platform lets you create native mobile, web, and desktop applications using a single set of instructions and design tools.",
+    "i18n": {
+      "it": "Uno Platform ti permette di creare applicazioni native per mobile, web e desktop usando un unico insieme di istruzioni e strumenti.",
+      "es": "Uno Platform te permite crear aplicaciones nativas para móvil, web y escritorio usando un único conjunto de instrucciones y herramientas.",
+      "fr": "Uno Platform vous permet de créer des applications natives pour mobile, web et bureau en utilisant un seul ensemble d'instructions et d'outils.",
+      "de": "Uno Platform ermöglicht es Ihnen, native Mobil-, Web- und Desktop-Anwendungen mit einem einzigen Satz an Anweisungen und Werkzeugen zu erstellen."
+    },
+    "download_url": "https://platform.uno",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "superplane",
@@ -10416,6 +11143,118 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "pgweb",
+    "name": "pgweb",
+    "tagline": "Simple web-based PostgreSQL database explorer",
+    "repo_url": "https://github.com/sosedoff/pgweb",
+    "full_name": "sosedoff/pgweb",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "postgresql"
+    ],
+    "icon": "/icons/pgweb.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9560,
+    "tier": "tier1_gui",
+    "summary": "Pgweb provides a clean, user-friendly interface to view and manage your PostgreSQL databases directly through your web browser.",
+    "i18n": {
+      "it": "Pgweb offre un'interfaccia intuitiva per visualizzare e gestire i database PostgreSQL direttamente dal tuo browser web.",
+      "es": "Pgweb ofrece una interfaz sencilla para ver y gestionar tus bases de datos PostgreSQL directamente desde tu navegador web.",
+      "fr": "Pgweb propose une interface intuitive pour visualiser et gérer vos bases de données PostgreSQL directement via votre navigateur.",
+      "de": "Pgweb bietet eine benutzerfreundliche Oberfläche, um Ihre PostgreSQL-Datenbanken direkt über Ihren Webbrowser zu verwalten."
+    },
+    "download_url": "https://sosedoff.github.io/pgweb",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "neohtop",
+    "name": "NeoHtop",
+    "tagline": "A modern, visual system monitor.",
+    "repo_url": "https://github.com/abdenasser/neohtop",
+    "full_name": "abdenasser/neohtop",
+    "category": "Productivity",
+    "tags": [
+      "system-monitor",
+      "utilities"
+    ],
+    "icon": "/icons/neohtop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9530,
+    "tier": "tier1_gui",
+    "summary": "NeoHtop provides a clear, real-time view of your computer's performance, helping you track active apps and hardware usage with ease.",
+    "i18n": {
+      "it": "NeoHtop offre una visione chiara e in tempo reale delle prestazioni del computer, facilitando il monitoraggio di app e hardware.",
+      "es": "NeoHtop ofrece una vista clara y en tiempo real del rendimiento de su equipo, facilitando el seguimiento de aplicaciones y hardware.",
+      "fr": "NeoHtop offre une vue claire et en temps réel des performances de votre ordinateur, facilitant le suivi des applications et du matériel.",
+      "de": "NeoHtop bietet eine klare Echtzeit-Ansicht der Computerleistung und hilft dabei, aktive Apps und Hardware-Auslastung einfach zu verfolgen."
+    },
+    "download_url": "https://github.com/Abdenasser/neohtop/releases/download/v1.3.0/NeoHtop_1.3.0_x64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "poco",
+    "name": "poco",
+    "tagline": "Powerful tools for modern software creation",
+    "repo_url": "https://github.com/pocoproject/poco",
+    "full_name": "pocoproject/poco",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "tools"
+    ],
+    "icon": "/icons/poco.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 9499,
+    "tier": "tier1_gui",
+    "summary": "POCO provides a collection of ready-to-use components that help programmers build reliable internet-connected software for any device.",
+    "i18n": {
+      "it": "POCO offre una raccolta di componenti pronti all'uso per creare software connessi a internet affidabili su qualsiasi dispositivo.",
+      "es": "POCO ofrece una colección de componentes listos para usar que ayudan a crear software conectado a internet en cualquier dispositivo.",
+      "fr": "POCO fournit une collection de composants prêts à l'emploi pour créer des logiciels connectés à internet sur tout type d'appareil.",
+      "de": "POCO bietet eine Sammlung sofort einsatzbereiter Komponenten, um zuverlässige internetbasierte Software für jedes Gerät zu erstellen."
+    },
+    "download_url": "https://github.com/pocoproject/poco/releases/download/poco-1.15.4-release/poco-1.15.4-all.tar.bz2",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "git-credential-manager",
+    "name": "Git Credential Manager",
+    "tagline": "Securely manage your code hosting logins",
+    "repo_url": "https://github.com/git-ecosystem/git-credential-manager",
+    "full_name": "git-ecosystem/git-credential-manager",
+    "category": "Productivity",
+    "tags": [
+      "security",
+      "productivity"
+    ],
+    "icon": "/icons/git-credential-manager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 9464,
+    "tier": "tier1_gui",
+    "summary": "Git Credential Manager simplifies how you sign in to your coding accounts by securely storing your access details across all your devices.",
+    "i18n": {
+      "it": "Git Credential Manager semplifica l'accesso ai tuoi account di programmazione memorizzando in modo sicuro le tue credenziali su ogni dispositivo.",
+      "es": "Git Credential Manager simplifica el inicio de sesión en tus cuentas de programación guardando tus credenciales de forma segura en tus dispositivos.",
+      "fr": "Git Credential Manager simplifie la connexion à vos comptes de développement en stockant vos identifiants en toute sécurité sur vos appareils.",
+      "de": "Git Credential Manager vereinfacht die Anmeldung bei Ihren Programmierkonten, indem er Ihre Anmeldedaten sicher auf Ihren Geräten speichert."
+    },
+    "download_url": "https://github.com/git-ecosystem/git-credential-manager/releases/download/v3.0.2/gcm-win-arm64-3.0.2.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "certimate",
     "name": "Certimate",
     "tagline": "Automate website security certificates visually.",
@@ -10553,6 +11392,34 @@
       "de": "Verstehen Sie Fehlerursachen durch vollständige Sitzungsaufzeichnungen, Fehlerverfolgung und Protokolle für Ihre Webanwendungen."
     },
     "download_url": "https://app.highlight.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "praisonai",
+    "name": "PraisonAI",
+    "tagline": "Private AI agents for your computer",
+    "repo_url": "https://github.com/mervinpraison/praisonai",
+    "full_name": "mervinpraison/praisonai",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "privacy"
+    ],
+    "icon": "/icons/praisonai.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 9377,
+    "tier": "tier2_webapp",
+    "summary": "PraisonAI allows you to run intelligent digital assistants directly on your own hardware to keep your data completely private and secure.",
+    "i18n": {
+      "it": "PraisonAI ti permette di eseguire assistenti digitali intelligenti direttamente sul tuo hardware per mantenere i tuoi dati al sicuro.",
+      "es": "PraisonAI te permite ejecutar asistentes digitales inteligentes directamente en tu propio equipo para mantener tus datos privados.",
+      "fr": "PraisonAI vous permet d'exécuter des assistants numériques intelligents directement sur votre matériel pour garder vos données privées.",
+      "de": "PraisonAI ermöglicht es Ihnen, intelligente digitale Assistenten direkt auf Ihrem eigenen Gerät auszuführen, um Ihre Daten privat zu halten."
+    },
+    "download_url": "https://github.com/MervinPraison/PraisonAI/releases/download/v4.8.0/PraisonAI-v4.8.0-windows-x64-setup.exe",
     "updated_at": "2026-11-21"
   },
   {
@@ -10752,6 +11619,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "olive",
+    "name": "Olive",
+    "tagline": "Professional-grade video editing made accessible.",
+    "repo_url": "https://github.com/olive-editor/olive",
+    "full_name": "olive-editor/olive",
+    "category": "Video & Audio",
+    "tags": [
+      "video-editor",
+      "multimedia"
+    ],
+    "icon": "/icons/olive.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 9162,
+    "tier": "tier1_gui",
+    "summary": "Olive is a free tool that lets you cut, arrange, and polish your video clips into professional-looking projects on your computer.",
+    "i18n": {
+      "it": "Olive è un programma gratuito che ti permette di tagliare e montare i tuoi video per creare progetti dall'aspetto professionale.",
+      "es": "Olive es una herramienta gratuita que te permite cortar, organizar y pulir tus clips de video en proyectos de aspecto profesional.",
+      "fr": "Olive est un outil gratuit qui vous permet de couper, organiser et peaufiner vos clips vidéo pour créer des projets professionnels.",
+      "de": "Olive ist ein kostenloses Programm, mit dem Sie Videoclips schneiden und zu professionellen Projekten zusammenfügen können."
+    },
+    "download_url": "https://olivevideoeditor.org/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "whatcable",
     "name": "WhatCable",
     "tagline": "Know what your USB-C cables do.",
@@ -10778,6 +11673,62 @@
     },
     "download_url": "https://whatcable.uk",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "solidtime",
+    "name": "solidtime",
+    "tagline": "Modern open-source time tracking for teams",
+    "repo_url": "https://github.com/solidtime-io/solidtime",
+    "full_name": "solidtime-io/solidtime",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "time-tracking"
+    ],
+    "icon": "/icons/solidtime.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 9137,
+    "tier": "tier2_webapp",
+    "summary": "Solidtime is a clean, professional tool that helps you track work hours, manage projects, and organize client billing in one place.",
+    "i18n": {
+      "it": "Solidtime è uno strumento professionale per monitorare le ore lavorative, gestire i progetti e organizzare la fatturazione dei clienti.",
+      "es": "Solidtime es una herramienta profesional para registrar horas de trabajo, gestionar proyectos y organizar la facturación de clientes.",
+      "fr": "Solidtime est un outil professionnel pour suivre vos heures de travail, gérer vos projets et organiser la facturation de vos clients.",
+      "de": "Solidtime ist ein professionelles Werkzeug zur Erfassung von Arbeitsstunden, Projektverwaltung und Organisation der Kundenabrechnung."
+    },
+    "download_url": "https://www.solidtime.io",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "dashboard-icons",
+    "name": "Dashboard Icons",
+    "tagline": "Thousands of curated icons for your dashboard",
+    "repo_url": "https://github.com/homarr-labs/dashboard-icons",
+    "full_name": "homarr-labs/dashboard-icons",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "icons",
+      "design"
+    ],
+    "icon": "/icons/dashboard-icons.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9135,
+    "tier": "tier2_webapp",
+    "summary": "Access a massive library of professional icons and logos to organize your digital workspace and AI assistant tools.",
+    "i18n": {
+      "it": "Accedi a una vasta libreria di icone e loghi professionali per organizzare il tuo spazio di lavoro digitale e gli strumenti AI.",
+      "es": "Accede a una enorme biblioteca de iconos y logotipos profesionales para organizar tu espacio de trabajo digital y herramientas de IA.",
+      "fr": "Accédez à une vaste bibliothèque d'icônes et de logos professionnels pour organiser votre espace de travail numérique et vos outils IA.",
+      "de": "Nutzen Sie eine riesige Bibliothek professioneller Icons und Logos, um Ihren digitalen Arbeitsbereich und Ihre KI-Tools zu organisieren."
+    },
+    "download_url": "https://dashboardicons.com",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "sloth",
@@ -10864,6 +11815,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "wallos",
+    "name": "Wallos",
+    "tagline": "Take control of your recurring expenses.",
+    "repo_url": "https://github.com/ellite/wallos",
+    "full_name": "ellite/wallos",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "finance",
+      "productivity"
+    ],
+    "icon": "/icons/wallos.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 8876,
+    "tier": "tier2_webapp",
+    "summary": "Wallos is a private, self-hosted tool that helps you track all your subscriptions and recurring bills in one clear dashboard.",
+    "i18n": {
+      "it": "Wallos è uno strumento privato per monitorare tutti i tuoi abbonamenti e le bollette ricorrenti in un'unica dashboard chiara.",
+      "es": "Wallos es una herramienta privada para realizar un seguimiento de todas tus suscripciones y facturas recurrentes en un panel claro.",
+      "fr": "Wallos est un outil privé pour suivre tous vos abonnements et factures récurrentes sur un tableau de bord clair.",
+      "de": "Wallos ist ein privates Tool, mit dem Sie alle Ihre Abonnements und wiederkehrenden Rechnungen in einem übersichtlichen Dashboard verfolgen können."
+    },
+    "download_url": "https://wallosapp.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "binggpt",
     "name": "BingGPT",
     "tagline": "Independent desktop app for AI chat.",
@@ -10889,6 +11868,62 @@
       "de": "Chatten Sie mit einem intelligenten Assistenten direkt auf dem Desktop, ganz ohne spezifische Browser."
     },
     "download_url": "https://github.com/dice2o/BingGPT/releases/download/v0.3.7/BingGPT-0.3.7-win32-arm64-Setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "privatebin",
+    "name": "PrivateBin",
+    "tagline": "Secure, encrypted online pastebin service",
+    "repo_url": "https://github.com/privatebin/privatebin",
+    "full_name": "privatebin/privatebin",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "security",
+      "encryption"
+    ],
+    "icon": "/icons/privatebin.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 8762,
+    "tier": "tier2_webapp",
+    "summary": "Share confidential notes and code snippets safely online using client-side encryption that keeps the server completely blind.",
+    "i18n": {
+      "it": "Condividi appunti e codici riservati online grazie a una cifratura che impedisce al server di leggere i tuoi dati.",
+      "es": "Comparte notas y código confidenciales en línea mediante un cifrado que mantiene al servidor completamente a ciegas.",
+      "fr": "Partagez notes et codes confidentiels en ligne grâce au chiffrement qui empêche le serveur de lire vos données.",
+      "de": "Teilen Sie vertrauliche Notizen und Code online mit einer Verschlüsselung, bei der der Server Ihre Daten nie sieht."
+    },
+    "download_url": "https://github.com/PrivateBin/PrivateBin/releases/download/2.1.1/multiple.intoto.jsonl",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "utopia",
+    "name": "Utopia",
+    "tagline": "Enterprise knowledge system for trustworthy decisions",
+    "repo_url": "https://github.com/deeplethe/utopia",
+    "full_name": "deeplethe/utopia",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "knowledge-management",
+      "ai"
+    ],
+    "icon": "/icons/utopia.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8745,
+    "tier": "tier2_webapp",
+    "summary": "Utopia is a private, self-governing knowledge system that tracks how information changes over time to provide reliable, evidence-based answers.",
+    "i18n": {
+      "it": "Utopia è un sistema di conoscenza privato che traccia l'evoluzione delle informazioni per fornire risposte basate su prove concrete.",
+      "es": "Utopia es un sistema de conocimiento privado que rastrea cómo cambia la información para ofrecer respuestas basadas en evidencias.",
+      "fr": "Utopia est un système de connaissances privé qui suit l'évolution des informations pour fournir des réponses basées sur des preuves.",
+      "de": "Utopia ist ein privates Wissenssystem, das die Entwicklung von Informationen verfolgt, um belegbare und verlässliche Antworten zu liefern."
+    },
+    "download_url": "https://github.com/deeplethe/utopia/releases",
     "updated_at": "2026-11-21"
   },
   {
@@ -10946,6 +11981,118 @@
     },
     "download_url": "https://github.com/Mortennn/Dozer/releases/download/v4.0.0/Dozer.4.0.0.dmg",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "oatpp",
+    "name": "Oat++",
+    "tagline": "Lightweight C++ tools for web services",
+    "repo_url": "https://github.com/oatpp/oatpp",
+    "full_name": "oatpp/oatpp",
+    "category": "Productivity",
+    "tags": [
+      "web-development",
+      "networking"
+    ],
+    "icon": "/icons/oatpp.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8665,
+    "tier": "tier1_gui",
+    "summary": "Oat++ provides a simple and efficient way to build high-performance web applications and services using the C++ language.",
+    "i18n": {
+      "it": "Oat++ offre un modo semplice ed efficiente per creare applicazioni web e servizi ad alte prestazioni utilizzando il linguaggio C++.",
+      "es": "Oat++ ofrece una forma sencilla y eficiente de crear aplicaciones y servicios web de alto rendimiento utilizando el lenguaje C++.",
+      "fr": "Oat++ offre un moyen simple et efficace de créer des applications et services web performants en utilisant le langage C++.",
+      "de": "Oat++ bietet eine einfache und effiziente Möglichkeit, leistungsstarke Webanwendungen und Dienste mit der Programmiersprache C++ zu erstellen."
+    },
+    "download_url": "https://oatpp.io/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hippy",
+    "name": "Hippy",
+    "tagline": "Build cross-platform mobile apps easily.",
+    "repo_url": "https://github.com/tencent/hippy",
+    "full_name": "tencent/hippy",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "cross-platform"
+    ],
+    "icon": "/icons/hippy.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8557,
+    "tier": "tier1_gui",
+    "summary": "Create fast cross-platform apps using popular web tools like React and Vue with this powerful development framework.",
+    "i18n": {
+      "it": "Crea app veloci per più piattaforme usando strumenti web popolari come React e Vue con questo potente framework.",
+      "es": "Crea aplicaciones rápidas para múltiples plataformas usando herramientas web populares como React y Vue con este marco.",
+      "fr": "Créez des applications rapides pour plusieurs plateformes en utilisant des outils web populaires avec ce framework.",
+      "de": "Erstellen Sie schnelle Apps für mehrere Plattformen mit beliebten Web-Tools wie React und Vue in diesem Framework."
+    },
+    "download_url": "https://framework.tds.qq.com/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "mumble",
+    "name": "Mumble",
+    "tagline": "High-quality, private voice chat software",
+    "repo_url": "https://github.com/mumble-voip/mumble",
+    "full_name": "mumble-voip/mumble",
+    "category": "Productivity",
+    "tags": [
+      "communication",
+      "voice-chat"
+    ],
+    "icon": "/icons/mumble.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 8430,
+    "tier": "tier1_gui",
+    "summary": "Mumble provides crystal-clear voice communication with very low delay for groups of any size.",
+    "i18n": {
+      "it": "Mumble offre comunicazioni vocali nitide e veloci per gruppi di ogni dimensione.",
+      "es": "Mumble ofrece comunicación por voz clara y rápida para grupos de cualquier tamaño.",
+      "fr": "Mumble offre une communication vocale claire et rapide pour les groupes.",
+      "de": "Mumble bietet kristallklare Sprachkommunikation mit minimaler Verzögerung für Gruppen."
+    },
+    "download_url": "https://github.com/mumble-voip/mumble/releases/download/v1.5.939/mumble_client-1.5.939.x64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "flagsmith",
+    "name": "Flagsmith",
+    "tagline": "Manage software features with total control",
+    "repo_url": "https://github.com/flagsmith/flagsmith",
+    "full_name": "flagsmith/flagsmith",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "development",
+      "productivity"
+    ],
+    "icon": "/icons/flagsmith.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (BSD)",
+    "stars": 8390,
+    "tier": "tier2_webapp",
+    "summary": "Flagsmith helps teams release new software features safely by allowing them to toggle functionality on or off without needing to update code.",
+    "i18n": {
+      "it": "Flagsmith aiuta i team a rilasciare nuove funzionalità in sicurezza, permettendo di attivarle o disattivarle senza dover aggiornare il codice.",
+      "es": "Flagsmith ayuda a los equipos a lanzar nuevas funciones de forma segura, permitiendo activarlas o desactivarlas sin necesidad de actualizar código.",
+      "fr": "Flagsmith aide les équipes à lancer de nouvelles fonctionnalités en toute sécurité en permettant de les activer ou désactiver sans modifier le code.",
+      "de": "Flagsmith hilft Teams dabei, neue Funktionen sicher zu veröffentlichen, indem sie diese ohne Code-Änderungen ein- oder ausschalten können."
+    },
+    "download_url": "https://www.flagsmith.com",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "ntrace-core",
@@ -11060,6 +12207,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "traccar",
+    "name": "Traccar",
+    "tagline": "Professional GPS tracking for any device",
+    "repo_url": "https://github.com/traccar/traccar",
+    "full_name": "traccar/traccar",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "gps",
+      "tracking"
+    ],
+    "icon": "/icons/traccar.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8166,
+    "tier": "tier2_webapp",
+    "summary": "Traccar is a powerful platform that lets you monitor the real-time location of vehicles, assets, and people from a single dashboard.",
+    "i18n": {
+      "it": "Traccar è una piattaforma che consente di monitorare in tempo reale la posizione di veicoli, beni e persone da un'unica interfaccia.",
+      "es": "Traccar es una plataforma que permite monitorear la ubicación en tiempo real de vehículos, activos y personas desde un panel central.",
+      "fr": "Traccar est une plateforme permettant de surveiller en temps réel la position de véhicules, d'actifs et de personnes via un tableau de bord.",
+      "de": "Traccar ist eine Plattform zur Echtzeit-Überwachung von Fahrzeugen, Objekten und Personen über ein zentrales Dashboard."
+    },
+    "download_url": "https://www.traccar.org",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "foundation-sunshine",
+    "name": "Foundation Sunshine",
+    "tagline": "High-performance game streaming for Windows.",
+    "repo_url": "https://github.com/alkaidlab/foundation-sunshine",
+    "full_name": "alkaidlab/foundation-sunshine",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "gaming",
+      "streaming"
+    ],
+    "icon": "/icons/foundation-sunshine.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 8141,
+    "tier": "tier2_webapp",
+    "summary": "Foundation Sunshine turns your Windows PC into a powerful game streaming host, allowing you to play your favorite titles on any device.",
+    "i18n": {
+      "it": "Foundation Sunshine trasforma il tuo PC Windows in un potente host per lo streaming, permettendoti di giocare ovunque tu sia.",
+      "es": "Foundation Sunshine convierte tu PC con Windows en un potente servidor de streaming para jugar tus títulos favoritos en cualquier dispositivo.",
+      "fr": "Foundation Sunshine transforme votre PC Windows en un hôte de streaming puissant pour jouer à vos titres préférés sur n'importe quel appareil.",
+      "de": "Foundation Sunshine macht Ihren Windows-PC zu einem leistungsstarken Streaming-Host, damit Sie Ihre Spiele auf jedem Gerät genießen können."
+    },
+    "download_url": "https://github.com/AlkaidLab/foundation-sunshine/releases/download/v2026.1031.121458.%E6%9D%82%E9%B1%BC/Sunshine.v2026.1031.WindowsInstaller.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "pi-desktop",
     "name": "PI-Desktop",
     "tagline": "Your independent workspace for AI agents",
@@ -11085,6 +12288,62 @@
       "de": "Verwalten Sie KI-Assistenten, wechseln Sie Modelle und führen Sie lokale Aufgaben in einer übersichtlichen Desktop-App aus."
     },
     "download_url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.23.0/PI-Desktop-Portable-0.23.0.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "suwayomi-server",
+    "name": "Suwayomi-Server",
+    "tagline": "Centralized manga library and reader server",
+    "repo_url": "https://github.com/suwayomi/suwayomi-server",
+    "full_name": "suwayomi/suwayomi-server",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "manga",
+      "reader"
+    ],
+    "icon": "/icons/suwayomi-server.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MPL 2.0)",
+    "stars": 8089,
+    "tier": "tier2_webapp",
+    "summary": "Suwayomi-Server acts as a personal home library for your digital comics, allowing you to organize and read them across any device.",
+    "i18n": {
+      "it": "Suwayomi-Server crea una libreria personale per i tuoi fumetti digitali, permettendoti di organizzarli e leggerli su qualsiasi dispositivo.",
+      "es": "Suwayomi-Server crea una biblioteca personal para tus cómics digitales, permitiéndote organizarlos y leerlos en cualquier dispositivo.",
+      "fr": "Suwayomi-Server crée une bibliothèque personnelle pour vos bandes dessinées numériques, vous permettant de les organiser et de les lire sur tout appareil.",
+      "de": "Suwayomi-Server erstellt eine persönliche Bibliothek für Ihre digitalen Comics, mit der Sie diese auf jedem Gerät organisieren und lesen können."
+    },
+    "download_url": "https://github.com/Suwayomi/Suwayomi-Server/releases/download/v2.4.2372/Suwayomi-Server-v2.4.2372-windows-x64.msi",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ods",
+    "name": "ODS",
+    "tagline": "Your private AI server in one command.",
+    "repo_url": "https://github.com/osmantic/ods",
+    "full_name": "osmantic/ods",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "privacy"
+    ],
+    "icon": "/icons/ods.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7889,
+    "tier": "tier2_webapp",
+    "summary": "ODS turns your computer into a private AI powerhouse by automatically setting up and connecting all the tools you need to run models locally.",
+    "i18n": {
+      "it": "ODS trasforma il tuo computer in un server AI privato, configurando automaticamente tutti gli strumenti necessari per l'uso locale.",
+      "es": "ODS convierte tu ordenador en un servidor de IA privado, configurando automáticamente todas las herramientas necesarias para uso local.",
+      "fr": "ODS transforme votre ordinateur en un serveur IA privé en configurant automatiquement tous les outils nécessaires à une utilisation locale.",
+      "de": "ODS macht Ihren Computer zu einem privaten KI-Server, indem es alle benötigten Werkzeuge für die lokale Nutzung automatisch einrichtet."
+    },
+    "download_url": "https://discord.gg/qGVygYada3",
     "updated_at": "2026-11-21"
   },
   {
@@ -11116,6 +12375,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "yuxi",
+    "name": "Yuxi",
+    "tagline": "Private platform for intelligent team agents",
+    "repo_url": "https://github.com/xerrors/yuxi",
+    "full_name": "xerrors/yuxi",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/yuxi.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 7711,
+    "tier": "tier2_webapp",
+    "summary": "Yuxi is a self-hosted workspace that helps teams manage documents, automate tasks, and collaborate using private intelligent agents.",
+    "i18n": {
+      "it": "Yuxi è uno spazio di lavoro privato per gestire documenti e automatizzare attività aziendali tramite agenti intelligenti personalizzati.",
+      "es": "Yuxi es un espacio de trabajo privado para gestionar documentos y automatizar tareas de equipo mediante agentes inteligentes a medida.",
+      "fr": "Yuxi est un espace de travail privé pour gérer des documents et automatiser des tâches d'équipe via des agents intelligents personnalisés.",
+      "de": "Yuxi ist ein privater Arbeitsbereich zur Verwaltung von Dokumenten und zur Automatisierung von Teamaufgaben durch intelligente Agenten."
+    },
+    "download_url": "https://xerrors.github.io/Yuxi/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "gitsome",
     "name": "gitsome",
     "tagline": "Supercharged command line for code hosting",
@@ -11142,6 +12429,62 @@
     },
     "download_url": "https://github.com/donnemartin/gitsome/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "watchyourlan",
+    "name": "WatchYourLAN",
+    "tagline": "Keep track of every device on your network.",
+    "repo_url": "https://github.com/aceberg/watchyourlan",
+    "full_name": "aceberg/watchyourlan",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "network",
+      "security"
+    ],
+    "icon": "/icons/watchyourlan.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 7673,
+    "tier": "tier2_webapp",
+    "summary": "WatchYourLAN monitors your home network and alerts you whenever a new device connects, helping you keep your digital space secure.",
+    "i18n": {
+      "it": "WatchYourLAN monitora la tua rete domestica e ti avvisa quando un nuovo dispositivo si connette, aiutandoti a proteggere il tuo spazio digitale.",
+      "es": "WatchYourLAN supervisa tu red doméstica y te avisa cuando se conecta un nuevo dispositivo, ayudándote a mantener tu espacio digital seguro.",
+      "fr": "WatchYourLAN surveille votre réseau domestique et vous alerte lorsqu'un nouvel appareil se connecte, assurant ainsi la sécurité de votre espace.",
+      "de": "WatchYourLAN überwacht Ihr Heimnetzwerk und benachrichtigt Sie, wenn ein neues Gerät eine Verbindung herstellt, um Ihre Sicherheit zu wahren."
+    },
+    "download_url": "https://github.com/aceberg/WatchYourLAN/releases/download/2.1.4/watchyourlan_2.1.4_linux_386.apk",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "sidekick",
+    "name": "Sidekick",
+    "tagline": "Turn your private server into a professional host",
+    "repo_url": "https://github.com/mightymoud/sidekick",
+    "full_name": "mightymoud/sidekick",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "hosting",
+      "server-management"
+    ],
+    "icon": "/icons/sidekick.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 7600,
+    "tier": "tier2_webapp",
+    "summary": "Sidekick simplifies the process of launching and managing your web projects on a private server without the need for complex cloud platforms.",
+    "i18n": {
+      "it": "Sidekick semplifica il lancio e la gestione dei tuoi progetti web su un server privato senza bisogno di complesse piattaforme cloud.",
+      "es": "Sidekick simplifica el lanzamiento y la gestión de tus proyectos web en un servidor privado sin necesidad de complejas plataformas cloud.",
+      "fr": "Sidekick simplifie le lancement et la gestion de vos projets web sur un serveur privé sans avoir besoin de plateformes cloud complexes.",
+      "de": "Sidekick vereinfacht das Starten und Verwalten Ihrer Webprojekte auf einem privaten Server ohne komplexe Cloud-Plattformen."
+    },
+    "download_url": "https://github.com/MightyMoud/sidekick/releases/download/v0.6.6/sidekick_0.6.6_checksums.txt",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "ecopaste",
@@ -11254,6 +12597,62 @@
     },
     "download_url": "https://github.com/persepolisdm/persepolis/releases/download/5.2.0/persepolis_5.2.0.0_windows_64bit.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "hertzbeat",
+    "name": "HertzBeat",
+    "tagline": "Real-time monitoring for your digital services",
+    "repo_url": "https://github.com/apache/hertzbeat",
+    "full_name": "apache/hertzbeat",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "monitoring",
+      "observability"
+    ],
+    "icon": "/icons/hertzbeat.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7470,
+    "tier": "tier2_webapp",
+    "summary": "HertzBeat is an all-in-one platform that tracks the health of your websites, databases, and servers to keep your digital services running smoothly.",
+    "i18n": {
+      "it": "HertzBeat è una piattaforma completa per monitorare siti, database e server, garantendo che i tuoi servizi digitali funzionino sempre al meglio.",
+      "es": "HertzBeat es una plataforma integral para rastrear el estado de sitios web, bases de datos y servidores, asegurando que todo funcione correctamente.",
+      "fr": "HertzBeat est une plateforme tout-en-un qui surveille vos sites, bases de données et serveurs pour assurer le bon fonctionnement de vos services.",
+      "de": "HertzBeat ist eine Komplettlösung zur Überwachung von Websites, Datenbanken und Servern, damit Ihre digitalen Dienste reibungslos funktionieren."
+    },
+    "download_url": "https://hertzbeat.apache.org/",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "zerobyte",
+    "name": "Zerobyte",
+    "tagline": "Simple automated backups for your files",
+    "repo_url": "https://github.com/nicotsx/zerobyte",
+    "full_name": "nicotsx/zerobyte",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "backup",
+      "storage"
+    ],
+    "icon": "/icons/zerobyte.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 7396,
+    "tier": "tier2_webapp",
+    "summary": "Zerobyte provides an easy-to-use web interface to schedule, manage, and secure your data backups across various storage locations.",
+    "i18n": {
+      "it": "Zerobyte offre un'interfaccia web intuitiva per pianificare, gestire e proteggere i backup dei tuoi dati su diverse posizioni di memoria.",
+      "es": "Zerobyte ofrece una interfaz web fácil de usar para programar, gestionar y proteger las copias de seguridad de tus datos en varios destinos.",
+      "fr": "Zerobyte propose une interface web intuitive pour planifier, gérer et sécuriser vos sauvegardes de données sur divers emplacements de stockage.",
+      "de": "Zerobyte bietet eine benutzerfreundliche Weboberfläche, um Datensicherungen zu planen, zu verwalten und an verschiedenen Orten zu schützen."
+    },
+    "download_url": "https://github.com/nicotsx/zerobyte/releases/download/v0.44.2/zerobyte-v0.44.2-win-x64.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "wxwidgets",
