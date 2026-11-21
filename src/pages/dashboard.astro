@@ -7,6 +7,7 @@ import { withBase } from '../lib/url';
 
 const allApps = await getCollection('apps');
 const allBundles = await getCollection('bundles');
+const allGuides = await getCollection('guides');
 
 const resolveTier = (app: (typeof allApps)[number]) => {
   const t = String(app.data.scouting_tier || '').trim();
@@ -30,7 +31,7 @@ try {
 }
 
 const activeAffiliateLinks = allApps.length * 3;
-const totalStaticUrls = 3 + allApps.length + allBundles.length;
+const totalStaticUrls = 4 + allApps.length + allBundles.length + allGuides.length;
 const buildTimestampUtc = new Date().toISOString();
 const cfAnalyticsConfigured = Boolean(String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '').trim());
 

@@ -3,6 +3,19 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { withBase } from '../../lib/url';
 import { CATEGORY_I18N_KEY } from '../../i18n/translations';
+import appClusterMapRaw from '../../data/app_cluster_map.json';
+
+interface ClusterRef {
+  macro_slug: string;
+  macro_title: string;
+  macro_category: string;
+  sub_slug: string;
+  sub_title: string;
+  comparison_slug: string;
+  foundations_slug: string;
+}
+
+const appClusterMap = appClusterMapRaw as Record<string, ClusterRef>;
 
 export async function getStaticPaths() {
   const apps = await getCollection('apps');
@@ -19,6 +32,7 @@ const {
   slug,
   tags,
   is_webapp,
+  app_type,
   category,
   summary,
   stars,
@@ -39,14 +53,45 @@ const {
   i18n = {},
 } = app.data;
 
+const resolvedType: 'desktop' | 'webapp' | 'cli' =
+  app_type || (is_webapp ? 'webapp' : 'desktop');
+const badgeClass =
+  resolvedType === 'webapp' ? 'cloud' : resolvedType === 'cli' ? 'cli' : '';
+const badgeI18n =
+  resolvedType === 'webapp'
+    ? 'badgeCloud'
+    : resolvedType === 'cli'
+    ? 'badgeCli'
+    : 'badgeDesktop';
+const badgeText =
+  resolvedType === 'webapp'
+    ? 'Cloud Web App'
+    : resolvedType === 'cli'
+    ? 'CLI Tool'
+    : 'Desktop App';
+const detailModeI18n =
+  resolvedType === 'webapp'
+    ? 'detailModeCloud'
+    : resolvedType === 'cli'
+    ? 'detailModeCli'
+    : 'detailModeDesktop';
+const detailModeText =
+  resolvedType === 'webapp'
+    ? 'Runs in your browser / cloud'
+    : resolvedType === 'cli'
+    ? 'Command-line / terminal tool'
+    : 'Desktop GUI installer';
+
 const primaryHref = is_webapp ? (affiliate_url || download_url || source_url || '#') : (download_url || source_url || '#');
 const catI18nKey = CATEGORY_I18N_KEY[category] || 'catProductivity';
+const clusterInfo = appClusterMap[slug] || null;
 
 const schemaCategoryMap: Record<string, string> = {
   'Security & Privacy': 'SecurityApplication',
   'Video & Audio': 'MultimediaApplication',
   'Graphics & Design': 'DesignApplication',
   'Web Apps & Cloud': 'BusinessApplication',
+  'Utilities & Power Tools': 'UtilitiesApplication',
   'Websites & SEO': 'DeveloperApplication',
   Productivity: 'UtilitiesApplication',
 };
@@ -55,7 +100,7 @@ const siteOrigin = (Astro.site?.toString() || 'https://davanzokeoma.github.io').
 const canonicalUrl = `${siteOrigin}${withBase(`/apps/${slug}/`)}`;
 const resolvedDownloadUrl = downloadUrl || download_url || source_url || canonicalUrl;
 const resolvedCategory = applicationCategory || schemaCategoryMap[category] || 'UtilitiesApplication';
-const resolvedOs = operatingSystem || (is_webapp ? 'All / Browser' : 'Windows, macOS, Linux, Android');
+const resolvedOs = operatingSystem || (is_webapp ? 'All / Browser' : 'Windows, macOS, Linux');
 const ownerMatch = String(source_url || '').match(/^https?:\/\/github\.com\/([^/]+)/i);
 const schemaOwner = ownerMatch ? ownerMatch[1] : 'Open-Source Contributors';
 
@@ -88,15 +133,64 @@ const appJsonLd: Record<string, unknown> = {
       }
     : {}),
 };
+
+const breadcrumbItems: Array<Record<string, unknown>> = [
+  { '@type': 'ListItem', position: 1, name: 'HubHum', item: `${siteOrigin}${withBase('/')}` },
+  { '@type': 'ListItem', position: 2, name: 'Topic Guides', item: `${siteOrigin}${withBase('/guides/')}` },
+];
+if (clusterInfo) {
+  breadcrumbItems.push({
+    '@type': 'ListItem',
+    position: 3,
+    name: clusterInfo.macro_category,
+    item: `${siteOrigin}${withBase(`/guides/${clusterInfo.macro_slug}/`)}`,
+  });
+  breadcrumbItems.push({
+    '@type': 'ListItem',
+    position: 4,
+    name: clusterInfo.sub_title,
+    item: `${siteOrigin}${withBase(`/guides/${clusterInfo.sub_slug}/`)}`,
+  });
+  breadcrumbItems.push({ '@type': 'ListItem', position: 5, name: title, item: canonicalUrl });
+} else {
+  breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: title, item: canonicalUrl });
+}
+
+const combinedJsonLd = [
+  appJsonLd,
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbItems,
+  },
+];
 ---
 
 <BaseLayout
   title={`${title} — HubHum`}
   description={summary || `${title} explained simply on HubHum`}
-  jsonLd={appJsonLd}
+  jsonLd={combinedJsonLd}
 >
   <div class="container detail-wrap">
-    <a href={withBase('/')} class="breadcrumb" data-i18n="backAllApps">← Back to all software</a>
+    <nav class="cluster-breadcrumbs" aria-label="Breadcrumb">
+      <a href={withBase('/')} data-i18n="catAll">All</a>
+      <span aria-hidden="true">/</span>
+      <a href={withBase('/guides/')} data-i18n="navGuides">Topic Guides</a>
+      {clusterInfo && (
+        <>
+          <span aria-hidden="true">/</span>
+          <a href={withBase(`/guides/${clusterInfo.macro_slug}/`)} data-i18n={catI18nKey}>
+            {clusterInfo.macro_category}
+          </a>
+          <span aria-hidden="true">/</span>
+          <a href={withBase(`/guides/${clusterInfo.sub_slug}/`)}>
+            {clusterInfo.sub_title}
+          </a>
+        </>
+      )}
+      <span aria-hidden="true">/</span>
+      <span aria-current="page" style="font-weight:700;color:var(--text);">{title}</span>
+    </nav>
 
     <section class="detail-hero">
       <div style="display:flex; align-items:center; gap:1rem; max-width:680px;">
@@ -112,15 +206,13 @@ const appJsonLd: Record<string, unknown> = {
         />
         <div>
           <div style="display:flex; flex-wrap:wrap; gap:0.45rem; align-items:center; margin-bottom:0.35rem;">
-            <span class:list={['mode-badge', { cloud: is_webapp }]}>
-              <span data-i18n={is_webapp ? 'badgeCloud' : 'badgeDesktop'}>
-                {is_webapp ? 'Cloud Web App' : 'Free Desktop App'}
-              </span>
+            <span class:list={['mode-badge', badgeClass]}>
+              <span data-i18n={badgeI18n}>{badgeText}</span>
             </span>
             <span class="tag-chip" data-i18n={catI18nKey}>{category}</span>
             {stars > 0 ? (
               <span class="tag-chip" data-detail-stars={stars}>
-                Chosen by {stars.toLocaleString('en')} users
+                ★ {stars.toLocaleString('en')} stars on GitHub
               </span>
             ) : (
               <span class="new-badge" data-i18n="badgeNew">New</span>
@@ -148,9 +240,9 @@ const appJsonLd: Record<string, unknown> = {
           href={primaryHref}
           target="_blank"
           rel={is_webapp ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
-          class:list={['btn', is_webapp ? 'btn-cloud' : 'btn-primary']}
+          class:list={['btn', resolvedType === 'webapp' ? 'btn-cloud' : 'btn-primary']}
         >
-          {is_webapp ? (
+          {resolvedType === 'webapp' ? (
             <span data-i18n="ctaCloud">Open in Cloud →</span>
           ) : (
             <span>{download_label || 'Explore & Download →'}</span>
@@ -191,6 +283,40 @@ const appJsonLd: Record<string, unknown> = {
       </article>
 
       <aside>
+        {clusterInfo && (
+          <div class="side-card">
+            <h2 style="margin-top:0; font-size:1.05rem;" data-i18n="clusterSidebarHeading">Topic Cluster Guides</h2>
+            <ul style="padding-left:1.1rem; margin:0 0 0.85rem; color:var(--text-muted); font-size:0.9rem; display:grid; gap:0.4rem;">
+              <li>
+                <strong data-i18n="clusterPillarLabel">Main Category Guide:</strong>{' '}
+                <a
+                  href={withBase(`/guides/${clusterInfo.macro_slug}/`)}
+                  style="color:var(--accent-fg-text); text-decoration:underline; font-weight:600;"
+                >
+                  {clusterInfo.macro_category}
+                </a>
+              </li>
+              <li>
+                <strong data-i18n="clusterSubpillarLabel">Focus Topic Hub:</strong>{' '}
+                <a
+                  href={withBase(`/guides/${clusterInfo.sub_slug}/`)}
+                  style="color:var(--accent-fg-text); text-decoration:underline; font-weight:600;"
+                >
+                  {clusterInfo.sub_title}
+                </a>
+              </li>
+            </ul>
+            <a
+              href={withBase(`/guides/${clusterInfo.comparison_slug}/`)}
+              class="btn btn-outline"
+              style="width:100%;"
+              data-i18n="clusterComparisonLabel"
+            >
+              Compare Top Alternatives →
+            </a>
+          </div>
+        )}
+
         {affiliate_url && (
           <div class="side-card affiliate-card">
             <span class="mode-badge cloud" style="margin-bottom:0.55rem; display:inline-flex;" data-i18n="partnerTipBadge">
@@ -233,9 +359,7 @@ const appJsonLd: Record<string, unknown> = {
             </li>
             <li>
               <strong data-i18n="detailMode">Format:</strong>{' '}
-              <span data-i18n={is_webapp ? 'detailModeCloud' : 'detailModeDesktop'}>
-                {is_webapp ? 'Runs in your browser / cloud' : 'Installs on your device'}
-              </span>
+              <span data-i18n={detailModeI18n}>{detailModeText}</span>
             </li>
             {license && (
               <li>
@@ -249,7 +373,7 @@ const appJsonLd: Record<string, unknown> = {
                   href={source_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style="color:var(--accent); text-decoration:underline;"
+                  style="color:var(--accent-fg-text); text-decoration:underline;"
                   data-i18n="detailOpenSource"
                 >
                   Visit source
@@ -324,7 +448,7 @@ const appJsonLd: Record<string, unknown> = {
       if (detailStars) {
         const count = Number(detailStars.dataset.detailStars || '0');
         if (count > 0) {
-          detailStars.textContent = `${dict.chosenByPrefix} ${count.toLocaleString(lang)} ${dict.chosenBySuffix}`;
+          detailStars.textContent = `★ ${count.toLocaleString(lang)} ${dict.starsSuffix}`;
         }
       }
     }

@@ -6,15 +6,20 @@ import GitHubSearchConvert from '../components/GitHubSearchConvert.astro';
 import { withBase } from '../lib/url';
 import { CATEGORY_I18N_KEY } from '../i18n/translations';
 
+const PAGE_SIZE = 24;
+
 const allApps = await getCollection('apps');
 const sortedApps = [...allApps].sort((a, b) => (b.data.stars || 0) - (a.data.stars || 0));
 
-// Strict rule: Top Picks includes ONLY top 3 apps with stars > 0 (never 0-star items like MetaMesh-UGA or HubHum)
 const topPicks = sortedApps.filter((app) => (app.data.stars || 0) > 0).slice(0, 3);
 const topPickSlugs = new Set(topPicks.map((app) => app.data.slug));
-const deduplicateCatalog = allApps.length <= 9;
+const initialPageApps = sortedApps.slice(0, PAGE_SIZE);
+const totalPages = Math.max(1, Math.ceil(sortedApps.length / PAGE_SIZE));
 
-const allBundles = await getCollection('bundles');
+const allGuides = await getCollection('guides');
+const pillarGuides = allGuides
+  .filter((g) => g.data.level === 1)
+  .sort((a, b) => b.data.app_slugs.length - a.data.app_slugs.length);
 
 const categories = [
   'All',
@@ -23,8 +28,15 @@ const categories = [
   'Graphics & Design',
   'Video & Audio',
   'Web Apps & Cloud',
-  'Websites & SEO',
+  'Utilities & Power Tools',
 ];
+
+const categoryCounts: Record<string, number> = {
+  All: sortedApps.length,
+};
+for (const cat of categories.slice(1)) {
+  categoryCounts[cat] = sortedApps.filter((app) => app.data.category === cat).length;
+}
 ---
 
 <BaseLayout
@@ -63,7 +75,7 @@ const categories = [
     </div>
 
     <div
-      class="category-pills"
+      class="underline-nav"
       role="group"
       aria-label="Filter by category"
       data-i18n-aria="categoriesLabel"
@@ -71,12 +83,12 @@ const categories = [
       {categories.map((cat, idx) => (
         <button
           type="button"
-          class="pill"
+          class="underline-nav-item"
           aria-pressed={idx === 0 ? 'true' : 'false'}
           data-category-btn={cat}
-          data-i18n={CATEGORY_I18N_KEY[cat]}
         >
-          {cat}
+          <span data-i18n={CATEGORY_I18N_KEY[cat]}>{cat}</span>
+          <span class="underline-counter" data-cat-count={cat}>{categoryCounts[cat] ?? 0}</span>
         </button>
       ))}
     </div>
@@ -88,7 +100,7 @@ const categories = [
     <section id="top-picks" class="section-block container">
       <div class="section-head">
         <h2 data-i18n="topPicksHeading">Top Picks This Week</h2>
-        <span class="section-sub" data-i18n="topPicksSub">Most trusted apps chosen by the community</span>
+        <span class="section-sub" data-i18n="topPicksSub">Most starred open-source software in the catalog</span>
       </div>
       <div class="top-picks-track">
         {topPicks.map((app) => (
@@ -99,6 +111,7 @@ const categories = [
             category={app.data.category}
             tags={app.data.tags}
             isWebapp={app.data.is_webapp}
+            appType={app.data.app_type}
             stars={app.data.stars}
             icon={app.data.icon}
             i18n={app.data.i18n}
@@ -108,72 +121,91 @@ const categories = [
     </section>
   )}
 
-  <section class="section-block container">
+  <section id="catalog-section" class="section-block container">
     <div class="section-head">
       <h2 data-i18n="allSoftwareHeading">All Software</h2>
-      <span class="section-sub" id="catalog-count">
-        {deduplicateCatalog ? sortedApps.length - topPicks.length : sortedApps.length} apps available
+      <span class="section-sub" id="catalog-count" data-total-apps={sortedApps.length}>
+        {sortedApps.length} apps available
       </span>
     </div>
-    <div class="apps-grid" id="catalog-grid" data-dedup={deduplicateCatalog ? 'true' : 'false'}>
-      {sortedApps.map((app) => {
-        const isTopPick = topPickSlugs.has(app.data.slug);
-        return (
-          <AppCard
-            slug={app.data.slug}
-            title={app.data.title}
-            summary={app.data.summary}
-            category={app.data.category}
-            tags={app.data.tags}
-            isWebapp={app.data.is_webapp}
-            stars={app.data.stars}
-            icon={app.data.icon}
-            i18n={app.data.i18n}
-            isTopPick={isTopPick}
-          />
-        );
-      })}
+    <div class="apps-grid" id="catalog-grid" data-page-size={PAGE_SIZE}>
+      {initialPageApps.map((app) => (
+        <AppCard
+          slug={app.data.slug}
+          title={app.data.title}
+          summary={app.data.summary}
+          category={app.data.category}
+          tags={app.data.tags}
+          isWebapp={app.data.is_webapp}
+          appType={app.data.app_type}
+          stars={app.data.stars}
+          icon={app.data.icon}
+          i18n={app.data.i18n}
+          isTopPick={topPickSlugs.has(app.data.slug)}
+        />
+      ))}
     </div>
     <p id="empty-search-msg" style="display:none; color: var(--text-muted); margin-top: 1rem;" data-i18n="emptySearch">
       No apps match your search. Try another keyword or submit a link below.
     </p>
+
+    <div class="pagination-bar" id="pagination-bar">
+      <span class="pagination-info" id="pagination-info">
+        <span data-i18n="pageLabel">Page</span> <span id="page-num">1</span> <span data-i18n="ofLabel">of</span> <span id="page-total">{totalPages}</span>
+      </span>
+      <div class="pagination-controls">
+        <button type="button" id="page-prev-btn" class="btn btn-outline" disabled data-i18n="pagePrev">
+          Previous
+        </button>
+        <button type="button" id="load-more-btn" class="btn btn-outline" data-i18n="loadMoreBtn">
+          Load 24 more
+        </button>
+        <button
+          type="button"
+          id="page-next-btn"
+          class="btn btn-primary"
+          disabled={totalPages <= 1}
+          data-i18n="pageNext"
+        >
+          Next
+        </button>
+      </div>
+    </div>
   </section>
 
-  {allBundles.length > 0 && (
+  {pillarGuides.length > 0 && (
     <section class="section-block container">
       <div class="section-head">
-        <h2 data-i18n="guidesHeading">Curated Guides</h2>
-        <span class="section-sub" data-i18n="guidesSub">Practical roundups to help you pick the right free tool</span>
+        <div>
+          <h2 data-i18n="guidesHeading">Topic Guides &amp; Comparisons</h2>
+          <span class="section-sub" data-i18n="guidesSub">
+            Practical buyer guides, alternatives, and troubleshooting organized by topic
+          </span>
+        </div>
+        <a href={withBase('/guides/')} class="btn btn-outline" data-i18n="guidesAllCta">
+          Browse all Topic Guides →
+        </a>
       </div>
       <div class="apps-grid">
-        {allBundles.map((bundle) => (
+        {pillarGuides.map((pillar) => (
           <a
-            href={withBase(`/bundles/${bundle.data.slug}`)}
+            href={withBase(`/guides/${pillar.data.slug}/`)}
             class="app-card"
-            aria-label={`Read guide: ${bundle.data.title}`}
+            aria-label={`Read topic guide: ${pillar.data.title}`}
           >
             <div>
               <div class="app-card-top">
-                <img
-                  src={withBase('/icons/hubhum.svg')}
-                  alt=""
-                  width="48"
-                  height="48"
-                  loading="lazy"
-                  decoding="async"
-                  class="app-logo"
-                  aria-hidden="true"
-                />
-                <span class="mode-badge">{bundle.data.category}</span>
+                <span class="mode-badge">{pillar.data.macro_category}</span>
+                <span class="tag-chip">{pillar.data.child_slugs.length} focus hubs</span>
               </div>
-              <h3 class="app-title">{bundle.data.title}</h3>
-              <p class="app-summary">{bundle.data.summary}</p>
+              <h3 class="app-title">{pillar.data.title}</h3>
+              <p class="app-summary">{pillar.data.summary}</p>
             </div>
             <div class="app-card-foot">
-              <span>
-                {bundle.data.app_slugs.length} <span data-i18n="guideAppsIncluded">apps included</span>
+              <span class="popularity-stat">
+                {pillar.data.app_slugs.length}+ <span data-i18n="guideAppsIncluded">apps covered</span>
               </span>
-              <span class="card-cta" data-i18n="guideReadMore">Read guide →</span>
+              <span class="card-cta" data-i18n="guideReadMore">Explore guide →</span>
             </div>
           </a>
         ))}
@@ -205,66 +237,343 @@ const categories = [
 
   <script>
     import { normalizeGitHubProjectUrl } from '../lib/github-oauth';
-    import { TRANSLATIONS, type SupportedLang } from '../i18n/translations';
+    import { CATEGORY_I18N_KEY, formatCompactStars, TRANSLATIONS, type SupportedLang } from '../i18n/translations';
+    import { withBase } from '../lib/url';
 
+    interface CatalogEntry {
+      slug: string;
+      name: string;
+      category: string;
+      tags?: string[];
+      icon: string;
+      is_webapp: boolean;
+      app_type?: 'desktop' | 'webapp' | 'cli';
+      stars: number;
+      summary: string;
+      i18n?: Record<string, string>;
+    }
+
+    const PAGE_SIZE = 24;
     const searchInput = document.getElementById('hubhum-search') as HTMLInputElement | null;
     const categoryButtons = document.querySelectorAll<HTMLButtonElement>('[data-category-btn]');
     const catalogGrid = document.getElementById('catalog-grid');
-    const catalogCards = catalogGrid ? catalogGrid.querySelectorAll<HTMLElement>('[data-app-card]') : [];
+    const catalogSection = document.getElementById('catalog-section');
     const catalogCount = document.getElementById('catalog-count');
     const emptyMsg = document.getElementById('empty-search-msg');
     const topPicksSection = document.getElementById('top-picks');
-    const shouldDedup = catalogGrid?.dataset.dedup === 'true';
+    const pageNumEl = document.getElementById('page-num');
+    const pageTotalEl = document.getElementById('page-total');
+    const prevBtn = document.getElementById('page-prev-btn') as HTMLButtonElement | null;
+    const nextBtn = document.getElementById('page-next-btn') as HTMLButtonElement | null;
+    const loadMoreBtn = document.getElementById('load-more-btn') as HTMLButtonElement | null;
+    const paginationBar = document.getElementById('pagination-bar');
 
     let selectedCategory = 'All';
+    let currentPage = 1;
+    let visibleExtraPages = 0;
+    let catalogCache: CatalogEntry[] | null = null;
+    let catalogPromise: Promise<CatalogEntry[]> | null = null;
+    let hasInteracted = false;
+
+    function getActiveLang(): SupportedLang {
+      return (document.documentElement.lang || 'en') as SupportedLang;
+    }
 
     function getActiveDict() {
-      const lang = (document.documentElement.lang || 'en') as SupportedLang;
+      const lang = getActiveLang();
       return TRANSLATIONS[lang] || TRANSLATIONS.en;
     }
 
-    function filterCatalog() {
-      const q = (searchInput?.value || '').trim().toLowerCase();
-      const isDefaultView = !q && selectedCategory === 'All';
-      let visibleCount = 0;
-
-      if (topPicksSection) {
-        topPicksSection.style.display = isDefaultView ? 'block' : 'none';
+    async function ensureCatalogLoaded(): Promise<CatalogEntry[]> {
+      if (catalogCache) return catalogCache;
+      if (!catalogPromise) {
+        catalogPromise = fetch(withBase('/catalog-index.json'))
+          .then((res) => (res.ok ? res.json() : []))
+          .then((items) => {
+            catalogCache = Array.isArray(items) ? items : [];
+            return catalogCache;
+          })
+          .catch(() => {
+            catalogCache = [];
+            return [];
+          });
       }
+      return catalogPromise;
+    }
 
-      catalogCards.forEach((card) => {
-        const cardCat = card.dataset.category || '';
-        const cardSearch = card.dataset.search || '';
-        const isTopPick = card.dataset.topPick === 'true';
-        const hideDuplicate = isDefaultView && shouldDedup && isTopPick;
+    function createBadgeSvg(appType: 'desktop' | 'webapp' | 'cli'): SVGSVGElement {
+      const ns = 'http://www.w3.org/2000/svg';
+      const svg = document.createElementNS(ns, 'svg');
+      svg.setAttribute('width', '14');
+      svg.setAttribute('height', '14');
+      svg.setAttribute('viewBox', '0 0 24 24');
+      svg.setAttribute('fill', 'none');
+      svg.setAttribute('stroke', 'currentColor');
+      svg.setAttribute('stroke-width', '2.1');
+      svg.setAttribute('stroke-linecap', 'round');
+      svg.setAttribute('stroke-linejoin', 'round');
+      svg.setAttribute('aria-hidden', 'true');
+      if (appType === 'webapp') {
+        const p = document.createElementNS(ns, 'path');
+        p.setAttribute('d', 'M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z');
+        svg.appendChild(p);
+      } else if (appType === 'cli') {
+        const poly = document.createElementNS(ns, 'polyline');
+        poly.setAttribute('points', '4 17 10 11 4 5');
+        const ln = document.createElementNS(ns, 'line');
+        ln.setAttribute('x1', '12');
+        ln.setAttribute('y1', '19');
+        ln.setAttribute('x2', '20');
+        ln.setAttribute('y2', '19');
+        svg.appendChild(poly);
+        svg.appendChild(ln);
+      } else {
+        const rect = document.createElementNS(ns, 'rect');
+        rect.setAttribute('x', '2');
+        rect.setAttribute('y', '3');
+        rect.setAttribute('width', '20');
+        rect.setAttribute('height', '14');
+        rect.setAttribute('rx', '2');
+        rect.setAttribute('ry', '2');
+        const l1 = document.createElementNS(ns, 'line');
+        l1.setAttribute('x1', '8');
+        l1.setAttribute('y1', '21');
+        l1.setAttribute('x2', '16');
+        l1.setAttribute('y2', '21');
+        const l2 = document.createElementNS(ns, 'line');
+        l2.setAttribute('x1', '12');
+        l2.setAttribute('y1', '17');
+        l2.setAttribute('x2', '12');
+        l2.setAttribute('y2', '21');
+        svg.appendChild(rect);
+        svg.appendChild(l1);
+        svg.appendChild(l2);
+      }
+      return svg;
+    }
 
-        const matchesCat = selectedCategory === 'All' || cardCat === selectedCategory;
-        const matchesQuery = !q || cardSearch.includes(q);
-        const show = !hideDuplicate && matchesCat && matchesQuery;
-        card.style.display = show ? 'flex' : 'none';
-        if (show) visibleCount += 1;
+    function createAppCardNode(item: CatalogEntry): HTMLAnchorElement {
+      const lang = getActiveLang();
+      const dict = getActiveDict();
+      const appType: 'desktop' | 'webapp' | 'cli' =
+        item.app_type || (item.is_webapp ? 'webapp' : 'desktop');
+      const badgeClass = appType === 'webapp' ? 'cloud' : appType === 'cli' ? 'cli' : '';
+      const badgeI18n = appType === 'webapp' ? 'badgeCloud' : appType === 'cli' ? 'badgeCli' : 'badgeDesktop';
+      const ctaI18n = appType === 'webapp' ? 'ctaCloud' : appType === 'cli' ? 'ctaCli' : 'ctaDesktop';
+      const catKey = CATEGORY_I18N_KEY[item.category] || 'catProductivity';
+
+      const card = document.createElement('a');
+      card.href = withBase(`/apps/${item.slug}`);
+      card.className = 'app-card';
+      card.setAttribute('data-app-card', '');
+      card.dataset.category = item.category;
+      card.dataset.appType = appType;
+      card.dataset.summaryEn = item.summary;
+      card.dataset.summaryIt = item.i18n?.it || item.summary;
+      card.dataset.summaryEs = item.i18n?.es || item.summary;
+      card.dataset.summaryFr = item.i18n?.fr || item.summary;
+      card.dataset.summaryDe = item.i18n?.de || item.summary;
+
+      const topGroup = document.createElement('div');
+      const cardTop = document.createElement('div');
+      cardTop.className = 'app-card-top';
+
+      const img = document.createElement('img');
+      img.src = withBase(item.icon || '/icons/hubhum.svg');
+      img.alt = '';
+      img.width = 44;
+      img.height = 44;
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.className = 'app-logo';
+      img.setAttribute('aria-hidden', 'true');
+
+      const badge = document.createElement('span');
+      badge.className = `mode-badge ${badgeClass}`.trim();
+      badge.appendChild(createBadgeSvg(appType));
+      const badgeText = document.createElement('span');
+      badgeText.setAttribute('data-i18n', badgeI18n);
+      badgeText.textContent = dict[badgeI18n];
+      badge.appendChild(badgeText);
+
+      cardTop.appendChild(img);
+      cardTop.appendChild(badge);
+      topGroup.appendChild(cardTop);
+
+      const h3 = document.createElement('h3');
+      h3.className = 'app-title';
+      h3.textContent = item.name;
+
+      const p = document.createElement('p');
+      p.className = 'app-summary';
+      p.setAttribute('data-card-summary', '');
+      p.textContent = (lang !== 'en' && item.i18n?.[lang]) || item.summary;
+
+      const tagRow = document.createElement('div');
+      tagRow.className = 'tag-row';
+      const catSpan = document.createElement('span');
+      catSpan.className = 'tag-chip';
+      catSpan.setAttribute('data-i18n', catKey);
+      catSpan.textContent = dict[catKey] || item.category;
+      tagRow.appendChild(catSpan);
+      (item.tags || []).slice(0, 2).forEach((t) => {
+        const tg = document.createElement('span');
+        tg.className = 'tag-chip';
+        tg.textContent = `#${t}`;
+        tagRow.appendChild(tg);
       });
 
+      topGroup.appendChild(h3);
+      topGroup.appendChild(p);
+      topGroup.appendChild(tagRow);
+
+      const foot = document.createElement('div');
+      foot.className = 'app-card-foot';
+
+      if ((item.stars || 0) > 0) {
+        const pop = document.createElement('span');
+        pop.className = 'popularity-stat';
+        pop.title = `${item.stars.toLocaleString(lang)} ${dict.starsSuffix}`;
+        const starVal = document.createElement('span');
+        starVal.setAttribute('data-star-count', String(item.stars));
+        starVal.textContent = formatCompactStars(item.stars);
+        pop.appendChild(starVal);
+        foot.appendChild(pop);
+      } else {
+        const nb = document.createElement('span');
+        nb.className = 'new-badge';
+        const nbText = document.createElement('span');
+        nbText.setAttribute('data-i18n', 'badgeNew');
+        nbText.textContent = dict.badgeNew;
+        nb.appendChild(nbText);
+        foot.appendChild(nb);
+      }
+
+      const cta = document.createElement('span');
+      cta.className = `card-cta ${badgeClass}`.trim();
+      cta.setAttribute('data-i18n', ctaI18n);
+      cta.textContent = dict[ctaI18n];
+      foot.appendChild(cta);
+
+      card.appendChild(topGroup);
+      card.appendChild(foot);
+      return card;
+    }
+
+    function updatePaginationUI(filteredCount: number, endIndex: number) {
       const dict = getActiveDict();
+      const totalPages = Math.max(1, Math.ceil(filteredCount / PAGE_SIZE));
       if (catalogCount) {
-        catalogCount.textContent = `${visibleCount} ${dict.appsAvailableSuffix}`;
+        catalogCount.textContent = `${filteredCount} ${dict.appsAvailableSuffix}`;
       }
       if (emptyMsg) {
-        emptyMsg.style.display = visibleCount === 0 ? 'block' : 'none';
+        emptyMsg.style.display = filteredCount === 0 ? 'block' : 'none';
+      }
+      if (paginationBar) {
+        paginationBar.style.display = filteredCount > 0 ? 'flex' : 'none';
+      }
+      if (pageNumEl) pageNumEl.textContent = String(currentPage);
+      if (pageTotalEl) pageTotalEl.textContent = String(totalPages);
+      if (prevBtn) prevBtn.disabled = currentPage <= 1;
+      if (nextBtn) nextBtn.disabled = endIndex >= filteredCount;
+      if (loadMoreBtn) {
+        loadMoreBtn.style.display = endIndex < filteredCount ? 'inline-flex' : 'none';
       }
     }
 
-    filterCatalog();
-    window.addEventListener('hubhum:langchange', filterCatalog);
-    searchInput?.addEventListener('input', filterCatalog);
+    async function renderCatalogPage() {
+      const q = (searchInput?.value || '').trim().toLowerCase();
+      const isDefaultView = !q && selectedCategory === 'All' && currentPage === 1 && visibleExtraPages === 0;
+
+      if (topPicksSection) {
+        topPicksSection.style.display = !q && selectedCategory === 'All' ? 'block' : 'none';
+      }
+
+      if (!hasInteracted) {
+        const total = Number(catalogCount?.dataset.totalApps || '0');
+        updatePaginationUI(total, Math.min(PAGE_SIZE, total));
+        return;
+      }
+
+      const allItems = await ensureCatalogLoaded();
+      const filtered = allItems.filter((item) => {
+        const matchesCat = selectedCategory === 'All' || item.category === selectedCategory;
+        if (!matchesCat) return false;
+        if (!q) return true;
+        const hay = `${item.name} ${item.summary} ${Object.values(item.i18n || {}).join(' ')} ${item.category} ${(item.tags || []).join(' ')}`.toLowerCase();
+        return hay.includes(q);
+      });
+
+      const startIdx = (currentPage - 1) * PAGE_SIZE;
+      const endIdx = Math.min(filtered.length, startIdx + PAGE_SIZE * (1 + visibleExtraPages));
+      const slice = filtered.slice(startIdx, endIdx);
+
+      if (catalogGrid) {
+        const frag = document.createDocumentFragment();
+        slice.forEach((item) => frag.appendChild(createAppCardNode(item)));
+        catalogGrid.replaceChildren(frag);
+      }
+      updatePaginationUI(filtered.length, endIdx);
+      if (isDefaultView) {
+        window.dispatchEvent(new CustomEvent('hubhum:catalogrendered'));
+      }
+    }
+
+    updatePaginationUI(
+      Number(catalogCount?.dataset.totalApps || '0'),
+      Math.min(PAGE_SIZE, Number(catalogCount?.dataset.totalApps || '0'))
+    );
+
+    window.addEventListener('hubhum:langchange', () => {
+      const totalEl = catalogCount;
+      if (!hasInteracted && totalEl) {
+        const total = Number(totalEl.dataset.totalApps || '0');
+        updatePaginationUI(total, Math.min(PAGE_SIZE, total));
+      } else {
+        renderCatalogPage();
+      }
+    });
+
+    searchInput?.addEventListener('input', () => {
+      hasInteracted = true;
+      currentPage = 1;
+      visibleExtraPages = 0;
+      renderCatalogPage();
+    });
 
     categoryButtons.forEach((btn) => {
       btn.addEventListener('click', () => {
+        hasInteracted = true;
         categoryButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
         btn.setAttribute('aria-pressed', 'true');
         selectedCategory = btn.dataset.categoryBtn || 'All';
-        filterCatalog();
+        currentPage = 1;
+        visibleExtraPages = 0;
+        renderCatalogPage();
       });
+    });
+
+    prevBtn?.addEventListener('click', () => {
+      if (currentPage <= 1) return;
+      hasInteracted = true;
+      currentPage -= 1;
+      visibleExtraPages = 0;
+      renderCatalogPage();
+      catalogSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    nextBtn?.addEventListener('click', () => {
+      hasInteracted = true;
+      currentPage += 1 + visibleExtraPages;
+      visibleExtraPages = 0;
+      renderCatalogPage();
+      catalogSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    loadMoreBtn?.addEventListener('click', () => {
+      hasInteracted = true;
+      visibleExtraPages += 1;
+      renderCatalogPage();
     });
 
     const translateForm = document.getElementById('async-translate-form') as HTMLFormElement | null;

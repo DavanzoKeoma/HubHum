@@ -2,12 +2,22 @@ export type SupportedLang = 'en' | 'it' | 'es' | 'fr' | 'de';
 
 export const SUPPORTED_LANGS: SupportedLang[] = ['en', 'it', 'es', 'fr', 'de'];
 
+export function formatCompactStars(stars: number): string {
+  if (stars >= 1000) {
+    const val = stars / 1000;
+    return `★ ${val >= 100 ? Math.round(val) : val.toFixed(1).replace(/\.0$/, '')}k`;
+  }
+  return `★ ${stars.toLocaleString('en')}`;
+}
+
 export interface TranslationDict {
   brandSub: string;
+  navGuides: string;
   navTopPicks: string;
   navSubmit: string;
   navSignIn: string;
   navFavorites: string;
+  themeToggleAria: string;
   eyebrow: string;
   heroTitle: string;
   heroSubtitle: string;
@@ -20,6 +30,7 @@ export interface TranslationDict {
   catGraphics: string;
   catVideo: string;
   catWebApps: string;
+  catUtilities: string;
   catWebsites: string;
   liveSearchEyebrow: string;
   liveSearchPlaceholder: string;
@@ -45,17 +56,26 @@ export interface TranslationDict {
   allSoftwareHeading: string;
   appsAvailableSuffix: string;
   emptySearch: string;
+  pagePrev: string;
+  pageNext: string;
+  loadMoreBtn: string;
+  pageLabel: string;
+  ofLabel: string;
   guidesHeading: string;
   guidesSub: string;
   guideReadMore: string;
   guideAppsIncluded: string;
+  guidesAllCta: string;
   badgeCloud: string;
   badgeDesktop: string;
+  badgeCli: string;
   badgeNew: string;
+  starsSuffix: string;
   chosenByPrefix: string;
   chosenBySuffix: string;
   ctaDesktop: string;
   ctaCloud: string;
+  ctaCli: string;
   submitTitle: string;
   submitDesc: string;
   submitPlaceholder: string;
@@ -76,16 +96,26 @@ export interface TranslationDict {
   detailMode: string;
   detailModeCloud: string;
   detailModeDesktop: string;
+  detailModeCli: string;
   detailLicense: string;
   detailOfficialPage: string;
   detailOpenSource: string;
+  clusterSidebarHeading: string;
+  clusterPillarLabel: string;
+  clusterSubpillarLabel: string;
+  clusterComparisonLabel: string;
+  relatedGuidesHeading: string;
   reviewTitlePrefix: string;
   reviewDesc: string;
   reviewBtn: string;
   disclosureTitle: string;
   disclosureBody: string;
+  footerDisclaimer: string;
   footerAffiliate: string;
   footerCredits: string;
+  privacyLink: string;
+  dashboardLink: string;
+  sitemapLink: string;
   dialogTitle: string;
   dialogDescLocal: string;
   dialogDescAuth: string;
@@ -101,10 +131,12 @@ export interface TranslationDict {
 export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
   en: {
     brandSub: 'Free software for humans',
+    navGuides: 'Topic Guides',
     navTopPicks: 'Top Picks',
     navSubmit: 'Submit an App',
     navSignIn: 'Sign In',
     navFavorites: 'Favorites',
+    themeToggleAria: 'Toggle light and dark theme',
     eyebrow: 'Hand-picked selection of the best free software',
     heroTitle: 'Powerful free software, zero tech jargon',
     heroSubtitle:
@@ -118,6 +150,7 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catGraphics: 'Graphics & Design',
     catVideo: 'Video & Audio',
     catWebApps: 'Web Apps & Cloud',
+    catUtilities: 'Utilities & Power Tools',
     catWebsites: 'Websites & SEO',
     liveSearchEyebrow: "Can't find your favorite open-source app?",
     liveSearchPlaceholder: 'Search 800M+ open-source projects on GitHub...',
@@ -139,21 +172,30 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     convTimeoutMsg: 'Publishing is taking slightly longer than usual. Click Retry to keep checking or reopen shortly.',
     convRetryBtn: 'Try Again',
     topPicksHeading: 'Top Picks This Week',
-    topPicksSub: 'Most trusted apps chosen by the community',
+    topPicksSub: 'Most starred open-source software in the catalog',
     allSoftwareHeading: 'All Software',
     appsAvailableSuffix: 'apps available',
     emptySearch: 'No apps match your search. Try another keyword or submit a link below.',
-    guidesHeading: 'Curated Guides',
-    guidesSub: 'Practical roundups to help you pick the right free tool',
-    guideReadMore: 'Read guide →',
-    guideAppsIncluded: 'apps included',
+    pagePrev: 'Previous',
+    pageNext: 'Next',
+    loadMoreBtn: 'Load 24 more',
+    pageLabel: 'Page',
+    ofLabel: 'of',
+    guidesHeading: 'Topic Guides & Comparisons',
+    guidesSub: 'Practical buyer guides, alternatives, and troubleshooting organized by topic',
+    guideReadMore: 'Explore guide →',
+    guideAppsIncluded: 'apps covered',
+    guidesAllCta: 'Browse all Topic Guides →',
     badgeCloud: 'Cloud Web App',
-    badgeDesktop: 'Free Desktop App',
+    badgeDesktop: 'Desktop App',
+    badgeCli: 'CLI Tool',
     badgeNew: 'New',
-    chosenByPrefix: 'Chosen by',
-    chosenBySuffix: 'users',
+    starsSuffix: 'stars on GitHub',
+    chosenByPrefix: '★',
+    chosenBySuffix: 'stars on GitHub',
     ctaDesktop: 'Explore & Download →',
     ctaCloud: 'Open in Cloud →',
+    ctaCli: 'Get CLI Tool →',
     submitTitle: 'Submit an App',
     submitDesc: 'Paste any GitHub URL to add a plain-English guide to HubHum',
     submitPlaceholder: 'https://github.com/author/app-name',
@@ -173,23 +215,32 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     detailCategory: 'Category:',
     detailMode: 'Format:',
     detailModeCloud: 'Runs in your browser / cloud',
-    detailModeDesktop: 'Installs on your device',
+    detailModeDesktop: 'Desktop GUI installer',
+    detailModeCli: 'Command-line / terminal tool',
     detailLicense: 'License:',
     detailOfficialPage: 'Official Page:',
     detailOpenSource: 'Visit source',
+    clusterSidebarHeading: 'Topic Cluster Guides',
+    clusterPillarLabel: 'Main Category Guide:',
+    clusterSubpillarLabel: 'Focus Topic Hub:',
+    clusterComparisonLabel: 'Compare Top Alternatives →',
+    relatedGuidesHeading: 'Related Guides in This Topic',
     reviewTitlePrefix: 'Have you tried',
     reviewDesc: 'Help everyday users decide by sharing a quick review.',
     reviewBtn: 'Write a review',
     disclosureTitle: 'Affiliate transparency (#ad):',
     disclosureBody:
       'Some links on this page are affiliate links. If you choose to activate a service through them, we may earn a commission at no extra cost to you.',
+    footerDisclaimer: 'HubHum is an independent directory and is not affiliated with GitHub, Inc.',
     footerAffiliate:
       'Affiliate transparency (#ad): Some links on HubHum are affiliate links. If you purchase a service through them, we may earn a commission at no extra cost to you.',
     footerCredits:
       'All listed software links strictly to official creator channels in full respect of open-source licenses.',
+    privacyLink: 'Privacy Policy',
+    dashboardLink: 'Dashboard',
+    sitemapLink: 'Sitemap',
     dialogTitle: 'Your Saved Favorites',
-    dialogDescLocal:
-      'Your favorite apps are saved right here in this browser.',
+    dialogDescLocal: 'Your favorite apps are saved right here in this browser.',
     dialogDescAuth: 'Signed in with GitHub. Manage your saved favorites below.',
     dialogNoFavs: 'You have not saved any favorite apps yet. Click the heart button on any app page!',
     dialogClose: 'Close',
@@ -201,10 +252,12 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
   },
   it: {
     brandSub: 'App libere per tutti',
+    navGuides: 'Guide Tematiche',
     navTopPicks: 'Top della settimana',
     navSubmit: "Proponi un'app",
     navSignIn: 'Accedi',
     navFavorites: 'Preferiti',
+    themeToggleAria: 'Cambia tema chiaro o scuro',
     eyebrow: 'La selezione curata a mano dei migliori software gratuiti',
     heroTitle: 'Programmi gratuiti e potenti, senza gergo tecnico',
     heroSubtitle:
@@ -218,6 +271,7 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catGraphics: 'Grafica & Design',
     catVideo: 'Video & Audio',
     catWebApps: 'Web App & Cloud',
+    catUtilities: 'Utilità & Power Tools',
     catWebsites: 'Siti Web & SEO',
     liveSearchEyebrow: 'Non trovi il tuo programma open-source preferito?',
     liveSearchPlaceholder: 'Cerca tra milioni di progetti open-source su GitHub...',
@@ -239,21 +293,30 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     convTimeoutMsg: 'La pubblicazione sta richiedendo qualche secondo in più. Premi Riprova per continuare il controllo.',
     convRetryBtn: 'Riprova',
     topPicksHeading: 'Migliori della Settimana',
-    topPicksSub: 'I software più apprezzati dalla community',
+    topPicksSub: 'I software con più stelle su GitHub nel catalogo',
     allSoftwareHeading: 'Tutto il Catalogo',
     appsAvailableSuffix: 'app disponibili',
     emptySearch: "Nessuna app corrisponde alla ricerca. Prova un'altra parola o proponi un link qui sotto.",
-    guidesHeading: 'Guide e Raccolte',
-    guidesSub: 'Selezioni pratiche per scegliere lo strumento gratuito giusto',
-    guideReadMore: 'Leggi la guida →',
-    guideAppsIncluded: 'app incluse',
+    pagePrev: 'Precedente',
+    pageNext: 'Successiva',
+    loadMoreBtn: 'Carica altre 24',
+    pageLabel: 'Pagina',
+    ofLabel: 'di',
+    guidesHeading: 'Guide Tematiche & Confronti',
+    guidesSub: 'Guide pratiche, confronti tra alternative e soluzioni ai problemi più comuni',
+    guideReadMore: 'Apri guida →',
+    guideAppsIncluded: 'app analizzate',
+    guidesAllCta: 'Esplora tutte le Guide →',
     badgeCloud: 'Web App Cloud',
-    badgeDesktop: 'App Gratuita',
+    badgeDesktop: 'App Desktop',
+    badgeCli: 'Strumento CLI',
     badgeNew: 'Novità',
-    chosenByPrefix: 'Scelto da',
-    chosenBySuffix: 'utenti',
+    starsSuffix: 'stelle su GitHub',
+    chosenByPrefix: '★',
+    chosenBySuffix: 'stelle su GitHub',
     ctaDesktop: 'Scopri & Scarica →',
     ctaCloud: 'Apri nel Cloud →',
+    ctaCli: 'Scopri Strumento CLI →',
     submitTitle: "Proponi un'app",
     submitDesc: 'Incolla un link GitHub per aggiungere una guida chiara su HubHum',
     submitPlaceholder: 'https://github.com/autore/nome-app',
@@ -273,20 +336,30 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     detailCategory: 'Categoria:',
     detailMode: 'Modalità:',
     detailModeCloud: 'Applicazione web nel cloud',
-    detailModeDesktop: 'Installazione diretta sul dispositivo',
+    detailModeDesktop: 'App desktop con installazione',
+    detailModeCli: 'Strumento da riga di comando (CLI)',
     detailLicense: 'Licenza:',
     detailOfficialPage: 'Pagina ufficiale:',
     detailOpenSource: 'Apri fonte',
+    clusterSidebarHeading: 'Guide del Topic Cluster',
+    clusterPillarLabel: 'Guida Principale:',
+    clusterSubpillarLabel: 'Sotto-categoria:',
+    clusterComparisonLabel: 'Confronta le alternative →',
+    relatedGuidesHeading: 'Guide Correlate in Questo Tema',
     reviewTitlePrefix: 'Hai provato',
     reviewDesc: 'Aiuta altri utenti a scegliere lasciando un parere veloce.',
     reviewBtn: 'Lascia una recensione',
     disclosureTitle: 'Trasparenza affiliazioni (#ad):',
     disclosureBody:
       'Alcuni link su questa pagina sono di affiliazione: se attivi un servizio tramite questi link potremmo ricevere una commissione, senza costi aggiuntivi per te.',
+    footerDisclaimer: 'HubHum è un catalogo indipendente e non è affiliato con GitHub, Inc.',
     footerAffiliate:
       'Trasparenza affiliazioni (#ad): Alcuni link su HubHum sono link di affiliazione. Se acquisti un servizio tramite questi link potremmo ricevere una commissione, senza costi aggiuntivi per te.',
     footerCredits:
       'Tutti i software rimandano esclusivamente ai canali ufficiali dei rispettivi autori nel rispetto delle licenze open-source.',
+    privacyLink: 'Privacy Policy',
+    dashboardLink: 'Dashboard',
+    sitemapLink: 'Mappa del sito',
     dialogTitle: 'I tuoi Preferiti',
     dialogDescLocal: 'Le tue app preferite sono salvate qui nel tuo browser.',
     dialogDescAuth: 'Accesso effettuato con GitHub. Gestisci i tuoi preferiti qui sotto.',
@@ -300,10 +373,12 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
   },
   es: {
     brandSub: 'Software libre para todos',
+    navGuides: 'Guías Temáticas',
     navTopPicks: 'Destacados',
     navSubmit: 'Enviar una app',
     navSignIn: 'Iniciar sesión',
     navFavorites: 'Favoritos',
+    themeToggleAria: 'Cambiar tema claro o oscuro',
     eyebrow: 'Selección cuidada del mejor software gratuito',
     heroTitle: 'Software gratuito y potente, sin jerga técnica',
     heroSubtitle:
@@ -317,6 +392,7 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catGraphics: 'Gráficos y Diseño',
     catVideo: 'Video y Audio',
     catWebApps: 'Apps Web y Nube',
+    catUtilities: 'Utilidades y Herramientas',
     catWebsites: 'Sitios Web y SEO',
     liveSearchEyebrow: '¿No encuentras tu app de código abierto favorita?',
     liveSearchPlaceholder: 'Busca entre millones de proyectos abiertos en GitHub...',
@@ -338,21 +414,30 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     convTimeoutMsg: 'La publicación está tardando un poco más. Pulsa Reintentar para comprobar.',
     convRetryBtn: 'Reintentar',
     topPicksHeading: 'Lo Mejor de la Semana',
-    topPicksSub: 'Las aplicaciones más valoradas por la comunidad',
+    topPicksSub: 'Los proyectos con más estrellas en GitHub',
     allSoftwareHeading: 'Todo el Catálogo',
     appsAvailableSuffix: 'apps disponibles',
     emptySearch: 'No hay aplicaciones que coincidan con tu búsqueda. Prueba otra palabra clave.',
-    guidesHeading: 'Guías Prácticas',
-    guidesSub: 'Selecciones para elegir la herramienta gratuita adecuada',
-    guideReadMore: 'Leer guía →',
-    guideAppsIncluded: 'apps incluidas',
-    badgeCloud: 'App Web en la Nube',
-    badgeDesktop: 'App Gratuita',
+    pagePrev: 'Anterior',
+    pageNext: 'Siguiente',
+    loadMoreBtn: 'Cargar 24 más',
+    pageLabel: 'Página',
+    ofLabel: 'de',
+    guidesHeading: 'Guías Temáticas y Comparativas',
+    guidesSub: 'Guías prácticas, comparativas y soluciones por tema',
+    guideReadMore: 'Ver guía →',
+    guideAppsIncluded: 'apps analizadas',
+    guidesAllCta: 'Explorar todas las Guías →',
+    badgeCloud: 'App Web Cloud',
+    badgeDesktop: 'App de Escritorio',
+    badgeCli: 'Herramienta CLI',
     badgeNew: 'Nuevo',
-    chosenByPrefix: 'Elegido por',
-    chosenBySuffix: 'usuarios',
+    starsSuffix: 'estrellas en GitHub',
+    chosenByPrefix: '★',
+    chosenBySuffix: 'estrellas en GitHub',
     ctaDesktop: 'Explorar y Descargar →',
     ctaCloud: 'Abrir en la Nube →',
+    ctaCli: 'Ver Herramienta CLI →',
     submitTitle: 'Enviar una app',
     submitDesc: 'Pega cualquier enlace de GitHub para añadir una guía clara en HubHum',
     submitPlaceholder: 'https://github.com/autor/nombre-app',
@@ -372,20 +457,30 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     detailCategory: 'Categoría:',
     detailMode: 'Formato:',
     detailModeCloud: 'Funciona en tu navegador / nube',
-    detailModeDesktop: 'Se instala en tu equipo',
+    detailModeDesktop: 'Instalador de escritorio',
+    detailModeCli: 'Herramienta de línea de comandos (CLI)',
     detailLicense: 'Licencia:',
     detailOfficialPage: 'Página oficial:',
     detailOpenSource: 'Visitar fuente',
+    clusterSidebarHeading: 'Guías de este Tema',
+    clusterPillarLabel: 'Guía Principal:',
+    clusterSubpillarLabel: 'Subtema:',
+    clusterComparisonLabel: 'Comparar alternativas →',
+    relatedGuidesHeading: 'Guías Relacionadas sobre este Tema',
     reviewTitlePrefix: '¿Has probado',
     reviewDesc: 'Ayuda a otros usuarios compartiendo una breve reseña.',
     reviewBtn: 'Escribir reseña',
     disclosureTitle: 'Transparencia de afiliados (#ad):',
     disclosureBody:
       'Algunos enlaces en esta página son de afiliados. Si contratas un servicio mediante ellos, podemos recibir una comisión sin costo adicional para ti.',
+    footerDisclaimer: 'HubHum es un directorio independiente y no está afiliado con GitHub, Inc.',
     footerAffiliate:
       'Transparencia de afiliados (#ad): Algunos enlaces en HubHum son de afiliados. Si compras un servicio mediante ellos, podemos recibir una comisión sin coste adicional para ti.',
     footerCredits:
       'Todas las aplicaciones enlazan directamente con los canales oficiales de sus autores respetando las licencias de código abierto.',
+    privacyLink: 'Política de Privacidad',
+    dashboardLink: 'Panel',
+    sitemapLink: 'Mapa del sitio',
     dialogTitle: 'Tus Favoritos Guardados',
     dialogDescLocal: 'Tus aplicaciones favoritas se guardan al instante en este navegador.',
     dialogDescAuth: 'Sesión iniciada con GitHub. Administra tus favoritos abajo.',
@@ -399,10 +494,12 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
   },
   fr: {
     brandSub: 'Logiciels libres pour tous',
+    navGuides: 'Guides Thématiques',
     navTopPicks: 'Sélection',
     navSubmit: 'Proposer une app',
     navSignIn: 'Connexion',
     navFavorites: 'Favoris',
+    themeToggleAria: 'Changer de thème clair ou sombre',
     eyebrow: 'Sélection soignée des meilleurs logiciels gratuits',
     heroTitle: 'Des logiciels gratuits puissants, sans jargon technique',
     heroSubtitle:
@@ -416,6 +513,7 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catGraphics: 'Graphisme et Design',
     catVideo: 'Vidéo et Audio',
     catWebApps: 'Apps Web et Cloud',
+    catUtilities: 'Utilitaires & Outils',
     catWebsites: 'Sites Web et SEO',
     liveSearchEyebrow: 'Vous ne trouvez pas votre logiciel libre favori ?',
     liveSearchPlaceholder: 'Recherchez parmi des millions de projets sur GitHub...',
@@ -437,21 +535,30 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     convTimeoutMsg: 'La publication prend un peu plus de temps. Cliquez sur Réessayer.',
     convRetryBtn: 'Réessayer',
     topPicksHeading: 'Sélection de la Semaine',
-    topPicksSub: 'Les applications les plus appréciées par la communauté',
+    topPicksSub: 'Les logiciels libres les plus étoilés sur GitHub',
     allSoftwareHeading: 'Tout le Catalogue',
     appsAvailableSuffix: 'apps disponibles',
     emptySearch: 'Aucune application ne correspond à votre recherche.',
-    guidesHeading: 'Guides Pratiques',
-    guidesSub: 'Sélections pour choisir le bon outil gratuit',
+    pagePrev: 'Précédent',
+    pageNext: 'Suivant',
+    loadMoreBtn: 'Charger 24 de plus',
+    pageLabel: 'Page',
+    ofLabel: 'sur',
+    guidesHeading: 'Guides Thématiques & Comparatifs',
+    guidesSub: 'Guides pratiques, comparatifs et solutions organisés par thème',
     guideReadMore: 'Lire le guide →',
-    guideAppsIncluded: 'apps incluses',
+    guideAppsIncluded: 'apps analysées',
+    guidesAllCta: 'Tous les Guides Thématiques →',
     badgeCloud: 'App Web Cloud',
-    badgeDesktop: 'App Gratuite',
+    badgeDesktop: 'App Bureau',
+    badgeCli: 'Outil CLI',
     badgeNew: 'Nouveau',
-    chosenByPrefix: 'Choisi par',
-    chosenBySuffix: 'utilisateurs',
+    starsSuffix: 'étoiles sur GitHub',
+    chosenByPrefix: '★',
+    chosenBySuffix: 'étoiles sur GitHub',
     ctaDesktop: 'Découvrir & Télécharger →',
     ctaCloud: 'Ouvrir dans le Cloud →',
+    ctaCli: "Voir l'Outil CLI →",
     submitTitle: 'Proposer une app',
     submitDesc: 'Collez un lien GitHub pour ajouter un guide clair sur HubHum',
     submitPlaceholder: 'https://github.com/auteur/nom-app',
@@ -471,20 +578,30 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     detailCategory: 'Catégorie :',
     detailMode: 'Format :',
     detailModeCloud: 'Application web dans le cloud',
-    detailModeDesktop: 'Installation directe sur votre appareil',
+    detailModeDesktop: 'Application de bureau installable',
+    detailModeCli: 'Outil en ligne de commande (CLI)',
     detailLicense: 'Licence :',
     detailOfficialPage: 'Page officielle :',
     detailOpenSource: 'Voir la source',
+    clusterSidebarHeading: 'Guides du Thème',
+    clusterPillarLabel: 'Guide Principal :',
+    clusterSubpillarLabel: 'Sous-thème :',
+    clusterComparisonLabel: 'Comparer les alternatives →',
+    relatedGuidesHeading: 'Guides Associés sur ce Thème',
     reviewTitlePrefix: 'Avez-vous essayé',
     reviewDesc: 'Aidez les autres utilisateurs en partageant votre avis.',
     reviewBtn: 'Laisser un avis',
     disclosureTitle: "Transparence d'affiliation (#ad) :",
     disclosureBody:
       "Certains liens sur cette page sont des liens d'affiliation. Si vous souscrivez un service via ces liens, nous pouvons percevoir une commission sans surcoût pour vous.",
+    footerDisclaimer: "HubHum est un répertoire indépendant et n'est pas affilié à GitHub, Inc.",
     footerAffiliate:
       "Transparence d'affiliation (#ad) : Certains liens sur HubHum sont affiliés. Si vous achetez un service via ces liens, nous pouvons percevoir une commission sans frais supplémentaires.",
     footerCredits:
       'Tous les logiciels renvoient exclusivement vers les canaux officiels de leurs auteurs.',
+    privacyLink: 'Confidentialité',
+    dashboardLink: 'Tableau de bord',
+    sitemapLink: 'Plan du site',
     dialogTitle: 'Vos Favoris Enregistrés',
     dialogDescLocal: 'Vos applications favorites sont enregistrées instantanément dans ce navigateur.',
     dialogDescAuth: 'Connecté avec GitHub. Gérez vos favoris ci-dessous.',
@@ -498,10 +615,12 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
   },
   de: {
     brandSub: 'Freie Software für alle',
+    navGuides: 'Themen-Guides',
     navTopPicks: 'Top-Auswahl',
     navSubmit: 'App vorschlagen',
     navSignIn: 'Anmelden',
     navFavorites: 'Favoriten',
+    themeToggleAria: 'Helles oder dunkles Design wechseln',
     eyebrow: 'Handverlesene Auswahl der besten kostenlosen Software',
     heroTitle: 'Starke kostenlose Software, ganz ohne Fachjargon',
     heroSubtitle:
@@ -515,6 +634,7 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     catGraphics: 'Grafik & Design',
     catVideo: 'Video & Audio',
     catWebApps: 'Web-Apps & Cloud',
+    catUtilities: 'System- & Power-Tools',
     catWebsites: 'Websites & SEO',
     liveSearchEyebrow: 'Ihre Lieblings-App noch nicht dabei?',
     liveSearchPlaceholder: 'Millionen Open-Source-Projekte auf GitHub durchsuchen...',
@@ -536,21 +656,30 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     convTimeoutMsg: 'Die Veröffentlichung dauert etwas länger. Klicken Sie auf Erneut versuchen.',
     convRetryBtn: 'Erneut versuchen',
     topPicksHeading: 'Top-Tipps der Woche',
-    topPicksSub: 'Beliebte Programme aus der Community',
+    topPicksSub: 'Beliebte Open-Source-Projekte nach GitHub-Sternen',
     allSoftwareHeading: 'Alle Programme',
     appsAvailableSuffix: 'Apps verfügbar',
     emptySearch: 'Keine passenden Apps gefunden. Versuchen Sie einen anderen Suchbegriff.',
-    guidesHeading: 'Kuratiere Ratgeber',
-    guidesSub: 'Praktische Empfehlungen für kostenlose Alternativen',
-    guideReadMore: 'Ratgeber lesen →',
+    pagePrev: 'Zurück',
+    pageNext: 'Weiter',
+    loadMoreBtn: 'Weitere 24 laden',
+    pageLabel: 'Seite',
+    ofLabel: 'von',
+    guidesHeading: 'Themen-Guides & Vergleiche',
+    guidesSub: 'Praxisnahe Ratgeber, Vergleiche und Problemlösungen nach Thema',
+    guideReadMore: 'Ratgeber öffnen →',
     guideAppsIncluded: 'Apps enthalten',
+    guidesAllCta: 'Alle Themen-Guides ansehen →',
     badgeCloud: 'Cloud Web-App',
-    badgeDesktop: 'Kostenlose App',
+    badgeDesktop: 'Desktop-App',
+    badgeCli: 'CLI-Tool',
     badgeNew: 'Neu',
-    chosenByPrefix: 'Gewählt von',
-    chosenBySuffix: 'Nutzern',
+    starsSuffix: 'Sterne auf GitHub',
+    chosenByPrefix: '★',
+    chosenBySuffix: 'Sterne auf GitHub',
     ctaDesktop: 'Entdecken & Laden →',
     ctaCloud: 'In der Cloud öffnen →',
+    ctaCli: 'CLI-Tool öffnen →',
     submitTitle: 'App vorschlagen',
     submitDesc: 'Fügen Sie einen GitHub-Link ein, um eine verständliche Anleitung auf HubHum zu erstellen',
     submitPlaceholder: 'https://github.com/autor/app-name',
@@ -570,20 +699,30 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     detailCategory: 'Kategorie:',
     detailMode: 'Format:',
     detailModeCloud: 'Läuft im Browser / in der Cloud',
-    detailModeDesktop: 'Installation auf Ihrem Gerät',
+    detailModeDesktop: 'Desktop-Programm zum Installieren',
+    detailModeCli: 'Kommandozeilen-Werkzeug (CLI)',
     detailLicense: 'Lizenz:',
     detailOfficialPage: 'Offizielle Seite:',
     detailOpenSource: 'Quelle öffnen',
+    clusterSidebarHeading: 'Themen-Cluster-Ratgeber',
+    clusterPillarLabel: 'Hauptkategorie:',
+    clusterSubpillarLabel: 'Unterthema:',
+    clusterComparisonLabel: 'Alternativen vergleichen →',
+    relatedGuidesHeading: 'Verwandte Ratgeber zu diesem Thema',
     reviewTitlePrefix: 'Schon ausprobiert:',
     reviewDesc: 'Helfen Sie anderen Nutzern mit einer kurzen Bewertung.',
     reviewBtn: 'Bewertung schreiben',
     disclosureTitle: 'Affiliate-Hinweis (#ad):',
     disclosureBody:
       'Einige Links auf dieser Seite sind Affiliate-Links. Bei einer Buchung erhalten wir ggf. eine Provision ohne Mehrkosten für Sie.',
+    footerDisclaimer: 'HubHum ist ein unabhängiges Verzeichnis und nicht mit GitHub, Inc. verbunden.',
     footerAffiliate:
       'Affiliate-Hinweis (#ad): Einige Links auf HubHum sind Partnerlinks. Bei einem Kauf erhalten wir ggf. eine Provision ohne Aufpreis.',
     footerCredits:
       'Alle Programme verweisen direkt auf die offiziellen Kanäle der Entwickler gemäß Open-Source-Lizenz.',
+    privacyLink: 'Datenschutz',
+    dashboardLink: 'Dashboard',
+    sitemapLink: 'Sitemap',
     dialogTitle: 'Ihre gespeicherten Favoriten',
     dialogDescLocal: 'Ihre Favoriten werden direkt in diesem Browser gespeichert.',
     dialogDescAuth: 'Mit GitHub angemeldet. Verwalten Sie Ihre Favoriten unten.',
@@ -604,5 +743,6 @@ export const CATEGORY_I18N_KEY: Record<string, keyof TranslationDict> = {
   'Graphics & Design': 'catGraphics',
   'Video & Audio': 'catVideo',
   'Web Apps & Cloud': 'catWebApps',
+  'Utilities & Power Tools': 'catUtilities',
   'Websites & SEO': 'catWebsites',
 };

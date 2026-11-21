@@ -1,0 +1,109 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/url';
+
+const allGuides = await getCollection('guides');
+const pillars = allGuides
+  .filter((g) => g.data.level === 1)
+  .sort((a, b) => b.data.app_slugs.length - a.data.app_slugs.length);
+const subpillarsByMacro = new Map<string, typeof allGuides>();
+
+for (const g of allGuides.filter((x) => x.data.level === 2)) {
+  const arr = subpillarsByMacro.get(g.data.macro_slug) || [];
+  arr.push(g);
+  subpillarsByMacro.set(g.data.macro_slug, arr);
+}
+
+const siteOrigin = (Astro.site?.toString() || 'https://davanzokeoma.github.io').replace(/\/$/, '');
+const hubJsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'HubHum Topic Guides & Software Comparisons',
+    description: 'Browse plain-English software guides, head-to-head comparisons, and troubleshooting handbooks across 6 software categories.',
+    url: `${siteOrigin}${withBase('/guides/')}`,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'HubHum', item: `${siteOrigin}${withBase('/')}` },
+      { '@type': 'ListItem', position: 2, name: 'Topic Guides', item: `${siteOrigin}${withBase('/guides/')}` },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Topic Guides & Comparisons — HubHum"
+  description="Browse structured software buying guides, head-to-head comparisons, and practical troubleshooting resources across every category."
+  jsonLd={hubJsonLd}
+>
+  <div class="container detail-wrap">
+    <nav class="cluster-breadcrumbs" aria-label="Breadcrumb">
+      <a href={withBase('/')} data-i18n="catAll">All</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page" style="font-weight:700;color:var(--text);" data-i18n="navGuides">Topic Guides</span>
+    </nav>
+
+    <section class="detail-hero">
+      <div style="max-width:740px;">
+        <div class="hero-badge" style="margin-bottom:0.55rem;">
+          <span>Inverse-Pyramid Software Knowledge Hubs</span>
+        </div>
+        <h1 style="margin:0;font-size:clamp(1.6rem,3.2vw,2.2rem);" data-i18n="guidesHeading">
+          Topic Guides &amp; Comparisons
+        </h1>
+        <p style="margin:0.45rem 0 0;color:var(--text-muted);" data-i18n="guidesSub">
+          Practical buyer guides, alternatives, and troubleshooting organized by topic
+        </p>
+      </div>
+      <a href={withBase('/')} class="btn btn-outline" data-i18n="backAllApps">← Back to all software</a>
+    </section>
+
+    <div class="apps-grid">
+      {pillars.map((pillar) => {
+        const subs = subpillarsByMacro.get(pillar.data.macro_slug) || [];
+        return (
+          <article class="app-card">
+            <div>
+              <div class="app-card-top">
+                <span class="mode-badge">{pillar.data.macro_category}</span>
+                <span class="tag-chip">{subs.length} focus hubs</span>
+              </div>
+              <h2 class="app-title" style="font-size:1.12rem;">
+                <a href={withBase(`/guides/${pillar.data.slug}/`)} style="text-decoration:underline;text-underline-offset:2px;">
+                  {pillar.data.title}
+                </a>
+              </h2>
+              <p class="app-summary">{pillar.data.summary}</p>
+              {subs.length > 0 && (
+                <ul style="padding-left:1.1rem;margin:0 0 0.8rem;font-size:0.86rem;color:var(--text-muted);display:grid;gap:0.28rem;">
+                  {subs.map((sub) => (
+                    <li>
+                      <a
+                        href={withBase(`/guides/${sub.data.slug}/`)}
+                        style="color:var(--accent-fg-text);text-decoration:underline;font-weight:600;"
+                      >
+                        {sub.data.sub_topic || sub.data.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+            <div class="app-card-foot">
+              <span class="popularity-stat">
+                {pillar.data.app_slugs.length}+ <span data-i18n="guideAppsIncluded">apps covered</span>
+              </span>
+              <a href={withBase(`/guides/${pillar.data.slug}/`)} class="card-cta" data-i18n="guideReadMore">
+                Explore guide →
+              </a>
+            </div>
+          </article>
+        );
+      })}
+    </div>
+  </div>
+</BaseLayout>

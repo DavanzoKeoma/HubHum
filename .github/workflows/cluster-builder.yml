@@ -1,0 +1,47 @@
+name: Autonomous Topic Cluster Builder
+
+on:
+  schedule:
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-clusters:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository with HUBHUM_PAT (enables deploy.yml chaining)
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.HUBHUM_PAT || secrets.GITHUB_TOKEN }}
+          fetch-depth: 5
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Configure Git author
+        run: |
+          git config user.name "DavanzoKeoma"
+          git config user.email "keomadavanzo@gmail.com"
+
+      - name: Run Topic Cluster Orchestrator
+        run: python3 scripts/cluster_orchestrator.py --generate
+
+      - name: Commit and push updated Topic Clusters
+        run: |
+          git add content/guides data/clusters_manifest.json src/data/app_cluster_map.json
+          if git diff --cached --quiet; then
+            echo "Topic clusters already up to date."
+          else
+            git commit -m "chore(seo): update 5-level topic clusters and internal linking map"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              git merge -X ours --no-edit origin/main
+            fi
+            git push origin main
+          fi

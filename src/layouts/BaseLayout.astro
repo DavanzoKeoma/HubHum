@@ -29,10 +29,11 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
     <meta name="google-site-verification" content="zhjr7xMD1JGKLOh9ag8b3Qgm2As1fN9T8TJksUHSzwE" />
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -57,10 +58,11 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
       (function () {
         var supported = ['en', 'it', 'es', 'fr', 'de'];
         var lang = 'en';
+        var theme = 'light';
         try {
-          var saved = localStorage.getItem('hubhum_lang');
-          if (saved && supported.indexOf(saved) !== -1) {
-            lang = saved;
+          var savedLang = localStorage.getItem('hubhum_lang');
+          if (savedLang && supported.indexOf(savedLang) !== -1) {
+            lang = savedLang;
           } else if (navigator.languages && navigator.languages.length) {
             for (var i = 0; i < navigator.languages.length; i++) {
               var code = String(navigator.languages[i] || '').slice(0, 2).toLowerCase();
@@ -73,9 +75,16 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
             var navCode = String(navigator.language).slice(0, 2).toLowerCase();
             if (supported.indexOf(navCode) !== -1) lang = navCode;
           }
+          var savedTheme = localStorage.getItem('hubhum_theme');
+          if (savedTheme === 'light' || savedTheme === 'dark') {
+            theme = savedTheme;
+          } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            theme = 'dark';
+          }
         } catch (_) {}
         window.__HUBHUM_LANG__ = lang;
         document.documentElement.lang = lang;
+        document.documentElement.dataset.theme = theme;
       })();
     </script>
   </head>
@@ -86,8 +95,8 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
           <img
             src={withBase('/logo.svg')}
             alt="HubHum — A Git Hub for Humans"
-            width="182"
-            height="40"
+            width="176"
+            height="38"
             class="brand-logo"
             decoding="async"
           />
@@ -95,9 +104,19 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
 
         <nav class="header-controls" aria-label="Main navigation">
           <a
+            href={withBase('/guides/')}
+            class="icon-nav-link"
+            aria-label="Browse Topic Guides"
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+            </svg>
+            <span data-i18n="navGuides">Topic Guides</span>
+          </a>
+
+          <a
             href={withBase('/#top-picks')}
             class="icon-nav-link"
-            title="Top Picks"
             aria-label="Jump to Top Picks"
           >
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -109,7 +128,6 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
           <a
             href={withBase('/#submit')}
             class="icon-nav-link"
-            title="Submit an App"
             aria-label="Submit an open-source app"
           >
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -119,6 +137,30 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
             </svg>
             <span data-i18n="navSubmit">Submit an App</span>
           </a>
+
+          <button
+            type="button"
+            id="theme-toggle-btn"
+            class="theme-toggle-btn"
+            aria-label="Toggle light and dark theme"
+            data-i18n-aria="themeToggleAria"
+            aria-pressed="false"
+          >
+            <svg id="theme-icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+            <svg id="theme-icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2"></path>
+              <path d="M12 20v2"></path>
+              <path d="m4.93 4.93 1.41 1.41"></path>
+              <path d="m17.66 17.66 1.41 1.41"></path>
+              <path d="M2 12h2"></path>
+              <path d="M20 12h2"></path>
+              <path d="m6.34 17.66-1.41 1.41"></path>
+              <path d="m19.07 4.93-1.41 1.41"></path>
+            </svg>
+          </button>
 
           <label for="lang-switcher" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Language</label>
           <select id="lang-switcher" class="lang-select" aria-label="Language">
@@ -156,6 +198,7 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
       </div>
 
       <div id="mobile-drawer" class="container mobile-drawer" aria-label="Mobile navigation">
+        <a href={withBase('/guides/')} class="btn btn-outline" data-i18n="navGuides">Topic Guides</a>
         <a href={withBase('/#top-picks')} class="btn btn-outline" data-i18n="navTopPicks">Top Picks</a>
         <a href={withBase('/#submit')} class="btn btn-outline" data-i18n="navSubmit">Submit an App</a>
       </div>
@@ -165,7 +208,7 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
       <slot />
     </main>
 
-    <dialog id="account-dialog" class="hubhum-dialog" aria-labelledby="dialog-title">
+    <dialog id="favorites-dialog" class="hubhum-dialog" aria-labelledby="dialog-title">
       <div style="display:flex;align-items:center;justify-content:space-between;gap:0.75rem;margin-bottom:0.5rem;">
         <h2 id="dialog-title" style="margin:0;font-size:1.15rem;" data-i18n="dialogTitle">Your Saved Favorites</h2>
         <button type="button" id="dialog-close-top" class="btn btn-outline" style="padding:0.25rem 0.65rem;" aria-label="Close">✕</button>
@@ -200,8 +243,8 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
 
     <footer class="site-footer">
       <div class="container footer-grid">
-        <div class="footer-disclaimer">
-          HubHum is an independent tool and is not affiliated with GitHub, Inc.
+        <div class="footer-disclaimer" data-i18n="footerDisclaimer">
+          HubHum is an independent directory and is not affiliated with GitHub, Inc.
         </div>
         <div data-i18n="footerAffiliate">
           Affiliate transparency (#ad): Some links on HubHum are affiliate links. If you purchase a service through them, we may earn a commission at no extra cost to you.
@@ -210,9 +253,10 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
           All listed software links strictly to official creator channels in full respect of open-source licenses.
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:1rem;margin-top:0.35rem;font-weight:600;color:var(--text);">
-          <a href={withBase('/privacy/')} style="text-decoration:underline;">Privacy Policy</a>
-          <a href={withBase('/dashboard/')} style="text-decoration:underline;">Dashboard</a>
-          <a href={withBase('/sitemap-index.xml')} style="text-decoration:underline;">Sitemap</a>
+          <a href={withBase('/guides/')} style="text-decoration:underline;" data-i18n="navGuides">Topic Guides</a>
+          <a href={withBase('/privacy/')} style="text-decoration:underline;" data-i18n="privacyLink">Privacy Policy</a>
+          <a href={withBase('/dashboard/')} style="text-decoration:underline;" data-i18n="dashboardLink">Dashboard</a>
+          <a href={withBase('/sitemap-index.xml')} style="text-decoration:underline;" data-i18n="sitemapLink">Sitemap</a>
         </div>
       </div>
     </footer>
@@ -226,8 +270,33 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
         startGitHubWebOAuth,
         toggleFavorite,
       } from '../lib/github-oauth';
-      import { SUPPORTED_LANGS, TRANSLATIONS, type SupportedLang } from '../i18n/translations';
+      import { formatCompactStars, SUPPORTED_LANGS, TRANSLATIONS, type SupportedLang } from '../i18n/translations';
       import { withBase } from '../lib/url';
+
+      // Theme switching (Light / Dark)
+      const themeToggleBtn = document.getElementById('theme-toggle-btn') as HTMLButtonElement | null;
+      const moonIcon = document.getElementById('theme-icon-moon');
+      const sunIcon = document.getElementById('theme-icon-sun');
+
+      function applyTheme(nextTheme: 'light' | 'dark') {
+        document.documentElement.dataset.theme = nextTheme;
+        try {
+          localStorage.setItem('hubhum_theme', nextTheme);
+        } catch {}
+        if (themeToggleBtn) {
+          themeToggleBtn.setAttribute('aria-pressed', String(nextTheme === 'dark'));
+        }
+        if (moonIcon && sunIcon) {
+          moonIcon.style.display = nextTheme === 'dark' ? 'none' : 'inline-block';
+          sunIcon.style.display = nextTheme === 'dark' ? 'inline-block' : 'none';
+        }
+      }
+
+      applyTheme(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+      themeToggleBtn?.addEventListener('click', () => {
+        const cur = document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
+        applyTheme(cur === 'dark' ? 'light' : 'dark');
+      });
 
       const win = window as unknown as { __HUBHUM_LANG__?: string };
       let currentLang: SupportedLang = (
@@ -263,11 +332,12 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
           if (sumEl && localizedSum) {
             sumEl.textContent = localizedSum;
           }
-          const popEl = card.querySelector<HTMLElement>('[data-pop-count]');
-          if (popEl) {
-            const count = Number(popEl.dataset.popCount || '0');
+          const starEl = card.querySelector<HTMLElement>('[data-star-count]');
+          if (starEl) {
+            const count = Number(starEl.dataset.starCount || '0');
             if (count > 0) {
-              popEl.textContent = `${dict.chosenByPrefix} ${count.toLocaleString(lang)} ${dict.chosenBySuffix}`;
+              starEl.textContent = formatCompactStars(count);
+              starEl.title = `${count.toLocaleString(lang)} ${dict.starsSuffix}`;
             }
           }
         });
@@ -296,12 +366,12 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
         mobileBtn.setAttribute('aria-expanded', String(isOpen));
       });
 
-      // 1-Click GitHub Web OAuth + Local Favorites
-      const loginBtn = document.getElementById('oauth-login-btn');
+      // 1-Click GitHub Web OAuth + Local Favorites Dialog (#favorites-dialog)
+      const loginBtn = document.getElementById('oauth-login-btn') as HTMLButtonElement | null;
       const loginLabel = document.getElementById('oauth-login-label');
       const avatarImg = document.getElementById('oauth-avatar') as HTMLImageElement | null;
       const defaultIcon = document.getElementById('oauth-default-icon');
-      const dialog = document.getElementById('account-dialog') as HTMLDialogElement | null;
+      const dialog = document.getElementById('favorites-dialog') as HTMLDialogElement | null;
       const favList = document.getElementById('dialog-fav-list');
       const dialogDesc = document.getElementById('dialog-desc');
       const oauthSignInBox = document.getElementById('oauth-signin-box');
@@ -401,6 +471,10 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
         renderFavoritesList();
         if (oauthStatusMsg) oauthStatusMsg.textContent = '';
         dialog?.showModal();
+      });
+
+      dialog?.addEventListener('close', () => {
+        loginBtn?.focus();
       });
 
       githubSignInBtn?.addEventListener('click', () => {

@@ -1,0 +1,289 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AppCard from '../../components/AppCard.astro';
+import { withBase } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides');
+  return guides.map((guide) => ({
+    params: { slug: guide.data.slug },
+    props: { guide },
+  }));
+}
+
+const { guide } = Astro.props;
+const { Content } = await render(guide);
+
+const allGuides = await getCollection('guides');
+const allApps = await getCollection('apps');
+
+const guidesBySlug = new Map(allGuides.map((g) => [g.data.slug, g]));
+const appsBySlug = new Map(allApps.map((a) => [a.data.slug, a]));
+
+const parentGuide = guide.data.parent_slug ? guidesBySlug.get(guide.data.parent_slug) : undefined;
+const macroGuide = guide.data.macro_slug ? guidesBySlug.get(guide.data.macro_slug) : undefined;
+const childGuides = guide.data.child_slugs
+  .map((s) => guidesBySlug.get(s))
+  .filter((g): g is NonNullable<typeof g> => Boolean(g));
+const siblingGuides = guide.data.sibling_slugs
+  .map((s) => guidesBySlug.get(s))
+  .filter((g): g is NonNullable<typeof g> => Boolean(g));
+const matchedApps = guide.data.app_slugs
+  .map((s) => appsBySlug.get(s))
+  .filter((a): a is NonNullable<typeof a> => Boolean(a));
+
+const levelLabel =
+  guide.data.level === 1
+    ? 'Main Category Guide'
+    : guide.data.level === 2
+    ? 'Focus Topic Hub'
+    : guide.data.intent === 'comparison'
+    ? 'Comparison Guide'
+    : guide.data.intent === 'foundations'
+    ? 'Beginner Foundations'
+    : 'Troubleshooting Guide';
+
+const siteOrigin = (Astro.site?.toString() || 'https://davanzokeoma.github.io').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}${withBase(`/guides/${guide.data.slug}/`)}`;
+
+const breadcrumbItems: Array<Record<string, unknown>> = [
+  { '@type': 'ListItem', position: 1, name: 'HubHum', item: `${siteOrigin}${withBase('/')}` },
+  { '@type': 'ListItem', position: 2, name: 'Topic Guides', item: `${siteOrigin}${withBase('/guides/')}` },
+];
+
+if (guide.data.level === 1) {
+  breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: guide.data.macro_category, item: canonicalUrl });
+} else if (guide.data.level === 2) {
+  breadcrumbItems.push({
+    '@type': 'ListItem',
+    position: 3,
+    name: guide.data.macro_category,
+    item: `${siteOrigin}${withBase(`/guides/${guide.data.macro_slug}/`)}`,
+  });
+  breadcrumbItems.push({
+    '@type': 'ListItem',
+    position: 4,
+    name: guide.data.sub_topic || guide.data.title,
+    item: canonicalUrl,
+  });
+} else {
+  breadcrumbItems.push({
+    '@type': 'ListItem',
+    position: 3,
+    name: guide.data.macro_category,
+    item: `${siteOrigin}${withBase(`/guides/${guide.data.macro_slug}/`)}`,
+  });
+  if (parentGuide) {
+    breadcrumbItems.push({
+      '@type': 'ListItem',
+      position: 4,
+      name: parentGuide.data.sub_topic || parentGuide.data.title,
+      item: `${siteOrigin}${withBase(`/guides/${parentGuide.data.slug}/`)}`,
+    });
+  }
+  breadcrumbItems.push({
+    '@type': 'ListItem',
+    position: parentGuide ? 5 : 4,
+    name: guide.data.title,
+    item: canonicalUrl,
+  });
+}
+
+const primarySchema =
+  guide.data.level === 3
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: guide.data.title,
+        description: guide.data.summary,
+        dateModified: guide.data.updated_at || new Date().toISOString().slice(0, 10),
+        author: { '@type': 'Organization', name: 'HubHum' },
+        mainEntityOfPage: canonicalUrl,
+      }
+    : {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: guide.data.title,
+        description: guide.data.summary,
+        url: canonicalUrl,
+        mainEntity: {
+          '@type': 'ItemList',
+          numberOfItems: matchedApps.length,
+          itemListElement: matchedApps.slice(0, 10).map((a, idx) => ({
+            '@type': 'ListItem',
+            position: idx + 1,
+            name: a.data.title,
+            url: `${siteOrigin}${withBase(`/apps/${a.data.slug}/`)}`,
+          })),
+        },
+      };
+
+const jsonLd = [
+  primarySchema,
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbItems,
+  },
+];
+---
+
+<BaseLayout
+  title={`${guide.data.title} — HubHum`}
+  description={guide.data.summary}
+  jsonLd={jsonLd}
+>
+  <div class="container detail-wrap">
+    <nav class="cluster-breadcrumbs" aria-label="Breadcrumb">
+      <a href={withBase('/')} data-i18n="catAll">All</a>
+      <span aria-hidden="true">/</span>
+      <a href={withBase('/guides/')} data-i18n="navGuides">Topic Guides</a>
+      {guide.data.level > 1 && macroGuide && (
+        <>
+          <span aria-hidden="true">/</span>
+          <a href={withBase(`/guides/${macroGuide.data.slug}/`)}>{macroGuide.data.macro_category}</a>
+        </>
+      )}
+      {guide.data.level === 3 && parentGuide && (
+        <>
+          <span aria-hidden="true">/</span>
+          <a href={withBase(`/guides/${parentGuide.data.slug}/`)}>
+            {parentGuide.data.sub_topic || parentGuide.data.title}
+          </a>
+        </>
+      )}
+      <span aria-hidden="true">/</span>
+      <span aria-current="page" style="font-weight:700;color:var(--text);">
+        {guide.data.level === 1
+          ? guide.data.macro_category
+          : guide.data.level === 2
+          ? guide.data.sub_topic || guide.data.title
+          : guide.data.title}
+      </span>
+    </nav>
+
+    <section class="detail-hero">
+      <div style="max-width:780px;">
+        <div style="display:flex;flex-wrap:wrap;gap:0.45rem;align-items:center;margin-bottom:0.45rem;">
+          <span class="mode-badge">{levelLabel}</span>
+          <span class="tag-chip">{guide.data.macro_category}</span>
+          {matchedApps.length > 0 && (
+            <span class="tag-chip">{matchedApps.length} free tools reviewed</span>
+          )}
+        </div>
+        <h1 style="margin:0;font-size:clamp(1.55rem,3vw,2.15rem);line-height:1.18;">
+          {guide.data.title}
+        </h1>
+        <p style="margin:0.45rem 0 0;color:var(--text-muted);">{guide.data.summary}</p>
+      </div>
+      <div class="detail-actions">
+        {parentGuide ? (
+          <a href={withBase(`/guides/${parentGuide.data.slug}/`)} class="btn btn-outline">
+            ↑ Up to {parentGuide.data.sub_topic || parentGuide.data.macro_category}
+          </a>
+        ) : (
+          <a href={withBase('/guides/')} class="btn btn-outline" data-i18n="navGuides">
+            All Topic Guides
+          </a>
+        )}
+      </div>
+    </section>
+
+    {childGuides.length > 0 && (
+      <section class="section-block" aria-labelledby="subguides-heading">
+        <div class="section-head">
+          <h2 id="subguides-heading">
+            {guide.data.level === 1 ? 'Focus Topics in This Category' : 'Practical Guides & Comparisons'}
+          </h2>
+          <span class="section-sub">Choose a guide below to compare options and find step-by-step advice</span>
+        </div>
+        <div class="apps-grid">
+          {childGuides.map((child) => (
+            <a href={withBase(`/guides/${child.data.slug}/`)} class="app-card">
+              <div>
+                <div class="app-card-top">
+                  <span class="mode-badge">
+                    {child.data.level === 2
+                      ? 'Focus Topic Hub'
+                      : child.data.intent === 'comparison'
+                      ? 'Comparison'
+                      : child.data.intent === 'foundations'
+                      ? 'Beginner Guide'
+                      : 'Troubleshooting'}
+                  </span>
+                </div>
+                <h3 class="app-title">{child.data.title}</h3>
+                <p class="app-summary">{child.data.summary}</p>
+              </div>
+              <div class="app-card-foot">
+                <span class="popularity-stat">{child.data.app_slugs.length} tools covered</span>
+                <span class="card-cta" data-i18n="guideReadMore">Explore guide →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <article class="article-card" style="margin-bottom:1.5rem;">
+      <Content />
+    </article>
+
+    {siblingGuides.length > 0 && (
+      <section class="section-block" aria-labelledby="sibling-guides-heading">
+        <div class="section-head">
+          <h2 id="sibling-guides-heading" data-i18n="relatedGuidesHeading">Related Guides in This Topic</h2>
+        </div>
+        <div class="apps-grid">
+          {siblingGuides.map((sib) => (
+            <a href={withBase(`/guides/${sib.data.slug}/`)} class="app-card">
+              <div>
+                <div class="app-card-top">
+                  <span class="mode-badge">
+                    {sib.data.intent === 'comparison'
+                      ? 'Comparison'
+                      : sib.data.intent === 'foundations'
+                      ? 'Beginner Guide'
+                      : 'Troubleshooting'}
+                  </span>
+                </div>
+                <h3 class="app-title">{sib.data.title}</h3>
+                <p class="app-summary">{sib.data.summary}</p>
+              </div>
+              <div class="app-card-foot">
+                <span class="popularity-stat">{sib.data.app_slugs.length} tools</span>
+                <span class="card-cta" data-i18n="guideReadMore">Explore guide →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {matchedApps.length > 0 && (
+      <section class="section-block" aria-labelledby="cluster-apps-heading">
+        <div class="section-head">
+          <h2 id="cluster-apps-heading">Verified Free Software Featured in This Guide</h2>
+          <span class="section-sub">Click any tool to open its plain-English sheet and official download links</span>
+        </div>
+        <div class="apps-grid">
+          {matchedApps.map((app) => (
+            <AppCard
+              slug={app.data.slug}
+              title={app.data.title}
+              summary={app.data.summary}
+              category={app.data.category}
+              tags={app.data.tags}
+              isWebapp={app.data.is_webapp}
+              appType={app.data.app_type}
+              stars={app.data.stars}
+              icon={app.data.icon}
+              i18n={app.data.i18n}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+  </div>
+</BaseLayout>

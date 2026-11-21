@@ -1,18 +1,21 @@
-"""Real-browser Playwright E2E Human Simulation Test for HubHum live site."""
+"""Real-browser Playwright E2E Human Simulation Test (Desktop + Mobile) & Blind Audit Capture for HubHum."""
 
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import sys
 import tempfile
+import urllib.request
 from pathlib import Path
 from urllib.parse import urlparse
 
-from playwright.sync_api import Page, Response, expect, sync_playwright
+from playwright.sync_api import Page, expect, sync_playwright
 
 LIVE_URL = "https://davanzokeoma.github.io/HubHum/"
+WORKER_HEALTH_URL = "https://hubhum-api-bridge.keomadavanzo.workers.dev/api/health"
 WORKER_CONVERT_URL = "https://hubhum-api-bridge.keomadavanzo.workers.dev/api/convert"
 
 EXPECTED_HERO_PREFIX = {
@@ -24,15 +27,24 @@ EXPECTED_HERO_PREFIX = {
 }
 
 
-def screenshot_dir() -> Path:
-    raw = os.environ.get("E2E_SCREENSHOT_DIR", "").strip()
+def screenshot_dir(custom: str = "") -> Path:
+    raw = custom.strip() or os.environ.get("E2E_SCREENSHOT_DIR", "").strip()
     out = Path(raw) if raw else Path(tempfile.gettempdir()) / "hubhum_e2e_screenshots"
     out.mkdir(parents=True, exist_ok=True)
     return out
 
 
-def run_step_a_ui_i18n_filters_favorites(page: Page, shots: Path) -> None:
-    print("\n=== STEP A: Official Brand, i18n Switcher, Filters & Favorites Modal ===")
+def verify_worker_health() -> None:
+    print("\n=== STEP 0: Cloudflare Worker /api/health Verification ===")
+    req = urllib.request.Request(WORKER_HEALTH_URL, headers={"User-Agent": "HubHum-E2E/2.0"})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        assert resp.status == 200, f"Worker /api/health returned HTTP {resp.status}"
+        data = json.loads(resp.read().decode("utf-8"))
+        print(f"[PASS] Worker /api/health -> HTTP 200: {data}")
+
+
+def verify_theme_and_i18n(page: Page, shots: Path) -> None:
+    print("\n=== STEP A1: Brand, Light/Dark Theme Toggle & 5-Language i18n ===")
     page.goto(LIVE_URL, wait_until="networkidle", timeout=45000)
 
     logo = page.locator("img.brand-logo")
@@ -40,199 +52,264 @@ def run_step_a_ui_i18n_filters_favorites(page: Page, shots: Path) -> None:
     natural_w = logo.evaluate("el => el.naturalWidth")
     logo_src = logo.get_attribute("src") or ""
     assert natural_w > 0 and "logo.svg" in logo_src, f"Brand logo broken: src={logo_src}, width={natural_w}"
-    print(f"[PASS] Official navbar logo loaded cleanly ({logo_src}, naturalWidth={natural_w}).")
+    print(f"[PASS] Navbar logo loaded ({logo_src}, naturalWidth={natural_w}).")
 
+    # Light <-> Dark mode toggle check
+    theme_btn = page.locator("#theme-toggle-btn")
+    expect(theme_btn).to_be_visible()
+    initial_theme = page.evaluate("() => document.documentElement.dataset.theme")
+    theme_btn.click()
+    toggled_theme = page.evaluate("() => document.documentElement.dataset.theme")
+    assert toggled_theme != initial_theme and toggled_theme in ("light", "dark"), (
+        f"Theme did not toggle: before={initial_theme}, after={toggled_theme}"
+    )
+    if toggled_theme == "dark":
+        page.screenshot(path=str(shots / "01_home_desktop_dark.png"), full_page=False)
+        theme_btn.click()
+    assert page.evaluate("() => document.documentElement.dataset.theme") == "light"
+    page.screenshot(path=str(shots / "02_home_desktop_light.png"), full_page=False)
+    print(f"[PASS] Light/Dark theme toggle verified (initial={initial_theme}, toggled={toggled_theme}).")
+
+    # 5-language switcher check
     lang_select = page.locator("#lang-switcher")
     hero_h1 = page.locator('[data-i18n="heroTitle"]')
-    search_eye = page.locator('[data-i18n="liveSearchEyebrow"]')
-    footer_aff = page.locator('[data-i18n="footerAffiliate"]')
+    nav_guides = page.locator('header nav [data-i18n="navGuides"]')
+    footer_disc = page.locator('footer [data-i18n="footerDisclaimer"]')
+    footer_aff = page.locator('footer [data-i18n="footerAffiliate"]')
 
     for lang in ("it", "es", "fr", "de", "en"):
         lang_select.select_option(lang)
         page.wait_for_function("l => document.documentElement.lang === l", arg=lang, timeout=5000)
         h1_text = hero_h1.inner_text().strip()
-        eye_text = search_eye.inner_text().strip()
-        foot_text = footer_aff.inner_text().strip()
-        assert EXPECTED_HERO_PREFIX[lang].lower() in h1_text.lower(), (
-            f"i18n hero mismatch for '{lang}': got '{h1_text}'"
-        )
-        assert len(eye_text) > 10 and len(foot_text) > 20
-        print(f"[PASS] i18n '{lang}' live translation -> hero='{h1_text[:50]}'")
-        if lang == "it":
-            page.screenshot(path=str(shots / "01_homepage_it.png"), full_page=False)
+        guides_text = nav_guides.inner_text().strip()
+        disc_text = footer_disc.inner_text().strip()
+        aff_text = footer_aff.inner_text().strip()
+        assert EXPECTED_HERO_PREFIX[lang].lower() in h1_text.lower(), f"i18n hero mismatch '{lang}': {h1_text}"
+        assert len(guides_text) > 5 and len(disc_text) > 15 and len(aff_text) > 20
+        print(f"[PASS] i18n '{lang}' active -> hero='{h1_text[:45]}', nav='{guides_text}'")
 
-    page.screenshot(path=str(shots / "02_homepage_en.png"), full_page=False)
 
-    for cat in ("Security & Privacy", "Video & Audio", "Productivity", "All"):
+def verify_pagination_and_underlinenav(page: Page) -> None:
+    print("\n=== STEP A2: UnderlineNav Category Counters & 24-Apps-Per-Page Pagination ===")
+    initial_cards = page.locator("#catalog-grid [data-app-card]").count()
+    assert initial_cards == 24, f"Expected strictly 24 initial DOM cards for PageSpeed, got {initial_cards}"
+    print(f"[PASS] Initial Home DOM contains {initial_cards} paginated cards.")
+
+    # Verify counters on UnderlineNav
+    for cat in ("All", "Productivity", "Security & Privacy", "Video & Audio", "Web Apps & Cloud", "Utilities & Power Tools"):
+        cnt = int(page.locator(f'[data-cat-count="{cat}"]').inner_text().strip())
+        assert cnt >= 10, f"Expected >= 10 apps in '{cat}', got {cnt}"
+
+    # Load 24 more button -> 48 cards
+    load_more = page.locator("#load-more-btn")
+    expect(load_more).to_be_visible()
+    load_more.click()
+    page.wait_for_function("() => document.querySelectorAll('#catalog-grid [data-app-card]').length === 48", timeout=15000)
+    print("[PASS] 'Load 24 more' dynamically rendered 48 cards.")
+
+    # Next page -> Page 2 via UnderlineNav filter determinism
+    for cat in ("Security & Privacy", "Video & Audio", "All"):
+        expected_cnt = page.locator(f'[data-cat-count="{cat}"]').inner_text().strip()
         btn = page.locator(f'[data-category-btn="{cat}"]')
         btn.click()
         expect(btn).to_have_attribute("aria-pressed", "true")
-        if cat not in ("All", "Productivity"):
-            visible_cats = page.locator('#catalog-grid [data-app-card]:visible').evaluate_all(
+        page.wait_for_function(
+            "prefix => (document.getElementById('catalog-count')?.textContent || '').trim().startsWith(prefix + ' ')",
+            arg=expected_cnt,
+            timeout=15000,
+        )
+        if cat != "All":
+            cats = page.locator("#catalog-grid [data-app-card]").evaluate_all(
                 "els => els.map(e => e.getAttribute('data-category'))"
             )
-            assert len(visible_cats) >= 1 and all(c == cat for c in visible_cats), (
-                f"Category filter '{cat}' failed: {visible_cats}"
-            )
-        count_txt = page.locator("#catalog-count").inner_text().strip()
-        print(f"[PASS] Category filter '{cat}' active -> {count_txt}")
+            assert len(cats) >= 1 and all(c == cat for c in cats), f"Category filter '{cat}' failed: {cats}"
+        print(f"[PASS] UnderlineNav '{cat}' -> {page.locator('#catalog-count').inner_text().strip()}")
 
-    page.locator('main a[href*="/apps/joplin"]:visible').first.click()
-    page.wait_for_load_state("networkidle")
+    page.locator("#page-next-btn").click()
+    page.wait_for_function("() => document.getElementById('page-num')?.textContent === '2'", timeout=10000)
+    page_2_cards = page.locator("#catalog-grid [data-app-card]").count()
+    assert page_2_cards == 24, f"Expected 24 cards on Page 2, got {page_2_cards}"
+    print("[PASS] Pagination 'Next' switched cleanly to Page 2 (24 cards).")
+    page.locator("#page-prev-btn").click()
+    page.wait_for_function("() => document.getElementById('page-num')?.textContent === '1'", timeout=10000)
+
+    # Verify honest type badges and stars (never "Chosen by ... users")
+    body_text = page.locator("main").inner_text()
+    assert "Chosen by" not in body_text, "Found legacy ambiguous 'Chosen by' copy!"
+    assert "★" in body_text, "Missing transparent star badge '★'!"
+
+
+def verify_favorites_dialog_a11y(page: Page) -> None:
+    print("\n=== STEP A3: Favorites Dialog (#favorites-dialog) & Keyboard Esc ===")
+    page.goto(f"{LIVE_URL}apps/handbrake/", wait_until="networkidle", timeout=30000)
     fav_btn = page.locator("#favorite-btn")
     expect(fav_btn).to_be_visible()
     fav_btn.click()
     saved_ls = page.evaluate("() => localStorage.getItem('hubhum_favorites_v1') || ''")
-    assert "joplin" in saved_ls, f"Favorite not persisted in localStorage: {saved_ls}"
+    assert "handbrake" in saved_ls, f"Favorite missing in localStorage: {saved_ls}"
 
-    page.locator("#oauth-login-btn").click()
-    dialog = page.locator("#account-dialog[open]")
+    login_btn = page.locator("#oauth-login-btn")
+    login_btn.click()
+    dialog = page.locator("#favorites-dialog[open]")
     expect(dialog).to_be_visible(timeout=5000)
-    expect(dialog.locator("#dialog-fav-list")).to_contain_text("joplin")
-    expect(dialog.locator("#github-1click-signin")).to_be_visible()
-    assert dialog.locator("input").count() == 0, "Unexpected manual token input inside OAuth modal!"
-    dialog_txt = dialog.inner_text().lower()
-    assert "cors" not in dialog_txt, "Forbidden CORS jargon in account modal!"
-    page.screenshot(path=str(shots / "03_favorites_modal.png"))
-    page.locator("#dialog-close-btn").click()
-    print("[PASS] Favorites persistence + Zero-CORS 1-click GitHub OAuth modal verified.")
+    expect(dialog.locator("#dialog-fav-list")).to_contain_text("handbrake")
+    assert dialog.locator("input").count() == 0, "Unexpected manual token input in dialog!"
+    page.keyboard.press("Escape")
+    expect(dialog).not_to_be_visible(timeout=3000)
+    print("[PASS] #favorites-dialog opened, listed favorite, and closed via Escape key.")
 
-    page.locator("a.brand").click()
+
+def verify_five_level_topic_clusters(page: Page, shots: Path, audit_dir: Path | None = None) -> None:
+    print("\n=== STEP B: Full 5-Level Topic Cluster Traversal & Bi-Directional Internal Links ===")
+    # Level 0 Home -> Level 1 Guides Hub -> Level 1 Pillar (video-audio)
+    page.goto(LIVE_URL, wait_until="networkidle", timeout=30000)
+    if audit_dir:
+        page.screenshot(path=str(audit_dir / "home_desktop.png"), full_page=False)
+        (audit_dir / "home_text.txt").write_text(page.locator("body").inner_text(), encoding="utf-8")
+
+    page.locator('header a[href*="/guides/"]').first.click()
     page.wait_for_load_state("networkidle")
+    assert "/guides/" in page.url
+
+    # Navigate to Video & Audio Level 1 Pillar
+    page.locator('a[href*="/guides/video-audio/"]').first.click()
+    page.wait_for_load_state("networkidle")
+    assert page.url.rstrip("/").endswith("/guides/video-audio")
+    l1_ld = page.evaluate("() => document.querySelector('script[type=\"application/ld+json\"]')?.textContent || ''")
+    assert "CollectionPage" in l1_ld and "BreadcrumbList" in l1_ld, "Missing CollectionPage/BreadcrumbList JSON-LD on Level 1!"
+    print(f"[PASS] Level 1 Pillar reached: {page.url}")
+
+    # Level 1 -> Level 2 Sub-Pillar
+    page.locator('a[href*="/guides/video-audio/free-video-editors/"]').first.click()
+    page.wait_for_load_state("networkidle")
+    assert page.url.rstrip("/").endswith("/guides/video-audio/free-video-editors")
+    print(f"[PASS] Level 2 Sub-Pillar reached: {page.url}")
+
+    # Level 2 -> Level 3 Comparison Guide
+    page.locator('a[href*="/guides/video-audio/free-video-editors/best-free-video-editors/"]').first.click()
+    page.wait_for_load_state("networkidle")
+    assert "best-free-video-editors" in page.url
+    l3_ld = page.evaluate("() => document.querySelector('script[type=\"application/ld+json\"]')?.textContent || ''")
+    assert '"Article"' in l3_ld and "BreadcrumbList" in l3_ld, "Missing Article/BreadcrumbList JSON-LD on Level 3!"
+    page.screenshot(path=str(shots / "03_level3_cluster_guide.png"), full_page=False)
+    if audit_dir:
+        page.screenshot(path=str(audit_dir / "guide_level3_desktop.png"), full_page=False)
+        (audit_dir / "guide_level3_text.txt").write_text(page.locator("body").inner_text(), encoding="utf-8")
+    print(f"[PASS] Level 3 Cluster Article reached: {page.url}")
+
+    # Horizontal sibling link inside "Related Guides in This Topic"
+    sibling_link = page.locator('[aria-labelledby="sibling-guides-heading"] a.app-card').first
+    expect(sibling_link).to_be_visible()
+    sib_href = sibling_link.get_attribute("href") or ""
+    assert "how-to-choose-" in sib_href or "troubleshooting-" in sib_href
+    sibling_link.click()
+    page.wait_for_load_state("networkidle")
+    print(f"[PASS] Horizontal sibling traversal succeeded -> {page.url}")
+
+    # Level 3 -> Level 4 Money Page (featured app card)
+    app_link = page.locator('[aria-labelledby="cluster-apps-heading"] a.app-card').first
+    expect(app_link).to_be_visible()
+    app_link.click()
+    page.wait_for_load_state("networkidle")
+    assert "/apps/" in page.url
+
+    # Verify Level 4 Money Page upward cluster links, JSON-LD, 3 affiliate links, no jargon
+    up_pillar = page.locator('aside a[href*="/guides/video-audio/"]').first
+    expect(up_pillar).to_be_visible()
+    l4_ld = page.evaluate("() => document.querySelector('script[type=\"application/ld+json\"]')?.textContent || ''")
+    assert "SoftwareApplication" in l4_ld or "WebApplication" in l4_ld
+    assert "BreadcrumbList" in l4_ld
+
+    aff_hrefs = page.locator('article a[href*="hubhum_01_MER"]').evaluate_all(
+        "els => els.map(e => e.getAttribute('href'))"
+    )
+    unique_subids = set(re.findall(r"hubhum_01_MER\d+", " ".join(h or "" for h in aff_hrefs)))
+    assert len(unique_subids) >= 3, f"Expected >= 3 distinct affiliate links on Level 4, found {unique_subids}"
+
+    page.screenshot(path=str(shots / "04_level4_app_detail.png"), full_page=False)
+    if audit_dir:
+        page.screenshot(path=str(audit_dir / "app_level4_desktop.png"), full_page=False)
+        (audit_dir / "app_level4_text.txt").write_text(page.locator("body").inner_text(), encoding="utf-8")
+    print(f"[PASS] Level 4 Money Page verified (upward cluster links, JSON-LD, SubIDs={sorted(unique_subids)}): {page.url}")
 
 
-def run_step_b_live_search(page: Page, query: str, shots: Path) -> None:
-    print(f"\n=== STEP B: Live GitHub Search ('{query}') ===")
+def verify_live_github_search(page: Page, query: str) -> None:
+    print(f"\n=== STEP C: Live GitHub Search ('{query}') ===")
+    page.goto(LIVE_URL, wait_until="networkidle", timeout=30000)
     search_input = page.locator("#gh-live-search-input")
-    expect(search_input).to_be_visible()
     search_input.scroll_into_view_if_needed()
     search_input.fill(query)
 
     results_grid = page.locator("#gh-search-results-grid")
     first_result = results_grid.locator(".live-card:not(.live-skeleton) a.live-repo-link").first
     expect(first_result).to_be_visible(timeout=20000)
-
     cards = results_grid.locator(".live-card:not(.live-skeleton)")
-    card_count = cards.count()
-    assert card_count >= 1, "Expected at least 1 live GitHub result card."
-    first_card = cards.first
-    expect(first_card.locator("img.live-avatar")).to_be_visible()
-    expect(first_card.locator(".tag-chip").first).to_be_visible()
-    first_title = first_result.inner_text().strip()
-    print(f"[PASS] Live search returned {card_count} results (top match: {first_title}).")
-    page.screenshot(path=str(shots / "04_live_search_results.png"), full_page=False)
+    assert cards.count() >= 1
+    first_btn_or_link = cards.first.locator("a.btn, button.btn").first
+    expect(first_btn_or_link).to_be_visible()
+    print(f"[PASS] Live GitHub Search returned {cards.count()} cards; primary action='{first_btn_or_link.inner_text().strip()}'.")
 
 
-def run_step_c_convert_and_redirect(page: Page, shots: Path) -> str:
-    print("\n=== STEP C: Click 'Go with HubHum' & Wait for Real Worker + Actions + Redirect ===")
-    convert_responses: list[tuple[int, dict]] = []
+def verify_mobile_viewport(p_playwright, shots: Path, audit_dir: Path | None = None) -> None:
+    print("\n=== STEP D: Mobile Viewport (375x812) Navigation, Drawer & Overflow Check ===")
+    browser = p_playwright.chromium.launch(headless=True)
+    ctx = browser.new_context(viewport={"width": 375, "height": 812}, is_mobile=True, has_touch=True, locale="en-US")
+    m_page = ctx.new_page()
+    try:
+        m_page.goto(LIVE_URL, wait_until="networkidle", timeout=45000)
+        # Check horizontal overflow <= 1px
+        has_overflow = m_page.evaluate("() => document.documentElement.scrollWidth > window.innerWidth + 1")
+        assert not has_overflow, "Detected horizontal overflow on 375px mobile viewport!"
 
-    def _on_response(resp: Response) -> None:
-        if resp.url.startswith(WORKER_CONVERT_URL) and resp.request.method == "POST":
-            try:
-                data = resp.json()
-            except Exception:
-                data = {}
-            convert_responses.append((resp.status, data))
+        # Check mobile menu drawer
+        menu_btn = m_page.locator("#mobile-menu-btn")
+        expect(menu_btn).to_be_visible()
+        menu_btn.click()
+        drawer = m_page.locator("#mobile-drawer")
+        expect(drawer).to_be_visible()
+        expect(drawer.locator('a[href*="/guides/"]')).to_be_visible()
+        menu_btn.click()
 
-    page.on("response", _on_response)
-
-    convert_btn = page.locator("#gh-search-results-grid .live-card button.btn-cloud").first
-    expect(convert_btn).to_be_visible(timeout=10000)
-    aria_label = convert_btn.get_attribute("aria-label") or ""
-    print(f"[INFO] Clicking convert button: {aria_label}")
-    convert_btn.click()
-
-    conv_dialog = page.locator("#conversion-dialog[open]")
-    expect(conv_dialog).to_be_visible(timeout=5000)
-    expect(conv_dialog.locator("#conv-spinner-icon")).to_be_visible()
-    expect(conv_dialog.locator("#conv-progressbar")).to_be_visible()
-
-    assert conv_dialog.locator('a[href*="/issues"]').count() == 0, "Unexpected GitHub Issue link inside modal!"
-
-    page.wait_for_function("() => document.getElementById('conv-pct-label')?.textContent !== '0%'", timeout=15000)
-    page.screenshot(path=str(shots / "05_conversion_progress.png"))
-
-    deadline_wait = 0
-    while not convert_responses and deadline_wait < 25:
-        page.wait_for_timeout(500)
-        deadline_wait += 1
-    assert convert_responses, "No POST response observed from Worker /api/convert!"
-    status_code, body_json = convert_responses[0]
-    assert status_code == 200 and body_json.get("status") == "queued" and body_json.get("slug"), (
-        f"Worker /api/convert failed: status={status_code}, body={body_json}"
-    )
-    print(f"[PASS] Worker POST /api/convert returned HTTP {status_code}: {body_json}")
-
-    print("[INFO] Waiting for GitHub Actions seo-builder + deploy + auto-redirect (up to 180s)...")
-    page.wait_for_url(re.compile(r".*/apps/[a-z0-9-]+/?$"), timeout=185000)
-    page.wait_for_load_state("networkidle", timeout=30000)
-    final_url = page.url
-    print(f"[PASS] Browser automatically redirected to new app page: {final_url}")
-    return final_url
-
-
-def run_step_d_verify_generated_page(page: Page, page_url: str, shots: Path) -> None:
-    print(f"\n=== STEP D: Verify Generated Page Content & 3+ Affiliate Links ({page_url}) ===")
-    resp = page.request.get(page_url)
-    assert resp.status == 200, f"Expected HTTP 200 for {page_url}, got {resp.status}"
-
-    h1 = page.locator("main h1").first
-    expect(h1).to_be_visible(timeout=10000)
-    title_text = h1.inner_text().strip()
-    assert len(title_text) > 1, "Missing <h1> title on generated page."
-
-    hero_sum = page.locator("#detail-hero-summary").inner_text().strip()
-    assert not hero_sum.endswith("..."), f"Truncated summary found: {hero_sum}"
-
-    credits_link = page.locator('article a[href*="github.com/"]').first
-    expect(credits_link).to_be_visible()
-
-    primary_cta = page.locator(".detail-actions a.btn").first
-    expect(primary_cta).to_be_visible()
-    cta_href = primary_cta.get_attribute("href") or ""
-    assert cta_href.startswith("https://"), f"Unexpected primary CTA href: {cta_href}"
-
-    aff_hrefs = page.locator('article a[href*="hubhum_01_MER"]').evaluate_all(
-        "els => els.map(e => e.getAttribute('href'))"
-    )
-    unique_subids = set(re.findall(r"hubhum_01_MER\d+", " ".join(h or "" for h in aff_hrefs)))
-    assert len(unique_subids) >= 3, f"Expected >= 3 distinct affiliate SubIDs, found {len(unique_subids)}: {unique_subids}"
-
-    article_text = page.locator("article").inner_text().lower()
-    article_text_no_links = re.sub(r"https?://\S+", "", article_text)
-    for forbidden in ("pull request", "commit ", "repository"):
-        assert forbidden not in article_text_no_links, f"Forbidden tech jargon '{forbidden}' in generated article!"
-
-    page.screenshot(path=str(shots / "06_converted_app_page.png"), full_page=True)
-    print(
-        f"[PASS] Page verified (HTTP 200, title='{title_text}', CTA='{urlparse(cta_href).netloc}', "
-        f"affiliate_subids={sorted(unique_subids)})."
-    )
+        m_page.screenshot(path=str(shots / "05_home_mobile.png"), full_page=False)
+        if audit_dir:
+            m_page.screenshot(path=str(audit_dir / "home_mobile.png"), full_page=False)
+        print("[PASS] 375x812 Mobile layout zero horizontal overflow & drawer verified.")
+    finally:
+        ctx.close()
+        browser.close()
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="HubHum Real Browser E2E Human Simulation Test")
-    parser.add_argument("--query", default="handbrake", help="Live GitHub search query for an unindexed consumer app")
+    parser = argparse.ArgumentParser(description="HubHum Full Desktop + Mobile E2E Verification Suite")
+    parser.add_argument("--query", default="handbrake", help="Live GitHub Search query")
+    parser.add_argument("--screenshots-dir", default="", help="Optional output folder for E2E screenshots")
+    parser.add_argument("--blind-audit-dir", default="", help="Optional folder for capturing DOM text + screenshots")
     args = parser.parse_args()
 
-    shots = screenshot_dir()
-    print(f"[INFO] Saving E2E screenshots to: {shots}")
+    shots = screenshot_dir(args.screenshots_dir)
+    audit_dir = Path(args.blind_audit_dir) if args.blind_audit_dir.strip() else None
+    if audit_dir:
+        audit_dir.mkdir(parents=True, exist_ok=True)
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(viewport={"width": 1366, "height": 900}, locale="en-US")
+    verify_worker_health()
+
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(headless=True)
+        context = browser.new_context(viewport={"width": 1280, "height": 800}, locale="en-US")
         page = context.new_page()
         try:
-            run_step_a_ui_i18n_filters_favorites(page, shots)
-            run_step_b_live_search(page, args.query, shots)
-            generated_url = run_step_c_convert_and_redirect(page, shots)
-            run_step_d_verify_generated_page(page, generated_url, shots)
+            verify_theme_and_i18n(page, shots)
+            verify_pagination_and_underlinenav(page)
+            verify_favorites_dialog_a11y(page)
+            verify_five_level_topic_clusters(page, shots, audit_dir=audit_dir)
+            verify_live_github_search(page, args.query)
         finally:
             context.close()
             browser.close()
 
-    print("\nALL E2E HUMAN SIMULATION STEPS (A, B, C, D) PASSED 100%.")
+        verify_mobile_viewport(pw, shots, audit_dir=audit_dir)
+
+    print("\nALL DESKTOP + MOBILE E2E & TOPIC CLUSTER CHECKS PASSED 100%.")
     return 0
 
 

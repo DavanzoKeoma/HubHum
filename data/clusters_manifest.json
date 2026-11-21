@@ -1,0 +1,160 @@
+{
+  "generated_at": "2026-11-21T06:36:27.893172+00:00",
+  "min_pillar_apps": 10,
+  "min_subpillar_apps": 6,
+  "pillars": [
+    {
+      "macro_slug": "video-audio",
+      "category": "Video & Audio",
+      "app_count": 13,
+      "subpillars": [
+        {
+          "sub_slug": "video-audio/free-video-editors",
+          "sub_topic": "Free Video Editors, Cutters & Converters",
+          "app_count": 13,
+          "articles": [
+            "video-audio/free-video-editors/best-free-video-editors",
+            "video-audio/free-video-editors/how-to-choose-free-video-editors",
+            "video-audio/free-video-editors/troubleshooting-free-video-editors"
+          ]
+        }
+      ]
+    },
+    {
+      "macro_slug": "graphics-design",
+      "category": "Graphics & Design",
+      "app_count": 12,
+      "subpillars": [
+        {
+          "sub_slug": "graphics-design/photo-image-tools",
+          "sub_topic": "Photo Optimizers, Galleries & Screen Capture",
+          "app_count": 6,
+          "articles": [
+            "graphics-design/photo-image-tools/best-photo-image-tools",
+            "graphics-design/photo-image-tools/how-to-choose-photo-image-tools",
+            "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"
+          ]
+        },
+        {
+          "sub_slug": "graphics-design/3d-visual-design-tools",
+          "sub_topic": "3D Modeling & Visual Interface Studios",
+          "app_count": 6,
+          "articles": [
+            "graphics-design/3d-visual-design-tools/best-3d-visual-design-tools",
+            "graphics-design/3d-visual-design-tools/how-to-choose-3d-visual-design-tools",
+            "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"
+          ]
+        }
+      ]
+    },
+    {
+      "macro_slug": "security-privacy",
+      "category": "Security & Privacy",
+      "app_count": 19,
+      "subpillars": [
+        {
+          "sub_slug": "security-privacy/password-network-privacy",
+          "sub_topic": "Password Managers, VPNs & Network Monitors",
+          "app_count": 10,
+          "articles": [
+            "security-privacy/password-network-privacy/best-password-network-privacy",
+            "security-privacy/password-network-privacy/how-to-choose-password-network-privacy",
+            "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"
+          ]
+        },
+        {
+          "sub_slug": "security-privacy/system-cleaners-auditors",
+          "sub_topic": "Privacy Cleaners & System Auditors",
+          "app_count": 9,
+          "articles": [
+            "security-privacy/system-cleaners-auditors/best-system-cleaners-auditors",
+            "security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors",
+            "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"
+          ]
+        }
+      ]
+    },
+    {
+      "macro_slug": "productivity",
+      "category": "Productivity",
+      "app_count": 70,
+      "subpillars": [
+        {
+          "sub_slug": "productivity/notes-knowledge-apps",
+          "sub_topic": "Free Note-Taking & Knowledge Apps",
+          "app_count": 19,
+          "articles": [
+            "productivity/notes-knowledge-apps/best-notes-knowledge-apps",
+            "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps",
+            "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"
+          ]
+        },
+        {
+          "sub_slug": "productivity/desktop-workflow-helpers",
+          "sub_topic": "Window Switchers & Everyday Workflow Helpers",
+          "app_count": 51,
+          "articles": [
+            "productivity/desktop-workflow-helpers/best-desktop-workflow-helpers",
+            "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers",
+            "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"
+          ]
+        }
+      ]
+    },
+    {
+      "macro_slug": "web-apps-cloud",
+      "category": "Web Apps & Cloud",
+      "app_count": 72,
+      "subpillars": [
+        {
+          "sub_slug": "web-apps-cloud/self-hosted-cloud-apps",
+          "sub_topic": "Personal Cloud Hubs, Wikis & Bookmark Apps",
+          "app_count": 33,
+          "articles": [
+            "web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps",
+            "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps",
+            "web-apps-cloud/self-hosted-cloud-apps/troubleshooting-self-hosted-cloud-apps"
+          ]
+        },
+        {
+          "sub_slug": "web-apps-cloud/server-dashboards-automation",
+          "sub_topic": "Server Dashboards, Monitoring & Cloud Panels",
+          "app_count": 39,
+          "articles": [
+            "web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation",
+            "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation",
+            "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"
+          ]
+        }
+      ]
+    },
+    {
+      "macro_slug": "utilities-power-tools",
+      "category": "Utilities & Power Tools",
+      "app_count": 174,
+      "subpillars": [
+        {
+          "sub_slug": "utilities-power-tools/modern-terminal-apps",
+          "sub_topic": "Modern Terminal Emulators & Fast File Finders",
+          "app_count": 84,
+          "articles": [
+            "utilities-power-tools/modern-terminal-apps/best-modern-terminal-apps",
+            "utilities-power-tools/modern-terminal-apps/how-to-choose-modern-terminal-apps",
+            "utilities-power-tools/modern-terminal-apps/troubleshooting-modern-terminal-apps"
+          ]
+        },
+        {
+          "sub_slug": "utilities-power-tools/automation-power-utilities",
+          "sub_topic": "Automation & System Power Utilities",
+          "app_count": 90,
+          "articles": [
+            "utilities-power-tools/automation-power-utilities/best-automation-power-utilities",
+            "utilities-power-tools/automation-power-utilities/how-to-choose-automation-power-utilities",
+            "utilities-power-tools/automation-power-utilities/troubleshooting-automation-power-utilities"
+          ]
+        }
+      ]
+    }
+  ],
+  "total_guide_pages": 50
+}

@@ -1,6 +1,6 @@
 ---
 import { withBase } from '../lib/url';
-import { CATEGORY_I18N_KEY } from '../i18n/translations';
+import { CATEGORY_I18N_KEY, formatCompactStars } from '../i18n/translations';
 
 interface I18nBlock {
   it?: { tagline: string; summary: string };
@@ -16,6 +16,7 @@ interface Props {
   category: string;
   tags: string[];
   isWebapp: boolean;
+  appType?: 'desktop' | 'webapp' | 'cli';
   stars: number;
   icon: string;
   i18n?: I18nBlock;
@@ -29,15 +30,50 @@ const {
   category,
   tags,
   isWebapp,
+  appType,
   stars,
   icon,
   i18n = {},
   isTopPick = false,
 } = Astro.props;
 
+const resolvedType: 'desktop' | 'webapp' | 'cli' =
+  appType || (isWebapp ? 'webapp' : 'desktop');
+const badgeClass =
+  resolvedType === 'webapp' ? 'cloud' : resolvedType === 'cli' ? 'cli' : '';
+const badgeI18n =
+  resolvedType === 'webapp'
+    ? 'badgeCloud'
+    : resolvedType === 'cli'
+    ? 'badgeCli'
+    : 'badgeDesktop';
+const badgeText =
+  resolvedType === 'webapp'
+    ? 'Cloud Web App'
+    : resolvedType === 'cli'
+    ? 'CLI Tool'
+    : 'Desktop App';
+const ctaI18n =
+  resolvedType === 'webapp'
+    ? 'ctaCloud'
+    : resolvedType === 'cli'
+    ? 'ctaCli'
+    : 'ctaDesktop';
+const ctaText =
+  resolvedType === 'webapp'
+    ? 'Open in Cloud →'
+    : resolvedType === 'cli'
+    ? 'Get CLI Tool →'
+    : 'Explore & Download →';
+
 const catI18nKey = CATEGORY_I18N_KEY[category] || 'catProductivity';
 const searchText = `${title} ${summary} ${i18n.it?.summary || ''} ${category} ${tags.join(' ')}`.toLowerCase();
-const cardAriaLabel = isWebapp ? `Open ${title} in the cloud` : `Explore and download ${title}`;
+const cardAriaLabel =
+  resolvedType === 'webapp'
+    ? `Open ${title} in the cloud`
+    : resolvedType === 'cli'
+    ? `Explore ${title} command-line tool`
+    : `Explore and download ${title}`;
 ---
 
 <a
@@ -46,6 +82,7 @@ const cardAriaLabel = isWebapp ? `Open ${title} in the cloud` : `Explore and dow
   aria-label={cardAriaLabel}
   data-app-card
   data-category={category}
+  data-app-type={resolvedType}
   data-search={searchText}
   data-top-pick={isTopPick ? 'true' : 'false'}
   data-summary-en={summary}
@@ -59,17 +96,22 @@ const cardAriaLabel = isWebapp ? `Open ${title} in the cloud` : `Explore and dow
       <img
         src={withBase(icon)}
         alt=""
-        width="48"
-        height="48"
+        width="44"
+        height="44"
         loading="lazy"
         decoding="async"
         class="app-logo"
         aria-hidden="true"
       />
-      <span class:list={['mode-badge', { cloud: isWebapp }]}>
-        {isWebapp ? (
+      <span class:list={['mode-badge', badgeClass]}>
+        {resolvedType === 'webapp' ? (
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+          </svg>
+        ) : resolvedType === 'cli' ? (
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="4 17 10 11 4 5"></polyline>
+            <line x1="12" y1="19" x2="20" y2="19"></line>
           </svg>
         ) : (
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -78,9 +120,7 @@ const cardAriaLabel = isWebapp ? `Open ${title} in the cloud` : `Explore and dow
             <line x1="12" y1="17" x2="12" y2="21"></line>
           </svg>
         )}
-        <span data-i18n={isWebapp ? 'badgeCloud' : 'badgeDesktop'}>
-          {isWebapp ? 'Cloud Web App' : 'Free Desktop App'}
-        </span>
+        <span data-i18n={badgeI18n}>{badgeText}</span>
       </span>
     </div>
 
@@ -97,14 +137,8 @@ const cardAriaLabel = isWebapp ? `Open ${title} in the cloud` : `Explore and dow
 
   <div class="app-card-foot">
     {stars > 0 ? (
-      <span class="popularity-stat">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-          <circle cx="9" cy="7" r="4"></circle>
-          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-        </svg>
-        <span data-pop-count={stars}>Chosen by {stars.toLocaleString('en')} users</span>
+      <span class="popularity-stat" title={`${stars.toLocaleString('en')} stars on GitHub`}>
+        <span data-star-count={stars}>{formatCompactStars(stars)}</span>
       </span>
     ) : (
       <span class="new-badge">
@@ -116,10 +150,10 @@ const cardAriaLabel = isWebapp ? `Open ${title} in the cloud` : `Explore and dow
     )}
 
     <span
-      class:list={['card-cta', { cloud: isWebapp }]}
-      data-i18n={isWebapp ? 'ctaCloud' : 'ctaDesktop'}
+      class:list={['card-cta', badgeClass]}
+      data-i18n={ctaI18n}
     >
-      {isWebapp ? 'Open in Cloud →' : 'Explore & Download →'}
+      {ctaText}
     </span>
   </div>
 </a>

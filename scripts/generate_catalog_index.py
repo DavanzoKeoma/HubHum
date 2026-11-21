@@ -32,6 +32,14 @@ def build_catalog_index() -> list[dict[str, object]]:
         stars = int(meta.get("stars") or 0)
         tier = str(meta.get("scouting_tier") or ("tier2_webapp" if is_webapp else "tier1_gui"))
         app_type = str(meta.get("app_type") or ("webapp" if is_webapp else ("cli" if tier == "tier3_powertool" else "desktop")))
+        raw_tags = meta.get("tags") if isinstance(meta.get("tags"), list) else []
+        tags = [str(t) for t in raw_tags[:2]]
+        raw_i18n = meta.get("i18n") if isinstance(meta.get("i18n"), dict) else {}
+        i18n_sums: dict[str, str] = {}
+        for l_code in ("it", "es", "fr", "de"):
+            blk = raw_i18n.get(l_code)
+            if isinstance(blk, dict) and blk.get("summary"):
+                i18n_sums[l_code] = str(blk["summary"])
 
         entries.append(
             {
@@ -40,16 +48,19 @@ def build_catalog_index() -> list[dict[str, object]]:
                 "repo_url": source_url.rstrip("/").lower(),
                 "full_name": full_name,
                 "category": str(meta.get("category") or "Productivity"),
+                "tags": tags,
                 "icon": str(meta.get("icon") or "/icons/hubhum.svg"),
                 "is_webapp": is_webapp,
                 "app_type": app_type,
                 "stars": stars,
                 "tier": tier,
                 "summary": str(meta.get("summary") or ""),
+                "i18n": i18n_sums,
                 "download_url": str(meta.get("download_url") or meta.get("downloadUrl") or ""),
                 "updated_at": str(meta.get("updated_at") or ""),
             }
         )
+    entries.sort(key=lambda item: int(item.get("stars") or 0), reverse=True)
     return entries
 
 

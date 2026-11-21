@@ -61,7 +61,28 @@ const bundlesCollection = defineCollection({
   }),
 });
 
+const guidesCollection = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './content/guides' }),
+  schema: z.object({
+    title: z.string().min(1),
+    slug: z.string().min(1),
+    level: z.number().int().min(1).max(3),
+    macro_category: z.string().min(1),
+    macro_slug: z.string().min(1),
+    sub_topic: z.string().optional(),
+    sub_slug: z.string().optional(),
+    intent: z.enum(['pillar', 'subpillar', 'foundations', 'comparison', 'troubleshooting']).default('pillar'),
+    summary: z.string().min(1),
+    parent_slug: z.string().optional(),
+    child_slugs: z.array(z.string()).default([]),
+    sibling_slugs: z.array(z.string()).default([]),
+    app_slugs: z.array(z.string()).default([]),
+    updated_at: z.string().optional(),
+  }),
+});
+
 export const collections = {
   apps: appsCollection,
   bundles: bundlesCollection,
+  guides: guidesCollection,
 };
