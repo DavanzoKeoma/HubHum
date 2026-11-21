@@ -4,7 +4,7 @@
 [![Live Catalog](https://img.shields.io/badge/Live_Catalog-Online-16a34a?style=for-the-badge)](https://davanzokeoma.github.io/HubHum/)
 [![License](https://img.shields.io/badge/License-MIT-2563eb?style=for-the-badge)](./LICENSE)
 [![Community Standards](https://img.shields.io/badge/Community_Standards-100%25-7c3aed?style=for-the-badge)](https://github.com/DavanzoKeoma/HubHum/community)
-[![Topic Guides](https://img.shields.io/badge/Topic_Guides-58%2B-d97706?style=for-the-badge)](https://davanzokeoma.github.io/HubHum/guides/)
+[![Topic Guides](https://img.shields.io/badge/Topic_Guides-70-d97706?style=for-the-badge)](https://davanzokeoma.github.io/HubHum/guides/)
 [![AI & RAG Ready](https://img.shields.io/badge/AI_%26_RAG-llms.txt_%2B_OpenAPI-0284c7?style=for-the-badge)](https://davanzokeoma.github.io/HubHum/llms.txt)
 
 **Discover 1,000+ curated free and open-source applications explained in plain, everyday English—complete with direct official release downloads, transparent licensing, and zero developer jargon.**
@@ -33,7 +33,7 @@ Open-source software is often buried behind developer-centric READMEs, build ins
 - **Plain-English Clarity:** Every guide explains *what it does*, *who it is for*, *pros and cons*, and *how to start in minutes* across **5 languages (EN / IT / ES / FR / DE)**.
 - **Verified Official Sources Only (Zero Repackaging):** All download buttons point strictly to upstream GitHub Releases (`.exe`, `.msi`, `.dmg`, `.AppImage`, `.apk`) or official project websites—never third-party mirrors or unverified forks (`NO-FORK` rule).
 - **Strict `#ad` Disclosure & Separation:** Optional partner recommendations are cleanly isolated inside `### Sponsored Partner Tools (#ad)` and domain-matched by category (Privacy, Cloud Hosting, Video/Design, Productivity).
-- **Topic Clusters & Starter Bundles:** 58+ structured Topic Cluster pillars, sub-guides, and curated starter bundles (e.g., *Creator Studio Pack*, *Privacy Essentials*, *Clean Office Alternatives*).
+- **Topic Clusters & Starter Bundles:** 70 structured Topic Cluster pillars, sub-guides, and 6 curated starter bundles (e.g., *Creator Studio Pack*, *Privacy Essentials*, *Clean Office Alternatives*).
 
 ---
 

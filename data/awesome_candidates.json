@@ -1,0 +1,578 @@
+{
+  "generated_at": "2026-11-21T22:10:08.760427+00:00",
+  "total_catalog_apps": 1000,
+  "total_guide_pages": 70,
+  "total_bundles": 6,
+  "submission_policy": "Read-only manual review artifact; submit only after verifying target repository contribution rules (no unsolicited automated PRs).",
+  "target_awesome_lists": [
+    {
+      "list_name": "awesome-selfhosted",
+      "fit_reason": "300 validated Self-Hosted & Web Apps (Docker/web panels) with official upstream source links and zero-fork curation.",
+      "recommended_entry": "- [HubHum Self-Hosted Catalog](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/) - Plain-English directory covering 300+ self-hosted web applications with direct source links (`MIT`)."
+    },
+    {
+      "list_name": "awesome-open-source / free-software",
+      "fit_reason": "1,000 validated non-forked OSS tools across Desktop GUI (500), Self-Hosted (300), and CLI (200) explained without developer jargon.",
+      "recommended_entry": "- [HubHum](https://github.com/DavanzoKeoma/HubHum) - Curated plain-English directory of 1,000 free & open-source apps built with Astro (`MIT`, `llms.txt` & OpenAPI ready)."
+    },
+    {
+      "list_name": "awesome-privacy",
+      "fit_reason": "Dedicated Security & Privacy pillar with password managers, VPN clients, local-first notes, and transparent privacy policy.",
+      "recommended_entry": "- [HubHum Privacy Guides](https://davanzokeoma.github.io/HubHum/guides/security-privacy/) - Plain-English open-source security & privacy tools directory with strict upstream download links."
+    },
+    {
+      "list_name": "awesome-astro",
+      "fit_reason": "Static Astro SSG site compiling 1,081 pages (Content Collections, Schema.org SoftwareApplication/SoftwareSourceCode, RSS, OpenAPI, llms.txt).",
+      "recommended_entry": "- [HubHum](https://github.com/DavanzoKeoma/HubHum) - Open-source software directory statically built with Astro SSG indexing 1,000+ GitHub projects across 5 languages."
+    },
+    {
+      "list_name": "awesome-llms-txt / rag-directories",
+      "fit_reason": "Full AI/RAG suite: /llms.txt, /llms-full.txt, /catalog-rag.txt, /codebase-full.txt, /.well-known/ai-plugin.json, and /api/openapi.yaml.",
+      "recommended_entry": "- [HubHum AI & RAG Endpoints](https://davanzokeoma.github.io/HubHum/llms.txt) - Complete machine-readable index and OpenAPI 3.0 spec for 1,000 open-source tools."
+    }
+  ],
+  "pillar_guides": [
+    {
+      "category": "Video & Audio",
+      "app_count": 56,
+      "url": "https://davanzokeoma.github.io/HubHum/guides/video-audio/",
+      "subpillar_count": 3
+    },
+    {
+      "category": "Graphics & Design",
+      "app_count": 24,
+      "url": "https://davanzokeoma.github.io/HubHum/guides/graphics-design/",
+      "subpillar_count": 2
+    },
+    {
+      "category": "Security & Privacy",
+      "app_count": 35,
+      "url": "https://davanzokeoma.github.io/HubHum/guides/security-privacy/",
+      "subpillar_count": 3
+    },
+    {
+      "category": "Productivity",
+      "app_count": 416,
+      "url": "https://davanzokeoma.github.io/HubHum/guides/productivity/",
+      "subpillar_count": 3
+    },
+    {
+      "category": "Web Apps & Cloud",
+      "app_count": 276,
+      "url": "https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/",
+      "subpillar_count": 3
+    },
+    {
+      "category": "Utilities & Power Tools",
+      "app_count": 192,
+      "url": "https://davanzokeoma.github.io/HubHum/guides/utilities-power-tools/",
+      "subpillar_count": 2
+    }
+  ],
+  "top_candidates_by_category": {
+    "Graphics & Design": [
+      {
+        "slug": "ui-ux-pro-max-skill",
+        "name": "UI UX Pro Max Skill",
+        "stars": 151922,
+        "app_type": "resource",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/ui-ux-pro-max-skill/",
+        "awesome_markdown": "- [UI UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/ui-ux-pro-max-skill/))"
+      },
+      {
+        "slug": "open-design",
+        "name": "open-design",
+        "stars": 108776,
+        "app_type": "desktop",
+        "license": "Open Source (Apache 2.0)",
+        "repo_url": "https://github.com/nexu-io/open-design",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/open-design/",
+        "awesome_markdown": "- [open-design](https://github.com/nexu-io/open-design) - Create websites, prototypes, motion graphics, and presentations with your team and coding agents in one open workspace. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/open-design/))"
+      },
+      {
+        "slug": "photoprism",
+        "name": "PhotoPrism",
+        "stars": 40470,
+        "app_type": "selfhosted",
+        "license": "Custom Open License",
+        "repo_url": "https://github.com/photoprism/photoprism",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/photoprism/",
+        "awesome_markdown": "- [PhotoPrism](https://github.com/photoprism/photoprism) - PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/photoprism/))"
+      },
+      {
+        "slug": "flameshot",
+        "name": "flameshot",
+        "stars": 31599,
+        "app_type": "desktop",
+        "license": "Open Source (GPL v3)",
+        "repo_url": "https://github.com/flameshot-org/flameshot",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/flameshot/",
+        "awesome_markdown": "- [flameshot](https://github.com/flameshot-org/flameshot) - Capture your screen instantly, highlight key details with built-in drawing tools, and share your images effortlessly. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/flameshot/))"
+      },
+      {
+        "slug": "react-native-elements",
+        "name": "React Native Elements",
+        "stars": 25869,
+        "app_type": "desktop",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/react-native-elements/react-native-elements",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/react-native-elements/",
+        "awesome_markdown": "- [React Native Elements](https://github.com/react-native-elements/react-native-elements) - A complete set of ready-to-use visual building blocks designed to help you craft mobile applications for multiple devices effortlessly. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/react-native-elements/))"
+      },
+      {
+        "slug": "slint",
+        "name": "slint",
+        "stars": 24653,
+        "app_type": "cli",
+        "license": "Custom Open License",
+        "repo_url": "https://github.com/slint-ui/slint",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/slint/",
+        "awesome_markdown": "- [slint](https://github.com/slint-ui/slint) - Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/slint/))"
+      },
+      {
+        "slug": "best-flutter-ui-templates",
+        "name": "Best-Flutter-UI-Templates",
+        "stars": 22871,
+        "app_type": "desktop",
+        "license": "Custom Open License",
+        "repo_url": "https://github.com/mitesh77/best-flutter-ui-templates",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/best-flutter-ui-templates/",
+        "awesome_markdown": "- [Best-Flutter-UI-Templates](https://github.com/mitesh77/best-flutter-ui-templates) - This collection provides high-quality, ready-to-use visual designs for mobile applications. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/best-flutter-ui-templates/))"
+      },
+      {
+        "slug": "customtkinter",
+        "name": "CustomTkinter",
+        "stars": 13619,
+        "app_type": "cli",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/tomschimansky/customtkinter",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/customtkinter/",
+        "awesome_markdown": "- [CustomTkinter](https://github.com/tomschimansky/customtkinter) - Create gorgeous, modern desktop app interfaces in Python using sleek pre-made elements that automatically adapt to light and dark modes. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/customtkinter/))"
+      }
+    ],
+    "Productivity": [
+      {
+        "slug": "awesome",
+        "name": "Awesome",
+        "stars": 539167,
+        "app_type": "resource",
+        "license": "Public Domain / Free",
+        "repo_url": "https://github.com/sindresorhus/awesome",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/awesome/",
+        "awesome_markdown": "- [Awesome](https://github.com/sindresorhus/awesome) - Explore carefully organized collections of interesting topics, software tools, and guides curated by experts. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/awesome/))"
+      },
+      {
+        "slug": "flutter",
+        "name": "Flutter",
+        "stars": 181331,
+        "app_type": "desktop",
+        "license": "Open Source (BSD)",
+        "repo_url": "https://github.com/flutter/flutter",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/flutter/",
+        "awesome_markdown": "- [Flutter](https://github.com/flutter/flutter) - Create gorgeous, lightning-fast apps for phones, web, and computers from a single shared set of instructions. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/flutter/))"
+      },
+      {
+        "slug": "cc-switch",
+        "name": "CC Switch",
+        "stars": 156134,
+        "app_type": "desktop",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/farion1231/cc-switch",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/cc-switch/",
+        "awesome_markdown": "- [CC Switch](https://github.com/farion1231/cc-switch) - Switch between different AI service providers with a single click and organize your prompts, plugins, and helper tools in one unified dashboard. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/cc-switch/))"
+      },
+      {
+        "slug": "orca",
+        "name": "orca",
+        "stars": 130248,
+        "app_type": "desktop",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/stablyai/orca",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/orca/",
+        "awesome_markdown": "- [orca](https://github.com/stablyai/orca) - Orca lets you run multiple AI coding assistants at the same time, giving each helper its own dedicated workspace so they never interfere with each other. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/orca/))"
+      },
+      {
+        "slug": "react-native",
+        "name": "React Native",
+        "stars": 126992,
+        "app_type": "desktop",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/react/react-native",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/react-native/",
+        "awesome_markdown": "- [React Native](https://github.com/react/react-native) - Create genuine mobile applications for Android and iOS using familiar coding languages and components. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/react-native/))"
+      },
+      {
+        "slug": "openhands",
+        "name": "OpenHands",
+        "stars": 93879,
+        "app_type": "desktop",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/openhands/openhands",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/openhands/",
+        "awesome_markdown": "- [OpenHands](https://github.com/openhands/openhands) - OpenHands turns smart coding assistants into a reliable, always-on engineering team that automates your everyday tasks and workflows. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/openhands/))"
+      },
+      {
+        "slug": "nextchat",
+        "name": "NextChat",
+        "stars": 88985,
+        "app_type": "desktop",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/chatgptnextweb/nextchat",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/nextchat/",
+        "awesome_markdown": "- [NextChat](https://github.com/chatgptnextweb/nextchat) - Easily converse with multiple artificial intelligence models in one clean interface without complex setup. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/nextchat/))"
+      },
+      {
+        "slug": "termux-app",
+        "name": "Termux App",
+        "stars": 65246,
+        "app_type": "desktop",
+        "license": "Custom Open License",
+        "repo_url": "https://github.com/termux/termux-app",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/termux-app/",
+        "awesome_markdown": "- [Termux App](https://github.com/termux/termux-app) - Turn your Android device into a powerful Linux workstation with a complete command line environment and package manager. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/termux-app/))"
+      }
+    ],
+    "Security & Privacy": [
+      {
+        "slug": "sherlock",
+        "name": "Sherlock",
+        "stars": 114779,
+        "app_type": "cli",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/sherlock-project/sherlock",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/sherlock/",
+        "awesome_markdown": "- [Sherlock](https://github.com/sherlock-project/sherlock) - Easily discover where a specific username is registered across hundreds of online platforms and social networks in seconds. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/sherlock/))"
+      },
+      {
+        "slug": "mole",
+        "name": "Mole",
+        "stars": 75661,
+        "app_type": "desktop",
+        "license": "Open Source (GPL v3)",
+        "repo_url": "https://github.com/tw93/mole",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/mole/",
+        "awesome_markdown": "- [Mole](https://github.com/tw93/mole) - Mole is an open-source system cleaner that removes junk files, uninstalls applications completely, and monitors system performance. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/mole/))"
+      },
+      {
+        "slug": "win11debloat",
+        "name": "Win11Debloat",
+        "stars": 63350,
+        "app_type": "desktop",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/raphire/win11debloat",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/win11debloat/",
+        "awesome_markdown": "- [Win11Debloat](https://github.com/raphire/win11debloat) - Remove unwanted pre-installed apps, block background tracking, and declutter your computer interface in just a few clicks. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/win11debloat/))"
+      },
+      {
+        "slug": "sniffnet",
+        "name": "Sniffnet",
+        "stars": 43100,
+        "app_type": "desktop",
+        "license": "Open Source (Apache 2.0)",
+        "repo_url": "https://github.com/gyulyvgc/sniffnet",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/sniffnet/",
+        "awesome_markdown": "- [Sniffnet](https://github.com/gyulyvgc/sniffnet) - Easily observe and analyze your computer's internet traffic in real-time with visual graphs, custom alerts, and security filters. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/sniffnet/))"
+      },
+      {
+        "slug": "maigret",
+        "name": "Maigret",
+        "stars": 41080,
+        "app_type": "cli",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/soxoj/maigret",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/maigret/",
+        "awesome_markdown": "- [Maigret](https://github.com/soxoj/maigret) - Maigret gathers online profile information by scanning thousands of public websites using only a username. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/maigret/))"
+      },
+      {
+        "slug": "pentagi",
+        "name": "PentAGI",
+        "stars": 34653,
+        "app_type": "selfhosted",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/vxcontrol/pentagi",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/pentagi/",
+        "awesome_markdown": "- [PentAGI](https://github.com/vxcontrol/pentagi) - An autonomous multi-agent system that performs security testing and delivers comprehensive reports based on your plain-language goals. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/pentagi/))"
+      },
+      {
+        "slug": "gitleaks",
+        "name": "Gitleaks",
+        "stars": 31205,
+        "app_type": "cli",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/gitleaks/gitleaks",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/gitleaks/",
+        "awesome_markdown": "- [Gitleaks](https://github.com/gitleaks/gitleaks) - Scan your code repositories and directories to find accidentally exposed passwords, API keys, and sensitive tokens before they leak. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/gitleaks/))"
+      },
+      {
+        "slug": "keepassxc",
+        "name": "KeePassXC",
+        "stars": 30048,
+        "app_type": "desktop",
+        "license": "Open Source (GPL v3)",
+        "repo_url": "https://github.com/keepassxreboot/keepassxc",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/keepassxc/",
+        "awesome_markdown": "- [KeePassXC](https://github.com/keepassxreboot/keepassxc) - Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/keepassxc/))"
+      }
+    ],
+    "Utilities & Power Tools": [
+      {
+        "slug": "rea",
+        "name": "rea",
+        "stars": 470442,
+        "app_type": "cli",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/morluto/rea",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/rea/",
+        "awesome_markdown": "- [rea](https://github.com/morluto/rea) - Understand how any software feature works without source code, letting AI agents inspect apps and code down to the binary level. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/rea/))"
+      },
+      {
+        "slug": "ohmyzsh",
+        "name": "Oh My Zsh",
+        "stars": 190700,
+        "app_type": "cli",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/ohmyzsh/ohmyzsh",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/ohmyzsh/",
+        "awesome_markdown": "- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) - Oh My Zsh transforms your standard terminal into a powerful, themed, and plugin-packed command prompt. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/ohmyzsh/))"
+      },
+      {
+        "slug": "agent-reach",
+        "name": "Agent-Reach",
+        "stars": 113424,
+        "app_type": "cli",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/panniantong/agent-reach",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/agent-reach/",
+        "awesome_markdown": "- [Agent-Reach](https://github.com/panniantong/agent-reach) - Agent-Reach allows your AI assistant to browse and read content from popular social media and video platforms automatically. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/agent-reach/))"
+      },
+      {
+        "slug": "tauri",
+        "name": "Tauri",
+        "stars": 113010,
+        "app_type": "cli",
+        "license": "Open Source (Apache 2.0)",
+        "repo_url": "https://github.com/tauri-apps/tauri",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/tauri/",
+        "awesome_markdown": "- [Tauri](https://github.com/tauri-apps/tauri) - Tauri lets you build secure, lightweight desktop and mobile apps using web technologies like HTML and JavaScript. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/tauri/))"
+      },
+      {
+        "slug": "gemini-cli",
+        "name": "Gemini CLI",
+        "stars": 108947,
+        "app_type": "cli",
+        "license": "Open Source (Apache 2.0)",
+        "repo_url": "https://github.com/google-gemini/gemini-cli",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/gemini-cli/",
+        "awesome_markdown": "- [Gemini CLI](https://github.com/google-gemini/gemini-cli) - An intelligent command-line tool that lets you query codebases, automate tasks, and chat with AI directly from your computer terminal. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/gemini-cli/))"
+      },
+      {
+        "slug": "terminal",
+        "name": "terminal",
+        "stars": 105455,
+        "app_type": "cli",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/microsoft/terminal",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/terminal/",
+        "awesome_markdown": "- [terminal](https://github.com/microsoft/terminal) - Manage multiple command-line tools in tabs with custom styles and fast performance. Say goodbye to plain windows and hello to a customizable workspace. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/terminal/))"
+      },
+      {
+        "slug": "scrapling",
+        "name": "Scrapling",
+        "stars": 104512,
+        "app_type": "cli",
+        "license": "Open Source (BSD)",
+        "repo_url": "https://github.com/d4vinci/scrapling",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/scrapling/",
+        "awesome_markdown": "- [Scrapling](https://github.com/d4vinci/scrapling) - Extract data, bypass security checks, and crawl any website seamlessly using a fast Python toolkit. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/scrapling/))"
+      },
+      {
+        "slug": "playwright",
+        "name": "Playwright",
+        "stars": 100635,
+        "app_type": "cli",
+        "license": "Open Source (Apache 2.0)",
+        "repo_url": "https://github.com/microsoft/playwright",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/playwright/",
+        "awesome_markdown": "- [Playwright](https://github.com/microsoft/playwright) - Playwright automates and tests web pages across all modern browsers with a single tool. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/playwright/))"
+      }
+    ],
+    "Video & Audio": [
+      {
+        "slug": "yt-dlp",
+        "name": "yt-dlp",
+        "stars": 209259,
+        "app_type": "cli",
+        "license": "Public Domain / Free",
+        "repo_url": "https://github.com/yt-dlp/yt-dlp",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/yt-dlp/",
+        "awesome_markdown": "- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - A reliable tool to save audio and video from thousands of online websites directly to your computer. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/yt-dlp/))"
+      },
+      {
+        "slug": "losslesscut",
+        "name": "LosslessCut",
+        "stars": 46153,
+        "app_type": "desktop",
+        "license": "Open Source (GPL v2)",
+        "repo_url": "https://github.com/mifi/lossless-cut",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/losslesscut/",
+        "awesome_markdown": "- [LosslessCut](https://github.com/mifi/lossless-cut) - Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/losslesscut/))"
+      },
+      {
+        "slug": "pear-desktop",
+        "name": "Pear Desktop",
+        "stars": 34107,
+        "app_type": "desktop",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/pear-devs/pear-desktop",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/pear-desktop/",
+        "awesome_markdown": "- [Pear Desktop](https://github.com/pear-devs/pear-desktop) - Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/pear-desktop/))"
+      },
+      {
+        "slug": "handbrake",
+        "name": "HandBrake",
+        "stars": 25054,
+        "app_type": "desktop",
+        "license": "Custom Open License",
+        "repo_url": "https://github.com/handbrake/handbrake",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/handbrake/",
+        "awesome_markdown": "- [HandBrake](https://github.com/handbrake/handbrake) - Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/handbrake/))"
+      },
+      {
+        "slug": "navidrome",
+        "name": "Navidrome",
+        "stars": 24852,
+        "app_type": "selfhosted",
+        "license": "Open Source (GPL v3)",
+        "repo_url": "https://github.com/navidrome/navidrome",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/navidrome/",
+        "awesome_markdown": "- [Navidrome](https://github.com/navidrome/navidrome) - Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/navidrome/))"
+      },
+      {
+        "slug": "vlc",
+        "name": "VLC",
+        "stars": 20504,
+        "app_type": "desktop",
+        "license": "Open Source (GPL v2)",
+        "repo_url": "https://github.com/videolan/vlc",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/vlc/",
+        "awesome_markdown": "- [VLC](https://github.com/videolan/vlc) - VLC is a versatile media player that opens almost any video or audio file without needing extra downloads. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/vlc/))"
+      },
+      {
+        "slug": "spotify-tui",
+        "name": "spotify-tui",
+        "stars": 19434,
+        "app_type": "cli",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/rigellute/spotify-tui",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/spotify-tui/",
+        "awesome_markdown": "- [spotify-tui](https://github.com/rigellute/spotify-tui) - Manage your music player with a lightning-fast interface that runs entirely inside your text terminal. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/spotify-tui/))"
+      },
+      {
+        "slug": "concat",
+        "name": "Concat",
+        "stars": 19264,
+        "app_type": "selfhosted",
+        "license": "Open Source (AGPL v3)",
+        "repo_url": "https://github.com/jub0t/concat",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/concat/",
+        "awesome_markdown": "- [Concat](https://github.com/jub0t/concat) - Concat is a completely free, privacy-focused video editor that runs entirely on your device with no watermarks, subscriptions, or uploads. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/concat/))"
+      }
+    ],
+    "Web Apps & Cloud": [
+      {
+        "slug": "n8n",
+        "name": "n8n",
+        "stars": 211468,
+        "app_type": "selfhosted",
+        "license": "Custom Open License",
+        "repo_url": "https://github.com/n8n-io/n8n",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/n8n/",
+        "awesome_markdown": "- [n8n](https://github.com/n8n-io/n8n) - Connect your favorite online tools and artificial intelligence models to automate tedious tasks without writing complex code. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/n8n/))"
+      },
+      {
+        "slug": "dify",
+        "name": "dify",
+        "stars": 161552,
+        "app_type": "selfhosted",
+        "license": "Custom Open License",
+        "repo_url": "https://github.com/langgenius/dify",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/dify/",
+        "awesome_markdown": "- [dify](https://github.com/langgenius/dify) - Create custom artificial intelligence workflows, smart assistants, and document search pipelines easily on one collaborative workspace. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/dify/))"
+      },
+      {
+        "slug": "open-webui",
+        "name": "Open WebUI",
+        "stars": 159122,
+        "app_type": "selfhosted",
+        "license": "Custom Open License",
+        "repo_url": "https://github.com/open-webui/open-webui",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/open-webui/",
+        "awesome_markdown": "- [Open WebUI](https://github.com/open-webui/open-webui) - Run smart artificial intelligence models completely offline or connect to cloud services with a friendly, feature-packed web control panel. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/open-webui/))"
+      },
+      {
+        "slug": "immich",
+        "name": "Immich",
+        "stars": 119698,
+        "app_type": "selfhosted",
+        "license": "Open Source (AGPL v3)",
+        "repo_url": "https://github.com/immich-app/immich",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/immich/",
+        "awesome_markdown": "- [Immich](https://github.com/immich-app/immich) - Manage and back up your photos and videos on your own private cloud storage without sharing your personal memories. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/immich/))"
+      },
+      {
+        "slug": "stirling-pdf",
+        "name": "Stirling-PDF",
+        "stars": 97065,
+        "app_type": "selfhosted",
+        "license": "Custom Open License",
+        "repo_url": "https://github.com/stirling-tools/stirling-pdf",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/stirling-pdf/",
+        "awesome_markdown": "- [Stirling-PDF](https://github.com/stirling-tools/stirling-pdf) - Edit, convert, and secure your PDF documents locally without uploading your sensitive files to third-party web services. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/stirling-pdf/))"
+      },
+      {
+        "slug": "uptime-kuma",
+        "name": "Uptime Kuma",
+        "stars": 94676,
+        "app_type": "selfhosted",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/louislam/uptime-kuma",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/uptime-kuma/",
+        "awesome_markdown": "- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - An easy-to-use monitoring tool that tracks your websites and servers in real time, alerting you instantly if anything goes offline. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/uptime-kuma/))"
+      },
+      {
+        "slug": "hugo",
+        "name": "Hugo",
+        "stars": 90536,
+        "app_type": "selfhosted",
+        "license": "Open Source (Apache 2.0)",
+        "repo_url": "https://github.com/gohugoio/hugo",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/hugo/",
+        "awesome_markdown": "- [Hugo](https://github.com/gohugoio/hugo) - Hugo is a powerful tool that turns your text and images into fast, professional websites with minimal effort. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/hugo/))"
+      },
+      {
+        "slug": "netdata",
+        "name": "Netdata",
+        "stars": 81537,
+        "app_type": "selfhosted",
+        "license": "Open Source (GPL v3)",
+        "repo_url": "https://github.com/netdata/netdata",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/netdata/",
+        "awesome_markdown": "- [Netdata](https://github.com/netdata/netdata) - Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/netdata/))"
+      }
+    ],
+    "Websites & SEO": [
+      {
+        "slug": "librecrawl",
+        "name": "LibreCrawl",
+        "stars": 1134,
+        "app_type": "desktop",
+        "license": "Open Source (MIT)",
+        "repo_url": "https://github.com/phialsbasement/librecrawl",
+        "hubhum_url": "https://davanzokeoma.github.io/HubHum/apps/librecrawl/",
+        "awesome_markdown": "- [LibreCrawl](https://github.com/phialsbasement/librecrawl) - Crawl websites, analyze links, extract technical SEO data, and export results with zero subscription fees. ([Plain-English Guide](https://davanzokeoma.github.io/HubHum/apps/librecrawl/))"
+      }
+    ]
+  }
+}

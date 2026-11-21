@@ -152,12 +152,20 @@ def write_discovery_artifacts(entries: list[dict[str, object]]) -> None:
     PUBLIC_API_CLUSTERS_PATH.write_text(json.dumps(api_clusters, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     # 3. Standard llms.txt concise index
+    guide_count = int(clusters_data.get("total_guide_pages") or 0)
+    pillar_count = len(enriched_pillars)
+    bundle_count = len(bundles_raw)
     llms_lines = [
         "# HubHum — A Git Hub for Humans",
         "",
         "> Plain-English, verified directory of free and open-source software explained without developer jargon, pointing strictly to official GitHub releases and upstream creator channels.",
         "",
-        f"Catalog Size: {len(entries)} open-source tools ({type_counts.get('desktop', 0)} Desktop GUI, {type_counts.get('selfhosted', 0)} Self-Hosted, {type_counts.get('cli', 0)} CLI/Power Tools, {type_counts.get('resource', 0)} Open References).",
+        (
+            f"Catalog Size: {len(entries)} open-source tools "
+            f"(Tier 1 GUI: {tier_counts.get('tier1_gui', 0)}, Tier 2 Web/Self-Hosted: {tier_counts.get('tier2_webapp', 0)}, Tier 3 Power Tools: {tier_counts.get('tier3_powertool', 0)} | "
+            f"{type_counts.get('desktop', 0)} Desktop GUI, {type_counts.get('selfhosted', 0)} Self-Hosted, {type_counts.get('webapp', 0)} Web Apps, {type_counts.get('cli', 0)} CLI/Power Tools, {type_counts.get('resource', 0)} Open References) | "
+            f"{guide_count} Topic Cluster Guides across {pillar_count} Pillars | {bundle_count} Curated Bundles."
+        ),
         "",
         "## Primary Endpoints",
         f"- [Homepage & Interactive Catalog]({SITE_URL_PREFIX}/): Search and filter free software by format, OS, and everyday task",
@@ -193,7 +201,11 @@ def write_discovery_artifacts(entries: list[dict[str, object]]) -> None:
     full_lines = [
         "# HubHum Complete Open-Source Catalog Digest",
         "",
-        f"Generated: {now_iso} | Total Applications: {len(entries)}",
+        (
+            f"Generated: {now_iso} | Total Applications: {len(entries)} "
+            f"(Tier 1 GUI: {tier_counts.get('tier1_gui', 0)}, Tier 2 Web/Self-Hosted: {tier_counts.get('tier2_webapp', 0)}, Tier 3 Power Tools: {tier_counts.get('tier3_powertool', 0)}) | "
+            f"Topic Guides: {guide_count} ({pillar_count} Pillars) | Starter Bundles: {bundle_count}"
+        ),
         "",
     ]
     for cat in sorted(by_category.keys()):
@@ -214,7 +226,11 @@ def write_discovery_artifacts(entries: list[dict[str, object]]) -> None:
     # 5. Compact 2-line single-file RAG digest (catalog-rag.txt)
     rag_lines = [
         "# HubHum Compact RAG Digest (catalog-rag.txt)",
-        f"Generated: {now_iso} | Total: {len(entries)} apps | Tier1: {tier_counts.get('tier1_gui', 0)} | Tier2: {tier_counts.get('tier2_webapp', 0)} | Tier3: {tier_counts.get('tier3_powertool', 0)}",
+        (
+            f"Generated: {now_iso} | Total: {len(entries)} apps | Tier1: {tier_counts.get('tier1_gui', 0)} | "
+            f"Tier2: {tier_counts.get('tier2_webapp', 0)} | Tier3: {tier_counts.get('tier3_powertool', 0)} | "
+            f"Guides: {guide_count} ({pillar_count} Pillars) | Bundles: {bundle_count}"
+        ),
         f"Site: {SITE_URL_PREFIX}/ | Catalog JSON: {SITE_URL_PREFIX}/api/catalog.json | Clusters JSON: {SITE_URL_PREFIX}/api/clusters.json",
         "",
         "## Category Breakdown",
@@ -277,7 +293,7 @@ def write_catalog_index() -> Path:
         target.write_text(payload, encoding="utf-8")
     write_discovery_artifacts(entries)
     print(
-        f"[INDEX] Generated {PUBLIC_INDEX_PATH}, {DATA_INDEX_PATH}, llms.txt, llms-full.txt, "
+        f"[INDEX] Generated public/catalog-index.json, data/catalog-index.json, llms.txt, llms-full.txt, "
         f"codebase-full.txt, catalog-rag.txt, and api/*.json ({len(entries)} apps)"
     )
     return PUBLIC_INDEX_PATH
