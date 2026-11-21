@@ -75,6 +75,21 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "airbyte",
+    "name": "Airbyte",
+    "repo_url": "https://github.com/airbytehq/airbyte",
+    "full_name": "airbytehq/airbyte",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/airbyte.png",
+    "is_webapp": true,
+    "app_type": "webapp",
+    "stars": 22424,
+    "tier": "tier2_webapp",
+    "summary": "Airbyte is an open-source data movement platform that effortlessly syncs information from hundreds of apps and databases into your warehouses or AI tools.",
+    "download_url": "https://airbyte.com",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "airflow",
     "name": "Apache Airflow",
     "repo_url": "https://github.com/apache/airflow",
@@ -780,6 +795,21 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "codeg",
+    "name": "Codeg",
+    "repo_url": "https://github.com/spacering-net/codeg",
+    "full_name": "spacering-net/codeg",
+    "category": "Productivity",
+    "icon": "/icons/codeg.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4552,
+    "tier": "tier1_gui",
+    "summary": "Bring twenty different artificial intelligence coding assistants together into a single organized workspace to manage and run projects effortlessly.",
+    "download_url": "https://github.com/spacering-net/codeg/releases/download/v0.47.0/codeg_0.47.0_arm64-setup.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "codepilot",
     "name": "CodePilot",
     "repo_url": "https://github.com/op7418/codepilot",
@@ -825,6 +855,21 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "companyos",
+    "name": "CompanyOS",
+    "repo_url": "https://github.com/kortix-ai/companyos",
+    "full_name": "kortix-ai/companyos",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/companyos.png",
+    "is_webapp": true,
+    "app_type": "webapp",
+    "stars": 20780,
+    "tier": "tier2_webapp",
+    "summary": "An open-source digital workspace where autonomous digital helpers handle routine tasks, collaborate in the background, and keep your company organized.",
+    "download_url": "https://github.com/kortix-ai/CompanyOS/releases/download/v0.16.2/Kortix-Setup-0.16.2.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "compose-multiplatform",
     "name": "Compose Multiplatform",
     "repo_url": "https://github.com/jetbrains/compose-multiplatform",
@@ -838,6 +883,21 @@
     "summary": "Create gorgeous, high-performance user interfaces for mobile, desktop, and web from a single shared codebase.",
     "download_url": "https://jetbrains.com/lp/compose-multiplatform",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "concat",
+    "name": "Concat",
+    "repo_url": "https://github.com/jub0t/concat",
+    "full_name": "jub0t/concat",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/concat.png",
+    "is_webapp": true,
+    "app_type": "webapp",
+    "stars": 19264,
+    "tier": "tier2_webapp",
+    "summary": "Concat is a completely free, privacy-focused video editor that runs entirely on your device with no watermarks, subscriptions, or uploads.",
+    "download_url": "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-windows-x86_64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "conemu",
@@ -883,6 +943,21 @@
     "summary": "Continue is a flexible open-source coding companion that helps you write, debug, and understand code faster directly inside your favorite text editor.",
     "download_url": "https://continue.dev",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "convertx",
+    "name": "ConvertX",
+    "repo_url": "https://github.com/c4illin/convertx",
+    "full_name": "c4illin/convertx",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/convertx.png",
+    "is_webapp": true,
+    "app_type": "webapp",
+    "stars": 19756,
+    "tier": "tier2_webapp",
+    "summary": "ConvertX lets you change any file type directly in your browser, without needing separate programs.",
+    "download_url": "https://github.com/C4illin/ConvertX/releases",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "cool-retro-term",
@@ -2490,6 +2565,21 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "linkwarden",
+    "name": "Linkwarden",
+    "repo_url": "https://github.com/linkwarden/linkwarden",
+    "full_name": "linkwarden/linkwarden",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/linkwarden.png",
+    "is_webapp": true,
+    "app_type": "webapp",
+    "stars": 20491,
+    "tier": "tier2_webapp",
+    "summary": "An open-source tool to collect, read, annotate, and archive important web pages and articles in one secure place.",
+    "download_url": "https://linkwarden.app",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "linux-command",
     "name": "Linux Command",
     "repo_url": "https://github.com/jaywcjlove/linux-command",
@@ -2503,6 +2593,21 @@
     "summary": "This tool provides a comprehensive, searchable library of over 600 Linux commands to help you learn and master system operations.",
     "download_url": "https://jaywcjlove.github.io/linux-command",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "linux-wifi-hotspot",
+    "name": "Linux Wifi Hotspot",
+    "repo_url": "https://github.com/lakinduakash/linux-wifi-hotspot",
+    "full_name": "lakinduakash/linux-wifi-hotspot",
+    "category": "Productivity",
+    "icon": "/icons/linux-wifi-hotspot.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4456,
+    "tier": "tier1_gui",
+    "summary": "Create and share secure Wi-Fi access points easily on Linux, letting you broadcast your internet connection to phones and other devices.",
+    "download_url": "https://github.com/lakinduakash/linux-wifi-hotspot/releases/download/v5.0.0/linux-wifi-hotspot_5.0.0_amd64.deb",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "listmonk",
@@ -2910,6 +3015,21 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "neko",
+    "name": "Neko",
+    "repo_url": "https://github.com/m1k1o/neko",
+    "full_name": "m1k1o/neko",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/neko.png",
+    "is_webapp": true,
+    "app_type": "webapp",
+    "stars": 22701,
+    "tier": "tier2_webapp",
+    "summary": "Run a private browser inside a secure container and stream it in real time to friends, family, or colleagues anywhere.",
+    "download_url": "https://neko.m1k1o.net/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "netdata",
     "name": "Netdata",
     "repo_url": "https://github.com/netdata/netdata",
@@ -2983,6 +3103,21 @@
     "summary": "NocoBase is an open-source platform that lets AI agents build and manage your business software while your team stays in control of decisions.",
     "download_url": "https://www.nocobase.com",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "notes",
+    "name": "Notes",
+    "repo_url": "https://github.com/nuttyartist/notes",
+    "full_name": "nuttyartist/notes",
+    "category": "Productivity",
+    "icon": "/icons/notes.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4265,
+    "tier": "tier1_gui",
+    "summary": "A gorgeous, privacy-focused open source note-taking application designed to capture your ideas instantly without clutter.",
+    "download_url": "https://github.com/nuttyartist/notes/releases/download/v2.3.1/NotesSetup_2.3.1.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "ntrace-core",
@@ -3223,6 +3358,21 @@
     "summary": "Convert websites and logged-in browser sessions into clean, automated command lines that both humans and AI agents can easily use.",
     "download_url": "https://opencli.info/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "opengym",
+    "name": "openGym",
+    "repo_url": "https://github.com/duartesantos8/opengym",
+    "full_name": "duartesantos8/opengym",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/opengym.png",
+    "is_webapp": true,
+    "app_type": "webapp",
+    "stars": 23057,
+    "tier": "tier2_webapp",
+    "summary": "Plan custom workout routines, track exercises with guided timers, and keep complete ownership of your fitness history without monthly subscription fees.",
+    "download_url": "https://github.com/DuarteSantos8/openGym/releases/download/v1.4.5/openGym-1.4.5.apk",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "openhands",
@@ -3555,6 +3705,21 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "pythonguis-examples",
+    "name": "pythonguis-examples",
+    "repo_url": "https://github.com/pythonguis/pythonguis-examples",
+    "full_name": "pythonguis/pythonguis-examples",
+    "category": "Productivity",
+    "icon": "/icons/pythonguis-examples.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4652,
+    "tier": "tier1_gui",
+    "summary": "Entdecken Sie eine riesige Sammlung von Python-Oberflächenbeispielen, vollständigen Anwendungen und Widgets für eigene Projekte.",
+    "download_url": "https://www.pythonguis.com/",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "pywebview",
     "name": "pywebview",
     "repo_url": "https://github.com/r0x0r/pywebview",
@@ -3613,6 +3778,21 @@
     "summary": "Send and receive files between your computer and mobile devices over Wi-Fi simply by scanning a QR code right from your command window.",
     "download_url": "https://github.com/claudiodangelis/qrcp/releases/download/v0.11.7/qrcp_0.11.7_linux_386.deb",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "qtexamples",
+    "name": "QtExamples",
+    "repo_url": "https://github.com/xmuli/qtexamples",
+    "full_name": "xmuli/qtexamples",
+    "category": "Productivity",
+    "icon": "/icons/qtexamples.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4035,
+    "tier": "tier1_gui",
+    "summary": "Learn desktop and server application development from scratch with hands-on examples, graphic interface guides, and deep architecture insights.",
+    "download_url": "https://product.xmuli.tech",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "qwen-code",
@@ -3735,6 +3915,21 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ricochet",
+    "name": "ricochet",
+    "repo_url": "https://github.com/ricochet-im/ricochet",
+    "full_name": "ricochet-im/ricochet",
+    "category": "Productivity",
+    "icon": "/icons/ricochet.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3920,
+    "tier": "tier1_gui",
+    "summary": "Ricochet lets you chat privately without exposing your identity, IP address, or contact lists to anyone.",
+    "download_url": "https://github.com/ricochet-im/ricochet/releases/download/v1.1.4/ricochet-1.1.4-win-install.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "ripgrep",
     "name": "ripgrep",
     "repo_url": "https://github.com/burntsushi/ripgrep",
@@ -3748,6 +3943,21 @@
     "summary": "Ripgrep is a blazing-fast utility that scans your directories for specific text patterns while automatically ignoring unwanted files and folders.",
     "download_url": "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep_15.2.0-1_amd64.deb",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "rocketride-server",
+    "name": "rocketride-server",
+    "repo_url": "https://github.com/rocketride-org/rocketride-server",
+    "full_name": "rocketride-org/rocketride-server",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/rocketride-server.png",
+    "is_webapp": true,
+    "app_type": "webapp",
+    "stars": 20005,
+    "tier": "tier2_webapp",
+    "summary": "Compose, test, and ship powerful artificial intelligence workflows directly from your code editor using a high-performance engine.",
+    "download_url": "https://rocketride.ai",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "rtk",
@@ -3823,6 +4033,21 @@
     "summary": "Extract data, bypass security checks, and crawl any website seamlessly using a fast Python toolkit.",
     "download_url": "https://scrapling.readthedocs.io/en/latest/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "scrcpy-gui",
+    "name": "Scrcpy GUI",
+    "repo_url": "https://github.com/simonaking/scrcpy-gui",
+    "full_name": "simonaking/scrcpy-gui",
+    "category": "Productivity",
+    "icon": "/icons/scrcpy-gui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4200,
+    "tier": "tier1_gui",
+    "summary": "A clean, modern visual control panel that makes viewing and managing your Android device on a computer simple and fast.",
+    "download_url": "https://github.com/SimonAKing/scrcpy-gui/releases/download/v2.5.0/Scrcpy.GUI-2.5.0-win-ia32.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "self-hosting-guide",
@@ -4168,6 +4393,21 @@
     "summary": "Transform simple text descriptions or single photos into fully rendered 3D objects using advanced AI diffusion models.",
     "download_url": "https://github.com/ashawkey/stable-dreamfusion/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "stablediffusion-infinity",
+    "name": "stablediffusion-infinity",
+    "repo_url": "https://github.com/lkwq007/stablediffusion-infinity",
+    "full_name": "lkwq007/stablediffusion-infinity",
+    "category": "Productivity",
+    "icon": "/icons/stablediffusion-infinity.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 3887,
+    "tier": "tier1_gui",
+    "summary": "Create breathtaking, infinitely expanding artwork by generating new background details seamlessly around any photo.",
+    "download_url": "https://github.com/lkwq007/stablediffusion-infinity/releases",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "status-trio",
@@ -4800,6 +5040,36 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "webui",
+    "name": "webui",
+    "repo_url": "https://github.com/webui-dev/webui",
+    "full_name": "webui-dev/webui",
+    "category": "Web Apps & Cloud",
+    "icon": "/icons/webui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4664,
+    "tier": "tier1_gui",
+    "summary": "Create lightweight desktop software using your favorite programming language for the backend and modern web technologies for the interface.",
+    "download_url": "https://webui.me",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "wepush",
+    "name": "WePush",
+    "repo_url": "https://github.com/rememberber/wepush",
+    "full_name": "rememberber/wepush",
+    "category": "Productivity",
+    "icon": "/icons/wepush.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4691,
+    "tier": "tier1_gui",
+    "summary": "Send tailored bulk notifications across instant chat apps, text messaging services, and emails with ease.",
+    "download_url": "https://github.com/rememberber/WePush/releases/download/next-v1.2.0/SHA256SUMS",
+    "updated_at": "2026-11-21"
+  },
+  {
     "slug": "wezterm",
     "name": "WezTerm",
     "repo_url": "https://github.com/wezterm/wezterm",
@@ -4903,6 +5173,36 @@
     "summary": "Discover why a process, port, or container is running on your machine with clear relationship chains and an interactive dashboard.",
     "download_url": "https://github.com/pranshuparmar/witr/releases/download/v0.3.4/witr-0.3.4-linux-amd64.apk",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "wsl-dashboard",
+    "name": "wsl-dashboard",
+    "repo_url": "https://github.com/owu/wsl-dashboard",
+    "full_name": "owu/wsl-dashboard",
+    "category": "Productivity",
+    "icon": "/icons/wsl-dashboard.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4140,
+    "tier": "tier1_gui",
+    "summary": "A lightweight visual manager for Windows Subsystem for Linux that lets you easily start, stop, and configure your Linux distros from one place.",
+    "download_url": "https://github.com/owu/wsl-dashboard/releases/download/v0.13.0/WSLDashboard.0.13.0.Setup.arm64.exe",
+    "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "wslmanager",
+    "name": "wslmanager",
+    "repo_url": "https://github.com/bostrot/wslmanager",
+    "full_name": "bostrot/wslmanager",
+    "category": "Productivity",
+    "icon": "/icons/wslmanager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "stars": 4066,
+    "tier": "tier1_gui",
+    "summary": "An easy-to-use desktop control panel for managing Linux environments and virtual machines on Windows and Mac without typing complex commands.",
+    "download_url": "https://github.com/bostrot/wslmanager/releases/download/v2.6.1/wsl2-distro-manager-v2.6.1-arm64-setup.exe",
+    "updated_at": "2026-11-21"
   },
   {
     "slug": "wtf",
