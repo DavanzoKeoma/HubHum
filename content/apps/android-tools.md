@@ -13,9 +13,9 @@ source_url: "https://github.com/ShivamKumarJha/android_tools"
 download_url: "https://github.com/AndroidBlobs"
 downloadUrl: "https://github.com/AndroidBlobs"
 download_label: "Get Command-Line Tool →"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This collection of helper scripts makes it much easier to build and modify custom Android operating systems for mobile devices. It automates tedious file sorting, extracts device updates, and handles complex software components without requiring manual digging through folders. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+This collection of helper scripts makes it much easier to build and modify custom Android operating systems for mobile devices. It automates tedious file sorting, extracts device updates, and handles complex software components without requiring manual digging through folders.
 
 ### Who it's for
 * Mobile operating system hobbyists building custom software for smartphones.
@@ -53,13 +53,18 @@ This collection of helper scripts makes it much easier to build and modify custo
 * Extracts system update files to inspect their inner contents quickly.
 * Compares two different software versions to highlight added, modified, or missing components.
 * Prepares device workspace folders and pushes local updates directly to online code storage platforms.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-Because this is an open-source collection of automation scripts, you can download the project files directly from the [official project page](https://github.com/ShivamKumarJha/android_tools). Follow the setup instructions in the project guide to grant execution permissions and run the automated helper scripts on your computer. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Because this is an open-source collection of automation scripts, you can download the project files directly from the [official project page](https://github.com/ShivamKumarJha/android_tools). Follow the setup instructions in the project guide to grant execution permissions and run the automated helper scripts on your computer.
 
 ### Pros and Cons
 * **Pros:** Free and open-source, saves hours of manual file organization, automates repetitive system building steps.
 * **Cons:** Requires familiarity with command-line tools and a computer running a Unix-compatible environment.
 
-[Official Source / Credits](https://github.com/ShivamKumarJha/android_tools)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ShivamKumarJha/android_tools)

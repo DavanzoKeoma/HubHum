@@ -5,17 +5,17 @@ tagline: "Your lightweight self-hosted personal AI companion"
 summary: "Manage files, automate daily tasks, and chat with a secure personal AI assistant running right from your browser or favorite messaging app."
 tags: ["ai", "assistant", "automation"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/nanobot.png"
 stars: 50222
 source_url: "https://github.com/HKUDS/nanobot"
 download_url: "https://github.com/HKUDS/nanobot/releases/download/v0.4.1/nanobot-tui-darwin-arm64.zip.sha256"
 downloadUrl: "https://github.com/HKUDS/nanobot/releases/download/v0.4.1/nanobot-tui-darwin-arm64.zip.sha256"
-download_label: "Download (nanobot-tui-darwin-arm64.zip.sha256)"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Nanobot gives you a private, self-hosted personal AI assistant that connects directly to your browser, terminal, or everyday messaging apps. It handles document reviews, organizes your notes, and runs automated scheduled reminders using any cloud or local intelligence model you prefer. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Nanobot gives you a private, self-hosted personal AI assistant that connects directly to your browser, terminal, or everyday messaging apps. It handles document reviews, organizes your notes, and runs automated scheduled reminders using any cloud or local intelligence model you prefer.
 
 ### Who it's for
 * Busy professionals who want a private AI assistant to organize notes, read documents, and handle scheduled reminders without sending data to unknown third parties.
@@ -54,7 +54,6 @@ Nanobot gives you a private, self-hosted personal AI assistant that connects dir
 * **Universal Chat Integration:** Connect seamlessly to more than 15 messaging channels including Telegram, Discord, Slack, and email.
 * **Real Document Handling:** Read PDFs, images, spreadsheets, and word processor files to extract insights or draft summaries effortlessly.
 * **Task Automation:** Schedule recurring reminders, background reports, and local triggers to handle routine workloads automatically.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 To get started right away in the cloud with a single click, open in the cloud: [cloud setup nanobot to Render](https://render.com/deploy?repo=https://github.com/HKUDS/nanobot). For manual installation on macOS or Linux, run your terminal installer command:
@@ -75,10 +74,14 @@ You can also download specific pre-compiled component checksums and wheel packag
 * [Download (nanobot_ai-0.4.1-py3-none-macosx_13_0_x86_64.whl)](https://github.com/HKUDS/nanobot/releases/download/v0.4.1/nanobot_ai-0.4.1-py3-none-macosx_13_0_x86_64.whl)
 * [Download (nanobot_ai-0.4.1-py3-none-manylinux_2_17_aarch64.whl)](https://github.com/HKUDS/nanobot/releases/download/v0.4.1/nanobot_ai-0.4.1-py3-none-manylinux_2_17_aarch64.whl)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open-source, runs fully self-hosted for maximum data privacy, works across multiple popular messaging applications out of the box.
 * **Cons:** Requires an account or API key with an artificial intelligence provider or local server to generate responses, advanced automations take a short time to configure.
 
-[Official Source / Credits](https://github.com/HKUDS/nanobot)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/HKUDS/nanobot)

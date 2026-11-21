@@ -13,7 +13,7 @@ source_url: "https://github.com/wezterm/wezterm"
 download_url: "https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-setup.exe"
 downloadUrl: "https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-WezTerm acts as your central command center for all computer tasks, running lightning-fast because it harnesses your computer's graphics card. It allows you to open multiple command-line windows, split your screen into different panes, and organize your workflow seamlessly. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+WezTerm acts as your central command center for all computer tasks, running lightning-fast because it harnesses your computer's graphics card. It allows you to open multiple command-line windows, split your screen into different panes, and organize your workflow seamlessly.
 
 ### Who it's for
 * Software developers and programmers who spend hours working inside command-line interfaces.
@@ -54,10 +54,9 @@ WezTerm acts as your central command center for all computer tasks, running ligh
 * Built-in multi-pane workspace splitting so you can view several tools at once.
 * Advanced color schemes, font styling, and custom background image support.
 * Cross-platform consistency across Windows, macOS, and Linux operating systems.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Choose the appropriate installer for your system below to get started. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Choose the appropriate installer for your system below to get started.
 
 * [Download for Windows (.exe)](https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-setup.exe)
 * [Download for Linux (.AppImage)](https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-Ubuntu20.04.AppImage)
@@ -67,4 +66,10 @@ Choose the appropriate installer for your system below to get started. Keep larg
 * **Pros:** Blazing fast performance, highly customizable configuration files, and excellent built-in window management.
 * **Cons:** Text-based configuration requires some patience to learn for beginners.
 
-[Official Source / Credits](https://github.com/wezterm/wezterm)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/wezterm/wezterm)

@@ -5,17 +5,17 @@ tagline: "Move data from anywhere effortlessly."
 summary: "Airbyte is an open-source data movement platform that effortlessly syncs information from hundreds of apps and databases into your warehouses or AI tools."
 tags: ["data-pipeline", "integration", "cloud-tools"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/airbyte.png"
 stars: 22424
 source_url: "https://github.com/airbytehq/airbyte"
 download_url: "https://airbyte.com"
 downloadUrl: "https://airbyte.com"
-download_label: "Open in Cloud →"
-license: "NOASSERTION"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Airbyte collects data from various online services, applications, and databases, and safely delivers it into your central storage systems or AI applications. You can easily set up automated schedules so your information is always up to date where you need it most. It removes the hassle of writing and maintaining custom connection scripts from scratch. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Airbyte collects data from various online services, applications, and databases, and safely delivers it into your central storage systems or AI applications. You can easily set up automated schedules so your information is always up to date where you need it most. It removes the hassle of writing and maintaining custom connection scripts from scratch.
 
 ### Who it's for
 * Data analysts wanting to bring customer metrics into a single reporting database.
@@ -54,16 +54,22 @@ Airbyte collects data from various online services, applications, and databases,
 * Simple visual controls to build custom connectors without writing complex code.
 * Flexible scheduling options to keep your downstream data warehouses and analytical dashboards refreshed automatically.
 * AI assistant support to help monitor sync health and troubleshoot pipeline errors directly.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can open and use this app right in the cloud with automated updates, or host it yourself on your own servers. 
 * [Sign up for Airbyte Cloud](https://cloud.airbyte.com/signup)
 * [Explore the official website and self-hosting guides](https://airbyte.com)
 
-Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Massive selection of pre-built connectors, active open-source community support, and flexible cloud or self-hosted options.
 * **Cons:** Advanced custom data transformations may require some technical configuration, and large initial data syncs can consume significant network bandwidth.
-[Official Source / Credits](https://github.com/airbytehq/airbyte)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/airbytehq/airbyte)

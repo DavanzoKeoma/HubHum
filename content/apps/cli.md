@@ -13,7 +13,7 @@ source_url: "https://github.com/cli/cli"
 download_url: "https://github.com/cli/cli/releases/download/v2.105.0/gh_2.105.0_windows_386.msi"
 downloadUrl: "https://github.com/cli/cli/releases/download/v2.105.0/gh_2.105.0_windows_386.msi"
 download_label: "Download for Windows (.msi)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-GitHub CLI connects your computer terminal directly to your online code hosting spaces without requiring a web browser. You can check the status of ongoing work tasks, review suggestions from teammates, and publish updates right from where you write your code. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It seamlessly blends code management into your everyday workflow.
+GitHub CLI connects your computer terminal directly to your online code hosting spaces without requiring a web browser. You can check the status of ongoing work tasks, review suggestions from teammates, and publish updates right from where you write your code. It seamlessly blends code management into your everyday workflow.
 
 ### Who it's for
 * Software developers who spend their entire day working inside text editors and terminal windows.
@@ -52,10 +52,9 @@ GitHub CLI connects your computer terminal directly to your online code hosting 
 * Review and merge teammate feedback directly from your command line.
 * Open, close, and assign task lists and bug reports without opening a web browser.
 * Run automated workflows and check test results in real time.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Choose the installer that matches your operating system below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Choose the installer that matches your operating system below.
 
 * [Download for Windows (.msi) (386)](https://github.com/cli/cli/releases/download/v2.105.0/gh_2.105.0_windows_386.msi)
 * [Download for Windows (.msi) (amd64)](https://github.com/cli/cli/releases/download/v2.105.0/gh_2.105.0_windows_amd64.msi)
@@ -70,4 +69,10 @@ Choose the installer that matches your operating system below. Keep large instal
 * **Pros:** Official tool supported directly by GitHub, completely free, and saves time by eliminating browser switching.
 * **Cons:** Requires basic familiarity with text-based command line interfaces.
 
-[Official Source / Credits](https://github.com/cli/cli)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/cli/cli)

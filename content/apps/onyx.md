@@ -5,7 +5,7 @@ tagline: "Your smart internal team knowledge assistant"
 summary: "Onyx connects all your apps and documents into one central assistant, letting your team chat with private company knowledge securely."
 tags: ["ai", "search", "knowledge", "productivity"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/onyx.png"
 stars: 33479
@@ -13,9 +13,9 @@ source_url: "https://github.com/onyx-dot-app/onyx"
 download_url: "https://github.com/onyx-dot-app/onyx/releases/download/v5.1.3/Onyx_arm64.exe"
 downloadUrl: "https://github.com/onyx-dot-app/onyx/releases/download/v5.1.3/Onyx_arm64.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Onyx brings all your scattered team documents, chats, and internal applications into a single searchable place. It acts like an intelligent teammate that reads your company files so you can ask questions and get instant, accurate answers. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Onyx brings all your scattered team documents, chats, and internal applications into a single searchable place. It acts like an intelligent teammate that reads your company files so you can ask questions and get instant, accurate answers.
 
 ### Who it's for
 * Growing teams looking to centralize scattered company knowledge without leaking sensitive information.
@@ -54,7 +54,6 @@ Onyx brings all your scattered team documents, chats, and internal applications 
 * **Live Web Lookup:** Expands internal company answers by pulling real-time information from the internet when needed.
 * **Secure Sandbox:** Lets your assistant run code and process information safely within an isolated environment.
 * **Voice Interactions:** Speak directly to your assistant using built-in audio tools for hands-free queries.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can try the platform instantly in the cloud by opening [Onyx Cloud](https://cloud.onyx.app/auth/signup?utm_source=onyx_repo&utm_medium=github&utm_campaign=readme). If you prefer to install software on your own computer, you can choose from the official installers below:
@@ -63,9 +62,14 @@ You can try the platform instantly in the cloud by opening [Onyx Cloud](https://
 * [Download for Mac (.dmg)](https://github.com/onyx-dot-app/onyx/releases/download/v5.1.3/Onyx_universal.dmg)
 * [Download for Linux (.deb)](https://github.com/onyx-dot-app/onyx/releases/download/v5.1.3/Onyx_amd64.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Keeps all sensitive company data private within your own infrastructure; connects with dozens of popular workplace tools out of the box.
 * **Cons:** Advanced cloud setup options and server setups require technical knowledge to configure properly.
-[Official Source / Credits](https://github.com/onyx-dot-app/onyx)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/onyx-dot-app/onyx)

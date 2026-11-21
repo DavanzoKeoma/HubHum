@@ -5,17 +5,17 @@ tagline: "Find hardcoded secrets in your files."
 summary: "Scan your code repositories and directories to find accidentally exposed passwords, API keys, and sensitive tokens before they leak."
 tags: ["security", "privacy", "development", "audit"]
 is_webapp: false
-app_type: "desktop"
+app_type: "cli"
 category: "Security & Privacy"
 icon: "/icons/gitleaks.png"
 stars: 31205
 source_url: "https://github.com/gitleaks/gitleaks"
 download_url: "https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_checksums.txt"
 downloadUrl: "https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_checksums.txt"
-download_label: "Download (gitleaks_8.30.1_checksums.txt)"
-license: "MIT"
-scouting_tier: "tier1_gui"
-operatingSystem: "All / Browser"
+download_label: "Get Command-Line Tool →"
+license: "Open Source (MIT)"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Gitleaks automatically checks your project folders, history, and individual files to spot sensitive data like forgotten passwords, private tokens, and secure access keys. It uses smart matching rules to flag risky items so you can remove them safely. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Gitleaks automatically checks your project folders, history, and individual files to spot sensitive data like forgotten passwords, private tokens, and secure access keys. It uses smart matching rules to flag risky items so you can remove them safely.
 
 ### Who it's for
 * Software creators who want to make sure they never accidentally publish private credentials online.
@@ -53,10 +53,9 @@ Gitleaks automatically checks your project folders, history, and individual file
 * Scans past history and current files across multiple storage layouts.
 * Customizable matching filters to catch unique keys and custom token structures.
 * Ignores common false positives using flexible exclusion rules and ignore lists.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can launch this tool instantly in the cloud or review checksum files from the official official project page. Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can launch this tool instantly in the cloud or review checksum files from the official official project page.
 
 * [Download verification file (gitleaks_8.30.1_checksums.txt)](https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_checksums.txt)
 
@@ -64,4 +63,10 @@ You can launch this tool instantly in the cloud or review checksum files from th
 * **Pros:** Free forever, highly customizable detection rules, fast performance.
 * **Cons:** Advanced custom regex rules take some time to learn.
 
-[Official Source / Credits](https://github.com/gitleaks/gitleaks)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/gitleaks/gitleaks)

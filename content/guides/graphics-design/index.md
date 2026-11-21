@@ -22,8 +22,8 @@ Choose the focus topic below that matches your task best to see step-by-step com
 
 ### Top Featured Graphics & Design Software
 
-- **[UI UX Pro Max Skill](/HubHum/apps/ui-ux-pro-max-skill/)** (Desktop App, ★ 151,922) — An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning.
-- **[PhotoPrism](/HubHum/apps/photoprism/)** (Cloud Web App, ★ 40,470) — PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly.
+- **[UI UX Pro Max Skill](/HubHum/apps/ui-ux-pro-max-skill/)** (Open Reference, ★ 151,922) — An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning.
+- **[PhotoPrism](/HubHum/apps/photoprism/)** (Self-Hosted Web App, ★ 40,470) — PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly.
 - **[flameshot](/HubHum/apps/flameshot/)** (Desktop App, ★ 31,599) — Capture your screen instantly, highlight key details with built-in drawing tools, and share your images effortlessly.
 - **[slint](/HubHum/apps/slint/)** (CLI Tool, ★ 24,653) — Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup.
 - **[CustomTkinter](/HubHum/apps/customtkinter/)** (CLI Tool, ★ 13,619) — Create gorgeous, modern desktop app interfaces in Python using sleek pre-made elements that automatically adapt to light and dark modes.

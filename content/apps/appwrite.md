@@ -5,17 +5,17 @@ tagline: "Build and scale apps effortlessly"
 summary: "An open-source cloud backend that gives you secure user login, databases, file storage, and serverless functions in one unified place."
 tags: ["backend", "cloud", "database", "authentication"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/appwrite.png"
 stars: 58419
 source_url: "https://github.com/appwrite/appwrite"
 download_url: "https://appwrite.io"
 downloadUrl: "https://appwrite.io"
-download_label: "Visit Official Site"
-license: "BSD-3-Clause"
+download_label: "Official Setup & Docs →"
+license: "Open Source (BSD)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Appwrite is a complete backend server that handles user logins, data storage, and file management so you don't have to build them from scratch. It connects easily with your favorite coding tools and AI assistants to speed up application development. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Appwrite is a complete backend server that handles user logins, data storage, and file management so you don't have to build them from scratch. It connects easily with your favorite coding tools and AI assistants to speed up application development.
 
 ### Who it's for
 * Solo creators and developers building new web or mobile applications quickly.
@@ -54,13 +54,18 @@ Appwrite is a complete backend server that handles user logins, data storage, an
 * **Flexible Databases:** Easily organize and query your application data with reliable built-in storage or external database engines.
 * **File Storage & Processing:** Upload, compress, and secure files with built-in image transformation tools.
 * **Serverless Functions:** Run custom code snippets in secure, isolated environments triggered by your app events.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can start immediately on the managed platform by visiting the [Appwrite Cloud Website](https://cloud.appwrite.io/). If you prefer to run it on your own hardware, you can launch it using Docker with the official commands found on the [Appwrite Official Website](https://appwrite.io). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can start immediately on the managed platform by visiting the [Appwrite Cloud Website](https://cloud.appwrite.io/). If you prefer to run it on your own hardware, you can launch it using Docker with the official commands found on the [Appwrite Official Website](https://appwrite.io). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Free tier to get started, open-source flexibility, and eliminates boilerplate backend code.
 * **Cons:** Self-hosting requires basic familiarity with Docker and server management.
 
-[Official Source / Credits](https://github.com/appwrite/appwrite)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/appwrite/appwrite)

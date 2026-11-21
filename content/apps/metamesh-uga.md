@@ -5,17 +5,17 @@ tagline: "Unified hub for 13,000+ AI tools"
 summary: "Connect your AI assistants to over 13,000 ready-to-use tools through one smart gateway with built-in safety checks."
 tags: ["ai", "automation", "cloud", "tools"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/metamesh-uga.svg"
 stars: 0
 source_url: "https://github.com/DavanzoKeoma/metamesh-uga"
 download_url: "https://metamesh-uga.dev"
 downloadUrl: "https://metamesh-uga.dev"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-MetaMesh-UGA acts like a universal power strip that connects modern AI assistants to more than 13,000 external tools through one single address. Instead of configuring dozens of separate integrations by hand, everything is discovered, checked for safety, and routed automatically. When accessing your control panel from coffee shops or travel Wi-Fi, keep admin sessions shielded with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). Built-in monitoring keeps track of reliability and usage limits in real time.
+MetaMesh-UGA acts like a universal power strip that connects modern AI assistants to more than 13,000 external tools through one single address. Instead of configuring dozens of separate integrations by hand, everything is discovered, checked for safety, and routed automatically. Built-in monitoring keeps track of reliability and usage limits in real time.
 
 ### Who it's for
 * Teams and builders connecting AI assistants to everyday business apps without manual plumbing.
@@ -55,13 +55,18 @@ MetaMesh-UGA acts like a universal power strip that connects modern AI assistant
 * Automated health monitoring that detects broken connections and keeps runs reliable.
 * Real-time usage and budget tracking for teams managing multiple connected tools.
 * Continuous security screening against unsafe inputs or misconfigured external connectors.
-* If your connected workflow powers public portals or content hubs, enhance organic search visibility with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-MetaMesh-UGA runs in the cloud as a web platform with no local desktop installation needed. Open the official portal at [metamesh-uga.dev](https://metamesh-uga.dev), or launch your own dedicated cloud setup in 1 click with [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+MetaMesh-UGA runs in the cloud as a web platform with no local desktop installation needed. Open the official portal at [metamesh-uga.dev](https://metamesh-uga.dev).
 
 ### Pros and Cons
 * **Pros:** Connects thousands of tools from one endpoint with automated safety and usage tracking.
 * **Cons:** Initial setup of custom team billing rules is aimed at power users.
 
-[Official Source / Credits](https://github.com/DavanzoKeoma/metamesh-uga)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/DavanzoKeoma/metamesh-uga)

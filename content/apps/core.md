@@ -5,17 +5,17 @@ tagline: "Secure your home network traffic"
 summary: "Manage your network security, traffic rules, and system settings through a clean, unified dashboard."
 tags: ["security", "networking", "firewall"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/core.png"
 stars: 4807
 source_url: "https://github.com/opnsense/core"
 download_url: "https://opnsense.org/"
 downloadUrl: "https://opnsense.org/"
-download_label: "Visit Official Site"
-license: "BSD-2-Clause"
+download_label: "Official Setup & Docs →"
+license: "Open Source (BSD)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This software provides a powerful central dashboard for managing your network firewall, security rules, and system operations. It helps you monitor incoming and outgoing data connections to keep your private network safe from digital threats. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This software provides a powerful central dashboard for managing your network firewall, security rules, and system operations. It helps you monitor incoming and outgoing data connections to keep your private network safe from digital threats.
 
 ### Who it's for
 * Home lab hobbyists looking to build a reliable and advanced perimeter defense system.
@@ -53,12 +53,18 @@ This software provides a powerful central dashboard for managing your network fi
 * Clear, easy-to-navigate dashboard for tracking overall network health and activity.
 * Granular traffic shaping rules to prioritize important data or limit specific applications.
 * Built-in reporting tools that give you real-time visibility into connection attempts.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started, visit the [Official OPNsense Website](https://opnsense.org/) to download the installation images suitable for your hardware or virtual machine setup. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, visit the [Official OPNsense Website](https://opnsense.org/) to download the installation images suitable for your hardware or virtual machine setup.
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, highly customizable security options, active community support.
 * **Cons:** Advanced networking features require some initial learning, requires dedicated hardware or a virtual environment.
-[Official Source / Credits](https://github.com/opnsense/core)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/opnsense/core)

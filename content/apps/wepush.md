@@ -13,9 +13,9 @@ source_url: "https://github.com/rememberber/WePush"
 download_url: "https://github.com/rememberber/WePush/releases/download/next-v1.2.0/SHA256SUMS"
 downloadUrl: "https://github.com/rememberber/WePush/releases/download/next-v1.2.0/SHA256SUMS"
 download_label: "Download (SHA256SUMS)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-WePush simplifies the often complicated process of broadcasting messages across different platforms to large groups of people. Whether you need to send updates through popular chat apps, text message providers, or regular email, this tool brings everything into one central place. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+WePush simplifies the often complicated process of broadcasting messages across different platforms to large groups of people. Whether you need to send updates through popular chat apps, text message providers, or regular email, this tool brings everything into one central place.
 
 ### Who it's for
 * Community managers looking to broadcast important announcements without switching between multiple apps.
@@ -54,10 +54,9 @@ WePush simplifies the often complicated process of broadcasting messages across 
 * Import user lists easily using common file formats like spreadsheets or direct database connections.
 * Schedule messages in advance with flexible timing options to reach audiences at the perfect moment.
 * Keep track of delivery history, view detailed logs, and quickly retry any failed transmissions.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can choose between the classic standalone desktop application or the advanced server-ready edition depending on your setup needs. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). 
+You can choose between the classic standalone desktop application or the advanced server-ready edition depending on your setup needs.
 
 * [Download SHA256SUMS Verification File](https://github.com/rememberber/WePush/releases/download/next-v1.2.0/SHA256SUMS)
 * Explore alternative editions and source files directly via the [Classic Version Releases](https://gitee.com/zhoubochina/WePush/releases)
@@ -66,4 +65,10 @@ You can choose between the classic standalone desktop application or the advance
 * **Pros:** Completely free and open-source, supports a massive variety of global messaging channels, and runs locally for total data privacy.
 * **Cons:** Initial setup requires some familiarity with third-party service credentials (like messaging keys), and advanced server configurations take time to learn.
 
-[Official Source / Credits](https://github.com/rememberber/WePush)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/rememberber/WePush)

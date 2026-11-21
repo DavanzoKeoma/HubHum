@@ -13,7 +13,7 @@ source_url: "https://github.com/vercel-labs/agent-desktop"
 download_url: "https://github.com/vercel-labs/agent-desktop/releases/download/v1.3.1/checksums.txt"
 downloadUrl: "https://github.com/vercel-labs/agent-desktop/releases/download/v1.3.1/checksums.txt"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Agent Desktop gives artificial intelligence assistants the ability to see and interact with native desktop programs. Instead of relying on guesswork or pixel matching, it reads the underlying structural elements of windows and returns them clearly. The assistant can then click, type, and verify actions step by step with complete precision. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Agent Desktop gives artificial intelligence assistants the ability to see and interact with native desktop programs. Instead of relying on guesswork or pixel matching, it reads the underlying structural elements of windows and returns them clearly. The assistant can then click, type, and verify actions step by step with complete precision.
 
 ### Who it's for
 * Software developers building custom automated workflows for desktop applications.
@@ -54,10 +54,9 @@ Agent Desktop gives artificial intelligence assistants the ability to see and in
 * Operates completely headlessly by default without stealing focus or moving your mouse pointer.
 * Provides over sixty precise commands for clicking, typing, scrolling, and managing windows.
 * Ships with built-in assistant skills and support for standard tool protocols.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can set up this tool easily using your preferred terminal package manager or review release checksum files directly. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can set up this tool easily using your preferred terminal package manager or review release checksum files directly.
 
 * [Download Verification Checksums](https://github.com/vercel-labs/agent-desktop/releases/download/v1.3.1/checksums.txt)
 
@@ -65,4 +64,10 @@ You can set up this tool easily using your preferred terminal package manager or
 * **Pros:** Operates without brittle pixel screenshots, highly responsive, supports multiple major operating systems.
 * **Cons:** Requires proper system accessibility permissions and familiarity with command line tools.
 
-[Official Source / Credits](https://github.com/vercel-labs/agent-desktop)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/vercel-labs/agent-desktop)

@@ -13,9 +13,9 @@ source_url: "https://github.com/SBoudrias/Inquirer.js"
 download_url: "https://github.com/SBoudrias/Inquirer.js/releases"
 downloadUrl: "https://github.com/SBoudrias/Inquirer.js/releases"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Inquirer.js helps developers build user-friendly, interactive questions right inside the computer terminal. Instead of typing complex commands blindly, users can navigate neat selection menus, check boxes, and type answers easily. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Inquirer.js helps developers build user-friendly, interactive questions right inside the computer terminal. Instead of typing complex commands blindly, users can navigate neat selection menus, check boxes, and type answers easily.
 
 ### Who it's for
 * Software developers creating command-line tools and utilities.
@@ -54,7 +54,6 @@ Inquirer.js helps developers build user-friendly, interactive questions right in
 * **Selection menus:** Let users pick single or multiple items from long lists using arrow keys.
 * **Searchable lists:** Filter through massive option lists instantly by typing keywords.
 * **Automatic localization:** Translate your terminal prompts into different languages effortlessly.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can add Inquirer to your project using your favorite package manager. Open your terminal and run one of the following commands:
@@ -64,10 +63,14 @@ You can add Inquirer to your project using your favorite package manager. Open y
 * **pnpm:** `pnpm add @inquirer/prompts`
 * **bun:** `bun add @inquirer/prompts`
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Extremely lightweight, highly customizable, and makes terminal tools vastly more pleasant to use.
 * **Cons:** Requires JavaScript knowledge and runs exclusively inside terminal environments.
 
-[Official Source / Credits](https://github.com/SBoudrias/Inquirer.js)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/SBoudrias/Inquirer.js)

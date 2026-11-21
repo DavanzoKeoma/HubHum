@@ -13,9 +13,9 @@ source_url: "https://github.com/tidwall/jj"
 download_url: "https://github.com/tidwall/jj/releases"
 downloadUrl: "https://github.com/tidwall/jj/releases"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-JJ is a fast tool designed to find and modify specific pieces of information inside structured text files. Instead of reading an entire massive document, it skips straight to the target data to save time and system resources. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+JJ is a fast tool designed to find and modify specific pieces of information inside structured text files. Instead of reading an entire massive document, it skips straight to the target data to save time and system resources.
 
 ### Who it's for
 - Software developers who need to inspect or adjust data files directly from the command line.
@@ -53,12 +53,18 @@ JJ is a fast tool designed to find and modify specific pieces of information ins
 - **Easy Updates:** Effortlessly change values, add entries, or delete data points using simple text paths.
 - **Pretty Formatting:** Instantly clean up messy, unformatted data blocks into readable layouts with a single flag.
 - **Line-by-Line Support:** Handles multiple data entries stacked together as individual lines seamlessly.
-- Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-Mac users can install the utility instantly via Homebrew by running `brew install tidwall/jj/jj` in their terminal. For other operating systems, you can grab pre-compiled files directly from the [Official Releases Page](https://github.com/tidwall/jj/releases). Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Mac users can install the utility instantly via Homebrew by running `brew install tidwall/jj/jj` in their terminal. For other operating systems, you can grab pre-compiled files directly from the [Official Releases Page](https://github.com/tidwall/jj/releases).
 
 ### Pros and Cons
 * **Pros:** Extremely fast execution, lightweight footprint, and very simple command syntax.
 * **Cons:** Requires basic familiarity with command-line interfaces.
-[Official Source / Credits](https://github.com/tidwall/jj)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/tidwall/jj)

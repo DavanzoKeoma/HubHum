@@ -13,7 +13,7 @@ source_url: "https://github.com/Raphire/Win11Debloat"
 download_url: "https://github.com/Raphire/Win11Debloat/releases/download/2026.10.30/Get.ps1"
 downloadUrl: "https://github.com/Raphire/Win11Debloat/releases/download/2026.10.30/Get.ps1"
 download_label: "Download (Get.ps1)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "SecurityApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Win11Debloat helps you take control of your computer by removing pre-installed programs and unwanted sponsored content that slow things down. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It lets you turn off privacy-invading data collection and simplify your daily computing environment without any complicated steps. You can easily undo changes or bring back default settings whenever you want.
+Win11Debloat helps you take control of your computer by removing pre-installed programs and unwanted sponsored content that slow things down. It lets you turn off privacy-invading data collection and simplify your daily computing environment without any complicated steps. You can easily undo changes or bring back default settings whenever you want.
 
 ### Who it's for
 * Everyday computer users who want a faster, cleaner interface free from distracting advertisements.
@@ -52,12 +52,11 @@ Win11Debloat helps you take control of your computer by removing pre-installed p
 ### Key features
 * Remove unwanted pre-installed programs that come bundled with the operating system.
 * Disable background telemetry, diagnostic data tracking, and targeted advertisements.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Restore traditional visual elements like the older context menu style and taskbar layouts.
 * Fine-tune privacy settings, update behavior, and search preferences in minutes.
 
 ### How to install (Download)
-You can grab the official setup script directly from the official project page release page. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can grab the official setup script directly from the official project page release page.
 
 * [Download (Get.ps1)](https://github.com/Raphire/Win11Debloat/releases/download/2026.10.30/Get.ps1)
 * [Download (SHA256SUMS)](https://github.com/Raphire/Win11Debloat/releases/download/2026.10.30/SHA256SUMS)
@@ -66,4 +65,10 @@ You can grab the official setup script directly from the official project page r
 * **Pros:** Free and open-source, requires no permanent installation, highly customizable.
 * **Cons:** Requires basic familiarity with running command-line helper scripts.
 
-[Official Source / Credits](https://github.com/Raphire/Win11Debloat)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Raphire/Win11Debloat)

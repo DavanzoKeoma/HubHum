@@ -5,17 +5,17 @@ tagline: "Your own private offline bookmark manager"
 summary: "Save online articles and web pages to your own private library with automatic offline archiving."
 tags: ["bookmarks", "reader", "offline", "archive"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/shiori.png"
 stars: 11878
 source_url: "https://github.com/go-shiori/shiori"
 download_url: "https://github.com/go-shiori/shiori/releases/download/v1.8.0/checksums.txt"
 downloadUrl: "https://github.com/go-shiori/shiori/releases/download/v1.8.0/checksums.txt"
-download_label: "Download (checksums.txt)"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Shiori helps you collect, organize, and archive your favorite web pages in a clean personal library. When you save an article, it automatically stores a readable copy so you can view it later even if the original page disappears from the internet. Keep your reading lists organized and secure, protecting remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Shiori helps you collect, organize, and archive your favorite web pages in a clean personal library. When you save an article, it automatically stores a readable copy so you can view it later even if the original page disappears from the internet.
 
 ### Who it's for
 * **Avid Readers:** People who want to save interesting articles, tutorials, and news stories for distraction-free reading later.
@@ -54,12 +54,18 @@ Shiori helps you collect, organize, and archive your favorite web pages in a cle
 * **Easy Import and Export:** Quickly transfer your existing reading lists from web browsers or other reading services.
 * **Clean Web Portal:** Enjoy a distraction-free reading layout with a responsive, modern interface.
 * **Browser Extensions:** Save new web pages to your collection instantly using official browser extensions.
-* **SEO & Visibility:** Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-Shiori is designed to run easily on your own computer or server as a lightweight web application. You can review the setup guides and grab the release assets directly from the [Official Release Checksums & Files](https://github.com/go-shiori/shiori/releases/download/v1.8.0/checksums.txt). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Shiori is designed to run easily on your own computer or server as a lightweight web application. You can review the setup guides and grab the release assets directly from the [Official Release Checksums & Files](https://github.com/go-shiori/shiori/releases/download/v1.8.0/checksums.txt). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, keeps offline copies of web pages, offers a clean reading mode.
 * **Cons:** Advanced database configurations require basic technical know-how, initial setup takes a few minutes.
-[Official Source / Credits](https://github.com/go-shiori/shiori)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/go-shiori/shiori)

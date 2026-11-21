@@ -13,9 +13,9 @@ source_url: "https://github.com/google/zx"
 download_url: "https://google.github.io/zx/"
 downloadUrl: "https://google.github.io/zx/"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Writing complex instructions for your computer to run automatically in the terminal is often frustrating and hard to read. This tool lets you write those automated tasks using JavaScript, which is much easier to understand and organize. It bridges the gap between traditional shell commands and a friendly programming language, saving you time and headaches. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Writing complex instructions for your computer to run automatically in the terminal is often frustrating and hard to read. This tool lets you write those automated tasks using JavaScript, which is much easier to understand and organize. It bridges the gap between traditional shell commands and a friendly programming language, saving you time and headaches.
 
 ### Who it's for
 * Web developers who want to automate server tasks and file management without learning confusing shell syntax.
@@ -53,12 +53,18 @@ Writing complex instructions for your computer to run automatically in the termi
 * Automatically handles messy argument escaping and provides sensible default behaviors.
 * Works seamlessly across Linux, macOS, and Windows operating systems.
 * Supports popular JavaScript runtime environments like Node.js, Bun, and Deno.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can get started by visiting the [Official Documentation and Setup Guide](https://google.github.io/zx/). Follow the simple instructions provided on their site to add the package to your development environment. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can get started by visiting the [Official Documentation and Setup Guide](https://google.github.io/zx/). Follow the simple instructions provided on their site to add the package to your development environment.
 
 ### Pros and Cons
 * **Pros:** Free and open source, eliminates clunky shell scripting habits, highly versatile across runtimes.
 * **Cons:** Requires basic familiarity with JavaScript or Node.js to get started.
-[Official Source / Credits](https://github.com/google/zx)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/google/zx)

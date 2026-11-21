@@ -13,9 +13,9 @@ source_url: "https://github.com/spaceship-prompt/spaceship-prompt"
 download_url: "https://spaceship-prompt.sh"
 downloadUrl: "https://spaceship-prompt.sh"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -43,7 +43,6 @@ i18n:
 
 ### What it does in plain English
 It turns the line where you type into a helpful display that keeps you informed about what’s happening.  
-When you need royalty‑free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).  
 It adds things like the folder you’re in, whether you have uncommitted changes, and which programming language versions are active, so you never have to run extra commands.
 
 ### Who it's for
@@ -56,15 +55,19 @@ It adds things like the folder you’re in, whether you have uncommitted changes
 - Displays Git or Mercurial official project page status.  
 - Lists versions of languages such as Python, Node, Ruby, Go, and more.  
 - Shows Docker version, Kubernetes context, and battery level.  
-- Expand your creative library with commercial‑safe fonts, lower‑third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 - Official website: [Spaceship Prompt website](https://spaceship-prompt.sh)  
 - Quick start guide: [Getting started](https://spaceship-prompt.sh/getting-started)  
-- Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** Free forever, works with many shells, highly customizable, no subscription needed.  
 * **Cons:** Requires Zsh and a Powerline/Nerd font, some features need manual configuration.
 
-[Official Source / Credits](https://github.com/spaceship-prompt/spaceship-prompt)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/spaceship-prompt/spaceship-prompt)

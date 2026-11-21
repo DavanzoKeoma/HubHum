@@ -5,17 +5,17 @@ tagline: "Master command line shortcuts effortlessly"
 summary: "Ditch slow visual menus and speed up your daily computer tasks using quick text commands."
 tags: ["system-utility", "productivity", "shortcuts"]
 is_webapp: false
-app_type: "cli"
+app_type: "resource"
 category: "Utilities & Power Tools"
 icon: "/icons/you-dont-need-gui.png"
 stars: 5916
 source_url: "https://github.com/you-dont-need/You-Dont-Need-GUI"
 download_url: "https://github.com/you-dont-need/You-Dont-Need-GUI/releases"
 downloadUrl: "https://github.com/you-dont-need/You-Dont-Need-GUI/releases"
-download_label: "Get Command-Line Tool →"
-license: "Open Source"
+download_label: "Browse Reference →"
+license: "Open Source License"
 scouting_tier: "tier3_powertool"
-operatingSystem: "macOS, Linux"
+operatingSystem: "All / Reference"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Say goodbye to slow visual windows and mouse clicks by learning simple, lightning-fast text commands. This guide acts as your friendly dictionary to swap everyday mouse actions for powerful keyboard shortcuts. While working on your projects, if you ever need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). You will discover how to copy files, search through documents, and check computer performance in a fraction of a second.
+Say goodbye to slow visual windows and mouse clicks by learning simple, lightning-fast text commands. This guide acts as your friendly dictionary to swap everyday mouse actions for powerful keyboard shortcuts. You will discover how to copy files, search through documents, and check computer performance in a fraction of a second.
 
 ### Who it's for
 * Everyday computer users wanting to speed up repetitive file tasks.
@@ -53,12 +53,18 @@ Say goodbye to slow visual windows and mouse clicks by learning simple, lightnin
 * Clear before-and-after comparisons showing mouse actions versus text commands.
 * Step-by-step instructions for managing files, folders, and archives instantly.
 * Handy performance checks to monitor memory and processor usage.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-This project is an open-source educational reference guide rather than a downloadable program. You can explore all instructions and shortcuts directly on the [Official Releases and Source Page](https://github.com/you-dont-need/You-Dont-Need-GUI/releases). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This project is an open-source educational reference guide rather than a downloadable program. You can explore all instructions and shortcuts directly on the [Official Releases and Source Page](https://github.com/you-dont-need/You-Dont-Need-GUI/releases).
 
 ### Pros and Cons
 * **Pros:** Completely free to read, drastically speeds up computer workflows, works across multiple operating systems.
 * **Cons:** Requires getting used to typing instead of clicking, commands differ slightly between systems.
-[Official Source / Credits](https://github.com/you-dont-need/You-Dont-Need-GUI)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/you-dont-need/You-Dont-Need-GUI)

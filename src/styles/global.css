@@ -34,6 +34,12 @@
   --cli-bg: #eaeef2;
   --cli-text: #24292f;
 
+  --selfhosted-bg: #ccfbf1;
+  --selfhosted-text: #115e59;
+
+  --resource-bg: #fef3c7;
+  --resource-text: #78350f;
+
   --new-bg: #dafbe1;
   --new-text: #116329;
 
@@ -88,6 +94,12 @@
 
   --cli-bg: #21262d;
   --cli-text: #e6edf3;
+
+  --selfhosted-bg: #0c2d2a;
+  --selfhosted-text: #5eead4;
+
+  --resource-bg: #2d1f07;
+  --resource-text: #fcd34d;
 
   --new-bg: #0f2a1d;
   --new-text: #7ee787;
@@ -451,7 +463,43 @@ select:focus-visible {
   display: inline-flex;
 }
 
+.jump-live-link {
+  display: inline-block;
+  margin: 0.65rem auto 0.2rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-fg-text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.jump-live-link:hover {
+  color: var(--text);
+}
+
 /* Primer UnderlineNav Category Bar with Live Counters */
+.underline-nav-wrap {
+  position: relative;
+  margin: 0.5rem auto 0;
+}
+
+.underline-nav-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 1px;
+  width: 28px;
+  pointer-events: none;
+  background: linear-gradient(to right, transparent, var(--bg));
+}
+
+@media (min-width: 960px) {
+  .underline-nav-wrap::after {
+    display: none;
+  }
+}
+
 .underline-nav {
   display: flex;
   flex-wrap: nowrap;
@@ -459,8 +507,8 @@ select:focus-visible {
   justify-content: flex-start;
   gap: 0.25rem;
   border-bottom: 1px solid var(--border);
-  margin: 0.5rem auto 0;
-  padding: 0;
+  margin: 0;
+  padding: 0 1.5rem 0 0;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
@@ -474,6 +522,7 @@ select:focus-visible {
     flex-wrap: wrap;
     overflow-x: visible;
     justify-content: center;
+    padding-right: 0;
   }
 }
 
@@ -624,9 +673,19 @@ select:focus-visible {
   color: var(--cloud-fg-text);
 }
 
+.mode-badge.selfhosted {
+  background: var(--selfhosted-bg);
+  color: var(--selfhosted-text);
+}
+
 .mode-badge.cli {
   background: var(--cli-bg);
   color: var(--cli-text);
+}
+
+.mode-badge.resource {
+  background: var(--resource-bg);
+  color: var(--resource-text);
 }
 
 .new-badge {
@@ -700,8 +759,16 @@ select:focus-visible {
   color: var(--cloud-fg-text);
 }
 
+.card-cta.selfhosted {
+  color: var(--selfhosted-text);
+}
+
 .card-cta.cli {
   color: var(--text);
+}
+
+.card-cta.resource {
+  color: var(--resource-text);
 }
 
 /* Pagination Bar */
@@ -898,6 +965,28 @@ select:focus-visible {
   background: var(--accent-soft);
   color: var(--text);
   font-size: 0.92rem;
+}
+
+.app-format-callout {
+  margin-bottom: 1.15rem;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.app-format-callout.cli {
+  background: var(--warning-bg);
+  border: 1px solid var(--warning-border);
+  border-left: 4px solid var(--warning-border);
+  color: var(--warning-text);
+}
+
+.app-format-callout.selfhosted {
+  background: var(--selfhosted-bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--selfhosted-text);
+  color: var(--selfhosted-text);
 }
 
 .side-card {

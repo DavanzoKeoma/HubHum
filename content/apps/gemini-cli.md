@@ -13,9 +13,9 @@ source_url: "https://github.com/google-gemini/gemini-cli"
 download_url: "https://geminicli.com"
 downloadUrl: "https://geminicli.com"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Gemini CLI brings powerful artificial intelligence right into your computer terminal workspace. It allows you to search through files, ask questions about large software projects, and generate code using simple text commands. When working on digital media projects, you can also access royalty-free stock footage, music tracks, and motion presets from [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad) to speed up your production pipeline.
+Gemini CLI brings powerful artificial intelligence right into your computer terminal workspace. It allows you to search through files, ask questions about large software projects, and generate code using simple text commands.
 
 ### Who it's for
 - Software developers who want quick answers about complex codebases without leaving their command prompt.
@@ -53,7 +53,6 @@ Gemini CLI brings powerful artificial intelligence right into your computer term
 - **Code Understanding & Generation:** Instantly query large code folders, fix bugs, or spin up new software features using natural language prompts.
 - **Automation Support:** Run non-interactive commands within scripts to seamlessly handle repetitive developer workflows.
 - **Custom Integrations:** Connect external extensions and tools to expand what your command-line assistant can achieve.
-- **Creative Enhancements:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can set up the assistant instantly on your machine using standard package managers. 
@@ -66,10 +65,16 @@ Or install it globally on your system using your preferred package tool:
 ```bash
 npm install -g @google/gemini-cli
 ```
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). For detailed setup instructions and enterprise licensing requirements, visit the [Gemini CLI Official Website](https://geminicli.com).
+For detailed setup instructions and enterprise licensing requirements, visit the [Gemini CLI Official Website](https://geminicli.com).
 
 ### Pros and Cons
 * **Pros:** Fast command-line workflow, powerful code comprehension, flexible script automation.
 * **Cons:** Requires a compatible enterprise license or active API key to function properly.
 
-[Official Source / Credits](https://github.com/google-gemini/gemini-cli)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/google-gemini/gemini-cli)

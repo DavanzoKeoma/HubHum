@@ -13,9 +13,9 @@ source_url: "https://github.com/X-PLUG/MobileAgent"
 download_url: "https://github.com/X-PLUG/MobileAgent/releases"
 downloadUrl: "https://github.com/X-PLUG/MobileAgent/releases"
 download_label: "Visit Official Site"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-MobileAgent watches your device screen just like a human user, understanding buttons, menus, and text across apps and browsers. It takes simple text instructions from you and automatically performs clicks, typing, and navigation to complete multi-step goals. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad). Whether you need to cross-check data, fill out forms, or gather information on mobile or desktop, this visual assistant takes over the tedious manual work.
+MobileAgent watches your device screen just like a human user, understanding buttons, menus, and text across apps and browsers. It takes simple text instructions from you and automatically performs clicks, typing, and navigation to complete multi-step goals. Whether you need to cross-check data, fill out forms, or gather information on mobile or desktop, this visual assistant takes over the tedious manual work.
 
 ### Who it's for
 * Everyday users who want to automate repetitive multi-step tasks across their phones and computers.
@@ -54,12 +54,18 @@ MobileAgent watches your device screen just like a human user, understanding but
 * Visual interface recognition that reads buttons, icons, and text natively without relying on hidden code hooks.
 * Multi-step workflow planning that breaks down broad instructions into logical, sequential actions.
 * Self-reflection and error recovery to spot mistakes on screen and correct them mid-task.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can explore the official code, setup instructions, and release notes directly on the [MobileAgent Releases Page](https://github.com/X-PLUG/MobileAgent/releases). Clone or download the project files to run it locally on your development machine following the guide in the main project folder. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can explore the official code, setup instructions, and release notes directly on the [MobileAgent Releases Page](https://github.com/X-PLUG/MobileAgent/releases). Clone or download the project files to run it locally on your development machine following the guide in the main project folder.
 
 ### Pros and Cons
 * **Pros:** Open-source software foundation supporting both mobile and PC environments; powerful visual understanding for complex multi-step tasks.
 * **Cons:** Requires technical setup and configuration to run locally; relies heavily on underlying model performance for accurate screen perception.
-[Official Source / Credits](https://github.com/X-PLUG/MobileAgent)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/X-PLUG/MobileAgent)

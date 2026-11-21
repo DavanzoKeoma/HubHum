@@ -5,17 +5,17 @@ tagline: "Clone any website using AI commands"
 summary: "Recreate any website as a clean Next.js app instantly by giving your AI coding assistant a simple link command."
 tags: ["ai", "website-cloner", "nextjs", "automation"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/ai-website-cloner-template.png"
 stars: 39528
 source_url: "https://github.com/JCodesMore/ai-website-cloner-template"
 download_url: "https://dsc.gg/jcodesmore"
 downloadUrl: "https://dsc.gg/jcodesmore"
-download_label: "Get Command-Line Tool →"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This smart template lets you point an AI coding assistant at any live web address to instantly rebuild its layout, design, and interactive parts. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad). It generates a modern, editable codebase so you can update text, images, and features without starting from scratch.
+This smart template lets you point an AI coding assistant at any live web address to instantly rebuild its layout, design, and interactive parts. It generates a modern, editable codebase so you can update text, images, and features without starting from scratch.
 
 ### Who it's for
 - **Business Owners & Creators** looking to modernize older web pages or rebuild lost source code from existing sites.
@@ -53,13 +53,18 @@ This smart template lets you point an AI coding assistant at any live web addres
 - **Modern Tech Foundation:** Builds output using standard, high-performance web software foundation and flexible styling components.
 - **Asset Extraction:** Automatically gathers real fonts, icons, images, and layout structures from the target page.
 - **Responsive Comparison:** Reviews desktop and mobile states side-by-side to ensure visual accuracy.
-- Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-To set up this project on your computer, ask your AI assistant to open [the project source page](https://github.com/JCodesMore/ai-website-cloner-template) and create a fresh working copy automatically. Alternatively, you can generate your own personal copy directly on GitHub using the template button, then follow the quick start commands in your terminal to install dependencies. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+To set up this project on your computer, ask your AI assistant to open [the project source page](https://github.com/JCodesMore/ai-website-cloner-template) and create a fresh working copy automatically. Alternatively, you can generate your own personal copy directly on GitHub using the template button, then follow the quick start commands in your terminal to install dependencies.
 
 ### Pros and Cons
 * **Pros:** Saves hours of manual coding, produces clean and editable code, and supports multiple popular AI assistants.
 * **Cons:** Requires a compatible AI coding agent tool to perform the automated cloning steps.
 
-[Official Source / Credits](https://github.com/JCodesMore/ai-website-cloner-template)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/JCodesMore/ai-website-cloner-template)

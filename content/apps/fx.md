@@ -13,7 +13,7 @@ source_url: "https://github.com/antonmedv/fx"
 download_url: "https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_amd64.exe"
 downloadUrl: "https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_amd64.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -45,7 +45,6 @@ i18n:
 fx helps you open data files and read what’s inside at a glance.  
 You can quickly change values or remove parts you don’t need.  
 All of this happens in a single, easy-to-use window.  
-When you need royalty‑free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
 
 ### Who it's for
 - Small business owners who need to verify sales or inventory data.  
@@ -56,17 +55,20 @@ When you need royalty‑free stock footage, music tracks, and motion presets alo
 - Open any data file and see its structure instantly.  
 - Search for specific words or numbers within the file.  
 - Edit values, add new entries, or delete sections with a few clicks.  
-- Expand your creative library with commercial‑safe fonts, lower‑third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).  
 - Save the edited file back in the same format.
 
 ### How to install (Download)
 - [Download for Windows (64‑bit)](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_amd64.exe)  
 - [Download for Windows (ARM64)](https://github.com/antonmedv/fx/releases/download/40.0.1/fx_windows_arm64.exe)  
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free forever, no subscription, works on any Windows PC.  
 * **Cons:** Only available as a desktop program; no built‑in cloud sync.
 
-[Official Source / Credits](https://github.com/antonmedv/fx)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/antonmedv/fx)

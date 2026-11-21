@@ -13,9 +13,9 @@ source_url: "https://github.com/justcallmekoko/ESP32Marauder"
 download_url: "https://github.com/justcallmekoko/ESP32Marauder/releases/download/v1.20.0/esp32_marauder_v1_20_0_20261028_cyd_2432S024_guition.bin"
 downloadUrl: "https://github.com/justcallmekoko/ESP32Marauder/releases/download/v1.20.0/esp32_marauder_v1_20_0_20261028_cyd_2432S024_guition.bin"
 download_label: "Download (esp32_marauder_v1_20_0_20261028_cyd_2432S024_guition.bin)"
-license: "Open Source"
+license: "Open Source License"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-ESP32Marauder provides a robust suite of wireless analysis tools that run on affordable pocket-sized hardware. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It lets you scan, evaluate, and learn about local wireless environments right from a small screen or connected device.
+ESP32Marauder provides a robust suite of wireless analysis tools that run on affordable pocket-sized hardware. It lets you scan, evaluate, and learn about local wireless environments right from a small screen or connected device.
 
 ### Who it's for
 * Network administrators looking to test local wireless security and device responsiveness.
@@ -53,11 +53,10 @@ ESP32Marauder provides a robust suite of wireless analysis tools that run on aff
 * Scans for nearby wireless networks and connected devices with clear visual feedback.
 * Supports testing against various common wireless connection behaviors.
 * Compatible with multiple popular microcontrollers and portable development boards.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Constantly updated with new diagnostic commands and community-requested features.
 
 ### How to install (Download)
-To get started, choose the correct firmware file matching your specific hardware setup from the official releases page. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, choose the correct firmware file matching your specific hardware setup from the official releases page.
 
 * [Download for CYD 2.4-inch display (.bin)](https://github.com/justcallmekoko/ESP32Marauder/releases/download/v1.20.0/esp32_marauder_v1_20_0_20261028_cyd_2432S024_guition.bin)
 * [Download for CYD 2.8-inch display (.bin)](https://github.com/justcallmekoko/ESP32Marauder/releases/download/v1.20.0/esp32_marauder_v1_20_0_20261028_cyd_2432S028.bin)
@@ -72,4 +71,10 @@ To get started, choose the correct firmware file matching your specific hardware
 * **Pros:** Free and open-source software, runs on inexpensive hardware, highly portable, active community development.
 * **Cons:** Requires basic technical knowledge to flash firmware onto microcontrollers, improper use can violate local transmission laws.
 
-[Official Source / Credits](https://github.com/justcallmekoko/ESP32Marauder)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/justcallmekoko/ESP32Marauder)

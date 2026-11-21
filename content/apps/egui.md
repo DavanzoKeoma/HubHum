@@ -13,7 +13,7 @@ source_url: "https://github.com/emilk/egui"
 download_url: "https://www.egui.rs/"
 downloadUrl: "https://www.egui.rs/"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool lets software creators build visual screens, buttons, and sliders using the Rust programming language. It updates the display instantly as you type your code, keeping your workflow fast and smooth. Your finished creations can run directly inside web browsers or on desktop computers without extra hassle. When managing remote environments and development portals on public Wi-Fi, you can safeguard your traffic with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This tool lets software creators build visual screens, buttons, and sliders using the Rust programming language. It updates the display instantly as you type your code, keeping your workflow fast and smooth. Your finished creations can run directly inside web browsers or on desktop computers without extra hassle.
 
 ### Who it's for
 * Rust developers who want to add buttons, text boxes, and sliders to their programs.
@@ -54,13 +54,18 @@ This tool lets software creators build visual screens, buttons, and sliders usin
 * Built-in support for text fields, sliders, checkboxes, images, and color pickers.
 * Works seamlessly across desktop operating systems and web browsers via WebAssembly.
 * Extremely lightweight design that consumes minimal computer memory and battery power.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can explore the live examples and documentation directly through the [Official Website](https://www.egui.rs/). To start building your own application, check out the [Official Project official project page](https://github.com/emilk/egui). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can explore the live examples and documentation directly through the [Official Website](https://www.egui.rs/). To start building your own application, check out the [Official Project official project page](https://github.com/emilk/egui). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Completely free and open source, highly portable across web and desktop, very active community support.
 * **Cons:** Not designed to mimic native operating system looks, requires familiarity with the Rust programming language.
 
-[Official Source / Credits](https://github.com/emilk/egui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/emilk/egui)

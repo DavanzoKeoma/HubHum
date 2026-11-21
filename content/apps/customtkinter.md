@@ -13,7 +13,7 @@ source_url: "https://github.com/TomSchimansky/CustomTkinter"
 download_url: "https://github.com/TomSchimansky/CustomTkinter/releases"
 downloadUrl: "https://github.com/TomSchimansky/CustomTkinter/releases"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS"
 applicationCategory: "DesignApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-CustomTkinter is a friendly toolkit that lets Python creators build gorgeous desktop programs with a contemporary look and feel. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It provides ready-to-use visual building blocks like buttons, switches, and sliders that look professional right out of the box. Best of all, your custom windows will automatically match your computer's light or dark appearance settings without extra coding.
+CustomTkinter is a friendly toolkit that lets Python creators build gorgeous desktop programs with a contemporary look and feel. It provides ready-to-use visual building blocks like buttons, switches, and sliders that look professional right out of the box. Best of all, your custom windows will automatically match your computer's light or dark appearance settings without extra coding.
 
 ### Who it's for
 * **Python Developers:** Programmers looking to upgrade traditional text-heavy windows into sleek, modern desktop software.
@@ -54,13 +54,18 @@ CustomTkinter is a friendly toolkit that lets Python creators build gorgeous des
 * **High-Resolution Ready:** Crisp scaling ensures windows and buttons look sharp on high-definition monitors and retina screens.
 * **Drop-In Replacement:** Works just like standard Python window elements, making it simple to upgrade existing projects.
 * **Custom Themes:** Easily tweak color accents like blue, green, or dark blue to give your software a unique brand personality.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can easily add this toolkit to your Python setup using your command terminal with the standard module installation tool. Simply open your terminal and type `pip3 install customtkinter` to download and install the latest version. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). For detailed guides, release updates, and code examples, visit the [CustomTkinter Releases & Website](https://github.com/TomSchimansky/CustomTkinter/releases).
+You can easily add this toolkit to your Python setup using your command terminal with the standard module installation tool. Simply open your terminal and type `pip3 install customtkinter` to download and install the latest version. For detailed guides, release updates, and code examples, visit the [CustomTkinter Releases & Website](https://github.com/TomSchimansky/CustomTkinter/releases).
 
 ### Pros and Cons
 * **Pros:** Free and open source, supports cross-platform desktop operating systems, automatic dark mode styling.
 * **Cons:** Requires basic knowledge of the Python programming language to get started.
 
-[Official Source / Credits](https://github.com/TomSchimansky/CustomTkinter)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/TomSchimansky/CustomTkinter)

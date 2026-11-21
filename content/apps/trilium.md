@@ -5,7 +5,7 @@ tagline: "Build your personal knowledge base easily."
 summary: "Trilium is a hierarchical note-taking tool that helps you organize massive amounts of information into a searchable, connected library."
 tags: ["notes", "knowledge-base", "productivity"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/trilium.png"
 stars: 39023
@@ -13,9 +13,9 @@ source_url: "https://github.com/TriliumNext/Trilium"
 download_url: "https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-arm64.exe"
 downloadUrl: "https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-windows-arm64.exe"
 download_label: "Download for Windows (.exe)"
-license: "AGPL-3.0"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Trilium helps you gather, organize, and link all your notes, research, and ideas in a single deep tree structure. You can easily arrange information into flexible categories, attach code snippets, or draw diagrams without losing your place. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Trilium helps you gather, organize, and link all your notes, research, and ideas in a single deep tree structure. You can easily arrange information into flexible categories, attach code snippets, or draw diagrams without losing your place.
 
 ### Who it's for
 * Researchers and students building massive libraries of references and study guides.
@@ -53,7 +53,6 @@ Trilium helps you gather, organize, and link all your notes, research, and ideas
 * Organizes notes into arbitrarily deep trees with support for cloning a single note into multiple folders.
 * Includes a rich editor supporting tables, images, math formulas, and markdown formatting.
 * Allows seamless note versioning and strong per-note encryption for sensitive information.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can open this application right in the cloud in 1 click through web hosting options or download the desktop editions below:
@@ -64,9 +63,14 @@ You can open this application right in the cloud in 1 click through web hosting 
 - [Download for Linux (.AppImage)](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-linux-x64.AppImage)
 - [Download for Linux (.deb)](https://github.com/TriliumNext/Trilium/releases/download/v0.107.0/TriliumNotes-v0.107.0-linux-x64.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free and open-source, handles massive databases of over 100,000 notes smoothly, and offers robust self-hosting options.
 * **Cons:** Advanced features and server synchronization require initial setup steps that may take some time for non-technical users.
-[Official Source / Credits](https://github.com/TriliumNext/Trilium)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/TriliumNext/Trilium)

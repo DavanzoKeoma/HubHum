@@ -273,15 +273,72 @@ def verify_mobile_viewport(p_playwright, shots: Path, audit_dir: Path | None = N
         drawer = m_page.locator("#mobile-drawer")
         expect(drawer).to_be_visible()
         expect(drawer.locator('a[href*="/guides/"]')).to_be_visible()
+        expect(drawer.locator('a[href*="/about/"]')).to_be_visible()
         menu_btn.click()
+
+        # Verify mobile hierarchy: Top Picks appears above Live GitHub Search, and Favorites is discreet
+        fav_label = m_page.locator("#oauth-login-label").inner_text().strip()
+        assert fav_label.lower() != "sign in", f"Header CTA still shows 'Sign In' instead of 'Favorites': {fav_label}"
+        hierarchy = m_page.evaluate(
+            """() => {
+                const top = document.getElementById('top-picks');
+                const live = document.getElementById('live-search');
+                return {
+                    topY: top ? top.getBoundingClientRect().top : -1,
+                    liveY: live ? live.getBoundingClientRect().top : -1,
+                };
+            }"""
+        )
+        assert 0 <= hierarchy["topY"] < hierarchy["liveY"], f"Expected #top-picks above #live-search on mobile: {hierarchy}"
 
         m_page.screenshot(path=str(shots / "05_home_mobile.png"), full_page=False)
         if audit_dir:
             m_page.screenshot(path=str(audit_dir / "home_mobile.png"), full_page=False)
-        print("[PASS] 375x812 Mobile layout zero horizontal overflow & drawer verified.")
+        print("[PASS] 375x812 Mobile layout zero horizontal overflow, hierarchy & drawer verified.")
     finally:
         ctx.close()
         browser.close()
+
+
+def verify_transparency_and_remediation(page: Page) -> None:
+    print("\n=== STEP E: /about/ Transparency, CLI Notice & #ad Isolation ===")
+    resp = page.goto(f"{LIVE_URL}about/", wait_until="networkidle", timeout=ACTION_TIMEOUT_MS)
+    assert resp is not None and resp.status == 200, f"/about/ returned {resp.status if resp else None}"
+    about_text = page.locator("main").inner_text()
+    assert "DavanzoKeoma/HubHum" in about_text and "Sponsored Partner Tools (#ad)" in about_text, (
+        "Missing key transparency disclosures on /about/"
+    )
+    print("[PASS] /about/ returned HTTP 200 with maintainer, verification, and #ad isolation disclosures.")
+
+    page.goto(f"{LIVE_URL}apps/yt-dlp/", wait_until="networkidle", timeout=ACTION_TIMEOUT_MS)
+    expect(page.locator("[data-cli-warning]")).to_be_visible()
+    side_text = page.locator("aside").inner_text()
+    assert "Sponsored Partner (#ad)" in side_text and "Recommended Add-on" not in side_text, (
+        f"Unexpected sidebar partner label: {side_text[:300]}"
+    )
+    assert "yt-dlp/yt-dlp" in side_text, "Missing explicit owner/repo in Quick Specs on /apps/yt-dlp/"
+
+    editorial_leaks = page.evaluate(
+        """() => {
+            const article = document.querySelector('article.article-card');
+            if (!article) return ['missing article'];
+            const leaks = [];
+            for (const el of Array.from(article.children)) {
+                if (el.tagName === 'H3' && el.textContent && el.textContent.includes('Sponsored Partner Tools')) {
+                    break;
+                }
+                for (const a of Array.from(el.querySelectorAll('a'))) {
+                    const href = a.getAttribute('href') || '';
+                    if (href.includes('hubhum_01_MER') || (a.textContent || '').includes('(#ad)')) {
+                        leaks.push(href);
+                    }
+                }
+            }
+            return leaks;
+        }"""
+    )
+    assert len(editorial_leaks) == 0, f"Found #ad link before Sponsored Partner section: {editorial_leaks}"
+    print("[PASS] /apps/yt-dlp/ verified CLI warning, owner/repo Quick Spec, Sponsored Partner (#ad), and 0 editorial #ad leaks.")
 
 
 def main() -> int:
@@ -318,6 +375,7 @@ def main() -> int:
                 verify_pagination_and_underlinenav(page)
                 verify_favorites_dialog_a11y(page)
                 verify_five_level_topic_clusters(page, shots, audit_dir=audit_dir)
+                verify_transparency_and_remediation(page)
                 verify_live_github_search(page, args.query)
             finally:
                 context.close()

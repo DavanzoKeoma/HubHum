@@ -5,17 +5,17 @@ tagline: "Curated lists of fascinating topics."
 summary: "Explore carefully organized collections of interesting topics, software tools, and guides curated by experts."
 tags: ["curated", "guides", "resources"]
 is_webapp: false
-app_type: "desktop"
+app_type: "resource"
 category: "Productivity"
 icon: "/icons/awesome.png"
 stars: 539167
 source_url: "https://github.com/sindresorhus/awesome"
 download_url: "https://github.com/sindresorhus/awesome/releases"
 downloadUrl: "https://github.com/sindresorhus/awesome/releases"
-download_label: "Visit Official Site"
-license: "CC0-1.0"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+download_label: "Browse Reference →"
+license: "Public Domain / Free"
+scouting_tier: "tier3_powertool"
+operatingSystem: "All / Reference"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Awesome brings together massive, community-driven collections of links covering every interest imaginable. You can quickly discover the best tools, handbooks, and creative directories for your favorite hobbies or professional projects, and complement your toolkit with stock media and design resources on [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). Everything is neatly categorized so you never have to waste time sifting through endless search engine results.
+Awesome brings together massive, community-driven collections of links covering every interest imaginable. Everything is neatly categorized so you never have to waste time sifting through endless search engine results.
 
 ### Who it's for
 * Lifelong learners looking for high-quality educational resources and book recommendations.
@@ -53,10 +53,9 @@ Awesome brings together massive, community-driven collections of links covering 
 * Vast directory of curated topic lists ranging from everyday productivity tools to creative workflows.
 * Community-powered updates ensuring fresh and relevant recommendations.
 * Clean, easy-to-browse categories for instant navigation.
-* Hand-picked learning materials and ready-to-use visual templates via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad) for personal and team projects.
 
 ### How to install (Download)
-This project is an online directory of resources and does not require installation. You can visit the official site directly to browse all available lists, and protect your browser sessions on public networks with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This project is an online directory of resources and does not require installation.
 
 * [Visit the Official Site](https://github.com/sindresorhus/awesome/releases)
 
@@ -64,4 +63,10 @@ This project is an online directory of resources and does not require installati
 * **Pros:** Completely free to browse, covers an enormous variety of subjects, regularly updated by passionate contributors.
 * **Cons:** Can sometimes feel overwhelming due to the sheer volume of available links.
 
-[Official Source / Credits](https://github.com/sindresorhus/awesome)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/sindresorhus/awesome)

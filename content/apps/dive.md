@@ -13,7 +13,7 @@ source_url: "https://github.com/wagoodman/dive"
 download_url: "https://github.com/wagoodman/dive/releases/download/v0.13.1/dive_0.13.1_linux_amd64.deb"
 downloadUrl: "https://github.com/wagoodman/dive/releases/download/v0.13.1/dive_0.13.1_linux_amd64.deb"
 download_label: "Download for Linux (.deb)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Dive is a tool that lets you look inside your container images to see exactly what files are taking up space. It breaks down the image into layers, showing you exactly what was added or changed at every step of the process. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Dive is a tool that lets you look inside your container images to see exactly what files are taking up space. It breaks down the image into layers, showing you exactly what was added or changed at every step of the process.
 
 ### Who it's for
 *   Software developers who want to keep their application images small and fast.
@@ -53,10 +53,9 @@ Dive is a tool that lets you look inside your container images to see exactly wh
 *   **Change detection:** Easily spot files that have been added, modified, or removed in specific layers.
 *   **Efficiency scoring:** Get an estimate of how much space is being wasted by duplicate or unnecessary files.
 *   **CI Integration:** Automatically check your images during your workflow to ensure they meet your size efficiency standards.
-*   Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can download the installer for your system below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can download the installer for your system below.
 
 *   [Download for Linux (amd64 .deb)](https://github.com/wagoodman/dive/releases/download/v0.13.1/dive_0.13.1_linux_amd64.deb)
 *   [Download for Linux (arm64 .deb)](https://github.com/wagoodman/dive/releases/download/v0.13.1/dive_0.13.1_linux_arm64.deb)
@@ -66,4 +65,10 @@ You can download the installer for your system below. Keep large installer downl
 *   **Pros:** Completely free and open-source, provides deep visibility into image bloat, and supports automated testing.
 *   **Cons:** The interface runs in the terminal, which may require a short adjustment period for those used to graphical windows.
 
-[Official Source / Credits](https://github.com/wagoodman/dive)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/wagoodman/dive)

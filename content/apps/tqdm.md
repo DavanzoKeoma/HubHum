@@ -13,7 +13,7 @@ source_url: "https://github.com/tqdm/tqdm"
 download_url: "https://github.com/tqdm/tqdm/releases/download/v4.70.1/tqdm-4.70.1-py3-none-any.whl"
 downloadUrl: "https://github.com/tqdm/tqdm/releases/download/v4.70.1/tqdm-4.70.1-py3-none-any.whl"
 download_label: "Download (tqdm-4.70.1-py3-none-any.whl)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool instantly transforms basic code loops and terminal commands into interactive progress meters. It calculates remaining time on the fly so you never have to guess how long a long-running process will take. It runs smoothly across any operating system without demanding complicated setup or heavy dependencies. As you process large media batches, you might also appreciate the high-quality assets available on [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This tool instantly transforms basic code loops and terminal commands into interactive progress meters. It calculates remaining time on the fly so you never have to guess how long a long-running process will take. It runs smoothly across any operating system without demanding complicated setup or heavy dependencies.
 
 ### Who it's for
 * **Software Developers:** Programmers looking to add clear visual feedback to data processing scripts.
@@ -53,11 +53,10 @@ This tool instantly transforms basic code loops and terminal commands into inter
 * **Instant Integration:** Wrap any standard iterable loop with a simple function call to activate the meter.
 * **Low System Overhead:** Designed with minimal performance impact so it will not slow down your core operations.
 * **Command Line Friendly:** Works seamlessly with standard terminal pipes and stream redirections.
-* **Creative Asset Integration:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * **Customizable Displays:** Tailor colors, units, custom text descriptions, and formatting to match your project style.
 
 ### How to install (Download)
-You can grab the latest package file directly using the official release asset below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can grab the latest package file directly using the official release asset below.
 
 * [Download (tqdm-4.70.1-py3-none-any.whl)](https://github.com/tqdm/tqdm/releases/download/v4.70.1/tqdm-4.70.1-py3-none-any.whl)
 
@@ -65,4 +64,10 @@ You can grab the latest package file directly using the official release asset b
 * **Pros:** Extremely lightweight, works out of the box with zero external dependencies, highly versatile for both code and shell commands.
 * **Cons:** Requires terminal environments that support standard carriage return and line feed control characters for optimal display.
 
-[Official Source / Credits](https://github.com/tqdm/tqdm)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/tqdm/tqdm)

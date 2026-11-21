@@ -5,7 +5,7 @@ tagline: "Your private, self-hosted fitness tracking companion"
 summary: "Plan custom workout routines, track exercises with guided timers, and keep complete ownership of your fitness history without monthly subscription fees."
 tags: ["fitness", "health", "workout-tracker", "cloud-app"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/opengym.png"
 stars: 23057
@@ -13,9 +13,9 @@ source_url: "https://github.com/DuarteSantos8/openGym"
 download_url: "https://github.com/DuarteSantos8/openGym/releases/download/v1.4.5/openGym-1.4.5.apk"
 downloadUrl: "https://github.com/DuarteSantos8/openGym/releases/download/v1.4.5/openGym-1.4.5.apk"
 download_label: "Download for Android (.apk)"
-license: "AGPL-3.0"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-openGym is a modern workout tracker that puts you entirely in control of your personal fitness data instead of storing it on a company's private servers. You can easily plan custom workout routines, follow guided sessions with integrated rest timers, and check detailed body maps to see exactly which muscles you are training. If you publish your personal fitness journey online, pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad). It functions seamlessly on your phone, tablet, and smart watch while letting you optionally run your own private server at home.
+openGym is a modern workout tracker that puts you entirely in control of your personal fitness data instead of storing it on a company's private servers. You can easily plan custom workout routines, follow guided sessions with integrated rest timers, and check detailed body maps to see exactly which muscles you are training. It functions seamlessly on your phone, tablet, and smart watch while letting you optionally run your own private server at home.
 
 ### Who it's for
 - Fitness enthusiasts who want complete privacy and refuse to pay for expensive monthly workout subscriptions.
@@ -54,16 +54,21 @@ openGym is a modern workout tracker that puts you entirely in control of your pe
 - Guided workout sessions that pre-fill weights from your previous history, run rest timers, and detect personal records automatically.
 - Flexible progression rules including linear tracking, double progression, and customized deload cycles.
 - Import your historical data easily from popular commercial fitness platforms or export everything cleanly as standard spreadsheets.
-- Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can open this app instantly in the cloud via the [Official Website](https://opengym.ch) or try the [In-Browser Demo](https://opengym.ch/demo/) before getting started. For mobile devices, grab the iPhone application directly from the [App Store](https://apps.apple.com/app/id6822275400) or download the Android installation package:
 - [Download for Android (.apk)](https://github.com/DuarteSantos8/openGym/releases/download/v1.4.5/openGym-1.4.5.apk)
 
-If you prefer to run your own private instance on a home server or virtual private server, follow the self-hosting instructions using Docker. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+If you prefer to run your own private instance on a home server or virtual private server, follow the self-hosting instructions using Docker.
 
 ### Pros and Cons
 * **Pros:** Completely free and open source with zero ads, subscriptions, or hidden corporate data tracking. Works smoothly offline and syncs across all your personal devices.
 * **Cons:** Setting up a self-hosted home server requires basic technical familiarity, though using the mobile app on its own requires zero setup.
 
-[Official Source / Credits](https://github.com/DuarteSantos8/openGym)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/DuarteSantos8/openGym)

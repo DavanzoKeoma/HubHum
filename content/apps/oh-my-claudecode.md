@@ -13,9 +13,9 @@ source_url: "https://github.com/Yeachan-Heo/oh-my-claudecode"
 download_url: "https://oh-my-claudecode.dev"
 downloadUrl: "https://oh-my-claudecode.dev"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool turns your standard terminal coding assistant into a coordinated team of specialist agents that handle planning, writing, and testing automatically. When you give it a broad objective, it divides the workload across multiple specialized workers to build and verify your features without constant supervision. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This tool turns your standard terminal coding assistant into a coordinated team of specialist agents that handle planning, writing, and testing automatically. When you give it a broad objective, it divides the workload across multiple specialized workers to build and verify your features without constant supervision.
 
 ### Who it's for
 * Software developers looking to automate repetitive multi-file coding tasks and code reviews.
@@ -54,12 +54,18 @@ This tool turns your standard terminal coding assistant into a coordinated team 
 * **Automatic parallelization:** Distribute complex tasks across different terminal worker panes seamlessly.
 * **Smart model routing:** Save on token costs by automatically matching tasks with the most appropriate model tier.
 * **Persistent execution:** Keeps running and checking its own work until your tests, builds, and quality goals pass successfully.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can install the tool directly using your terminal package manager with the command `npm i -g oh-my-claude-sisyphus@latest`, or add it inside your coding assistant environment via marketplace commands. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can install the tool directly using your terminal package manager with the command `npm i -g oh-my-claude-sisyphus@latest`, or add it inside your coding assistant environment via marketplace commands.
 
 ### Pros and Cons
 * **Pros:** Automates complex workflows, reduces token usage significantly, and runs persistent self-correcting loops.
 * **Cons:** Requires a terminal environment and familiarity with command-line developer tools.
-[Official Source / Credits](https://github.com/Yeachan-Heo/oh-my-claudecode)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Yeachan-Heo/oh-my-claudecode)

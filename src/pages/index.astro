@@ -11,7 +11,13 @@ const PAGE_SIZE = 24;
 const allApps = await getCollection('apps');
 const sortedApps = [...allApps].sort((a, b) => (b.data.stars || 0) - (a.data.stars || 0));
 
-const topPicks = sortedApps.filter((app) => (app.data.stars || 0) > 0).slice(0, 3);
+const topPicks = sortedApps
+  .filter(
+    (app) =>
+      (app.data.stars || 0) > 0 &&
+      (app.data.app_type === 'desktop' || app.data.app_type === 'selfhosted')
+  )
+  .slice(0, 3);
 const topPickSlugs = new Set(topPicks.map((app) => app.data.slug));
 const initialPageApps = sortedApps.slice(0, PAGE_SIZE);
 const totalPages = Math.max(1, Math.ceil(sortedApps.length / PAGE_SIZE));
@@ -74,27 +80,31 @@ for (const cat of categories.slice(1)) {
       />
     </div>
 
-    <div
-      class="underline-nav"
-      role="group"
-      aria-label="Filter by category"
-      data-i18n-aria="categoriesLabel"
-    >
-      {categories.map((cat, idx) => (
-        <button
-          type="button"
-          class="underline-nav-item"
-          aria-pressed={idx === 0 ? 'true' : 'false'}
-          data-category-btn={cat}
-        >
-          <span data-i18n={CATEGORY_I18N_KEY[cat]}>{cat}</span>
-          <span class="underline-counter" data-cat-count={cat}>{categoryCounts[cat] ?? 0}</span>
-        </button>
-      ))}
+    <a href="#live-search" class="jump-live-link" data-i18n="jumpLiveSearch">
+      Looking for an unindexed GitHub project? Search 800M+ repositories below ↓
+    </a>
+
+    <div class="underline-nav-wrap">
+      <div
+        class="underline-nav"
+        role="group"
+        aria-label="Filter by category"
+        data-i18n-aria="categoriesLabel"
+      >
+        {categories.map((cat, idx) => (
+          <button
+            type="button"
+            class="underline-nav-item"
+            aria-pressed={idx === 0 ? 'true' : 'false'}
+            data-category-btn={cat}
+          >
+            <span data-i18n={CATEGORY_I18N_KEY[cat]}>{cat}</span>
+            <span class="underline-counter" data-cat-count={cat}>{categoryCounts[cat] ?? 0}</span>
+          </button>
+        ))}
+      </div>
     </div>
   </section>
-
-  <GitHubSearchConvert />
 
   {topPicks.length > 0 && (
     <section id="top-picks" class="section-block container">
@@ -213,6 +223,8 @@ for (const cat of categories.slice(1)) {
     </section>
   )}
 
+  <GitHubSearchConvert />
+
   <section id="submit" class="container">
     <div class="translate-panel">
       <h2 style="margin-top:0; margin-bottom:0.35rem;" data-i18n="submitTitle">Submit an App</h2>
@@ -240,6 +252,8 @@ for (const cat of categories.slice(1)) {
     import { CATEGORY_I18N_KEY, formatCompactStars, TRANSLATIONS, type SupportedLang } from '../i18n/translations';
     import { withBase } from '../lib/url';
 
+    type AppType = 'desktop' | 'webapp' | 'selfhosted' | 'cli' | 'resource';
+
     interface CatalogEntry {
       slug: string;
       name: string;
@@ -247,11 +261,22 @@ for (const cat of categories.slice(1)) {
       tags?: string[];
       icon: string;
       is_webapp: boolean;
-      app_type?: 'desktop' | 'webapp' | 'cli';
+      app_type?: AppType;
       stars: number;
       summary: string;
       i18n?: Record<string, string>;
     }
+
+    const CLIENT_TYPE_META: Record<
+      AppType,
+      { badgeClass: string; badgeI18n: keyof typeof TRANSLATIONS.en; ctaI18n: keyof typeof TRANSLATIONS.en }
+    > = {
+      webapp: { badgeClass: 'cloud', badgeI18n: 'badgeCloud', ctaI18n: 'ctaCloud' },
+      selfhosted: { badgeClass: 'selfhosted', badgeI18n: 'badgeSelfHosted', ctaI18n: 'ctaSelfHosted' },
+      cli: { badgeClass: 'cli', badgeI18n: 'badgeCli', ctaI18n: 'ctaCli' },
+      resource: { badgeClass: 'resource', badgeI18n: 'badgeResource', ctaI18n: 'ctaResource' },
+      desktop: { badgeClass: '', badgeI18n: 'badgeDesktop', ctaI18n: 'ctaDesktop' },
+    };
 
     const PAGE_SIZE = 24;
     const searchInput = document.getElementById('hubhum-search') as HTMLInputElement | null;
@@ -301,9 +326,14 @@ for (const cat of categories.slice(1)) {
       return catalogPromise;
     }
 
-    function createBadgeSvg(appType: 'desktop' | 'webapp' | 'cli'): SVGSVGElement {
-      const ns = 'http://www.w3.org/2000/svg';
-      const svg = document.createElementNS(ns, 'svg');
+    function appendSvgChild(parent: SVGElement, tag: string, attrs: Record<string, string>) {
+      const el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+      for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
+      parent.appendChild(el);
+    }
+
+    function createBadgeSvg(appType: AppType): SVGSVGElement {
+      const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
       svg.setAttribute('width', '14');
       svg.setAttribute('height', '14');
       svg.setAttribute('viewBox', '0 0 24 24');
@@ -314,40 +344,22 @@ for (const cat of categories.slice(1)) {
       svg.setAttribute('stroke-linejoin', 'round');
       svg.setAttribute('aria-hidden', 'true');
       if (appType === 'webapp') {
-        const p = document.createElementNS(ns, 'path');
-        p.setAttribute('d', 'M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z');
-        svg.appendChild(p);
+        appendSvgChild(svg, 'path', { d: 'M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z' });
+      } else if (appType === 'selfhosted') {
+        appendSvgChild(svg, 'rect', { x: '2', y: '2', width: '20', height: '8', rx: '2', ry: '2' });
+        appendSvgChild(svg, 'rect', { x: '2', y: '14', width: '20', height: '8', rx: '2', ry: '2' });
+        appendSvgChild(svg, 'line', { x1: '6', y1: '6', x2: '6.01', y2: '6' });
+        appendSvgChild(svg, 'line', { x1: '6', y1: '18', x2: '6.01', y2: '18' });
       } else if (appType === 'cli') {
-        const poly = document.createElementNS(ns, 'polyline');
-        poly.setAttribute('points', '4 17 10 11 4 5');
-        const ln = document.createElementNS(ns, 'line');
-        ln.setAttribute('x1', '12');
-        ln.setAttribute('y1', '19');
-        ln.setAttribute('x2', '20');
-        ln.setAttribute('y2', '19');
-        svg.appendChild(poly);
-        svg.appendChild(ln);
+        appendSvgChild(svg, 'polyline', { points: '4 17 10 11 4 5' });
+        appendSvgChild(svg, 'line', { x1: '12', y1: '19', x2: '20', y2: '19' });
+      } else if (appType === 'resource') {
+        appendSvgChild(svg, 'path', { d: 'M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z' });
+        appendSvgChild(svg, 'path', { d: 'M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z' });
       } else {
-        const rect = document.createElementNS(ns, 'rect');
-        rect.setAttribute('x', '2');
-        rect.setAttribute('y', '3');
-        rect.setAttribute('width', '20');
-        rect.setAttribute('height', '14');
-        rect.setAttribute('rx', '2');
-        rect.setAttribute('ry', '2');
-        const l1 = document.createElementNS(ns, 'line');
-        l1.setAttribute('x1', '8');
-        l1.setAttribute('y1', '21');
-        l1.setAttribute('x2', '16');
-        l1.setAttribute('y2', '21');
-        const l2 = document.createElementNS(ns, 'line');
-        l2.setAttribute('x1', '12');
-        l2.setAttribute('y1', '17');
-        l2.setAttribute('x2', '12');
-        l2.setAttribute('y2', '21');
-        svg.appendChild(rect);
-        svg.appendChild(l1);
-        svg.appendChild(l2);
+        appendSvgChild(svg, 'rect', { x: '2', y: '3', width: '20', height: '14', rx: '2', ry: '2' });
+        appendSvgChild(svg, 'line', { x1: '8', y1: '21', x2: '16', y2: '21' });
+        appendSvgChild(svg, 'line', { x1: '12', y1: '17', x2: '12', y2: '21' });
       }
       return svg;
     }
@@ -355,11 +367,9 @@ for (const cat of categories.slice(1)) {
     function createAppCardNode(item: CatalogEntry): HTMLAnchorElement {
       const lang = getActiveLang();
       const dict = getActiveDict();
-      const appType: 'desktop' | 'webapp' | 'cli' =
+      const appType: AppType =
         item.app_type || (item.is_webapp ? 'webapp' : 'desktop');
-      const badgeClass = appType === 'webapp' ? 'cloud' : appType === 'cli' ? 'cli' : '';
-      const badgeI18n = appType === 'webapp' ? 'badgeCloud' : appType === 'cli' ? 'badgeCli' : 'badgeDesktop';
-      const ctaI18n = appType === 'webapp' ? 'ctaCloud' : appType === 'cli' ? 'ctaCli' : 'ctaDesktop';
+      const { badgeClass, badgeI18n, ctaI18n } = CLIENT_TYPE_META[appType] || CLIENT_TYPE_META.desktop;
       const catKey = CATEGORY_I18N_KEY[item.category] || 'catProductivity';
 
       const card = document.createElement('a');

@@ -13,7 +13,7 @@ source_url: "https://github.com/viarotel-org/escrcpy"
 download_url: "https://github.com/viarotel-org/escrcpy/releases/download/v3.3.1/Escrcpy-3.3.1-win-portable-arm64.exe"
 downloadUrl: "https://github.com/viarotel-org/escrcpy/releases/download/v3.3.1/Escrcpy-3.3.1-win-portable-arm64.exe"
 download_label: "Download for Windows (.exe)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This application mirrors your Android phone screen directly onto your computer monitor, allowing you to use your mouse and keyboard to navigate apps, type messages, and play games. When you record tutorials or stream mobile content, you can enhance your setup with royalty-free stock footage, music tracks, and motion presets from [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It establishes a high-performance, low-latency connection so that everything you touch on your phone happens instantly on your desktop.
+This application mirrors your Android phone screen directly onto your computer monitor, allowing you to use your mouse and keyboard to navigate apps, type messages, and play games. It establishes a high-performance, low-latency connection so that everything you touch on your phone happens instantly on your desktop.
 
 ### Who it's for
 * **App Developers:** Test mobile applications and view debugging logs directly from a desktop environment without constantly picking up the physical phone.
@@ -54,10 +54,9 @@ This application mirrors your Android phone screen directly onto your computer m
 * **Keyboard and Mouse Mapping:** Set up custom key combinations and mouse clicks to mimic touch gestures, swipes, and scrolls.
 * **Multi-Device Control:** Connect and manage several Android devices simultaneously inside a single window layout.
 * **Wireless Connection:** Link your phone over Wi-Fi with automatic local network discovery so you can work without cables.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Choose the correct installer package for your operating system to get started right away. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Choose the correct installer package for your operating system to get started right away.
 
 * [Download for Windows (.exe) - Standard Setup](https://github.com/viarotel-org/escrcpy/releases/download/v3.3.1/Escrcpy-3.3.1-win-setup.exe)
 * [Download for Windows (.exe) - Portable x64](https://github.com/viarotel-org/escrcpy/releases/download/v3.3.1/Escrcpy-3.3.1-win-portable-x64.exe)
@@ -68,4 +67,10 @@ Choose the correct installer package for your operating system to get started ri
 * **Pros:** Free and open-source with very low latency, supports wireless connections, and lets you control multiple phones at once.
 * **Cons:** Requires enabling developer options and USB debugging on your Android device before first use.
 
-[Official Source / Credits](https://github.com/viarotel-org/escrcpy)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/viarotel-org/escrcpy)

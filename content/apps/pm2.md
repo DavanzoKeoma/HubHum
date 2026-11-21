@@ -13,9 +13,9 @@ source_url: "https://github.com/Unitech/pm2"
 download_url: "https://pm2.keymetrics.io/docs/usage/quick-start/"
 downloadUrl: "https://pm2.keymetrics.io/docs/usage/quick-start/"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-PM2 acts as a digital caretaker for your computer programs, automatically restarting them if they crash or stop unexpectedly. It allows you to run multiple tasks at once and ensures your work stays online around the clock. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+PM2 acts as a digital caretaker for your computer programs, automatically restarting them if they crash or stop unexpectedly. It allows you to run multiple tasks at once and ensures your work stays online around the clock.
 
 ### Who it's for
 *   **Software Developers:** Professionals who need to keep their web services and background tasks running reliably.
@@ -53,13 +53,18 @@ PM2 acts as a digital caretaker for your computer programs, automatically restar
 *   **Zero Downtime:** Updates or restarts your applications without interrupting the service for your users.
 *   **Built-in Monitoring:** Provides a clear view of your application's health, memory usage, and activity directly in your terminal.
 *   **Log Management:** Easily tracks and organizes the activity history of your applications to help you troubleshoot issues.
-*   Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-PM2 is designed to be installed via your system's package manager. You can find the full installation guide and quick-start instructions on the [Official PM2 Documentation Website](https://pm2.keymetrics.io/docs/usage/quick-start/). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+PM2 is designed to be installed via your system's package manager. You can find the full installation guide and quick-start instructions on the [Official PM2 Documentation Website](https://pm2.keymetrics.io/docs/usage/quick-start/).
 
 ### Pros and Cons
 *   **Pros:** Completely free to use, highly reliable for long-term tasks, and supports a wide range of programming languages.
 *   **Cons:** Primarily controlled through text-based commands, which may require a short learning period for those new to the terminal.
 
-[Official Source / Credits](https://github.com/Unitech/pm2)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Unitech/pm2)

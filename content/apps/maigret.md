@@ -3,9 +3,9 @@ title: "Maigret"
 slug: "maigret"
 tagline: "Track user accounts across thousands of websites"
 summary: "Maigret gathers online profile information by scanning thousands of public websites using only a username."
-tags: ["osint", "username-search", "security", "privacy"]
+tags: ["privacy", "username-search", "security"]
 is_webapp: false
-app_type: "desktop"
+app_type: "cli"
 category: "Security & Privacy"
 icon: "/icons/maigret.png"
 stars: 41080
@@ -13,8 +13,8 @@ source_url: "https://github.com/soxoj/maigret"
 download_url: "https://github.com/soxoj/maigret/releases/download/v0.6.6/maigret_standalone.exe"
 downloadUrl: "https://github.com/soxoj/maigret/releases/download/v0.6.6/maigret_standalone.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
-scouting_tier: "tier1_gui"
+license: "Open Source (MIT)"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Maigret automates the process of finding where a specific username appears across thousands of different online platforms, blogs, and social networks. When you search for someone, it scans public directories and extracts available details, profile links, and connected aliases. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). Finally, it organizes all discovered data into neat visual reports or maps without demanding complex technical configurations.
+Maigret automates the process of finding where a specific username appears across thousands of different online platforms, blogs, and social networks. When you search for someone, it scans public directories and extracts available details, profile links, and connected aliases. Finally, it organizes all discovered data into neat visual reports or maps without demanding complex technical configurations.
 
 ### Who it's for
 - Investigative journalists and security researchers looking for public footprint details.
@@ -54,10 +54,8 @@ Maigret automates the process of finding where a specific username appears acros
 - Recursively follows discovered links and alternative IDs to uncover hidden connections.
 - Generates comprehensive visual reports in HTML, PDF, or interactive graph formats.
 - Offers optional AI-assisted summaries to translate raw search findings into clear insights.
-- Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 - **Windows:** [Download for Windows (.exe)](https://github.com/soxoj/maigret/releases/download/v0.6.6/maigret_standalone.exe) and run it directly from your command prompt.
 - **Python Package:** Install it via terminal using `pip install maigret` if you have Python 3.10 or newer.
@@ -67,4 +65,10 @@ Before downloading installers or syncing private files over public Wi-Fi, shield
 * **Pros:** Free and open-source, checks thousands of sites instantly, supports multiple export formats.
 * **Cons:** Results depend on public website availability, and some strict networks may require proxy configuration.
 
-[Official Source / Credits](https://github.com/soxoj/maigret)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/soxoj/maigret)

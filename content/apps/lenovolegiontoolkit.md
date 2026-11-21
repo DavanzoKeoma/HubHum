@@ -13,7 +13,7 @@ source_url: "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit"
 download_url: "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/releases/download/v2.38.0.0/LenovoLegionToolkitSetup-v2.38.0.0.exe"
 downloadUrl: "https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/releases/download/v2.38.0.0/LenovoLegionToolkitSetup-v2.38.0.0.exe"
 download_label: "Download for Windows (.exe)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Lenovo Legion Toolkit is a clean and efficient utility designed to replace bloated manufacturer software on compatible Windows laptops. It lets you fine-tune hardware settings such as battery limits, performance profiles, and keyboard lighting directly from a unified window. Because it runs no hidden background services, it preserves system resources and keeps your machine running cool and responsive. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Lenovo Legion Toolkit is a clean and efficient utility designed to replace bloated manufacturer software on compatible Windows laptops. It lets you fine-tune hardware settings such as battery limits, performance profiles, and keyboard lighting directly from a unified window. Because it runs no hidden background services, it preserves system resources and keeps your machine running cool and responsive.
 
 ### Who it's for
 * Owners of Lenovo gaming and productivity laptops who want to ditch heavy manufacturer apps.
@@ -54,14 +54,20 @@ Lenovo Legion Toolkit is a clean and efficient utility designed to replace bloat
 * Battery protection settings including adjustable charging limits to extend lifespan.
 * Advanced keyboard backlight customization for 4-zone or per-key RGB setups.
 * Real-time system monitoring displayed through a customizable on-screen overlay.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-To get started, make sure your computer has the required system components installed, then grab the latest setup utility. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+To get started, make sure your computer has the required system components installed, then grab the latest setup utility.
 
 [Download for Windows (.exe)](https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit/releases/download/v2.38.0.0/LenovoLegionToolkitSetup-v2.38.0.0.exe)
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, uses virtually zero background resources, and contains no telemetry or ads.
 * **Cons:** Built specifically for Lenovo hardware, requires administrator rights, and does not support multi-user Windows accounts.
-[Official Source / Credits](https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/LenovoLegionToolkit-Team/LenovoLegionToolkit)

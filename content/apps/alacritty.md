@@ -13,7 +13,7 @@ source_url: "https://github.com/alacritty/alacritty"
 download_url: "https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-portable.exe"
 downloadUrl: "https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-portable.exe"
 download_label: "Download for Windows (.exe)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Alacritty is a modern tool that lets you interact with your computer's core systems through text commands. It is designed to be incredibly fast by offloading heavy visual tasks to your computer's graphics hardware. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Alacritty is a modern tool that lets you interact with your computer's core systems through text commands. It is designed to be incredibly fast by offloading heavy visual tasks to your computer's graphics hardware.
 
 ### Who it's for
 * Software developers who need a reliable and fast command-line interface.
@@ -53,10 +53,9 @@ Alacritty is a modern tool that lets you interact with your computer's core syst
 * **Minimalist Design:** Focuses on being a high-quality terminal without unnecessary visual clutter.
 * **Cross-Platform:** Works consistently across Windows, macOS, and Linux systems.
 * **Highly Configurable:** Allows you to tweak settings to match your specific workflow needs.
-* **SEO Growth:** Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can download the latest version for your operating system below. Once you have your tools set up, run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can download the latest version for your operating system below.
 
 * [Download for Windows (.exe)](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-portable.exe)
 * [Download for Windows (.msi)](https://github.com/alacritty/alacritty/releases/download/v0.17.0/Alacritty-v0.17.0-installer.msi)
@@ -66,4 +65,10 @@ You can download the latest version for your operating system below. Once you ha
 * **Pros:** Extremely fast performance, lightweight, and consistent across different operating systems.
 * **Cons:** Does not include a visual settings menu, so you must edit a text file to change your preferences.
 
-[Official Source / Credits](https://github.com/alacritty/alacritty)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/alacritty/alacritty)

@@ -13,9 +13,9 @@ source_url: "https://github.com/cocopon/tweakpane"
 download_url: "https://tweakpane.github.io/docs/"
 downloadUrl: "https://tweakpane.github.io/docs/"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool provides a neat, compact user interface panel that helps creators and developers adjust numbers, colors, and other settings on the fly. As you tweak sliders or toggle options, your project responds immediately to reflect the new values. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It stays completely out of your way until you need it, offering a clean look that fits seamlessly into any creative setup.
+This tool provides a neat, compact user interface panel that helps creators and developers adjust numbers, colors, and other settings on the fly. As you tweak sliders or toggle options, your project responds immediately to reflect the new values. It stays completely out of your way until you need it, offering a clean look that fits seamlessly into any creative setup.
 
 ### Who it's for
 * **Creative Coders:** Ideal for anyone building interactive visual art or browser animations who needs instant slider controls.
@@ -54,12 +54,18 @@ This tool provides a neat, compact user interface panel that helps creators and 
 * **Versatile Controls:** Supports numbers, text strings, switches, color pickers, and multi-dimensional coordinates.
 * **Readonly Monitors:** Keep track of live data changes without risking accidental value alterations.
 * **Tabs and Folders:** Organize complex settings into neat, collapsible sections to maintain a tidy workspace.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To start using this control panel in your projects, head over to the [Official Documentation Guide](https://tweakpane.github.io/docs/) for clear setup steps. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To start using this control panel in your projects, head over to the [Official Documentation Guide](https://tweakpane.github.io/docs/) for clear setup steps.
 
 ### Pros and Cons
 * **Pros:** Completely free and open source, lightweight with zero outside dependencies, highly customizable through themes and plugins.
 * **Cons:** Requires basic coding knowledge to integrate into a project, focused strictly on interface controls rather than full application logic.
-[Official Source / Credits](https://github.com/cocopon/tweakpane)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/cocopon/tweakpane)

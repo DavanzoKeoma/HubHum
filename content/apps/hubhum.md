@@ -13,9 +13,9 @@ source_url: "https://github.com/DavanzoKeoma/HubHum"
 download_url: "https://davanzokeoma.github.io/HubHum/"
 downloadUrl: "https://davanzokeoma.github.io/HubHum/"
 download_label: "Visit Live Catalog"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Browser / Online"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -41,7 +41,7 @@ i18n:
 ---
 
 ### What it does in plain English
-HubHum turns complicated software pages meant for programmers into a clean, friendly catalog anyone can understand. Every listing explains what an app solves in real life, who it helps, and gives you direct links to the official installer without tracking or ads. It updates automatically across English, Italian, Spanish, French, and German, while letting privacy-minded readers pair downloads with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+HubHum turns complicated software pages meant for programmers into a clean, friendly catalog anyone can understand. Every listing explains what an app solves in real life, who it helps, and gives you direct links to the official installer without tracking or ads. It updates automatically across English, Italian, Spanish, French, and German.
 
 ### Who it's for
 * Everyday people looking for trustworthy free alternatives to expensive subscription software.
@@ -54,13 +54,18 @@ HubHum turns complicated software pages meant for programmers into a clean, frie
 * Automatic multi-language interface supporting English, Italian, Spanish, French, and German.
 * Verified release links checked regularly so you never hit broken download pages.
 * Community-friendly submission box to request a plain-language guide for any public project.
-* Search-friendly architecture ready to pair with optimization tools like [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-HubHum runs directly in your browser as an ultra-fast static web app. Browse the live catalog at [HubHum Live](https://davanzokeoma.github.io/HubHum/), or launch your own web app on managed cloud hosting with [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+HubHum runs directly in your browser as an ultra-fast static web app. Browse the live catalog at [HubHum Live](https://davanzokeoma.github.io/HubHum/).
 
 ### Pros and Cons
 * **Pros:** Free, instant loading, multi-language interface, and strictly verified official links.
 * **Cons:** Newly added community projects start without popularity counts until reviewed.
 
-[Official Source / Credits](https://github.com/DavanzoKeoma/HubHum)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/DavanzoKeoma/HubHum)

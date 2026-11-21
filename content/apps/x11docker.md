@@ -13,9 +13,9 @@ source_url: "https://github.com/mviereck/x11docker"
 download_url: "https://github.com/mviereck/x11docker/releases"
 downloadUrl: "https://github.com/mviereck/x11docker/releases"
 download_label: "Visit Official Site"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "All / Browser"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-x11docker allows you to run graphical Linux programs and entire desktop environments safely inside isolated containers. Instead of sharing vulnerable system display servers, it spins up a secure window server just for the containerized application. This keeps your main operating system cleanly separated from untrusted or experimental software. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+x11docker allows you to run graphical Linux programs and entire desktop environments safely inside isolated containers. Instead of sharing vulnerable system display servers, it spins up a secure window server just for the containerized application. This keeps your main operating system cleanly separated from untrusted or experimental software.
 
 ### Who it's for
 * Developers who need to test software across multiple isolated environment configurations without messing up their main system.
@@ -53,10 +53,9 @@ x11docker allows you to run graphical Linux programs and entire desktop environm
 * Enhanced security isolation that prevents common keylogging and screen-watching vulnerabilities.
 * Low resource usage compared to heavy traditional virtual machines.
 * Optional support for sound, webcams, printers, and GPU hardware acceleration.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). You can grab the latest releases and source code directly from the [Official Releases Page](https://github.com/mviereck/x11docker/releases). For a quick installation via terminal on systems with sudo access, you can run:
+You can grab the latest releases and source code directly from the [Official Releases Page](https://github.com/mviereck/x11docker/releases). For a quick installation via terminal on systems with sudo access, you can run:
 ```sh
 curl -fsSL https://raw.githubusercontent.com/mviereck/x11docker/master/x11docker | sudo bash -s -- --update
 ```
@@ -65,4 +64,10 @@ curl -fsSL https://raw.githubusercontent.com/mviereck/x11docker/master/x11docker
 * **Pros:** Keeps your host system completely clean, highly configurable security options, lightweight resource usage.
 * **Cons:** Advanced display configurations can take a little time to learn for absolute beginners.
 
-[Official Source / Credits](https://github.com/mviereck/x11docker)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/mviereck/x11docker)

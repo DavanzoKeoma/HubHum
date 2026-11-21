@@ -5,9 +5,9 @@ export const SUPPORTED_LANGS: SupportedLang[] = ['en', 'it', 'es', 'fr', 'de'];
 export function formatCompactStars(stars: number): string {
   if (stars >= 1000) {
     const val = stars / 1000;
-    return `★ ${val >= 100 ? Math.round(val) : val.toFixed(1).replace(/\.0$/, '')}k`;
+    return `★ ${val >= 100 ? Math.round(val) : val.toFixed(1).replace(/\.0$/, '')}k GitHub`;
   }
-  return `★ ${stars.toLocaleString('en')}`;
+  return `★ ${stars.toLocaleString('en')} GitHub`;
 }
 
 export interface TranslationDict {
@@ -67,15 +67,24 @@ export interface TranslationDict {
   guideAppsIncluded: string;
   guidesAllCta: string;
   badgeCloud: string;
+  badgeSelfHosted: string;
   badgeDesktop: string;
   badgeCli: string;
+  badgeResource: string;
   badgeNew: string;
   starsSuffix: string;
   chosenByPrefix: string;
   chosenBySuffix: string;
   ctaDesktop: string;
   ctaCloud: string;
+  ctaSelfHosted: string;
   ctaCli: string;
+  ctaResource: string;
+  cliWarningTitle: string;
+  cliWarningBody: string;
+  selfHostedWarningTitle: string;
+  selfHostedWarningBody: string;
+  jumpLiveSearch: string;
   submitTitle: string;
   submitDesc: string;
   submitPlaceholder: string;
@@ -95,8 +104,10 @@ export interface TranslationDict {
   detailCategory: string;
   detailMode: string;
   detailModeCloud: string;
+  detailModeSelfHosted: string;
   detailModeDesktop: string;
   detailModeCli: string;
+  detailModeResource: string;
   detailLicense: string;
   detailOfficialPage: string;
   detailOpenSource: string;
@@ -113,6 +124,7 @@ export interface TranslationDict {
   footerDisclaimer: string;
   footerAffiliate: string;
   footerCredits: string;
+  aboutLink: string;
   privacyLink: string;
   dashboardLink: string;
   sitemapLink: string;
@@ -187,15 +199,26 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     guideAppsIncluded: 'apps covered',
     guidesAllCta: 'Browse all Topic Guides →',
     badgeCloud: 'Cloud Web App',
+    badgeSelfHosted: 'Self-Hosted App',
     badgeDesktop: 'Desktop App',
     badgeCli: 'CLI Tool',
+    badgeResource: 'Open Reference',
     badgeNew: 'New',
     starsSuffix: 'stars on GitHub',
     chosenByPrefix: '★',
     chosenBySuffix: 'stars on GitHub',
     ctaDesktop: 'Explore & Download →',
     ctaCloud: 'Open in Cloud →',
+    ctaSelfHosted: 'Setup & Docs →',
     ctaCli: 'Get CLI Tool →',
+    ctaResource: 'Browse Guide →',
+    cliWarningTitle: 'Command-Line (Terminal) Tool:',
+    cliWarningBody:
+      'This program runs via typed text commands in Windows Terminal, PowerShell, or macOS/Linux Terminal rather than a visual point-and-click window. If you prefer graphical buttons, check alternative Desktop Apps in the Topic Cluster sidebar.',
+    selfHostedWarningTitle: 'Self-Hosted Software:',
+    selfHostedWarningBody:
+      'Designed to be installed on your own computer, local network, or private cloud server (not a hosted public website). Click Official Setup & Docs for installation steps.',
+    jumpLiveSearch: "Looking for an unindexed GitHub project? Search 800M+ repositories below ↓",
     submitTitle: 'Submit an App',
     submitDesc: 'Paste any GitHub URL to add a plain-English guide to HubHum',
     submitPlaceholder: 'https://github.com/author/app-name',
@@ -205,21 +228,23 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     backAllApps: '← Back to all software',
     saveFavorite: 'Save to Favorites',
     savedFavorite: 'Saved in Favorites',
-    partnerTipBadge: 'Recommended Add-on (#ad)',
-    partnerHeadingPrefix: 'Recommended:',
+    partnerTipBadge: 'Sponsored Partner (#ad)',
+    partnerHeadingPrefix: 'Partner Service:',
     partnerFallbackHeading: 'Enhance your setup',
-    partnerFallbackDesc: 'Curated partner solution suited for this software category.',
-    partnerCloudBtn: 'Open in Cloud (1-Click)',
+    partnerFallbackDesc: 'Optional commercial partner solution.',
+    partnerCloudBtn: 'Launch on Cloud Host (#ad)',
     partnerDiscoverPrefix: 'Explore',
     detailsHeading: 'Quick Specs',
     detailCategory: 'Category:',
     detailMode: 'Format:',
     detailModeCloud: 'Runs in your browser / cloud',
+    detailModeSelfHosted: 'Runs on your own server or PC (Self-Hosted)',
     detailModeDesktop: 'Desktop GUI installer',
     detailModeCli: 'Command-line / terminal tool',
+    detailModeResource: 'Curated reference list or guide',
     detailLicense: 'License:',
-    detailOfficialPage: 'Official Page:',
-    detailOpenSource: 'Visit source',
+    detailOfficialPage: 'Official Source:',
+    detailOpenSource: 'Visit GitHub source',
     clusterSidebarHeading: 'Topic Cluster Guides',
     clusterPillarLabel: 'Main Category Guide:',
     clusterSubpillarLabel: 'Focus Topic Hub:',
@@ -230,12 +255,13 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     reviewBtn: 'Write a review',
     disclosureTitle: 'Affiliate transparency (#ad):',
     disclosureBody:
-      'Some links on this page are affiliate links. If you choose to activate a service through them, we may earn a commission at no extra cost to you.',
+      'Some links inside Sponsored Partner Tools (#ad) and the sidebar partner box are affiliate links. If you choose to activate a service through them, we may earn a commission at no extra cost to you.',
     footerDisclaimer: 'HubHum is an independent directory and is not affiliated with GitHub, Inc.',
     footerAffiliate:
-      'Affiliate transparency (#ad): Some links on HubHum are affiliate links. If you purchase a service through them, we may earn a commission at no extra cost to you.',
+      'Affiliate transparency (#ad): HubHum displays affiliate links exclusively in clearly marked Sponsored Partner sections. Software choices and GitHub star counts are never paid placements.',
     footerCredits:
       'All listed software links strictly to official creator channels in full respect of open-source licenses.',
+    aboutLink: 'About & Transparency',
     privacyLink: 'Privacy Policy',
     dashboardLink: 'Dashboard',
     sitemapLink: 'Sitemap',
@@ -308,15 +334,26 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     guideAppsIncluded: 'app analizzate',
     guidesAllCta: 'Esplora tutte le Guide →',
     badgeCloud: 'Web App Cloud',
+    badgeSelfHosted: 'App Self-Hosted',
     badgeDesktop: 'App Desktop',
     badgeCli: 'Strumento CLI',
+    badgeResource: 'Guida & Risorsa',
     badgeNew: 'Novità',
     starsSuffix: 'stelle su GitHub',
     chosenByPrefix: '★',
     chosenBySuffix: 'stelle su GitHub',
     ctaDesktop: 'Scopri & Scarica →',
     ctaCloud: 'Apri nel Cloud →',
+    ctaSelfHosted: 'Guida & Setup →',
     ctaCli: 'Scopri Strumento CLI →',
+    ctaResource: 'Apri Risorsa →',
+    cliWarningTitle: 'Strumento da Terminale (CLI):',
+    cliWarningBody:
+      'Questo programma si usa digitando comandi nel Terminale (Prompt dei comandi, PowerShell o Terminale Mac/Linux), senza finestra grafica con pulsanti. Se cerchi un programma visivo, esplora le alternative Desktop nella barra laterale.',
+    selfHostedWarningTitle: 'Applicazione Self-Hosted:',
+    selfHostedWarningBody:
+      'Pensata per essere installata sul tuo PC, rete locale o server privato (non è un sito pubblico già pronto). Apri la documentazione ufficiale per installarla.',
+    jumpLiveSearch: 'Non trovi un progetto? Cerca su tutto GitHub più in basso ↓',
     submitTitle: "Proponi un'app",
     submitDesc: 'Incolla un link GitHub per aggiungere una guida chiara su HubHum',
     submitPlaceholder: 'https://github.com/autore/nome-app',
@@ -326,21 +363,23 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     backAllApps: '← Torna a tutte le app',
     saveFavorite: 'Salva nei preferiti',
     savedFavorite: 'Salvata nei preferiti',
-    partnerTipBadge: 'Consiglio pratico (#ad)',
-    partnerHeadingPrefix: 'Consigliato:',
+    partnerTipBadge: 'Partner Sponsorizzato (#ad)',
+    partnerHeadingPrefix: 'Servizio Partner:',
     partnerFallbackHeading: 'Migliora la tua esperienza',
-    partnerFallbackDesc: 'Soluzione partner selezionata per questa categoria.',
-    partnerCloudBtn: 'Apri nel Cloud (1-Click)',
+    partnerFallbackDesc: 'Soluzione commerciale opzionale.',
+    partnerCloudBtn: 'Avvia su Hosting Cloud (#ad)',
     partnerDiscoverPrefix: 'Scopri',
     detailsHeading: 'Dettagli rapidi',
     detailCategory: 'Categoria:',
     detailMode: 'Modalità:',
     detailModeCloud: 'Applicazione web nel cloud',
+    detailModeSelfHosted: 'Installabile sul tuo server o PC (Self-Hosted)',
     detailModeDesktop: 'App desktop con installazione',
     detailModeCli: 'Strumento da riga di comando (CLI)',
+    detailModeResource: 'Lista curata o risorsa informativa',
     detailLicense: 'Licenza:',
-    detailOfficialPage: 'Pagina ufficiale:',
-    detailOpenSource: 'Apri fonte',
+    detailOfficialPage: 'Fonte Ufficiale:',
+    detailOpenSource: 'Apri sorgente GitHub',
     clusterSidebarHeading: 'Guide del Topic Cluster',
     clusterPillarLabel: 'Guida Principale:',
     clusterSubpillarLabel: 'Sotto-categoria:',
@@ -351,12 +390,13 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     reviewBtn: 'Lascia una recensione',
     disclosureTitle: 'Trasparenza affiliazioni (#ad):',
     disclosureBody:
-      'Alcuni link su questa pagina sono di affiliazione: se attivi un servizio tramite questi link potremmo ricevere una commissione, senza costi aggiuntivi per te.',
+      'I link nella sezione Sponsored Partner Tools (#ad) e nel riquadro laterale sono link di affiliazione: se attivi un servizio potremmo ricevere una commissione senza costi aggiuntivi.',
     footerDisclaimer: 'HubHum è un catalogo indipendente e non è affiliato con GitHub, Inc.',
     footerAffiliate:
-      'Trasparenza affiliazioni (#ad): Alcuni link su HubHum sono link di affiliazione. Se acquisti un servizio tramite questi link potremmo ricevere una commissione, senza costi aggiuntivi per te.',
+      'Trasparenza affiliazioni (#ad): I link sponsorizzati sono confinati nelle aree dedicate (#ad). La selezione dei software e le stelle GitHub non sono mai a pagamento.',
     footerCredits:
       'Tutti i software rimandano esclusivamente ai canali ufficiali dei rispettivi autori nel rispetto delle licenze open-source.',
+    aboutLink: 'Chi Siamo & Trasparenza',
     privacyLink: 'Privacy Policy',
     dashboardLink: 'Dashboard',
     sitemapLink: 'Mappa del sito',
@@ -429,15 +469,26 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     guideAppsIncluded: 'apps analizadas',
     guidesAllCta: 'Explorar todas las Guías →',
     badgeCloud: 'App Web Cloud',
+    badgeSelfHosted: 'App Autoalojada',
     badgeDesktop: 'App de Escritorio',
     badgeCli: 'Herramienta CLI',
+    badgeResource: 'Guía y Recurso',
     badgeNew: 'Nuevo',
     starsSuffix: 'estrellas en GitHub',
     chosenByPrefix: '★',
     chosenBySuffix: 'estrellas en GitHub',
     ctaDesktop: 'Explorar y Descargar →',
     ctaCloud: 'Abrir en la Nube →',
+    ctaSelfHosted: 'Guía e Instalación →',
     ctaCli: 'Ver Herramienta CLI →',
+    ctaResource: 'Abrir Referencia →',
+    cliWarningTitle: 'Herramienta de Línea de Comandos (CLI):',
+    cliWarningBody:
+      'Este programa funciona escribiendo comandos en la terminal sin ventanas gráficas. Si prefieres botones visuales, revisa alternativas Desktop App en la barra lateral.',
+    selfHostedWarningTitle: 'Software Autoalojado (Self-Hosted):',
+    selfHostedWarningBody:
+      'Pensado para instalarse en tu propio servidor o equipo local, no es un sitio público alojado por nosotros.',
+    jumpLiveSearch: '¿Buscas otro proyecto? Búscalo en GitHub más abajo ↓',
     submitTitle: 'Enviar una app',
     submitDesc: 'Pega cualquier enlace de GitHub para añadir una guía clara en HubHum',
     submitPlaceholder: 'https://github.com/autor/nombre-app',
@@ -447,21 +498,23 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     backAllApps: '← Volver a todo el catálogo',
     saveFavorite: 'Guardar en favoritos',
     savedFavorite: 'Guardada en favoritos',
-    partnerTipBadge: 'Recomendación (#ad)',
-    partnerHeadingPrefix: 'Recomendado:',
+    partnerTipBadge: 'Socio Patrocinado (#ad)',
+    partnerHeadingPrefix: 'Servicio Asociado:',
     partnerFallbackHeading: 'Mejora tu configuración',
-    partnerFallbackDesc: 'Solución asociada ideal para esta categoría de software.',
-    partnerCloudBtn: 'Abrir en la Nube (1-Clic)',
+    partnerFallbackDesc: 'Solución comercial opcional.',
+    partnerCloudBtn: 'Lanzar en Hosting Cloud (#ad)',
     partnerDiscoverPrefix: 'Explorar',
     detailsHeading: 'Ficha rápida',
     detailCategory: 'Categoría:',
     detailMode: 'Formato:',
     detailModeCloud: 'Funciona en tu navegador / nube',
+    detailModeSelfHosted: 'Se instala en tu propio servidor o equipo',
     detailModeDesktop: 'Instalador de escritorio',
     detailModeCli: 'Herramienta de línea de comandos (CLI)',
+    detailModeResource: 'Lista curada o recurso de referencia',
     detailLicense: 'Licencia:',
-    detailOfficialPage: 'Página oficial:',
-    detailOpenSource: 'Visitar fuente',
+    detailOfficialPage: 'Fuente Oficial:',
+    detailOpenSource: 'Visitar GitHub',
     clusterSidebarHeading: 'Guías de este Tema',
     clusterPillarLabel: 'Guía Principal:',
     clusterSubpillarLabel: 'Subtema:',
@@ -472,12 +525,13 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     reviewBtn: 'Escribir reseña',
     disclosureTitle: 'Transparencia de afiliados (#ad):',
     disclosureBody:
-      'Algunos enlaces en esta página son de afiliados. Si contratas un servicio mediante ellos, podemos recibir una comisión sin costo adicional para ti.',
+      'Los enlaces dentro de Sponsored Partner Tools (#ad) y el bloque lateral son enlaces de afiliados sin coste adicional para ti.',
     footerDisclaimer: 'HubHum es un directorio independiente y no está afiliado con GitHub, Inc.',
     footerAffiliate:
-      'Transparencia de afiliados (#ad): Algunos enlaces en HubHum son de afiliados. Si compras un servicio mediante ellos, podemos recibir una comisión sin coste adicional para ti.',
+      'Transparencia de afiliados (#ad): Los enlaces patrocinados están separados en su bloque dedicado (#ad). Las estrellas proceden directamente de GitHub.',
     footerCredits:
       'Todas las aplicaciones enlazan directamente con los canales oficiales de sus autores respetando las licencias de código abierto.',
+    aboutLink: 'Acerca de y Transparencia',
     privacyLink: 'Política de Privacidad',
     dashboardLink: 'Panel',
     sitemapLink: 'Mapa del sitio',
@@ -550,15 +604,26 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     guideAppsIncluded: 'apps analysées',
     guidesAllCta: 'Tous les Guides Thématiques →',
     badgeCloud: 'App Web Cloud',
+    badgeSelfHosted: 'App Auto-hébergée',
     badgeDesktop: 'App Bureau',
     badgeCli: 'Outil CLI',
+    badgeResource: 'Guide & Référence',
     badgeNew: 'Nouveau',
     starsSuffix: 'étoiles sur GitHub',
     chosenByPrefix: '★',
     chosenBySuffix: 'étoiles sur GitHub',
     ctaDesktop: 'Découvrir & Télécharger →',
     ctaCloud: 'Ouvrir dans le Cloud →',
+    ctaSelfHosted: 'Installation & Docs →',
     ctaCli: "Voir l'Outil CLI →",
+    ctaResource: 'Consulter le Guide →',
+    cliWarningTitle: 'Outil en Ligne de Commande (CLI) :',
+    cliWarningBody:
+      'Ce programme fonctionne par commandes texte dans un terminal plutôt que via des boutons graphiques.',
+    selfHostedWarningTitle: 'Application Auto-hébergée (Self-Hosted) :',
+    selfHostedWarningBody:
+      'Conçue pour être installée sur votre propre ordinateur ou serveur privé (et non un service web hébergé par défaut).',
+    jumpLiveSearch: 'Projet introuvable ? Cherchez sur GitHub plus bas ↓',
     submitTitle: 'Proposer une app',
     submitDesc: 'Collez un lien GitHub pour ajouter un guide clair sur HubHum',
     submitPlaceholder: 'https://github.com/auteur/nom-app',
@@ -568,21 +633,23 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     backAllApps: '← Retour au catalogue',
     saveFavorite: 'Ajouter aux favoris',
     savedFavorite: 'Enregistrée en favoris',
-    partnerTipBadge: 'Recommandation (#ad)',
-    partnerHeadingPrefix: 'Recommandé :',
+    partnerTipBadge: 'Partenaire Sponsorisé (#ad)',
+    partnerHeadingPrefix: 'Service Partenaire :',
     partnerFallbackHeading: 'Optimisez votre usage',
-    partnerFallbackDesc: 'Solution partenaire sélectionnée pour cette catégorie.',
-    partnerCloudBtn: 'Ouvrir dans le Cloud (1-Clic)',
+    partnerFallbackDesc: 'Solution commerciale optionnelle.',
+    partnerCloudBtn: 'Héberger dans le Cloud (#ad)',
     partnerDiscoverPrefix: 'Découvrir',
     detailsHeading: 'Détails rapides',
     detailCategory: 'Catégorie :',
     detailMode: 'Format :',
     detailModeCloud: 'Application web dans le cloud',
+    detailModeSelfHosted: 'Installation sur votre serveur ou PC (Self-Hosted)',
     detailModeDesktop: 'Application de bureau installable',
     detailModeCli: 'Outil en ligne de commande (CLI)',
+    detailModeResource: 'Répertoire de ressources ou guide',
     detailLicense: 'Licence :',
-    detailOfficialPage: 'Page officielle :',
-    detailOpenSource: 'Voir la source',
+    detailOfficialPage: 'Source Officielle :',
+    detailOpenSource: 'Voir sur GitHub',
     clusterSidebarHeading: 'Guides du Thème',
     clusterPillarLabel: 'Guide Principal :',
     clusterSubpillarLabel: 'Sous-thème :',
@@ -593,12 +660,13 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     reviewBtn: 'Laisser un avis',
     disclosureTitle: "Transparence d'affiliation (#ad) :",
     disclosureBody:
-      "Certains liens sur cette page sont des liens d'affiliation. Si vous souscrivez un service via ces liens, nous pouvons percevoir une commission sans surcoût pour vous.",
+      "Les liens situés dans Sponsored Partner Tools (#ad) et le bloc latéral sont des liens d'affiliation sans frais supplémentaires.",
     footerDisclaimer: "HubHum est un répertoire indépendant et n'est pas affilié à GitHub, Inc.",
     footerAffiliate:
-      "Transparence d'affiliation (#ad) : Certains liens sur HubHum sont affiliés. Si vous achetez un service via ces liens, nous pouvons percevoir une commission sans frais supplémentaires.",
+      "Transparence d'affiliation (#ad) : Les liens sponsorisés sont isolés dans les blocs dédiés (#ad). Les classements et étoiles proviennent de GitHub.",
     footerCredits:
       'Tous les logiciels renvoient exclusivement vers les canaux officiels de leurs auteurs.',
+    aboutLink: 'À Propos & Transparence',
     privacyLink: 'Confidentialité',
     dashboardLink: 'Tableau de bord',
     sitemapLink: 'Plan du site',
@@ -671,15 +739,26 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     guideAppsIncluded: 'Apps enthalten',
     guidesAllCta: 'Alle Themen-Guides ansehen →',
     badgeCloud: 'Cloud Web-App',
+    badgeSelfHosted: 'Self-Hosted-App',
     badgeDesktop: 'Desktop-App',
     badgeCli: 'CLI-Tool',
+    badgeResource: 'Leitfaden & Referenz',
     badgeNew: 'Neu',
     starsSuffix: 'Sterne auf GitHub',
     chosenByPrefix: '★',
     chosenBySuffix: 'Sterne auf GitHub',
     ctaDesktop: 'Entdecken & Laden →',
     ctaCloud: 'In der Cloud öffnen →',
+    ctaSelfHosted: 'Setup & Doku →',
     ctaCli: 'CLI-Tool öffnen →',
+    ctaResource: 'Referenz öffnen →',
+    cliWarningTitle: 'Kommandozeilen-Programm (CLI):',
+    cliWarningBody:
+      'Dieses Tool wird über Textbefehle im Terminal ohne klassische grafische Oberfläche bedient.',
+    selfHostedWarningTitle: 'Self-Hosted Software:',
+    selfHostedWarningBody:
+      'Für den Betrieb auf Ihrem eigenen Server oder lokalen Rechner gedacht – kein direkt nutzbarer öffentlicher Cloud-Dienst.',
+    jumpLiveSearch: 'Nicht dabei? Millionen GitHub-Projekte unten durchsuchen ↓',
     submitTitle: 'App vorschlagen',
     submitDesc: 'Fügen Sie einen GitHub-Link ein, um eine verständliche Anleitung auf HubHum zu erstellen',
     submitPlaceholder: 'https://github.com/autor/app-name',
@@ -689,21 +768,23 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     backAllApps: '← Zurück zur Übersicht',
     saveFavorite: 'Als Favorit speichern',
     savedFavorite: 'Als Favorit gespeichert',
-    partnerTipBadge: 'Empfehlung (#ad)',
-    partnerHeadingPrefix: 'Empfohlen:',
+    partnerTipBadge: 'Gesponserter Partner (#ad)',
+    partnerHeadingPrefix: 'Partner-Dienst:',
     partnerFallbackHeading: 'Einrichtung erweitern',
-    partnerFallbackDesc: 'Passende Partnerlösung für diese Softwarekategorie.',
-    partnerCloudBtn: 'In der Cloud öffnen (1-Klick)',
+    partnerFallbackDesc: 'Optionale kommerzielle Partnerlösung.',
+    partnerCloudBtn: 'Auf Cloud-Hosting starten (#ad)',
     partnerDiscoverPrefix: 'Entdecken:',
     detailsHeading: 'Kurzinfos',
     detailCategory: 'Kategorie:',
     detailMode: 'Format:',
     detailModeCloud: 'Läuft im Browser / in der Cloud',
+    detailModeSelfHosted: 'Betrieb auf eigenem Server / PC (Self-Hosted)',
     detailModeDesktop: 'Desktop-Programm zum Installieren',
     detailModeCli: 'Kommandozeilen-Werkzeug (CLI)',
+    detailModeResource: 'Kuratierte Liste oder Leitfaden',
     detailLicense: 'Lizenz:',
-    detailOfficialPage: 'Offizielle Seite:',
-    detailOpenSource: 'Quelle öffnen',
+    detailOfficialPage: 'Offizielle Quelle:',
+    detailOpenSource: 'GitHub-Quelle öffnen',
     clusterSidebarHeading: 'Themen-Cluster-Ratgeber',
     clusterPillarLabel: 'Hauptkategorie:',
     clusterSubpillarLabel: 'Unterthema:',
@@ -714,12 +795,13 @@ export const TRANSLATIONS: Record<SupportedLang, TranslationDict> = {
     reviewBtn: 'Bewertung schreiben',
     disclosureTitle: 'Affiliate-Hinweis (#ad):',
     disclosureBody:
-      'Einige Links auf dieser Seite sind Affiliate-Links. Bei einer Buchung erhalten wir ggf. eine Provision ohne Mehrkosten für Sie.',
+      'Links im Bereich Sponsored Partner Tools (#ad) und in der Seitenleiste sind Affiliate-Links ohne Mehrkosten für Sie.',
     footerDisclaimer: 'HubHum ist ein unabhängiges Verzeichnis und nicht mit GitHub, Inc. verbunden.',
     footerAffiliate:
-      'Affiliate-Hinweis (#ad): Einige Links auf HubHum sind Partnerlinks. Bei einem Kauf erhalten wir ggf. eine Provision ohne Aufpreis.',
+      'Affiliate-Hinweis (#ad): Gesponserte Links befinden sich ausschließlich in klar markierten Partner-Bereichen (#ad).',
     footerCredits:
       'Alle Programme verweisen direkt auf die offiziellen Kanäle der Entwickler gemäß Open-Source-Lizenz.',
+    aboutLink: 'Über HubHum & Transparenz',
     privacyLink: 'Datenschutz',
     dashboardLink: 'Dashboard',
     sitemapLink: 'Sitemap',

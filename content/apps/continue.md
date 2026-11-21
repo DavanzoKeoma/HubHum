@@ -13,9 +13,9 @@ source_url: "https://github.com/continuedev/continue"
 download_url: "https://continue.dev"
 downloadUrl: "https://continue.dev"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Continue acts as an intelligent helper that lives inside your workspace to answer questions about your files, generate functions from simple descriptions, and spot errors on the fly. It streamlines your daily programming tasks by connecting smart language models directly to your workflow. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Continue acts as an intelligent helper that lives inside your workspace to answer questions about your files, generate functions from simple descriptions, and spot errors on the fly. It streamlines your daily programming tasks by connecting smart language models directly to your workflow.
 
 ### Who it's for
 * Software developers looking to speed up routine coding tasks and boilerplate generation.
@@ -54,7 +54,6 @@ Continue acts as an intelligent helper that lives inside your workspace to answe
 * Allows you to highlight sections of code to ask for instant explanations, refactoring suggestions, or bug fixes.
 * Fully customizable configuration options so you can connect your preferred language models and backends.
 * Privacy-focused release with removed anonymous telemetry and streamlined offline capabilities.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can easily add Continue to your preferred development environment using the official extension marketplaces and package registries. Choose from the available options below:
@@ -62,10 +61,15 @@ You can easily add Continue to your preferred development environment using the 
 * [Get Continue on OpenVSX Registry](https://open-vsx.org/extension/Continue/continue)
 * [Install the Continue CLI via npm](https://www.npmjs.com/package/@continuedev/cli)
 * [Browse Releases on GitHub](https://github.com/continuedev/continue/releases)
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** Completely open-source, highly customizable, and integrates smoothly into existing text editors.
 * **Cons:** Advanced setup and model configuration may take a few minutes for absolute beginners.
 
-[Official Source / Credits](https://github.com/continuedev/continue)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/continuedev/continue)

@@ -5,7 +5,7 @@ tagline: "Your personal self-hosted music streaming service"
 summary: "Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device."
 tags: ["music", "streaming", "cloud-app", "audio"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Video & Audio"
 icon: "/icons/navidrome.png"
 stars: 24852
@@ -13,9 +13,9 @@ source_url: "https://github.com/navidrome/navidrome"
 download_url: "https://github.com/navidrome/navidrome/releases/download/v0.64.2/navidrome_0.64.2_windows_386_installer.msi"
 downloadUrl: "https://github.com/navidrome/navidrome/releases/download/v0.64.2/navidrome_0.64.2_windows_386_installer.msi"
 download_label: "Download for Windows (.msi)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Navidrome lets you take complete control of your digital music library by creating your very own private streaming hub. You can upload all your favorite albums, organize your tracks neatly, and listen to them from anywhere in the world. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Navidrome lets you take complete control of your digital music library by creating your very own private streaming hub. You can upload all your favorite albums, organize your tracks neatly, and listen to them from anywhere in the world.
 
 ### Who it's for
 * Music enthusiasts who want to own their digital audio files rather than renting them through pricey monthly subscriptions.
@@ -52,10 +52,9 @@ Navidrome lets you take complete control of your digital music library by creati
 * Handles huge music libraries smoothly without slowing down your system.
 * Lets multiple users create separate accounts with individual play counts and playlists.
 * Automatically updates whenever you add new music files to your folders.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can open this web application instantly in the cloud using managed providers like [PikaPods](https://www.pikapods.com/pods?run=navidrome), [Zenith Hosting](https://zenith.hosting/host/navidrome?ref=navidrome), or [ElfHosted](https://store.elfhosted.com/product/navidrome/). If you prefer running it locally on your own equipment, you can grab the official installers below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can open this web application instantly in the cloud using managed providers like [PikaPods](https://www.pikapods.com/pods?run=navidrome), [Zenith Hosting](https://zenith.hosting/host/navidrome?ref=navidrome), or [ElfHosted](https://store.elfhosted.com/product/navidrome/). If you prefer running it locally on your own equipment, you can grab the official installers below.
 
 * [Download for Windows (.msi) (386)](https://github.com/navidrome/navidrome/releases/download/v0.64.2/navidrome_0.64.2_windows_386_installer.msi)
 * [Download for Windows (.msi) (AMD64)](https://github.com/navidrome/navidrome/releases/download/v0.64.2/navidrome_0.64.2_windows_amd64_installer.msi)
@@ -70,4 +69,10 @@ You can open this web application instantly in the cloud using managed providers
 * **Pros:** Completely free and open source, low resource usage on your hardware, and works with many existing music listening apps.
 * **Cons:** Requires a bit of initial setup and technical know-how to get running on your own hardware or server.
 
-[Official Source / Credits](https://github.com/navidrome/navidrome)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/navidrome/navidrome)

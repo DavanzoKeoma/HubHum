@@ -13,7 +13,7 @@ source_url: "https://github.com/SimonAKing/scrcpy-gui"
 download_url: "https://github.com/SimonAKing/scrcpy-gui/releases/download/v2.5.0/Scrcpy.GUI-2.5.0-win-ia32.exe"
 downloadUrl: "https://github.com/SimonAKing/scrcpy-gui/releases/download/v2.5.0/Scrcpy.GUI-2.5.0-win-ia32.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux, Android"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Scrcpy GUI provides a friendly visual window to mirror and control your Android smartphone or tablet directly from your computer screen. It removes the hassle of typing complex commands by offering simple buttons for wireless connections, screen recording, and multi-device management. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Scrcpy GUI provides a friendly visual window to mirror and control your Android smartphone or tablet directly from your computer screen. It removes the hassle of typing complex commands by offering simple buttons for wireless connections, screen recording, and multi-device management.
 
 ### Who it's for
 * App developers and testers who need to interact with multiple Android phones at once on a desktop screen.
@@ -54,7 +54,6 @@ Scrcpy GUI provides a friendly visual window to mirror and control your Android 
 * Simultaneous multi-device launching so you can manage several phones at the same time.
 * Convenient recording tools to save video files of your device screen directly to your computer.
 * Built-in shortcut controls for volume, power, rotation, and quick navigation.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 Grab the correct installation package for your operating system from the links below:
@@ -63,10 +62,14 @@ Grab the correct installation package for your operating system from the links b
 * **Mac:** [Download for Mac Apple Silicon (.dmg)](https://github.com/SimonAKing/scrcpy-gui/releases/download/v2.5.0/Scrcpy.GUI-2.5.0-mac-arm64.dmg) or [Download for Mac Intel (.dmg)](https://github.com/SimonAKing/scrcpy-gui/releases/download/v2.5.0/Scrcpy.GUI-2.5.0-mac-x64.dmg)
 * **Linux:** [Download for Linux AppImage](https://github.com/SimonAKing/scrcpy-gui/releases/download/v2.5.0/Scrcpy.GUI-2.5.0-linux-x86_64.AppImage) or [Download for Linux Debian (.deb)](https://github.com/SimonAKing/scrcpy-gui/releases/download/v2.5.0/Scrcpy.GUI-2.5.0-linux-amd64.deb)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free and open-source, features zero ads, and bundles everything required without complex terminal configurations.
 * **Cons:** Requires enabling developer settings on your phone, and wireless pairing requires initial setup steps.
 
-[Official Source / Credits](https://github.com/SimonAKing/scrcpy-gui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/SimonAKing/scrcpy-gui)

@@ -13,7 +13,7 @@ source_url: "https://github.com/persepolisdm/persepolis"
 download_url: "https://github.com/persepolisdm/persepolis/releases/download/5.2.0/persepolis_5.2.0.0_windows_64bit.exe"
 downloadUrl: "https://github.com/persepolisdm/persepolis/releases/download/5.2.0/persepolis_5.2.0.0_windows_64bit.exe"
 download_label: "Download for Windows (.exe)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Persepolis acts as your personal download assistant, speeding up heavy file transfers by splitting them into multiple parts simultaneously. It lets you schedule downloads for later times so you never have to wait around. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). Plus, it connects smoothly with popular web browsers to grab videos and files with a single click.
+Persepolis acts as your personal download assistant, speeding up heavy file transfers by splitting them into multiple parts simultaneously. It lets you schedule downloads for later times so you never have to wait around. Plus, it connects smoothly with popular web browsers to grab videos and files with a single click.
 
 ### Who it's for
 * Students and researchers downloading large educational videos and reference archives.
@@ -53,7 +53,6 @@ Persepolis acts as your personal download assistant, speeding up heavy file tran
 * Multi-segment downloading that breaks files into pieces to maximize your internet speed.
 * Built-in support for grabbing online video and audio clips from various media platforms.
 * Download scheduling and queue management to organize your files effortlessly.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Clean, distraction-free user interface that stays out of your way.
 
 ### How to install (Download)
@@ -63,10 +62,14 @@ Choose the correct installer for your operating system from the official links b
 * [Download for Mac (.dmg)](https://github.com/persepolisdm/persepolis/releases/download/5.2.0/persepolis_5.2.0.0_macos.dmg)
 * [Download for Linux (.deb)](https://github.com/persepolisdm/persepolis/releases/download/5.2.0/persepolis_5.2.0.2_all.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free and open-source, highly customizable queues, fast multi-connection downloading.
 * **Cons:** Requires external helper tools for certain advanced video conversions.
 
-[Official Source / Credits](https://github.com/persepolisdm/persepolis)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/persepolisdm/persepolis)

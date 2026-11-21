@@ -13,9 +13,9 @@ source_url: "https://github.com/HandBrake/HandBrake"
 download_url: "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe"
 downloadUrl: "https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2-arm64-Win_GUI.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-HandBrake takes video files you already own and transforms them into modern formats that work on phones, tablets, game consoles, and computers. It handles almost any input video you throw at it, including clips from professional cameras, screen recordings, and optical discs. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). You simply pick a pre-made setting designed for your target screen, hit start, and let the software crunch the numbers to shrink file sizes without losing visual quality.
+HandBrake takes video files you already own and transforms them into modern formats that work on phones, tablets, game consoles, and computers. It handles almost any input video you throw at it, including clips from professional cameras, screen recordings, and optical discs. You simply pick a pre-made setting designed for your target screen, hit start, and let the software crunch the numbers to shrink file sizes without losing visual quality.
 
 ### Who it's for
 * Content creators looking to compress large raw video recordings before uploading them to video sharing websites.
@@ -54,7 +54,6 @@ HandBrake takes video files you already own and transforms them into modern form
 * Built-in device presets that instantly configure settings for specific phones, tablets, streaming boxes, and computers.
 * Advanced controls for fine-tuning video resolution, cropping, frame rates, and audio tracks if you want precise customization.
 * Support for batch processing, letting you queue up multiple video files to convert overnight or while you step away.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can download the official application using the direct installer links below depending on your operating system.
@@ -63,10 +62,14 @@ You can download the official application using the direct installer links below
 * [Download for Mac (.dmg)](https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrake-1.11.2.dmg)
 * [Download CLI for Mac (.dmg)](https://github.com/HandBrake/HandBrake/releases/download/1.11.2/HandBrakeCLI-1.11.2.dmg)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free and open-source with zero hidden fees or subscription walls; highly customizable processing power usage.
 * **Cons:** Advanced video encoding settings can feel overwhelming for absolute beginners who just want a one-click solution.
 
-[Official Source / Credits](https://github.com/HandBrake/HandBrake)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/HandBrake/HandBrake)

@@ -5,17 +5,17 @@ tagline: "Your custom homepage for all apps"
 summary: "Dashy organizes all your web links and online tools into a single, beautiful dashboard page."
 tags: ["dashboard", "home-server", "organization", "productivity"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/dashy.png"
 stars: 27031
 source_url: "https://github.com/lissy93/dashy"
 download_url: "https://github.com/lissy93/dashy/releases/download/4.9.0/dashy-4.9.0.tar.gz.intoto.jsonl"
 downloadUrl: "https://github.com/lissy93/dashy/releases/download/4.9.0/dashy-4.9.0.tar.gz.intoto.jsonl"
-download_label: "Download (dashy-4.9.0.tar.gz.intoto.jsonl)"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Dashy brings all your favorite web links, online services, and favorite websites together onto one clean, personalized home page. You can easily check if your connected tools are online and responding in real-time right from the screen. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Dashy brings all your favorite web links, online services, and favorite websites together onto one clean, personalized home page. You can easily check if your connected tools are online and responding in real-time right from the screen.
 
 ### Who it's for
 * Home server enthusiasts who want a clean central hub to monitor and access all their running applications.
@@ -53,11 +53,10 @@ Dashy brings all your favorite web links, online services, and favorite websites
 * Real-time status checks show green or red indicators so you instantly know if a service is running smoothly.
 * Instant search lets you type letters to filter applications by name, domain, or custom tags without clicking.
 * Multiple visual themes, custom layouts, and icon choices make it fun to match your personal style.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 * Built-in widgets display dynamic live content from your connected tools directly on the grid.
 
 ### How to install (Download)
-You can run Dashy easily on your own hardware or server using Docker, or launch it in the cloud. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). 
+You can run Dashy easily on your own hardware or server using Docker, or launch it in the cloud. Prefer not to manage servers by hand?
 
 Alternatively, grab the official package files directly from the [Dashy GitHub Releases](https://github.com/lissy93/dashy/releases).
 
@@ -65,4 +64,10 @@ Alternatively, grab the official package files directly from the [Dashy GitHub R
 * **Pros:** Completely free and open source, highly customizable, includes built-in authentication and offline support.
 * **Cons:** Advanced layout tweaks require editing text settings files or getting familiar with the configuration panel.
 
-[Official Source / Credits](https://github.com/lissy93/dashy)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/lissy93/dashy)

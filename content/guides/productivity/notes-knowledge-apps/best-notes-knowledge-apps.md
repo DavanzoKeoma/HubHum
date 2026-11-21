@@ -1,36 +1,38 @@
 ---
-title: "Best Free Free Note-Taking & Knowledge Apps: Awesome vs Joplin Compared"
+title: "Best Free Note-Taking & Knowledge Apps: Awesome vs Pake Compared"
 slug: "productivity/notes-knowledge-apps/best-notes-knowledge-apps"
 level: 3
 macro_category: "Productivity"
 macro_slug: "productivity"
-sub_topic: "Free Note-Taking & Knowledge Apps"
+sub_topic: "Note-Taking & Knowledge Apps"
 sub_slug: "notes-knowledge-apps"
 intent: "comparison"
-summary: "Compare Awesome vs Joplin and the top free tools for Free Note-Taking & Knowledge Apps with clear differences and official downloads."
+summary: "Compare Awesome vs Pake and 8 free tools for Note-Taking & Knowledge Apps with honest format, OS, and license details."
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
-app_slugs: ["awesome", "joplin", "obsidian-skills", "dbx", "editor", "jcode", "obtainium", "cutter"]
+app_slugs: ["awesome", "pake", "joplin", "obsidian-skills", "codewhale", "claude-code-templates", "dbx", "editor"]
 updated_at: "2026-11-21"
 ---
 
-## Quick Answer: Awesome vs Joplin
+## Quick Answer: Awesome vs Pake
 
-Comparing **Awesome** and **Joplin** comes down to how you prefer to work. **Awesome** stands out as a top community favorite (539,167 GitHub stars) and runs as a **Desktop App**: Explore carefully organized collections of interesting topics, software tools, and guides curated by experts. Meanwhile, **Joplin** (57,234 GitHub stars) gives you another trusted free option: Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.
+Comparing **Awesome** and **Pake** highlights two distinct approaches in **Note-Taking & Knowledge Apps**. **Awesome** runs as a **Open Reference** on **All / Reference** (539,167 GitHub stars): Explore carefully organized collections of interesting topics, software tools, and guides curated by experts. By contrast, **Pake** runs as a **Desktop App** on **Windows, macOS, Linux** (63,869 GitHub stars): Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.
 
-### Side-by-Side Comparison
+### Side-by-Side Comparison (8 Tools Reviewed)
 
-| Software | Format | Systems Supported | Community Stars | License |
+| Software | Format | Systems Supported | GitHub Stars | License |
 | --- | --- | --- | --- | --- |
-| [Awesome](/HubHum/apps/awesome/) | Desktop App | Windows, macOS, Linux, Android | ★ 539,167 | CC0-1.0 |
-| [Joplin](/HubHum/apps/joplin/) | Desktop App | Windows, macOS, Linux, Android | ★ 57,234 | MIT |
-| [Obsidian Skills](/HubHum/apps/obsidian-skills/) | Desktop App | Windows, macOS, Linux, Android | ★ 53,269 | MIT |
-| [dbx](/HubHum/apps/dbx/) | Desktop App | Windows, macOS, Linux | ★ 31,013 | Apache-2.0 |
-| [Pascal Editor](/HubHum/apps/editor/) | Desktop App | Windows, macOS, Linux, Android | ★ 25,648 | MIT |
-| [jcode](/HubHum/apps/jcode/) | Desktop App | Windows | ★ 21,936 | MIT |
+| [Awesome](/HubHum/apps/awesome/) | Open Reference | All / Reference | ★ 539,167 | Public Domain / Free |
+| [Pake](/HubHum/apps/pake/) | Desktop App | Windows, macOS, Linux | ★ 63,869 | Open Source (GPL v3) |
+| [Joplin](/HubHum/apps/joplin/) | Desktop App | Windows, macOS, Linux | ★ 57,234 | Open Source (MIT) |
+| [Obsidian Skills](/HubHum/apps/obsidian-skills/) | Open Reference | All / Reference | ★ 53,269 | Open Source (MIT) |
+| [Codewhale](/HubHum/apps/codewhale/) | Desktop App | Windows | ★ 41,189 | Open Source (MIT) |
+| [claude-code-templates](/HubHum/apps/claude-code-templates/) | Open Reference | All / Reference | ★ 34,018 | Open Source (MIT) |
+| [dbx](/HubHum/apps/dbx/) | Desktop App | Windows, macOS, Linux | ★ 31,013 | Open Source (Apache 2.0) |
+| [Pascal Editor](/HubHum/apps/editor/) | Desktop App | Windows, macOS, Linux | ★ 25,648 | Open Source (MIT) |
 
 ### When to Pick Which Option
-- **Choose [Awesome](/HubHum/apps/awesome/)** if you want the broadest community support and an established tool trusted by thousands of users.
-- **Choose [Joplin](/HubHum/apps/joplin/)** if its focused features fit your workflow faster without extra clutter.
-- Check every individual app card below to review pros, cons, and verified official download links before installing.
+- **Choose [Awesome](/HubHum/apps/awesome/) (Open Reference)** if you need what it specializes in: Explore carefully organized collections of interesting topics, software tools, and guides curated by experts — it works in **Open Reference** mode (All / Reference) (539,167 GitHub stars, vs Pake which runs as a Desktop App).
+- **Choose [Pake](/HubHum/apps/pake/) (Desktop App)** if you need what it specializes in: Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat — it installs directly as a desktop application (Windows, macOS, Linux) (63,869 GitHub stars, vs Awesome which runs as a Open Reference).
+- Review the individual app cards below to verify exact installer options, operating system requirements, and transparent GitHub source links before downloading.

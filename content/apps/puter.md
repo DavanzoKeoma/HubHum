@@ -5,17 +5,17 @@ tagline: "Your personal cloud computer anywhere"
 summary: "Puter is a free, open-source internet computer that brings all your files, applications, and games together in one accessible web place."
 tags: ["cloud", "desktop", "opensource", "selfhosted"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/puter.png"
 stars: 44214
 source_url: "https://github.com/HeyPuter/puter"
 download_url: "https://puter.com"
 downloadUrl: "https://puter.com"
-download_label: "Visit Official Site"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Puter gives you a complete operating environment directly inside your internet browser, acting as your personal cloud computer. You can store files, open documents, browse the web, and run lightweight programs without installing anything locally. When managing your site on the go, you can protect remote administrator dashboards with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Puter gives you a complete operating environment directly inside your internet browser, acting as your personal cloud computer. You can store files, open documents, browse the web, and run lightweight programs without installing anything locally.
 
 ### Who it's for
 * Everyday computer users who want an accessible workspace across multiple devices.
@@ -54,10 +54,9 @@ Puter gives you a complete operating environment directly inside your internet b
 * Open-source and fully self-hostable on your own hardware or server.
 * Integrated development environment with cloud storage and database tools for creators.
 * App store access to discover, install, and share community-made web applications.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can visit the hosted service directly at [Puter.com](https://puter.com/?ref=github.com). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can visit the hosted service directly at [Puter.com](https://puter.com/?ref=github.com). Prefer not to manage servers by hand?
 
 If you want to run it on your own hardware, use the following commands:
 
@@ -75,4 +74,10 @@ If you want to run it on your own hardware, use the following commands:
 * **Pros:** Free forever, highly extensible, and puts total control of your data back in your hands.
 * **Cons:** Advanced self-hosting configurations require some technical setup and server knowledge.
 
-[Official Source / Credits](https://github.com/HeyPuter/puter)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/HeyPuter/puter)

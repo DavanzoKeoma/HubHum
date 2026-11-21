@@ -13,9 +13,9 @@ source_url: "https://github.com/symfony/console"
 download_url: "https://symfony.com/console"
 downloadUrl: "https://symfony.com/console"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Console is a toolkit designed to help people build professional text-based interfaces for their computer programs. It handles the complex work of processing typed commands so that your software can respond clearly to user input. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Console is a toolkit designed to help people build professional text-based interfaces for their computer programs. It handles the complex work of processing typed commands so that your software can respond clearly to user input.
 
 ### Who it's for
 * Software creators who want to build helpful command-line utilities.
@@ -52,13 +52,18 @@ Console is a toolkit designed to help people build professional text-based inter
 * Creates easy-to-read, colorful, and formatted text outputs.
 * Handles complex user inputs and arguments automatically.
 * Includes built-in help menus so users know exactly how to use your tool.
-* Helps everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-This tool is intended for software creators to include in their projects. You can learn how to integrate it into your work by visiting the [Official Documentation](https://symfony.com/console). Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+This tool is intended for software creators to include in their projects. You can learn how to integrate it into your work by visiting the [Official Documentation](https://symfony.com/console).
 
 ### Pros and Cons
 * **Pros:** Highly reliable, widely used in the industry, and creates a professional user experience.
 * **Cons:** Requires basic knowledge of programming to set up and configure.
 
-[Official Source / Credits](https://github.com/symfony/console)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/symfony/console)

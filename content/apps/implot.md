@@ -13,9 +13,9 @@ source_url: "https://github.com/epezent/implot"
 download_url: "https://github.com/epezent/implot/releases"
 downloadUrl: "https://github.com/epezent/implot/releases"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-ImPlot acts as an instant window into how your software behaves by drawing live graphs directly on your screen. Instead of guessing what numbers your program is crunching behind the scenes, you can watch them update smoothly in real time. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad). It fits seamlessly into your workspace without demanding heavy setup or complicated menu diving.
+ImPlot acts as an instant window into how your software behaves by drawing live graphs directly on your screen. Instead of guessing what numbers your program is crunching behind the scenes, you can watch them update smoothly in real time. It fits seamlessly into your workspace without demanding heavy setup or complicated menu diving.
 
 ### Who it's for
 * **Software Developers:** Programmers who need a fast, hassle-free way to visualize metrics and telemetry inside their apps.
@@ -54,12 +54,18 @@ ImPlot acts as an instant window into how your software behaves by drawing live 
 * **Multiple Chart Styles:** Supports line graphs, bar charts, scatter plots, pie charts, heatmaps, and digital stems out of the box.
 * **Interactive Controls:** Lets you easily zoom in, pan around, select specific regions, and automatically fit data to your screen.
 * **Deep Customization:** Adjust colors, line weights, markers, and axis scaling to match your exact visual preference.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-To use this project in your own software, add the source files directly to your workspace or integrate it via package managers like vcpkg as shown in the project guide. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). You can explore releases, source files, and community updates directly on the [ImPlot Releases Page](https://github.com/epezent/implot/releases).
+To use this project in your own software, add the source files directly to your workspace or integrate it via package managers like vcpkg as shown in the project guide. You can explore releases, source files, and community updates directly on the [ImPlot Releases Page](https://github.com/epezent/implot/releases).
 
 ### Pros and Cons
 * **Pros:** Extremely fast rendering, requires very little code, integrates smoothly with existing graphical toolkits.
 * **Cons:** Not designed for exporting high-resolution static images for printed publications, requires basic programming knowledge to set up.
-[Official Source / Credits](https://github.com/epezent/implot)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/epezent/implot)

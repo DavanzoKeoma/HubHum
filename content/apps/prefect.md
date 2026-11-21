@@ -13,9 +13,9 @@ source_url: "https://github.com/PrefectHQ/prefect"
 download_url: "https://prefect.io"
 downloadUrl: "https://prefect.io"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -45,7 +45,6 @@ i18n:
 It helps you turn a regular Python script into a job that runs by itself.  
 The job can be set to run at specific times and will try again if something goes wrong.  
 You can watch what’s happening from a simple web page.  
-When you need royalty‑free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
 
 ### Who it's for
 * Data analysts who want their daily reports to run automatically.  
@@ -56,15 +55,19 @@ When you need royalty‑free stock footage, music tracks, and motion presets alo
 - Schedule jobs to run daily, hourly, or whenever you choose.  
 - Automatically retry a job if it fails, so you don’t lose work.  
 - See a clear view of each run and any errors in a simple web dashboard.  
-- Expand your creative library with commercial‑safe fonts, lower‑third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 - Install via the Python package manager: [Prefect on PyPI](https://pypi.org/project/prefect/)  
 - Learn more and get started at the official site: [prefect.io](https://prefect.io)  
-- Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** free and open source, works with any Python setup, easy to start with a single install command.  
 * **Cons:** you need basic Python knowledge, advanced scheduling features require a bit of learning.
 
-[Official Source / Credits](https://github.com/PrefectHQ/prefect)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/PrefectHQ/prefect)

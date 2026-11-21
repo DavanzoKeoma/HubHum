@@ -7,7 +7,7 @@ macro_slug: "graphics-design"
 sub_topic: "Photo Optimizers, Galleries & Screen Capture"
 sub_slug: "photo-image-tools"
 intent: "foundations"
-summary: "Beginner-friendly plain-English guide explaining what Photo Optimizers, Galleries & Screen Capture tools do, desktop vs cloud formats, and how to pick safely."
+summary: "Beginner-friendly guide explaining what Photo Optimizers, Galleries & Screen Capture tools do, desktop vs self-hosted vs terminal formats, and how to download safely."
 parent_slug: "graphics-design/photo-image-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
@@ -17,15 +17,17 @@ updated_at: "2026-11-21"
 
 ## How to Choose Free Photo Optimizers, Galleries & Screen Capture Without Getting Lost
 
-Switching to free software in **Photo Optimizers, Galleries & Screen Capture** lets you avoid recurring monthly fees and keep ownership of your files. Before downloading the first result you see, focus on three practical checks:
+Switching to free open-source tools in **Photo Optimizers, Galleries & Screen Capture** lets you avoid recurring monthly fees and keep ownership of your files. Before downloading anything, focus on three practical checks:
 
-1. **Pick the right format for your device:** Desktop apps install directly onto Windows, macOS, or Linux; Cloud Web Apps open straight in a browser; CLI tools run quickly inside a terminal window.
-2. **Verify the official creator page:** Every guide on HubHum links strictly to the creator's official page so you avoid bundled adware or fake installer sites.
-3. **Start simple:** Look for active community maintenance (shown cleanly on every card via GitHub star counts) so the tool stays compatible with modern operating systems.
+1. **Pick the right format for your comfort level:** **Desktop Apps** install with visual windows and menus; **Self-Hosted Web Apps** run on hardware or a server you control; **CLI Tools** operate via text commands inside a terminal window.
+2. **Verify the official creator source:** Every HubHum card links directly to official GitHub releases or creator sites to help you avoid bundled adware—always check your operating system and run local security scans as standard practice.
+3. **Check community activity and license:** GitHub star counts and human-readable licenses shown on every table help confirm an active project.
 
-### Great Starting Points for Beginners
+### Great Starting Points in Photo Optimizers, Galleries & Screen Capture
 
-- **[PhotoPrism](/HubHum/apps/photoprism/)** — PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly.
-- **[flameshot](/HubHum/apps/flameshot/)** — Capture your screen instantly, highlight key details with built-in drawing tools, and share your images effortlessly.
-- **[Easy Diffusion](/HubHum/apps/easydiffusion/)** — Turn text descriptions into breathtaking images right on your own computer with a simple, friendly control panel and zero technical setup.
-- **[ImageOptim](/HubHum/apps/imageoptim/)** — Make your digital pictures load faster by shrinking their file sizes automatically without losing any visual quality.
+- **[PhotoPrism](/HubHum/apps/photoprism/)** (Self-Hosted Web App) — PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly.
+- **[flameshot](/HubHum/apps/flameshot/)** (Desktop App) — Capture your screen instantly, highlight key details with built-in drawing tools, and share your images effortlessly.
+- **[Easy Diffusion](/HubHum/apps/easydiffusion/)** (Desktop App) — Turn text descriptions into breathtaking images right on your own computer with a simple, friendly control panel and zero technical setup.
+- **[ImageOptim](/HubHum/apps/imageoptim/)** (Desktop App) — Make your digital pictures load faster by shrinking their file sizes automatically without losing any visual quality.
+- **[Stable-Dreamfusion](/HubHum/apps/stable-dreamfusion/)** (Desktop App) — Transform simple text descriptions or single photos into fully rendered 3D objects using advanced AI diffusion models.
+- **[Koharu](/HubHum/apps/koharu/)** (Desktop App) — Koharu is a privacy-focused manga translator that automatically detects, cleans, and translates panels directly on your computer.

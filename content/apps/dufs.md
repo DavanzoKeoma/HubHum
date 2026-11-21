@@ -13,7 +13,7 @@ source_url: "https://github.com/sigoden/dufs"
 download_url: "https://github.com/sigoden/dufs/releases"
 downloadUrl: "https://github.com/sigoden/dufs/releases"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -44,7 +44,6 @@ i18n:
 ### What it does in plain English
 It lets you share any folder on your computer as a web page that anyone can open in a browser.  
 Visitors can look at files, download them, upload new ones, or search for specific items.  
-Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Who it's for
 * People who want to quickly give friends access to a collection of photos, documents, or software.  
@@ -55,15 +54,19 @@ Protect remote administrator dashboards when managing your site on the go with [
 - Allow visitors to upload files by dragging and dropping them.  
 - Search inside the shared folder to find a file instantly.  
 - Download an entire folder as a zip archive.  
-- Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 * Download the ready‑made program for Windows, macOS or Linux from the official releases page: [Download binaries (Windows, macOS, Linux)](https://github.com/sigoden/dufs/releases).  
 * After downloading, unzip the file and place the program in a folder that’s on your system’s PATH, then run `dufs` from a terminal.  
-* Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
 
 ### Pros and Cons
 * **Pros:** Free forever, works on all major operating systems, no subscription needed.  
 * **Cons:** Advanced settings require reading the documentation, and you need to keep the program running while sharing.
 
-[Official Source / Credits](https://github.com/sigoden/dufs)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/sigoden/dufs)

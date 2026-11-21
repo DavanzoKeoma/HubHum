@@ -13,9 +13,9 @@ source_url: "https://github.com/jroimartin/gocui"
 download_url: "https://github.com/jroimartin/gocui/releases"
 downloadUrl: "https://github.com/jroimartin/gocui/releases"
 download_label: "Get Command-Line Tool →"
-license: "BSD-3-Clause"
+license: "Open Source (BSD)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -44,8 +44,6 @@ i18n:
 ### What it does in plain English
 gocui gives programmers an easy way to design interactive terminal screens using the Go programming language. It breaks screen layouts down into manageable window boxes that can display text, accept keyboard and mouse clicks, and overlap each other. Developers can cleanly structure text-based programs without dealing with complicated low-level display math.
 
-When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
-
 ### Who it's for
 * Go software developers building command-line utilities with visual layouts.
 * Systems administrators creating custom monitoring dashboards for servers.
@@ -56,13 +54,18 @@ When you need royalty-free stock footage, music tracks, and motion presets along
 * **Window management:** Lets you split your terminal screen into multiple overlapping or side-by-side display boxes.
 * **Full input support:** Handles keyboard shortcuts, global key commands, and mouse clicks smoothly.
 * **Dynamic updates:** Allows you to change what is displayed on the screen while the program is actively running.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To add this package to your Go workspace, make sure you have Go installed on your computer, then download the package directly from the [Official GitHub Releases & Source Page](https://github.com/jroimartin/gocui/releases). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To add this package to your Go workspace, make sure you have Go installed on your computer, then download the package directly from the [Official GitHub Releases & Source Page](https://github.com/jroimartin/gocui/releases).
 
 ### Pros and Cons
 * **Pros:** Extremely lightweight, supports overlapping display boxes, safe for concurrent background tasks.
 * **Cons:** Requires familiarity with the Go programming language to use effectively.
 
-[Official Source / Credits](https://github.com/jroimartin/gocui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/jroimartin/gocui)

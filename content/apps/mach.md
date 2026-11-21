@@ -13,9 +13,9 @@ source_url: "https://github.com/hexops/mach"
 download_url: "https://machengine.org"
 downloadUrl: "https://machengine.org"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Mach provides a powerful foundation for developers to build interactive games, visualizations, and user interfaces with ease. It harnesses modern programming efficiency to ensure smooth performance across computers and mobile devices. Whether you are building a simple visual tool or a fully immersive game, this toolkit simplifies graphics rendering. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Mach provides a powerful foundation for developers to build interactive games, visualizations, and user interfaces with ease. It harnesses modern programming efficiency to ensure smooth performance across computers and mobile devices. Whether you are building a simple visual tool or a fully immersive game, this toolkit simplifies graphics rendering.
 
 ### Who it's for
 * **Indie Game Developers:** Creators looking for a lightweight, modular engine to craft custom gameplay experiences without heavy commercial software bloat.
@@ -54,13 +54,18 @@ Mach provides a powerful foundation for developers to build interactive games, v
 * **Cross-Platform Compatibility:** Write your code once and cloud setup smoothly to desktop computers, mobile devices, and more.
 * **High-Performance Graphics:** Take advantage of optimized hardware-accelerated rendering for buttery-smooth visual framerates.
 * **Modern Codebase:** Built with efficiency and modern development standards in mind for maximum stability and speed.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started with Mach, visit the [Official Mach Website](https://machengine.org) for documentation, guides, and setup instructions. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started with Mach, visit the [Official Mach Website](https://machengine.org) for documentation, guides, and setup instructions.
 
 ### Pros and Cons
 * **Pros:** Extremely fast and lightweight, highly modular structure, completely free and open source.
 * **Cons:** Requires familiarity with programming concepts, active community-driven development means documentation is continuously evolving.
 
-[Official Source / Credits](https://github.com/hexops/mach)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/hexops/mach)

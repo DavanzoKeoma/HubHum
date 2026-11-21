@@ -5,17 +5,17 @@ tagline: "Find social media accounts by username instantly."
 summary: "Easily discover where a specific username is registered across hundreds of online platforms and social networks in seconds."
 tags: ["username-search", "privacy", "social-media", "investigation"]
 is_webapp: false
-app_type: "desktop"
+app_type: "cli"
 category: "Security & Privacy"
 icon: "/icons/sherlock.png"
 stars: 114779
 source_url: "https://github.com/sherlock-project/sherlock"
 download_url: "https://sherlockproject.xyz"
 downloadUrl: "https://sherlockproject.xyz"
-download_label: "Visit Official Site"
-license: "MIT"
-scouting_tier: "tier1_gui"
-operatingSystem: "All / Browser"
+download_label: "Get Command-Line Tool →"
+license: "Open Source (MIT)"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Sherlock helps you find out if a specific username exists across more than 400 different websites and social networks. You simply type in the name you want to look for, and the tool checks all supported platforms simultaneously. It then gives you a clear list of active profile links so you can see where that name is currently being used. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Sherlock helps you find out if a specific username exists across more than 400 different websites and social networks. You simply type in the name you want to look for, and the tool checks all supported platforms simultaneously. It then gives you a clear list of active profile links so you can see where that name is currently being used.
 
 ### Who it's for
 * Journalists and investigators checking digital footprints
@@ -53,12 +53,18 @@ Sherlock helps you find out if a specific username exists across more than 400 d
 * Scans over 400 popular and niche social networks in seconds
 * Exports findings automatically into text files, spreadsheets, or data tables
 * Allows checking multiple usernames or variations in a single run
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can set up and run Sherlock easily using standard package managers or container tools on your system. Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). Visit the [Official Sherlock Website](https://sherlockproject.xyz) and check the [Installation Guide](https://sherlockproject.xyz/installation) for full step-by-step instructions.
+You can set up and run Sherlock easily using standard package managers or container tools on your system. Visit the [Official Sherlock Website](https://sherlockproject.xyz) and check the [Installation Guide](https://sherlockproject.xyz/installation) for full step-by-step instructions.
 
 ### Pros and Cons
 * **Pros:** Free and open-source, checks hundreds of sites at once, highly customizable output options.
 * **Cons:** Requires basic familiarity with command-line tools, some websites may return false results due to site changes.
-[Official Source / Credits](https://github.com/sherlock-project/sherlock)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/sherlock-project/sherlock)

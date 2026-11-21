@@ -5,17 +5,17 @@ tagline: "Build custom internal dashboards effortlessly"
 summary: "Create custom internal tools, admin panels, and dashboards visually while connecting to your databases and web services."
 tags: ["dashboards", "admin-panel", "low-code", "developer-tools"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/appsmith.png"
 stars: 41281
 source_url: "https://github.com/appsmithorg/appsmith"
 download_url: "https://www.appsmith.com"
 downloadUrl: "https://www.appsmith.com"
-download_label: "Visit Official Site"
-license: "Apache-2.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Appsmith is a flexible workspace designed to help teams build custom internal tools, admin panels, and visual dashboards without writing extensive code from scratch. It allows you to connect directly to your existing databases and external services to pull data into interactive user interfaces. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Appsmith is a flexible workspace designed to help teams build custom internal tools, admin panels, and visual dashboards without writing extensive code from scratch. It allows you to connect directly to your existing databases and external services to pull data into interactive user interfaces.
 
 ### Who it's for
 * Software developers looking to speed up the creation of internal tools and data management interfaces.
@@ -54,7 +54,6 @@ Appsmith is a flexible workspace designed to help teams build custom internal to
 * Native connectors for dozens of popular SQL and NoSQL databases as well as any web service.
 * JavaScript support inside components to handle custom data transformations and complex business logic.
 * Role-based access control to securely share panels and restrict sensitive actions within your organization.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can get started immediately by signing up on the [Appsmith Cloud Platform](https://login.appsmith.com/?utm_source=github&utm_medium=organic&utm_campaign=readme). If you prefer running the software on your own private infrastructure, follow the official setup guides:
@@ -62,9 +61,16 @@ You can get started immediately by signing up on the [Appsmith Cloud Platform](h
 - [Kubernetes Installation Guide](https://docs.appsmith.com/getting-started/setup/installation-guides/kubernetes?utm_source=github&utm_medium=organic&utm_campaign=readme)
 - [AWS AMI Setup Guide](https://docs.appsmith.com/getting-started/setup/installation-guides/aws-ami?utm_source=github&utm_medium=organic&utm_campaign=readme)
 
-Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Drastically reduces the time needed to build functional internal software; supports a wide range of data sources; active community and template library.
 * **Cons:** Advanced customizations and custom JavaScript bindings require some technical familiarity; self-hosting requires basic server administration skills.
-[Official Source / Credits](https://github.com/appsmithorg/appsmith)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/appsmithorg/appsmith)

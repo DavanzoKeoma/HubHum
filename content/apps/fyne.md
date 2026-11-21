@@ -13,9 +13,9 @@ source_url: "https://github.com/fyne-io/fyne"
 download_url: "https://fyne.io/"
 downloadUrl: "https://fyne.io/"
 download_label: "Get Command-Line Tool →"
-license: "BSD-3-Clause"
+license: "Open Source (BSD)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Android, iOS"
+operatingSystem: "iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Fyne provides a clean and simple way to build graphical screens for desktop and mobile gadgets without needing separate codebases for each device. It handles windows, buttons, and user inputs automatically so you can focus entirely on how your program looks and feels. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Fyne provides a clean and simple way to build graphical screens for desktop and mobile gadgets without needing separate codebases for each device. It handles windows, buttons, and user inputs automatically so you can focus entirely on how your program looks and feels.
 
 ### Who it's for
 * Software creators wanting to ship applications to computers and mobile phones simultaneously
@@ -54,12 +54,18 @@ Fyne provides a clean and simple way to build graphical screens for desktop and 
 * Built-in support for light and dark themes out of the box
 * Simple setup with minimal code required to render interactive buttons and labels
 * Mobile simulation mode to preview phone layouts right on your desktop
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
 
 ### How to install (Download)
-To get started with Fyne, visit the [Fyne Official Website](https://fyne.io/) to read the getting started guides and set up your workspace. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started with Fyne, visit the [Fyne Official Website](https://fyne.io/) to read the getting started guides and set up your workspace.
 
 ### Pros and Cons
 * **Pros:** Completely open source, lightweight, and supports native packaging for multiple platforms.
 * **Cons:** Requires a basic understanding of programming concepts to build custom interfaces.
-[Official Source / Credits](https://github.com/fyne-io/fyne)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/fyne-io/fyne)

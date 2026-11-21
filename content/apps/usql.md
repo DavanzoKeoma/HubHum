@@ -13,9 +13,9 @@ source_url: "https://github.com/xo/usql"
 download_url: "https://github.com/xo/usql/releases/download/v0.21.6/usql-0.21.6-darwin-amd64.tar.bz2"
 downloadUrl: "https://github.com/xo/usql/releases/download/v0.21.6/usql-0.21.6-darwin-amd64.tar.bz2"
 download_label: "Download (usql-0.21.6-darwin-amd64.tar.bz2)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-`usql` is a universal tool that lets database administrators and software creators talk to almost any database using familiar text commands. Instead of learning a separate management program for every single technology, you can use one unified environment for PostgreSQL, MySQL, SQLite, and many others. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad). It even handles moving data back and forth between completely different types of databases seamlessly.
+`usql` is a universal tool that lets database administrators and software creators talk to almost any database using familiar text commands. Instead of learning a separate management program for every single technology, you can use one unified environment for PostgreSQL, MySQL, SQLite, and many others. It even handles moving data back and forth between completely different types of databases seamlessly.
 
 ### Who it's for
 * Database administrators managing mixed environments who want one go-to command tool for everything.
@@ -54,10 +54,9 @@ i18n:
 * Supports convenient copy operations to transfer records directly between entirely different database systems.
 * Provides context-sensitive autocompletion and saved variables to speed up your routine queries.
 * Offers multiple output formats including tables, vertical views, JSON, CSV, and Markdown.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can grab the compiled program directly for your computer system below, or use package managers like Homebrew. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can grab the compiled program directly for your computer system below, or use package managers like Homebrew.
 
 * [Download for macOS (Intel 64-bit)](https://github.com/xo/usql/releases/download/v0.21.6/usql-0.21.6-darwin-amd64.tar.bz2)
 * [Download for macOS (Apple Silicon ARM64)](https://github.com/xo/usql/releases/download/v0.21.6/usql-0.21.6-darwin-arm64.tar.bz2)
@@ -72,4 +71,10 @@ You can grab the compiled program directly for your computer system below, or us
 * **Pros:** Free and open source, eliminates the need to install dozens of separate database clients, supports cross-platform data copying.
 * **Cons:** Advanced drivers or custom builds may require familiarity with Go compilation tags, command-line interface requires comfort with text inputs.
 
-[Official Source / Credits](https://github.com/xo/usql)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/xo/usql)

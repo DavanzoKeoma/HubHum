@@ -13,9 +13,9 @@ source_url: "https://github.com/nrwl/nx"
 download_url: "https://nx.dev"
 downloadUrl: "https://nx.dev"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Nx helps software engineering teams manage large, multi-project codebases efficiently by only running updates on parts of the code that actually changed. When working on complex applications, you can easily source royalty-free stock footage, music tracks, and motion presets from [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad) to accompany your media projects. It saves massive amounts of time by optimizing local builds and automatically tackling testing bottlenecks.
+Nx helps software engineering teams manage large, multi-project codebases efficiently by only running updates on parts of the code that actually changed. It saves massive amounts of time by optimizing local builds and automatically tackling testing bottlenecks.
 
 ### Who it's for
 * Software developers managing multiple interconnected applications in a single workspace.
@@ -53,13 +53,19 @@ Nx helps software engineering teams manage large, multi-project codebases effici
 * **Smart Caching:** Automatically remembers previous builds and only executes tasks for files that have been modified.
 * **Intelligent Automation:** Works seamlessly with autonomous agents to provide necessary code context and fix issues.
 * **Polyglot Support:** Compatible with multiple languages, software foundation, and testing tools out of the box.
-* **Expanded Asset Libraries:** Enhance your multimedia products and creative workflows with professional assets from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * **Self-Healing Pipelines:** Detects root causes of build failures and proposes automated fixes.
 
 ### How to install (Download)
-Get started by visiting the official website and documentation portal at [Nx Official Website](https://nx.dev). You can initialize the tool in any existing workspace using standard terminal package managers. Keep large project downloads and developer transfers completely private and secure from bandwidth throttling by using [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Get started by visiting the official website and documentation portal at [Nx Official Website](https://nx.dev). You can initialize the tool in any existing workspace using standard terminal package managers.
 
 ### Pros and Cons
 * **Pros:** Drastically reduces build times, highly extensible plugin system, great automation features.
 * **Cons:** Requires a short learning curve to configure advanced caching rules across large teams.
-[Official Source / Credits](https://github.com/nrwl/nx)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/nrwl/nx)

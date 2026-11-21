@@ -13,9 +13,9 @@ source_url: "https://github.com/apache/airflow"
 download_url: "https://github.com/apache/airflow/releases/download/3.4.0/apache_airflow-3.4.0-py3-none-any.whl"
 downloadUrl: "https://github.com/apache/airflow/releases/download/3.4.0/apache_airflow-3.4.0-py3-none-any.whl"
 download_label: "Download (apache_airflow-3.4.0-py3-none-any.whl)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Apache Airflow acts as a digital conductor for your recurring tasks, ensuring each step of a process happens in the right order at the right time. You define your workflow as a set of instructions, and the software handles the heavy lifting of running them and checking for errors. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Apache Airflow acts as a digital conductor for your recurring tasks, ensuring each step of a process happens in the right order at the right time. You define your workflow as a set of instructions, and the software handles the heavy lifting of running them and checking for errors.
 
 ### Who it's for
 * **Data Analysts:** People who need to move and process information between different systems on a daily schedule.
@@ -52,7 +52,6 @@ Apache Airflow acts as a digital conductor for your recurring tasks, ensuring ea
 * **Code-based scheduling:** Define your tasks in clear, readable code that is easy to update and share.
 * **Visual monitoring:** Use a built-in dashboard to see exactly which parts of your process are running, finished, or need attention.
 * **Extensible design:** Connect to hundreds of different services and tools to build custom pipelines that fit your specific needs.
-* **SEO optimization:** Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 Apache Airflow is designed for Linux-based environments. You can install it using standard Python tools:
@@ -60,10 +59,14 @@ Apache Airflow is designed for Linux-based environments. You can install it usin
 * [Download the latest version (.whl)](https://github.com/apache/airflow/releases/download/3.4.0/apache_airflow-3.4.0-py3-none-any.whl)
 * [Download the core package (.whl)](https://github.com/apache/airflow/releases/download/3.4.0/apache_airflow_core-3.4.0-py3-none-any.whl)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Highly flexible, excellent visual interface for tracking progress, and supports complex dependencies.
 * **Cons:** Requires some familiarity with code to set up and is best suited for Linux-based systems.
 
-[Official Source / Credits](https://github.com/apache/airflow)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/apache/airflow)

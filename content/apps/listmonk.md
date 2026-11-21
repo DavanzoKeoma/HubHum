@@ -5,17 +5,17 @@ tagline: "Fast and simple newsletter management tool"
 summary: "Listmonk is a self-hosted platform that helps you manage mailing lists and send newsletters with a clean, modern dashboard."
 tags: ["newsletter", "marketing", "email"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/listmonk.png"
 stars: 24390
 source_url: "https://github.com/knadh/listmonk"
 download_url: "https://github.com/knadh/listmonk/releases/download/v7.0.0-beta.2/listmonk_7.0.0-beta.2_checksums.txt"
 downloadUrl: "https://github.com/knadh/listmonk/releases/download/v7.0.0-beta.2/listmonk_7.0.0-beta.2_checksums.txt"
-download_label: "Download (listmonk_7.0.0-beta.2_checksums.txt)"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Listmonk provides a professional way to organize your subscribers and send out newsletters without relying on expensive third-party services. It runs as a single, efficient program that gives you full control over your data and email templates. Always remember to protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Listmonk provides a professional way to organize your subscribers and send out newsletters without relying on expensive third-party services. It runs as a single, efficient program that gives you full control over your data and email templates.
 
 ### Who it's for
 * Small business owners who want to send updates to customers without monthly subscription fees.
@@ -52,13 +52,18 @@ Listmonk provides a professional way to organize your subscribers and send out n
 * **Modern Dashboard:** A clean, user-friendly interface to track your email campaigns and subscriber growth.
 * **High Performance:** Designed to handle large lists quickly and efficiently.
 * **Custom Templates:** Create beautiful, personalized emails using flexible design options.
-* **SEO & Visibility:** Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can set this up on your own computer or server by downloading the latest version from the [official release page](https://github.com/knadh/listmonk/releases). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can set this up on your own computer or server by downloading the latest version from the [official release page](https://github.com/knadh/listmonk/releases). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Free and open source, no monthly subscription fees, and lightweight performance.
 * **Cons:** Requires basic knowledge of setting up a database to get started.
 
-[Official Source / Credits](https://github.com/knadh/listmonk)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/knadh/listmonk)

@@ -5,17 +5,17 @@ tagline: "All-in-one open source app monitoring platform"
 summary: "Monitor your application logs, server performance, and user traffic in a single intuitive dashboard."
 tags: ["monitoring", "observability", "logs", "traces"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/signoz.png"
 stars: 32688
 source_url: "https://github.com/SigNoz/signoz"
 download_url: "https://github.com/SigNoz/signoz/releases/download/v0.151.0/signoz-community_0.151.0_checksums.txt"
 downloadUrl: "https://github.com/SigNoz/signoz/releases/download/v0.151.0/signoz-community_0.151.0_checksums.txt"
-download_label: "Download (signoz-community_0.151.0_checksums.txt)"
-license: "NOASSERTION"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-SigNoz collects your application logs, performance metrics, and user request traces in one centralized location. When something breaks in your software, you can easily track down the exact cause rather than searching blindly through endless text files. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad). It gives your team complete visibility into server health and application speed without forcing you to pay for expensive commercial monitoring suites.
+SigNoz collects your application logs, performance metrics, and user request traces in one centralized location. When something breaks in your software, you can easily track down the exact cause rather than searching blindly through endless text files. It gives your team complete visibility into server health and application speed without forcing you to pay for expensive commercial monitoring suites.
 
 ### Who it's for
 * Software developers who need to debug live application errors quickly and efficiently.
@@ -54,15 +54,20 @@ SigNoz collects your application logs, performance metrics, and user request tra
 * **Distributed Tracing:** Follow individual user requests across multiple background services and databases.
 * **Visual Dashboard Builder:** Create custom charts and visual monitors tailored to your exact infrastructure needs.
 * **Infrastructure Monitoring:** Track CPU usage, memory limits, and disk health across your server clusters.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 SigNoz can be launched instantly in the cloud or hosted locally on your own servers. 
 * [Start free on SigNoz Cloud](https://signoz.io/teams/) (Open instantly in the cloud with a 30-day trial)
 * [Install SigNoz Locally (Self-host Guide)](https://signoz.io/docs/install/self-host/)
-* Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
 
 ### Pros and Cons
 * **Pros:** Keeps all metrics and logs together, highly scalable columnar database, predictable open-source foundation.
 * **Cons:** Initial setup and instrumenting code requires technical knowledge, advanced query builders take time to master.
-[Official Source / Credits](https://github.com/SigNoz/signoz)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/SigNoz/signoz)

@@ -9,6 +9,8 @@ interface I18nBlock {
   de?: { tagline: string; summary: string };
 }
 
+type AppType = 'desktop' | 'webapp' | 'selfhosted' | 'cli' | 'resource';
+
 interface Props {
   slug: string;
   title: string;
@@ -16,7 +18,7 @@ interface Props {
   category: string;
   tags: string[];
   isWebapp: boolean;
-  appType?: 'desktop' | 'webapp' | 'cli';
+  appType?: AppType;
   stars: number;
   icon: string;
   i18n?: I18nBlock;
@@ -37,42 +39,62 @@ const {
   isTopPick = false,
 } = Astro.props;
 
-const resolvedType: 'desktop' | 'webapp' | 'cli' =
+const TYPE_META: Record<
+  AppType,
+  { badgeClass: string; badgeI18n: string; badgeText: string; ctaI18n: string; ctaText: string }
+> = {
+  webapp: {
+    badgeClass: 'cloud',
+    badgeI18n: 'badgeCloud',
+    badgeText: 'Cloud Web App',
+    ctaI18n: 'ctaCloud',
+    ctaText: 'Open in Cloud →',
+  },
+  selfhosted: {
+    badgeClass: 'selfhosted',
+    badgeI18n: 'badgeSelfHosted',
+    badgeText: 'Self-Hosted App',
+    ctaI18n: 'ctaSelfHosted',
+    ctaText: 'Setup & Docs →',
+  },
+  cli: {
+    badgeClass: 'cli',
+    badgeI18n: 'badgeCli',
+    badgeText: 'CLI Tool',
+    ctaI18n: 'ctaCli',
+    ctaText: 'Get CLI Tool →',
+  },
+  resource: {
+    badgeClass: 'resource',
+    badgeI18n: 'badgeResource',
+    badgeText: 'Open Reference',
+    ctaI18n: 'ctaResource',
+    ctaText: 'Browse Guide →',
+  },
+  desktop: {
+    badgeClass: '',
+    badgeI18n: 'badgeDesktop',
+    badgeText: 'Desktop App',
+    ctaI18n: 'ctaDesktop',
+    ctaText: 'Explore & Download →',
+  },
+};
+
+const resolvedType: AppType =
   appType || (isWebapp ? 'webapp' : 'desktop');
-const badgeClass =
-  resolvedType === 'webapp' ? 'cloud' : resolvedType === 'cli' ? 'cli' : '';
-const badgeI18n =
-  resolvedType === 'webapp'
-    ? 'badgeCloud'
-    : resolvedType === 'cli'
-    ? 'badgeCli'
-    : 'badgeDesktop';
-const badgeText =
-  resolvedType === 'webapp'
-    ? 'Cloud Web App'
-    : resolvedType === 'cli'
-    ? 'CLI Tool'
-    : 'Desktop App';
-const ctaI18n =
-  resolvedType === 'webapp'
-    ? 'ctaCloud'
-    : resolvedType === 'cli'
-    ? 'ctaCli'
-    : 'ctaDesktop';
-const ctaText =
-  resolvedType === 'webapp'
-    ? 'Open in Cloud →'
-    : resolvedType === 'cli'
-    ? 'Get CLI Tool →'
-    : 'Explore & Download →';
+const { badgeClass, badgeI18n, badgeText, ctaI18n, ctaText } = TYPE_META[resolvedType];
 
 const catI18nKey = CATEGORY_I18N_KEY[category] || 'catProductivity';
 const searchText = `${title} ${summary} ${i18n.it?.summary || ''} ${category} ${tags.join(' ')}`.toLowerCase();
 const cardAriaLabel =
   resolvedType === 'webapp'
     ? `Open ${title} in the cloud`
+    : resolvedType === 'selfhosted'
+    ? `Explore ${title} self-hosted setup guide`
     : resolvedType === 'cli'
     ? `Explore ${title} command-line tool`
+    : resolvedType === 'resource'
+    ? `Browse ${title} open reference`
     : `Explore and download ${title}`;
 ---
 
@@ -108,10 +130,22 @@ const cardAriaLabel =
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
           </svg>
+        ) : resolvedType === 'selfhosted' ? (
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+            <line x1="6" y1="6" x2="6.01" y2="6"></line>
+            <line x1="6" y1="18" x2="6.01" y2="18"></line>
+          </svg>
         ) : resolvedType === 'cli' ? (
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <polyline points="4 17 10 11 4 5"></polyline>
             <line x1="12" y1="19" x2="20" y2="19"></line>
+          </svg>
+        ) : resolvedType === 'resource' ? (
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
           </svg>
         ) : (
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

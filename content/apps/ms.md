@@ -13,9 +13,9 @@ source_url: "https://github.com/vercel/ms"
 download_url: "https://npmjs.com/ms"
 downloadUrl: "https://npmjs.com/ms"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This smart utility takes everyday time expressions, such as two days or ten hours, and instantly translates them into exact milliseconds. It also works in reverse, turning raw millisecond numbers into clean, readable text strings. When you are managing digital projects, you might also need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It helps developers and creators handle schedules, timeouts, and durations without manual math errors.
+This smart utility takes everyday time expressions, such as two days or ten hours, and instantly translates them into exact milliseconds. It also works in reverse, turning raw millisecond numbers into clean, readable text strings. It helps developers and creators handle schedules, timeouts, and durations without manual math errors.
 
 ### Who it's for
 * Software developers managing timers, countdowns, and expiration limits
@@ -54,12 +54,18 @@ This smart utility takes everyday time expressions, such as two days or ten hour
 * Reverses numbers back into clear textual format like "1 minute" or "2 hours"
 * Compatible with web browsers, modern server environments, and edge runtimes
 * Fully supported with strict safety definitions for TypeScript projects
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can easily add this package to your software project using popular package managers. Run the installation command in your terminal using [npm](https://docs.npmjs.com/cli/v11/commands/npm-install) or visit the official [NPM Package Page](https://npmjs.com/ms) to learn more. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can easily add this package to your software project using popular package managers. Run the installation command in your terminal using [npm](https://docs.npmjs.com/cli/v11/commands/npm-install) or visit the official [NPM Package Page](https://npmjs.com/ms) to learn more.
 
 ### Pros and Cons
 * **Pros:** Extremely lightweight, supports modern runtimes, and prevents time conversion mistakes.
 * **Cons:** Requires basic familiarity with programming environments to integrate.
-[Official Source / Credits](https://github.com/vercel/ms)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/vercel/ms)

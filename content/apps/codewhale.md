@@ -13,7 +13,7 @@ source_url: "https://github.com/codewhale-hq/Codewhale"
 download_url: "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codew-windows-arm64.exe"
 downloadUrl: "https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codew-windows-arm64.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Codewhale brings an intelligent coding companion directly into your terminal window to help you write, fix, and update software projects. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It communicates with your choice of artificial intelligence models, reads your workspace files securely, and can execute commands or modify code based on your precise instructions.
+Codewhale brings an intelligent coding companion directly into your terminal window to help you write, fix, and update software projects. It communicates with your choice of artificial intelligence models, reads your workspace files securely, and can execute commands or modify code based on your precise instructions.
 
 ### Who it's for
 * Software developers looking for a transparent, customizable coding assistant inside their command-line interface.
@@ -53,14 +53,19 @@ Codewhale brings an intelligent coding companion directly into your terminal win
 * Works with over 40 different artificial intelligence providers or local models running on your own hardware.
 * Can split complex coding jobs across multiple sub-agents to handle different parts of a task simultaneously.
 * Keeps full receipts and history logs of every file changed, command executed, and decision made during a session.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Offers flexible safety controls ranging from manual approvals for every action to fully automated multi-step workflows.
 
 ### How to install (Download)
-Get started by downloading the official setup utility for Windows: [Download CodeWhaleSetup.exe](https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/CodeWhaleSetup.exe) or grab the specific architecture installers like [Download for Windows (.exe)](https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codew-windows-x64.exe) and [Download for Windows (.exe)](https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codew-windows-arm64.exe). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Get started by downloading the official setup utility for Windows: [Download CodeWhaleSetup.exe](https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/CodeWhaleSetup.exe) or grab the specific architecture installers like [Download for Windows (.exe)](https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codew-windows-x64.exe) and [Download for Windows (.exe)](https://github.com/codewhale-hq/Codewhale/releases/download/v0.10.2/codew-windows-arm64.exe).
 
 ### Pros and Cons
 * **Pros:** Completely open-source and transparent, supports local models without mandatory accounts, and offers granular permission controls.
 * **Cons:** Operates primarily via command-line or terminal interfaces, which may require a learning curve for non-developers.
 
-[Official Source / Credits](https://github.com/codewhale-hq/Codewhale)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/codewhale-hq/Codewhale)

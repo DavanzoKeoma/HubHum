@@ -4,18 +4,18 @@ slug: "self-hosting-guide"
 tagline: "Master local servers and private cloud applications."
 summary: "Learn how to locally host and manage your own software applications and private web servers instead of paying for costly monthly subscriptions."
 tags: ["self-hosting", "cloud-app", "cloud", "servers"]
-is_webapp: true
-app_type: "webapp"
+is_webapp: false
+app_type: "resource"
 category: "Web Apps & Cloud"
 icon: "/icons/self-hosting-guide.png"
 stars: 23615
 source_url: "https://github.com/mikeroyal/Self-Hosting-Guide"
 download_url: "https://github.com/mikeroyal/Self-Hosting-Guide/releases"
 downloadUrl: "https://github.com/mikeroyal/Self-Hosting-Guide/releases"
-download_label: "Visit Official Site"
-license: "Open Source"
-scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+download_label: "Browse Reference →"
+license: "Open Source License"
+scouting_tier: "tier3_powertool"
+operatingSystem: "All / Reference"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Self-Hosting Guide helps you take complete control of your digital life by hosting software applications on your own private hardware instead of renting cloud storage. It provides a massive curated directory of tools, container configurations, and step-by-step instructions for running your own media centers, automation scripts, and smart home networks. Whether you want absolute privacy or just enjoy tinkering with technology, this comprehensive manual makes setting up private web servers accessible. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Self-Hosting Guide helps you take complete control of your digital life by hosting software applications on your own private hardware instead of renting cloud storage. It provides a massive curated directory of tools, container configurations, and step-by-step instructions for running your own media centers, automation scripts, and smart home networks. Whether you want absolute privacy or just enjoy tinkering with technology, this comprehensive manual makes setting up private web servers accessible.
 
 ### Who it's for
 * Tech enthusiasts wanting to build home servers and secure local networks.
@@ -54,17 +54,20 @@ Self-Hosting Guide helps you take complete control of your digital life by hosti
 * Instructions for setting up artificial intelligence language models and chatbots locally.
 * Guides on securing your home network with virtual private networks and firewalls.
 * Recommendations for home automation, media streaming, and smart home hubs.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Because this is a web-based reference guide, you can read it directly online or open it in the cloud in 1 click via the official official project page link below. 
 
 [Access the Self-Hosting Guide Online](https://github.com/mikeroyal/Self-Hosting-Guide)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open source, constantly updated with new tools, covers everything from beginner to advanced setups.
 * **Cons:** Requires technical curiosity and time to read through extensive documentation.
 
-[Official Source / Credits](https://github.com/mikeroyal/Self-Hosting-Guide)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/mikeroyal/Self-Hosting-Guide)

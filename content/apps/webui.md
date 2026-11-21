@@ -6,17 +6,17 @@ summary: "Create lightweight desktop software using your favorite programming la
 tags: ["development", "gui", "browser", "utility"]
 is_webapp: false
 app_type: "desktop"
-category: "Web Apps & Cloud"
+category: "Productivity"
 icon: "/icons/webui.png"
 stars: 4664
 source_url: "https://github.com/webui-dev/webui"
 download_url: "https://webui.me"
 downloadUrl: "https://webui.me"
 download_label: "Open in Cloud →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool lets developers build desktop applications that use a regular web browser instead of heavy built-in display components. It connects your backend code written in languages like Python, C, or Rust directly to a modern web page acting as the user interface. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This tool lets developers build desktop applications that use a regular web browser instead of heavy built-in display components. It connects your backend code written in languages like Python, C, or Rust directly to a modern web page acting as the user interface.
 
 ### Who it's for
 * Software creators wanting a modern web-based look without bundling huge software runtimes.
@@ -53,13 +53,18 @@ This tool lets developers build desktop applications that use a regular web brow
 * Fast communication between your backend code and the browser interface using high-speed protocols.
 * Supports many popular programming languages like Python, Go, Rust, C, and JavaScript software foundation.
 * Uses isolated private browser profiles automatically for enhanced security and session separation.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-Get the files directly from the [Official Releases Page](https://github.com/webui-dev/webui/releases) or try the latest experimental updates from the [Nightly Build Section](https://github.com/webui-dev/webui/releases/tag/nightly). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Get the files directly from the [Official Releases Page](https://github.com/webui-dev/webui/releases) or try the latest experimental updates from the [Nightly Build Section](https://github.com/webui-dev/webui/releases/tag/nightly). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Extremely lightweight, supports dozens of programming languages, uses existing browsers.
 * **Cons:** Requires the end user to have a standard web browser installed on their device.
 
-[Official Source / Credits](https://github.com/webui-dev/webui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/webui-dev/webui)

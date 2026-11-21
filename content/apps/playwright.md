@@ -13,9 +13,9 @@ source_url: "https://github.com/microsoft/playwright"
 download_url: "https://playwright.dev"
 downloadUrl: "https://playwright.dev"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Playwright lets you control web browsers automatically to test websites, capture screenshots, or perform repetitive tasks. It works smoothly across the major browser engines using just one simple set of instructions. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Playwright lets you control web browsers automatically to test websites, capture screenshots, or perform repetitive tasks. It works smoothly across the major browser engines using just one simple set of instructions.
 
 ### Who it's for
 * Software testers who want reliable cross-browser checks without annoying setup hurdles.
@@ -54,13 +54,18 @@ Playwright lets you control web browsers automatically to test websites, capture
 * **Auto-waiting:** Automatically waits for buttons and text to appear before clicking or typing, preventing failed steps.
 * **Resilient locators:** Finds elements on the page just like a real user would, avoiding fragile code.
 * **Built-in recording:** Generates automation steps automatically as you click through your web application.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started with end-to-end testing, initialize the package in your project using `npm init playwright@latest`. If you want to use it as a library for browser automation scripts, run `npm i playwright` in your terminal. You can also [Install the VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) directly from the marketplace. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started with end-to-end testing, initialize the package in your project using `npm init playwright@latest`. If you want to use it as a library for browser automation scripts, run `npm i playwright` in your terminal. You can also [Install the VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) directly from the marketplace.
 
 ### Pros and Cons
 * **Pros:** Free and open-source, robust cross-browser engine support, highly reliable auto-waiting.
 * **Cons:** Requires a basic understanding of command-line tools and programming concepts to unlock its full potential.
 
-[Official Source / Credits](https://github.com/microsoft/playwright)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/microsoft/playwright)

@@ -13,9 +13,9 @@ source_url: "https://github.com/nodegui/react-nodegui"
 download_url: "https://react.nodegui.org"
 downloadUrl: "https://react.nodegui.org"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-React NodeGui lets you build native, high-performance desktop applications for Windows, macOS, and Linux using familiar component structures. Unlike heavy alternatives that rely on embedded browser engines, this tool directly harnesses native operating system widgets for minimal memory consumption. While crafting your user interfaces, when you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+React NodeGui lets you build native, high-performance desktop applications for Windows, macOS, and Linux using familiar component structures. Unlike heavy alternatives that rely on embedded browser engines, this tool directly harnesses native operating system widgets for minimal memory consumption.
 
 ### Who it's for
 * Frontend developers looking to transition their web component skills into native desktop software development.
@@ -53,13 +53,19 @@ React NodeGui lets you build native, high-performance desktop applications for W
 * Built on native underlying technology to keep idle CPU usage at zero and memory footprints exceptionally low.
 * Full layout styling support using familiar layout concepts and cascading styles.
 * Complete access to standard runtime modules and external packages for expanded functionality.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * First-class TypeScript support alongside regular JavaScript development flows.
 
 ### How to install (Download)
-To get started with your own project setup, check out the [Official Documentation and Guides](https://react.nodegui.org). You can also explore the starter project template on [GitHub Starter official project page](https://github.com/nodegui/react-nodegui-starter). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started with your own project setup, check out the [Official Documentation and Guides](https://react.nodegui.org). You can also explore the starter project template on [GitHub Starter official project page](https://github.com/nodegui/react-nodegui-starter).
 
 ### Pros and Cons
 * **Pros:** Exceptionally low memory footprint; native operating system performance; flexible styling system.
 * **Cons:** The underlying project is no longer actively maintained by the original authors; advanced ecosystem extensions require community forks.
-[Official Source / Credits](https://github.com/nodegui/react-nodegui)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/nodegui/react-nodegui)

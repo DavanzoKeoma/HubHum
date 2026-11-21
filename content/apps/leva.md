@@ -13,9 +13,9 @@ source_url: "https://github.com/pmndrs/leva"
 download_url: "https://leva.pmnd.rs"
 downloadUrl: "https://leva.pmnd.rs"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Leva gives creators a ready-made panel of sliders, toggles, and pickers to adjust settings on their web creations in real time. It pops up right inside your browser window with zero configuration required. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Leva gives creators a ready-made panel of sliders, toggles, and pickers to adjust settings on their web creations in real time. It pops up right inside your browser window with zero configuration required.
 
 ### Who it's for
 * Web developers building interactive visual experiences
@@ -54,13 +54,18 @@ Leva gives creators a ready-made panel of sliders, toggles, and pickers to adjus
 * **Diverse Inputs:** Includes over a dozen different types of controls like numbers, colors, angles, and text boxes.
 * **Smart Recognition:** Automatically figures out the right input style based on the data you pass in.
 * **Keyboard Accessible:** Fully navigable using keyboard controls for better convenience.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-To add this tool to your web project, open your terminal and install it using your package manager with the command `npm i leva`. You can explore the live examples and guides on the [Official Leva Website](https://leva.pmnd.rs). Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+To add this tool to your web project, open your terminal and install it using your package manager with the command `npm i leva`. You can explore the live examples and guides on the [Official Leva Website](https://leva.pmnd.rs).
 
 ### Pros and Cons
 * **Pros:** Completely free to use, highly customizable, and requires almost zero setup time.
 * **Cons:** Designed specifically for JavaScript environments, so non-coders will need assistance setting it up.
 
-[Official Source / Credits](https://github.com/pmndrs/leva)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/pmndrs/leva)

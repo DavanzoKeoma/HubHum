@@ -5,7 +5,7 @@ tagline: "Build custom smart AI apps visually"
 summary: "Create custom artificial intelligence workflows, smart assistants, and document search pipelines easily on one collaborative workspace."
 tags: ["ai", "workflow", "automation"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/dify.png"
 stars: 161552
@@ -13,9 +13,9 @@ source_url: "https://github.com/langgenius/dify"
 download_url: "https://github.com/langgenius/dify/releases/download/1.20.0/difyctl-v1.20.0-windows-x64.exe"
 downloadUrl: "https://github.com/langgenius/dify/releases/download/1.20.0/difyctl-v1.20.0-windows-x64.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This platform lets you design and build intelligent computer assistants, automated task workflows, and document search systems using a simple visual canvas. You can connect your favorite artificial intelligence models, link external tools, and test everything right in your web browser without writing complex code. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This platform lets you design and build intelligent computer assistants, automated task workflows, and document search systems using a simple visual canvas. You can connect your favorite artificial intelligence models, link external tools, and test everything right in your web browser without writing complex code.
 
 ### Who it's for
 * Product creators looking to prototype and launch smart chatbot assistants without building backend infrastructure from scratch.
@@ -53,17 +53,20 @@ This platform lets you design and build intelligent computer assistants, automat
 * Visual workflow canvas to link together different tasks, decisions, and outputs without complicated scripts.
 * Built-in document search pipeline that extracts text from common files like PDFs and office presentations automatically.
 * Support for hundreds of popular proprietary and open-source artificial intelligence models from major providers.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Complete activity logs and monitoring tools to track performance, user queries, and system responses over time.
 
 ### How to install (Download)
 You can set up the server environment on your own machine using standard container tools following the official official project page guide. Alternatively, download the management utility directly below:
 - [Download for Windows (.exe)](https://github.com/langgenius/dify/releases/download/1.20.0/difyctl-v1.20.0-windows-x64.exe)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Combines multiple smart tools in one workspace; great visual interface; supports self-hosting for complete privacy.
 * **Cons:** Requires a machine with adequate hardware resources; setting up local servers takes some technical familiarity.
 
-[Official Source / Credits](https://github.com/langgenius/dify)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/langgenius/dify)

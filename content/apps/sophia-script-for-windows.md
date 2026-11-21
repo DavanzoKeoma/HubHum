@@ -13,7 +13,7 @@ source_url: "https://github.com/farag2/Sophia-Script-for-Windows"
 download_url: "https://github.com/farag2/Sophia-Script-for-Windows/releases/download/8.1.0/Sophia.Script.for.Windows.11.v8.1.0_WinGet.exe"
 downloadUrl: "https://github.com/farag2/Sophia-Script-for-Windows/releases/download/8.1.0/Sophia.Script.for.Windows.11.v8.1.0_WinGet.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "SecurityApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Sophia Script for Windows is a comprehensive toolkit that puts you back in charge of your personal computer. It lets you safely remove unwanted built-in programs, disable telemetry, and adjust system settings that are usually hidden deep inside the operating system. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Sophia Script for Windows is a comprehensive toolkit that puts you back in charge of your personal computer. It lets you safely remove unwanted built-in programs, disable telemetry, and adjust system settings that are usually hidden deep inside the operating system.
 
 ### Who it's for
 * Power users who want to strip out bloatware and speed up a fresh Windows installation
@@ -53,7 +53,6 @@ Sophia Script for Windows is a comprehensive toolkit that puts you back in charg
 * Over 150 unique adjustment functions built strictly around official Microsoft documentation
 * Fully open-source code with automatic updates and transparent community building
 * Safe environment where every single tweak includes a way to restore the default setting
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Seamless compatibility with Windows 10, Windows 11, and long-term service releases
 
 ### How to install (Download)
@@ -61,9 +60,14 @@ You can download and run the toolkit easily using official release packages or p
 
 * [Download for Windows (.exe)](https://github.com/farag2/Sophia-Script-for-Windows/releases/download/8.1.0/Sophia.Script.for.Windows.11.v8.1.0_WinGet.exe)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free and open source, offers massive customization depth, uses official system commands.
 * **Cons:** Requires basic familiarity with PowerShell, some advanced tweaks require a system restart.
-[Official Source / Credits](https://github.com/farag2/Sophia-Script-for-Windows)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/farag2/Sophia-Script-for-Windows)

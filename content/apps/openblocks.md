@@ -5,17 +5,17 @@ tagline: "Build custom business tools visually"
 summary: "Openblocks helps you create professional internal applications without needing to write complex code from scratch."
 tags: ["development", "productivity", "business"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/openblocks.png"
 stars: 6244
 source_url: "https://github.com/openblocks-dev/openblocks"
 download_url: "https://cloud.openblocks.dev"
 downloadUrl: "https://cloud.openblocks.dev"
-download_label: "Visit Official Site"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Openblocks is a visual workspace that lets you build custom internal software by dragging and dropping pre-made components. It connects directly to your existing databases and services, allowing you to manage your business data in one central place. To keep your administrative sessions secure when accessing these tools from public networks, consider using [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Openblocks is a visual workspace that lets you build custom internal software by dragging and dropping pre-made components. It connects directly to your existing databases and services, allowing you to manage your business data in one central place.
 
 ### Who it's for
 *   Business owners who need custom dashboards to track sales or inventory without hiring a full software team.
@@ -52,14 +52,19 @@ Openblocks is a visual workspace that lets you build custom internal software by
 *   **Visual Builder:** Drag and drop over 50 ready-to-use components to design your interface exactly how you want it.
 *   **Data Connectivity:** Easily link your existing databases like PostgreSQL, MongoDB, or MySQL to display and edit information.
 *   **Reusable Modules:** Save time by building components once and reusing them across multiple pages or projects.
-*   **SEO & Visibility:** Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 *   **Custom Logic:** Use standard JavaScript to add specific behaviors or calculations to your tools.
 
 ### How to install (Download)
-You can start building immediately by visiting the [Openblocks Cloud platform](https://cloud.openblocks.dev/). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). For those who prefer to host the software on their own infrastructure, detailed instructions for Docker, AWS, and DigitalOcean are available in the [official documentation](https://docs.openblocks.dev/self-hosting).
+You can start building immediately by visiting the [Openblocks Cloud platform](https://cloud.openblocks.dev/). Prefer not to manage servers by hand? For those who prefer to host the software on their own infrastructure, detailed instructions for Docker, AWS, and DigitalOcean are available in the [official documentation](https://docs.openblocks.dev/self-hosting).
 
 ### Pros and Cons
 *   **Pros:** Open-source and free from vendor lock-in, highly flexible with custom component support, and includes built-in security controls.
 *   **Cons:** Requires a basic understanding of data structures to connect your databases effectively.
 
-[Official Source / Credits](https://github.com/openblocks-dev/openblocks)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/openblocks-dev/openblocks)

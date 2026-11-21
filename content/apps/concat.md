@@ -5,18 +5,18 @@ tagline: "Free open-source local video editor."
 summary: "Concat is a completely free, privacy-focused video editor that runs entirely on your device with no watermarks, subscriptions, or uploads."
 tags: ["video-editor", "open-source", "local-first", "cross-platform"]
 is_webapp: true
-app_type: "webapp"
-category: "Web Apps & Cloud"
+app_type: "selfhosted"
+category: "Video & Audio"
 icon: "/icons/concat.png"
 stars: 19264
 source_url: "https://github.com/jub0t/Concat"
 download_url: "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-windows-x86_64-setup.exe"
 downloadUrl: "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-windows-x86_64-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "AGPL-3.0"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
-applicationCategory: "BusinessApplication"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Concat is a modern video editing program designed to help anyone cut clips, add titles, and enhance audio without needing an internet connection. Everything happens locally on your computer, meaning your personal footage never gets uploaded to remote servers. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Concat is a modern video editing program designed to help anyone cut clips, add titles, and enhance audio without needing an internet connection. Everything happens locally on your computer, meaning your personal footage never gets uploaded to remote servers.
 
 ### Who it's for
 - Content creators making short videos, reels, and tutorials who want complete privacy and zero subscription fees.
@@ -54,10 +54,9 @@ Concat is a modern video editing program designed to help anyone cut clips, add 
 - **No Paywalls or Watermarks:** Enjoy unrestricted access to 4K exports, multi-track cutting, and advanced effects without sneaky subscription traps.
 - **Smart Audio Tools:** Instantly isolate voices from background noise, generate text-to-speech audio, or clean up recordings with a single click.
 - **Dynamic Keyframes and Animations:** Smoothly control position, scale, opacity, and rotation with a built-in curve editor.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can open and run this application right in the cloud or download the installer tailored to your operating system. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can open and run this application right in the cloud or download the installer tailored to your operating system.
 
 - **Windows:** [Download for Windows (.exe)](https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-windows-x86_64-setup.exe) or [Download for Windows (.msi)](https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-windows-x86_64.msi)
 - **macOS:** [Download for Mac (.dmg)](https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-macos-arm64.dmg) (Apple Silicon) or [Download for Mac (.dmg)](https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-macos-x86_64.dmg) (Intel)
@@ -68,4 +67,10 @@ You can open and run this application right in the cloud or download the install
 * **Pros:** Completely free forever, works fully offline to protect privacy, includes powerful auto-captioning and voice isolation tools, and leaves no watermarks on exports.
 * **Cons:** Still in beta phase so occasional rough edges may appear, and advanced automation options require some technical familiarity.
 
-[Official Source / Credits](https://github.com/jub0t/Concat)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/jub0t/Concat)

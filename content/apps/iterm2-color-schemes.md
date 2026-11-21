@@ -13,7 +13,7 @@ source_url: "https://github.com/mbadolato/iTerm2-Color-Schemes"
 download_url: "https://github.com/mbadolato/iTerm2-Color-Schemes/releases/download/release-20261116-150709-494b809/alacritty-themes.7z"
 downloadUrl: "https://github.com/mbadolato/iTerm2-Color-Schemes/releases/download/release-20261116-150709-494b809/alacritty-themes.7z"
 download_label: "Download (alacritty-themes.7z)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-iTerm2-Color-Schemes gives you an enormous collection of visual color themes to make your command-line workspace look amazing. Instead of staring at boring default colors, you can easily browse and apply vibrant palettes designed to reduce eye strain and match your personal style. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It supports dozens of popular terminal applications across different operating systems, ensuring a consistent look wherever you work.
+iTerm2-Color-Schemes gives you an enormous collection of visual color themes to make your command-line workspace look amazing. Instead of staring at boring default colors, you can easily browse and apply vibrant palettes designed to reduce eye strain and match your personal style. It supports dozens of popular terminal applications across different operating systems, ensuring a consistent look wherever you work.
 
 ### Who it's for
 * **Software Developers:** Programmers who spend hours looking at code and want comfortable, high-contrast color combinations.
@@ -54,7 +54,6 @@ iTerm2-Color-Schemes gives you an enormous collection of visual color themes to 
 * **Wide Compatibility:** Works seamlessly with iTerm, Windows Terminal, Alacritty, Visual Studio, and many other text tools.
 * **Easy Import:** Apply new themes instantly using built-in settings or quick script commands.
 * **Visual Previews:** Inspect screenshots of every single theme before deciding which one to install.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can grab pre-packaged theme collections directly from the latest project releases. Choose the bundle that matches your preferred terminal tool:
@@ -63,10 +62,14 @@ You can grab pre-packaged theme collections directly from the latest project rel
 * [Download Cosmic Term Themes (.7z)](https://github.com/mbadolato/iTerm2-Color-Schemes/releases/download/release-20261116-150709-494b809/cosmic-term-themes.7z)
 * [Download Generic Themes (.7z)](https://github.com/mbadolato/iTerm2-Color-Schemes/releases/download/release-20261116-150709-494b809/generic-themes.7z)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free and open source, huge variety of choices, easy to switch between styles.
 * **Cons:** Requires unarchiving tools to extract specific theme files manually.
 
-[Official Source / Credits](https://github.com/mbadolato/iTerm2-Color-Schemes)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/mbadolato/iTerm2-Color-Schemes)

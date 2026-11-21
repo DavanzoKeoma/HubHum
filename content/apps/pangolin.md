@@ -5,17 +5,17 @@ tagline: "Secure private access and connectivity platform."
 summary: "Safely connect to your private web apps, remote desktops, and servers without exposing them to the public internet."
 tags: ["networking", "security", "zero-trust", "vpn-alternative"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Security & Privacy"
 icon: "/icons/pangolin.png"
 stars: 23897
 source_url: "https://github.com/fosrl/pangolin"
 download_url: "https://github.com/fosrl/pangolin/releases/download/1.27.0/installer_linux_amd64"
 downloadUrl: "https://github.com/fosrl/pangolin/releases/download/1.27.0/installer_linux_amd64"
-download_label: "Download (installer_linux_amd64)"
-license: "NOASSERTION"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Pangolin lets you securely connect to your private servers, databases, and internal web tools from anywhere without opening risky doors to the public internet. Instead of using traditional, wide-open network tools, it gives each person access only to the specific items their role requires. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). Every sign-in and connection request is checked against strict identity rules and safely recorded for review.
+Pangolin lets you securely connect to your private servers, databases, and internal web tools from anywhere without opening risky doors to the public internet. Instead of using traditional, wide-open network tools, it gives each person access only to the specific items their role requires. Every sign-in and connection request is checked against strict identity rules and safely recorded for review.
 
 ### Who it's for
 * System administrators who want to manage internal infrastructure without traditional, complicated virtual private networks.
@@ -54,7 +54,6 @@ Pangolin lets you securely connect to your private servers, databases, and inter
 * **Smart traffic routing**: Punches through restrictive firewalls automatically so you can connect to private networks without public IP addresses.
 * **Identity-aware AI gateway**: Route requests to coding assistants and self-hosted models under strict budget and role controls.
 * **Role-based permissions**: Grant access to specific resources rather than opening up entire network ranges to a single login.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can open and test this platform instantly in the cloud by visiting [Pangolin Cloud](https://app.pangolin.net/auth/signup). If you prefer to run it on your own server hardware, grab the automated server installer below:
@@ -62,10 +61,14 @@ You can open and test this platform instantly in the cloud by visiting [Pangolin
 * [Download Linux installer (ARM64)](https://github.com/fosrl/pangolin/releases/download/1.27.0/installer_linux_arm64)
 * [Explore Self-Hosting Quick Start Guide](https://docs.pangolin.net/self-host/quick-install)
 
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Modern interface, open-source transparency, lightweight setup, and granular access control without traditional network bloat.
 * **Cons:** Advanced enterprise configurations and identity provider integrations require initial technical setup time.
 
-[Official Source / Credits](https://github.com/fosrl/pangolin)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/fosrl/pangolin)

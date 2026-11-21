@@ -5,17 +5,17 @@ tagline: "Easily manage your databases visually online."
 summary: "mongo-express is a lightweight web application that lets you view, edit, and organize database records easily through your browser."
 tags: ["database", "management", "web-interface"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/mongo-express.png"
 stars: 5979
 source_url: "https://github.com/mongo-express/mongo-express"
 download_url: "https://github.com/mongo-express/mongo-express/releases"
 downloadUrl: "https://github.com/mongo-express/mongo-express/releases"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-mongo-express gives you a clean, web-based control panel for your database servers. You can browse through your collections, update records, and inspect data without typing complex terminal commands. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It turns routine data management tasks into a straightforward visual point-and-click experience.
+mongo-express gives you a clean, web-based control panel for your database servers. You can browse through your collections, update records, and inspect data without typing complex terminal commands. It turns routine data management tasks into a straightforward visual point-and-click experience.
 
 ### Who it's for
 - Developers who want a quick visual tool to inspect records while working on applications.
@@ -54,13 +54,18 @@ mongo-express gives you a clean, web-based control panel for your database serve
 - Allows you to view, add, update, and delete individual records effortlessly.
 - Previews audio, video, and image files directly inside the record viewer.
 - Supports handling very large files seamlessly through modern storage systems.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can grab the project files and view setup guides directly from the [Official GitHub Releases & official project page Page](https://github.com/mongo-express/mongo-express). It runs smoothly on Node.js or inside container platforms like Docker. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can grab the project files and view setup guides directly from the [Official GitHub Releases & official project page Page](https://github.com/mongo-express/mongo-express). It runs smoothly on Node.js or inside container platforms like Docker.
 
 ### Pros and Cons
 * **Pros:** Free and open-source, lightweight setup, user-friendly interface for everyday database tasks.
 * **Cons:** Meant strictly for private or internal networks since it lacks built-in advanced enterprise access controls by default.
 
-[Official Source / Credits](https://github.com/mongo-express/mongo-express)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/mongo-express/mongo-express)

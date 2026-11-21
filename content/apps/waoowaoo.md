@@ -13,9 +13,9 @@ source_url: "https://github.com/waooAI/waoowaoo"
 download_url: "https://github.com/waooAI/waoowaoo/releases"
 downloadUrl: "https://github.com/waooAI/waoowaoo/releases"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-waoowaoo is an intelligent creative workspace designed to help you develop ideas and generate cinematic images or videos. You can chat with an on-screen assistant to shape your creative vision and organize your reference files on a shared visual canvas. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). The platform allows you to fine-tune generated visuals, adjust durations, and manage multiple versions with ease.
+waoowaoo is an intelligent creative workspace designed to help you develop ideas and generate cinematic images or videos. You can chat with an on-screen assistant to shape your creative vision and organize your reference files on a shared visual canvas. The platform allows you to fine-tune generated visuals, adjust durations, and manage multiple versions with ease.
 
 ### Who it's for
 * Independent filmmakers and video creators looking to prototype cinematic scenes.
@@ -54,13 +54,18 @@ waoowaoo is an intelligent creative workspace designed to help you develop ideas
 * Visual canvas to organize reference files, compare generations, and inspect details.
 * Support for model-aware aspect ratios, custom durations, and resolutions.
 * Version tracking that lets you refine existing results into new iterations while keeping originals.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-This application runs via container setups for a smooth self-hosted experience. You can view the official release assets, documentation, and setup instructions directly on the [Official Releases Page](https://github.com/waooAI/waoowaoo/releases). Follow the setup instructions to configure your environment and link your provider API keys. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This application runs via container setups for a smooth self-hosted experience. You can view the official release assets, documentation, and setup instructions directly on the [Official Releases Page](https://github.com/waooAI/waoowaoo/releases). Follow the setup instructions to configure your environment and link your provider API keys.
 
 ### Pros and Cons
 * **Pros:** Professional-grade control over AI video generation workflows, unified canvas for assets, and flexible model selection.
 * **Cons:** Requires a self-hosted environment setup and external provider API keys to generate content.
 
-[Official Source / Credits](https://github.com/waooAI/waoowaoo)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/waooAI/waoowaoo)

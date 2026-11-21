@@ -13,9 +13,9 @@ source_url: "https://github.com/GyulyVGC/sniffnet"
 download_url: "https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_arm64.msi"
 downloadUrl: "https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_arm64.msi"
 download_label: "Download for Windows (.msi)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Sniffnet helps you keep a close eye on everything happening across your internet connection with zero hassle. It displays clear, live charts and details showing exactly which programs, websites, and devices are using your bandwidth. You can even set up custom alerts to notify you of unexpected network activity or potential security risks. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Sniffnet helps you keep a close eye on everything happening across your internet connection with zero hassle. It displays clear, live charts and details showing exactly which programs, websites, and devices are using your bandwidth. You can even set up custom alerts to notify you of unexpected network activity or potential security risks.
 
 ### Who it's for
 * Everyday internet users curious about which apps secretly connect to the web in the background.
@@ -54,10 +54,9 @@ Sniffnet helps you keep a close eye on everything happening across your internet
 * View real-time charts of internet traffic intensity and overall bandwidth statistics.
 * Discover the geographical location, domain name, and corporate owner of remote hosts.
 * Set custom notifications for specific network events and import dangerous connection blocklists.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). Choose your operating system below to download the application directly:
+Choose your operating system below to download the application directly:
 
 * **Windows:** [Download for Windows (.msi) (x64)](https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_x64.msi) | [Download for Windows (.msi) (arm64)](https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_arm64.msi) | [Download for Windows (.msi) (x86)](https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_Windows_x86.msi)
 * **Mac:** [Download for Mac (.dmg) (Apple Silicon)](https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_macOS_AppleSilicon.dmg) | [Download for Mac (.dmg) (Intel)](https://github.com/GyulyVGC/sniffnet/releases/download/v1.6.0/Sniffnet_macOS_Intel.dmg)
@@ -67,4 +66,10 @@ Before downloading installers or syncing private files over public Wi-Fi, shield
 * **Pros:** Completely free and open-source with no subscription fees, beautiful modern user interface, works across all major operating systems.
 * **Cons:** Requires certain system-level packet capturing helpers or dependencies to function properly on some computer setups.
 
-[Official Source / Credits](https://github.com/GyulyVGC/sniffnet)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/GyulyVGC/sniffnet)

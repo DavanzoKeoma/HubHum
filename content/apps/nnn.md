@@ -13,9 +13,9 @@ source_url: "https://github.com/jarun/nnn"
 download_url: "https://github.com/jarun/nnn/releases/download/v5.3/nnn-5.3.tar.gz.sig"
 downloadUrl: "https://github.com/jarun/nnn/releases/download/v5.3/nnn-5.3.tar.gz.sig"
 download_label: "Download (nnn-5.3.tar.gz.sig)"
-license: "BSD-2-Clause"
+license: "Open Source (BSD)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -44,7 +44,6 @@ i18n:
 ### What it does in plain English
 nnn helps you look through folders, move files around, and rename many items at once, all without opening a separate program.  
 It works in any terminal window, so you can use it on laptops, tablets or servers.  
-For full control over encrypted off‑site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
 
 ### Who it's for
 - People who spend a lot of time organizing documents on Linux, macOS or BSD.  
@@ -56,16 +55,19 @@ For full control over encrypted off‑site backups and private syncing, pair you
 - Rename or move many files with a single command.  
 - Search as you type, using simple or fuzzy matches.  
 - Extend functionality with plugins for image previews, cloud mounts and more.  
-- Ready‑to‑use digital planners, printable checklists and clean document templates via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can get nnn from the official release page or install it via your system’s package manager.  
 [Download latest release page](https://github.com/jarun/nnn/releases/latest)  
 
-Before downloading installers or syncing private files over public Wi‑Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** completely free, tiny size, works on many platforms, no extra libraries needed.  
-* **Cons:** runs inside a terminal, requires learning keyboard shortcuts, graphical previews need extra plugins.  
+* **Cons:** runs inside a terminal, requires learning keyboard shortcuts, graphical previews need extra plugins.
 
-[Official Source / Credits](https://github.com/jarun/nnn)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/jarun/nnn)

@@ -13,9 +13,9 @@ source_url: "https://github.com/clap-rs/clap"
 download_url: "https://github.com/clap-rs/clap/releases"
 downloadUrl: "https://github.com/clap-rs/clap/releases"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool helps programmers design clear rules for how people interact with software using text-based commands. It automatically checks user inputs, handles missing details, and generates helpful instructional text when someone makes a mistake. As you organize your project files, when you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This tool helps programmers design clear rules for how people interact with software using text-based commands. It automatically checks user inputs, handles missing details, and generates helpful instructional text when someone makes a mistake.
 
 ### Who it's for
 * Software creators looking to save hours of manual input-checking work.
@@ -52,12 +52,18 @@ This tool helps programmers design clear rules for how people interact with soft
 * Automatically builds comprehensive help guides based on your configuration rules.
 * Handles short flags, long options, and positional values seamlessly.
 * Validates user inputs instantly to catch typos or missing data before execution.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To add this parser to your programming environment, check out the official [Crates.io page](https://crates.io/crates/clap) or visit the [GitHub Releases](https://github.com/clap-rs/clap/releases) for complete documentation and guides. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To add this parser to your programming environment, check out the official [Crates.io page](https://crates.io/crates/clap) or visit the [GitHub Releases](https://github.com/clap-rs/clap/releases) for complete documentation and guides.
 
 ### Pros and Cons
 * **Pros:** Highly customizable, extremely fast execution, automatic help generation.
 * **Cons:** Requires familiarity with programming concepts to set up correctly.
-[Official Source / Credits](https://github.com/clap-rs/clap)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/clap-rs/clap)

@@ -13,9 +13,9 @@ source_url: "https://github.com/ifixai-ai/iFixAi"
 download_url: "https://www.ifixai.ai"
 downloadUrl: "https://www.ifixai.ai"
 download_label: "Visit Official Site"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-iFixAi is an independent auditor that tests your automated software assistants to see if they follow your rules and intentions. It places your assistant into a simulated work environment, sends it various realistic requests—including tricky scenarios designed to push past normal limits—and grades every single reply. You receive a clear performance scorecard in under two minutes, helping you catch mistakes or blind spots before they cause real-world trouble. As you prepare media elements and presentation decks for your AI projects, you can also explore royalty-free stock footage, music tracks, and motion presets via [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+iFixAi is an independent auditor that tests your automated software assistants to see if they follow your rules and intentions. It places your assistant into a simulated work environment, sends it various realistic requests—including tricky scenarios designed to push past normal limits—and grades every single reply. You receive a clear performance scorecard in under two minutes, helping you catch mistakes or blind spots before they cause real-world trouble.
 
 ### Who it's for
 - Developers and tech leads building automated customer support or operations helpers who need to prevent unintended actions.
@@ -54,7 +54,6 @@ iFixAi is an independent auditor that tests your automated software assistants t
 - Grades helpers on a clear A-to-F scale based on five core pillars, including manipulation, deception, and unpredictability.
 - Catches critical safety failures instantly, capping overall grades if mandatory minimum security checks fail.
 - Provides detailed inspection reports in both readable format and data files so you can track performance over time.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 To get started on your computer, ensure you have Python 3.10 or newer installed, then set up a dedicated workspace in your terminal:
@@ -63,9 +62,16 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install ifixai
 ```
-You can explore the official package details and installation instructions directly on the [iFixAi Official Website](https://www.ifixai.ai). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can explore the official package details and installation instructions directly on the [iFixAi Official Website](https://www.ifixai.ai).
 
 ### Pros and Cons
 * **Pros:** Evaluates assistants thoroughly in minutes; works with multiple leading AI judge providers; open-source and adaptable to custom workflows.
 * **Cons:** Requires basic familiarity with Python terminal commands; advanced custom test setups take a little time to configure properly.
-[Official Source / Credits](https://github.com/ifixai-ai/iFixAi)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ifixai-ai/iFixAi)

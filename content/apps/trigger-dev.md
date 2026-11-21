@@ -13,9 +13,9 @@ source_url: "https://github.com/triggerdotdev/trigger.dev"
 download_url: "https://trigger.dev/changelog"
 downloadUrl: "https://trigger.dev/changelog"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Trigger.dev allows you to build smart AI agents that can run for long periods without being interrupted by system limits. It manages the heavy lifting of retries and background processing so your agents stay reliable even when dealing with complex tasks. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Trigger.dev allows you to build smart AI agents that can run for long periods without being interrupted by system limits. It manages the heavy lifting of retries and background processing so your agents stay reliable even when dealing with complex tasks.
 
 ### Who it's for
 * **Software Developers** who want to build AI-powered features without managing complex server infrastructure.
@@ -53,13 +53,18 @@ Trigger.dev allows you to build smart AI agents that can run for long periods wi
 * **Human-in-the-loop:** Easily pause tasks to wait for a person to review or approve an action before continuing.
 * **Automatic Retries:** If a task fails, the system intelligently tries again so you don't lose progress.
 * **Full Observability:** See exactly what your AI is doing with detailed logs and performance tracking for every step.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Trigger.dev is a cloud-based platform. You can get started immediately by visiting the [official web app](https://cloud.trigger.dev) to create your project and connect your code. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Trigger.dev is a cloud-based platform. You can get started immediately by visiting the [official web app](https://cloud.trigger.dev) to create your project and connect your code.
 
 ### Pros and Cons
 * **Pros:** Extremely reliable for long tasks, excellent monitoring tools, and works with your existing code.
 * **Cons:** Requires some familiarity with programming to set up your first agent effectively.
 
-[Official Source / Credits](https://github.com/triggerdotdev/trigger.dev)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/triggerdotdev/trigger.dev)

@@ -13,9 +13,9 @@ source_url: "https://github.com/keepassxreboot/keepassxc"
 download_url: "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi"
 downloadUrl: "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi"
 download_label: "Download for Windows (.msi)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -41,7 +41,7 @@ i18n:
 ---
 
 ### What it does in plain English
-KeePassXC is an encrypted digital safe that stores all your passwords, PINs, and private notes inside a single protected file on your computer. Unlike subscription password managers that keep your secrets on company servers, your vault stays strictly in your hands—and if you want an off-site encrypted mirror across devices, you can host a private backup folder on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). You only need to remember one strong master password to unlock everything safely.
+KeePassXC is an encrypted digital safe that stores all your passwords, PINs, and private notes inside a single protected file on your computer. You only need to remember one strong master password to unlock everything safely.
 
 ### Who it's for
 * Anyone who still reuses simple passwords and wants unique, strong logins for every website.
@@ -54,7 +54,6 @@ KeePassXC is an encrypted digital safe that stores all your passwords, PINs, and
 * Store two-factor verification codes and secure file attachments alongside your logins.
 * Organize personal, work, and financial accounts into clear folders and tags.
 * Check immediately if any saved password has appeared in known online data leaks.
-* Prepare clean printable household emergency recovery planners or document sheets with [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Download the official installer matching your system:
@@ -62,10 +61,16 @@ Download the official installer matching your system:
 * [Download for Mac Apple Silicon (.dmg)](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-arm64.dmg)
 * [Download for Linux (.AppImage)](https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-x86_64.AppImage)
 
-Signing into accounts from cafés, hotels, or public Wi-Fi? Protect your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Signing into accounts from cafés, hotels, or public Wi-Fi?
 
 ### Pros and Cons
 * **Pros:** Free forever, no account signup required, and full ownership of your encrypted vault file.
 * **Cons:** Syncing between devices requires saving the vault file in a USB drive or your personal cloud folder.
 
-[Official Source / Credits](https://github.com/keepassxreboot/keepassxc)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/keepassxreboot/keepassxc)

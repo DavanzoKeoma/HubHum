@@ -13,9 +13,9 @@ source_url: "https://github.com/Canop/broot"
 download_url: "https://dystroy.org/broot"
 downloadUrl: "https://dystroy.org/broot"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Broot gives you a fresh, visual way to explore your computer's folders instead of wading through endless boring text lists. It intelligently hides unimportant clutter while letting you zoom into large directories and jump straight to what you need with just a few keystrokes. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Broot gives you a fresh, visual way to explore your computer's folders instead of wading through endless boring text lists. It intelligently hides unimportant clutter while letting you zoom into large directories and jump straight to what you need with just a few keystrokes.
 
 ### Who it's for
 * Software developers and programmers who spend hours navigating deep directory structures every day.
@@ -54,13 +54,18 @@ Broot gives you a fresh, visual way to explore your computer's folders instead o
 * **Instant Filtering:** Type a few letters of a file or folder name to instantly narrow down search results without lag.
 * **Split Panels & Previews:** Open multiple folder panels side by side and preview text or images right inside your view.
 * **Built-in File Actions:** Move, copy, delete, and view file details directly without leaving the application window.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can get started and review detailed setup steps directly on the [Official Broot Website](https://dystroy.org/broot). Follow the system-specific instructions on the [Broot Installation Guide](https://dystroy.org/broot/install/) to add it to your environment. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can get started and review detailed setup steps directly on the [Official Broot Website](https://dystroy.org/broot). Follow the system-specific instructions on the [Broot Installation Guide](https://dystroy.org/broot/install/) to add it to your environment.
 
 ### Pros and Cons
 * **Pros:** Extremely fast search response, highly customizable shortcuts, smart handling of ignored project files.
 * **Cons:** Requires getting used to keyboard shortcuts, primarily designed for users comfortable with text-based workflows.
 
-[Official Source / Credits](https://github.com/Canop/broot)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Canop/broot)

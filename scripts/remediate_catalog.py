@@ -12,10 +12,16 @@ from scouter import (
     INSTALLER_EXTENSIONS,
     PROCESSED_REPOS_PATH,
     classify_app_type_and_category,
+    humanize_license,
     sanitize_human_tags,
 )
-from seo_pipeline import _derive_application_category, clean_complete_summary
-from validator_sanitizer import is_summary_truncated, split_frontmatter, validate_directory
+from seo_pipeline import AFFILIATES_PATH, _derive_application_category, clean_complete_summary
+from validator_sanitizer import (
+    is_summary_truncated,
+    relocate_affiliate_links_to_sponsored_section,
+    split_frontmatter,
+    validate_directory,
+)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_APPS_DIR = PROJECT_ROOT / "content" / "apps"
@@ -106,15 +112,21 @@ def _serialize_card(meta: dict[str, object], body: str) -> str:
 
 
 def remediate_all() -> dict[str, object]:
-    """Run deterministic taxonomy, honest app_type, tag cleanup, and summary repair on all cards."""
+    """Run deterministic taxonomy, honest app_type, license cleanup, and #ad isolation across all cards."""
     files = sorted(CONTENT_APPS_DIR.glob("*.md"))
+    affiliates_data: dict = {}
+    if AFFILIATES_PATH.exists():
+        affiliates_data = json.loads(AFFILIATES_PATH.read_text(encoding="utf-8"))
+    aff_cats: dict = affiliates_data.get("categories") or {}
+
     stats: dict[str, object] = {
         "total_scanned": len(files),
         "updated_files": 0,
         "repaired_summaries": 0,
         "repaired_i18n_summaries": 0,
         "reclassified_categories": 0,
-        "by_app_type": {"desktop": 0, "webapp": 0, "cli": 0},
+        "isolated_sponsored_sections": 0,
+        "by_app_type": {"desktop": 0, "webapp": 0, "selfhosted": 0, "cli": 0, "resource": 0},
         "by_category": {},
     }
     processed_slugs: list[str] = []
@@ -125,6 +137,7 @@ def remediate_all() -> dict[str, object]:
         raw_text = md_path.read_text(encoding="utf-8")
         meta, body = split_frontmatter(raw_text)
         before_snapshot = json.dumps(meta, ensure_ascii=False, sort_keys=True)
+        before_body = body.strip()
 
         slug = str(meta.get("slug") or md_path.stem).strip()
         title = str(meta.get("title") or slug).strip()
@@ -150,7 +163,6 @@ def remediate_all() -> dict[str, object]:
         fallback_prose = intro_clean or old_summary or f"{title} is a free open-source tool."
 
         if is_summary_truncated(old_summary):
-            # Prefer full clean sentence from plain-English body intro over chopped summary
             source_for_fix = intro_clean if len(intro_clean) >= 35 else old_summary
             fixed_sum = clean_complete_summary(source_for_fix, fallback_prose, max_len=210)
             if is_summary_truncated(fixed_sum):
@@ -158,7 +170,7 @@ def remediate_all() -> dict[str, object]:
             meta["summary"] = fixed_sum
             stats["repaired_summaries"] = int(stats["repaired_summaries"]) + 1
 
-        # Also repair truncated localized summaries
+        # Repair truncated localized summaries
         raw_i18n = meta.get("i18n")
         if isinstance(raw_i18n, dict):
             for lang in ("it", "es", "fr", "de"):
@@ -170,7 +182,7 @@ def remediate_all() -> dict[str, object]:
                         stats["repaired_i18n_summaries"] = int(stats["repaired_i18n_summaries"]) + 1
 
         raw_tags = [str(t) for t in (meta.get("tags") or [])]
-        app_type, new_cat, new_tier, new_is_webapp, _ = classify_app_type_and_category(
+        app_type, new_cat, new_tier, new_is_webapp, aff_key = classify_app_type_and_category(
             slug=slug,
             title=title,
             description=str(meta.get("summary") or "") + " " + intro_clean[:250],
@@ -180,9 +192,9 @@ def remediate_all() -> dict[str, object]:
             current_tier=current_tier,
         )
 
-        # Preserve explicit Web App designation for native catalog items like HubHum
+        # Preserve explicit Web App designation for native browser tools like HubHum
         if slug == "hubhum":
-            app_type, new_cat, new_tier, new_is_webapp = "webapp", "Web Apps & Cloud", "tier2_webapp", True
+            app_type, new_cat, new_tier, new_is_webapp, aff_key = "webapp", "Web Apps & Cloud", "tier2_webapp", True, "webapp_cms"
 
         if new_cat != old_cat:
             stats["reclassified_categories"] = int(stats["reclassified_categories"]) + 1
@@ -193,16 +205,45 @@ def remediate_all() -> dict[str, object]:
         meta["is_webapp"] = new_is_webapp
         meta["applicationCategory"] = _derive_application_category(new_cat)
         meta["tags"] = sanitize_human_tags(raw_tags, category=new_cat, app_type=app_type)
+        meta["license"] = humanize_license(str(meta.get("license") or ""))
 
-        if app_type == "cli" and ("checksums" in dl_url.lower() or str(meta.get("download_label") or "").startswith("Download (checksums")):
-            meta["download_label"] = "Get Command-Line Tool →"
-        elif app_type == "cli" and str(meta.get("download_label") or "") == "Visit Official Site":
+        cur_dl_label = str(meta.get("download_label") or "")
+        if app_type == "resource":
+            meta["download_label"] = "Browse Reference →"
+        elif app_type == "selfhosted" and not has_installer:
+            meta["download_label"] = "Official Setup & Docs →"
+        elif app_type == "cli" and (
+            "checksums" in dl_url.lower()
+            or cur_dl_label.startswith("Download (checksums")
+            or cur_dl_label == "Visit Official Site"
+        ):
             meta["download_label"] = "Get Command-Line Tool →"
 
         if app_type == "webapp":
-            meta["operatingSystem"] = "All / Browser"
-        elif app_type == "cli" and str(meta.get("operatingSystem") or "") == "All / Browser":
-            meta["operatingSystem"] = "Windows, macOS, Linux"
+            meta["operatingSystem"] = "Browser / Online"
+        elif app_type == "selfhosted":
+            meta["operatingSystem"] = "Self-Hosted / Browser"
+        elif app_type == "resource":
+            meta["operatingSystem"] = "All / Reference"
+        else:
+            cur_os = str(meta.get("operatingSystem") or "Windows, macOS, Linux")
+            has_android_signal = (
+                dl_url.lower().endswith(".apk")
+                or any("android" in str(t).lower() for t in raw_tags)
+                or "android" in f"{title} {meta.get('summary', '')}".lower()
+            )
+            if cur_os == "All / Browser":
+                meta["operatingSystem"] = "Windows, macOS, Linux"
+            elif ("Android" in cur_os and (app_type == "cli" or not has_android_signal)):
+                cleaned_oses = [o.strip() for o in cur_os.split(",") if o.strip() and o.strip() != "Android"]
+                meta["operatingSystem"] = ", ".join(cleaned_oses) if cleaned_oses else "Windows, macOS, Linux"
+
+        # Isolate all #ad partner links strictly inside ### Sponsored Partner Tools (#ad)
+        cat_block = aff_cats.get(aff_key) or aff_cats.get("webapp_cms") or {}
+        triplet = cat_block.get("recommended_triplet") or []
+        new_body = relocate_affiliate_links_to_sponsored_section(body, triplet=triplet).strip()
+        if "### Sponsored Partner Tools (#ad)" in new_body:
+            stats["isolated_sponsored_sections"] = int(stats["isolated_sponsored_sections"]) + 1
 
         by_type = stats["by_app_type"]  # type: ignore[assignment]
         by_type[app_type] = int(by_type.get(app_type, 0)) + 1
@@ -210,8 +251,8 @@ def remediate_all() -> dict[str, object]:
         by_cat[new_cat] = int(by_cat.get(new_cat, 0)) + 1
 
         after_snapshot = json.dumps(meta, ensure_ascii=False, sort_keys=True)
-        if before_snapshot != after_snapshot:
-            md_path.write_text(_serialize_card(meta, body), encoding="utf-8")
+        if before_snapshot != after_snapshot or before_body != new_body:
+            md_path.write_text(_serialize_card(meta, new_body), encoding="utf-8")
             stats["updated_files"] = int(stats["updated_files"]) + 1
 
     # Write persistent anti-duplication cache

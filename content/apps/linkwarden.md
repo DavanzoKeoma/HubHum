@@ -5,17 +5,17 @@ tagline: "Save and preserve your favorite web pages"
 summary: "An open-source tool to collect, read, annotate, and archive important web pages and articles in one secure place."
 tags: ["bookmarks", "archiving", "collaboration", "productivity"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/linkwarden.png"
 stars: 20491
 source_url: "https://github.com/linkwarden/linkwarden"
 download_url: "https://linkwarden.app"
 downloadUrl: "https://linkwarden.app"
-download_label: "Open in Cloud →"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Linkwarden is a collaborative digital notebook that lets you save web pages, articles, and useful links. When you save a link, it creates permanent backups including screenshots and text files so you never lose information to broken links. You can also organize your finds into custom collections, highlight important paragraphs, and share your library with friends or teammates. To keep your research secure while browsing away from home, protect your remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Linkwarden is a collaborative digital notebook that lets you save web pages, articles, and useful links. When you save a link, it creates permanent backups including screenshots and text files so you never lose information to broken links. You can also organize your finds into custom collections, highlight important paragraphs, and share your library with friends or teammates.
 
 ### Who it's for
 * **Researchers & Students:** Keep track of reference sources and articles without worrying about them disappearing from the internet.
@@ -54,16 +54,21 @@ Linkwarden is a collaborative digital notebook that lets you save web pages, art
 * Built-in reader view with tools to highlight text and leave private or shared notes.
 * Full-text search and smart tags to find any saved article instantly.
 * Dedicated mobile apps for iOS and Android plus handy browser extensions.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can jump right in using the hosted platform or run your own private instance.
 * [Open Official Website](https://linkwarden.app)
 * [Launch Cloud Version](https://cloud.linkwarden.app)
 * [Read Self-Hosting Installation Guide](https://docs.linkwarden.app/self-hosting/installation)
-* Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
 
 ### Pros and Cons
 * **Pros:** Completely open-source, preserves dead links automatically, and offers great collaboration tools.
 * **Cons:** Self-hosting requires basic server setup knowledge, and advanced features take a few minutes to explore.
-[Official Source / Credits](https://github.com/linkwarden/linkwarden)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/linkwarden/linkwarden)

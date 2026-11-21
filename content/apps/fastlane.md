@@ -13,9 +13,9 @@ source_url: "https://github.com/fastlane/fastlane"
 download_url: "https://github.com/fastlane/fastlane/releases/download/2.242.0/fastlane-2.242.0.gem"
 downloadUrl: "https://github.com/fastlane/fastlane/releases/download/2.242.0/fastlane-2.242.0.gem"
 download_label: "Download (fastlane-2.242.0.gem)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Android, iOS"
+operatingSystem: "iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This utility removes the frustration of manually preparing and publishing mobile apps for smartphones and tablets. It takes care of tedious routines like capturing promotional screenshots across multiple device sizes, organizing digital security certificates, and uploading fresh updates to digital storefronts. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+This utility removes the frustration of manually preparing and publishing mobile apps for smartphones and tablets. It takes care of tedious routines like capturing promotional screenshots across multiple device sizes, organizing digital security certificates, and uploading fresh updates to digital storefronts.
 
 ### Who it's for
 * Mobile software developers looking to save hours of manual busywork during every update cycle.
@@ -53,11 +53,9 @@ This utility removes the frustration of manually preparing and publishing mobile
 * Automated screenshot generation across multiple screen dimensions and localizations.
 * Simplified management and synchronization of security certificates and provisioning profiles.
 * Direct integration with continuous integration pipelines for completely hands-off distribution.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Extensible plugin system allowing customized steps for unique workflow requirements.
 
 ### How to install (Download)
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 Get the latest installer package directly from the official release assets:
 - [Download package (fastlane-2.242.0.gem)](https://github.com/fastlane/fastlane/releases/download/2.242.0/fastlane-2.242.0.gem)
@@ -67,4 +65,10 @@ Get the latest installer package directly from the official release assets:
 * **Pros:** Completely free and open source, massive library of community-contributed automation steps, saves countless hours of manual work.
 * **Cons:** Requires familiarity with command-line tools and initial configuration can take some time to set up properly.
 
-[Official Source / Credits](https://github.com/fastlane/fastlane)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/fastlane/fastlane)

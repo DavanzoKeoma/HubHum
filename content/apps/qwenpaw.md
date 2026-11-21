@@ -5,7 +5,7 @@ tagline: "Your personal customizable AI assistant"
 summary: "Manage chats, automate tasks, and connect across multiple messaging apps using your own private artificial intelligence assistant."
 tags: ["ai", "assistant", "productivity", "automation"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/qwenpaw.png"
 stars: 38004
@@ -13,9 +13,9 @@ source_url: "https://github.com/agentscope-ai/QwenPaw"
 download_url: "https://github.com/agentscope-ai/QwenPaw/releases/download/v2.3.0.post1/QwenPaw-Tauri-2.3.0.post1-Windows-setup.exe"
 downloadUrl: "https://github.com/agentscope-ai/QwenPaw/releases/download/v2.3.0.post1/QwenPaw-Tauri-2.3.0.post1-Windows-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-QwenPaw is a personal artificial intelligence assistant that runs directly on your computer or in the cloud. It helps you organize your daily tasks, chat with advanced intelligence models, and connect across popular messaging apps without sharing your private information. For creators assembling multimedia projects, you can also explore royalty-free stock footage, music tracks, and motion presets via [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+QwenPaw is a personal artificial intelligence assistant that runs directly on your computer or in the cloud. It helps you organize your daily tasks, chat with advanced intelligence models, and connect across popular messaging apps without sharing your private information.
 
 ### Who it's for
 - **Busy professionals**: Automate daily routine tasks, news summaries, and cross-channel messaging notifications effortlessly.
@@ -54,16 +54,19 @@ QwenPaw is a personal artificial intelligence assistant that runs directly on yo
 - **Multi-channel integration**: Chat directly through popular messaging platforms and messaging apps from a single unified hub.
 - **Advanced memory systems**: Retains important details across sessions through a structured, searchable personal knowledge base.
 - **Robust security guards**: Built-in file protection and command screening blocks unsafe actions before they run.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can launch this application instantly as a web app in the cloud via the [AgentScope Platform](https://platform.agentscope.io/). If you prefer a desktop application, download the installer directly:
 - [Download for Windows (.exe)](https://github.com/agentscope-ai/QwenPaw/releases/download/v2.3.0.post1/QwenPaw-Tauri-2.3.0.post1-Windows-setup.exe)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Complete control over your data with local cloud setup options, highly customizable workflows, and no mandatory subscription fees.
 * **Cons:** Advanced settings and integrations may take a few minutes to configure for non-technical users.
 
-[Official Source / Credits](https://github.com/agentscope-ai/QwenPaw)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/agentscope-ai/QwenPaw)

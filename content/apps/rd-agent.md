@@ -13,9 +13,9 @@ source_url: "https://github.com/microsoft/RD-Agent"
 download_url: "https://rdagent.azurewebsites.net/"
 downloadUrl: "https://rdagent.azurewebsites.net/"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-RD-Agent is an intelligent assistant platform designed to automate heavy research and development tasks, especially in data science and quantitative finance. By letting artificial intelligence propose and test new ideas, it speeds up how data models and financial strategies are built. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+RD-Agent is an intelligent assistant platform designed to automate heavy research and development tasks, especially in data science and quantitative finance. By letting artificial intelligence propose and test new ideas, it speeds up how data models and financial strategies are built.
 
 ### Who it's for
 * **Data Scientists:** Professionals looking to automate repetitive feature engineering and model tuning workflows.
@@ -54,10 +54,9 @@ RD-Agent is an intelligent assistant platform designed to automate heavy researc
 * **Paper-to-Code Extraction:** Automatically reads research reports or technical papers to implement described formulas and model structures.
 * **Kaggle and MLE-bench Integration:** Evaluates performance against benchmark challenges to improve real-world engineering problem solving.
 * **Multi-Backend LLM Support:** Works smoothly with various language model providers through LiteLLM and DeepSeek integration.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-RD-Agent runs primarily on Linux systems with Python and Docker. You can install the package directly from the command line using package managers or set up a development environment from the source. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+RD-Agent runs primarily on Linux systems with Python and Docker. You can install the package directly from the command line using package managers or set up a development environment from the source.
 
 * Install via Python Package Index: `pip install rdagent`
 * View online documentation and installation guides at the [RD-Agent Documentation](https://rdagent.readthedocs.io/en/latest/index.html).
@@ -65,4 +64,11 @@ RD-Agent runs primarily on Linux systems with Python and Docker. You can install
 ### Pros and Cons
 * **Pros:** Significantly cuts down manual research time, handles repetitive coding tasks, and achieves top performance on machine learning benchmarks.
 * **Cons:** Requires a Linux environment, a working Docker installation, and active API keys for language model services.
-[Official Source / Credits](https://github.com/microsoft/RD-Agent)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/microsoft/RD-Agent)

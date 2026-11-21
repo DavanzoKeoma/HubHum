@@ -13,9 +13,9 @@ source_url: "https://github.com/InstaPy/InstaPy"
 download_url: "https://instapy.org/"
 downloadUrl: "https://instapy.org/"
 download_label: "Get Command-Line Tool →"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-InstaPy is an open-source program designed to handle routine social media tasks like liking and commenting on your behalf. It uses automation scripts to interact with other profiles, saving you hours of manual scrolling and tapping. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+InstaPy is an open-source program designed to handle routine social media tasks like liking and commenting on your behalf. It uses automation scripts to interact with other profiles, saving you hours of manual scrolling and tapping.
 
 ### Who it's for
 * Social media managers handling multiple routine tasks.
@@ -53,13 +53,18 @@ InstaPy is an open-source program designed to handle routine social media tasks 
 * Automated liking, commenting, and following based on custom tags.
 * Built using Python and browser control tools for realistic interaction flows.
 * Configurable filters to target specific audiences or avoid unwanted accounts.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can explore the project files and learn how to set it up locally by visiting the [Official InstaPy Website](https://instapy.org/). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can explore the project files and learn how to set it up locally by visiting the [Official InstaPy Website](https://instapy.org/).
 
 ### Pros and Cons
 * **Pros:** Free and open-source, highly customizable with Python, active community support.
 * **Cons:** Requires technical setup, automated actions carry platform policy risks if overused.
 
-[Official Source / Credits](https://github.com/InstaPy/InstaPy)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/InstaPy/InstaPy)

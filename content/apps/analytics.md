@@ -5,17 +5,17 @@ tagline: "Simple, private, and lightweight website statistics."
 summary: "Plausible provides clear insights into your website traffic without tracking individual visitors or using invasive cookies."
 tags: ["analytics", "privacy", "web-tools"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/analytics.png"
 stars: 29895
 source_url: "https://github.com/plausible/analytics"
 download_url: "https://plausible.io"
 downloadUrl: "https://plausible.io"
-download_label: "Visit Official Site"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Plausible helps you understand how people find and use your website by providing clear, easy-to-read traffic reports. Unlike many other tools, it respects your visitors' privacy by never collecting personal data or using tracking cookies. For full control over encrypted off-site backups and private syncing of your site data, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Plausible helps you understand how people find and use your website by providing clear, easy-to-read traffic reports. Unlike many other tools, it respects your visitors' privacy by never collecting personal data or using tracking cookies.
 
 ### Who it's for
 *   Small business owners who want to understand their audience without compromising customer privacy.
@@ -53,10 +53,9 @@ Plausible helps you understand how people find and use your website by providing
 *   **Lightweight Performance:** The tiny script ensures your website remains fast for your visitors.
 *   **Simple Dashboard:** All your essential metrics are displayed on a single, easy-to-understand page.
 *   **Goal Tracking:** Easily monitor important actions like form completions, file downloads, or button clicks.
-*   **Productivity Boost:** Keep your workflow organized with ready-to-use digital planners and clean document templates from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Plausible is a web-based service that you can start using immediately in the cloud. Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Plausible is a web-based service that you can start using immediately in the cloud.
 
 *   [Get started with the managed cloud service here](https://plausible.io/register)
 *   [View self-hosting instructions for advanced users](https://github.com/plausible/community-edition/)
@@ -65,4 +64,10 @@ Plausible is a web-based service that you can start using immediately in the clo
 *   **Pros:** Extremely easy to use, no cookie banners required, and helps your website load faster.
 *   **Cons:** The managed cloud service requires a monthly subscription, and self-hosting requires technical maintenance.
 
-[Official Source / Credits](https://plausible.io)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://plausible.io)

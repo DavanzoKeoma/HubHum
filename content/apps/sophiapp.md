@@ -13,7 +13,7 @@ source_url: "https://github.com/Sophia-Community/SophiApp"
 download_url: "https://github.com/Sophia-Community/SophiApp/releases"
 downloadUrl: "https://github.com/Sophia-Community/SophiApp/releases"
 download_label: "Visit Official Site"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "SecurityApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-SophiApp provides a clean, modern interface to adjust over 130 hidden or hard-to-reach settings within Windows 10 and 11. It helps you remove unwanted apps, manage privacy, and personalize your system without needing to touch complex system files. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+SophiApp provides a clean, modern interface to adjust over 130 hidden or hard-to-reach settings within Windows 10 and 11. It helps you remove unwanted apps, manage privacy, and personalize your system without needing to touch complex system files.
 
 ### Who it's for
 * Everyday users who want to declutter their computer and remove pre-installed software.
@@ -52,13 +52,18 @@ SophiApp provides a clean, modern interface to adjust over 130 hidden or hard-to
 * Over 130 unique tweaks to customize your system performance and appearance.
 * A clear, searchable interface that shows the current status of every setting.
 * Built-in tools to uninstall unwanted apps and manage system security.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can download the latest version directly from the official [SophiApp Releases page](https://github.com/Sophia-Community/SophiApp/releases). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can download the latest version directly from the official [SophiApp Releases page](https://github.com/Sophia-Community/SophiApp/releases).
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, portable (no installation required), and uses only official Windows configuration methods.
 * **Cons:** Advanced settings require a basic understanding of Windows to avoid changing features you might actually need.
 
-[Official Source / Credits](https://github.com/Sophia-Community/SophiApp)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Sophia-Community/SophiApp)

@@ -5,17 +5,17 @@ tagline: "Build business software instantly using AI."
 summary: "JeecgBoot is a free, open-source platform that combines smart artificial intelligence with low-code tools to build business software."
 tags: ["ai", "low-code", "developer-tools"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/jeecgboot.png"
 stars: 48539
 source_url: "https://github.com/jeecgboot/JeecgBoot"
 download_url: "https://jeecg.com"
 downloadUrl: "https://jeecg.com"
-download_label: "Visit Official Site"
-license: "Apache-2.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-JeecgBoot is a powerful open-source development platform that lets you build complete business management systems simply by typing out what you need in everyday language. It comes with built-in security features, user accounts, approval workflows, and data dashboards right out of the box. Instead of writing repetitive code from scratch, artificial intelligence handles the heavy lifting while you keep full control over your final software. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+JeecgBoot is a powerful open-source development platform that lets you build complete business management systems simply by typing out what you need in everyday language. It comes with built-in security features, user accounts, approval workflows, and data dashboards right out of the box. Instead of writing repetitive code from scratch, artificial intelligence handles the heavy lifting while you keep full control over your final software.
 
 ### Who it's for
 * Software developers looking to skip repetitive setup tasks and build complex backend systems in record time.
@@ -54,13 +54,18 @@ JeecgBoot is a powerful open-source development platform that lets you build com
 * Comprehensive user permission controls, role management, and secure multi-tenant data isolation.
 * Ready-to-use business tools including approval workflows, printable reports, and visual data dashboards.
 * Built-in artificial intelligence assistant and smart knowledge base connected to popular language models.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can explore the official project website and documentation directly at the [JeecgBoot Official Website](https://jeecg.com). To set up the platform locally using container tools, check out the [Docker Quick Start Guide](https://help.jeecg.com/java/docker/quick). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can explore the official project website and documentation directly at the [JeecgBoot Official Website](https://jeecg.com). To set up the platform locally using container tools, check out the [Docker Quick Start Guide](https://help.jeecg.com/java/docker/quick).
 
 ### Pros and Cons
 * **Pros:** Free and open-source for personal and commercial use without expensive licensing fees; includes robust enterprise security features out of the box.
 * **Cons:** Advanced configurations and microservice setups require familiarity with Java and modern web development software foundation.
 
-[Official Source / Credits](https://github.com/jeecgboot/JeecgBoot)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/jeecgboot/JeecgBoot)

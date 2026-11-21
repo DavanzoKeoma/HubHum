@@ -13,7 +13,7 @@ source_url: "https://github.com/kovidgoyal/kitty"
 download_url: "https://github.com/kovidgoyal/kitty/releases/download/v0.51.0/kitty-0.51.0.dmg"
 downloadUrl: "https://github.com/kovidgoyal/kitty/releases/download/v0.51.0/kitty-0.51.0.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Kitty is a modern command-line workspace designed for people who spend their day typing computer commands. It leverages your computer's graphics card to draw text instantly, resulting in a buttery-smooth viewing experience. You can easily divide your workspace into multiple panels, change color themes, and view high-resolution images right inside your command window. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Kitty is a modern command-line workspace designed for people who spend their day typing computer commands. It leverages your computer's graphics card to draw text instantly, resulting in a buttery-smooth viewing experience. You can easily divide your workspace into multiple panels, change color themes, and view high-resolution images right inside your command window.
 
 ### Who it's for
 * Software developers and programmers who manage code through text commands.
@@ -54,10 +54,9 @@ Kitty is a modern command-line workspace designed for people who spend their day
 * Ability to split the main window into multiple flexible tabs and panes.
 * Direct display of high-resolution images and graphics within the command interface.
 * Extensive customization options for keyboard shortcuts, colors, and fonts.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can get the application installer directly for macOS systems. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can get the application installer directly for macOS systems.
 
 * [Download for Mac (.dmg)](https://github.com/kovidgoyal/kitty/releases/download/v0.51.0/kitty-0.51.0.dmg)
 
@@ -65,4 +64,10 @@ You can get the application installer directly for macOS systems. Keep large ins
 * **Pros:** Extremely fast performance, rich feature set, excellent image display support.
 * **Cons:** Configuration relies on text files rather than simple point-and-click menus.
 
-[Official Source / Credits](https://github.com/kovidgoyal/kitty)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/kovidgoyal/kitty)

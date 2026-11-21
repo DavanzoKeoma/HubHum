@@ -13,9 +13,9 @@ source_url: "https://github.com/AutomaApp/automa"
 download_url: "https://www.goautoma.com/extension"
 downloadUrl: "https://www.goautoma.com/extension"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -44,7 +44,6 @@ i18n:
 ### What it does in plain English
 Automa lets you set up tiny blocks that work together, so repetitive clicks become a thing of the past.  
 It can automatically fill out forms, grab screenshots, or pull information from a site for you.  
-When you need royalty‑free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
 
 ### Who it's for
 - People who spend a lot of time filling online forms or copying data.  
@@ -55,15 +54,19 @@ When you need royalty‑free stock footage, music tracks, and motion presets alo
 - Drag‑and‑drop blocks to build a workflow without writing code.  
 - Schedule a workflow to run later or repeat daily.  
 - Save and share your workflows in the Automa marketplace.  
-- Expand your creative library with commercial‑safe fonts, lower‑third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 - **Chrome:** Install from the Chrome Web Store – [Add to Chrome](https://chrome.google.com/webstore/detail/automa/infppggnoaenmfagbfknfkancpbljcca).  
 - **Firefox:** Install from Firefox Add‑ons – [Add to Firefox](https://addons.mozilla.org/en-US/firefox/addon/automa/).  
-- Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** Free to use, no subscription, works in major browsers.  
 * **Cons:** Advanced workflows may need a bit of trial and error to perfect.
 
-[Official Source / Credits](https://github.com/AutomaApp/automa)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/AutomaApp/automa)

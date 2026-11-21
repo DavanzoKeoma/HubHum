@@ -13,7 +13,7 @@ source_url: "https://github.com/can1357/oh-my-pi"
 download_url: "https://github.com/can1357/oh-my-pi/releases/download/v19.0.1/omp-windows-arm64.exe"
 downloadUrl: "https://github.com/can1357/oh-my-pi/releases/download/v19.0.1/omp-windows-arm64.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-oh-my-pi is a smart coding partner that brings your workspace environment directly into your AI conversations. It helps you read, search, edit, and debug your software projects using natural instructions. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+oh-my-pi is a smart coding partner that brings your workspace environment directly into your AI conversations. It helps you read, search, edit, and debug your software projects using natural instructions.
 
 ### Who it's for
 * Software developers looking to speed up debugging and routine edits.
@@ -53,13 +53,18 @@ oh-my-pi is a smart coding partner that brings your workspace environment direct
 * Deeply integrated code search and editing capabilities that catch errors early.
 * Built-in tools for running shell commands and inspecting active processes safely.
 * Multi-model provider support allowing you to easily switch between your favorite AI minds.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can grab the installer directly for your system. For Windows users, choose [Download for Windows (.exe)](https://github.com/can1357/oh-my-pi/releases/download/v19.0.1/omp-windows-arm64.exe) or the standard x64 variant. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can grab the installer directly for your system. For Windows users, choose [Download for Windows (.exe)](https://github.com/can1357/oh-my-pi/releases/download/v19.0.1/omp-windows-arm64.exe) or the standard x64 variant.
 
 ### Pros and Cons
 * **Pros:** Packed with powerful built-in tools; supports dozens of AI providers out of the box; fast and responsive performance.
 * **Cons:** Advanced configuration options have a slight learning curve for beginners.
 
-[Official Source / Credits](https://github.com/can1357/oh-my-pi)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/can1357/oh-my-pi)

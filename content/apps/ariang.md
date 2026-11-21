@@ -13,9 +13,9 @@ source_url: "https://github.com/mayswind/AriaNg"
 download_url: "https://ariang.mayswind.net"
 downloadUrl: "https://ariang.mayswind.net"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-AriaNg acts as a visual control center for your file downloads, making it much easier to see and manage what you are saving to your computer. It replaces confusing command-line text with a clean, organized interface that works on any device. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+AriaNg acts as a visual control center for your file downloads, making it much easier to see and manage what you are saving to your computer. It replaces confusing command-line text with a clean, organized interface that works on any device.
 
 ### Who it's for
 * Casual users who want a simple way to track and organize their ongoing file downloads.
@@ -52,11 +52,9 @@ AriaNg acts as a visual control center for your file downloads, making it much e
 * **Visual Dashboard:** Easily sort, search, and filter your active downloads by speed, size, or file type.
 * **Responsive Design:** A clean layout that looks great and functions perfectly on both desktop computers and mobile phones.
 * **Advanced Control:** Manage multiple download sources, adjust task priorities, and view detailed speed charts.
-* **Productivity Boost:** Use ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * **Customizable Themes:** Includes a built-in dark mode to reduce eye strain during late-night sessions.
 
 ### How to install (Download)
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 * **Official Website & Documentation:** [Visit the AriaNg Homepage](https://ariang.mayswind.net)
 * **Latest Releases:** [Download from GitHub Releases](https://github.com/mayswind/AriaNg/releases)
@@ -66,4 +64,10 @@ Before downloading installers or syncing private files over public Wi-Fi, shield
 * **Pros:** Completely free to use, highly customizable, and works across all modern web browsers and mobile devices.
 * **Cons:** Requires an existing download engine (aria2) to function, which may require a brief setup for beginners.
 
-[Official Source / Credits](https://github.com/mayswind/AriaNg)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/mayswind/AriaNg)

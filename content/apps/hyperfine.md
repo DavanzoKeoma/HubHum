@@ -13,7 +13,7 @@ source_url: "https://github.com/sharkdp/hyperfine"
 download_url: "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-musl_2.0.0_amd64.deb"
 downloadUrl: "https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine-musl_2.0.0_amd64.deb"
 download_label: "Download for Linux (.deb)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Hyperfine helps you measure how long your software commands take to run with extreme accuracy. It runs your tasks multiple times, automatically ignores system noise, and compares different options side by side. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Hyperfine helps you measure how long your software commands take to run with extreme accuracy. It runs your tasks multiple times, automatically ignores system noise, and compares different options side by side.
 
 ### Who it's for
 * Software developers wanting to test whether a code change actually speeds up execution.
@@ -54,13 +54,18 @@ Hyperfine helps you measure how long your software commands take to run with ext
 * Automatically clears caches or runs warmup routines so initial disk delays do not distort your scores.
 * Compares multiple commands side by side and shows clear percentage differences.
 * Exports results into common spreadsheet and text formats like Markdown, CSV, or JSON for easy sharing.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can grab the precompiled installer package directly for your system. Download the [Download for Linux (.deb)](https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine_2.0.0_amd64.deb) package to get started right away. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can grab the precompiled installer package directly for your system. Download the [Download for Linux (.deb)](https://github.com/sharkdp/hyperfine/releases/download/v2.0.0/hyperfine_2.0.0_amd64.deb) package to get started right away.
 
 ### Pros and Cons
 * **Pros:** Free and open source, incredibly fast, provides clear statistical outliers detection.
 * **Cons:** Operates strictly through command-line interfaces without a built-in visual window.
 
-[Official Source / Credits](https://github.com/sharkdp/hyperfine)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/sharkdp/hyperfine)

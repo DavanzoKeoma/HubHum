@@ -13,7 +13,7 @@ source_url: "https://github.com/wxWidgets/wxWidgets"
 download_url: "https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.4/wxMSW-3.3.4-Setup.exe"
 downloadUrl: "https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.4/wxMSW-3.3.4-Setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "Open Source"
+license: "Open Source License"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-wxWidgets lets software creators design desktop programs that look completely natural on Windows, macOS, and Linux. Instead of rewriting code for every different operating system, you write it once and let the software adapt its visual appearance automatically. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It removes the headache of managing separate user interfaces for different computers.
+wxWidgets lets software creators design desktop programs that look completely natural on Windows, macOS, and Linux. Instead of rewriting code for every different operating system, you write it once and let the software adapt its visual appearance automatically. It removes the headache of managing separate user interfaces for different computers.
 
 ### Who it's for
 * C++ programmers wanting to build desktop software without learning multiple operating system toolkits.
@@ -53,15 +53,21 @@ wxWidgets lets software creators design desktop programs that look completely na
 * Uses genuine native controls so your program looks right at home on every operating system.
 * Supports major desktop operating systems including Windows, macOS, and modern Linux environments.
 * Includes over a hundred ready-to-study examples and thorough online help guides.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Free to use for both personal open-source projects and commercial software products.
 
 ### How to install (Download)
-Get started by downloading the official installer setup file for your system. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Get started by downloading the official installer setup file for your system.
 
 * [Download for Windows (.exe)](https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.4/wxMSW-3.3.4-Setup.exe)
 
 ### Pros and Cons
 * **Pros:** Free for both open-source and commercial use; authentic native appearance across platforms; extensive documentation and examples.
 * **Cons:** Requires a good working knowledge of the C++ programming language; manual compilation may take some practice for beginners.
-[Official Source / Credits](https://github.com/wxWidgets/wxWidgets)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/wxWidgets/wxWidgets)

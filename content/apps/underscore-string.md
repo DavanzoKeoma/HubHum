@@ -13,9 +13,9 @@ source_url: "https://github.com/esamattis/underscore.string"
 download_url: "https://esamattis.github.com/underscore.string/"
 downloadUrl: "https://esamattis.github.com/underscore.string/"
 download_label: "Get Command-Line Tool →"
-license: "Open Source"
+license: "Open Source License"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This utility library fills common gaps in JavaScript by adding missing text formatting operations. It lets developers easily clean up whitespace, capitalize words, truncate sentences, and transform text styles without writing complex custom code from scratch. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+This utility library fills common gaps in JavaScript by adding missing text formatting operations. It lets developers easily clean up whitespace, capitalize words, truncate sentences, and transform text styles without writing complex custom code from scratch.
 
 ### Who it's for
 * JavaScript developers building web applications that require heavy text processing.
@@ -54,17 +54,20 @@ This utility library fills common gaps in JavaScript by adding missing text form
 * Cleans up unwanted whitespace, trims padding characters, and normalizes diacritics.
 * Chops, slices, and wraps paragraphs into manageable arrays or custom widths.
 * Safely escapes and unescapes special HTML characters for web output.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can grab the uncompressed source code or the minified script directly for your web pages:
 * [Download Development Version (.js)](https://npmcdn.com/underscore.string/dist/underscore.string.js)
 * [Download Production Version (.min.js)](https://npmcdn.com/underscore.string/dist/underscore.string.min.js)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Lightweight modular architecture, intuitive function names, standalone library.
 * **Cons:** Native browser methods now handle many basic use cases natively.
 
-[Official Source / Credits](https://github.com/esamattis/underscore.string)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/esamattis/underscore.string)

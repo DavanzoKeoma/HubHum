@@ -13,7 +13,7 @@ source_url: "https://github.com/ScottSloan/Bili23-Downloader"
 download_url: "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_windows_x64.exe"
 downloadUrl: "https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_windows_x64.exe"
 download_label: "Download for Windows (.exe)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "MultimediaApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Bili23-Downloader is a friendly desktop application designed to help you save online video clips, movies, and music directly to your computer. It handles high-definition streams, subtitles, and chapter details automatically so you can watch your favorite content offline without hassle. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Bili23-Downloader is a friendly desktop application designed to help you save online video clips, movies, and music directly to your computer. It handles high-definition streams, subtitles, and chapter details automatically so you can watch your favorite content offline without hassle.
 
 ### Who it's for
 * Content creators who want an easy way to archive reference materials and inspirations locally.
@@ -53,10 +53,9 @@ Bili23-Downloader is a friendly desktop application designed to help you save on
 * **Flexible Format Options:** Choose your preferred video resolution, sound quality, and combine audio and video tracks seamlessly into standard MP4 or MKV files.
 * **Subtitle & Cover Saving:** Automatically extracts captions, translations, and high-resolution thumbnail covers alongside your media.
 * **Smart Organization:** Keeps your downloaded library tidy by automatically sorting files into custom folders based on titles, creators, or categories.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Choose the installer that matches your operating system from the links below and follow the simple on-screen instructions to set up the app. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Choose the installer that matches your operating system from the links below and follow the simple on-screen instructions to set up the app.
 
 * [Download for Windows (.exe)](https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_windows_x64.exe)
 * [Download for Windows for Win 7 (.exe)](https://github.com/ScottSloan/Bili23-Downloader/releases/download/v2.21.0/Bili23-Downloader_2.21.0_windows_x64_for_win7.exe)
@@ -69,4 +68,10 @@ Choose the installer that matches your operating system from the links below and
 * **Pros:** Completely free and open source with no hidden subscription fees; clean, modern interface; supports batch downloading.
 * **Cons:** Requires a stable internet connection and valid account login for accessing certain high-definition streams; advanced organizational rules take a few moments to configure.
 
-[Official Source / Credits](https://github.com/ScottSloan/Bili23-Downloader)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ScottSloan/Bili23-Downloader)

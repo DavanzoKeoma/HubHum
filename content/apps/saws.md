@@ -13,7 +13,7 @@ source_url: "https://github.com/donnemartin/saws"
 download_url: "https://github.com/donnemartin/saws/releases"
 downloadUrl: "https://github.com/donnemartin/saws/releases"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Managing cloud services from your computer usually requires memorizing thousands of complicated commands, options, and server identifiers. This tool upgrades your standard cloud management terminal by adding intelligent auto-completion as you type. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It instantly suggests commands, filters server buckets, and provides built-in shortcuts so you can get your work done in a fraction of the time.
+Managing cloud services from your computer usually requires memorizing thousands of complicated commands, options, and server identifiers. This tool upgrades your standard cloud management terminal by adding intelligent auto-completion as you type. It instantly suggests commands, filters server buckets, and provides built-in shortcuts so you can get your work done in a fraction of the time.
 
 ### Who it's for
 * Cloud engineers and system administrators who spend hours typing server management commands.
@@ -52,14 +52,19 @@ Managing cloud services from your computer usually requires memorizing thousands
 * Smart auto-completion for thousands of commands, options, and server resources.
 * Color-coded syntax highlighting that makes output easy to read at a glance.
 * Instant fuzzy search to quickly find and trigger saved shortcuts.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Built-in command history and helpful pop-up reference menus.
 
 ### How to install (Download)
-To get started, you can install the tool directly using Python's package manager by opening your terminal and typing `pip install saws`. For alternative setup guides, virtual environments, and detailed configuration steps, check the [Official Source / Credits](https://github.com/donnemartin/saws). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, you can install the tool directly using Python's package manager by opening your terminal and typing `pip install saws`. For alternative setup guides, virtual environments, and detailed configuration steps, check the [Official Source / Credits](https://github.com/donnemartin/saws).
 
 ### Pros and Cons
 * **Pros:** Drastically reduces typing mistakes, highly customizable shortcuts, completely free and open source.
 * **Cons:** Requires Python installed on your system to function properly.
 
-[Official Source / Credits](https://github.com/donnemartin/saws/releases)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/donnemartin/saws)

@@ -13,7 +13,7 @@ source_url: "https://github.com/t8y2/dbx"
 download_url: "https://github.com/t8y2/dbx/releases/download/v0.6.72/DBX_0.6.72-beta.20261119.2_arm64-setup.exe"
 downloadUrl: "https://github.com/t8y2/dbx/releases/download/v0.6.72/DBX_0.6.72-beta.20261119.2_arm64-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This application gives you a single, incredibly compact workspace to view, query, and organize over a hundred different types of databases. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It cuts out heavy background bloat so you can inspect records, edit tables, and run commands instantly.
+This application gives you a single, incredibly compact workspace to view, query, and organize over a hundred different types of databases. It cuts out heavy background bloat so you can inspect records, edit tables, and run commands instantly.
 
 ### Who it's for
 * Software developers and system administrators who manage multiple database engines daily.
@@ -52,11 +52,10 @@ This application gives you a single, incredibly compact workspace to view, query
 * Connects seamlessly to over a hundred database engines including MySQL, PostgreSQL, SQLite, Redis, and MongoDB in a tiny package.
 * Built-in artificial intelligence helper that translates plain language into clean queries and spots errors before execution.
 * Virtual-scrolled data grid for browsing massive result sets smoothly without freezing your screen.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Cross-platform support across desktop operating systems as well as cloud-hosted setups via Docker.
 
 ### How to install (Download)
-Choose the correct setup package for your system below to get started immediately. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Choose the correct setup package for your system below to get started immediately.
 
 * [Download for Windows (.exe)](https://github.com/t8y2/dbx/releases/download/v0.6.72/DBX_0.6.72_x64-setup.exe)
 * [Download for Windows ARM64 (.exe)](https://github.com/t8y2/dbx/releases/download/v0.6.72/DBX_0.6.72-beta.20261119.2_arm64-setup.exe)
@@ -66,4 +65,10 @@ Choose the correct setup package for your system below to get started immediatel
 * **Pros:** Extremely small file size, zero runtime bloat, supports countless database engines, and includes modern AI query generation.
 * **Cons:** Advanced enterprise plugins may require initial configuration and learning time.
 
-[Official Source / Credits](https://github.com/t8y2/dbx)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/t8y2/dbx)

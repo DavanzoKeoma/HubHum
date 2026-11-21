@@ -13,7 +13,7 @@ source_url: "https://github.com/tw93/Mole"
 download_url: "https://github.com/tw93/Mole/releases/download/V1.73.0/analyze-darwin-amd64"
 downloadUrl: "https://github.com/tw93/Mole/releases/download/V1.73.0/analyze-darwin-amd64"
 download_label: "Download (analyze-darwin-amd64)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS"
 applicationCategory: "SecurityApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Mole scans your computer to find hidden junk files, leftover application data, and forgotten downloads that waste valuable storage space. It provides a quick way to completely remove unwanted apps along with their associated system files and caches. Additionally, it gives you a live dashboard to monitor your processor usage, memory, disk activity, and overall system health. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Mole scans your computer to find hidden junk files, leftover application data, and forgotten downloads that waste valuable storage space. It provides a quick way to completely remove unwanted apps along with their associated system files and caches. Additionally, it gives you a live dashboard to monitor your processor usage, memory, disk activity, and overall system health.
 
 ### Who it's for
 * Everyday computer users looking to reclaim lost hard drive space without navigating complicated settings.
@@ -53,10 +53,9 @@ Mole scans your computer to find hidden junk files, leftover application data, a
 * Smart uninstaller that roots out application preferences and supporting files left behind by standard removals.
 * Visual disk analyzer to easily spot massive folders and files hogging your storage space.
 * Real-time system monitoring dashboard for checking processor load, memory usage, and battery status.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can grab the analyzer tool for Apple Silicon Macs or Intel machines directly from the release assets below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can grab the analyzer tool for Apple Silicon Macs or Intel machines directly from the release assets below.
 
 * [Download (analyze-darwin-amd64)](https://github.com/tw93/Mole/releases/download/V1.73.0/analyze-darwin-amd64)
 * [Download (analyze-darwin-arm64)](https://github.com/tw93/Mole/releases/download/V1.73.0/analyze-darwin-arm64)
@@ -68,4 +67,10 @@ You can grab the analyzer tool for Apple Silicon Macs or Intel machines directly
 * **Pros:** Free and open source, fast command-line operations, thorough uninstaller that prevents leftover clutter.
 * **Cons:** Advanced features rely on terminal commands, and deep file removal requires careful review to avoid deleting important data.
 
-[Official Source / Credits](https://github.com/tw93/Mole)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/tw93/Mole)

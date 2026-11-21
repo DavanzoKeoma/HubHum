@@ -13,7 +13,7 @@ source_url: "https://github.com/Eugeny/tabby"
 download_url: "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe"
 downloadUrl: "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Tabby is a modern tool designed to manage all your command-line sessions, remote server connections, and serial devices in one clean workspace. It replaces clunky traditional windows with a customizable interface featuring tabs, split screens, and themes. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Tabby is a modern tool designed to manage all your command-line sessions, remote server connections, and serial devices in one clean workspace. It replaces clunky traditional windows with a customizable interface featuring tabs, split screens, and themes.
 
 ### Who it's for
 * Software developers managing multiple local projects and remote servers simultaneously.
@@ -54,10 +54,9 @@ Tabby is a modern tool designed to manage all your command-line sessions, remote
 * Highly customizable appearance with multiple themes, font support, and adjustable color palettes.
 * Split panes and persistent tabs so your workspace stays exactly how you left it.
 * Direct file transfer capabilities during remote sessions using Zmodem.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Choose the installer that matches your operating system from the official options below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Choose the installer that matches your operating system from the official options below.
 
 * [Download for Windows (.exe) - Intel/AMD](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-x64.exe)
 * [Download for Windows (.exe) - ARM64](https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe)
@@ -70,4 +69,10 @@ Choose the installer that matches your operating system from the official option
 * **Pros:** Highly customizable interface, built-in server connection manager, completely free without mandatory subscriptions.
 * **Cons:** Uses more memory than lightweight text-only terminals due to its rich feature set.
 
-[Official Source / Credits](https://github.com/Eugeny/tabby)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Eugeny/tabby)

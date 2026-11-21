@@ -49,18 +49,18 @@ STRICT RULES:
    or in the Releases data. Present download links with clear labels, e.g.
    [Download for Windows (.exe)](ORIGINAL_URL). Ignore badges, source
    archives (.zip, .tar.gz), and terminal commands unless no installer exists.
-4. TRIPLE NATURAL AFFILIATE INJECTION: `(c) Affiliate Database Mapping`
+4. SEPARATE SPONSORED PARTNER SECTION (#ad): `(c) Affiliate Database Mapping`
    provides a `recommended_triplet` of 3 distinct, policy-audited partner
-   tools for this app's category. Naturally weave ALL 3 distinct affiliate
-   URLs (each with a discreet `(#ad)` disclosure) into 3 separate sections:
-   - 1 contextual tip inside `### What it does in plain English`
-   - 1 complementary productivity/media/SEO bullet inside `### Key features`
-   - 1 privacy/hosting/transfer tip inside `### How to install (Download)`
-   Never lump all 3 links into the same paragraph and never spam.
-   For web apps (`is_webapp: true`), mention opening in the cloud in 1 click.
+   tools for this app's category. NEVER place affiliate links or `(#ad)`
+   disclosures inside `### What it does in plain English`, `### Who it's for`,
+   `### Key features`, `### How to install (Download)`, or `### Pros and Cons`.
+   Instead, group all 3 distinct affiliate URLs inside the dedicated final
+   section `### Sponsored Partner Tools (#ad)` right before
+   `[Official Source / Credits](SOURCE_URL)`, clearly labeled as optional
+   commercial services unrelated to the open-source developer.
 5. BRAND SAFETY: never use comparative "killer of X" slogans or third-party
    trademarks; replace them with generic terms (e.g. "commercial video editors").
-6. CREDITS: always end with `[Official Source / Credits](SOURCE_URL)`.
+6. CREDITS: always end with `**Official Source & Credits:** [Official Source / Credits](SOURCE_URL)`.
 
 REQUIRED MARKDOWN STRUCTURE (exact headings):
 ---
@@ -85,17 +85,22 @@ i18n:
     summary: "{Complete 1-2 sentence German summary ending with a period.}"
 ---
 ### What it does in plain English
-{3 simple sentences}
+{3 simple editorial sentences with zero ads}
 ### Who it's for
 {2-3 practical everyday user profiles}
 ### Key features
-{4-5 concrete bullet points}
+{4-5 concrete editorial bullet points with zero ads}
 ### How to install (Download)
-{direct links to installers, or official site + 1-click cloud hosting link for web apps}
+{direct links to official installers or official setup page with zero ads}
 ### Pros and Cons
 * **Pros:** {e.g. free forever, no subscription}
-* **Cons:** {e.g. advanced options take a few minutes to learn}
-[Official Source / Credits]({source_url})"""
+* **Cons:** {e.g. advanced options take a few minutes to learn, or requires terminal usage if CLI}
+### Sponsored Partner Tools (#ad)
+*Optional commercial services that help fund HubHum at no extra cost to you:*
+* **{Merchant1}:** {Helpful optional resource + [Merchant1](URL1) (#ad)}
+* **{Merchant2}:** {Helpful optional resource + [Merchant2](URL2) (#ad)}
+* **{Merchant3}:** {Helpful optional resource + [Merchant3](URL3) (#ad)}
+**Official Source & Credits:** [Official Source / Credits]({source_url})"""
 
 
 class AllTiersFailedError(RuntimeError):

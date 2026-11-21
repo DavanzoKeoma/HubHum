@@ -13,7 +13,7 @@ source_url: "https://github.com/harelba/q"
 download_url: "https://github.com/harelba/q/releases/download/v3.1.6/win-q.exe"
 downloadUrl: "https://github.com/harelba/q/releases/download/v3.1.6/win-q.exe"
 download_label: "Download for Windows (.exe)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool lets you run powerful database search commands directly on ordinary spreadsheets, reports, and data files. You do not need to spend time importing your information into a heavy database system before you can analyze it. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This tool lets you run powerful database search commands directly on ordinary spreadsheets, reports, and data files. You do not need to spend time importing your information into a heavy database system before you can analyze it.
 
 ### Who it's for
 * Data analysts who need to quickly inspect comma-separated or tabular text files without setting up a dedicated database server.
@@ -52,7 +52,6 @@ This tool lets you run powerful database search commands directly on ordinary sp
 * Run searches directly on delimited files and multi-file collections instantly.
 * Automatically detects column names and data types to save you manual setup time.
 * Supports advanced sorting, filtering, and grouping commands just like traditional databases.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Choose the correct installer package for your operating system from the options below:
@@ -60,9 +59,14 @@ Choose the correct installer package for your operating system from the options 
 * [Download for Windows (.msi)](https://github.com/harelba/q/releases/download/v3.1.6/q-text-as-data-3.1.6.msi)
 * [Download for Linux (.deb)](https://github.com/harelba/q/releases/download/v3.1.6/q-text-as-data-3.1.6-1.x86_64.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free to use, handles massive files quickly with caching, and requires zero database setup.
 * **Cons:** Best suited for people comfortable with typing commands in a terminal environment.
-[Official Source / Credits](https://github.com/harelba/q)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/harelba/q)

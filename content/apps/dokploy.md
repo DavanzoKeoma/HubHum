@@ -5,17 +5,17 @@ tagline: "Easily host and manage online applications"
 summary: "An open tool that lets you host websites, software, and databases on your own private server with simple controls."
 tags: ["hosting", "server-management", "databases", "cloud-app"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/dokploy.png"
 stars: 38620
 source_url: "https://github.com/Dokploy/dokploy"
 download_url: "https://github.com/Dokploy/dokploy/releases/download/v0.31.4/install.sh"
 downloadUrl: "https://github.com/Dokploy/dokploy/releases/download/v0.31.4/install.sh"
-download_label: "Download (install.sh)"
-license: "NOASSERTION"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Dokploy helps you launch websites, software tools, and databases on your own virtual server without dealing with complicated terminal setups. It provides an easy-to-use control panel where you can connect your code, set up automated backups, and monitor server health in real time. For secure remote management, many teams protect their administrator dashboards while working on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Dokploy helps you launch websites, software tools, and databases on your own virtual server without dealing with complicated terminal setups. It provides an easy-to-use control panel where you can connect your code, set up automated backups, and monitor server health in real time.
 
 ### Who it's for
 * Independent developers and freelancers who want to host personal or client projects without paying expensive monthly cloud fees.
@@ -53,14 +53,20 @@ Dokploy helps you launch websites, software tools, and databases on your own vir
 * **Database Management:** Quickly spin up and organize databases like MySQL, PostgreSQL, MongoDB, and Redis.
 * **Automated Backups:** Set up routine backup schedules to secure your database files on external storage.
 * **One-Click Templates:** Choose from hundreds of popular open-source software packages to install instantly.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can set up the software directly on your own private server using the official [Download Install Script](https://github.com/Dokploy/dokploy/releases/download/v0.31.4/install.sh). 
 
-Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad) or [Try the Dokploy Cloud](https://app.dokploy.com).
+Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Completely free to use on your own hardware, includes automatic routing, and supports multiple servers from a single dashboard.
 * **Cons:** Requires a basic understanding of virtual servers to set up initially, and advanced cluster setups take time to configure.
-[Official Source / Credits](https://github.com/Dokploy/dokploy)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Dokploy/dokploy)

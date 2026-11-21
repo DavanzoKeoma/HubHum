@@ -3,7 +3,7 @@ title: "Scrapling"
 slug: "scrapling"
 tagline: "Effortless Web Scraping for the Modern Web"
 summary: "Extract data, bypass security checks, and crawl any website seamlessly using a fast Python toolkit."
-tags: ["scraping", "automation", "crawler"]
+tags: ["scraping", "automation"]
 is_webapp: false
 app_type: "cli"
 category: "Utilities & Power Tools"
@@ -13,9 +13,9 @@ source_url: "https://github.com/D4Vinci/Scrapling"
 download_url: "https://scrapling.readthedocs.io/en/latest/"
 downloadUrl: "https://scrapling.readthedocs.io/en/latest/"
 download_label: "Get Command-Line Tool →"
-license: "BSD-3-Clause"
+license: "Open Source (BSD)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Scrapling is a powerful tool designed to collect information from websites without headaches, handling everything from a single simple page visit to massive, multi-page data collections. It automatically bypasses common security blocks, renders complex page elements, and cleans up text so you can use it immediately. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Scrapling is a powerful tool designed to collect information from websites without headaches, handling everything from a single simple page visit to massive, multi-page data collections. It automatically bypasses common security blocks, renders complex page elements, and cleans up text so you can use it immediately.
 
 ### Who it's for
 * Data analysts looking to gather research and market pricing from public web pages without getting blocked.
@@ -54,17 +54,22 @@ Scrapling is a powerful tool designed to collect information from websites witho
 * **Security Bypass:** Automatically navigates around common anti-bot checks and security walls without manual intervention.
 * **Flexible Parsing:** Locates elements easily using familiar CSS selectors, XPath rules, or text search patterns.
 * **Concurrent Spiders:** Runs multiple background tasks at once with built-in pause, resume, and safety throttling features.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 To get started with Scrapling, install the package directly through your terminal using Python's package manager:
 ```bash
 pip install scrapling
 ```
-You can also view the official [Documentation and Guides](https://scrapling.readthedocs.io/en/latest/) for advanced tutorials and examples. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can also view the official [Documentation and Guides](https://scrapling.readthedocs.io/en/latest/) for advanced tutorials and examples.
 
 ### Pros and Cons
 * **Pros:** Blazing fast performance, handles tricky anti-bot measures out of the box, provides clean Markdown output for AI workflows.
 * **Cons:** Requires basic familiarity with Python programming to set up custom extraction tasks.
 
-[Official Source / Credits](https://github.com/D4Vinci/Scrapling)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/D4Vinci/Scrapling)

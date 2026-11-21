@@ -13,7 +13,7 @@ source_url: "https://github.com/junegunn/fzf"
 download_url: "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_amd64.msi"
 downloadUrl: "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_amd64.msi"
 download_label: "Download for Windows (.msi)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-fzf acts as a lightning-fast search assistant that reads lists of items and lets you filter through them instantly by typing partial words or letters. As you type, the results narrow down in real time, making it remarkably easy to find deep directory files or past commands without scrolling. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+fzf acts as a lightning-fast search assistant that reads lists of items and lets you filter through them instantly by typing partial words or letters. As you type, the results narrow down in real time, making it remarkably easy to find deep directory files or past commands without scrolling.
 
 ### Who it's for
 - Developers and system administrators who spend hours navigating deep folder structures and text logs.
@@ -53,7 +53,6 @@ fzf acts as a lightning-fast search assistant that reads lists of items and lets
 - Processes millions of items in milliseconds without slowing down your computer.
 - Works out of the box with popular command shells like Bash, Zsh, and Fish.
 - Includes a handy preview window so you can inspect file contents or images before opening them.
-- Expands your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 - Portable design distributed as a single standalone file for effortless setup.
 
 ### How to install (Download)
@@ -63,10 +62,14 @@ Choose the correct installer package for your operating system from the list bel
 * [Download for Linux (.deb) (AMD64)](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_amd64.deb)
 * [Download for Linux (.deb) (ARM64)](https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf_0.75.0_arm64.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Extremely fast search speed, lightweight footprint, and seamless integration with shell environments.
 * **Cons:** Requires basic familiarity with command-line interfaces to unlock its full potential.
 
-[Official Source / Credits](https://github.com/junegunn/fzf)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/junegunn/fzf)

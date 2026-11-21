@@ -13,9 +13,9 @@ source_url: "https://github.com/ParthJadhav/Tkinter-Designer"
 download_url: "https://www.parthjadhav.com/products/tkinter-designer"
 downloadUrl: "https://www.parthjadhav.com/products/tkinter-designer"
 download_label: "Visit Official Site"
-license: "BSD-3-Clause"
+license: "Open Source (BSD)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Tkinter Designer takes away the pain of coding desktop application layouts line by line by hand. You simply design your dream screen layout using a popular online visual design tool, and this utility reads your layout file to automatically generate all the necessary code. While designing your software layout, if you ever need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It bridges the gap between creative visual mockups and actual working software code in seconds.
+Tkinter Designer takes away the pain of coding desktop application layouts line by line by hand. You simply design your dream screen layout using a popular online visual design tool, and this utility reads your layout file to automatically generate all the necessary code. It bridges the gap between creative visual mockups and actual working software code in seconds.
 
 ### Who it's for
 * **Python Developers:** Programmers who want to build polished, modern user interfaces without struggling with manual layout math.
@@ -55,7 +55,6 @@ Tkinter Designer takes away the pain of coding desktop application layouts line 
 * **Multi-Frame Support:** Create complex, multi-screen navigation flows within a single design project.
 * **Theming Options:** Easily apply modern visual themes to ensure your finished application looks professional on any operating system.
 * **Asset Integration:** Automatically organizes and exports all necessary graphical assets for your software project.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Make sure you have Python 3.9 or newer installed on your computer. Open your terminal or command prompt and run the following command to install the tool:
@@ -70,9 +69,16 @@ To run the converter, gather your layout file link and your design tool access t
 tkdesigner "$FILE_URL" "$FIGMA_TOKEN"
 ```
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). You can also visit the [Official Tkinter Designer Website](https://www.parthjadhav.com/products/tkinter-designer) for complete tutorials and documentation.
+You can also visit the [Official Tkinter Designer Website](https://www.parthjadhav.com/products/tkinter-designer) for complete tutorials and documentation.
 
 ### Pros and Cons
 * **Pros:** Free and open source, drastically reduces interface creation time, supports multi-frame applications.
 * **Cons:** Requires a third-party design account and API token to pull layout files, command-line usage may require basic terminal familiarity.
-[Official Source / Credits](https://github.com/ParthJadhav/Tkinter-Designer)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ParthJadhav/Tkinter-Designer)

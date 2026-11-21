@@ -13,7 +13,7 @@ source_url: "https://github.com/Termix-SSH/Termix"
 download_url: "https://github.com/Termix-SSH/Termix/releases/download/v26.11.2/termix_windows_arm64_nsis.exe"
 downloadUrl: "https://github.com/Termix-SSH/Termix/releases/download/v26.11.2/termix_windows_arm64_nsis.exe"
 download_label: "Download for Windows (.exe)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "SecurityApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Termix acts as a central control center for all your remote computers and servers, keeping your passwords and connection settings organized. It uses a modular system where you can add only the features you need, such as file management, terminal access, or live performance monitoring. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Termix acts as a central control center for all your remote computers and servers, keeping your passwords and connection settings organized. It uses a modular system where you can add only the features you need, such as file management, terminal access, or live performance monitoring.
 
 ### Who it's for
 * **System Administrators:** Professionals who need to manage multiple servers and infrastructure components efficiently.
@@ -52,10 +52,9 @@ Termix acts as a central control center for all your remote computers and server
 * **Modular Design:** Start with the basics and add specific tools like Docker management, file browsing, or remote desktop access only when you need them.
 * **Unified Access:** Manage hosts, credentials, and user permissions across your entire network from one secure, encrypted interface.
 * **Cross-Platform:** Access your dashboard from your web browser, desktop computer, or mobile device with synchronized settings.
-* **Creative Integration:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can download the latest version for your operating system below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can download the latest version for your operating system below.
 
 * [Download for Windows (.exe)](https://github.com/Termix-SSH/Termix/releases/download/v26.11.2/termix_windows_x64_full_nsis.exe)
 * [Download for Mac (.dmg)](https://github.com/Termix-SSH/Termix/releases/download/v26.11.2/termix_macos_universal_full_dmg.dmg)
@@ -64,4 +63,10 @@ You can download the latest version for your operating system below. Keep large 
 * **Pros:** Completely free and open source, highly customizable with plugins, and supports a wide range of devices.
 * **Cons:** The vast number of plugin options may feel overwhelming for users who only need basic connectivity.
 
-[Official Source / Credits](https://github.com/Termix-SSH/Termix)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Termix-SSH/Termix)

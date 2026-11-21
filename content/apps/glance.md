@@ -5,17 +5,17 @@ tagline: "Your favorite online feeds in one place."
 summary: "Glance is a lightweight, customizable dashboard that gathers all your news feeds, social streams, weather, and server status into a single organized page."
 tags: ["dashboard", "rss", "widgets", "cloud-app"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/glance.png"
 stars: 38324
 source_url: "https://github.com/glanceapp/glance"
 download_url: "https://github.com/glanceapp/glance/releases"
 downloadUrl: "https://github.com/glanceapp/glance/releases"
-download_label: "Visit Official Site"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Glance brings all your favorite digital content together into a single, beautifully organized screen. Instead of visiting dozens of separate sites, you can check news articles, favorite video channels, community boards, and weather updates at a glance. You can also secure your remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Glance brings all your favorite digital content together into a single, beautifully organized screen. Instead of visiting dozens of separate sites, you can check news articles, favorite video channels, community boards, and weather updates at a glance.
 
 ### Who it's for
 * Busy readers who want to check news sites, blogs, and community forums from one central screen without endless tab switching.
@@ -53,13 +53,18 @@ Glance brings all your favorite digital content together into a single, beautifu
 * **Fast and Lightweight:** Designed to load almost instantly with minimal memory usage and clean, fast styling.
 * **Fully Customizable:** Easily arrange layouts, create multiple tabs, and choose from pre-made themes or add your own styling.
 * **Mobile Optimized:** Designed to look and work wonderfully on smaller smartphone screens when you are away from your desk.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-Glance runs seamlessly as a web application in your browser. You can launch it using container tools or download the compiled files directly from the [Official GitHub Releases Page](https://github.com/glanceapp/glance/releases). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Glance runs seamlessly as a web application in your browser. You can launch it using container tools or download the compiled files directly from the [Official GitHub Releases Page](https://github.com/glanceapp/glance/releases). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Completely free, highly customizable, extremely fast loading times, and works great on mobile devices.
 * **Cons:** Initial layout setup requires editing configuration text files.
 
-[Official Source / Credits](https://github.com/glanceapp/glance)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/glanceapp/glance)

@@ -5,17 +5,17 @@ tagline: "Easily manage your software stacks"
 summary: "Dockge helps you organize, update, and control your software containers in one clean, interactive web dashboard."
 tags: ["cloud-app", "server", "management", "utilities"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/dockge.png"
 stars: 24860
 source_url: "https://github.com/louislam/dockge"
 download_url: "https://dockge.kuma.pet"
 downloadUrl: "https://dockge.kuma.pet"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Dockge is a friendly control center that lets you manage your self-hosted software applications with absolute ease. Instead of typing complicated commands, you get a beautiful visual interface to start, stop, update, and edit your software setups. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). Everything responds instantly in real-time, giving you total peace of mind over what is running on your system.
+Dockge is a friendly control center that lets you manage your self-hosted software applications with absolute ease. Instead of typing complicated commands, you get a beautiful visual interface to start, stop, update, and edit your software setups. Everything responds instantly in real-time, giving you total peace of mind over what is running on your system.
 
 ### Who it's for
 - Home server enthusiasts who want an easier way to oversee all their background apps.
@@ -54,13 +54,18 @@ Dockge is a friendly control center that lets you manage your self-hosted softwa
 - **Real-Time Terminal:** Watch software installation progress and live logs stream instantly right inside your browser window.
 - **Multiple Hosts:** Control software setups spread across different computers from a single central screen.
 - **Smart Conversion:** Paste standard installation commands and watch them instantly transform into structured configuration files.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can open and run this application instantly in the cloud using [Dockge Official Website](https://dockge.kuma.pet). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). To host it yourself, follow the straightforward setup instructions on the official page using your container environment.
+You can open and run this application instantly in the cloud using [Dockge Official Website](https://dockge.kuma.pet). To host it yourself, follow the straightforward setup instructions on the official page using your container environment.
 
 ### Pros and Cons
 * **Pros:** Extremely responsive interface, lightweight resource usage, easy file management.
 * **Cons:** Focused primarily on specific configuration files rather than managing isolated single containers.
 
-[Official Source / Credits](https://github.com/louislam/dockge)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/louislam/dockge)

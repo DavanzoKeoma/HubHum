@@ -13,9 +13,9 @@ source_url: "https://github.com/PySimpleGUI/PySimpleGUI"
 download_url: "https://www.PySimpleGUI.com"
 downloadUrl: "https://www.PySimpleGUI.com"
 download_label: "Get Command-Line Tool →"
-license: "LGPL-3.0"
+license: "Open Source (LGPL)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-PySimpleGUI takes the complicated work out of building desktop application screens by wrapping standard graphics tools into a clean, compact system. Instead of writing endless setup lines, you arrange your window contents into straightforward lists and handle user clicks with a simple loop. It allows hobbyists, creators, and professionals to bring Python scripts to life with interactive buttons, input boxes, and dropdown menus in minutes. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+PySimpleGUI takes the complicated work out of building desktop application screens by wrapping standard graphics tools into a clean, compact system. Instead of writing endless setup lines, you arrange your window contents into straightforward lists and handle user clicks with a simple loop. It allows hobbyists, creators, and professionals to bring Python scripts to life with interactive buttons, input boxes, and dropdown menus in minutes.
 
 ### Who it's for
 * Python hobbyists who want to add visual buttons and menus to their scripts without learning complex design software.
@@ -54,7 +54,6 @@ PySimpleGUI takes the complicated work out of building desktop application scree
 * Works seamlessly with underlying graphics systems without requiring advanced class setups.
 * Includes helpful debugging tools and easy ways to handle window resizing or custom color themes.
 * Integrates cleanly with artificial intelligence coding assistants to generate layouts instantly.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can easily install the latest version straight from your Python package manager by opening your terminal and typing:
@@ -63,10 +62,16 @@ You can easily install the latest version straight from your Python package mana
 python -m pip install PySimpleGUI
 ```
 
-For more details, documentation, and guides, visit the [Official PySimpleGUI Website](https://www.PySimpleGUI.com). Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+For more details, documentation, and guides, visit the [Official PySimpleGUI Website](https://www.PySimpleGUI.com).
 
 ### Pros and Cons
 * **Pros:** Free under the open-source license, exceptionally beginner-friendly, and requires far less code than traditional desktop design tools.
 * **Cons:** Not designed for complex mobile interfaces or high-performance 3D gaming graphics.
 
-[Official Source / Credits](https://github.com/PySimpleGUI/PySimpleGUI)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/PySimpleGUI/PySimpleGUI)

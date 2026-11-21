@@ -13,7 +13,7 @@ source_url: "https://github.com/simstudioai/sim"
 download_url: "https://github.com/simstudioai/sim/releases/download/v0.9.63/Sim-0.9.63-universal.dmg"
 downloadUrl: "https://github.com/simstudioai/sim/releases/download/v0.9.63/Sim-0.9.63-universal.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Sim brings your team, files, and smart assistants together into a single, easy-to-use visual workspace. You can connect hundreds of popular apps and top language models to automate repetitive tasks without complex coding. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Sim brings your team, files, and smart assistants together into a single, easy-to-use visual workspace. You can connect hundreds of popular apps and top language models to automate repetitive tasks without complex coding.
 
 ### Who it's for
 * Product teams looking to automate routine communication and data tasks across apps.
@@ -54,16 +54,19 @@ Sim brings your team, files, and smart assistants together into a single, easy-t
 * Build automated workflows visually, through conversation, or with custom code.
 * Manage built-in data tables, shared files, and searchable knowledge bases.
 * Monitor agent runs, logs, and schedules in real-time.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 Get started on your Mac by grabbing the official desktop package:
 * [Download for Mac (.dmg)](https://github.com/simstudioai/sim/releases/download/v0.9.63/Sim-0.9.63-universal.dmg)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Open-source foundation, huge library of pre-built integrations, and flexible self-hosting options.
 * **Cons:** Advanced multi-step workflows require some time to learn and configure properly.
 
-[Official Source / Credits](https://github.com/simstudioai/sim)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/simstudioai/sim)

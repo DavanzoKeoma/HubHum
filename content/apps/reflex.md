@@ -13,7 +13,7 @@ source_url: "https://github.com/reflex-dev/reflex"
 download_url: "https://github.com/reflex-dev/reflex/releases/download/v0.11.0/SHA256SUMS"
 downloadUrl: "https://github.com/reflex-dev/reflex/releases/download/v0.11.0/SHA256SUMS"
 download_label: "Download (SHA256SUMS)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Reflex lets you design and launch complete web applications using only the Python programming language. You can manage user interfaces, handle database actions, and connect artificial intelligence tools without writing separate website code. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Reflex lets you design and launch complete web applications using only the Python programming language. You can manage user interfaces, handle database actions, and connect artificial intelligence tools without writing separate website code.
 
 ### Who it's for
 * **Python Developers:** Programmers who want to build interactive web portals without learning complex interface languages.
@@ -53,7 +53,6 @@ Reflex lets you design and launch complete web applications using only the Pytho
 * **Pure Python Workflow:** Write both the visual layout and the server logic entirely inside standard Python files.
 * **Instant Page Refreshes:** See your design updates happen in real time on your screen the moment you save your source files.
 * **Built-In State Management:** Keep track of user inputs, application data, and events smoothly without messy configuration files.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 To get started, set up a python virtual environment and add the library using your preferred tool:
@@ -67,10 +66,16 @@ uv run reflex init
 uv run reflex run
 ```
 
-You can also view the verification hashes directly via [Download (SHA256SUMS)](https://github.com/reflex-dev/reflex/releases/download/v0.11.0/SHA256SUMS). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can also view the verification hashes directly via [Download (SHA256SUMS)](https://github.com/reflex-dev/reflex/releases/download/v0.11.0/SHA256SUMS). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Completely open-source, eliminates the need to learn website scripting languages, and offers instant live reloads.
 * **Cons:** Requires familiarity with command-line tools and virtual environments to configure properly.
 
-[Official Source / Credits](https://github.com/reflex-dev/reflex)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/reflex-dev/reflex)

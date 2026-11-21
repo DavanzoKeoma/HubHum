@@ -13,9 +13,9 @@ source_url: "https://github.com/fschutt/azul"
 download_url: "https://github.com/fschutt/azul/releases/download/0.2.0/AzMaps-android.apk"
 downloadUrl: "https://github.com/fschutt/azul/releases/download/0.2.0/AzMaps-android.apk"
 download_label: "Download for Android (.apk)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Linux, Android"
+operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Azul provides developers with a modern toolkit to design responsive user interfaces for computer applications. It translates familiar design layouts and structural styles into high-speed native software windows. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Azul provides developers with a modern toolkit to design responsive user interfaces for computer applications. It translates familiar design layouts and structural styles into high-speed native software windows.
 
 ### Who it's for
 * Software creators seeking a dependable system to build custom application windows.
@@ -52,11 +52,10 @@ Azul provides developers with a modern toolkit to design responsive user interfa
 ### Key features
 * Fast visual rendering powered by advanced graphic engines for smooth performance.
 * Familiar document structuring using concepts similar to web page layouts.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Multilanguage support enabling usage across different programming environments.
 
 ### How to install (Download)
-You can download available testing packages for mobile and experimental environments directly below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can download available testing packages for mobile and experimental environments directly below.
 
 * [Download Map Tool for Android (.apk)](https://github.com/fschutt/azul/releases/download/0.2.0/AzMaps-android.apk)
 * [Download Meeting Tool for Android (.apk)](https://github.com/fschutt/azul/releases/download/0.2.0/AzMeet-android.apk)
@@ -67,4 +66,10 @@ You can download available testing packages for mobile and experimental environm
 * **Pros:** Free and open source code, high rendering speed, modern layout engine.
 * **Cons:** Still under heavy development, features and layout tools may change frequently.
 
-[Official Source / Credits](https://github.com/fschutt/azul)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/fschutt/azul)

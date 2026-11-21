@@ -13,9 +13,9 @@ source_url: "https://github.com/tauri-apps/tauri"
 download_url: "https://tauri.app"
 downloadUrl: "https://tauri.app"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Tauri is a modern tool that helps creators build desktop and mobile applications using familiar web technologies like HTML, JavaScript, and CSS. Instead of bloating your computer with heavy background software, it bundles your project into a tiny, lightning-fast package. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Tauri is a modern tool that helps creators build desktop and mobile applications using familiar web technologies like HTML, JavaScript, and CSS. Instead of bloating your computer with heavy background software, it bundles your project into a tiny, lightning-fast package.
 
 ### Who it's for
 * Web developers looking to turn their websites or web tools into native desktop and mobile programs.
@@ -53,13 +53,18 @@ Tauri is a modern tool that helps creators build desktop and mobile applications
 * Creates exceptionally small application installers that load almost instantly.
 * Leverages your computer's native display engine to keep resource usage very low.
 * Includes built-in tools for handling system tray icons, native notifications, and automatic updates.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started with building your own applications, visit the [Official Tauri Website](https://tauri.app) to explore the full setup guide and system prerequisites. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started with building your own applications, visit the [Official Tauri Website](https://tauri.app) to explore the full setup guide and system prerequisites.
 
 ### Pros and Cons
 * **Pros:** Produces exceptionally tiny app sizes, uses low memory, and supports all major operating systems.
 * **Cons:** Requires some familiarity with command-line tools and programming concepts to set up initially.
 
-[Official Source / Credits](https://github.com/tauri-apps/tauri)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/tauri-apps/tauri)

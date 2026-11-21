@@ -13,7 +13,7 @@ source_url: "https://github.com/Hammerspoon/hammerspoon"
 download_url: "https://www.hammerspoon.org"
 downloadUrl: "https://www.hammerspoon.org"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Hammerspoon lets you take total control of your Mac computer by turning everyday keyboard shortcuts and system triggers into custom actions. You write simple text instructions using a lightweight programming language, and the application listens in the background to execute them instantly. Whether you want to rearrange windows with a single keystroke, mute your microphone automatically when joining calls, or launch specific apps on startup, it bends your computer to your exact workflow. While setting up your custom rules, you can also browse royalty-free stock footage, music tracks, and motion presets via [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad) to enhance your creative projects.
+Hammerspoon lets you take total control of your Mac computer by turning everyday keyboard shortcuts and system triggers into custom actions. You write simple text instructions using a lightweight programming language, and the application listens in the background to execute them instantly. Whether you want to rearrange windows with a single keystroke, mute your microphone automatically when joining calls, or launch specific apps on startup, it bends your computer to your exact workflow.
 
 ### Who it's for
 * Power users who want to customize every corner of their Mac experience without dealing with bloated software.
@@ -53,14 +53,19 @@ Hammerspoon lets you take total control of your Mac computer by turning everyday
 * Connects directly to core operating system features through simple, readable scripting instructions.
 * Controls window layouts, audio volumes, screen brightness, and network states instantly.
 * Runs quietly in the background with minimal resource consumption, ensuring your computer stays fast.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Highly extensible system supported by a vibrant community offering ready-made configuration examples.
 
 ### How to install (Download)
-To get started, you can download the application package directly from the [latest release page](https://github.com/Hammerspoon/hammerspoon/releases/latest). Once downloaded, simply drag the application icon into your main applications folder to finish setting it up. Alternatively, if you use command-line setup tools on your Mac, you can install it easily by typing `brew install hammerspoon --cask`. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). You can also visit the [Official Website](https://www.hammerspoon.org) to read documentation and get started guides.
+To get started, you can download the application package directly from the [latest release page](https://github.com/Hammerspoon/hammerspoon/releases/latest). Once downloaded, simply drag the application icon into your main applications folder to finish setting it up. Alternatively, if you use command-line setup tools on your Mac, you can install it easily by typing `brew install hammerspoon --cask`. You can also visit the [Official Website](https://www.hammerspoon.org) to read documentation and get started guides.
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, highly customizable, lightweight background resource usage.
 * **Cons:** Requires writing small text scripts to perform actions, as it does not come with pre-built buttons for everything.
 
-[Official Source / Credits](https://github.com/Hammerspoon/hammerspoon)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Hammerspoon/hammerspoon)

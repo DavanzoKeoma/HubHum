@@ -13,7 +13,7 @@ source_url: "https://github.com/DamascenoRafael/reminders-menubar"
 download_url: "https://github.com/DamascenoRafael/reminders-menubar/releases/download/v2.2.0/Reminders-MenuBar.dmg"
 downloadUrl: "https://github.com/DamascenoRafael/reminders-menubar/releases/download/v2.2.0/Reminders-MenuBar.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Reminders MenuBar lives quietly in the top corner of your computer screen, giving you instant access to your daily to-do lists without opening extra windows. You can type out new tasks using everyday language like "buy milk tomorrow," and the app automatically figures out the due date and tags. It even lets you check off completed items, search through all your notes, and filter tasks by specific lists with just a couple of clicks. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Reminders MenuBar lives quietly in the top corner of your computer screen, giving you instant access to your daily to-do lists without opening extra windows. You can type out new tasks using everyday language like "buy milk tomorrow," and the app automatically figures out the due date and tags. It even lets you check off completed items, search through all your notes, and filter tasks by specific lists with just a couple of clicks.
 
 ### Who it's for
 * Busy professionals who want to track tasks and check off items without switching windows.
@@ -54,17 +54,22 @@ Reminders MenuBar lives quietly in the top corner of your computer screen, givin
 * Automatically syncs all your data securely with native Apple Reminders.
 * Create new entries instantly using natural text phrasing for dates and labels.
 * Customize your menu icon, display item counters, or show your next upcoming deadline.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 To get started, make sure your Mac is running macOS Monterey 12 or newer. You can download the application package directly using the secure link below:
 
 * [Download for Mac (.dmg)](https://github.com/DamascenoRafael/reminders-menubar/releases/download/v2.2.0/Reminders-MenuBar.dmg)
 
-Simply double-click the downloaded file and drag the icon into your Applications folder. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Simply double-click the downloaded file and drag the icon into your Applications folder.
 
 ### Pros and Cons
 * **Pros:** Completely free to use, highly lightweight, and integrates seamlessly with built-in macOS systems.
 * **Cons:** Requires macOS Monterey or newer and needs initial permission prompts to access your task data.
 
-[Official Source / Credits](https://github.com/DamascenoRafael/reminders-menubar)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/DamascenoRafael/reminders-menubar)

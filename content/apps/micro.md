@@ -13,9 +13,9 @@ source_url: "https://github.com/micro-editor/micro"
 download_url: "https://github.com/micro-editor/micro/releases/download/v2.0.15/micro-2.0.15-freebsd32.tar.gz.sha"
 downloadUrl: "https://github.com/micro-editor/micro/releases/download/v2.0.15/micro-2.0.15-freebsd32.tar.gz.sha"
 download_label: "Download (micro-2.0.15-freebsd32.tar.gz.sha)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Micro is a friendly text editor that runs inside your computer's command window, making it perfect for quick edits or long-term writing projects. It is designed to be easy to pick up, even if you are not an expert, by using familiar shortcuts like those found in standard word processors. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Micro is a friendly text editor that runs inside your computer's command window, making it perfect for quick edits or long-term writing projects. It is designed to be easy to pick up, even if you are not an expert, by using familiar shortcuts like those found in standard word processors.
 
 ### Who it's for
 *   **Casual users** who need a simple way to edit configuration files or notes without complex software.
@@ -52,13 +52,18 @@ Micro is a friendly text editor that runs inside your computer's command window,
 *   **Intuitive Controls:** Uses standard shortcuts (like copy, paste, and save) that you already know.
 *   **Mouse Support:** Click, drag, and select text just like you would in a regular document editor.
 *   **Smart Features:** Includes automatic highlighting for over 130 different programming languages.
-*   **Expand your creative library:** Access commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can download the official pre-built files for your system directly from the [GitHub Releases page](https://github.com/micro-editor/micro/releases). For most users, using a package manager like Homebrew (`brew install micro`) or Snap (`snap install micro`) is the fastest way to get started. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can download the official pre-built files for your system directly from the [GitHub Releases page](https://github.com/micro-editor/micro/releases). For most users, using a package manager like Homebrew (`brew install micro`) or Snap (`snap install micro`) is the fastest way to get started.
 
 ### Pros and Cons
 *   **Pros:** Completely free to use, no complicated setup required, and very lightweight on your system.
 *   **Cons:** Because it runs in a terminal window, it may take a moment to learn how to navigate if you are used to mouse-only graphical programs.
 
-[Official Source / Credits](https://github.com/micro-editor/micro)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/micro-editor/micro)

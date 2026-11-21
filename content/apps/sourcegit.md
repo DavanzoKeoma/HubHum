@@ -13,7 +13,7 @@ source_url: "https://github.com/sourcegit-org/sourcegit"
 download_url: "https://github.com/sourcegit-org/sourcegit/releases/download/v2026.24/sourcegit-2026.24.linux.amd64.AppImage"
 downloadUrl: "https://github.com/sourcegit-org/sourcegit/releases/download/v2026.24/sourcegit-2026.24.linux.amd64.AppImage"
 download_label: "Download for Linux (.AppImage)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-SourceGit replaces confusing text commands with a clear, interactive window to track every change in your software projects. You can instantly see who wrote specific lines of code, compare different versions side by side, and undo mistakes with a single mouse click. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It brings clarity to teamwork by letting you handle complicated code merging tasks through a clean graphical map.
+SourceGit replaces confusing text commands with a clear, interactive window to track every change in your software projects. You can instantly see who wrote specific lines of code, compare different versions side by side, and undo mistakes with a single mouse click. It brings clarity to teamwork by letting you handle complicated code merging tasks through a clean graphical map.
 
 ### Who it's for
 * Software developers who want a faster, visual way to handle daily code tracking tasks.
@@ -53,11 +53,10 @@ SourceGit replaces confusing text commands with a clear, interactive window to t
 * Clear visual graphs showing how different versions branch and merge over time.
 * Side-by-side image and text comparisons to spot tiny differences instantly.
 * Built-in AI assistants to write descriptive update notes automatically.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Seamless integration with popular code editors like Visual Studio Code and JetBrains tools.
 
 ### How to install (Download)
-To get started, make sure standard Git software is installed on your computer. You can download the latest version for Linux using the direct links below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, make sure standard Git software is installed on your computer. You can download the latest version for Linux using the direct links below.
 
 * [Download for Linux (.AppImage)](https://github.com/sourcegit-org/sourcegit/releases/download/v2026.24/sourcegit-2026.24.linux.amd64.AppImage)
 * [Download for Linux (.deb)](https://github.com/sourcegit-org/sourcegit/releases/download/v2026.24/sourcegit_2026.24-1_amd64.deb)
@@ -66,4 +65,10 @@ To get started, make sure standard Git software is installed on your computer. Y
 * **Pros:** Free and open-source, fast performance, works across Windows, macOS, and Linux.
 * **Cons:** Requires a separate installation of standard Git to function properly.
 
-[Official Source / Credits](https://github.com/sourcegit-org/sourcegit)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/sourcegit-org/sourcegit)

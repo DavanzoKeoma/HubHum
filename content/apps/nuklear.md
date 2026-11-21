@@ -13,9 +13,9 @@ source_url: "https://github.com/Immediate-Mode-UI/Nuklear"
 download_url: "https://immediate-mode-ui.github.io/Nuklear/"
 downloadUrl: "https://immediate-mode-ui.github.io/Nuklear/"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Nuklear provides developers with the core tools needed to draw buttons, sliders, windows, and text fields inside custom applications. Because it handles only the visual layout and relies on your existing graphics system to draw shapes, it stays remarkably small and fast. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Nuklear provides developers with the core tools needed to draw buttons, sliders, windows, and text fields inside custom applications. Because it handles only the visual layout and relies on your existing graphics system to draw shapes, it stays remarkably small and fast.
 
 ### Who it's for
 - C and C++ developers building custom tools, utilities, or games who need a fast, dependency-free interface toolkit.
@@ -53,13 +53,19 @@ Nuklear provides developers with the core tools needed to draw buttons, sliders,
 - Written entirely in ANSI C with zero external dependencies.
 - Contained in a single header file for effortless integration into your code.
 - Fully skinnable and customizable to match any visual style you prefer.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 - Low memory footprint with total control over how memory is allocated.
 
 ### How to install (Download)
-You can get the single-file source code directly from the [Official Nuklear Website](https://immediate-mode-ui.github.io/Nuklear/). Simply include the header file in your project according to the documentation instructions. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can get the single-file source code directly from the [Official Nuklear Website](https://immediate-mode-ui.github.io/Nuklear/). Simply include the header file in your project according to the documentation instructions.
 
 ### Pros and Cons
 * **Pros:** Completely free and open source, extremely small footprint, zero dependencies, highly portable.
 * **Cons:** Requires a separate rendering backend to actually display shapes on screen, advanced styling takes manual configuration.
-[Official Source / Credits](https://github.com/Immediate-Mode-UI/Nuklear)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Immediate-Mode-UI/Nuklear)

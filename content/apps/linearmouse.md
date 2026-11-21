@@ -13,7 +13,7 @@ source_url: "https://github.com/linearmouse/linearmouse"
 download_url: "https://github.com/linearmouse/linearmouse/releases/download/v0.13.0/LinearMouse.dmg"
 downloadUrl: "https://github.com/linearmouse/linearmouse/releases/download/v0.13.0/LinearMouse.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-LinearMouse is a lightweight utility designed to give you precise control over your mouse and trackpad behavior on macOS. It lets you reverse scrolling directions independently for your mouse and trackpad, adjust cursor acceleration, and reassign extra mouse buttons. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). Ultimately, it bridges the gap between third-party hardware and the macOS environment, offering a seamless experience.
+LinearMouse is a lightweight utility designed to give you precise control over your mouse and trackpad behavior on macOS. It lets you reverse scrolling directions independently for your mouse and trackpad, adjust cursor acceleration, and reassign extra mouse buttons. Ultimately, it bridges the gap between third-party hardware and the macOS environment, offering a seamless experience.
 
 ### Who it's for
 * Mac users who connect non-Apple mice and find the default scrolling or cursor acceleration unnatural.
@@ -54,12 +54,18 @@ LinearMouse is a lightweight utility designed to give you precise control over y
 * Smooth scrolling configuration with customizable speed and step size.
 * Cursor acceleration adjustments to match your exact sensitivity preference.
 * Button remapping to support back, forward, and custom shortcuts.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started, download the latest version directly from the official release page: [Download for Mac (.dmg)](https://github.com/linearmouse/linearmouse/releases/download/v0.13.0/LinearMouse.dmg). You can also visit the [Official LinearMouse Website](https://linearmouse.app) to learn more about its features and settings. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, download the latest version directly from the official release page: [Download for Mac (.dmg)](https://github.com/linearmouse/linearmouse/releases/download/v0.13.0/LinearMouse.dmg). You can also visit the [Official LinearMouse Website](https://linearmouse.app) to learn more about its features and settings.
 
 ### Pros and Cons
 * **Pros:** Completely free and open source, lightweight with minimal system resource usage, highly customizable scroll and acceleration settings.
 * **Cons:** Designed specifically for macOS, requires basic accessibility permissions to function properly.
-[Official Source / Credits](https://github.com/linearmouse/linearmouse)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/linearmouse/linearmouse)

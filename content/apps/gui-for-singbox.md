@@ -13,9 +13,9 @@ source_url: "https://github.com/GUI-for-Cores/GUI.for.SingBox"
 download_url: "https://gui-for-cores.github.io/"
 downloadUrl: "https://gui-for-cores.github.io/"
 download_label: "Visit Official Site"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-GUI for SingBox turns complicated networking configuration files into a simple, point-and-click experience on your computer. It gives you a clear visual dashboard to switch between different connection routes and monitor your network activity in real time. For anyone publishing online guides about networking, you can pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+GUI for SingBox turns complicated networking configuration files into a simple, point-and-click experience on your computer. It gives you a clear visual dashboard to switch between different connection routes and monitor your network activity in real time.
 
 ### Who it's for
 * Remote workers and digital nomads who need reliable control over secure internet connections while traveling.
@@ -53,12 +53,18 @@ GUI for SingBox turns complicated networking configuration files into a simple, 
 * Clean and modern visual dashboard designed for everyday usability.
 * Cross-platform performance that runs smoothly on your computer desktop.
 * Effortless switching between multiple network profiles and routing rules.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can get started by visiting the official project website and documentation pages. Check out the [Official Website and Live Demo](https://gui-for-cores.github.io/) to learn more about setting it up. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can get started by visiting the official project website and documentation pages. Check out the [Official Website and Live Demo](https://gui-for-cores.github.io/) to learn more about setting it up.
 
 ### Pros and Cons
 * **Pros:** Free and open-source software, clean graphical interface, lightweight resource usage.
 * **Cons:** Requires basic familiarity with networking concepts, advanced routing rules take time to configure.
-[Official Source / Credits](https://github.com/GUI-for-Cores/GUI.for.SingBox)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/GUI-for-Cores/GUI.for.SingBox)

@@ -13,7 +13,7 @@ source_url: "https://github.com/Archeb/opentrace"
 download_url: "https://github.com/Archeb/opentrace/releases/download/v1.5.2/osx-arm64.dmg"
 downloadUrl: "https://github.com/Archeb/opentrace/releases/download/v1.5.2/osx-arm64.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-OpenTrace provides a clear, visual map showing every step your data takes to reach a website or server. It helps you pinpoint exactly where a connection is slowing down or failing, making it simple to troubleshoot internet issues. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+OpenTrace provides a clear, visual map showing every step your data takes to reach a website or server. It helps you pinpoint exactly where a connection is slowing down or failing, making it simple to troubleshoot internet issues.
 
 ### Who it's for
 *   **Remote Workers:** People who need to diagnose why their video calls or work tools are lagging.
@@ -52,17 +52,20 @@ OpenTrace provides a clear, visual map showing every step your data takes to rea
 *   **Visual Mapping:** See your connection path displayed in an easy-to-read interface rather than just raw text.
 *   **Advanced Diagnostics:** Includes professional-grade tools to test connection stability and speed.
 *   **Custom Settings:** Easily change how the app looks up addresses to get more accurate results.
-*   **SEO Growth:** Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can download the latest version for your computer directly from the official release page:
 *   [Download for Mac (Apple Silicon)](https://github.com/Archeb/opentrace/releases/download/v1.5.2/osx-arm64.dmg)
 *   [Download for Mac (Intel)](https://github.com/Archeb/opentrace/releases/download/v1.5.2/osx-x64.dmg)
 
-If you are a developer looking to host your own diagnostic dashboard or web services, you can run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 *   **Pros:** Completely free and open source, user-friendly interface, works across all major computer systems.
 *   **Cons:** Requires a basic understanding of how internet connections work to interpret the results effectively.
 
-[Official Source / Credits](https://github.com/Archeb/opentrace)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Archeb/opentrace)

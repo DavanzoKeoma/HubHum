@@ -5,17 +5,17 @@ tagline: "Organize and browse your photos privately"
 summary: "PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly."
 tags: ["photos", "ai", "cloud-app", "privacy"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Graphics & Design"
 icon: "/icons/photoprism.png"
 stars: 40470
 source_url: "https://github.com/photoprism/photoprism"
 download_url: "https://www.photoprism.app"
 downloadUrl: "https://www.photoprism.app"
-download_label: "Visit Official Site"
-license: "NOASSERTION"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-PhotoPrism is a smart photo organizer that keeps your entire life in pictures neatly sorted and easy to find. It automatically sorts your images by what is in them, who is in them, and where they were taken using modern intelligence features. You keep total control over your memories because your files stay entirely private under your own roof or in your personal cloud. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+PhotoPrism is a smart photo organizer that keeps your entire life in pictures neatly sorted and easy to find. It automatically sorts your images by what is in them, who is in them, and where they were taken using modern intelligence features. You keep total control over your memories because your files stay entirely private under your own roof or in your personal cloud.
 
 ### Who it's for
 * Families and individuals wanting a private, secure home for thousands of personal photos without big tech snooping.
@@ -54,13 +54,18 @@ PhotoPrism is a smart photo organizer that keeps your entire life in pictures ne
 * Automatically recognize faces, subjects, and locations to find specific moments instantly.
 * Explore memories on interactive world maps with strict privacy safeguards.
 * Connect phone backup apps and standard file browsing tools to keep your albums updated effortlessly.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can try out the app instantly in your web browser by visiting the [PhotoPrism Public Demo](https://try.photoprism.app/). To run your own private server on Windows, Mac, or Linux, follow the simple instructions on the [PhotoPrism Getting Started Guide](https://docs.photoprism.app/getting-started/). Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can try out the app instantly in your web browser by visiting the [PhotoPrism Public Demo](https://try.photoprism.app/). To run your own private server on Windows, Mac, or Linux, follow the simple instructions on the [PhotoPrism Getting Started Guide](https://docs.photoprism.app/getting-started/).
 
 ### Pros and Cons
 * **Pros:** Complete privacy control, powerful AI organization features, and works seamlessly on all your devices.
 * **Cons:** Setting up a self-hosted server requires a basic understanding of container tools like Docker.
 
-[Official Source / Credits](https://github.com/photoprism/photoprism)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/photoprism/photoprism)

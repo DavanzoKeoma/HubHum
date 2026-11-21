@@ -13,7 +13,7 @@ source_url: "https://github.com/rtk-ai/rtk"
 download_url: "https://github.com/rtk-ai/rtk/releases/download/v1.2.1/rtk-oss_1.2.1-1_amd64.deb"
 downloadUrl: "https://github.com/rtk-ai/rtk/releases/download/v1.2.1/rtk-oss_1.2.1-1_amd64.deb"
 download_label: "Download for Linux (.deb)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This utility sits quietly in the background of your computer terminal to shrink the long lists of text that automated assistant programs normally have to read. By filtering out boring technical chatter, it leaves only the crucial parts of tests, error logs, and file checks. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). Ultimately, it lets you work alongside intelligent coding helpers much longer without burning through your token budgets or waiting around.
+This utility sits quietly in the background of your computer terminal to shrink the long lists of text that automated assistant programs normally have to read. By filtering out boring technical chatter, it leaves only the crucial parts of tests, error logs, and file checks. Ultimately, it lets you work alongside intelligent coding helpers much longer without burning through your token budgets or waiting around.
 
 ### Who it's for
 - Software developers who use automated coding assistants heavily and want to stop wasting token limits on repetitive status checks.
@@ -52,11 +52,10 @@ This utility sits quietly in the background of your computer terminal to shrink 
 - Automatically shrinks standard terminal readouts from testing tools, version control, and file listings into brief summaries.
 - Works right out of the box with over a hundred common command-line tasks across multiple programming languages.
 - Preserves exit codes and ensures you can always view the raw full output whenever an unexpected problem pops up.
-- Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 - Fully transparent tracking via a simple command dashboard that shows exactly how many text tokens you have saved over time.
 
 ### How to install (Download)
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). You can grab the standard version installer directly for your system architecture:
+You can grab the standard version installer directly for your system architecture:
 - [Download for Linux (.deb) - Standard Edition](https://github.com/rtk-ai/rtk/releases/download/v1.2.1/rtk_1.2.1-1_amd64.deb)
 - [Download for Linux (.deb) - Open Source Edition](https://github.com/rtk-ai/rtk/releases/download/v1.2.1/rtk-oss_1.2.1-1_amd64.deb)
 - [Download for Linux ARM64 (.deb) - Standard Edition](https://github.com/rtk-ai/rtk/releases/download/v1.2.1/rtk_1.2.1-1_arm64.deb)
@@ -66,4 +65,10 @@ Before downloading installers or syncing private files over public Wi-Fi, shield
 * **Pros:** Massively reduces token waste instantly, completely transparent background operation, works with popular command line tools.
 * **Cons:** Advanced filtering rules may take a short moment to customize if you have unique custom testing scripts.
 
-[Official Source / Credits](https://github.com/rtk-ai/rtk)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/rtk-ai/rtk)

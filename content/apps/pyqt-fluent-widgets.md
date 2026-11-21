@@ -13,9 +13,9 @@ source_url: "https://github.com/zhiyiYo/PyQt-Fluent-Widgets"
 download_url: "https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/C%2B%2B_QFluentCharts.7z"
 downloadUrl: "https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/C%2B%2B_QFluentCharts.7z"
 download_label: "Download (C++_QFluentCharts.7z)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-PyQt-Fluent-Widgets provides developers with a complete collection of ready-to-use interface components that mimic modern operating system styling. Instead of spending weeks manually drawing buttons, sliders, and menus, you can plug in these pre-styled elements to instantly give your software a professional look. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). The library handles complex animations and layout alignment automatically, letting you focus entirely on your software's core functionality.
+PyQt-Fluent-Widgets provides developers with a complete collection of ready-to-use interface components that mimic modern operating system styling. Instead of spending weeks manually drawing buttons, sliders, and menus, you can plug in these pre-styled elements to instantly give your software a professional look. The library handles complex animations and layout alignment automatically, letting you focus entirely on your software's core functionality.
 
 ### Who it's for
 * Desktop software creators looking to modernize their user interfaces without hiring a dedicated graphic designer.
@@ -53,7 +53,6 @@ PyQt-Fluent-Widgets provides developers with a complete collection of ready-to-u
 * Packed with dozens of custom interface components including toggle switches, navigation bars, and flyouts.
 * Seamlessly integrates with popular desktop programming environments and layout tools.
 * Fully supports dark and light appearance modes out of the box with dynamic color shifting.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Lightweight integration options allowing you to pull in only the specific interface pieces you need.
 
 ### How to install (Download)
@@ -62,10 +61,14 @@ You can easily add the core toolkit to your Python projects using the standard c
 * [Download (PyQt-Fluent-Widgets-Gallery-macOS-Apple.7z)](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/PyQt-Fluent-Widgets-Gallery-macOS-Apple.7z)
 * [Download (PyQt-Fluent-Widgets-Pro-Gallery-macOS-Apple.7z)](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/PyQt-Fluent-Widgets-Pro-Gallery-macOS-Apple.7z)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Instantly gives old software a modern facelift, extensive component variety, active community support.
 * **Cons:** Advanced commercial components require a paid license, styling overrides can occasionally require deep code adjustments.
 
-[Official Source / Credits](https://github.com/zhiyiYo/PyQt-Fluent-Widgets)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/zhiyiYo/PyQt-Fluent-Widgets)

@@ -5,17 +5,17 @@ tagline: "Your own private smart assistant dashboard"
 summary: "Run smart artificial intelligence models completely offline or connect to cloud services with a friendly, feature-packed web control panel."
 tags: ["ai", "chat", "cloud-app", "productivity"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/open-webui.png"
 stars: 159122
 source_url: "https://github.com/open-webui/open-webui"
 download_url: "https://openwebui.com"
 downloadUrl: "https://openwebui.com"
-download_label: "Visit Official Site"
-license: "NOASSERTION"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Open WebUI gives you a gorgeous, friendly control panel to chat with artificial intelligence models right from your web browser. You can run open-source models completely privately on your own computer or connect securely to popular cloud providers. It organizes your conversations, lets you search through documents, and customizes your chat experience effortlessly. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Open WebUI gives you a gorgeous, friendly control panel to chat with artificial intelligence models right from your web browser. You can run open-source models completely privately on your own computer or connect securely to popular cloud providers. It organizes your conversations, lets you search through documents, and customizes your chat experience effortlessly.
 
 ### Who it's for
 * **Privacy-conscious users** who want to chat with artificial intelligence without sending personal data to third-party servers.
@@ -54,15 +54,20 @@ Open WebUI gives you a gorgeous, friendly control panel to chat with artificial 
 * Full support for document uploading so you can ask questions about your own files and notes.
 * Voice control integration for spoken interactions and audio prompts.
 * Custom user roles and workspace controls for multi-user setups.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can access the official platform and cloud guidance directly at [Open WebUI Website](https://openwebui.com). 
 
-For those who want a ready-to-use desktop experience, [Download the native desktop app](https://github.com/open-webui/desktop) for macOS, Windows, and Linux. You can also run it locally using Python or Docker containers as outlined in the official documentation. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+For those who want a ready-to-use desktop experience, [Download the native desktop app](https://github.com/open-webui/desktop) for macOS, Windows, and Linux. You can also run it locally using Python or Docker containers as outlined in the official documentation. Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Complete privacy control, beautiful user interface, supports both local and cloud models.
 * **Cons:** Running local models efficiently requires a capable computer graphics card.
 
-[Official Source / Credits](https://github.com/open-webui/open-webui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/open-webui/open-webui)

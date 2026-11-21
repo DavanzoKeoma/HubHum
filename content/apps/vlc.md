@@ -13,9 +13,9 @@ source_url: "https://github.com/videolan/vlc"
 download_url: "https://www.videolan.org/vlc"
 downloadUrl: "https://www.videolan.org/vlc"
 download_label: "Visit Official Site"
-license: "GPL-2.0"
+license: "Open Source (GPL v2)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-VLC is a reliable media player that opens almost any video or audio file you throw at it, right out of the box. You do not need to hunt down confusing codecs or special plugins to make your favorite media work. It also lets you stream content over your network, convert formats, and pair presentations with royalty-free stock footage or soundtracks from [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+VLC is a reliable media player that opens almost any video or audio file you throw at it, right out of the box. You do not need to hunt down confusing codecs or special plugins to make your favorite media work.
 
 ### Who it's for
 * Everyday computer users who just want a dependable player that never gives an "unsupported format" error.
@@ -54,7 +54,6 @@ VLC is a reliable media player that opens almost any video or audio file you thr
 * Adjusts audio and video synchronization with simple keyboard shortcuts.
 * Converts files from one format to another seamlessly.
 * Completely free with no ads, popups, or hidden fees.
-* Keep remote media streams and installer downloads private over shared Wi-Fi with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### How to install (Download)
 * [Download for Windows](https://www.videolan.org/vlc/download-windows.html)
@@ -63,10 +62,14 @@ VLC is a reliable media player that opens almost any video or audio file you thr
 * [Download for Android](https://www.videolan.org/vlc/download-android.html)
 * [Download for iOS](https://www.videolan.org/vlc/download-ios.html)
 
-*(Tip: Enhance your video presentations and creative projects by checking out [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) for design assets).*
-
 ### Pros and Cons
 * **Pros:** Free forever, plays virtually everything, lightweight, and contains no advertisements.
 * **Cons:** The interface looks a bit traditional and basic compared to modern streaming apps.
 
-[Official Source / Credits](https://github.com/videolan/vlc)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/videolan/vlc)

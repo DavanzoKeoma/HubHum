@@ -5,17 +5,17 @@ tagline: "Turn any website into structured data"
 summary: "Extract information, monitor web pages, and automate data collection from any website effortlessly without writing code."
 tags: ["scraping", "automation", "data-extraction", "monitoring"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/maxun.png"
 stars: 18528
 source_url: "https://github.com/getmaxun/maxun"
 download_url: "https://www.maxun.dev"
 downloadUrl: "https://www.maxun.dev"
-download_label: "Get Command-Line Tool →"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Maxun converts any public website into structured, usable information that you can search, track, and export. You can record your actions directly in a browser or describe what you need in everyday language to let smart tools pull the data for you. It also monitors pages over time so you never miss important updates or price changes. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Maxun converts any public website into structured, usable information that you can search, track, and export. You can record your actions directly in a browser or describe what you need in everyday language to let smart tools pull the data for you. It also monitors pages over time so you never miss important updates or price changes.
 
 ### Who it's for
 * Researchers and analysts gathering market intelligence or public datasets across multiple online sources.
@@ -54,12 +54,18 @@ Maxun converts any public website into structured, usable information that you c
 * **AI Mode:** Describe the data you need using everyday language and let artificial intelligence collect it automatically.
 * **Page Monitoring:** Track websites over time, detect content changes, and receive instant alerts when updates occur.
 * **Flexible Exports:** Convert full web pages into clean Markdown, HTML, or structured formats ready for your workflow.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-The quickest way to get started right away is to open the [Hosted Web Version](https://app.maxun.dev/?ref=ghread). If you prefer running it on your own computer or server, follow the [Docker Setup Guide](https://docs.maxun.dev/installation/docker) or check out the [Local Installation Instructions](https://docs.maxun.dev/installation/local). Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+The quickest way to get started right away is to open the [Hosted Web Version](https://app.maxun.dev/?ref=ghread). If you prefer running it on your own computer or server, follow the [Docker Setup Guide](https://docs.maxun.dev/installation/docker) or check out the [Local Installation Instructions](https://docs.maxun.dev/installation/local).
 
 ### Pros and Cons
 * **Pros:** Free and open-source, offers both visual recording and AI-driven data extraction, highly adaptable.
 * **Cons:** Advanced scheduling and self-hosting setups require basic technical familiarity with servers or Docker.
-[Official Source / Credits](https://github.com/getmaxun/maxun)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/getmaxun/maxun)

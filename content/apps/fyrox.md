@@ -13,9 +13,9 @@ source_url: "https://github.com/FyroxEngine/Fyrox"
 download_url: "https://fyrox.rs"
 downloadUrl: "https://fyrox.rs"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Fyrox is a free tool that helps you build interactive 2D and 3D games from scratch. It includes a visual editor so you can place objects and design levels without writing all the code yourself. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Fyrox is a free tool that helps you build interactive 2D and 3D games from scratch. It includes a visual editor so you can place objects and design levels without writing all the code yourself.
 
 ### Who it's for
 * **Indie Game Developers:** Creators who want to build their own games without paying expensive licensing fees to commercial software.
@@ -53,11 +53,10 @@ Fyrox is a free tool that helps you build interactive 2D and 3D games from scrat
 * **Visual Scene Editor:** A drag-and-drop interface that lets you arrange 3D models, lights, and cameras easily.
 * **2D and 3D Support:** Handles both flat 2D sprites and full 3D environments within the same project.
 * **Built-in Physics:** Includes realistic movement and collision detection so objects interact naturally.
-* **Creative Asset Expansion:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * **Community Examples:** Access a library of ready-made demo projects to see how the engine works in practice.
 
 ### How to install (Download)
-Fyrox is a development tool that you install on your computer to create games. You can visit the official website to find the latest version and installation instructions for your operating system. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Fyrox is a development tool that you install on your computer to create games. You can visit the official website to find the latest version and installation instructions for your operating system.
 
 * [Visit the Official Fyrox Website](https://fyrox.rs)
 * [Read the Official Learning Book](https://fyrox-book.github.io/)
@@ -66,4 +65,10 @@ Fyrox is a development tool that you install on your computer to create games. Y
 * **Pros:** Completely free to use, no subscription required, includes a helpful visual editor, and has a supportive community.
 * **Cons:** Requires some basic coding knowledge to fully customize games, and the learning curve can be steep for absolute beginners.
 
-[Official Source / Credits](https://github.com/FyroxEngine/Fyrox)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/FyroxEngine/Fyrox)

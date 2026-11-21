@@ -5,17 +5,17 @@ tagline: "Independent publishing & paid newsletters"
 summary: "Launch a fast blog, digital magazine, or paid newsletter while keeping complete ownership of your reader list."
 tags: ["webapp", "cms", "blog", "newsletter"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/ghost.png"
 stars: 55849
 source_url: "https://github.com/TryGhost/Ghost"
 download_url: "https://ghost.org"
 downloadUrl: "https://ghost.org"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -41,7 +41,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Ghost is a modern publishing platform built for writers, creators, and teams who want to run an independent website and email newsletter in one place. You can write articles in a distraction-free editor, collect subscriber emails, and even offer paid memberships without sharing revenue with closed publishing platforms. Everything runs online in your browser, so you can safely manage your editorial dashboard from anywhere—even over café Wi-Fi with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Ghost is a modern publishing platform built for writers, creators, and teams who want to run an independent website and email newsletter in one place. You can write articles in a distraction-free editor, collect subscriber emails, and even offer paid memberships without sharing revenue with closed publishing platforms.
 
 ### Who it's for
 * Independent writers, journalists, and experts turning their articles into a reader-supported newsletter.
@@ -54,13 +54,18 @@ Ghost is a modern publishing platform built for writers, creators, and teams who
 * Offer free sign-ups or paid monthly and yearly memberships with zero platform fees.
 * Built-in search optimization tools and clean URLs right out of the box.
 * Clear reader analytics showing email opens, clicks, and membership growth.
-* Boost search visibility and structured previews across your publishing projects using [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-Because Ghost runs online as a web application, you host it on a cloud server rather than installing it on your personal laptop. Prefer not to set up a server manually? Open it in 1 click on optimized cloud hosting with [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad), or explore the [official Ghost site](https://ghost.org).
+Because Ghost runs online as a web application, you host it on a cloud server rather than installing it on your personal laptop. Prefer not to set up a server manually?
 
 ### Pros and Cons
 * **Pros:** Blazing fast pages, native email newsletters, and zero cut taken from membership sales.
 * **Cons:** Requires an always-on cloud hosting plan to keep your publication live 24/7.
 
-[Official Source / Credits](https://github.com/TryGhost/Ghost)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/TryGhost/Ghost)

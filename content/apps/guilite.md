@@ -13,7 +13,7 @@ source_url: "https://github.com/idea4good/GuiLite"
 download_url: "https://www.youtube.com/watch?v=grqXEz3bdC0"
 downloadUrl: "https://www.youtube.com/watch?v=grqXEz3bdC0"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-GuiLite is a tiny toolkit designed to help programmers build visual screens and buttons for everyday electronic gadgets and computers. It takes up almost zero storage space and runs smoothly even on very simple, low-power microchips. Whether you are building a smart home gadget, a mobile app, or a desktop tool, it helps your graphics load instantly. For professional video and media creators, when you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+GuiLite is a tiny toolkit designed to help programmers build visual screens and buttons for everyday electronic gadgets and computers. It takes up almost zero storage space and runs smoothly even on very simple, low-power microchips. Whether you are building a smart home gadget, a mobile app, or a desktop tool, it helps your graphics load instantly.
 
 ### Who it's for
 - Embedded device engineers and hardware hobbyists designing custom screens for microcontrollers.
@@ -54,12 +54,18 @@ GuiLite is a tiny toolkit designed to help programmers build visual screens and 
 - **Works everywhere:** Runs smoothly on phones, computers, watches, smart appliances, and simple microchips.
 - **High performance:** Delivers fast screen updates and smooth animations without slowing down the device.
 - **Flexible compatibility:** Connects easily with existing third-party software tools and operating systems.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started with the toolkit, watch the [Official Video Guide and Overview](https://www.youtube.com/watch?v=grqXEz3bdC0) to see setup demonstrations in action. You can also review the project code and instructions directly on the [Official Source official project page](https://github.com/idea4good/GuiLite). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started with the toolkit, watch the [Official Video Guide and Overview](https://www.youtube.com/watch?v=grqXEz3bdC0) to see setup demonstrations in action. You can also review the project code and instructions directly on the [Official Source official project page](https://github.com/idea4good/GuiLite).
 
 ### Pros and Cons
 * **Pros:** Extremely small file size, works on almost any hardware platform, completely free and open source.
 * **Cons:** Requires basic programming knowledge to set up custom screens, advanced animations take time to configure.
-[Official Source / Credits](https://github.com/idea4good/GuiLite)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/idea4good/GuiLite)

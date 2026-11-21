@@ -13,7 +13,7 @@ source_url: "https://github.com/ronitsingh10/FineTune"
 download_url: "https://github.com/ronitsingh10/FineTune/releases/download/v1.9.0/FineTune.dmg"
 downloadUrl: "https://github.com/ronitsingh10/FineTune/releases/download/v1.9.0/FineTune.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "MultimediaApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-FineTune is a handy menu bar companion for macOS that lets you adjust the volume of each running application independently. When you are listening to music, watching videos, or hopping on calls, you can boost quiet programs up to four times their normal level. It also lets you route audio to different speakers or headphones and shape your sound using a built-in equalizer. If you often work with multimedia projects, you might also find it helpful to explore royalty-free stock footage, music tracks, and motion presets from [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+FineTune is a handy menu bar companion for macOS that lets you adjust the volume of each running application independently. When you are listening to music, watching videos, or hopping on calls, you can boost quiet programs up to four times their normal level. It also lets you route audio to different speakers or headphones and shape your sound using a built-in equalizer.
 
 ### Who it's for
 - **Podcasters & Streamers:** Manage individual sound levels for web browsers, media players, and recording software without interference.
@@ -54,17 +54,22 @@ FineTune is a handy menu bar companion for macOS that lets you adjust the volume
 - **Multi-Device Output & Routing:** Send audio to multiple speakers simultaneously or assign specific apps to designated output devices.
 - **10-Band Equalizer & AutoEQ:** Shape your frequency response with built-in presets or import custom headphone calibration profiles.
 - **Global Keyboard Shortcuts:** Bind keys to change volume or mute whichever app is currently making sound, even when it is running in the background.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 To get started on macOS, grab the official installer below:
 
 * [Download for Mac (.dmg)](https://github.com/ronitsingh10/FineTune/releases/download/v1.9.0/FineTune.dmg)
 
-Simply open the file, drag the app to your Applications folder, and grant audio capture permissions on first launch. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Simply open the file, drag the app to your Applications folder, and grant audio capture permissions on first launch.
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, lightweight menu bar footprint, highly customizable keyboard controls and routing.
 * **Cons:** Requires initial macOS system audio recording permissions to intercept and manage individual application streams.
 
-[Official Source / Credits](https://github.com/ronitsingh10/FineTune)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ronitsingh10/FineTune)

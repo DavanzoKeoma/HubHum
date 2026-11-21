@@ -13,7 +13,7 @@ source_url: "https://github.com/wtfutil/wtf"
 download_url: "https://github.com/wtfutil/wtf/releases/download/v0.51.0/tessera_0.51.0_checksums.txt"
 downloadUrl: "https://github.com/wtfutil/wtf/releases/download/v0.51.0/tessera_0.51.0_checksums.txt"
 download_label: "Get Command-Line Tool →"
-license: "MPL-2.0"
+license: "Open Source (MPL 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-WTF brings all your frequently checked statistics, system health checks, and online data feeds together into a clean, customizable screen. It runs directly inside your command-line interface so you never have to clutter your desktop with extra browser tabs. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+WTF brings all your frequently checked statistics, system health checks, and online data feeds together into a clean, customizable screen. It runs directly inside your command-line interface so you never have to clutter your desktop with extra browser tabs.
 
 ### Who it's for
 * Software developers and engineers who live inside the terminal and want instant status updates.
@@ -54,7 +54,6 @@ WTF brings all your frequently checked statistics, system health checks, and onl
 * Real-time monitoring of system performance, disk space, and network activity.
 * Seamless integration with popular developer tools, calendars, and external APIs.
 * Lightweight footprint that consumes minimal computing resources while running.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can set up the application easily using common package managers or by grabbing the pre-built files from the official official project page. 
@@ -62,10 +61,16 @@ You can set up the application easily using common package managers or by grabbi
 * [Official Source / Releases](https://github.com/wtfutil/wtf/releases)
 * [Download Checksums File](https://github.com/wtfutil/wtf/releases/download/v0.51.0/tessera_0.51.0_checksums.txt)
 
-Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, highly customizable widget layout, low resource consumption.
 * **Cons:** Requires familiarity with command-line environments and manual configuration files.
 
-[Official Source / Credits](https://github.com/wtfutil/wtf)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/wtfutil/wtf)

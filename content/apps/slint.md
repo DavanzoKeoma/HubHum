@@ -13,9 +13,9 @@ source_url: "https://github.com/slint-ui/slint"
 download_url: "https://github.com/slint-ui/slint/releases/download/v1.19.0/Slint-cpp-1.19.0-win64-MSVC-AMD64.exe"
 downloadUrl: "https://github.com/slint-ui/slint/releases/download/v1.19.0/Slint-cpp-1.19.0-win64-MSVC-AMD64.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, Android"
+operatingSystem: "Windows"
 applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Slint is a flexible design tool that helps creators build smooth, native graphical interfaces for computers, phones, and small smart devices. You write your visual layouts using a straightforward design language, keeping your visual setup separate from your underlying code logic. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It scales smoothly from large desktop monitors down to tiny microcontrollers without wasting system memory.
+Slint is a flexible design tool that helps creators build smooth, native graphical interfaces for computers, phones, and small smart devices. You write your visual layouts using a straightforward design language, keeping your visual setup separate from your underlying code logic. It scales smoothly from large desktop monitors down to tiny microcontrollers without wasting system memory.
 
 ### Who it's for
 * Software developers looking for a fast, lightweight way to add graphical menus to their programs.
@@ -54,10 +54,9 @@ Slint is a flexible design tool that helps creators build smooth, native graphic
 * Direct compatibility with popular programming languages like Python, Rust, and C++.
 * Lightweight engine designed to run fluidly even on low-power hardware and microcontrollers.
 * Real-time preview tools and design integrations to speed up daily iteration cycles.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can grab the official installers directly for your operating system to get started right away. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can grab the official installers directly for your operating system to get started right away.
 
 * [Download for Windows (.exe) - 64-bit AMD64](https://github.com/slint-ui/slint/releases/download/v1.19.0/Slint-cpp-1.19.0-win64-MSVC-AMD64.exe)
 * [Download for Windows (.exe) - ARM64](https://github.com/slint-ui/slint/releases/download/v1.19.0/Slint-cpp-1.19.0-win64-MSVC-ARM64.exe)
@@ -69,4 +68,10 @@ You can grab the official installers directly for your operating system to get s
 * **Pros:** Free open-source core, extremely low resource footprint, cross-platform compatibility from desktop to microcontrollers.
 * **Cons:** Requires learning the dedicated markup language syntax, advanced styling features may need manual configuration.
 
-[Official Source / Credits](https://github.com/slint-ui/slint)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/slint-ui/slint)

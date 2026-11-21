@@ -13,9 +13,9 @@ source_url: "https://github.com/jumpserver/jumpserver"
 download_url: "https://github.com/jumpserver/jumpserver/releases/download/v5.2.0/cn-quick_start.sh"
 downloadUrl: "https://github.com/jumpserver/jumpserver/releases/download/v5.2.0/cn-quick_start.sh"
 download_label: "Download (cn-quick_start.sh)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "All / Browser"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-JumpServer acts as a secure digital doorway for technology teams to manage servers, databases, and cloud applications in one organized place. It keeps track of who logs into what system, recording sessions for auditing and safety while protecting vital infrastructure from unauthorized entry. When managing your digital assets on the go, you can also protect remote administrator dashboards with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+JumpServer acts as a secure digital doorway for technology teams to manage servers, databases, and cloud applications in one organized place. It keeps track of who logs into what system, recording sessions for auditing and safety while protecting vital infrastructure from unauthorized entry.
 
 ### Who it's for
 * System administrators needing a centralized control point for company servers
@@ -54,10 +54,9 @@ JumpServer acts as a secure digital doorway for technology teams to manage serve
 * Built-in artificial intelligence assistance to help write commands and troubleshoot issues
 * Comprehensive session recording and playback for complete security auditing
 * Role-based permissions to grant exact access levels to different team members
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-This application is designed to run on a Linux server. You can get the setup script directly using the official quick start file. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+This application is designed to run on a Linux server. You can get the setup script directly using the official quick start file. Prefer not to manage servers by hand?
 
 - [Download Quick Start Script (quick_start.sh)](https://github.com/jumpserver/jumpserver/releases/download/v5.2.0/quick_start.sh)
 - [Download Chinese Quick Start Script (cn-quick_start.sh)](https://github.com/jumpserver/jumpserver/releases/download/v5.2.0/cn-quick_start.sh)
@@ -66,4 +65,10 @@ This application is designed to run on a Linux server. You can get the setup scr
 * **Pros:** Completely open source, supports multiple protocols out of the box, includes smart AI features.
 * **Cons:** Requires a dedicated Linux server with sufficient memory to run smoothly.
 
-[Official Source / Credits](https://github.com/jumpserver/jumpserver)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/jumpserver/jumpserver)

@@ -13,7 +13,7 @@ source_url: "https://github.com/warpdotdev/warp"
 download_url: "https://warp.dev"
 downloadUrl: "https://warp.dev"
 download_label: "Get Command-Line Tool →"
-license: "AGPL-3.0"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Warp transforms the traditional command-line screen into a modern, collaborative workspace for writing code and running system tasks. It comes equipped with built-in artificial intelligence assistants that can write scripts, explain cryptic error messages, and guide you through tricky problems. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). Teams can also share sessions, save frequently used commands, and automate daily technical routines effortlessly.
+Warp transforms the traditional command-line screen into a modern, collaborative workspace for writing code and running system tasks. It comes equipped with built-in artificial intelligence assistants that can write scripts, explain cryptic error messages, and guide you through tricky problems. Teams can also share sessions, save frequently used commands, and automate daily technical routines effortlessly.
 
 ### Who it's for
 * Software developers who spend their days writing code inside terminal windows and want faster workflows.
@@ -54,12 +54,18 @@ Warp transforms the traditional command-line screen into a modern, collaborative
 * Built-in artificial intelligence coding assistant to generate, fix, and explain scripts instantly.
 * Shared workflows and command notebooks that let teams save and run complex multi-step processes together.
 * Custom themes and fast navigation designed to eliminate eye strain during long coding sessions.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can [download Warp](https://www.warp.dev/download) directly for your computer system or check out the [documentation](https://docs.warp.dev/) for setup instructions. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can [download Warp](https://www.warp.dev/download) directly for your computer system or check out the [documentation](https://docs.warp.dev/) for setup instructions. Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Beautiful modern interface, huge time-saver for repetitive tasks, helpful built-in AI assistance.
 * **Cons:** Requires account sign-in to unlock full collaborative features, departs from traditional terminal styling which some purists dislike.
-[Official Source / Credits](https://github.com/warpdotdev/warp)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/warpdotdev/warp)

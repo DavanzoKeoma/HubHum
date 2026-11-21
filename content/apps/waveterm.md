@@ -13,7 +13,7 @@ source_url: "https://github.com/wavetermdev/waveterm"
 download_url: "https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-win32-x64-0.14.5.exe"
 downloadUrl: "https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/Wave-win32-x64-0.14.5.exe"
 download_label: "Download for Windows (.exe)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Wave Terminal is an open-source, modern command-line workspace built for developers, system administrators, and digital creators. It brings artificial intelligence directly into your workflow to help analyze output, manage files, and automate repetitive tasks. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It also keeps remote server connections alive even if your internet drops out or your computer restarts.
+Wave Terminal is an open-source, modern command-line workspace built for developers, system administrators, and digital creators. It brings artificial intelligence directly into your workflow to help analyze output, manage files, and automate repetitive tasks. It also keeps remote server connections alive even if your internet drops out or your computer restarts.
 
 ### Who it's for
 - Developers and programmers managing multiple remote servers and cloud environments
@@ -54,7 +54,6 @@ Wave Terminal is an open-source, modern command-line workspace built for develop
 - **Durable Remote Sessions:** Remote connections automatically reconnect after network interruptions or computer restarts without losing your place.
 - **Built-in File Previews:** View markdown files, images, videos, spreadsheets, and directories inline without opening external programs.
 - **Flexible Workspace Layout:** Organize your screen with drag-and-drop terminal blocks, text editors, and web windows.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Choose your operating system below to download the latest installer directly:
@@ -65,9 +64,14 @@ Choose your operating system below to download the latest installer directly:
 - [Download for Linux (.AppImage)](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/waveterm-linux-x86_64-0.14.5.AppImage)
 - [Download for Linux (.deb)](https://github.com/wavetermdev/waveterm/releases/download/v0.14.5/waveterm-linux-amd64-0.14.5.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free and open-source, durable remote connections prevent lost work, flexible split-screen workspace organization.
 * **Cons:** Advanced features and layout customizations take a little time to master, requires your own keys for advanced cloud artificial intelligence models.
-[Official Source / Credits](https://github.com/wavetermdev/waveterm)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/wavetermdev/waveterm)

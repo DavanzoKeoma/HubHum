@@ -13,7 +13,7 @@ source_url: "https://github.com/Mortennn/Dozer"
 download_url: "https://github.com/Mortennn/Dozer/releases/download/v4.0.0/Dozer.4.0.0.dmg"
 downloadUrl: "https://github.com/Mortennn/Dozer/releases/download/v4.0.0/Dozer.4.0.0.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "MPL-2.0"
+license: "Open Source (MPL 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Dozer helps you tidy up your Mac screen by hiding unnecessary small pictures at the top right of your display. You simply place the shortcuts you rarely look at behind a special dot icon. Clicking that dot instantly reveals or hides them whenever you need a distraction-free view. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Dozer helps you tidy up your Mac screen by hiding unnecessary small pictures at the top right of your display. You simply place the shortcuts you rarely look at behind a special dot icon. Clicking that dot instantly reveals or hides them whenever you need a distraction-free view.
 
 ### Who it's for
 * Mac users who hate clutter and want a clean, minimalist top screen area.
@@ -54,10 +54,9 @@ Dozer helps you tidy up your Mac screen by hiding unnecessary small pictures at 
 * Set up two separate groups of hidden shortcuts for everyday and rare usage.
 * Minimal resource usage so your computer stays fast and responsive.
 * Easily rearrange or hide items by holding down a key and dragging them into place.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started, grab the official installer file directly to your computer. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, grab the official installer file directly to your computer.
 
 [Download for Mac (.dmg)](https://github.com/Mortennn/Dozer/releases/download/v4.0.0/Dozer.4.0.0.dmg)
 
@@ -65,4 +64,10 @@ To get started, grab the official installer file directly to your computer. Keep
 * **Pros:** Completely free to use, lightweight, and very simple to set up.
 * **Cons:** Only works on macOS operating systems.
 
-[Official Source / Credits](https://github.com/Mortennn/Dozer)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Mortennn/Dozer)

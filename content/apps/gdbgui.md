@@ -13,9 +13,9 @@ source_url: "https://github.com/cs01/gdbgui"
 download_url: "https://gdbgui.com"
 downloadUrl: "https://gdbgui.com"
 download_label: "Get Command-Line Tool →"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-gdbgui provides a clear, web-based graphical interface for inspecting how your software runs line by line. Instead of deciphering endless text lines in a traditional command window, you can click to set pause points, watch memory values change, and see your data structures visually. When you are editing software presentation materials or recording tutorials alongside your development work, you might also appreciate the media resources found on [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It supports popular languages like C, C++, Go, Rust, and Fortran to help developers troubleshoot faster and understand complex logic loops with ease.
+gdbgui provides a clear, web-based graphical interface for inspecting how your software runs line by line. Instead of deciphering endless text lines in a traditional command window, you can click to set pause points, watch memory values change, and see your data structures visually. It supports popular languages like C, C++, Go, Rust, and Fortran to help developers troubleshoot faster and understand complex logic loops with ease.
 
 ### Who it's for
 * Software developers and engineers who want a clear graphical view of their running program memory.
@@ -54,13 +54,18 @@ gdbgui provides a clear, web-based graphical interface for inspecting how your s
 * Easy point-and-click pause points and variable tracking without memorizing text commands.
 * Real-time stack inspection and memory layout visualization.
 * Support for multiple high-performance languages including C, C++, Go, Rust, and Fortran.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started with the official software, visit the [Official Website and Documentation](https://gdbgui.com). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started with the official software, visit the [Official Website and Documentation](https://gdbgui.com).
 
 ### Pros and Cons
 * **Pros:** Clean visual interface, saves hours of debugging time, works across multiple major programming languages.
 * **Cons:** Requires a basic understanding of software compilation and local command execution.
 
-[Official Source / Credits](https://github.com/cs01/gdbgui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/cs01/gdbgui)

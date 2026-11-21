@@ -13,7 +13,7 @@ source_url: "https://github.com/mpvnet-player/mpv.net"
 download_url: "https://github.com/mpvnet-player/mpv.net/releases/download/v7.1.2.0/mpv.net-v7.1.2.0-setup-x64.exe"
 downloadUrl: "https://github.com/mpvnet-player/mpv.net/releases/download/v7.1.2.0/mpv.net-v7.1.2.0-setup-x64.exe"
 download_label: "Download for Windows (.exe)"
-license: "GPL-2.0"
+license: "Open Source (GPL v2)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "MultimediaApplication"
@@ -44,7 +44,6 @@ i18n:
 ### What it does in plain English
 mpv.net lets you open any video, music file, or picture with a single click.  
 It shows the media in a clean window that you can customize with different colors.  
-When you need royalty‑free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
 
 ### Who it's for
 * Home viewers who want a simple, fast way to watch movies and TV shows.  
@@ -56,14 +55,18 @@ When you need royalty‑free stock footage, music tracks, and motion presets alo
 * Easy‑to‑use on‑screen controls that stay out of the way.  
 * Supports high‑quality picture scaling, colour management, and HDR for vivid playback.  
 * Plays almost any video, audio, or image format without extra codecs.  
-* Expand your creative library with commercial‑safe fonts, lower‑third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 * [Download for Windows (.exe)](https://github.com/mpvnet-player/mpv.net/releases/download/v7.1.2.0/mpv.net-v7.1.2.0-setup-x64.exe) – run the installer and follow the prompts.  
-* Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** free forever, no subscription, works with almost any media file, modern look.  
 * **Cons:** only available for Windows, advanced video‑tuning settings may need a short learning curve.
 
-[Official Source / Credits](https://github.com/mpvnet-player/mpv.net)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/mpvnet-player/mpv.net)

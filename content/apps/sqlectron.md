@@ -13,7 +13,7 @@ source_url: "https://github.com/sqlectron/sqlectron"
 download_url: "https://github.com/sqlectron/sqlectron/releases/download/v1.39.0/sqlectron-1.39.0.exe"
 downloadUrl: "https://github.com/sqlectron/sqlectron/releases/download/v1.39.0/sqlectron-1.39.0.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Sqlectron provides a straightforward window into your databases without the clutter of bulky enterprise software. It lets you write queries, view tables, and manage records across different server types from one single interface. When you need royalty-free stock footage, music tracks, and motion presets alongside your data projects, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Sqlectron provides a straightforward window into your databases without the clutter of bulky enterprise software. It lets you write queries, view tables, and manage records across different server types from one single interface.
 
 ### Who it's for
 * Web developers who frequently jump between different database systems.
@@ -53,7 +53,6 @@ Sqlectron provides a straightforward window into your databases without the clut
 * Connects smoothly to multiple popular database engines from a single desktop app.
 * Features a clean, distraction-free text editor for writing and testing queries.
 * Organizes saved servers and configurations neatly so you can switch environments instantly.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Choose the correct installer for your operating system from the official links below:
@@ -63,10 +62,14 @@ Choose the correct installer for your operating system from the official links b
 * [Download for Mac Intel (.dmg)](https://github.com/sqlectron/sqlectron/releases/download/v1.39.0/sqlectron-1.39.0.dmg)
 * [Download for Linux (.deb)](https://github.com/sqlectron/sqlectron/releases/download/v1.39.0/sqlectron_1.39.0_amd64.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open source, extremely lightweight on system resources, clean cross-platform interface.
 * **Cons:** Lacks advanced enterprise database administration tools, focused mainly on querying and basic management.
 
-[Official Source / Credits](https://github.com/sqlectron/sqlectron)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/sqlectron/sqlectron)

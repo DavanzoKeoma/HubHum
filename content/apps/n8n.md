@@ -5,17 +5,17 @@ tagline: "Automate everyday tasks with intelligent workflows."
 summary: "Connect your favorite online tools and artificial intelligence models to automate tedious tasks without writing complex code."
 tags: ["automation", "workflow", "ai", "integration"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/n8n.png"
 stars: 211468
 source_url: "https://github.com/n8n-io/n8n"
 download_url: "https://github.com/n8n-io/n8n/releases/download/n8n%402.48.6/sbom-source.cdx.json"
 downloadUrl: "https://github.com/n8n-io/n8n/releases/download/n8n%402.48.6/sbom-source.cdx.json"
-download_label: "Download (sbom-source.cdx.json)"
-license: "NOASSERTION"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-n8n is a visual platform that lets you connect different apps, databases, and artificial intelligence models together in one place. When something happens in one application, like receiving an email or filling out a form, it automatically triggers actions in other programs. You can build these connections visually by drawing lines between blocks, or write custom code when you need advanced logic. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+n8n is a visual platform that lets you connect different apps, databases, and artificial intelligence models together in one place. When something happens in one application, like receiving an email or filling out a form, it automatically triggers actions in other programs. You can build these connections visually by drawing lines between blocks, or write custom code when you need advanced logic.
 
 ### Who it's for
 - **Business Owners:** Small business leaders looking to eliminate manual data entry across multiple software subscriptions.
@@ -54,12 +54,18 @@ n8n is a visual platform that lets you connect different apps, databases, and ar
 - **Artificial Intelligence Ready:** Combine smart language models with your own data and tools to build multi-step conversational helpers.
 - **Massive Tool Library:** Connect with over 1,500 popular web services, software packages, and communication platforms right out of the box.
 - **Flexible Coding Options:** Add JavaScript or Python code blocks whenever you need deeper customization or data transformation.
-- Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can test the platform instantly in the cloud by visiting the [n8n Cloud Login Page](https://app.n8n.cloud/login). If you prefer running it locally on your own equipment, you can check out the official [n8n Documentation](https://docs.n8n.io) or download project metadata files like [Download (sbom-source.cdx.json)](https://github.com/n8n-io/n8n/releases/download/n8n%402.48.6/sbom-source.cdx.json). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can test the platform instantly in the cloud by visiting the [n8n Cloud Login Page](https://app.n8n.cloud/login). If you prefer running it locally on your own equipment, you can check out the official [n8n Documentation](https://docs.n8n.io) or download project metadata files like [Download (sbom-source.cdx.json)](https://github.com/n8n-io/n8n/releases/download/n8n%402.48.6/sbom-source.cdx.json). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Huge selection of built-in app integrations, powerful visual builder, flexible self-hosting options.
 * **Cons:** Advanced custom coding scenarios require technical knowledge, setting up local server infrastructure takes initial effort.
-[Official Source / Credits](https://github.com/n8n-io/n8n)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/n8n-io/n8n)

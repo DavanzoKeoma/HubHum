@@ -5,7 +5,7 @@ tagline: "Your private, AI-powered knowledge workspace."
 summary: "SiYuan is a secure, self-hosted tool for organizing your notes, documents, and ideas with powerful linking and AI assistance."
 tags: ["productivity", "privacy", "knowledge-management"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/siyuan.png"
 stars: 47300
@@ -13,9 +13,9 @@ source_url: "https://github.com/siyuan-note/siyuan"
 download_url: "https://github.com/siyuan-note/siyuan/releases/download/v3.8.11/siyuan-3.8.11-win-arm64.exe"
 downloadUrl: "https://github.com/siyuan-note/siyuan/releases/download/v3.8.11/siyuan-3.8.11-win-arm64.exe"
 download_label: "Download for Windows (.exe)"
-license: "AGPL-3.0"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-SiYuan provides a private, secure environment where you can write, store, and connect your thoughts using a flexible block-based system. It allows you to manage large amounts of information while keeping your data under your own control. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+SiYuan provides a private, secure environment where you can write, store, and connect your thoughts using a flexible block-based system. It allows you to manage large amounts of information while keeping your data under your own control.
 
 ### Who it's for
 * **Researchers and Students:** Perfect for those who need to link complex ideas, manage large document collections, and use spaced repetition for learning.
@@ -53,10 +53,9 @@ SiYuan provides a private, secure environment where you can write, store, and co
 * **Privacy-First:** Your data stays on your device or server, ensuring your notes remain truly yours.
 * **AI Integration:** Use built-in AI agents to help you write, summarize, and answer questions about your content.
 * **Versatile Formatting:** Supports advanced charts, mathematical formulas, and PDF annotations directly within your notes.
-* **Custom Organization:** Enhance your workspace with ready-to-use digital planners, printable checklists, and clean document templates via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can use SiYuan directly in your browser as a web application or download the desktop version for your operating system. Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can use SiYuan directly in your browser as a web application or download the desktop version for your operating system.
 
 * [Download for Windows (.exe)](https://github.com/siyuan-note/siyuan/releases/download/v3.8.11/siyuan-3.8.11-win.exe)
 * [Download for Mac (.dmg)](https://github.com/siyuan-note/siyuan/releases/download/v3.8.11/siyuan-3.8.11-mac.dmg)
@@ -67,4 +66,10 @@ You can use SiYuan directly in your browser as a web application or download the
 * **Pros:** Excellent privacy features, powerful block-based editing, and no reliance on third-party cloud storage for basic use.
 * **Cons:** The advanced features and self-hosting options may take a little time for non-technical users to fully master.
 
-[Official Source / Credits](https://github.com/siyuan-note/siyuan)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/siyuan-note/siyuan)

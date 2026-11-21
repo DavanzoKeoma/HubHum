@@ -13,7 +13,7 @@ source_url: "https://github.com/withfig/autocomplete"
 download_url: "https://fig.io"
 downloadUrl: "https://fig.io"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool brings modern, visual suggestion boxes right into your standard computer terminal. As you type commands, it instantly displays a helpful list of available options, descriptions, and arguments. It helps keep your workflow smooth and secure, especially when safeguarding sensitive server connections using [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This tool brings modern, visual suggestion boxes right into your standard computer terminal. As you type commands, it instantly displays a helpful list of available options, descriptions, and arguments.
 
 ### Who it's for
 * Software developers looking to write code and run tools faster without constantly checking documentation.
@@ -54,7 +54,6 @@ This tool brings modern, visual suggestion boxes right into your standard comput
 * **Extensive Library:** Comes pre-configured with support for hundreds of popular developer tools and utilities.
 * **Terminal Agnostic:** Works seamlessly across multiple popular terminal applications and code editors.
 * **Community Driven:** Powered by an open collection of custom autocomplete definitions that anyone can help improve.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can easily set up this tool on macOS by downloading the official installer or using package managers. 
@@ -62,10 +61,16 @@ You can easily set up this tool on macOS by downloading the official installer o
 - [Download Amazon Q for Command Line (macOS)](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-getting-started-installing.html)
 - Official site and documentation: [Visit Fig.io](https://fig.io)
 
-Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Dramatically speeds up everyday terminal tasks; supports a vast range of popular developer tools; integrates nicely into existing terminal setups.
 * **Cons:** Currently limited primarily to macOS environments; initial setup requires a few terminal permissions to function correctly.
 
-[Official Source / Credits](https://github.com/withfig/autocomplete)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/withfig/autocomplete)

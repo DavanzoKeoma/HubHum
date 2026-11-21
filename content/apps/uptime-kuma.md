@@ -5,17 +5,17 @@ tagline: "Track website and server uptime easily"
 summary: "An easy-to-use monitoring tool that tracks your websites and servers in real time, alerting you instantly if anything goes offline."
 tags: ["monitoring", "uptime", "cloud-app", "dashboard"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/uptime-kuma.png"
 stars: 94676
 source_url: "https://github.com/louislam/uptime-kuma"
 download_url: "https://uptime.kuma.pet"
 downloadUrl: "https://uptime.kuma.pet"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Uptime Kuma is a self-hosted dashboard that keeps a constant eye on your websites, servers, and online services. It checks whether your services are running smoothly and notifies you immediately through your favorite messaging apps if anything stops working. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Uptime Kuma is a self-hosted dashboard that keeps a constant eye on your websites, servers, and online services. It checks whether your services are running smoothly and notifies you immediately through your favorite messaging apps if anything stops working.
 
 ### Who it's for
 - Website owners and small business operators who need reliable uptime tracking without expensive monthly fees.
@@ -54,15 +54,20 @@ Uptime Kuma is a self-hosted dashboard that keeps a constant eye on your website
 - Features a responsive, modern interface with dark and light modes.
 - Sends instant alerts via Telegram, Discord, email, and over 90 different notification channels.
 - Provides public status pages that you can map to your own custom web addresses.
-- Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can explore a temporary preview before installing by visiting the [Uptime Kuma Live Demo](https://demo.kuma.pet/start-demo). 
 
-To run it yourself, you can use Docker or Node.js following the official instructions on the [Uptime Kuma GitHub official project page](https://github.com/louislam/uptime-kuma). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+To run it yourself, you can use Docker or Node.js following the official instructions on the [Uptime Kuma GitHub official project page](https://github.com/louislam/uptime-kuma). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, supports dozens of notification styles, and features a clean, responsive dashboard.
 * **Cons:** Requires hosting it yourself on a server or container environment rather than working as a turnkey cloud service out of the box.
 
-[Official Source / Credits](https://github.com/louislam/uptime-kuma)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/louislam/uptime-kuma)

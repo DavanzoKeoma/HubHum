@@ -13,9 +13,9 @@ source_url: "https://github.com/Twigpine/openclaude"
 download_url: "https://openclaude.twigpine.com"
 downloadUrl: "https://openclaude.twigpine.com"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-OpenClaude acts as an intelligent partner that lives inside your computer's terminal to help you write and debug code. It connects to a wide variety of AI services, allowing you to choose the model that works best for your specific needs. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+OpenClaude acts as an intelligent partner that lives inside your computer's terminal to help you write and debug code. It connects to a wide variety of AI services, allowing you to choose the model that works best for your specific needs.
 
 ### Who it's for
 * **Software Developers:** Professionals looking to streamline their coding workflow and automate repetitive tasks.
@@ -52,17 +52,22 @@ OpenClaude acts as an intelligent partner that lives inside your computer's term
 * **Unified Workflow:** Manage all your AI coding tasks in one place without switching between different websites or tools.
 * **Flexible Connections:** Supports a massive range of AI providers, including local models and cloud-based services.
 * **Interactive Buddy:** Enjoy a pixel-art companion that reacts to your work and adds a bit of personality to your terminal.
-* **SEO Growth:** Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 OpenClaude is installed via the Node.js package manager. Ensure you have Node.js installed, then run the following command in your terminal:
 
 `npm install -g @twigpine/openclaude@latest`
 
-If you are using a Linux system like Arch, you can also install it via the AUR: `paru -S openclaude`. Once your code is ready for the world, run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+If you are using a Linux system like Arch, you can also install it via the AUR: `paru -S openclaude`.
 
 ### Pros and Cons
 * **Pros:** Highly customizable, supports local and cloud models, and features a unique, fun interface.
 * **Cons:** Requires basic familiarity with terminal commands and Node.js to set up.
 
-[Official Source / Credits](https://github.com/Twigpine/openclaude)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Twigpine/openclaude)

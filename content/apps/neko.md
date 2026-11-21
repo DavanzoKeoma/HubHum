@@ -5,17 +5,17 @@ tagline: "Stream a secure virtual browser together."
 summary: "Run a private browser inside a secure container and stream it in real time to friends, family, or colleagues anywhere."
 tags: ["virtual-browser", "cloud-app", "collaboration", "privacy"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/neko.png"
 stars: 22701
 source_url: "https://github.com/m1k1o/neko"
 download_url: "https://neko.m1k1o.net/"
 downloadUrl: "https://neko.m1k1o.net/"
-download_label: "Open in Cloud →"
-license: "Apache-2.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Neko lets you run a completely isolated web browser inside a secure software container and stream its screen and audio directly to your web browser. Multiple people can join the same session at the same time, seeing the exact same screen and taking turns controlling the mouse and keyboard. It is a fantastic way to watch videos together, collaborate on tasks, or browse the internet privately without leaving any personal traces on your own machine. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Neko lets you run a completely isolated web browser inside a secure software container and stream its screen and audio directly to your web browser. Multiple people can join the same session at the same time, seeing the exact same screen and taking turns controlling the mouse and keyboard. It is a fantastic way to watch videos together, collaborate on tasks, or browse the internet privately without leaving any personal traces on your own machine.
 
 ### Who it's for
 * Friends who want to host online watch parties and view videos together in perfect sync from different locations.
@@ -54,12 +54,18 @@ Neko lets you run a completely isolated web browser inside a secure software con
 * **Built-In Audio & Smooth Video:** Leverages modern streaming technology to deliver crisp visuals and synchronized sound without lag.
 * **Wide Choice of Apps:** Supports popular web browsers like Firefox, Chrome, and Tor, plus full desktop environments and media tools.
 * **Complete Isolation:** Keeps your personal device safe from malicious downloads and cookies by running everything inside a container.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-Neko is designed to be hosted on your own server or cloud space. You can open and test it instantly in the cloud, or set up your own private instance using the official guides. For full instructions, configuration options, and docker images, visit the [Official Website and Documentation](https://neko.m1k1o.net/). Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Neko is designed to be hosted on your own server or cloud space. You can open and test it instantly in the cloud, or set up your own private instance using the official guides. For full instructions, configuration options, and docker images, visit the [Official Website and Documentation](https://neko.m1k1o.net/).
 
 ### Pros and Cons
 * **Pros:** Free and open-source, supports multi-user interaction, high-quality audio and video streaming.
 * **Cons:** Requires basic technical knowledge to set up and run on a server or cloud provider.
-[Official Source / Credits](https://github.com/m1k1o/neko)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/m1k1o/neko)

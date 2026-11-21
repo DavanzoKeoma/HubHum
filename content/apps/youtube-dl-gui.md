@@ -13,7 +13,7 @@ source_url: "https://github.com/MrS0m30n3/youtube-dl-gui"
 download_url: "https://github.com/MrS0m30n3/youtube-dl-gui/releases"
 downloadUrl: "https://github.com/MrS0m30n3/youtube-dl-gui/releases"
 download_label: "Visit Official Site"
-license: "Unlicense"
+license: "Public Domain / Free"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, Linux"
 applicationCategory: "MultimediaApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This application gives you a friendly visual screen to manage your online video downloads without ever touching a command prompt. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). You simply paste your web links into the program, pick your preferred quality settings, and let it fetch your files in the background. It handles the heavy lifting so you can organize and enjoy your favorite online clips offline.
+This application gives you a friendly visual screen to manage your online video downloads without ever touching a command prompt. You simply paste your web links into the program, pick your preferred quality settings, and let it fetch your files in the background. It handles the heavy lifting so you can organize and enjoy your favorite online clips offline.
 
 ### Who it's for
 * Everyday internet users who want a reliable way to save educational lectures, music videos, or personal clips without dealing with confusing tech tools.
@@ -52,7 +52,6 @@ This application gives you a friendly visual screen to manage your online video 
 ### Key features
 * Clean, window-based control panel that replaces intimidating text-based downloading tools.
 * Support for downloading video and audio from hundreds of popular online hosting platforms.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Batch processing options to queue up multiple downloads and run them all at once.
 * Quality selection menus letting you choose exact resolutions or extract audio tracks independently.
 
@@ -62,10 +61,14 @@ To get started on your computer, choose the installation package that matches yo
 * [Windows Portable](https://github.com/MrS0m30n3/youtube-dl-gui/releases/download/0.4/youtube-dl-gui-0.4-win-portable.zip)
 * [Official Releases Page](https://github.com/MrS0m30n3/youtube-dl-gui/releases)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free to use, highly reliable, and removes the need for command-line knowledge.
 * **Cons:** Requires external helper tools like FFmpeg for advanced file conversions and post-processing features.
 
-[Official Source / Credits](https://github.com/MrS0m30n3/youtube-dl-gui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/MrS0m30n3/youtube-dl-gui)

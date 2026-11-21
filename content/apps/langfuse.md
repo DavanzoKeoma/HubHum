@@ -5,17 +5,17 @@ tagline: "Open-source platform for AI app observability"
 summary: "Langfuse is an open-source engineering platform that helps you trace, evaluate, and monitor AI applications and virtual agents."
 tags: ["ai", "observability", "analytics", "developer-tools"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/langfuse.png"
 stars: 37654
 source_url: "https://github.com/langfuse/langfuse"
 download_url: "https://langfuse.com"
 downloadUrl: "https://langfuse.com"
-download_label: "Visit Official Site"
-license: "NOASSERTION"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Langfuse is an open-source platform designed to track, inspect, and debug every single call your artificial intelligence models and virtual agents make. It collects performance data, monitors costs, and lets teams run evaluations to improve prompt accuracy over time. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Langfuse is an open-source platform designed to track, inspect, and debug every single call your artificial intelligence models and virtual agents make. It collects performance data, monitors costs, and lets teams run evaluations to improve prompt accuracy over time.
 
 ### Who it's for
 * Software engineers building production-grade applications powered by language models and automated agents.
@@ -54,10 +54,9 @@ Langfuse is an open-source platform designed to track, inspect, and debug every 
 * Centralized prompt management with robust version control and server-side caching.
 * Built-in evaluation tools supporting custom test datasets, code checks, and automated scoring.
 * Unified AI Gateway endpoint to manage provider credentials and monitor spending across users.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can get started instantly by creating an account on the managed platform or running the service on your own infrastructure. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can get started instantly by creating an account on the managed platform or running the service on your own infrastructure. Prefer not to manage servers by hand?
 
 * [Access Langfuse Cloud](https://cloud.langfuse.com)
 * [Read Self-Hosting Guide](https://langfuse.com/self-hosting)
@@ -67,4 +66,10 @@ You can get started instantly by creating an account on the managed platform or 
 * **Pros:** Generous managed cloud tier, active open-source community, and extensive integrations with major development software foundation.
 * **Cons:** Requires initial code instrumentation in your application codebase to capture logs and trace metrics.
 
-[Official Source / Credits](https://github.com/langfuse/langfuse)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/langfuse/langfuse)

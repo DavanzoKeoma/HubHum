@@ -13,7 +13,7 @@ source_url: "https://github.com/zauberzeug/nicegui"
 download_url: "https://nicegui.io"
 downloadUrl: "https://nicegui.io"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-NiceGUI lets you build custom web-based graphical interfaces, dashboards, and control panels using only the Python programming language. Instead of writing complicated web code, you simply write Python functions to add buttons, sliders, text boxes, and charts that appear right inside your web browser. It automatically updates the screen whenever your code changes, making it effortless to test ideas, build micro tools, or control hardware projects. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+NiceGUI lets you build custom web-based graphical interfaces, dashboards, and control panels using only the Python programming language. Instead of writing complicated web code, you simply write Python functions to add buttons, sliders, text boxes, and charts that appear right inside your web browser. It automatically updates the screen whenever your code changes, making it effortless to test ideas, build micro tools, or control hardware projects.
 
 ### Who it's for
 * **Python Developers:** Programmers who want to quickly attach a graphical window or browser interface to their scripts without dealing with HTML or JavaScript.
@@ -54,7 +54,6 @@ NiceGUI lets you build custom web-based graphical interfaces, dashboards, and co
 * **Instant Live Reload:** Automatically refreshes the browser view the moment you save changes to your code files.
 * **Rich Element Library:** Includes standard buttons, text inputs, sliders, audio/video embeds, 3D scenes, charts, and interactive maps.
 * **Data Binding:** Effortlessly connect your interface elements directly to variables so values update seamlessly in real time.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can install NiceGUI easily using your terminal command line. Open your terminal and run:
@@ -69,10 +68,16 @@ Alternatively, if you use modern Python package managers, you can add it via [uv
 uv add nicegui
 ```
 
-You can also run it via Docker or download source files from [Official Website](https://nicegui.io). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can also run it via Docker or download source files from [Official Website](https://nicegui.io). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Free and open source, uses pure Python, includes instant live-reload during development, highly versatile for dashboards and tools.
 * **Cons:** Requires basic knowledge of running Python scripts, advanced custom visual styling may require minor CSS understanding.
 
-[Official Source / Credits](https://github.com/zauberzeug/nicegui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/zauberzeug/nicegui)

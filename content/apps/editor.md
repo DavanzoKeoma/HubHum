@@ -3,7 +3,7 @@ title: "Pascal Editor"
 slug: "editor"
 tagline: "Open-source 3D architecture and building editor"
 summary: "Create, edit, and collaborate on 3D building models directly in your browser or locally with advanced AI agent support."
-tags: ["3d", "architecture", "bim", "mcp"]
+tags: ["3d", "architecture", "bim", "automation"]
 is_webapp: false
 app_type: "desktop"
 category: "Productivity"
@@ -13,9 +13,9 @@ source_url: "https://github.com/pascalorg/editor"
 download_url: "https://github.com/pascalorg/editor/releases/download/%40pascal-app/cli%401.1.6/pascal-web-runtime-1.1.6.tar.gz.sha256"
 downloadUrl: "https://github.com/pascalorg/editor/releases/download/%40pascal-app/cli%401.1.6/pascal-web-runtime-1.1.6.tar.gz.sha256"
 download_label: "Download (pascal-web-runtime-1.1.6.tar.gz.sha256)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Pascal Editor is a modern, open-source tool designed for creating and editing 3D building models right inside your web browser or on your local machine. It allows architecture, engineering, and construction professionals to design rooms, walls, roofs, and furniture with ease. When working on extensive architectural blueprints and multimedia walkthroughs, you can also explore royalty-free stock footage, music tracks, and motion presets with [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). Furthermore, it connects with smart AI assistants so you can seamlessly inspect, validate, and update your design scenes using simple conversational commands.
+Pascal Editor is a modern, open-source tool designed for creating and editing 3D building models right inside your web browser or on your local machine. It allows architecture, engineering, and construction professionals to design rooms, walls, roofs, and furniture with ease. Furthermore, it connects with smart AI assistants so you can seamlessly inspect, validate, and update your design scenes using simple conversational commands.
 
 ### Who it's for
 * **Architects and Designers:** Professionals looking for a browser-first or local-first 3D modeling environment to sketch sites, buildings, and interiors.
@@ -54,10 +54,9 @@ Pascal Editor is a modern, open-source tool designed for creating and editing 3D
 * **Scan-to-BIM Workflow:** Import 3D scan data as reference layers and construct editable building elements directly on top of them.
 * **AI Agent Integration:** Connect assistant software through an open protocol to let automation read, edit, validate, and save your building scenes automatically.
 * **Modular Plugin Architecture:** Extend functionality easily by loading custom node kinds, rendering tools, and side panels.
-* **Creative Asset Integration:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can set up the command-line interface tool or manage your downloads securely. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can set up the command-line interface tool or manage your downloads securely.
 
 - Run locally using Node.js: `npx @pascal-app/cli editor`
 - Global installation via npm: `npm install --global @pascal-app/cli`
@@ -66,4 +65,11 @@ You can set up the command-line interface tool or manage your downloads securely
 ### Pros and Cons
 * **Pros:** Free and open-source under the MIT license, highly customizable with plugins, and includes native AI agent support.
 * **Cons:** Requires a modern browser with WebGPU support and some technical familiarity with command-line tools for local configuration.
-[Official Source / Credits](https://github.com/pascalorg/editor)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/pascalorg/editor)

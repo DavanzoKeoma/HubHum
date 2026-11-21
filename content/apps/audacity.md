@@ -13,9 +13,9 @@ source_url: "https://github.com/audacity/audacity"
 download_url: "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi"
 downloadUrl: "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi"
 download_label: "Download for Windows (.msi)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Audacity lets you record your voice, instruments, or computer audio directly on your laptop with studio-grade clarity. Once recorded, you can cut out mistakes, clean up background hum, layer music behind speech, and export crisp audio files. If you need royalty-free sound effects or intro tracks to mix beneath your voiceovers, explore [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It works completely free with no subscriptions or hidden limits across Windows, Mac, and Linux.
+Audacity lets you record your voice, instruments, or computer audio directly on your laptop with studio-grade clarity. Once recorded, you can cut out mistakes, clean up background hum, layer music behind speech, and export crisp audio files. It works completely free with no subscriptions or hidden limits across Windows, Mac, and Linux.
 
 ### Who it's for
 * Podcasters and narrators producing clear episodes or audiobooks from home.
@@ -54,7 +54,6 @@ Audacity lets you record your voice, instruments, or computer audio directly on 
 * Trim pauses, split clips, and arrange multiple voice and music tracks side by side.
 * Apply noise reduction, equalization, reverb, and volume leveling effortlessly.
 * Export finished projects into everyday formats such as MP3, WAV, FLAC, and OGG.
-* Pair your podcast covers and show thumbnails with assets from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Choose the official installer for your device:
@@ -64,10 +63,14 @@ Choose the official installer for your device:
 * [Download for Mac Intel (.dmg)](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-x86_64.dmg)
 * [Download for Linux (.AppImage)](https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-x86_64.AppImage)
 
-Keep large installer downloads and finished episode uploads shielded on public Wi-Fi with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free, cross-platform, and trusted by millions of podcasters and educators.
 * **Cons:** Advanced audio filters take a little practice to master.
 
-[Official Source / Credits](https://github.com/audacity/audacity)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/audacity/audacity)

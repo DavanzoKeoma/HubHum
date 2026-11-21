@@ -13,9 +13,9 @@ source_url: "https://github.com/spf13/cobra"
 download_url: "https://cobra.dev"
 downloadUrl: "https://cobra.dev"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Cobra provides a structured way to build software that users control by typing specific commands into their computer. It handles the complex logic of understanding what a user wants to do, such as "save," "upload," or "delete," and ensures the program responds correctly. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Cobra provides a structured way to build software that users control by typing specific commands into their computer. It handles the complex logic of understanding what a user wants to do, such as "save," "upload," or "delete," and ensures the program responds correctly.
 
 ### Who it's for
 * Software developers who want to create professional-grade tools for other users.
@@ -52,13 +52,18 @@ Cobra provides a structured way to build software that users control by typing s
 * **Intuitive Commands:** Create programs that read like natural sentences, making them easy for anyone to learn and use.
 * **Smart Suggestions:** If a user makes a typo, the software can suggest the correct command automatically.
 * **Automatic Help:** It generates help menus and documentation for your users without you having to write them from scratch.
-* **Creative Assets:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Cobra is a library used by developers to build their own applications. To get started, you can visit the [Official Cobra Website](https://cobra.dev) for full documentation. To install the generator tool that helps you build your first project, follow the instructions provided in the [Cobra CLI official project page](https://github.com/spf13/cobra-cli). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Cobra is a library used by developers to build their own applications. To get started, you can visit the [Official Cobra Website](https://cobra.dev) for full documentation. To install the generator tool that helps you build your first project, follow the instructions provided in the [Cobra CLI official project page](https://github.com/spf13/cobra-cli).
 
 ### Pros and Cons
 * **Pros:** Extremely reliable and used by major industry projects; handles complex command structures automatically; includes built-in help and autocomplete features.
 * **Cons:** Requires basic knowledge of the Go programming language; intended for developers rather than casual computer users.
 
-[Official Source / Credits](https://github.com/spf13/cobra)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/spf13/cobra)

@@ -5,17 +5,17 @@ tagline: "Your own private cloud management platform."
 summary: "Coolify lets you host and manage your own websites, databases, and apps on any server without needing expensive commercial platforms."
 tags: ["hosting", "server-management", "cloud-app"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/coolify.png"
 stars: 66285
 source_url: "https://github.com/coollabsio/coolify"
 download_url: "https://coolify.io"
 downloadUrl: "https://coolify.io"
-download_label: "Visit Official Site"
-license: "Apache-2.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Coolify turns any computer or server you own into a powerful, automated home for your websites and digital services. It handles the complex setup of your software so you can focus on building instead of managing technical infrastructure. Always remember to secure your remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Coolify turns any computer or server you own into a powerful, automated home for your websites and digital services. It handles the complex setup of your software so you can focus on building instead of managing technical infrastructure.
 
 ### Who it's for
 *   **Independent Developers:** People who want to host their own projects without paying monthly fees to big cloud companies.
@@ -52,10 +52,9 @@ Coolify turns any computer or server you own into a powerful, automated home for
 *   **One-Click Setup:** Easily launch hundreds of different services, databases, and applications with a single click.
 *   **Automatic Security:** Keeps your sites safe with automatic web security certificates and isolated network settings.
 *   **Real-Time Monitoring:** Watch your server's health, memory usage, and performance through a clean, visual dashboard.
-*   **SEO Optimization:** Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can install Coolify on your own server (such as a VPS or home computer) by running the official installation script provided on their website. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can install Coolify on your own server (such as a VPS or home computer) by running the official installation script provided on their website. Prefer not to manage servers by hand?
 
 [Get started at the official website](https://coolify.io)
 
@@ -63,4 +62,10 @@ You can install Coolify on your own server (such as a VPS or home computer) by r
 * **Pros:** Completely free and open-source, gives you full control over your data, and works on any server with an internet connection.
 * **Cons:** Requires basic knowledge of how to connect to a server, and you are responsible for the physical or virtual hardware you choose to use.
 
-[Official Source / Credits](https://github.com/coollabsio/coolify)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/coollabsio/coolify)

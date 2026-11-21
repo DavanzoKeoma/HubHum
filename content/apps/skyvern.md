@@ -5,17 +5,17 @@ tagline: "Automate browser web workflows with AI"
 summary: "Skyvern uses artificial intelligence and vision to navigate websites, fill out forms, and automate repetitive tasks reliably without breaking when."
 tags: ["automation", "artificial-intelligence", "browser", "workflows"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/skyvern.png"
 stars: 23477
 source_url: "https://github.com/Skyvern-AI/skyvern"
 download_url: "https://www.skyvern.com"
 downloadUrl: "https://www.skyvern.com"
-download_label: "Get Command-Line Tool →"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Skyvern helps you automate everyday tasks inside web browsers using visual artificial intelligence instead of rigid computer code. Whenever a website changes its layout or design, the system adapts instantly so your automated workflows never break. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad). You can instruct the software using simple everyday language to handle form filling, data gathering, or file downloading automatically.
+Skyvern helps you automate everyday tasks inside web browsers using visual artificial intelligence instead of rigid computer code. Whenever a website changes its layout or design, the system adapts instantly so your automated workflows never break. You can instruct the software using simple everyday language to handle form filling, data gathering, or file downloading automatically.
 
 ### Who it's for
 * Business professionals looking to eliminate manual data entry across multiple different web portals.
@@ -53,11 +53,10 @@ Skyvern helps you automate everyday tasks inside web browsers using visual artif
 * Uses advanced computer vision to understand and click buttons on websites it has never seen before.
 * Handles secure login procedures, password managers, and multi-factor authentication steps seamlessly.
 * Extracts clean structured data and downloads documents directly into your secure storage.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 * Chains multiple actions together into multi-step workflows with loop controls and email notifications.
 
 ### How to install (Download)
-To run Skyvern locally using Python, install the server package via your terminal or explore managed cloud options. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+To run Skyvern locally using Python, install the server package via your terminal or explore managed cloud options.
 
 * Visit the [Official Skyvern Website](https://www.skyvern.com)
 * Access the [Skyvern Cloud Dashboard](https://app.skyvern.com)
@@ -66,4 +65,10 @@ To run Skyvern locally using Python, install the server package via your termina
 * **Pros:** Highly resistant to website design changes, supports natural language prompts, and integrates with major automation platforms.
 * **Cons:** Requires a compatible LLM API key and consumes moderate system resources during heavy multi-step agent runs.
 
-[Official Source / Credits](https://github.com/Skyvern-AI/skyvern)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Skyvern-AI/skyvern)

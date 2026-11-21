@@ -13,9 +13,9 @@ source_url: "https://github.com/beeware/toga"
 download_url: "https://github.com/beeware/toga/releases/download/v0.5.7/toga-0.5.7-py3-none-any.whl"
 downloadUrl: "https://github.com/beeware/toga/releases/download/v0.5.7/toga-0.5.7-py3-none-any.whl"
 download_label: "Download (toga-0.5.7-py3-none-any.whl)"
-license: "BSD-3-Clause"
+license: "Open Source (BSD)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Toga is a helpful software library that allows programmers to design application windows, buttons, and menus that look and feel completely natural on your specific computer or mobile device. Instead of learning multiple complex systems, developers can write their software once in Python and have it blend right into the user's operating system. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Toga is a helpful software library that allows programmers to design application windows, buttons, and menus that look and feel completely natural on your specific computer or mobile device. Instead of learning multiple complex systems, developers can write their software once in Python and have it blend right into the user's operating system.
 
 ### Who it's for
 * Python developers who want to share their software with friends and clients via normal graphical windows.
@@ -53,10 +53,9 @@ Toga is a helpful software library that allows programmers to design application
 * Writes user interfaces that automatically match the native look of Windows, macOS, Linux, and mobile platforms.
 * Relies on the popular and easy-to-learn Python language to handle user clicks and inputs.
 * Keeps software packages clean and modular so your final programs stay fast and responsive.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can grab the core installation files directly from the release assets below to add this toolkit to your development environment. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can grab the core installation files directly from the release assets below to add this toolkit to your development environment.
 
 * [Download (toga-0.5.7-py3-none-any.whl)](https://github.com/beeware/toga/releases/download/v0.5.7/toga-0.5.7-py3-none-any.whl)
 * [Download (toga_android-0.5.7-py3-none-any.whl)](https://github.com/beeware/toga/releases/download/v0.5.7/toga_android-0.5.7-py3-none-any.whl)
@@ -71,4 +70,10 @@ You can grab the core installation files directly from the release assets below 
 * **Pros:** Free and open source, writes true native controls, supported by an active developer community.
 * **Cons:** Still growing and adding support for advanced platform-specific features, requires basic knowledge of the Python language.
 
-[Official Source / Credits](https://github.com/beeware/toga)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/beeware/toga)

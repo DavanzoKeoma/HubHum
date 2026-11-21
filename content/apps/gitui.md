@@ -13,7 +13,7 @@ source_url: "https://github.com/gitui-org/gitui"
 download_url: "https://github.com/gitui-org/gitui/releases/download/v0.28.1/gitui-win.msi"
 downloadUrl: "https://github.com/gitui-org/gitui/releases/download/v0.28.1/gitui-win.msi"
 download_label: "Download for Windows (.msi)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-GitUI brings the comfort and visual clarity of a full code manager directly into your command-line terminal window. It lets you inspect, stage, update, and stash changes using only your keyboard without ever slowing down. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+GitUI brings the comfort and visual clarity of a full code manager directly into your command-line terminal window. It lets you inspect, stage, update, and stash changes using only your keyboard without ever slowing down.
 
 ### Who it's for
 * Software developers who spend their entire day working inside the command-line terminal.
@@ -54,16 +54,20 @@ GitUI brings the comfort and visual clarity of a full code manager directly into
 * Intuitive keyboard-only controls with context-based help so you never have to memorize confusing shortcuts.
 * Fine-grained control to stage, unstage, revert, and reset individual lines or entire file hunks.
 * Complete stashing capabilities to save, pop, apply, drop, and inspect your temporary code changes.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can grab the official setup package below to get started on your computer:
 * [Download for Windows (.msi)](https://github.com/gitui-org/gitui/releases/download/v0.28.1/gitui-win.msi)
 * Alternatively, check your operating system's package manager or command-line package installer (such as Homebrew, MacPorts, Winget, or Pacman) to install it instantly.
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** Blazing fast performance on huge project pages, lightweight resource usage, completely free and open source.
 * **Cons:** Advanced features like interactive rebase are still in development, and certain shell credentials need manual setup.
 
-[Official Source / Credits](https://github.com/gitui-org/gitui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/gitui-org/gitui)

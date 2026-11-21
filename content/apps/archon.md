@@ -13,7 +13,7 @@ source_url: "https://github.com/coleam00/Archon"
 download_url: "https://github.com/coleam00/Archon/releases/download/v0.14.0/archon-chat-slack-windows-x64.exe"
 downloadUrl: "https://github.com/coleam00/Archon/releases/download/v0.14.0/archon-chat-slack-windows-x64.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Archon solves the problem of inconsistent results when asking AI to write code by turning your specific development steps into a fixed, repeatable recipe. It runs these recipes automatically, handling the coding, testing, and reviewing steps without you needing to supervise every single action. You only step in when the system reaches a decision point that requires your specific approval or input. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Archon solves the problem of inconsistent results when asking AI to write code by turning your specific development steps into a fixed, repeatable recipe. It runs these recipes automatically, handling the coding, testing, and reviewing steps without you needing to supervise every single action. You only step in when the system reaches a decision point that requires your specific approval or input.
 
 ### Who it's for
 * **Developers** who want to standardize their coding process so that every bug fix or new feature follows the same quality checks.
@@ -54,7 +54,6 @@ Archon solves the problem of inconsistent results when asking AI to write code b
 * **Human-in-the-Loop:** The system pauses and asks for your approval only when it encounters a decision it cannot make on its own.
 * **Multi-Agent Support:** Works with various AI coding assistants, allowing you to use the tools and subscriptions you already have.
 * **Self-Hosted Control:** Runs on your own computer or server, keeping your code and data private and under your management.
-* **Creative Assets:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Archon is primarily installed via a command-line installer for macOS and Linux, or through Homebrew. For Windows users, you can download the specific components directly from the latest release.
@@ -63,10 +62,14 @@ Archon is primarily installed via a command-line installer for macOS and Linux, 
 * [Download for Windows (.exe)](https://github.com/coleam00/Archon/releases/download/v0.14.0/archon-server-windows-x64.exe)
 * [Download for Windows (.exe)](https://github.com/coleam00/Archon/releases/download/v0.14.0/archon-chat-slack-windows-x64.exe)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open-source, runs locally for privacy, ensures consistent code quality, and reduces manual supervision.
 * **Cons:** Requires some technical knowledge to set up and write the initial workflow definitions, and it depends on external AI coding subscriptions.
 
-[Official Source / Credits](https://github.com/coleam00/Archon)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/coleam00/Archon)

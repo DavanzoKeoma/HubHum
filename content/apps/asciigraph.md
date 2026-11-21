@@ -13,9 +13,9 @@ source_url: "https://github.com/guptarohit/asciigraph"
 download_url: "https://github.com/guptarohit/asciigraph/releases/download/v0.10.0/asciigraph_0.10.0_sha512-checksums.txt"
 downloadUrl: "https://github.com/guptarohit/asciigraph/releases/download/v0.10.0/asciigraph_0.10.0_sha512-checksums.txt"
 download_label: "Get Command-Line Tool →"
-license: "BSD-3-Clause"
+license: "Open Source (BSD)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Asciigraph generates simple, text-based line graphs using standard characters. It works seamlessly inside text-only environments to help you visualize trends without needing heavy web browsers or complex graphical software. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Asciigraph generates simple, text-based line graphs using standard characters. It works seamlessly inside text-only environments to help you visualize trends without needing heavy web browsers or complex graphical software.
 
 ### Who it's for
 * Software developers monitoring live server metrics or performance data.
@@ -54,16 +54,19 @@ Asciigraph generates simple, text-based line graphs using standard characters. I
 * Customize Y-axis formatting for readable units like bytes, percentages, or durations.
 * Highlight critical spikes or drops using custom color thresholds and gradients.
 * Support for real-time data streams fed directly from standard input.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can grab the checksum verification files directly from the official release page:
 * [Download (asciigraph_0.10.0_sha512-checksums.txt)](https://github.com/guptarohit/asciigraph/releases/download/v0.10.0/asciigraph_0.10.0_sha512-checksums.txt)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely lightweight with zero external dependencies, highly customizable formatting, perfect for scripts and terminal tools.
 * **Cons:** Limited to text-based environments and character resolutions, not suitable for highly detailed scientific plotting.
 
-[Official Source / Credits](https://github.com/guptarohit/asciigraph)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/guptarohit/asciigraph)

@@ -13,9 +13,9 @@ source_url: "https://github.com/millsp/ts-toolbelt"
 download_url: "https://millsp.github.io/ts-toolbelt/"
 downloadUrl: "https://millsp.github.io/ts-toolbelt/"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-ts-toolbelt provides a massive collection of helpful helpers that make defining rules for your data structures simple and straightforward. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It hides all the complicated mathematical checks behind clean, readable names so you can focus on building your application.
+ts-toolbelt provides a massive collection of helpful helpers that make defining rules for your data structures simple and straightforward. It hides all the complicated mathematical checks behind clean, readable names so you can focus on building your application.
 
 ### Who it's for
 * Software developers looking to write safer, cleaner, and more robust code without headaches.
@@ -52,13 +52,18 @@ ts-toolbelt provides a massive collection of helpful helpers that make defining 
 * Over 200 carefully crafted type helpers for everyday programming tasks.
 * Fully compatible with standard development tools and strict checking modes.
 * Simplifies advanced modifications of objects, lists, functions, and text items.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can explore the [Official Documentation and Guides](https://millsp.github.io/ts-toolbelt/) to learn how to add these helpers to your workspace. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can explore the [Official Documentation and Guides](https://millsp.github.io/ts-toolbelt/) to learn how to add these helpers to your workspace.
 
 ### Pros and Cons
 * **Pros:** Huge collection of reliable tools, completely free and open source, greatly improves code safety.
 * **Cons:** Requires a solid foundational understanding of the underlying programming language.
 
-[Official Source / Credits](https://github.com/millsp/ts-toolbelt)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/millsp/ts-toolbelt)

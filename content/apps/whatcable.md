@@ -13,7 +13,7 @@ source_url: "https://github.com/darrylmorley/whatcable"
 download_url: "https://whatcable.uk"
 downloadUrl: "https://whatcable.uk"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-USB-C connectors look identical on the outside, but their hidden speeds and power capacities vary wildly inside your drawer. This app translates technical hardware data into plain English right from your menu bar. When you plug in devices or chargers, it instantly diagnoses bottlenecks, charging speeds, and data limitations. While optimizing your workstation peripherals, if you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+USB-C connectors look identical on the outside, but their hidden speeds and power capacities vary wildly inside your drawer. This app translates technical hardware data into plain English right from your menu bar. When you plug in devices or chargers, it instantly diagnoses bottlenecks, charging speeds, and data limitations.
 
 ### Who it's for
 - Mac owners tired of guessing whether a random cable supports fast charging or high-speed data transfers.
@@ -53,15 +53,19 @@ USB-C connectors look identical on the outside, but their hidden speeds and powe
 - **Charging diagnostics:** Clearly identifies why your Mac might be charging slowly due to mismatched cable ratings or power limits.
 - **Hardware trust signals:** Automatically checks e-marker chips and vendor data against known USB-IF certifications.
 - **Detailed device trees:** Maps out complex chains of connected hubs, displays, and external accessories in an organized view.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 To get started, visit the official website or grab the installer directly:
 - [Official Website and Overview](https://whatcable.uk)
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** Open-source core, clear plain-English diagnostics, helpful menu bar popover, works without special terminal commands.
 * **Cons:** Requires macOS 14 or later on Apple Silicon Macs, as older Intel hardware lacks the necessary internal port telemetry.
 
-[Official Source / Credits](https://github.com/darrylmorley/whatcable)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/darrylmorley/whatcable)

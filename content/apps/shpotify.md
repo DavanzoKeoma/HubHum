@@ -13,7 +13,7 @@ source_url: "https://github.com/hnarayanan/shpotify"
 download_url: "https://harishnarayanan.org/projects/"
 downloadUrl: "https://harishnarayanan.org/projects/"
 download_label: "Get Command-Line Tool →"
-license: "Open Source"
+license: "Open Source License"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "MultimediaApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-shpotify lets you control your desktop music player using straightforward commands typed into your computer's terminal. You can search for specific tracks, albums, or artists, pause or resume playback, and change the volume level instantly. While enjoying your favorite background tunes, you can pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+shpotify lets you control your desktop music player using straightforward commands typed into your computer's terminal. You can search for specific tracks, albums, or artists, pause or resume playback, and change the volume level instantly.
 
 ### Who it's for
 * Keyboard power users who prefer managing applications via quick text commands instead of pointing and clicking.
@@ -53,12 +53,18 @@ shpotify lets you control your desktop music player using straightforward comman
 * Search directly for specific songs, albums, artists, or custom playlists by name.
 * Adjust volume levels precisely or mute audio playback with a single command.
 * View currently playing track details and copy sharing links straight to your clipboard.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-First, make sure you have the official Spotify desktop application installed. If you use the Homebrew package manager on Mac, you can install the tool instantly by opening your terminal and typing `brew install shpotify`. Alternatively, you can download the package manually from the project site. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+First, make sure you have the official Spotify desktop application installed. If you use the Homebrew package manager on Mac, you can install the tool instantly by opening your terminal and typing `brew install shpotify`. Alternatively, you can download the package manually from the project site.
 
 ### Pros and Cons
 * **Pros:** Lightweight script, highly responsive, completely free to use.
 * **Cons:** Requires a Mac computer and an active desktop application running.
-[Official Source / Credits](https://github.com/hnarayanan/shpotify)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/hnarayanan/shpotify)

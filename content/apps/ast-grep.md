@@ -13,9 +13,9 @@ source_url: "https://github.com/ast-grep/ast-grep"
 download_url: "https://ast-grep.github.io/"
 downloadUrl: "https://ast-grep.github.io/"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-ast-grep allows you to search through your project files to find specific code structures rather than just plain text. Once found, you can automatically rewrite or update those sections across your entire project in one go. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+ast-grep allows you to search through your project files to find specific code structures rather than just plain text. Once found, you can automatically rewrite or update those sections across your entire project in one go.
 
 ### Who it's for
 * Software developers who need to perform large-scale code updates or refactoring across many files.
@@ -52,7 +52,6 @@ ast-grep allows you to search through your project files to find specific code s
 * **Intuitive Pattern Matching:** Search for code using the same syntax you use to write it, making it feel natural and easy to learn.
 * **Massive Scale Rewriting:** Automatically apply changes to hundreds of files at once, saving hours of manual editing.
 * **Customizable Rules:** Use simple configuration files to create your own linting rules tailored to your specific project needs.
-* **Creative Assets:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can install ast-grep using your preferred package manager. For most users, the following commands work:
@@ -61,10 +60,16 @@ You can install ast-grep using your preferred package manager. For most users, t
 * **Node.js (npm):** `npm install --global @ast-grep/cli`
 * **Python (pip):** `pip install ast-grep-cli`
 
-For additional installation methods including Cargo or Scoop, visit the [official website](https://ast-grep.github.io/). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+For additional installation methods including Cargo or Scoop, visit the [official website](https://ast-grep.github.io/).
 
 ### Pros and Cons
 * **Pros:** Extremely fast, supports multiple programming languages, and uses intuitive pattern matching.
 * **Cons:** Requires a basic understanding of command-line tools and may take a moment to learn the pattern syntax.
 
-[Official Source / Credits](https://github.com/ast-grep/ast-grep)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ast-grep/ast-grep)

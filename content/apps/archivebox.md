@@ -5,17 +5,17 @@ tagline: "Preserve and store your favorite websites."
 summary: "ArchiveBox saves permanent offline copies of web pages, bookmarks, and media so they never disappear from the internet."
 tags: ["archiving", "cloud-app", "bookmarks", "backup"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/archivebox.png"
 stars: 29061
 source_url: "https://github.com/ArchiveBox/ArchiveBox"
 download_url: "https://github.com/ArchiveBox/ArchiveBox/releases/download/v0.9.77/archivebox-0.9.77-py3-none-any.whl"
 downloadUrl: "https://github.com/ArchiveBox/ArchiveBox/releases/download/v0.9.77/archivebox-0.9.77-py3-none-any.whl"
-download_label: "Download (archivebox-0.9.77-py3-none-any.whl)"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-ArchiveBox is a private, self-hosted application that captures complete snapshots of websites you care about before they vanish. It automatically converts bookmarks, web history, and articles into permanent formats like readable pages, documents, and images. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+ArchiveBox is a private, self-hosted application that captures complete snapshots of websites you care about before they vanish. It automatically converts bookmarks, web history, and articles into permanent formats like readable pages, documents, and images.
 
 ### Who it's for
 - Researchers and journalists who need reliable access to online sources even if the original links go offline.
@@ -53,13 +53,18 @@ ArchiveBox is a private, self-hosted application that captures complete snapshot
 - Saves standard, long-lasting file formats like HTML, PDFs, and images that you can open for decades.
 - Automatically captures media files, code project pages, and documents alongside normal web pages.
 - Integrates with your web browser, bookmark services, and RSS feeds for effortless daily saving.
-- Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can set up ArchiveBox locally using Docker or your preferred package manager. Alternatively, prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). Download the latest components directly from the official release package: [Download (archivebox-0.9.77-py3-none-any.whl)](https://github.com/ArchiveBox/ArchiveBox/releases/download/v0.9.77/archivebox-0.9.77-py3-none-any.whl).
+You can set up ArchiveBox locally using Docker or your preferred package manager. Alternatively, prefer not to manage servers by hand? Download the latest components directly from the official release package: [Download (archivebox-0.9.77-py3-none-any.whl)](https://github.com/ArchiveBox/ArchiveBox/releases/download/v0.9.77/archivebox-0.9.77-py3-none-any.whl).
 
 ### Pros and Cons
 * **Pros:** Completely open source, runs locally to protect your privacy, and stores files in standard formats without locking you into proprietary systems.
 * **Cons:** Setting up advanced automated feeds and browser extensions takes a little time to configure properly.
 
-[Official Source / Credits](https://github.com/ArchiveBox/ArchiveBox)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ArchiveBox/ArchiveBox)

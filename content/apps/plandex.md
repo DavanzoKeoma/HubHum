@@ -13,7 +13,7 @@ source_url: "https://github.com/plandex-ai/plandex"
 download_url: "https://plandex.ai"
 downloadUrl: "https://plandex.ai"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Plandex is an open-source digital assistant designed to tackle complex programming tasks that touch dozens of files across your entire project. It breaks down large goals into step-by-step plans, writes the code, executes commands, and automatically catches errors without breaking your existing workspace. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Plandex is an open-source digital assistant designed to tackle complex programming tasks that touch dozens of files across your entire project. It breaks down large goals into step-by-step plans, writes the code, executes commands, and automatically catches errors without breaking your existing workspace.
 
 ### Who it's for
 * Software developers managing sprawling codebases who need help building major features without losing track of details.
@@ -53,10 +53,9 @@ Plandex is an open-source digital assistant designed to tackle complex programmi
 * **Massive Project Memory:** Easily reads and manages massive code projects using smart context windows to keep track of multiple files at once.
 * **Safe Sandbox Review:** Keeps AI-generated changes completely separate from your actual project files until you review and approve them.
 * **Autonomous Bug Fixing:** Runs tests, builds, and scripts, automatically catching its own mistakes and fixing errors on the fly.
-* **Model Flexibility:** Connects to top-tier intelligence providers or open-source models so you can pick the best brain for your specific task. Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can open and manage this web-enabled tool directly in the cloud or via your command line interface. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). 
+You can open and manage this web-enabled tool directly in the cloud or via your command line interface. Prefer not to manage servers by hand?
 
 To install the command-line helper, open your terminal and run:
 
@@ -70,4 +69,10 @@ curl -sL https://plandex.ai/install.sh | bash
 * **Pros:** Handles huge multi-file tasks effortlessly, keeps your workspace safe with review sandboxes, and works with multiple AI providers.
 * **Cons:** Requires familiarity with terminal commands and Linux-like environments to set up properly.
 
-[Official Source / Credits](https://github.com/plandex-ai/plandex)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/plandex-ai/plandex)

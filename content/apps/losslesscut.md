@@ -13,9 +13,9 @@ source_url: "https://github.com/mifi/lossless-cut"
 download_url: "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-arm64.dmg"
 downloadUrl: "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-arm64.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "GPL-2.0"
+license: "Open Source (GPL v2)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
@@ -41,7 +41,7 @@ i18n:
 ---
 
 ### What it does in plain English
-LosslessCut works like ultra-fast digital scissors for trimming and cleaning up video and audio files without re-encoding them. It removes unwanted intros, pauses, or outtakes in seconds while preserving the exact original quality from your camera or phone. Need extra B-roll, soundtracks, or motion graphics to pair with your cut clips? Explore [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It saves hours of waiting and hard-drive space compared to commercial video editors.
+LosslessCut works like ultra-fast digital scissors for trimming and cleaning up video and audio files without re-encoding them. It removes unwanted intros, pauses, or outtakes in seconds while preserving the exact original quality from your camera or phone. Need extra B-roll, soundtracks, or motion graphics to pair with your cut clips? It saves hours of waiting and hard-drive space compared to commercial video editors.
 
 ### Who it's for
 * Teachers and creators who record long lessons or tutorials and only need to snip out mistakes.
@@ -54,7 +54,6 @@ LosslessCut works like ultra-fast digital scissors for trimming and cleaning up 
 * Extract background music or voice tracks, or swap audio tracks cleanly.
 * Rotate sideways clips and capture crisp full-resolution still frames.
 * Export individual chapters as separate ready-to-share video files.
-* Transfer large raw footage or installer downloads privately without bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### How to install (Download)
 Download the official standalone build for your operating system:
@@ -62,10 +61,16 @@ Download the official standalone build for your operating system:
 * [Download for Mac Intel (.dmg)](https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-x64.dmg)
 * [Download for Linux (.AppImage)](https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-linux-x86_64.AppImage)
 
-Want fresh fonts, graphics, and templates to polish your video intros? Browse creative assets on [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
+Want fresh fonts, graphics, and templates to polish your video intros?
 
 ### Pros and Cons
 * **Pros:** Free, remarkably fast even on older laptops, and keeps original camera sharpness intact.
 * **Cons:** Focused on fast cutting and merging rather than complex visual effects or transitions.
 
-[Official Source / Credits](https://github.com/mifi/lossless-cut)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/mifi/lossless-cut)

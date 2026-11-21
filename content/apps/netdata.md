@@ -5,7 +5,7 @@ tagline: "Real-time health monitoring for your systems"
 summary: "Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues."
 tags: ["monitoring", "observability", "performance"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/netdata.png"
 stars: 81537
@@ -13,9 +13,9 @@ source_url: "https://github.com/netdata/netdata"
 download_url: "https://github.com/netdata/netdata/releases/download/v2.13.0/netdata-latest-x64.msi"
 downloadUrl: "https://github.com/netdata/netdata/releases/download/v2.13.0/netdata-latest-x64.msi"
 download_label: "Download for Windows (.msi)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Netdata acts like a high-speed dashboard for your technology, showing you exactly what is happening inside your computers and servers every single second. It automatically detects your hardware and software, creating clear charts and alerts so you don't have to spend hours setting things up. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Netdata acts like a high-speed dashboard for your technology, showing you exactly what is happening inside your computers and servers every single second. It automatically detects your hardware and software, creating clear charts and alerts so you don't have to spend hours setting things up.
 
 ### Who it's for
 * **System Administrators:** Professionals who need to keep servers running smoothly and identify bottlenecks before they cause downtime.
@@ -53,17 +53,20 @@ Netdata acts like a high-speed dashboard for your technology, showing you exactl
 * **Automatic Setup:** The software discovers your hardware and services automatically, building dashboards without requiring manual configuration.
 * **Smart Alerts:** Receive notifications for potential issues using built-in intelligence that learns your system's normal behavior.
 * **Scalable Design:** Whether you are monitoring one laptop or a massive network of thousands of servers, the system grows with your needs.
-* **Creative Integration:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can get started immediately by using the [Netdata Cloud web interface](https://app.netdata.cloud/sign-in), which allows you to monitor your systems in the cloud with just one click. For local installations on Windows, you can use the official installer:
 
 * [Download for Windows (.msi)](https://github.com/netdata/netdata/releases/download/v2.13.0/netdata-latest-x64.msi)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Extremely fast, requires almost no manual configuration, and provides deep insights into system performance.
 * **Cons:** The sheer amount of data available can feel overwhelming for beginners at first glance.
 
-[Official Source / Credits](https://github.com/netdata/netdata)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/netdata/netdata)

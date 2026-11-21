@@ -5,7 +5,7 @@ tagline: "Lightweight server and container monitoring"
 summary: "Monitor your servers and containers effortlessly with a friendly web interface, historical stats, and instant alerts."
 tags: ["monitoring", "servers", "cloud-app", "sysadmin"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/beszel.png"
 stars: 27498
@@ -13,9 +13,9 @@ source_url: "https://github.com/henrygd/beszel"
 download_url: "https://github.com/henrygd/beszel/releases/download/v0.21.2/beszel-agent_0.21.2_linux_amd64.deb"
 downloadUrl: "https://github.com/henrygd/beszel/releases/download/v0.21.2/beszel-agent_0.21.2_linux_amd64.deb"
 download_label: "Download for Linux (.deb)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Beszel gives you a clear, centralized dashboard to track the health and performance of all your computers and software containers in one place. It keeps an eye on vital resources like processor load, memory usage, and storage space without slowing down your systems. When something goes wrong or reaches a critical limit, it instantly sends alerts directly to your preferred notification channels. While managing your monitoring data, if you ever need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Beszel gives you a clear, centralized dashboard to track the health and performance of all your computers and software containers in one place. It keeps an eye on vital resources like processor load, memory usage, and storage space without slowing down your systems. When something goes wrong or reaches a critical limit, it instantly sends alerts directly to your preferred notification channels.
 
 ### Who it's for
 * **Home Lab Enthusiasts:** People running home servers who want to keep track of hardware temperatures, disk health, and container uptime.
@@ -54,7 +54,6 @@ Beszel gives you a clear, centralized dashboard to track the health and performa
 * **Docker Statistics:** Tracks CPU, memory, and network activity individually for every running container.
 * **Instant Alerts:** Sends custom notifications when system metrics cross safe thresholds or drives fail.
 * **Multi-User Support:** Allows different users to manage their own systems or lets administrators share access securely.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 This application runs as a cloud-ready web interface. You can explore the official guide and launch it in your cloud environment via the [Beszel Official Website](https://beszel.dev). For target machines you wish to track, you can grab the direct package installer below:
@@ -62,10 +61,14 @@ This application runs as a cloud-ready web interface. You can explore the offici
 * [Download for Linux (.deb) (ARM64)](https://github.com/henrygd/beszel/releases/download/v0.21.2/beszel-agent_0.21.2_linux_arm64.deb)
 * [Download for Linux (.deb) (ARMv7)](https://github.com/henrygd/beszel/releases/download/v0.21.2/beszel-agent_0.21.2_linux_armv7.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Extremely fast setup, very low resource usage, clean visual dashboard, and free open-source licensing.
 * **Cons:** Advanced metric configurations may require a basic understanding of server environments.
 
-[Official Source / Credits](https://github.com/henrygd/beszel)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/henrygd/beszel)

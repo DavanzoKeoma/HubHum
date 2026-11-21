@@ -5,17 +5,17 @@ tagline: "Always up-to-date no-code chat server"
 summary: "An easy no-code question-answering assistant that keeps answers in sync with your live documents automatically."
 tags: ["rag", "ai", "search", "documents"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/serviette.png"
 stars: 58699
 source_url: "https://github.com/pathwaycom/serviette"
 download_url: "https://github.com/pathwaycom/serviette/blob/main/docs/README.md"
 downloadUrl: "https://github.com/pathwaycom/serviette/blob/main/docs/README.md"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-serviette is a smart assistant that reads your company or personal documents and lets you chat with them instantly. When you edit, add, or delete a file in your watched folder, the answers update automatically within seconds without any manual re-indexing. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It supports multiple file formats like PDFs, spreadsheets, scans, and audio files right out of the box.
+serviette is a smart assistant that reads your company or personal documents and lets you chat with them instantly. When you edit, add, or delete a file in your watched folder, the answers update automatically within seconds without any manual re-indexing. It supports multiple file formats like PDFs, spreadsheets, scans, and audio files right out of the box.
 
 ### Who it's for
 * Business owners who want a private question-answering assistant over company policies and manuals.
@@ -54,10 +54,9 @@ serviette is a smart assistant that reads your company or personal documents and
 * Works seamlessly with eight different vector databases for flexible data storage.
 * Live and incremental updates that instantly reflect file changes in your chat search results.
 * Built-in web chat page and versioned interface running together on a single port.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can launch this tool in the cloud instantly or run it locally using Python. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can launch this tool in the cloud instantly or run it locally using Python.
 
 To run it on your own computer, make sure you have Python installed and run the following command in your terminal:
 ```bash
@@ -69,4 +68,10 @@ For complete setup guides, configuration steps, and cloud cloud setup options, v
 * **Pros:** Automatic live document synchronization, supports multiple vector databases, easy no-code setup.
 * **Cons:** Requires a free license key from the software foundation provider to operate.
 
-[Official Source / Credits](https://github.com/pathwaycom/serviette)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/pathwaycom/serviette)

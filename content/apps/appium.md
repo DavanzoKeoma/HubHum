@@ -13,9 +13,9 @@ source_url: "https://github.com/appium/appium"
 download_url: "https://appium.io/"
 downloadUrl: "https://appium.io/"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Android, iOS"
+operatingSystem: "Windows, macOS, iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Appium helps software creators and testers make sure their applications work correctly across many different types of phones, tablets, and computers. Instead of manually clicking through every single screen by hand, you write automated scripts that simulate real human interaction. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Appium helps software creators and testers make sure their applications work correctly across many different types of phones, tablets, and computers. Instead of manually clicking through every single screen by hand, you write automated scripts that simulate real human interaction.
 
 ### Who it's for
 * Mobile app developers who need to test their software on multiple device screens.
@@ -54,13 +54,18 @@ Appium helps software creators and testers make sure their applications work cor
 * Lets you write tests in popular programming languages like Java, Python, Ruby, and C#.
 * Does not require you to modify your app's core code just to run tests.
 * Integrates seamlessly with visual inspection tools to view application layouts.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can set up the core tool using the official site and package managers as described in the [Appium Official Website](https://appium.io/). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can set up the core tool using the official site and package managers as described in the [Appium Official Website](https://appium.io/).
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, supports multiple languages, prevents vendor lock-in.
 * **Cons:** Requires setting up specific platform drivers and tools to test individual operating systems.
 
-[Official Source / Credits](https://github.com/appium/appium)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/appium/appium)

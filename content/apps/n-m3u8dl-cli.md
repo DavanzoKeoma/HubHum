@@ -13,7 +13,7 @@ source_url: "https://github.com/nilaoda/N_m3u8DL-CLI"
 download_url: "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/3.0.2/N_m3u8DL-CLI-SimpleG.exe"
 downloadUrl: "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/3.0.2/N_m3u8DL-CLI-SimpleG.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-N_m3u8DL-CLI lets you grab online video streams and save them as standard video files on your local drive. It handles encrypted media automatically so you do not have to worry about complex technical security barriers. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+N_m3u8DL-CLI lets you grab online video streams and save them as standard video files on your local drive. It handles encrypted media automatically so you do not have to worry about complex technical security barriers.
 
 ### Who it's for
 * Content collectors looking to archive online video lessons or webinars for offline study.
@@ -53,17 +53,20 @@ N_m3u8DL-CLI lets you grab online video streams and save them as standard video 
 * Downloads large files efficiently using multiple threads at the same time.
 * Resumes interrupted downloads so you never lose your progress.
 * Automatically combines downloaded video parts into one complete file.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 Get the software directly for your Windows computer using the official links below:
 * [Download for Windows (.exe)](https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/3.0.2/N_m3u8DL-CLI_v3.0.2.exe)
 * [Download for Windows (.exe) - Simple GUI version](https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/3.0.2/N_m3u8DL-CLI-SimpleG.exe)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open-source, supports automatic merging and decryption, lightweight.
 * **Cons:** Designed for Windows and command-line use, though a simple graphical helper is provided.
 
-[Official Source / Credits](https://github.com/nilaoda/N_m3u8DL-CLI)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/nilaoda/N_m3u8DL-CLI)

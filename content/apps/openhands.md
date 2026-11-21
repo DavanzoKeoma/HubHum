@@ -13,7 +13,7 @@ source_url: "https://github.com/OpenHands/OpenHands"
 download_url: "https://github.com/OpenHands/OpenHands/releases/download/v1.42.0/OpenHands-Agent-Canvas-Setup-1.42.0.exe"
 downloadUrl: "https://github.com/OpenHands/OpenHands/releases/download/v1.42.0/OpenHands-Agent-Canvas-Setup-1.42.0.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-OpenHands is a developer control center that lets you chat with coding assistants and automate everyday tasks right from your desktop or server. It manages conversations, breaks down incoming bug reports into manageable steps, and handles routine housekeeping. You can run it on your own computer or connect it to dedicated virtual servers to keep your digital workflows organized. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+OpenHands is a developer control center that lets you chat with coding assistants and automate everyday tasks right from your desktop or server. It manages conversations, breaks down incoming bug reports into manageable steps, and handles routine housekeeping. You can run it on your own computer or connect it to dedicated virtual servers to keep your digital workflows organized.
 
 ### Who it's for
 * Solo creators and indie software developers who want an automated assistant to handle routine coding chores.
@@ -54,7 +54,6 @@ OpenHands is a developer control center that lets you chat with coding assistant
 * Automatically sorts and breaks down new bug reports or project issues into concrete action items.
 * Runs safely on your local machine, inside isolated containers, or on remote virtual servers.
 * Integrates smoothly with messaging apps and code project pages to trigger automated actions on a schedule.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can set up the application easily depending on your operating system. Choose your download below:
@@ -64,10 +63,14 @@ You can set up the application easily depending on your operating system. Choose
 * [Download for Linux (.AppImage)](https://github.com/OpenHands/OpenHands/releases/download/v1.42.0/OpenHands.Agent.Canvas-1.42.0.AppImage)
 * [Download for Linux (.deb)](https://github.com/OpenHands/OpenHands/releases/download/v1.42.0/agent-canvas_1.42.0_amd64.deb)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Complete ownership of your data with self-hosted flexibility, works with multiple artificial intelligence models, and automates repetitive tasks effortlessly.
 * **Cons:** Requires basic familiarity with command-line tools or containers for advanced cloud setups.
 
-[Official Source / Credits](https://github.com/OpenHands/OpenHands)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/OpenHands/OpenHands)

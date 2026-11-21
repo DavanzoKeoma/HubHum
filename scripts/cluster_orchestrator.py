@@ -28,15 +28,15 @@ MACRO_DEFINITIONS: list[dict[str, object]] = [
         "subpillars": [
             {
                 "sub_slug": "free-video-editors",
-                "sub_topic": "Free Video Editors, Cutters & Converters",
-                "keywords": ("video", "handbrake", "cutter", "lossless", "transcod", "convert", "bili23", "youtube", "yt-dlp", "screen", "record"),
-                "sub_summary": "Top free tools for cutting clips, shrinking large video files, and saving online media cleanly.",
+                "sub_topic": "Video Cutters, Converters & Downloaders",
+                "keywords": ("video", "handbrake", "cutter", "lossless", "transcod", "bili23", "youtube", "yt-dlp", "vlc", "mpv", "concat", "screen"),
+                "sub_summary": "Compare video trimming, file conversion, playback, and media downloading tools with honest format details.",
             },
             {
                 "sub_slug": "audio-media-players",
                 "sub_topic": "Audio Editors & Music Players",
-                "keywords": ("audio", "music", "audacity", "spotif", "navidrome", "finetune", "vlc", "mpv", "sound", "equalizer"),
-                "sub_summary": "Reliable free desktop and cloud players for organizing music libraries, editing audio tracks, and clear playback.",
+                "keywords": ("audio", "music", "audacity", "spotif", "navidrome", "finetune", "shpotify", "sound", "equalizer"),
+                "sub_summary": "Reliable desktop and self-hosted players for organizing music libraries, editing audio tracks, and clear playback.",
             },
         ],
     },
@@ -88,7 +88,7 @@ MACRO_DEFINITIONS: list[dict[str, object]] = [
         "subpillars": [
             {
                 "sub_slug": "notes-knowledge-apps",
-                "sub_topic": "Free Note-Taking & Knowledge Apps",
+                "sub_topic": "Note-Taking & Knowledge Apps",
                 "keywords": ("note", "joplin", "markdown", "knowledge", "writing", "doc", "awesome", "pdf", "obsidian", "editor", "dbx"),
                 "sub_summary": "Distraction-free note-taking and personal knowledge organizers with offline control over your writing.",
             },
@@ -147,12 +147,20 @@ def _escape_yaml(val: str) -> str:
     return " ".join(str(val or "").replace("\r", " ").replace("\n", " ").replace('"', "'").split()).strip()
 
 
+def _dedup_words(text: str) -> str:
+    """Prevent accidental adjacent duplicate words like 'Free Free' in generated headings."""
+    return re.sub(r"\b(Free)\s+\1\b", r"\1", str(text or ""), flags=re.IGNORECASE)
+
+
 def _format_app_type(app_type: str) -> str:
-    if app_type == "webapp":
-        return "Cloud Web App"
-    if app_type == "cli":
-        return "CLI Tool"
-    return "Desktop App"
+    mapping = {
+        "desktop": "Desktop App",
+        "webapp": "Cloud Web App",
+        "selfhosted": "Self-Hosted Web App",
+        "cli": "CLI Tool",
+        "resource": "Open Reference",
+    }
+    return mapping.get(app_type, "Desktop App")
 
 
 def _load_all_apps() -> list[dict]:
@@ -205,7 +213,8 @@ def _write_guide_file(
         if isinstance(val, int):
             lines.append(f"{k}: {val}")
         else:
-            lines.append(f'{k}: "{_escape_yaml(str(val))}"')
+            clean_val = _dedup_words(str(val))
+            lines.append(f'{k}: "{_escape_yaml(clean_val)}"')
 
     for list_k in ("child_slugs", "sibling_slugs", "app_slugs"):
         items = frontmatter_data.get(list_k) or []
@@ -257,6 +266,27 @@ def _assign_apps_to_subpillars(macro_apps: list[dict], sub_defs: list[dict]) -> 
     for _, items in valid_pairs:
         items.sort(key=lambda a: a["stars"], reverse=True)
     return valid_pairs
+
+
+def _specific_pick_guidance(app: dict, peer: dict) -> str:
+    """Produce specific decision criteria based on format, platform, and purpose rather than boilerplate."""
+    fmt = _format_app_type(app["app_type"])
+    os_str = app["operatingSystem"]
+    peer_fmt = _format_app_type(peer["app_type"])
+    if app["app_type"] == "cli" and peer["app_type"] == "desktop":
+        mode_note = "runs as fast terminal commands suited for automation and batch scripts (no graphical buttons)"
+    elif app["app_type"] == "desktop" and peer["app_type"] == "cli":
+        mode_note = "provides a visual desktop window with point-and-click controls instead of terminal commands"
+    elif app["app_type"] == "selfhosted":
+        mode_note = "runs on your own private server or local computer so files stay under your control"
+    elif app["app_type"] == "desktop":
+        mode_note = f"installs directly as a desktop application ({os_str})"
+    else:
+        mode_note = f"works in **{fmt}** mode ({os_str})"
+    return (
+        f"**Choose [{app['title']}](/HubHum/apps/{app['slug']}/) ({fmt})** if you need what it specializes in: "
+        f"{app['summary'].rstrip('.')} — it {mode_note} ({app['stars']:,} GitHub stars, vs {peer['title']} which runs as a {peer_fmt})."
+    )
 
 
 def generate_clusters() -> dict[str, object]:
@@ -388,31 +418,37 @@ Before picking your software, read our practical guides below covering head-to-h
             generated_files += 1
 
             # 3A. Level 3 Cluster Article: Comparison & Roundup (TopApp1 vs TopApp2)
-            top1 = sub_apps[0]
-            top2 = sub_apps[1] if len(sub_apps) > 1 else sub_apps[0]
+            comp_apps = sub_apps[:8]
+            top1 = comp_apps[0]
+            top2 = comp_apps[1] if len(comp_apps) > 1 else comp_apps[0]
             table_rows = "\n".join(
                 f"| [{a['title']}](/HubHum/apps/{a['slug']}/) | {_format_app_type(a['app_type'])} | {a['operatingSystem']} | ★ {a['stars']:,} | {a['license']} |"
-                for a in sub_apps[:6]
+                for a in comp_apps
             )
-            comp_body = f"""## Quick Answer: {top1['title']} vs {top2['title']}
+            pick1 = _specific_pick_guidance(top1, top2)
+            pick2 = _specific_pick_guidance(top2, top1) if top2["slug"] != top1["slug"] else ""
+            picks_block = "\n".join(line for line in (f"- {pick1}", f"- {pick2}" if pick2 else "") if line)
+            comp_body = _dedup_words(
+                f"""## Quick Answer: {top1['title']} vs {top2['title']}
 
-Comparing **{top1['title']}** and **{top2['title']}** comes down to how you prefer to work. **{top1['title']}** stands out as a top community favorite ({top1['stars']:,} GitHub stars) and runs as a **{_format_app_type(top1['app_type'])}**: {top1['summary']} Meanwhile, **{top2['title']}** ({top2['stars']:,} GitHub stars) gives you another trusted free option: {top2['summary']}
+Comparing **{top1['title']}** and **{top2['title']}** highlights two distinct approaches in **{sub_topic}**. **{top1['title']}** runs as a **{_format_app_type(top1['app_type'])}** on **{top1['operatingSystem']}** ({top1['stars']:,} GitHub stars): {top1['summary']} By contrast, **{top2['title']}** runs as a **{_format_app_type(top2['app_type'])}** on **{top2['operatingSystem']}** ({top2['stars']:,} GitHub stars): {top2['summary']}
 
-### Side-by-Side Comparison
+### Side-by-Side Comparison ({len(comp_apps)} Tools Reviewed)
 
-| Software | Format | Systems Supported | Community Stars | License |
+| Software | Format | Systems Supported | GitHub Stars | License |
 | --- | --- | --- | --- | --- |
 {table_rows}
 
 ### When to Pick Which Option
-- **Choose [{top1['title']}](/HubHum/apps/{top1['slug']}/)** if you want the broadest community support and an established tool trusted by thousands of users.
-- **Choose [{top2['title']}](/HubHum/apps/{top2['slug']}/)** if its focused features fit your workflow faster without extra clutter.
-- Check every individual app card below to review pros, cons, and verified official download links before installing."""
+{picks_block}
+- Review the individual app cards below to verify exact installer options, operating system requirements, and transparent GitHub source links before downloading."""
+            )
 
+            clean_sub_noun = re.sub(r"^Free\s+", "", sub_topic, flags=re.IGNORECASE)
             _write_guide_file(
                 f"{sub_full_slug}/best-{sub_slug_short}.md",
                 {
-                    "title": f"Best Free {sub_topic}: {top1['title']} vs {top2['title']} Compared",
+                    "title": f"Best Free {clean_sub_noun}: {top1['title']} vs {top2['title']} Compared",
                     "slug": comp_slug,
                     "level": 3,
                     "macro_category": category,
@@ -420,10 +456,10 @@ Comparing **{top1['title']}** and **{top2['title']}** comes down to how you pref
                     "sub_topic": sub_topic,
                     "sub_slug": sub_slug_short,
                     "intent": "comparison",
-                    "summary": f"Compare {top1['title']} vs {top2['title']} and the top free tools for {sub_topic} with clear differences and official downloads.",
+                    "summary": f"Compare {top1['title']} vs {top2['title']} and {len(comp_apps)} free tools for {clean_sub_noun} with honest format, OS, and license details.",
                     "parent_slug": sub_full_slug,
                     "sibling_slugs": [found_slug, trouble_slug],
-                    "app_slugs": [a["slug"] for a in sub_apps[:8]],
+                    "app_slugs": [a["slug"] for a in comp_apps],
                     "updated_at": today,
                 },
                 comp_body,
@@ -431,27 +467,29 @@ Comparing **{top1['title']}** and **{top2['title']}** comes down to how you pref
             generated_files += 1
 
             # 3B. Level 3 Cluster Article: Foundations (What is / How to choose)
-            found_picks = sub_apps[:4]
+            found_picks = sub_apps[:6]
             found_bullets = "\n".join(
-                f"- **[{a['title']}](/HubHum/apps/{a['slug']}/)** — {a['summary']}"
+                f"- **[{a['title']}](/HubHum/apps/{a['slug']}/)** ({_format_app_type(a['app_type'])}) — {a['summary']}"
                 for a in found_picks
             )
-            found_body = f"""## How to Choose Free {sub_topic} Without Getting Lost
+            found_body = _dedup_words(
+                f"""## How to Choose Free {clean_sub_noun} Without Getting Lost
 
-Switching to free software in **{sub_topic}** lets you avoid recurring monthly fees and keep ownership of your files. Before downloading the first result you see, focus on three practical checks:
+Switching to free open-source tools in **{clean_sub_noun}** lets you avoid recurring monthly fees and keep ownership of your files. Before downloading anything, focus on three practical checks:
 
-1. **Pick the right format for your device:** Desktop apps install directly onto Windows, macOS, or Linux; Cloud Web Apps open straight in a browser; CLI tools run quickly inside a terminal window.
-2. **Verify the official creator page:** Every guide on HubHum links strictly to the creator's official page so you avoid bundled adware or fake installer sites.
-3. **Start simple:** Look for active community maintenance (shown cleanly on every card via GitHub star counts) so the tool stays compatible with modern operating systems.
+1. **Pick the right format for your comfort level:** **Desktop Apps** install with visual windows and menus; **Self-Hosted Web Apps** run on hardware or a server you control; **CLI Tools** operate via text commands inside a terminal window.
+2. **Verify the official creator source:** Every HubHum card links directly to official GitHub releases or creator sites to help you avoid bundled adware—always check your operating system and run local security scans as standard practice.
+3. **Check community activity and license:** GitHub star counts and human-readable licenses shown on every table help confirm an active project.
 
-### Great Starting Points for Beginners
+### Great Starting Points in {clean_sub_noun}
 
 {found_bullets}"""
+            )
 
             _write_guide_file(
                 f"{sub_full_slug}/how-to-choose-{sub_slug_short}.md",
                 {
-                    "title": f"How to Choose and Use Free {sub_topic} Safely",
+                    "title": f"How to Choose and Use Free {clean_sub_noun} Safely",
                     "slug": found_slug,
                     "level": 3,
                     "macro_category": category,
@@ -459,10 +497,10 @@ Switching to free software in **{sub_topic}** lets you avoid recurring monthly f
                     "sub_topic": sub_topic,
                     "sub_slug": sub_slug_short,
                     "intent": "foundations",
-                    "summary": f"Beginner-friendly plain-English guide explaining what {sub_topic} tools do, desktop vs cloud formats, and how to pick safely.",
+                    "summary": f"Beginner-friendly guide explaining what {clean_sub_noun} tools do, desktop vs self-hosted vs terminal formats, and how to download safely.",
                     "parent_slug": sub_full_slug,
                     "sibling_slugs": [comp_slug, trouble_slug],
-                    "app_slugs": [a["slug"] for a in sub_apps[:6]],
+                    "app_slugs": [a["slug"] for a in found_picks],
                     "updated_at": today,
                 },
                 found_body,
@@ -471,27 +509,29 @@ Switching to free software in **{sub_topic}** lets you avoid recurring monthly f
 
             # 3C. Level 3 Cluster Article: Problems & Solutions (Troubleshooting)
             trouble_picks = sub_apps[:5]
-            trouble_body = f"""## Fixing Common Problems with Free {sub_topic}
+            trouble_body = _dedup_words(
+                f"""## Fixing Common Problems with Free {clean_sub_noun}
 
-Moving away from expensive paid tools occasionally brings small setup hiccups. Here are the most common hurdles everyday users face with **{sub_topic}** and the fastest ways to solve them:
+Moving away from expensive commercial software occasionally brings small setup questions. Here are the most common hurdles everyday users face with **{clean_sub_noun}** and how to avoid them:
 
-### 1. Confusion Between Desktop Installers and Command-Line Tools
-Some free projects only run inside a terminal window (`CLI Tool`), while others provide a point-and-click installer (`Desktop App`). Always check the transparent badge at the top of any HubHum card before downloading so you pick an interface you feel comfortable using.
+### 1. Opening a Command-Line Tool Expecting Visual Buttons
+Some top tools (marked **CLI Tool**) do not open a traditional window—double-clicking their executable flashes a terminal and closes. Check the format badge before downloading: choose a **Desktop App** if you prefer visual buttons, or open a terminal prompt when running CLI tools.
 
-### 2. Unsure Which Official File to Download
-Windows users usually want `.exe` or `.msi` installers, macOS users want `.dmg`, and Android users want `.apk`. Every HubHum software page filters out technical source bundles and highlights the direct installer link at the top.
+### 2. Choosing Between Self-Hosted Server Tools and Instant Web Apps
+Tools marked **Self-Hosted Web App** require Docker or local server setup on your machine or a private host rather than working like a public SaaS website.
 
-### 3. Heavy Feature Bloat Slowing Down Older Computers
-If commercial suites freeze on your laptop, lightweight open-source tools like **[{top1['title']}](/HubHum/apps/{top1['slug']}/)** or **[{top2['title']}](/HubHum/apps/{top2['slug']}/)** give you clean performance without background tracking or forced logins.
+### 3. Picking the Right Installer for Your Device
+Windows users usually look for `.exe` or `.msi` installers, macOS users look for `.dmg`, and Linux/Android users have their own dedicated packages when listed in Quick Specs.
 
-### Recommended Reliable Alternatives
+### Recommended Alternatives Covered
 
-""" + "\n".join(f"- **[{a['title']}](/HubHum/apps/{a['slug']}/)** ({_format_app_type(a['app_type'])}) — {a['summary']}" for a in trouble_picks)
+"""
+            ) + "\n".join(f"- **[{a['title']}](/HubHum/apps/{a['slug']}/)** ({_format_app_type(a['app_type'])}) — {a['summary']}" for a in trouble_picks)
 
             _write_guide_file(
                 f"{sub_full_slug}/troubleshooting-{sub_slug_short}.md",
                 {
-                    "title": f"Common {sub_topic} Problems & How to Fix Them",
+                    "title": f"Common {clean_sub_noun} Problems & How to Fix Them",
                     "slug": trouble_slug,
                     "level": 3,
                     "macro_category": category,
@@ -499,7 +539,7 @@ If commercial suites freeze on your laptop, lightweight open-source tools like *
                     "sub_topic": sub_topic,
                     "sub_slug": sub_slug_short,
                     "intent": "troubleshooting",
-                    "summary": f"Practical troubleshooting tips for installer formats, compatibility issues, and performance when using free {sub_topic} tools.",
+                    "summary": f"Practical troubleshooting tips for terminal tools vs GUI installers, self-hosted setup, and system compatibility in {clean_sub_noun}.",
                     "parent_slug": sub_full_slug,
                     "sibling_slugs": [comp_slug, found_slug],
                     "app_slugs": [a["slug"] for a in trouble_picks],

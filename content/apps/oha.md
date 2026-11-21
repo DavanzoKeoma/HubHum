@@ -13,7 +13,7 @@ source_url: "https://github.com/hatoo/oha"
 download_url: "https://github.com/hatoo/oha/releases/download/v1.17.0/oha-windows-amd64-pgo.exe"
 downloadUrl: "https://github.com/hatoo/oha/releases/download/v1.17.0/oha-windows-amd64-pgo.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Oha is a lightweight command-line tool designed to test how well a website or web server handles visitors. By bombarding your server with multiple simultaneous requests, it measures response times and system limits under heavy stress. When running your tests, you can also access royalty-free stock footage, music tracks, and motion presets alongside your edits through [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Oha is a lightweight command-line tool designed to test how well a website or web server handles visitors. By bombarding your server with multiple simultaneous requests, it measures response times and system limits under heavy stress.
 
 ### Who it's for
 * Web developers checking if their servers can handle traffic spikes before a public launch.
@@ -54,16 +54,22 @@ Oha is a lightweight command-line tool designed to test how well a website or we
 * Allows you to configure exact user numbers, request frequencies, and test durations.
 * Supports random URL generation and reading test lists directly from text files to mimic real visitor paths.
 * Export test results easily into text summaries, JSON data, or CSV files for deeper analysis.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can grab the pre-built application file for Windows computers directly:
 * [Download for Windows (.exe)](https://github.com/hatoo/oha/releases/download/v1.17.0/oha-windows-amd64-pgo.exe)
 * [Download for Windows (.exe) Alternative](https://github.com/hatoo/oha/releases/download/v1.17.0/oha-windows-amd64.exe)
 
-If you use other operating systems or package managers, you can install it using standard terminal commands like `cargo install oha`, `brew install oha`, `pacman -S oha`, or `winget install hatoo.oha`. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+If you use other operating systems or package managers, you can install it using standard terminal commands like `cargo install oha`, `brew install oha`, `pacman -S oha`, or `winget install hatoo.oha`.
 
 ### Pros and Cons
 * **Pros:** Free and open-source with zero subscription costs; lightweight binary with a clear live text animation.
 * **Cons:** Requires command-line knowledge to set up advanced parameters and custom traffic patterns.
-[Official Source / Credits](https://github.com/hatoo/oha)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/hatoo/oha)

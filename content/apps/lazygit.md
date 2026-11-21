@@ -13,7 +13,7 @@ source_url: "https://github.com/jesseduffield/lazygit"
 download_url: "https://github.com/jesseduffield/lazygit/releases/download/v0.66.3/checksums.txt"
 downloadUrl: "https://github.com/jesseduffield/lazygit/releases/download/v0.66.3/checksums.txt"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Lazygit transforms tedious command-line tasks into a fast, interactive experience right inside your terminal. It gives you a clean visual layout where you can click or press keys to stage specific lines, rewrite history, and resolve conflicts. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Lazygit transforms tedious command-line tasks into a fast, interactive experience right inside your terminal. It gives you a clean visual layout where you can click or press keys to stage specific lines, rewrite history, and resolve conflicts.
 
 ### Who it's for
 * Software developers who want a faster, more visual way to manage their daily version control tasks without leaving the terminal.
@@ -54,12 +54,18 @@ Lazygit transforms tedious command-line tasks into a fast, interactive experienc
 * **Visual Rebasing:** Rearrange, squash, or edit your past updates effortlessly in a clean visual list.
 * **Quick Undo:** Instantly reverse your last actions using a built-in safety net that prevents accidental mistakes.
 * **Branch Comparison:** Compare any two branches or updates side-by-side to spot changes immediately.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can download the checksums file and verify your downloads directly from the official official project page [Download (checksums.txt)](https://github.com/jesseduffield/lazygit/releases/download/v0.66.3/checksums.txt). Most users install it using package managers like Homebrew (`brew install lazygit`) or their system's package tool. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can download the checksums file and verify your downloads directly from the official official project page [Download (checksums.txt)](https://github.com/jesseduffield/lazygit/releases/download/v0.66.3/checksums.txt). Most users install it using package managers like Homebrew (`brew install lazygit`) or their system's package tool.
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, drastically speeds up everyday coding tasks, highly customizable interface.
 * **Cons:** Requires a terminal environment to run, learning all the keyboard shortcuts takes a little bit of practice.
-[Official Source / Credits](https://github.com/jesseduffield/lazygit)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/jesseduffield/lazygit)

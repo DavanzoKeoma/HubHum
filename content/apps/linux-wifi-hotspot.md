@@ -13,7 +13,7 @@ source_url: "https://github.com/lakinduakash/linux-wifi-hotspot"
 download_url: "https://github.com/lakinduakash/linux-wifi-hotspot/releases/download/v5.0.0/linux-wifi-hotspot_5.0.0_amd64.deb"
 downloadUrl: "https://github.com/lakinduakash/linux-wifi-hotspot/releases/download/v5.0.0/linux-wifi-hotspot_5.0.0_amd64.deb"
 download_label: "Download for Linux (.deb)"
-license: "BSD-2-Clause"
+license: "Open Source (BSD)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This application transforms your Linux computer into a wireless router, allowing you to broadcast an internet connection to phones, tablets, or other laptops nearby. It gives you a simple visual window or command options to set up the network name, password, and security without digging into complicated system settings. You can even share a secure connection or tunnel your traffic through an active virtual private network. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+This application transforms your Linux computer into a wireless router, allowing you to broadcast an internet connection to phones, tablets, or other laptops nearby. It gives you a simple visual window or command options to set up the network name, password, and security without digging into complicated system settings. You can even share a secure connection or tunnel your traffic through an active virtual private network.
 
 ### Who it's for
 * Linux users who need to share a wired internet connection via Wi-Fi with nearby portable devices.
@@ -54,10 +54,9 @@ This application transforms your Linux computer into a wireless router, allowing
 * Create a hotspot that tunnels all broadcasted traffic securely through an active VPN connection.
 * Generate QR codes so guests can join your wireless network instantly with a phone camera.
 * Filter connected devices using MAC addresses and view everyone currently online.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can download the ready-to-use package for Debian and Ubuntu systems below, or install it using your distribution's standard package managers. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can download the ready-to-use package for Debian and Ubuntu systems below, or install it using your distribution's standard package managers.
 
 * [Download for Linux (.deb)](https://github.com/lakinduakash/linux-wifi-hotspot/releases/download/v5.0.0/linux-wifi-hotspot_5.0.0_amd64.deb)
 
@@ -65,4 +64,10 @@ You can download the ready-to-use package for Debian and Ubuntu systems below, o
 * **Pros:** Simple graphical interface, supports both 2.4GHz and 5GHz bands, and handles VPN sharing effortlessly.
 * **Cons:** Requires compatible wireless hardware that supports access point mode and proper system drivers.
 
-[Official Source / Credits](https://github.com/lakinduakash/linux-wifi-hotspot)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/lakinduakash/linux-wifi-hotspot)

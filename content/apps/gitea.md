@@ -5,7 +5,7 @@ tagline: "Your own private workspace for code"
 summary: "Host your programming projects, review team code changes, and manage tasks easily on your own private server."
 tags: ["development", "collaboration", "hosting", "productivity"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/gitea.png"
 stars: 59181
@@ -13,9 +13,9 @@ source_url: "https://github.com/go-gitea/gitea"
 download_url: "https://github.com/go-gitea/gitea/releases/download/v28.4.0/gitea-28.4.0-windows-amd64.exe"
 downloadUrl: "https://github.com/go-gitea/gitea/releases/download/v28.4.0/gitea-28.4.0-windows-amd64.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Gitea gives you a private, all-in-one home to store your programming projects, track daily tasks, and collaborate with team members. It acts as a central hub where multiple people can write code, review changes together, and organize workflows without sharing data with outside platforms. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Gitea gives you a private, all-in-one home to store your programming projects, track daily tasks, and collaborate with team members. It acts as a central hub where multiple people can write code, review changes together, and organize workflows without sharing data with outside platforms.
 
 ### Who it's for
 * Independent developers and small development teams looking for a private space to host code.
@@ -54,7 +54,6 @@ Gitea gives you a private, all-in-one home to store your programming projects, t
 * Built-in task tracking, milestone planning, and digital kanban boards for organizing work.
 * Integrated code review tools to comment on and approve changes from team members.
 * Support for automated testing workflows and package registries to share reusable code components.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can open and test this application instantly in the cloud via the [Official Gitea Cloud Trial](https://cloud.gitea.com/). 
@@ -63,10 +62,14 @@ If you prefer to run it on your own Windows computer, download the executable fi
 * [Download for Windows (.exe)](https://github.com/go-gitea/gitea/releases/download/v28.4.0/gitea-28.4.0-windows-amd64.exe)
 * [Download for Windows (.exe)](https://github.com/go-gitea/gitea/releases/download/v28.4.0/gitea-28.4.0-windows-arm64.exe)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open source, lightweight resource usage, highly customizable setup.
 * **Cons:** Requires technical knowledge to set up and manage a self-hosted server.
 
-[Official Source / Credits](https://github.com/go-gitea/gitea)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/go-gitea/gitea)

@@ -13,7 +13,7 @@ source_url: "https://github.com/hashicorp/vagrant"
 download_url: "https://github.com/hashicorp/vagrant/releases/download/v2.4.9/vagrant-2.4.9.gem"
 downloadUrl: "https://github.com/hashicorp/vagrant/releases/download/v2.4.9/vagrant-2.4.9.gem"
 download_label: "Download (vagrant-2.4.9.gem)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Vagrant lets developers set up identical, isolated computer workspaces using simple configuration files. It works seamlessly behind the scenes to configure virtual machines or cloud servers so your software runs identically everywhere. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Vagrant lets developers set up identical, isolated computer workspaces using simple configuration files. It works seamlessly behind the scenes to configure virtual machines or cloud servers so your software runs identically everywhere.
 
 ### Who it's for
 * Software developers who need their code to run the exact same way on every machine.
@@ -54,7 +54,6 @@ Vagrant lets developers set up identical, isolated computer workspaces using sim
 * Works with multiple local virtualization platforms and cloud providers.
 * Fast provisioning of operating systems, files, and installed software packages.
 * Easily share your workspace setup with teammates so everyone starts with identical tools.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can download the package bundle directly from the official release assets:
@@ -62,10 +61,16 @@ You can download the package bundle directly from the official release assets:
 * [Download SHA256SUMS Checksum](https://github.com/hashicorp/vagrant/releases/download/v2.4.9/vagrant_2.4.9_SHA256SUMS)
 * [Official Download & Setup Portal](https://www.vagrantup.com/downloads.html)
 
-Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Highly consistent environments, massive library of pre-built machine templates, works across Windows, macOS, and Linux.
 * **Cons:** Requires a virtualization program installed separately, initial configuration files take a moment to learn.
 
-[Official Source / Credits](https://github.com/hashicorp/vagrant)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/hashicorp/vagrant)

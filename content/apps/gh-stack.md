@@ -13,7 +13,7 @@ source_url: "https://github.com/github/gh-stack"
 download_url: "https://github.com/github/gh-stack/releases/download/v0.3.0/windows-386.exe"
 downloadUrl: "https://github.com/github/gh-stack/releases/download/v0.3.0/windows-386.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool allows you to split a massive coding task into a chain of smaller, focused updates. It handles the repetitive work of creating and connecting these updates so you can focus on writing code. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+This tool allows you to split a massive coding task into a chain of smaller, focused updates. It handles the repetitive work of creating and connecting these updates so you can focus on writing code.
 
 ### Who it's for
 * Software developers who manage complex features that require multiple review steps.
@@ -52,7 +52,6 @@ This tool allows you to split a massive coding task into a chain of smaller, foc
 * Automatically links your small updates into a single, cohesive chain.
 * Keeps your work organized by handling the connection between different parts of your project.
 * Simplifies the process of updating your work if requirements change mid-project.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 To use this tool, you must have the GitHub CLI installed on your computer. Once ready, you can download the appropriate version for your system:
@@ -61,10 +60,14 @@ To use this tool, you must have the GitHub CLI installed on your computer. Once 
 * [Download for Windows (64-bit)](https://github.com/github/gh-stack/releases/download/v0.3.0/windows-amd64.exe)
 * [Download for Windows (ARM64)](https://github.com/github/gh-stack/releases/download/v0.3.0/windows-arm64.exe)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Keeps large projects tidy, reduces manual busywork, and makes reviews much faster for teammates.
 * **Cons:** Requires a brief learning period to understand how the chain of updates works.
 
-[Official Source / Credits](https://github.com/github/gh-stack)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/github/gh-stack)

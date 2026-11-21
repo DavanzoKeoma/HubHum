@@ -13,7 +13,7 @@ source_url: "https://github.com/ParadevAI/Paradev"
 download_url: "https://github.com/ParadevAI/Paradev/releases/download/desktop-v2.0.10/Paradev-2.0.10-arm64.dmg"
 downloadUrl: "https://github.com/ParadevAI/Paradev/releases/download/desktop-v2.0.10/Paradev-2.0.10-arm64.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Paradev is a desktop tool that helps you run several automated coding assistants at the same time. It organizes each task into its own workspace, so you can work on multiple features or bug fixes without mixing up your files or terminal windows. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Paradev is a desktop tool that helps you run several automated coding assistants at the same time. It organizes each task into its own workspace, so you can work on multiple features or bug fixes without mixing up your files or terminal windows.
 
 ### Who it's for
 *   **Software Developers** who use AI coding tools and want to handle multiple tasks in parallel.
@@ -53,10 +53,9 @@ Paradev is a desktop tool that helps you run several automated coding assistants
 *   **Integrated Review**: Use the built-in changes pane to inspect, update, and push code without leaving the app.
 *   **In-App Browser**: Preview your web applications directly within the app, with automatic port detection for each workspace.
 *   **Agent Monitoring**: Keep track of all your active agents from a simple sidebar that shows status, progress, and alerts.
-*   Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Paradev is available for macOS and Linux. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Paradev is available for macOS and Linux.
 
 *   [Download for macOS (Apple Silicon)](https://github.com/ParadevAI/Paradev/releases/download/desktop-v2.0.10/Superset-arm64.dmg)
 *   [Download for macOS (Intel)](https://github.com/ParadevAI/Paradev/releases/download/desktop-v2.0.10/Superset-x64.dmg)
@@ -66,4 +65,10 @@ Paradev is available for macOS and Linux. Keep large installer downloads and med
 *   **Pros:** The desktop app is free to use forever, supports multiple agents, and significantly improves multitasking for AI-assisted coding.
 *   **Cons:** Windows is not currently supported, and it requires a basic understanding of how coding agents function.
 
-[Official Source / Credits](https://github.com/ParadevAI/Paradev)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ParadevAI/Paradev)

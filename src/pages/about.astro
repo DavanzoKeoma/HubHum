@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
+
+const lastUpdated = new Date().toISOString().slice(0, 10);
+---
+
+<BaseLayout
+  title="About &amp; Transparency — HubHum"
+  description="How HubHum works, who maintains it, how AI summaries are validated, what Verified Official Links guarantee, and how #ad partner links stay strictly separated."
+>
+  <div class="container detail-wrap">
+    <a href={withBase('/')} class="breadcrumb">← Back to HubHum Catalog</a>
+
+    <section class="article-card" style="max-width:860px;margin:0 auto;">
+      <div class="hero-badge" style="margin-bottom:0.85rem;">
+        <span>Independent Directory • Editorial &amp; Affiliate Transparency</span>
+      </div>
+      <h1 style="margin:0 0 0.5rem;font-size:clamp(1.6rem,3vw,2.1rem);">
+        About HubHum &amp; How This Directory Works
+      </h1>
+      <p style="margin:0 0 1.4rem;color:var(--text-muted);font-size:0.92rem;">
+        Updated: <strong>{lastUpdated}</strong> • Plain-English Open-Source Software Guide
+      </p>
+
+      <h2 style="margin-top:1.4rem;font-size:1.25rem;color:var(--text);">
+        1. Who Runs HubHum
+      </h2>
+      <p>
+        HubHum (<em>&ldquo;A Git Hub for Humans&rdquo;</em>) is an independent open-source software catalog built and maintained by{' '}
+        <strong>Keoma Davanzo</strong> via the public repository{' '}
+        <a
+          href="https://github.com/DavanzoKeoma/HubHum"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color:var(--accent-fg-text);text-decoration:underline;"
+        >
+          DavanzoKeoma/HubHum
+        </a>.
+        HubHum is not affiliated with, endorsed by, or operated by GitHub, Inc. or the individual maintainers of the open-source tools listed here.
+      </p>
+
+      <h2 style="margin-top:1.6rem;font-size:1.25rem;color:var(--text);">
+        2. How Guides Are Generated (AI-Assisted + Automated Validation)
+      </h2>
+      <p>
+        Many great open-source tools are hidden behind developer jargon. To explain software simply for everyday people:
+      </p>
+      <ul>
+        <li>
+          <strong>Public GitHub Source Material:</strong> Every guide starts from public GitHub metadata, upstream{' '}
+          <code>README</code> documentation, official project homepages, and public release assets.
+        </li>
+        <li>
+          <strong>AI-Assisted Summarization:</strong> Plain-English descriptions and multilingual summaries (EN, IT, ES, FR, DE)
+          are drafted with AI language models and structured into consistent sections (<em>What it does</em>,{' '}
+          <em>Who it&apos;s for</em>, <em>Key features</em>, <em>How to install</em>, and <em>Pros and Cons</em>).
+        </li>
+        <li>
+          <strong>Deterministic Sanity Checks:</strong> Every published card passes automated validation scripts to prevent
+          broken links, invented claims, missing licenses, or mixed promotional copy before deployment. Because active projects
+          release updates frequently, always verify the latest install steps on the linked upstream GitHub repository.
+        </li>
+      </ul>
+
+      <h2 style="margin-top:1.6rem;font-size:1.25rem;color:var(--text);">
+        3. What &ldquo;Verified Official Links&rdquo; Means (and Does Not Mean)
+      </h2>
+      <ul>
+        <li>
+          <strong>Direct Upstream Routing Only:</strong> Every primary download button and{' '}
+          <strong>Official Page</strong> link resolves strictly to the software author&apos;s official GitHub Releases page,
+          GitHub repository (shown explicitly as <code>owner/repo</code> on each sheet), or verified project domain. HubHum
+          never re-uploads binaries, wraps installers with adware, or serves third-party mirrors.
+        </li>
+        <li>
+          <strong>Clear Format Labels:</strong> Tools are separated by how you run them:{' '}
+          <strong>Desktop App</strong> (standard installer), <strong>Self-Hosted App</strong> (Docker or server software you run yourself),{' '}
+          <strong>CLI Tool</strong> (terminal utility without a graphical window), <strong>Cloud Web App</strong>, and{' '}
+          <strong>Open Reference</strong> (curated guides or awesome-lists).
+        </li>
+        <li>
+          <strong>No Local Security / Antivirus Guarantee:</strong> Automated URL verification confirms that links point to the authentic
+          upstream project, not that a third-party repository is bug-free or audited by an antivirus lab. Always follow your
+          operating system&apos;s security best practices before executing binaries or terminal commands.
+        </li>
+      </ul>
+
+      <h2 style="margin-top:1.6rem;font-size:1.25rem;color:var(--text);">
+        4. Affiliate &amp; <code>#ad</code> Funding Isolation
+      </h2>
+      <p>
+        HubHum is free to browse, requires zero account sign-up, and sets zero tracking cookies. To help cover hosting and
+        maintenance costs cleanly:
+      </p>
+      <ul>
+        <li>
+          <strong>Strict Isolation:</strong> Affiliate links (tagged with <code>#ad</code> and{' '}
+          <code>rel=&quot;sponsored noopener noreferrer&quot;</code>) are strictly isolated inside the dedicated{' '}
+          <strong>Sponsored Partner Tools (#ad)</strong> section at the bottom of guides and the clearly labeled{' '}
+          <strong>Sponsored Partner (#ad)</strong> sidebar card.
+        </li>
+        <li>
+          <strong>Zero Editorial Interference:</strong> Affiliate links are never injected into{' '}
+          <em>What it does in plain English</em>, <em>Key features</em>, <em>How to install</em>, or official open-source download buttons.
+        </li>
+      </ul>
+
+      <h2 style="margin-top:1.6rem;font-size:1.25rem;color:var(--text);">
+        5. Contact, Corrections &amp; Takedowns
+      </h2>
+      <p>
+        Spotted an outdated description, misclassified tool, or broken official link? Open an issue or pull request on{' '}
+        <a
+          href="https://github.com/DavanzoKeoma/HubHum/issues"
+          target="_blank"
+          rel="noopener noreferrer"
+          style="color:var(--accent-fg-text);text-decoration:underline;"
+        >
+          DavanzoKeoma/HubHum Issues
+        </a>{' '}
+        or contact <code>keomadavanzo@gmail.com</code>. You can also review our{' '}
+        <a
+          href={withBase('/privacy/')}
+          style="color:var(--accent-fg-text);text-decoration:underline;"
+        >
+          Privacy Policy
+        </a>.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

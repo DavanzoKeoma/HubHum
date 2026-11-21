@@ -13,9 +13,9 @@ source_url: "https://github.com/noah-nuebling/mac-mouse-fix"
 download_url: "https://macmousefix.com/"
 downloadUrl: "https://macmousefix.com/"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Mac Mouse Fix upgrades your everyday computer mouse so it performs just like an expensive Apple trackpad on your Mac computer. It brings ultra-smooth scrolling, natural swipe motions, and handy button shortcuts right to your desktop setup. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Mac Mouse Fix upgrades your everyday computer mouse so it performs just like an expensive Apple trackpad on your Mac computer. It brings ultra-smooth scrolling, natural swipe motions, and handy button shortcuts right to your desktop setup.
 
 ### Who it's for
 * Mac owners who want advanced trackpad gestures without actually buying an Apple trackpad.
@@ -53,13 +53,18 @@ Mac Mouse Fix upgrades your everyday computer mouse so it performs just like an 
 * Brings fluid, natural scrolling behavior to standard mice that normally feel jumpy on macOS.
 * Lets you map custom button clicks and drags to switch apps, control media, or navigate windows.
 * Runs natively on Apple Silicon computers for zero lag and minimal battery consumption.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-Get started by downloading the software directly from the [Mac Mouse Fix Website](https://macmousefix.com/). If you prefer command-line tools, you can also install it via Homebrew. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Get started by downloading the software directly from the [Mac Mouse Fix Website](https://macmousefix.com/). If you prefer command-line tools, you can also install it via Homebrew.
 
 ### Pros and Cons
 * **Pros:** Makes inexpensive mice feel premium, offers smooth scrolling, and supports custom shortcuts.
 * **Cons:** Advanced settings take a few minutes to learn, and some proprietary gaming mice with custom software may have limited button recognition.
 
-[Official Source / Credits](https://github.com/noah-nuebling/mac-mouse-fix)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/noah-nuebling/mac-mouse-fix)

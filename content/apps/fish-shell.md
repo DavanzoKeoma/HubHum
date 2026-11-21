@@ -13,7 +13,7 @@ source_url: "https://github.com/fish-shell/fish-shell"
 download_url: "https://github.com/fish-shell/fish-shell/releases/download/4.9.3/fish-4.9.3.pkg"
 downloadUrl: "https://github.com/fish-shell/fish-shell/releases/download/4.9.3/fish-4.9.3.pkg"
 download_label: "Download for Mac (.pkg)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool gives you a friendly command line helper that remembers your past commands and finishes them for you automatically. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad). It highlights your typing with colors so you can spot mistakes instantly before pressing enter.
+This tool gives you a friendly command line helper that remembers your past commands and finishes them for you automatically. It highlights your typing with colors so you can spot mistakes instantly before pressing enter.
 
 ### Who it's for
 * Web developers and programmers who spend hours writing commands in a terminal daily.
@@ -54,13 +54,18 @@ This tool gives you a friendly command line helper that remembers your past comm
 * **Smart color coding:** Instantly colors your text to show if a command is valid or if you made a spelling typo.
 * **Helpful tab options:** Displays visual lists of possible file names and settings without needing extra configuration.
 * **Easy web control panel:** Lets you customize your prompt colors and settings directly inside a web browser window.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can grab the official installer directly for your system. Download the Mac package using the official link: [Download for Mac (.pkg)](https://github.com/fish-shell/fish-shell/releases/download/4.9.3/fish-4.9.3.pkg). Linux users can install it through their package managers or terminal package project pages, while Windows users can run it via Windows Subsystem for Linux (WSL). Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can grab the official installer directly for your system. Download the Mac package using the official link: [Download for Mac (.pkg)](https://github.com/fish-shell/fish-shell/releases/download/4.9.3/fish-4.9.3.pkg). Linux users can install it through their package managers or terminal package project pages, while Windows users can run it via Windows Subsystem for Linux (WSL).
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, features work right away with zero complex setup, and provides helpful autocomplete out of the box.
 * **Cons:** Scripts written specifically for it might not always work in older standard shells like bash, requiring minor adjustments for compatibility.
 
-[Official Source / Credits](https://github.com/fish-shell/fish-shell)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/fish-shell/fish-shell)

@@ -13,7 +13,7 @@ source_url: "https://github.com/donnemartin/haxor-news"
 download_url: "https://github.com/donnemartin/haxor-news/releases"
 downloadUrl: "https://github.com/donnemartin/haxor-news/releases"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Haxor-news brings the popular community news platform directly into your command line interface. It allows you to read stories, inspect discussions, and filter comments without ever opening a traditional web browser. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Haxor-news brings the popular community news platform directly into your command line interface. It allows you to read stories, inspect discussions, and filter comments without ever opening a traditional web browser.
 
 ### Who it's for
 * Software developers and system administrators who live inside the terminal.
@@ -53,17 +53,22 @@ Haxor-news brings the popular community news platform directly into your command
 * **Terminal Reading:** View top stories, best submissions, "ask HN" threads, and show posts right in your command prompt.
 * **Smart Comment Filtering:** Easily isolate unseen comments, recent discussions from the past hour, or search text using regular expressions.
 * **Job Board Integration:** Instantly search through monthly hiring and freelance posts using custom keyword filters.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * **Command Line Composability:** Combine outputs using standard pipes and redirects to save stories or automate reading workflows.
 
 ### How to install (Download)
 To install the tool on your system, make sure you have Python and pip installed, then open your terminal and run:
 `pip install haxor-news`
 
-You can also check out the [Official GitHub official project page Releases](https://github.com/donnemartin/haxor-news/releases) for source archives and updates. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can also check out the [Official GitHub official project page Releases](https://github.com/donnemartin/haxor-news/releases) for source archives and updates.
 
 ### Pros and Cons
 * **Pros:** Completely free and open source, highly customizable colors, lightning-fast text navigation.
 * **Cons:** Requires basic familiarity with command line prompts and terminal navigation.
 
-[Official Source / Credits](https://github.com/donnemartin/haxor-news)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/donnemartin/haxor-news)

@@ -13,9 +13,9 @@ source_url: "https://github.com/pranshuparmar/witr"
 download_url: "https://github.com/pranshuparmar/witr/releases/download/v0.3.4/witr-0.3.4-linux-amd64.apk"
 downloadUrl: "https://github.com/pranshuparmar/witr/releases/download/v0.3.4/witr-0.3.4-linux-amd64.apk"
 download_label: "Download for Android (.apk)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Ever wonder what mystery background program is holding onto your internet ports or consuming your system resources? **witr** instantly connects the dots by tracing any active process, network port, containerized app, or open file directly to the exact chain of commands that started it. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). Instead of juggling half a dozen standard system lookup commands, you receive a single human-readable report, machine-readable JSON data, or an easy-to-navigate interactive visual dashboard.
+Ever wonder what mystery background program is holding onto your internet ports or consuming your system resources? **witr** instantly connects the dots by tracing any active process, network port, containerized app, or open file directly to the exact chain of commands that started it. Instead of juggling half a dozen standard system lookup commands, you receive a single human-readable report, machine-readable JSON data, or an easy-to-navigate interactive visual dashboard.
 
 ### Who it's for
 * Software developers trying to figure out which lingering background script is blocking their local development ports.
@@ -54,10 +54,9 @@ Ever wonder what mystery background program is holding onto your internet ports 
 * **Interactive Dashboard:** Offers a convenient text-based user interface to browse and inspect system activity visually.
 * **Script and Agent Friendly:** Exports structured data formats so automated tools and coding assistants can read system diagnostics easily.
 * **Multi-Platform Support:** Works seamlessly across Linux, macOS, Windows, and FreeBSD environments.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can grab the precompiled packages directly for your system. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can grab the precompiled packages directly for your system.
 
 - [Download for Linux (.deb)](https://github.com/pranshuparmar/witr/releases/download/v0.3.4/witr-0.3.4-linux-amd64.deb) (64-bit AMD)
 - [Download for Linux (.deb)](https://github.com/pranshuparmar/witr/releases/download/v0.3.4/witr-0.3.4-linux-arm64.deb) (ARM 64-bit)
@@ -70,4 +69,10 @@ You can grab the precompiled packages directly for your system. Keep large insta
 * **Pros:** Replaces multiple legacy terminal utilities with one cohesive tool; outputs clean JSON for automation; provides an intuitive interactive visual mode.
 * **Cons:** Advanced ancestry tracing relies on standard operating system permission levels; certain deeply nested service supervisors may require elevated access.
 
-[Official Source / Credits](https://github.com/pranshuparmar/witr)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/pranshuparmar/witr)

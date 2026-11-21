@@ -13,7 +13,7 @@ source_url: "https://github.com/Swordfish90/cool-retro-term"
 download_url: "https://github.com/Swordfish90/cool-retro-term/releases/download/2.0.0-beta2/cool-retro-term-2.0.0-beta2.dmg"
 downloadUrl: "https://github.com/Swordfish90/cool-retro-term/releases/download/2.0.0-beta2/cool-retro-term-2.0.0-beta2.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "Open Source"
+license: "Open Source License"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-cool-retro-term gives your computer's command interface the distinct, warm look of an old-school monitor from the early days of computing. It provides a highly visual experience that makes standard text-based tasks feel like you are working on a machine from the 1980s. When you need royalty-free stock footage, music tracks, and motion presets alongside your creative projects, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+cool-retro-term gives your computer's command interface the distinct, warm look of an old-school monitor from the early days of computing. It provides a highly visual experience that makes standard text-based tasks feel like you are working on a machine from the 1980s.
 
 ### Who it's for
 * Retro-computing enthusiasts who want to add a nostalgic flair to their daily workflow.
@@ -52,10 +52,9 @@ cool-retro-term gives your computer's command interface the distinct, warm look 
 * Authentic visual effects that mimic screen flicker, scanlines, and the glow of cathode ray tubes.
 * Fully customizable color palettes, fonts, and screen brightness settings.
 * Lightweight performance that ensures your system remains fast while looking great.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can download the latest version directly for your operating system below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can download the latest version directly for your operating system below.
 
 * [Download for Mac (.dmg)](https://github.com/Swordfish90/cool-retro-term/releases/download/2.0.0-beta2/cool-retro-term-2.0.0-beta2.dmg)
 * [Download for Linux (.AppImage)](https://github.com/Swordfish90/cool-retro-term/releases/download/2.0.0-beta2/cool-retro-term-2.0.0-beta2.AppImage)
@@ -64,4 +63,10 @@ You can download the latest version directly for your operating system below. Ke
 * **Pros:** Highly customizable, unique visual style, and very lightweight on system resources.
 * **Cons:** The heavy visual effects may be distracting for some users during long periods of intense work.
 
-[Official Source / Credits](https://github.com/Swordfish90/cool-retro-term)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Swordfish90/cool-retro-term)

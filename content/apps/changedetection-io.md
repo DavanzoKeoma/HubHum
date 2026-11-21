@@ -5,17 +5,17 @@ tagline: "Automatically track website content and price changes"
 summary: "Monitor any web page for updates, price drops, or restocks and receive instant alerts directly to your favorite messaging apps."
 tags: ["monitoring", "tracking", "automation", "alerts"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/changedetection-io.png"
 stars: 35914
 source_url: "https://github.com/dgtlmoon/changedetection.io"
 download_url: "https://changedetection.io"
 downloadUrl: "https://changedetection.io"
-download_label: "Visit Official Site"
-license: "Apache-2.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool automatically checks any website or online store for updates, content edits, or price drops so you never miss important changes. Instead of manually refreshing pages, it scans them on a schedule and notifies you instantly through your preferred messaging app. You can also protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This tool automatically checks any website or online store for updates, content edits, or price drops so you never miss important changes. Instead of manually refreshing pages, it scans them on a schedule and notifies you instantly through your preferred messaging app.
 
 ### Who it's for
 * Smart shoppers looking for instant restock notifications and lower prices on products.
@@ -54,13 +54,18 @@ This tool automatically checks any website or online store for updates, content 
 * Visual element selection tool to target specific sections of a webpage and ignore irrelevant clutter.
 * Advanced filter options including CSS selectors, XPath, JSONPath, and regular expressions.
 * Smart AI-powered summaries that translate raw technical changes into plain-language notifications.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can easily access and run this tool right away through the [Official Website](https://changedetection.io). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). If you prefer self-hosting, you can also spin it up locally using Docker containers or Python.
+You can easily access and run this tool right away through the [Official Website](https://changedetection.io). Prefer not to manage servers by hand? If you prefer self-hosting, you can also spin it up locally using Docker containers or Python.
 
 ### Pros and Cons
 * **Pros:** Free and open-source, supports hundreds of notification services, and includes powerful visual selectors.
 * **Cons:** Advanced filtering options like XPath or regular expressions require a short learning curve for beginners.
 
-[Official Source / Credits](https://github.com/dgtlmoon/changedetection.io)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/dgtlmoon/changedetection.io)

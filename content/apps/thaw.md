@@ -13,7 +13,7 @@ source_url: "https://github.com/thaw-app/Thaw"
 download_url: "https://github.com/thaw-app/Thaw/releases/download/2.1.0/Thaw.dmg"
 downloadUrl: "https://github.com/thaw-app/Thaw/releases/download/2.1.0/Thaw.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Thaw hides the cluttered little icons sitting at the top of your computer screen so you can focus on your actual work. Whenever you need one of those hidden tools, a quick keystroke or click brings it right back into view. While tidying up your workspace, when you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Thaw hides the cluttered little icons sitting at the top of your computer screen so you can focus on your actual work. Whenever you need one of those hidden tools, a quick keystroke or click brings it right back into view.
 
 ### Who it's for
 * Busy professionals who run dozens of background apps and want a clean, distraction-free computer desktop.
@@ -53,13 +53,18 @@ Thaw hides the cluttered little icons sitting at the top of your computer screen
 * Instantly hide or reveal messy background icons with simple keyboard shortcuts or clicks.
 * Organize your tools into custom groups and switch between different working setups effortlessly.
 * Turn on Zen Mode to remove all visual interruptions when you need deep concentration.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can download the application right away to get started. Grab the official installer here: [Download for Mac (.dmg)](https://github.com/thaw-app/Thaw/releases/download/2.1.0/Thaw.dmg). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can download the application right away to get started. Grab the official installer here: [Download for Mac (.dmg)](https://github.com/thaw-app/Thaw/releases/download/2.1.0/Thaw.dmg).
 
 ### Pros and Cons
 * **Pros:** Completely free to use with no hidden subscriptions, zero tracking or data collection, and open-source code for total transparency.
 * **Cons:** Designed specifically for macOS operating systems, so Windows and Linux users cannot run it natively.
 
-[Official Source / Credits](https://github.com/thaw-app/Thaw)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/thaw-app/Thaw)

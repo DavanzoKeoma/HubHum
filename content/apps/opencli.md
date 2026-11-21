@@ -13,9 +13,9 @@ source_url: "https://github.com/jackwener/OpenCLI"
 download_url: "https://opencli.info/"
 downloadUrl: "https://opencli.info/"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-OpenCLI transforms complex websites and logged-in browser windows into straightforward command-line tools. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad). It allows both everyday users and automated assistants to navigate pages, extract information, fill out forms, and download media without needing complicated site setups.
+OpenCLI transforms complex websites and logged-in browser windows into straightforward command-line tools. It allows both everyday users and automated assistants to navigate pages, extract information, fill out forms, and download media without needing complicated site setups.
 
 ### Who it's for
 * **Content Creators:** People who want to quickly download media, export text articles, or gather research from popular online platforms.
@@ -54,17 +54,20 @@ OpenCLI transforms complex websites and logged-in browser windows into straightf
 * **Built-In Commands:** Includes ready-to-use commands for reading feeds, searching content, and viewing trending items on major websites.
 * **Media Downloads:** Easily save images, videos, and transcripts from supported online platforms using simple commands.
 * **Flexible Output Formats:** View results as standard text tables, clean lists, spreadsheets, or structured data files.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 For desktop use, start with the recommended app installer. Visit the [OpenCLI Official Download Page](https://opencli.info/download) to get the desktop tool for your computer. 
 
 To connect your browser, install the bridge extension directly from the [Chrome Web Store Extension](https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaediidaifkhjpohdnifk). 
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open source, supports dozens of popular platforms, works directly with your existing browser login sessions.
 * **Cons:** Requires a modern version of Node.js on your computer, browser automation commands require some basic command-line familiarity.
 
-[Official Source / Credits](https://github.com/jackwener/OpenCLI)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/jackwener/OpenCLI)

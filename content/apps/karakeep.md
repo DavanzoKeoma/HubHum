@@ -5,17 +5,17 @@ tagline: "Your AI-powered personal digital clutter keeper"
 summary: "Store and organize links, images, notes, and documents in one private, searchable space."
 tags: ["bookmarking", "cloud-app", "ai", "notes"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/karakeep.png"
 stars: 30712
 source_url: "https://github.com/karakeep-app/karakeep"
 download_url: "https://karakeep.com"
 downloadUrl: "https://karakeep.com"
-download_label: "Visit Official Site"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Karakeep is a personal digital storage space that lets you collect interesting web pages, screenshots, documents, and random notes without losing track of them. When you save content, smart artificial intelligence automatically reads the material, generates summaries, and applies relevant tags so you can find anything later. You can also access royalty-free stock media, assets, and creative design files through [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad) to enhance your saved projects.
+Karakeep is a personal digital storage space that lets you collect interesting web pages, screenshots, documents, and random notes without losing track of them. When you save content, smart artificial intelligence automatically reads the material, generates summaries, and applies relevant tags so you can find anything later.
 
 ### Who it's for
 - Researchers and students who gather dozens of web links, PDF files, and reference notes daily.
@@ -54,13 +54,18 @@ Karakeep is a personal digital storage space that lets you collect interesting w
 - **Automatic Smart Tagging:** Let artificial intelligence categorize your saved items and write brief summaries automatically.
 - **Full Text Search:** Instantly locate any saved article or document by searching for words found anywhere inside the content.
 - **Permanent Archiving:** Automatically capture full web page snapshots and video copies to protect against broken links.
-- **Creative Assets:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can open and test the web application instantly in the cloud via the [Official Karakeep Website](https://karakeep.com). For detailed instructions on running your own private server instance, check out the [Karakeep Installation Guide](https://docs.karakeep.com/Installation/docker). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can open and test the web application instantly in the cloud via the [Official Karakeep Website](https://karakeep.com). For detailed instructions on running your own private server instance, check out the [Karakeep Installation Guide](https://docs.karakeep.com/Installation/docker).
 
 ### Pros and Cons
 * **Pros:** Free and open source, complete data privacy through self-hosting, advanced AI organization features.
 * **Cons:** Setting up a private server requires basic technical knowledge, artificial intelligence features require external setup keys or local hardware.
 
-[Official Source / Credits](https://github.com/karakeep-app/karakeep)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/karakeep-app/karakeep)

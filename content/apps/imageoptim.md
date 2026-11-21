@@ -13,9 +13,9 @@ source_url: "https://github.com/ImageOptim/ImageOptim"
 download_url: "https://imageoptim.com/mac"
 downloadUrl: "https://imageoptim.com/mac"
 download_label: "Visit Official Site"
-license: "GPL-2.0"
+license: "Open Source (GPL v2)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-ImageOptim helps you clean up and shrink digital pictures so they take up less space on your computer or website. You simply drag and drop your photo files into the window, and the program automatically removes hidden bloat and wasted data. When managing your digital files online, for full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). The final result looks exactly the same to the human eye, but the file size drops significantly.
+ImageOptim helps you clean up and shrink digital pictures so they take up less space on your computer or website. You simply drag and drop your photo files into the window, and the program automatically removes hidden bloat and wasted data. The final result looks exactly the same to the human eye, but the file size drops significantly.
 
 ### Who it's for
 * Photographers and digital artists wanting to save hard drive space and speed up web portfolios.
@@ -54,10 +54,9 @@ ImageOptim helps you clean up and shrink digital pictures so they take up less s
 * Smart compression technology that strips out unnecessary metadata and hidden junk data from files.
 * Works seamlessly with common picture formats like PNG, JPEG, and animated graphics.
 * Preserves the visual clarity of your pictures so they never look blurry or pixelated.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can get the application directly from the official website. Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can get the application directly from the official website.
 
 * [Download ImageOptim for Mac](https://imageoptim.com/mac)
 
@@ -65,4 +64,10 @@ You can get the application directly from the official website. Before downloadi
 * **Pros:** Free and open source, incredibly easy to use, and works locally on your device without uploading files to random websites.
 * **Cons:** Designed specifically for Apple computers, so Windows and Linux users will need to look for alternative tools.
 
-[Official Source / Credits](https://github.com/ImageOptim/ImageOptim)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ImageOptim/ImageOptim)

@@ -53,36 +53,83 @@ const {
   i18n = {},
 } = app.data;
 
-const resolvedType: 'desktop' | 'webapp' | 'cli' =
-  app_type || (is_webapp ? 'webapp' : 'desktop');
-const badgeClass =
-  resolvedType === 'webapp' ? 'cloud' : resolvedType === 'cli' ? 'cli' : '';
-const badgeI18n =
-  resolvedType === 'webapp'
-    ? 'badgeCloud'
-    : resolvedType === 'cli'
-    ? 'badgeCli'
-    : 'badgeDesktop';
-const badgeText =
-  resolvedType === 'webapp'
-    ? 'Cloud Web App'
-    : resolvedType === 'cli'
-    ? 'CLI Tool'
-    : 'Desktop App';
-const detailModeI18n =
-  resolvedType === 'webapp'
-    ? 'detailModeCloud'
-    : resolvedType === 'cli'
-    ? 'detailModeCli'
-    : 'detailModeDesktop';
-const detailModeText =
-  resolvedType === 'webapp'
-    ? 'Runs in your browser / cloud'
-    : resolvedType === 'cli'
-    ? 'Command-line / terminal tool'
-    : 'Desktop GUI installer';
+type AppType = 'desktop' | 'webapp' | 'selfhosted' | 'cli' | 'resource';
 
-const primaryHref = is_webapp ? (affiliate_url || download_url || source_url || '#') : (download_url || source_url || '#');
+const DETAIL_TYPE_META: Record<
+  AppType,
+  {
+    badgeClass: string;
+    badgeI18n: string;
+    badgeText: string;
+    detailModeI18n: string;
+    detailModeText: string;
+    ctaI18n: string;
+    ctaText: string;
+  }
+> = {
+  webapp: {
+    badgeClass: 'cloud',
+    badgeI18n: 'badgeCloud',
+    badgeText: 'Cloud Web App',
+    detailModeI18n: 'detailModeCloud',
+    detailModeText: 'Runs in your browser / cloud',
+    ctaI18n: 'ctaCloud',
+    ctaText: 'Open in Cloud →',
+  },
+  selfhosted: {
+    badgeClass: 'selfhosted',
+    badgeI18n: 'badgeSelfHosted',
+    badgeText: 'Self-Hosted App',
+    detailModeI18n: 'detailModeSelfHosted',
+    detailModeText: 'Self-hosted web server (Docker / Node / Python)',
+    ctaI18n: 'ctaSelfHosted',
+    ctaText: 'Setup & Docs →',
+  },
+  cli: {
+    badgeClass: 'cli',
+    badgeI18n: 'badgeCli',
+    badgeText: 'CLI Tool',
+    detailModeI18n: 'detailModeCli',
+    detailModeText: 'Command-line / terminal tool',
+    ctaI18n: 'ctaCli',
+    ctaText: 'Get CLI Tool →',
+  },
+  resource: {
+    badgeClass: 'resource',
+    badgeI18n: 'badgeResource',
+    badgeText: 'Open Reference',
+    detailModeI18n: 'detailModeResource',
+    detailModeText: 'Curated open-source guide / reference',
+    ctaI18n: 'ctaResource',
+    ctaText: 'Browse Guide →',
+  },
+  desktop: {
+    badgeClass: '',
+    badgeI18n: 'badgeDesktop',
+    badgeText: 'Desktop App',
+    detailModeI18n: 'detailModeDesktop',
+    detailModeText: 'Desktop GUI installer',
+    ctaI18n: 'ctaDesktop',
+    ctaText: 'Explore & Download →',
+  },
+};
+
+const resolvedType: AppType =
+  app_type || (is_webapp ? 'webapp' : 'desktop');
+const {
+  badgeClass,
+  badgeI18n,
+  badgeText,
+  detailModeI18n,
+  detailModeText,
+  ctaI18n,
+  ctaText,
+} = DETAIL_TYPE_META[resolvedType];
+
+const isHostedCloud = resolvedType === 'webapp';
+const primaryHref = isHostedCloud ? (affiliate_url || download_url || source_url || '#') : (download_url || source_url || '#');
+const repoSlugMatch = String(source_url || '').match(/^https?:\/\/github\.com\/([^/]+\/[^/#?]+)/i);
+const repoSlug = repoSlugMatch ? repoSlugMatch[1].replace(/\.git$/, '') : null;
 const catI18nKey = CATEGORY_I18N_KEY[category] || 'catProductivity';
 const clusterInfo = appClusterMap[slug] || null;
 
@@ -239,13 +286,15 @@ const combinedJsonLd = [
         <a
           href={primaryHref}
           target="_blank"
-          rel={is_webapp ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
+          rel={isHostedCloud ? 'sponsored noopener noreferrer' : 'noopener noreferrer'}
           class:list={['btn', resolvedType === 'webapp' ? 'btn-cloud' : 'btn-primary']}
         >
           {resolvedType === 'webapp' ? (
             <span data-i18n="ctaCloud">Open in Cloud →</span>
+          ) : download_label ? (
+            <span>{download_label}</span>
           ) : (
-            <span>{download_label || 'Explore & Download →'}</span>
+            <span data-i18n={ctaI18n}>{ctaText}</span>
           )}
         </a>
         <button type="button" class="btn btn-outline" id="favorite-btn" data-slug={slug}>
@@ -267,6 +316,24 @@ const combinedJsonLd = [
           <strong data-i18n="detailSummaryNotice">Plain-language summary in your language:</strong>{' '}
           <span id="localized-summary-text"></span>
         </div>
+
+        {resolvedType === 'cli' && (
+          <div class="app-format-callout cli" role="note" data-cli-warning>
+            <strong data-i18n="cliWarningTitle">Command-Line Utility (No Graphical Interface):</strong>{' '}
+            <span data-i18n="cliWarningBody">
+              This program runs inside your system terminal or command prompt rather than opening a desktop window. Follow the official installation instructions below.
+            </span>
+          </div>
+        )}
+
+        {resolvedType === 'selfhosted' && (
+          <div class="app-format-callout selfhosted" role="note" data-selfhosted-warning>
+            <strong data-i18n="selfHostedWarningTitle">Self-Hosted Web Application:</strong>{' '}
+            <span data-i18n="selfHostedWarningBody">
+              Unlike cloud SaaS apps, you run this software on your own server, NAS, or Docker container so you stay in full control of your data.
+            </span>
+          </div>
+        )}
 
         <h2 style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
           Guide and Overview
@@ -320,7 +387,7 @@ const combinedJsonLd = [
         {affiliate_url && (
           <div class="side-card affiliate-card">
             <span class="mode-badge cloud" style="margin-bottom:0.55rem; display:inline-flex;" data-i18n="partnerTipBadge">
-              Recommended Add-on (#ad)
+              Sponsored Partner (#ad)
             </span>
             <h2 style="margin:0.25rem 0 0.45rem; font-size:1.05rem;">
               {affiliate_name ? (
@@ -339,7 +406,7 @@ const combinedJsonLd = [
               class="btn btn-cloud"
               style="width:100%;"
             >
-              {is_webapp ? (
+              {isHostedCloud ? (
                 <span data-i18n="partnerCloudBtn">Open in Cloud (1-Click)</span>
               ) : (
                 <span>
@@ -373,10 +440,13 @@ const combinedJsonLd = [
                   href={source_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style="color:var(--accent-fg-text); text-decoration:underline;"
-                  data-i18n="detailOpenSource"
+                  style="color:var(--accent-fg-text); text-decoration:underline; word-break:break-word;"
                 >
-                  Visit source
+                  {repoSlug ? (
+                    <>GitHub ({repoSlug})</>
+                  ) : (
+                    <span data-i18n="detailOpenSource">Visit source</span>
+                  )}
                 </a>
               </li>
             )}

@@ -13,7 +13,7 @@ source_url: "https://github.com/bostrot/wslmanager"
 download_url: "https://github.com/bostrot/wslmanager/releases/download/v2.6.1/wsl2-distro-manager-v2.6.1-arm64-setup.exe"
 downloadUrl: "https://github.com/bostrot/wslmanager/releases/download/v2.6.1/wsl2-distro-manager-v2.6.1-arm64-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-WSL Manager provides a friendly visual control panel to install, back up, move, and configure your Linux environments and virtual machines. You can easily duplicate environments, watch live graphs of processor and memory usage, and link everything together without remembering difficult text-based commands. To speed up your online workflows, pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+WSL Manager provides a friendly visual control panel to install, back up, move, and configure your Linux environments and virtual machines. You can easily duplicate environments, watch live graphs of processor and memory usage, and link everything together without remembering difficult text-based commands.
 
 ### Who it's for
 * Web developers and programmers who regularly work with Linux environments on Windows or Mac computers.
@@ -53,7 +53,6 @@ WSL Manager provides a friendly visual control panel to install, back up, move, 
 * Back up entire environments into a single folder and easily restore them on another computer.
 * Monitor live processor and memory usage with clear, real-time visual graphs.
 * Integrate artificial intelligence workflows and chat assistants to manage your systems naturally.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 Choose the correct version for your operating system and download it directly below:
@@ -61,10 +60,14 @@ Choose the correct version for your operating system and download it directly be
 * [Download for Windows Arm64 (.exe)](https://github.com/bostrot/wslmanager/releases/download/v2.6.1/wsl2-distro-manager-v2.6.1-arm64-setup.exe) (For ARM-based Windows devices)
 * [Download for Mac (.dmg)](https://github.com/bostrot/wslmanager/releases/download/v2.6.1/wsl2-distro-manager-v2.6.1-macos.dmg) (For Apple computer users)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open source core functionality, no hidden subscriptions for basic management, handles multiple Linux distributions smoothly.
 * **Cons:** Advanced artificial intelligence and automation features require a one-time license purchase.
 
-[Official Source / Credits](https://github.com/bostrot/wslmanager)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/bostrot/wslmanager)

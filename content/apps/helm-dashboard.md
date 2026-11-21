@@ -13,7 +13,7 @@ source_url: "https://github.com/komodorio/helm-dashboard"
 download_url: "https://github.com/komodorio/helm-dashboard/releases/download/v2.1.3/helm-dashboard_2.1.3_checksums.txt"
 downloadUrl: "https://github.com/komodorio/helm-dashboard/releases/download/v2.1.3/helm-dashboard_2.1.3_checksums.txt"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Helm Dashboard provides an easy-to-use graphical screen for viewing and managing software packages installed on server clusters. It lets you see past versions, compare code changes, and undo updates with a single click. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Helm Dashboard provides an easy-to-use graphical screen for viewing and managing software packages installed on server clusters. It lets you see past versions, compare code changes, and undo updates with a single click.
 
 ### Who it's for
 - System administrators who prefer graphical screens over text commands for checking server health.
@@ -54,13 +54,18 @@ Helm Dashboard provides an easy-to-use graphical screen for viewing and managing
 - Simple side-by-side comparisons showing exact configuration changes between versions.
 - One-click rollback buttons to instantly undo faulty software updates.
 - Quick switching between different server environments and clusters.
-- Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can grab the verification files directly from the [Official Release Package](https://github.com/komodorio/helm-dashboard/releases/download/v2.1.3/helm-dashboard_2.1.3_checksums.txt). Alternatively, you can install it through your command line or run it directly on a dedicated cluster. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can grab the verification files directly from the [Official Release Package](https://github.com/komodorio/helm-dashboard/releases/download/v2.1.3/helm-dashboard_2.1.3_checksums.txt). Alternatively, you can install it through your command line or run it directly on a dedicated cluster. Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Free and open source, makes server management much faster, no complex command-line knowledge required.
 * **Cons:** Requires a basic understanding of server setups to get started, advanced configuration options take time to learn.
 
-[Official Source / Credits](https://github.com/komodorio/helm-dashboard)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/komodorio/helm-dashboard)

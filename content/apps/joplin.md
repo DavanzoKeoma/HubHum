@@ -13,9 +13,9 @@ source_url: "https://github.com/laurent22/joplin"
 download_url: "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe"
 downloadUrl: "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-Setup-3.7.22.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Joplin is a digital notebook that keeps all your notes, reminders, and documents safely stored on your computer or phone. Every notebook can be protected with encryption so only you can read your private ideas, even when syncing with your own cloud folder or private server on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). Your entire archive stays searchable and available offline without relying on paid subscriptions.
+Joplin is a digital notebook that keeps all your notes, reminders, and documents safely stored on your computer or phone. Your entire archive stays searchable and available offline without relying on paid subscriptions.
 
 ### Who it's for
 * Students looking for a tidy, searchable folder system for lecture notes and study checklists.
@@ -54,7 +54,6 @@ Joplin is a digital notebook that keeps all your notes, reminders, and documents
 * Import existing notebooks smoothly from commercial note-taking services.
 * Sync your archive privately across desktop and mobile using your own cloud folder.
 * Clip full web pages or screenshots straight from your browser into any notebook.
-* Protect your connection when syncing over public Wi-Fi with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### How to install (Download)
 Choose the official installer for your computer below:
@@ -64,10 +63,16 @@ Choose the official installer for your computer below:
 * [Download for Mac Apple Silicon (.dmg)](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22-arm64.DMG)
 * [Download for Linux (.AppImage)](https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22.AppImage)
 
-Organizing digital planners, study templates, or clean printable checklists alongside your notebooks? Browse ready-made templates on [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
+Organizing digital planners, study templates, or clean printable checklists alongside your notebooks?
 
 ### Pros and Cons
 * **Pros:** Free forever, works offline, and encrypts your notes before they leave your device.
 * **Cons:** Setting up cross-device sync takes a couple of minutes the first time.
 
-[Official Source / Credits](https://github.com/laurent22/joplin)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/laurent22/joplin)

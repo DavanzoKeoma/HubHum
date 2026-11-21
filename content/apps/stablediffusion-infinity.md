@@ -13,9 +13,9 @@ source_url: "https://github.com/lkwq007/stablediffusion-infinity"
 download_url: "https://github.com/lkwq007/stablediffusion-infinity/releases"
 downloadUrl: "https://github.com/lkwq007/stablediffusion-infinity/releases"
 download_label: "Visit Official Site"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool lets you take any regular photograph and expand its borders outward in any direction. Smart technology looks at your original picture and fills in the newly created space with matching artwork, making your image look like a tiny window into a much larger world. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+This tool lets you take any regular photograph and expand its borders outward in any direction. Smart technology looks at your original picture and fills in the newly created space with matching artwork, making your image look like a tiny window into a much larger world.
 
 ### Who it's for
 * Digital artists and illustrators looking for creative inspiration and boundless scenery generation.
@@ -53,12 +53,18 @@ This tool lets you take any regular photograph and expand its borders outward in
 * **Seamless Blending:** Automatically matches colors, lighting, and textures so the newly painted areas look completely natural.
 * **Interactive Control:** Easily select specific spots on the canvas to refine, tweak, or guide the visual style.
 * **Cloud or Local Options:** Run the project directly on your own computer or test it instantly online through supported web platforms.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-To get started, you can try out the live web version directly in your browser via the [Hugging Face Space](https://huggingface.co/spaces/lnyan/stablediffusion-infinity) or run it interactively using the [Google Colab Notebook](https://colab.research.google.com/github/lkwq007/stablediffusion-infinity/blob/master/stablediffusion_infinity_colab.ipynb). If you prefer running everything locally on your own machine, follow the step-by-step instructions in the [Official Setup Guide](https://github.com/lkwq007/stablediffusion-infinity/blob/master/docs/setup_guide.md). Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+To get started, you can try out the live web version directly in your browser via the [Hugging Face Space](https://huggingface.co/spaces/lnyan/stablediffusion-infinity) or run it interactively using the [Google Colab Notebook](https://colab.research.google.com/github/lkwq007/stablediffusion-infinity/blob/master/stablediffusion_infinity_colab.ipynb). If you prefer running everything locally on your own machine, follow the step-by-step instructions in the [Official Setup Guide](https://github.com/lkwq007/stablediffusion-infinity/blob/master/docs/setup_guide.md).
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, offers infinite creative freedom, works directly with popular artificial intelligence imaging models.
 * **Cons:** Requires a capable computer graphics card for smooth local performance, and large images may take extra time to process.
-[Official Source / Credits](https://github.com/lkwq007/stablediffusion-infinity)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/lkwq007/stablediffusion-infinity)

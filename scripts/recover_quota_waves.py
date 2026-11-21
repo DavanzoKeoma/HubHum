@@ -241,7 +241,7 @@ def execute_streaming_recovery(
                         continue
 
                     if tier_arg == "tier1":
-                        if bundle.app_type == "cli":
+                        if bundle.app_type in ("cli", "resource"):
                             continue
                         raw_topics = {t.lower() for t in (item.get("topics") or [])}
                         if not bundle.release_assets and not (
@@ -253,13 +253,14 @@ def execute_streaming_recovery(
                         bundle.scouting_tier = "tier1_gui"
                     elif tier_arg == "tier2":
                         bundle.is_webapp = True
-                        bundle.app_type = "webapp"
+                        bundle.app_type = "selfhosted"
                         bundle.category = "Web Apps & Cloud"
-                        bundle.operating_system = "All / Browser"
+                        bundle.operating_system = "Self-Hosted / Browser"
                         bundle.scouting_tier = "tier2_webapp"
                     elif tier_arg == "tier3":
                         bundle.is_webapp = False
-                        bundle.app_type = "cli"
+                        if bundle.app_type != "resource":
+                            bundle.app_type = "cli"
                         bundle.scouting_tier = "tier3_powertool"
                         if bundle.category == "Graphics & Design":
                             bundle.category = "Utilities & Power Tools"

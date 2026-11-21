@@ -3,19 +3,19 @@ title: "Huginn"
 slug: "huginn"
 tagline: "Build custom automated web agents easily"
 summary: "Create smart online agents that monitor websites, read updates, and trigger automated actions on your own private server."
-tags: ["automation", "web-scraping", "cloud-app", "rss"]
+tags: ["automation", "cloud-app", "rss"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/huginn.png"
 stars: 50594
 source_url: "https://github.com/huginn/huginn"
 download_url: "https://github.com/huginn/huginn/releases"
 downloadUrl: "https://github.com/huginn/huginn/releases"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Huginn acts as your personal digital assistant by running small automated tasks across the web for you. It can watch websites for sudden changes, track weather forecasts, and capture your personal location over time. When combined with your favorite communication tools, it instantly sends alerts or summary emails whenever something important happens. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Huginn acts as your personal digital assistant by running small automated tasks across the web for you. It can watch websites for sudden changes, track weather forecasts, and capture your personal location over time. When combined with your favorite communication tools, it instantly sends alerts or summary emails whenever something important happens.
 
 ### Who it's for
 * Privacy-conscious individuals who want the power of cloud automation tools without sharing their personal data with third-party companies.
@@ -54,13 +54,18 @@ Huginn acts as your personal digital assistant by running small automated tasks 
 * Feed and alert integration that responds instantly to incoming emails, text messages, RSS feeds, and webhooks.
 * Custom notification dispatching to popular messaging apps, SMS gateways, and automated phone calls.
 * Flexible data management allowing you to fetch, transform, and store files safely on local or cloud storage.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started right away on your computer or home server, use the official tool container via [Huginn Releases & Source Code](https://github.com/huginn/huginn/releases). Detailed setup guides for Docker, manual installations, and server hosting options are available directly in the [Official Source official project page](https://github.com/huginn/huginn). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started right away on your computer or home server, use the official tool container via [Huginn Releases & Source Code](https://github.com/huginn/huginn/releases). Detailed setup guides for Docker, manual installations, and server hosting options are available directly in the [Official Source official project page](https://github.com/huginn/huginn).
 
 ### Pros and Cons
 * **Pros:** Complete ownership of your data, highly flexible customization, and free to self-host forever.
 * **Cons:** Requires a server or always-on computer to run continuously, and setting up complex agents takes a bit of patience.
 
-[Official Source / Credits](https://github.com/huginn/huginn)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/huginn/huginn)

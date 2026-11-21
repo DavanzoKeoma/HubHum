@@ -13,7 +13,7 @@ source_url: "https://github.com/easydiffusion/easydiffusion"
 download_url: "https://github.com/easydiffusion/easydiffusion/releases/download/v3.0.16/Easy-Diffusion-Windows.exe"
 downloadUrl: "https://github.com/easydiffusion/easydiffusion/releases/download/v3.0.16/Easy-Diffusion-Windows.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "DesignApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This application lets you generate professional-quality artwork and illustrations by simply typing out a text description. It runs entirely on your own personal computer without requiring any complex command-line tools or technical background. While creating your visual assets, if you ever need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This application lets you generate professional-quality artwork and illustrations by simply typing out a text description. It runs entirely on your own personal computer without requiring any complex command-line tools or technical background.
 
 ### Who it's for
 * Digital artists and hobbyists looking to experiment with artificial intelligence imagery locally and privately.
@@ -53,17 +53,20 @@ This application lets you generate professional-quality artwork and illustration
 * **Live visual feedback**: Watch your images form step-by-step on your screen as the intelligent engine renders them.
 * **Smart task queue**: Line up multiple ideas and prompts to generate images back-to-back without waiting around.
 * **Face and clarity enhancement**: Automatically sharpen details and fix facial features using built-in enhancement tools.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Click the link below to get the official installer for your computer:
 
 * [Download for Windows (.exe)](https://github.com/easydiffusion/easydiffusion/releases/download/v3.0.16/Easy-Diffusion-Windows.exe)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free to use, runs offline for total privacy, and features a clean, clutter-free user interface.
 * **Cons:** Requires a modern computer with a decent graphics card for fast generation speeds.
 
-[Official Source / Credits](https://github.com/easydiffusion/easydiffusion)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/easydiffusion/easydiffusion)

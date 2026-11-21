@@ -156,6 +156,16 @@ TECH_JARGON_TAGS = {
     "neovim",
     "vim",
     "command-line",
+    "binary",
+    "tokens",
+    "llm",
+    "mcp",
+    "osint",
+    "ctf",
+    "web-scraping",
+    "crawler",
+    "playwright",
+    "puppeteer",
 }
 
 TAG_HUMAN_REMAP = {
@@ -170,8 +180,26 @@ TAG_HUMAN_REMAP = {
     "dotfiles": "productivity",
     "neovim": "writing",
     "vim": "writing",
-    "docker": "cloud-app",
-    "self-hosted": "cloud-app",
+    "docker": "self-hosted",
+    "self-hosted": "self-hosted",
+    "osint": "privacy",
+    "web-scraping": "automation",
+    "llm": "ai-assistant",
+    "mcp": "automation",
+}
+
+KNOWN_REFERENCE_SLUGS = {
+    "awesome",
+    "ui-ux-pro-max-skill",
+    "self-hosting-guide",
+    "linux-command",
+    "cheat-sh",
+    "claude-code-templates",
+    "obsidian-skills",
+    "pythonguis-examples",
+    "qtexamples",
+    "you-dont-need-gui",
+    "awesome-mac",
 }
 
 KNOWN_CLI_OR_TOOLKIT_SLUGS = {
@@ -186,13 +214,13 @@ KNOWN_CLI_OR_TOOLKIT_SLUGS = {
     "tweakpane", "winit", "toga", "pywebview", "nicegui", "gdbgui",
     "agent-desktop", "agent-reach", "aider", "airflow", "android-tools",
     "appium", "archon", "ast-grep", "awx", "azul", "basscss", "broot",
-    "bullet", "carbonyl", "cheat-sh", "claude-code-templates", "claude-hud",
+    "bullet", "carbonyl", "claude-hud",
     "cobra", "common-utility", "compose-multiplatform", "continue",
     "create-t3-app", "ctop", "distrobox", "dive", "dufs", "exa",
     "fastlane", "fselect", "fx", "fyrox", "gh-stack", "glow", "go-app",
     "goaccess", "gping", "gtop", "gitsome", "herdr", "http-server",
     "hyperfine", "implot", "instapy", "jj", "kestra", "kilocode", "leva",
-    "licia", "linux-command", "lxrunoffline", "metrics", "micro", "miller",
+    "licia", "lxrunoffline", "metrics", "micro", "miller",
     "ms", "ntrace-core", "nx", "oh-my-claudecode", "oh-my-pi", "oha",
     "onefetch", "plandex", "playwright", "pm2", "powershell", "prefect",
     "puppeteer", "pysimplegui", "pywinauto", "q", "qrcp", "qwen-code",
@@ -202,8 +230,55 @@ KNOWN_CLI_OR_TOOLKIT_SLUGS = {
     "terminalizer", "termscp", "trigger-dev", "ts-prune", "ts-toolbelt",
     "typer", "ufo", "uhubctl", "underscore-string", "usql", "util",
     "vagrant", "vhs", "walk", "winget-cli", "witr", "wtf", "wttr-in",
-    "xterm-js", "you-dont-need-gui", "zx",
+    "xterm-js", "zx",
+    # Technical developer / security / OSINT tools better classified as CLI/Power tools than everyday desktop GUIs
+    "rea", "sherlock", "maigret", "cutter", "gitleaks",
 }
+
+LICENSE_HUMAN_MAP: dict[str, str] = {
+    "NOASSERTION": "Custom Open License",
+    "": "Custom Open License",
+    "NONE": "Custom Open License",
+    "CUSTOM": "Custom Open License",
+    "OPEN SOURCE": "Open Source License",
+    "MIT": "Open Source (MIT)",
+    "APACHE-2.0": "Open Source (Apache 2.0)",
+    "GPL-3.0": "Open Source (GPL v3)",
+    "GPL-3.0-ONLY": "Open Source (GPL v3)",
+    "GPL-3.0-OR-LATER": "Open Source (GPL v3)",
+    "GPL-2.0": "Open Source (GPL v2)",
+    "GPL-2.0-ONLY": "Open Source (GPL v2)",
+    "GPL-2.0-OR-LATER": "Open Source (GPL v2)",
+    "AGPL-3.0": "Open Source (AGPL v3)",
+    "AGPL-3.0-ONLY": "Open Source (AGPL v3)",
+    "AGPL-3.0-OR-LATER": "Open Source (AGPL v3)",
+    "MPL-2.0": "Open Source (MPL 2.0)",
+    "BSD-3-CLAUSE": "Open Source (BSD)",
+    "BSD-2-CLAUSE": "Open Source (BSD)",
+    "LGPL-2.1": "Open Source (LGPL)",
+    "LGPL-3.0": "Open Source (LGPL)",
+    "LGPL-2.1-ONLY": "Open Source (LGPL)",
+    "LGPL-3.0-ONLY": "Open Source (LGPL)",
+    "UNLICENSE": "Public Domain / Free",
+    "CC0-1.0": "Public Domain / Free",
+    "WTFPL": "Public Domain / Free",
+    "ISC": "Open Source (ISC)",
+    "ZLIB": "Open Source (zlib)",
+    "EPL-2.0": "Open Source (EPL 2.0)",
+    "CC-BY-4.0": "Creative Commons (CC BY 4.0)",
+    "CC-BY-SA-4.0": "Creative Commons (CC BY-SA 4.0)",
+}
+
+
+def humanize_license(raw_lic: str | None) -> str:
+    """Translate raw GitHub/SPDX license identifiers into plain human labels."""
+    clean = str(raw_lic or "").strip()
+    if clean in LICENSE_HUMAN_MAP.values():
+        return clean
+    upper = clean.upper()
+    if upper in LICENSE_HUMAN_MAP:
+        return LICENSE_HUMAN_MAP[upper]
+    return f"Open Source ({clean})" if clean else "Custom Open License"
 
 DESKTOP_TERMINAL_SLUGS = {
     "alacritty", "conemu", "cool-retro-term", "kitty", "tabby",
@@ -445,33 +520,6 @@ def classify_app_type_and_category(
     meta_text = f"{title} {slug_low} {description} {' '.join(topics)}".lower()
     topic_set = {t.lower().strip() for t in topics if t}
 
-    is_known_cli_or_tk = slug_low in KNOWN_CLI_OR_TOOLKIT_SLUGS or slug_low.endswith("-cli")
-    has_cli_signal = is_known_cli_or_tk or bool(
-        re.search(
-            r"\b(?:command[- ]line|terminal utility|shell prompt|directory jumper|progress bar|fuzzy finder|"
-            r"zsh framework|gui library|ui library|widget toolkit|immediate mode gui|terminal ui|tui|"
-            r"game engine|rendering engine|plotting library|css framework|utility library)\b",
-            meta_text,
-        )
-    ) or bool(topic_set & {"cli", "terminal", "command-line", "zsh", "shell", "dotfiles", "tui"})
-
-    has_webapp_signal = current_tier == "tier2_webapp" or slug_low in {
-        "analytics", "core", "openblocks", "dify", "maxun", "skyvern", "puter", "ai-website-cloner-template",
-    } or (
-        not has_desktop_installer
-        and not has_cli_signal
-        and slug_low not in DESKTOP_TERMINAL_SLUGS
-        and bool(
-            re.search(
-                r"\b(?:self-hosted|web app|webapp|saas|browser-based|cms|control panel|web dashboard|"
-                r"cloud workspace|headless cms|wiki platform|webmail|knowledge base server|media server|"
-                r"music server|homepage dashboard|analytics platform|low-code|no-code)\b",
-                meta_text,
-            )
-            or (topic_set & {"self-hosted", "cms", "web-app", "webapp", "saas", "dashboard"})
-        )
-    )
-
     is_security_domain = slug_low not in {"joplin", "photoprism", "reactive-resume", "analytics", "core", "memos", "meetily", "siyuan", "jan", "appsmith", "illa-builder"} and bool(
         re.search(
             r"\b(?:password manager|passwords|vpn|ipsec|wireguard|adblock|firewall|network monitor|"
@@ -500,6 +548,51 @@ def classify_app_type_and_category(
         or (topic_set & {"design", "vector", "image-editor", "photo-editor", "drawing", "mockup", "3d-modeling"})
     )
 
+    # 0. Open Reference / Curated Guides / Skill Packs (never labeled Desktop App)
+    if slug_low in KNOWN_REFERENCE_SLUGS or slug_low.startswith("awesome-") or re.search(
+        r"\b(?:curated list|awesome list|collections of|cheatsheet|prompt library|ai skill|ui ux)\b",
+        meta_text,
+    ):
+        ref_cat = "Productivity"
+        if "self-hosting" in slug_low:
+            ref_cat = "Web Apps & Cloud"
+        elif is_graphics_domain:
+            ref_cat = "Graphics & Design"
+        elif slug_low in {"linux-command", "cheat-sh", "you-dont-need-gui"}:
+            ref_cat = "Utilities & Power Tools"
+        return "resource", ref_cat, "tier3_powertool", False, "webdev_wordpress"
+
+    is_known_cli_or_tk = slug_low in KNOWN_CLI_OR_TOOLKIT_SLUGS or slug_low.endswith("-cli")
+    has_cli_signal = is_known_cli_or_tk or bool(
+        re.search(
+            r"\b(?:command[- ]line|terminal utility|shell prompt|directory jumper|progress bar|fuzzy finder|"
+            r"zsh framework|gui library|ui library|widget toolkit|immediate mode gui|terminal ui|tui|"
+            r"game engine|rendering engine|plotting library|css framework|utility library|binary level|"
+            r"reverse engineering|osint|command-line interface)\b",
+            meta_text,
+        )
+    ) or bool(topic_set & {"cli", "terminal", "command-line", "zsh", "shell", "dotfiles", "tui"})
+
+    is_hosted_browser_app = slug_low == "hubhum" or bool(
+        re.search(r"\b(?:hosted online|free online service|no installation required|runs on our servers)\b", meta_text)
+    )
+    has_webapp_signal = current_tier == "tier2_webapp" or slug_low in {
+        "analytics", "core", "openblocks", "dify", "maxun", "skyvern", "puter", "ai-website-cloner-template",
+    } or (
+        not has_desktop_installer
+        and not has_cli_signal
+        and slug_low not in DESKTOP_TERMINAL_SLUGS
+        and bool(
+            re.search(
+                r"\b(?:self-hosted|web app|webapp|saas|browser-based|cms|control panel|web dashboard|"
+                r"cloud workspace|headless cms|wiki platform|webmail|knowledge base server|media server|"
+                r"music server|homepage dashboard|analytics platform|low-code|no-code)\b",
+                meta_text,
+            )
+            or (topic_set & {"self-hosted", "cms", "web-app", "webapp", "saas", "dashboard"})
+        )
+    )
+
     if slug_low in DESKTOP_TERMINAL_SLUGS:
         return "desktop", "Utilities & Power Tools", "tier1_gui", False, "webdev_wordpress"
 
@@ -507,8 +600,6 @@ def classify_app_type_and_category(
         app_type = "cli"
         scouting_tier = "tier3_powertool"
         is_webapp = False
-        if slug_low == "awesome" or slug_low.startswith("awesome-"):
-            return app_type, "Productivity", scouting_tier, is_webapp, "webdev_wordpress"
         if is_security_domain:
             return app_type, "Security & Privacy", scouting_tier, is_webapp, "privacy_security"
         if is_video_audio_domain:
@@ -518,7 +609,7 @@ def classify_app_type_and_category(
         return app_type, "Utilities & Power Tools", scouting_tier, is_webapp, "webdev_wordpress"
 
     if has_webapp_signal or (current_tier == "tier2_webapp" and not has_cli_signal):
-        app_type = "webapp"
+        app_type = "webapp" if is_hosted_browser_app else "selfhosted"
         scouting_tier = "tier2_webapp"
         is_webapp = True
         if is_security_domain:
@@ -562,10 +653,19 @@ def classify_repo(description: str, topics: list[str], readme: str, release_asse
     return is_webapp, cat, aff
 
 
-def derive_operating_system(is_webapp: bool, release_assets: list[dict[str, str]], topics: list[str]) -> str:
-    """Compute crisp Schema.org operatingSystem string from release assets and topics."""
-    if is_webapp:
-        return "All / Browser"
+def derive_operating_system(
+    is_webapp: bool,
+    release_assets: list[dict[str, str]],
+    topics: list[str],
+    app_type: str = "desktop",
+) -> str:
+    """Compute accurate Schema.org operatingSystem string without falsely claiming Android."""
+    if app_type == "webapp":
+        return "Browser / Online"
+    if app_type == "selfhosted" or is_webapp:
+        return "Self-Hosted / Browser"
+    if app_type == "resource":
+        return "All / Reference"
     oses: list[str] = []
     asset_names = " ".join(a.get("name", "").lower() for a in release_assets)
     topic_str = " ".join(t.lower() for t in topics)
@@ -575,12 +675,12 @@ def derive_operating_system(is_webapp: bool, release_assets: list[dict[str, str]
         oses.append("macOS")
     if any(ext in asset_names for ext in (".appimage", ".deb")) or "linux" in topic_str:
         oses.append("Linux")
-    if ".apk" in asset_names or "android" in topic_str:
+    if (".apk" in asset_names or "android" in topic_str) and app_type != "cli":
         oses.append("Android")
-    if "ios" in topic_str:
+    if "ios" in topic_str and app_type != "cli":
         oses.append("iOS")
     if not oses:
-        return "Windows, macOS, Linux, Android"
+        return "Windows, macOS, Linux"
     return ", ".join(oses)
 
 
@@ -725,14 +825,15 @@ def fetch_repo_bundle(
         scouting_tier = detected_tier
     if scouting_tier == "tier2_webapp":
         is_webapp = True
-        app_type = "webapp"
+        if app_type not in ("webapp", "selfhosted"):
+            app_type = "selfhosted"
     elif scouting_tier == "tier3_powertool" and app_type == "desktop" and not has_desktop_installer:
         app_type = "cli"
         if category == "Graphics & Design":
             category = "Utilities & Power Tools"
 
     human_topics = sanitize_human_tags(topics, category=category, app_type=app_type)
-    operating_system = derive_operating_system(is_webapp, release_assets, topics)
+    operating_system = derive_operating_system(is_webapp, release_assets, topics, app_type=app_type)
 
     html_url = meta["html_url"]
     homepage = (meta.get("homepage") or "").strip()
@@ -750,12 +851,17 @@ def fetch_repo_bundle(
         primary_label = release_assets[0]["label"]
     elif app_type == "cli":
         primary_label = "Get Command-Line Tool →"
+    elif app_type == "resource":
+        primary_label = "Browse Reference →"
+    elif app_type == "selfhosted":
+        primary_label = "Official Setup & Docs →"
     elif is_webapp:
         primary_label = "Open in Cloud →"
     else:
         primary_label = "Visit Official Site"
 
-    lic = (meta.get("license") or {}).get("spdx_id") or "Open Source"
+    raw_lic = (meta.get("license") or {}).get("spdx_id") or ""
+    lic = humanize_license(raw_lic)
     avatar_url = ((meta.get("owner") or {}).get("avatar_url") or "").strip()
     icon_path = download_repo_icon(slug, avatar_url)
 
@@ -842,7 +948,7 @@ def _search_tier_candidates(
                 except Exception:
                     continue
 
-                if tier_key == "tier1_gui" and bundle.app_type == "cli":
+                if tier_key == "tier1_gui" and bundle.app_type in ("cli", "resource"):
                     continue
 
                 if require_installer and not bundle.release_assets and tier_key == "tier1_gui":
@@ -853,11 +959,12 @@ def _search_tier_candidates(
 
                 if tier_key == "tier2_webapp":
                     bundle.is_webapp = True
-                    bundle.app_type = "webapp"
+                    bundle.app_type = "selfhosted"
                     bundle.category = "Web Apps & Cloud"
-                    bundle.operating_system = "All / Browser"
+                    bundle.operating_system = "Self-Hosted / Browser"
                 elif tier_key == "tier3_powertool":
-                    bundle.app_type = "cli"
+                    if bundle.app_type != "resource":
+                        bundle.app_type = "cli"
                     bundle.is_webapp = False
 
                 collected.append(bundle)

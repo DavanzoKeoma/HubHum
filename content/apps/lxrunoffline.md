@@ -13,7 +13,7 @@ source_url: "https://github.com/DDoSolitary/LxRunOffline"
 download_url: "https://github.com/DDoSolitary/LxRunOffline/releases"
 downloadUrl: "https://github.com/DDoSolitary/LxRunOffline/releases"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-LxRunOffline is a helpful utility that gives you absolute freedom over your virtual Linux setups on Windows. Instead of being locked into a single default location, you can freely move your installations to any folder or even store them on a portable USB drive. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It also lets you back up your entire system into a simple file or quickly duplicate environments without hassle.
+LxRunOffline is a helpful utility that gives you absolute freedom over your virtual Linux setups on Windows. Instead of being locked into a single default location, you can freely move your installations to any folder or even store them on a portable USB drive. It also lets you back up your entire system into a simple file or quickly duplicate environments without hassle.
 
 ### Who it's for
 - Developers who want to move their Linux environments to a faster secondary drive to save space.
@@ -54,12 +54,18 @@ LxRunOffline is a helpful utility that gives you absolute freedom over your virt
 - Move existing Linux setups to another hard drive or directory without reinstalling.
 - Duplicate an entire installation with a single command for testing purposes.
 - Register folders from external USB sticks so you can run your environment on different PCs.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can grab the latest version directly from the [Official Releases Page](https://github.com/DDoSolitary/LxRunOffline/releases). Alternatively, if you use package managers on Windows, you can install it instantly using Chocolatey or Scoop. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can grab the latest version directly from the [Official Releases Page](https://github.com/DDoSolitary/LxRunOffline/releases). Alternatively, if you use package managers on Windows, you can install it instantly using Chocolatey or Scoop.
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, enables true portability for Linux environments on Windows.
 * **Cons:** Primarily controlled via text commands, which might take a little practice for beginners.
-[Official Source / Credits](https://github.com/DDoSolitary/LxRunOffline)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/DDoSolitary/LxRunOffline)

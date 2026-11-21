@@ -13,7 +13,7 @@ source_url: "https://github.com/nuttyartist/notes"
 download_url: "https://github.com/nuttyartist/notes/releases/download/v2.3.1/NotesSetup_2.3.1.exe"
 downloadUrl: "https://github.com/nuttyartist/notes/releases/download/v2.3.1/NotesSetup_2.3.1.exe"
 download_label: "Download for Windows (.exe)"
-license: "MPL-2.0"
+license: "Open Source (MPL 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Notes is a clean, lightning-fast application built to help you capture your thoughts, lists, and ideas in one secure place. It formats your text seamlessly using simple formatting tags while keeping your personal information completely private and tracked by no one. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Notes is a clean, lightning-fast application built to help you capture your thoughts, lists, and ideas in one secure place. It formats your text seamlessly using simple formatting tags while keeping your personal information completely private and tracked by no one.
 
 ### Who it's for
 * Students and researchers organizing study topics with nested folders and tags.
@@ -54,7 +54,6 @@ Notes is a clean, lightning-fast application built to help you capture your thou
 * **Complete Privacy:** Operates entirely locally on your machine with zero data tracking.
 * **Customizable Themes:** Switch effortlessly between Light, Dark, and Sepia viewing modes.
 * **Global Hotkeys:** Summon your workspace from the background instantly using a simple keyboard combination.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can download the application directly for your preferred operating system using the official installer links below:
@@ -62,10 +61,14 @@ You can download the application directly for your preferred operating system us
 * [Download for Mac (.dmg)](https://github.com/nuttyartist/notes/releases/download/v2.3.1/Notes.2.3.1.dmg)
 * [Download for Linux (.AppImage)](https://github.com/nuttyartist/notes/releases/download/v2.3.1/Notes_2.3.1-Qt6.4.3-x86_64.AppImage)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free and open source, respects user privacy with zero telemetry, lightning-fast C++ performance.
 * **Cons:** Advanced syncing features and collaborative editing are still under active development.
 
-[Official Source / Credits](https://github.com/nuttyartist/notes)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/nuttyartist/notes)

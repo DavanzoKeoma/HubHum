@@ -13,7 +13,7 @@ source_url: "https://github.com/fastfetch-cli/fastfetch"
 download_url: "https://github.com/fastfetch-cli/fastfetch/releases/download/2.71.0/fastfetch-freebsd-amd64.pkg"
 downloadUrl: "https://github.com/fastfetch-cli/fastfetch/releases/download/2.71.0/fastfetch-freebsd-amd64.pkg"
 download_label: "Download for Mac (.pkg)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Fastfetch fetches your computer's hardware and operating system information and presents it in your terminal window with colorful logos and clean styling. It operates much faster than older traditional tools by writing in optimized code and focusing strictly on rapid performance. You can easily tailor what details appear, from memory usage to graphic card names, using simple configuration files. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Fastfetch fetches your computer's hardware and operating system information and presents it in your terminal window with colorful logos and clean styling. It operates much faster than older traditional tools by writing in optimized code and focusing strictly on rapid performance. You can easily tailor what details appear, from memory usage to graphic card names, using simple configuration files.
 
 ### Who it's for
 * Computer enthusiasts who love displaying tidy system hardware summaries when opening a new terminal window.
@@ -53,7 +53,6 @@ Fastfetch fetches your computer's hardware and operating system information and 
 * Blazing fast execution speed with minimal resource consumption on startup.
 * Broad operating system compatibility including Linux, macOS, Windows, and BSD variants.
 * Extensive customization options allowing you to choose specific details, colors, and visual logo designs.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 * Accurate detection of modern hardware components such as graphics cards, memory specs, and network details.
 
 ### How to install (Download)
@@ -61,9 +60,15 @@ You can grab pre-compiled installers directly for your environment or utilize yo
 * [Download for Mac (.pkg)](https://github.com/fastfetch-cli/fastfetch/releases/download/2.71.0/fastfetch-freebsd-amd64.pkg)
 * [Download for Linux (.deb - AMD64)](https://github.com/fastfetch-cli/fastfetch/releases/download/2.71.0/fastfetch-linux-amd64.deb)
 * [Download for Linux (.deb - AArch64)](https://github.com/fastfetch-cli/fastfetch/releases/download/2.71.0/fastfetch-linux-aarch64.deb)
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, significantly faster than legacy alternatives, highly customizable appearance.
 * **Cons:** Advanced configuration files require manual text editing, text-based interface might not appeal to mouse-only users.
-[Official Source / Credits](https://github.com/fastfetch-cli/fastfetch)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/fastfetch-cli/fastfetch)

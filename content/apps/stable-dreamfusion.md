@@ -13,9 +13,9 @@ source_url: "https://github.com/ashawkey/stable-dreamfusion"
 download_url: "https://github.com/ashawkey/stable-dreamfusion/releases"
 downloadUrl: "https://github.com/ashawkey/stable-dreamfusion/releases"
 download_label: "Visit Official Site"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Stable-Dreamfusion acts as your personal digital sculptor, taking typed phrases or flat pictures and converting them into fully formed 3D objects. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). You can easily view your generated creations from every angle, export them for use in other software, or refine their surface details.
+Stable-Dreamfusion acts as your personal digital sculptor, taking typed phrases or flat pictures and converting them into fully formed 3D objects. You can easily view your generated creations from every angle, export them for use in other software, or refine their surface details.
 
 ### Who it's for
 * **3D Artists and Animators:** Quickly prototype complex object ideas and textures from a simple sentence before detailed sculpting.
@@ -54,13 +54,18 @@ Stable-Dreamfusion acts as your personal digital sculptor, taking typed phrases 
 * **Image-to-3D Conversion:** Transform a single front-facing photograph into a fully realized 3D shape.
 * **Mesh and Texture Export:** Save your final work complete with texture maps and geometry files for external use.
 * **Interactive Preview Window:** Rotate and inspect your generated models in real-time with an integrated viewing window.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started, clone the source code and set up your environment by visiting the [Official Releases & Source Page](https://github.com/ashawkey/stable-dreamfusion/releases). Follow the setup instructions in the project documentation to install the required dependencies and optional acceleration tools. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, clone the source code and set up your environment by visiting the [Official Releases & Source Page](https://github.com/ashawkey/stable-dreamfusion/releases). Follow the setup instructions in the project documentation to install the required dependencies and optional acceleration tools.
 
 ### Pros and Cons
 * **Pros:** Completely open-source, supports both text and photo inputs, and exports standard 3D formats.
 * **Cons:** Requires a modern computer with a powerful graphics card and patience for command-line setup.
 
-[Official Source / Credits](https://github.com/ashawkey/stable-dreamfusion)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ashawkey/stable-dreamfusion)

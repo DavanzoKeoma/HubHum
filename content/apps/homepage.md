@@ -5,17 +5,17 @@ tagline: "Your modern and fast application dashboard."
 summary: "Create a centralized dashboard for all your favorite apps, services, and live widgets in one custom page."
 tags: ["dashboard", "cloud-app", "startpage", "widgets"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/homepage.png"
 stars: 33747
 source_url: "https://github.com/gethomepage/homepage"
 download_url: "https://gethomepage.dev"
 downloadUrl: "https://gethomepage.dev"
-download_label: "Visit Official Site"
-license: "GPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool acts as a gorgeous central hub that brings together all the web services, media servers, and utilities you use every day. Instead of juggling dozens of browser bookmarks, you see live status indicators, weather updates, and quick links in a single sleek view. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This tool acts as a gorgeous central hub that brings together all the web services, media servers, and utilities you use every day. Instead of juggling dozens of browser bookmarks, you see live status indicators, weather updates, and quick links in a single sleek view.
 
 ### Who it's for
 * Smart home enthusiasts and media server owners managing multiple containers and services.
@@ -54,12 +54,18 @@ This tool acts as a gorgeous central hub that brings together all the web servic
 * **Live Service Integrations:** Connects natively with over a hundred popular media libraries, download clients, and system monitors.
 * **Rich Information Widgets:** Displays live weather, calendar events, time, and system resource metrics at a glance.
 * **Secure Backend Proxy:** Keeps your private keys and login tokens hidden by routing communication safely through the server.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-This application runs as a web service designed to be hosted locally or on a remote server. You can visit the [Official Website](https://gethomepage.dev) to read the full setup documentation and configuration guides. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+This application runs as a web service designed to be hosted locally or on a remote server. You can visit the [Official Website](https://gethomepage.dev) to read the full setup documentation and configuration guides. Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Extremely fast loading speeds, extensive widget library, and active community support.
 * **Cons:** Initial setup requires editing text configuration files, and accessing advanced widgets needs proper network permissions.
-[Official Source / Credits](https://github.com/gethomepage/homepage)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/gethomepage/homepage)

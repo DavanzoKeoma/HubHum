@@ -13,7 +13,7 @@ source_url: "https://github.com/89luca89/distrobox"
 download_url: "https://distrobox.it/"
 downloadUrl: "https://distrobox.it/"
 download_label: "Get Command-Line Tool →"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool lets you run any Linux distribution directly inside your current terminal environment. It connects your isolated container straight to your main computer, allowing you to share your personal files, external drives, and graphical programs effortlessly. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This tool lets you run any Linux distribution directly inside your current terminal environment. It connects your isolated container straight to your main computer, allowing you to share your personal files, external drives, and graphical programs effortlessly.
 
 ### Who it's for
 * Developers who need a specific software environment or newer programming tools that their current operating system doesn't provide.
@@ -53,12 +53,18 @@ This tool lets you run any Linux distribution directly inside your current termi
 * Deep host integration that automatically shares your user folder, audio devices, and display servers.
 * Ability to export graphical apps straight into your regular desktop application menu.
 * Batch creation and management of multiple custom environments using simple text setup files.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-This tool works directly through your terminal using lightweight container managers. You can view the official code and documentation at the [Distrobox Official Website](https://distrobox.it/). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+This tool works directly through your terminal using lightweight container managers. You can view the official code and documentation at the [Distrobox Official Website](https://distrobox.it/). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Free and open source, highly integrated with your desktop, supports dozens of different host and guest distributions.
 * **Cons:** Requires a basic understanding of terminal commands and a container engine already installed on your system.
-[Official Source / Credits](https://github.com/89luca89/distrobox)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/89luca89/distrobox)

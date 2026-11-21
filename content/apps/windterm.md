@@ -13,7 +13,7 @@ source_url: "https://github.com/kingToolbox/WindTerm"
 download_url: "https://github.com/kingToolbox/WindTerm/releases/download/2.7.0/WindTerm_2.7.0_Mac_Portable_x86_64.dmg"
 downloadUrl: "https://github.com/kingToolbox/WindTerm/releases/download/2.7.0/WindTerm_2.7.0_Mac_Portable_x86_64.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "Open Source"
+license: "Open Source License"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-WindTerm acts as a secure control center for connecting to remote computers, servers, and network devices over the internet. It allows system operators to execute commands, view live logs, and transfer files effortlessly within a single organized interface. Its high-performance core ensures smooth scrolling and instant text rendering even when handling millions of lines of output. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+WindTerm acts as a secure control center for connecting to remote computers, servers, and network devices over the internet. It allows system operators to execute commands, view live logs, and transfer files effortlessly within a single organized interface. Its high-performance core ensures smooth scrolling and instant text rendering even when handling millions of lines of output.
 
 ### Who it's for
 * System administrators who manage multiple remote servers daily
@@ -54,16 +54,20 @@ WindTerm acts as a secure control center for connecting to remote computers, ser
 * Built-in file manager and secure file transfer support for dragging and dropping files
 * Advanced auto-completion, command history search, and customizable color themes
 * Multi-session management with split views and synchronized typing across windows
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can download the latest installation packages directly from the official official project page releases page. 
 - [Download for Mac (.dmg)](https://github.com/kingToolbox/WindTerm/releases/download/2.7.0/WindTerm_2.7.0_Mac_Portable_x86_64.dmg)
 - Browse all operating system versions on the [WindTerm GitHub Releases Page](https://github.com/kingToolbox/WindTerm/releases)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free for commercial and personal use, exceptionally fast performance, highly customizable interface.
 * **Cons:** Advanced configuration options have a slight learning curve for absolute beginners.
-[Official Source / Credits](https://github.com/kingToolbox/WindTerm)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/kingToolbox/WindTerm)

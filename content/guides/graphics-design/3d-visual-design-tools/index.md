@@ -24,9 +24,9 @@ Before picking your software, read our practical guides below covering head-to-h
 
 ### All Qualifying Software in This Topic
 
-- **[UI UX Pro Max Skill](/HubHum/apps/ui-ux-pro-max-skill/)** — An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning. *(Desktop App · License: MIT)*
-- **[slint](/HubHum/apps/slint/)** — Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup. *(CLI Tool · License: NOASSERTION)*
-- **[CustomTkinter](/HubHum/apps/customtkinter/)** — Create gorgeous, modern desktop app interfaces in Python using sleek pre-made elements that automatically adapt to light and dark modes. *(CLI Tool · License: MIT)*
-- **[Tkinter Designer](/HubHum/apps/tkinter-designer/)** — Tkinter Designer automatically converts visual screen layouts into working Python code, saving you hours of tedious manual coding. *(Desktop App · License: BSD-3-Clause)*
-- **[PyQt-Fluent-Widgets](/HubHum/apps/pyqt-fluent-widgets/)** — Transform desktop software interfaces with modern, sleek visual elements inspired by contemporary design systems. *(Desktop App · License: GPL-3.0)*
-- **[Cura](/HubHum/apps/cura/)** — Cura transforms 3D digital shapes into instructions your 3D printer can understand and build. *(Desktop App · License: LGPL-3.0)*
+- **[UI UX Pro Max Skill](/HubHum/apps/ui-ux-pro-max-skill/)** — An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning. *(Open Reference · License: Open Source (MIT))*
+- **[slint](/HubHum/apps/slint/)** — Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup. *(CLI Tool · License: Custom Open License)*
+- **[CustomTkinter](/HubHum/apps/customtkinter/)** — Create gorgeous, modern desktop app interfaces in Python using sleek pre-made elements that automatically adapt to light and dark modes. *(CLI Tool · License: Open Source (MIT))*
+- **[Tkinter Designer](/HubHum/apps/tkinter-designer/)** — Tkinter Designer automatically converts visual screen layouts into working Python code, saving you hours of tedious manual coding. *(Desktop App · License: Open Source (BSD))*
+- **[PyQt-Fluent-Widgets](/HubHum/apps/pyqt-fluent-widgets/)** — Transform desktop software interfaces with modern, sleek visual elements inspired by contemporary design systems. *(Desktop App · License: Open Source (GPL v3))*
+- **[Cura](/HubHum/apps/cura/)** — Cura transforms 3D digital shapes into instructions your 3D printer can understand and build. *(Desktop App · License: Open Source (LGPL))*

@@ -13,9 +13,9 @@ source_url: "https://github.com/ibraheemdev/modern-unix"
 download_url: "https://github.com/ibraheemdev/modern-unix/releases"
 downloadUrl: "https://github.com/ibraheemdev/modern-unix/releases"
 download_label: "Get Command-Line Tool →"
-license: "Open Source"
+license: "Open Source License"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Modern Unix provides a handpicked collection of redesigned command-line utilities that replace outdated standard tools with faster performance, clean colors, and modern features. Each tool drops right into your existing workflow to make file viewing, searching, searching directory trees, and tracking system resources remarkably smooth. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Modern Unix provides a handpicked collection of redesigned command-line utilities that replace outdated standard tools with faster performance, clean colors, and modern features. Each tool drops right into your existing workflow to make file viewing, searching, searching directory trees, and tracking system resources remarkably smooth.
 
 ### Who it's for
 * Software developers looking to speed up their daily terminal tasks and code reviews
@@ -54,12 +54,18 @@ Modern Unix provides a handpicked collection of redesigned command-line utilitie
 * **Smart Search:** Find files instantly with lightning-fast search tools that automatically respect your project settings.
 * **Visual System Monitors:** Check CPU, memory, and network usage with interactive graphs right inside your window.
 * **Friendly Git Integration:** Inspect changes, track history, and manage code branches with intuitive visual interfaces.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can explore, choose, and install each individual tool using your favorite package manager or by visiting the project site. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). Browse all available tools and installation instructions directly on the [Official Releases Page](https://github.com/ibraheemdev/modern-unix/releases).
+You can explore, choose, and install each individual tool using your favorite package manager or by visiting the project site. Browse all available tools and installation instructions directly on the [Official Releases Page](https://github.com/ibraheemdev/modern-unix/releases).
 
 ### Pros and Cons
 * **Pros:** Massive speed improvements, gorgeous color output, and drops in seamlessly as a replacement for standard tools.
 * **Cons:** Requires installing individual utilities separately depending on which features you want to use.
-[Official Source / Credits](https://github.com/ibraheemdev/modern-unix)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ibraheemdev/modern-unix)

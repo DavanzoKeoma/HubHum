@@ -5,17 +5,17 @@ tagline: "Visual code-free web data collection software"
 summary: "Extract public information from websites visually without writing any code. Automate repetitive browser tasks and save structured data instantly."
 tags: ["web-scraper", "automation", "no-code", "data-collection"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/easyspider.png"
 stars: 44798
 source_url: "https://github.com/NaiboWang/EasySpider"
 download_url: "https://github.com/NaiboWang/EasySpider/releases/download/v0.6.5/EasySpider_0.6.5_MacOS_Apple_Arm_Chip.7z"
 downloadUrl: "https://github.com/NaiboWang/EasySpider/releases/download/v0.6.5/EasySpider_0.6.5_MacOS_Apple_Arm_Chip.7z"
-download_label: "Download (EasySpider_0.6.5_MacOS_Apple_Arm_Chip.7z)"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-EasySpider lets you gather information from any public website using simple point-and-click mouse actions instead of writing complex programs. You just select the text, images, or product listings you want on your screen, and the application automatically repeats the actions to collect everything into tidy spreadsheets. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+EasySpider lets you gather information from any public website using simple point-and-click mouse actions instead of writing complex programs. You just select the text, images, or product listings you want on your screen, and the application automatically repeats the actions to collect everything into tidy spreadsheets.
 
 ### Who it's for
 * Researchers and students gathering open-source data for studies and analysis without technical backgrounds.
@@ -54,10 +54,9 @@ EasySpider lets you gather information from any public website using simple poin
 * Automatic pattern detection that finds and groups similar items like product cards or article lists instantly.
 * Built-in loop features to open individual detail pages and harvest deeper data automatically.
 * Ability to run tasks through simple command-line tools for integration into other daily routines.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started, choose the appropriate installer for your computer operating system from the official packages below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, choose the appropriate installer for your computer operating system from the official packages below.
 
 * [Download for Windows (.7z)](https://github.com/NaiboWang/EasySpider/releases/download/v0.6.5/EasySpider_0.6.5_Windows_x64.7z)
 * [Download for MacOS Apple Silicon (.7z)](https://github.com/NaiboWang/EasySpider/releases/download/v0.6.5/EasySpider_0.6.5_MacOS_Apple_Arm_Chip.7z)
@@ -66,4 +65,10 @@ To get started, choose the appropriate installer for your computer operating sys
 * **Pros:** Completely free for commercial and personal use with zero hidden subscriptions, highly flexible visual mapping, and no coding required.
 * **Cons:** Advanced scheduling and custom JavaScript overrides have a slight learning curve for complete beginners.
 
-[Official Source / Credits](https://github.com/NaiboWang/EasySpider)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/NaiboWang/EasySpider)

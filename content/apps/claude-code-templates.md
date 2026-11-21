@@ -5,17 +5,17 @@ tagline: "Ready-to-use component registry for your assistant"
 summary: "Browse thousands of pre-made components, tools, and custom shortcuts to supercharge your terminal coding assistant instantly."
 tags: ["system-utility", "assistant", "templates", "registry"]
 is_webapp: false
-app_type: "cli"
-category: "Utilities & Power Tools"
+app_type: "resource"
+category: "Productivity"
 icon: "/icons/claude-code-templates.png"
 stars: 34018
 source_url: "https://github.com/davila7/claude-code-templates"
 download_url: "https://www.aitmpl.com"
 downloadUrl: "https://www.aitmpl.com"
-download_label: "Get Command-Line Tool →"
-license: "MIT"
+download_label: "Browse Reference →"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "All / Reference"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool acts as a massive public library filled with custom helpers, specialized personas, and time-saving automation triggers for terminal-based coding tools. Users can quickly search through nearly two thousand ready-to-use building blocks on the official web catalog without writing configuration files from scratch. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). With a single command, it safely merges chosen shortcuts and extensions directly into your local development environment.
+This tool acts as a massive public library filled with custom helpers, specialized personas, and time-saving automation triggers for terminal-based coding tools. Users can quickly search through nearly two thousand ready-to-use building blocks on the official web catalog without writing configuration files from scratch. With a single command, it safely merges chosen shortcuts and extensions directly into your local development environment.
 
 ### Who it's for
 * Software developers looking to customize and automate their terminal assistant workflows without manual setup.
@@ -54,13 +54,18 @@ This tool acts as a massive public library filled with custom helpers, specializ
 * Interactive command-line interface that requires no heavy global setup and runs directly through simple execution commands.
 * Intelligent merging system that updates your existing workspace settings instead of blindly overwriting custom files.
 * Built-in local conversation viewer and diagnostic health checks for tracking tool performance.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You do not need a permanent local installation to use this utility, as it runs on-demand through your terminal. Make sure you have Node.js installed, then browse available components directly at the [Official Catalog Website](https://www.aitmpl.com) or explore the guides on the [Official Documentation Hub](https://docs.aitmpl.com). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You do not need a permanent local installation to use this utility, as it runs on-demand through your terminal. Make sure you have Node.js installed, then browse available components directly at the [Official Catalog Website](https://www.aitmpl.com) or explore the guides on the [Official Documentation Hub](https://docs.aitmpl.com).
 
 ### Pros and Cons
 * **Pros:** Completely open-source, saves hours of manual configuration writing, and offers a massive library of community-tested components.
 * **Cons:** Requires familiarity with terminal commands and an active internet connection to fetch remote components.
 
-[Official Source / Credits](https://github.com/davila7/claude-code-templates)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/davila7/claude-code-templates)

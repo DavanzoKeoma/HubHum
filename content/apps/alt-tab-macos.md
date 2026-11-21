@@ -13,7 +13,7 @@ source_url: "https://github.com/lwouis/alt-tab-macos"
 download_url: "https://alt-tab.app"
 downloadUrl: "https://alt-tab.app"
 download_label: "Get Command-Line Tool →"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-AltTab brings the powerful window-switching shortcuts of Windows straight to your Mac computer. Instead of cycling through entire applications, you can see live preview thumbnails of every single open window you have running. It even lets you manage and switch between minimized or hidden windows with a simple keystroke. When you are editing video projects or putting together creative presentations, you can also source royalty-free stock footage, music tracks, and motion presets via [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+AltTab brings the powerful window-switching shortcuts of Windows straight to your Mac computer. Instead of cycling through entire applications, you can see live preview thumbnails of every single open window you have running. It even lets you manage and switch between minimized or hidden windows with a simple keystroke.
 
 ### Who it's for
 * Mac users who recently switched from Windows and miss the familiar window management habits.
@@ -53,13 +53,18 @@ AltTab brings the powerful window-switching shortcuts of Windows straight to you
 * Shows real-time preview thumbnails of all open windows across all your desktop spaces.
 * Lets you customize keyboard shortcuts to match your personal workflow preferences.
 * Fully supports hiding, minimizing, and closing windows directly from the preview interface.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started, visit the official website to grab the application for your computer: [Download AltTab from Official Site](https://alt-tab.app). If you want to keep large installer downloads and media transfers private without ISP bandwidth throttling, you can use [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, visit the official website to grab the application for your computer: [Download AltTab from Official Site](https://alt-tab.app).
 
 ### Pros and Cons
 * **Pros:** Completely free and open source, highly customizable, significantly speeds up multi-window navigation on macOS.
 * **Cons:** Requires granting system accessibility permissions upon first launch to monitor and switch windows properly.
 
-[Official Source / Credits](https://github.com/lwouis/alt-tab-macos)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/lwouis/alt-tab-macos)

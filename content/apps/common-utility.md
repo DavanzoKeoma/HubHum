@@ -13,9 +13,9 @@ source_url: "https://github.com/laochiangx/Common.Utility"
 download_url: "https://github.com/laochiangx/Common.Utility/releases"
 downloadUrl: "https://github.com/laochiangx/Common.Utility/releases"
 download_label: "Get Command-Line Tool →"
-license: "Open Source"
+license: "Open Source License"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Common.Utility brings together a wide variety of ready-to-use coding tools and helper functions into one place. It saves developers from writing common routines from scratch by offering pre-built solutions for everyday programming challenges. Whether you are formatting text, managing files, or handling database connections, this toolkit provides quick shortcuts. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Common.Utility brings together a wide variety of ready-to-use coding tools and helper functions into one place. It saves developers from writing common routines from scratch by offering pre-built solutions for everyday programming challenges. Whether you are formatting text, managing files, or handling database connections, this toolkit provides quick shortcuts.
 
 ### Who it's for
 * Software developers looking to save time on repetitive coding tasks.
@@ -54,13 +54,18 @@ Common.Utility brings together a wide variety of ready-to-use coding tools and h
 * Includes built-in tools for image processing, barcode generation, and video conversion tasks.
 * Features robust security utilities for data encryption, decryption, and safety checks.
 * Simplifies database operations, network requests, and caching implementations.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can access the project files and explore all available helper classes directly through the [Official Releases and Source Code](https://github.com/laochiangx/Common.Utility/releases). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can access the project files and explore all available helper classes directly through the [Official Releases and Source Code](https://github.com/laochiangx/Common.Utility/releases).
 
 ### Pros and Cons
 * **Pros:** Massive collection of practical helpers; saves countless hours of boilerplate coding.
 * **Cons:** Documentation is scattered, and code comments are primarily in another language.
 
-[Official Source / Credits](https://github.com/laochiangx/Common.Utility)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/laochiangx/Common.Utility)

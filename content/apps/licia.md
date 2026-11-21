@@ -13,9 +13,9 @@ source_url: "https://github.com/liriliri/licia"
 download_url: "https://licia.liriliri.io"
 downloadUrl: "https://licia.liriliri.io"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Licia gathers over four hundred bite-sized helper tools into a single, clean package to simplify software creation. Instead of downloading dozens of separate packages, you get a massive toolkit covering text formatting, web requests, and date handling out of the box. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Licia gathers over four hundred bite-sized helper tools into a single, clean package to simplify software creation. Instead of downloading dozens of separate packages, you get a massive toolkit covering text formatting, web requests, and date handling out of the box.
 
 ### Who it's for
 * Software creators looking to speed up daily coding tasks without adding heavy libraries.
@@ -52,12 +52,18 @@ Licia gathers over four hundred bite-sized helper tools into a single, clean pac
 * Packed with over 400 independent micro-modules designed to handle specific everyday scenarios.
 * Includes lightweight web page manipulation tools modeled after popular browser selector syntax.
 * Features handy date formatting rules and reliable network request handlers.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can explore the online documentation and custom utility builder directly at the [Official Licia Website](https://licia.liriliri.io). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can explore the online documentation and custom utility builder directly at the [Official Licia Website](https://licia.liriliri.io).
 
 ### Pros and Cons
 * **Pros:** Zero dependencies, extremely lightweight, and covers a wide array of everyday programming tasks.
 * **Cons:** Requires basic familiarity with JavaScript to implement effectively.
-[Official Source / Credits](https://github.com/liriliri/licia)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/liriliri/licia)

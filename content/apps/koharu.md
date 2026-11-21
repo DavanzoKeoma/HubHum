@@ -13,7 +13,7 @@ source_url: "https://github.com/koharu-rs/koharu"
 download_url: "https://github.com/koharu-rs/koharu/releases/download/0.86.4/koharu_0.86.4_x64-setup.exe"
 downloadUrl: "https://github.com/koharu-rs/koharu/releases/download/0.86.4/koharu_0.86.4_x64-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "DesignApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Koharu takes foreign-language manga and translates them into your preferred language using advanced artificial intelligence. It automatically reads text bubbles, erases the original words, cleans up the background artwork, and replaces it with neat, translated text. Best of all, everything runs entirely on your own device to keep your reading material private. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Koharu takes foreign-language manga and translates them into your preferred language using advanced artificial intelligence. It automatically reads text bubbles, erases the original words, cleans up the background artwork, and replaces it with neat, translated text. Best of all, everything runs entirely on your own device to keep your reading material private.
 
 ### Who it's for
 * Manga readers who want to enjoy unreleased or foreign series in their native language effortlessly.
@@ -54,7 +54,6 @@ Koharu takes foreign-language manga and translates them into your preferred lang
 * **Local Intelligence:** Runs vision recognition and language models securely on your own hardware without subscriptions.
 * **Artwork Cleaning:** Erases original text cleanly and reconstructs the hidden background artwork automatically.
 * **Flexible Formatting:** Export your finished work as standard image files, comic book archives, or layered documents.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 Get the latest version for your operating system using the official downloads below:
@@ -65,10 +64,14 @@ Get the latest version for your operating system using the official downloads be
 * [Download for Linux (.deb)](https://github.com/koharu-rs/koharu/releases/download/0.86.4/koharu_0.86.4_amd64.deb)
 * [Download for Linux (.deb)](https://github.com/koharu-rs/koharu/releases/download/0.86.4/koharu_0.86.4_arm64.deb)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Complete data privacy with local processing, supports multiple formats like PDF and archives, and offers high-quality background cleanup.
 * **Cons:** Requires a powerful computer with a compatible graphics card to run the intelligence models smoothly.
 
-[Official Source / Credits](https://github.com/koharu-rs/koharu)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/koharu-rs/koharu)

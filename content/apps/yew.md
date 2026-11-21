@@ -13,7 +13,7 @@ source_url: "https://github.com/yewstack/yew"
 download_url: "https://yew.rs"
 downloadUrl: "https://yew.rs"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This software lets programmers design fast and reliable interactive pages that run directly inside internet browsers. It processes user actions efficiently behind the scenes to keep pages feeling smooth and responsive. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This software lets programmers design fast and reliable interactive pages that run directly inside internet browsers. It processes user actions efficiently behind the scenes to keep pages feeling smooth and responsive.
 
 ### Who it's for
 * Software developers looking to build modern, interactive browser applications with strong reliability guarantees.
@@ -54,13 +54,18 @@ This software lets programmers design fast and reliable interactive pages that r
 * Minimizes unnecessary background updates to keep page rendering exceptionally fast.
 * Offloads heavy data processing tasks to background background workers so the main screen never freezes.
 * Integrates smoothly with existing third-party JavaScript libraries and packages.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-To get started with the toolkit, check out the official learning resources, guides, and source code. Visit the [Official Yew Website and Documentation](https://yew.rs) to read setup instructions. Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+To get started with the toolkit, check out the official learning resources, guides, and source code. Visit the [Official Yew Website and Documentation](https://yew.rs) to read setup instructions. Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Extremely high execution speed, strong code safety guarantees, and an active community providing guides and examples.
 * **Cons:** Requires learning a specialized programming language and syntax before you can build complex layouts.
 
-[Official Source / Credits](https://github.com/yewstack/yew)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/yewstack/yew)

@@ -13,7 +13,7 @@ source_url: "https://github.com/o2sh/onefetch"
 download_url: "https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-setup.exe"
 downloadUrl: "https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Onefetch is a handy command-line utility that inspects your local version-controlled source code and instantly prints out a neat summary. It showcases things like language breakdown, contributor counts, file sizes, and creation dates alongside a stylish logo. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). The tool runs completely offline on your computer, meaning your project data stays completely private and secure without needing an internet connection.
+Onefetch is a handy command-line utility that inspects your local version-controlled source code and instantly prints out a neat summary. It showcases things like language breakdown, contributor counts, file sizes, and creation dates alongside a stylish logo. The tool runs completely offline on your computer, meaning your project data stays completely private and secure without needing an internet connection.
 
 ### Who it's for
 * Software developers who love spending time in the terminal and want a quick visual overview of their workspace.
@@ -54,7 +54,6 @@ Onefetch is a handy command-line utility that inspects your local version-contro
 * Works entirely offline with blazing-fast performance.
 * Automatically detects over 100 different programming languages.
 * Exports your project statistics into structured formats like JSON or YAML for easy sharing.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can grab the Windows installer directly below, or install it on Linux and macOS using standard package managers. 
@@ -62,9 +61,14 @@ You can grab the Windows installer directly below, or install it on Linux and ma
 * [Download for Windows (.exe)](https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-setup.exe)
 * [Download for Linux (.deb)](https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch_amd64.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Extremely fast execution, works completely offline, supports a vast number of programming languages.
 * **Cons:** Requires a terminal environment to run, advanced configuration options require command-line knowledge.
-[Official Source / Credits](https://github.com/o2sh/onefetch)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/o2sh/onefetch)

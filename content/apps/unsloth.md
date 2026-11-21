@@ -5,7 +5,7 @@ tagline: "Run and train AI models locally."
 summary: "Unsloth allows you to run and customize powerful artificial intelligence models directly on your own computer with ease."
 tags: ["ai", "machine-learning", "productivity"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/unsloth.png"
 stars: 79818
@@ -13,9 +13,9 @@ source_url: "https://github.com/unslothai/unsloth"
 download_url: "https://github.com/unslothai/unsloth/releases/download/v0.1.920-beta/Unsloth-Desktop-Windows-ARM64.exe"
 downloadUrl: "https://github.com/unslothai/unsloth/releases/download/v0.1.920-beta/Unsloth-Desktop-Windows-ARM64.exe"
 download_label: "Download for Windows (.exe)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Unsloth is a user-friendly desktop application that lets you run and train advanced artificial intelligence models right on your own hardware. It removes the need for expensive cloud services by optimizing how your computer handles complex tasks like text generation, image creation, and data analysis. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Unsloth is a user-friendly desktop application that lets you run and train advanced artificial intelligence models right on your own hardware. It removes the need for expensive cloud services by optimizing how your computer handles complex tasks like text generation, image creation, and data analysis.
 
 ### Who it's for
 * **Creative Professionals:** Artists and designers who want to train custom AI models on their own style or data without privacy concerns.
@@ -52,10 +52,9 @@ Unsloth is a user-friendly desktop application that lets you run and train advan
 * **High-Speed Training:** Train your own AI models significantly faster and with much less memory usage than standard methods.
 * **Broad Compatibility:** Works seamlessly with a wide range of hardware, including NVIDIA, AMD, and Intel graphics cards.
 * **Versatile Model Support:** Easily run and train various types of models, including those for text, images, audio, and decision-making.
-* **Creative Integration:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can get started by downloading the installer for your specific operating system below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can get started by downloading the installer for your specific operating system below.
 
 * [Download for Windows (.exe)](https://github.com/unslothai/unsloth/releases/download/v0.1.920-beta/Unsloth-Desktop-Windows.exe)
 * [Download for Windows ARM64 (.exe)](https://github.com/unslothai/unsloth/releases/download/v0.1.920-beta/Unsloth-Desktop-Windows-ARM64.exe)
@@ -68,4 +67,10 @@ You can get started by downloading the installer for your specific operating sys
 * **Pros:** Significantly faster training times, runs entirely on your local machine for maximum privacy, and supports a massive variety of modern AI models.
 * **Cons:** Requires a decent graphics card for the best performance, and the advanced configuration options may require a short learning curve for beginners.
 
-[Official Source / Credits](https://github.com/unslothai/unsloth)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/unslothai/unsloth)

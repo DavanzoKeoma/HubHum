@@ -13,7 +13,7 @@ source_url: "https://github.com/ConEmu/ConEmu"
 download_url: "https://github.com/ConEmu/ConEmu/releases/download/v23.07.24/ConEmuSetup.230724.exe"
 downloadUrl: "https://github.com/ConEmu/ConEmu/releases/download/v23.07.24/ConEmuSetup.230724.exe"
 download_label: "Download for Windows (.exe)"
-license: "BSD-3-Clause"
+license: "Open Source (BSD)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-ConEmu transforms the classic Windows command prompt experience into a modern, highly customizable workspace. It lets you run multiple command-line tools, scripts, and utilities inside a single window using browser-like tabs and split-screen panes. You can easily resize windows smoothly, adjust fonts and colors to your liking, and access your favorite tools via hotkeys. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+ConEmu transforms the classic Windows command prompt experience into a modern, highly customizable workspace. It lets you run multiple command-line tools, scripts, and utilities inside a single window using browser-like tabs and split-screen panes. You can easily resize windows smoothly, adjust fonts and colors to your liking, and access your favorite tools via hotkeys.
 
 ### Who it's for
 * Software developers and system administrators who juggle multiple command-line tasks at once.
@@ -54,17 +54,22 @@ ConEmu transforms the classic Windows command prompt experience into a modern, h
 * **Smooth window management:** Resize your workspace fluidly and switch between normal, maximized, or full-screen modes instantly.
 * **Extensive customization:** Personalize fonts, color schemes, cursor styles, and background transparency.
 * **Hotkey controls:** Navigate your workspace quickly using customizable keyboard shortcuts.
-* **SEO growth:** Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can grab the official setup installer for your computer directly from the latest release:
 * [Download for Windows (.exe)](https://github.com/ConEmu/ConEmu/releases/download/v23.07.24/ConEmuSetup.230724.exe)
 * [Download Portable Edition (.paf.exe)](https://github.com/ConEmu/ConEmu/releases/download/v23.07.24/ConEmu_230724_English.paf.exe)
 
-Simply run the downloaded installer and follow the on-screen prompts to launch your new terminal environment. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Simply run the downloaded installer and follow the on-screen prompts to launch your new terminal environment.
 
 ### Pros and Cons
 * **Pros:** Free and open-source, highly customizable interface, significantly improves multitasking inside the command line.
 * **Cons:** Advanced configuration menus can feel overwhelming for absolute beginners.
 
-[Official Source / Credits](https://github.com/ConEmu/ConEmu)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ConEmu/ConEmu)

@@ -13,7 +13,7 @@ source_url: "https://github.com/johnkerl/miller"
 download_url: "https://github.com/johnkerl/miller/releases/download/v6.22.0/miller-6.22.0-linux-386.deb"
 downloadUrl: "https://github.com/johnkerl/miller/releases/download/v6.22.0/miller-6.22.0-linux-386.deb"
 download_label: "Download for Linux (.deb)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Miller acts like a Swiss Army knife for working with structured tabular text data such as spreadsheets and log files. Instead of relying on traditional numbered columns, it lets you address your data using familiar named column headers. You can quickly filter, sort, clean, and convert your files directly on the fly. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Miller acts like a Swiss Army knife for working with structured tabular text data such as spreadsheets and log files. Instead of relying on traditional numbered columns, it lets you address your data using familiar named column headers. You can quickly filter, sort, clean, and convert your files directly on the fly.
 
 ### Who it's for
 * Data analysts looking for a fast way to clean and inspect tabular files before importing them into heavy statistical software.
@@ -54,7 +54,6 @@ Miller acts like a Swiss Army knife for working with structured tabular text dat
 * Streams records one by one to handle massive files that are much larger than your computer's available memory.
 * Converts files seamlessly between CSV, TSV, JSON, JSON Lines, and human-readable pretty-printed tables.
 * Performs statistical aggregation, record sorting, and dynamic field calculations directly in your terminal.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can grab pre-built package files for your Linux distribution below, or install it via your system package manager.
@@ -67,10 +66,14 @@ You can grab pre-built package files for your Linux distribution below, or insta
 * [Download for Linux (.deb RISCV64)](https://github.com/johnkerl/miller/releases/download/v6.22.0/miller-6.22.0-linux-riscv64.deb)
 * [Download for Linux (.deb S390X)](https://github.com/johnkerl/miller/releases/download/v6.22.0/miller-6.22.0-linux-s390x.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Blazing fast performance, handles files larger than RAM, zero runtime dependencies, and works cleanly in shell pipelines.
 * **Cons:** Requires comfort with the command-line interface and text-based tools.
 
-[Official Source / Credits](https://github.com/johnkerl/miller)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/johnkerl/miller)

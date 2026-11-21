@@ -13,7 +13,7 @@ source_url: "https://github.com/ricochet-im/ricochet"
 download_url: "https://github.com/ricochet-im/ricochet/releases/download/v1.1.4/ricochet-1.1.4-win-install.exe"
 downloadUrl: "https://github.com/ricochet-im/ricochet/releases/download/v1.1.4/ricochet-1.1.4-win-install.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Ricochet is a private messaging application that connects you directly with friends without using central computers or corporate servers. It hides your contact lists, conversations, and internet address from outside observers. When you need to publish your thoughts or secure your digital footprint, pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Ricochet is a private messaging application that connects you directly with friends without using central computers or corporate servers. It hides your contact lists, conversations, and internet address from outside observers.
 
 ### Who it's for
 * Journalists and whistleblowers who need absolute confidentiality in their conversations.
@@ -54,17 +54,20 @@ Ricochet is a private messaging application that connects you directly with frie
 * Complete protection against anyone snooping on who you talk to or when you speak.
 * Zero registration required; your address is generated locally on your device.
 * Cross-platform compatibility for Windows, macOS, and Linux computers.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 Get the software directly for your system using the official setup files. 
 * [Download for Windows (.exe)](https://github.com/ricochet-im/ricochet/releases/download/v1.1.4/ricochet-1.1.4-win-install.exe)
 * [Download for Mac (.dmg)](https://github.com/ricochet-im/ricochet/releases/download/v1.1.4/ricochet-1.1.4.1-macos.dmg)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Complete metadata hiding, no central server vulnerability, open-source code.
 * **Cons:** Experimental software status means it should not be relied upon for absolute life-or-death safety.
 
-[Official Source / Credits](https://github.com/ricochet-im/ricochet)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ricochet-im/ricochet)

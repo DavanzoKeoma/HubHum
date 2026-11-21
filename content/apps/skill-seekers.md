@@ -13,9 +13,9 @@ source_url: "https://github.com/yusufkaraaslan/Skill_Seekers"
 download_url: "https://skillseekersweb.com/"
 downloadUrl: "https://skillseekersweb.com/"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Skill Seekers takes websites, code directories, and PDFs, and transforms them into comprehensive knowledge packages tailored for artificial intelligence platforms. It automatically organizes documentation, detects code patterns, and structures references so your virtual assistants can understand entire technical libraries. When handling complex video tutorials or massive reference manuals, you can also explore royalty-free stock footage, music tracks, and motion presets alongside your edits with [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). You save hours of manual data preparation by letting automated workflows clean and format the information into a ready-to-use format.
+Skill Seekers takes websites, code directories, and PDFs, and transforms them into comprehensive knowledge packages tailored for artificial intelligence platforms. It automatically organizes documentation, detects code patterns, and structures references so your virtual assistants can understand entire technical libraries. You save hours of manual data preparation by letting automated workflows clean and format the information into a ready-to-use format.
 
 ### Who it's for
 * Software developers who want to feed accurate project documentation and codebase guides directly into their favorite AI coding assistants.
@@ -54,17 +54,22 @@ Skill Seekers takes websites, code directories, and PDFs, and transforms them in
 * **Smart AI Enhancement:** Automatically structure messy content into polished guide files equipped with clear examples and patterns.
 * **Flexible Export Targets:** Package your prepared data seamlessly for dozens of distinct AI platforms, search engines, and vector databases.
 * **Built-in Quality Control:** Run checks and diagnostics to ensure your generated documentation packages meet high standards before cloud setup them.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 To get started with Skill Seekers, make sure you have Python installed on your computer, then open your terminal and install the core package using the command line:
 
 `pip install skill-seekers`
 
-You can also install additional extensions for specific formats, video processing, or chat platforms depending on your needs. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). Check out the official website and download options directly through the [Skill Seekers Website](https://skillseekersweb.com/).
+You can also install additional extensions for specific formats, video processing, or chat platforms depending on your needs. Check out the official website and download options directly through the [Skill Seekers Website](https://skillseekersweb.com/).
 
 ### Pros and Cons
 * **Pros:** Saves massive amounts of time compared to manual text formatting, supports dozens of AI output targets, and handles multiple input types natively.
 * **Cons:** Requires familiarity with command-line tools and terminal usage to configure advanced options and external AI platform keys.
 
-[Official Source / Credits](https://github.com/yusufkaraaslan/Skill_Seekers)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/yusufkaraaslan/Skill_Seekers)

@@ -13,9 +13,9 @@ source_url: "https://github.com/chubin/wttr.in"
 download_url: "https://wttr.in"
 downloadUrl: "https://wttr.in"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-wttr.in provides lightning-fast weather forecasts directly inside your web browser or text terminal. It automatically detects your location using your network address and formats current conditions using clean symbols and colors. You can easily check conditions anywhere in the world by simply typing a city name or airport code. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+wttr.in provides lightning-fast weather forecasts directly inside your web browser or text terminal. It automatically detects your location using your network address and formats current conditions using clean symbols and colors. You can easily check conditions anywhere in the world by simply typing a city name or airport code.
 
 ### Who it's for
 * Command-line power users who want quick weather details without opening a browser window.
@@ -54,7 +54,6 @@ wttr.in provides lightning-fast weather forecasts directly inside your web brows
 * Automatic local weather detection based on your internet connection.
 * Support for global cities, mountain peaks, historical sites, and airport codes.
 * Multiple visual layouts including compact one-line views and detailed multi-day forecasts.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 No installation or download is necessary to use this service. You can open it instantly in your web browser or query it directly from your terminal using standard tools like `curl`. 
@@ -62,10 +61,14 @@ No installation or download is necessary to use this service. You can open it in
 * [Access the official website directly](https://wttr.in)
 * [Use the official fallback service if needed](https://wttr.is)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free to use, requires no account creation or software installation, and integrates seamlessly into scripts and status bars.
 * **Cons:** Requires an active internet connection to fetch real-time data, and advanced custom formatting options take a few moments to learn.
 
-[Official Source / Credits](https://github.com/chubin/wttr.in)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/chubin/wttr.in)

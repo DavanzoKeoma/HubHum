@@ -13,7 +13,7 @@ source_url: "https://github.com/usebruno/bruno"
 download_url: "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.exe"
 downloadUrl: "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_win.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Bruno is a modern tool designed for anyone who builds or tests software that communicates over the web. It lets you organize your digital requests into clean folders right on your computer hard drive. Because everything stays locally on your machine, your information remains entirely private and under your control. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Bruno is a modern tool designed for anyone who builds or tests software that communicates over the web. It lets you organize your digital requests into clean folders right on your computer hard drive. Because everything stays locally on your machine, your information remains entirely private and under your control.
 
 ### Who it's for
 * Software developers working on digital services and web projects
@@ -54,10 +54,9 @@ Bruno is a modern tool designed for anyone who builds or tests software that com
 * Completely offline-first design ensuring your data never leaves your device
 * Easy collaboration with teammates using standard version control systems
 * Lightweight performance that starts up quickly without slowing down your computer
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Choose the installer that matches your operating system to get started instantly. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Choose the installer that matches your operating system to get started instantly.
 
 * [Download for Windows (.exe)](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_x64_win.exe)
 * [Download for Windows (.msi)](https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_x64_win.msi)
@@ -68,4 +67,10 @@ Choose the installer that matches your operating system to get started instantly
 * **Pros:** Free and open source, complete data privacy, no forced cloud accounts
 * **Cons:** Does not include built-in cloud synchronization for teams who prefer online sharing
 
-[Official Source / Credits](https://github.com/usebruno/bruno)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/usebruno/bruno)

@@ -5,7 +5,7 @@ tagline: "Your private media server and backup"
 summary: "Manage and back up your photos and videos on your own private cloud storage without sharing your personal memories."
 tags: ["photos", "cloud-app", "backup", "gallery"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/immich.png"
 stars: 119698
@@ -13,9 +13,9 @@ source_url: "https://github.com/immich-app/immich"
 download_url: "https://github.com/immich-app/immich/releases/download/v3.4.2/app-arm64-v8a-release.apk"
 downloadUrl: "https://github.com/immich-app/immich/releases/download/v3.4.2/app-arm64-v8a-release.apk"
 download_label: "Download for Android (.apk)"
-license: "AGPL-3.0"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Immich is a high-performance photo and video backup solution that runs on your own hardware, keeping your personal media completely under your control. When organizing your media collection or designing slideshows, you might find that when you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). The platform automatically uploads files from your phone, organizes them intelligently, and lets you view your entire library through a fast, modern web and mobile interface.
+Immich is a high-performance photo and video backup solution that runs on your own hardware, keeping your personal media completely under your control. The platform automatically uploads files from your phone, organizes them intelligently, and lets you view your entire library through a fast, modern web and mobile interface.
 
 ### Who it's for
 * Privacy-conscious individuals who want to own and secure their photo collections locally instead of relying on big tech cloud services.
@@ -53,14 +53,19 @@ Immich is a high-performance photo and video backup solution that runs on your o
 * Automatic background photo and video backup as soon as you open your mobile app.
 * Advanced search capabilities that let you find pictures using smart object detection, facial recognition, and text tags.
 * Interactive global map views and timeline scrubbing for browsing memories by location and date.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Multi-user support with public sharing options, albums, and secure partner sharing.
 
 ### How to install (Download)
-You can explore the live demo or set up the cloud application by visiting the [Official Immich Website](https://immich.app). For mobile devices, you can download the direct Android package: [Download for Android (.apk)](https://github.com/immich-app/immich/releases/download/v3.4.2/app-arm64-v8a-release.apk). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can explore the live demo or set up the cloud application by visiting the [Official Immich Website](https://immich.app). For mobile devices, you can download the direct Android package: [Download for Android (.apk)](https://github.com/immich-app/immich/releases/download/v3.4.2/app-arm64-v8a-release.apk).
 
 ### Pros and Cons
 * **Pros:** Complete data privacy, lightning-fast search, active community development, and seamless automated backups.
 * **Cons:** Requires a server setup or spare computer to host your personal cloud storage.
 
-[Official Source / Credits](https://github.com/immich-app/immich)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/immich-app/immich)

@@ -17,22 +17,22 @@ updated_at: "2026-11-21"
 
 ## Plain-English Overview: Server Dashboards, Monitoring & Cloud Panels
 
-This topic hub groups **39 vetted free tools** specializing in **Server Dashboards, Monitoring & Cloud Panels** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **37 vetted free tools** specializing in **Server Dashboards, Monitoring & Cloud Panels** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
 
 ### All Qualifying Software in This Topic
 
-- **[dify](/HubHum/apps/dify/)** — Create custom artificial intelligence workflows, smart assistants, and document search pipelines easily on one collaborative workspace. *(Cloud Web App · License: NOASSERTION)*
-- **[Uptime Kuma](/HubHum/apps/uptime-kuma/)** — An easy-to-use monitoring tool that tracks your websites and servers in real time, alerting you instantly if anything goes offline. *(Cloud Web App · License: MIT)*
-- **[Unsloth](/HubHum/apps/unsloth/)** — Unsloth allows you to run and customize powerful artificial intelligence models directly on your own computer with ease. *(Cloud Web App · License: Apache-2.0)*
-- **[Coolify](/HubHum/apps/coolify/)** — Coolify lets you host and manage your own websites, databases, and apps on any server without needing expensive commercial platforms. *(Cloud Web App · License: Apache-2.0)*
-- **[serviette](/HubHum/apps/serviette/)** — An easy no-code question-answering assistant that keeps answers in sync with your live documents automatically. *(Cloud Web App · License: MIT)*
-- **[ClickHouse](/HubHum/apps/clickhouse/)** — ClickHouse is a powerful analytics system that helps you sort and examine massive amounts of data in real time. *(Cloud Web App · License: Apache-2.0)*
-- **[nanobot](/HubHum/apps/nanobot/)** — Manage files, automate daily tasks, and chat with a secure personal AI assistant running right from your browser or favorite messaging app. *(Cloud Web App · License: MIT)*
-- **[Gogs](/HubHum/apps/gogs/)** — Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle. *(Cloud Web App · License: MIT)*
-- **[EasySpider](/HubHum/apps/easyspider/)** — Extract public information from websites visually without writing any code. Automate repetitive browser tasks and save structured data instantly. *(Cloud Web App · License: AGPL-3.0)*
-- **[Appsmith](/HubHum/apps/appsmith/)** — Create custom internal tools, admin panels, and dashboards visually while connecting to your databases and web services. *(Cloud Web App · License: Apache-2.0)*
-- **[ToolJet](/HubHum/apps/tooljet/)** — Create powerful internal apps, dashboards, and operational tools using a visual builder or simple text prompts. *(Cloud Web App · License: AGPL-3.0)*
-- **[AI Website Cloner Template](/HubHum/apps/ai-website-cloner-template/)** — Recreate any website as a clean Next.js app instantly by giving your AI coding assistant a simple link command. *(Cloud Web App · License: MIT)*
+- **[dify](/HubHum/apps/dify/)** — Create custom artificial intelligence workflows, smart assistants, and document search pipelines easily on one collaborative workspace. *(Self-Hosted Web App · License: Custom Open License)*
+- **[Uptime Kuma](/HubHum/apps/uptime-kuma/)** — An easy-to-use monitoring tool that tracks your websites and servers in real time, alerting you instantly if anything goes offline. *(Self-Hosted Web App · License: Open Source (MIT))*
+- **[Unsloth](/HubHum/apps/unsloth/)** — Unsloth allows you to run and customize powerful artificial intelligence models directly on your own computer with ease. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
+- **[Coolify](/HubHum/apps/coolify/)** — Coolify lets you host and manage your own websites, databases, and apps on any server without needing expensive commercial platforms. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
+- **[serviette](/HubHum/apps/serviette/)** — An easy no-code question-answering assistant that keeps answers in sync with your live documents automatically. *(Self-Hosted Web App · License: Open Source (MIT))*
+- **[ClickHouse](/HubHum/apps/clickhouse/)** — ClickHouse is a powerful analytics system that helps you sort and examine massive amounts of data in real time. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
+- **[nanobot](/HubHum/apps/nanobot/)** — Manage files, automate daily tasks, and chat with a secure personal AI assistant running right from your browser or favorite messaging app. *(Self-Hosted Web App · License: Open Source (MIT))*
+- **[Gogs](/HubHum/apps/gogs/)** — Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle. *(Self-Hosted Web App · License: Open Source (MIT))*
+- **[EasySpider](/HubHum/apps/easyspider/)** — Extract public information from websites visually without writing any code. Automate repetitive browser tasks and save structured data instantly. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
+- **[Appsmith](/HubHum/apps/appsmith/)** — Create custom internal tools, admin panels, and dashboards visually while connecting to your databases and web services. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
+- **[ToolJet](/HubHum/apps/tooljet/)** — Create powerful internal apps, dashboards, and operational tools using a visual builder or simple text prompts. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
+- **[AI Website Cloner Template](/HubHum/apps/ai-website-cloner-template/)** — Recreate any website as a clean Next.js app instantly by giving your AI coding assistant a simple link command. *(Self-Hosted Web App · License: Open Source (MIT))*

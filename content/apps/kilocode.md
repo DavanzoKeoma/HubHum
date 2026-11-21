@@ -13,9 +13,9 @@ source_url: "https://github.com/Kilo-Org/kilocode"
 download_url: "https://github.com/Kilo-Org/kilocode/releases/download/v7.8.27/cli-distribution-sbom-evidence.json"
 downloadUrl: "https://github.com/Kilo-Org/kilocode/releases/download/v7.8.27/cli-distribution-sbom-evidence.json"
 download_label: "Download (cli-distribution-sbom-evidence.json)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Kilo Code brings helpful artificial intelligence right into your workspace to write, plan, and troubleshoot code alongside you. You can chat with it in natural language to generate entire features, track down stubborn bugs, or design software architecture before writing a single line. It seamlessly connects with hundreds of popular AI models so you always have the right intelligence for the job. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Kilo Code brings helpful artificial intelligence right into your workspace to write, plan, and troubleshoot code alongside you. You can chat with it in natural language to generate entire features, track down stubborn bugs, or design software architecture before writing a single line. It seamlessly connects with hundreds of popular AI models so you always have the right intelligence for the job.
 
 ### Who it's for
 - Software developers looking to speed up daily coding tasks and automate routine maintenance.
@@ -54,10 +54,9 @@ Kilo Code brings helpful artificial intelligence right into your workspace to wr
 - Specialized built-in agents for planning architecture, answering questions, and debugging issues.
 - Mid-task model switching to balance speed, cost, and reasoning power from over 500 options.
 - Automated code reviews and autonomous operation modes for continuous workflows.
-- Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can set up Kilo Code based on where you prefer to work. Install it directly as an extension in your favorite editor, or grab the command-line tools from the options below. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can set up Kilo Code based on where you prefer to work. Install it directly as an extension in your favorite editor, or grab the command-line tools from the options below.
 
 - **VS Code:** Get it from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code)
 - **JetBrains:** Install from the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/28350-kilo-code)
@@ -66,4 +65,11 @@ You can set up Kilo Code based on where you prefer to work. Install it directly 
 ### Pros and Cons
 * **Pros:** Free open-source core, works across multiple popular editors, access to hundreds of different AI models with zero markup.
 * **Cons:** Advanced autonomous features require careful supervision in production environments, setting up custom permissions takes a little time.
-[Official Source / Credits](https://github.com/Kilo-Org/kilocode)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Kilo-Org/kilocode)

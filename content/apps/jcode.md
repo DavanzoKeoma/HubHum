@@ -13,7 +13,7 @@ source_url: "https://github.com/1jehuang/jcode"
 download_url: "https://github.com/1jehuang/jcode/releases/download/v1.0.1/jcode-windows-aarch64.exe"
 downloadUrl: "https://github.com/1jehuang/jcode/releases/download/v1.0.1/jcode-windows-aarch64.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-jcode is a lightweight assistant runner built specifically to handle multiple helper programs at the exact same time. It uses minimal memory and starts up instantly so you can manage heavy development projects smoothly. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+jcode is a lightweight assistant runner built specifically to handle multiple helper programs at the exact same time. It uses minimal memory and starts up instantly so you can manage heavy development projects smoothly.
 
 ### Who it's for
 * Software creators managing multiple automated tasks across different code files at once.
@@ -54,10 +54,9 @@ jcode is a lightweight assistant runner built specifically to handle multiple he
 * **Autonomous Swarms:** Spawn multiple workers that communicate, share context, and resolve conflicts automatically.
 * **Self-Improvement:** Capable of entering self-development mode to update, test, and reload its own source code on the fly.
 * **Rich Media Rendering:** Displays inline images and mathematical equations directly inside your command-line interface.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Choose the correct setup option for your system below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Choose the correct setup option for your system below.
 
 * [Download for Windows (.exe) - ARM64](https://github.com/1jehuang/jcode/releases/download/v1.0.1/jcode-windows-aarch64.exe)
 * [Download for Windows (.exe) - x86_64](https://github.com/1jehuang/jcode/releases/download/v1.0.1/jcode-windows-x86_64.exe)
@@ -66,4 +65,10 @@ Choose the correct setup option for your system below. Keep large installer down
 * **Pros:** Extremely low memory usage, lightning-fast response times, and unique multi-agent swarm collaboration.
 * **Cons:** Advanced command-line usage may require a brief learning curve for non-technical beginners.
 
-[Official Source / Credits](https://github.com/1jehuang/jcode)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/1jehuang/jcode)

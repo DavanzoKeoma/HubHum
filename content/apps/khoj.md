@@ -5,17 +5,17 @@ tagline: "Your personal autonomous AI second brain"
 summary: "Transform your daily workflow with an open-source AI assistant that chats with your personal documents, browses the web, and automates research."
 tags: ["ai", "assistant", "search", "cloud-app"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/khoj.png"
 stars: 38182
 source_url: "https://github.com/khoj-ai/khoj"
 download_url: "https://github.com/khoj-ai/khoj/releases/download/2.0.0-beta.28/main.js"
 downloadUrl: "https://github.com/khoj-ai/khoj/releases/download/2.0.0-beta.28/main.js"
-download_label: "Download (main.js)"
-license: "AGPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Khoj acts as your personal AI second brain, connecting directly to your own files, notes, and the live internet to answer complex questions. You can chat with advanced artificial intelligence models right from your browser, desktop app, or messaging apps. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Khoj acts as your personal AI second brain, connecting directly to your own files, notes, and the live internet to answer complex questions. You can chat with advanced artificial intelligence models right from your browser, desktop app, or messaging apps.
 
 ### Who it's for
 * Researchers and students who need to query vast collections of PDF documents and notes instantly.
@@ -54,13 +54,18 @@ Khoj acts as your personal AI second brain, connecting directly to your own file
 * Search instantly across your personal documents including PDFs, Word files, Notion pages, and markdown notes.
 * Build custom knowledge agents tailored with specific personalities and specialized tools.
 * Automate repetitive research tasks and receive regular newsletters straight to your inbox.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can test the platform instantly in your browser by visiting the live cloud app at [Khoj Cloud App](https://app.khoj.dev). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). If you prefer to self-host, you can check out the source files including [Download (main.js)](https://github.com/khoj-ai/khoj/releases/download/2.0.0-beta.28/main.js), [Download (manifest.json)](https://github.com/khoj-ai/khoj/releases/download/2.0.0-beta.28/manifest.json), and [Download (styles.css)](https://github.com/khoj-ai/khoj/releases/download/2.0.0-beta.28/styles.css).
+You can test the platform instantly in your browser by visiting the live cloud app at [Khoj Cloud App](https://app.khoj.dev). Prefer not to manage servers by hand? If you prefer to self-host, you can check out the source files including [Download (main.js)](https://github.com/khoj-ai/khoj/releases/download/2.0.0-beta.28/main.js), [Download (manifest.json)](https://github.com/khoj-ai/khoj/releases/download/2.0.0-beta.28/manifest.json), and [Download (styles.css)](https://github.com/khoj-ai/khoj/releases/download/2.0.0-beta.28/styles.css).
 
 ### Pros and Cons
 * **Pros:** Fully open-source, supports complete self-hosting for privacy, and connects with both local and online models.
 * **Cons:** Advanced custom agent setups and local server configuration require some technical familiarity.
 
-[Official Source / Credits](https://github.com/khoj-ai/khoj)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/khoj-ai/khoj)

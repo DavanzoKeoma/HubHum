@@ -171,13 +171,12 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
             <option value="de">DE</option>
           </select>
 
-          <button type="button" id="oauth-login-btn" class="btn btn-primary">
+          <button type="button" id="oauth-login-btn" class="btn btn-outline" aria-label="View saved favorites or optional GitHub sync">
             <img id="oauth-avatar" src="" alt="" width="20" height="20" class="oauth-avatar" style="display:none;" />
             <svg id="oauth-default-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
             </svg>
-            <span id="oauth-login-label" data-i18n="navSignIn">Sign In</span>
+            <span id="oauth-login-label" data-i18n="navFavorites">Favorites</span>
           </button>
 
           <button
@@ -201,6 +200,7 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
         <a href={withBase('/guides/')} class="btn btn-outline" data-i18n="navGuides">Topic Guides</a>
         <a href={withBase('/#top-picks')} class="btn btn-outline" data-i18n="navTopPicks">Top Picks</a>
         <a href={withBase('/#submit')} class="btn btn-outline" data-i18n="navSubmit">Submit an App</a>
+        <a href={withBase('/about/')} class="btn btn-outline" data-i18n="aboutLink">About &amp; Transparency</a>
       </div>
     </header>
 
@@ -254,6 +254,7 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:1rem;margin-top:0.35rem;font-weight:600;color:var(--text);">
           <a href={withBase('/guides/')} style="text-decoration:underline;" data-i18n="navGuides">Topic Guides</a>
+          <a href={withBase('/about/')} style="text-decoration:underline;" data-i18n="aboutLink">About &amp; Transparency</a>
           <a href={withBase('/privacy/')} style="text-decoration:underline;" data-i18n="privacyLink">Privacy Policy</a>
           <a href={withBase('/dashboard/')} style="text-decoration:underline;" data-i18n="dashboardLink">Dashboard</a>
           <a href={withBase('/sitemap-index.xml')} style="text-decoration:underline;" data-i18n="sitemapLink">Sitemap</a>
@@ -392,8 +393,8 @@ const cfAnalyticsToken = String(import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN || '')
           }
           if (oauthSignInBox) oauthSignInBox.style.display = 'none';
         } else if (loginLabel) {
-          loginLabel.setAttribute('data-i18n', 'navSignIn');
-          loginLabel.textContent = TRANSLATIONS[currentLang].navSignIn;
+          loginLabel.setAttribute('data-i18n', 'navFavorites');
+          loginLabel.textContent = TRANSLATIONS[currentLang].navFavorites;
           if (avatarImg) avatarImg.style.display = 'none';
           if (defaultIcon) defaultIcon.style.display = 'inline-block';
           if (oauthSignInBox) oauthSignInBox.style.display = 'block';

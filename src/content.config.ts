@@ -15,7 +15,7 @@ const appsCollection = defineCollection({
     summary: z.string().default(''),
     tags: z.array(z.string().min(1)).min(1),
     is_webapp: z.boolean(),
-    app_type: z.enum(['desktop', 'webapp', 'cli']).default('desktop'),
+    app_type: z.enum(['desktop', 'webapp', 'selfhosted', 'cli', 'resource']).default('desktop'),
     category: z.string().default('Productivity'),
     icon: z.string().default('/icons/hubhum.svg'),
     stars: z.number().int().nonnegative().default(0),

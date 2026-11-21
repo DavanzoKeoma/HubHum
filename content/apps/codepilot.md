@@ -13,7 +13,7 @@ source_url: "https://github.com/op7418/CodePilot"
 download_url: "https://github.com/op7418/CodePilot/releases/download/v0.67.17/CodePilot.Setup.0.67.17.exe"
 downloadUrl: "https://github.com/op7418/CodePilot/releases/download/v0.67.17/CodePilot.Setup.0.67.17.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-CodePilot brings multiple smart assistant providers together into a single, easy-to-use desktop workspace. You can switch between different artificial intelligence models mid-conversation without ever losing your working context or history. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+CodePilot brings multiple smart assistant providers together into a single, easy-to-use desktop workspace. You can switch between different artificial intelligence models mid-conversation without ever losing your working context or history.
 
 ### Who it's for
 - Developers and writers who want to switch between different smart assistant engines in one central window.
@@ -53,11 +53,10 @@ CodePilot brings multiple smart assistant providers together into a single, easy
 - **Multi-Provider Support:** Connect to over seventeen different artificial intelligence services out of the box with effortless switching.
 - **Remote Bridge Control:** Link your desktop client to popular messaging apps so you can send prompts from your phone and read answers on your computer.
 - **Task and Cost Tracking:** Monitor your daily token usage and estimated expenses with clean built-in usage charts and diagnostics.
-- Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 - **Workspace Memory:** Maintain persistent personal preferences, custom guidelines, and daily check-ins so your assistant adapts to your personal style.
 
 ### How to install (Download)
-Choose the correct installer for your computer system below to get started in seconds. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Choose the correct installer for your computer system below to get started in seconds.
 
 - [Download for Windows (.exe)](https://github.com/op7418/CodePilot/releases/download/v0.67.17/CodePilot.Setup.0.67.17.exe)
 - [Download for Mac (.dmg)](https://github.com/op7418/CodePilot/releases/download/v0.67.17/CodePilot-0.67.17-universal.dmg)
@@ -67,4 +66,10 @@ Choose the correct installer for your computer system below to get started in se
 * **Pros:** Free for personal and academic use, supports a huge variety of artificial intelligence providers, and runs locally on your machine.
 * **Cons:** Commercial usage requires a separate license agreement, and connecting mobile messaging bridges requires initial bot setup steps.
 
-[Official Source / Credits](https://github.com/op7418/CodePilot)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/op7418/CodePilot)

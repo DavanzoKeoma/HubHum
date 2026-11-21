@@ -5,17 +5,17 @@ tagline: "Autonomous AI agents for ethical security testing"
 summary: "An autonomous multi-agent system that performs security testing and delivers comprehensive reports based on your plain-language goals."
 tags: ["security", "automation", "penetration-testing"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Security & Privacy"
 icon: "/icons/pentagi.png"
 stars: 34653
 source_url: "https://github.com/vxcontrol/pentagi"
 download_url: "https://pentagi.com"
 downloadUrl: "https://pentagi.com"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-PentAGI is a self-hosted system that brings together specialized artificial intelligence agents to handle complex security testing tasks. You simply describe your target and objective in everyday words, and the digital team plans the steps and runs standard security tools in a secure sandbox. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). Finally, it organizes everything it learns into clear summaries and actionable reports so you can understand your system's defenses.
+PentAGI is a self-hosted system that brings together specialized artificial intelligence agents to handle complex security testing tasks. You simply describe your target and objective in everyday words, and the digital team plans the steps and runs standard security tools in a secure sandbox. Finally, it organizes everything it learns into clear summaries and actionable reports so you can understand your system's defenses.
 
 ### Who it's for
 - Security engineers and professional penetration testers looking for an intelligent assistant to streamline routine checks.
@@ -54,12 +54,18 @@ PentAGI is a self-hosted system that brings together specialized artificial inte
 - **Isolated Sandboxing:** All operations run inside secure containers to protect your host system completely.
 - **Professional Tool Suite:** Comes pre-configured with dozens of industry-standard security verification utilities.
 - **Smart Memory Storage:** Remembers successful strategies and past discoveries using long-term vector databases.
-- Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-PentAGI is designed to run locally using modern container environments. You can easily set up and open the platform in the cloud with 1 click by visiting the [Official PentAGI Website](https://pentagi.com). Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+PentAGI is designed to run locally using modern container environments. You can easily set up and open the platform in the cloud with 1 click by visiting the [Official PentAGI Website](https://pentagi.com).
 
 ### Pros and Cons
 * **Pros:** Complete data privacy through self-hosting, highly customizable with major intelligence providers, and fully automated workflow execution.
 * **Cons:** Requires a solid understanding of security concepts, proper configuration of external intelligence models, and adequate hardware resources.
-[Official Source / Credits](https://github.com/vxcontrol/pentagi)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/vxcontrol/pentagi)

@@ -5,17 +5,17 @@ tagline: "The painless way to host Git"
 summary: "Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle."
 tags: ["git", "cloud-app", "development", "collaboration"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/gogs.png"
 stars: 47959
 source_url: "https://github.com/gogs/gogs"
 download_url: "https://gogs.io"
 downloadUrl: "https://gogs.io"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Gogs provides a private, lightweight home for all your programming projects so you can track changes and share work safely. It runs on almost any computer or server without demanding heavy resources or complex setup. You can also protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Gogs provides a private, lightweight home for all your programming projects so you can track changes and share work safely. It runs on almost any computer or server without demanding heavy resources or complex setup.
 
 ### Who it's for
 * Solo developers wanting complete privacy over their personal code archives.
@@ -54,13 +54,18 @@ Gogs provides a private, lightweight home for all your programming projects so y
 * Team collaboration tools including task tracking and code review discussions.
 * Support for multiple user accounts, permissions, and security keys.
 * Lightweight resource footprint that runs smoothly even on tiny computers.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can try the service instantly in your browser or set it up on your own machine. Visit the [Official Gogs Homepage](https://gogs.io) to download the standalone program files or try it [Online in the Sandbox](https://try.gogs.io/gogs/gogs). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can try the service instantly in your browser or set it up on your own machine. Visit the [Official Gogs Homepage](https://gogs.io) to download the standalone program files or try it [Online in the Sandbox](https://try.gogs.io/gogs/gogs). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Extremely fast and lightweight, works on modest hardware, completely private.
 * **Cons:** Advanced automation and plugin systems require manual setup or are still growing.
 
-[Official Source / Credits](https://github.com/gogs/gogs)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/gogs/gogs)

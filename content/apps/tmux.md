@@ -13,9 +13,9 @@ source_url: "https://github.com/gpakosz/.tmux"
 download_url: "https://github.com/gpakosz/.tmux/releases"
 downloadUrl: "https://github.com/gpakosz/.tmux/releases"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Oh my tmux! gives your standard command-line terminal workspace an instant visual and functional overhaul. It automatically arranges your multiple active windows and split sections into a clean, easy-to-read layout inspired by popular status bars. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). You can easily track your system status, jump between active tasks with simple shortcuts, and handle remote server connections without losing your place.
+Oh my tmux! gives your standard command-line terminal workspace an instant visual and functional overhaul. It automatically arranges your multiple active windows and split sections into a clean, easy-to-read layout inspired by popular status bars. You can easily track your system status, jump between active tasks with simple shortcuts, and handle remote server connections without losing your place.
 
 ### Who it's for
 * Software developers and system administrators who spend their entire day working inside text-based terminals.
@@ -52,14 +52,20 @@ Oh my tmux! gives your standard command-line terminal workspace an instant visua
 ### Key features
 * Gorgeous visual theme inspired by popular status bars, complete with battery levels, uptime clocks, and weather indicators.
 * Intuitive keyboard shortcuts that let you split panels, resize workspaces, and jump between windows like a professional.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Seamless mouse support that lets you click to select panes, resize windows, or instantly switch into copy mode.
 * Smart session management that remembers your active setups and lets you reconnect to remote servers safely.
 
 ### How to install (Download)
-Before installing, make sure you have the core terminal tool running on your system along with standard text helpers like awk and sed. You can install this configuration automatically by copying and pasting the quick setup command from the [Official Source / Credits](https://github.com/gpakosz/.tmux) page into your terminal. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). Alternatively, you can perform a manual installation by cloning the workspace files directly into your home configuration directory.
+Before installing, make sure you have the core terminal tool running on your system along with standard text helpers like awk and sed. You can install this configuration automatically by copying and pasting the quick setup command from the [Official Source / Credits](https://github.com/gpakosz/.tmux) page into your terminal. Alternatively, you can perform a manual installation by cloning the workspace files directly into your home configuration directory.
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, dramatically improves daily command-line comfort, highly customizable through a separate local file.
 * **Cons:** Requires a basic understanding of terminal navigation and a compatible host environment to look and function its best.
-[Official Source / Credits](https://github.com/gpakosz/.tmux)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/gpakosz/.tmux)

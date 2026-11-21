@@ -5,17 +5,17 @@ tagline: "Your complete guide to Linux commands"
 summary: "This tool provides a comprehensive, searchable library of over 600 Linux commands to help you learn and master system operations."
 tags: ["linux", "education", "reference"]
 is_webapp: false
-app_type: "cli"
+app_type: "resource"
 category: "Utilities & Power Tools"
 icon: "/icons/linux-command.png"
 stars: 37251
 source_url: "https://github.com/jaywcjlove/linux-command"
 download_url: "https://jaywcjlove.github.io/linux-command"
 downloadUrl: "https://jaywcjlove.github.io/linux-command"
-download_label: "Get Command-Line Tool →"
-license: "MIT"
+download_label: "Browse Reference →"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Linux"
+operatingSystem: "All / Reference"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Linux Command is a massive, free collection of instructions for the Linux operating system. It acts as a digital handbook where you can search for specific commands to understand what they do and how to use them. When you need royalty-free stock footage, music tracks, and motion presets alongside your technical projects, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Linux Command is a massive, free collection of instructions for the Linux operating system. It acts as a digital handbook where you can search for specific commands to understand what they do and how to use them.
 
 ### Who it's for
 * **Students and Beginners:** Ideal for those just starting their journey with Linux who need a quick reference guide.
@@ -52,13 +52,18 @@ Linux Command is a massive, free collection of instructions for the Linux operat
 * **Extensive Database:** Access over 600 commands with detailed explanations and usage examples.
 * **Easy Search:** Quickly find the exact command you need without digging through complex manuals.
 * **Offline Access:** The content is available in a clean, readable format that you can use anywhere.
-* **Expand your creative library:** Enhance your technical documentation or projects with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can access the full library instantly through the official web portal: [Open Linux Command in your browser](https://jaywcjlove.github.io/linux-command/). If you prefer to run it locally, you can use Docker to host your own instance. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can access the full library instantly through the official web portal: [Open Linux Command in your browser](https://jaywcjlove.github.io/linux-command/). If you prefer to run it locally, you can use Docker to host your own instance.
 
 ### Pros and Cons
 * **Pros:** Completely free and non-profit, massive collection of commands, no advertisements, and easy to search.
 * **Cons:** The content is community-sourced, so it is always good to verify critical commands in your specific environment.
 
-[Official Source / Credits](https://github.com/jaywcjlove/linux-command)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/jaywcjlove/linux-command)

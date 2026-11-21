@@ -13,7 +13,7 @@ source_url: "https://github.com/owu/wsl-dashboard"
 download_url: "https://github.com/owu/wsl-dashboard/releases/download/v0.13.0/WSLDashboard.0.13.0.Setup.arm64.exe"
 downloadUrl: "https://github.com/owu/wsl-dashboard/releases/download/v0.13.0/WSLDashboard.0.13.0.Setup.arm64.exe"
 download_label: "Download for Windows (.exe)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Working with Linux environments inside Windows can sometimes feel complicated and confusing. This application provides a clean, visual control panel to handle all your virtual Linux spaces without touching command-line tools. You can start, stop, back up, and customize your environments with just a simple click of a mouse. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Working with Linux environments inside Windows can sometimes feel complicated and confusing. This application provides a clean, visual control panel to handle all your virtual Linux spaces without touching command-line tools. You can start, stop, back up, and customize your environments with just a simple click of a mouse.
 
 ### Who it's for
 * **Web Developers:** Anyone who builds websites and runs local testing servers inside Linux environments on Windows.
@@ -54,7 +54,6 @@ Working with Linux environments inside Windows can sometimes feel complicated an
 * **Ultra-Lightweight Design:** Uses very little computer memory so it stays out of your way while you work on other tasks.
 * **Easy File Access:** Quickly open your project folders directly inside your favorite text editor or file browser.
 * **Automatic Backups:** Export and move your virtual drives safely without getting lost in complicated system menus.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can download the installation file matching your computer's chip architecture below:
@@ -62,10 +61,14 @@ You can download the installation file matching your computer's chip architectur
 * [Download for Windows (.exe) - ARM64](https://github.com/owu/wsl-dashboard/releases/download/v0.13.0/WSLDashboard.0.13.0.Setup.arm64.exe)
 * [Download for Windows (.exe) - x64](https://github.com/owu/wsl-dashboard/releases/download/v0.13.0/WSLDashboard.0.13.0.Setup.x64.exe)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free to use, very low memory footprint, modern and clean interface.
 * **Cons:** Designed specifically for Windows users running subsystem tools.
 
-[Official Source / Credits](https://github.com/owu/wsl-dashboard)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/owu/wsl-dashboard)

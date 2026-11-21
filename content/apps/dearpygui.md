@@ -13,7 +13,7 @@ source_url: "https://github.com/hoffstadt/DearPyGui"
 download_url: "https://dearpygui.readthedocs.io/en/latest/"
 downloadUrl: "https://dearpygui.readthedocs.io/en/latest/"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-DearPyGui lets programmers create interactive desktop panels, charts, and control windows inside Python programs without complicated setup. It draws every button and graph directly on your computer's graphics hardware so that everything moves smoothly at top speed. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+DearPyGui lets programmers create interactive desktop panels, charts, and control windows inside Python programs without complicated setup. It draws every button and graph directly on your computer's graphics hardware so that everything moves smoothly at top speed.
 
 ### Who it's for
 * Python creators who want to quickly add visual control panels and buttons to their scripts.
@@ -54,13 +54,18 @@ DearPyGui lets programmers create interactive desktop panels, charts, and contro
 * Built-in interactive charts capable of handling over a million data points at sixty frames per second.
 * Visual node editing canvas perfect for workflow builders and visual scripting tools.
 * Complete control over colors, styles, and themes to match your personal taste.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Make sure you have Python installed on your computer, open your terminal or command prompt, and type `pip install dearpygui` to get started. You can also explore the complete tutorials and documentation on the [Official Documentation Website](https://dearpygui.readthedocs.io/en/latest/). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Make sure you have Python installed on your computer, open your terminal or command prompt, and type `pip install dearpygui` to get started. You can also explore the complete tutorials and documentation on the [Official Documentation Website](https://dearpygui.readthedocs.io/en/latest/).
 
 ### Pros and Cons
 * **Pros:** Extremely fast performance, active community support, free and open source under MIT license.
 * **Cons:** Requires basic familiarity with writing Python scripts, immediate mode logic takes a little practice to master.
 
-[Official Source / Credits](https://github.com/hoffstadt/DearPyGui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/hoffstadt/DearPyGui)

@@ -13,7 +13,7 @@ source_url: "https://github.com/ImranR98/Obtainium"
 download_url: "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-fdroid-release.apk"
 downloadUrl: "https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-fdroid-release.apk"
 download_label: "Download for Android (.apk)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Android"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Obtainium allows you to download and update mobile applications directly from official developer release pages. It monitors your installed tools and alerts you whenever a new version becomes available in the wild. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Obtainium allows you to download and update mobile applications directly from official developer release pages. It monitors your installed tools and alerts you whenever a new version becomes available in the wild.
 
 ### Who it's for
 * Privacy-focused phone owners who prefer to bypass mainstream commercial app stores.
@@ -54,10 +54,9 @@ Obtainium allows you to download and update mobile applications directly from of
 * Notifications whenever a fresh release drops online.
 * Support for a wide variety of independent software registries and direct file links.
 * Import and export your tracked application list to easily move devices.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). You can grab the installation package directly below:
+You can grab the installation package directly below:
 
 * [Download for Android (.apk)](https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-release.apk)
 * [Download for Android (FDroid variant)](https://github.com/ImranR98/Obtainium/releases/download/v1.7.4/app-arm64-v8a-fdroid-release.apk)
@@ -66,4 +65,10 @@ Before downloading installers or syncing private files over public Wi-Fi, shield
 * **Pros:** Complete control over app versions, free forever, no account required.
 * **Cons:** Some third-party sources may occasionally break if website designs change unexpectedly.
 
-[Official Source / Credits](https://github.com/ImranR98/Obtainium)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ImranR98/Obtainium)

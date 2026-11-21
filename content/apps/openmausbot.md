@@ -5,7 +5,7 @@ tagline: "Your own team of local AI bots"
 summary: "Manage a custom roster of intelligent software helpers right inside a familiar chat interface on your computer."
 tags: ["ai", "chat-app", "automation", "local-first"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/openmausbot.png"
 stars: 25971
@@ -13,9 +13,9 @@ source_url: "https://github.com/milind-soni/OpenMausBot"
 download_url: "https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.173/OpenMausBot-0.1.173-setup.exe"
 downloadUrl: "https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.173/OpenMausBot-0.1.173-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-OpenMausBot brings a dedicated team of intelligent helpers directly to your desktop inside a clean messaging application. Each contact in your sidebar represents a unique digital assistant equipped with its own personality, memory, and specialized workspace. You can chat with them naturally, watch them complete tasks step by step, and approve important actions before they take effect. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+OpenMausBot brings a dedicated team of intelligent helpers directly to your desktop inside a clean messaging application. Each contact in your sidebar represents a unique digital assistant equipped with its own personality, memory, and specialized workspace. You can chat with them naturally, watch them complete tasks step by step, and approve important actions before they take effect.
 
 ### Who it's for
 * Freelancers and creators who want a private team of automated helpers to draft content and manage files.
@@ -54,7 +54,6 @@ OpenMausBot brings a dedicated team of intelligent helpers directly to your desk
 * **Dedicated computer spaces:** Watch your assistants operate in isolated sandbox environments or review their live desktop screens while they work.
 * **Smart approvals:** Every risky operation or file change pauses for your explicit permission using clear, interactive approval cards.
 * **Connected applications:** Link your favorite communication channels and productivity tools through secure integrations to let helpers perform real tasks.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can test and open this app instantly in the cloud, or download the desktop editions for your operating system. Grab the installer file directly below:
@@ -62,9 +61,14 @@ You can test and open this app instantly in the cloud, or download the desktop e
 * [Download for Mac (.dmg)](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.173/OpenMausBot.dmg)
 * [Download for Linux (.AppImage)](https://github.com/milind-soni/OpenMausBot/releases/download/v0.1.173/OpenMausBot.AppImage)
 
-Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
-
 ### Pros and Cons
 * **Pros:** Keeps your private conversations stored locally on your machine, supports multiple specialized assistants simultaneously, and offers complete transparency over automated actions.
 * **Cons:** Requires setting up your own model accounts or local command-line tools to unlock full capabilities, and advanced environment controls may take a moment to master.
-[Official Source / Credits](https://github.com/milind-soni/OpenMausBot)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/milind-soni/OpenMausBot)

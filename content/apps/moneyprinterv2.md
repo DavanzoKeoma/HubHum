@@ -13,9 +13,9 @@ source_url: "https://github.com/FujiwaraChoki/MoneyPrinterV2"
 download_url: "https://github.com/FujiwaraChoki/MoneyPrinterV2/releases"
 downloadUrl: "https://github.com/FujiwaraChoki/MoneyPrinterV2/releases"
 download_label: "Get Command-Line Tool →"
-license: "AGPL-3.0"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-MoneyPrinterV2 takes the repetitive work out of digital publishing by automatically generating video content and managing social media schedules. It handles tasks like video creation and automated posting so creators can focus on strategy rather than routine uploads. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+MoneyPrinterV2 takes the repetitive work out of digital publishing by automatically generating video content and managing social media schedules. It handles tasks like video creation and automated posting so creators can focus on strategy rather than routine uploads.
 
 ### Who it's for
 * Content creators looking to scale up their video output across multiple social media platforms without working extra hours.
@@ -52,13 +52,18 @@ MoneyPrinterV2 takes the repetitive work out of digital publishing by automatica
 * Automated generation and scheduling of short-form videos for popular video-sharing platforms.
 * Built-in social media scheduling bots to handle regular posting timetables automatically.
 * Integrated tools for exploring partnership marketing and outreach campaigns.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started, visit the [Releases Page](https://github.com/FujiwaraChoki/MoneyPrinterV2/releases) or the [Official Source official project page](https://github.com/FujiwaraChoki/MoneyPrinterV2) to download the project files and follow the setup guide using Python. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, visit the [Releases Page](https://github.com/FujiwaraChoki/MoneyPrinterV2/releases) or the [Official Source official project page](https://github.com/FujiwaraChoki/MoneyPrinterV2) to download the project files and follow the setup guide using Python.
 
 ### Pros and Cons
 * **Pros:** Open-source architecture, automated scheduling saves substantial time, highly modular design.
 * **Cons:** Requires technical familiarity with command-line tools and Python environment setup.
 
-[Official Source / Credits](https://github.com/FujiwaraChoki/MoneyPrinterV2)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/FujiwaraChoki/MoneyPrinterV2)

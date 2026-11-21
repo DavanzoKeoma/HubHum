@@ -13,9 +13,9 @@ source_url: "https://github.com/commitizen/cz-cli"
 download_url: "https://commitizen.github.io/cz-cli/"
 downloadUrl: "https://commitizen.github.io/cz-cli/"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-cz-cli is a helpful terminal tool that prompts you with specific questions whenever you save or update changes to a project. Instead of guessing how to write a descriptive update note, the tool walks you through structured categories and required fields step by step. When working in teams, this ensures everyone follows the exact same formatting rules, making it vastly easier to read history and generate release summaries. While organizing your development workflow, when you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+cz-cli is a helpful terminal tool that prompts you with specific questions whenever you save or update changes to a project. Instead of guessing how to write a descriptive update note, the tool walks you through structured categories and required fields step by step. When working in teams, this ensures everyone follows the exact same formatting rules, making it vastly easier to read history and generate release summaries.
 
 ### Who it's for
 * Software developers who want clean, uniform history logs across team projects.
@@ -54,7 +54,6 @@ cz-cli is a helpful terminal tool that prompts you with specific questions whene
 * Fully compatible with standard message conventions and customizable team templates.
 * Built-in retry function lets you fix failed checks without retyping your entire message.
 * Integrates seamlessly with popular hook tools to check formatting automatically.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can easily set up the command utility using your node package manager by running:
@@ -63,9 +62,16 @@ You can easily set up the command utility using your node package manager by run
 npm install -g commitizen
 ```
 
-Alternatively, visit the [Commitizen Official Website](https://commitizen.github.io/cz-cli/) to read full documentation and guidelines. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Alternatively, visit the [Commitizen Official Website](https://commitizen.github.io/cz-cli/) to read full documentation and guidelines.
 
 ### Pros and Cons
 * **Pros:** Free and open source, highly customizable, dramatically improves team clarity.
 * **Cons:** Requires a basic terminal environment and familiarity with command-line tools.
-[Official Source / Credits](https://github.com/commitizen/cz-cli)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/commitizen/cz-cli)

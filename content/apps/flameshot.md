@@ -13,7 +13,7 @@ source_url: "https://github.com/flameshot-org/flameshot"
 download_url: "https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-win64.msi"
 downloadUrl: "https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-win64.msi"
 download_label: "Download for Windows (.msi)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "DesignApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Flameshot is a lightweight utility designed to take quick snapshots of your computer screen with zero friction. It lets you instantly crop, annotate, blur sensitive information, and draw directly onto your capture before saving or sharing. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Flameshot is a lightweight utility designed to take quick snapshots of your computer screen with zero friction. It lets you instantly crop, annotate, blur sensitive information, and draw directly onto your capture before saving or sharing.
 
 ### Who it's for
 - Content creators who frequently need to snap, annotate, and share visual tutorials or bug reports.
@@ -54,7 +54,6 @@ Flameshot is a lightweight utility designed to take quick snapshots of your comp
 - **Privacy Blur:** Quickly pixelate or blur sensitive passwords, emails, or personal data on your capture.
 - **Flexible Export:** Save images locally, copy them straight to your clipboard, or upload them to online sharing services.
 - **Customizable Shortcuts:** Set up global keyboard shortcuts to trigger captures with a single keystroke.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Choose the installer that matches your operating system to get started right away:
@@ -62,10 +61,15 @@ Choose the installer that matches your operating system to get started right awa
 - [Download for Mac (.dmg)](https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-macos-arm64.dmg) (Apple Silicon)
 - [Download for Mac (.dmg)](https://github.com/flameshot-org/flameshot/releases/download/v15.0.0/Flameshot-15.0.0-macos-intel.dmg) (Intel)
 - Linux users can easily install it through their terminal package manager (e.g., `sudo apt install flameshot` or via Flathub).
-- Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** Completely free and open-source, highly customizable interface, lightning-fast annotation workflow.
 * **Cons:** Minimal window managers on Linux may require slight extra configuration for shortcuts and tray icons.
 
-[Official Source / Credits](https://github.com/flameshot-org/flameshot)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/flameshot-org/flameshot)

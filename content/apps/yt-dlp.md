@@ -13,7 +13,7 @@ source_url: "https://github.com/yt-dlp/yt-dlp"
 download_url: "https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp.exe"
 downloadUrl: "https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp.exe"
 download_label: "Download for Windows (.exe)"
-license: "Unlicense"
+license: "Public Domain / Free"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "MultimediaApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-yt-dlp lets you download video and audio clips from thousands of online portals with simple text commands. It handles complex playlists, entire channel archives, and high-definition formats effortlessly. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+yt-dlp lets you download video and audio clips from thousands of online portals with simple text commands. It handles complex playlists, entire channel archives, and high-definition formats effortlessly.
 
 ### Who it's for
 * Content creators archiving their own video broadcasts or collecting reference clips.
@@ -54,10 +54,9 @@ yt-dlp lets you download video and audio clips from thousands of online portals 
 * Capable of downloading entire playlists, live streams, and multi-angle video chapters.
 * Automatically merges separate high-definition video and audio tracks for the best quality playback.
 * Extracts pure audio files in various popular formats.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can grab the standalone application depending on your operating system. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can grab the standalone application depending on your operating system.
 
 * [Download for Windows (.exe)](https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp.exe)
 * [Download for Windows (ARM64)](https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp_arm64.exe)
@@ -67,4 +66,10 @@ You can grab the standalone application depending on your operating system. Keep
 * **Pros:** Completely free and open-source, highly customizable, receives frequent updates to match website changes.
 * **Cons:** Operates via command-line text interface, which may take newcomers a little practice to master.
 
-[Official Source / Credits](https://github.com/yt-dlp/yt-dlp)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/yt-dlp/yt-dlp)

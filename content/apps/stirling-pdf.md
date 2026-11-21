@@ -5,7 +5,7 @@ tagline: "Your all-in-one private PDF toolkit."
 summary: "Edit, convert, and secure your PDF documents locally without uploading your sensitive files to third-party web services."
 tags: ["pdf", "productivity", "utilities", "open-source"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/stirling-pdf.png"
 stars: 97065
@@ -13,9 +13,9 @@ source_url: "https://github.com/Stirling-Tools/Stirling-PDF"
 download_url: "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v3.4.0/Stirling-PDF-windows-arm64-setup.exe"
 downloadUrl: "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v3.4.0/Stirling-PDF-windows-arm64-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Stirling-PDF lets you handle everyday document tasks like editing pages, signing contracts, converting formats, and combining files entirely on your own device. You can run it directly in your web browser or open it in the cloud for instant access anywhere. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Stirling-PDF lets you handle everyday document tasks like editing pages, signing contracts, converting formats, and combining files entirely on your own device. You can run it directly in your web browser or open it in the cloud for instant access anywhere.
 
 ### Who it's for
 * Office professionals who frequently need to sign, merge, and convert sensitive business documents securely.
@@ -52,12 +52,11 @@ Stirling-PDF lets you handle everyday document tasks like editing pages, signing
 ### Key features
 * Over 50 robust tools to edit, merge, split, sign, redact, convert, and compress files.
 * Complete privacy by keeping all document processing entirely on your local machine or private server.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 * Multi-language interface supporting over 40 languages for global users.
 * Built-in automation pipelines and developer tools to process documents efficiently at scale.
 
 ### How to install (Download)
-You can launch the web-based version instantly in your browser or choose an installer for your operating system. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can launch the web-based version instantly in your browser or choose an installer for your operating system.
 * [Download for Windows (.exe)](https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v3.4.0/Stirling-PDF-windows-arm64-setup.exe)
 * [Download for Windows (.msi)](https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v3.4.0/Stirling-PDF-windows-x86_64.msi)
 * [Download for Mac (.dmg)](https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v3.4.0/Stirling-PDF-macos-universal.dmg)
@@ -68,4 +67,10 @@ You can launch the web-based version instantly in your browser or choose an inst
 * **Pros:** Completely free and open-source, keeps your documents private, offers a huge variety of built-in tools.
 * **Cons:** Advanced server automation features may take a little technical know-how to configure.
 
-[Official Source / Credits](https://github.com/Stirling-Tools/Stirling-PDF)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Stirling-Tools/Stirling-PDF)

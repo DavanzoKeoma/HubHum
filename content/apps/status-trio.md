@@ -13,7 +13,7 @@ source_url: "https://github.com/lingyired/status-trio"
 download_url: "https://github.com/lingyired/status-trio/releases/download/v1.9.6/StatusTrio-1.9.6.dmg"
 downloadUrl: "https://github.com/lingyired/status-trio/releases/download/v1.9.6/StatusTrio-1.9.6.dmg"
 download_label: "Download for Mac (.dmg)"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Status Trio cleans up your desktop by merging your Wi-Fi, battery, and volume indicators into one customizable icon. It works seamlessly in your menu bar or Dock, providing quick access to detailed system information with a single click. If you are a content creator managing media assets alongside your system tools, you can find royalty-free stock footage and music tracks at [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Status Trio cleans up your desktop by merging your Wi-Fi, battery, and volume indicators into one customizable icon. It works seamlessly in your menu bar or Dock, providing quick access to detailed system information with a single click.
 
 ### Who it's for
 *   **Minimalists:** People who want to reduce clutter in their menu bar without losing sight of important system information.
@@ -52,16 +52,19 @@ Status Trio cleans up your desktop by merging your Wi-Fi, battery, and volume in
 *   **Unified Status:** See your battery, Wi-Fi, and volume levels in one compact, elegant icon.
 *   **Interactive Panel:** Click the icon to view nearby networks, manage Bluetooth devices, or check detailed battery health.
 *   **Customizable Design:** Adjust icon size, symbol scale, and ring thickness to match your personal aesthetic.
-*   **Creative Integration:** Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can download the latest version directly for your Mac:
 *   [Download for Mac (.dmg)](https://github.com/lingyired/status-trio/releases/download/v1.9.6/StatusTrio-1.9.6.dmg)
 
-To ensure your downloads and system transfers remain private and free from speed restrictions, consider using [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad) while managing your software updates.
-
 ### Pros and Cons
 *   **Pros:** Highly customizable, native look and feel, and significantly reduces menu bar clutter.
 *   **Cons:** Some advanced features (like charge-limit control) require newer versions of macOS and specific hardware.
 
-[Official Source / Credits](https://github.com/lingyired/status-trio)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/lingyired/status-trio)

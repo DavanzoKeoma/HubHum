@@ -13,7 +13,7 @@ source_url: "https://github.com/semantic-release/semantic-release"
 download_url: "https://semantic-release.org"
 downloadUrl: "https://semantic-release.org"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Updating software projects and publishing updates manually is tedious and prone to human error. This clever tool automates the entire process from start to finish by reading your daily update messages. For reliable off-site file hosting and secure data sharing, you can easily pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). It instantly generates accurate version numbers, writes detailed change logs, and publishes your packages to the world without requiring manual guesswork.
+Updating software projects and publishing updates manually is tedious and prone to human error. This clever tool automates the entire process from start to finish by reading your daily update messages. It instantly generates accurate version numbers, writes detailed change logs, and publishes your packages to the world without requiring manual guesswork.
 
 ### Who it's for
 - Software creators who want to eliminate the headache of deciding version numbers manually.
@@ -54,10 +54,9 @@ Updating software projects and publishing updates manually is tedious and prone 
 - Strict adherence to standardized versioning rules so consumers instantly understand changes.
 - Automatic generation of clear changelogs directly from your team's update messages.
 - Flexible support for multiple distribution channels and various package managers.
-- Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). Since this is a cloud-native service designed for automation pipelines, you can instantly check out the official platform and launch your projects directly in the cloud in just one click.
+Since this is a cloud-native service designed for automation pipelines, you can instantly check out the official platform and launch your projects directly in the cloud in just one click.
 
 [Open Official Site & Cloud Setup](https://semantic-release.org)
 
@@ -65,4 +64,10 @@ Before downloading installers or syncing private files over public Wi-Fi, shield
 * **Pros:** Completely removes manual release friction, ensures strict version consistency, and integrates smoothly into automated build systems.
 * **Cons:** Requires strict adherence to update message conventions across your entire team to function properly.
 
-[Official Source / Credits](https://github.com/semantic-release/semantic-release)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/semantic-release/semantic-release)

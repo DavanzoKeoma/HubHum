@@ -13,7 +13,7 @@ source_url: "https://github.com/veeso/termscp"
 download_url: "https://github.com/veeso/termscp/releases/download/v1.2.2/termscp_1.2.2-1_amd64.deb"
 downloadUrl: "https://github.com/veeso/termscp/releases/download/v1.2.2/termscp_1.2.2-1_amd64.deb"
 download_label: "Download for Linux (.deb)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Termscp is a powerful text-based tool that lets you connect to remote servers and cloud storage providers right from your computer screen. It gives you a split-screen or single-pane view to browse folders, edit documents, and upload or download files without needing a mouse. Whether you are managing files on a private server or organizing cloud buckets, it keeps all your file management tasks inside one fast interface. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Termscp is a powerful text-based tool that lets you connect to remote servers and cloud storage providers right from your computer screen. It gives you a split-screen or single-pane view to browse folders, edit documents, and upload or download files without needing a mouse. Whether you are managing files on a private server or organizing cloud buckets, it keeps all your file management tasks inside one fast interface.
 
 ### Who it's for
 - System administrators who frequently connect to remote Linux or Windows servers to check logs and move files.
@@ -54,15 +54,21 @@ Termscp is a powerful text-based tool that lets you connect to remote servers an
 - **Handy File Operations:** Create, remove, rename, search, view, and edit local and remote files seamlessly.
 - **Saved Connections:** Quickly jump to your favorite hosts using built-in bookmarks and recent connection history.
 - **Embedded Terminal:** Run system commands directly inside the program without closing your session.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can download the package for Debian-based systems directly below:
 - [Download for Linux (.deb)](https://github.com/veeso/termscp/releases/download/v1.2.2/termscp_1.2.2-1_amd64.deb)
 
-For other operating systems or installation methods, visit the [Official Website](https://termscp.rs/install). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+For other operating systems or installation methods, visit the [Official Website](https://termscp.rs/install).
 
 ### Pros and Cons
 * **Pros:** Extremely fast and lightweight, supports a wide variety of cloud and file transfer protocols, completely free and open source.
 * **Cons:** Requires familiarity with keyboard shortcuts and terminal navigation, lacks a traditional graphical mouse-driven interface.
-[Official Source / Credits](https://github.com/veeso/termscp)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/veeso/termscp)

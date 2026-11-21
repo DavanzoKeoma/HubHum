@@ -13,7 +13,7 @@ source_url: "https://github.com/bleachbit/bleachbit"
 download_url: "https://github.com/bleachbit/bleachbit/releases/download/v6.0.6/BleachBit-6.0.6-setup-English.exe"
 downloadUrl: "https://github.com/bleachbit/bleachbit/releases/download/v6.0.6/BleachBit-6.0.6-setup-English.exe"
 download_label: "Download for Windows (.exe)"
-license: "GPL-3.0"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, Linux"
 applicationCategory: "SecurityApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Over time, your computer accumulates hidden junk files, temporary browser data, and caches that clutter your hard drive and slow down performance. BleachBit safely scans your system to locate these unnecessary files and permanently removes them with a single click. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). It also protects your digital footprint by shredding sensitive documents and scrubbing chat logs so your personal activity remains private.
+Over time, your computer accumulates hidden junk files, temporary browser data, and caches that clutter your hard drive and slow down performance. BleachBit safely scans your system to locate these unnecessary files and permanently removes them with a single click. It also protects your digital footprint by shredding sensitive documents and scrubbing chat logs so your personal activity remains private.
 
 ### Who it's for
 * Everyday computer users looking to reclaim gigabytes of storage space from a sluggish or full hard drive.
@@ -53,10 +53,9 @@ Over time, your computer accumulates hidden junk files, temporary browser data, 
 * Secure file shredding that prevents deleted documents from ever being recovered by data recovery software.
 * Specialized cleaners for popular web browsers, media players, and chat applications.
 * Command-line interface for advanced users who want to automate routine maintenance tasks.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-Choose the installer that matches your operating system to get started right away. Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Choose the installer that matches your operating system to get started right away.
 
 * [Download for Windows (.exe)](https://github.com/bleachbit/bleachbit/releases/download/v6.0.6/BleachBit-6.0.6-setup-English.exe)
 * [Download for Linux (.AppImage)](https://github.com/bleachbit/bleachbit/releases/download/v6.0.6/BleachBit-6.0.6-x86_64.AppImage)
@@ -66,4 +65,10 @@ Choose the installer that matches your operating system to get started right awa
 * **Pros:** Completely free and open source with zero advertisements or hidden subscription fees.
 * **Cons:** Deleting files is permanent, so mistakes can happen if you do not review the preview list carefully.
 
-[Official Source / Credits](https://github.com/bleachbit/bleachbit)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/bleachbit/bleachbit)

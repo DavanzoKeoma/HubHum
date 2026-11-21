@@ -5,7 +5,7 @@ tagline: "Run private AI models on your computer."
 summary: "Jan is an open-source alternative to online smart assistants that runs completely offline on your own personal computer."
 tags: ["ai", "privacy", "offline", "chatgpt-alternative"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/jan.png"
 stars: 45908
@@ -13,9 +13,9 @@ source_url: "https://github.com/janhq/jan"
 download_url: "https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_arm64-setup.exe"
 downloadUrl: "https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_arm64-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Jan lets you chat with advanced artificial intelligence models directly on your own computer without needing an internet connection. It keeps all your conversations strictly private by storing everything locally on your hard drive. You can also connect it to cloud services or use its built-in local server to power other tools. If you prefer cloud access, you can open and run web versions in the cloud in 1 click. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Jan lets you chat with advanced artificial intelligence models directly on your own computer without needing an internet connection. It keeps all your conversations strictly private by storing everything locally on your hard drive. You can also connect it to cloud services or use its built-in local server to power other tools. If you prefer cloud access, you can open and run web versions in the cloud in 1 click.
 
 ### Who it's for
 * Writers and researchers who want an intelligent assistant without sending sensitive drafts to third-party servers.
@@ -54,10 +54,9 @@ Jan lets you chat with advanced artificial intelligence models directly on your 
 * **Custom Assistants:** Tailor specialized helper personalities and prompts for your exact daily workflows.
 * **Flexible Cloud Connections:** Optionally link up with external cloud models when you need extra processing power.
 * **Local Server API:** Run a local server endpoint on your machine to integrate with other software effortlessly.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can download the application directly for your operating system using the official setup files below. Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can download the application directly for your operating system using the official setup files below.
 
 * [Download for Windows (.exe)](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_x64-setup.exe)
 * [Download for Mac (.dmg)](https://github.com/janhq/jan/releases/download/v0.8.8/Jan_0.8.8_universal.dmg)
@@ -68,4 +67,10 @@ You can download the application directly for your operating system using the of
 * **Pros:** Keeps all data completely private, works offline, open-source, highly customizable.
 * **Cons:** Running large models locally requires a decent computer with a modern processor and plenty of memory.
 
-[Official Source / Credits](https://github.com/janhq/jan)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/janhq/jan)

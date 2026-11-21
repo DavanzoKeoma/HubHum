@@ -5,17 +5,17 @@ tagline: "Block web attacks and secure apps instantly."
 summary: "A robust security shield that filters web traffic, blocks malicious attacks, and keeps your online services safe from hackers."
 tags: ["security", "firewall", "web-protection", "cloud-app"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Security & Privacy"
 icon: "/icons/safeline.png"
 stars: 23341
 source_url: "https://github.com/chaitin/SafeLine"
 download_url: "https://ly.cyberserval.tech/d4HFBvC"
 downloadUrl: "https://ly.cyberserval.tech/d4HFBvC"
-download_label: "Visit Official Site"
-license: "GPL-3.0"
+download_label: "Official Setup & Docs →"
+license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-SafeLine acts as an intelligent guardian sitting between the internet and your web applications. It constantly inspects incoming visitor traffic to spot malicious code, automated bots, and intrusion attempts before they can reach your server. By filtering out harmful requests automatically, it ensures your websites stay online, responsive, and secure from daily cyber threats. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+SafeLine acts as an intelligent guardian sitting between the internet and your web applications. It constantly inspects incoming visitor traffic to spot malicious code, automated bots, and intrusion attempts before they can reach your server. By filtering out harmful requests automatically, it ensures your websites stay online, responsive, and secure from daily cyber threats.
 
 ### Who it's for
 * **Website Owners:** Individuals and business owners looking to safeguard customer data and prevent downtime from automated hacking attempts.
@@ -54,12 +54,18 @@ SafeLine acts as an intelligent guardian sitting between the internet and your w
 * **Traffic Throttling:** Controls visitor velocity to protect your web tools against sudden traffic surges and brute-force guessing attempts.
 * **Smart Bot Filtering:** Separates genuine human visitors from automated web crawlers and malicious bots using dynamic challenges.
 * **Visual Activity Monitoring:** Displays clear charts and logs so you can review blocked attempts and monitor overall system health in real-time.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-SafeLine is designed to run in the cloud and on your own infrastructure. You can explore the [Live Demo](https://demo.waf.chaitin.com:9443/) to test the interface right away, follow the complete setup instructions in the [Install Guide](https://docs.waf.chaitin.com/en/GetStarted/Deploy), or review app setup steps in the [Configuration Guide](https://docs.waf.chaitin.com/en/GetStarted/AddApplication). Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+SafeLine is designed to run in the cloud and on your own infrastructure. You can explore the [Live Demo](https://demo.waf.chaitin.com:9443/) to test the interface right away, follow the complete setup instructions in the [Install Guide](https://docs.waf.chaitin.com/en/GetStarted/Deploy), or review app setup steps in the [Configuration Guide](https://docs.waf.chaitin.com/en/GetStarted/AddApplication).
 
 ### Pros and Cons
 * **Pros:** Exceptionally high detection accuracy with minimal false alarms, handles massive daily traffic requests reliably, and offers robust open-source protection.
 * **Cons:** Requires a dedicated server or hosting environment to run, and fine-tuning advanced blocking rules takes a bit of technical familiarity.
-[Official Source / Credits](https://github.com/chaitin/SafeLine)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/chaitin/SafeLine)

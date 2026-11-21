@@ -13,7 +13,7 @@ source_url: "https://github.com/johnfanv2/LenovoLegionLinux"
 download_url: "https://github.com/johnfanv2/LenovoLegionLinux/releases/download/v0.1.8/0001-Add-legion-laptop-v0.1.8.patch"
 downloadUrl: "https://github.com/johnfanv2/LenovoLegionLinux/releases/download/v0.1.8/0001-Add-legion-laptop-v0.1.8.patch"
 download_label: "Download (0001-Add-legion-laptop-v0.1.8.patch)"
-license: "GPL-2.0"
+license: "Open Source (GPL v2)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-LenovoLegionLinux provides custom drivers and tools that let you fully manage your Lenovo Legion laptop when running the Linux operating system. It bridges the gap left by manufacturer software built exclusively for Windows, letting you tweak cooling fans, power limits, and battery charging profiles. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+LenovoLegionLinux provides custom drivers and tools that let you fully manage your Lenovo Legion laptop when running the Linux operating system. It bridges the gap left by manufacturer software built exclusively for Windows, letting you tweak cooling fans, power limits, and battery charging profiles.
 
 ### Who it's for
 * Linux users who own a Lenovo Legion or compatible LOQ laptop and want deep hardware customization.
@@ -54,17 +54,20 @@ LenovoLegionLinux provides custom drivers and tools that let you fully manage yo
 * **Power Mode Switching:** Easily toggle between quiet, balanced, and performance profiles directly from your desktop environment.
 * **Battery Conservation:** Limit maximum charging capacity to prolong battery lifespan when plugged into wall power for long periods.
 * **Hardware Toggles:** Quickly enable or disable keyboard backlighting, touchpads, and camera power with simple commands or graphical tools.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can set up the tool through your Linux distribution's package manager or community project pages, such as the Arch User official project page, Fedora COPR, or NixOS. Advanced users can also integrate the kernel modifications directly by downloading the official patch. 
 
 * [Download (0001-Add-legion-laptop-v0.1.8.patch)](https://github.com/johnfanv2/LenovoLegionLinux/releases/download/v0.1.8/0001-Add-legion-laptop-v0.1.8.patch)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open-source, fills a major gap for Linux users on Lenovo hardware, enables advanced fan customisation.
 * **Cons:** Requires technical familiarity with Linux commands, and specific features depend heavily on your exact laptop model and BIOS version.
 
-[Official Source / Credits](https://github.com/johnfanv2/LenovoLegionLinux)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/johnfanv2/LenovoLegionLinux)

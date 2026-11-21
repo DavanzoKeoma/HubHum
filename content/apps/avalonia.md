@@ -13,9 +13,9 @@ source_url: "https://github.com/AvaloniaUI/Avalonia"
 download_url: "https://avaloniaui.net"
 downloadUrl: "https://avaloniaui.net"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android, iOS"
+operatingSystem: "Windows, macOS, Linux, iOS"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Avalonia allows software creators to write code once and run it seamlessly across Windows, macOS, Linux, mobile devices, and the web. It provides a flexible design system that adapts to your visual style while ensuring fast performance everywhere. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Avalonia allows software creators to write code once and run it seamlessly across Windows, macOS, Linux, mobile devices, and the web. It provides a flexible design system that adapts to your visual style while ensuring fast performance everywhere.
 
 ### Who it's for
 * Software developers looking to target multiple operating systems from a single codebase.
@@ -53,12 +53,18 @@ Avalonia allows software creators to write code once and run it seamlessly acros
 * Write once and run applications smoothly on Windows, macOS, Linux, mobile devices, and web browsers.
 * Enjoy a familiar design environment with live interface previews as you code.
 * Benefit from a mature, production-ready system trusted by major global technology brands.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started with creating your applications, visit the [Official Website](https://avaloniaui.net). You can install the developer tools and packages directly through popular coding environments like Visual Studio or JetBrains Rider using the NuGet package manager. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started with creating your applications, visit the [Official Website](https://avaloniaui.net). You can install the developer tools and packages directly through popular coding environments like Visual Studio or JetBrains Rider using the NuGet package manager.
 
 ### Pros and Cons
 * **Pros:** Free and open-source, massive time-saver for multi-platform development, active community support.
 * **Cons:** Requires familiarity with .NET development concepts, advanced custom styling takes time to master.
-[Official Source / Credits](https://github.com/AvaloniaUI/Avalonia)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/AvaloniaUI/Avalonia)

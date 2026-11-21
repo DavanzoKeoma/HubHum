@@ -13,9 +13,9 @@ source_url: "https://github.com/citrolabs/ego-lite"
 download_url: "https://lite.ego.app"
 downloadUrl: "https://lite.ego.app"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Ego-lite is a specially designed web browser where you and your artificial intelligence assistants work side by side at the same time. The application gives your digital helpers their own separate workspaces inside the browser so they can handle website tasks without ever taking over your active tabs or mouse. While your helpers work in the background, you can browse normally and enjoy a faster workflow. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Ego-lite is a specially designed web browser where you and your artificial intelligence assistants work side by side at the same time. The application gives your digital helpers their own separate workspaces inside the browser so they can handle website tasks without ever taking over your active tabs or mouse. While your helpers work in the background, you can browse normally and enjoy a faster workflow.
 
 ### Who it's for
 * Software developers and programmers who want AI coding companions to test web pages automatically.
@@ -54,7 +54,6 @@ Ego-lite is a specially designed web browser where you and your artificial intel
 * **Smart Page Reading:** Uses advanced page snapshot technology to help AI models clearly understand and interact with complex web pages instantly.
 * **Instant Login Sharing:** Safely imports your existing browser history, cookies, and saved passwords so your assistants can immediately access sites where you are already signed in.
 * **Code-Driven Efficiency:** Assistants interact using lightweight code instructions rather than slow click commands, finishing complex tasks much faster and with fewer token costs.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 Pick the right installation file for your computer system:
@@ -62,9 +61,16 @@ Pick the right installation file for your computer system:
 * [Download ego lite for Intel](https://cdn.ego.app/setup/macos/x64/egolite-Y7MbxKIuhzFB.dmg)
 * [Download ego lite for Windows](https://cdn.ego.app/setup/windows/x64/egoliteSetup-Y7MbxKIuhzFB.exe)
 
-Once downloaded, open the file to complete the setup. You can also explore documentation and guides directly at the [Official Website and Docs](https://lite.ego.app). Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Once downloaded, open the file to complete the setup. You can also explore documentation and guides directly at the [Official Website and Docs](https://lite.ego.app).
 
 ### Pros and Cons
 * **Pros:** Completely free to use, keeps your private data stored locally on your device, and allows seamless multitasking with digital assistants.
 * **Cons:** Advanced automation features require a bit of technical comfort with assistant commands, and Linux support is still in development.
-[Official Source / Credits](https://github.com/citrolabs/ego-lite)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/citrolabs/ego-lite)

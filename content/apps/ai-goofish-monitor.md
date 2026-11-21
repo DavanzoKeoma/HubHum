@@ -13,9 +13,9 @@ source_url: "https://github.com/Usagi-org/ai-goofish-monitor"
 download_url: "https://github.com/Usagi-org/ai-goofish-monitor/releases"
 downloadUrl: "https://github.com/Usagi-org/ai-goofish-monitor/releases"
 download_label: "Visit Official Site"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "All / Browser"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This application acts as your personal assistant for browsing second-hand marketplaces, automatically scanning for items that match your specific criteria. It uses artificial intelligence to analyze product details and images, ensuring you only get notified about items that truly fit your requirements. To keep your administrative dashboard secure while accessing it from different locations, consider using [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This application acts as your personal assistant for browsing second-hand marketplaces, automatically scanning for items that match your specific criteria. It uses artificial intelligence to analyze product details and images, ensuring you only get notified about items that truly fit your requirements.
 
 ### Who it's for
 * **Bargain Hunters:** People looking for specific rare items or deals who don't want to refresh pages manually all day.
@@ -52,16 +52,20 @@ This application acts as your personal assistant for browsing second-hand market
 * **AI-Powered Analysis:** Uses advanced models to understand your natural language requests and evaluate product quality.
 * **Smart Filtering:** Set precise rules for price, location, and item condition to ignore irrelevant listings.
 * **Instant Notifications:** Get alerts directly to your phone or computer via various messaging platforms.
-* **SEO & Visibility:** Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 This application is designed to run as a web service. You can cloud setup it using Docker for a seamless experience. 
 
 * **Official Installation Guide:** [View GitHub official project page](https://github.com/Usagi-org/ai-goofish-monitor)
-* **Cloud Hosting:** Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
 
 ### Pros and Cons
 * **Pros:** Highly customizable, supports automated AI decision-making, and includes a clean web-based management interface.
 * **Cons:** Requires an OpenAI-compatible API key to function and involves a brief setup process for account login tokens.
 
-[Official Source / Credits](https://github.com/Usagi-org/ai-goofish-monitor)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Usagi-org/ai-goofish-monitor)

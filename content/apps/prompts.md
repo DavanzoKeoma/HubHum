@@ -13,9 +13,9 @@ source_url: "https://github.com/terkelg/prompts"
 download_url: "https://github.com/terkelg/prompts/releases"
 downloadUrl: "https://github.com/terkelg/prompts/releases"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This utility helps developers collect information from users through clean and colorful terminal questionnaires. It replaces complicated setup routines with straightforward questions, multiple-choice lists, and confirmation prompts. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This utility helps developers collect information from users through clean and colorful terminal questionnaires. It replaces complicated setup routines with straightforward questions, multiple-choice lists, and confirmation prompts.
 
 ### Who it's for
 * Software creators building command-line utilities who need clean input forms.
@@ -54,7 +54,6 @@ This utility helps developers collect information from users through clean and c
 * Modern promise-based syntax using clean async and await workflow patterns.
 * Fully independent prompts that work standalone or chained together in sequence.
 * Programmatic testing support to inject answers and verify behavior automatically.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 This package runs on Node.js environments. You can install it directly into your project via your terminal package manager:
@@ -63,10 +62,14 @@ This package runs on Node.js environments. You can install it directly into your
 $ npm install --save prompts
 ```
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Extremely lightweight, supports modern asynchronous code, highly customizable visual layout.
 * **Cons:** Requires familiarity with Node.js development environments to use effectively.
 
-[Official Source / Credits](https://github.com/terkelg/prompts)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/terkelg/prompts)

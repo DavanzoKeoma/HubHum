@@ -5,7 +5,7 @@ tagline: "Private AI meeting notes on your device"
 summary: "Capture, transcribe, and summarize your meetings securely on your own computer without sending sensitive audio data to the cloud."
 tags: ["ai", "meetings", "privacy", "transcription"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/meetily.png"
 stars: 32898
@@ -13,9 +13,9 @@ source_url: "https://github.com/Zackriya-Solutions/meetily"
 download_url: "https://github.com/Zackriya-Solutions/meetily/releases/download/v0.5.0/meetily_0.5.0_x64-setup.exe"
 downloadUrl: "https://github.com/Zackriya-Solutions/meetily/releases/download/v0.5.0/meetily_0.5.0_x64-setup.exe"
 download_label: "Download for Windows (.exe)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Meetily listens to your discussions and turns spoken conversations into written text and clear summaries directly on your computer. It keeps your sensitive recordings entirely private by running advanced speech recognition locally instead of relying on external web servers. You can easily review what was said, search through past discussions, and stay organized without worrying about corporate data leaks. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Meetily listens to your discussions and turns spoken conversations into written text and clear summaries directly on your computer. It keeps your sensitive recordings entirely private by running advanced speech recognition locally instead of relying on external web servers. You can easily review what was said, search through past discussions, and stay organized without worrying about corporate data leaks.
 
 ### Who it's for
 - **Business Professionals:** Corporate executives and consultants who handle confidential client discussions and need strict compliance.
@@ -54,10 +54,9 @@ Meetily listens to your discussions and turns spoken conversations into written 
 - **Smart Summaries:** Automatically generates concise action items and notes using local or private AI endpoints.
 - **Microphone & System Audio:** Captures both sides of a conversation clearly without complex virtual cable setups.
 - **Import and Enhance:** Bring in existing audio recordings to generate fresh transcripts and searchable summaries.
-- Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can launch and test the web app directly in the cloud via the [Official Website](https://meetily.ai). Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+You can launch and test the web app directly in the cloud via the [Official Website](https://meetily.ai).
 
 For desktop use, choose your preferred installer:
 - **Windows (x64):** [Download for Windows (.exe)](https://github.com/Zackriya-Solutions/meetily/releases/download/v0.5.0/meetily_0.5.0_x64-setup.exe) or [Download for Windows (.msi)](https://github.com/Zackriya-Solutions/meetily/releases/download/v0.5.0/meetily_0.5.0_x64_en-US.msi)
@@ -67,4 +66,11 @@ For desktop use, choose your preferred installer:
 ### Pros and Cons
 * **Pros:** Complete data privacy, free and open-source core, works offline without cloud dependency.
 * **Cons:** Local transcription requires a capable modern computer processor, advanced features require a paid upgrade.
-[Official Source / Credits](https://github.com/Zackriya-Solutions/meetily)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Zackriya-Solutions/meetily)

@@ -5,17 +5,17 @@ tagline: "Your own private mini hosting cloud"
 summary: "Host and manage custom web applications on your own virtual server with simple commands."
 tags: ["hosting", "server", "management", "cloud"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/dokku.png"
 stars: 32231
 source_url: "https://github.com/dokku/dokku"
 download_url: "https://dokku.com"
 downloadUrl: "https://dokku.com"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This software lets you run a personal application hosting platform right on your own virtual private server. Whenever you send updates from your computer, the system automatically builds and launches your web projects. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+This software lets you run a personal application hosting platform right on your own virtual private server. Whenever you send updates from your computer, the system automatically builds and launches your web projects.
 
 ### Who it's for
 * Independent developers who want an affordable, private alternative to major commercial hosting platforms.
@@ -53,13 +53,18 @@ This software lets you run a personal application hosting platform right on your
 * Simple automated app building that turns source code into live web pages instantly.
 * Secure isolation of different software projects using modern container technology.
 * Easy configuration of web domains and security certificates with short text commands.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-You can set this up on any clean Linux virtual server by visiting the [Official Dokku Website](https://dokku.com). Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+You can set this up on any clean Linux virtual server by visiting the [Official Dokku Website](https://dokku.com). Prefer not to manage servers by hand?
 
 ### Pros and Cons
 * **Pros:** Free and open source, complete control over your data, highly efficient resource usage.
 * **Cons:** Requires basic familiarity with command line tools and server administration.
 
-[Official Source / Credits](https://github.com/dokku/dokku)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/dokku/dokku)

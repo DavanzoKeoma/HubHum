@@ -13,7 +13,7 @@ source_url: "https://github.com/Ultimaker/Cura"
 download_url: "https://github.com/Ultimaker/Cura/releases/download/5.14.0/UltiMaker-Cura-5.14.0-win64-ARM64.exe"
 downloadUrl: "https://github.com/Ultimaker/Cura/releases/download/5.14.0/UltiMaker-Cura-5.14.0-win64-ARM64.exe"
 download_label: "Download for Windows (.exe)"
-license: "LGPL-3.0"
+license: "Open Source (LGPL)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "DesignApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Cura takes your digital 3D designs and prepares them layer by layer for physical fabrication. It acts as a translator between your computer shapes and your 3D printer, calculating the exact paths the nozzle must follow. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Cura takes your digital 3D designs and prepares them layer by layer for physical fabrication. It acts as a translator between your computer shapes and your 3D printer, calculating the exact paths the nozzle must follow.
 
 ### Who it's for
 * Hobbyists and makers designing custom objects on home 3D printers.
@@ -53,10 +53,9 @@ Cura takes your digital 3D designs and prepares them layer by layer for physical
 * Hundreds of adjustable settings to fine-tune speed, strength, and detail.
 * Community-managed print profiles optimized for specific machines and materials.
 * Visual preview window showing every single layer before printing starts.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-Choose the installer that matches your computer operating system from the official releases below. Run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+Choose the installer that matches your computer operating system from the official releases below.
 
 * [Download for Windows (.exe)](https://github.com/Ultimaker/Cura/releases/download/5.14.0/UltiMaker-Cura-5.14.0-win64-X64.exe)
 * [Download for Windows (.msi)](https://github.com/Ultimaker/Cura/releases/download/5.14.0/UltiMaker-Cura-5.14.0-win64-X64.msi)
@@ -67,4 +66,10 @@ Choose the installer that matches your computer operating system from the offici
 * **Pros:** Completely free to use, highly customizable, and compatible with most 3D printers on the market.
 * **Cons:** Advanced settings can feel overwhelming for absolute beginners taking their first steps.
 
-[Official Source / Credits](https://github.com/Ultimaker/Cura)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Ultimaker/Cura)

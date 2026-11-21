@@ -5,7 +5,7 @@ tagline: "Unified gateway for artificial intelligence models"
 summary: "Easily connect, manage, and monitor multiple artificial intelligence services through a single compatible control panel with built-in cost tracking."
 tags: ["ai", "gateway", "management"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/new-api.png"
 stars: 52261
@@ -13,9 +13,9 @@ source_url: "https://github.com/QuantumNous/new-api"
 download_url: "https://github.com/QuantumNous/new-api/releases/download/v1.0.0-rc.51/new-api-v1.0.0-rc.51.exe"
 downloadUrl: "https://github.com/QuantumNous/new-api/releases/download/v1.0.0-rc.51/new-api-v1.0.0-rc.51.exe"
 download_label: "Download for Windows (.exe)"
-license: "AGPL-3.0"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-New API acts as a central hub to connect all your favorite artificial intelligence providers in one place. It lets you switch between different technology providers seamlessly without rewriting your applications or changing client settings. You can track exact usage numbers, monitor spending, and share access securely across a team using a friendly web console. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+New API acts as a central hub to connect all your favorite artificial intelligence providers in one place. It lets you switch between different technology providers seamlessly without rewriting your applications or changing client settings. You can track exact usage numbers, monitor spending, and share access securely across a team using a friendly web console.
 
 ### Who it's for
 * **Development Teams:** Centralize and share authorized model keys across an entire organization without hassle.
@@ -54,14 +54,19 @@ New API acts as a central hub to connect all your favorite artificial intelligen
 * **Unified Interface:** Expose compatible access points for popular chat, image generation, and audio tools.
 * **Access Control:** Manage users, group permissions, and secure individual keys with multi-factor authentication.
 * **Usage and Cost Tracking:** Monitor token consumption, cache accounting, and tier-based pricing effortlessly.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can launch this application directly in the cloud with one click or set it up locally on your computer. 
 * [Download for Windows (.exe)](https://github.com/QuantumNous/new-api/releases/download/v1.0.0-rc.51/new-api-v1.0.0-rc.51.exe)
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
 
 ### Pros and Cons
 * **Pros:** Open-source foundation, supports multiple upstream providers, highly customizable routing and pricing.
 * **Cons:** Requires upstream account keys to function, advanced server setup takes some technical familiarity.
-[Official Source / Credits](https://github.com/QuantumNous/new-api)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/QuantumNous/new-api)

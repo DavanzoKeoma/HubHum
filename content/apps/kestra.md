@@ -13,9 +13,9 @@ source_url: "https://github.com/kestra-io/kestra"
 download_url: "https://github.com/kestra-io/kestra/releases/download/v2.0.11/checksums_sha256.txt"
 downloadUrl: "https://github.com/kestra-io/kestra/releases/download/v2.0.11/checksums_sha256.txt"
 download_label: "Get Command-Line Tool →"
-license: "Apache-2.0"
+license: "Open Source (Apache 2.0)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Kestra connects different software tools, files, and tasks into an automated sequence so they run by themselves without manual oversight. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). You can schedule tasks, trigger actions instantly when events happen, and easily view the progress of every job through a clean graphical screen.
+Kestra connects different software tools, files, and tasks into an automated sequence so they run by themselves without manual oversight. You can schedule tasks, trigger actions instantly when events happen, and easily view the progress of every job through a clean graphical screen.
 
 ### Who it's for
 - **Data Analysts:** People who regularly pull figures from databases, transform spreadsheets, and generate scheduled reports.
@@ -54,10 +54,9 @@ Kestra connects different software tools, files, and tasks into an automated seq
 - **Built-in Assistant:** Let the integrated AI helper suggest steps, write task code, or explain errors right inside your workspace.
 - **Real-Time Event Triggers:** Start tasks instantly based on incoming web notices, incoming files, or scheduled calendar times.
 - **Extensive Connectors:** Pull data from cloud storage, databases, and external web services using a massive library of ready plugins.
-- Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-You can set up Kestra locally on your computer using Docker or cloud infrastructure templates. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). 
+You can set up Kestra locally on your computer using Docker or cloud infrastructure templates.
 
 - [Download Checksums File (.txt)](https://github.com/kestra-io/kestra/releases/download/v2.0.11/checksums_sha256.txt)
 - [Download Java Configuration (.json)](https://github.com/kestra-io/kestra/releases/download/v2.0.11/java.json)
@@ -67,4 +66,11 @@ You can set up Kestra locally on your computer using Docker or cloud infrastruct
 ### Pros and Cons
 * **Pros:** Free open-source core, excellent visual interface, handles millions of executions reliably.
 * **Cons:** Advanced enterprise features require careful setup, learning the syntax takes a little initial practice.
-[Official Source / Credits](https://github.com/kestra-io/kestra)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/kestra-io/kestra)

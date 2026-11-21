@@ -5,17 +5,17 @@ tagline: "Your own secure, containerized AI assistant"
 summary: "Run a private, lightweight AI assistant on your own machine with complete data privacy and container security."
 tags: ["ai-assistant", "cloud-app", "privacy", "automation"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Web Apps & Cloud"
 icon: "/icons/nanoclaw.png"
 stars: 31128
 source_url: "https://github.com/nanocoai/nanoclaw"
 download_url: "https://nanoclaw.dev"
 downloadUrl: "https://nanoclaw.dev"
-download_label: "Visit Official Site"
-license: "MIT"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-NanoClaw gives you an always-on artificial intelligence assistant that runs safely isolated on your computer inside a secure container. You can chat with it directly through popular messaging applications like Slack, WhatsApp, Telegram, and Discord to automate tasks, fetch information, and manage schedules. For secure remote administration when managing your site on the go, consider using [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad). Because everything runs locally without bloated background code, your personal conversations and files remain entirely under your control.
+NanoClaw gives you an always-on artificial intelligence assistant that runs safely isolated on your computer inside a secure container. You can chat with it directly through popular messaging applications like Slack, WhatsApp, Telegram, and Discord to automate tasks, fetch information, and manage schedules. Because everything runs locally without bloated background code, your personal conversations and files remain entirely under your control.
 
 ### Who it's for
 - Privacy-conscious power users who want an automated assistant without sharing personal data with massive cloud services.
@@ -54,7 +54,6 @@ NanoClaw gives you an always-on artificial intelligence assistant that runs safe
 - **Multi-Channel Chat Integration:** Talk to your helper seamlessly across Slack, WhatsApp, Telegram, Discord, and other popular messaging platforms.
 - **Automated Routine Tasks:** Set up recurring jobs and scheduled briefings to keep track of news, project updates, and reminders.
 - **Customizable Codebase:** Built to be lightweight and easy to understand so you can adapt it precisely to your workflow.
-- Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 To launch this tool on your own machine, open your terminal and run the official setup command:
@@ -65,10 +64,16 @@ cd nanoclaw-v2
 bash nanoclaw.sh
 ```
 
-Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). You can also visit the [Official Website](https://nanoclaw.dev) or explore the documentation guides on the [Official Documentation Hub](https://docs.nanoclaw.dev).
+Prefer not to manage servers by hand? You can also visit the [Official Website](https://nanoclaw.dev) or explore the documentation guides on the [Official Documentation Hub](https://docs.nanoclaw.dev).
 
 ### Pros and Cons
 * **Pros:** Complete data privacy, runs locally in containers, supports multiple chat apps, highly customizable.
 * **Cons:** Requires basic familiarity with command-line tools and Docker to set up.
 
-[Official Source / Credits](https://github.com/nanocoai/nanoclaw)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/nanocoai/nanoclaw)

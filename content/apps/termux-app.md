@@ -13,7 +13,7 @@ source_url: "https://github.com/termux/termux-app"
 download_url: "https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_arm64-v8a.apk"
 downloadUrl: "https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_arm64-v8a.apk"
 download_label: "Download for Android (.apk)"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier1_gui"
 operatingSystem: "Linux, Android"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Termux brings a complete Linux environment directly to your Android phone or tablet without needing any complex setup. It provides a familiar command-line interface that lets you install programming languages, text editors, and networking tools. While working on your mobile projects, if you ever need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Termux brings a complete Linux environment directly to your Android phone or tablet without needing any complex setup. It provides a familiar command-line interface that lets you install programming languages, text editors, and networking tools.
 
 ### Who it's for
 * Mobile developers and programmers who need to run scripts, test code, or manage remote servers on the go.
@@ -52,10 +52,9 @@ Termux brings a complete Linux environment directly to your Android phone or tab
 * Full Linux terminal emulator with automatic package management for installing popular software utilities.
 * Access to Secure Shell (SSH) clients to connect and manage remote servers safely from your phone.
 * Support for multiple programming languages including Python, Node.js, Ruby, and Perl.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
-To get started, choose the appropriate installation file for your phone processor architecture below. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+To get started, choose the appropriate installation file for your phone processor architecture below.
 
 * [Download for Android (ARM64 - Modern Phones)](https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_arm64-v8a.apk)
 * [Download for Android (ARMv7 - Older Phones)](https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3%2Bgithub-debug_armeabi-v7a.apk)
@@ -67,4 +66,10 @@ To get started, choose the appropriate installation file for your phone processo
 * **Pros:** Free and open source software with no ads or hidden subscriptions; highly customizable command line environment.
 * **Cons:** Advanced configuration requires familiarity with text-based Linux commands; newer Android version power-saving features may require extra settings adjustments.
 
-[Official Source / Credits](https://github.com/termux/termux-app)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/termux/termux-app)

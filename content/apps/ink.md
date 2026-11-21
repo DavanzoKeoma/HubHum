@@ -13,9 +13,9 @@ source_url: "https://github.com/vadimdemedes/ink"
 download_url: "https://term.ink"
 downloadUrl: "https://term.ink"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Ink allows you to build interactive tools that run in your computer's terminal window, making them look and feel like modern apps. Instead of just plain text, you can add colors, buttons, and organized layouts to guide the user. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+Ink allows you to build interactive tools that run in your computer's terminal window, making them look and feel like modern apps. Instead of just plain text, you can add colors, buttons, and organized layouts to guide the user.
 
 ### Who it's for
 *   **Developers** who want to create polished, user-friendly command-line tools for their projects.
@@ -53,17 +53,22 @@ Ink allows you to build interactive tools that run in your computer's terminal w
 *   **Familiar Layouts:** Uses a system similar to web design to arrange text and boxes, making it easy to organize information clearly.
 *   **Rich Visuals:** Supports colors, bold text, and background shading to highlight important information and improve readability.
 *   **Interactive Elements:** Allows you to create buttons, input fields, and animations that respond to keyboard inputs.
-*   **Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).**
 
 ### How to install (Download)
 Ink is a free, open-source tool that you install directly into your development environment. You do not download a standalone installer file; instead, you use your system's package manager to add it to your project.
 
 1.  Ensure you have Node.js installed on your computer.
 2.  Open your terminal and run the installation command provided in the official documentation.
-3.  Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+3.
 
 ### Pros and Cons
 *   **Pros:** Completely free to use, highly customizable, and creates a professional look for command-line tools.
 *   **Cons:** Requires basic knowledge of coding and terminal usage to set up and customize.
 
-[Official Source / Credits](https://github.com/vadimdemedes/ink)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/vadimdemedes/ink)

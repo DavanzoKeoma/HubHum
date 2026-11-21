@@ -13,9 +13,9 @@ source_url: "https://github.com/Rigellute/spotify-tui"
 download_url: "https://github.com/Rigellute/spotify-tui/releases/download/v0.25.0/spotify-tui-linux.sha256"
 downloadUrl: "https://github.com/Rigellute/spotify-tui/releases/download/v0.25.0/spotify-tui-linux.sha256"
 download_label: "Download (spotify-tui-linux.sha256)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
-operatingSystem: "Windows, macOS, Linux, Android"
+operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This lightweight application lets you search for tracks, browse playlists, and control your audio playback without ever leaving your text terminal. It connects securely to your music streaming account and provides a keyboard-driven interface that responds instantly. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This lightweight application lets you search for tracks, browse playlists, and control your audio playback without ever leaving your text terminal. It connects securely to your music streaming account and provides a keyboard-driven interface that responds instantly.
 
 ### Who it's for
 * Command-line power users who prefer keyboard shortcuts over clicking around graphical menus.
@@ -53,7 +53,6 @@ This lightweight application lets you search for tracks, browse playlists, and c
 * Fast text-based interface built for speed and efficiency.
 * Full keyboard control for pausing, skipping, shuffling, and adjusting volume.
 * Search through albums, artists, and playlists instantly.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can grab the official checksum verification assets for your operating system below:
@@ -61,10 +60,16 @@ You can grab the official checksum verification assets for your operating system
 * [Download macOS verification file](https://github.com/Rigellute/spotify-tui/releases/download/v0.25.0/spotify-tui-macos.sha256)
 * [Download Windows verification file](https://github.com/Rigellute/spotify-tui/releases/download/v0.25.0/spotify-tui-windows.sha256)
 
-Alternatively, use package managers like Homebrew (`brew install spotify-tui`) or Cargo (`cargo install spotify-tui`) to install the application instantly. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Alternatively, use package managers like Homebrew (`brew install spotify-tui`) or Cargo (`cargo install spotify-tui`) to install the application instantly.
 
 ### Pros and Cons
 * **Pros:** Extremely fast, highly customizable themes, lightweight on system resources, full keyboard navigation.
 * **Cons:** Requires a paid streaming subscription and a separate background player daemon to output audio.
 
-[Official Source / Credits](https://github.com/Rigellute/spotify-tui)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/Rigellute/spotify-tui)

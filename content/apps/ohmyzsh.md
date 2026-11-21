@@ -13,7 +13,7 @@ source_url: "https://github.com/ohmyzsh/ohmyzsh"
 download_url: "https://ohmyz.sh"
 downloadUrl: "https://ohmyz.sh"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Oh My Zsh is a community-driven helper tool that manages your command-line interface settings. It eliminates tedious manual configurations by bundling hundreds of ready-to-use shortcuts and visual themes. Protect remote administrator dashboards when managing your site on the go with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+Oh My Zsh is a community-driven helper tool that manages your command-line interface settings. It eliminates tedious manual configurations by bundling hundreds of ready-to-use shortcuts and visual themes.
 
 ### Who it's for
 * Software developers and system administrators who spend hours typing commands in a terminal.
@@ -54,7 +54,6 @@ Oh My Zsh is a community-driven helper tool that manages your command-line inter
 * Over 140 customizable visual themes to give your command prompt a fresh look.
 * Built-in automatic update tool to keep your configuration synced with community improvements.
 * Playful terminal screensavers to give your workspace a fun downtime break.
-* Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
 You can install Oh My Zsh quickly by running a simple automated command in your terminal using `curl` or `wget`. 
@@ -69,10 +68,16 @@ To install using wget, run:
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). For complete setup guides and documentation, visit the [Official Website](https://ohmyz.sh).
+Prefer not to manage servers by hand? For complete setup guides and documentation, visit the [Official Website](https://ohmyz.sh).
 
 ### Pros and Cons
 * **Pros:** Completely free and open source, massive community support, endless customization options.
 * **Cons:** Requires a basic understanding of command-line tools to configure advanced settings.
 
-[Official Source / Credits](https://github.com/ohmyzsh/ohmyzsh)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/ohmyzsh/ohmyzsh)

@@ -13,7 +13,7 @@ source_url: "https://github.com/claudiodangelis/qrcp"
 download_url: "https://github.com/claudiodangelis/qrcp/releases/download/v0.11.7/qrcp_0.11.7_linux_386.deb"
 downloadUrl: "https://github.com/claudiodangelis/qrcp/releases/download/v0.11.7/qrcp_0.11.7_linux_386.deb"
 download_label: "Download for Linux (.deb)"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool lets you move files between your computer and phone over your local wireless network without needing cables or cloud accounts. It works by spinning up a temporary local address and turning it into a scannable graphic on your screen. You simply open your phone's camera, scan the graphic, and your download or upload begins instantly in your mobile web browser. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad).
+This tool lets you move files between your computer and phone over your local wireless network without needing cables or cloud accounts. It works by spinning up a temporary local address and turning it into a scannable graphic on your screen. You simply open your phone's camera, scan the graphic, and your download or upload begins instantly in your mobile web browser.
 
 ### Who it's for
 * Everyday users who want a fast, cable-free way to send photos or documents from a computer to a phone.
@@ -53,7 +53,6 @@ This tool lets you move files between your computer and phone over your local wi
 * Automatically compresses folders into a single archive before sending them to your mobile device.
 * Supports receiving files from your phone directly back to a chosen folder on your computer.
 * Built-in diagnostic doctor command helps troubleshoot network, firewall, or connection blocks.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 To get started on Linux, you can download the ready-to-install package below:
@@ -62,10 +61,16 @@ To get started on Linux, you can download the ready-to-install package below:
 * [Download for Linux (.deb) - ARM64](https://github.com/claudiodangelis/qrcp/releases/download/v0.11.7/qrcp_0.11.7_linux_arm64.deb)
 * [Download for Linux (.deb) - ARMv7](https://github.com/claudiodangelis/qrcp/releases/download/v0.11.7/qrcp_0.11.7_linux_armv7.deb)
 
-For other operating systems, you can use package managers like Homebrew for macOS or WinGet, Scoop, and Chocolatey for Windows. Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
+For other operating systems, you can use package managers like Homebrew for macOS or WinGet, Scoop, and Chocolatey for Windows.
 
 ### Pros and Cons
 * **Pros:** Completely free and open source, requires no internet connection or third-party cloud upload, extremely fast local transfers.
 * **Cons:** Requires both devices to be connected to the exact same local wireless network, text-based interface might intimidate casual users.
 
-[Official Source / Credits](https://github.com/claudiodangelis/qrcp)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/claudiodangelis/qrcp)

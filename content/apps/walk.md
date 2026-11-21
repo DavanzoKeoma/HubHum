@@ -13,7 +13,7 @@ source_url: "https://github.com/lxn/walk"
 download_url: "https://github.com/lxn/walk/releases"
 downloadUrl: "https://github.com/lxn/walk/releases"
 download_label: "Get Command-Line Tool →"
-license: "NOASSERTION"
+license: "Custom Open License"
 scouting_tier: "tier3_powertool"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-Walk provides a straightforward way to build native graphical windows and menus on Windows operating systems. Developers use it to set up desktop utilities, forms, and tools with minimal effort. Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
+Walk provides a straightforward way to build native graphical windows and menus on Windows operating systems. Developers use it to set up desktop utilities, forms, and tools with minimal effort.
 
 ### Who it's for
 * Software developers creating lightweight native Windows desktop programs.
@@ -52,13 +52,18 @@ Walk provides a straightforward way to build native graphical windows and menus 
 * Simple layout definitions for windows, splitters, buttons, and text fields.
 * Native Windows look and feel that blends in seamlessly with the operating system.
 * Built-in support for application style configurations and visual themes.
-* Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).
 
 ### How to install (Download)
-To get started with this project, visit the official [Releases and Source Page](https://github.com/lxn/walk/releases). You can also run your finished project on dependable, budget-friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).
+To get started with this project, visit the official [Releases and Source Page](https://github.com/lxn/walk/releases).
 
 ### Pros and Cons
 * **Pros:** Completely free and open source, lightweight resource footprint, native Windows performance.
 * **Cons:** Specifically designed only for Windows operating systems, requires familiarity with programming concepts.
 
-[Official Source / Credits](https://github.com/lxn/walk)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/lxn/walk)

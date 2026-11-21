@@ -13,7 +13,7 @@ source_url: "https://github.com/siteboon/claudecodeui"
 download_url: "https://github.com/siteboon/claudecodeui/releases/download/v1.37.9/cloudcli-desktop-1.37.9-win-x64.exe"
 downloadUrl: "https://github.com/siteboon/claudecodeui/releases/download/v1.37.9/cloudcli-desktop-1.37.9-win-x64.exe"
 download_label: "Download for Windows (.exe)"
-license: "AGPL-3.0"
+license: "Open Source (AGPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-CloudCLI gives you a user-friendly graphical interface for advanced coding assistants like Claude Code, Cursor CLI, and Codex. When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad). It lets you view active projects, browse files, track changes with Git, and chat with your assistants from your phone or tablet while away from your computer.
+CloudCLI gives you a user-friendly graphical interface for advanced coding assistants like Claude Code, Cursor CLI, and Codex. It lets you view active projects, browse files, track changes with Git, and chat with your assistants from your phone or tablet while away from your computer.
 
 ### Who it's for
 * Developers who want to monitor or prompt their coding agents while away from their main workstations.
@@ -54,7 +54,6 @@ CloudCLI gives you a user-friendly graphical interface for advanced coding assis
 * **Integrated Shell Terminal** - Direct access to your coding assistants through a built-in terminal window.
 * **File Explorer** - Interactive file tree featuring syntax highlighting and live editing capabilities.
 * **Git Explorer** - Easily view, stage, update changes, and switch branches right from your screen.
-* Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 You can grab the desktop companion app for your operating system directly via these official download links:
@@ -62,9 +61,14 @@ You can grab the desktop companion app for your operating system directly via th
 * [Download for Mac (.dmg)](https://github.com/siteboon/claudecodeui/releases/download/v1.37.9/cloudcli-desktop-1.37.9-mac-arm64.dmg)
 * [Download for Linux (.deb)](https://github.com/siteboon/claudecodeui/releases/download/v1.37.9/cloudcli-desktop-1.37.9-linux-amd64.deb)
 
-Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Free and open source, works across mobile and desktop devices, auto-discovers existing local sessions.
 * **Cons:** Requires a separate subscription for your chosen coding assistant, advanced options require familiarity with command-line tools.
-[Official Source / Credits](https://github.com/siteboon/claudecodeui)
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/siteboon/claudecodeui)

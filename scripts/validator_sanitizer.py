@@ -13,12 +13,15 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_APPS_DIR = PROJECT_ROOT / "content" / "apps"
 AFFILIATES_PATH = PROJECT_ROOT / "data" / "affiliates_seed.json"
 
+SPONSORED_HEADING = "### Sponsored Partner Tools (#ad)"
+
 REQUIRED_HEADINGS = (
     "### What it does in plain English",
     "### Who it's for",
     "### Key features",
     "### How to install (Download)",
     "### Pros and Cons",
+    SPONSORED_HEADING,
 )
 
 TRUNCATED_ENDING_WORDS = (
@@ -186,60 +189,180 @@ def strip_disallowed_markdown_links(markdown_text: str, allowed_urls: list[str])
     return re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", _filter_link, markdown_text)
 
 
-def ensure_triplet_links_in_body(body: str, triplet: list[dict]) -> str:
-    """Canonicalize partner SubIDs and ensure >= 3 distinct contextual affiliate links across sections."""
-    if not triplet:
-        return body
+CLEAN_SPONSOR_COPY: dict[str, tuple[str, str]] = {
+    "hubhum_01_MER047": ("PureVPN", "Optional encrypted VPN service for private connections on public Wi-Fi"),
+    "hubhum_01_MER008": ("InterServer", "Optional managed hosting if you want to run cloud/self-hosted apps 24/7"),
+    "hubhum_01_MER054": ("Creative Fabrica", "Optional creative marketplace offering fonts, icons, and design templates"),
+    "hubhum_01_MER349": ("Envato Elements Direct", "Optional royalty-free stock footage, music tracks, and motion templates"),
+    "hubhum_01_MER276": ("Rank Math Direct", "Optional search optimization toolkit for managing site previews and indexing"),
+    "hubhum_01_MER269": ("WP Rocket Direct", "Optional caching add-on to accelerate WordPress page loads"),
+    "hubhum_01_MER369": ("Placeit by Envato", "Optional browser-based mockup and template generator"),
+    "hubhum_01_MER265": ("Elementor Pro Direct", "Optional visual page builder for WordPress sites"),
+    "hubhum_01_MER023": ("ThemeIsle", "Optional lightweight themes and layout starter packs for websites"),
+    "hubhum_01_MER089": ("Surfshark VPN", "Optional encrypted VPN service across desktop and mobile devices"),
+    "hubhum_01_MER064": ("TorGuard", "Optional configurable VPN service for private networking"),
+    "hubhum_01_MER048": ("Private Internet Access", "Optional privacy-focused VPN client for multiple devices"),
+    "hubhum_01_MER009": ("ScalaHosting", "Optional managed VPS cloud hosting for web applications"),
+    "hubhum_01_MER014": ("RoseHosting", "Optional managed Linux cloud server hosting"),
+}
 
-    updated = body
-    # Fix LLM-transposed SubIDs (e.g. PureVPN carrying MER054 instead of MER047) before counting
+
+def _load_merchants_by_subid() -> dict[str, dict[str, str]]:
+    """Map hubhum_01_MER* SubIDs to merchant metadata from data/affiliates_seed.json."""
+    mapping: dict[str, dict[str, str]] = {}
+    if not AFFILIATES_PATH.exists():
+        return mapping
+    data = json.loads(AFFILIATES_PATH.read_text(encoding="utf-8"))
+    for m in data.get("merchants_by_id", {}).values():
+        subid = str(m.get("subid") or "").strip()
+        if subid:
+            mapping[subid] = {
+                "subid": subid,
+                "name": str(m.get("name") or "Partner"),
+                "tracking_url": str(m.get("tracking_url") or ""),
+            }
+    return mapping
+
+
+def _strip_affiliates_from_editorial_text(editorial_text: str) -> str:
+    """Remove any embedded (#ad) or hubhum_01_MER* sentences/bullets from editorial sections."""
+    cleaned_lines: list[str] = []
+    aff_marker_re = re.compile(r"hubhum_01_MER\d+|\(#ad\)", re.IGNORECASE)
+
+    for raw_line in editorial_text.splitlines():
+        if not aff_marker_re.search(raw_line):
+            cleaned_lines.append(raw_line)
+            continue
+
+        stripped = raw_line.lstrip()
+        # Drop affiliate bullet items injected into Key features or Who it's for
+        if stripped.startswith("* ") or stripped.startswith("- "):
+            continue
+
+        # Protect markdown link periods temporarily before sentence splitting
+        protected_links: list[str] = []
+
+        def _stash(m: re.Match[str]) -> str:
+            protected_links.append(m.group(0))
+            return f"__MDLINK_{len(protected_links) - 1}__"
+
+        masked = re.sub(r"\[[^\]]+\]\([^)]+\)", _stash, raw_line)
+        segments = re.split(r"(?<=[.!?])\s+", masked)
+        kept_segments: list[str] = []
+
+        for seg in segments:
+            if not seg.strip():
+                continue
+            restored_seg = seg
+            for idx, orig in enumerate(protected_links):
+                restored_seg = restored_seg.replace(f"__MDLINK_{idx}__", orig)
+            if "hubhum_01_MER" in restored_seg or re.search(r"\(#ad\)", restored_seg, re.IGNORECASE):
+                # Preserve leading editorial clause when connected via comma (", while...", ", or...")
+                clause_split = re.split(
+                    r",\s+(?:while|or|paired with|and explore|while also|alongside)\b",
+                    restored_seg,
+                    maxsplit=1,
+                    flags=re.IGNORECASE,
+                )
+                if (
+                    len(clause_split) == 2
+                    and "hubhum_01_MER" not in clause_split[0]
+                    and not re.search(r"\(#ad\)", clause_split[0], re.IGNORECASE)
+                    and len(clause_split[0].strip()) >= 25
+                ):
+                    kept = clause_split[0].strip().rstrip(".,;:") + "."
+                    kept_segments.append(kept)
+                continue
+            kept_segments.append(restored_seg)
+
+        if kept_segments:
+            cleaned_lines.append(" ".join(kept_segments))
+
+    collapsed = re.sub(r"\n{3,}", "\n\n", "\n".join(cleaned_lines)).strip()
+    return collapsed
+
+
+def relocate_affiliate_links_to_sponsored_section(body: str, triplet: list[dict] | None = None) -> str:
+    """Strictly isolate all 3 affiliate links inside '### Sponsored Partner Tools (#ad)'."""
+    merchants_by_subid = _load_merchants_by_subid()
     host_to_url: dict[str, str] = {}
-    for item in triplet:
-        u = str(item.get("tracking_url") or "")
-        h = urlparse(u).netloc.lower()
-        if h and u:
-            host_to_url[h] = u
+    triplet_items: list[dict[str, str]] = []
 
+    if triplet:
+        for item in triplet:
+            u = str(item.get("tracking_url") or "").strip()
+            s = str(item.get("subid") or "").strip()
+            n = str(item.get("name") or "").strip()
+            h = urlparse(u).netloc.lower()
+            if h and u:
+                host_to_url[h] = u
+            if s and u:
+                triplet_items.append({"subid": s, "name": n, "tracking_url": u})
+
+    # Canonicalize any transposed SubIDs first before extracting present SubIDs
     def _canonicalize_aff_link(match: re.Match[str]) -> str:
         raw = match.group(0)
         h = urlparse(raw).netloc.lower()
         return host_to_url.get(h, raw)
 
-    updated = re.sub(r"https?://[^\s\)\]>\"']*hubhum_01_MER\d+[^\s\)\]>\"']*", _canonicalize_aff_link, updated)
+    normalized_body = re.sub(r"https?://[^\s\)\]>\"']*hubhum_01_MER\d+[^\s\)\]>\"']*", _canonicalize_aff_link, body)
+    present_subids = list(dict.fromkeys(re.findall(r"hubhum_01_MER\d+", normalized_body)))
 
-    present_subids = set(re.findall(r"hubhum_01_MER\d+", updated))
-    if len(present_subids) >= 3:
-        return updated
+    # Preserve Official Source / Credits footer link
+    credits_match = re.search(r"(\[Official Source / Credits\]\([^)]+\))", normalized_body)
+    credits_line = credits_match.group(1) if credits_match else ""
 
-    for item in triplet:
-        subid = str(item.get("subid") or "")
-        url = str(item.get("tracking_url") or "")
-        tip = str(item.get("natural_tip") or "").strip()
-        heading = str(item.get("section_hint") or "### How to install (Download)")
-        if not tip or (subid and subid in updated) or (url and url in updated):
-            continue
+    # Strip existing Sponsored section & closing Official Source line so editorial sections are isolated cleanly
+    work_body = re.split(r"\n?###\s+Sponsored Partner Tools\s*\(#ad\)", normalized_body, flags=re.IGNORECASE)[0]
+    work_body = re.sub(r"\n?\*{0,2}Official Source[^:\n]*:\*{0,2}\s*\[Official Source / Credits\]\([^)]+\)\s*$", "", work_body)
+    work_body = re.sub(r"\n?\[Official Source / Credits\]\([^)]+\)\s*$", "", work_body)
+    clean_editorial = _strip_affiliates_from_editorial_text(work_body)
 
-        is_bullet_section = heading in ("### Key features", "### Who it's for")
-        insertion = f"* {tip}" if is_bullet_section else tip
-
-        if heading in updated:
-            parts = updated.split(heading, 1)
-            after = parts[1]
-            next_h_match = re.search(r"\n### |\n\[Official Source / Credits\]", after)
-            if next_h_match:
-                split_pos = next_h_match.start()
-                sec_content = after[:split_pos].rstrip()
-                tail = after[split_pos:].lstrip("\n")
-                updated = f"{parts[0]}{heading}{sec_content}\n\n{insertion}\n\n{tail}"
-            else:
-                updated = f"{parts[0]}{heading}{after.rstrip()}\n\n{insertion}\n"
-        else:
-            updated = f"{updated.rstrip()}\n\n{insertion}\n"
-
-        if len(set(re.findall(r"hubhum_01_MER\d+", updated))) >= 3:
+    # Assemble exactly 3 distinct partner items (prioritizing supplied triplet, then existing SubIDs, then defaults)
+    chosen_partners: list[dict[str, str]] = []
+    seen_subids: set[str] = set()
+    for candidate in triplet_items:
+        if candidate["subid"] not in seen_subids:
+            seen_subids.add(candidate["subid"])
+            chosen_partners.append(candidate)
+        if len(chosen_partners) >= 3:
             break
 
-    return updated
+    if len(chosen_partners) < 3:
+        for sid in present_subids:
+            if sid not in seen_subids and sid in merchants_by_subid:
+                seen_subids.add(sid)
+                chosen_partners.append(merchants_by_subid[sid])
+            if len(chosen_partners) >= 3:
+                break
+
+    if len(chosen_partners) < 3:
+        for fallback_sid in ("hubhum_01_MER008", "hubhum_01_MER047", "hubhum_01_MER276", "hubhum_01_MER054"):
+            if fallback_sid not in seen_subids and fallback_sid in merchants_by_subid:
+                seen_subids.add(fallback_sid)
+                chosen_partners.append(merchants_by_subid[fallback_sid])
+            if len(chosen_partners) >= 3:
+                break
+
+    partner_bullets = [
+        SPONSORED_HEADING,
+        "*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*",
+    ]
+    for p in chosen_partners[:3]:
+        sid = p["subid"]
+        url = p["tracking_url"]
+        label, desc = CLEAN_SPONSOR_COPY.get(sid, (p["name"], "Optional partner tool for cloud hosting or creative assets"))
+        partner_bullets.append(f"* **{label}:** {desc} — [{label}]({url}) (#ad)")
+
+    parts = [clean_editorial.rstrip(), "", "\n".join(partner_bullets)]
+    if credits_line:
+        parts.extend(["", f"**Official Source & Credits:** {credits_line}"])
+    return "\n".join(parts).strip() + "\n"
+
+
+def ensure_triplet_links_in_body(body: str, triplet: list[dict] | None = None) -> str:
+    """Isolate >= 3 distinct partner SubIDs strictly inside '### Sponsored Partner Tools (#ad)'."""
+    return relocate_affiliate_links_to_sponsored_section(body, triplet=triplet)
 
 
 def sanitize_full_document(markdown_text: str) -> str:
@@ -291,8 +414,8 @@ def validate_markdown_card(
         errors.append("Field 'tags' must contain at least one item.")
     if "is_webapp" in meta and not isinstance(meta["is_webapp"], bool):
         errors.append("Field 'is_webapp' must be boolean (true/false).")
-    if "app_type" in meta and str(meta["app_type"]) not in ("desktop", "webapp", "cli"):
-        errors.append(f"Invalid app_type '{meta['app_type']}': expected desktop, webapp, or cli.")
+    if "app_type" in meta and str(meta["app_type"]) not in ("desktop", "webapp", "selfhosted", "cli", "resource"):
+        errors.append(f"Invalid app_type '{meta['app_type']}': expected desktop, webapp, selfhosted, cli, or resource.")
 
     main_summary = str(meta.get("summary") or "").strip()
     if is_summary_truncated(main_summary):
@@ -318,10 +441,14 @@ def validate_markdown_card(
         if re.search(rf"\b{re.escape(forbidden)}\b", body_no_urls, re.IGNORECASE):
             errors.append(f"Forbidden tech jargon in body prose: '{forbidden}'")
 
-    distinct_aff_subids = set(re.findall(r"hubhum_01_MER\d+", body))
+    editorial_only, sponsored_marker, sponsored_part = body.partition(SPONSORED_HEADING)
+    if sponsored_marker and (re.search(r"hubhum_01_MER\d+", editorial_only) or re.search(r"\(#ad\)", editorial_only, re.IGNORECASE)):
+        errors.append("Affiliate links or (#ad) disclosures are forbidden inside editorial sections before '### Sponsored Partner Tools (#ad)'.")
+
+    distinct_aff_subids = set(re.findall(r"hubhum_01_MER\d+", sponsored_part or body))
     if len(distinct_aff_subids) < 3:
         errors.append(
-            f"Expected at least 3 distinct contextual affiliate links (hubhum_01_MER*), found {len(distinct_aff_subids)}."
+            f"Expected at least 3 distinct affiliate links (hubhum_01_MER*) inside '{SPONSORED_HEADING}', found {len(distinct_aff_subids)}."
         )
 
     if strict_urls and allowed_urls is not None:

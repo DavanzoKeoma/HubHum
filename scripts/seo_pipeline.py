@@ -12,7 +12,7 @@ from pathlib import Path
 
 from ai_router import AllTiersFailedError, generate_card_with_cascade
 from generate_catalog_index import write_catalog_index
-from scouter import ScoutedRepo, classify_repo, fetch_repo_by_url, record_processed_repo, sanitize_human_tags, scout_tiered_apps
+from scouter import ScoutedRepo, classify_repo, fetch_repo_by_url, humanize_license, record_processed_repo, sanitize_human_tags, scout_tiered_apps
 from validator_sanitizer import (
     TRUNCATED_ENDING_WORDS,
     ensure_triplet_links_in_body,
@@ -231,7 +231,7 @@ def enrich_frontmatter(markdown_text: str, repo: ScoutedRepo, aff: dict, provide
             f'download_url: "{repo.primary_download_url}"',
             f'downloadUrl: "{repo.primary_download_url}"',
             f'download_label: "{repo.primary_download_label}"',
-            f'license: "{repo.license_id}"',
+            f'license: "{humanize_license(repo.license_id)}"',
             f'scouting_tier: "{repo.scouting_tier}"',
             f'operatingSystem: "{repo.operating_system}"',
             f'applicationCategory: "{_derive_application_category(repo.category)}"',

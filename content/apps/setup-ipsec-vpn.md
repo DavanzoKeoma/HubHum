@@ -5,17 +5,17 @@ tagline: "Set up your private VPN server"
 summary: "Easily create your own secure personal virtual private network server in minutes without complicated manual steps."
 tags: ["vpn", "security", "server", "privacy"]
 is_webapp: true
-app_type: "webapp"
+app_type: "selfhosted"
 category: "Security & Privacy"
 icon: "/icons/setup-ipsec-vpn.png"
 stars: 29087
 source_url: "https://github.com/hwdsl2/setup-ipsec-vpn"
 download_url: "https://github.com/hwdsl2/setup-ipsec-vpn/releases"
 downloadUrl: "https://github.com/hwdsl2/setup-ipsec-vpn/releases"
-download_label: "Visit Official Site"
-license: "NOASSERTION"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
 scouting_tier: "tier2_webapp"
-operatingSystem: "All / Browser"
+operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
@@ -42,7 +42,7 @@ i18n:
 ---
 
 ### What it does in plain English
-This tool automatically installs and configures a private virtual private network server on your cloud or virtual server. It encrypts all your internet traffic so that third parties cannot snoop on your browsing activity. For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad). You can easily connect your phones, tablets, and computers to browse safely from anywhere in the world.
+This tool automatically installs and configures a private virtual private network server on your cloud or virtual server. It encrypts all your internet traffic so that third parties cannot snoop on your browsing activity. You can easily connect your phones, tablets, and computers to browse safely from anywhere in the world.
 
 ### Who it's for
 * Remote workers and digital nomads who frequently connect to public Wi-Fi networks at cafes, airports, and hotels.
@@ -54,7 +54,6 @@ This tool automatically installs and configures a private virtual private networ
 * Supports modern, high-speed connection protocols including IKEv2, IPsec/L2TP, and Cisco IPsec.
 * Automatically generates device profiles so you can connect your phones and computers with zero hassle.
 * Built-in helper tools to manage user accounts, passwords, and security certificates seamlessly.
-* Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad).
 
 ### How to install (Download)
 To spin up your own private server instance in the cloud instantly, you can cloud setup it directly onto a virtual private server or use 1-click cloud hosting scripts. Run the automated setup script directly on your Linux cloud server by opening your terminal and executing:
@@ -63,10 +62,14 @@ To spin up your own private server instance in the cloud instantly, you can clou
 wget https://get.vpnsetup.net -O vpn.sh && sudo sh vpn.sh
 ```
 
-Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad).
-
 ### Pros and Cons
 * **Pros:** Completely free and open-source, full user data privacy, supports nearly all modern operating systems and mobile devices.
 * **Cons:** Requires a basic cloud server or virtual private server to host, advanced manual tweaks require comfort with command-line tools.
 
-[Official Source / Credits](https://github.com/hwdsl2/setup-ipsec-vpn)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/hwdsl2/setup-ipsec-vpn)

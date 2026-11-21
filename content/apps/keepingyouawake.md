@@ -13,7 +13,7 @@ source_url: "https://github.com/newmarcel/KeepingYouAwake"
 download_url: "https://keepingyouawake.app"
 downloadUrl: "https://keepingyouawake.app"
 download_label: "Get Command-Line Tool →"
-license: "MIT"
+license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "macOS"
 applicationCategory: "UtilitiesApplication"
@@ -45,7 +45,6 @@ i18n:
 KeepingYouAwake lives in the menu bar and keeps your Mac from sleeping while you need it awake.  
 You can set a timer or leave it on for as long as you like.  
 It works with the built‑in macOS sleep‑prevention command.  
-Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad).
 
 ### Who it's for
 - Anyone who runs long downloads, renders, or presentations on a Mac.  
@@ -55,14 +54,18 @@ Pair clean publishing with instant page caching to keep loading times snappy usi
 - Simple menu‑bar button to turn the “stay awake” mode on or off.  
 - Choose a specific time period or keep the Mac awake indefinitely.  
 - Works on macOS 10.13 and newer, using only Apple’s own tools.  
-- Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad).  
 
 ### How to install (Download)
 - **[Download the latest version here.](https://github.com/newmarcel/KeepingYouAwake/releases/latest)** – a single app file you can drag into your Applications folder.  
-- Run your finished project on dependable, budget‑friendly cloud hosting via [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad).  
 
 ### Pros and Cons
 * **Pros:** free forever, no subscription, tiny footprint, works with any recent macOS.  
-* **Cons:** does not keep a MacBook asleep with the lid closed; limited to macOS (no Windows or Linux version).  
+* **Cons:** does not keep a MacBook asleep with the lid closed; limited to macOS (no Windows or Linux version).
 
-[Official Source / Credits](https://github.com/newmarcel/KeepingYouAwake)
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/newmarcel/KeepingYouAwake)
