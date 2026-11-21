@@ -534,7 +534,10 @@ const combinedJsonLd = [
         };
         articleEl.querySelectorAll<HTMLElement>('h2, h3').forEach((h) => {
           if (!h.dataset.origHeading) {
-            h.dataset.origHeading = (h.textContent || '').trim().toLowerCase();
+            h.dataset.origHeading = (h.textContent || '')
+              .trim()
+              .toLowerCase()
+              .replace(/[\u2018\u2019`]/g, "'");
           }
           const dictKey = headingMap[h.dataset.origHeading];
           if (dictKey && dict[dictKey]) {
