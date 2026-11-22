@@ -38525,6 +38525,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "alinea",
+    "name": "Alinea",
+    "tagline": "Streamlined content management for modern sites",
+    "repo_url": "https://github.com/alineacms/alinea",
+    "full_name": "alineacms/alinea",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "nextjs"
+    ],
+    "icon": "/icons/alinea.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 855,
+    "tier": "tier2_webapp",
+    "summary": "Manage website content cleanly with a Git-backed system designed for modern web applications and fast publishing.",
+    "i18n": {
+      "it": "Gestisci i contenuti del sito web con un sistema basato su Git progettato per applicazioni web moderne.",
+      "es": "Administra el contenido de tu sitio web de forma limpia con un sistema respaldado por Git para la web moderna.",
+      "fr": "Gérez le contenu de votre site web proprement grâce à un système basé sur Git conçu pour le web moderne.",
+      "de": "Verwalten Sie Website-Inhalte sauber mit einem Git-basierten System für moderne Webanwendungen."
+    },
+    "download_url": "https://alineacms.com",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "whispersubtranslate",
     "name": "WhisperSubTranslate",
     "tagline": "Turn any video into multilingual subtitles locally.",
@@ -38581,6 +38609,146 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "fae",
+    "name": "Fae",
+    "tagline": "Sleek content management for web frameworks",
+    "repo_url": "https://github.com/wearefine/fae",
+    "full_name": "wearefine/fae",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "rails",
+      "cms"
+    ],
+    "icon": "/icons/fae.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 851,
+    "tier": "tier2_webapp",
+    "summary": "Fae provides developers and content teams with a clean, customizable control panel to manage website content efficiently inside modern web applications.",
+    "i18n": {
+      "it": "Fae offre a sviluppatori e team di contenuti un pannello di controllo pulito e personalizzabile per gestire il sito web in modo efficiente.",
+      "es": "Fae ofrece a los desarrolladores un panel de control limpio y personalizable para administrar contenido web de forma eficiente.",
+      "fr": "Fae offre aux développeurs un panneau de configuration propre et personnalisable pour gérer efficacement le contenu web.",
+      "de": "Fae bietet Entwicklern ein sauberes und anpassbares Kontrollpanel, um Website-Inhalte in modernen Webanwendungen effizient zu verwalten."
+    },
+    "download_url": "https://www.faecms.com",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "zotonic",
+    "name": "Zotonic",
+    "tagline": "High-speed real-time web framework and CMS",
+    "repo_url": "https://github.com/zotonic/zotonic",
+    "full_name": "zotonic/zotonic",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "erlang"
+    ],
+    "icon": "/icons/zotonic.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 850,
+    "tier": "tier2_webapp",
+    "summary": "Zotonic is a lightning-fast web content management system and framework designed for high-performance interactive websites.",
+    "i18n": {
+      "it": "Zotonic è un sistema di gestione dei contenuti web e un framework progettato per siti interattivi ad alte prestazioni.",
+      "es": "Zotonic es un sistema de gestión de contenidos web y framework ultrarrápido diseñado para sitios interactivos.",
+      "fr": "Zotonic est un système de gestion de contenu web et un cadre conçu pour des sites web interactifs performants.",
+      "de": "Zotonic ist ein extrem schnelles Web-Content-Management-System und Framework für interaktive Websites."
+    },
+    "download_url": "https://zotonic.com/",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "deco",
+    "name": "deco",
+    "tagline": "Visual website editing for modern performance",
+    "repo_url": "https://github.com/deco-cx/deco",
+    "full_name": "deco-cx/deco",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-development",
+      "cms"
+    ],
+    "icon": "/icons/deco.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 849,
+    "tier": "tier2_webapp",
+    "summary": "Deco is a visual editing tool that lets you manage website content and layouts while keeping your site fast and easy to update.",
+    "i18n": {
+      "it": "Deco è uno strumento di editing visivo che ti permette di gestire contenuti e layout mantenendo il tuo sito veloce e facile da aggiornare.",
+      "es": "Deco es una herramienta de edición visual que te permite gestionar contenidos y diseños manteniendo tu sitio rápido y fácil de actualizar.",
+      "fr": "Deco est un outil d'édition visuelle qui vous permet de gérer le contenu et la mise en page tout en gardant votre site rapide et facile à modifier.",
+      "de": "Deco ist ein visuelles Bearbeitungstool, mit dem Sie Inhalte und Layouts verwalten können, während Ihre Website schnell und einfach zu aktualisieren bleibt."
+    },
+    "download_url": "https://deco.cx",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "studiocms",
+    "name": "studiocms",
+    "tagline": "Fast native content management for web publishers",
+    "repo_url": "https://github.com/withstudiocms/studiocms",
+    "full_name": "withstudiocms/studiocms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "astro"
+    ],
+    "icon": "/icons/studiocms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 844,
+    "tier": "tier2_webapp",
+    "summary": "StudioCMS is a dedicated headless content management system built specifically for the Astro web community.",
+    "i18n": {
+      "it": "StudioCMS è un sistema di gestione contenuti headless progettato specificamente per la comunità web Astro.",
+      "es": "StudioCMS es un sistema de gestión de contenidos headless diseñado específicamente para la comunidad web Astro.",
+      "fr": "StudioCMS est un système de gestion de contenu headless conçu spécifiquement pour la communauté web Astro.",
+      "de": "StudioCMS ist ein dediziertes Headless-Content-Managementsystem, das speziell für die Astro-Community entwickelt wurde."
+    },
+    "download_url": "https://studiocms.dev",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "lin-cms-flask",
+    "name": "lin-cms-flask",
+    "tagline": "Practical content management framework for developers.",
+    "repo_url": "https://github.com/logamee/lin-cms-flask",
+    "full_name": "logamee/lin-cms-flask",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "flask",
+      "cms"
+    ],
+    "icon": "/icons/lin-cms-flask.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 838,
+    "tier": "tier2_webapp",
+    "summary": "Lin-CMS-Flask is a practical content management backend framework built with Python and Flask.",
+    "i18n": {
+      "it": "Lin-CMS-Flask è un pratico framework backend per la gestione dei contenuti basato su Python e Flask.",
+      "es": "Lin-CMS-Flask es un práctico framework de backend para la gestión de contenidos creado con Python y Flask.",
+      "fr": "Lin-CMS-Flask est un cadre de backend de gestion de contenu pratique construit avec Python et Flask.",
+      "de": "Lin-CMS-Flask ist ein praktisches Content-Management-Backend-Framework, das mit Python und Flask entwickelt wurde."
+    },
+    "download_url": "https://doc.cms.talelin.com/",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "quick-picture-viewer",
     "name": "Quick Picture Viewer",
     "tagline": "Lightning-fast alternative photo viewer for Windows.",
@@ -38607,6 +38775,62 @@
     },
     "download_url": "https://github.com/ModuleArt/quick-picture-viewer/releases/download/v3.1.4/QuickPictureViewer-Setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "statamic",
+    "name": "Statamic",
+    "tagline": "Simple, flat-file website builder",
+    "repo_url": "https://github.com/statamic/statamic",
+    "full_name": "statamic/statamic",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "website-builder"
+    ],
+    "icon": "/icons/statamic.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 838,
+    "tier": "tier2_webapp",
+    "summary": "Statamic is a user-friendly website builder that uses simple files instead of complex databases, making it easy for non-technical users to manage content.",
+    "i18n": {
+      "it": "Statamic è un gestore di contenuti facile da usare che utilizza file semplici invece di database complessi, rendendo la gestione dei contenuti accessibile anche a chi non è tecnico.",
+      "es": "Statamic es un gestor de contenido fácil de usar que utiliza archivos simples en lugar de bases de datos complejas, lo que permite a los usuarios no técnicos administrar su contenido con facilidad.",
+      "fr": "Statamic est un gestionnaire de contenu convivial qui utilise des fichiers simples au lieu de bases de données complexes, facilitant la gestion du contenu pour les utilisateurs non techniques.",
+      "de": "Statamic ist ein benutzerfreundlicher Content-Manager, der einfache Dateien anstelle komplexer Datenbanken verwendet, was die Inhaltsverwaltung für Nicht-Techniker erleichtert."
+    },
+    "download_url": "https://statamic.com",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "vue-crud",
+    "name": "Vue CRUD",
+    "tagline": "Speedy data management interface builder",
+    "repo_url": "https://github.com/what-crud/vue-crud",
+    "full_name": "what-crud/vue-crud",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "admin",
+      "crud"
+    ],
+    "icon": "/icons/vue-crud.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 834,
+    "tier": "tier2_webapp",
+    "summary": "Build powerful data management screens and customer relationship tools effortlessly with a lightweight JavaScript system.",
+    "i18n": {
+      "it": "Crea potenti schermate di gestione dati e strumenti CRM in modo semplice con un sistema JavaScript leggero.",
+      "es": "Crea potencias pantallas de gestión de datos y herramientas CRM fácilmente con un sistema JavaScript ligero.",
+      "fr": "Créez facilement des écrans de gestion de données et des outils CRM puissants grâce à un système JavaScript léger.",
+      "de": "Erstellen Sie leistungsstarke Datenmanagement-Bildschirme und CRM-Tools ganz einfach mit einem leichten JavaScript-System."
+    },
+    "download_url": "https://vue-crud.github.io/",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "edge-drop",
@@ -38721,6 +38945,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "croogo",
+    "name": "Croogo",
+    "tagline": "Flexible open-source PHP content management system",
+    "repo_url": "https://github.com/croogo/croogo",
+    "full_name": "croogo/croogo",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "php"
+    ],
+    "icon": "/icons/croogo.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 809,
+    "tier": "tier2_webapp",
+    "summary": "Croogo is a free content management system powered by PHP that helps you build custom websites and web applications easily.",
+    "i18n": {
+      "it": "Croogo è un sistema di gestione contenuti gratuito basato su PHP che aiuta a creare siti web e applicazioni personalizzate.",
+      "es": "Croogo es un sistema de gestión de contenidos gratuito con PHP que te ayuda a crear sitios web y aplicaciones a medida.",
+      "fr": "Croogo est un système de gestion de contenu gratuit propulsé par PHP qui aide à créer des sites et applications web.",
+      "de": "Croogo ist ein kostenloses Content-Management-System auf PHP-Basis, mit dem Sie Websites und Webanwendungen erstellen."
+    },
+    "download_url": "https://www.croogo.org",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "swiftdl",
     "name": "SwiftDL",
     "tagline": "Supercharge your everyday file downloads.",
@@ -38775,6 +39027,62 @@
     },
     "download_url": "https://github.com/rhysd/Shiba/releases/download/v2.0.0-alpha.4/shiba_x64_v2.0.0-alpha.4.msi",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "luya",
+    "name": "Luya",
+    "tagline": "Scalable web framework and content management system",
+    "repo_url": "https://github.com/luyadev/luya",
+    "full_name": "luyadev/luya",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "php",
+      "cms"
+    ],
+    "icon": "/icons/luya.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 801,
+    "tier": "tier2_webapp",
+    "summary": "Luya is a scalable web framework and content management system designed to make building websites easy for developers, clients, and everyday users.",
+    "i18n": {
+      "it": "Luya è un framework web scalabile e gestore di contenuti progettato per semplificare la creazione di siti web per tutti.",
+      "es": "Luya es un marco web escalable y gestor de contenidos diseñado para facilitar la creación de sitios web a cualquier usuario.",
+      "fr": "Luya est un cadre web évolutif et gestionnaire de contenu conçu pour simplifier la création de sites web pour tous.",
+      "de": "Luya ist ein skalierbares Web-Framework und Content-Management-System, das die Erstellung von Websites für jeden vereinfacht."
+    },
+    "download_url": "https://luya.io",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "sharp",
+    "name": "Sharp",
+    "tagline": "Build powerful web admin panels easily.",
+    "repo_url": "https://github.com/code16/sharp",
+    "full_name": "code16/sharp",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "laravel",
+      "cms"
+    ],
+    "icon": "/icons/sharp.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 801,
+    "tier": "tier2_webapp",
+    "summary": "Create custom backend management panels using clean PHP code without writing any front-end code.",
+    "i18n": {
+      "it": "Realizza pannelli di gestione personalizzati usando codice PHP pulito senza scrivere alcuna interfaccia grafica.",
+      "es": "Diseña paneles de control personalizados usando código PHP limpio sin escribir nada de interfaz gráfica.",
+      "fr": "Concevez des interfaces de gestion sur mesure en PHP propre sans écrire de code pour l'affichage.",
+      "de": "Entwickeln Sie maßgeschneiderte Verwaltungsoberflächen mit sauberem PHP-Code ganz ohne Frontend-Aufwand."
+    },
+    "download_url": "https://sharp.code16.fr/",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "tweakphp",
@@ -38833,6 +39141,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "lin-cms-koa",
+    "name": "Lin-CMS-Koa",
+    "tagline": "Efficient backend framework for content management",
+    "repo_url": "https://github.com/logamee/lin-cms-koa",
+    "full_name": "logamee/lin-cms-koa",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-development",
+      "cms"
+    ],
+    "icon": "/icons/lin-cms-koa.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 793,
+    "tier": "tier2_webapp",
+    "summary": "Lin-CMS-Koa is a streamlined toolkit that helps developers build professional content management systems with ease and speed.",
+    "i18n": {
+      "it": "Lin-CMS-Koa è un kit di strumenti semplificato che aiuta a creare sistemi di gestione contenuti professionali con rapidità.",
+      "es": "Lin-CMS-Koa es un conjunto de herramientas simplificado que ayuda a crear sistemas de gestión de contenido profesionales con rapidez.",
+      "fr": "Lin-CMS-Koa est une boîte à outils simplifiée qui aide à créer des systèmes de gestion de contenu professionnels avec rapidité.",
+      "de": "Lin-CMS-Koa ist ein vereinfachtes Toolkit, das dabei hilft, professionelle Content-Management-Systeme schnell zu erstellen."
+    },
+    "download_url": "https://doc.cms.talelin.com/",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "perspec",
     "name": "Perspec",
     "tagline": "Fix image perspective and straighten documents.",
@@ -38861,6 +39197,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "letterpad",
+    "name": "Letterpad",
+    "tagline": "Create beautiful blogs and photo stories easily",
+    "repo_url": "https://github.com/letterpad/letterpad",
+    "full_name": "letterpad/letterpad",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "blogging",
+      "publishing"
+    ],
+    "icon": "/icons/letterpad.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 789,
+    "tier": "tier2_webapp",
+    "summary": "Letterpad is a comprehensive blog publishing engine that simplifies content management, design custom portfolios, and connects audiences online.",
+    "i18n": {
+      "it": "Letterpad è un motore di pubblicazione completo per blog che semplifica la gestione dei contenuti e la creazione di portfoli.",
+      "es": "Letterpad es un motor completo de publicación de blogs que simplifica la gestión de contenidos y la creación de portafolios.",
+      "fr": "Letterpad est un moteur de publication de blog complet qui simplifie la gestion de contenu et la création de portfolios.",
+      "de": "Letterpad ist eine umfassende Blog-Publishing-Engine, die die Verwaltung von Inhalten und das Erstellen von Portfolios vereinfacht."
+    },
+    "download_url": "https://letterpad.app",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "platform",
+    "name": "Platform",
+    "tagline": "Build multilingual websites with modular blocks.",
+    "repo_url": "https://github.com/asgardcms/platform",
+    "full_name": "asgardcms/platform",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "multilingual"
+    ],
+    "icon": "/icons/platform.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 787,
+    "tier": "tier2_webapp",
+    "summary": "Platform is an open-source website management system designed to create content in multiple languages with ease.",
+    "i18n": {
+      "it": "Un sistema di gestione dei contenuti open source per creare pagine multilingua con semplicità.",
+      "es": "Un sistema de gestión de contenidos de código abierto diseñado para crear sitios multilingües fácilmente.",
+      "fr": "Un système de gestion de contenu open source conçu pour créer facilement des sites en plusieurs langues.",
+      "de": "Ein Open-Source-Inhaltsverwaltungssystem zur einfachen Erstellung mehrsprachiger Websites."
+    },
+    "download_url": "https://asgardcms.com/",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "orfeo",
     "name": "Orfeo",
     "tagline": "Master piano with interactive MIDI lessons",
@@ -38887,6 +39279,62 @@
     },
     "download_url": "https://github.com/Squarebow/Orfeo/releases/download/v1.8.0/Orfeo-1.8.0-portable.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pruvious",
+    "name": "Pruvious",
+    "tagline": "Reliable content management for your website",
+    "repo_url": "https://github.com/pruvious/pruvious",
+    "full_name": "pruvious/pruvious",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "website"
+    ],
+    "icon": "/icons/pruvious.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 766,
+    "tier": "tier2_webapp",
+    "summary": "Pruvious is a dependable content management system that integrates smoothly with popular web development tools for effortless publishing.",
+    "i18n": {
+      "it": "Pruvious è un sistema di gestione dei contenuti che si integra perfettamente con i popolari strumenti di sviluppo web.",
+      "es": "Pruvious es un sistema de gestión de contenidos que se integra sin problemas con las herramientas de desarrollo web.",
+      "fr": "Pruvious est un système de gestion de contenu qui s'intègre facilement avec les outils de développement web populaires.",
+      "de": "Pruvious ist ein zuverlässiges Content-Management-System, das sich nahtlos in gängige Web-Entwicklungswerkzeuge einfügt."
+    },
+    "download_url": "https://pruvious.com",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "coderedcms",
+    "name": "Wagtail CRX (CodeRed CMS)",
+    "tagline": "Build professional marketing websites with Python.",
+    "repo_url": "https://github.com/coderedcorp/coderedcms",
+    "full_name": "coderedcorp/coderedcms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "django"
+    ],
+    "icon": "/icons/coderedcms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 763,
+    "tier": "tier2_webapp",
+    "summary": "Create fast, search-friendly marketing websites easily using powerful ready-to-use page templates and components.",
+    "i18n": {
+      "it": "Realizza siti web aziendali ottimizzati e veloci sfruttando modelli e componenti pronti all'uso.",
+      "es": "Diseña sitios web comerciales rápidos y optimizados utilizando plantillas y componentes listos para usar.",
+      "fr": "Concevez rapidement des sites web optimisés pour le marketing grâce à des composants prêts à l'emploi.",
+      "de": "Gestalten Sie schnelle, suchmaschinenfreundliche Marketing-Websites mühelos mit vorgefertigten Bausteinen."
+    },
+    "download_url": "https://github.com/coderedcorp/coderedcms/releases",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "dsh-desktop",
@@ -39001,6 +39449,34 @@
     "updated_at": "2026-11-19"
   },
   {
+    "slug": "cromwell",
+    "name": "Cromwell",
+    "tagline": "Build fast websites with familiar tools",
+    "repo_url": "https://github.com/cromwellcms/cromwell",
+    "full_name": "cromwellcms/cromwell",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-development",
+      "cms"
+    ],
+    "icon": "/icons/cromwell.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 752,
+    "tier": "tier2_webapp",
+    "summary": "Cromwell is a user-friendly platform that lets you create professional websites and online stores without needing to write complex code.",
+    "i18n": {
+      "it": "Cromwell è una piattaforma semplice per creare siti web e negozi online professionali senza dover scrivere codice complesso.",
+      "es": "Cromwell es una plataforma amigable que te permite crear sitios web y tiendas en línea profesionales sin necesidad de programar.",
+      "fr": "Cromwell est une plateforme intuitive qui vous permet de créer des sites web et des boutiques en ligne sans avoir à coder.",
+      "de": "Cromwell ist eine benutzerfreundliche Plattform, mit der Sie professionelle Webseiten und Online-Shops ohne Programmierkenntnisse erstellen können."
+    },
+    "download_url": "https://cromwellcms.com",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "zephyr",
     "name": "Zephyr",
     "tagline": "Modern and secure network proxy manager",
@@ -39029,6 +39505,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "wondercms",
+    "name": "WonderCMS",
+    "tagline": "Extremely fast and lightweight flat file content manager",
+    "repo_url": "https://github.com/wondercms/wondercms",
+    "full_name": "wondercms/wondercms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "php"
+    ],
+    "icon": "/icons/wondercms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 747,
+    "tier": "tier2_webapp",
+    "summary": "Create and edit simple websites instantly without database headaches or complex server setups.",
+    "i18n": {
+      "it": "Crea e modifica siti web semplici all'istante senza problemi di database o configurazioni complesse.",
+      "es": "Crea y edita sitios web sencillos al instante sin dolores de cabeza con bases de datos ni configuraciones.",
+      "fr": "Créez et modifiez des sites web simples instantanément sans soucis de base de données ni installations lourdes.",
+      "de": "Erstellen und bearbeiten Sie einfache Websites sofort ohne Datenbankprobleme oder komplexe Setups."
+    },
+    "download_url": "https://wondercms.com",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "xibo",
+    "name": "Xibo",
+    "tagline": "Professional digital signage management platform.",
+    "repo_url": "https://github.com/xibosignage/xibo",
+    "full_name": "xibosignage/xibo",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "digital-signage",
+      "display-management"
+    ],
+    "icon": "/icons/xibo.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 745,
+    "tier": "tier2_webapp",
+    "summary": "Xibo is a comprehensive system for designing and displaying digital content on screens across your organization.",
+    "i18n": {
+      "it": "Xibo è un sistema completo per creare e gestire contenuti digitali da mostrare su schermi in tutta la tua organizzazione.",
+      "es": "Xibo es un sistema completo para diseñar y mostrar contenido digital en pantallas dentro de tu organización.",
+      "fr": "Xibo est un système complet pour concevoir et diffuser du contenu numérique sur des écrans au sein de votre organisation.",
+      "de": "Xibo ist ein umfassendes System zum Erstellen und Anzeigen digitaler Inhalte auf Bildschirmen in Ihrem Unternehmen."
+    },
+    "download_url": "https://xibosignage.com",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "httptoolkit-desktop",
     "name": "httptoolkit-desktop",
     "tagline": "Debug network traffic with ease",
@@ -39055,6 +39587,34 @@
     },
     "download_url": "https://github.com/httptoolkit/httptoolkit-desktop/releases/download/v1.27.4/HttpToolkit-1.27.4.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "azuriom",
+    "name": "Azuriom",
+    "tagline": "The complete web hub for game servers",
+    "repo_url": "https://github.com/azuriom/azuriom",
+    "full_name": "azuriom/azuriom",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "gaming",
+      "web-management"
+    ],
+    "icon": "/icons/azuriom.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 740,
+    "tier": "tier2_webapp",
+    "summary": "Azuriom provides a professional website platform for game communities to manage players, shops, and server news in one place.",
+    "i18n": {
+      "it": "Azuriom offre una piattaforma web professionale per gestire giocatori, negozi e notizie per le community di gioco.",
+      "es": "Azuriom ofrece una plataforma web profesional para que las comunidades de juegos gestionen jugadores, tiendas y noticias.",
+      "fr": "Azuriom fournit une plateforme web professionnelle pour permettre aux communautés de jeux de gérer leurs joueurs, boutiques et actualités.",
+      "de": "Azuriom bietet eine professionelle Web-Plattform für Spiel-Communities zur Verwaltung von Spielern, Shops und Nachrichten."
+    },
+    "download_url": "https://azuriom.com",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "screenarc",
@@ -39169,6 +39729,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "purpleadmin-free-admin-template",
+    "name": "PurpleAdmin-Free-Admin-Template",
+    "tagline": "Stylish free admin dashboard template.",
+    "repo_url": "https://github.com/bootstrapdash/purpleadmin-free-admin-template",
+    "full_name": "bootstrapdash/purpleadmin-free-admin-template",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "admin",
+      "dashboard"
+    ],
+    "icon": "/icons/purpleadmin-free-admin-template.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 727,
+    "tier": "tier2_webapp",
+    "summary": "Jumpstart your website control panel or online store backend with a stylish, colorful, and fully responsive design template.",
+    "i18n": {
+      "it": "Crea il pannello di controllo del tuo sito web con un modello di design elegante, colorato e reattivo.",
+      "es": "Inicia el panel de control de tu sitio web con una plantilla de diseño elegante, colorida y adaptable.",
+      "fr": "Démarrez le panneau de configuration de votre site Web avec un modèle élégant, coloré et adaptatif.",
+      "de": "Starten Sie Ihre Website-Verwaltung mit einer stilvollen, farbenfrohen und vollständig anpassbaren Designvorlage."
+    },
+    "download_url": "https://www.bootstrapdash.com/product/purple-free-admin-template/",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "horizon",
     "name": "Horizon",
     "tagline": "Manage all your terminal sessions anywhere.",
@@ -39195,6 +39783,34 @@
     },
     "download_url": "https://github.com/peters/horizon/releases/download/v0.2.7/horizon-installer-win-x64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "jamstack-cms",
+    "name": "JAMstack CMS",
+    "tagline": "Modern serverless blogging and content manager.",
+    "repo_url": "https://github.com/jamstack-cms/jamstack-cms",
+    "full_name": "jamstack-cms/jamstack-cms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "blogging"
+    ],
+    "icon": "/icons/jamstack-cms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 721,
+    "tier": "tier2_webapp",
+    "summary": "Create and manage serverless blogs with a secure built-in admin dashboard and fast static site delivery.",
+    "i18n": {
+      "it": "Crea e gestisci blog serverless con una dashboard di amministrazione sicura e una pubblicazione veloce.",
+      "es": "Crea y gestiona blogs sin servidores con un panel de administración seguro y entrega de páginas rápidas.",
+      "fr": "Créez et gérez des blogs sans serveur avec un tableau de bord d'administration sécurisé et rapide.",
+      "de": "Erstellen und verwalten Sie serverlose Blogs mit einem sicheren Admin-Dashboard und schnellen Seiten."
+    },
+    "download_url": "https://www.jamstackcms.io/",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "codex-app-manager",
@@ -39253,6 +39869,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "quickview",
+    "name": "QuickView",
+    "tagline": "Blazing fast image viewer for Windows",
+    "repo_url": "https://github.com/justnullname/quickview",
+    "full_name": "justnullname/quickview",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "image-viewer",
+      "windows"
+    ],
+    "icon": "/icons/quickview.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 696,
+    "tier": "tier2_webapp",
+    "summary": "QuickView is a lightning-fast image viewer built for Windows that opens massive photos and modern formats instantly without any lag.",
+    "i18n": {
+      "it": "QuickView è un visualizzatore di immagini fulmineo per Windows che apre foto enormi e formati moderni all'istante.",
+      "es": "QuickView es un visor de imágenes ultrarrápido para Windows que abre fotos grandes y formatos modernos al instante.",
+      "fr": "QuickView est une visionneuse d'images ultra rapide pour Windows qui ouvre instantanément de grandes photos.",
+      "de": "QuickView ist ein blitzschneller Bildbetrachter für Windows, der große Fotos und moderne Formate sofort öffnet."
+    },
+    "download_url": "https://github.com/justnullname/QuickView/releases/download/v6.57.14.2/QuickView_Installer_v6.57.14.2_AMD64.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "enduro",
+    "name": "Enduro",
+    "tagline": "Minimalistic lean node.js publishing tool",
+    "repo_url": "https://github.com/gottwik/enduro",
+    "full_name": "gottwik/enduro",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "publishing"
+    ],
+    "icon": "/icons/enduro.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 681,
+    "tier": "tier2_webapp",
+    "summary": "Enduro is a lightweight website publishing tool that lets you manage content easily without complex setups.",
+    "i18n": {
+      "it": "Enduro è uno strumento di pubblicazione di siti leggero che consente di gestire i contenuti senza configurazioni complesse.",
+      "es": "Enduro es una herramienta ligera de publicación web que te permite gestionar contenido sin configuraciones complejas.",
+      "fr": "Enduro est un outil de publication de sites web léger qui vous permet de gérer vos contenus sans configurations complexes.",
+      "de": "Enduro ist ein leichtgewichtiger Web-Publishing-Assistent, mit dem Sie Inhalte ohne komplexe Setups verwalten können."
+    },
+    "download_url": "https://www.endurojs.com/",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "kition",
     "name": "Kition",
     "tagline": "Open professional productivity suite with AI agents",
@@ -39279,6 +39951,34 @@
     },
     "download_url": "https://kition.ai",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "notablog",
+    "name": "notablog",
+    "tagline": "Turn your notes into a clean blog",
+    "repo_url": "https://github.com/dragonman225/notablog",
+    "full_name": "dragonman225/notablog",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "blogging",
+      "notes"
+    ],
+    "icon": "/icons/notablog.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 681,
+    "tier": "tier2_webapp",
+    "summary": "Transform your favorite note pages into a fast, minimal personal website without complicated setups.",
+    "i18n": {
+      "it": "Trasforma le tue pagine di note preferite in un sito web personale veloce e minimale senza configurazioni complesse.",
+      "es": "Transforma tus páginas de notas favoritas en un sitio web personal rápido y minimalista sin configuraciones complejas.",
+      "fr": "Transformez vos pages de notes préférées en un site web personnel rapide et minimaliste sans configurations complexes.",
+      "de": "Verwandeln Sie Ihre Lieblingsnotizseiten in eine schnelle, minimalistische persönliche Website ohne komplizierte Einrichtung."
+    },
+    "download_url": "https://dragonman225.js.org/notablog.html",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "docufinder",
