@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Video Cutters, Converters & Do
 parent_slug: "video-audio/free-video-editors"
 child_slugs: []
 sibling_slugs: ["video-audio/free-video-editors/best-free-video-editors", "video-audio/free-video-editors/troubleshooting-free-video-editors"]
-app_slugs: ["yt-dlp", "losslesscut", "handbrake", "concat", "shotcut", "youtube-dl-gui"]
+app_slugs: ["yt-dlp", "losslesscut", "recordly", "handbrake", "concat", "shotcut"]
 updated_at: "2026-11-22"
 ---
 
@@ -27,7 +27,7 @@ Switching to free open-source tools in **Video Cutters, Converters & Downloaders
 
 - **[yt-dlp](/HubHum/apps/yt-dlp/)** (CLI Tool) — A reliable tool to save audio and video from thousands of online websites directly to your computer.
 - **[LosslessCut](/HubHum/apps/losslesscut/)** (Desktop App) — Trim, split, and merge large videos in seconds with zero quality loss and no slow re-encoding wait times.
+- **[Recordly](/HubHum/apps/recordly/)** (Desktop App) — Recordly helps you capture your screen and create polished, professional-looking demo videos without needing complex editing skills.
 - **[HandBrake](/HubHum/apps/handbrake/)** (Desktop App) — Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen.
 - **[Concat](/HubHum/apps/concat/)** (Self-Hosted Web App) — Concat is a completely free, privacy-focused video editor that runs entirely on your device with no watermarks, subscriptions, or uploads.
 - **[Shotcut](/HubHum/apps/shotcut/)** (Desktop App) — Shotcut is a free, powerful tool that lets you trim, edit, and polish your video projects on any computer.
-- **[youtube-dl-gui](/HubHum/apps/youtube-dl-gui/)** (Desktop App) — Download online videos easily with a clean visual window instead of using complicated text commands.

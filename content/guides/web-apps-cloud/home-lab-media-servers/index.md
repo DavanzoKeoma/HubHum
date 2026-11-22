@@ -17,7 +17,7 @@ updated_at: "2026-11-22"
 
 ## Plain-English Overview: Home Lab Media Servers, E-Books & Streaming Hubs
 
-This topic hub groups **66 vetted free tools** specializing in **Home Lab Media Servers, E-Books & Streaming Hubs** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **67 vetted free tools** specializing in **Home Lab Media Servers, E-Books & Streaming Hubs** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

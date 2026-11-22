@@ -4,7 +4,7 @@ slug: "paperless-office-notes-bundle"
 category: "Productivity"
 summary: "Manage PDFs, encrypted notes, e-books, and personal wikis cleanly without proprietary cloud formats."
 tags: ["notes", "pdf", "office", "knowledge"]
-app_slugs: ["joplin", "stirling-pdf", "siyuan", "trilium", "flutter", "cc-switch"]
+app_slugs: ["joplin", "stirling-pdf", "siyuan", "trilium", "microsoft-activation-scripts", "flutter"]
 updated_at: "2026-11-22"
 ---
 
@@ -16,5 +16,5 @@ Keep your everyday documents, receipts, study notes, and reference libraries fas
 * **[Stirling-PDF](/HubHum/apps/stirling-pdf/)** (*Self-Hosted Web App*): Edit, convert, and secure your PDF documents locally without uploading your sensitive files to third-party web services.
 * **[SiYuan](/HubHum/apps/siyuan/)** (*Self-Hosted Web App*): SiYuan is a secure, self-hosted tool for organizing your notes, documents, and ideas with powerful linking and AI assistance.
 * **[Trilium](/HubHum/apps/trilium/)** (*Self-Hosted Web App*): Trilium is a hierarchical note-taking tool that helps you organize massive amounts of information into a searchable, connected library.
+* **[Microsoft-Activation-Scripts](/HubHum/apps/microsoft-activation-scripts/)** (*Desktop App*): Activate Windows and Office operating systems easily using trusted open-source scripts and automated methods.
 * **[Flutter](/HubHum/apps/flutter/)** (*Desktop App*): Create gorgeous, lightning-fast apps for phones, web, and computers from a single shared set of instructions.
-* **[CC Switch](/HubHum/apps/cc-switch/)** (*Desktop App*): Switch between different AI service providers with a single click and organize your prompts, plugins, and helper tools in one unified dashboard.

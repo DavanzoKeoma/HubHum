@@ -14,7 +14,7 @@ updated_at: "2026-11-22"
 
 ## Why Explore Free Web Apps & Cloud Software?
 
-This central guide brings together **351 verified free applications** in the **Web Apps & Cloud** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **389 verified free applications** in the **Web Apps & Cloud** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Web Apps & Cloud
 

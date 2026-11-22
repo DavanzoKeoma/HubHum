@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Encrypted Notes, Wikis & Knowl
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
-app_slugs: ["awesome", "react-native", "pake", "joplin", "obsidian-skills", "uni-app"]
+app_slugs: ["awesome", "node", "ventoy", "marktext", "mkcert", "joplin"]
 updated_at: "2026-11-22"
 ---
 
@@ -26,8 +26,8 @@ Switching to free open-source tools in **Encrypted Notes, Wikis & Knowledge Apps
 ### Great Starting Points in Encrypted Notes, Wikis & Knowledge Apps
 
 - **[Awesome](/HubHum/apps/awesome/)** (Open Reference) — Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.
-- **[React Native](/HubHum/apps/react-native/)** (Desktop App) — Create genuine mobile applications for Android and iOS using familiar coding languages and components.
-- **[Pake](/HubHum/apps/pake/)** (Desktop App) — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.
+- **[node](/HubHum/apps/node/)** (Desktop App) — Run your JavaScript code anywhere with a reliable platform that powers web servers and network utilities seamlessly.
+- **[Ventoy](/HubHum/apps/ventoy/)** (Desktop App) — Ventoy lets you turn any USB drive into a multi-boot tool just by copying system files directly onto it without constant reformatting.
+- **[MarkText](/HubHum/apps/marktext/)** (Desktop App) — MarkText is a clean, modern tool for writing notes and documents using simple formatting that stays out of your way while you work.
+- **[mkcert](/HubHum/apps/mkcert/)** (Desktop App) — mkcert creates trusted local certificates with zero configuration, letting developers run HTTPS locally without browser warnings.
 - **[Joplin](/HubHum/apps/joplin/)** (Desktop App) — Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.
-- **[Obsidian Skills](/HubHum/apps/obsidian-skills/)** (Open Reference) — Obsidian Skills allows your favorite digital assistants to read, write, and organize your notes automatically.
-- **[uni-app](/HubHum/apps/uni-app/)** (Desktop App) — Create native mobile, web, and mini-programs using a single unified codebase and familiar language syntax.

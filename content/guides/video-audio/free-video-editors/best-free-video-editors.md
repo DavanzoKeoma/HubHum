@@ -11,7 +11,7 @@ summary: "Compare yt-dlp vs LosslessCut and 8 free tools for Video Cutters, Conv
 parent_slug: "video-audio/free-video-editors"
 child_slugs: []
 sibling_slugs: ["video-audio/free-video-editors/how-to-choose-free-video-editors", "video-audio/free-video-editors/troubleshooting-free-video-editors"]
-app_slugs: ["yt-dlp", "losslesscut", "handbrake", "concat", "shotcut", "youtube-dl-gui", "bili23-downloader", "olive"]
+app_slugs: ["yt-dlp", "losslesscut", "recordly", "handbrake", "concat", "shotcut", "youtube-dl-gui", "bili23-downloader"]
 updated_at: "2026-11-22"
 ---
 
@@ -25,12 +25,12 @@ Comparing **yt-dlp** and **LosslessCut** highlights two distinct approaches in *
 | --- | --- | --- | --- | --- |
 | [yt-dlp](/HubHum/apps/yt-dlp/) | CLI Tool | Windows | ★ 209,259 | Public Domain / Free |
 | [LosslessCut](/HubHum/apps/losslesscut/) | Desktop App | Windows, macOS, Linux | ★ 46,153 | Open Source (GPL v2) |
+| [Recordly](/HubHum/apps/recordly/) | Desktop App | Windows, macOS, Linux | ★ 37,230 | Open Source (AGPL v3) |
 | [HandBrake](/HubHum/apps/handbrake/) | Desktop App | Windows, macOS, Linux | ★ 25,054 | Custom Open License |
 | [Concat](/HubHum/apps/concat/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 19,264 | Open Source (AGPL v3) |
 | [Shotcut](/HubHum/apps/shotcut/) | Desktop App | Windows, macOS, Linux | ★ 15,750 | Open Source (GPL v3) |
 | [youtube-dl-gui](/HubHum/apps/youtube-dl-gui/) | Desktop App | Windows, Linux | ★ 9,429 | Public Domain / Free |
 | [Bili23-Downloader](/HubHum/apps/bili23-downloader/) | Desktop App | Windows, macOS, Linux | ★ 9,323 | Open Source (GPL v3) |
-| [Olive](/HubHum/apps/olive/) | Desktop App | Windows, macOS, Linux | ★ 9,162 | Open Source (GPL v3) |
 
 ### When to Pick Which Option
 - **Choose [yt-dlp](/HubHum/apps/yt-dlp/) (CLI Tool)** if you need what it specializes in: A reliable tool to save audio and video from thousands of online websites directly to your computer — it runs as fast terminal commands suited for automation and batch scripts (no graphical buttons) (209,259 GitHub stars, vs LosslessCut which runs as a Desktop App).
