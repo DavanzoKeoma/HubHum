@@ -19,13 +19,22 @@ const appClusterMap = appClusterMapRaw as Record<string, ClusterRef>;
 
 export async function getStaticPaths() {
   const apps = await getCollection('apps');
-  return apps.map((app) => ({
-    params: { slug: app.data.slug },
-    props: { app },
-  }));
+  const bundles = await getCollection('bundles');
+  return apps.map((app) => {
+    const slug = app.data.slug;
+    const matchedBundle =
+      bundles.find((b) => b.data.app_slugs.includes(slug)) ||
+      bundles.find((b) => b.data.category === app.data.category) ||
+      bundles[0] ||
+      null;
+    return {
+      params: { slug },
+      props: { app, matchedBundle },
+    };
+  });
 }
 
-const { app } = Astro.props;
+const { app, matchedBundle } = Astro.props;
 const { Content } = await render(app);
 const {
   title,
@@ -397,6 +406,15 @@ const combinedJsonLd = [
             >
               Compare Top Alternatives →
             </a>
+            {matchedBundle && (
+              <a
+                href={withBase(`/bundles/${matchedBundle.data.slug}/`)}
+                class="btn btn-outline"
+                style="width:100%; margin-top:0.55rem;"
+              >
+                {matchedBundle.data.title} →
+              </a>
+            )}
           </div>
         )}
 

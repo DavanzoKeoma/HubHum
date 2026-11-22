@@ -6,13 +6,22 @@ import { withBase } from '../../lib/url';
 
 export async function getStaticPaths() {
   const bundles = await getCollection('bundles');
-  return bundles.map((bundle) => ({
-    params: { slug: bundle.data.slug },
-    props: { bundle },
-  }));
+  const guides = await getCollection('guides');
+  return bundles.map((bundle) => {
+    const pillar =
+      guides.find((g) => g.data.level === 1 && g.data.macro_category === bundle.data.category) ||
+      guides.find((g) => g.data.level === 1);
+    const comparisons = guides
+      .filter((g) => g.data.level === 3 && g.data.intent === 'comparison' && g.data.macro_category === bundle.data.category)
+      .slice(0, 3);
+    return {
+      params: { slug: bundle.data.slug },
+      props: { bundle, pillar, comparisons },
+    };
+  });
 }
 
-const { bundle } = Astro.props;
+const { bundle, pillar, comparisons = [] } = Astro.props;
 const { Content } = await render(bundle);
 const allApps = await getCollection('apps');
 const matchedApps = allApps.filter((a) => bundle.data.app_slugs.includes(a.data.slug));
@@ -59,5 +68,26 @@ const matchedApps = allApps.filter((a) => bundle.data.app_slugs.includes(a.data.
         </div>
       </section>
     )}
+
+    <section class="section-block" aria-labelledby="bundle-related-guides-heading">
+      <div class="section-head">
+        <h2 id="bundle-related-guides-heading" data-i18n="relatedGuidesHeading">Related Topic Cluster Guides</h2>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:0.75rem;">
+        {pillar && (
+          <a href={withBase(`/guides/${pillar.data.slug}/`)} class="btn btn-primary">
+            {pillar.data.macro_category} Guide →
+          </a>
+        )}
+        {comparisons.map((cg) => (
+          <a href={withBase(`/guides/${cg.data.slug}/`)} class="btn btn-outline">
+            {cg.data.title} →
+          </a>
+        ))}
+        <a href={withBase('/guides/')} class="btn btn-outline" data-i18n="navGuides">
+          All Topic Guides
+        </a>
+      </div>
+    </section>
   </div>
 </BaseLayout>

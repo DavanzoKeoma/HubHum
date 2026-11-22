@@ -264,8 +264,8 @@ def compute_catalog_status() -> dict:
     }
 
 
-def _atomic_git_commit(published_so_far: int, total_target: int) -> None:
-    """Regenerate catalog indices and commit a 50-card batch atomically."""
+def _atomic_git_commit(published_so_far: int, total_target: int, push_batch: bool = False) -> None:
+    """Regenerate catalog indices, commit a batch atomically, and optionally push to origin/main."""
     write_catalog_index()
     subprocess.run(
         [
@@ -278,6 +278,12 @@ def _atomic_git_commit(published_so_far: int, total_target: int) -> None:
             "data/retry_queue.json",
             "data/processed_repos.json",
             "data/daily_quota_state.json",
+            "public/llms.txt",
+            "public/llms-full.txt",
+            "public/catalog-rag.txt",
+            "public/codebase-full.txt",
+            "public/api/catalog.json",
+            "public/api/clusters.json",
         ],
         cwd=PROJECT_ROOT,
         check=True,
@@ -288,6 +294,14 @@ def _atomic_git_commit(published_so_far: int, total_target: int) -> None:
     msg = f"chore(seo): atomic batch commit {published_so_far}/{total_target} HubHum app cards"
     subprocess.run(["git", "commit", "-q", "-m", msg], cwd=PROJECT_ROOT, check=True)
     print(f"[ATOMIC COMMIT] {msg}", flush=True)
+    if push_batch:
+        try:
+            subprocess.run(["git", "pull", "--rebase", "-X", "ours", "origin", "main"], cwd=PROJECT_ROOT, timeout=45, check=False)
+            push_res = subprocess.run(["git", "push", "origin", "main"], cwd=PROJECT_ROOT, timeout=45)
+            if push_res.returncode == 0:
+                print(f"[ATOMIC PUSH] Pushed batch {published_so_far}/{total_target} to origin/main", flush=True)
+        except Exception as exc:
+            print(f"[ATOMIC PUSH WARN] Non-fatal push warning: {exc}", flush=True)
 
 
 def execute_streaming_recovery(
@@ -299,6 +313,7 @@ def execute_streaming_recovery(
     commit_batches: bool = False,
     force_provider: str = "auto",
     max_runtime_seconds: float = 4800.0,
+    push_batches: bool = False,
 ) -> dict:
     """Stream candidates topic-by-topic until exact Tier targets are published with 50-card atomic commits."""
     affiliates_data: dict = load_json_file(AFFILIATES_PATH, {})  # type: ignore[assignment]
@@ -513,14 +528,14 @@ def execute_streaming_recovery(
 
                             if batch_commit_size > 0 and since_last_commit >= batch_commit_size:
                                 if commit_batches:
-                                    _atomic_git_commit(total_published, total_target)
+                                    _atomic_git_commit(total_published, total_target, push_batch=push_batches)
                                 else:
                                     write_catalog_index()
                                 since_last_commit = 0
 
     if since_last_commit > 0:
         if commit_batches:
-            _atomic_git_commit(total_published, total_target)
+            _atomic_git_commit(total_published, total_target, push_batch=push_batches)
         else:
             write_catalog_index()
 
@@ -577,6 +592,7 @@ def main() -> int:
     parser.add_argument("--batch-commit-size", type=int, default=50, help="Rebuild index & commit atomically every N cards")
     parser.add_argument("--max-runtime-seconds", type=float, default=4800.0, help="Soft wall-clock budget in seconds (0 = unlimited)")
     parser.add_argument("--commit-batches", action="store_true", help="Create atomic git commits every batch_commit_size cards")
+    parser.add_argument("--push-batches", action="store_true", help="Push each atomic batch commit immediately to origin/main")
     parser.add_argument("--dispatch-waves", action="store_true", help="Trigger recovery waves via GitHub Actions workflow_dispatch")
     parser.add_argument("--wave-limit", type=int, default=15, help="Apps per dispatched GitHub Actions wave")
     parser.add_argument("--tiers", default="tier1,tier2,tier3", help="Comma-separated tiers to dispatch")
@@ -605,6 +621,7 @@ def main() -> int:
             batch_commit_size=args.batch_commit_size,
             commit_batches=args.commit_batches,
             max_runtime_seconds=args.max_runtime_seconds,
+            push_batches=args.push_batches,
         )
         print("Local recovery summary:", json.dumps(res))
 

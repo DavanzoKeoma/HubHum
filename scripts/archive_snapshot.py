@@ -18,13 +18,11 @@ USER_AGENT = "HubHum-Archiver/1.0 (+https://davanzokeoma.github.io/HubHum/)"
 
 
 def collect_target_urls() -> list[str]:
-    """Collect homepage, Topic Cluster pillars, sub-pillars, and key API/RAG URLs."""
+    """Collect HTML conversion pages (homepage, Pillars, Bundles, Sub-Pillars) for Wayback snapshots."""
     urls: list[str] = [
         f"{SITE_URL_PREFIX}/",
         f"{SITE_URL_PREFIX}/guides/",
         f"{SITE_URL_PREFIX}/about/",
-        f"{SITE_URL_PREFIX}/llms.txt",
-        f"{SITE_URL_PREFIX}/api/openapi.yaml",
     ]
     if CLUSTERS_MANIFEST_PATH.exists():
         try:
@@ -33,13 +31,14 @@ def collect_target_urls() -> list[str]:
                 macro_slug = str(p.get("macro_slug") or "").strip()
                 if macro_slug:
                     urls.append(f"{SITE_URL_PREFIX}/guides/{macro_slug}/")
+            for b in data.get("bundles", []):
+                if b:
+                    urls.append(f"{SITE_URL_PREFIX}/bundles/{b}/")
+            for p in data.get("pillars", []):
                 for s in p.get("subpillars", []):
                     sub_slug = str(s.get("sub_slug") or "").strip()
                     if sub_slug:
                         urls.append(f"{SITE_URL_PREFIX}/guides/{sub_slug}/")
-            for b in data.get("bundles", []):
-                if b:
-                    urls.append(f"{SITE_URL_PREFIX}/bundles/{b}/")
         except Exception:
             pass
     return list(dict.fromkeys(urls))

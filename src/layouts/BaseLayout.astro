@@ -588,5 +588,37 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
         })();
       </script>
     )}
+    <script is:inline>
+      (function () {
+        document.addEventListener('click', function (evt) {
+          var target = evt.target && evt.target.closest ? evt.target.closest('a[href]') : null;
+          if (!target) return;
+          var href = target.getAttribute('href') || '';
+          var m = href.match(/hubhum_01_MER(\d+)/i);
+          if (!m) return;
+          try {
+            if (localStorage.getItem('hubhum_ga_optout') === '1') return;
+          } catch (_) {}
+          var subid = m[0];
+          var merchantId = 'MER_' + m[1];
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            event: 'affiliate_click',
+            affiliate_subid: subid,
+            merchant_id: merchantId,
+            source_path: window.location.pathname,
+            link_url: href,
+          });
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'affiliate_click', {
+              affiliate_subid: subid,
+              merchant_id: merchantId,
+              source_path: window.location.pathname,
+              transport_type: 'beacon',
+            });
+          }
+        }, true);
+      })();
+    </script>
   </body>
 </html>

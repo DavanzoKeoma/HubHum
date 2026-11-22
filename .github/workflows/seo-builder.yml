@@ -205,10 +205,11 @@ jobs:
               tier2_target=t2,
               tier3_target=t3,
               min_delay=4.1,
-              batch_commit_size=50,
-              commit_batches=False,
+              batch_commit_size=25,
+              commit_batches=True,
               force_provider=force_provider,
               max_runtime_seconds=4500.0,
+              push_batches=True,
           )
           print("[WAVE RESULT]", json.dumps(res))
           PY
