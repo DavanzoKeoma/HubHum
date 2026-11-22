@@ -112,6 +112,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "microsoft-activation-scripts",
+    "name": "Microsoft-Activation-Scripts",
+    "tagline": "Open-source tool for Windows and Office",
+    "repo_url": "https://github.com/massgravel/microsoft-activation-scripts",
+    "full_name": "massgravel/microsoft-activation-scripts",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "windows"
+    ],
+    "icon": "/icons/microsoft-activation-scripts.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 200467,
+    "tier": "tier1_gui",
+    "summary": "Activate Windows and Office operating systems easily using trusted open-source scripts and automated methods.",
+    "i18n": {
+      "it": "Attiva i sistemi operativi Windows e Office facilmente utilizzando script open-source affidabili e metodi automatizzati.",
+      "es": "Activa los sistemas operativos Windows y Office fácilmente utilizando scripts de código abierto confiables y métodos automatizados.",
+      "fr": "Activez les systèmes d'exploitation Windows et Office facilement à l'aide de scripts open-source fiables et automatisés.",
+      "de": "Aktivieren Sie Windows- und Office-Betriebssysteme ganz einfach mit vertrauenswürdigen Open-Source-Skripten und automatisierten Methoden."
+    },
+    "download_url": "https://massgrave.dev",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "ohmyzsh",
     "name": "Oh My Zsh",
     "tagline": "Supercharge your command line workflow effortlessly.",
@@ -280,6 +308,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "powertoys",
+    "name": "PowerToys",
+    "tagline": "Boost Windows with handy tools",
+    "repo_url": "https://github.com/microsoft/powertoys",
+    "full_name": "microsoft/powertoys",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "windows"
+    ],
+    "icon": "/icons/powertoys.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 141281,
+    "tier": "tier1_gui",
+    "summary": "PowerToys adds a set of small programs that let you tweak Windows, speed up everyday actions, and personalize your computer experience.",
+    "i18n": {
+      "it": "PowerToys offre piccoli programmi che ti consentono di personalizzare Windows, accelerare le attività quotidiane e adattare il PC alle tue esigenze.",
+      "es": "PowerToys incluye pequeños programas que te permiten ajustar Windows, agilizar tareas diarias y personalizar tu PC según tus preferencias.",
+      "fr": "PowerToys propose de petits programmes qui vous aident à personnaliser Windows, accélérer les tâches quotidiennes et adapter votre ordinateur à vos besoins.",
+      "de": "PowerToys liefert kleine Programme, mit denen Sie Windows anpassen, tägliche Aufgaben beschleunigen und Ihren PC nach Ihren Wünschen gestalten."
+    },
+    "download_url": "https://github.com/microsoft/PowerToys/releases/download/v0.102.3101/PowerToysSetup-0.102.3101.0-arm64.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "rustdesk",
+    "name": "RustDesk",
+    "tagline": "Secure self-hosted remote desktop software",
+    "repo_url": "https://github.com/rustdesk/rustdesk",
+    "full_name": "rustdesk/rustdesk",
+    "category": "Productivity",
+    "tags": [
+      "remote-desktop",
+      "self-hosted"
+    ],
+    "icon": "/icons/rustdesk.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Open Source (AGPL v3)",
+    "stars": 130713,
+    "tier": "tier1_gui",
+    "summary": "Connect to your computers remotely with total data privacy and full control over your own secure hosting servers.",
+    "i18n": {
+      "it": "Collegati ai tuoi computer da remoto con totale privacy dei dati e pieno controllo sui tuoi server di hosting.",
+      "es": "Conéctate a tus ordenadores de forma remota con total privacidad de datos y control total sobre tus servidores.",
+      "fr": "Connectez-vous à vos ordinateurs à distance avec une totale confidentialité des données et vos propres serveurs.",
+      "de": "Verbinden Sie sich aus der Ferne mit Ihren Computern bei voller Datenprivatsphäre und eigener Serverkontrolle."
+    },
+    "download_url": "https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-aarch64.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "orca",
     "name": "orca",
     "tagline": "Run multiple AI coding agents in parallel",
@@ -334,6 +418,62 @@
     },
     "download_url": "https://reactnative.dev",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "node",
+    "name": "node",
+    "tagline": "Run JavaScript code outside web browsers.",
+    "repo_url": "https://github.com/nodejs/node",
+    "full_name": "nodejs/node",
+    "category": "Productivity",
+    "tags": [
+      "runtime",
+      "server"
+    ],
+    "icon": "/icons/node.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 123872,
+    "tier": "tier1_gui",
+    "summary": "Run your JavaScript code anywhere with a reliable platform that powers web servers and network utilities seamlessly.",
+    "i18n": {
+      "it": "Esegui il tuo codice JavaScript ovunque con una piattaforma affidabile che gestisce server web e utilità di rete.",
+      "es": "Ejecuta tu código JavaScript en cualquier lugar con una plataforma confiable que impulsa servidores web y redes.",
+      "fr": "Exécutez votre code JavaScript partout avec une plateforme fiable qui alimente serveurs web et outils réseau.",
+      "de": "Führe deinen JavaScript-Code überall aus mit einer zuverlässigen Plattform für Webserver und Netzwerke."
+    },
+    "download_url": "https://nodejs.org",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "v2rayn",
+    "name": "v2rayN",
+    "tagline": "Streamlined cross-platform connection manager application",
+    "repo_url": "https://github.com/2dust/v2rayn",
+    "full_name": "2dust/v2rayn",
+    "category": "Productivity",
+    "tags": [
+      "networking",
+      "desktop"
+    ],
+    "icon": "/icons/v2rayn.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 121158,
+    "tier": "tier1_gui",
+    "summary": "Manage secure internet connections effortlessly with a clean desktop control panel designed for Windows, Linux, and macOS.",
+    "i18n": {
+      "it": "Gestisci connessioni internet protette in modo semplice con un pannello di controllo per Windows, Linux e macOS.",
+      "es": "Administra conexiones a internet seguras fácilmente con un panel de control limpio para Windows, Linux y macOS.",
+      "fr": "Gérez des connexions Internet sécurisées facilement grâce à un panneau de configuration pour Windows, Linux et macOS.",
+      "de": "Verwalten Sie sichere Internetverbindungen mühelos über ein übersichtliches Desktop-Bedienfeld für Windows, Linux und macOS."
+    },
+    "download_url": "https://github.com/2dust/v2rayN/releases/download/7.25.6/v2rayN-macos-64.dmg",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "immich",
@@ -868,6 +1008,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ventoy",
+    "name": "Ventoy",
+    "tagline": "Create bootable USB drives without formatting",
+    "repo_url": "https://github.com/ventoy/ventoy",
+    "full_name": "ventoy/ventoy",
+    "category": "Productivity",
+    "tags": [
+      "usb",
+      "bootable"
+    ],
+    "icon": "/icons/ventoy.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 81093,
+    "tier": "tier1_gui",
+    "summary": "Ventoy lets you turn any USB drive into a multi-boot tool just by copying system files directly onto it without constant reformatting.",
+    "i18n": {
+      "it": "Ventoy permette di trasformare qualsiasi USB in un disco di avvio semplicemente copiandovi dentro i file dei sistemi operativi.",
+      "es": "Ventoy permite convertir cualquier memoria USB en un disco de arranque con solo copiar los archivos de los sistemas operativos.",
+      "fr": "Ventoy transforme n'importe quelle clé USB en un outil de démarrage en y copiant simplement les fichiers des systèmes.",
+      "de": "Ventoy macht jeden USB-Stick zu einem Startlaufwerk, indem Betriebssystemdateien einfach direkt darauf kopiert werden."
+    },
+    "download_url": "https://github.com/ventoy/Ventoy/releases/download/v1.1.18/sha256.txt",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "unsloth",
     "name": "Unsloth",
     "tagline": "Run and train AI models locally.",
@@ -1176,6 +1344,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "marktext",
+    "name": "MarkText",
+    "tagline": "Simple and elegant distraction-free writing",
+    "repo_url": "https://github.com/marktext/marktext",
+    "full_name": "marktext/marktext",
+    "category": "Productivity",
+    "tags": [
+      "writing",
+      "productivity"
+    ],
+    "icon": "/icons/marktext.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 64263,
+    "tier": "tier1_gui",
+    "summary": "MarkText is a clean, modern tool for writing notes and documents using simple formatting that stays out of your way while you work.",
+    "i18n": {
+      "it": "MarkText è uno strumento moderno e pulito per scrivere note e documenti con una formattazione semplice che non intralcia il tuo lavoro.",
+      "es": "MarkText es una herramienta moderna y limpia para escribir notas y documentos con un formato sencillo que no interfiere en tu trabajo.",
+      "fr": "MarkText est un outil moderne et épuré pour rédiger des notes et des documents avec un formatage simple qui ne gêne pas votre travail.",
+      "de": "MarkText ist ein modernes, übersichtliches Werkzeug zum Schreiben von Notizen und Dokumenten mit einfacher Formatierung ohne Ablenkungen."
+    },
+    "download_url": "https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-arm64-0.23.0-setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "pake",
     "name": "Pake",
     "tagline": "Turn websites into lightweight desktop apps",
@@ -1260,6 +1456,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "mkcert",
+    "name": "mkcert",
+    "tagline": "Local dev certs made easy",
+    "repo_url": "https://github.com/filosottile/mkcert",
+    "full_name": "filosottile/mkcert",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "security"
+    ],
+    "icon": "/icons/mkcert.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, iOS",
+    "license": "Open Source (BSD)",
+    "stars": 59896,
+    "tier": "tier1_gui",
+    "summary": "mkcert creates trusted local certificates with zero configuration, letting developers run HTTPS locally without browser warnings.",
+    "i18n": {
+      "it": "mkcert genera certificati locali affidabili senza configurazione, permettendo agli sviluppatori di usare HTTPS in locale senza avvisi del browser.",
+      "es": "mkcert crea certificados locales confiables sin configuración, permitiendo a los desarrolladores usar HTTPS en local sin avisos del navegador.",
+      "fr": "mkcert crée des certificats locaux fiables sans configuration, permettant aux développeurs d’utiliser HTTPS localement sans avertissements du navigateur.",
+      "de": "mkcert erzeugt vertrauenswürdige lokale Zertifikate ohne Konfiguration, sodass Entwickler HTTPS lokal nutzen können, ohne Browserwarnungen."
+    },
+    "download_url": "https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-windows-amd64.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "gitea",
     "name": "Gitea",
     "tagline": "Your own private workspace for code",
@@ -1314,6 +1538,34 @@
     },
     "download_url": "https://github.com/pathwaycom/serviette/blob/main/docs/README.md",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "motrix",
+    "name": "Motrix",
+    "tagline": "Modern clean full-featured download manager",
+    "repo_url": "https://github.com/agalwood/motrix",
+    "full_name": "agalwood/motrix",
+    "category": "Productivity",
+    "tags": [
+      "downloader",
+      "bittorrent"
+    ],
+    "icon": "/icons/motrix.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 58669,
+    "tier": "tier1_gui",
+    "summary": "Motrix is a modern, clean download manager that handles regular files, torrents, and magnet links with ease across multiple operating systems.",
+    "i18n": {
+      "it": "Motrix è un gestore di download moderno e pulito che gestisce file, torrent e collegamenti magnetici su tutti i sistemi operativi.",
+      "es": "Motrix es un gestor de descargas moderno y limpio que maneja archivos, torrents y enlaces magnéticos fácilmente en varios sistemas.",
+      "fr": "Motrix est un gestionnaire de téléchargement moderne et propre qui gère les fichiers, torrents et liens magnétiques facilement.",
+      "de": "Motrix ist ein moderner und sauberer Download-Manager, der Dateien, Torrents und Magnet-Links auf verschiedenen Systemen verarbeitet."
+    },
+    "download_url": "https://github.com/agalwood/Motrix/releases/download/v2.4.5/Motrix-Setup-2.4.5-arm64.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "appwrite",
@@ -1624,6 +1876,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "spotube",
+    "name": "Spotube",
+    "tagline": "Play music your way",
+    "repo_url": "https://github.com/team-spotube/spotube",
+    "full_name": "team-spotube/spotube",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "streaming"
+    ],
+    "icon": "/icons/spotube.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (AGPL v3)",
+    "stars": 50882,
+    "tier": "tier1_gui",
+    "summary": "Spotube lets you listen to music from many sources, keep your own playlists, and enjoy lyrics without any tracking.",
+    "i18n": {
+      "it": "Spotube ti permette di ascoltare musica da molte fonti, conservare le tue playlist e vedere i testi senza alcun tracciamento.",
+      "es": "Spotube te permite escuchar música de varias fuentes, guardar tus listas de reproducción y ver letras sin ningún seguimiento.",
+      "fr": "Spotube vous permet d’écouter de la musique provenant de nombreuses sources, de garder vos playlists et d’afficher les paroles sans aucune collecte de données.",
+      "de": "Spotube ermöglicht das Abspielen von Musik aus vielen Quellen, das Speichern eigener Playlists und das Anzeigen von Songtexten ohne jegliche Datenerfassung."
+    },
+    "download_url": "https://github.com/team-spotube/spotube/releases/download/v6.0.0/Spotube-windows-x86_64-setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "huginn",
     "name": "Huginn",
     "tagline": "Build custom automated web agents easily",
@@ -1764,6 +2044,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "nvm",
+    "name": "nvm",
+    "tagline": "Easily manage multiple JavaScript environments.",
+    "repo_url": "https://github.com/nvm-windows/nvm",
+    "full_name": "nvm-windows/nvm",
+    "category": "Productivity",
+    "tags": [
+      "windows",
+      "utility"
+    ],
+    "icon": "/icons/nvm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 48247,
+    "tier": "tier1_gui",
+    "summary": "Switch between different versions of Node.js on Windows instantly without hassle or complex setup.",
+    "i18n": {
+      "it": "Passa istantaneamente tra diverse versioni di Node.js su Windows senza complicazioni o configurazioni complesse.",
+      "es": "Cambia instantáneamente entre diferentes versiones de Node.js en Windows sin complicaciones ni configuraciones.",
+      "fr": "Basculez instantanément entre différentes versions de Node.js sur Windows sans tracas ni configuration complexe.",
+      "de": "Wechseln Sie blitzschnell zwischen verschiedenen Node.js-Versionen unter Windows ohne komplizierte Einrichtung."
+    },
+    "download_url": "https://github.com/nvm-windows/nvm/releases/download/v2.0.1/nvm-2.0.1-arm64-setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "gogs",
     "name": "Gogs",
     "tagline": "The painless way to host Git",
@@ -1874,6 +2182,34 @@
     },
     "download_url": "https://github.com/cli/cli/releases/download/v2.105.0/gh_2.105.0_windows_386.msi",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "files",
+    "name": "Files",
+    "tagline": "Modern file manager for Windows",
+    "repo_url": "https://github.com/files-community/files",
+    "full_name": "files-community/files",
+    "category": "Productivity",
+    "tags": [
+      "file-manager",
+      "windows"
+    ],
+    "icon": "/icons/files.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 46755,
+    "tier": "tier1_gui",
+    "summary": "Files is a free, open-source file manager that makes organizing your documents and photos on Windows simple and fast.",
+    "i18n": {
+      "it": "Files è un gestore file open source che rende l'organizzazione dei documenti su Windows semplice e veloce.",
+      "es": "Files es un gestor de archivos de código abierto que hace que organizar tus documentos en Windows sea simple y rápido.",
+      "fr": "Files est un gestionnaire de fichiers open source qui simplifie l'organisation de vos documents sur Windows.",
+      "de": "Files ist ein Open-Source-Dateimanager, der das Organisieren Ihrer Dokumente unter Windows einfach und schnell macht."
+    },
+    "download_url": "https://files.community",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "ifixai",
@@ -2800,6 +3136,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "rufus",
+    "name": "Rufus",
+    "tagline": "Create bootable USB drives quickly and easily",
+    "repo_url": "https://github.com/pbatard/rufus",
+    "full_name": "pbatard/rufus",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "bootable-usb"
+    ],
+    "icon": "/icons/rufus.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 38458,
+    "tier": "tier1_gui",
+    "summary": "Format USB flash drives and turn disk images into bootable installation media with lightning speed.",
+    "i18n": {
+      "it": "Formatta chiavette USB e trasforma immagini disco in supporti di installazione avviabili in pochi istanti.",
+      "es": "Formatea memorias USB y convierte imágenes de disco en soportes de instalación arrancables fácilmente.",
+      "fr": "Formatez des clés USB et transformez des images disque en supports d'installation amorçables en un clin d'œil.",
+      "de": "Formattieren Sie USB-Sticks und verwandeln Sie Abbilder ganz einfach in bootfähige Installationsmedien."
+    },
+    "download_url": "https://github.com/pbatard/rufus/releases/download/v4.16/rufus-4.16.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "glance",
     "name": "Glance",
     "tagline": "Your favorite online feeds in one place.",
@@ -2996,6 +3360,61 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "recordly",
+    "name": "Recordly",
+    "tagline": "Create professional demo videos easily",
+    "repo_url": "https://github.com/webadderallorg/recordly",
+    "full_name": "webadderallorg/recordly",
+    "category": "Video & Audio",
+    "tags": [
+      "screen-recorder",
+      "video-editor"
+    ],
+    "icon": "/icons/recordly.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 37230,
+    "tier": "tier1_gui",
+    "summary": "Recordly helps you capture your screen and create polished, professional-looking demo videos without needing complex editing skills.",
+    "i18n": {
+      "it": "Recordly ti permette di registrare lo schermo e creare video dimostrativi curati senza bisogno di competenze di montaggio.",
+      "es": "Recordly te ayuda a grabar tu pantalla y crear videos de demostración profesionales sin necesidad de habilidades de edición.",
+      "fr": "Recordly vous aide à enregistrer votre écran et à créer des vidéos de démonstration soignées sans compétences de montage.",
+      "de": "Recordly hilft Ihnen, Ihren Bildschirm aufzunehmen und professionelle Demo-Videos ohne komplexe Bearbeitungskenntnisse zu erstellen."
+    },
+    "download_url": "https://github.com/webadderallorg/Recordly/releases/download/v1.4.0/Recordly-windows-x64.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "wails",
+    "name": "Wails",
+    "tagline": "Build native desktop apps with Go",
+    "repo_url": "https://github.com/wailsapp/wails",
+    "full_name": "wailsapp/wails",
+    "category": "Productivity",
+    "tags": [
+      "desktop-apps"
+    ],
+    "icon": "/icons/wails.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 37178,
+    "tier": "tier1_gui",
+    "summary": "Wails lets you combine Go code with any web front‑end to create fast, native desktop programs that run on Windows, macOS and Linux.",
+    "i18n": {
+      "it": "Wails combina il codice Go con qualsiasi interfaccia web per produrre programmi desktop veloci e nativi per Windows, macOS e Linux.",
+      "es": "Wails une el código Go con cualquier interfaz web para generar aplicaciones de escritorio rápidas y nativas en Windows, macOS y Linux.",
+      "fr": "Wails associe le code Go à n’importe quel front‑end web pour créer des programmes de bureau rapides et natifs sous Windows, macOS et Linux.",
+      "de": "Wails verbindet Go‑Code mit jedem Web‑Frontend, um schnelle native Desktop‑Programme für Windows, macOS und Linux zu erstellen."
+    },
+    "download_url": "https://wails.io",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "continue",
     "name": "Continue",
     "tagline": "Your open-source intelligent coding assistant",
@@ -3108,6 +3527,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "freecad",
+    "name": "FreeCAD",
+    "tagline": "Design real-life 3D models with precision.",
+    "repo_url": "https://github.com/freecad/freecad",
+    "full_name": "freecad/freecad",
+    "category": "Productivity",
+    "tags": [
+      "3d",
+      "cad"
+    ],
+    "icon": "/icons/freecad.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (LGPL)",
+    "stars": 35680,
+    "tier": "tier1_gui",
+    "summary": "Create and modify 3D objects easily using parametric modeling, 2D sketches, and powerful open-source engineering tools.",
+    "i18n": {
+      "it": "Crea e modifica oggetti 3D facilmente utilizzando la modellazione parametrica, schizzi 2D e strumenti ingegneristici open source.",
+      "es": "Crea y modifica objetos 3D fácilmente mediante modelado paramétrico, bocetos en 2D y herramientas de ingeniería de código abierto.",
+      "fr": "Créez et modifiez des objets 3D facilement grâce à la modélisation paramétrique, des croquis 2D et des outils d'ingénierie open source.",
+      "de": "Erstellen und bearbeiten Sie 3D-Objekte einfach mit parametrischer Modellierung, 2D-Skizzen und Open-Source-Engineering-Werkzeugen."
+    },
+    "download_url": "https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Windows-x86_64-py311-installer.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "etcher",
     "name": "etcher",
     "tagline": "Flash operating system images safely and easily.",
@@ -3218,6 +3665,34 @@
     },
     "download_url": "https://openclaude.twigpine.com",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "shadps4",
+    "name": "shadPS4",
+    "tagline": "PlayStation 4 emulator for desktop computers.",
+    "repo_url": "https://github.com/shadps4-emu/shadps4",
+    "full_name": "shadps4-emu/shadps4",
+    "category": "Productivity",
+    "tags": [
+      "emulator",
+      "gaming"
+    ],
+    "icon": "/icons/shadps4.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 34338,
+    "tier": "tier1_gui",
+    "summary": "Run PlayStation 4 software and games natively on your Windows, Linux, or macOS computer with this developing emulator.",
+    "i18n": {
+      "it": "Esegui software e giochi per PlayStation 4 in modo nativo sul tuo computer Windows, Linux o macOS con questo emulatore.",
+      "es": "Ejecuta software y juegos de PlayStation 4 de forma nativa en tu ordenador Windows, Linux o macOS con este emulador.",
+      "fr": "Exécutez des logiciels et des jeux PlayStation 4 de manière native sur votre ordinateur avec cet émulateur en développement.",
+      "de": "Führe PlayStation 4 Software und Spiele nativ auf deinem Windows-, Linux- oder macOS-Computer mit diesem Emulator aus."
+    },
+    "download_url": "https://shadps4.net/",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "pear-desktop",
@@ -29118,6 +29593,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "hprose-php",
+    "name": "hprose-php",
+    "tagline": "High-performance remote communication for PHP apps",
+    "repo_url": "https://github.com/hprose/hprose-php",
+    "full_name": "hprose/hprose-php",
+    "category": "Productivity",
+    "tags": [
+      "php",
+      "networking"
+    ],
+    "icon": "/icons/hprose-php.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1975,
+    "tier": "tier1_gui",
+    "summary": "Hprose lets different programming languages talk to each other seamlessly and at high speeds using a powerful communication engine.",
+    "i18n": {
+      "it": "Hprose consente a diversi linguaggi di programmazione di comunicare senza problemi e ad alta velocità utilizzando un motore avanzato.",
+      "es": "Hprose permite que diferentes lenguajes de programación se comuniquen sin problemas y a alta velocidad mediante un motor avanzado.",
+      "fr": "Hprose permet à différents langages de programmation de communiquer de manière fluide et rapide grâce à un moteur puissant.",
+      "de": "Hprose ermöglicht es verschiedenen Programmiersprachen, nahtlos und mit hoher Geschwindigkeit über eine leistungsstarke Engine zu kommunizieren."
+    },
+    "download_url": "https://github.com/hprose/hprose-php/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "renative",
+    "name": "ReNative",
+    "tagline": "Build apps for every screen at once",
+    "repo_url": "https://github.com/flexn-io/renative",
+    "full_name": "flexn-io/renative",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "cross-platform"
+    ],
+    "icon": "/icons/renative.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 1969,
+    "tier": "tier1_gui",
+    "summary": "Create applications for mobile phones, desktop computers, smart TVs, and watches using a single unified project workspace.",
+    "i18n": {
+      "it": "Realizza applicazioni per telefoni, computer, TV e smartwatch usando un unico ambiente di sviluppo condiviso.",
+      "es": "Desarrolla apps para teléfonos, ordenadores, televisores inteligentes y relojes usando un solo espacio de trabajo.",
+      "fr": "Concevez des applications pour mobiles, ordinateurs, téléviseurs et montres connectées depuis un espace unique.",
+      "de": "Entwickeln Sie Anwendungen für Handys, PCs, Smart-TVs und Wearables über eine einzige gemeinsame Arbeitsumgebung."
+    },
+    "download_url": "https://renative.org",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "mail",
     "name": "Flectar Mail",
     "tagline": "Blazing fast native email client",
@@ -29146,6 +29677,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "pangolin-desktop",
+    "name": "Pangolin Desktop",
+    "tagline": "Modern desktop user interface shell",
+    "repo_url": "https://github.com/dahliaos/pangolin_desktop",
+    "full_name": "dahliaos/pangolin_desktop",
+    "category": "Security & Privacy",
+    "tags": [
+      "desktop",
+      "interface"
+    ],
+    "icon": "/icons/pangolin-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 1964,
+    "tier": "tier1_gui",
+    "summary": "Pangolin Desktop provides a modern and fluid visual interface shell built for dahliaOS using flexible multi-platform tools.",
+    "i18n": {
+      "it": "Pangolin Desktop offre un'interfaccia visiva moderna e fluida progettata per dahliaOS utilizzando strumenti flessibili.",
+      "es": "Pangolin Desktop ofrece un caparazón de interfaz visual moderno y fluido creado para dahliaOS utilizando herramientas flexibles.",
+      "fr": "Pangolin Desktop offre une interface visuelle moderne et fluide conçue pour dahliaOS à l'aide d'outils multiplateformes.",
+      "de": "Pangolin Desktop bietet eine moderne und flüssige visuelle Benutzeroberfläche, die für dahliaOS entwickelt wurde."
+    },
+    "download_url": "https://github.com/dahliaOS/pangolin_desktop/releases/download/dap-sigma/io.dahliaos.pangolin_desktop.dap",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "gnvim",
     "name": "gnvim",
     "tagline": "Fast and lightweight text editor interface",
@@ -29172,6 +29731,62 @@
     },
     "download_url": "https://github.com/vhakulinen/gnvim/releases",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "codenameone",
+    "name": "CodenameOne",
+    "tagline": "Build native apps from one Java code",
+    "repo_url": "https://github.com/codenameone/codenameone",
+    "full_name": "codenameone/codenameone",
+    "category": "Productivity",
+    "tags": [
+      "mobile",
+      "cross-platform"
+    ],
+    "icon": "/icons/codenameone.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Custom Open License",
+    "stars": 1955,
+    "tier": "tier1_gui",
+    "summary": "Create native mobile, desktop, and web applications from a single Java codebase with full control over user interfaces.",
+    "i18n": {
+      "it": "Sviluppa applicazioni mobili, desktop e web native da un'unica base di codice Java con totale controllo grafico.",
+      "es": "Desarrolla aplicaciones móviles, de escritorio y web nativas desde una única base de código Java con control total.",
+      "fr": "Concevez des applications mobiles, de bureau et web natives à partir d'un code Java unique avec un contrôle total.",
+      "de": "Entwickeln Sie native Mobil-, Desktop- und Web-Anwendungen aus einer einzigen Java-Basis mit vollem UI-Kontrolle."
+    },
+    "download_url": "https://github.com/codenameone/CodenameOne/releases/download/7.0.283/ByteCodeTranslator-1.0-SNAPSHOT.jar",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "cherrypy",
+    "name": "CherryPy",
+    "tagline": "Build Python web apps using objects",
+    "repo_url": "https://github.com/cherrypy/cherrypy",
+    "full_name": "cherrypy/cherrypy",
+    "category": "Productivity",
+    "tags": [
+      "web",
+      "development"
+    ],
+    "icon": "/icons/cherrypy.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 1949,
+    "tier": "tier1_gui",
+    "summary": "CherryPy is an intuitive Python tool that lets developers build websites and web services using standard object-oriented programming principles.",
+    "i18n": {
+      "it": "CherryPy è uno strumento Python intuitivo che consente agli sviluppatori di creare siti Web e servizi utilizzando la programmazione a oggetti.",
+      "es": "CherryPy es una herramienta intuitiva de Python que permite crear sitios web y servicios usando programación orientada a objetos.",
+      "fr": "CherryPy est un outil Python intuitif qui permet de créer des sites web et des services en utilisant la programmation orientée objet.",
+      "de": "CherryPy ist ein intuitives Python-Tool zum Erstellen von Websites und Webdiensten mithilfe objektorientierter Programmierung."
+    },
+    "download_url": "https://docs.cherrypy.dev",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "hermes-cn-desktop",
@@ -29230,6 +29845,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "pegasus-frontend",
+    "name": "pegasus-frontend",
+    "tagline": "Customizable game library and emulator launcher",
+    "repo_url": "https://github.com/mmatyas/pegasus-frontend",
+    "full_name": "mmatyas/pegasus-frontend",
+    "category": "Productivity",
+    "tags": [
+      "games",
+      "emulators"
+    ],
+    "icon": "/icons/pegasus-frontend.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux, Android",
+    "license": "Custom Open License",
+    "stars": 1938,
+    "tier": "tier1_gui",
+    "summary": "Browse your entire game collection and launch different emulators from one unified, fully customizable graphical interface.",
+    "i18n": {
+      "it": "Sfoglia la tua collezione di giochi e avvia diversi emulatori da un'unica interfaccia grafica personalizzabile.",
+      "es": "Explora tu colección de juegos y ejecuta diferentes emuladores desde una interfaz gráfica unificada y personalizable.",
+      "fr": "Parcourez votre collection de jeux et lancez divers émulateurs depuis une interface graphique unifiée et personnalisée.",
+      "de": "Durchstöbern Sie Ihre Spielesammlung und starten Sie verschiedene Emulatoren über eine einheitliche, anpassbare Benutzeroberfläche."
+    },
+    "download_url": "https://github.com/mmatyas/pegasus-frontend/releases/download/weekly_2024w38/pegasus-fe_alpha16-82-gc3462e68_android.apk",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "ferrite",
+    "name": "Ferrite",
+    "tagline": "Fast and lightweight text document editor",
+    "repo_url": "https://github.com/olaproeis/ferrite",
+    "full_name": "olaproeis/ferrite",
+    "category": "Productivity",
+    "tags": [
+      "markdown",
+      "editor"
+    ],
+    "icon": "/icons/ferrite.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1918,
+    "tier": "tier1_gui",
+    "summary": "A fast, lightweight text editor designed for Markdown, JSON, YAML, and TOML files with a native, responsive experience.",
+    "i18n": {
+      "it": "Un editor di testo veloce e leggero per file Markdown, JSON, YAML e TOML con un'esperienza nativa e reattiva.",
+      "es": "Un editor de texto rápido y ligero para archivos Markdown, JSON, YAML y TOML con una experiencia nativa y fluida.",
+      "fr": "Un éditeur de texte rapide et léger pour les fichiers Markdown, JSON, YAML et TOML avec une expérience native.",
+      "de": "Ein schneller und leichter Texteditor für Markdown-, JSON-, YAML- und TOML-Dateien mit nativem und flüssigem Erlebnis."
+    },
+    "download_url": "https://github.com/OlaProeis/Ferrite/releases/download/v0.3.1/ferrite-windows-x64-setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "starnet",
     "name": "starnet",
     "tagline": "Live pixel-art station for AI agents",
@@ -29256,6 +29927,34 @@
     },
     "download_url": "https://github.com/androoAGI/starnet/releases/download/v0.15.4/StarNet_0.15.4_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "git-interactive-rebase-tool",
+    "name": "Git Interactive Rebase Tool",
+    "tagline": "Easily organize and clean up your project history.",
+    "repo_url": "https://github.com/mitmaro/git-interactive-rebase-tool",
+    "full_name": "mitmaro/git-interactive-rebase-tool",
+    "category": "Productivity",
+    "tags": [
+      "git",
+      "version-control"
+    ],
+    "icon": "/icons/git-interactive-rebase-tool.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1883,
+    "tier": "tier1_gui",
+    "summary": "Clean up your software project history effortlessly with an intuitive visual tool for modifying past code changes.",
+    "i18n": {
+      "it": "Semplifica la pulizia della cronologia del tuo progetto con uno strumento visivo intuitivo per modificare le modifiche passate.",
+      "es": "Limpia el historial de tu proyecto de software sin esfuerzo con una herramienta visual intuitiva para modificar cambios anteriores.",
+      "fr": "Nettoyez l'historique de votre projet sans effort grâce à un outil visuel intuitif pour modifier les modifications de code passées.",
+      "de": "Bereinigen Sie den Verlauf Ihres Softwareprojekts mühelos mit einem intuitiven visuellen Tool zum Anpassen vergangener Änderungen."
+    },
+    "download_url": "https://github.com/MitMaro/git-interactive-rebase-tool/releases/download/2.4.1/git-interactive-rebase-tool-2.4.1-windows-_aarch64.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "skills-hub",
