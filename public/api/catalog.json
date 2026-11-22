@@ -2,17 +2,17 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-22T10:51:08.757630+00:00",
-  "total_apps": 1325,
+  "generated_at": "2026-11-22T10:54:38.693634+00:00",
+  "total_apps": 1350,
   "tier_counts": {
     "tier3_powertool": 250,
-    "tier2_webapp": 388,
+    "tier2_webapp": 413,
     "tier1_gui": 687
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 240,
-    "selfhosted": 387,
+    "selfhosted": 412,
     "desktop": 687,
     "webapp": 1
   },
@@ -22,7 +22,7 @@
     "Security & Privacy": 41,
     "Utilities & Power Tools": 230,
     "Video & Audio": 73,
-    "Web Apps & Cloud": 364,
+    "Web Apps & Cloud": 389,
     "Websites & SEO": 1
   },
   "apps": [
@@ -33484,6 +33484,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "firecms",
+      "name": "firecms",
+      "tagline": "Build custom database admin panels instantly.",
+      "repo_url": "https://github.com/firecmsco/firecms",
+      "full_name": "firecmsco/firecms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "database",
+        "admin-panel"
+      ],
+      "icon": "/icons/firecms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1284,
+      "tier": "tier2_webapp",
+      "summary": "FireCMS automatically generates powerful admin dashboards and content managers for your cloud databases in minutes.",
+      "i18n": {
+        "it": "FireCMS genera automaticamente potenti dashboard e gestori di contenuti per i tuoi database in pochi minuti.",
+        "es": "FireCMS genera automáticamente potentes paneles y gestores de contenido para tus bases de datos en minutos.",
+        "fr": "FireCMS génère automatiquement des tableaux de bord et des gestionnaires de contenu pour vos bases de données.",
+        "de": "FireCMS generiert automatisch leistungsstarke Admin-Dashboards und Content-Manager für Ihre Datenbanken."
+      },
+      "download_url": "https://firecms.co",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "guijs",
       "name": "guijs",
       "tagline": "Manage JavaScript software projects visually",
@@ -33566,6 +33594,34 @@
       },
       "download_url": "https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-win-arm64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "beacon",
+      "name": "Beacon",
+      "tagline": "Fast, modern content management for websites.",
+      "repo_url": "https://github.com/beaconcms/beacon",
+      "full_name": "beaconcms/beacon",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "cms"
+      ],
+      "icon": "/icons/beacon.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1263,
+      "tier": "tier2_webapp",
+      "summary": "Beacon is a content management system designed to make websites load quickly and rank better in search results.",
+      "i18n": {
+        "it": "Beacon è un sistema di gestione contenuti creato per rendere i siti web più veloci e migliorare il posizionamento sui motori di ricerca.",
+        "es": "Beacon es un sistema de gestión de contenidos diseñado para que los sitios web carguen rápido y mejoren su posición en los buscadores.",
+        "fr": "Beacon est un système de gestion de contenu conçu pour accélérer le chargement des sites et améliorer leur référencement naturel.",
+        "de": "Beacon ist ein System zur Inhaltsverwaltung, das Websites schneller macht und deren Sichtbarkeit in Suchmaschinen verbessert."
+      },
+      "download_url": "https://beaconcms.org",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "oleafly",
@@ -33678,6 +33734,34 @@
       },
       "download_url": "https://github.com/roblillack/spot/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "skyeye",
+      "name": "SkyEye",
+      "tagline": "All-in-one AI smart manufacturing and business platform",
+      "repo_url": "https://github.com/dromara/skyeye",
+      "full_name": "dromara/skyeye",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "erp",
+        "crm"
+      ],
+      "icon": "/icons/skyeye.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1247,
+      "tier": "tier2_webapp",
+      "summary": "SkyEye is a comprehensive enterprise platform combining office tasks, inventory control, and manufacturing management with AI assistance.",
+      "i18n": {
+        "it": "SkyEye è una piattaforma aziendale completa che unisce compiti d'ufficio, gestione inventario e produzione con assistenza IA.",
+        "es": "SkyEye es una plataforma empresarial integral que combina tareas de oficina, control de inventario y gestión de fabricación con IA.",
+        "fr": "SkyEye est une plateforme d'entreprise complète combinant tâches de bureau, gestion des stocks et fabrication avec l'IA.",
+        "de": "SkyEye ist eine umfassende Unternehmensplattform, die Büroaufgaben, Bestandsverwaltung und Fertigung mit KI kombiniert."
+      },
+      "download_url": "https://github.com/dromara/skyeye/releases",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "sqlite-gui",
@@ -33848,6 +33932,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "masuit-myblogs",
+      "name": "Masuit.MyBlogs",
+      "tagline": "High-performance personal blogging system",
+      "repo_url": "https://github.com/ldqk/masuit.myblogs",
+      "full_name": "ldqk/masuit.myblogs",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "web-publishing"
+      ],
+      "icon": "/icons/masuit-myblogs.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1187,
+      "tier": "tier2_webapp",
+      "summary": "Masuit.MyBlogs is a lightweight, high-speed blogging platform designed to handle millions of requests with minimal hardware resources.",
+      "i18n": {
+        "it": "Masuit.MyBlogs è una piattaforma di blogging leggera e veloce progettata per gestire milioni di richieste con risorse hardware minime.",
+        "es": "Masuit.MyBlogs es una plataforma de blogs ligera y rápida diseñada para manejar millones de solicitudes con recursos de hardware mínimos.",
+        "fr": "Masuit.MyBlogs est une plateforme de blog légère et rapide conçue pour gérer des millions de requêtes avec un minimum de ressources matérielles.",
+        "de": "Masuit.MyBlogs ist eine schlanke und schnelle Blogging-Plattform, die Millionen von Anfragen mit minimalen Hardware-Ressourcen bewältigt."
+      },
+      "download_url": "https://github.com/ldqk/Masuit.MyBlogs/releases/download/2026.10.27/Masuit.MyBlogs.Core.rar",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "core2d",
       "name": "Core2D",
       "tagline": "Create custom data-driven 2D diagrams easily.",
@@ -33902,6 +34014,34 @@
       },
       "download_url": "https://github.com/Jai-wei/YOLOv8-PySide6-GUI/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "processwire",
+      "name": "ProcessWire",
+      "tagline": "A flexible and secure website manager.",
+      "repo_url": "https://github.com/processwire/processwire",
+      "full_name": "processwire/processwire",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "web-development"
+      ],
+      "icon": "/icons/processwire.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1161,
+      "tier": "tier2_webapp",
+      "summary": "ProcessWire is a powerful tool for building websites that gives you full control over your content and design without unnecessary complexity.",
+      "i18n": {
+        "it": "ProcessWire è uno strumento potente per creare siti web che offre pieno controllo sui contenuti e sul design senza inutili complicazioni.",
+        "es": "ProcessWire es una herramienta potente para crear sitios web que te da control total sobre tu contenido y diseño sin complicaciones innecesarias.",
+        "fr": "ProcessWire est un outil puissant pour créer des sites web qui vous donne un contrôle total sur votre contenu et design sans complexité inutile.",
+        "de": "ProcessWire ist ein leistungsstarkes Werkzeug zum Erstellen von Websites, das Ihnen volle Kontrolle über Inhalte und Design bietet."
+      },
+      "download_url": "https://processwire.com",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "hyprmod",
@@ -33988,6 +34128,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "dnn-platform",
+      "name": "Dnn.Platform",
+      "tagline": "Professional web management for Microsoft environments.",
+      "repo_url": "https://github.com/dnnsoftware/dnn.platform",
+      "full_name": "dnnsoftware/dnn.platform",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "web-publishing"
+      ],
+      "icon": "/icons/dnn-platform.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1139,
+      "tier": "tier2_webapp",
+      "summary": "Dnn.Platform is a robust tool for creating and managing professional websites, community portals, and private company networks.",
+      "i18n": {
+        "it": "Dnn.Platform è uno strumento potente per creare e gestire siti web professionali, portali di comunità e reti aziendali private.",
+        "es": "Dnn.Platform es una herramienta robusta para crear y gestionar sitios web profesionales, portales comunitarios y redes privadas.",
+        "fr": "Dnn.Platform est un outil robuste pour créer et gérer des sites web professionnels, des portails communautaires et des réseaux privés.",
+        "de": "Dnn.Platform ist ein leistungsstarkes Werkzeug zum Erstellen und Verwalten professioneller Websites, Community-Portale und privater Netzwerke."
+      },
+      "download_url": "https://dnncommunity.org/",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "tutor",
+      "name": "Tutor",
+      "tagline": "Run your own online learning platform.",
+      "repo_url": "https://github.com/overhangio/tutor",
+      "full_name": "overhangio/tutor",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "education",
+        "self-hosted"
+      ],
+      "icon": "/icons/tutor.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 1135,
+      "tier": "tier2_webapp",
+      "summary": "Launch and manage online schools effortlessly with this container-powered educational platform manager.",
+      "i18n": {
+        "it": "Avvia e gestisci piattaforme di apprendimento online in modo semplice grazie a questo gestore educativo.",
+        "es": "Lanza y administra plataformas de educación en línea fácilmente utilizando este gestor educativo basado en contenedores.",
+        "fr": "Créez et gérez des écoles en ligne en toute simplicité grâce à cet outil de gestion éducatif complet.",
+        "de": "Starten und verwalten Sie Online-Schulen mühelos mit diesem containerbasierten Bildungsworkflow."
+      },
+      "download_url": "https://github.com/overhangio/tutor/releases/download/v22.0.4/tutor-Darwin_arm64",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "librecrawl",
       "name": "LibreCrawl",
       "tagline": "Free open-source website audit and SEO crawler",
@@ -34044,6 +34240,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "idno",
+      "name": "Idno",
+      "tagline": "Your own personal social publishing home.",
+      "repo_url": "https://github.com/idno/idno",
+      "full_name": "idno/idno",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "publishing",
+        "social-media"
+      ],
+      "icon": "/icons/idno.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1128,
+      "tier": "tier2_webapp",
+      "summary": "Idno is a flexible platform that lets you publish content to your own website while staying connected to the broader social web.",
+      "i18n": {
+        "it": "Idno è una piattaforma flessibile per pubblicare contenuti sul tuo sito mantenendo il controllo totale e la connessione con il web.",
+        "es": "Idno es una plataforma flexible que te permite publicar contenido en tu propio sitio web mientras te mantienes conectado a la red social.",
+        "fr": "Idno est une plateforme flexible qui vous permet de publier du contenu sur votre propre site tout en restant connecté au web social.",
+        "de": "Idno ist eine flexible Plattform, mit der Sie Inhalte auf Ihrer eigenen Website veröffentlichen und gleichzeitig sozial vernetzt bleiben."
+      },
+      "download_url": "https://withknown.com/opensource",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "once-power",
       "name": "OncePower",
       "tagline": "Batch rename and organize files easily.",
@@ -34070,6 +34294,34 @@
       },
       "download_url": "https://github.com/ilgnefz/once_power/releases/download/v3.2.5/OncePower-v3.2.5-Windows-x64-Install.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "flowershow",
+      "name": "Flowershow",
+      "tagline": "Publish your notes and docs instantly.",
+      "repo_url": "https://github.com/flowershow/flowershow",
+      "full_name": "flowershow/flowershow",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "publishing",
+        "markdown"
+      ],
+      "icon": "/icons/flowershow.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 1112,
+      "tier": "tier2_webapp",
+      "summary": "Flowershow turns your simple text files into beautiful, professional websites and knowledge bases in seconds.",
+      "i18n": {
+        "it": "Flowershow trasforma i tuoi semplici file di testo in siti web e basi di conoscenza professionali in pochi secondi.",
+        "es": "Flowershow convierte tus archivos de texto simples en sitios web y bases de conocimiento profesionales en segundos.",
+        "fr": "Flowershow transforme vos simples fichiers texte en sites web et bases de connaissances professionnels en quelques secondes.",
+        "de": "Flowershow verwandelt Ihre einfachen Textdateien in Sekundenschnelle in professionelle Websites und Wissensdatenbanken."
+      },
+      "download_url": "https://github.com/flowershow/flowershow/releases/download/cli/v2.11.0/checksums.txt",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "uassetgui",
@@ -34126,6 +34378,34 @@
       },
       "download_url": "https://github.com/timestored/qstudio/releases/download/5.09/qstudio-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "tianti",
+      "name": "Tianti CMS",
+      "tagline": "Lightweight Java content management system solution",
+      "repo_url": "https://github.com/xujeff/tianti",
+      "full_name": "xujeff/tianti",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "website-builder"
+      ],
+      "icon": "/icons/tianti.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 1098,
+      "tier": "tier2_webapp",
+      "summary": "Tianti is an open-source Java content management system providing ready-to-use website templates, article tools, and adaptable mobile layouts.",
+      "i18n": {
+        "it": "Tianti è un sistema di gestione contenuti in Java open-source che offre template pronti all'uso e layout mobili adattabili.",
+        "es": "Tianti es un sistema de gestión de contenidos en Java de código abierto que ofrece plantillas web listas para usar y diseños móviles.",
+        "fr": "Tianti est un système de gestion de contenu en Java open source offrant des modèles prêts à l'emploi et des mises en page adaptatives.",
+        "de": "Tianti ist ein Open-Source-Java-Inhaltsszenario mit vorgefertigten Website-Vorlagen und anpassungsfähigen mobilen Layouts."
+      },
+      "download_url": "https://github.com/xujeff/tianti/releases",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "s3manager",
@@ -34294,6 +34574,34 @@
       },
       "download_url": "https://wangchujiang.com/copybook-generator/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "backdrop",
+      "name": "Backdrop",
+      "tagline": "Manage websites easily without complex tools.",
+      "repo_url": "https://github.com/backdrop/backdrop",
+      "full_name": "backdrop/backdrop",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "website"
+      ],
+      "icon": "/icons/backdrop.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v2)",
+      "stars": 1053,
+      "tier": "tier2_webapp",
+      "summary": "Backdrop is a friendly content management system that helps you create and manage blogs, galleries, and sites without technical headaches.",
+      "i18n": {
+        "it": "Un sistema di gestione dei contenuti semplice per creare blog e siti web senza difficoltà tecniche.",
+        "es": "Un sistema de gestión de contenidos amigable para crear blogs y sitios web sin dolores de cabeza técnicos.",
+        "fr": "Un système de gestion de contenu convivial pour créer des blogs et des sites web sans complications techniques.",
+        "de": "Ein benutzerfreundliches Content-Management-System zum Erstellen von Blogs und Websites ohne technische Hürden."
+      },
+      "download_url": "https://backdropcms.org",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "mouzi",
@@ -34492,6 +34800,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "blog-template",
+      "name": "blog-template",
+      "tagline": "Fast, elegant open-source blog starter",
+      "repo_url": "https://github.com/danielcgilibert/blog-template",
+      "full_name": "danielcgilibert/blog-template",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "web-development"
+      ],
+      "icon": "/icons/blog-template.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 1020,
+      "tier": "tier2_webapp",
+      "summary": "A high-performance, accessible blog template that makes it easy to publish articles with built-in search and SEO tools.",
+      "i18n": {
+        "it": "Un template di blog ad alte prestazioni e accessibile che facilita la pubblicazione di articoli con strumenti di ricerca e SEO integrati.",
+        "es": "Una plantilla de blog de alto rendimiento y accesible que facilita la publicación de artículos con herramientas de búsqueda y SEO integradas.",
+        "fr": "Un modèle de blog performant et accessible qui facilite la publication d'articles avec des outils de recherche et de référencement intégrés.",
+        "de": "Ein leistungsstarkes und barrierefreies Blog-Template, das das Veröffentlichen von Artikeln mit integrierten Such- und SEO-Tools erleichtert."
+      },
+      "download_url": "https://blog-template-gray.vercel.app",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "ai-sudoku",
       "name": "AI_Sudoku",
       "tagline": "Solve Sudoku puzzles from photos",
@@ -34546,6 +34882,62 @@
       },
       "download_url": "https://github.com/aimeoa/hanshuang-codex/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "templatespider",
+      "name": "TemplateSpider",
+      "tagline": "Turn any public website into templates",
+      "repo_url": "https://github.com/xnx3/templatespider",
+      "full_name": "xnx3/templatespider",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "automation",
+        "templates"
+      ],
+      "icon": "/icons/templatespider.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 988,
+      "tier": "tier2_webapp",
+      "summary": "TemplateSpider automatically downloads target website pages and cleanly organizes styles, scripts, and images into ready-to-use template folders.",
+      "i18n": {
+        "it": "TemplateSpider scarica le pagine web e organizza automaticamente stili, script e immagini in cartelle di modelli pronte all'uso.",
+        "es": "TemplateSpider descarga páginas web y organiza automáticamente estilos, scripts e imágenes en carpetas de plantillas listas para usar.",
+        "fr": "TemplateSpider télécharge des pages web et organise automatiquement les styles, scripts et images dans des dossiers prêts à l'emploi.",
+        "de": "TemplateSpider lädt Webseiten herunter und organisiert Stile, Skripte und Bilder automatisch in einsatzbereite Vorlagenordner."
+      },
+      "download_url": "https://www.templatespider.zvo.cn",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "craftable",
+      "name": "Craftable",
+      "tagline": "Build admin panels with Laravel fast",
+      "repo_url": "https://github.com/brackets-by-triad/craftable",
+      "full_name": "brackets-by-triad/craftable",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "laravel",
+        "admin-panel"
+      ],
+      "icon": "/icons/craftable.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 985,
+      "tier": "tier2_webapp",
+      "summary": "Craftable is a toolkit for quickly setting up administration back-ends, user access management, and content control panels for web apps.",
+      "i18n": {
+        "it": "Craftable è un toolkit open source per impostare rapidamente pannelli di controllo amministrativi e gestione dei contenuti.",
+        "es": "Craftable es un conjunto de herramientas de código abierto para configurar rápidamente paneles administrativos en Laravel.",
+        "fr": "Craftable est une boîte à outils open source pour configurer rapidement des panneaux d'administration et de gestion.",
+        "de": "Craftable ist ein Open-Source-Toolkit zum schnellen Einrichten von Admin-Panels und Inhaltsverwaltungen."
+      },
+      "download_url": "https://getcraftable.com",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "wesight",
@@ -34660,6 +35052,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "astro-notion-blog",
+      "name": "astro-notion-blog",
+      "tagline": "Turn Notion notes into a fast blog",
+      "repo_url": "https://github.com/otoyo/astro-notion-blog",
+      "full_name": "otoyo/astro-notion-blog",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "notion"
+      ],
+      "icon": "/icons/astro-notion-blog.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 968,
+      "tier": "tier2_webapp",
+      "summary": "Transform your personal notes and articles written inside Notion into a lightning-fast, public website with zero hassle.",
+      "i18n": {
+        "it": "Trasforma le tue note personali scritte in Notion in un sito web pubblico e velocissimo senza complicazioni.",
+        "es": "Convierte tus notas personales y artículos de Notion en un sitio web público ultrarrápido y sin complicaciones.",
+        "fr": "Transformez vos notes personnelles rédigées dans Notion en un site web public ultra-rapide et sans effort.",
+        "de": "Verwandeln Sie Ihre persönlichen Notizen aus Notion ganz einfach in eine blitzschnelle, öffentliche Website."
+      },
+      "download_url": "https://astro-notion-blog.pages.dev/",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "deepseek-harness-desktop",
       "name": "DeepSeek Harness Desktop",
       "tagline": "Your complete desktop AI coding workspace",
@@ -34686,6 +35106,34 @@
       },
       "download_url": "https://github.com/ningbainb/deepseek-harness-desktop/releases/download/desktop-v5.3.6/DeepSeek-Harness-Desktop-Setup-5.3.6-x64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "lin-cms-spring-boot",
+      "name": "lin-cms-spring-boot",
+      "tagline": "Quickly create powerful admin backend systems",
+      "repo_url": "https://github.com/logamee/lin-cms-spring-boot",
+      "full_name": "logamee/lin-cms-spring-boot",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "spring-boot",
+        "cms"
+      ],
+      "icon": "/icons/lin-cms-spring-boot.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 950,
+      "tier": "tier2_webapp",
+      "summary": "A reliable backend starter kit designed to help developers set up administration dashboards, user permissions, and logs effortlessly.",
+      "i18n": {
+        "it": "Un kit di avvio per backend progettato per aiutare gli sviluppatori a configurare dashboard di amministrazione e permessi.",
+        "es": "Un kit de inicio para backend diseñado para ayudar a los desarrolladores a configurar paneles de administración y permisos.",
+        "fr": "Un kit de démarrage pour backend conçu pour aider les développeurs à configurer des tableaux de bord et des permissions.",
+        "de": "Ein Backend-Starterkit, das Entwicklern hilft, Administrations-Dashboards, Benutzerberechtigungen und Protokolle einzurichten."
+      },
+      "download_url": "https://doc.cms.talelin.com/",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "qymcad",
@@ -34828,6 +35276,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "vue-notion",
+      "name": "vue-notion",
+      "tagline": "Render notes and pages effortlessly.",
+      "repo_url": "https://github.com/janniks/vue-notion",
+      "full_name": "janniks/vue-notion",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "documentation",
+        "frontend"
+      ],
+      "icon": "/icons/vue-notion.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 919,
+      "tier": "tier2_webapp",
+      "summary": "Turn online documents into custom website pages quickly and cleanly using a popular frontend component library.",
+      "i18n": {
+        "it": "Trasforma documenti online in pagine web personalizzate in modo semplice utilizzando una popolare libreria di componenti.",
+        "es": "Convierte documentos en línea en páginas web personalizadas de forma rápida utilizando una biblioteca de componentes popular.",
+        "fr": "Transformez des documents en ligne en pages web personnalisées rapidement à l'aide d'une bibliothèque de composants.",
+        "de": "Verwandeln Sie Online-Dokumente schnell und einfach in benutzerdefinierte Webseiten mit einer beliebten Bibliothekskomponente."
+      },
+      "download_url": "https://vue-notion.now.sh",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "frog",
       "name": "Frog",
       "tagline": "Extract text from any screen instantly",
@@ -34912,6 +35388,146 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "alchemy-cms",
+      "name": "Alchemy CMS",
+      "tagline": "Flexible open-source content management engine",
+      "repo_url": "https://github.com/alchemycms/alchemy_cms",
+      "full_name": "alchemycms/alchemy_cms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ruby",
+        "rails"
+      ],
+      "icon": "/icons/alchemy-cms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (BSD)",
+      "stars": 906,
+      "tier": "tier2_webapp",
+      "summary": "Alchemy CMS is a versatile open-source content management system written in Ruby on Rails that lets you build and manage structured websites with ease.",
+      "i18n": {
+        "it": "Alchemy CMS è un sistema di gestione dei contenuti open-source scritto in Ruby on Rails per creare siti web strutturati.",
+        "es": "Alchemy CMS es un sistema de gestión de contenidos open-source escrito en Ruby on Rails para crear sitios web estructurados.",
+        "fr": "Alchemy CMS est un système de gestion de contenu open-source écrit en Ruby on Rails pour créer des sites web structurés.",
+        "de": "Alchemy CMS ist ein in Ruby on Rails geschriebenes Open-Source-Content-Managementsystem zum Erstellen strukturierter Websites."
+      },
+      "download_url": "https://www.alchemy-cms.com",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "nestjs-mysql-api",
+      "name": "nestjs-mysql-api",
+      "tagline": "Secure database backend foundation for applications.",
+      "repo_url": "https://github.com/kuangshp/nestjs-mysql-api",
+      "full_name": "kuangshp/nestjs-mysql-api",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "backend",
+        "database"
+      ],
+      "icon": "/icons/nestjs-mysql-api.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 903,
+      "tier": "tier2_webapp",
+      "summary": "Manage user accounts, security roles, and database records seamlessly with a structured backend foundation designed for modern applications.",
+      "i18n": {
+        "it": "Gestisci account utente, ruoli di sicurezza e record di database in modo semplice con una solida base per applicazioni moderne.",
+        "es": "Administra cuentas de usuario, roles de seguridad y registros de bases de datos fácilmente con una base sólida para tus proyectos.",
+        "fr": "Gérez les comptes utilisateurs, rôles de sécurité et données de manière fluide grâce à une base structurée pour vos projets.",
+        "de": "Verwalten Sie Benutzerkonten und Datenbankeinträge nahtlos mit einer strukturierten Backend-Basis für moderne Anwendungen."
+      },
+      "download_url": "https://github.com/kuangshp/nestjs-mysql-api/releases",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "cofoundry",
+      "name": "cofoundry",
+      "tagline": "Flexible content management for web developers.",
+      "repo_url": "https://github.com/cofoundry-cms/cofoundry",
+      "full_name": "cofoundry-cms/cofoundry",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "development"
+      ],
+      "icon": "/icons/cofoundry.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 899,
+      "tier": "tier2_webapp",
+      "summary": "Cofoundry is a flexible open-source content management system and application toolkit built for web developers to integrate smoothly.",
+      "i18n": {
+        "it": "Cofoundry è un sistema di gestione dei contenuti open-source e flessibile progettato per integrarsi facilmente nei progetti web.",
+        "es": "Cofoundry es un sistema de gestión de contenidos de código abierto y flexible diseñado para integrarse fácilmente en proyectos web.",
+        "fr": "Cofoundry est un système de gestion de contenu open-source et flexible conçu pour s'intégrer facilement dans les projets web.",
+        "de": "Cofoundry ist ein flexibles Open-Source-Inhaltsverwaltungssystem, das sich nahtlos in moderne Webprojekte integrieren lässt."
+      },
+      "download_url": "https://www.cofoundry.org",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "nesta",
+      "name": "Nesta",
+      "tagline": "Simple file-based website publishing",
+      "repo_url": "https://github.com/gma/nesta",
+      "full_name": "gma/nesta",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-publishing",
+        "static-site-generator"
+      ],
+      "icon": "/icons/nesta.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 899,
+      "tier": "tier2_webapp",
+      "summary": "Nesta is a lightweight tool that lets you create websites and blogs using simple text files instead of complex databases.",
+      "i18n": {
+        "it": "Nesta è uno strumento leggero per creare siti e blog usando semplici file di testo invece di database complessi.",
+        "es": "Nesta es una herramienta ligera para crear sitios y blogs usando archivos de texto simples en lugar de bases de datos complejas.",
+        "fr": "Nesta est un outil léger pour créer des sites et des blogs en utilisant de simples fichiers texte au lieu de bases de données complexes.",
+        "de": "Nesta ist ein leichtgewichtiges Werkzeug zum Erstellen von Websites und Blogs, das einfache Textdateien statt komplexer Datenbanken nutzt."
+      },
+      "download_url": "https://nestacms.com",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "marmite",
+      "name": "marmite",
+      "tagline": "Turn markdown notes into instant blogs",
+      "repo_url": "https://github.com/rochacbruno/marmite",
+      "full_name": "rochacbruno/marmite",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "markdown"
+      ],
+      "icon": "/icons/marmite.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 890,
+      "tier": "tier2_webapp",
+      "summary": "Convert a folder of simple markdown text files into a clean, lightning-fast personal blog or website with a single command.",
+      "i18n": {
+        "it": "Converti una cartella di semplici file di testo in un blog personale pulito e veloce con un solo comando.",
+        "es": "Convierte una carpeta de sencillos archivos de texto en un blog personal limpio y rápido con un solo comando.",
+        "fr": "Transformez un dossier de simples fichiers de texte en un blog personnel propre et rapide en une seule commande.",
+        "de": "Verwandeln Sie einen Ordner mit einfachen Textdateien mit nur einem Befehl in einen sauberen und schnellen Blog."
+      },
+      "download_url": "https://github.com/rochacbruno/marmite/releases/download/0.4.2/SHA256SUMS",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "arroxy",
       "name": "Arroxy",
       "tagline": "Free open-source video downloader for everyone",
@@ -34940,6 +35556,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "mix-core",
+      "name": "mix.core",
+      "tagline": "Flexible open-source enterprise web content manager",
+      "repo_url": "https://github.com/mixcore/mix.core",
+      "full_name": "mixcore/mix.core",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "asp-net-core"
+      ],
+      "icon": "/icons/mix-core.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 889,
+      "tier": "tier2_webapp",
+      "summary": "Create and manage custom websites, mobile applications, and online services with a secure, multilingual content platform.",
+      "i18n": {
+        "it": "Crea e gestisci siti web personalizzati, app mobili e servizi online con una piattaforma di contenuti sicura e multilingue.",
+        "es": "Crea y administra sitios web personalizados, aplicaciones móviles y servicios en línea con una plataforma segura y multilingüe.",
+        "fr": "Créez et gérez des sites web personnalisés, des applications mobiles et des services en ligne avec une plateforme sécurisée.",
+        "de": "Erstellen und verwalten Sie benutzerdefinierte Websites, Apps und Online-Dienste mit einer sicheren, mehrsprachigen Plattform."
+      },
+      "download_url": "https://mixcore.org",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "claude-keysmith",
       "name": "claude-keysmith",
       "tagline": "Manage instructions for your coding assistant",
@@ -34966,6 +35610,62 @@
       },
       "download_url": "https://github.com/Jia-Ethan/claude-keysmith/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "thelia",
+      "name": "Thelia",
+      "tagline": "Build custom online stores easily.",
+      "repo_url": "https://github.com/thelia/thelia",
+      "full_name": "thelia/thelia",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ecommerce",
+        "shop"
+      ],
+      "icon": "/icons/thelia.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 884,
+      "tier": "tier2_webapp",
+      "summary": "An open-source e-commerce platform that helps you launch and manage custom online stores with flexible themes and secure tools.",
+      "i18n": {
+        "it": "Una piattaforma e-commerce open-source per creare e gestire negozi online personalizzati con temi flessibili e strumenti sicuri.",
+        "es": "Una plataforma de comercio electrónico de código abierto para crear y gestionar tiendas online con plantillas flexibles.",
+        "fr": "Une plateforme e-commerce open-source pour créer et gérer des boutiques en ligne personnalisées avec des thèmes flexibles.",
+        "de": "Eine Open-Source-E-Commerce-Plattform zum Erstellen und Verwalten individueller Online-Shops mit flexiblen Themes."
+      },
+      "download_url": "https://github.com/thelia/thelia/releases/download/3.4.0/sbom.cdx.json",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "textpattern",
+      "name": "Textpattern",
+      "tagline": "Fast, elegant, and free website builder",
+      "repo_url": "https://github.com/textpattern/textpattern",
+      "full_name": "textpattern/textpattern",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "web-publishing"
+      ],
+      "icon": "/icons/textpattern.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v2)",
+      "stars": 883,
+      "tier": "tier2_webapp",
+      "summary": "Textpattern is a free, open-source tool that helps you create and manage a fast, elegant website without needing to write code.",
+      "i18n": {
+        "it": "Textpattern è uno strumento gratuito e open source che ti aiuta a creare e gestire un sito web veloce ed elegante senza scrivere codice.",
+        "es": "Textpattern es una herramienta gratuita y de código abierto que te ayuda a crear y gestionar un sitio web rápido y elegante sin escribir código.",
+        "fr": "Textpattern est un outil gratuit et open source qui vous aide à créer et gérer un site web rapide et élégant sans écrire de code.",
+        "de": "Textpattern ist ein kostenloses Open-Source-Tool, das Ihnen hilft, eine schnelle und elegante Website zu erstellen und zu verwalten, ohne Code zu schreiben."
+      },
+      "download_url": "https://github.com/textpattern/textpattern/releases/download/4.9.2/textpattern-4.9.2.tar.gz.SHA256SUM",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "dev-janitor",

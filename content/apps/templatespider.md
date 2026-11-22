@@ -1,0 +1,72 @@
+---
+title: "TemplateSpider"
+slug: "templatespider"
+tagline: "Turn any public website into templates"
+summary: "TemplateSpider automatically downloads target website pages and cleanly organizes styles, scripts, and images into ready-to-use template folders."
+tags: ["automation", "templates", "website-builder", "developer-tools"]
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
+icon: "/icons/templatespider.png"
+stars: 988
+source_url: "https://github.com/xnx3/templatespider"
+download_url: "https://www.templatespider.zvo.cn"
+downloadUrl: "https://www.templatespider.zvo.cn"
+download_label: "Official Setup & Docs →"
+license: "Open Source (Apache 2.0)"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_276"
+affiliate_name: "Rank Math Direct"
+affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
+affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-22"
+i18n:
+  it:
+    tagline: "Trasforma qualsiasi sito pubblico in modelli"
+    summary: "TemplateSpider scarica le pagine web e organizza automaticamente stili, script e immagini in cartelle di modelli pronte all'uso."
+  es:
+    tagline: "Convierte cualquier sitio web público en plantillas"
+    summary: "TemplateSpider descarga páginas web y organiza automáticamente estilos, scripts e imágenes en carpetas de plantillas listas para usar."
+  fr:
+    tagline: "Transformez n'importe quel site public en modèles"
+    summary: "TemplateSpider télécharge des pages web et organise automatiquement les styles, scripts et images dans des dossiers prêts à l'emploi."
+  de:
+    tagline: "Verwandeln Sie öffentliche Websites in Vorlagen"
+    summary: "TemplateSpider lädt Webseiten herunter und organisiert Stile, Skripte und Bilder automatisch in einsatzbereite Vorlagenordner."
+---
+
+### What it does in plain English
+TemplateSpider lets you input the web address of any public page you admire to automatically download its design files. It intelligently sorts stylesheets, scripts, images, and HTML documents into neat, organized folders. Finally, it helps bundle these structured files into custom publishing layouts for various site management systems.
+
+### Who it's for
+* Web designers looking to study layout structures and gather inspiration elements efficiently
+* Content creators needing to quickly adapt existing page designs for new publishing projects
+* Developers seeking a streamlined way to extract raw assets from web pages
+
+### Key features
+* Simple address input for pointing to target web pages you want to inspect
+* Automated folder sorting that separates styles, scripts, images, and HTML files
+* Batch processing capabilities for handling multiple pages from the same site at once
+* Companion template calculation tool for formatting exports into compatible site systems
+* Cross-platform compatibility for running smoothly across major operating systems
+
+### How to install (Download)
+You can access the official download page and setup instructions directly at the [TemplateSpider Official Website](http://www.templatespider.zvo.cn/#rjxz).
+
+### Pros and Cons
+* **Pros:** Saves hours of manual file sorting, automatically organizes asset folders, completely free and open utility.
+* **Cons:** Requires manual fine-tuning of the resulting layout code, output depends heavily on how the target page was originally structured.
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **Elementor Pro Direct:** Optional visual page builder for WordPress sites — [Elementor Pro Direct](https://elementor.com/?subid=hubhum_01_MER265) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/xnx3/templatespider)
