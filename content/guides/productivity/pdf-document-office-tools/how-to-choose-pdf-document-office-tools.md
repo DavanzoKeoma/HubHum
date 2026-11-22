@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what PDF, Document & E-Book Tools t
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
-app_slugs: ["microsoft-activation-scripts", "rustdesk", "motrix", "files", "freecad", "jobs-applier-ai-agent"]
+app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "uni-app"]
 updated_at: "2026-11-22"
 ---
 
@@ -26,8 +26,8 @@ Switching to free open-source tools in **PDF, Document & E-Book Tools** lets you
 ### Great Starting Points in PDF, Document & E-Book Tools
 
 - **[Microsoft-Activation-Scripts](/HubHum/apps/microsoft-activation-scripts/)** (Desktop App) — Activate Windows and Office operating systems easily using trusted open-source scripts and automated methods.
-- **[RustDesk](/HubHum/apps/rustdesk/)** (Desktop App) — Connect to your computers remotely with total data privacy and full control over your own secure hosting servers.
-- **[Motrix](/HubHum/apps/motrix/)** (Desktop App) — Motrix is a modern, clean download manager that handles regular files, torrents, and magnet links with ease across multiple operating systems.
+- **[node](/HubHum/apps/node/)** (Desktop App) — Run your JavaScript code anywhere with a reliable platform that powers web servers and network utilities seamlessly.
+- **[Ventoy](/HubHum/apps/ventoy/)** (Desktop App) — Ventoy lets you turn any USB drive into a multi-boot tool just by copying system files directly onto it without constant reformatting.
+- **[mkcert](/HubHum/apps/mkcert/)** (Desktop App) — mkcert creates trusted local certificates with zero configuration, letting developers run HTTPS locally without browser warnings.
 - **[Files](/HubHum/apps/files/)** (Desktop App) — Files is a free, open-source file manager that makes organizing your documents and photos on Windows simple and fast.
-- **[FreeCAD](/HubHum/apps/freecad/)** (Desktop App) — Create and modify 3D objects easily using parametric modeling, 2D sketches, and powerful open-source engineering tools.
-- **[Jobs_Applier_AI_Agent](/HubHum/apps/jobs-applier-ai-agent/)** (Desktop App) — This tool scans thousands of job postings to find matches for your resume and automatically fills out application forms on your behalf.
+- **[uni-app](/HubHum/apps/uni-app/)** (Desktop App) — Create native mobile, web, and mini-programs using a single unified codebase and familiar language syntax.

@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps"]
-app_slugs: ["awesome", "node", "ventoy", "marktext", "mkcert"]
+app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin"]
 updated_at: "2026-11-22"
 ---
 
@@ -31,7 +31,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 ### Recommended Alternatives Covered
 
 - **[Awesome](/HubHum/apps/awesome/)** (Open Reference) — Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.
-- **[node](/HubHum/apps/node/)** (Desktop App) — Run your JavaScript code anywhere with a reliable platform that powers web servers and network utilities seamlessly.
-- **[Ventoy](/HubHum/apps/ventoy/)** (Desktop App) — Ventoy lets you turn any USB drive into a multi-boot tool just by copying system files directly onto it without constant reformatting.
+- **[React Native](/HubHum/apps/react-native/)** (Desktop App) — Create genuine mobile applications for Android and iOS using familiar coding languages and components.
 - **[MarkText](/HubHum/apps/marktext/)** (Desktop App) — MarkText is a clean, modern tool for writing notes and documents using simple formatting that stays out of your way while you work.
-- **[mkcert](/HubHum/apps/mkcert/)** (Desktop App) — mkcert creates trusted local certificates with zero configuration, letting developers run HTTPS locally without browser warnings.
+- **[Pake](/HubHum/apps/pake/)** (Desktop App) — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.
+- **[Joplin](/HubHum/apps/joplin/)** (Desktop App) — Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.

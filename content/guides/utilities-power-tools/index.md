@@ -14,7 +14,7 @@ updated_at: "2026-11-22"
 
 ## Why Explore Free Utilities & Power Tools Software?
 
-This central guide brings together **250 verified free applications** in the **Utilities & Power Tools** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **268 verified free applications** in the **Utilities & Power Tools** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Utilities & Power Tools
 
