@@ -9,7 +9,7 @@ summary: "Fast command-line tools, modern terminal apps, and smart file finders 
 child_slugs: ["utilities-power-tools/modern-terminal-apps", "utilities-power-tools/automation-power-utilities"]
 sibling_slugs: []
 app_slugs: ["rea", "ohmyzsh", "agent-reach", "tauri", "gemini-cli", "terminal", "scrapling", "playwright", "puppeteer", "rtk", "fzf", "lazygit", "imgui", "tabby", "ripgrep", "alacritty", "warp", "bat"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Why Explore Free Utilities & Power Tools Software?

@@ -12,7 +12,7 @@ parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/troubleshooting-screen-recorders-streaming"]
 app_slugs: ["streamlink", "openscreen", "esearch", "streamcap", "seanime", "streamlink-twitch-gui"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## How to Choose Free Screen Recorders, Streaming & Media Players Without Getting Lost

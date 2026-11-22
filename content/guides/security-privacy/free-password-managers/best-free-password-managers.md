@@ -12,7 +12,7 @@ parent_slug: "security-privacy/free-password-managers"
 child_slugs: []
 sibling_slugs: ["security-privacy/free-password-managers/how-to-choose-free-password-managers", "security-privacy/free-password-managers/troubleshooting-free-password-managers"]
 app_slugs: ["gitleaks", "keepassxc", "hackbrowserdata", "clients", "pocket-id", "git-credential-manager", "lesspass", "personal-management-system"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Quick Answer: Gitleaks vs KeePassXC

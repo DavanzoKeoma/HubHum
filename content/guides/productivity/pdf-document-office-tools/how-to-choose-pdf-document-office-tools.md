@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what PDF, Document & E-Book Tools t
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
-app_slugs: ["flutter", "react-native", "chatgpt", "uni-app", "claude-code-templates", "jobs-applier-ai-agent"]
-updated_at: "2026-11-21"
+app_slugs: ["flutter", "jobs-applier-ai-agent", "readest", "fmt", "sqlitebrowser", "react-native-web"]
+updated_at: "2026-11-22"
 ---
 
 ## How to Choose Free PDF, Document & E-Book Tools Without Getting Lost
@@ -26,8 +26,8 @@ Switching to free open-source tools in **PDF, Document & E-Book Tools** lets you
 ### Great Starting Points in PDF, Document & E-Book Tools
 
 - **[Flutter](/HubHum/apps/flutter/)** (Desktop App) — Create gorgeous, lightning-fast apps for phones, web, and computers from a single shared set of instructions.
-- **[React Native](/HubHum/apps/react-native/)** (Desktop App) — Create genuine mobile applications for Android and iOS using familiar coding languages and components.
-- **[ChatGPT](/HubHum/apps/chatgpt/)** (Desktop App) — Access popular artificial intelligence assistants right from your computer desktop without opening a web browser.
-- **[uni-app](/HubHum/apps/uni-app/)** (Desktop App) — Create native mobile, web, and mini-programs using a single unified codebase and familiar language syntax.
-- **[claude-code-templates](/HubHum/apps/claude-code-templates/)** (Open Reference) — Browse thousands of pre-made components, tools, and custom shortcuts to supercharge your terminal coding assistant instantly.
 - **[Jobs_Applier_AI_Agent](/HubHum/apps/jobs-applier-ai-agent/)** (Desktop App) — This tool scans thousands of job postings to find matches for your resume and automatically fills out application forms on your behalf.
+- **[Readest](/HubHum/apps/readest/)** (Desktop App) — Readest is a feature-rich ebook reader that helps you organize your library and enjoy books across all your favorite devices.
+- **[fmt](/HubHum/apps/fmt/)** (Desktop App) — fmt is a modern library that helps programmers display text and data clearly, quickly, and safely in their software projects.
+- **[DB Browser for SQLite](/HubHum/apps/sqlitebrowser/)** (Desktop App) — Manage and edit database files using a simple, spreadsheet-style interface without needing to learn complex technical commands.
+- **[React Native for Web](/HubHum/apps/react-native-web/)** (Desktop App) — This tool allows developers to use mobile app code to create responsive, high-performance websites that look and feel like native apps.

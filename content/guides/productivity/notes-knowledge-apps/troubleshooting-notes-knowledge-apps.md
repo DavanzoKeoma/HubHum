@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps"]
-app_slugs: ["awesome", "nextchat", "joplin", "obsidian-skills", "kazumi"]
-updated_at: "2026-11-21"
+app_slugs: ["awesome", "react-native", "pake", "joplin", "obsidian-skills"]
+updated_at: "2026-11-22"
 ---
 
 ## Fixing Common Problems with Free Encrypted Notes, Wikis & Knowledge Apps
@@ -31,7 +31,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 ### Recommended Alternatives Covered
 
 - **[Awesome](/HubHum/apps/awesome/)** (Open Reference) — Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.
-- **[NextChat](/HubHum/apps/nextchat/)** (Desktop App) — Easily converse with multiple artificial intelligence models in one clean interface without complex setup.
+- **[React Native](/HubHum/apps/react-native/)** (Desktop App) — Create genuine mobile applications for Android and iOS using familiar coding languages and components.
+- **[Pake](/HubHum/apps/pake/)** (Desktop App) — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.
 - **[Joplin](/HubHum/apps/joplin/)** (Desktop App) — Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.
 - **[Obsidian Skills](/HubHum/apps/obsidian-skills/)** (Open Reference) — Obsidian Skills allows your favorite digital assistants to read, write, and organize your notes automatically.
-- **[Kazumi](/HubHum/apps/kazumi/)** (Desktop App) — Kazumi is a flexible streaming application that lets you organize, watch, and enhance your favorite animated series effortlessly.

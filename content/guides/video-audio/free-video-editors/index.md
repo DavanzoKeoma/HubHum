@@ -12,7 +12,7 @@ parent_slug: "video-audio"
 child_slugs: ["video-audio/free-video-editors/best-free-video-editors", "video-audio/free-video-editors/how-to-choose-free-video-editors", "video-audio/free-video-editors/troubleshooting-free-video-editors"]
 sibling_slugs: []
 app_slugs: ["yt-dlp", "losslesscut", "handbrake", "concat", "shotcut", "youtube-dl-gui", "bili23-downloader", "olive", "auto-subs", "openchatcut", "translate-subtitle-file", "bilibili-video-downloader", "vidcutter", "gifcurry", "youtube-dl-wpf", "screenarc", "sone", "echolite"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Plain-English Overview: Video Cutters, Converters & Downloaders

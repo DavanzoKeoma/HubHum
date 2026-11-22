@@ -298,6 +298,7 @@ def execute_streaming_recovery(
     batch_commit_size: int = 50,
     commit_batches: bool = False,
     force_provider: str = "auto",
+    max_runtime_seconds: float = 4800.0,
 ) -> dict:
     """Stream candidates topic-by-topic until exact Tier targets are published with 50-card atomic commits."""
     affiliates_data: dict = load_json_file(AFFILIATES_PATH, {})  # type: ignore[assignment]
@@ -316,9 +317,11 @@ def execute_streaming_recovery(
     total_published = 0
     since_last_commit = 0
     last_ai_ts = 0.0
+    run_start = time.monotonic()
+    budget_reached = False
 
     for tier_arg, target_count in tier_targets:
-        if target_count <= 0:
+        if target_count <= 0 or budget_reached:
             continue
         cfg = TIER_QUERY_SETS[tier_arg]
         tier_key = str(cfg["tier_key"])
@@ -328,7 +331,7 @@ def execute_streaming_recovery(
         topics: tuple[str, ...] = cfg["topics"]  # type: ignore[assignment]
 
         for pass_idx, min_stars in enumerate(star_passes):
-            if published_by_tier[tier_arg] >= target_count:
+            if published_by_tier[tier_arg] >= target_count or budget_reached:
                 break
             pass_label = "primary" if pass_idx == 0 else "fallback"
             print(
@@ -338,10 +341,17 @@ def execute_streaming_recovery(
             )
 
             for topic in topics:
-                if published_by_tier[tier_arg] >= target_count:
+                if published_by_tier[tier_arg] >= target_count or budget_reached:
                     break
                 for page_num in range(1, 11):
-                    if published_by_tier[tier_arg] >= target_count:
+                    if published_by_tier[tier_arg] >= target_count or budget_reached:
+                        break
+                    if max_runtime_seconds > 0 and (time.monotonic() - run_start) >= max_runtime_seconds:
+                        print(
+                            f"[TIME BUDGET] Reached max_runtime_seconds={max_runtime_seconds:.0f}s; stopping wave cleanly to commit and validate progress.",
+                            flush=True,
+                        )
+                        budget_reached = True
                         break
                     _throttle_github_search()
                     raw_q = f"topic:{topic} stars:>{min_stars} fork:false archived:false"
@@ -359,6 +369,13 @@ def execute_streaming_recovery(
 
                     for item in items:
                         if published_by_tier[tier_arg] >= target_count:
+                            break
+                        if max_runtime_seconds > 0 and (time.monotonic() - run_start) >= max_runtime_seconds:
+                            print(
+                                f"[TIME BUDGET] Reached max_runtime_seconds={max_runtime_seconds:.0f}s; stopping wave cleanly to commit and validate progress.",
+                                flush=True,
+                            )
+                            budget_reached = True
                             break
                         full_name = str(item.get("full_name") or "")
                         repo_name = str(item.get("name") or "")
@@ -558,6 +575,7 @@ def main() -> int:
     parser.add_argument("--tier3-target", type=int, default=30, help="Target new Tier 3 Power Tools/CLI")
     parser.add_argument("--min-delay", type=float, default=4.1, help="Minimum interval between AI calls (seconds)")
     parser.add_argument("--batch-commit-size", type=int, default=50, help="Rebuild index & commit atomically every N cards")
+    parser.add_argument("--max-runtime-seconds", type=float, default=4800.0, help="Soft wall-clock budget in seconds (0 = unlimited)")
     parser.add_argument("--commit-batches", action="store_true", help="Create atomic git commits every batch_commit_size cards")
     parser.add_argument("--dispatch-waves", action="store_true", help="Trigger recovery waves via GitHub Actions workflow_dispatch")
     parser.add_argument("--wave-limit", type=int, default=15, help="Apps per dispatched GitHub Actions wave")
@@ -586,6 +604,7 @@ def main() -> int:
             min_delay=args.min_delay,
             batch_commit_size=args.batch_commit_size,
             commit_batches=args.commit_batches,
+            max_runtime_seconds=args.max_runtime_seconds,
         )
         print("Local recovery summary:", json.dumps(res))
 

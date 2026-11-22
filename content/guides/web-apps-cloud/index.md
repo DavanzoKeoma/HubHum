@@ -6,10 +6,10 @@ macro_category: "Web Apps & Cloud"
 macro_slug: "web-apps-cloud"
 intent: "pillar"
 summary: "Run modern dashboards, publishing tools, bookmark hubs, and family cloud apps directly in your browser."
-child_slugs: ["web-apps-cloud/self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cloud-apps", "web-apps-cloud/server-dashboards-automation"]
+child_slugs: ["web-apps-cloud/self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cloud-apps", "web-apps-cloud/server-dashboards-automation", "web-apps-cloud/home-lab-media-servers"]
 sibling_slugs: []
 app_slugs: ["n8n", "dify", "open-webui", "immich", "stirling-pdf", "uptime-kuma", "hugo", "netdata", "unsloth", "strapi", "coolify", "memos", "gitea", "serviette", "appwrite", "ghost", "new-api", "clickhouse"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Why Explore Free Web Apps & Cloud Software?

@@ -5,7 +5,7 @@ category: "Productivity"
 summary: "Manage PDFs, encrypted notes, e-books, and personal wikis cleanly without proprietary cloud formats."
 tags: ["notes", "pdf", "office", "knowledge"]
 app_slugs: ["joplin", "stirling-pdf", "siyuan", "trilium", "flutter", "cc-switch"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ### Why this curated guide

@@ -12,7 +12,7 @@ parent_slug: "video-audio"
 child_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming", "video-audio/screen-recorders-streaming/troubleshooting-screen-recorders-streaming"]
 sibling_slugs: []
 app_slugs: ["streamlink", "openscreen", "esearch", "streamcap", "seanime", "streamlink-twitch-gui", "downvid", "markeron", "kiri", "cineflow", "hotclip"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Plain-English Overview: Screen Recorders, Streaming & Media Players

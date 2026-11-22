@@ -12,7 +12,7 @@ parent_slug: "security-privacy/password-network-privacy"
 child_slugs: []
 sibling_slugs: ["security-privacy/password-network-privacy/how-to-choose-password-network-privacy", "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"]
 app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "safeline", "v2raya"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Quick Answer: Sherlock vs Win11Debloat

@@ -12,7 +12,7 @@ parent_slug: "utilities-power-tools/modern-terminal-apps"
 child_slugs: []
 sibling_slugs: ["utilities-power-tools/modern-terminal-apps/how-to-choose-modern-terminal-apps", "utilities-power-tools/modern-terminal-apps/troubleshooting-modern-terminal-apps"]
 app_slugs: ["gemini-cli", "scrapling", "fzf", "imgui", "tabby", "ripgrep", "alacritty", "warp"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Quick Answer: Gemini CLI vs Scrapling

@@ -12,7 +12,7 @@ parent_slug: "utilities-power-tools"
 child_slugs: ["utilities-power-tools/automation-power-utilities/best-automation-power-utilities", "utilities-power-tools/automation-power-utilities/how-to-choose-automation-power-utilities", "utilities-power-tools/automation-power-utilities/troubleshooting-automation-power-utilities"]
 sibling_slugs: []
 app_slugs: ["rea", "ohmyzsh", "agent-reach", "tauri", "terminal", "playwright", "puppeteer", "rtk", "lazygit", "powershell", "dive", "aider", "cli", "bubbletea", "cobra", "pm2", "cheat-sh", "oh-my-claudecode"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Plain-English Overview: Automation & System Power Utilities

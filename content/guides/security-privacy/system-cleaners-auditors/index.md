@@ -12,7 +12,7 @@ parent_slug: "security-privacy"
 child_slugs: ["security-privacy/system-cleaners-auditors/best-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
 sibling_slugs: []
 app_slugs: ["mole", "pentagi", "termix", "sophia-script-for-windows", "sophiapp", "magnetissimo"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Plain-English Overview: Privacy Cleaners & System Auditors

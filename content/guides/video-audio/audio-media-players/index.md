@@ -12,7 +12,7 @@ parent_slug: "video-audio"
 child_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/how-to-choose-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
 sibling_slugs: []
 app_slugs: ["pear-desktop", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear", "beets", "autoclip", "listen1-desktop", "spotifast", "feishin", "finetune", "google-play-music-desktop-player-unofficial", "go-music-dl", "mpv-net", "soundnode-app", "musikcube", "your-spotify"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Plain-English Overview: Audio Editors & Music Players

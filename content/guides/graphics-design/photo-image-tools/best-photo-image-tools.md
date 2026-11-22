@@ -12,7 +12,7 @@ parent_slug: "graphics-design/photo-image-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
 app_slugs: ["photoprism", "flameshot", "easydiffusion", "imageoptim", "stable-dreamfusion", "modly", "open-codesign", "koharu"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Quick Answer: PhotoPrism vs flameshot

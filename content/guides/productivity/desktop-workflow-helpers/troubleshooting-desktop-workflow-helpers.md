@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/desktop-workflow-helpers"
 child_slugs: []
 sibling_slugs: ["productivity/desktop-workflow-helpers/best-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers"]
-app_slugs: ["cc-switch", "orca", "openhands", "termux-app", "pake"]
-updated_at: "2026-11-21"
+app_slugs: ["cc-switch", "orca", "openhands", "termux-app", "dbeaver"]
+updated_at: "2026-11-22"
 ---
 
 ## Fixing Common Problems with Free Window Switchers & Everyday Workflow Helpers
@@ -34,4 +34,4 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 - **[orca](/HubHum/apps/orca/)** (Desktop App) — Orca lets you run multiple AI coding assistants at the same time, giving each helper its own dedicated workspace so they never interfere with each other.
 - **[OpenHands](/HubHum/apps/openhands/)** (Desktop App) — OpenHands turns smart coding assistants into a reliable, always-on engineering team that automates your everyday tasks and workflows.
 - **[Termux App](/HubHum/apps/termux-app/)** (Desktop App) — Turn your Android device into a powerful Linux workstation with a complete command line environment and package manager.
-- **[Pake](/HubHum/apps/pake/)** (Desktop App) — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.
+- **[DBeaver](/HubHum/apps/dbeaver/)** (Desktop App) — Universal database tool for viewing, editing, and managing hundreds of different database systems effortlessly.

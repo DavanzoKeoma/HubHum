@@ -71,7 +71,7 @@ jobs:
             echo "UTC hour: ${UTC_HOUR}"
             echo "mode=quota_adaptive" >> "$GITHUB_OUTPUT"
             echo "tier=all" >> "$GITHUB_OUTPUT"
-            echo "limit=250" >> "$GITHUB_OUTPUT"
+            echo "limit=125" >> "$GITHUB_OUTPUT"
           else
             echo "mode=manual_or_ondemand" >> "$GITHUB_OUTPUT"
             echo "tier=${{ github.event.inputs.tier || 'all' }}" >> "$GITHUB_OUTPUT"
@@ -208,6 +208,7 @@ jobs:
               batch_commit_size=50,
               commit_batches=False,
               force_provider=force_provider,
+              max_runtime_seconds=4500.0,
           )
           print("[WAVE RESULT]", json.dumps(res))
           PY
@@ -220,7 +221,7 @@ jobs:
 
       - name: Commit and push remaining batch cards
         run: |
-          git add content/apps content/guides content/bundles public/icons public/catalog-index.json data/catalog-index.json data/clusters_manifest.json src/data/app_cluster_map.json data/retry_queue.json data/processed_repos.json data/daily_quota_state.json
+          git add content/apps content/guides content/bundles public/icons public/catalog-index.json data/catalog-index.json data/clusters_manifest.json src/data/app_cluster_map.json data/retry_queue.json data/processed_repos.json data/daily_quota_state.json public/llms.txt public/llms-full.txt public/catalog-rag.txt public/codebase-full.txt public/api/catalog.json public/api/clusters.json
           if git diff --cached --quiet; then
             echo "No remaining un-committed cards."
           else
@@ -230,7 +231,7 @@ jobs:
               git rebase --abort || true
               git merge -X ours --no-edit origin/main
               python3 scripts/generate_catalog_index.py
-              git add public/catalog-index.json data/catalog-index.json
+              git add public/catalog-index.json data/catalog-index.json public/llms.txt public/llms-full.txt public/catalog-rag.txt public/codebase-full.txt public/api/catalog.json public/api/clusters.json
               git commit --amend --no-edit
             fi
             git push origin main

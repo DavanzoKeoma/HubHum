@@ -12,7 +12,7 @@ parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/how-to-choose-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
 app_slugs: ["pear-desktop", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear", "beets", "autoclip"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Quick Answer: Pear Desktop vs Navidrome

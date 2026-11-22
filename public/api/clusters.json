@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-21T21:05:16.453349+00:00",
-  "total_guide_pages": 70,
+  "generated_at": "2026-11-22T07:12:09.427846+00:00",
+  "total_guide_pages": 78,
   "pillars": [
     {
       "macro_slug": "video-audio",
@@ -164,7 +164,7 @@
         {
           "sub_slug": "productivity/notes-knowledge-apps",
           "sub_topic": "Encrypted Notes, Wikis & Knowledge Apps",
-          "app_count": 148,
+          "app_count": 110,
           "articles": [
             "productivity/notes-knowledge-apps/best-notes-knowledge-apps",
             "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps",
@@ -180,7 +180,7 @@
         {
           "sub_slug": "productivity/pdf-document-office-tools",
           "sub_topic": "Free PDF, Document & E-Book Tools",
-          "app_count": 131,
+          "app_count": 70,
           "articles": [
             "productivity/pdf-document-office-tools/best-pdf-document-office-tools",
             "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools",
@@ -196,7 +196,7 @@
         {
           "sub_slug": "productivity/desktop-workflow-helpers",
           "sub_topic": "Window Switchers & Everyday Workflow Helpers",
-          "app_count": 255,
+          "app_count": 215,
           "articles": [
             "productivity/desktop-workflow-helpers/best-desktop-workflow-helpers",
             "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers",
@@ -207,6 +207,22 @@
             "https://davanzokeoma.github.io/HubHum/guides/productivity/desktop-workflow-helpers/best-desktop-workflow-helpers/",
             "https://davanzokeoma.github.io/HubHum/guides/productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers/",
             "https://davanzokeoma.github.io/HubHum/guides/productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers/"
+          ]
+        },
+        {
+          "sub_slug": "productivity/ai-local-assistants-chat",
+          "sub_topic": "Local AI Assistants, LLM Studios & Chat Workspaces",
+          "app_count": 139,
+          "articles": [
+            "productivity/ai-local-assistants-chat/best-ai-local-assistants-chat",
+            "productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat",
+            "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"
+          ],
+          "url": "https://davanzokeoma.github.io/HubHum/guides/productivity/ai-local-assistants-chat/",
+          "article_urls": [
+            "https://davanzokeoma.github.io/HubHum/guides/productivity/ai-local-assistants-chat/best-ai-local-assistants-chat/",
+            "https://davanzokeoma.github.io/HubHum/guides/productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat/",
+            "https://davanzokeoma.github.io/HubHum/guides/productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat/"
           ]
         }
       ]
@@ -220,7 +236,7 @@
         {
           "sub_slug": "web-apps-cloud/self-hosted-cms-blogs",
           "sub_topic": "Self-Hosted CMS, Blogs & Publishing Platforms",
-          "app_count": 145,
+          "app_count": 120,
           "articles": [
             "web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs",
             "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs",
@@ -236,7 +252,7 @@
         {
           "sub_slug": "web-apps-cloud/self-hosted-cloud-apps",
           "sub_topic": "Personal Cloud Hubs, Photos & File Sharing",
-          "app_count": 83,
+          "app_count": 61,
           "articles": [
             "web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps",
             "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps",
@@ -252,7 +268,7 @@
         {
           "sub_slug": "web-apps-cloud/server-dashboards-automation",
           "sub_topic": "Server Dashboards, Monitoring & Cloud Panels",
-          "app_count": 123,
+          "app_count": 104,
           "articles": [
             "web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation",
             "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation",
@@ -263,6 +279,22 @@
             "https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation/",
             "https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation/",
             "https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation/"
+          ]
+        },
+        {
+          "sub_slug": "web-apps-cloud/home-lab-media-servers",
+          "sub_topic": "Home Lab Media Servers, E-Books & Streaming Hubs",
+          "app_count": 66,
+          "articles": [
+            "web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers",
+            "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers",
+            "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"
+          ],
+          "url": "https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/home-lab-media-servers/",
+          "article_urls": [
+            "https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers/",
+            "https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers/",
+            "https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers/"
           ]
         }
       ]
@@ -332,6 +364,18 @@
     {
       "slug": "desktop-productivity-power-pack",
       "url": "https://davanzokeoma.github.io/HubHum/bundles/desktop-productivity-power-pack/"
+    },
+    {
+      "slug": "ai-local-privacy-pack",
+      "url": "https://davanzokeoma.github.io/HubHum/bundles/ai-local-privacy-pack/"
+    },
+    {
+      "slug": "home-server-media-hub",
+      "url": "https://davanzokeoma.github.io/HubHum/bundles/home-server-media-hub/"
+    },
+    {
+      "slug": "creator-audio-video-suite",
+      "url": "https://davanzokeoma.github.io/HubHum/bundles/creator-audio-video-suite/"
     }
   ]
 }

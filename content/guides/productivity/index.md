@@ -6,10 +6,10 @@ macro_category: "Productivity"
 macro_slug: "productivity"
 intent: "pillar"
 summary: "Get more done every day with free note-taking apps, window managers, file organizers, and workflow tools."
-child_slugs: ["productivity/notes-knowledge-apps", "productivity/pdf-document-office-tools", "productivity/desktop-workflow-helpers"]
+child_slugs: ["productivity/notes-knowledge-apps", "productivity/pdf-document-office-tools", "productivity/desktop-workflow-helpers", "productivity/ai-local-assistants-chat"]
 sibling_slugs: []
 app_slugs: ["awesome", "flutter", "cc-switch", "orca", "react-native", "openhands", "nextchat", "termux-app", "pake", "joplin", "chatgpt", "obsidian-skills", "dbeaver", "bruno", "ifixai", "kazumi", "uni-app", "codewhale"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Why Explore Free Productivity Software?

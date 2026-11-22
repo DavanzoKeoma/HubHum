@@ -5,7 +5,7 @@ category: "Web Apps & Cloud"
 summary: "Run private photo backups, dashboards, CMS blogs, and bookmark hubs on your own server or mini-PC."
 tags: ["self-hosted", "cloud", "photos", "cms"]
 app_slugs: ["immich", "casaos", "coolify", "ghost", "linkwarden", "memos"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ### Why this curated guide

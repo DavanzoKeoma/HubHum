@@ -543,7 +543,7 @@ def classify_app_type_and_category(
         re.search(
             r"\b(?:image editor|photo editor|photo optimizer|image optimizer|vector graphics|svg editor|"
             r"drawing app|painting app|screenshot tool|screenshot|mockup|3d modeling|3d printing|3d slicer|"
-            r"pixel art|design tool|figma|cad software|illustration|flameshot|imageoptim|cura|easydiffusion|photoprism|koharu|stable-dreamfusion)\b",
+            r"pixel art|design tool|figma|cad software|illustration|flameshot|imageoptim|cura|easydiffusion|photoprism|koharu|stable-dreamfusion|butterfly|tools-ocr)\b",
             meta_text,
         )
         or (topic_set & {"design", "vector", "image-editor", "photo-editor", "drawing", "mockup", "3d-modeling"})

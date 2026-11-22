@@ -12,7 +12,7 @@ parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming", "video-audio/screen-recorders-streaming/troubleshooting-screen-recorders-streaming"]
 app_slugs: ["streamlink", "openscreen", "esearch", "streamcap", "seanime", "streamlink-twitch-gui", "downvid", "markeron"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Quick Answer: Streamlink vs OpenScreen

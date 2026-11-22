@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T21:05:16.453349+00:00",
+  "generated_at": "2026-11-22T07:12:09.427846+00:00",
   "min_pillar_apps": 10,
   "min_subpillar_apps": 6,
   "pillars": [
@@ -112,7 +112,7 @@
         {
           "sub_slug": "productivity/notes-knowledge-apps",
           "sub_topic": "Encrypted Notes, Wikis & Knowledge Apps",
-          "app_count": 148,
+          "app_count": 110,
           "articles": [
             "productivity/notes-knowledge-apps/best-notes-knowledge-apps",
             "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps",
@@ -122,7 +122,7 @@
         {
           "sub_slug": "productivity/pdf-document-office-tools",
           "sub_topic": "Free PDF, Document & E-Book Tools",
-          "app_count": 131,
+          "app_count": 70,
           "articles": [
             "productivity/pdf-document-office-tools/best-pdf-document-office-tools",
             "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools",
@@ -132,11 +132,21 @@
         {
           "sub_slug": "productivity/desktop-workflow-helpers",
           "sub_topic": "Window Switchers & Everyday Workflow Helpers",
-          "app_count": 255,
+          "app_count": 215,
           "articles": [
             "productivity/desktop-workflow-helpers/best-desktop-workflow-helpers",
             "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers",
             "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"
+          ]
+        },
+        {
+          "sub_slug": "productivity/ai-local-assistants-chat",
+          "sub_topic": "Local AI Assistants, LLM Studios & Chat Workspaces",
+          "app_count": 139,
+          "articles": [
+            "productivity/ai-local-assistants-chat/best-ai-local-assistants-chat",
+            "productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat",
+            "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"
           ]
         }
       ]
@@ -149,7 +159,7 @@
         {
           "sub_slug": "web-apps-cloud/self-hosted-cms-blogs",
           "sub_topic": "Self-Hosted CMS, Blogs & Publishing Platforms",
-          "app_count": 145,
+          "app_count": 120,
           "articles": [
             "web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs",
             "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs",
@@ -159,7 +169,7 @@
         {
           "sub_slug": "web-apps-cloud/self-hosted-cloud-apps",
           "sub_topic": "Personal Cloud Hubs, Photos & File Sharing",
-          "app_count": 83,
+          "app_count": 61,
           "articles": [
             "web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps",
             "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps",
@@ -169,11 +179,21 @@
         {
           "sub_slug": "web-apps-cloud/server-dashboards-automation",
           "sub_topic": "Server Dashboards, Monitoring & Cloud Panels",
-          "app_count": 123,
+          "app_count": 104,
           "articles": [
             "web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation",
             "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation",
             "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"
+          ]
+        },
+        {
+          "sub_slug": "web-apps-cloud/home-lab-media-servers",
+          "sub_topic": "Home Lab Media Servers, E-Books & Streaming Hubs",
+          "app_count": 66,
+          "articles": [
+            "web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers",
+            "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers",
+            "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"
           ]
         }
       ]
@@ -206,13 +226,16 @@
       ]
     }
   ],
-  "total_guide_pages": 70,
+  "total_guide_pages": 78,
   "bundles": [
     "top-free-apps-this-week",
     "privacy-security-starter-pack",
     "self-hosted-personal-cloud-bundle",
     "creator-video-audio-studio-bundle",
     "paperless-office-notes-bundle",
-    "desktop-productivity-power-pack"
+    "desktop-productivity-power-pack",
+    "ai-local-privacy-pack",
+    "home-server-media-hub",
+    "creator-audio-video-suite"
   ]
 }

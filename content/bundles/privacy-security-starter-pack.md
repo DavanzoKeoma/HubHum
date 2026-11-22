@@ -5,7 +5,7 @@ category: "Security & Privacy"
 summary: "Lock down passwords, monitor network traffic, clean system trackers, and browse safely with zero subscription fees."
 tags: ["privacy", "security", "password-manager", "vpn"]
 app_slugs: ["keepassxc", "sniffnet", "bleachbit", "gitleaks", "sherlock", "mole"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ### Why this curated guide

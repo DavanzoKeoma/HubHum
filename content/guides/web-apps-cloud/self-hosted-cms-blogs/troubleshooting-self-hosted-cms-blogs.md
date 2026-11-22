@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "web-apps-cloud/self-hosted-cms-blogs"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs"]
-app_slugs: ["n8n", "hugo", "strapi", "gitea", "ghost"]
-updated_at: "2026-11-21"
+app_slugs: ["n8n", "stirling-pdf", "hugo", "unsloth", "strapi"]
+updated_at: "2026-11-22"
 ---
 
 ## Fixing Common Problems with Free Self-Hosted CMS, Blogs & Publishing Platforms
@@ -31,7 +31,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 ### Recommended Alternatives Covered
 
 - **[n8n](/HubHum/apps/n8n/)** (Self-Hosted Web App) — Connect your favorite online tools and artificial intelligence models to automate tedious tasks without writing complex code.
+- **[Stirling-PDF](/HubHum/apps/stirling-pdf/)** (Self-Hosted Web App) — Edit, convert, and secure your PDF documents locally without uploading your sensitive files to third-party web services.
 - **[Hugo](/HubHum/apps/hugo/)** (Self-Hosted Web App) — Hugo is a powerful tool that turns your text and images into fast, professional websites with minimal effort.
+- **[Unsloth](/HubHum/apps/unsloth/)** (Self-Hosted Web App) — Unsloth allows you to run and customize powerful artificial intelligence models directly on your own computer with ease.
 - **[Strapi](/HubHum/apps/strapi/)** (Self-Hosted Web App) — Strapi is a tool that helps you organize and manage your website content, allowing you to display it anywhere you choose.
-- **[Gitea](/HubHum/apps/gitea/)** (Self-Hosted Web App) — Host your programming projects, review team code changes, and manage tasks easily on your own private server.
-- **[Ghost](/HubHum/apps/ghost/)** (Self-Hosted Web App) — Launch a fast blog, digital magazine, or paid newsletter while keeping complete ownership of your reader list.

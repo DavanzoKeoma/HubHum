@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what Personal Cloud Hubs, Photos & 
 parent_slug: "web-apps-cloud/self-hosted-cloud-apps"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/troubleshooting-self-hosted-cloud-apps"]
-app_slugs: ["immich", "stirling-pdf", "netdata", "memos", "serviette", "new-api"]
-updated_at: "2026-11-21"
+app_slugs: ["immich", "memos", "serviette", "gogs", "siyuan", "reactive-resume"]
+updated_at: "2026-11-22"
 ---
 
 ## How to Choose Free Personal Cloud Hubs, Photos & File Sharing Without Getting Lost
@@ -26,8 +26,8 @@ Switching to free open-source tools in **Personal Cloud Hubs, Photos & File Shar
 ### Great Starting Points in Personal Cloud Hubs, Photos & File Sharing
 
 - **[Immich](/HubHum/apps/immich/)** (Self-Hosted Web App) — Manage and back up your photos and videos on your own private cloud storage without sharing your personal memories.
-- **[Stirling-PDF](/HubHum/apps/stirling-pdf/)** (Self-Hosted Web App) — Edit, convert, and secure your PDF documents locally without uploading your sensitive files to third-party web services.
-- **[Netdata](/HubHum/apps/netdata/)** (Self-Hosted Web App) — Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues.
 - **[Memos](/HubHum/apps/memos/)** (Self-Hosted Web App) — Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline while keeping your data.
 - **[serviette](/HubHum/apps/serviette/)** (Self-Hosted Web App) — An easy no-code question-answering assistant that keeps answers in sync with your live documents automatically.
-- **[New API](/HubHum/apps/new-api/)** (Self-Hosted Web App) — Easily connect, manage, and monitor multiple artificial intelligence services through a single compatible control panel with built-in cost tracking.
+- **[Gogs](/HubHum/apps/gogs/)** (Self-Hosted Web App) — Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle.
+- **[SiYuan](/HubHum/apps/siyuan/)** (Self-Hosted Web App) — SiYuan is a secure, self-hosted tool for organizing your notes, documents, and ideas with powerful linking and AI assistance.
+- **[Reactive Resume](/HubHum/apps/reactive-resume/)** (Self-Hosted Web App) — Create, customize, and track your job applications using a secure and free open-source resume builder with live PDF preview.

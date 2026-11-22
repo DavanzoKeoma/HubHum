@@ -9,7 +9,7 @@ summary: "Compare free desktop editors, media players, audio tools, and streamin
 child_slugs: ["video-audio/free-video-editors", "video-audio/audio-media-players", "video-audio/screen-recorders-streaming"]
 sibling_slugs: []
 app_slugs: ["yt-dlp", "losslesscut", "pear-desktop", "handbrake", "navidrome", "vlc", "spotify-tui", "concat", "audacity", "nuclear", "beets", "shotcut", "autoclip", "streamlink", "listen1-desktop", "spotifast", "feishin", "finetune"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Why Explore Free Video & Audio Software?

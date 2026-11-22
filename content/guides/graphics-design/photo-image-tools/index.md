@@ -12,7 +12,7 @@ parent_slug: "graphics-design"
 child_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
 sibling_slugs: []
 app_slugs: ["photoprism", "flameshot", "easydiffusion", "imageoptim", "stable-dreamfusion", "modly", "open-codesign", "koharu", "triangula", "tools-ocr", "butterfly"]
-updated_at: "2026-11-21"
+updated_at: "2026-11-22"
 ---
 
 ## Plain-English Overview: Photo Optimizers, Galleries & Screen Capture

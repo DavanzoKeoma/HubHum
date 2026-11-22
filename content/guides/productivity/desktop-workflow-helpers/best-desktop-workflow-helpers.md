@@ -11,8 +11,8 @@ summary: "Compare CC Switch vs orca and 8 free tools for Window Switchers & Ever
 parent_slug: "productivity/desktop-workflow-helpers"
 child_slugs: []
 sibling_slugs: ["productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"]
-app_slugs: ["cc-switch", "orca", "openhands", "termux-app", "pake", "dbeaver", "bruno", "ifixai"]
-updated_at: "2026-11-21"
+app_slugs: ["cc-switch", "orca", "openhands", "termux-app", "dbeaver", "bruno", "ifixai", "spacedrive"]
+updated_at: "2026-11-22"
 ---
 
 ## Quick Answer: CC Switch vs orca
@@ -27,10 +27,10 @@ Comparing **CC Switch** and **orca** highlights two distinct approaches in **Win
 | [orca](/HubHum/apps/orca/) | Desktop App | Windows, macOS, Linux | ★ 130,248 | Open Source (MIT) |
 | [OpenHands](/HubHum/apps/openhands/) | Desktop App | Windows, macOS, Linux | ★ 93,879 | Open Source (MIT) |
 | [Termux App](/HubHum/apps/termux-app/) | Desktop App | Linux, Android | ★ 65,246 | Custom Open License |
-| [Pake](/HubHum/apps/pake/) | Desktop App | Windows, macOS, Linux | ★ 63,869 | Open Source (GPL v3) |
 | [DBeaver](/HubHum/apps/dbeaver/) | Desktop App | Windows, macOS, Linux | ★ 52,488 | Open Source (Apache 2.0) |
 | [Bruno](/HubHum/apps/bruno/) | Desktop App | Windows, macOS, Linux | ★ 48,472 | Open Source (MIT) |
 | [iFixAi](/HubHum/apps/ifixai/) | Desktop App | Windows, macOS, Linux | ★ 46,239 | Open Source (Apache 2.0) |
+| [Spacedrive](/HubHum/apps/spacedrive/) | Desktop App | Windows, macOS, Linux | ★ 39,575 | Open Source (Apache 2.0) |
 
 ### When to Pick Which Option
 - **Choose [CC Switch](/HubHum/apps/cc-switch/) (Desktop App)** if you need what it specializes in: Switch between different AI service providers with a single click and organize your prompts, plugins, and helper tools in one unified dashboard — it installs directly as a desktop application (Windows, macOS, Linux) (156,134 GitHub stars, vs orca which runs as a Desktop App).
