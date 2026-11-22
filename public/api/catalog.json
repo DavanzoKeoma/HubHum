@@ -2,27 +2,27 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-22T10:47:16.033879+00:00",
-  "total_apps": 1300,
+  "generated_at": "2026-11-22T10:51:08.757630+00:00",
+  "total_apps": 1325,
   "tier_counts": {
     "tier3_powertool": 250,
-    "tier2_webapp": 375,
-    "tier1_gui": 675
+    "tier2_webapp": 388,
+    "tier1_gui": 687
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 240,
-    "selfhosted": 374,
-    "desktop": 675,
+    "selfhosted": 387,
+    "desktop": 687,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 26,
-    "Productivity": 579,
-    "Security & Privacy": 40,
+    "Productivity": 590,
+    "Security & Privacy": 41,
     "Utilities & Power Tools": 230,
     "Video & Audio": 73,
-    "Web Apps & Cloud": 351,
+    "Web Apps & Cloud": 364,
     "Websites & SEO": 1
   },
   "apps": [
@@ -8454,6 +8454,62 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "optimizer",
+      "name": "Optimizer",
+      "tagline": "Speed up and secure Windows easily",
+      "repo_url": "https://github.com/hellzerg/optimizer",
+      "full_name": "hellzerg/optimizer",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "privacy"
+      ],
+      "icon": "/icons/optimizer.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v3)",
+      "stars": 18298,
+      "tier": "tier1_gui",
+      "summary": "An advanced configuration utility designed to enhance your privacy, security, and performance on Windows systems.",
+      "i18n": {
+        "it": "Un'utilità avanzata per migliorare la privacy, la sicurezza e le prestazioni del sistema operativo Windows.",
+        "es": "Una utilidad de configuración avanzada diseñada para mejorar tu privacidad, seguridad y rendimiento en Windows.",
+        "fr": "Un utilitaire de configuration avancé conçu pour améliorer la confidentialité, la sécurité et les performances sous Windows.",
+        "de": "Ein erweitertes Konfigurationsprogramm zur Verbesserung von Datenschutz, Sicherheit und Leistung unter Windows."
+      },
+      "download_url": "https://github.com/hellzerg/optimizer/releases/download/17.0/Optimizer-17.0.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "mailspring",
+      "name": "Mailspring",
+      "tagline": "Fast and sleek desktop mail client",
+      "repo_url": "https://github.com/foundry376/mailspring",
+      "full_name": "foundry376/mailspring",
+      "category": "Productivity",
+      "tags": [
+        "email",
+        "productivity"
+      ],
+      "icon": "/icons/mailspring.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 18020,
+      "tier": "tier1_gui",
+      "summary": "Manage multiple email accounts efficiently in one unified desktop application with powerful productivity tools.",
+      "i18n": {
+        "it": "Gestisci più account di posta elettronica in un'unica applicazione desktop con potenti strumenti di produttività.",
+        "es": "Gestiona múltiples cuentas de correo electrónico de forma eficiente en una sola aplicación de escritorio.",
+        "fr": "Gérez plusieurs comptes de messagerie efficacement dans une seule application de bureau unifiée.",
+        "de": "Verwalten Sie mehrere E-Mail-Konten effizient in einer einzigen Desktop-Anwendung mit nützlichen Funktionen."
+      },
+      "download_url": "https://github.com/Foundry376/Mailspring/releases/download/1.26.2/MailspringSetup.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "asciinema",
       "name": "asciinema",
       "tagline": "Record and stream terminal sessions easily.",
@@ -8846,6 +8902,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "zapret",
+      "name": "zapret",
+      "tagline": "Bypass network filters and connection throttling",
+      "repo_url": "https://github.com/bol-van/zapret",
+      "full_name": "bol-van/zapret",
+      "category": "Productivity",
+      "tags": [
+        "networking",
+        "privacy"
+      ],
+      "icon": "/icons/zapret.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 16999,
+      "tier": "tier1_gui",
+      "summary": "Zapret helps you bypass network restrictions and speed throttling directly on your own device without needing external proxy servers.",
+      "i18n": {
+        "it": "Zapret aiuta a superare restrizioni di rete e rallentamenti direttamente sul tuo dispositivo senza server proxy esterni.",
+        "es": "Zapret ayuda a superar restricciones de red y limitaciones de velocidad directamente en tu dispositivo sin servidores proxy.",
+        "fr": "Zapret vous aide à contourner les restrictions réseau et ralentissements directement sur votre appareil sans serveurs proxy.",
+        "de": "Zapret hilft Ihnen, Netzwerkbeschränkungen und Drosselungen direkt auf Ihrem Gerät ohne externe Proxy-Server zu umgehen."
+      },
+      "download_url": "https://github.com/bol-van/zapret/releases/download/v72.13/sha256sum.txt",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "surfsense",
       "name": "SurfSense",
       "tagline": "Private local AI document assistant",
@@ -8928,6 +9012,34 @@
       },
       "download_url": "https://trigger.dev/changelog",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "quickemu",
+      "name": "Quickemu",
+      "tagline": "Run other OSes instantly",
+      "repo_url": "https://github.com/quickemu-project/quickemu",
+      "full_name": "quickemu-project/quickemu",
+      "category": "Productivity",
+      "tags": [
+        "virtualization",
+        "productivity"
+      ],
+      "icon": "/icons/quickemu.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 16776,
+      "tier": "tier1_gui",
+      "summary": "Quickemu lets you easily set up and run Windows, macOS, or Linux inside your computer, handling all the technical steps for you.",
+      "i18n": {
+        "it": "Quickemu ti permette di installare e avviare Windows, macOS o Linux sul tuo computer, gestendo automaticamente tutti i passaggi tecnici.",
+        "es": "Quickemu te ayuda a instalar y ejecutar Windows, macOS o Linux en tu computadora, ocupándose de todos los pasos técnicos automáticamente.",
+        "fr": "Quickemu vous aide à installer et lancer Windows, macOS ou Linux sur votre ordinateur, en gérant automatiquement toutes les étapes techniques.",
+        "de": "Quickemu lässt Sie Windows, macOS oder Linux auf Ihrem Rechner installieren und starten, wobei alle technischen Schritte automatisch erledigt werden."
+      },
+      "download_url": "https://github.com/quickemu-project/quickemu/releases/download/4.9.9/quickemu_4.9.9-1_all.deb",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "vercel",
@@ -9014,6 +9126,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "openrct2",
+      "name": "OpenRCT2",
+      "tagline": "Build and manage your dream theme park",
+      "repo_url": "https://github.com/openrct2/openrct2",
+      "full_name": "openrct2/openrct2",
+      "category": "Productivity",
+      "tags": [
+        "simulation",
+        "game"
+      ],
+      "icon": "/icons/openrct2.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux, Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 16601,
+      "tier": "tier1_gui",
+      "summary": "OpenRCT2 is a free, open-source park management game that lets you design coasters and run a profitable amusement park.",
+      "i18n": {
+        "it": "OpenRCT2 è un gioco gratuito di gestione parchi a tema che ti permette di progettare montagne russe e gestire un parco profittevole.",
+        "es": "OpenRCT2 es un juego gratuito de gestión de parques temáticos que te permite diseñar montañas rusas y operar un parque rentable.",
+        "fr": "OpenRCT2 est un jeu gratuit de gestion de parcs à thème qui vous permet de concevoir des montagnes russes et d'exploiter un parc rentable.",
+        "de": "OpenRCT2 ist ein kostenloses Parkmanagement-Spiel, mit dem Sie Achterbahnen entwerfen und einen profitablen Freizeitpark betreiben können."
+      },
+      "download_url": "https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.5.7/OpenRCT2-v0.5.7-windows-installer-arm64.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "alt-tab-macos",
       "name": "AltTab",
       "tagline": "Bring Windows window switching to Mac.",
@@ -9040,6 +9180,34 @@
       },
       "download_url": "https://alt-tab.app",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "magpie",
+      "name": "Magpie",
+      "tagline": "Upscale windows and games easily",
+      "repo_url": "https://github.com/blinue/magpie",
+      "full_name": "blinue/magpie",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "gaming"
+      ],
+      "icon": "/icons/magpie.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v3)",
+      "stars": 16532,
+      "tier": "tier1_gui",
+      "summary": "Magpie is a lightweight window upscaling tool for Windows that enhances older games and apps using advanced scaling filters.",
+      "i18n": {
+        "it": "Magpie è un leggero strumento di ridimensionamento per finestre Windows che migliora giochi e app tramite filtri avanzati.",
+        "es": "Magpie es una ligera herramienta de ampliación de ventanas para Windows que mejora juegos antiguos con filtros avanzados.",
+        "fr": "Magpie est un outil léger de mise à l'échelle pour Windows qui améliore les anciens jeux et applications.",
+        "de": "Magpie ist ein leichtgewichtiger Fenster-Upscaler für Windows, der ältere Spiele mit modernen Skalierungsfiltern verbessert."
+      },
+      "download_url": "https://github.com/Blinue/Magpie/releases",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "hammerspoon",
@@ -9294,6 +9462,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "sherpa-onnx",
+      "name": "sherpa-onnx",
+      "tagline": "Offline speech recognition and voice tools",
+      "repo_url": "https://github.com/k2-fsa/sherpa-onnx",
+      "full_name": "k2-fsa/sherpa-onnx",
+      "category": "Productivity",
+      "tags": [
+        "speech-recognition",
+        "text-to-speech"
+      ],
+      "icon": "/icons/sherpa-onnx.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 16090,
+      "tier": "tier1_gui",
+      "summary": "Run speech recognition, text-to-speech, and audio analysis completely offline on your own device without needing an internet connection.",
+      "i18n": {
+        "it": "Esegui riconoscimento vocale e sintesi vocale offline sul tuo dispositivo senza alcuna connessione a internet.",
+        "es": "Ejecute reconocimiento de voz y síntesis de voz sin conexión en su propio dispositivo sin internet.",
+        "fr": "Exécutez la reconnaissance vocale et la synthèse vocale hors ligne sur votre appareil sans connexion.",
+        "de": "Führen Sie Spracherkennung und Text-zu-Sprache komplett offline auf Ihrem Gerät ohne Internet aus."
+      },
+      "download_url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/v2.0.2/sherpa-onnx-non-streaming-asr-x64-v2.0.2.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "termix",
       "name": "Termix",
       "tagline": "Manage all your servers in one place.",
@@ -9320,6 +9516,34 @@
       },
       "download_url": "https://github.com/Termix-SSH/Termix/releases/download/v26.11.2/termix_windows_arm64_nsis.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "flow-launcher",
+      "name": "Flow.Launcher",
+      "tagline": "Lightning-fast file search and app launcher.",
+      "repo_url": "https://github.com/flow-launcher/flow.launcher",
+      "full_name": "flow-launcher/flow.launcher",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "search"
+      ],
+      "icon": "/icons/flow-launcher.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 16066,
+      "tier": "tier1_gui",
+      "summary": "Quickly find files, launch apps, calculate equations, and run web searches on Windows using a gorgeous popup interface.",
+      "i18n": {
+        "it": "Trova file, avvia app e calcola equazioni su Windows istantaneamente con un'interfaccia a comparsa.",
+        "es": "Encuentra archivos, abre aplicaciones y realiza cálculos en Windows al instante con una interfaz flotante.",
+        "fr": "Trouvez des fichiers, lancez des applications et calculez des équations sous Windows instantanément.",
+        "de": "Finden Sie Dateien, starten Sie Apps und berechnen Sie Formeln unter Windows sofort über ein Popup."
+      },
+      "download_url": "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v2.1.4/Flow-Launcher-Setup.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "beets",
@@ -9404,6 +9628,34 @@
       },
       "download_url": "https://github.com/v2rayA/v2rayA/releases/download/v2.5.16/installer_windows_inno_arm64_2.5.16.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "xtool",
+      "name": "xtool",
+      "tagline": "Build iOS apps on any computer",
+      "repo_url": "https://github.com/xtool-org/xtool",
+      "full_name": "xtool-org/xtool",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "development"
+      ],
+      "icon": "/icons/xtool.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 15865,
+      "tier": "tier1_gui",
+      "summary": "xtool lets developers build and install iOS applications on Linux, Windows, and macOS without needing Apple's official desktop software.",
+      "i18n": {
+        "it": "Consente di creare e installare app per iOS su Linux, Windows e macOS senza bisogno del software ufficiale Apple.",
+        "es": "Permite compilar e instalar aplicaciones iOS en Linux, Windows y macOS sin necesidad del software oficial de Apple.",
+        "fr": "Permet de compiler et d'installer des applications iOS sur Linux, Windows et macOS sans le logiciel officiel d'Apple.",
+        "de": "Ermöglicht das Erstellen und Installieren von iOS-Apps auf Linux, Windows und macOS ohne Apples offizielle Software."
+      },
+      "download_url": "https://github.com/xtool-org/xtool/releases/download/1.24.0/xtool-aarch64.AppImage",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "trek",
@@ -9938,6 +10190,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "everythingtoolbar",
+      "name": "EverythingToolbar",
+      "tagline": "Instant file search for Windows taskbar",
+      "repo_url": "https://github.com/srwi/everythingtoolbar",
+      "full_name": "srwi/everythingtoolbar",
+      "category": "Productivity",
+      "tags": [
+        "search",
+        "utility"
+      ],
+      "icon": "/icons/everythingtoolbar.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Custom Open License",
+      "stars": 15101,
+      "tier": "tier1_gui",
+      "summary": "Add lightning-fast file search directly to your Windows taskbar with powerful filters and customizable shortcuts.",
+      "i18n": {
+        "it": "Aggiungi una ricerca di file superveloce direttamente sulla barra delle applicazioni di Windows con filtri potenti.",
+        "es": "Añade búsqueda de archivos ultrarrápida directamente a tu barra de tareas de Windows con filtros personalizados.",
+        "fr": "Ajoutez une recherche de fichiers ultra-rapide directement dans votre barre des tâches Windows avec des filtres.",
+        "de": "Füge eine blitzschnelle Dateisuche mit leistungsstarken Filtern direkt zu deiner Windows-Taskleiste hinzu."
+      },
+      "download_url": "https://github.com/srwi/EverythingToolbar/releases/download/3.5.0/EverythingToolbar-3.5.0-arm64.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "tokei",
       "name": "tokei",
       "tagline": "Instantly count your project statistics",
@@ -9992,6 +10272,34 @@
       },
       "download_url": "https://audiobookshelf.org",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "winhance",
+      "name": "Winhance",
+      "tagline": "Optimize and customize Windows effortlessly",
+      "repo_url": "https://github.com/memstechtips/winhance",
+      "full_name": "memstechtips/winhance",
+      "category": "Security & Privacy",
+      "tags": [
+        "windows",
+        "optimizer"
+      ],
+      "icon": "/icons/winhance.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Custom Open License",
+      "stars": 15036,
+      "tier": "tier1_gui",
+      "summary": "Winhance is a handy utility application designed to clean up, optimize, and personalize your Windows 10 and 11 computers.",
+      "i18n": {
+        "it": "Winhance è un'utilità pratica progettata per pulire, ottimizzare e personalizzare i computer con Windows 10 e 11.",
+        "es": "Winhance es una utilidad práctica diseñada para limpiar, optimizar y personalizar tus ordenadores con Windows 10 y 11.",
+        "fr": "Winhance est un utilitaire pratique conçu pour nettoyer, optimiser et personnaliser vos ordinateurs Windows 10 et 11.",
+        "de": "Winhance ist ein praktisches Dienstprogramm zum Bereinigen, Optimieren und Anpassen Ihrer Windows 10- und 11-Computer."
+      },
+      "download_url": "https://github.com/memstechtips/Winhance/releases/download/v26.06.12/Winhance.Installer.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "imageglass",
@@ -10272,6 +10580,34 @@
       },
       "download_url": "https://emdashcms.com",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "browseros",
+      "name": "BrowserOS",
+      "tagline": "A dedicated browser for AI agents",
+      "repo_url": "https://github.com/browseros-ai/browseros",
+      "full_name": "browseros-ai/browseros",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "ai"
+      ],
+      "icon": "/icons/browseros.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (AGPL v3)",
+      "stars": 14447,
+      "tier": "tier1_gui",
+      "summary": "BrowserOS is a specialized web browser designed to let your AI assistants perform tasks on your behalf using your own logged-in accounts.",
+      "i18n": {
+        "it": "BrowserOS è un browser web specializzato che permette ai tuoi assistenti AI di svolgere attività usando i tuoi account personali.",
+        "es": "BrowserOS es un navegador web especializado que permite a tus asistentes de IA realizar tareas usando tus propias cuentas personales.",
+        "fr": "BrowserOS est un navigateur web spécialisé permettant à vos assistants IA d'effectuer des tâches en utilisant vos propres comptes.",
+        "de": "BrowserOS ist ein spezialisierter Webbrowser, mit dem Ihre KI-Assistenten Aufgaben über Ihre eigenen Konten ausführen können."
+      },
+      "download_url": "https://github.com/browseros-ai/BrowserOS/releases/download/browserclaw/v0.52.0/BrowserOS_neo_v0.52.1.1_x64_installer.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "romm",
@@ -31496,6 +31832,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "typicms",
+      "name": "TypiCMS",
+      "tagline": "Build multilingual websites with structured content.",
+      "repo_url": "https://github.com/typicms/typicms",
+      "full_name": "typicms/typicms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "multilingual"
+      ],
+      "icon": "/icons/typicms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1619,
+      "tier": "tier2_webapp",
+      "summary": "A flexible multilingual content management system that helps you organize pages, news, and events effortlessly.",
+      "i18n": {
+        "it": "Un sistema di gestione contenuti flessibile e multilingue che ti aiuta a organizzare pagine, notizie ed eventi senza sforzo.",
+        "es": "Un sistema de gestión de contenidos multilingüe que te ayuda a organizar páginas, noticias y eventos sin esfuerzo.",
+        "fr": "Un système de gestion de contenu multilingue flexible qui vous aide à organiser facilement vos pages, actualités et événements.",
+        "de": "Ein flexibles, mehrsprachiges Content-Management-System, mit dem Sie Seiten, Nachrichten und Veranstaltungen einfach verwalten."
+      },
+      "download_url": "https://github.com/typicms/typicms/releases",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "shoes4",
       "name": "shoes4",
       "tagline": "Create friendly cross-platform graphic apps easily.",
@@ -31776,6 +32140,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "kirby",
+      "name": "Kirby",
+      "tagline": "File-based content management system for websites",
+      "repo_url": "https://github.com/getkirby/kirby",
+      "full_name": "getkirby/kirby",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "website"
+      ],
+      "icon": "/icons/kirby.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1540,
+      "tier": "tier2_webapp",
+      "summary": "Kirby is a flexible content management system that lets you build customized websites without relying on traditional databases.",
+      "i18n": {
+        "it": "Kirby è un sistema di gestione contenuti flessibile che ti consente di creare siti web personalizzati senza database.",
+        "es": "Kirby es un sistema de gestión de contenidos flexible que te permite crear sitios web personalizados sin bases de datos.",
+        "fr": "Kirby est un système de gestion de contenu flexible qui vous permet de créer des sites web personnalisés sans base de données.",
+        "de": "Kirby ist ein flexibles Content-Management-System, mit dem Sie maßgeschneiderte Websites ohne Datenbank erstellen können."
+      },
+      "download_url": "https://getkirby.com",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "blue-archive-auto-script",
       "name": "Blue Archive Auto Script",
       "tagline": "Automate your daily mobile gaming routine.",
@@ -31886,6 +32278,34 @@
       },
       "download_url": "https://github.com/evsar3/sshfs-win-manager/releases/download/v1.3.1/sshfs-win-manager-setup-v1.3.1.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "nodepress",
+      "name": "nodepress",
+      "tagline": "Powerful backend engine for modern blogs",
+      "repo_url": "https://github.com/surmon-china/nodepress",
+      "full_name": "surmon-china/nodepress",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "blog"
+      ],
+      "icon": "/icons/nodepress.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1521,
+      "tier": "tier2_webapp",
+      "summary": "nodepress is a robust backend system that powers professional web logs and content hubs with structured data storage.",
+      "i18n": {
+        "it": "nodepress è un solido sistema backend che alimenta blog professionali e hub di contenuti con archiviazione strutturata.",
+        "es": "nodepress es un sólido sistema backend que impulsa blogs profesionales y centros de contenido con almacenamiento estructurado.",
+        "fr": "nodepress est un système backend robuste qui alimente des blogs professionnels et des hubs de contenu avec stockage structuré.",
+        "de": "nodepress ist ein robustes Backend-System, das professionelle Blogs und Content-Hubs mit strukturierter Datenspeicherung antreibt."
+      },
+      "download_url": "https://github.surmon.me/nodepress",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "tyde",
@@ -32140,6 +32560,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "bludit",
+      "name": "Bludit",
+      "tagline": "Build fast websites in seconds",
+      "repo_url": "https://github.com/bludit/bludit",
+      "full_name": "bludit/bludit",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-publishing",
+        "blogging"
+      ],
+      "icon": "/icons/bludit.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1477,
+      "tier": "tier2_webapp",
+      "summary": "Bludit is a lightweight tool that lets you create and manage your own website or blog without needing complex databases.",
+      "i18n": {
+        "it": "Bludit è uno strumento leggero che ti permette di creare e gestire il tuo sito web o blog senza bisogno di database complessi.",
+        "es": "Bludit es una herramienta ligera que te permite crear y gestionar tu propio sitio web o blog sin necesidad de bases de datos complejas.",
+        "fr": "Bludit est un outil léger qui vous permet de créer et de gérer votre propre site web ou blog sans avoir besoin de bases de données complexes.",
+        "de": "Bludit ist ein leichtgewichtiges Werkzeug, mit dem Sie Ihre eigene Website oder Ihren Blog ohne komplexe Datenbanken erstellen und verwalten können."
+      },
+      "download_url": "https://www.bludit.com",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "soul-of-waifu",
       "name": "Soul-of-Waifu",
       "tagline": "Bring your favorite characters to life.",
@@ -32308,6 +32756,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "angelsword",
+      "name": "AngelSword",
+      "tagline": "Quick website security flaw scanner",
+      "repo_url": "https://github.com/lucifer1993/angelsword",
+      "full_name": "lucifer1993/angelsword",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "scanner"
+      ],
+      "icon": "/icons/angelsword.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1439,
+      "tier": "tier2_webapp",
+      "summary": "AngelSword helps security engineers quickly scan and identify known safety flaws in existing website platforms and software.",
+      "i18n": {
+        "it": "AngelSword aiuta i professionisti della sicurezza a scansionare rapidamente i siti web alla ricerca di falle note.",
+        "es": "AngelSword ayuda a los ingenieros de seguridad a escanear rápidamente los sitios web en busca de fallos conocidos.",
+        "fr": "AngelSword aide les professionnels de la sécurité à analyser rapidement les sites web pour y trouver des failles.",
+        "de": "AngelSword hilft Sicherheitsexperten dabei, Websites schnell auf bekannte Sicherheitslücken zu überprüfen."
+      },
+      "download_url": "https://github.com/Lucifer1993/AngelSword/releases",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "pytauri",
       "name": "pytauri",
       "tagline": "Build desktop apps using Python easily.",
@@ -32420,6 +32896,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "engineercms",
+      "name": "engineercms",
+      "tagline": "Manage engineering projects and documents easily.",
+      "repo_url": "https://github.com/3xxx/engineercms",
+      "full_name": "3xxx/engineercms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "knowledge-management",
+        "engineering"
+      ],
+      "icon": "/icons/engineercms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 1422,
+      "tier": "tier2_webapp",
+      "summary": "EngineerCMS is a knowledge management system designed for civil and engineering teams to organize project files, collaborate on documents in real-time, and share resources securely.",
+      "i18n": {
+        "it": "Un sistema di gestione della conoscenza per team di ingegneria per organizzare file, collaborare in tempo reale e condividere risorse.",
+        "es": "Un sistema de gestión de conocimiento para equipos de ingeniería para organizar archivos, colaborar en tiempo reale y compartir recursos.",
+        "fr": "Un système de gestion des connaissances pour équipes d'ingénierie pour organiser les fichiers, collaborer et partager des ressources.",
+        "de": "Ein Wissensmanagementsystem für Ingenieurteams zum Organisieren von Dateien, Zusammenarbeiten und Teilen von Ressourcen."
+      },
+      "download_url": "https://www.zsj123.net/",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "fvim",
       "name": "FVim",
       "tagline": "High-performance graphical interface for Neovim.",
@@ -32446,6 +32950,34 @@
       },
       "download_url": "https://github.com/yatli/fvim/releases/download/v0.3.549%2Bee4316c/fvim-linux-amd64-v0.3.548%2Bg2e4087d-2-gee4316c.deb",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "yii2-starter-kit",
+      "name": "yii2-starter-kit",
+      "tagline": "Jumpstart your advanced website project",
+      "repo_url": "https://github.com/yii-starter-kit/yii2-starter-kit",
+      "full_name": "yii-starter-kit/yii2-starter-kit",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "website-template",
+        "php"
+      ],
+      "icon": "/icons/yii2-starter-kit.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1395,
+      "tier": "tier2_webapp",
+      "summary": "An application template providing ready-to-use authentication, management tools, and a local server environment for modern websites.",
+      "i18n": {
+        "it": "Un modello di applicazione che offre autenticazione pronta all'uso, strumenti di gestione e un ambiente server locale.",
+        "es": "Una plantilla de aplicación que ofrece autenticación lista para usar, herramientas de gestión y un entorno de servidor.",
+        "fr": "Un modèle d'application fournissant une authentification prête à l'emploi, des outils de gestion et un environnement.",
+        "de": "Eine Anwendungsvorlage, die einsatzbereite Authentifizierung, Verwaltungswerkzeuge und eine lokale Umgebung bietet."
+      },
+      "download_url": "https://yii2-starter-kit.terentev.net",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "kanmail",
@@ -32532,6 +33064,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "htmly",
+      "name": "htmly",
+      "tagline": "Fast databaseless PHP blogging platform",
+      "repo_url": "https://github.com/danpros/htmly",
+      "full_name": "danpros/htmly",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "php",
+        "cms"
+      ],
+      "icon": "/icons/htmly.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v2)",
+      "stars": 1369,
+      "tier": "tier2_webapp",
+      "summary": "HTMLy is a lightweight, databaseless blogging platform and flat-file CMS written in PHP that stores content directly as files instead of using heavy databases.",
+      "i18n": {
+        "it": "HTMLy è una piattaforma di blogging leggera e senza database scritta in PHP che memorizza i contenuti direttamente su file.",
+        "es": "HTMLy es una plataforma de blogs ligera y sin base de datos en PHP que almacena contenido directamente en archivos.",
+        "fr": "HTMLy est une plateforme de blog légère et sans base de données écrite en PHP qui stocke le contenu directement dans des fichiers.",
+        "de": "HTMLy ist eine leichte, datenbankfreie Blogging-Plattform in PHP, die Inhalte direkt als Dateien speichert."
+      },
+      "download_url": "https://github.com/danpros/htmly/releases/download/v3.1.1/online-installer.php",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "opcache-gui",
       "name": "opcache-gui",
       "tagline": "Simple visual dashboard for PHP performance",
@@ -32586,6 +33146,62 @@
       },
       "download_url": "https://github.com/OpenAEC-Foundation/open-pdf-studio/releases/download/v2026.48.2/Open.PDF.Studio_2026.48.2_x64-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "sulu",
+      "name": "Sulu",
+      "tagline": "Flexible content management for professional websites",
+      "repo_url": "https://github.com/sulu/sulu",
+      "full_name": "sulu/sulu",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-publishing",
+        "content-management"
+      ],
+      "icon": "/icons/sulu.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1359,
+      "tier": "tier2_webapp",
+      "summary": "Sulu is a powerful tool for building and managing multi-lingual websites with an easy-to-use interface for content creators.",
+      "i18n": {
+        "it": "Sulu è uno strumento potente per creare e gestire siti web multilingua con un'interfaccia intuitiva per chi pubblica contenuti.",
+        "es": "Sulu es una herramienta potente para crear y gestionar sitios web multilingües con una interfaz intuitiva para creadores de contenido.",
+        "fr": "Sulu est un outil puissant pour créer et gérer des sites web multilingues avec une interface intuitive pour les créateurs de contenu.",
+        "de": "Sulu ist ein leistungsstarkes Werkzeug zur Erstellung und Verwaltung mehrsprachiger Webseiten mit einer intuitiven Benutzeroberfläche."
+      },
+      "download_url": "https://sulu.io",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "cmswing",
+      "name": "CmsWing",
+      "tagline": "Powerful full-stack web publishing system",
+      "repo_url": "https://github.com/arterli/cmswing",
+      "full_name": "arterli/cmswing",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "ecommerce"
+      ],
+      "icon": "/icons/cmswing.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1353,
+      "tier": "tier2_webapp",
+      "summary": "CmsWing is an enterprise-grade website publishing platform that lets teams manage content, configure menus, and handle data effortlessly.",
+      "i18n": {
+        "it": "CmsWing è una piattaforma di pubblicazione aziendale che consente di gestire contenuti e configurare menu senza sforzo.",
+        "es": "CmsWing es una plataforma empresarial que permite a los equipos gestionar contenidos y configurar menús fácilmente.",
+        "fr": "CmsWing est une plateforme professionnelle permettant aux équipes de gérer du contenu et des menus facilement.",
+        "de": "CmsWing ist eine professionelle Verlagsplattform, mit der Teams Inhalte verwalten und Menüs einfach einrichten können."
+      },
+      "download_url": "https://www.cmswing.com",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "kafka-king",
@@ -32672,6 +33288,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "moonshine",
+      "name": "MoonShine",
+      "tagline": "Build custom admin panels instantly",
+      "repo_url": "https://github.com/moonshine-software/moonshine",
+      "full_name": "moonshine-software/moonshine",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "php",
+        "laravel"
+      ],
+      "icon": "/icons/moonshine.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1306,
+      "tier": "tier2_webapp",
+      "summary": "MoonShine is a flexible control panel toolkit that lets developers build and customize web dashboards using simple tools and artificial intelligence.",
+      "i18n": {
+        "it": "MoonShine è un toolkit flessibile per la creazione e la personalizzazione di cruscotti web tramite strumenti semplici e intelligenza artificiale.",
+        "es": "MoonShine es un conjunto de herramientas flexibles para crear y personalizar paneles web utilizando herramientas sencillas e inteligencia artificial.",
+        "fr": "MoonShine est une boîte à outils flexible pour créer et personnaliser des tableaux de bord web grâce à des outils simples et à l'intelligence artificielle.",
+        "de": "MoonShine ist ein flexibles Toolkit zum Erstellen und Anpassen von Web-Dashboards mit einfachen Werkzeugen und künstlicher Intelligenz."
+      },
+      "download_url": "https://getmoonshine.app",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "apiark",
       "name": "ApiArk",
       "tagline": "Lightweight privacy-first software developer utility",
@@ -32726,6 +33370,62 @@
       },
       "download_url": "https://github.com/Clash-Projects/LastWave-Desktop/releases/download/v2.2.0/lastwave_2.2.0_windows-x86_64-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "blogifier",
+      "name": "Blogifier",
+      "tagline": "Lightweight open-source personal publishing platform.",
+      "repo_url": "https://github.com/blogifierdotnet/blogifier",
+      "full_name": "blogifierdotnet/blogifier",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "publishing"
+      ],
+      "icon": "/icons/blogifier.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1290,
+      "tier": "tier2_webapp",
+      "summary": "Blogifier is a clean, self-hosted writing platform that lets you set up your own personal or group blog quickly.",
+      "i18n": {
+        "it": "Blogifier è una piattaforma di scrittura pulita e auto-ospitata che consente di creare il proprio blog personale.",
+        "es": "Blogifier es una plataforma de escritura limpia y autohospedada que te permite crear tu propio blog personal.",
+        "fr": "Blogifier est une plateforme d'écriture propre et auto-hébergée qui vous permet de créer votre propre blog.",
+        "de": "Blogifier ist eine saubere, selbst gehostete Schreibplattform, mit der Sie schnell ein eigenes Blog einrichten."
+      },
+      "download_url": "https://blogifier.net",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "documentation",
+      "name": "Strapi Documentation",
+      "tagline": "Official guide for Strapi CMS",
+      "repo_url": "https://github.com/strapi/documentation",
+      "full_name": "strapi/documentation",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "documentation",
+        "cms"
+      ],
+      "icon": "/icons/documentation.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1288,
+      "tier": "tier2_webapp",
+      "summary": "The official online manual for Strapi, a free tool that helps you manage website content and connect it to any app.",
+      "i18n": {
+        "it": "Il manuale online ufficiale per Strapi, uno strumento gratuito per gestire i contenuti del sito web.",
+        "es": "El manual en línea oficial para Strapi, una herramienta gratuita para gestionar el contenido de tu sitio web.",
+        "fr": "Le manuel en ligne officiel pour Strapi, un outil gratuit pour gérer le contenu de votre site web.",
+        "de": "Das offizielle Online-Handbuch für Strapi, ein kostenloses Tool zur Verwaltung von Website-Inhalten."
+      },
+      "download_url": "https://docs.strapi.io",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "launcher",
