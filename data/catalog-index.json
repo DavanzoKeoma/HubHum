@@ -16966,6 +16966,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "networkmanager",
+    "name": "NETworkManager",
+    "tagline": "All-in-one tool for network management",
+    "repo_url": "https://github.com/borntoberoot/networkmanager",
+    "full_name": "borntoberoot/networkmanager",
+    "category": "Productivity",
+    "tags": [
+      "network",
+      "utilities"
+    ],
+    "icon": "/icons/networkmanager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 8974,
+    "tier": "tier1_gui",
+    "summary": "NETworkManager simplifies network administration by combining essential diagnostic and connection tools into one clean, user-friendly interface.",
+    "i18n": {
+      "it": "NETworkManager semplifica l'amministrazione di rete unendo strumenti di diagnostica e connessione in un'unica interfaccia intuitiva.",
+      "es": "NETworkManager simplifica la administración de redes al combinar herramientas esenciales de diagnóstico y conexión en una interfaz clara.",
+      "fr": "NETworkManager simplifie l'administration réseau en regroupant des outils de diagnostic et de connexion dans une interface intuitive.",
+      "de": "NETworkManager vereinfacht die Netzwerkverwaltung durch die Bündelung wichtiger Diagnose- und Verbindungstools in einer übersichtlichen Oberfläche."
+    },
+    "download_url": "https://github.com/BornToBeRoot/NETworkManager/releases/download/2026.11.15.0/NETworkManager_2026.11.15.0_Setup_win-arm64.msi",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "xcodegen",
     "name": "XcodeGen",
     "tagline": "Generate Xcode projects from simple text files",
@@ -17246,6 +17274,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "xdm",
+    "name": "Xtreme Download Manager",
+    "tagline": "Speed up downloads and grab streaming videos.",
+    "repo_url": "https://github.com/subhra74/xdm",
+    "full_name": "subhra74/xdm",
+    "category": "Video & Audio",
+    "tags": [
+      "downloader",
+      "torrent"
+    ],
+    "icon": "/icons/xdm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 8762,
+    "tier": "tier1_gui",
+    "summary": "Accelerate your downloads, grab online videos, and seamlessly pick up interrupted files right where they left off.",
+    "i18n": {
+      "it": "Accelera i download, scarica video in streaming e riprendi i file interrotti esattamente da dove si erano fermati.",
+      "es": "Acelera tus descargas, captura videos en streaming y reanuda archivos interrumpidos exactamente donde se quedaron.",
+      "fr": "Accélérez vos téléchargements, capturez des vidéos en streaming et reprenez les transferts interrompus à tout moment.",
+      "de": "Beschleunigen Sie Downloads, laden Sie Streaming-Videos herunter und setzen Sie unterbrochene Dateien einfach fort."
+    },
+    "download_url": "https://github.com/subhra74/xdm/releases/download/9.0.12/xdm-9.0.12-arm64.msi",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "websocat",
     "name": "websocat",
     "tagline": "Command-line client for WebSocket connections.",
@@ -17356,6 +17412,34 @@
     },
     "download_url": "https://github.com/lightningpixel/modly/releases/download/v0.5.0/Modly-Setup-0.5.0.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "windows-defender-remover",
+    "name": "Windows Defender Remover",
+    "tagline": "Easily disable or remove Windows security tools",
+    "repo_url": "https://github.com/ionuttbara/windows-defender-remover",
+    "full_name": "ionuttbara/windows-defender-remover",
+    "category": "Productivity",
+    "tags": [
+      "windows",
+      "system-tools"
+    ],
+    "icon": "/icons/windows-defender-remover.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Custom Open License",
+    "stars": 8734,
+    "tier": "tier1_gui",
+    "summary": "This tool allows you to completely remove or disable Windows Defender and related security services from your computer.",
+    "i18n": {
+      "it": "Questo strumento ti permette di rimuovere o disabilitare completamente Windows Defender e i servizi di sicurezza correlati dal tuo PC.",
+      "es": "Esta herramienta te permite eliminar o deshabilitar por completo Windows Defender y los servicios de seguridad relacionados de tu equipo.",
+      "fr": "Cet outil vous permet de supprimer ou de désactiver complètement Windows Defender et les services de sécurité associés sur votre ordinateur.",
+      "de": "Dieses Tool ermöglicht es Ihnen, Windows Defender und zugehörige Sicherheitsdienste vollständig von Ihrem Computer zu entfernen oder zu deaktivieren."
+    },
+    "download_url": "https://github.com/ionuttbara/windows-defender-remover/releases/download/release13-rev1/Defender.Remover.13.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "treg",
@@ -17608,6 +17692,34 @@
     },
     "download_url": "https://www.flagsmith.com",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "win32-openssh",
+    "name": "Win32-OpenSSH",
+    "tagline": "Secure remote computer connection tools",
+    "repo_url": "https://github.com/powershell/win32-openssh",
+    "full_name": "powershell/win32-openssh",
+    "category": "Productivity",
+    "tags": [
+      "ssh",
+      "remote-access"
+    ],
+    "icon": "/icons/win32-openssh.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Custom Open License",
+    "stars": 8390,
+    "tier": "tier1_gui",
+    "summary": "Safely connect to remote computers and transfer files securely right from your Windows device.",
+    "i18n": {
+      "it": "Collega in modo sicuro a computer remoti e trasferisci file dal tuo dispositivo Windows.",
+      "es": "Conéctate de forma segura a ordenadores remotos y transfiere archivos desde Windows.",
+      "fr": "Connectez-vous en toute sécurité à des ordinateurs distants et transférez des fichiers.",
+      "de": "Verbinden Sie sich sicher mit Remote-Computern und übertragen Sie Dateien von Windows."
+    },
+    "download_url": "https://github.com/PowerShell/Win32-OpenSSH/releases/download/10.4.0.0p1-Preview/OpenSSH-ARM64-v10.4.0.0.msi",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "ntrace-core",
@@ -17974,6 +18086,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "iodine",
+    "name": "iodine",
+    "tagline": "Tunnel internet traffic securely through DNS",
+    "repo_url": "https://github.com/yarrick/iodine",
+    "full_name": "yarrick/iodine",
+    "category": "Security & Privacy",
+    "tags": [
+      "networking",
+      "tunnel"
+    ],
+    "icon": "/icons/iodine.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (ISC)",
+    "stars": 8045,
+    "tier": "tier1_gui",
+    "summary": "Route your internet data through standard name lookup queries to bypass restrictive firewalls anywhere.",
+    "i18n": {
+      "it": "Instrada il traffico internet tramite le normali richieste DNS per superare qualsiasi firewall restrittivo.",
+      "es": "Transporta tus datos de internet mediante consultas de nombres estándar para saltar barreras de red.",
+      "fr": "Acheminez votre trafic internet à l'aide de requêtes de noms pour contourner les pare-feu stricts.",
+      "de": "Transportieren Sie Ihre Internetdaten über normale Namensabfragen, um strenge Firewalls zu umgehen."
+    },
+    "download_url": "https://code.kryo.se/iodine",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "qingjian",
+    "name": "Qingjian",
+    "tagline": "Learn languages while you type",
+    "repo_url": "https://github.com/qingjian-team/qingjian",
+    "full_name": "qingjian-team/qingjian",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "language-learning"
+    ],
+    "icon": "/icons/qingjian.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 8035,
+    "tier": "tier1_gui",
+    "summary": "Qingjian is a smart typing tool that displays helpful translations alongside your word suggestions to help you learn a new language naturally.",
+    "i18n": {
+      "it": "Qingjian è uno strumento di scrittura intelligente che mostra traduzioni utili accanto ai suggerimenti per imparare una lingua.",
+      "es": "Qingjian es una herramienta de escritura inteligente que muestra traducciones útiles junto a tus sugerencias para aprender idiomas.",
+      "fr": "Qingjian est un outil de saisie intelligent qui affiche des traductions utiles à côté de vos suggestions pour apprendre une langue.",
+      "de": "Qingjian ist ein intelligentes Eingabetool, das hilfreiche Übersetzungen neben Wortvorschlägen anzeigt, um Sprachen zu lernen."
+    },
+    "download_url": "https://github.com/qingjian-team/qingjian/releases/download/windows-v0.3.5/qingjian-0.3.5-windows-x86_64-setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "revery",
     "name": "revery",
     "tagline": "High-performance native desktop app creation.",
@@ -18000,6 +18168,90 @@
     },
     "download_url": "https://www.outrunlabs.com/revery/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "totk-pc-recomp",
+    "name": "totk-pc-recomp",
+    "tagline": "Run adventure games natively on PC",
+    "repo_url": "https://github.com/valentderah/totk-pc-recomp",
+    "full_name": "valentderah/totk-pc-recomp",
+    "category": "Productivity",
+    "tags": [
+      "gaming",
+      "performance"
+    ],
+    "icon": "/icons/totk-pc-recomp.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8006,
+    "tier": "tier1_gui",
+    "summary": "Convert your own console adventure game files into native computer applications for smooth performance without virtual machines.",
+    "i18n": {
+      "it": "Converti i file dei tuoi giochi per console in applicazioni native per computer per prestazioni fluide senza macchine virtuali.",
+      "es": "Convierte tus propios archivos de juegos de consola en aplicaciones nativas de computadora para un rendimiento fluido sin máquinas virtuales.",
+      "fr": "Convertissez vos fichiers de jeux de console en applications informatiques natives pour des performances fluides sans machines virtuelles.",
+      "de": "Konvertieren Sie Ihre Konsolenspieldateien in native Computeranwendungen für eine reibungslose Leistung ohne virtuelle Maschinen."
+    },
+    "download_url": "https://github.com/valentderah/totk-pc-recomp/releases/download/v0.5.0/TotK-Setup-0.5.0-x86_64-pgo.AppImage",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "squirrel-windows",
+    "name": "Squirrel.Windows",
+    "tagline": "Seamless Windows app updates",
+    "repo_url": "https://github.com/squirrel/squirrel.windows",
+    "full_name": "squirrel/squirrel.windows",
+    "category": "Productivity",
+    "tags": [
+      "windows",
+      "developer-tools"
+    ],
+    "icon": "/icons/squirrel-windows.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 7993,
+    "tier": "tier1_gui",
+    "summary": "A free tool for developers to make Windows apps install and update quickly without user interruptions.",
+    "i18n": {
+      "it": "Uno strumento gratuito per sviluppatori che permette di installare e aggiornare le app Windows rapidamente senza disturbare l'utente.",
+      "es": "Una herramienta gratuita para desarrolladores que permite instalar y actualizar aplicaciones de Windows rápidamente sin interrumpir al usuario.",
+      "fr": "Un outil gratuit pour les développeurs permettant d'installer et de mettre à jour les applications Windows rapidement sans interrompre l'utilisateur.",
+      "de": "Ein kostenloses Tool für Entwickler, das das schnelle Installieren und Aktualisieren von Windows-Apps ohne Unterbrechung ermöglicht."
+    },
+    "download_url": "https://github.com/Squirrel/Squirrel.Windows/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "btrfs",
+    "name": "WinBtrfs",
+    "tagline": "Access modern Linux file systems on Windows",
+    "repo_url": "https://github.com/maharmstone/btrfs",
+    "full_name": "maharmstone/btrfs",
+    "category": "Productivity",
+    "tags": [
+      "filesystem",
+      "driver"
+    ],
+    "icon": "/icons/btrfs.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (LGPL)",
+    "stars": 7928,
+    "tier": "tier1_gui",
+    "summary": "WinBtrfs lets Windows read and write advanced Linux file systems natively, bridging the gap between operating systems.",
+    "i18n": {
+      "it": "WinBtrfs lets Windows read and write advanced Linux file systems natively, bridging the gap between operating systems.",
+      "es": "WinBtrfs lets Windows read and write advanced Linux file systems natively, bridging the gap between operating systems.",
+      "fr": "WinBtrfs lets Windows read and write advanced Linux file systems natively, bridging the gap between operating systems.",
+      "de": "WinBtrfs lets Windows read and write advanced Linux file systems natively, bridging the gap between operating systems."
+    },
+    "download_url": "https://github.com/maharmstone/btrfs/releases",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "ods",
@@ -18056,6 +18308,90 @@
     },
     "download_url": "https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "boxplayer",
+    "name": "BoxPlayer",
+    "tagline": "Unify your cloud drives and media",
+    "repo_url": "https://github.com/gaozhangmin/boxplayer",
+    "full_name": "gaozhangmin/boxplayer",
+    "category": "Productivity",
+    "tags": [
+      "media-player",
+      "cloud-drive"
+    ],
+    "icon": "/icons/boxplayer.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 7867,
+    "tier": "tier1_gui",
+    "summary": "BoxPlayer brings your personal cloud drives, media collections, and reading materials together into one smooth cross-platform app.",
+    "i18n": {
+      "it": "BoxPlayer riunisce i tuoi spazi cloud, collezioni multimediali e letture in un'unica comoda applicazione multipiattaforma.",
+      "es": "BoxPlayer reúne tus nubes personales, colecciones multimedia y lecturas en una sola aplicación multiplataforma.",
+      "fr": "BoxPlayer rassemble vos clouds personnels, vos collections de médias et vos lectures au sein d'une application multiplateforme.",
+      "de": "BoxPlayer bringt Ihre persönlichen Clouds, Mediendekorationen und Lesematerialien in einer einzigen App zusammen."
+    },
+    "download_url": "https://github.com/gaozhangmin/boxplayer/releases/download/v5.0.45/boxplayer-5.0.45-win-x64.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "commando-vm",
+    "name": "commando-vm",
+    "tagline": "Customizable Windows security testing workstation setup.",
+    "repo_url": "https://github.com/mandiant/commando-vm",
+    "full_name": "mandiant/commando-vm",
+    "category": "Productivity",
+    "tags": [
+      "security",
+      "windows"
+    ],
+    "icon": "/icons/commando-vm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7845,
+    "tier": "tier1_gui",
+    "summary": "Transform a standard Windows environment into a fully featured security testing workstation with automated installation scripts.",
+    "i18n": {
+      "it": "Trasforma un ambiente Windows in una postazione di sicurezza completa con script automatizzati.",
+      "es": "Transforma un entorno de Windows en una estación de trabajo de seguridad completa con scripts automatizados.",
+      "fr": "Transformez un environnement Windows en poste de travail de sécurité complet grâce à des scripts automatisés.",
+      "de": "Verwandeln Sie eine Windows-Umgebung mit automatisierten Skripten in einen vollständigen Sicherheitsarbeitsplatz."
+    },
+    "download_url": "https://www.mandiant.com/resources/blog/commando-vm-windows-offensive-distribution",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "oni2",
+    "name": "Onivim 2",
+    "tagline": "Lightning-fast modal text code editor",
+    "repo_url": "https://github.com/onivim/oni2",
+    "full_name": "onivim/oni2",
+    "category": "Productivity",
+    "tags": [
+      "editor",
+      "productivity"
+    ],
+    "icon": "/icons/oni2.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7835,
+    "tier": "tier1_gui",
+    "summary": "Onivim 2 is a lightweight text editor that combines ultra-fast native performance with powerful keyboard-driven navigation and plugin support.",
+    "i18n": {
+      "it": "Onivim 2 è un editor di testo leggero che unisce prestazioni native ultrarapide a una potente navigazione da tastiera e supporto per plugin.",
+      "es": "Onivim 2 es un editor de texto ligero que combina un rendimiento nativo ultrarrápido con una potente navegación por teclado y soporte para complementos.",
+      "fr": "Onivim 2 est un éditeur de texte léger qui associe des performances natives ultra-rapides à une puissante navigation au clavier et à des extensions.",
+      "de": "Onivim 2 ist ein leichter Texteditor, der blitzschnelle native Leistung mit leistungsstarker tastaturbasierter Navigation und Plug-in-Unterstützung verbindet."
+    },
+    "download_url": "https://v2.onivim.io",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "guilite",
@@ -27577,6 +27913,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "anysub",
+    "name": "Anysub",
+    "tagline": "Turn audio and video into subtitles easily.",
+    "repo_url": "https://github.com/pluja/anysub",
+    "full_name": "pluja/anysub",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "subtitles",
+      "transcription"
+    ],
+    "icon": "/icons/anysub.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3106,
+    "tier": "tier2_webapp",
+    "summary": "Anysub is a self-hosted tool that transforms audio and video recordings into accurately timed subtitles using artificial intelligence.",
+    "i18n": {
+      "it": "Anysub è uno strumento auto-ospitato che trasforma registrazioni audio e video in sottotitoli sincronizzati grazie all'intelligenza artificiale.",
+      "es": "Anysub es una herramienta autohospedada que transforma grabaciones de audio y video en subtítulos precisos con inteligencia artificial.",
+      "fr": "Anysub est un outil auto-hébergé qui transforme vos fichiers audio et vidéo en sous-titres synchronisés grâce à l'intelligence artificiale.",
+      "de": "Anysub ist ein selbst gehostetes Tool, das Audio- und Videoaufnahmen mithilfe von künstlicher Intelligenz in präzise Untertitel verwandelt."
+    },
+    "download_url": "https://github.com/pluja/anysub/releases/download/v4.4.0/compose.cuda.yaml",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "sveltia-cms",
     "name": "Sveltia CMS",
     "tagline": "Modern, fast content management for websites.",
@@ -27659,6 +28023,34 @@
     },
     "download_url": "https://dittofeed.com/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nod",
+    "name": "nod",
+    "tagline": "Your open-source personal AI computer agent.",
+    "repo_url": "https://github.com/n8n-io/nod",
+    "full_name": "n8n-io/nod",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/nod.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3074,
+    "tier": "tier2_webapp",
+    "summary": "Nod is a personal assistant that runs locally on your machine, handling tedious web tasks, preparing calls, and managing your apps while always asking for your approval before taking action.",
+    "i18n": {
+      "it": "Un assistente che esegue compiti sul tuo computer, gestisce fatture e prepara riunioni chiedendo sempre la tua approvazione.",
+      "es": "Un asistente personal que se ejecuta en tu equipo para gestionar tareas web y reuniones, pidiendo permiso antes de actuar.",
+      "fr": "Un assistant local qui gère vos tâches web et réunions en demandant toujours votre accord avant d'agir pour vous.",
+      "de": "Ein lokaler Assistent für Web-Aufgaben und Besprechungen, der vor jeder Aktion stets um Ihre Erlaubnis bittet."
+    },
+    "download_url": "https://github.com/n8n-io/nod/releases/download/nod-v0.9.2/nod-Setup-x64.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "imgui-rs",
@@ -34381,6 +34773,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "winter",
+    "name": "winter",
+    "tagline": "Secure and simple content management platform",
+    "repo_url": "https://github.com/wintercms/winter",
+    "full_name": "wintercms/winter",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "php"
+    ],
+    "icon": "/icons/winter.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 1521,
+    "tier": "tier2_webapp",
+    "summary": "Winter is a free, open-source content management system built on a popular PHP framework for rapid and secure website development.",
+    "i18n": {
+      "it": "Winter è un sistema di gestione contenuti open-source basato su un popolare framework PHP per uno sviluppo web sicuro.",
+      "es": "Winter es un sistema de gestión de contenidos gratuito y de código abierto basado en PHP para un desarrollo web seguro.",
+      "fr": "Winter est un système de gestion de contenu open-source basé sur un framework PHP populaire pour le développement web.",
+      "de": "Winter ist ein kostenloses Open-Source-Content-Management-System auf Basis eines beliebten PHP-Frameworks."
+    },
+    "download_url": "https://wintercms.com",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "tyde",
     "name": "tyde",
     "tagline": "Sleek material design desktop for Linux",
@@ -35361,6 +35781,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "vvveb",
+    "name": "Vvveb",
+    "tagline": "Build sites without coding",
+    "repo_url": "https://github.com/givanz/vvveb",
+    "full_name": "givanz/vvveb",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "website-builder",
+      "open-source"
+    ],
+    "icon": "/icons/vvveb.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1324,
+    "tier": "tier2_webapp",
+    "summary": "Vvveb lets anyone create a website, blog, or online shop using simple drag‑and‑drop tools, without needing to write code.",
+    "i18n": {
+      "it": "Vvveb consente a chiunque di realizzare un sito web, un blog o un negozio online usando semplici strumenti drag‑and‑drop, senza dover scrivere codice.",
+      "es": "Vvveb permite a cualquier persona crear un sitio web, blog o tienda en línea con herramientas de arrastrar y soltar, sin necesidad de escribir código.",
+      "fr": "Vvveb permet à chacun de créer un site web, un blog ou une boutique en ligne grâce à des outils glisser‑déposer simples, sans écrire de code.",
+      "de": "Vvveb ermöglicht es jedem, eine Website, einen Blog oder einen Online‑Shop mit einfachen Drag‑and‑Drop‑Werkzeugen zu erstellen, ganz ohne Code schreiben zu müssen."
+    },
+    "download_url": "https://www.vvveb.com",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "moonshine",
     "name": "MoonShine",
     "tagline": "Build custom admin panels instantly",
@@ -35415,6 +35863,34 @@
     },
     "download_url": "https://github.com/berbicanes/apiark/releases/download/v0.4.6/apiark-cli-windows-x86_64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "courselit",
+    "name": "CourseLit",
+    "tagline": "Create and sell online courses easily.",
+    "repo_url": "https://github.com/codelitdev/courselit",
+    "full_name": "codelitdev/courselit",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "education",
+      "publishing"
+    ],
+    "icon": "/icons/courselit.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1304,
+    "tier": "tier2_webapp",
+    "summary": "CourseLit lets you build your own branded website to sell online courses, digital downloads, and publish blogs without hassle.",
+    "i18n": {
+      "it": "CourseLit ti permette di creare un sito web personalizzato per vendere corsi online, file digitali e pubblicare blog senza complicazioni.",
+      "es": "CourseLit te permite crear tu propio sitio web para vender cursos en línea, descargas digitales y publicar blogs sin complicaciones.",
+      "fr": "CourseLit vous permet de créer votre propre site web pour vendre des cours en ligne, des fichiers numériques et publier des blogs facilement.",
+      "de": "Mit CourseLit erstellen Sie eine eigene Website, um Online-Kurse und digitale Downloads zu verkaufen sowie Blogs ohne Aufwand zu veröffentlichen."
+    },
+    "download_url": "https://courselit.app",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "lastwave-desktop",
@@ -35725,6 +36201,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "open-source-ruby-and-rails-apps",
+    "name": "Open Source Ruby and Rails Apps",
+    "tagline": "Curated collection of open-source Ruby projects",
+    "repo_url": "https://github.com/asyraffff/open-source-ruby-and-rails-apps",
+    "full_name": "asyraffff/open-source-ruby-and-rails-apps",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ruby",
+      "rails"
+    ],
+    "icon": "/icons/open-source-ruby-and-rails-apps.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 1262,
+    "tier": "tier2_webapp",
+    "summary": "Explore a massive hand-picked collection of open-source applications, tools, and website templates built using Ruby and Ruby on Rails.",
+    "i18n": {
+      "it": "Esplora una vasta raccolta di applicazioni open source, strumenti e modelli di siti web creati con Ruby e Ruby on Rails.",
+      "es": "Explora una gran colección de aplicaciones de código abierto, herramientas y plantillas web creadas con Ruby y Ruby on Rails.",
+      "fr": "Explorez une vaste collection d'applications open source, d'outils et de modèles de sites Web créés avec Ruby et Ruby on Rails.",
+      "de": "Entdecken Sie eine umfangreiche Sammlung von Open-Source-Anwendungen, Tools und Website-Vorlagen, die mit Ruby und Ruby on Rails erstellt wurden."
+    },
+    "download_url": "https://github.com/asyraffff/Open-Source-Ruby-and-Rails-Apps/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "rymdport",
     "name": "rymdport",
     "tagline": "Securely share files between your devices",
@@ -35779,6 +36283,34 @@
     },
     "download_url": "https://getaether.net",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "badaso",
+    "name": "Badaso",
+    "tagline": "Build apps and dashboards ten times faster.",
+    "repo_url": "https://github.com/uasoft-indonesia/badaso",
+    "full_name": "uasoft-indonesia/badaso",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "dashboard",
+      "admin-panel"
+    ],
+    "icon": "/icons/badaso.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 1255,
+    "tier": "tier2_webapp",
+    "summary": "An open-source administration panel and interface builder that helps you create data forms, user permissions, and digital tools quickly.",
+    "i18n": {
+      "it": "Un pannello di amministrazione open source per creare moduli di dati, permessi utente e strumenti digitali in modo semplice.",
+      "es": "Un panel de administración de código abierto para crear formularios de datos, permisos de usuario y herramientas digitales.",
+      "fr": "Un panneau d'administration open source pour créer des formulaires de données, des rôles d'utilisateurs et des outils numériques.",
+      "de": "Ein Open-Source-Administrationspanel zum einfachen Erstellen von Datenformularen, Benutzerrechten und digitalen Werkzeugen."
+    },
+    "download_url": "https://badaso.uatech.co.id",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "spot",
@@ -35977,6 +36509,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "typo3",
+    "name": "TYPO3",
+    "tagline": "Powerful open-source enterprise web content system.",
+    "repo_url": "https://github.com/typo3/typo3",
+    "full_name": "typo3/typo3",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "php"
+    ],
+    "icon": "/icons/typo3.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v2)",
+    "stars": 1224,
+    "tier": "tier2_webapp",
+    "summary": "TYPO3 is a flexible and secure enterprise content management platform designed to build sophisticated multi-site web portals.",
+    "i18n": {
+      "it": "TYPO3 is a flexible and secure enterprise content management platform designed to build sophisticated multi-site web portals.",
+      "es": "TYPO3 is a flexible and secure enterprise content management platform designed to build sophisticated multi-site web portals.",
+      "fr": "TYPO3 is a flexible and secure enterprise content management platform designed to build sophisticated multi-site web portals.",
+      "de": "TYPO3 is a flexible and secure enterprise content management platform designed to build sophisticated multi-site web portals."
+    },
+    "download_url": "https://typo3.org",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "cui",
     "name": "CUI",
     "tagline": "Lightweight immediate-mode UI components for C",
@@ -36059,6 +36619,34 @@
     },
     "download_url": "https://github.com/wieslawsoltes/Core2D/releases/download/11.0.0-rc1.1/Core2D.11.0.0-rc1.1.nupkg",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "forkcms",
+    "name": "Fork CMS",
+    "tagline": "Simple website builder for everyone",
+    "repo_url": "https://github.com/forkcms/forkcms",
+    "full_name": "forkcms/forkcms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "website",
+      "content"
+    ],
+    "icon": "/icons/forkcms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 1173,
+    "tier": "tier2_webapp",
+    "summary": "Fork lets you create and manage a website without needing to write code, offering an easy step‑by‑step setup and friendly editing tools.",
+    "i18n": {
+      "it": "Fork ti permette di creare e gestire un sito web senza scrivere codice, con una configurazione guidata e strumenti di modifica intuitivi.",
+      "es": "Fork te permite crear y administrar un sitio web sin necesidad de programar, ofreciendo una configuración paso a paso y herramientas de edición fáciles de usar.",
+      "fr": "Fork vous permet de créer et gérer un site web sans écrire de code, grâce à une configuration guidée et des outils d’édition conviviaux.",
+      "de": "Fork ermöglicht Ihnen, eine Website zu erstellen und zu verwalten, ohne Code zu schreiben, mit einfacher Einrichtung und benutzerfreundlichen Bearbeitungswerkzeugen."
+    },
+    "download_url": "https://www.fork-cms.com",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "yolov8-pyside6-gui",
@@ -36478,6 +37066,34 @@
       "de": "Tianti ist ein Open-Source-Java-Inhaltsszenario mit vorgefertigten Website-Vorlagen und anpassungsfähigen mobilen Layouts."
     },
     "download_url": "https://github.com/xujeff/tianti/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "bbs",
+    "name": "bbs",
+    "tagline": "Fast, modern community forum",
+    "repo_url": "https://github.com/diyhi/bbs",
+    "full_name": "diyhi/bbs",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "community",
+      "forum"
+    ],
+    "icon": "/icons/bbs.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 1087,
+    "tier": "tier2_webapp",
+    "summary": "A high-performance online discussion platform that works on both phones and computers.",
+    "i18n": {
+      "it": "Una piattaforma di discussione ad alte prestazioni che funziona su telefoni e computer.",
+      "es": "Una plataforma de discusión de alto rendimiento que funciona en teléfonos y computadoras.",
+      "fr": "Une plateforme de discussion haute performance qui fonctionne sur les téléphones et les ordinateurs.",
+      "de": "Eine Hochleistungs-Diskussionsplattform, die auf Handys und Computern funktioniert."
+    },
+    "download_url": "https://github.com/diyhi/bbs/releases",
     "updated_at": "2026-11-22"
   },
   {
@@ -37741,6 +38357,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "zblogphp",
+    "name": "zblogphp",
+    "tagline": "Build custom websites and blogs easily.",
+    "repo_url": "https://github.com/zblogcn/zblogphp",
+    "full_name": "zblogcn/zblogphp",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "php"
+    ],
+    "icon": "/icons/zblogphp.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 877,
+    "tier": "tier2_webapp",
+    "summary": "Create personal blogs, knowledge bases, and community forums effortlessly with this lightweight, high-performance website builder.",
+    "i18n": {
+      "it": "Crea facilmente blog personali, basi di conoscenza e forum con questo generatore di siti web leggero e veloce.",
+      "es": "Crea blogs personales, bases de conocimiento y foros de forma sencilla con este creador de sitios web ligero.",
+      "fr": "Créez facilement des blogs personnels et des forums grâce à ce créateur de sites web léger et performant.",
+      "de": "Erstellen Sie persönliche Blogs und Foren mühelos mit diesem leichtgewichtigen und schnellen Website-Generator."
+    },
+    "download_url": "https://www.zblogcn.com",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "dev-janitor",
     "name": "Dev-Janitor",
     "tagline": "Clean junk files and manage dev tools",
@@ -37767,6 +38411,62 @@
     },
     "download_url": "https://github.com/cocojojo5213/Dev-Janitor/releases/download/v2.5.1/Dev.Janitor_2.5.1_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "intlayer",
+    "name": "Intlayer",
+    "tagline": "AI-powered translation and visual CMS for apps.",
+    "repo_url": "https://github.com/aymericzip/intlayer",
+    "full_name": "aymericzip/intlayer",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "i18n",
+      "translation"
+    ],
+    "icon": "/icons/intlayer.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 866,
+    "tier": "tier2_webapp",
+    "summary": "Translate your JavaScript applications into multiple languages seamlessly using type-safe components, an AI assistant, and a built-in visual editor.",
+    "i18n": {
+      "it": "Traduci le tue applicazioni JavaScript in più lingue usando componenti sicuri, intelligenza artificiale e un editor visivo.",
+      "es": "Traduce tus aplicaciones JavaScript a múltiples idiomas de forma sencilla utilizando componentes seguros y un editor visual.",
+      "fr": "Traduisez vos applications JavaScript en plusieurs langues à l'aide de composants sécurisés, d'une IA et d'un éditeur visuel.",
+      "de": "Übersetzen Sie Ihre JavaScript-Anwendungen mühelos in mehrere Sprachen mit typsicheren Komponenten und einem visuellen Editor."
+    },
+    "download_url": "https://github.com/aymericzip/intlayer/releases/download/v9.8.4/intlayer_0.1.0_x64-setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "classicpress",
+    "name": "ClassicPress",
+    "tagline": "The lightweight CMS for content creators",
+    "repo_url": "https://github.com/classicpress/classicpress",
+    "full_name": "classicpress/classicpress",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "blogging"
+    ],
+    "icon": "/icons/classicpress.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v2)",
+    "stars": 864,
+    "tier": "tier2_webapp",
+    "summary": "ClassicPress is a stable, lightweight website builder that preserves the traditional writing experience without modern bloat.",
+    "i18n": {
+      "it": "ClassicPress è un generatore di siti web stabile e leggero che preserva la tradizionale esperienza di scrittura senza fronzoli.",
+      "es": "ClassicPress es un creador de sitios web estable y ligero que conserva la experiencia de escritura tradicional sin complicaciones.",
+      "fr": "ClassicPress est un créateur de sites web stable et léger qui préserve l'expérience d'écriture traditionnelle sans superflu.",
+      "de": "ClassicPress ist ein stabiler, leichter Website-Builder, der das traditionelle Schreiberlebnis ohne unnötigen Ballast bewahrt."
+    },
+    "download_url": "https://www.classicpress.net",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "shell-rs",
