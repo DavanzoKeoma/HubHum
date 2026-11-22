@@ -166,5 +166,12 @@
     "html_url": "https://github.com/CursorTouch/Windows-MCP",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-22T18:15:59.807426+00:00"
+  },
+  {
+    "full_name": "LSPosed/MagiskOnWSALocal",
+    "slug": "magiskonwsalocal",
+    "html_url": "https://github.com/LSPosed/MagiskOnWSALocal",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-22T18:18:46.583738+00:00"
   }
 ]

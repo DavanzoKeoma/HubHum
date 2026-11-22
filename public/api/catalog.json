@@ -2,26 +2,26 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-22T18:17:41.819398+00:00",
-  "total_apps": 1400,
+  "generated_at": "2026-11-22T18:22:53.955718+00:00",
+  "total_apps": 1425,
   "tier_counts": {
     "tier3_powertool": 275,
     "tier2_webapp": 413,
-    "tier1_gui": 712
+    "tier1_gui": 737
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 265,
     "selfhosted": 412,
-    "desktop": 712,
+    "desktop": 737,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 26,
-    "Productivity": 614,
-    "Security & Privacy": 43,
+    "Productivity": 636,
+    "Security & Privacy": 45,
     "Utilities & Power Tools": 250,
-    "Video & Audio": 77,
+    "Video & Audio": 78,
     "Web Apps & Cloud": 389,
     "Websites & SEO": 1
   },
@@ -13689,6 +13689,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "ytdownloader",
+      "name": "ytDownloader",
+      "tagline": "Save videos and music easily anywhere.",
+      "repo_url": "https://github.com/aandrew-me/ytdownloader",
+      "full_name": "aandrew-me/ytdownloader",
+      "category": "Video & Audio",
+      "tags": [
+        "video-downloader",
+        "audio-downloader"
+      ],
+      "icon": "/icons/ytdownloader.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 10742,
+      "tier": "tier1_gui",
+      "summary": "Download your favorite videos, songs, and entire playlists from hundreds of popular websites directly to your computer with a clean app.",
+      "i18n": {
+        "it": "Salva i tuoi video, brani e intere playlist preferiti da centinaia di siti web direttamente sul tuo computer con facilità.",
+        "es": "Descarga tus videos, canciones y listas de reproducción favoritas desde cientos de sitios web populares directamente a tu PC.",
+        "fr": "Enregistrez vos vidéos, chansons et listes de lecture préférées depuis des centaines de sites web directement sur votre ordinateur.",
+        "de": "Laden Sie Ihre Lieblingsvideos, Songs und komplette Playlists von Hunderten beliebten Websites direkt auf Ihren Computer herunter."
+      },
+      "download_url": "https://github.com/aandrew-me/ytDownloader/releases/download/v4.1.0/YTDownloader_Win.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "openscad",
+      "name": "OpenSCAD",
+      "tagline": "Create 3D models using simple code",
+      "repo_url": "https://github.com/openscad/openscad",
+      "full_name": "openscad/openscad",
+      "category": "Productivity",
+      "tags": [
+        "3d-modeling",
+        "cad"
+      ],
+      "icon": "/icons/openscad.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 10716,
+      "tier": "tier1_gui",
+      "summary": "OpenSCAD is a specialized tool for designing precise 3D objects by writing descriptive instructions instead of drawing them by hand.",
+      "i18n": {
+        "it": "OpenSCAD è uno strumento specializzato per progettare oggetti 3D precisi scrivendo istruzioni descrittive invece di disegnarli a mano.",
+        "es": "OpenSCAD es una herramienta especializada para diseñar objetos 3D precisos mediante instrucciones escritas en lugar de dibujarlos a mano.",
+        "fr": "OpenSCAD est un outil spécialisé pour concevoir des objets 3D précis en écrivant des instructions descriptives plutôt qu'en les dessinant.",
+        "de": "OpenSCAD ist ein spezialisiertes Werkzeug zur Konstruktion präziser 3D-Objekte durch das Schreiben von Anweisungen statt manueller Zeichnung."
+      },
+      "download_url": "https://github.com/openscad/openscad/releases/download/openscad-2021.01/OpenSCAD-2021.01-x86-32-Installer.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "soup",
       "name": "Soup",
       "tagline": "Train powerful AI models on everyday hardware.",
@@ -13717,6 +13773,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "popcorntime",
+      "name": "Popcorn Time",
+      "tagline": "Your media library in one place",
+      "repo_url": "https://github.com/popcorntime/popcorntime",
+      "full_name": "popcorntime/popcorntime",
+      "category": "Productivity",
+      "tags": [
+        "media",
+        "entertainment"
+      ],
+      "icon": "/icons/popcorntime.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 10704,
+      "tier": "tier1_gui",
+      "summary": "Popcorn Time is a community-driven application that organizes your movies and shows into a single, easy-to-use interface.",
+      "i18n": {
+        "it": "Popcorn Time è un'applicazione gestita dalla community che organizza film e serie TV in un'interfaccia semplice e intuitiva.",
+        "es": "Popcorn Time es una aplicación impulsada por la comunidad que organiza tus películas y series en una interfaz sencilla y fácil de usar.",
+        "fr": "Popcorn Time est une application communautaire qui organise vos films et émissions dans une interface simple et facile à utiliser.",
+        "de": "Popcorn Time ist eine von der Community betriebene Anwendung, die Ihre Filme und Serien in einer übersichtlichen Benutzeroberfläche bündelt."
+      },
+      "download_url": "https://popcorntime.app",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "oha",
       "name": "oha",
       "tagline": "Test website speed with live visual animations",
@@ -13743,6 +13827,34 @@
       },
       "download_url": "https://github.com/hatoo/oha/releases/download/v1.17.0/oha-windows-amd64-pgo.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "vicinae",
+      "name": "Vicinae",
+      "tagline": "Fast, native desktop launcher",
+      "repo_url": "https://github.com/vicinaehq/vicinae",
+      "full_name": "vicinaehq/vicinae",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "launcher"
+      ],
+      "icon": "/icons/vicinae.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 10686,
+      "tier": "tier1_gui",
+      "summary": "Vicinae is a quick, native command palette that helps you find files, apps, and text snippets instantly.",
+      "i18n": {
+        "it": "Vicinae è una palette di comandi nativa e veloce per trovare file, app e testi in un istante.",
+        "es": "Vicinae es una paleta de comandos nativa y rápida para encontrar archivos, aplicaciones y textos al instante.",
+        "fr": "Vicinae est une palette de commandes native et rapide pour trouver des fichiers, des applications et des textes instantanément.",
+        "de": "Vicinae ist eine schnelle, native Befehlspalette, um Dateien, Apps und Texte sofort zu finden."
+      },
+      "download_url": "https://github.com/vicinaehq/vicinae/releases/download/v0.30.1/vicinae-x64-setup.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "django-cms",
@@ -14025,6 +14137,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "openframeworks",
+      "name": "openFrameworks",
+      "tagline": "A creative toolkit for digital art",
+      "repo_url": "https://github.com/openframeworks/openframeworks",
+      "full_name": "openframeworks/openframeworks",
+      "category": "Productivity",
+      "tags": [
+        "creative-coding",
+        "art"
+      ],
+      "icon": "/icons/openframeworks.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux, Android, iOS",
+      "license": "Custom Open License",
+      "stars": 10472,
+      "tier": "tier1_gui",
+      "summary": "openFrameworks provides a set of tools that help artists and designers create interactive digital projects and visual art using code.",
+      "i18n": {
+        "it": "openFrameworks offre strumenti per aiutare artisti e designer a creare progetti digitali interattivi e arte visiva tramite il codice.",
+        "es": "openFrameworks ofrece herramientas que ayudan a artistas y diseñadores a crear proyectos digitales interactivos y arte visual con código.",
+        "fr": "openFrameworks fournit des outils pour aider les artistes et designers à créer des projets numériques interactifs et de l'art visuel.",
+        "de": "openFrameworks bietet Werkzeuge, mit denen Künstler und Designer interaktive digitale Projekte und visuelle Kunst programmieren können."
+      },
+      "download_url": "https://openframeworks.cc",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "feishin",
       "name": "Feishin",
       "tagline": "Modern self-hosted music player experience",
@@ -14109,6 +14249,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "cindy",
+      "name": "Cindy",
+      "tagline": "Your personal AI agent for real work",
+      "repo_url": "https://github.com/makecindy/cindy",
+      "full_name": "makecindy/cindy",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "ai-agent"
+      ],
+      "icon": "/icons/cindy.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 10408,
+      "tier": "tier1_gui",
+      "summary": "Cindy is an open-source AI assistant that connects your devices to help you manage files, automate tasks, and run your favorite AI tools.",
+      "i18n": {
+        "it": "Cindy è un assistente AI open source che collega i tuoi dispositivi per gestire file, automatizzare attività e usare i tuoi strumenti preferiti.",
+        "es": "Cindy es un asistente de IA de código abierto que conecta tus dispositivos para gestionar archivos, automatizar tareas y usar tus herramientas favoritas.",
+        "fr": "Cindy est un assistant IA open source qui connecte vos appareils pour gérer vos fichiers, automatiser vos tâches et utiliser vos outils préférés.",
+        "de": "Cindy ist ein Open-Source-KI-Assistent, der Ihre Geräte verbindet, um Dateien zu verwalten, Aufgaben zu automatisieren und Ihre Lieblingstools zu nutzen."
+      },
+      "download_url": "https://github.com/makecindy/cindy/releases/download/v0.1.143/cindy-0.1.143-win32-x64-cn.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "dashbeam",
       "name": "dashbeam",
       "tagline": "Fast and private peer-to-peer file sharing",
@@ -14163,6 +14331,34 @@
       },
       "download_url": "https://gdbgui.com",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "notepads",
+      "name": "Notepads",
+      "tagline": "A beautiful, fast, and modern text editor.",
+      "repo_url": "https://github.com/0x7c13/notepads",
+      "full_name": "0x7c13/notepads",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "windows"
+      ],
+      "icon": "/icons/notepads.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 10364,
+      "tier": "tier1_gui",
+      "summary": "Notepads is a lightweight text editor designed to replace basic tools with a clean, tabbed interface for your daily writing tasks.",
+      "i18n": {
+        "it": "Notepads è un editor di testo leggero con un'interfaccia a schede, perfetto per gestire appunti e file di configurazione con semplicità.",
+        "es": "Notepads es un editor de texto ligero con pestañas, diseñado para reemplazar herramientas básicas con una interfaz moderna y sencilla.",
+        "fr": "Notepads est un éditeur de texte léger à onglets, conçu pour remplacer les outils basiques par une interface moderne et intuitive.",
+        "de": "Notepads ist ein leichtgewichtiger Texteditor mit Registerkarten, der einfache Werkzeuge durch eine moderne und klare Oberfläche ersetzt."
+      },
+      "download_url": "https://github.com/0x7c13/Notepads/releases/download/v1.5.6.0/Notepads_1.5.6.0_x86_x64_arm64.msixbundle",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "claude-code-tips",
@@ -14247,6 +14443,34 @@
       },
       "download_url": "https://github.com/Kuberwastaken/claurst/releases/download/v0.2.1/install.ps1",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "mediacreationtool-bat",
+      "name": "MediaCreationTool.bat",
+      "tagline": "Easily create custom Windows installation media",
+      "repo_url": "https://github.com/aveyo/mediacreationtool.bat",
+      "full_name": "aveyo/mediacreationtool.bat",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "utilities"
+      ],
+      "icon": "/icons/mediacreationtool-bat.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 10340,
+      "tier": "tier1_gui",
+      "summary": "This tool simplifies the process of creating Windows installation files, allowing for custom settings and automated upgrades.",
+      "i18n": {
+        "it": "Questo strumento semplifica la creazione di file di installazione Windows, consentendo impostazioni personalizzate e aggiornamenti automatici.",
+        "es": "Esta herramienta simplifica la creación de archivos de instalación de Windows, permitiendo ajustes personalizados y actualizaciones automáticas.",
+        "fr": "Cet outil simplifie la création de fichiers d'installation Windows, permettant des réglages personnalisés et des mises à jour automatiques.",
+        "de": "Dieses Tool vereinfacht das Erstellen von Windows-Installationsdateien und ermöglicht benutzerdefinierte Einstellungen sowie automatische Upgrades."
+      },
+      "download_url": "https://github.com/AveYo/MediaCreationTool.bat/releases",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "pixel-agents",
@@ -14471,6 +14695,34 @@
       },
       "download_url": "https://github.com/xo/usql/releases/download/v0.21.6/usql-0.21.6-darwin-amd64.tar.bz2",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "webtorrent-desktop",
+      "name": "WebTorrent Desktop",
+      "tagline": "Stream video and audio files instantly.",
+      "repo_url": "https://github.com/webtorrent/webtorrent-desktop",
+      "full_name": "webtorrent/webtorrent-desktop",
+      "category": "Productivity",
+      "tags": [
+        "media",
+        "streaming"
+      ],
+      "icon": "/icons/webtorrent-desktop.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 10151,
+      "tier": "tier1_gui",
+      "summary": "WebTorrent Desktop allows you to watch videos or listen to audio files immediately as they download, without waiting for the full file to finish.",
+      "i18n": {
+        "it": "WebTorrent Desktop ti permette di guardare video o ascoltare file audio mentre vengono scaricati, senza attendere il completamento del download.",
+        "es": "WebTorrent Desktop te permite ver videos o escuchar archivos de audio mientras se descargan, sin esperar a que el archivo termine de bajar.",
+        "fr": "WebTorrent Desktop vous permet de regarder des vidéos ou d'écouter des fichiers audio pendant leur téléchargement, sans attendre la fin du transfert.",
+        "de": "WebTorrent Desktop ermöglicht es Ihnen, Videos oder Audiodateien direkt während des Herunterladens anzusehen, ohne auf den Abschluss zu warten."
+      },
+      "download_url": "https://github.com/webtorrent/webtorrent-desktop/releases/download/v0.24.0/WebTorrentSetup-v0.24.0.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "feynman",
@@ -14949,6 +15201,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "windows-auto-night-mode",
+      "name": "Windows Auto Night Mode",
+      "tagline": "Automate your Windows theme with ease",
+      "repo_url": "https://github.com/autodarkmode/windows-auto-night-mode",
+      "full_name": "autodarkmode/windows-auto-night-mode",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "productivity"
+      ],
+      "icon": "/icons/windows-auto-night-mode.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v3)",
+      "stars": 9843,
+      "tier": "tier1_gui",
+      "summary": "Automatically switch your Windows theme between light and dark modes based on the time of day or your local sunrise and sunset.",
+      "i18n": {
+        "it": "Cambia automaticamente il tema di Windows tra chiaro e scuro in base all'ora del giorno o agli orari di alba e tramonto.",
+        "es": "Cambia automáticamente el tema de Windows entre claro y oscuro según la hora del día o el amanecer y el atardecer locales.",
+        "fr": "Basculez automatiquement le thème Windows entre clair et sombre selon l'heure de la journée ou le lever et le coucher du soleil.",
+        "de": "Wechseln Sie Ihr Windows-Design automatisch zwischen hell und dunkel, basierend auf der Tageszeit oder dem Sonnenauf- und untergang."
+      },
+      "download_url": "https://github.com/AutoDarkMode/Windows-Auto-Night-Mode/releases/download/11.1.1.1/AutoDarkMode_Setup_11.1.1.1_ARM64.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "mahapps-metro",
+      "name": "MahApps.Metro",
+      "tagline": "Modernize your Windows desktop applications easily.",
+      "repo_url": "https://github.com/mahapps/mahapps.metro",
+      "full_name": "mahapps/mahapps.metro",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "design"
+      ],
+      "icon": "/icons/mahapps-metro.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 9840,
+      "tier": "tier1_gui",
+      "summary": "MahApps.Metro provides a collection of tools to give standard Windows desktop software a clean, modern, and professional appearance.",
+      "i18n": {
+        "it": "MahApps.Metro offre strumenti per dare alle app Windows un aspetto moderno, pulito e professionale con il minimo sforzo.",
+        "es": "MahApps.Metro proporciona herramientas para dar a las aplicaciones de escritorio de Windows un aspecto moderno, limpio y profesional.",
+        "fr": "MahApps.Metro fournit des outils pour donner aux logiciels Windows une apparence moderne, propre et professionnelle.",
+        "de": "MahApps.Metro bietet Werkzeuge, um Windows-Desktop-Anwendungen ein modernes, sauberes und professionelles Aussehen zu verleihen."
+      },
+      "download_url": "https://mahapps.github.io/mahapps.com/",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "psysh",
       "name": "PsySH",
       "tagline": "Interactive console for PHP programming",
@@ -15003,6 +15311,34 @@
       },
       "download_url": "https://symfony.com/console",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "fluent-reader",
+      "name": "Fluent Reader",
+      "tagline": "A clean and modern news reader",
+      "repo_url": "https://github.com/yang991178/fluent-reader",
+      "full_name": "yang991178/fluent-reader",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "news"
+      ],
+      "icon": "/icons/fluent-reader.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (BSD)",
+      "stars": 9803,
+      "tier": "tier1_gui",
+      "summary": "Fluent Reader gathers all your favorite websites and news feeds into one organized, distraction-free desktop workspace.",
+      "i18n": {
+        "it": "Fluent Reader raccoglie tutti i tuoi siti web e feed di notizie preferiti in uno spazio di lavoro desktop organizzato e senza distrazioni.",
+        "es": "Fluent Reader reúne todos tus sitios web y fuentes de noticias favoritos en un espacio de trabajo de escritorio organizado y sin distracciones.",
+        "fr": "Fluent Reader rassemble tous vos sites web et flux d'actualités préférés dans un espace de travail de bureau organisé et sans distraction.",
+        "de": "Fluent Reader bündelt alle Ihre Lieblings-Websites und Nachrichten-Feeds in einem organisierten, ablenkungsfreien Desktop-Arbeitsbereich."
+      },
+      "download_url": "https://github.com/yang991178/fluent-reader/releases/download/v1.3.2/Fluent.Reader.Setup.1.3.2.x64.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "reviewdog",
@@ -15201,6 +15537,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "airtest",
+      "name": "Airtest",
+      "tagline": "Cross-platform visual test automation framework",
+      "repo_url": "https://github.com/airtestproject/airtest",
+      "full_name": "airtestproject/airtest",
+      "category": "Productivity",
+      "tags": [
+        "testing",
+        "automation"
+      ],
+      "icon": "/icons/airtest.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 9658,
+      "tier": "tier1_gui",
+      "summary": "Automate app and game testing across different platforms using smart image recognition and easy-to-read instructions.",
+      "i18n": {
+        "it": "Automatizza i test di app e giochi su diverse piattaforme usando il riconoscimento visivo intelligente delle immagini.",
+        "es": "Automatiza pruebas de aplicaciones y juegos en múltiples plataformas usando reconocimiento inteligente de imágenes.",
+        "fr": "Automatisez les tests d'applications et de jeux sur différentes plateformes grâce à la reconnaissance d'images.",
+        "de": "Automatisieren Sie App- und Spieletests auf verschiedenen Plattformen mit intelligentem Bilderkennungs-System."
+      },
+      "download_url": "https://airtest.netease.com/",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "self-hosted",
       "name": "Self-Hosted",
       "tagline": "Track app errors on your own server",
@@ -15397,6 +15761,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "deskbox",
+      "name": "DeskBox",
+      "tagline": "Organize your Windows desktop with style",
+      "repo_url": "https://github.com/tianyu199509/deskbox",
+      "full_name": "tianyu199509/deskbox",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "windows"
+      ],
+      "icon": "/icons/deskbox.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v3)",
+      "stars": 9494,
+      "tier": "tier1_gui",
+      "summary": "DeskBox adds clean, native-looking widgets to your Windows desktop to help you organize files, notes, and tasks without cluttering your screen.",
+      "i18n": {
+        "it": "DeskBox aggiunge widget eleganti al tuo desktop Windows per organizzare file, note e attività senza creare confusione.",
+        "es": "DeskBox añade widgets elegantes a tu escritorio de Windows para organizar archivos, notas y tareas sin desordenar tu pantalla.",
+        "fr": "DeskBox ajoute des widgets élégants à votre bureau Windows pour organiser vos fichiers, notes et tâches sans encombrer votre écran.",
+        "de": "DeskBox fügt Ihrem Windows-Desktop elegante Widgets hinzu, um Dateien, Notizen und Aufgaben übersichtlich zu verwalten."
+      },
+      "download_url": "https://github.com/Tianyu199509/DeskBox/releases/download/v1.5.9/DeskBox_Setup_1.5.9_arm64.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "terax-ai",
+      "name": "Terax",
+      "tagline": "Lightweight workspace for AI-powered coding",
+      "repo_url": "https://github.com/crynta/terax-ai",
+      "full_name": "crynta/terax-ai",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "development"
+      ],
+      "icon": "/icons/terax-ai.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 9488,
+      "tier": "tier1_gui",
+      "summary": "Terax is a compact, fast workspace that combines a powerful terminal with built-in AI tools to help you write and manage code more efficiently.",
+      "i18n": {
+        "it": "Terax è un ambiente compatto e veloce che unisce un terminale avanzato a strumenti di intelligenza artificiale per semplificare la scrittura di codice.",
+        "es": "Terax es un espacio de trabajo compacto y rápido que combina una terminal potente con herramientas de IA para gestionar tu código con facilidad.",
+        "fr": "Terax est un environnement compact et rapide qui associe un terminal puissant à des outils d'IA pour faciliter la gestion de vos projets de code.",
+        "de": "Terax ist ein kompakter und schneller Arbeitsbereich, der ein leistungsstarkes Terminal mit KI-Funktionen für effizientes Programmieren verbindet."
+      },
+      "download_url": "https://github.com/crynta/terax-ai/releases/download/v0.9.0/Terax_0.9.0_x64-setup.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "visidata",
       "name": "visidata",
       "tagline": "Explore and arrange spreadsheet data instantly",
@@ -15509,6 +15929,62 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "multipass",
+      "name": "Multipass",
+      "tagline": "Run Ubuntu instantly on any computer",
+      "repo_url": "https://github.com/canonical/multipass",
+      "full_name": "canonical/multipass",
+      "category": "Productivity",
+      "tags": [
+        "virtualization",
+        "ubuntu"
+      ],
+      "icon": "/icons/multipass.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 9417,
+      "tier": "tier1_gui",
+      "summary": "Multipass lets you create a fresh Ubuntu environment on Windows, macOS or Linux, so you can test software or learn Linux without changing your main system.",
+      "i18n": {
+        "it": "Multipass ti permette di creare un ambiente Ubuntu nuovo su Windows, macOS o Linux, così puoi provare software o imparare Linux senza modificare il tuo sistema principale.",
+        "es": "Multipass te permite crear un entorno Ubuntu nuevo en Windows, macOS o Linux, para que puedas probar programas o aprender Linux sin cambiar tu sistema principal.",
+        "fr": "Multipass vous permet de créer un nouvel environnement Ubuntu sur Windows, macOS ou Linux, afin de tester des logiciels ou d’apprendre Linux sans modifier votre système principal.",
+        "de": "Multipass ermöglicht es Ihnen, eine neue Ubuntu-Umgebung unter Windows, macOS oder Linux zu erstellen, sodass Sie Software testen oder Linux lernen können, ohne Ihr Hauptsystem zu verändern."
+      },
+      "download_url": "https://github.com/canonical/multipass/releases/download/v1.17.2/multipass-1.17.2%2Bwin-win64.msi",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "compactgui",
+      "name": "CompactGUI",
+      "tagline": "Shrink your games and save disk space",
+      "repo_url": "https://github.com/iridiumio/compactgui",
+      "full_name": "iridiumio/compactgui",
+      "category": "Productivity",
+      "tags": [
+        "storage",
+        "utilities"
+      ],
+      "icon": "/icons/compactgui.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v3)",
+      "stars": 9404,
+      "tier": "tier1_gui",
+      "summary": "CompactGUI helps you reduce the size of your games and programs on your hard drive without affecting how they run or open.",
+      "i18n": {
+        "it": "CompactGUI riduce lo spazio occupato da giochi e programmi sul disco senza influire sulle prestazioni o sul funzionamento.",
+        "es": "CompactGUI reduce el espacio que ocupan tus juegos y programas en el disco sin afectar su rendimiento ni su funcionamiento.",
+        "fr": "CompactGUI réduit l'espace occupé par vos jeux et logiciels sur le disque sans altérer leurs performances ou leur usage.",
+        "de": "CompactGUI verringert den Speicherplatzbedarf Ihrer Spiele und Programme, ohne deren Leistung oder Funktion zu beeinträchtigen."
+      },
+      "download_url": "https://github.com/IridiumIO/CompactGUI/releases/download/v4.0.0-beta.12/CompactGUI.arm64.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "mobileagent",
       "name": "MobileAgent",
       "tagline": "Smart visual assistant for automated screen tasks.",
@@ -15565,6 +16041,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "winmerge",
+      "name": "WinMerge",
+      "tagline": "Easily compare and merge your files",
+      "repo_url": "https://github.com/winmerge/winmerge",
+      "full_name": "winmerge/winmerge",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "file-management"
+      ],
+      "icon": "/icons/winmerge.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v2)",
+      "stars": 9393,
+      "tier": "tier1_gui",
+      "summary": "WinMerge helps you spot differences between files and folders, making it simple to see what changed and combine your work efficiently.",
+      "i18n": {
+        "it": "WinMerge ti aiuta a individuare le differenze tra file e cartelle, rendendo semplice vedere cosa è cambiato e unire il tuo lavoro.",
+        "es": "WinMerge te ayuda a detectar diferencias entre archivos y carpetas, facilitando la visualización de cambios y la unión de tu trabajo.",
+        "fr": "WinMerge vous aide à repérer les différences entre vos fichiers et dossiers, facilitant la visualisation des changements et la fusion.",
+        "de": "WinMerge hilft Ihnen, Unterschiede zwischen Dateien und Ordnern zu finden, Änderungen zu sehen und Ihre Arbeit effizient zusammenzuführen."
+      },
+      "download_url": "https://github.com/WinMerge/winmerge/releases/download/v2.16.60/WinMerge-2.16.60-ARM64-Setup.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "highlight",
       "name": "Highlight",
       "tagline": "Full-stack monitoring and session replay",
@@ -15591,6 +16095,34 @@
       },
       "download_url": "https://app.highlight.io",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "twinkle-tray",
+      "name": "Twinkle Tray",
+      "tagline": "Easily control monitor brightness on Windows",
+      "repo_url": "https://github.com/xanderfrangos/twinkle-tray",
+      "full_name": "xanderfrangos/twinkle-tray",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "utility"
+      ],
+      "icon": "/icons/twinkle-tray.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 9386,
+      "tier": "tier1_gui",
+      "summary": "Twinkle Tray adds a simple slider to your taskbar, allowing you to adjust the brightness of all your connected monitors at once.",
+      "i18n": {
+        "it": "Twinkle Tray aggiunge un cursore alla barra delle applicazioni per regolare la luminosità di tutti i tuoi monitor in modo semplice.",
+        "es": "Twinkle Tray añade un control deslizante a tu barra de tareas para ajustar el brillo de todos tus monitores simultáneamente.",
+        "fr": "Twinkle Tray ajoute un curseur à votre barre des tâches pour régler la luminosité de tous vos écrans en un seul clic.",
+        "de": "Twinkle Tray fügt einen Schieberegler zur Taskleiste hinzu, mit dem Sie die Helligkeit all Ihrer Monitore gleichzeitig anpassen können."
+      },
+      "download_url": "https://github.com/xanderfrangos/twinkle-tray/releases/download/v1.17.2/Twinkle.Tray.v1.17.2.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "praisonai",
@@ -15646,6 +16178,34 @@
         "de": "Behalten Sie Ihre täglichen Aufgaben und schnellen Notizen direkt in Ihrem Befehlszeilen-Terminal im Blick."
       },
       "download_url": "https://klaudiosinani.com/taskbook",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "simplewall",
+      "name": "simplewall",
+      "tagline": "Total control over your computer's internet access.",
+      "repo_url": "https://github.com/henrypp/simplewall",
+      "full_name": "henrypp/simplewall",
+      "category": "Security & Privacy",
+      "tags": [
+        "privacy",
+        "security"
+      ],
+      "icon": "/icons/simplewall.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v3)",
+      "stars": 9348,
+      "tier": "tier1_gui",
+      "summary": "Simplewall is a lightweight tool that lets you decide exactly which programs on your computer are allowed to connect to the internet.",
+      "i18n": {
+        "it": "Simplewall è uno strumento leggero che ti permette di decidere quali programmi sul tuo computer possono accedere a internet.",
+        "es": "Simplewall es una herramienta ligera que te permite decidir qué programas de tu equipo tienen permiso para conectarse a internet.",
+        "fr": "Simplewall est un outil léger qui vous permet de décider quels programmes sur votre ordinateur peuvent se connecter à internet.",
+        "de": "Simplewall ist ein leichtgewichtiges Werkzeug, mit dem Sie genau festlegen können, welche Programme auf Ihren Internetzugriff zugreifen dürfen."
+      },
+      "download_url": "https://github.com/henrypp/simplewall/releases/download/v.3.8.7/simplewall-3.8.7-setup.exe",
       "updated_at": "2026-11-22"
     },
     {
@@ -15789,6 +16349,62 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "outline-apps",
+      "name": "Outline Apps",
+      "tagline": "Create and share your own private internet connection.",
+      "repo_url": "https://github.com/outlinefoundation/outline-apps",
+      "full_name": "outlinefoundation/outline-apps",
+      "category": "Security & Privacy",
+      "tags": [
+        "privacy",
+        "security"
+      ],
+      "icon": "/icons/outline-apps.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 9291,
+      "tier": "tier1_gui",
+      "summary": "Outline allows you to easily set up your own private server to browse the internet securely and share that access with friends and family.",
+      "i18n": {
+        "it": "Outline ti permette di configurare facilmente un server privato per navigare in sicurezza e condividere l'accesso con chi vuoi.",
+        "es": "Outline te permite configurar fácilmente tu propio servidor privado para navegar de forma segura y compartir el acceso con otros.",
+        "fr": "Outline vous permet de configurer facilement votre propre serveur privé pour naviguer en toute sécurité et partager l'accès.",
+        "de": "Outline ermöglicht es Ihnen, einfach einen eigenen privaten Server einzurichten, um sicher zu surfen und den Zugang zu teilen."
+      },
+      "download_url": "https://github.com/OutlineFoundation/outline-apps/releases/download/v1.10.1/Outline-Client.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "chakracore",
+      "name": "ChakraCore",
+      "tagline": "Add JavaScript power to your own software.",
+      "repo_url": "https://github.com/chakra-core/chakracore",
+      "full_name": "chakra-core/chakracore",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "engine"
+      ],
+      "icon": "/icons/chakracore.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 9260,
+      "tier": "tier1_gui",
+      "summary": "ChakraCore is a specialized engine that allows software creators to run JavaScript code inside their own custom applications.",
+      "i18n": {
+        "it": "ChakraCore è un motore specializzato che permette agli sviluppatori di eseguire codice JavaScript all'interno delle proprie applicazioni.",
+        "es": "ChakraCore es un motor especializado que permite a los creadores de software ejecutar código JavaScript dentro de sus propias aplicaciones.",
+        "fr": "ChakraCore est un moteur spécialisé permettant aux créateurs de logiciels d'exécuter du code JavaScript au sein de leurs propres applications.",
+        "de": "ChakraCore ist eine spezialisierte Engine, mit der Softwareentwickler JavaScript-Code in ihren eigenen Anwendungen ausführen können."
+      },
+      "download_url": "https://github.com/chakra-core/ChakraCore/releases",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "prestashop",
       "name": "PrestaShop",
       "tagline": "Build your professional online store.",
@@ -15815,6 +16431,34 @@
       },
       "download_url": "https://www.prestashop-project.org/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "apkstart",
+      "name": "ApkStart",
+      "tagline": "Run Android apps like native Windows software.",
+      "repo_url": "https://github.com/routinemiku/apkstart",
+      "full_name": "routinemiku/apkstart",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "windows"
+      ],
+      "icon": "/icons/apkstart.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Android",
+      "license": "Open Source (MIT)",
+      "stars": 9205,
+      "tier": "tier1_gui",
+      "summary": "ApkStart lets you install and run Android apps on your PC as if they were native programs, complete with individual desktop icons and windows.",
+      "i18n": {
+        "it": "ApkStart ti permette di installare ed eseguire app Android sul PC come se fossero programmi nativi, con icone e finestre dedicate.",
+        "es": "ApkStart te permite instalar y ejecutar apps de Android en tu PC como si fueran programas nativos, con iconos y ventanas independientes.",
+        "fr": "ApkStart vous permet d'installer et d'exécuter des apps Android sur votre PC comme des programmes natifs, avec icônes et fenêtres dédiées.",
+        "de": "ApkStart ermöglicht es Ihnen, Android-Apps auf Ihrem PC wie native Programme zu installieren und in eigenen Fenstern zu nutzen."
+      },
+      "download_url": "https://github.com/RoutineMiku/apkstart/releases",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "atlas",
@@ -16153,6 +16797,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "noi",
+      "name": "Noi",
+      "tagline": "Streamline your digital workspace and focus",
+      "repo_url": "https://github.com/lencx/noi",
+      "full_name": "lencx/noi",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "browser"
+      ],
+      "icon": "/icons/noi.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 9075,
+      "tier": "tier1_gui",
+      "summary": "Noi helps you organize your online tasks and AI interactions in one clean, private, and distraction-free desktop environment.",
+      "i18n": {
+        "it": "Noi ti aiuta a organizzare le attività online e le interazioni con l'intelligenza artificiale in un ambiente desktop pulito e privato.",
+        "es": "Noi te ayuda a organizar tus tareas en línea y el uso de inteligencia artificial en un entorno de escritorio limpio y privado.",
+        "fr": "Noi vous aide à organiser vos tâches en ligne et vos interactions avec l'IA dans un environnement de bureau propre et privé.",
+        "de": "Noi hilft Ihnen, Ihre Online-Aufgaben und KI-Interaktionen in einer sauberen, privaten und ablenkungsfreien Desktop-Umgebung zu organisieren."
+      },
+      "download_url": "https://github.com/lencx/Noi/releases/download/v1.1.0/Noi-1.1.0.Setup.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "bubbles",
       "name": "Bubbles",
       "tagline": "Building blocks for terminal interfaces.",
@@ -16178,6 +16850,34 @@
         "de": "Erstellen Sie interaktive Textbildschirme ganz einfach mit vorgefertigten Terminal-Komponenten."
       },
       "download_url": "https://github.com/charmbracelet/bubbles/releases",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "winfsp",
+      "name": "WinFsp",
+      "tagline": "Create custom virtual drives",
+      "repo_url": "https://github.com/winfsp/winfsp",
+      "full_name": "winfsp/winfsp",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "virtual-drive"
+      ],
+      "icon": "/icons/winfsp.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Custom Open License",
+      "stars": 9065,
+      "tier": "tier1_gui",
+      "summary": "WinFsp lets you turn any data source into a regular Windows drive, so any program can read and write it just like normal folders.",
+      "i18n": {
+        "it": "WinFsp trasforma qualsiasi origine dati in un’unità Windows normale, così i programmi possono leggerla e scriverla come una cartella tradizionale.",
+        "es": "WinFsp convierte cualquier fuente de datos en una unidad de Windows normal, permitiendo que cualquier programa la lea y la escriba como una carpeta habitual.",
+        "fr": "WinFsp transforme n’importe quelle source de données en un lecteur Windows ordinaire, de sorte que chaque programme peut le lire et l’écrire comme un dossier habituel.",
+        "de": "WinFsp wandelt jede Datenquelle in ein normales Windows‑Laufwerk um, sodass Programme darauf wie auf einem gewöhnlichen Ordner lesen und schreiben können."
+      },
+      "download_url": "https://github.com/winfsp/winfsp/releases/download/v2.2/winfsp-2.2.26323.msi",
       "updated_at": "2026-11-22"
     },
     {
