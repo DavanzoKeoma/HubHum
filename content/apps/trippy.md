@@ -1,0 +1,75 @@
+---
+title: "Trippy"
+slug: "trippy"
+tagline: "Combine traceroute and ping for networks"
+summary: "Diagnose network routing issues effortlessly by combining traceroute and ping into a single clear live display."
+tags: ["network", "diagnostics", "utilities", "troubleshooting"]
+is_webapp: false
+app_type: "cli"
+category: "Productivity"
+icon: "/icons/trippy.png"
+stars: 8185
+source_url: "https://github.com/fujiapple852/trippy"
+download_url: "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb"
+downloadUrl: "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb"
+download_label: "Download for Linux (.deb)"
+license: "Open Source (Apache 2.0)"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-22"
+i18n:
+  it:
+    tagline: "Combina traceroute e ping per le reti"
+    summary: "Diagnostica i problemi di rete combinando traceroute e ping in un'unica visualizzazione interattiva."
+  es:
+    tagline: "Combina traceroute y ping para redes"
+    summary: "Diagnostica problemas de red combinando traceroute y ping en una sola pantalla interactiva en vivo."
+  fr:
+    tagline: "Associe traceroute et ping pour les réseaux"
+    summary: "Diagnostiquez les problèmes de réseau en combinant traceroute et ping dans un affichage en direct."
+  de:
+    tagline: "Kombiniert Traceroute und Ping für Netzwerke"
+    summary: "Diagnostizieren Sie Netzwerkprobleme einfach durch die Kombination von Traceroute und Ping."
+---
+
+### What it does in plain English
+Trippy is a powerful network troubleshooting assistant that merges the traditional tools of ping and traceroute into one visual interface. It lets you inspect the exact path your internet traffic takes across servers while measuring latency and packet loss in real time. Whether your connection is dropping or loading slowly, it quickly points you to where the bottleneck is happening.
+
+### Who it's for
+* System administrators and network engineers diagnosing live routing issues
+* Developers troubleshooting server connectivity and latency spikes
+* Advanced home users investigating intermittent internet slowdowns
+
+### Key features
+* Combines continuous ping statistics with multi-hop trace routing in real time
+* Provides a clean, colorful text-based dashboard that updates dynamically
+* Supports multiple tracing protocols including ICMP, UDP, and TCP packets
+* Includes customizable themes, columns, and layout options for deep analysis
+* Works across major operating systems including Linux, macOS, and Windows
+
+### How to install (Download)
+You can download the official Debian package directly:
+* [Download for Linux (.deb)](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb)
+
+Alternatively, you can install Trippy using your system's package manager or command-line tools as shown in the project documentation.
+
+### Pros and Cons
+* **Pros:** Free and open source, lightweight, combines multiple diagnostic tools into one view
+* **Cons:** Requires command-line familiarity and administrator privileges for raw packet creation
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/fujiapple852/trippy)

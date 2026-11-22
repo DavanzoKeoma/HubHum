@@ -70,13 +70,6 @@
     "queued_at": "2026-11-22T10:53:36.816297+00:00"
   },
   {
-    "full_name": "xwmx/nb",
-    "slug": "nb",
-    "html_url": "https://github.com/xwmx/nb",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T10:57:39.414092+00:00"
-  },
-  {
     "full_name": "glzr-io/glazewm",
     "slug": "glazewm",
     "html_url": "https://github.com/glzr-io/glazewm",
@@ -138,5 +131,40 @@
     "html_url": "https://github.com/Dreamer-Paul/Single",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-22T18:29:06.388580+00:00"
+  },
+  {
+    "full_name": "robinmoisson/staticrypt",
+    "slug": "staticrypt",
+    "html_url": "https://github.com/robinmoisson/staticrypt",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-22T18:30:35.348145+00:00"
+  },
+  {
+    "full_name": "plopjs/plop",
+    "slug": "plop",
+    "html_url": "https://github.com/plopjs/plop",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-22T18:31:38.244108+00:00"
+  },
+  {
+    "full_name": "GoogleCloudPlatform/kubectl-ai",
+    "slug": "kubectl-ai",
+    "html_url": "https://github.com/GoogleCloudPlatform/kubectl-ai",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-22T18:31:43.471652+00:00"
+  },
+  {
+    "full_name": "jrnl-org/jrnl",
+    "slug": "jrnl",
+    "html_url": "https://github.com/jrnl-org/jrnl",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-22T18:31:54.523977+00:00"
+  },
+  {
+    "full_name": "unjs/consola",
+    "slug": "consola",
+    "html_url": "https://github.com/unjs/consola",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-22T18:32:02.330083+00:00"
   }
 ]

@@ -17610,6 +17610,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "nb",
+    "name": "nb",
+    "tagline": "Portable command-line note-taking and archiving",
+    "repo_url": "https://github.com/xwmx/nb",
+    "full_name": "xwmx/nb",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "notes",
+      "system-utility"
+    ],
+    "icon": "/icons/nb.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 8479,
+    "tier": "tier3_powertool",
+    "summary": "Manage notes, bookmarks, and archives securely in plain text right from your terminal or local web browser.",
+    "i18n": {
+      "it": "Gestisci note, segnalibri e archivi in testo semplice direttamente dal tuo terminale o browser web.",
+      "es": "Organiza notas, marcadores y archivos en texto plano directamente desde tu terminal o navegador web.",
+      "fr": "Gérez vos notes, favoris et archives en texte brut directement depuis votre terminal ou navigateur.",
+      "de": "Organisieren Sie Notizen, Lesezeichen und Archive in einfachem Text direkt im Terminal oder Browser."
+    },
+    "download_url": "https://github.com/xwmx/nb/releases/download/7.25.6/nb",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "app-store-connect-cli",
     "name": "App-Store-Connect-CLI",
     "tagline": "Automate app store releases from terminal",
@@ -17722,6 +17750,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "ni",
+    "name": "ni",
+    "tagline": "Use the right package manager effortlessly.",
+    "repo_url": "https://github.com/antfu-collective/ni",
+    "full_name": "antfu-collective/ni",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "utilities"
+    ],
+    "icon": "/icons/ni.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8320,
+    "tier": "tier3_powertool",
+    "summary": "Automatically detect and run the correct package manager commands for your software project without memorizing different syntax.",
+    "i18n": {
+      "it": "Rileva ed esegue automaticamente i comandi giusti per il tuo progetto senza dover memorizzare sintassi diverse.",
+      "es": "Detecta y ejecuta automáticamente los comandos adecuados para tu proyecto sin memorizar distintas sintaxis.",
+      "fr": "Détectez et exécutez automatiquement les bonnes commandes pour votre projet sans mémoriser différentes syntaxes.",
+      "de": "Erkennt und ausgeführt automatisch die passenden Befehle für Ihr Projekt, ohne dass Sie sich Syntax merken müssen."
+    },
+    "download_url": "https://github.com/antfu-collective/ni/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "ntrace-core",
     "name": "NTrace-core",
     "tagline": "Fast and lightweight visual network routing tool",
@@ -17748,6 +17804,34 @@
     },
     "download_url": "https://github.com/nxtrace/NTrace-core/releases/download/v1.7.6/nexttrace-tiny_windows_386.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "grex",
+    "name": "grex",
+    "tagline": "Generate search patterns from your examples",
+    "repo_url": "https://github.com/pemistahl/grex",
+    "full_name": "pemistahl/grex",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "productivity",
+      "developer-tools"
+    ],
+    "icon": "/icons/grex.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8313,
+    "tier": "tier3_powertool",
+    "summary": "Grex automatically creates complex text-matching patterns based on the specific examples you provide.",
+    "i18n": {
+      "it": "Grex crea automaticamente modelli di ricerca testuale complessi basandosi sugli esempi specifici che fornisci.",
+      "es": "Grex crea automáticamente patrones complejos de búsqueda de texto basados en los ejemplos específicos que proporciones.",
+      "fr": "Grex crée automatiquement des modèles de recherche de texte complexes basés sur les exemples spécifiques que vous fournissez.",
+      "de": "Grex erstellt automatisch komplexe Textsuchmuster basierend auf den spezifischen Beispielen, die Sie bereitstellen."
+    },
+    "download_url": "https://pemistahl.github.io/grex-js/",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "open-codesign",
@@ -17834,6 +17918,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "xh",
+    "name": "xh",
+    "tagline": "Friendly and fast web request tool",
+    "repo_url": "https://github.com/ducaale/xh",
+    "full_name": "ducaale/xh",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "networking",
+      "http"
+    ],
+    "icon": "/icons/xh.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8208,
+    "tier": "tier3_powertool",
+    "summary": "Send web requests and test online services quickly using a friendly, lightweight command-line tool designed for speed.",
+    "i18n": {
+      "it": "Invia richieste web e testa servizi online rapidamente con un pratico strumento da riga di comando leggero e veloce.",
+      "es": "Envía solicitudes web y prueba servicios en línea rápidamente con una práctica herramienta ligera y veloz.",
+      "fr": "Envoyez des requêtes web et testez des services en ligne rapidement grâce à un outil léger axé sur les performances.",
+      "de": "Senden Sie Webanfragen und testen Sie Onlinedienste schnell mit einem benutzerfreundlichen und leichten Befehlszeilen-Tool."
+    },
+    "download_url": "https://github.com/ducaale/xh/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "google-play-music-desktop-player-unofficial",
     "name": "Google-Play-Music-Desktop-Player-UNOFFICIAL-",
     "tagline": "Enjoy music player apps without browser tabs",
@@ -17888,6 +18000,62 @@
     },
     "download_url": "https://github.com/thewh1teagle/vibe/releases/download/v3.3.8/vibe_3.3.8_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "trippy",
+    "name": "Trippy",
+    "tagline": "Combine traceroute and ping for networks",
+    "repo_url": "https://github.com/fujiapple852/trippy",
+    "full_name": "fujiapple852/trippy",
+    "category": "Productivity",
+    "tags": [
+      "network",
+      "diagnostics"
+    ],
+    "icon": "/icons/trippy.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8185,
+    "tier": "tier3_powertool",
+    "summary": "Diagnose network routing issues effortlessly by combining traceroute and ping into a single clear live display.",
+    "i18n": {
+      "it": "Diagnostica i problemi di rete combinando traceroute e ping in un'unica visualizzazione interattiva.",
+      "es": "Diagnostica problemas de red combinando traceroute y ping en una sola pantalla interactiva en vivo.",
+      "fr": "Diagnostiquez les problèmes de réseau en combinant traceroute et ping dans un affichage en direct.",
+      "de": "Diagnostizieren Sie Netzwerkprobleme einfach durch die Kombination von Traceroute und Ping."
+    },
+    "download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "miniserve",
+    "name": "miniserve",
+    "tagline": "Instantly share local files over HTTP",
+    "repo_url": "https://github.com/svenstaro/miniserve",
+    "full_name": "svenstaro/miniserve",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "file-sharing"
+    ],
+    "icon": "/icons/miniserve.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 8166,
+    "tier": "tier3_powertool",
+    "summary": "A tiny tool that lets you instantly share files or folders over the web with a simple command.",
+    "i18n": {
+      "it": "Uno strumento leggero per condividere file o cartelle sul Web in un attimo con un semplice comando.",
+      "es": "Una pequeña herramienta para compartir archivos o carpetas en la web al instante con un comando sencillo.",
+      "fr": "Un petit outil pour partager instantanément des fichiers ou des dossiers sur le web en toute simplicité.",
+      "de": "Ein kleines Tool, um Dateien oder Ordner im Handumdrehen mit einem einfachen Befehl im Web zu teilen."
+    },
+    "download_url": "https://github.com/svenstaro/miniserve/releases/download/v0.35.0/miniserve-0.35.0-i686-pc-windows-msvc.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "pyqt-fluent-widgets",
@@ -17946,6 +18114,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "clack",
+    "name": "clack",
+    "tagline": "Build stylish interactive command-line apps.",
+    "repo_url": "https://github.com/bombshell-dev/clack",
+    "full_name": "bombshell-dev/clack",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "developer-tools",
+      "utilities"
+    ],
+    "icon": "/icons/clack.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 8142,
+    "tier": "tier3_powertool",
+    "summary": "Clack helps creators design gorgeous interactive questions and menus for text-based computer programs easily.",
+    "i18n": {
+      "it": "Clack aiuta a progettare bellissime domande interattive e menu per programmi basati su testo in modo semplice.",
+      "es": "Clack ayuda a diseñar hermosas preguntas interactivas y menús para programas basados en texto fácilmente.",
+      "fr": "Clack aide à concevoir de superbes questions interactives et menus pour les programmes textuels facilement.",
+      "de": "Clack hilft dabei, wunderschöne interaktive Fragen und Menüs für textbasierte Computerprogramme zu erstellen."
+    },
+    "download_url": "https://bomb.sh/docs/clack/basics/getting-started/",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "foundation-sunshine",
     "name": "Foundation Sunshine",
     "tagline": "High-performance game streaming for Windows.",
@@ -17972,6 +18168,34 @@
     },
     "download_url": "https://github.com/AlkaidLab/foundation-sunshine/releases/download/v2026.1031.121458.%E6%9D%82%E9%B1%BC/Sunshine.v2026.1031.WindowsInstaller.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "term-everything",
+    "name": "term.everything",
+    "tagline": "Run any app in your terminal",
+    "repo_url": "https://github.com/mmulet/term.everything",
+    "full_name": "mmulet/term.everything",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "linux",
+      "system-utility"
+    ],
+    "icon": "/icons/term-everything.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 8125,
+    "tier": "tier3_powertool",
+    "summary": "A free Linux tool that lets you open and use any graphical application directly inside your terminal window, even over remote connections.",
+    "i18n": {
+      "it": "Uno strumento Linux gratuito che consente di aprire e utilizzare qualsiasi applicazione grafica direttamente nella finestra del terminale, anche su connessioni remote.",
+      "es": "Una herramienta gratuita para Linux que permite abrir y usar cualquier aplicación gráfica directamente en la ventana de la terminal, incluso en conexiones remotas.",
+      "fr": "Un outil Linux gratuit qui permet d'ouvrir et d'utiliser n'importe quelle application graphique directement dans la fenêtre du terminal, même sur des connexions distantes.",
+      "de": "Ein kostenloses Linux-Tool, mit dem Sie jede grafische Anwendung direkt im Terminalfenster öffnen und nutzen können, sogar über Remote-Verbindungen."
+    },
+    "download_url": "https://github.com/mmulet/term.everything/releases",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "pi-desktop",
@@ -18028,6 +18252,34 @@
     },
     "download_url": "https://github.com/jtroo/kanata/releases/download/v1.12.0/kanata.kbd",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "dasel",
+    "name": "dasel",
+    "tagline": "Query and transform any structured file format.",
+    "repo_url": "https://github.com/tomwright/dasel",
+    "full_name": "tomwright/dasel",
+    "category": "Productivity",
+    "tags": [
+      "data",
+      "json"
+    ],
+    "icon": "/icons/dasel.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 8098,
+    "tier": "tier3_powertool",
+    "summary": "Query, update, and convert data across JSON, YAML, TOML, XML, and more using a single consistent syntax.",
+    "i18n": {
+      "it": "Interroga, aggiorna e converti dati in JSON, YAML, TOML, XML e altri formati con una sintassi uniforme.",
+      "es": "Consulta, actualiza y convierte datos en JSON, YAML, TOML, XML y más usando una sintaxis unificada.",
+      "fr": "Interrogez, mettez à jour et convertissez des données JSON, YAML, TOML, XML et autres via une syntaxe unique.",
+      "de": "Abfragen, Aktualisieren und Konvertieren von JSON, YAML, TOML, XML und weiteren Formaten mit einheitlicher Syntax."
+    },
+    "download_url": "https://github.com/TomWright/dasel/releases/download/v3.11.2/dasel_windows_386.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "suwayomi-server",
@@ -18226,6 +18478,62 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "standard-version",
+    "name": "standard-version",
+    "tagline": "Automate versioning and release notes effortlessly.",
+    "repo_url": "https://github.com/conventional-changelog/standard-version",
+    "full_name": "conventional-changelog/standard-version",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "utilities",
+      "automation"
+    ],
+    "icon": "/icons/standard-version.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (ISC)",
+    "stars": 7985,
+    "tier": "tier3_powertool",
+    "summary": "Automatically update software version numbers and generate detailed release logs based on your everyday work history.",
+    "i18n": {
+      "it": "Aggiorna automaticamente i numeri di versione e genera registri delle modifiche dettagliati in base al tuo lavoro.",
+      "es": "Actualiza automáticamente las versiones de software y genera historiales de cambios detallados según tu historial.",
+      "fr": "Mettez à jour automatiquement les numéros de version et créez des journaux de modifications détaillés sans effort.",
+      "de": "Aktualisieren Sie Softwareversionen automatisch und erstellen Sie detaillierte Änderungsprotokolle ohne Aufwand."
+    },
+    "download_url": "https://github.com/conventional-changelog/standard-version/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "enquirer",
+    "name": "enquirer",
+    "tagline": "Stylish, intuitive and user-friendly CLI prompts.",
+    "repo_url": "https://github.com/enquirer/enquirer",
+    "full_name": "enquirer/enquirer",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "prompts"
+    ],
+    "icon": "/icons/enquirer.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7957,
+    "tier": "tier3_powertool",
+    "summary": "Create gorgeous, conversational terminal questions with a lightning-fast library trusted by top developers worldwide.",
+    "i18n": {
+      "it": "Crea splendide domande interattive nel terminale con una libreria velocissima usata dai migliori sviluppatori.",
+      "es": "Crea hermosas preguntas interactivas en la terminal con una biblioteca ultrarrápida en la que confían los desarrolladores.",
+      "fr": "Créez de superbes questions interactives dans le terminal avec une bibliothèque ultra-rapide utilisée par les développeurs.",
+      "de": "Erstellen Sie wunderschöne interaktive Terminal-Fragen mit einer blitzschnellen Bibliothek, der Entwickler vertrauen."
+    },
+    "download_url": "https://github.com/jonschlinkert",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "btrfs",
     "name": "WinBtrfs",
     "tagline": "Access modern Linux file systems on Windows",
@@ -18308,6 +18616,90 @@
     },
     "download_url": "https://github.com/HuLaSpark/HuLa/releases/download/v3.0.9/HuLa_3.0.9_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "concurrently",
+    "name": "concurrently",
+    "tagline": "Run multiple background tasks simultaneously",
+    "repo_url": "https://github.com/open-cli-tools/concurrently",
+    "full_name": "open-cli-tools/concurrently",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "productivity",
+      "automation"
+    ],
+    "icon": "/icons/concurrently.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7875,
+    "tier": "tier3_powertool",
+    "summary": "This tool allows you to start and manage several background processes at once in a single window.",
+    "i18n": {
+      "it": "Questo strumento ti permette di avviare e gestire diversi processi in background contemporaneamente in un'unica finestra.",
+      "es": "Esta herramienta te permite iniciar y gestionar varios procesos en segundo plano simultáneamente desde una sola ventana.",
+      "fr": "Cet outil vous permet de lancer et de gérer plusieurs processus en arrière-plan en même temps dans une seule fenêtre.",
+      "de": "Dieses Tool ermöglicht es dir, mehrere Hintergrundprozesse gleichzeitig in einem einzigen Fenster zu starten und zu verwalten."
+    },
+    "download_url": "https://www.npmjs.com/package/concurrently",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "rust-anything",
+    "name": "rust-anything",
+    "tagline": "Rewrite your app safely in Rust",
+    "repo_url": "https://github.com/erkamyaman/rust-anything",
+    "full_name": "erkamyaman/rust-anything",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "migration",
+      "performance"
+    ],
+    "icon": "/icons/rust-anything.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7874,
+    "tier": "tier3_powertool",
+    "summary": "Translate and verify your code piece by piece into high-performance Rust, checking every behavior against exact original recordings.",
+    "i18n": {
+      "it": "Traduci e verifica il codice pezzo per pezzo in Rust ad alte prestazioni, controllando ogni comportamento rispetto ai record originali.",
+      "es": "Traduce y verifica tu código pieza por pieza en Rust de alto rendimiento, comprobando cada comportamiento con grabaciones originales.",
+      "fr": "Traduisez et vérifiez votre code morceau par morceau en Rust performant, en comparant chaque comportement aux enregistrements.",
+      "de": "Übersetzen und überprüfen Sie Ihren Code Stück für Stück in performantem Rust und gleichen Sie das Verhalten mit Aufnahmen ab."
+    },
+    "download_url": "https://github.com/erkamyaman/rust-anything/releases/download/v3.3.0/SHA256SUMS",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "auto-cpufreq",
+    "name": "auto-cpufreq",
+    "tagline": "Smart CPU speed and battery saver",
+    "repo_url": "https://github.com/adnanhodzic/auto-cpufreq",
+    "full_name": "adnanhodzic/auto-cpufreq",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "linux",
+      "battery"
+    ],
+    "icon": "/icons/auto-cpufreq.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 7871,
+    "tier": "tier3_powertool",
+    "summary": "Automatically optimize your Linux processor speed and battery life without manual configuration or compromises.",
+    "i18n": {
+      "it": "Ottimizza automaticamente la velocità del processore Linux e la durata della batteria senza configurazioni complesse.",
+      "es": "Optimiza automáticamente la velocidad del procesador en Linux y prolonga la batería sin complicaciones técnicas.",
+      "fr": "Optimisez automatiquement la vitesse de votre processeur Linux et l'autonomie de votre batterie sans compromis.",
+      "de": "Optimieren Sie automatisch die Linux-Prozessorleistung und die Akkulaufzeit ganz ohne komplizierte Einstellungen."
+    },
+    "download_url": "https://foolcontrol.org/?p=4603",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "boxplayer",
@@ -18450,6 +18842,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "code2prompt",
+    "name": "code2prompt",
+    "tagline": "Turn your entire codebase into a single AI prompt.",
+    "repo_url": "https://github.com/mufeedvh/code2prompt",
+    "full_name": "mufeedvh/code2prompt",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "developer-tools"
+    ],
+    "icon": "/icons/code2prompt.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 7771,
+    "tier": "tier3_powertool",
+    "summary": "Easily package your entire coding project into a clean, organized text prompt for artificial intelligence models.",
+    "i18n": {
+      "it": "Raggruppa facilmente il codice del tuo progetto in un unico prompt di testo ordinato per i modelli di intelligenza artificiale.",
+      "es": "Empaqueta fácilmente todo tu proyecto de código en un aviso de texto limpio y organizado para modelos de inteligencia artificial.",
+      "fr": "Regroupez facilement tout votre projet de code en une invite textuelle claire et organisée pour les modèles d'intelligence artificielle.",
+      "de": "Verpacken Sie Ihr gesamtes Programmierprojekt ganz einfach in einen übersichtlichen Text-Prompt für Künstliche Intelligenz."
+    },
+    "download_url": "https://github.com/mufeedvh/code2prompt/releases/download/v4.2.0/code2prompt-x86_64-pc-windows-msvc.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "np",
+    "name": "np",
+    "tagline": "Safe, interactive software publishing",
+    "repo_url": "https://github.com/sindresorhus/np",
+    "full_name": "sindresorhus/np",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "developer-tools",
+      "publishing"
+    ],
+    "icon": "/icons/np.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7715,
+    "tier": "tier3_powertool",
+    "summary": "np is a free command-line tool that guides developers through the safe and correct process of releasing new software versions to public libraries.",
+    "i18n": {
+      "it": "np è uno strumento gratuito a riga di comando che guida gli sviluppatori nel processo sicuro e corretto di rilascio di nuove versioni di software a librerie pubbliche.",
+      "es": "np es una herramienta gratuita de línea de comandos que guía a los desarrolladores en el proceso seguro y correcto de lanzar nuevas versiones de software a bibliotecas públicas.",
+      "fr": "np est un outil gratuit en ligne de commande qui guide les développeurs dans le processus sûr et correct de publication de nouvelles versions de logiciels vers des bibliothèques publiques.",
+      "de": "np ist ein kostenloses Kommandozeilenwerkzeug, das Entwickler durch den sicheren und korrekten Prozess der Veröffentlichung neuer Softwareversionen in öffentlichen Bibliotheken führt."
+    },
+    "download_url": "https://github.com/sindresorhus/np/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "yuxi",
     "name": "Yuxi",
     "tagline": "Private platform for intelligent team agents",
@@ -18532,6 +18980,34 @@
     },
     "download_url": "https://github.com/donnemartin/gitsome/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "himalaya",
+    "name": "himalaya",
+    "tagline": "Manage your emails from command line.",
+    "repo_url": "https://github.com/pimalaya/himalaya",
+    "full_name": "pimalaya/himalaya",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "email",
+      "system-utility"
+    ],
+    "icon": "/icons/himalaya.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7691,
+    "tier": "tier3_powertool",
+    "summary": "Manage all your email accounts directly from your command line terminal with quick search queries and clean JSON outputs.",
+    "i18n": {
+      "it": "Gestisci tutti i tuoi account di posta elettronica direttamente dal terminale con ricerche rapide e comandi puliti.",
+      "es": "Gestiona todas tus cuentas de correo directamente desde la línea de comandos con búsquedas rápidas y salidas claras.",
+      "fr": "Gérez tous vos comptes de messagerie directement depuis votre terminal avec des recherches rapides et des sorties claires.",
+      "de": "Verwalten Sie all Ihre E-Mail-Konten direkt über das Terminal mit schnellen Suchanfragen und sauberer Ausgabe."
+    },
+    "download_url": "https://pimalaya.org",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "watchyourlan",
@@ -18786,6 +19262,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "sd",
+    "name": "sd",
+    "tagline": "Intuitive and fast search replacement tool",
+    "repo_url": "https://github.com/chmln/sd",
+    "full_name": "chmln/sd",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "search"
+    ],
+    "icon": "/icons/sd.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7455,
+    "tier": "tier3_powertool",
+    "summary": "sd is a friendly command-line tool that lets you quickly find and replace text across files using simple, familiar patterns.",
+    "i18n": {
+      "it": "sd è un pratico strumento da riga di comando per trovare e sostituire rapidamente il testo all'interno dei file.",
+      "es": "sd es una amigable herramienta de línea de comandos para buscar y reemplazar texto en archivos de forma rápida.",
+      "fr": "sd est un outil de ligne de commande convivial pour trouver et remplacer rapidement du texte dans des fichiers.",
+      "de": "sd ist ein benutzerfreundliches Befehlszeilentool zum schnellen Suchen und Ersetzen von Text in Dateien."
+    },
+    "download_url": "https://github.com/chmln/sd/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "ffsend",
+    "name": "ffsend",
+    "tagline": "Securely share files from your terminal.",
+    "repo_url": "https://github.com/timvisee/ffsend",
+    "full_name": "timvisee/ffsend",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "file-sharing",
+      "security"
+    ],
+    "icon": "/icons/ffsend.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 7427,
+    "tier": "tier3_powertool",
+    "summary": "Share files and folders securely using encrypted private links directly from your command line without hassle.",
+    "i18n": {
+      "it": "Condividi file e cartelle in modo sicuro tramite link privati crittografati direttamente dalla riga di comando.",
+      "es": "Comparte archivos y carpetas de forma segura mediante enlaces privados cifrados directamente desde tu línea de comandos.",
+      "fr": "Partagez des fichiers et dossiers en toute sécurité grâce à des liens privés chiffrés directement depuis votre terminal.",
+      "de": "Teilen Sie Dateien und Ordner sicher über verschlüsselte private Links direkt von Ihrer Befehlszeile aus."
+    },
+    "download_url": "https://github.com/timvisee/ffsend/releases/download/v0.2.77/ffsend-v0.2.77-linux-x64",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "final2x",
     "name": "Final2x",
     "tagline": "Enhance image quality and resolution easily.",
@@ -18870,6 +19402,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "spotify-player",
+    "name": "spotify-player",
+    "tagline": "Control your music from the terminal.",
+    "repo_url": "https://github.com/aome510/spotify-player",
+    "full_name": "aome510/spotify-player",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "system-utility"
+    ],
+    "icon": "/icons/spotify-player.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7327,
+    "tier": "tier3_powertool",
+    "summary": "A lightweight terminal music player that lets you browse, stream, and control your tunes directly from your command line.",
+    "i18n": {
+      "it": "Un lettore musicale da terminale leggero per riprodurre e controllare i tuoi brani preferiti direttamente da riga di comando.",
+      "es": "Un reproductor de música ligero para la terminal que te permite escuchar y controlar tus canciones favoritas sin salir de la consola.",
+      "fr": "Un lecteur de musique léger pour terminal qui vous permet d'écouter et de gérer vos morceaux favoris directement en ligne de commande.",
+      "de": "Ein leichter Terminal-Musikplayer zum Abspielen und Verwalten Ihrer Lieblingssongs direkt über die Befehlszeile."
+    },
+    "download_url": "https://github.com/aome510/spotify-player/releases/download/v0.25.2/spotify_player-aarch64-apple-darwin.sha256",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "opensign",
     "name": "OpenSign",
     "tagline": "Free and open source document signing",
@@ -18926,6 +19486,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "wasm-pack",
+    "name": "wasm-pack",
+    "tagline": "Build high performance browser code easily",
+    "repo_url": "https://github.com/wasm-bindgen/wasm-pack",
+    "full_name": "wasm-bindgen/wasm-pack",
+    "category": "Productivity",
+    "tags": [
+      "webassembly",
+      "development"
+    ],
+    "icon": "/icons/wasm-pack.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7309,
+    "tier": "tier3_powertool",
+    "summary": "Pack and compile high performance programming code for seamless use in web browsers and Node.js environments.",
+    "i18n": {
+      "it": "Compila ed emacsa codice ad alte prestazioni per l'uso fluido nei browser web e ambienti Node.js.",
+      "es": "Empaqueta y compila código de alto rendimiento para su uso fluido en navegadores web y entornos Node.js.",
+      "fr": "Empaquetez et compilez du code haute performance pour une utilisation fluide dans les navigateurs web.",
+      "de": "Verpacke und kompiliere performanten Code für die nahtlose Verwendung in Webbrowsern und Node.js."
+    },
+    "download_url": "https://github.com/wasm-bindgen/wasm-pack/releases/download/v0.15.1/wasm-pack-init-arm64.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "wger",
     "name": "wger",
     "tagline": "Your personal fitness and nutrition manager",
@@ -18952,6 +19540,62 @@
     },
     "download_url": "https://wger.de",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hatch",
+    "name": "Hatch",
+    "tagline": "Modern and fast Python project manager",
+    "repo_url": "https://github.com/pypa/hatch",
+    "full_name": "pypa/hatch",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "productivity"
+    ],
+    "icon": "/icons/hatch.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 7260,
+    "tier": "tier3_powertool",
+    "summary": "Manage Python projects, test code, and publish packages easily with a fast and extensible project management tool.",
+    "i18n": {
+      "it": "Gestisci progetti Python, testa il codice e pubblica pacchetti facilmente con uno strumento rapido ed estensibile.",
+      "es": "Gestiona proyectos de Python, prueba código y publica paquetes fácilmente con una herramienta rápida y extensible.",
+      "fr": "Gérez des projets Python, testez du code et publiez des paquets facilement avec un outil rapide et extensible.",
+      "de": "Verwalten Sie Python-Projekte, testen Sie Code und veröffentlichen Sie Pakete einfach mit einem schnellen Tool."
+    },
+    "download_url": "https://github.com/pypa/hatch/releases/download/hatch-v1.18.2/hatch-universal.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "buku",
+    "name": "buku",
+    "tagline": "Your private, text-based personal mini-web",
+    "repo_url": "https://github.com/jarun/buku",
+    "full_name": "jarun/buku",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "bookmarks",
+      "system-utility"
+    ],
+    "icon": "/icons/buku.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 7257,
+    "tier": "tier3_powertool",
+    "summary": "Manage and organize your favorite web links cleanly with a fast, private, and lightweight bookmark manager.",
+    "i18n": {
+      "it": "Gestisci e organizza i tuoi collegamenti web preferiti in modo pulito con un gestore di segnalibri privato e leggero.",
+      "es": "Gestiona y organiza tus enlaces web favoritos de forma limpia con un administrador de marcadores privado y ligero.",
+      "fr": "Gérez et organisez vos liens web favoris proprement avec un gestionnaire de favoris privé, rapide et léger.",
+      "de": "Verwalten und organisieren Sie Ihre Web-Favoriten sauber mit einem schnellen, privaten und leichten Lesezeichen-Manager."
+    },
+    "download_url": "https://github.com/jarun/buku/releases",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "gpt-load",
@@ -19064,6 +19708,34 @@
     },
     "download_url": "https://github.com/linearmouse/linearmouse/releases/download/v0.13.0/LinearMouse.dmg",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "jid",
+    "name": "jid",
+    "tagline": "Interactive JSON Explorer",
+    "repo_url": "https://github.com/simeji/jid",
+    "full_name": "simeji/jid",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "json",
+      "system-utility"
+    ],
+    "icon": "/icons/jid.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7215,
+    "tier": "tier3_powertool",
+    "summary": "jid is a free command-line tool that lets you explore complex JSON data step-by-step with smart auto-completion and real-time highlighting.",
+    "i18n": {
+      "it": "jid è uno strumento gratuito da riga di comando che permette di esplorare dati JSON complessi passo dopo passo con completamento automatico.",
+      "es": "jid es una herramienta gratuita de línea de comandos que permite explorar datos JSON complejos paso a paso con autocompletado inteligente.",
+      "fr": "jid est un outil gratuit en ligne de commande qui permet d'explorer des données JSON complexes étape par étape avec une autocomplétion intelligente.",
+      "de": "jid ist ein kostenloses Kommandozeilenwerkzeug, das das schrittweise Erkunden komplexer JSON-Daten mit intelligenter Autovervollständigung ermöglicht."
+    },
+    "download_url": "https://github.com/simeji/jid/releases/download/v1.1.3/checksums.txt",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "flyingmouse-format",
@@ -19260,6 +19932,34 @@
     },
     "download_url": "https://millsp.github.io/ts-toolbelt/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "structured-text-tools",
+    "name": "Structured Text Tools",
+    "tagline": "Master your structured text files effortlessly.",
+    "repo_url": "https://github.com/dbohdan/structured-text-tools",
+    "full_name": "dbohdan/structured-text-tools",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "text-processing"
+    ],
+    "icon": "/icons/structured-text-tools.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 7149,
+    "tier": "tier3_powertool",
+    "summary": "Explore a curated collection of powerful command-line utilities designed to filter, query, and transform structured text documents like JSON, YAML, and CSV.",
+    "i18n": {
+      "it": "Scopri una collezione di utilità a riga di comando per filtrare, interrogare e trasformare documenti come JSON, YAML e CSV.",
+      "es": "Explora una colección de herramientas para filtrar, consultar y transformar documentos de texto estructurado como JSON, YAML y CSV.",
+      "fr": "Découvrez une collection d'utilitaires pour filtrer, interroger et transformer des documents texte structurés comme JSON, YAML et CSV.",
+      "de": "Entdecken Sie eine Sammlung von Dienstprogrammen zum Filtern, Abfragen und Transformieren von strukturierten Texten wie JSON, YAML und CSV."
+    },
+    "download_url": "https://github.com/dbohdan/structured-text-tools/releases",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "suparagent",
