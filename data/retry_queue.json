@@ -56,62 +56,6 @@
     "queued_at": "2026-11-21T19:51:36.364589+00:00"
   },
   {
-    "full_name": "clash-verge-rev/clash-verge-rev",
-    "slug": "clash-verge-rev",
-    "html_url": "https://github.com/clash-verge-rev/clash-verge-rev",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
-    "queued_at": "2026-11-22T10:41:22.867260+00:00"
-  },
-  {
-    "full_name": "WerWolv/ImHex",
-    "slug": "imhex",
-    "html_url": "https://github.com/WerWolv/ImHex",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-22T10:42:26.906749+00:00"
-  },
-  {
-    "full_name": "huiyadanli/RevokeMsgPatcher",
-    "slug": "revokemsgpatcher",
-    "html_url": "https://github.com/huiyadanli/RevokeMsgPatcher",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T10:43:03.822835+00:00"
-  },
-  {
-    "full_name": "BCUninstaller/Bulk-Crap-Uninstaller",
-    "slug": "bulk-crap-uninstaller",
-    "html_url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T10:45:39.263076+00:00"
-  },
-  {
-    "full_name": "jart/cosmopolitan",
-    "slug": "cosmopolitan",
-    "html_url": "https://github.com/jart/cosmopolitan",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T10:46:04.180587+00:00"
-  },
-  {
-    "full_name": "winsiderss/systeminformer",
-    "slug": "systeminformer",
-    "html_url": "https://github.com/winsiderss/systeminformer",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T10:48:03.886807+00:00"
-  },
-  {
-    "full_name": "LGUG2Z/komorebi",
-    "slug": "komorebi",
-    "html_url": "https://github.com/LGUG2Z/komorebi",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T10:48:30.793931+00:00"
-  },
-  {
-    "full_name": "espanso/espanso",
-    "slug": "espanso",
-    "html_url": "https://github.com/espanso/espanso",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T10:48:45.548331+00:00"
-  },
-  {
     "full_name": "pluja/anysub",
     "slug": "anysub",
     "html_url": "https://github.com/pluja/anysub",
@@ -201,5 +145,26 @@
     "html_url": "https://github.com/xwmx/nb",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-22T10:57:39.414092+00:00"
+  },
+  {
+    "full_name": "glzr-io/glazewm",
+    "slug": "glazewm",
+    "html_url": "https://github.com/glzr-io/glazewm",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Field 'summary' appears truncated or incomplete: 'GlazeWM lets you arrange your Windows applications in tidy tiles using simple keyboard shortcuts, making multitasking faster and clutter‑free.')",
+    "queued_at": "2026-11-22T18:15:27.100123+00:00"
+  },
+  {
+    "full_name": "itsfatduck/optimizerDuck",
+    "slug": "optimizerduck",
+    "html_url": "https://github.com/itsfatduck/optimizerDuck",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'optimizerDuck améliore les performances et la confidentialité de votre PC en gérant les réglages système via une interface simple.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-22T18:15:32.829106+00:00"
+  },
+  {
+    "full_name": "CursorTouch/Windows-MCP",
+    "slug": "windows-mcp",
+    "html_url": "https://github.com/CursorTouch/Windows-MCP",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-22T18:15:59.807426+00:00"
   }
 ]

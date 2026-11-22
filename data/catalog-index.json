@@ -224,6 +224,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "clash-verge-rev",
+    "name": "Clash Verge Rev",
+    "tagline": "Modern graphical proxy management client",
+    "repo_url": "https://github.com/clash-verge-rev/clash-verge-rev",
+    "full_name": "clash-verge-rev/clash-verge-rev",
+    "category": "Productivity",
+    "tags": [
+      "networking",
+      "proxy"
+    ],
+    "icon": "/icons/clash-verge-rev.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 159942,
+    "tier": "tier1_gui",
+    "summary": "Manage network proxy rules and server connections easily with a clean, lightweight desktop application for Windows, macOS, and Linux.",
+    "i18n": {
+      "it": "Gestisci regole di rete e connessioni proxy facilmente con un'applicazione desktop pulita per Windows, macOS e Linux.",
+      "es": "Gestiona reglas de red y conexiones proxy fácilmente con una aplicación de escritorio limpia para Windows, macOS y Linux.",
+      "fr": "Gérez facilement les règles réseau et les connexions proxy avec une application de bureau claire pour Windows, macOS et Linux.",
+      "de": "Verwalten Sie Netzwerkregeln und Proxy-Verbindungen ganz einfach mit einer übersichtlichen Desktop-App für Windows, macOS und Linux."
+    },
+    "download_url": "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.10/Clash.Verge_2.5.10_arm64-setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "open-webui",
     "name": "Open WebUI",
     "tagline": "Your own private smart assistant dashboard",
@@ -1652,6 +1680,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "imhex",
+    "name": "ImHex",
+    "tagline": "Inspect and edit files with style",
+    "repo_url": "https://github.com/werwolv/imhex",
+    "full_name": "werwolv/imhex",
+    "category": "Productivity",
+    "tags": [
+      "hex-editor",
+      "security"
+    ],
+    "icon": "/icons/imhex.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 56008,
+    "tier": "tier1_gui",
+    "summary": "ImHex is a powerful file inspection and editing tool built for examining raw data structures, with a focus on eye-friendly dark mode design.",
+    "i18n": {
+      "it": "Un editor esadecimale moderno e ricco di funzioni per analizzare file, strutture di dati e codice binario in modalità scura.",
+      "es": "Un editor hexadecimal avanzado para analizar datos y archivos binarios con una interfaz oscura y cómoda para la vista.",
+      "fr": "Un éditeur hexadécimal moderne pour analyser les structures de données binaires avec un mode sombre agréable pour les yeux.",
+      "de": "Ein moderner Hex-Editor zur Analyse von Binärdaten und Dateistrukturen mit augenschonendem Design für späte Arbeitsstunden."
+    },
+    "download_url": "https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-Windows-arm64.msi",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "ghost",
     "name": "Ghost",
     "tagline": "Independent publishing & paid newsletters",
@@ -3050,6 +3106,34 @@
     },
     "download_url": "https://github.com/can1357/oh-my-pi/releases/download/v19.0.1/omp-windows-arm64.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "revokemsgpatcher",
+    "name": "RevokeMsgPatcher",
+    "tagline": "Prevent message deletion on Windows chat apps",
+    "repo_url": "https://github.com/huiyadanli/revokemsgpatcher",
+    "full_name": "huiyadanli/revokemsgpatcher",
+    "category": "Productivity",
+    "tags": [
+      "utility",
+      "windows"
+    ],
+    "icon": "/icons/revokemsgpatcher.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 39355,
+    "tier": "tier1_gui",
+    "summary": "RevokeMsgPatcher is a lightweight desktop utility for Windows that prevents messages from disappearing when senders try to unsend them on popular chatting platforms.",
+    "i18n": {
+      "it": "Uno strumento per Windows che evita che i messaggi vengano rimossi quando i mittenti cercano di cancellarli nelle chat.",
+      "es": "Una utilidad de escritorio para Windows que evita que los mensajes desaparezcan cuando los remitentes intentan borrarlos.",
+      "fr": "Un utilitaire Windows pratique qui empêche les messages de disparaître lorsque les expéditeurs tentent de les effacer.",
+      "de": "Ein praktisches Windows-Werkzeug, das verhindert, dass Nachrichten verschwinden, wenn Absender sie zurückrufen möchten."
+    },
+    "download_url": "https://github.com/huiyadanli/RevokeMsgPatcher/releases",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "trilium",
@@ -6859,6 +6943,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "bulk-crap-uninstaller",
+    "name": "Bulk Crap Uninstaller",
+    "tagline": "Remove unwanted software quickly in bulk.",
+    "repo_url": "https://github.com/bcuninstaller/bulk-crap-uninstaller",
+    "full_name": "bcuninstaller/bulk-crap-uninstaller",
+    "category": "Security & Privacy",
+    "tags": [
+      "utilities",
+      "windows"
+    ],
+    "icon": "/icons/bulk-crap-uninstaller.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 22664,
+    "tier": "tier1_gui",
+    "summary": "Easily clean up multiple unwanted programs, leftover files, and hidden apps from your Windows computer all at once.",
+    "i18n": {
+      "it": "Elimina facilmente più programmi indesiderati, file residui e app nascoste dal tuo computer Windows in un colpo solo.",
+      "es": "Desinstala múltiples aplicaciones no deseadas, archivos residuales y programas ocultos de tu ordenador Windows a la vez.",
+      "fr": "Nettoyez facilement plusieurs programmes indésirables, fichiers résiduels et applications cachées sur votre PC Windows.",
+      "de": "Entfernen Sie ganz einfach mehrere unerwünschte Programme, Dateireste und versteckte Apps gleichzeitig von Ihrem Windows-PC."
+    },
+    "download_url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.3/BCUninstaller_6.3.0_setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "airbyte",
     "name": "Airbyte",
     "tagline": "Move data from anywhere effortlessly.",
@@ -7193,6 +7305,34 @@
     },
     "download_url": "https://github.com/iampawan/FlutterExampleApps/releases",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "tagline": "Portable C/C++ for all OS",
+    "repo_url": "https://github.com/jart/cosmopolitan",
+    "full_name": "jart/cosmopolitan",
+    "category": "Productivity",
+    "tags": [
+      "libc",
+      "cross-platform"
+    ],
+    "icon": "/icons/cosmopolitan.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux, iOS",
+    "license": "Open Source (ISC)",
+    "stars": 21449,
+    "tier": "tier1_gui",
+    "summary": "Cosmopolitan lets you write C/C++ once and run it anywhere—from Linux and macOS to Windows and even BIOS—without needing an interpreter.",
+    "i18n": {
+      "it": "Cosmopolitan consente di scrivere C/C++ una sola volta e di eseguirlo su Linux, macOS, Windows e persino BIOS, senza un interprete.",
+      "es": "Cosmopolitan permite escribir C/C++ una sola vez y ejecutarlo en Linux, macOS, Windows e incluso BIOS, sin intérprete.",
+      "fr": "Cosmopolitan vous permet d'écrire du C/C++ une fois et de l'exécuter sur Linux, macOS, Windows et même le BIOS, sans interpréteur.",
+      "de": "Cosmopolitan ermöglicht es, C/C++ einmal zu schreiben und auf Linux, macOS, Windows und sogar BIOS auszuführen, ohne einen Interpreter."
+    },
+    "download_url": "https://github.com/jart/cosmopolitan/releases",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "xterm-js",
@@ -9127,6 +9267,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "systeminformer",
+    "name": "System Informer",
+    "tagline": "Advanced system monitor and process manager",
+    "repo_url": "https://github.com/winsiderss/systeminformer",
+    "full_name": "winsiderss/systeminformer",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "windows"
+    ],
+    "icon": "/icons/systeminformer.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 16548,
+    "tier": "tier1_gui",
+    "summary": "System Informer gives you a deep, real-time look into your computer's running apps, background tasks, and active network connections.",
+    "i18n": {
+      "it": "System Informer offre uno sguardo approfondito in tempo reale sulle app, sulle attività in background e sulle connessioni di rete.",
+      "es": "System Informer ofrece una vista profunda y en tiempo real de las aplicaciones, tareas en segundo plano y conexiones de red.",
+      "fr": "System Informer offre un aperçu approfondi et en temps réel de vos applications en cours, tâches de fond et connexions réseau.",
+      "de": "System Informer bietet einen detaillierten Echtzeit-Einblick in laufende Anwendungen, Hintergrundprozesse und Netzwerkverbindungen."
+    },
+    "download_url": "https://github.com/winsiderss/systeminformer/releases/download/v4.0.26241.138/systeminformer-4.0.26241.138-release-setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "alt-tab-macos",
     "name": "AltTab",
     "tagline": "Bring Windows window switching to Mac.",
@@ -9883,6 +10051,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "komorebi",
+    "name": "komorebi",
+    "tagline": "Organize Windows screens with automatic tiling",
+    "repo_url": "https://github.com/lgug2z/komorebi",
+    "full_name": "lgug2z/komorebi",
+    "category": "Productivity",
+    "tags": [
+      "window-manager",
+      "productivity"
+    ],
+    "icon": "/icons/komorebi.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Custom Open License",
+    "stars": 15400,
+    "tier": "tier1_gui",
+    "summary": "Komorebi is an automatic window manager for Windows that neatly tiles and organizes your running applications into efficient layouts.",
+    "i18n": {
+      "it": "Komorebi è un gestore di finestre automatico per Windows che dispone le applicazioni in layout efficienti e ordinati.",
+      "es": "Komorebi es un gestor de ventanas automático para Windows que organiza tus aplicaciones abiertas en diseños eficientes.",
+      "fr": "Komorebi est un gestionnaire de fenêtres automatique pour Windows qui organise vos applications en dispositions efficaces.",
+      "de": "Komorebi ist ein automatischer Fenstermanager für Windows, der geöffnete Anwendungen in effiziente Layouts anordnet."
+    },
+    "download_url": "https://github.com/LGUG2Z/komorebi/releases/download/v0.1.41/komorebi-0.1.41-aarch64.msi",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "duf",
     "name": "duf",
     "tagline": "Clear, colorful view of disk space",
@@ -10359,6 +10555,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "espanso",
+    "name": "espanso",
+    "tagline": "Type faster with smart text expansion.",
+    "repo_url": "https://github.com/espanso/espanso",
+    "full_name": "espanso/espanso",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "typing"
+    ],
+    "icon": "/icons/espanso.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 14821,
+    "tier": "tier1_gui",
+    "summary": "Boost your daily typing speed by automatically turning short shortcuts into complete sentences, code snippets, and emojis.",
+    "i18n": {
+      "it": "Boost your daily typing speed by automatically turning short shortcuts into complete sentences, code snippets, and emojis.",
+      "es": "Boost your daily typing speed by automatically turning short shortcuts into complete sentences, code snippets, and emojis.",
+      "fr": "Boost your daily typing speed by automatically turning short shortcuts into complete sentences, code snippets, and emojis.",
+      "de": "Boost your daily typing speed by automatically turning short shortcuts into complete sentences, code snippets, and emojis."
+    },
+    "download_url": "https://github.com/espanso/espanso/releases/download/v2.4.1/Espanso-Win-Installer-x86_64.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "sampler",
     "name": "sampler",
     "tagline": "Visualize any command line process easily.",
@@ -10723,6 +10947,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "reinstall",
+    "name": "reinstall",
+    "tagline": "One-click virtual server operating system reinstaller",
+    "repo_url": "https://github.com/bin456789/reinstall",
+    "full_name": "bin456789/reinstall",
+    "category": "Productivity",
+    "tags": [
+      "system",
+      "server"
+    ],
+    "icon": "/icons/reinstall.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 14190,
+    "tier": "tier1_gui",
+    "summary": "Reinstall or switch your virtual server operating system seamlessly between Linux and Windows using official installation sources.",
+    "i18n": {
+      "it": "Reinstalla o cambia il sistema operativo del server virtuale tra Linux e Windows usando immagini ufficiali.",
+      "es": "Reinstala o cambia el sistema operativo de tu servidor virtual entre Linux y Windows usando fuentes oficiales.",
+      "fr": "Réinstallez ou changez le système d'exploitation de votre serveur virtuel entre Linux et Windows.",
+      "de": "Installieren oder wechseln Sie das Betriebssystem Ihres virtuellen Servers einfach zwischen Linux und Windows."
+    },
+    "download_url": "https://github.com/bin456789/reinstall/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "ani-cli",
     "name": "ani-cli",
     "tagline": "Browse and watch anime instantly",
@@ -10749,6 +11001,34 @@
     },
     "download_url": "https://github.com/pystardust/ani-cli/releases/download/v5.1/ani-cli",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nmap",
+    "name": "nmap",
+    "tagline": "Network scanning made simple",
+    "repo_url": "https://github.com/nmap/nmap",
+    "full_name": "nmap/nmap",
+    "category": "Productivity",
+    "tags": [
+      "networking",
+      "security"
+    ],
+    "icon": "/icons/nmap.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Custom Open License",
+    "stars": 14057,
+    "tier": "tier1_gui",
+    "summary": "Nmap lets you discover devices and services on a network quickly and safely.",
+    "i18n": {
+      "it": "Nmap ti permette di scoprire dispositivi e servizi sulla rete in modo rapido e sicuro.",
+      "es": "Nmap te permite descubrir dispositivos y servicios en tu red de forma rápida y segura.",
+      "fr": "Nmap vous permet de découvrir rapidement et en toute sécurité les appareils et services de votre réseau.",
+      "de": "Nmap ermöglicht es Ihnen, Geräte und Dienste in Ihrem Netzwerk schnell und sicher zu entdecken."
+    },
+    "download_url": "https://svn.nmap.org/",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "automatisch",
@@ -10835,6 +11115,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "zettlr",
+    "name": "Zettlr",
+    "tagline": "Professional writing and research workbench",
+    "repo_url": "https://github.com/zettlr/zettlr",
+    "full_name": "zettlr/zettlr",
+    "category": "Productivity",
+    "tags": [
+      "writing",
+      "research"
+    ],
+    "icon": "/icons/zettlr.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 13954,
+    "tier": "tier1_gui",
+    "summary": "Zettlr is a powerful, privacy-focused tool designed to help writers, students, and researchers organize their notes and publications.",
+    "i18n": {
+      "it": "Zettlr è uno strumento potente e attento alla privacy per aiutare scrittori e ricercatori a organizzare note e pubblicazioni.",
+      "es": "Zettlr es una herramienta potente centrada en la privacidad para ayudar a escritores e investigadores a organizar sus notas.",
+      "fr": "Zettlr est un outil puissant axé sur la confidentialité pour aider les écrivains et chercheurs à organiser leurs notes.",
+      "de": "Zettlr ist ein leistungsstarkes, datenschutzfreundliches Werkzeug zur Organisation von Notizen und Publikationen."
+    },
+    "download_url": "https://github.com/Zettlr/Zettlr/releases/download/v4.10.0/Zettlr-4.10.0-x64.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "webpack-dashboard",
     "name": "webpack-dashboard",
     "tagline": "Turn messy logs into a visual dashboard",
@@ -10889,6 +11197,34 @@
     },
     "download_url": "https://github.com/Tracer-Cloud/opensre/releases/download/v0.1.2026.11.21/opensre-0.1.2026.11.21-py3-none-any.whl",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "bpb-worker-panel",
+    "name": "BPB-Worker-Panel",
+    "tagline": "Private and secure proxy management panel",
+    "repo_url": "https://github.com/bia-pain-bache/bpb-worker-panel",
+    "full_name": "bia-pain-bache/bpb-worker-panel",
+    "category": "Security & Privacy",
+    "tags": [
+      "privacy",
+      "networking"
+    ],
+    "icon": "/icons/bpb-worker-panel.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux, Android, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 13905,
+    "tier": "tier1_gui",
+    "summary": "BPB-Worker-Panel provides a private, user-friendly interface to manage secure internet connections and bypass network restrictions easily.",
+    "i18n": {
+      "it": "BPB-Worker-Panel offre un'interfaccia semplice per gestire connessioni internet sicure e superare le restrizioni di rete.",
+      "es": "BPB-Worker-Panel proporciona una interfaz sencilla para gestionar conexiones a internet seguras y saltar restricciones de red.",
+      "fr": "BPB-Worker-Panel offre une interface simple pour gérer des connexions internet sécurisées et contourner les restrictions réseau.",
+      "de": "BPB-Worker-Panel bietet eine benutzerfreundliche Oberfläche zur Verwaltung sicherer Internetverbindungen und Umgehung von Netzwerksperren."
+    },
+    "download_url": "https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/v5.1.1/worker.js",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "quantdinger",
@@ -11031,6 +11367,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "simpmusic",
+    "name": "SimpMusic",
+    "tagline": "Ad-free music streaming for everyone.",
+    "repo_url": "https://github.com/maxrave-dev/simpmusic",
+    "full_name": "maxrave-dev/simpmusic",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "streaming"
+    ],
+    "icon": "/icons/simpmusic.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 13744,
+    "tier": "tier1_gui",
+    "summary": "SimpMusic lets you listen to your favorite songs and podcasts from YouTube without interruptions or advertisements.",
+    "i18n": {
+      "it": "SimpMusic ti permette di ascoltare musica e podcast da YouTube senza interruzioni, offrendo un'esperienza di ascolto pulita e personalizzabile.",
+      "es": "SimpMusic te permite escuchar tus canciones y podcasts favoritos de YouTube sin interrupciones ni publicidad en tu móvil y ordenador.",
+      "fr": "SimpMusic vous permet d'écouter vos musiques et podcasts préférés sur YouTube sans interruption ni publicité sur mobile et ordinateur.",
+      "de": "SimpMusic ermöglicht es dir, deine Lieblingsmusik und Podcasts von YouTube ohne Unterbrechungen oder Werbung auf deinem Gerät zu genießen."
+    },
+    "download_url": "https://github.com/maxrave-dev/SimpMusic/releases/download/v2.6.0/SimpMusic-2.6.0-mac-aarch64.dmg",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "git-history",
     "name": "Git History",
     "tagline": "Easily view file changes over time",
@@ -11141,6 +11505,34 @@
     },
     "download_url": "https://github.com/nexe/nexe/releases/download/v3.3.3/alpine-x64-10.0.0",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "autohotkey",
+    "name": "AutoHotkey",
+    "tagline": "Automate your daily computer tasks easily.",
+    "repo_url": "https://github.com/autohotkey/autohotkey",
+    "full_name": "autohotkey/autohotkey",
+    "category": "Productivity",
+    "tags": [
+      "automation",
+      "productivity"
+    ],
+    "icon": "/icons/autohotkey.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v2)",
+    "stars": 13518,
+    "tier": "tier1_gui",
+    "summary": "AutoHotkey is a tool that lets you create shortcuts and automate repetitive tasks on your computer to save time and effort.",
+    "i18n": {
+      "it": "AutoHotkey ti permette di creare scorciatoie e automatizzare compiti ripetitivi sul PC per risparmiare tempo e fatica.",
+      "es": "AutoHotkey es una herramienta para crear atajos y automatizar tareas repetitivas en tu computadora para ahorrar tiempo.",
+      "fr": "AutoHotkey vous permet de créer des raccourcis et d'automatiser des tâches répétitives sur votre ordinateur pour gagner du temps.",
+      "de": "AutoHotkey hilft Ihnen, Tastenkombinationen zu erstellen und wiederkehrende Aufgaben am Computer effizient zu automatisieren."
+    },
+    "download_url": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.32/AutoHotkey_2.0.32_setup.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "nightingale",
@@ -11337,6 +11729,34 @@
     },
     "download_url": "https://github.com/pypa/pipx/releases/download/1.18.19/pipx.pyz",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "zeal",
+    "name": "Zeal",
+    "tagline": "Instant offline access to technical documentation",
+    "repo_url": "https://github.com/zealdocs/zeal",
+    "full_name": "zealdocs/zeal",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "reference"
+    ],
+    "icon": "/icons/zeal.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 12884,
+    "tier": "tier1_gui",
+    "summary": "Zeal is a fast, offline-first reference library that lets you search through technical documentation without needing an internet connection.",
+    "i18n": {
+      "it": "Zeal è una libreria di riferimento offline che permette di consultare documentazione tecnica senza bisogno di una connessione internet.",
+      "es": "Zeal es una biblioteca de referencia sin conexión que permite buscar documentación técnica sin necesidad de estar conectado a internet.",
+      "fr": "Zeal est une bibliothèque de référence hors ligne qui permet de consulter de la documentation technique sans connexion internet.",
+      "de": "Zeal ist eine Offline-Referenzbibliothek, mit der Sie technische Dokumentationen ohne Internetverbindung durchsuchen können."
+    },
+    "download_url": "https://github.com/zealdocs/zeal/releases/download/v0.9.2/zeal-0.9.2-windows-arm64.msi",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "gatus",
@@ -11617,6 +12037,34 @@
     },
     "download_url": "https://github.com/zhouxiaoka/autoclip/releases/download/v1.5.8/AutoClip.Desktop_1.5.8_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kytyps5",
+    "name": "KytyPS5",
+    "tagline": "Run console software on your computer",
+    "repo_url": "https://github.com/kytyps5/kytyps5",
+    "full_name": "kytyps5/kytyps5",
+    "category": "Productivity",
+    "tags": [
+      "gaming",
+      "utility"
+    ],
+    "icon": "/icons/kytyps5.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 12514,
+    "tier": "tier1_gui",
+    "summary": "KytyPS5 is a tool that allows you to run specific console software directly on your Windows, Linux, or macOS computer.",
+    "i18n": {
+      "it": "KytyPS5 è uno strumento che ti permette di eseguire software per console direttamente sul tuo computer Windows, Linux o macOS.",
+      "es": "KytyPS5 es una herramienta que te permite ejecutar software de consola directamente en tu computadora Windows, Linux o macOS.",
+      "fr": "KytyPS5 est un outil qui vous permet d'exécuter des logiciels de console directement sur votre ordinateur Windows, Linux ou macOS.",
+      "de": "KytyPS5 ist ein Werkzeug, mit dem Sie Konsolen-Software direkt auf Ihrem Windows-, Linux- oder macOS-Computer ausführen können."
+    },
+    "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "escrcpy",
@@ -11983,6 +12431,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "dependencies",
+    "name": "Dependencies",
+    "tagline": "Modern tool for checking software requirements",
+    "repo_url": "https://github.com/lucasg/dependencies",
+    "full_name": "lucasg/dependencies",
+    "category": "Productivity",
+    "tags": [
+      "windows",
+      "utilities"
+    ],
+    "icon": "/icons/dependencies.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 11965,
+    "tier": "tier1_gui",
+    "summary": "Dependencies helps Windows users identify which files are required for a program to run correctly by mapping out its internal connections.",
+    "i18n": {
+      "it": "Dependencies aiuta gli utenti Windows a identificare i file necessari per il corretto funzionamento di un programma mappandone le connessioni.",
+      "es": "Dependencies ayuda a los usuarios de Windows a identificar qué archivos se necesitan para ejecutar programas correctamente mediante un mapa de conexiones.",
+      "fr": "Dependencies aide les utilisateurs Windows à identifier les fichiers nécessaires au bon fonctionnement d'un logiciel en cartographiant ses connexions.",
+      "de": "Dependencies hilft Windows-Nutzern dabei, die für ein Programm erforderlichen Dateien zu identifizieren, indem es dessen interne Verbindungen abbildet."
+    },
+    "download_url": "https://github.com/lucasg/Dependencies/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "nasiko",
     "name": "Nasiko",
     "tagline": "Manage and monitor your AI coding agents",
@@ -12263,6 +12739,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "wcdb",
+    "name": "WCDB",
+    "tagline": "Efficient database management for mobile apps",
+    "repo_url": "https://github.com/tencent/wcdb",
+    "full_name": "tencent/wcdb",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "mobile-development"
+    ],
+    "icon": "/icons/wcdb.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Custom Open License",
+    "stars": 11655,
+    "tier": "tier1_gui",
+    "summary": "WCDB is a high-performance database tool that helps developers organize and store information within mobile and desktop applications.",
+    "i18n": {
+      "it": "WCDB è uno strumento per database ad alte prestazioni che aiuta a organizzare e archiviare informazioni in applicazioni mobili e desktop.",
+      "es": "WCDB es una herramienta de base de datos de alto rendimiento que ayuda a organizar y almacenar información en aplicaciones móviles y de escritorio.",
+      "fr": "WCDB est un outil de base de données performant qui aide à organiser et stocker des informations dans des applications mobiles et de bureau.",
+      "de": "WCDB ist ein leistungsstarkes Datenbank-Tool, das beim Organisieren und Speichern von Informationen in Mobil- und Desktop-Apps hilft."
+    },
+    "download_url": "https://github.com/Tencent/wcdb/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "bore",
     "name": "bore",
     "tagline": "Share your local apps online",
@@ -12291,6 +12795,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "choco",
+    "name": "choco",
+    "tagline": "Easy Windows software installer",
+    "repo_url": "https://github.com/chocolatey/choco",
+    "full_name": "chocolatey/choco",
+    "category": "Productivity",
+    "tags": [
+      "windows",
+      "productivity"
+    ],
+    "icon": "/icons/choco.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Custom Open License",
+    "stars": 11573,
+    "tier": "tier1_gui",
+    "summary": "Chocolatey lets you install, update, and remove Windows programs with simple text commands instead of manual downloads.",
+    "i18n": {
+      "it": "Chocolatey permette di installare, aggiornare e rimuovere programmi Windows con comandi testuali semplici, evitando i download manuali.",
+      "es": "Chocolatey permite instalar, actualizar y eliminar programas de Windows con comandos de texto simples, evitando descargas manuales.",
+      "fr": "Chocolatey permet d'installer, de mettre à jour et de supprimer des programmes Windows avec des commandes texte simples, sans téléchargements manuels.",
+      "de": "Chocolatey ermöglicht die Installation, Aktualisierung und Entfernung von Windows-Programmen mit einfachen Textbefehlen, ohne manuelle Downloads."
+    },
+    "download_url": "https://github.com/chocolatey/choco/releases/download/2.7.5/chocolatey-2.7.5.0.msi",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "eartrumpet",
+    "name": "EarTrumpet",
+    "tagline": "Advanced volume control for Windows",
+    "repo_url": "https://github.com/file-new-project/eartrumpet",
+    "full_name": "file-new-project/eartrumpet",
+    "category": "Productivity",
+    "tags": [
+      "audio",
+      "windows"
+    ],
+    "icon": "/icons/eartrumpet.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Custom Open License",
+    "stars": 11569,
+    "tier": "tier1_gui",
+    "summary": "EarTrumpet gives you precise, individual volume control for every app running on your Windows computer.",
+    "i18n": {
+      "it": "EarTrumpet ti offre un controllo preciso e individuale del volume per ogni applicazione in esecuzione sul tuo PC Windows.",
+      "es": "EarTrumpet le brinda un control de volumen preciso e individual para cada aplicación que se ejecuta en su computadora con Windows.",
+      "fr": "EarTrumpet vous offre un contrôle précis et individuel du volume pour chaque application en cours d'exécution sur votre PC Windows.",
+      "de": "EarTrumpet bietet Ihnen eine präzise, individuelle Lautstärkeregelung für jede Anwendung, die auf Ihrem Windows-Computer läuft."
+    },
+    "download_url": "https://eartrumpet.app",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "nuklear",
     "name": "Nuklear",
     "tagline": "Lightweight single-header graphical user interface library",
@@ -12317,6 +12877,34 @@
     },
     "download_url": "https://immediate-mode-ui.github.io/Nuklear/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "hghub",
+    "name": "HGhub",
+    "tagline": "A universal video player for everything",
+    "repo_url": "https://github.com/minireel/hghub",
+    "full_name": "minireel/hghub",
+    "category": "Video & Audio",
+    "tags": [
+      "media-player",
+      "video"
+    ],
+    "icon": "/icons/hghub.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Custom Open License",
+    "stars": 11510,
+    "tier": "tier1_gui",
+    "summary": "HGhub is a flexible media player that lets you organize and watch content from various sources in one unified, easy-to-use interface.",
+    "i18n": {
+      "it": "HGhub è un lettore multimediale flessibile che ti permette di organizzare e guardare contenuti da diverse fonti in un'unica interfaccia.",
+      "es": "HGhub es un reproductor multimedia flexible que te permite organizar y ver contenido de diversas fuentes en una interfaz unificada.",
+      "fr": "HGhub est un lecteur multimédia flexible qui vous permet d'organiser et de regarder du contenu provenant de diverses sources.",
+      "de": "HGhub ist ein flexibler Mediaplayer, mit dem Sie Inhalte aus verschiedenen Quellen in einer einheitlichen Oberfläche verwalten können."
+    },
+    "download_url": "https://github.com/Minireel/HGhub/releases/download/v0.0.4/HGhub_0.0.4_x64-setup.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "listen1-desktop",
@@ -12431,6 +13019,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "memreduct",
+    "name": "Mem Reduct",
+    "tagline": "Keep your computer running smoothly and fast.",
+    "repo_url": "https://github.com/henrypp/memreduct",
+    "full_name": "henrypp/memreduct",
+    "category": "Productivity",
+    "tags": [
+      "performance",
+      "utilities"
+    ],
+    "icon": "/icons/memreduct.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 11339,
+    "tier": "tier1_gui",
+    "summary": "Mem Reduct helps you reclaim unused memory to keep your computer responsive during heavy tasks.",
+    "i18n": {
+      "it": "Mem Reduct libera la memoria inutilizzata per mantenere il PC reattivo durante le attività pesanti, ottimizzando le prestazioni in tempo reale.",
+      "es": "Mem Reduct libera memoria no utilizada para que tu PC funcione mejor durante tareas pesadas, mejorando la velocidad de forma automática.",
+      "fr": "Mem Reduct libère la mémoire inutilisée pour garder votre PC réactif lors de tâches lourdes, améliorant ainsi les performances globales.",
+      "de": "Mem Reduct gibt ungenutzten Arbeitsspeicher frei, damit Ihr PC bei anspruchsvollen Aufgaben reaktionsschnell bleibt und flüssiger läuft."
+    },
+    "download_url": "https://github.com/henrypp/memreduct/releases/download/v.3.5.2/memreduct-3.5.2-setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "psutil",
     "name": "psutil",
     "tagline": "Monitor system health and performance easily",
@@ -12485,6 +13101,34 @@
     },
     "download_url": "https://macmousefix.com/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "mremoteng",
+    "name": "mRemoteNG",
+    "tagline": "Manage all remote connections easily",
+    "repo_url": "https://github.com/mremoteng/mremoteng",
+    "full_name": "mremoteng/mremoteng",
+    "category": "Productivity",
+    "tags": [
+      "remote",
+      "productivity"
+    ],
+    "icon": "/icons/mremoteng.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v2)",
+    "stars": 11233,
+    "tier": "tier1_gui",
+    "summary": "mRemoteNG lets you organize and open many remote desktop, server, and web sessions from one simple, tabbed window.",
+    "i18n": {
+      "it": "mRemoteNG ti permette di organizzare e aprire molte sessioni remote, come desktop, server e web, in un’unica finestra a schede semplice da usare.",
+      "es": "mRemoteNG te ayuda a organizar y abrir múltiples sesiones remotas, como escritorios, servidores y sitios web, dentro de una ventana con pestañas sencilla y práctica.",
+      "fr": "mRemoteNG vous permet d’organiser et d’ouvrir de nombreuses sessions à distance – bureaux, serveurs ou sites web – dans une fenêtre à onglets simple et intuitive.",
+      "de": "mRemoteNG ermöglicht es Ihnen, zahlreiche Remote‑Sitzungen wie Desktop, Server und Web‑Anwendungen in einem einzigen, leicht zu bedienenden Registerkarten‑Fenster zu organisieren und zu öffnen."
+    },
+    "download_url": "https://github.com/mRemoteNG/mRemoteNG/releases/download/v1.76.20/mRemoteNG-Installer-1.76.20.24615.msi",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "blinko",
@@ -12823,6 +13467,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "captura",
+    "name": "Captura",
+    "tagline": "Record screens and audio effortlessly",
+    "repo_url": "https://github.com/mathewsachin/captura",
+    "full_name": "mathewsachin/captura",
+    "category": "Video & Audio",
+    "tags": [
+      "screen-recorder",
+      "audio-capture"
+    ],
+    "icon": "/icons/captura.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 10893,
+    "tier": "tier1_gui",
+    "summary": "Capture desktop screens, webcams, audio, and mouse movements easily with a lightweight recording utility.",
+    "i18n": {
+      "it": "Cattura schermi desktop, webcam, audio e movimenti del mouse con un pratico strumento di registrazione.",
+      "es": "Captura pantallas de escritorio, cámaras web, audio y movimientos del ratón con una ligera utilidad.",
+      "fr": "Capturez des écrans de bureau, webcams, audio et mouvements de souris avec un outil de enregistrement.",
+      "de": "Erfassen Sie Desktop-Bildschirme, Webcams, Audio und Mausbewegungen mit einem leichten Aufnahmetool."
+    },
+    "download_url": "https://github.com/MathewSachin/Captura/releases/download/v8.0.0/Captura-Setup.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "proton-native",
     "name": "proton-native",
     "tagline": "Lightweight desktop app builder",
@@ -12848,6 +13520,34 @@
     },
     "download_url": "https://proton-native.js.org",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "qt",
+    "name": "Qt for Go",
+    "tagline": "Create cross-platform apps using Go",
+    "repo_url": "https://github.com/therecipe/qt",
+    "full_name": "therecipe/qt",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "programming"
+    ],
+    "icon": "/icons/qt.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Open Source (LGPL)",
+    "stars": 10800,
+    "tier": "tier1_gui",
+    "summary": "This tool allows you to build graphical applications for desktop and mobile devices using the Go programming language.",
+    "i18n": {
+      "it": "Questo strumento ti permette di creare applicazioni grafiche per computer e dispositivi mobili usando il linguaggio di programmazione Go.",
+      "es": "Esta herramienta te permite crear aplicaciones gráficas para computadoras y dispositivos móviles usando el lenguaje de programación Go.",
+      "fr": "Cet outil vous permet de créer des applications graphiques pour ordinateurs et appareils mobiles en utilisant le langage de programmation Go.",
+      "de": "Dieses Werkzeug ermöglicht es Ihnen, grafische Anwendungen für Computer und Mobilgeräte mit der Programmiersprache Go zu erstellen."
+    },
+    "download_url": "https://github.com/therecipe/qt/releases",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "inshellisense",
