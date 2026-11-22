@@ -14222,6 +14222,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "psysh",
+    "name": "PsySH",
+    "tagline": "Interactive console for PHP programming",
+    "repo_url": "https://github.com/bobthecow/psysh",
+    "full_name": "bobthecow/psysh",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "php",
+      "development"
+    ],
+    "icon": "/icons/psysh.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9828,
+    "tier": "tier3_powertool",
+    "summary": "PsySH is a helpful tool that lets you test and run PHP code snippets instantly in a live, interactive environment.",
+    "i18n": {
+      "it": "PsySH è uno strumento utile che ti permette di testare ed eseguire frammenti di codice PHP istantaneamente in un ambiente interattivo.",
+      "es": "PsySH es una herramienta útil que te permite probar y ejecutar fragmentos de código PHP al instante en un entorno interactivo.",
+      "fr": "PsySH est un outil pratique qui vous permet de tester et d'exécuter des extraits de code PHP instantanément dans un environnement interactif.",
+      "de": "PsySH ist ein hilfreiches Werkzeug, mit dem Sie PHP-Code-Schnipsel sofort in einer interaktiven Umgebung testen und ausführen können."
+    },
+    "download_url": "https://psysh.org",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "console",
     "name": "Console",
     "tagline": "Build professional text-based computer tools",
@@ -14248,6 +14276,34 @@
     },
     "download_url": "https://symfony.com/console",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "reviewdog",
+    "name": "reviewdog",
+    "tagline": "Automated code reviews for cleaner software",
+    "repo_url": "https://github.com/reviewdog/reviewdog",
+    "full_name": "reviewdog/reviewdog",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "code-review",
+      "automation"
+    ],
+    "icon": "/icons/reviewdog.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9754,
+    "tier": "tier3_powertool",
+    "summary": "Automatically post code quality feedback directly onto your pull requests and code hosting platforms by integrating any standard analysis tool.",
+    "i18n": {
+      "it": "Pubblica automaticamente commenti sulla qualità del codice direttamente nelle tue richieste di modifica integrandoti con qualsiasi strumento.",
+      "es": "Publica automáticamente comentarios de calidad de código en tus solicitudes de extracción integrando cualquier herramienta de análisis.",
+      "fr": "Publiez automatiquement des retours sur la qualité du code directement sur vos demandes de fusion en connectant vos outils.",
+      "de": "Veröffentlichen Sie automatisch Code-Qualitätsprüfungen direkt in Ihren Pull Requests durch Anbindung beliebiger Analysewerkzeuge."
+    },
+    "download_url": "https://github.com/reviewdog/reviewdog/releases/download/v0.21.3/checksums.txt",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "openidea",
@@ -14446,6 +14502,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "npkill",
+    "name": "npkill",
+    "tagline": "Free up disk space instantly",
+    "repo_url": "https://github.com/voidcosmos/npkill",
+    "full_name": "voidcosmos/npkill",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "utility",
+      "cleanup"
+    ],
+    "icon": "/icons/npkill.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9621,
+    "tier": "tier3_powertool",
+    "summary": "Quickly scan your computer for heavy forgotten folders, caches, and leftover files to reclaim precious hard drive space.",
+    "i18n": {
+      "it": "Quickly scan your computer for heavy forgotten folders, caches, and leftover files to reclaim precious hard drive space.",
+      "es": "Quickly scan your computer for heavy forgotten folders, caches, and leftover files to reclaim precious hard drive space.",
+      "fr": "Quickly scan your computer for heavy forgotten folders, caches, and leftover files to reclaim precious hard drive space.",
+      "de": "Quickly scan your computer for heavy forgotten folders, caches, and leftover files to reclaim precious hard drive space."
+    },
+    "download_url": "https://npkill.js.org",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "local-deep-research",
     "name": "Local Deep Research",
     "tagline": "Private AI research assistant you control.",
@@ -14472,6 +14556,34 @@
     },
     "download_url": "https://github.com/LearningCircuit/local-deep-research/releases/download/v2.0.1/provenance.intoto.jsonl",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "oclif",
+    "name": "oclif",
+    "tagline": "Build powerful command line tools easily",
+    "repo_url": "https://github.com/oclif/oclif",
+    "full_name": "oclif/oclif",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "developer-tools"
+    ],
+    "icon": "/icons/oclif.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9610,
+    "tier": "tier3_powertool",
+    "summary": "Create, package, and release custom command line tools and utilities with an official toolkit designed for developers.",
+    "i18n": {
+      "it": "Crea e distribuisci strumenti personalizzati da riga di comando con un toolkit ufficiale per sviluppatori.",
+      "es": "Crea y distribuye herramientas personalizadas de línea de comandos con un kit de herramientas oficial.",
+      "fr": "Créez et distribuez des outils de ligne de commande personnalisés grâce à un kit de développement officiel.",
+      "de": "Erstellen und veröffentlichen Sie benutzerdefinierte Befehlszeilentools mit einem offiziellen Entwickler-Toolkit."
+    },
+    "download_url": "https://oclif.io",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "pgweb",
@@ -14556,6 +14668,34 @@
     },
     "download_url": "https://github.com/pocoproject/poco/releases/download/poco-1.15.4-release/poco-1.15.4-all.tar.bz2",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "visidata",
+    "name": "visidata",
+    "tagline": "Explore and arrange spreadsheet data instantly",
+    "repo_url": "https://github.com/saulpw/visidata",
+    "full_name": "saulpw/visidata",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "spreadsheet",
+      "system-utility"
+    ],
+    "icon": "/icons/visidata.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 9480,
+    "tier": "tier3_powertool",
+    "summary": "A powerful command-line tool for exploring, filtering, and organizing large sets of tabular data directly in your terminal.",
+    "i18n": {
+      "it": "Un potente strumento da riga di comando per esplorare, filtrare e organizzare grandi set di dati direttamente nel terminale.",
+      "es": "Una potente herramienta de línea de comandos para explorar, filtrar y organizar grandes conjuntos de datos en la terminal.",
+      "fr": "Un outil puissant en ligne de commande pour explorer, filtrer et organiser de grands ensembles de données dans le terminal.",
+      "de": "Ein leistungsstarkes Befehlszeilenwerkzeug zum Erkunden, Filtern und Organisieren großer Tabellendatensätze im Terminal."
+    },
+    "download_url": "https://github.com/saulpw/visidata/releases/download/v3.5/man.md",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "git-credential-manager",
@@ -14754,6 +14894,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "taskbook",
+    "name": "taskbook",
+    "tagline": "Manage tasks and notes in terminal.",
+    "repo_url": "https://github.com/klaudiosinani/taskbook",
+    "full_name": "klaudiosinani/taskbook",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "productivity",
+      "system-utility"
+    ],
+    "icon": "/icons/taskbook.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9349,
+    "tier": "tier3_powertool",
+    "summary": "Keep track of your daily tasks, separate boards, and quick notes directly from your command-line workspace without leaving your keyboard.",
+    "i18n": {
+      "it": "Tieni traccia delle tue attività quotidiane e note direttamente dal terminale senza distrazioni.",
+      "es": "Organiza tus tareas diarias y notas rápidas directamente desde tu terminal de comandos.",
+      "fr": "Suivez vos tâches quotidiennes et notes directement depuis votre espace de travail en ligne de commande.",
+      "de": "Behalten Sie Ihre täglichen Aufgaben und schnellen Notizen direkt in Ihrem Befehlszeilen-Terminal im Blick."
+    },
+    "download_url": "https://klaudiosinani.com/taskbook",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "bili23-downloader",
     "name": "Bili23-Downloader",
     "tagline": "Save and organize your favorite online videos",
@@ -14950,6 +15118,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "signale",
+    "name": "signale",
+    "tagline": "Beautiful and customizable software logging utility",
+    "repo_url": "https://github.com/klaudiosinani/signale",
+    "full_name": "klaudiosinani/signale",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "logging",
+      "utilities"
+    ],
+    "icon": "/icons/signale.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9173,
+    "tier": "tier3_powertool",
+    "summary": "Signale is a versatile logging tool that helps developers display organized status reports, custom badges, and interactive messages in their projects.",
+    "i18n": {
+      "it": "Signale è un versatile strumento di registrazione che aiuta gli sviluppatori a visualizzare rapporti di stato organizzati e messaggi interattivi.",
+      "es": "Signale es una versátil herramienta de registro que ayuda a los desarrolladores a mostrar informes de estado organizados y mensajes interactivos.",
+      "fr": "Signale est un outil de journalisation polyvalent qui aide les développeurs à afficher des rapports de status organisés et des messages interactifs.",
+      "de": "Signale ist ein vielseitiges Protokollierungswerkzeug, das Entwicklern hilft, organisierte Statusberichte und interaktive Nachrichten anzuzeigen."
+    },
+    "download_url": "https://klaudiosinani.com/signale",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "microsandbox",
     "name": "microsandbox",
     "tagline": "Run untrusted workloads in secure microVMs",
@@ -15062,6 +15258,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "mac-cli",
+    "name": "Mac-CLI",
+    "tagline": "Automate your Mac tasks effortlessly",
+    "repo_url": "https://github.com/guarinogabriel/mac-cli",
+    "full_name": "guarinogabriel/mac-cli",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "productivity",
+      "macos"
+    ],
+    "icon": "/icons/mac-cli.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9138,
+    "tier": "tier3_powertool",
+    "summary": "Mac-CLI helps you manage your computer by running simple text commands to perform common system tasks and maintenance routines.",
+    "i18n": {
+      "it": "Mac-CLI ti aiuta a gestire il computer eseguendo semplici comandi testuali per attività di sistema e manutenzione.",
+      "es": "Mac-CLI te ayuda a gestionar tu equipo ejecutando comandos de texto simples para tareas del sistema y mantenimiento.",
+      "fr": "Mac-CLI vous aide à gérer votre ordinateur en exécutant des commandes simples pour les tâches système et la maintenance.",
+      "de": "Mac-CLI hilft Ihnen bei der Verwaltung Ihres Computers durch einfache Textbefehle für Systemaufgaben und Wartung."
+    },
+    "download_url": "https://github.com/guarinogabriel/Mac-CLI/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "solidtime",
     "name": "solidtime",
     "tagline": "Modern open-source time tracking for teams",
@@ -15118,6 +15342,118 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "so-novel",
+    "name": "So Novel",
+    "tagline": "Easily download and convert online stories",
+    "repo_url": "https://github.com/freeok/so-novel",
+    "full_name": "freeok/so-novel",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "downloader",
+      "converter"
+    ],
+    "icon": "/icons/so-novel.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 9114,
+    "tier": "tier3_powertool",
+    "summary": "Extract online literature and format stories into standard electronic book files for offline reading anywhere.",
+    "i18n": {
+      "it": "Estrai letteratura online e formatta storie in file ebook standard per la lettura offline.",
+      "es": "Extrae literatura en línea y formatea historias en archivos de libros electrónicos estándar.",
+      "fr": "Extrayez de la littérature en ligne et formatez des histoires en fichiers de livres électroniques.",
+      "de": "Extrahieren Sie Online-Literatur und formatieren Sie Geschichten in Standard-E-Book-Dateien."
+    },
+    "download_url": "https://github.com/freeok/so-novel/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "http-prompt",
+    "name": "http-prompt",
+    "tagline": "Interactive command-line HTTP testing client",
+    "repo_url": "https://github.com/httpie/http-prompt",
+    "full_name": "httpie/http-prompt",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "http",
+      "system-utility"
+    ],
+    "icon": "/icons/http-prompt.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9107,
+    "tier": "tier3_powertool",
+    "summary": "An interactive command-line tool designed to help developers easily test and explore web services and digital interfaces.",
+    "i18n": {
+      "it": "Un client interattivo da riga di comando per testare facilmente servizi web e interfacce digitali.",
+      "es": "Una herramienta interactiva de línea de comandos para probar y explorar servicios web fácilmente.",
+      "fr": "Un client interactif pour tester et explorer facilement des services web et des interfaces.",
+      "de": "Ein interaktives Befehlszeilen-Tool zum einfachen Testen und Erkunden von Webdiensten."
+    },
+    "download_url": "https://http-prompt.com",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "release-it",
+    "name": "release-it",
+    "tagline": "Automate software versioning and package publishing.",
+    "repo_url": "https://github.com/release-it/release-it",
+    "full_name": "release-it/release-it",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "automation",
+      "publishing"
+    ],
+    "icon": "/icons/release-it.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9087,
+    "tier": "tier3_powertool",
+    "summary": "Easily automate software updates, version bumps, and package publishing workflows with an interactive command-line assistant.",
+    "i18n": {
+      "it": "Automatizza facilmente gli aggiornamenti software e la pubblicazione dei pacchetti con un assistente da riga di comando.",
+      "es": "Automatice fácilmente las actualizaciones de software y la publicación de paquetes con un asistente de línea de comandos.",
+      "fr": "Automatisez facilement les mises à jour logicielles et la publication de paquets grâce à un assistant en ligne de commande.",
+      "de": "Automatisieren Sie Software-Updates und die Paketveröffentlichung ganz einfach mit einem interaktiven Befehlszeilen-Assistenten."
+    },
+    "download_url": "https://github.com/release-it/release-it/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "bubbles",
+    "name": "Bubbles",
+    "tagline": "Building blocks for terminal interfaces.",
+    "repo_url": "https://github.com/charmbracelet/bubbles",
+    "full_name": "charmbracelet/bubbles",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "components"
+    ],
+    "icon": "/icons/bubbles.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 9070,
+    "tier": "tier3_powertool",
+    "summary": "Create interactive text screens easily with ready-to-use building blocks for command-line programs.",
+    "i18n": {
+      "it": "Crea schermate di testo interattive con componenti pronti all'uso per programmi da terminale.",
+      "es": "Crea pantallas de texto interactivas fácilmente con bloques listos para usar en la terminal.",
+      "fr": "Créez des écrans textuels interactifs avec des blocs prêts à l'emploi pour le terminal.",
+      "de": "Erstellen Sie interaktive Textbildschirme ganz einfach mit vorgefertigten Terminal-Komponenten."
+    },
+    "download_url": "https://github.com/charmbracelet/bubbles/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "sloth",
     "name": "Sloth",
     "tagline": "Easily inspect files and devices on Mac",
@@ -15144,6 +15480,62 @@
     },
     "download_url": "https://sveinbjorn.org/sloth",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "aws-vault",
+    "name": "aws-vault",
+    "tagline": "Securely manage your cloud access keys.",
+    "repo_url": "https://github.com/99designs/aws-vault",
+    "full_name": "99designs/aws-vault",
+    "category": "Productivity",
+    "tags": [
+      "security",
+      "cloud"
+    ],
+    "icon": "/icons/aws-vault.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 8997,
+    "tier": "tier3_powertool",
+    "summary": "This tool keeps your sensitive cloud login credentials safe by storing them in your computer's built-in secure vault instead of plain text files.",
+    "i18n": {
+      "it": "Proteggi le tue credenziali cloud salvandole nel sistema di sicurezza integrato del tuo computer invece che in file di testo.",
+      "es": "Protege tus credenciales de acceso almacenándolas en el sistema de seguridad de tu equipo en lugar de usar archivos de texto.",
+      "fr": "Protégez vos identifiants de connexion en les stockant dans le coffre-fort sécurisé de votre ordinateur plutôt que dans des fichiers texte.",
+      "de": "Schützen Sie Ihre Anmeldedaten, indem Sie diese im sicheren Speicher Ihres Computers ablegen, anstatt sie in Textdateien zu speichern."
+    },
+    "download_url": "https://github.com/99designs/aws-vault/releases/download/v7.2.0/aws-vault-windows-386.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "presenterm",
+    "name": "presenterm",
+    "tagline": "Run markdown slideshows directly in terminal",
+    "repo_url": "https://github.com/mfontanini/presenterm",
+    "full_name": "mfontanini/presenterm",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "markdown",
+      "presentations"
+    ],
+    "icon": "/icons/presenterm.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 8995,
+    "tier": "tier3_powertool",
+    "summary": "Create and deliver engaging presentations using simple markdown files right inside your command-line interface.",
+    "i18n": {
+      "it": "Crea e mostra presentazioni coinvolgenti usando semplici file markdown direttamente all'interno del tuo terminale.",
+      "es": "Crea y presenta diapositivas atractivas usando sencillos archivos markdown directamente dentro de tu terminal.",
+      "fr": "Concevez et présentez des diaporamas captivants en utilisant de simples fichiers markdown directement depuis votre terminal.",
+      "de": "Erstelle und halte ansprechende Präsentationen mit einfachen Markdown-Dateien direkt in deiner Befehlszeile."
+    },
+    "download_url": "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-aarch64-apple-darwin.tar.gz.sha512",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "go-app",
@@ -15174,6 +15566,90 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "xcodegen",
+    "name": "XcodeGen",
+    "tagline": "Generate Xcode projects from simple text files",
+    "repo_url": "https://github.com/yonaskolb/xcodegen",
+    "full_name": "yonaskolb/xcodegen",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "developer-tools",
+      "xcode"
+    ],
+    "icon": "/icons/xcodegen.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8970,
+    "tier": "tier3_powertool",
+    "summary": "XcodeGen creates your Xcode project files automatically from a simple text description, eliminating manual setup errors and version control conflicts.",
+    "i18n": {
+      "it": "XcodeGen crea automaticamente i file di progetto Xcode da una descrizione testuale semplice, eliminando errori di configurazione manuale e conflitti di versione.",
+      "es": "XcodeGen crea automáticamente los archivos de proyecto de Xcode desde una descripción de texto simple, eliminando errores de configuración manual y conflictos de versión.",
+      "fr": "XcodeGen crée automatiquement les fichiers de projet Xcode à partir d'une description textuelle simple, éliminant les erreurs de configuration manuelle et les conflits de version.",
+      "de": "XcodeGen erstellt automatisch Xcode-Projektdateien aus einer einfachen Textbeschreibung und eliminiert manuelle Konfigurationsfehler und Versionskonflikte."
+    },
+    "download_url": "https://github.com/yonaskolb/XcodeGen/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "openrig",
+    "name": "OpenRig",
+    "tagline": "Turn coding agents into organized teams.",
+    "repo_url": "https://github.com/mvschwarz/openrig",
+    "full_name": "mvschwarz/openrig",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/openrig.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8936,
+    "tier": "tier3_powertool",
+    "summary": "Manage multiple AI coding assistants as a single coordinated team with shared context, custom roles, and persistent workspaces.",
+    "i18n": {
+      "it": "Gestisci più assistenti di programmazione IA come un team coordinato con contesto condiviso, ruoli e spazi di lavoro persistenti.",
+      "es": "Gestiona múltiples asistentes de programación como un equipo coordinado con contexto compartido, roles y espacios de trabajo.",
+      "fr": "Gérez plusieurs assistants de code comme une équipe coordonnée avec un contexte partagé, des rôles et des espaces de travail.",
+      "de": "Verwalten Sie mehrere KI-Programmierassistenten als ein koordiniertes Team mit geteiltem Kontext und festen Arbeitsbereichen."
+    },
+    "download_url": "https://openrig.dev",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "pdfcpu",
+    "name": "pdfcpu",
+    "tagline": "Process and manipulate PDF files easily.",
+    "repo_url": "https://github.com/pdfcpu/pdfcpu",
+    "full_name": "pdfcpu/pdfcpu",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "pdf",
+      "utilities"
+    ],
+    "icon": "/icons/pdfcpu.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8918,
+    "tier": "tier3_powertool",
+    "summary": "A powerful utility that lets you merge, split, encrypt, and modify PDF documents directly from your computer setup.",
+    "i18n": {
+      "it": "Un pratico strumento per unire, dividere, crittografare e modificare file PDF direttamente dal tuo computer.",
+      "es": "Una potente utilidad para unir, dividir, cifrar y modificar documentos PDF directamente desde tu equipo.",
+      "fr": "Un outil puissant pour fusionner, diviser, chiffrer et modifier vos documents PDF directement sur votre ordinateur.",
+      "de": "Ein leistungsstarkes Werkzeug zum Zusammenführen, Teilen, Verschlüsseln und Anpassen von PDF-Dokumenten."
+    },
+    "download_url": "https://github.com/pdfcpu/pdfcpu/releases/download/v0.16.4/checksums.txt",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "builder",
     "name": "Builder",
     "tagline": "Visual design for your website projects",
@@ -15200,6 +15676,34 @@
     },
     "download_url": "https://builder.io",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "scc",
+    "name": "scc",
+    "tagline": "Ultra-fast code statistics and analysis tool",
+    "repo_url": "https://github.com/boyter/scc",
+    "full_name": "boyter/scc",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "productivity",
+      "development-tools"
+    ],
+    "icon": "/icons/scc.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8887,
+    "tier": "tier3_powertool",
+    "summary": "scc counts lines of code, comments, and blank spaces in your projects while estimating complexity and development costs.",
+    "i18n": {
+      "it": "scc conta le righe di codice, i commenti e gli spazi vuoti nei tuoi progetti, stimando complessità e costi di sviluppo.",
+      "es": "scc cuenta líneas de código, comentarios y espacios en blanco en tus proyectos, estimando la complejidad y los costes de desarrollo.",
+      "fr": "scc compte les lignes de code, les commentaires et les espaces vides dans vos projets tout en estimant la complexité et les coûts.",
+      "de": "scc zählt Codezeilen, Kommentare und Leerzeichen in Ihren Projekten und schätzt die Komplexität sowie die Entwicklungskosten."
+    },
+    "download_url": "https://github.com/boyter/scc/releases/download/v4.1.0/checksums.txt",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "stable-dreamfusion",
@@ -15258,6 +15762,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "claude-squad",
+    "name": "Claude Squad",
+    "tagline": "Manage multiple AI assistants simultaneously",
+    "repo_url": "https://github.com/smtg-ai/claude-squad",
+    "full_name": "smtg-ai/claude-squad",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "ai",
+      "system-utility"
+    ],
+    "icon": "/icons/claude-squad.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 8847,
+    "tier": "tier3_powertool",
+    "summary": "Run and manage multiple artificial intelligence coding helpers in separate workspaces from a single window.",
+    "i18n": {
+      "it": "Esegui e gestisci più aiutanti di programmazione IA in spazi di lavoro separati da un'unica finestra.",
+      "es": "Ejecuta y gestiona varios asistentes de programación de IA en espacios de trabajo separados desde una sola ventana sin conflictos de código.",
+      "fr": "Exécutez et gérez plusieurs assistants de codage IA dans des espaces de travail séparés depuis une seule fenêtre sans conflits.",
+      "de": "Führen Sie mehrere KI-Programmierhelfer in separaten Arbeitsbereichen aus einem einzigen Fenster aus, ohne Codekonflikte."
+    },
+    "download_url": "https://github.com/smtg-ai/claude-squad/releases/download/v1.0.20/checksums.txt",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "binggpt",
     "name": "BingGPT",
     "tagline": "Independent desktop app for AI chat.",
@@ -15312,6 +15844,62 @@
     },
     "download_url": "https://github.com/PrivateBin/PrivateBin/releases/download/2.1.1/multiple.intoto.jsonl",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "websocat",
+    "name": "websocat",
+    "tagline": "Command-line client for WebSocket connections.",
+    "repo_url": "https://github.com/vi/websocat",
+    "full_name": "vi/websocat",
+    "category": "Productivity",
+    "tags": [
+      "networking",
+      "developer-tools"
+    ],
+    "icon": "/icons/websocat.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 8760,
+    "tier": "tier3_powertool",
+    "summary": "Test and interact with WebSockets directly from your terminal using simple commands and flexible network pipes.",
+    "i18n": {
+      "it": "Testa e interagisci con i WebSocket direttamente dal tuo terminale usando comandi semplici e flessibili.",
+      "es": "Prueba e interactúa con WebSockets directamente desde tu terminal usando comandos simples y flexibles.",
+      "fr": "Testez et interagissez avec des WebSockets directement depuis votre terminal grâce à des commandes simples.",
+      "de": "Testen und interagieren Sie mit WebSockets direkt von Ihrem Terminal aus mit einfachen Befehlen."
+    },
+    "download_url": "https://github.com/vi/websocat/releases/download/v1.14.2/websocat.i686-pc-windows-gnu.exe",
+    "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "evolver",
+    "name": "Evolver",
+    "tagline": "Smart self-improving engine for AI assistants",
+    "repo_url": "https://github.com/evomap/evolver",
+    "full_name": "evomap/evolver",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "automation"
+    ],
+    "icon": "/icons/evolver.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 8748,
+    "tier": "tier3_powertool",
+    "summary": "Evolver is a powerful helper engine that automatically upgrades your AI coding assistants by turning past mistakes and project notes into reusable knowledge capsules.",
+    "i18n": {
+      "it": "Evolver è un motore che aggiorna automaticamente i tuoi assistenti IA trasformando gli errori passati in capsule di conoscenza riutilizzabili.",
+      "es": "Evolver es un motor que actualiza automáticamente tus asistentes de IA convirtiendo errores pasados en cápsulas de conocimiento reutilizables.",
+      "fr": "Evolver est un moteur qui met à jour automatiquement vos assistants IA en transformant les erreurs passées en capsules de connaissances.",
+      "de": "Evolver ist ein Motor, der Ihre KI-Assistenten automatisch aktualisiert, indem er vergangene Fehler in wiederverwendbare Kapseln verwandelt."
+    },
+    "download_url": "https://github.com/EvoMap/evolver/releases/download/v2.0.55/evolver-windows-x64.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "utopia",
@@ -15370,6 +15958,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "treg",
+    "name": "Treg",
+    "tagline": "The tool catalog and proxy for AI agents.",
+    "repo_url": "https://github.com/superdesigndev/treg",
+    "full_name": "superdesigndev/treg",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "ai",
+      "agents"
+    ],
+    "icon": "/icons/treg.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 8722,
+    "tier": "tier3_powertool",
+    "summary": "Treg gives your AI assistants a single secure gateway to access thousands of paid data sources and tools without managing separate accounts.",
+    "i18n": {
+      "it": "Treg offre ai tuoi assistenti IA un unico gateway sicuro per accedere a migliaia di fonti dati e strumenti pagati.",
+      "es": "Treg ofrece a tus asistentes de IA una pasarela única para acceder a miles de fuentes de datos y herramientas sin cuentas.",
+      "fr": "Treg offre à vos assistants IA une passerelle sécurisée pour accéder à des milliers de sources de données et d'outils.",
+      "de": "Treg bietet Ihren KI-Assistenten ein einziges sicheres Gateway, um auf tausende Datenquellen und Tools zuzugreifen."
+    },
+    "download_url": "https://treg.to",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "dozer",
     "name": "Dozer",
     "tagline": "Clean up your Mac menu bar",
@@ -15396,6 +16012,34 @@
     },
     "download_url": "https://github.com/Mortennn/Dozer/releases/download/v4.0.0/Dozer.4.0.0.dmg",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "jc",
+    "name": "jc",
+    "tagline": "Turn command output into structured data",
+    "repo_url": "https://github.com/kellyjonbrazil/jc",
+    "full_name": "kellyjonbrazil/jc",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "json"
+    ],
+    "icon": "/icons/jc.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8707,
+    "tier": "tier3_powertool",
+    "summary": "Easily transform text output from common console tools and system files into organized structured formats for simpler automation scripts.",
+    "i18n": {
+      "it": "Trasforma facilmente l'output di comandi e file di sistema in formati strutturati organizzati per semplificare gli script.",
+      "es": "Transforma fácilmente resultados de comandos y archivos de sistema en formatos estructurados organizados para automatizar.",
+      "fr": "Convertissez facilement les sorties de commandes et fichiers système en formats structurés pour simplifier vos scripts.",
+      "de": "Verwandeln Sie Textausgaben von Konsolenbefehlen und Systemdateien mühelos in strukturierte Formate für Skripte."
+    },
+    "download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2.msi",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "oatpp",
@@ -15426,6 +16070,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "youtube-transcript-api",
+    "name": "youtube-transcript-api",
+    "tagline": "Easily pull captions from online videos",
+    "repo_url": "https://github.com/jdepoix/youtube-transcript-api",
+    "full_name": "jdepoix/youtube-transcript-api",
+    "category": "Video & Audio",
+    "tags": [
+      "subtitles",
+      "transcript"
+    ],
+    "icon": "/icons/youtube-transcript-api.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8649,
+    "tier": "tier3_powertool",
+    "summary": "Fetch closed captions and automatically generated subtitles from online videos using a simple programming tool without needing complex setups.",
+    "i18n": {
+      "it": "Ottieni didascalie e sottotitoli generati automaticamente dai video con un semplice strumento di programmazione.",
+      "es": "Obtén subtítulos y transcripciones generadas automáticamente de videos de forma sencilla y directa.",
+      "fr": "Récupérez des sous-titres et transcriptions générées automatiquement à partir de vidéos en toute simplicité.",
+      "de": "Laden Sie Untertitel und automatisch generierte Transkripte von Videos mit einem einfachen Programmierwerkzeug herunter."
+    },
+    "download_url": "https://github.com/jdepoix/youtube-transcript-api/releases",
+    "updated_at": "2026-11-22"
+  },
+  {
     "slug": "hippy",
     "name": "Hippy",
     "tagline": "Build cross-platform mobile apps easily.",
@@ -15452,6 +16124,34 @@
     },
     "download_url": "https://framework.tds.qq.com/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "app-store-connect-cli",
+    "name": "App-Store-Connect-CLI",
+    "tagline": "Automate app store releases from terminal",
+    "repo_url": "https://github.com/rorkai/app-store-connect-cli",
+    "full_name": "rorkai/app-store-connect-cli",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "automation"
+    ],
+    "icon": "/icons/app-store-connect-cli.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 8450,
+    "tier": "tier3_powertool",
+    "summary": "Manage your app store publishing workflows, test distributions, and metadata updates directly from your command line.",
+    "i18n": {
+      "it": "Gestisci i flussi di pubblicazione, le distribuzioni di prova e gli aggiornamenti di metadati direttamente dal tuo terminale.",
+      "es": "Gestiona flujos de publicación, pruebas y actualizaciones de metadatos directamente desde tu línea de comandos.",
+      "fr": "Gérez vos flux de publication, vos distributions de test et vos mises à jour de métadonnées depuis votre terminal.",
+      "de": "Verwalten Sie Veröffentlichungen, Testverteilungen und Metadatenaktualisierungen direkt von Ihrer Befehlszeile aus."
+    },
+    "download_url": "https://github.com/rorkai/App-Store-Connect-CLI/releases/download/7.1.0/asc_7.1.0_windows_amd64.exe",
+    "updated_at": "2026-11-22"
   },
   {
     "slug": "mumble",
