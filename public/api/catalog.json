@@ -2,26 +2,26 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-22T10:43:44.100945+00:00",
-  "total_apps": 1275,
+  "generated_at": "2026-11-22T10:47:16.033879+00:00",
+  "total_apps": 1300,
   "tier_counts": {
     "tier3_powertool": 250,
     "tier2_webapp": 375,
-    "tier1_gui": 650
+    "tier1_gui": 675
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 240,
     "selfhosted": 374,
-    "desktop": 650,
+    "desktop": 675,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 26,
-    "Productivity": 556,
-    "Security & Privacy": 39,
+    "Productivity": 579,
+    "Security & Privacy": 40,
     "Utilities & Power Tools": 230,
-    "Video & Audio": 72,
+    "Video & Audio": 73,
     "Web Apps & Cloud": 351,
     "Websites & SEO": 1
   },
@@ -3834,6 +3834,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "yesplaymusic",
+      "name": "YesPlayMusic",
+      "tagline": "Gorgeous alternative music player client",
+      "repo_url": "https://github.com/qier222/yesplaymusic",
+      "full_name": "qier222/yesplaymusic",
+      "category": "Video & Audio",
+      "tags": [
+        "audio",
+        "music"
+      ],
+      "icon": "/icons/yesplaymusic.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 33668,
+      "tier": "tier1_gui",
+      "summary": "Enjoy a clean, high-design music player for your favorite tracks with zero distracting social clutter.",
+      "i18n": {
+        "it": "Goditi un lettore musicale elegante e senza distrazioni sociali per i tuoi brani preferiti.",
+        "es": "Disfruta de un reproductor de música elegante y sin distracciones sociales para tus canciones favoritas.",
+        "fr": "Profitez d'un lecteur de musique élégant et sans distractions sociales pour vos morceaux préférés.",
+        "de": "Genießen Sie einen eleganten, ablenkungsfreien Musikplayer für Ihre Lieblingssongs."
+      },
+      "download_url": "https://github.com/qier222/YesPlayMusic/releases/download/v0.4.11/YesPlayMusic-0.4.11.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "onyx",
       "name": "Onyx",
       "tagline": "Your smart internal team knowledge assistant",
@@ -3972,6 +4000,34 @@
       },
       "download_url": "https://yew.rs",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "cua",
+      "name": "Cua",
+      "tagline": "Turn your computers into one supercomputer",
+      "repo_url": "https://github.com/trycua/cua",
+      "full_name": "trycua/cua",
+      "category": "Productivity",
+      "tags": [
+        "automation",
+        "productivity"
+      ],
+      "icon": "/icons/cua.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 32768,
+      "tier": "tier1_gui",
+      "summary": "Cua connects your computers into a shared workspace, allowing you and your automated assistants to control apps and files from anywhere.",
+      "i18n": {
+        "it": "Cua unisce i tuoi computer in uno spazio di lavoro condiviso, permettendo a te e ai tuoi assistenti di gestire app e file ovunque.",
+        "es": "Cua conecta tus ordenadores en un espacio de trabajo compartido, permitiendo que tú y tus asistentes controléis apps y archivos desde cualquier lugar.",
+        "fr": "Cua relie vos ordinateurs en un espace de travail partagé, permettant à vous et à vos assistants de contrôler vos applications et fichiers à distance.",
+        "de": "Cua verbindet Ihre Computer zu einem gemeinsamen Arbeitsbereich, sodass Sie und Ihre Assistenten Apps und Dateien von überall aus steuern können."
+      },
+      "download_url": "https://github.com/trycua/cua/releases/download/cua-spaces-v0.41.3/cua-spaces-0.41.3-windows-arm64-setup.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "windterm",
@@ -4394,6 +4450,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "calculator",
+      "name": "Calculator",
+      "tagline": "Powerful open-source calculator for daily math",
+      "repo_url": "https://github.com/microsoft/calculator",
+      "full_name": "microsoft/calculator",
+      "category": "Productivity",
+      "tags": [
+        "calculator",
+        "utilities"
+      ],
+      "icon": "/icons/calculator.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 31099,
+      "tier": "tier1_gui",
+      "summary": "An advanced yet easy-to-use calculator app that handles standard arithmetic, scientific calculations, and unit conversions seamlessly.",
+      "i18n": {
+        "it": "Un'applicazione calcolatrice semplice ma potente che gestisce calcoli scientifici e conversioni di unità.",
+        "es": "Una aplicación de calculadora versátil que maneja operaciones científicas, aritméticas y conversiones de unidades.",
+        "fr": "Une application de calculatrice intuitive qui gère les calculs scientifiques et les conversions d'unités.",
+        "de": "Ein moderner und vielseitiger Rechner für alltägliche Mathematik, wissenschaftliche Berechnungen und Einheiten."
+      },
+      "download_url": "https://github.com/microsoft/calculator/releases",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "dbx",
       "name": "dbx",
       "tagline": "Lightweight cross-platform database manager",
@@ -4646,6 +4730,34 @@
       "updated_at": "2026-11-18"
     },
     {
+      "slug": "notepad-plus-plus",
+      "name": "Notepad++",
+      "tagline": "Fast, free text editor for Windows",
+      "repo_url": "https://github.com/notepad-plus-plus/notepad-plus-plus",
+      "full_name": "notepad-plus-plus/notepad-plus-plus",
+      "category": "Productivity",
+      "tags": [
+        "text-editor",
+        "windows"
+      ],
+      "icon": "/icons/notepad-plus-plus.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Custom Open License",
+      "stars": 29946,
+      "tier": "tier1_gui",
+      "summary": "Notepad++ is a lightweight, free text editor for Windows that helps you write and organize code or plain text with color-coded highlighting and powerful search tools.",
+      "i18n": {
+        "it": "Notepad++ è un editor di testo leggero e gratuito per Windows che aiuta a scrivere e organizzare codice o testo semplice con evidenziazione dei colori e strumenti di ricerca potenti.",
+        "es": "Notepad++ es un editor de texto ligero y gratuito para Windows que ayuda a escribir y organizar código o texto plano con resaltado de colores y herramientas de búsqueda potentes.",
+        "fr": "Notepad++ est un éditeur de texte léger et gratuit pour Windows qui aide à écrire et organiser du code ou du texte brut avec la mise en évidence des couleurs et des outils de recherche puissants.",
+        "de": "Notepad++ ist ein leichter, kostenloser Texteditor für Windows, der beim Schreiben und Organisieren von Code oder Klartext mit Farbhervorhebung und leistungsstarken Suchwerkzeugen hilft."
+      },
+      "download_url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.Installer.arm64.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "micro",
       "name": "micro",
       "tagline": "A modern, easy-to-use text editor",
@@ -4700,6 +4812,34 @@
       },
       "download_url": "https://plausible.io",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "filee",
+      "name": "Filee",
+      "tagline": "Convert any file instantly offline",
+      "repo_url": "https://github.com/knifelemon/filee",
+      "full_name": "knifelemon/filee",
+      "category": "Productivity",
+      "tags": [
+        "converter",
+        "utility"
+      ],
+      "icon": "/icons/filee.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 29808,
+      "tier": "tier1_gui",
+      "summary": "Convert hundreds of file formats instantly on your computer by dragging and dropping items right at your cursor, entirely offline.",
+      "i18n": {
+        "it": "Converti centinaia di formati di file all'istante trascinandoli direttamente sullo schermo, in completa modalità offline.",
+        "es": "Convierte cientos de formatos de archivo al instante arrastrando y soltando elementos directamente, totalmente sin conexión.",
+        "fr": "Convertissez des centaines de formats de fichiers en glissant-déposant des éléments directement, entièrement hors ligne.",
+        "de": "Konvertieren Sie Hunderte von Dateiformaten durch einfaches Ziehen und Ablegen direkt auf Ihrem Computer, komplett offline."
+      },
+      "download_url": "https://github.com/KnifeLemon/Filee/releases/download/v2.5.0/Filee-2.5.0-win-arm64-Setup.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "wezterm",
@@ -4870,6 +5010,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "invokeai",
+      "name": "InvokeAI",
+      "tagline": "Professional creative AI tools for visual media.",
+      "repo_url": "https://github.com/invoke-ai/invokeai",
+      "full_name": "invoke-ai/invokeai",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "image-generation"
+      ],
+      "icon": "/icons/invokeai.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 29140,
+      "tier": "tier1_gui",
+      "summary": "InvokeAI is a powerful creative engine that empowers artists and professionals to generate and refine stunning visual media using advanced artificial intelligence.",
+      "i18n": {
+        "it": "InvokeAI è un potente motore creativo che consente ad artisti e professionisti di generare e rifinire straordinari contenuti visivi.",
+        "es": "InvokeAI es un potente motor creativo que permite a artistas y profesionales generar y perfeccionar impresionantes contenidos visuales.",
+        "fr": "InvokeAI est un puissant moteur créatif qui permet aux artistes et professionnels de générer et d'affiner des médias visuels époustouflants.",
+        "de": "InvokeAI ist eine leistungsstarke kreative Engine, die es Künstlern und Profis ermöglicht, beeindruckende visuelle Medien zu erstellen."
+      },
+      "download_url": "https://invoke-ai.github.io/InvokeAI/",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "setup-ipsec-vpn",
       "name": "setup-ipsec-vpn",
       "tagline": "Set up your private VPN server",
@@ -5010,6 +5178,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "clash-for-windows-chinese",
+      "name": "Clash for Windows Chinese",
+      "tagline": "Localized network proxy manager for Windows",
+      "repo_url": "https://github.com/z-siqi/clash-for-windows_chinese",
+      "full_name": "z-siqi/clash-for-windows_chinese",
+      "category": "Productivity",
+      "tags": [
+        "proxy",
+        "networking"
+      ],
+      "icon": "/icons/clash-for-windows-chinese.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux",
+      "license": "Custom Open License",
+      "stars": 28661,
+      "tier": "tier1_gui",
+      "summary": "Manage network connections and rules easily with a localized, user-friendly interface designed for modern connection protocols.",
+      "i18n": {
+        "it": "Gestisci connessioni e regole di rete facilmente con un'interfaccia localizzata e intuitiva progettata per protocolli moderni.",
+        "es": "Gestiona conexiones y reglas de red fácilmente con una interfaz localizada y amigable diseñada para protocolos modernos.",
+        "fr": "Gérez les connexions et les règles réseau facilement grâce à une interface localisée et intuitive conçue pour les protocoles modernes.",
+        "de": "Verwalten Sie Netzwerkverbindungen und Regeln ganz einfach über eine lokalisierte, benutzerfreundliche Oberfläche für moderne Protokolle."
+      },
+      "download_url": "https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/download/0.20.39.5/Clash.for.Windows.Setup_Opt-5.arm64.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "glow",
       "name": "Glow",
       "tagline": "Render markdown documents directly in terminal.",
@@ -5122,6 +5318,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "vcpkg",
+      "name": "vcpkg",
+      "tagline": "Manage C++ project libraries effortlessly.",
+      "repo_url": "https://github.com/microsoft/vcpkg",
+      "full_name": "microsoft/vcpkg",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "utilities"
+      ],
+      "icon": "/icons/vcpkg.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 27633,
+      "tier": "tier1_gui",
+      "summary": "vcpkg is a cross-platform library manager that helps developers easily find, install, and manage third-party software packages for C and C++ projects.",
+      "i18n": {
+        "it": "vcpkg è un gestore di librerie multipiattaforma che aiuta gli sviluppatori a trovare e installare pacchetti software per C e C++.",
+        "es": "vcpkg es un administrador de bibliotecas multiplataforma que ayuda a los desarrolladores a instalar paquetes de software para C y C++.",
+        "fr": "vcpkg est un gestionnaire de bibliothèques multiplateforme qui aide les développeurs à installer des paquets pour C et C++.",
+        "de": "vcpkg ist ein plattformübergreifender Bibliothekenmanager, der Entwicklern hilft, Softwarepakete für C und C++ zu verwalten."
+      },
+      "download_url": "https://github.com/microsoft/vcpkg/releases",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "beszel",
       "name": "Beszel",
       "tagline": "Lightweight server and container monitoring",
@@ -5148,6 +5372,34 @@
       },
       "download_url": "https://github.com/henrygd/beszel/releases/download/v0.21.2/beszel-agent_0.21.2_linux_amd64.deb",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "libuv",
+      "name": "libuv",
+      "tagline": "Cross-platform asynchronous input-output support library.",
+      "repo_url": "https://github.com/libuv/libuv",
+      "full_name": "libuv/libuv",
+      "category": "Productivity",
+      "tags": [
+        "system",
+        "io"
+      ],
+      "icon": "/icons/libuv.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 27344,
+      "tier": "tier1_gui",
+      "summary": "A robust multi-platform support library focused on asynchronous input and output operations, widely used for high-performance software.",
+      "i18n": {
+        "it": "Una robusta libreria focalizzata sulle operazioni di input-output asincrone, ampiamente utilizzata per software ad alte prestazioni.",
+        "es": "Una sólida biblioteca centrada en operaciones de entrada y salida asíncronas, muy utilizada para software de alto rendimiento.",
+        "fr": "Une bibliothèque robuste axée sur les opérations d'entrées-sorties asynchrones, largement utilisée pour les logiciels performants.",
+        "de": "Eine robuste Bibliothek für asynchrone Ein- und Ausgabeoperationen, die häufig für leistungsstarke Software eingesetzt wird."
+      },
+      "download_url": "https://libuv.org/",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "iterm2-color-schemes",
@@ -5906,6 +6158,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "paseo",
+      "name": "Paseo",
+      "tagline": "Manage all your coding assistants in one place",
+      "repo_url": "https://github.com/getpaseo/paseo",
+      "full_name": "getpaseo/paseo",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "development"
+      ],
+      "icon": "/icons/paseo.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Custom Open License",
+      "stars": 24655,
+      "tier": "tier1_gui",
+      "summary": "Paseo is a central hub that lets you run, organize, and control multiple digital coding assistants from your desktop, mobile, or web browser.",
+      "i18n": {
+        "it": "Paseo è un centro di controllo che ti permette di gestire e organizzare diversi assistenti digitali per la programmazione da un'unica interfaccia.",
+        "es": "Paseo es un centro de control que te permite ejecutar, organizar y gestionar múltiples asistentes digitales de programación desde un solo lugar.",
+        "fr": "Paseo est une plateforme centrale qui vous permet d'exécuter, d'organiser et de contrôler plusieurs assistants de programmation depuis un seul endroit.",
+        "de": "Paseo ist eine zentrale Plattform, mit der Sie mehrere digitale Programmierassistenten von Ihrem Desktop oder Mobilgerät aus steuern und organisieren können."
+      },
+      "download_url": "https://github.com/getpaseo/paseo/releases/download/v0.17.1/Paseo-Setup-0.17.1-arm64.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "slint",
       "name": "slint",
       "tagline": "Build native user interfaces for apps easily.",
@@ -6018,6 +6298,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "brave-browser",
+      "name": "Brave Browser",
+      "tagline": "Fast, private web browsing experience",
+      "repo_url": "https://github.com/brave/brave-browser",
+      "full_name": "brave/brave-browser",
+      "category": "Productivity",
+      "tags": [
+        "browser",
+        "privacy"
+      ],
+      "icon": "/icons/brave-browser.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 24279,
+      "tier": "tier1_gui",
+      "summary": "Browse the internet faster and more privately by automatically blocking annoying ads and online trackers.",
+      "i18n": {
+        "it": "Naviga in internet più velocemente e in modo più privato bloccando automaticamente pubblicità e traccianti online.",
+        "es": "Navega por internet más rápido y de forma más privada bloqueando automáticamente anuncios molestos y rastreadores.",
+        "fr": "Naviguez sur internet plus rapidement et plus en privтник en bloquant automatiquement les publicités et les traqueurs.",
+        "de": "Surfen Sie schneller und privater im Internet, indem Sie lästige Werbung und Online-Tracker automatisch blockieren."
+      },
+      "download_url": "https://github.com/brave/brave-browser/releases/download/v1.100.58/BraveBrowserSetup.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "prefect",
       "name": "Prefect",
       "tagline": "Turn scripts into reliable automated jobs",
@@ -6128,6 +6436,34 @@
       },
       "download_url": "https://github.com/coleam00/Archon/releases/download/v0.14.0/archon-chat-slack-windows-x64.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "super-productivity",
+      "name": "Super Productivity",
+      "tagline": "Private offline-first to-do and time tracker",
+      "repo_url": "https://github.com/super-productivity/super-productivity",
+      "full_name": "super-productivity/super-productivity",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "time-tracker"
+      ],
+      "icon": "/icons/super-productivity.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 23926,
+      "tier": "tier1_gui",
+      "summary": "Manage daily tasks, track work hours, and stay focused with an offline-first tool that respects your privacy and requires no account.",
+      "i18n": {
+        "it": "Gestisci le tue attività giornaliere e traccia il tempo senza account con questo strumento open source e sicuro per la privacy.",
+        "es": "Organiza tus tareas diarias y controla el tiempo de trabajo sin necesidad de cuentas ni conexión permanente a internet.",
+        "fr": "Organisez vos tâches quotidiennes et suivez votre temps de travail hors ligne avec cet outil open source respectueux.",
+        "de": "Organisieren Sie Ihre täglichen Aufgaben und erfassen Sie Arbeitszeiten ganz ohne Benutzerkonto und mit voller Datenkontrolle."
+      },
+      "download_url": "https://github.com/super-productivity/super-productivity/releases/download/v20.1.0/Super-Productivity-Setup-arm64.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "pangolin",
@@ -6268,6 +6604,34 @@
       },
       "download_url": "https://www.skyvern.com",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "spotx",
+      "name": "SpotX",
+      "tagline": "Clean up your desktop music player",
+      "repo_url": "https://github.com/spotx-official/spotx",
+      "full_name": "spotx-official/spotx",
+      "category": "Security & Privacy",
+      "tags": [
+        "audio",
+        "customization"
+      ],
+      "icon": "/icons/spotx.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 23458,
+      "tier": "tier1_gui",
+      "summary": "SpotX removes ads and unwanted clutter from your desktop music player so you can enjoy uninterrupted listening.",
+      "i18n": {
+        "it": "SpotX rimuove annunci e distrazioni dal tuo lettore musicale desktop per un ascolto senza interruzioni.",
+        "es": "SpotX elimina anuncios y elementos molestos de tu reproductor de música de escritorio para escuchar sin pausas.",
+        "fr": "SpotX supprime les publicités et les distractions de votre lecteur de musique pour une écoute ininterrompue.",
+        "de": "SpotX entfernt Werbung und Ablenkungen von Ihrem Desktop-Musikplayer für ungestörten Musikgenuss."
+      },
+      "download_url": "https://github.com/SpotX-Official/SpotX/releases/download/1.9/Install_New_theme.bat",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "chalk",
@@ -6550,6 +6914,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "chezmoi",
+      "name": "chezmoi",
+      "tagline": "Manage your personal settings across devices.",
+      "repo_url": "https://github.com/twpayne/chezmoi",
+      "full_name": "twpayne/chezmoi",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "utilities"
+      ],
+      "icon": "/icons/chezmoi.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android",
+      "license": "Open Source (MIT)",
+      "stars": 22336,
+      "tier": "tier1_gui",
+      "summary": "Easily synchronize and secure your personal computer configuration files across multiple different devices without hassle.",
+      "i18n": {
+        "it": "Sincronizza e proteggi facilmente i file di configurazione del tuo computer su diversi dispositivi senza complicazioni.",
+        "es": "Sincroniza y asegura fácilmente los archivos de configuración de tu computadora en diferentes dispositivos sin complicaciones.",
+        "fr": "Synchronisez et sécurisez facilement vos fichiers de configuration informatique sur plusieurs appareils différents.",
+        "de": "Synchronisieren und schützen Sie Ihre Computer-Konfigurationsdateien ganz einfach auf verschiedenen Geräten."
+      },
+      "download_url": "https://github.com/twpayne/chezmoi/releases/download/v2.74.1/chezmoi-windows-amd64.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "appium",
       "name": "Appium",
       "tagline": "Automate mobile and desktop app testing effortlessly.",
@@ -6634,6 +7026,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "animeko",
+      "name": "Animeko",
+      "tagline": "All-in-one anime streaming and tracking platform",
+      "repo_url": "https://github.com/open-ani/animeko",
+      "full_name": "open-ani/animeko",
+      "category": "Productivity",
+      "tags": [
+        "anime",
+        "streaming"
+      ],
+      "icon": "/icons/animeko.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (AGPL v3)",
+      "stars": 21993,
+      "tier": "tier1_gui",
+      "summary": "Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments.",
+      "i18n": {
+        "it": "Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments.",
+        "es": "Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments.",
+        "fr": "Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments.",
+        "de": "Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments."
+      },
+      "download_url": "https://github.com/open-ani/animeko/releases/download/v6.4.1/ani-6.4.1-macos-aarch64.dmg",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "jcode",
       "name": "jcode",
       "tagline": "Run multiple parallel coding assistants instantly.",
@@ -6660,6 +7080,34 @@
       },
       "download_url": "https://github.com/1jehuang/jcode/releases/download/v1.0.1/jcode-windows-aarch64.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "komi-store",
+      "name": "komi-store",
+      "tagline": "Explore open-source apps in one place",
+      "repo_url": "https://github.com/komi-store/komi-store",
+      "full_name": "komi-store/komi-store",
+      "category": "Productivity",
+      "tags": [
+        "utilities",
+        "app-store"
+      ],
+      "icon": "/icons/komi-store.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 21896,
+      "tier": "tier1_gui",
+      "summary": "Browse, discover, and install open-source software directly from GitHub and Codeberg with a single click.",
+      "i18n": {
+        "it": "Esplora e installa software open source direttamente da GitHub e Codeberg con un solo clic.",
+        "es": "Busca, descubre e instala software de código abierto directamente desde GitHub y Codeberg.",
+        "fr": "Parcourez et installez des logiciels open source directement depuis GitHub et Codeberg en un clic.",
+        "de": "Durchsuchen und installieren Sie Open-Source-Software direkt von GitHub und Codeberg mit nur einem Klick."
+      },
+      "download_url": "https://github.com/komi-store/komi-store/releases/download/v1.9.4/Komi-Store-1.9.4.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "automa",
@@ -6830,6 +7278,62 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "wasmer",
+      "name": "Wasmer",
+      "tagline": "Run lightweight sandboxed apps anywhere",
+      "repo_url": "https://github.com/wasmerio/wasmer",
+      "full_name": "wasmerio/wasmer",
+      "category": "Productivity",
+      "tags": [
+        "sandbox",
+        "utility"
+      ],
+      "icon": "/icons/wasmer.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 21255,
+      "tier": "tier1_gui",
+      "summary": "Wasmer lets you run programs, scripts, and artificial intelligence agents inside fast, secure, and lightweight digital containers.",
+      "i18n": {
+        "it": "Wasmer consente di eseguire programmi e script all'interno di contenitori digitali rapidi, sicuri e leggeri.",
+        "es": "Wasmer permite ejecutar programas y scripts dentro de contenedores digitales rápidos, seguros y ligeros.",
+        "fr": "Wasmer permet d'exécuter des programmes et des scripts dans des conteneurs numériques rapides et sécurisés.",
+        "de": "Wasmer ermöglicht es, Programme und Skripte in schnellen, sicheren und leichten Containern auszuführen."
+      },
+      "download_url": "https://github.com/wasmerio/wasmer/releases/download/v7.5.0/wasmer-windows.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "piliplus",
+      "name": "PiliPlus",
+      "tagline": "Feature-rich alternative video streaming client",
+      "repo_url": "https://github.com/bggrgjqaubcoe/piliplus",
+      "full_name": "bggrgjqaubcoe/piliplus",
+      "category": "Productivity",
+      "tags": [
+        "streaming",
+        "video"
+      ],
+      "icon": "/icons/piliplus.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 21244,
+      "tier": "tier1_gui",
+      "summary": "PiliPlus is a versatile third-party client for BiliBili that brings an enhanced streaming experience across multiple platforms.",
+      "i18n": {
+        "it": "PiliPlus è un client video ricco di funzioni per dispositivi desktop e mobili, che offre comandi avanzati e riproduzione fluida.",
+        "es": "PiliPlus es un cliente de video avanzado para múltiples plataformas que ofrece reproducción fluida, gestos y descargas sin conexión.",
+        "fr": "PiliPlus est un client vidéo polyvalent pour plusieurs plateformes qui offre des commandes avancées et une lecture fluide.",
+        "de": "PiliPlus ist ein vielseitiger Videoclient für verschiedene Geräte, der erweiterte Steuerelemente und flüssige Wiedergabe bietet."
+      },
+      "download_url": "https://github.com/bggRGjQaUbCoE/PiliPlus/releases/download/2.2.1/PiliPlus_windows_2.2.1%2B5655_x64_setup.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "goaccess",
       "name": "GoAccess",
       "tagline": "Real-time web server log analytics dashboard",
@@ -6856,6 +7360,90 @@
       },
       "download_url": "https://goaccess.io",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "openspeedy",
+      "name": "OpenSpeedy",
+      "tagline": "Adjust game speed instantly",
+      "repo_url": "https://github.com/game1024/openspeedy",
+      "full_name": "game1024/openspeedy",
+      "category": "Productivity",
+      "tags": [
+        "gaming",
+        "utility"
+      ],
+      "icon": "/icons/openspeedy.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v3)",
+      "stars": 21084,
+      "tier": "tier1_gui",
+      "summary": "OpenSpeedy lets you speed up or slow down any Windows game with a simple slider, so you can finish levels faster or enjoy a relaxed pace.",
+      "i18n": {
+        "it": "OpenSpeedy ti permette di accelerare o rallentare qualsiasi gioco Windows con un semplice cursore, così puoi completare i livelli più velocemente o giocare a un ritmo più rilassato.",
+        "es": "OpenSpeedy te permite acelerar o ralentizar cualquier juego de Windows con un control deslizante sencillo, para que termines los niveles más rápido o disfrutes de un ritmo más tranquilo.",
+        "fr": "OpenSpeedy vous permet d’accélérer ou de ralentir n’importe quel jeu Windows grâce à un simple curseur, afin de terminer les niveaux plus rapidement ou de jouer à un rythme plus détendu.",
+        "de": "OpenSpeedy ermöglicht es, jedes Windows‑Spiel mit einem einfachen Schieberegler zu beschleunigen oder zu verlangsamen, sodass Sie Level schneller abschließen oder in einem entspannteren Tempo spielen können."
+      },
+      "download_url": "https://game1024.github.io/OpenSpeedy/",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "translucenttb",
+      "name": "TranslucentTB",
+      "tagline": "Make your Windows taskbar completely transparent.",
+      "repo_url": "https://github.com/translucenttb/translucenttb",
+      "full_name": "translucenttb/translucenttb",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "customization"
+      ],
+      "icon": "/icons/translucenttb.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v3)",
+      "stars": 20900,
+      "tier": "tier1_gui",
+      "summary": "A lightweight utility that makes the Windows taskbar translucent or completely transparent on Windows 10 and 11.",
+      "i18n": {
+        "it": "Un'utilità leggera che rende la barra delle applicazioni di Windows traslucida o trasparente su Windows 10 e 11.",
+        "es": "Una utilidad ligera que hace que la barra de tareas de Windows sea translúcida o transparente en Windows 10 y 11.",
+        "fr": "Un utilitaire léger qui rend la barre des tâches de Windows translucide ou transparente sur Windows 10 et 11.",
+        "de": "Ein leichtgewichtiger Helfer, der die Windows-Taskleiste unter Windows 10 und 11 durchsichtig oder transparent macht."
+      },
+      "download_url": "https://github.com/TranslucentTB/TranslucentTB/releases/download/2026.2/bundle.msixbundle",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "peass-ng",
+      "name": "PEASS-ng",
+      "tagline": "Uncover system security gaps and misconfigurations.",
+      "repo_url": "https://github.com/peass-ng/peass-ng",
+      "full_name": "peass-ng/peass-ng",
+      "category": "Productivity",
+      "tags": [
+        "security",
+        "audit"
+      ],
+      "icon": "/icons/peass-ng.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux",
+      "license": "Custom Open License",
+      "stars": 20872,
+      "tier": "tier1_gui",
+      "summary": "PEASS-ng automatically scans computer systems for hidden security weaknesses and misconfigurations, helping specialists secure their environments.",
+      "i18n": {
+        "it": "PEASS-ng scansiona automaticamente i sistemi informatici alla ricerca di vulnerabilità nascoste per aiutare a proteggere gli ambienti.",
+        "es": "PEASS-ng escanea automáticamente los sistemas en busca de vulnerabilidades ocultas para ayudar a proteger los entornos.",
+        "fr": "PEASS-ng analyse automatiquement les systèmes à la recherche de vulnérabilités cachées pour sécuriser les environnements.",
+        "de": "PEASS-ng scannt Computersysteme automatisch nach versteckten Schwachstellen und hilft so, Umgebungen abzusichern."
+      },
+      "download_url": "https://github.com/peass-ng/PEASS-ng/releases/download/20261122-25957cb1/winPEASany.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "ava",
@@ -7502,6 +8090,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "wsabuilds",
+      "name": "WSABuilds",
+      "tagline": "Run Android apps on Windows seamlessly",
+      "repo_url": "https://github.com/mustardchef/wsabuilds",
+      "full_name": "mustardchef/wsabuilds",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "windows"
+      ],
+      "icon": "/icons/wsabuilds.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Android",
+      "license": "Open Source (AGPL v3)",
+      "stars": 19120,
+      "tier": "tier1_gui",
+      "summary": "Run mobile apps and games directly on your Windows PC with prebuilt packages featuring the Google Play Store and system tools.",
+      "i18n": {
+        "it": "Esegui app e giochi per dispositivi mobili direttamente sul tuo PC Windows con pacchetti precompilati.",
+        "es": "Ejecuta aplicaciones y juegos móviles directamente en tu PC con Windows utilizando paquetes preconstruidos.",
+        "fr": "Exécutez des applications et des jeux mobiles directement sur votre PC Windows avec des paquets préconçus.",
+        "de": "Führe mobile Apps und Spiele direkt auf deinem Windows-PC mit vorgefertigten Paketen aus."
+      },
+      "download_url": "https://github.com/MustardChef/WSABuilds/releases/download/Windows_11_2407.40000.4.0_LTS_8/WSA_2407.40000.4.0_x64_Release-Nightly-GApps-13.0-NoAmazon.7z",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "docuseal",
       "name": "DocuSeal",
       "tagline": "Create, fill, and sign digital documents",
@@ -7614,6 +8230,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "mmkv",
+      "name": "MMKV",
+      "tagline": "Lightning-fast mobile key-value storage library.",
+      "repo_url": "https://github.com/tencent/mmkv",
+      "full_name": "tencent/mmkv",
+      "category": "Productivity",
+      "tags": [
+        "storage",
+        "mobile"
+      ],
+      "icon": "/icons/mmkv.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Android, iOS",
+      "license": "Custom Open License",
+      "stars": 18779,
+      "tier": "tier1_gui",
+      "summary": "An ultra-fast, lightweight storage library for mobile and desktop applications that keeps your app data instantly synchronized.",
+      "i18n": {
+        "it": "Una libreria di archiviazione ultrarapida e leggera per applicazioni mobili e desktop che sincronizza istantaneamente i dati.",
+        "es": "Una biblioteca de almacenamiento ultrarrápida y ligera para aplicaciones móviles y de escritorio que sincroniza los datos.",
+        "fr": "Une bibliothèque de stockage ultra-rapide et légère pour applications mobiles et de bureau qui synchronise vos données.",
+        "de": "Eine ultraschnelle und leichte Speicherbibliothek für Mobil- und Desktop-Anwendungen, die Ihre Daten sofort synchronisiert."
+      },
+      "download_url": "https://github.com/Tencent/MMKV/releases",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "windmill",
       "name": "Windmill",
       "tagline": "Automate workflows and build internal apps",
@@ -7668,6 +8312,62 @@
       },
       "download_url": "https://github.com/microsoft/AirSim/releases/download/v1.8.1-windows/CityEnviron.zip.001",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "seelen-ui",
+      "name": "Seelen-UI",
+      "tagline": "Transform your Windows desktop completely",
+      "repo_url": "https://github.com/eythaann/seelen-ui",
+      "full_name": "eythaann/seelen-ui",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "customization"
+      ],
+      "icon": "/icons/seelen-ui.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (AGPL v3)",
+      "stars": 18609,
+      "tier": "tier1_gui",
+      "summary": "Replace your standard Windows desktop with a fully customizable interface featuring dynamic color matching, automated window tiling, and interactive widgets.",
+      "i18n": {
+        "it": "Sostituisci il desktop standard di Windows con un'interfaccia personalizzabile dotata di gestione delle finestre e widget interattivi.",
+        "es": "Reemplaza tu escritorio estándar de Windows con una interfaz personalizable que incluye organización de ventanas y widgets interactivos.",
+        "fr": "Remplacez votre bureau Windows standard par une interface personnalisable dotée d'une gestion intelligente des fenêtres et de widgets.",
+        "de": "Ersetzen Sie Ihren Windows-Standarddesktop durch eine anpassbare Oberfläche mit automatischer Fensteranordnung und interaktiven Widgets."
+      },
+      "download_url": "https://github.com/eythaann/Seelen-UI/releases/download/v2.8.11/Seelen.UI_2.8.11_arm64-setup-fixed.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "reactos",
+      "name": "ReactOS",
+      "tagline": "A free, open-source Windows-compatible operating system",
+      "repo_url": "https://github.com/reactos/reactos",
+      "full_name": "reactos/reactos",
+      "category": "Productivity",
+      "tags": [
+        "operating-system",
+        "windows-alternative"
+      ],
+      "icon": "/icons/reactos.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (GPL v2)",
+      "stars": 18550,
+      "tier": "tier1_gui",
+      "summary": "ReactOS is an independent project designed to run programs and drivers built for Windows in a free and open environment.",
+      "i18n": {
+        "it": "ReactOS è un progetto indipendente creato per eseguire programmi e driver nati per Windows in un ambiente libero e aperto.",
+        "es": "ReactOS es un proyecto independiente diseñado para ejecutar programas y controladores creados para Windows en un entorno libre y abierto.",
+        "fr": "ReactOS est un projet indépendant conçu pour exécuter des programmes et des pilotes créés pour Windows dans un environnement libre et ouvert.",
+        "de": "ReactOS ist ein unabhängiges Projekt, das darauf ausgelegt ist, Programme und Treiber für Windows in einer freien und offenen Umgebung auszuführen."
+      },
+      "download_url": "https://reactos.org/",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "maxun",
