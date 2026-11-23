@@ -2,26 +2,26 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-22T18:32:34.791245+00:00",
-  "total_apps": 1500,
+  "generated_at": "2026-11-23T00:02:23.321258+00:00",
+  "total_apps": 1525,
   "tier_counts": {
     "tier3_powertool": 300,
     "tier2_webapp": 451,
-    "tier1_gui": 749
+    "tier1_gui": 774
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 290,
     "selfhosted": 450,
-    "desktop": 749,
+    "desktop": 774,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 26,
-    "Productivity": 652,
-    "Security & Privacy": 46,
+    "Productivity": 670,
+    "Security & Privacy": 47,
     "Utilities & Power Tools": 268,
-    "Video & Audio": 80,
+    "Video & Audio": 86,
     "Web Apps & Cloud": 427,
     "Websites & SEO": 1
   },
@@ -11730,6 +11730,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "glazewm",
+      "name": "GlazeWM",
+      "tagline": "Organize desktop windows automatically using keyboard commands.",
+      "repo_url": "https://github.com/glzr-io/glazewm",
+      "full_name": "glzr-io/glazewm",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "windows"
+      ],
+      "icon": "/icons/glazewm.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 13022,
+      "tier": "tier1_gui",
+      "summary": "GlazeWM is a smart window manager that arranges your open application windows into clean, non-overlapping tiles using keyboard shortcuts.",
+      "i18n": {
+        "it": "GlazeWM è un gestore di finestre intelligente che organizza le applicazioni in riquadri puliti usando scorciatoie da tastiera.",
+        "es": "GlazeWM es un gestor de ventanas inteligente que organiza las aplicaciones en mosaicos limpios usando atajos de teclado.",
+        "fr": "GlazeWM est un gestionnaire de fenêtres intelligent qui organise vos applications en vignettes propres avec des raccourcis.",
+        "de": "GlazeWM ist ein intelligenter Fenster-Manager, der Ihre Anwendungen über Tastenkombinationen in Kacheln anordnet."
+      },
+      "download_url": "https://github.com/glzr-io/glazewm/releases/download/v3.10.1/glazewm-v3.10.1.exe",
+      "updated_at": "2026-11-22"
+    },
+    {
       "slug": "pipx",
       "name": "pipx",
       "tagline": "Easily run and manage Python applications",
@@ -11756,6 +11784,34 @@
       },
       "download_url": "https://github.com/pypa/pipx/releases/download/1.18.19/pipx.pyz",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "optimizerduck",
+      "name": "optimizerDuck",
+      "tagline": "Speed up and clean Windows safely",
+      "repo_url": "https://github.com/itsfatduck/optimizerduck",
+      "full_name": "itsfatduck/optimizerduck",
+      "category": "Security & Privacy",
+      "tags": [
+        "windows",
+        "optimization"
+      ],
+      "icon": "/icons/optimizerduck.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Custom Open License",
+      "stars": 12960,
+      "tier": "tier1_gui",
+      "summary": "A free, open-source Windows optimization utility that helps you boost performance, protect your privacy, and manage background apps without technical headaches.",
+      "i18n": {
+        "it": "Un'utilità di ottimizzazione per Windows gratuita e open source che migliora le prestazioni, protegge la privacy e gestisce le app.",
+        "es": "Una utilidad gratuita y de código abierto para optimizar Windows, mejorar el rendimiento y proteger tu privacidad fácilmente.",
+        "fr": "Un utilitaire d'optimisation Windows gratuit et open source pour améliorer les performances et protéger votre vie privée.",
+        "de": "Ein kostenloses Open-Source-Optimierungstool für Windows zur Leistungssteigerung, Datenschutzsicherung und App-Verwaltung."
+      },
+      "download_url": "https://github.com/itsfatduck/optimizerDuck/releases/download/v2.29.0/optimizerDuck-Windows-arm64-2.29.0.exe",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "zeal",
@@ -12372,6 +12428,34 @@
       },
       "download_url": "https://github.com/charmbracelet/lipgloss/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "windows-mcp",
+      "name": "Windows-MCP",
+      "tagline": "Connect AI assistants to your Windows apps.",
+      "repo_url": "https://github.com/cursortouch/windows-mcp",
+      "full_name": "cursortouch/windows-mcp",
+      "category": "Productivity",
+      "tags": [
+        "windows",
+        "automation"
+      ],
+      "icon": "/icons/windows-mcp.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 12015,
+      "tier": "tier1_gui",
+      "summary": "Windows-MCP bridges artificial intelligence assistants directly with your Windows desktop, letting automated tools click, type, and navigate applications on your behalf.",
+      "i18n": {
+        "it": "Windows-MCP collega direttamente gli assistenti intelligenti al tuo desktop Windows, consentendo strumenti automatizzati di interagire con le app.",
+        "es": "Windows-MCP conecta asistentes de inteligencia artificial directamente a tu escritorio de Windows para automatizar tareas en aplicaciones.",
+        "fr": "Windows-MCP relie directement les assistants intelligents à votre bureau Windows pour automatiser les actions dans vos applications.",
+        "de": "Windows-MCP verbindet KI-Assistenten direkt mit Ihrem Windows-Desktop, sodass automatisierte Werkzeuge Anwendungen bedienen können."
+      },
+      "download_url": "https://github.com/CursorTouch/Windows-MCP/releases/download/v0.9.0/windows_mcp-0.9.0-py3-none-any.whl",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "libevent",
@@ -13967,6 +14051,34 @@
       },
       "download_url": "https://github.com/jroimartin/gocui/releases",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "magiskonwsalocal",
+      "name": "MagiskOnWSALocal",
+      "tagline": "Easily add root and Google apps to Windows",
+      "repo_url": "https://github.com/lsposed/magiskonwsalocal",
+      "full_name": "lsposed/magiskonwsalocal",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "windows"
+      ],
+      "icon": "/icons/magiskonwsalocal.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Android",
+      "license": "Open Source (AGPL v3)",
+      "stars": 10602,
+      "tier": "tier1_gui",
+      "summary": "Integrate advanced root controls and official app stores into your Windows Android environment with custom automated scripts.",
+      "i18n": {
+        "it": "Integra controlli di root avanzati e negozi di app ufficiali nel tuo ambiente Android per Windows tramite script automatizzati.",
+        "es": "Integra controles de root avanzados y tiendas de aplicaciones oficiales en tu entorno Android para Windows con scripts automatizados.",
+        "fr": "Intégrez des contrôles root avancés et des boutiques d'applications officielles dans votre environnement Android Windows avec des scripts.",
+        "de": "Integrieren Sie erweiterte Root-Steuerungen und offizielle App-Stores über automatisierte Skripte in Ihre Windows-Android-Umgebung."
+      },
+      "download_url": "https://github.com/LSPosed/MagiskOnWSALocal/releases",
+      "updated_at": "2026-11-22"
     },
     {
       "slug": "aichat",
@@ -17525,6 +17637,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "tiddlywiki5",
+      "name": "TiddlyWiki5",
+      "tagline": "Your personal web notebook kept forever.",
+      "repo_url": "https://github.com/tiddlywiki/tiddlywiki5",
+      "full_name": "tiddlywiki/tiddlywiki5",
+      "category": "Productivity",
+      "tags": [
+        "notes",
+        "wiki"
+      ],
+      "icon": "/icons/tiddlywiki5.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux",
+      "license": "Custom Open License",
+      "stars": 8713,
+      "tier": "tier1_gui",
+      "summary": "TiddlyWiki5 is a self-contained, interactive digital notebook that lives entirely within your browser or runs locally on your computer.",
+      "i18n": {
+        "it": "TiddlyWiki5 is a self-contained, interactive digital notebook that lives entirely within your browser or runs locally on your computer.",
+        "es": "TiddlyWiki5 is a self-contained, interactive digital notebook that lives entirely within your browser or runs locally on your computer.",
+        "fr": "TiddlyWiki5 is a self-contained, interactive digital notebook that lives entirely within your browser or runs locally on your computer.",
+        "de": "TiddlyWiki5 is a self-contained, interactive digital notebook that lives entirely within your browser or runs locally on your computer."
+      },
+      "download_url": "https://tiddlywiki.com/",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "jc",
       "name": "jc",
       "tagline": "Turn command output into structured data",
@@ -18813,6 +18953,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "parabolic",
+      "name": "Parabolic",
+      "tagline": "Easy video downloads made simple",
+      "repo_url": "https://github.com/nickvisionapps/parabolic",
+      "full_name": "nickvisionapps/parabolic",
+      "category": "Video & Audio",
+      "tags": [
+        "video-downloader",
+        "audio-downloader"
+      ],
+      "icon": "/icons/parabolic.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 7783,
+      "tier": "tier1_gui",
+      "summary": "Parabolic lets you download videos and audio from sites like YouTube in a few clicks, choosing format and quality.",
+      "i18n": {
+        "it": "Parabolic ti permette di scaricare video e audio da siti come YouTube con pochi clic, scegliendo formato e qualità.",
+        "es": "Parabolic te permite descargar videos y audio de sitios como YouTube con unos pocos clics, eligiendo formato y calidad.",
+        "fr": "Parabolic vous permet de télécharger des vidéos et de l'audio depuis des sites comme YouTube en quelques clics, en choisissant format et qualité.",
+        "de": "Parabolic ermöglicht es Ihnen, Videos und Audio von Seiten wie YouTube mit wenigen Klicks herunterzuladen und Format sowie Qualität auszuwählen."
+      },
+      "download_url": "https://github.com/NickvisionApps/Parabolic/releases/download/2026.5.0/NickvisionParabolicSetup-arm64.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "guilite",
       "name": "GuiLite",
       "tagline": "The smallest user interface toolkit ever",
@@ -19007,6 +19175,34 @@
       },
       "download_url": "https://github.com/donnemartin/gitsome/releases",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "miniaudio",
+      "name": "miniaudio",
+      "tagline": "Lightweight audio playback and capture library",
+      "repo_url": "https://github.com/mackron/miniaudio",
+      "full_name": "mackron/miniaudio",
+      "category": "Productivity",
+      "tags": [
+        "audio",
+        "sound"
+      ],
+      "icon": "/icons/miniaudio.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Custom Open License",
+      "stars": 7693,
+      "tier": "tier1_gui",
+      "summary": "An easy-to-use audio playback and capture library contained in a single C source file with zero external dependencies.",
+      "i18n": {
+        "it": "Una libreria audio facile da usare contenuta in un singolo file C senza dipendenze esterne.",
+        "es": "Una biblioteca de audio fácil de usar contenida en un solo archivo C sin dependencias externas.",
+        "fr": "Une bibliothèque audio facile à utiliser contenue dans un seul fichier C sans dépendances externes.",
+        "de": "Eine einfach zu bedienende Audiobibliothek in einer einzigen C-Quelldatei ohne externe Abhängigkeiten."
+      },
+      "download_url": "https://miniaud.io",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "himalaya",
@@ -19317,6 +19513,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "calico",
+      "name": "Calico",
+      "tagline": "Secure and manage container cluster networks",
+      "repo_url": "https://github.com/projectcalico/calico",
+      "full_name": "projectcalico/calico",
+      "category": "Productivity",
+      "tags": [
+        "networking",
+        "security"
+      ],
+      "icon": "/icons/calico.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 7427,
+      "tier": "tier1_gui",
+      "summary": "Calico is a powerful tool that helps manage network connections and security rules for large container environments.",
+      "i18n": {
+        "it": "Calico è uno strumento potente che aiuta a gestire le connessioni di rete e le regole di sicurezza per ambienti cloud.",
+        "es": "Calico es una herramienta potente que ayuda a gestionar conexiones de red y seguridad para entornos de contenedores.",
+        "fr": "Calico est un outil puissant qui aide à gérer les connexions réseau et la sécurité pour les environnements de conteneurs.",
+        "de": "Calico ist ein leistungsstarkes Werkzeug zur Verwaltung von Netzwerkverbindungen und Sicherheit für Container-Umgebungen."
+      },
+      "download_url": "https://github.com/projectcalico/calico/releases/download/v3.33.1/calicoctl-windows-amd64.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "ffsend",
       "name": "ffsend",
       "tagline": "Securely share files from your terminal.",
@@ -19345,6 +19569,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "rancher-desktop",
+      "name": "Rancher Desktop",
+      "tagline": "Manage containers and Kubernetes with ease",
+      "repo_url": "https://github.com/rancher-sandbox/rancher-desktop",
+      "full_name": "rancher-sandbox/rancher-desktop",
+      "category": "Productivity",
+      "tags": [
+        "containers",
+        "kubernetes"
+      ],
+      "icon": "/icons/rancher-desktop.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 7422,
+      "tier": "tier1_gui",
+      "summary": "Run containers and local Kubernetes clusters directly on your desktop across Windows, macOS, and Linux without complex setup.",
+      "i18n": {
+        "it": "Esegui container e cluster Kubernetes locali direttamente sul tuo computer senza configurazioni complesse.",
+        "es": "Ejecuta contenedores y clústeres locales de Kubernetes directamente en tu ordenador de forma sencilla.",
+        "fr": "Exécutez des conteneurs et des clusters Kubernetes locaux directement sur votre ordinateur sans configuration lourde.",
+        "de": "Führen Sie Container und lokale Kubernetes-Cluster mühelos direkt auf Ihrem Computer aus."
+      },
+      "download_url": "https://github.com/rancher-sandbox/rancher-desktop/releases/download/v1.25.0/Rancher.Desktop.Setup.1.25.0.msi",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "final2x",
       "name": "Final2x",
       "tagline": "Enhance image quality and resolution easily.",
@@ -19371,6 +19623,34 @@
       },
       "download_url": "https://github.com/EutropicAI/Final2x/releases/download/v4.1.0/Final2x-macos-arm64-dmg.dmg",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "lyricify-app",
+      "name": "Lyricify-App",
+      "tagline": "Dynamic scrolling lyrics for your music",
+      "repo_url": "https://github.com/wxriw/lyricify-app",
+      "full_name": "wxriw/lyricify-app",
+      "category": "Video & Audio",
+      "tags": [
+        "music",
+        "lyrics"
+      ],
+      "icon": "/icons/lyricify-app.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Custom Open License",
+      "stars": 7412,
+      "tier": "tier1_gui",
+      "summary": "Enhance your listening sessions with real-time scrolling lyrics, interactive desktop displays, and live album art for popular streaming platforms.",
+      "i18n": {
+        "it": "Migliora i tuoi ascolti con testi scorrevoli in tempo reale, schermate desktop interattive e copertine degli album animate.",
+        "es": "Mejora tus sesiones de escucha con letras desplazables en tiempo real, pantallas de escritorio interactivas y carátulas en vivo.",
+        "fr": "Améliorez vos sessions d'écoute avec des paroles défilantes en temps réel, des affichages de bureau interactifs et des pochettes animées.",
+        "de": "Verbessern Sie Ihre Musikhörsitzungen mit Echtzeit-Liedtexten, interaktiven Desktop-Ansichten und lebendigen Albumcovern."
+      },
+      "download_url": "https://github.com/WXRIW/Lyricify-App/releases/download/v4.4.2/Lyricify.Setup.Ver.4.4.2.261020-release.Arm64.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "publii",
@@ -19429,6 +19709,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "coucou",
+      "name": "Coucou",
+      "tagline": "Your friendly AI assistant desktop companion",
+      "repo_url": "https://github.com/louis-cfm/coucou",
+      "full_name": "louis-cfm/coucou",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "desktop"
+      ],
+      "icon": "/icons/coucou.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 7395,
+      "tier": "tier1_gui",
+      "summary": "An adorable interactive companion that sits in your screen's notch or menu bar, keeping you updated on artificial intelligence coding agents and everyday desktop tools.",
+      "i18n": {
+        "it": "Un tenero assistente interattivo che monitora gli strumenti di intelligenza artificiale e le tue attività quotidiane direttamente sullo schermo.",
+        "es": "Un adorable asistente interactivo que monitoriza herramientas de inteligencia artificial y tus tareas diarias directamente en la pantalla.",
+        "fr": "Un adorable assistant interactif qui surveille les agents d'intelligence artificielle et vos outils quotidiens directement sur votre écran.",
+        "de": "Ein süßer interaktiver Assistent, der künstliche Intelligenz und alltägliche Aufgaben direkt am Bildschirmrand für Sie im Blick behält."
+      },
+      "download_url": "https://louis-cfm.github.io/coucou/",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "spotify-player",
       "name": "spotify-player",
       "tagline": "Control your music from the terminal.",
@@ -19457,6 +19765,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "watchexec",
+      "name": "watchexec",
+      "tagline": "Run commands automatically on file changes",
+      "repo_url": "https://github.com/watchexec/watchexec",
+      "full_name": "watchexec/watchexec",
+      "category": "Productivity",
+      "tags": [
+        "automation",
+        "developer-tools"
+      ],
+      "icon": "/icons/watchexec.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 7321,
+      "tier": "tier1_gui",
+      "summary": "Watchexec monitors your folders for file modifications and instantly runs your chosen tasks or scripts for you.",
+      "i18n": {
+        "it": "Watchexec monitora le tue cartelle per le modifiche ai file ed esegue istantaneamente i compiti scelti.",
+        "es": "Watchexec supervisa tus carpetas en busca de cambios y ejecuta instantáneamente tus tareas o scripts elegidos.",
+        "fr": "Watchexec surveille vos dossiers pour détecter les modifications de fichiers et exécute instantanément vos tâches.",
+        "de": "Watchexec überwacht Ihre Ordner auf Dateiänderungen und führt Ihre ausgewählten Aufgaben sofort aus."
+      },
+      "download_url": "https://github.com/watchexec/watchexec/releases/download/v2.8.0/watchexec-2.8.0-aarch64-unknown-linux-gnu.deb",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "opensign",
       "name": "OpenSign",
       "tagline": "Free and open source document signing",
@@ -19483,6 +19819,34 @@
       },
       "download_url": "https://www.opensignlabs.com",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "snow-shot",
+      "name": "Snow Shot",
+      "tagline": "Capture, annotate, and record your screen.",
+      "repo_url": "https://github.com/mg-chao/snow-shot",
+      "full_name": "mg-chao/snow-shot",
+      "category": "Video & Audio",
+      "tags": [
+        "screenshot",
+        "screen-recorder"
+      ],
+      "icon": "/icons/snow-shot.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS",
+      "license": "Custom Open License",
+      "stars": 7312,
+      "tier": "tier1_gui",
+      "summary": "Capture your computer screen, add helpful annotations, and extract text instantly with a free and open-source tool for Windows and Mac.",
+      "i18n": {
+        "it": "Cattura lo schermo del computer, aggiungi annotazioni ed estrai testo all'istante con uno strumento gratuito e open-source.",
+        "es": "Captura la pantalla de tu ordenador, añade anotaciones y extrae texto al instante con una herramienta gratuita y de código abierto.",
+        "fr": "Capturez l'écran de votre ordinateur, ajoutez des annotations et extrayez du texte instantanément avec un outil gratuit et open source.",
+        "de": "Erfassen Sie Ihren Bildschirm, fügen Sie Anmerkungen hinzu und extrahieren Sie Text sofort mit einem kostenlosen Open-Source-Werkzeug."
+      },
+      "download_url": "https://github.com/mg-chao/snow-shot/releases/download/v1.6.3_snow-shot/snow-shot-1.6.3-windows-arm64-offline.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "wxwidgets",
@@ -19623,6 +19987,62 @@
       },
       "download_url": "https://github.com/jarun/buku/releases",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "moekoemusic",
+      "name": "MoeKoeMusic",
+      "tagline": "Sleek third-party desktop music player",
+      "repo_url": "https://github.com/moekoemusic/moekoemusic",
+      "full_name": "moekoemusic/moekoemusic",
+      "category": "Video & Audio",
+      "tags": [
+        "music",
+        "player"
+      ],
+      "icon": "/icons/moekoemusic.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v2)",
+      "stars": 7250,
+      "tier": "tier1_gui",
+      "summary": "Enjoy a clean, beautiful third-party music client with personalized themes, built-in lyrics, and seamless cross-platform playback.",
+      "i18n": {
+        "it": "Goditi un client musicale pulito e bello con temi personalizzati, testi integrati e riproduzione fluida.",
+        "es": "Disfruta de un cliente de música limpio con temas personalizados, letras integradas y reproducción fluida.",
+        "fr": "Profitez d'un client musical épuré doté de thèmes personnalisés, de paroles intégrées et d'une lecture fluide.",
+        "de": "Genießen Sie einen sauberen Musik-Client mit personalisierten Themes, integrierten Liedtexten und flüssiger Wiedergabe."
+      },
+      "download_url": "https://github.com/MoeKoeMusic/MoeKoeMusic/releases/download/v1.7.2/MoeKoe_Music_Setup_v1.7.2-ia32.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "proxybridge",
+      "name": "ProxyBridge",
+      "tagline": "Force any app through secure proxies",
+      "repo_url": "https://github.com/interceptsuite/proxybridge",
+      "full_name": "interceptsuite/proxybridge",
+      "category": "Productivity",
+      "tags": [
+        "networking",
+        "proxy"
+      ],
+      "icon": "/icons/proxybridge.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 7249,
+      "tier": "tier1_gui",
+      "summary": "Easily route network traffic from any desktop or mobile application through a proxy, even if the app lacks native proxy support.",
+      "i18n": {
+        "it": "Reindirizza facilmente il traffico di rete di qualsiasi applicazione attraverso un proxy, anche senza supporto nativo.",
+        "es": "Reenvía fácilmente el tráfico de red de cualquier aplicación a través de un proxy, incluso sin soporte nativo.",
+        "fr": "Acheminez facilement le trafic réseau de n'importe quelle application via un proxy, même sans prise en charge native.",
+        "de": "Leiten Sie den Netzwerkverkehr jeder Anwendung problemlos über einen Proxy, auch ohne integrierte Proxy-Unterstützung."
+      },
+      "download_url": "https://interceptsuite.com/what-is-interceptsuite?github=proxybridge",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "gpt-load",
@@ -19791,6 +20211,34 @@
       },
       "download_url": "https://github.com/LaoFeng-mouse/flyingmouse-format/releases/download/v0.8.3/FlyingMouse-Format-Setup-0.8.3-x64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "forge",
+      "name": "forge",
+      "tagline": "Build and publish desktop apps easily",
+      "repo_url": "https://github.com/electron/forge",
+      "full_name": "electron/forge",
+      "category": "Productivity",
+      "tags": [
+        "desktop",
+        "development"
+      ],
+      "icon": "/icons/forge.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 7176,
+      "tier": "tier1_gui",
+      "summary": "Electron Forge unifies desktop app creation tools into a single package so anyone can easily build and package applications.",
+      "i18n": {
+        "it": "Electron Forge unisce gli strumenti di creazione di app desktop in un unico pacchetto per sviluppare e impacchettare software facilmente.",
+        "es": "Electron Forge unifica las herramientas de creación de aplicaciones de escritorio en un solo paquete para desarrollar fácilmente.",
+        "fr": "Electron Forge rassemble les outils de création d'applications de bureau en un seul paquet pour développer et empaqueter facilement.",
+        "de": "Electron Forge vereint Desktop-App-Erstellungstools in einem einzigen Paket, um Anwendungen unkompliziert zu entwickeln und zu verpacken."
+      },
+      "download_url": "https://electronforge.io",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "plasmic",
@@ -20073,6 +20521,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "masscode",
+      "name": "massCode",
+      "tagline": "Your all-in-one local developer workspace",
+      "repo_url": "https://github.com/masscodeio/masscode",
+      "full_name": "masscodeio/masscode",
+      "category": "Productivity",
+      "tags": [
+        "snippets",
+        "notes"
+      ],
+      "icon": "/icons/masscode.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (AGPL v3)",
+      "stars": 7112,
+      "tier": "tier1_gui",
+      "summary": "Store code snippets, notes, API requests, and calculations in one local-first app backed by plain files.",
+      "i18n": {
+        "it": "Organizza frammenti di codice, note e richieste API in un'unica applicazione locale basata su file di testo.",
+        "es": "Guarda fragmentos de código, notas y solicitudes API en una sola aplicación local basada en archivos de texto.",
+        "fr": "Centralisez vos fragments de code, notes et requêtes API dans une application locale basée sur des fichiers.",
+        "de": "Verwalten Sie Code-Schnipsel, Notizen und API-Anfragen in einer lokalen Anwendung auf Basis einfacher Dateien."
+      },
+      "download_url": "https://github.com/massCodeIO/massCode/releases/download/v6.3.1/massCode-6.3.1-x64-portable.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "walk",
       "name": "walk",
       "tagline": "Build native Windows desktop applications easily.",
@@ -20213,6 +20689,62 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "macast",
+      "name": "Macast",
+      "tagline": "Stream phone media straight to computer",
+      "repo_url": "https://github.com/xfangfang/macast",
+      "full_name": "xfangfang/macast",
+      "category": "Productivity",
+      "tags": [
+        "streaming",
+        "media-player"
+      ],
+      "icon": "/icons/macast.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 6986,
+      "tier": "tier1_gui",
+      "summary": "Macast turns your computer into a media receiver, allowing you to cast videos, pictures, and music from your mobile phone screen instantly.",
+      "i18n": {
+        "it": "Trasforma il tuo computer in un ricevitore multimediale per riprodurre video, foto e musica direttamente dal tuo smartphone.",
+        "es": "Convierte tu ordenador en un receptor multimedia para reproducir vídeos, fotos y música directamente desde tu smartphone.",
+        "fr": "Transformez votre ordinateur en récepteur multimédia pour diffuser des vidéos, photos et musiques depuis votre smartphone.",
+        "de": "Verwandeln Sie Ihren Computer in einen Medienempfänger, um Videos, Bilder und Musik direkt von Ihrem Smartphone zu streamen."
+      },
+      "download_url": "https://github.com/xfangfang/Macast/releases/download/v0.7/Macast-Windows-v0.7-debug.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "litemonitor",
+      "name": "LiteMonitor",
+      "tagline": "Real-time hardware performance monitor for Windows",
+      "repo_url": "https://github.com/diorser/litemonitor",
+      "full_name": "diorser/litemonitor",
+      "category": "Productivity",
+      "tags": [
+        "hardware-monitor",
+        "windows-utility"
+      ],
+      "icon": "/icons/litemonitor.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows",
+      "license": "Custom Open License",
+      "stars": 6985,
+      "tier": "tier1_gui",
+      "summary": "Keep a close eye on your Windows computer's processor, memory, and graphics health using a clean, adjustable desktop overlay.",
+      "i18n": {
+        "it": "Tieni sott'occhio la salute del processore, della memoria e della scheda grafica del tuo PC con un pratico widget desktop.",
+        "es": "Supervisa el estado del procesador, la memoria y la tarjeta gráfica de tu PC con un widget flotante claro y personalizable.",
+        "fr": "Surveillez la santé du processeur, de la mémoire et de la carte graphique de votre PC grâce à un widget de bureau élégant.",
+        "de": "Behalten Sie die Leistung von Prozessor, Arbeitsspeicher und Grafikkarte Ihres PCs mit einem anpassbaren Desktop-Widget im Blick."
+      },
+      "download_url": "https://litemonitor.cn",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "reqable-app",
       "name": "reqable-app",
       "tagline": "All-in-one web testing and traffic inspector",
@@ -20267,6 +20799,62 @@
       },
       "download_url": "https://github.com/HaxeFoundation/haxe/releases/download/4.3.7/haxe-4.3.7-win.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "chsrc",
+      "name": "chsrc",
+      "tagline": "Fast, simple software update source switcher",
+      "repo_url": "https://github.com/rubymetric/chsrc",
+      "full_name": "rubymetric/chsrc",
+      "category": "Productivity",
+      "tags": [
+        "utilities",
+        "system-tools"
+      ],
+      "icon": "/icons/chsrc.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 6920,
+      "tier": "tier1_gui",
+      "summary": "chsrc helps you automatically switch to the fastest download sources for your operating systems and programming tools to improve speed.",
+      "i18n": {
+        "it": "chsrc ti aiuta a passare automaticamente alle fonti di download più veloci per i tuoi sistemi operativi e strumenti di programmazione.",
+        "es": "chsrc te ayuda a cambiar automáticamente a las fuentes de descarga más rápidas para tus sistemas operativos y herramientas de programación.",
+        "fr": "chsrc vous aide à passer automatiquement aux sources de téléchargement les plus rapides pour vos systèmes et outils de programmation.",
+        "de": "chsrc hilft dir, automatisch zu den schnellsten Download-Quellen für deine Betriebssysteme und Programmierwerkzeuge zu wechseln."
+      },
+      "download_url": "https://github.com/RubyMetric/chsrc/releases/download/v0.2.7/chsrc-arm64-windows.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "namida",
+      "name": "Namida",
+      "tagline": "Feature-rich music and video player",
+      "repo_url": "https://github.com/namidaco/namida",
+      "full_name": "namidaco/namida",
+      "category": "Video & Audio",
+      "tags": [
+        "music-player",
+        "video-player"
+      ],
+      "icon": "/icons/namida.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Custom Open License",
+      "stars": 6907,
+      "tier": "tier1_gui",
+      "summary": "Enjoy your local media and online streams in a gorgeous, customizable interface with advanced audio controls.",
+      "i18n": {
+        "it": "Goditi i tuoi file multimediali e flussi online in un'interfaccia personalizzabile con controlli audio avanzati.",
+        "es": "Disfruta de tus archivos locales y transmisiones en una interfaz atractiva con controles de audio avanzados.",
+        "fr": "Profitez de vos médias locaux et flux en ligne dans une interface élégante dotée de commandes audio avancées.",
+        "de": "Erleben Sie lokale Medien und Online-Streams in einer anpassbaren Benutzeroberfläche mit erweiterten Audio-Steuerungen."
+      },
+      "download_url": "https://github.com/namidaco/namida/releases/download/v8.6.7/Namida-x86_64-8.6.7-Installer.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "hexclave",
@@ -20437,6 +21025,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "ytmdesktop",
+      "name": "ytmdesktop",
+      "tagline": "Enjoy YouTube Music on your desktop",
+      "repo_url": "https://github.com/ytmdesktop/ytmdesktop",
+      "full_name": "ytmdesktop/ytmdesktop",
+      "category": "Video & Audio",
+      "tags": [
+        "music",
+        "desktop"
+      ],
+      "icon": "/icons/ytmdesktop.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 6765,
+      "tier": "tier1_gui",
+      "summary": "Listen to your favorite music and playlists from a dedicated desktop application with native system controls.",
+      "i18n": {
+        "it": "Ascolta la tua musica preferita e le tue playlist da un'applicazione desktop dedicata con controlli di sistema.",
+        "es": "Escucha tu música y listas de reproducción favoritas desde una aplicación de escritorio dedicada con controles nativos.",
+        "fr": "Écoutez votre musique et vos playlists préférées depuis une application de bureau dédiée avec des commandes natives.",
+        "de": "Hören Sie Ihre Lieblingsmusik und Playlists über eine dedizierte Desktop-Anwendung mit nativen Systemsteuerungen."
+      },
+      "download_url": "https://github.com/ytmdesktop/ytmdesktop/releases/download/v2.1.0/YouTube.Music.Desktop.App-2.1.0.Setup.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "koharu",
       "name": "Koharu",
       "tagline": "Local-first AI manga translator and editor",
@@ -20549,6 +21165,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "sharpemu",
+      "name": "SharpEmu",
+      "tagline": "Experimental PlayStation 5 console emulator",
+      "repo_url": "https://github.com/sharpemu/sharpemu",
+      "full_name": "sharpemu/sharpemu",
+      "category": "Productivity",
+      "tags": [
+        "emulator",
+        "gaming"
+      ],
+      "icon": "/icons/sharpemu.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux",
+      "license": "Open Source (GPL v2)",
+      "stars": 6694,
+      "tier": "tier1_gui",
+      "summary": "SharpEmu is an experimental PlayStation 5 emulator for Windows and Linux that also includes backward compatibility support for PlayStation 4 games.",
+      "i18n": {
+        "it": "SharpEmu è un emulatore sperimentale per PlayStation 5 pensato per Windows e Linux, con supporto per i giochi PlayStation 4.",
+        "es": "SharpEmu es un emulador experimental de PlayStation 5 para Windows y Linux que incluye compatibilidad con juegos de PlayStation 4.",
+        "fr": "SharpEmu est un émulateur de PlayStation 5 expérimental pour Windows et Linux qui gère également la rétrocompatibilité.",
+        "de": "SharpEmu ist ein experimenteller PlayStation 5 Emulator für Windows und Linux mit Unterstützung für PlayStation 4 Spiele."
+      },
+      "download_url": "https://sharpemu.app",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "flame",
       "name": "Flame",
       "tagline": "A beautiful dashboard for your apps",
@@ -20603,6 +21247,34 @@
       },
       "download_url": "https://github.com/kando-menu/kando/releases/download/v3.0.1/Kando-3.0.1.Setup-arm64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "stretchly",
+      "name": "stretchly",
+      "tagline": "Friendly reminder app for healthy computer breaks",
+      "repo_url": "https://github.com/hovancik/stretchly",
+      "full_name": "hovancik/stretchly",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "wellness"
+      ],
+      "icon": "/icons/stretchly.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android",
+      "license": "Open Source (BSD)",
+      "stars": 6663,
+      "tier": "tier1_gui",
+      "summary": "Stretchly gently reminds you to take regular screen breaks, helping you avoid eye strain and fatigue while working.",
+      "i18n": {
+        "it": "Stretchly ricorda dolcemente di fare pause regolari dallo schermo, aiutandoti a evitare affaticamento visivo e stanchezza.",
+        "es": "Stretchly te recuerda amablemente que hagas descansos regulares, ayudándote a evitar la fatiga visual y el cansancio.",
+        "fr": "Stretchly vous rappelle doucement de faire des pauses régulières, vous aidant à éviter la fatigue visuelle et physique.",
+        "de": "Stretchly erinnert Sie sanft an regelmäßige Bildschirmpausen, um Augenbelastung und Ermüdung bei der Arbeit zu vermeiden."
+      },
+      "download_url": "https://github.com/hovancik/stretchly/releases/download/v1.22.1/Stretchly-Portable-1.22.1.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "go-music-dl",
@@ -20771,6 +21443,34 @@
       },
       "download_url": "https://github.com/sourcegit-org/sourcegit/releases/download/v2026.24/sourcegit-2026.24.linux.amd64.AppImage",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "cava",
+      "name": "cava",
+      "tagline": "Beautiful audio visualizer for your screen",
+      "repo_url": "https://github.com/karlstav/cava",
+      "full_name": "karlstav/cava",
+      "category": "Productivity",
+      "tags": [
+        "audio-visualizer",
+        "music"
+      ],
+      "icon": "/icons/cava.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android",
+      "license": "Open Source (MIT)",
+      "stars": 6548,
+      "tier": "tier1_gui",
+      "summary": "Cava turns the music you are listening into colorful, moving bars on your screen.",
+      "i18n": {
+        "it": "Cava trasforma la musica che ascolti in barre colorate e in movimento sullo schermo.",
+        "es": "Cava convierte la música que escuchas en barras de colores en movimiento en tu pantalla.",
+        "fr": "Cava transforme la musique que vous écoutez en barres colorées animées sur votre écran.",
+        "de": "Cava verwandelt die Musik, die Sie hören, in bunte, bewegte Balken auf Ihrem Bildschirm."
+      },
+      "download_url": "https://github.com/karlstav/cava/releases/download/1.0.0/cava_win_x64_install.msi",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "nlog",

@@ -70,41 +70,6 @@
     "queued_at": "2026-11-22T10:53:36.816297+00:00"
   },
   {
-    "full_name": "glzr-io/glazewm",
-    "slug": "glazewm",
-    "html_url": "https://github.com/glzr-io/glazewm",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Field 'summary' appears truncated or incomplete: 'GlazeWM lets you arrange your Windows applications in tidy tiles using simple keyboard shortcuts, making multitasking faster and clutter‑free.')",
-    "queued_at": "2026-11-22T18:15:27.100123+00:00"
-  },
-  {
-    "full_name": "itsfatduck/optimizerDuck",
-    "slug": "optimizerduck",
-    "html_url": "https://github.com/itsfatduck/optimizerDuck",
-    "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'optimizerDuck améliore les performances et la confidentialité de votre PC en gérant les réglages système via une interface simple.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-22T18:15:32.829106+00:00"
-  },
-  {
-    "full_name": "CursorTouch/Windows-MCP",
-    "slug": "windows-mcp",
-    "html_url": "https://github.com/CursorTouch/Windows-MCP",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-22T18:15:59.807426+00:00"
-  },
-  {
-    "full_name": "LSPosed/MagiskOnWSALocal",
-    "slug": "magiskonwsalocal",
-    "html_url": "https://github.com/LSPosed/MagiskOnWSALocal",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T18:18:46.583738+00:00"
-  },
-  {
-    "full_name": "TiddlyWiki/TiddlyWiki5",
-    "slug": "tiddlywiki5",
-    "html_url": "https://github.com/TiddlyWiki/TiddlyWiki5",
-    "reason": "tier1_gemini: validation failed (Field 'summary' appears truncated or incomplete: 'Capture and organize personal notes in a self-contained web file that you completely own and keep forever without third-party corporate lock-in.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-22T18:23:30.698324+00:00"
-  },
-  {
     "full_name": "concretecms/concretecms",
     "slug": "concretecms",
     "html_url": "https://github.com/concretecms/concretecms",
@@ -166,5 +131,12 @@
     "html_url": "https://github.com/unjs/consola",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-22T18:32:02.330083+00:00"
+  },
+  {
+    "full_name": "mixxxdj/mixxx",
+    "slug": "mixxx",
+    "html_url": "https://github.com/mixxxdj/mixxx",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (Field 'summary' appears truncated or incomplete: 'Mixxx lets anyone create live DJ mixes on a computer, with all the tools you need, and it’s completely free.')",
+    "queued_at": "2026-11-23T00:00:31.295874+00:00"
   }
 ]
