@@ -2,17 +2,17 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-23T23:02:40.210782+00:00",
-  "total_apps": 1825,
+  "generated_at": "2026-11-23T23:11:06.998496+00:00",
+  "total_apps": 1850,
   "tier_counts": {
     "tier3_powertool": 239,
-    "tier2_webapp": 543,
+    "tier2_webapp": 568,
     "tier1_gui": 1043
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 229,
-    "selfhosted": 542,
+    "selfhosted": 567,
     "desktop": 1043,
     "webapp": 1
   },
@@ -22,7 +22,7 @@
     "Security & Privacy": 47,
     "Utilities & Power Tools": 230,
     "Video & Audio": 92,
-    "Web Apps & Cloud": 518,
+    "Web Apps & Cloud": 543,
     "Websites & SEO": 2
   },
   "apps": [
@@ -6578,6 +6578,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "dash",
+      "name": "Dash",
+      "tagline": "Build interactive Python web apps effortlessly",
+      "repo_url": "https://github.com/plotly/dash",
+      "full_name": "plotly/dash",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "data-science",
+        "web-apps"
+      ],
+      "icon": "/icons/dash.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 24502,
+      "tier": "tier2_webapp",
+      "summary": "Create powerful analytical web applications and dashboards using pure Python without writing any frontend code.",
+      "i18n": {
+        "it": "Realizza potenti applicazioni web e dashboard analitiche usando solo Python senza scrivere codice frontend.",
+        "es": "Desarrolla potentes aplicaciones web analíticas y paneles usando solo Python sin necesidad de programar en JavaScript.",
+        "fr": "Concevez de puissantes applications web analytiques et des tableaux de bord en pur Python sans code frontal.",
+        "de": "Entwickeln Sie leistungsstarke Analyse-Web-Apps und Dashboards mit reinem Python ganz ohne JavaScript."
+      },
+      "download_url": "https://plotly.com/dash",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "exa",
       "name": "exa",
       "tagline": "Modern, colorful replacement for traditional directory listings.",
@@ -6940,6 +6968,34 @@
       },
       "download_url": "https://lite.ego.app",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "marimo",
+      "name": "marimo",
+      "tagline": "Reactive Python notebooks for modern data",
+      "repo_url": "https://github.com/marimo-team/marimo",
+      "full_name": "marimo-team/marimo",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "data-science",
+        "notebooks"
+      ],
+      "icon": "/icons/marimo.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 23714,
+      "tier": "tier2_webapp",
+      "summary": "Create interactive, reproducible Python notebooks that turn into web apps and scripts automatically.",
+      "i18n": {
+        "it": "Crea notebook Python interattivi e riproducibili che diventano app web.",
+        "es": "Crea notebooks de Python interactivos y reproducibles que se convierten en aplicaciones web.",
+        "fr": "Créez des notebooks Python interactifs et reproductibles qui deviennent des applications web.",
+        "de": "Erstelle interaktive, reproduzierbare Python-Notebooks, die zu Web-Apps werden."
+      },
+      "download_url": "https://marimo.io",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "self-hosting-guide",
@@ -9070,6 +9126,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "wasp",
+      "name": "Wasp",
+      "tagline": "Build full-stack web apps faster.",
+      "repo_url": "https://github.com/wasp-lang/wasp",
+      "full_name": "wasp-lang/wasp",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "coding-tools"
+      ],
+      "icon": "/icons/wasp.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 18811,
+      "tier": "tier2_webapp",
+      "summary": "Wasp simplifies web development by handling complex tasks like user logins and database connections so you can focus on your unique features.",
+      "i18n": {
+        "it": "Wasp semplifica lo sviluppo web gestendo accessi e database, permettendoti di concentrarti solo sulle funzionalità della tua applicazione.",
+        "es": "Wasp simplifica el desarrollo web gestionando inicios de sesión y bases de datos para que te centres en tus funciones únicas.",
+        "fr": "Wasp simplifie le développement web en gérant les connexions et bases de données pour vous concentrer sur vos fonctionnalités.",
+        "de": "Wasp vereinfacht die Webentwicklung durch die Verwaltung von Logins und Datenbanken, damit Sie sich auf Ihre Funktionen konzentrieren können."
+      },
+      "download_url": "https://wasp.sh",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "mmkv",
       "name": "MMKV",
       "tagline": "Lightning-fast mobile key-value storage library.",
@@ -9684,6 +9768,34 @@
       },
       "download_url": "https://metrics.lecoq.io",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "vux",
+      "name": "vux",
+      "tagline": "Mobile-ready interface components for web projects",
+      "repo_url": "https://github.com/airyland/vux",
+      "full_name": "airyland/vux",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "mobile-ui"
+      ],
+      "icon": "/icons/vux.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 17443,
+      "tier": "tier2_webapp",
+      "summary": "Vux provides a collection of pre-made interface elements to help you build mobile-friendly websites and applications quickly.",
+      "i18n": {
+        "it": "Vux offre una raccolta di elementi grafici pronti all'uso per creare siti e applicazioni ottimizzati per dispositivi mobili.",
+        "es": "Vux ofrece una colección de elementos de interfaz prefabricados para crear sitios web y aplicaciones móviles de forma rápida.",
+        "fr": "Vux propose une collection d'éléments d'interface prêts à l'emploi pour créer des sites et applications mobiles rapidement.",
+        "de": "Vux bietet eine Sammlung vorgefertigter Oberflächenelemente, um mobile Webseiten und Anwendungen schnell zu erstellen."
+      },
+      "download_url": "https://vux.li",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "wtf",
@@ -14136,6 +14248,34 @@
       },
       "download_url": "https://github.com/0xJacky/nginx-ui/releases/download/v3.0.6/app-dist.tar.gz.minisig",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "docker-pi-hole",
+      "name": "Docker Pi-hole",
+      "tagline": "Network-wide ad blocking for your home",
+      "repo_url": "https://github.com/pi-hole/docker-pi-hole",
+      "full_name": "pi-hole/docker-pi-hole",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "privacy",
+        "networking"
+      ],
+      "icon": "/icons/docker-pi-hole.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 11802,
+      "tier": "tier2_webapp",
+      "summary": "Pi-hole acts as a digital gatekeeper for your home network, blocking unwanted advertisements and trackers on every connected device.",
+      "i18n": {
+        "it": "Pi-hole protegge la tua rete domestica bloccando pubblicità e tracciatori su tutti i dispositivi connessi.",
+        "es": "Pi-hole actúa como un filtro para tu red doméstica, bloqueando anuncios y rastreadores en todos tus dispositivos.",
+        "fr": "Pi-hole protège votre réseau domestique en bloquant les publicités et les traceurs sur tous vos appareils.",
+        "de": "Pi-hole schützt Ihr Heimnetzwerk, indem es Werbung und Tracker auf allen verbundenen Geräten blockiert."
+      },
+      "download_url": "https://pi-hole.net",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "pipedream",
@@ -20997,6 +21137,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "phpmyadmin",
+      "name": "phpMyAdmin",
+      "tagline": "Manage your databases through a web browser",
+      "repo_url": "https://github.com/phpmyadmin/phpmyadmin",
+      "full_name": "phpmyadmin/phpmyadmin",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "database",
+        "web-tools"
+      ],
+      "icon": "/icons/phpmyadmin.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v2)",
+      "stars": 7978,
+      "tier": "tier2_webapp",
+      "summary": "phpMyAdmin provides a visual interface to easily view, edit, and organize your database information without needing complex commands.",
+      "i18n": {
+        "it": "phpMyAdmin offre un'interfaccia visiva per gestire e organizzare i dati del database senza dover usare comandi complessi.",
+        "es": "phpMyAdmin ofrece una interfaz visual para gestionar y organizar los datos de tu base de datos sin usar comandos complejos.",
+        "fr": "phpMyAdmin fournit une interface visuelle pour gérer et organiser vos données de base de données sans commandes complexes.",
+        "de": "phpMyAdmin bietet eine visuelle Oberfläche zur Verwaltung und Organisation von Datenbanken ohne komplexe Befehlseingaben."
+      },
+      "download_url": "https://www.phpmyadmin.net/",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "enquirer",
       "name": "enquirer",
       "tagline": "Stylish, intuitive and user-friendly CLI prompts.",
@@ -21079,6 +21247,34 @@
       },
       "download_url": "https://github.com/maharmstone/btrfs/releases",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "jspaint",
+      "name": "jspaint",
+      "tagline": "The classic MS Paint, beautifully revived",
+      "repo_url": "https://github.com/1j01/jspaint",
+      "full_name": "1j01/jspaint",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "pixel-art",
+        "drawing"
+      ],
+      "icon": "/icons/jspaint.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 7927,
+      "tier": "tier2_webapp",
+      "summary": "Experience the nostalgic charm of classic MS Paint with modern improvements like unlimited undo steps, transparency support, and cross-platform installation.",
+      "i18n": {
+        "it": "Rivivi il fascino nostalgico del classico MS Paint con miglioramenti moderni come annullamenti illimitati, supporto alla trasparenza e temi.",
+        "es": "Disfruta de la nostalgia del clásico MS Paint con mejoras modernas como deshacer ilimitado, soporte de transparencia y compatibilidad multiplataforma.",
+        "fr": "Retrouvez le charme nostalgique du Paint classique avec des améliorations modernes comme un historique infini, la transparence et des thèmes.",
+        "de": "Erleben Sie den nostalgischen Charme von klassischem MS Paint mit modernen Extras wie unbegrenzten Rückgängig-Schritten und Transparenz."
+      },
+      "download_url": "https://github.com/1j01/jspaint/releases/download/v1.1.0/jspaint-1.1.0-Windows-x64-Setup.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "howdy",
@@ -27882,6 +28078,34 @@
       },
       "download_url": "https://belnadris.github.io/angular-electron/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "shiny",
+      "name": "shiny",
+      "tagline": "Build interactive R web apps",
+      "repo_url": "https://github.com/rstudio/shiny",
+      "full_name": "rstudio/shiny",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "r",
+        "web-apps"
+      ],
+      "icon": "/icons/shiny.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 5704,
+      "tier": "tier2_webapp",
+      "summary": "Create rich, interactive web applications using R without needing to write HTML, CSS, or JavaScript code.",
+      "i18n": {
+        "it": "Crea applicazioni web ricche e interattive usando R, senza dover scrivere codice HTML, CSS o JavaScript.",
+        "es": "Crea aplicaciones web ricas e interactivas usando R, sin necesidad de escribir código HTML, CSS o JavaScript.",
+        "fr": "Créez des applications web riches et interactives en utilisant R, sans avoir à écrire de code HTML, CSS ou JavaScript.",
+        "de": "Erstellen Sie reichhaltige, interaktive Webanwendungen mit R, ohne HTML-, CSS- oder JavaScript-Code schreiben zu müssen."
+      },
+      "download_url": "https://shiny.posit.co/",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "xplorer",
@@ -51064,6 +51288,482 @@
         "de": "Emuliere klassische PCs der späten 80er und frühen 90er Jahre direkt auf kostengünstigen Mikrocontrollern und Desktop-Systemen."
       },
       "download_url": "https://murmulator.ru/pico-xt",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "kms",
+      "name": "KMS",
+      "tagline": "Flexible content management for Ruby developers",
+      "repo_url": "https://github.com/apiqcms/kms",
+      "full_name": "apiqcms/kms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "cms"
+      ],
+      "icon": "/icons/kms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 325,
+      "tier": "tier2_webapp",
+      "summary": "KMS is a modular tool that lets you build custom websites using the Ruby on Rails platform with a clean and responsive admin interface.",
+      "i18n": {
+        "it": "KMS è uno strumento modulare per creare siti web personalizzati con Ruby on Rails, dotato di un'interfaccia di amministrazione intuitiva.",
+        "es": "KMS es una herramienta modular que permite crear sitios web personalizados usando Ruby on Rails con una interfaz de administración clara.",
+        "fr": "KMS est un outil modulaire permettant de créer des sites web personnalisés avec Ruby on Rails, doté d'une interface d'administration claire.",
+        "de": "KMS ist ein modulares Werkzeug zum Erstellen maßgeschneiderter Websites mit Ruby on Rails, inklusive einer übersichtlichen Verwaltungsoberfläche."
+      },
+      "download_url": "https://apiq.io",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "icms2",
+      "name": "icms2",
+      "tagline": "Free self-hosted website builder",
+      "repo_url": "https://github.com/instantsoft/icms2",
+      "full_name": "instantsoft/icms2",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "self-hosted"
+      ],
+      "icon": "/icons/icms2.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v2)",
+      "stars": 323,
+      "tier": "tier2_webapp",
+      "summary": "InstantCMS is a free, open-source tool that lets you create and manage any type of website without paying monthly fees.",
+      "i18n": {
+        "it": "InstantCMS è uno strumento gratuito e open source per creare e gestire qualsiasi tipo di sito web senza costi mensili.",
+        "es": "InstantCMS es una herramienta gratuita y de código abierto para crear y gestionar cualquier tipo de sitio web sin costos mensuales.",
+        "fr": "InstantCMS est un outil gratuit et open source pour créer et gérer tout type de site web sans frais mensuels.",
+        "de": "InstantCMS ist ein kostenloses Open-Source-Tool zum Erstellen und Verwalten jeder Art von Website ohne monatliche Gebühren."
+      },
+      "download_url": "https://instantcms.ru",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "richie",
+      "name": "richie",
+      "tagline": "Build custom education portals and catalogs",
+      "repo_url": "https://github.com/openfun/richie",
+      "full_name": "openfun/richie",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "education",
+        "cms"
+      ],
+      "icon": "/icons/richie.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 318,
+      "tier": "tier2_webapp",
+      "summary": "An open-source content management system designed to help you create flexible, multi-lingual education websites and course catalogs.",
+      "i18n": {
+        "it": "Un sistema di gestione dei contenuti open-source per creare siti educativi flessibili, multilingue e cataloghi di corsi.",
+        "es": "Un sistema de gestión de contenidos de código abierto para crear sitios educativos flexibles, multilingües y catálogos de cursos.",
+        "fr": "Un système de gestion de contenu open-source pour créer des sites éducatifs flexibles, multilingues et des catalogues de cours.",
+        "de": "Ein Open-Source-Inhaltsverwaltungssystem zum Erstellen flexibler, mehrsprachiger Bildungswebsites und Kurskataloge."
+      },
+      "download_url": "https://richie.education",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "borgert-cms",
+      "name": "Borgert CMS",
+      "tagline": "Simple modular web publishing platform",
+      "repo_url": "https://github.com/borgert-inc/borgert-cms",
+      "full_name": "borgert-inc/borgert-cms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "php"
+      ],
+      "icon": "/icons/borgert-cms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 301,
+      "tier": "tier2_webapp",
+      "summary": "Launch web projects easily using a modular content management platform equipped with blogs, pages, galleries, and user control.",
+      "i18n": {
+        "it": "Avvia progetti web facilmente usando una piattaforma di gestione contenuti modulare dotata di blog, pagine e gallerie.",
+        "es": "Inicie proyectos web fácilmente utilizando una plataforma de gestión de contenido modular equipada con blogs y páginas.",
+        "fr": "Lancez des projets web facilement grâce à une plateforme de gestion de contenu modulaire dotée de blogs et de pages.",
+        "de": "Starten Sie Webprojekte ganz einfach mit einer modularen Content-Management-Plattform inklusive Blogs und Seiten."
+      },
+      "download_url": "https://github.com/borgert-inc/borgert-cms/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "skeleton",
+      "name": "Sulu Skeleton",
+      "tagline": "Start your Sulu website project",
+      "repo_url": "https://github.com/sulu/skeleton",
+      "full_name": "sulu/skeleton",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "web-development"
+      ],
+      "icon": "/icons/skeleton.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 298,
+      "tier": "tier2_webapp",
+      "summary": "A ready-made starter kit for building multi-language websites using the Sulu content management system.",
+      "i18n": {
+        "it": "Un kit di avvio pronto per creare siti web multilingue con il sistema di gestione dei contenuti Sulu.",
+        "es": "Un kit de inicio listo para crear sitios web multilingües con el sistema de gestión de contenidos Sulu.",
+        "fr": "Un kit de démarrage prêt à l'emploi pour créer des sites web multilingues avec le système de gestion de contenu Sulu.",
+        "de": "Ein fertiges Starter-Kit für den Aufbau mehrsprachiger Websites mit dem Sulu-Content-Management-System."
+      },
+      "download_url": "https://sulu.io",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "rhymix",
+      "name": "Rhymix",
+      "tagline": "Free website builder for communities",
+      "repo_url": "https://github.com/rhymix/rhymix",
+      "full_name": "rhymix/rhymix",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "website-builder"
+      ],
+      "icon": "/icons/rhymix.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v2)",
+      "stars": 297,
+      "tier": "tier2_webapp",
+      "summary": "Rhymix is a free, open-source tool that lets anyone build their own independent website and community without relying on big social media platforms.",
+      "i18n": {
+        "it": "Rhymix è uno strumento gratuito e open source che permette a chiunque di creare il proprio sito web indipendente e la propria comunità senza dipendere dai grandi social media.",
+        "es": "Rhymix es una herramienta gratuita y de código abierto que permite a cualquiera crear su propio sitio web independiente y su comunidad sin depender de las grandes redes sociales.",
+        "fr": "Rhymix est un outil gratuit et open source qui permet à chacun de créer son propre site web indépendant et sa communauté sans dépendre des grands réseaux sociaux.",
+        "de": "Rhymix ist ein kostenloses Open-Source-Tool, mit dem jeder seine eigene unabhängige Website und Community erstellen kann, ohne von großen Social-Media-Plattformen abhängig zu sein."
+      },
+      "download_url": "https://rhymix.org",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "wolfssl-examples",
+      "name": "wolfssl-examples",
+      "tagline": "Secure communication examples using lightweight crypto",
+      "repo_url": "https://github.com/wolfssl/wolfssl-examples",
+      "full_name": "wolfssl/wolfssl-examples",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "encryption"
+      ],
+      "icon": "/icons/wolfssl-examples.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 290,
+      "tier": "tier2_webapp",
+      "summary": "Explore ready-to-use C code examples demonstrating secure network connections, encryption algorithms, and certificate management for various devices and systems.",
+      "i18n": {
+        "it": "Esplora esempi di codice C pronti all'uso per connessioni di rete sicure, algoritmi di crittografia e gestione dei certificati.",
+        "es": "Explore ejemplos de código en C listos para usar que demuestran conexiones de red seguras, cifrado y gestión de certificados.",
+        "fr": "Découvrez des exemples de code C prêts à l'emploi pour des connexions réseau sécurisées, le chiffrement et la gestion des certificats.",
+        "de": "Entdecken Sie C-Code-Beispiele für sichere Netzwerkverbindungen, Verschlüsselung und Zertifikatsverwaltung auf verschiedenen Geräten."
+      },
+      "download_url": "https://www.wolfssl.com",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "easyee",
+      "name": "EasyEE",
+      "tagline": "Fast-track enterprise web app development",
+      "repo_url": "https://github.com/ushelp/easyee",
+      "full_name": "ushelp/easyee",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "enterprise-software"
+      ],
+      "icon": "/icons/easyee.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 286,
+      "tier": "tier2_webapp",
+      "summary": "EasyEE is a free, open-source toolkit that helps developers build secure business websites quickly.",
+      "i18n": {
+        "it": "EasyEE è un kit gratuito e open source che aiuta gli sviluppatori a creare siti web aziendali sicuri in modo rapido.",
+        "es": "EasyEE es un kit gratuito y de código abierto que ayuda a los desarrolladores a crear sitios web empresariales seguros rápidamente.",
+        "fr": "EasyEE est un kit gratuit et open source qui aide les développeurs à créer rapidement des sites web d'entreprise sécurisés.",
+        "de": "EasyEE ist ein kostenloses Open-Source-Toolkit, das Entwicklern hilft, sichere Unternehmens-Websites schnell zu erstellen."
+      },
+      "download_url": "https://easyproject.cn/easyee",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "subrion",
+      "name": "Subrion",
+      "tagline": "Free, flexible website builder for all",
+      "repo_url": "https://github.com/intelliants/subrion",
+      "full_name": "intelliants/subrion",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "website-builder"
+      ],
+      "icon": "/icons/subrion.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 284,
+      "tier": "tier2_webapp",
+      "summary": "Subrion is a free, open-source tool that lets you create and manage any type of website, from simple blogs to complex business portals, without paying for software licenses.",
+      "i18n": {
+        "it": "Subrion è uno strumento gratuito e open source che ti permette di creare e gestire qualsiasi tipo di sito web, dai blog semplici ai portali aziendali complessi, senza costi di licenza.",
+        "es": "Subrion es una herramienta gratuita y de código abierto que te permite crear y gestionar cualquier tipo de sitio web, desde blogs simples hasta portales corporativos complejos, sin costos de licencia.",
+        "fr": "Subrion est un outil gratuit et open source qui vous permet de créer et de gérer tout type de site web, des blogs simples aux portails d'entreprise complexes, sans frais de licence.",
+        "de": "Subrion ist ein kostenloses Open-Source-Tool, mit dem Sie jede Art von Website erstellen und verwalten können, von einfachen Blogs bis hin zu komplexen Unternehmensportalen, ohne Lizenzkosten."
+      },
+      "download_url": "https://subrion.org/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "figma-to-react-native",
+      "name": "figma-to-react-native",
+      "tagline": "Turn Figma designs into app code",
+      "repo_url": "https://github.com/kat-tax/figma-to-react-native",
+      "full_name": "kat-tax/figma-to-react-native",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "design-to-code",
+        "react-native"
+      ],
+      "icon": "/icons/figma-to-react-native.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 281,
+      "tier": "tier2_webapp",
+      "summary": "This web tool instantly converts your Figma designs into ready-to-use React Native code, saving hours of manual work.",
+      "i18n": {
+        "it": "Questo strumento web converte istantaneamente i tuoi design Figma in codice React Native pronto all'uso, risparmiando ore di lavoro manuale.",
+        "es": "Esta herramienta web convierte instantáneamente tus diseños de Figma en código React Native listo para usar, ahorrando horas de trabajo manual.",
+        "fr": "Cet outil web convertit instantanément vos designs Figma en code React Native prêt à l'emploi, économisant des heures de travail manuel.",
+        "de": "Dieses Web-Tool wandelt Ihre Figma-Designs sofort in einsatzbereiten React-Native-Code um und spart Stunden an manueller Arbeit."
+      },
+      "download_url": "https://figma-to-react-native.com",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "plone",
+      "name": "Plone",
+      "tagline": "Secure & Flexible Website Builder",
+      "repo_url": "https://github.com/plone/plone",
+      "full_name": "plone/plone",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "web-publishing"
+      ],
+      "icon": "/icons/plone.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 278,
+      "tier": "tier2_webapp",
+      "summary": "Plone is a free, open-source tool that helps organizations create and manage secure, professional websites with ease.",
+      "i18n": {
+        "it": "Plone è uno strumento open source gratuito che aiuta le organizzazioni a creare e gestire siti web professionali e sicuri.",
+        "es": "Plone es una herramienta de código abierto gratuita que ayuda a las organizaciones a crear y gestionar sitios web profesionales y seguros.",
+        "fr": "Plone est un outil open source gratuit qui aide les organisations à créer et gérer des sites web professionnels et sécurisés.",
+        "de": "Plone ist ein kostenloses Open-Source-Tool, das Organisationen beim Erstellen und Verwalten sicherer, professioneller Websites hilft."
+      },
+      "download_url": "https://plone.org",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "superduper-filament-starter-kit",
+      "name": "SuperDuper Filament Starter Kit",
+      "tagline": "Jumpstart your professional web dashboard project.",
+      "repo_url": "https://github.com/riodwanto/superduper-filament-starter-kit",
+      "full_name": "riodwanto/superduper-filament-starter-kit",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "admin-panel"
+      ],
+      "icon": "/icons/superduper-filament-starter-kit.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 278,
+      "tier": "tier2_webapp",
+      "summary": "This toolkit provides a ready-to-use foundation for building web applications, including pre-configured user management and design tools.",
+      "i18n": {
+        "it": "Questo kit offre una base pronta all'uso per creare applicazioni web, includendo gestione utenti e strumenti di design preconfigurati.",
+        "es": "Este kit ofrece una base lista para usar al crear aplicaciones web, incluyendo gestión de usuarios y herramientas de diseño preconfiguradas.",
+        "fr": "Ce kit fournit une base prête à l'emploi pour créer des applications web, incluant la gestion des utilisateurs et des outils de design.",
+        "de": "Dieses Kit bietet eine sofort einsatzbereite Grundlage für Webanwendungen, inklusive Benutzerverwaltung und vorgefertigten Design-Tools."
+      },
+      "download_url": "https://github.com/riodwanto/superduper-filament-starter-kit",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "screentinker",
+      "name": "ScreenTinker",
+      "tagline": "Manage digital signs from anywhere.",
+      "repo_url": "https://github.com/screentinker/screentinker",
+      "full_name": "screentinker/screentinker",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "digital-signage",
+        "kiosk"
+      ],
+      "icon": "/icons/screentinker.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 277,
+      "tier": "tier2_webapp",
+      "summary": "ScreenTinker lets you control content on TVs, kiosks, and video walls from a single, easy-to-use dashboard.",
+      "i18n": {
+        "it": "ScreenTinker ti permette di controllare i contenuti su TV, chioschi e pareti video da un'unica dashboard semplice.",
+        "es": "ScreenTinker te permite controlar el contenido en televisores, quioscos y videowalls desde un panel de control sencillo.",
+        "fr": "ScreenTinker vous permet de contrôler le contenu sur vos téléviseurs, bornes et murs d'images depuis un tableau de bord unique.",
+        "de": "ScreenTinker ermöglicht die Steuerung von Inhalten auf Fernsehern, Kiosken und Videowänden über ein einfaches Dashboard."
+      },
+      "download_url": "https://github.com/screentinker/screentinker/releases/download/v3.2.5/ScreenTinker.apk",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "g6",
+      "name": "GNUBOARD6",
+      "tagline": "Modern Python-based content management system",
+      "repo_url": "https://github.com/gnuboard/g6",
+      "full_name": "gnuboard/g6",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "fastapi"
+      ],
+      "icon": "/icons/g6.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 273,
+      "tier": "tier2_webapp",
+      "summary": "GNUBOARD6 is a flexible website and community platform built with Python that helps you manage content and user interactions with ease.",
+      "i18n": {
+        "it": "GNUBOARD6 è una piattaforma per siti web e community basata su Python che semplifica la gestione dei contenuti e le interazioni degli utenti.",
+        "es": "GNUBOARD6 es una plataforma para sitios web y comunidades basada en Python que facilita la gestión de contenidos y las interacciones de usuarios.",
+        "fr": "GNUBOARD6 est une plateforme de sites web et de communautés basée sur Python qui simplifie la gestion de contenu et les interactions des utilisateurs.",
+        "de": "GNUBOARD6 ist eine auf Python basierende Plattform für Websites und Communities, die die Inhaltsverwaltung und Benutzerinteraktionen vereinfacht."
+      },
+      "download_url": "https://sir.kr",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "ok-admin",
+      "name": "ok-admin",
+      "tagline": "Responsive dashboard template for web projects",
+      "repo_url": "https://github.com/wudibo/ok-admin",
+      "full_name": "wudibo/ok-admin",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "dashboard"
+      ],
+      "icon": "/icons/ok-admin.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 272,
+      "tier": "tier2_webapp",
+      "summary": "ok-admin provides a clean, flat-style interface for managing web backends.",
+      "i18n": {
+        "it": "ok-admin offre un'interfaccia pulita e moderna per gestire i pannelli di controllo web, semplificando la visualizzazione dei dati.",
+        "es": "ok-admin ofrece una interfaz limpia y moderna para gestionar paneles de control web, facilitando la organización de datos.",
+        "fr": "ok-admin propose une interface épurée et moderne pour gérer les tableaux de bord web, facilitant ainsi l'organisation des données.",
+        "de": "ok-admin bietet eine saubere und moderne Oberfläche zur Verwaltung von Web-Dashboards und vereinfacht die Datenorganisation."
+      },
+      "download_url": "https://ok-admin.xlbweb.cn",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "cosmicjs-node",
+      "name": "Cosmicjs Node",
+      "tagline": "Simple headless content management toolkit.",
+      "repo_url": "https://github.com/cosmicjs/cosmicjs-node",
+      "full_name": "cosmicjs/cosmicjs-node",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "headless-cms",
+        "content-management"
+      ],
+      "icon": "/icons/cosmicjs-node.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 270,
+      "tier": "tier2_webapp",
+      "summary": "Connect your JavaScript applications to a cloud content management system for easy content updates.",
+      "i18n": {
+        "it": "Collega le tue applicazioni JavaScript a un sistema cloud per aggiornare i contenuti facilmente.",
+        "es": "Conecta tus aplicaciones de JavaScript a un sistema en la nube para actualizar contenido fácilmente.",
+        "fr": "Connectez vos applications JavaScript à un système cloud pour mettre à jour vos contenus.",
+        "de": "Verbinden Sie Ihre JavaScript-Anwendungen mit einem Cloud-System zur einfachen Verwaltung."
+      },
+      "download_url": "https://www.cosmicjs.com",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "nuxtjs-wordpress",
+      "name": "Nuxtjs-Wordpress",
+      "tagline": "Modern, fast interface for WordPress sites",
+      "repo_url": "https://github.com/d-xuanmo/nuxtjs-wordpress",
+      "full_name": "d-xuanmo/nuxtjs-wordpress",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "wordpress",
+        "web-development"
+      ],
+      "icon": "/icons/nuxtjs-wordpress.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 270,
+      "tier": "tier2_webapp",
+      "summary": "This tool transforms your standard WordPress site into a modern, lightning-fast web experience with a smooth, app-like feel.",
+      "i18n": {
+        "it": "Questo strumento trasforma il tuo sito WordPress in un'esperienza web moderna e ultra-rapida con una navigazione fluida.",
+        "es": "Esta herramienta convierte tu sitio de WordPress en una experiencia web moderna y ultrarrápida con una navegación fluida.",
+        "fr": "Cet outil transforme votre site WordPress en une expérience web moderne et ultra-rapide avec une navigation fluide.",
+        "de": "Dieses Tool verwandelt Ihre WordPress-Seite in ein modernes, blitzschnelles Web-Erlebnis mit flüssiger Navigation."
+      },
+      "download_url": "https://www.xuanmo.xin/details/2987",
       "updated_at": "2026-11-23"
     },
     {
