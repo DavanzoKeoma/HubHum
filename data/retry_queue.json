@@ -131,5 +131,89 @@
     "html_url": "https://github.com/qvacua/vimr",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-23T22:37:27.632829+00:00"
+  },
+  {
+    "full_name": "bitgapp/eqMac",
+    "slug": "eqmac",
+    "html_url": "https://github.com/bitgapp/eqMac",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'Améliorez le volume, ajustez les profils sonores et équilibrez l'audio sur tout votre Mac grâce à un panneau simple.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:38:28.241323+00:00"
+  },
+  {
+    "full_name": "bizz84/SwiftyStoreKit",
+    "slug": "swiftystorekit",
+    "html_url": "https://github.com/bizz84/SwiftyStoreKit",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:39:46.535779+00:00"
+  },
+  {
+    "full_name": "peetzweg/opendisplay",
+    "slug": "opendisplay",
+    "html_url": "https://github.com/peetzweg/opendisplay",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-23T22:40:36.395354+00:00"
+  },
+  {
+    "full_name": "TableProApp/TablePro",
+    "slug": "tablepro",
+    "html_url": "https://github.com/TableProApp/TablePro",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons)",
+    "queued_at": "2026-11-23T22:41:43.103456+00:00"
+  },
+  {
+    "full_name": "argmaxinc/argmax-oss-swift",
+    "slug": "argmax-oss-swift",
+    "html_url": "https://github.com/argmaxinc/argmax-oss-swift",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-23T22:41:48.767136+00:00"
+  },
+  {
+    "full_name": "666OS/ClashMac",
+    "slug": "clashmac",
+    "html_url": "https://github.com/666OS/ClashMac",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons)",
+    "queued_at": "2026-11-23T22:43:17.262872+00:00"
+  },
+  {
+    "full_name": "jacklandrin/OnlySwitch",
+    "slug": "onlyswitch",
+    "html_url": "https://github.com/jacklandrin/OnlySwitch",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-23T22:45:11.653867+00:00"
+  },
+  {
+    "full_name": "MarkEdit-app/MarkEdit",
+    "slug": "markedit",
+    "html_url": "https://github.com/MarkEdit-app/MarkEdit",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:46:32.136333+00:00"
+  },
+  {
+    "full_name": "termux/termux-packages",
+    "slug": "termux-packages",
+    "html_url": "https://github.com/termux/termux-packages",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:48:41.759769+00:00"
+  },
+  {
+    "full_name": "polybar/polybar",
+    "slug": "polybar",
+    "html_url": "https://github.com/polybar/polybar",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-23T22:48:55.466110+00:00"
+  },
+  {
+    "full_name": "future-architect/vuls",
+    "slug": "vuls",
+    "html_url": "https://github.com/future-architect/vuls",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:50:20.267437+00:00"
+  },
+  {
+    "full_name": "xmake-io/xmake",
+    "slug": "xmake",
+    "html_url": "https://github.com/xmake-io/xmake",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-23T22:50:23.946716+00:00"
   }
 ]

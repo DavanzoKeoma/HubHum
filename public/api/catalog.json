@@ -2,24 +2,24 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-23T22:38:14.845892+00:00",
-  "total_apps": 1775,
+  "generated_at": "2026-11-23T22:51:14.740956+00:00",
+  "total_apps": 1800,
   "tier_counts": {
     "tier3_powertool": 239,
     "tier2_webapp": 530,
-    "tier1_gui": 1006
+    "tier1_gui": 1031
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 229,
     "selfhosted": 529,
-    "desktop": 1006,
+    "desktop": 1031,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 38,
-    "Productivity": 865,
-    "Security & Privacy": 43,
+    "Productivity": 887,
+    "Security & Privacy": 46,
     "Utilities & Power Tools": 230,
     "Video & Audio": 92,
     "Web Apps & Cloud": 505,
@@ -4814,6 +4814,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "librepods",
+      "name": "LibrePods",
+      "tagline": "Unlock full AirPods control on Android",
+      "repo_url": "https://github.com/librepods-org/librepods",
+      "full_name": "librepods-org/librepods",
+      "category": "Productivity",
+      "tags": [
+        "airpods",
+        "android"
+      ],
+      "icon": "/icons/librepods.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux, Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 30943,
+      "tier": "tier1_gui",
+      "summary": "LibrePods lets you use advanced AirPods features like noise control and battery status on Android and Linux, removing the need for an iPhone.",
+      "i18n": {
+        "it": "LibrePods ti permette di usare funzioni avanzate di AirPods come il controllo del rumore e lo stato della batteria su Android e Linux, senza bisogno di un iPhone.",
+        "es": "LibrePods te permite usar funciones avanzadas de AirPods como el control de ruido y el estado de la batería en Android y Linux, sin necesidad de un iPhone.",
+        "fr": "LibrePods vous permet d'utiliser des fonctions avancées des AirPods comme le contrôle du bruit et l'état de la batterie sur Android et Linux, sans avoir besoin d'un iPhone.",
+        "de": "LibrePods ermöglicht die Nutzung fortschrittlicher AirPods-Funktionen wie Geräuschunterdrückung und Batteriestand auf Android und Linux, ohne ein iPhone zu benötigen."
+      },
+      "download_url": "https://github.com/librepods-org/librepods/releases/download/v1.0.4/LibrePods-FOSS-v1.0.4-100040301-debug.apk",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "wttr-in",
       "name": "wttr.in",
       "tagline": "The right way to check weather",
@@ -8146,6 +8174,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "ish",
+      "name": "ish",
+      "tagline": "Run a Linux shell on iOS",
+      "repo_url": "https://github.com/ish-app/ish",
+      "full_name": "ish-app/ish",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "system-utility"
+      ],
+      "icon": "/icons/ish.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux, iOS",
+      "license": "Custom Open License",
+      "stars": 20780,
+      "tier": "tier1_gui",
+      "summary": "Get a fully functional Linux terminal directly on your iPhone or iPad using clever processor emulation and system translation.",
+      "i18n": {
+        "it": "Ottieni un terminale Linux completo direttamente sul tuo iPhone o iPad sfruttando un'ingegnosa emulazione di sistema.",
+        "es": "Disfruta de una terminal Linux completa directamente en tu iPhone o iPad mediante una emulación inteligente.",
+        "fr": "Profitez d'un terminal Linux complet directement sur votre iPhone ou iPad grâce à une émulation ingénieuse.",
+        "de": "Nutzen Sie ein vollständiges Linux-Terminal direkt auf Ihrem iPhone oder iPad mit cleverer Systememulation."
+      },
+      "download_url": "https://github.com/ish-app/ish/releases/download/builds/494/iSH.ipa",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "wagtail",
       "name": "Wagtail",
       "tagline": "Flexible content management for professional websites",
@@ -10722,6 +10778,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "ecapture",
+      "name": "ecapture",
+      "tagline": "Capture encrypted network traffic without certificate setups",
+      "repo_url": "https://github.com/gojue/ecapture",
+      "full_name": "gojue/ecapture",
+      "category": "Productivity",
+      "tags": [
+        "network",
+        "security"
+      ],
+      "icon": "/icons/ecapture.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux, Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 15581,
+      "tier": "tier1_gui",
+      "summary": "Capture secure website traffic and system commands in plain text using advanced kernel technology without installing custom certificates.",
+      "i18n": {
+        "it": "Cattura traffico web sicuro e comandi di sistema in chiaro utilizzando tecnologia avanzata del kernel senza installare certificati.",
+        "es": "Captura tráfico web seguro y comandos del sistema en texto plano utilizando tecnología avanzada del núcleo sin instalar certificados.",
+        "fr": "Capturez du trafic web sécurisé et des commandes système en texte clair grâce à une technologie avancée du noyau sans certificats.",
+        "de": "Erfassen Sie sicheren Webverkehr und Systembefehle im Klartext mit fortschrittlicher Kernel-Technologie ohne benutzerdefinierte Zertifikate."
+      },
+      "download_url": "https://github.com/gojue/ecapture/releases/download/v2.12.0/ecapture_v2.12.0_linux_amd64.deb",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "hidden",
       "name": "Hidden",
       "tagline": "Clean up your Mac menu bar",
@@ -11168,6 +11252,34 @@
       },
       "download_url": "https://peach.video",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "clashctl",
+      "name": "clashctl",
+      "tagline": "Easy Linux proxy management",
+      "repo_url": "https://github.com/nelvko/clashctl",
+      "full_name": "nelvko/clashctl",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "proxy"
+      ],
+      "icon": "/icons/clashctl.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (MIT)",
+      "stars": 15215,
+      "tier": "tier1_gui",
+      "summary": "A simple command-line tool that sets up and manages proxy environments on Linux.",
+      "i18n": {
+        "it": "Uno strumento da riga di comando che configura e gestisce gli ambienti proxy su Linux.",
+        "es": "Una herramienta de línea de comandos que configura y administra entornos de proxy en Linux.",
+        "fr": "Un outil en ligne de commande qui configure et gère les environnements de proxy sur Linux.",
+        "de": "Ein Kommandozeilenwerkzeug, das Proxy-Umgebungen auf Linux einrichtet und verwaltet."
+      },
+      "download_url": "https://github.com/nelvko/clashctl/releases/download/clash/clash-linux-386-2023.08.17.gz",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "brook",
@@ -11812,6 +11924,34 @@
       },
       "download_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3/releases/download/v4.5.11/Ghost-Downloader-v4.5.11-Windows-arm64-Setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "opensnitch",
+      "name": "OpenSnitch",
+      "tagline": "Interactive firewall for Linux",
+      "repo_url": "https://github.com/evilsocket/opensnitch",
+      "full_name": "evilsocket/opensnitch",
+      "category": "Security & Privacy",
+      "tags": [
+        "firewall",
+        "privacy"
+      ],
+      "icon": "/icons/opensnitch.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 14321,
+      "tier": "tier1_gui",
+      "summary": "OpenSnitch is a free, open-source firewall for Linux that asks you before any program connects to the internet.",
+      "i18n": {
+        "it": "OpenSnitch è un firewall gratuito per Linux che ti chiede il permesso prima che un programma si connetta a internet.",
+        "es": "OpenSnitch es un firewall gratuito para Linux que te pide permiso antes de que un programa se conecte a internet.",
+        "fr": "OpenSnitch est un pare-feu gratuit pour Linux qui vous demande l'autorisation avant qu'une application se connecte à internet.",
+        "de": "OpenSnitch ist ein kostenloses Firewall für Linux, das vor jeder Internetverbindung eines Programms um Erlaubnis bittet."
+      },
+      "download_url": "https://github.com/evilsocket/opensnitch/releases/download/v1.8.0/opensnitch_1.8.0-1_amd64.deb",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "clients",
@@ -12990,6 +13130,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "eww",
+      "name": "eww",
+      "tagline": "Build custom desktop widgets easily.",
+      "repo_url": "https://github.com/elkowar/eww",
+      "full_name": "elkowar/eww",
+      "category": "Productivity",
+      "tags": [
+        "widgets",
+        "customization"
+      ],
+      "icon": "/icons/eww.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (MIT)",
+      "stars": 12778,
+      "tier": "tier1_gui",
+      "summary": "Create your own personalized desktop panels and status bars that seamlessly fit your window manager and daily computing style.",
+      "i18n": {
+        "it": "Crea pannelli desktop personalizzati e barre di stato che si integrano perfettamente nel tuo gestore di finestre.",
+        "es": "Crea tus propios paneles de escritorio y barras de estado personalizados que se adaptan a tu gestor de ventanas.",
+        "fr": "Concevez vos propres panneaux de bureau et barres d'état personnalisés qui s'intègrent parfaitement à votre bureau.",
+        "de": "Gestalten Sie eigene Desktop-Panels und Statusleisten, die perfekt zu Ihrem Fenster-Manager und Arbeitsstil passen."
+      },
+      "download_url": "https://elkowar.github.io/eww",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "gh-dash",
       "name": "gh-dash",
       "tagline": "Manage GitHub tasks from your terminal",
@@ -13130,6 +13298,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "heroicgameslauncher",
+      "name": "Heroic Games Launcher",
+      "tagline": "Your ultimate multi-store PC game launcher",
+      "repo_url": "https://github.com/heroic-games-launcher/heroicgameslauncher",
+      "full_name": "heroic-games-launcher/heroicgameslauncher",
+      "category": "Productivity",
+      "tags": [
+        "games",
+        "launcher"
+      ],
+      "icon": "/icons/heroicgameslauncher.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 12659,
+      "tier": "tier1_gui",
+      "summary": "Manage and play your Epic Games, GOG, and Amazon game libraries in one neat, open-source desktop application.",
+      "i18n": {
+        "it": "Gestisci e avvia i tuoi giochi da Epic Games, GOG e Amazon in un'unica applicazione open source.",
+        "es": "Organiza y juega tus títulos de Epic Games, GOG y Amazon desde una única aplicación de código abierto.",
+        "fr": "Rassemblez et lancez vos jeux Epic Games, GOG et Amazon au sein d'une seule application open source.",
+        "de": "Verwalten und spielen Sie Ihre Epic-, GOG- und Amazon-Spielebibliothek in einer übersichtlichen App."
+      },
+      "download_url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.4/Heroic-2.22.4-Portable-arm64.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "posting",
       "name": "Posting",
       "tagline": "Fast keyboard-driven web request tool",
@@ -13212,6 +13408,34 @@
       },
       "download_url": "https://umbrel.com",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "waydroid",
+      "name": "Waydroid",
+      "tagline": "Run Android apps on your computer",
+      "repo_url": "https://github.com/waydroid/waydroid",
+      "full_name": "waydroid/waydroid",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "linux"
+      ],
+      "icon": "/icons/waydroid.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux, Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 12581,
+      "tier": "tier1_gui",
+      "summary": "Waydroid lets you open and use your favorite mobile applications directly on your Linux computer without needing a separate phone.",
+      "i18n": {
+        "it": "Waydroid ti permette di aprire e usare le tue applicazioni mobili preferite direttamente sul tuo computer Linux.",
+        "es": "Waydroid te permite abrir y usar tus aplicaciones móviles favoritas directamente en tu computadora Linux.",
+        "fr": "Waydroid vous permet d'ouvrir et d'utiliser vos applications mobiles préférées directement sur votre ordinateur Linux.",
+        "de": "Waydroid ermöglicht es Ihnen, Ihre bevorzugten mobilen Anwendungen direkt auf Ihrem Linux-Computer zu nutzen."
+      },
+      "download_url": "https://waydro.id",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "autoclip",
@@ -13942,6 +14166,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "pyroscope",
+      "name": "pyroscope",
+      "tagline": "Find and fix software performance bottlenecks.",
+      "repo_url": "https://github.com/grafana/pyroscope",
+      "full_name": "grafana/pyroscope",
+      "category": "Productivity",
+      "tags": [
+        "performance",
+        "monitoring"
+      ],
+      "icon": "/icons/pyroscope.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (AGPL v3)",
+      "stars": 11735,
+      "tier": "tier1_gui",
+      "summary": "Pyroscope helps you identify exactly which parts of your software are slowing down your system or consuming too much memory.",
+      "i18n": {
+        "it": "Pyroscope ti aiuta a individuare esattamente quali parti del tuo software rallentano il sistema o consumano troppa memoria.",
+        "es": "Pyroscope te ayuda a identificar exactamente qué partes de tu software ralentizan el sistema o consumen demasiada memoria.",
+        "fr": "Pyroscope vous aide à identifier précisément les parties de votre logiciel qui ralentissent le système ou consomment trop de mémoire.",
+        "de": "Pyroscope hilft Ihnen dabei, genau zu identifizieren, welche Teile Ihrer Software das System verlangsamen oder zu viel Arbeitsspeicher verbrauchen."
+      },
+      "download_url": "https://github.com/grafana/pyroscope/releases/download/v2.4.4/pyroscope_2.4.4_linux_amd64.deb",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "homer",
       "name": "Homer",
       "tagline": "A simple dashboard for your home server",
@@ -14080,6 +14332,34 @@
       },
       "download_url": "https://bore.pub",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "talos",
+      "name": "Talos",
+      "tagline": "Secure and minimal operating system for Kubernetes.",
+      "repo_url": "https://github.com/siderolabs/talos",
+      "full_name": "siderolabs/talos",
+      "category": "Productivity",
+      "tags": [
+        "kubernetes",
+        "linux"
+      ],
+      "icon": "/icons/talos.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 11584,
+      "tier": "tier1_gui",
+      "summary": "Talos is a modern operating system purpose-built for managing container clusters securely without shells or configuration drift.",
+      "i18n": {
+        "it": "Talos è un sistema operativo moderno progettato per gestire cluster di container in modo sicuro e senza configurazioni complesse.",
+        "es": "Talos es un sistema operativo moderno diseñado para gestionar clústeres de contenedores de forma segura y sin derivas de configuración.",
+        "fr": "Talos est un système d'exploitation moderne conçu pour gérer des clusters de conteneurs de manière sécurisée et sans dérive de configuration.",
+        "de": "Talos ist ein modernes Betriebssystem, das speziell für die sichere Verwaltung von Container-Clustern ohne Konfigurationsabdrift entwickelt wurde."
+      },
+      "download_url": "https://github.com/siderolabs/talos/releases/download/v1.14.6/talosctl-windows-amd64.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "choco",
@@ -23629,6 +23909,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "sysbench",
+      "name": "sysbench",
+      "tagline": "Fast, scriptable performance tests",
+      "repo_url": "https://github.com/akopytov/sysbench",
+      "full_name": "akopytov/sysbench",
+      "category": "Productivity",
+      "tags": [
+        "benchmark",
+        "performance"
+      ],
+      "icon": "/icons/sysbench.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, Linux",
+      "license": "Open Source (GPL v2)",
+      "stars": 6816,
+      "tier": "tier1_gui",
+      "summary": "Sysbench lets you run quick, scriptable performance tests for databases and systems, giving detailed stats on speed and latency.",
+      "i18n": {
+        "it": "Sysbench consente di eseguire test di prestazioni rapidi e scriptabili per database e sistemi, fornendo statistiche dettagliate su velocità e latenza.",
+        "es": "Sysbench permite ejecutar pruebas de rendimiento rápidas y scriptables para bases de datos y sistemas, ofreciendo estadísticas detalladas sobre velocidad y latencia.",
+        "fr": "Sysbench vous permet d'exécuter des tests de performance rapides et scriptables pour bases de données et systèmes, fournissant des statistiques détaillées sur la vitesse et la latence.",
+        "de": "Sysbench ermöglicht schnelle, skriptbare Leistungstests für Datenbanken und Systeme und liefert detaillierte Statistiken zu Geschwindigkeit und Latenz."
+      },
+      "download_url": "https://github.com/akopytov/sysbench/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "cppcheck",
       "name": "Cppcheck",
       "tagline": "Find errors in your computer code",
@@ -23991,6 +24299,34 @@
       },
       "download_url": "https://github.com/crocodilestick/Calibre-Web-Automated",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "spotx-bash",
+      "name": "SpotX-Bash",
+      "tagline": "Silence Spotify ads on Mac/Linux",
+      "repo_url": "https://github.com/spotx-official/spotx-bash",
+      "full_name": "spotx-official/spotx-bash",
+      "category": "Security & Privacy",
+      "tags": [
+        "adblock",
+        "spotify"
+      ],
+      "icon": "/icons/spotx-bash.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6626,
+      "tier": "tier1_gui",
+      "summary": "SpotX-Bash stops audio, banner and video ads in the Spotify desktop app for macOS and Linux, keeping your listening uninterrupted.",
+      "i18n": {
+        "it": "SpotX-Bash elimina le pubblicità audio, banner e video dall’app desktop di Spotify su macOS e Linux, garantendo un ascolto continuo senza interruzioni.",
+        "es": "SpotX-Bash suprime los anuncios de audio, banner y video en la aplicación de escritorio de Spotify para macOS y Linux, ofreciendo una reproducción sin interrupciones.",
+        "fr": "SpotX-Bash supprime les publicités audio, bannières et vidéos du client de bureau Spotify sous macOS et Linux, assurant une écoute ininterrompue.",
+        "de": "SpotX-Bash entfernt Audio-, Banner- und Video‑Werbung aus dem Spotify‑Desktop‑Client für macOS und Linux und sorgt für ein störungsfreies Hörerlebnis."
+      },
+      "download_url": "https://github.com/SpotX-Official/SpotX-Bash/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "apfel",
@@ -24385,6 +24721,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "vcards",
+      "name": "vCards",
+      "tagline": "Custom contact cards for China",
+      "repo_url": "https://github.com/metowolf/vcards",
+      "full_name": "metowolf/vcards",
+      "category": "Productivity",
+      "tags": [
+        "contacts",
+        "productivity"
+      ],
+      "icon": "/icons/vcards.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Custom Open License",
+      "stars": 6530,
+      "tier": "tier1_gui",
+      "summary": "vCards lets you add local contact photos and phone numbers to your phone’s address book, improving how calls and messages appear on iOS and Android.",
+      "i18n": {
+        "it": "vCards aggiunge foto e numeri locali ai tuoi contatti, migliorando l’aspetto di chiamate e messaggi su iPhone e Android.",
+        "es": "vCards incorpora fotos y números locales a tu agenda, mejorando la visualización de llamadas y mensajes en iOS y Android.",
+        "fr": "vCards ajoute des photos et des numéros locaux à vos contacts, améliorant l’affichage des appels et messages sur iOS et Android.",
+        "de": "vCards fügt Ihren Kontakten lokale Fotos und Nummern hinzu und verbessert die Anzeige von Anrufen und Nachrichten auf iOS und Android."
+      },
+      "download_url": "https://github.com/metowolf/vCards/releases/download/2026.10.28-003420/default.vcf",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "ngxtop",
       "name": "ngxtop",
       "tagline": "Real-time web server traffic metrics",
@@ -24662,6 +25026,34 @@
         "de": "Television ist ein schnelles Werkzeug, mit dem Sie Dateien, Texte und Systeminformationen direkt im Terminal finden können."
       },
       "download_url": "https://github.com/alexpasmantier/television/releases/download/0.15.9/tv-0.15.9-aarch64-unknown-linux-gnu.deb",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "provenance",
+      "name": "Provenance",
+      "tagline": "Play classic retro games on Apple devices",
+      "repo_url": "https://github.com/provenance-emu/provenance",
+      "full_name": "provenance-emu/provenance",
+      "category": "Productivity",
+      "tags": [
+        "emulator",
+        "retro-games"
+      ],
+      "icon": "/icons/provenance.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Custom Open License",
+      "stars": 6423,
+      "tier": "tier1_gui",
+      "summary": "Provenance is a free multi-console game emulator for iPhone, iPad, and Apple TV that lets you play your favorite vintage titles.",
+      "i18n": {
+        "it": "Provenance è un emulatore di giochi per iPhone, iPad e Apple TV che consente di divertirsi con i titoli vintage preferiti.",
+        "es": "Provenance es un emulador multiconsola para iPhone, iPad y Apple TV que te permite disfrutar de tus títulos clásicos.",
+        "fr": "Provenance est un émulateur de jeux pour iPhone, iPad et Apple TV qui permet de profiter de vos titres vintage favoris.",
+        "de": "Provenance ist ein Spiele-Emulator für iPhone, iPad und Apple TV, mit dem Sie Ihre Lieblings-Retrotitel spielen können."
+      },
+      "download_url": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
       "updated_at": "2026-11-23"
     },
     {
@@ -25449,6 +25841,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "kaku",
+      "name": "Kaku",
+      "tagline": "A fast, AI-ready Mac terminal.",
+      "repo_url": "https://github.com/tw93/kaku",
+      "full_name": "tw93/kaku",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "developer-tools"
+      ],
+      "icon": "/icons/kaku.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 6239,
+      "tier": "tier1_gui",
+      "summary": "Kaku is a modern terminal for macOS that combines high-speed performance with built-in tools for AI-assisted coding and organization.",
+      "i18n": {
+        "it": "Kaku è un terminale moderno per macOS che unisce prestazioni elevate a strumenti integrati per la programmazione assistita dall'IA.",
+        "es": "Kaku es una terminal moderna para macOS que combina un rendimiento rápido con herramientas integradas para la programación asistida por IA.",
+        "fr": "Kaku est un terminal moderne pour macOS qui allie performances rapides et outils intégrés pour la programmation assistée par IA.",
+        "de": "Kaku ist ein modernes Terminal für macOS, das hohe Geschwindigkeit mit integrierten Funktionen für KI-gestützte Programmierung kombiniert."
+      },
+      "download_url": "https://github.com/tw93/Kaku/releases/download/V0.30.0/Kaku.dmg",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "httpstat",
       "name": "httpstat",
       "tagline": "Visualize web speed clearly",
@@ -25530,6 +25950,34 @@
         "de": "Tagbar zeigt eine organisierte Seitenleiste in Vim mit nach Gültigkeitsbereich geordneten Methoden und Klassen."
       },
       "download_url": "https://preservim.github.io/tagbar",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "notunes",
+      "name": "noTunes",
+      "tagline": "Stop iTunes from auto-opening",
+      "repo_url": "https://github.com/tombonez/notunes",
+      "full_name": "tombonez/notunes",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "utility"
+      ],
+      "icon": "/icons/notunes.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 6210,
+      "tier": "tier1_gui",
+      "summary": "A simple macOS tool that prevents iTunes or Apple Music from launching unexpectedly, such as when Bluetooth headphones connect.",
+      "i18n": {
+        "it": "Un semplice strumento per macOS che impedisce a iTunes o Apple Music di aprirsi inaspettatamente, ad esempio quando si collegano le cuffie Bluetooth.",
+        "es": "Una herramienta sencilla para macOS que impide que iTunes o Apple Music se abran inesperadamente, como al conectar auriculares Bluetooth.",
+        "fr": "Un outil macOS simple qui empêche iTunes ou Apple Music de se lancer inopinément, par exemple lors de la connexion d'écouteurs Bluetooth.",
+        "de": "Ein einfaches macOS-Tool, das verhindert, dass iTunes oder Apple Music unerwartet startet, z."
+      },
+      "download_url": "https://github.com/tombonez/noTunes/releases",
       "updated_at": "2026-11-23"
     },
     {
@@ -25643,6 +26091,34 @@
       },
       "download_url": "https://github.com/KKKKhazix/agent-autoloop/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "privacy-sexy",
+      "name": "privacy.sexy",
+      "tagline": "Reclaim your digital privacy",
+      "repo_url": "https://github.com/undergroundwires/privacy.sexy",
+      "full_name": "undergroundwires/privacy.sexy",
+      "category": "Security & Privacy",
+      "tags": [
+        "privacy",
+        "security"
+      ],
+      "icon": "/icons/privacy-sexy.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (AGPL v3)",
+      "stars": 6184,
+      "tier": "tier1_gui",
+      "summary": "A free, open-source tool that helps you lock down your computer's privacy settings on Windows, Mac, and Linux with one click.",
+      "i18n": {
+        "it": "Uno strumento gratuito e open source che aiuta a bloccare le impostazioni di privacy del computer su Windows, Mac e Linux con un clic.",
+        "es": "Una herramienta gratuita y de código abierto que ayuda a bloquear la configuración de privacidad de tu computadora en Windows, Mac y Linux con un clic.",
+        "fr": "Un outil gratuit et open source qui aide à verrouiller les paramètres de confidentialité de votre ordinateur sur Windows, Mac et Linux en un clic.",
+        "de": "Ein kostenloses Open-Source-Tool, das dir hilft, die Datenschutz-Einstellungen deines Computers unter Windows, Mac und Linux mit einem Klick zu sichern."
+      },
+      "download_url": "https://github.com/undergroundwires/privacy.sexy/releases/download/0.13.8/privacy.sexy-Setup-0.13.8.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "gpt-image2-skill",
@@ -25897,6 +26373,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "controlroom",
+      "name": "ControlRoom",
+      "tagline": "Easily manage your mobile device simulators",
+      "repo_url": "https://github.com/twostraws/controlroom",
+      "full_name": "twostraws/controlroom",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "developer-tools"
+      ],
+      "icon": "/icons/controlroom.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 6124,
+      "tier": "tier1_gui",
+      "summary": "Control Room is a handy macOS utility that lets developers easily customize and manage their mobile simulators in real time.",
+      "i18n": {
+        "it": "Control Room è un'utilità per macOS che consente di personalizzare e gestire facilmente i simulatori mobili in tempo reale.",
+        "es": "Control Room es una utilidad para macOS que te permite personalizar y administrar simuladores móviles en tiempo real.",
+        "fr": "Control Room est un utilitaire macOS qui permet de personnaliser et de gérer facilement vos simulateurs mobiles.",
+        "de": "Control Room ist ein macOS-Dienstprogramm zum einfachen Anpassen und Verwalten von mobilen Simulatoren in Echtzeit."
+      },
+      "download_url": "https://github.com/twostraws/ControlRoom/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "ezbookkeeping",
       "name": "ezBookkeeping",
       "tagline": "Private and powerful personal finance tracking",
@@ -26149,6 +26653,33 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "swiftybeaver",
+      "name": "SwiftyBeaver",
+      "tagline": "Colorful Swift logging made simple",
+      "repo_url": "https://github.com/swiftybeaver/swiftybeaver",
+      "full_name": "swiftybeaver/swiftybeaver",
+      "category": "Productivity",
+      "tags": [
+        "logging"
+      ],
+      "icon": "/icons/swiftybeaver.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6040,
+      "tier": "tier1_gui",
+      "summary": "SwiftyBeaver lets developers see clear, colorful messages while building iOS apps, saving logs to the console, files, or the cloud.",
+      "i18n": {
+        "it": "SwiftyBeaver consente agli sviluppatori di vedere messaggi chiari e colorati durante la creazione di app iOS, salvando i log nella console, su file o nel cloud.",
+        "es": "SwiftyBeaver permite a los desarrolladores ver mensajes claros y coloridos al crear apps iOS, guardando los registros en la consola, archivos o la nube.",
+        "fr": "SwiftyBeaver aide les développeurs à voir des messages clairs et colorés lors de la création d’applications iOS, en enregistrant les logs dans la console, des fichiers ou le cloud.",
+        "de": "SwiftyBeaver ermöglicht Entwicklern, klare und farbige Meldungen beim Erstellen von iOS‑Apps zu sehen und speichert Protokolle in der Konsole, Dateien oder in der Cloud."
+      },
+      "download_url": "https://swiftybeaver.com",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "vcmi",
       "name": "vcmi",
       "tagline": "Modern engine for classic fantasy strategy.",
@@ -26202,6 +26733,34 @@
         "de": "Verwandeln Sie Programmiertext direkt über Ihre Befehlszeile in wunderschöne, teilbare Grafiken mit individuellem Design."
       },
       "download_url": "https://github.com/mixn/carbon-now-cli/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "swift-ai",
+      "name": "Swift AI",
+      "tagline": "Fast Machine Learning for Apple",
+      "repo_url": "https://github.com/swift-ai/swift-ai",
+      "full_name": "swift-ai/swift-ai",
+      "category": "Productivity",
+      "tags": [
+        "machine-learning",
+        "apple"
+      ],
+      "icon": "/icons/swift-ai.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6029,
+      "tier": "tier1_gui",
+      "summary": "Swift AI lets you build smart programs that learn from data, running quickly on your Mac, iPhone, or iPad.",
+      "i18n": {
+        "it": "Swift AI ti permette di creare programmi intelligenti che apprendono dai dati, funzionando rapidamente su Mac, iPhone e iPad.",
+        "es": "Swift AI te permite crear programas inteligentes que aprenden de los datos y se ejecutan rápidamente en tu Mac, iPhone o iPad.",
+        "fr": "Swift AI vous permet de créer des programmes intelligents qui apprennent à partir des données et s'exécutent rapidement sur Mac, iPhone ou iPad.",
+        "de": "Swift AI ermöglicht es Ihnen, intelligente Programme zu erstellen, die aus Daten lernen und schnell auf Mac, iPhone und iPad laufen."
+      },
+      "download_url": "https://github.com/Swift-AI/Swift-AI/releases",
       "updated_at": "2026-11-23"
     },
     {
@@ -26821,6 +27380,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "the-forge",
+      "name": "The-Forge",
+      "tagline": "Cross-platform programming framework for games",
+      "repo_url": "https://github.com/confettifx/the-forge",
+      "full_name": "confettifx/the-forge",
+      "category": "Productivity",
+      "tags": [
+        "gamedev",
+        "cross-platform"
+      ],
+      "icon": "/icons/the-forge.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, Linux, Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5830,
+      "tier": "tier1_gui",
+      "summary": "The-Forge is a powerful cross-platform game development framework that helps developers build custom engines and support multiple modern devices.",
+      "i18n": {
+        "it": "The-Forge è un potente framework di sviluppo di giochi multipiattaforma che aiuta a creare motori personalizzati e supportare più dispositivi.",
+        "es": "The-Forge es un potente entorno de desarrollo de juegos multiplataforma que ayuda a crear motores personalizados y admitir múltiples dispositivos.",
+        "fr": "The-Forge est un cadre de développement de jeux multiplateforme puissant qui aide à créer des moteurs personnalisés et à prendre en charge des appareils.",
+        "de": "The-Forge ist ein leistungsstarkes plattformübergreifendes Spielentwicklungs-Framework, das hilft, benutzerdefinierte Engines zu erstellen."
+      },
+      "download_url": "https://github.com/ConfettiFX/The-Forge/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "panel",
       "name": "Panel",
       "tagline": "Build interactive Python web apps easily.",
@@ -27014,6 +27601,34 @@
         "de": "NodeGit ermöglicht Entwicklern die direkte Steuerung von Versionskontrollsystemen aus Node.js-Anwendungen heraus."
       },
       "download_url": "https://www.nodegit.org/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "lunar",
+      "name": "Lunar",
+      "tagline": "Smart brightness control for Mac monitors",
+      "repo_url": "https://github.com/alin23/lunar",
+      "full_name": "alin23/lunar",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "monitor-control"
+      ],
+      "icon": "/icons/lunar.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 5737,
+      "tier": "tier1_gui",
+      "summary": "Lunar lets you easily adjust the brightness, volume, and input of your external monitors on a Mac.",
+      "i18n": {
+        "it": "Lunar ti permette di regolare facilmente la luminosità, il volume e l'input dei monitor esterni su Mac.",
+        "es": "Lunar te permite ajustar fácilmente el brillo, el volumen y la entrada de tus monitores externos en Mac.",
+        "fr": "Lunar vous permet d'ajuster facilement la luminosité, le volume et l'entrée de vos moniteurs externes sur Mac.",
+        "de": "Lunar ermöglicht es Ihnen, die Helligkeit, Lautstärke und Eingabe externer Monitore auf dem Mac einfach anzupassen."
+      },
+      "download_url": "https://github.com/alin23/Lunar/releases/download/v6.11.3/Lunar-6.11.3.dmg",
       "updated_at": "2026-11-23"
     },
     {
@@ -27437,6 +28052,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "brooklyn",
+      "name": "Brooklyn",
+      "tagline": "Elegant Apple-inspired screen saver",
+      "repo_url": "https://github.com/pedrommcarrasco/brooklyn",
+      "full_name": "pedrommcarrasco/brooklyn",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "screensaver"
+      ],
+      "icon": "/icons/brooklyn.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 5609,
+      "tier": "tier1_gui",
+      "summary": "Brooklyn is a free macOS screen saver featuring smooth, minimalist animations inspired by Apple's 2018 event.",
+      "i18n": {
+        "it": "Brooklyn è un salvaschermo gratuito per macOS con animazioni minimaliste ispirate all'evento Apple del 2018.",
+        "es": "Brooklyn es un salvapantallas gratuito para macOS con animaciones minimalistas inspiradas en el evento de Apple de 2018.",
+        "fr": "Brooklyn est un écran de veille gratuit pour macOS avec des animations minimalistes inspirées de l'événement Apple de 2018.",
+        "de": "Brooklyn ist ein kostenloser macOS-Bildschirmschoner mit minimalistischen Animationen, inspiriert vom Apple-Event 2018."
+      },
+      "download_url": "https://github.com/pedrommcarrasco/Brooklyn/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "remove-ms-edge",
       "name": "Remove-MS-Edge",
       "tagline": "Cleanly uninstall Microsoft Edge from Windows",
@@ -27574,6 +28217,34 @@
         "de": "Unigram bietet eine schnelle und native Möglichkeit, Telegram direkt auf Ihrem Windows-Desktop zu nutzen, ohne einen Browser."
       },
       "download_url": "https://www.microsoft.com/store/apps/9n97zckpd60q",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "peekaboo",
+      "name": "Peekaboo",
+      "tagline": "Mac automation that sees and clicks",
+      "repo_url": "https://github.com/openclaw/peekaboo",
+      "full_name": "openclaw/peekaboo",
+      "category": "Productivity",
+      "tags": [
+        "automation",
+        "macos"
+      ],
+      "icon": "/icons/peekaboo.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 5521,
+      "tier": "tier1_gui",
+      "summary": "Peekaboo lets your computer see its own screen and perform automated mouse clicks and typing for you.",
+      "i18n": {
+        "it": "Peekaboo lets your computer see its own screen and perform automated mouse clicks and typing for you.",
+        "es": "Peekaboo lets your computer see its own screen and perform automated mouse clicks and typing for you.",
+        "fr": "Peekaboo lets your computer see its own screen and perform automated mouse clicks and typing for you.",
+        "de": "Peekaboo lets your computer see its own screen and perform automated mouse clicks and typing for you."
+      },
+      "download_url": "https://github.com/openclaw/Peekaboo/releases/download/v4.9.10/Peekaboo-4.9.10.dmg",
       "updated_at": "2026-11-23"
     },
     {
@@ -27742,6 +28413,34 @@
         "de": "Cuberite ist ein schneller, leichter Server, der es Ihnen ermöglicht, Minecraft-Welten mit einfacher Plugin-Unterstützung zu hosten."
       },
       "download_url": "https://cuberite.org",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "darwinkit",
+      "name": "DarwinKit",
+      "tagline": "Build native Mac apps using Go",
+      "repo_url": "https://github.com/progrium/darwinkit",
+      "full_name": "progrium/darwinkit",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "macos"
+      ],
+      "icon": "/icons/darwinkit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5441,
+      "tier": "tier1_gui",
+      "summary": "DarwinKit allows developers to create native macOS applications by using the Go programming language instead of traditional tools.",
+      "i18n": {
+        "it": "DarwinKit consente agli sviluppatori di creare applicazioni macOS native utilizzando il linguaggio di programmazione Go.",
+        "es": "DarwinKit permite a los desarrolladores crear aplicaciones nativas para macOS utilizando el lenguaje de programación Go.",
+        "fr": "DarwinKit permet aux développeurs de créer des applications macOS natives en utilisant le langage de programmation Go.",
+        "de": "DarwinKit ermöglicht es Entwicklern, native macOS-Anwendungen mit der Programmiersprache Go zu erstellen."
+      },
+      "download_url": "https://github.com/progrium/darwinkit/releases",
       "updated_at": "2026-11-23"
     },
     {
