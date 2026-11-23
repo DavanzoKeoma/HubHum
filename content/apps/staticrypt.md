@@ -1,0 +1,77 @@
+---
+title: "StatiCrypt"
+slug: "staticrypt"
+tagline: "Password-protect static web pages easily"
+summary: "Safely password-protect public static web pages using in-browser decryption without needing any server logic."
+tags: ["security", "encryption", "privacy", "static-sites"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
+icon: "/icons/staticrypt.png"
+stars: 8074
+source_url: "https://github.com/robinmoisson/staticrypt"
+download_url: "https://robinmoisson.github.io/staticrypt/"
+downloadUrl: "https://robinmoisson.github.io/staticrypt/"
+download_label: "Get Command-Line Tool →"
+license: "Open Source (MIT)"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-23"
+i18n:
+  it:
+    tagline: "Password-protect static web pages easily"
+    summary: "Safely password-protect public static web pages using in-browser decryption without needing any server logic."
+  es:
+    tagline: "Password-protect static web pages easily"
+    summary: "Safely password-protect public static web pages using in-browser decryption without needing any server logic."
+  fr:
+    tagline: "Password-protect static web pages easily"
+    summary: "Safely password-protect public static web pages using in-browser decryption without needing any server logic."
+  de:
+    tagline: "Password-protect static web pages easily"
+    summary: "Safely password-protect public static web pages using in-browser decryption without needing any server logic."
+---
+
+### What it does in plain English
+StatiCrypt locks your public static web pages behind a password prompt using strong encryption. The files are securely encrypted on your computer or directly in your browser before you upload them anywhere. When visitors open your site, they enter the password, and the page safely unlocks right inside their browser without needing a backend server.
+
+### Who it's for
+* Independent creators and bloggers who want to share private notes or portfolios on free hosting platforms.
+* Freelancers sharing drafts or client previews securely before public release.
+* Anyone looking to restrict access to simple web files without maintaining complex user accounts or databases.
+
+### Key features
+* Uses standard AES-256 encryption to keep file contents secure on public hosting providers.
+* Decrypts pages entirely client-side in the browser with no server database required.
+* Optional "Remember me" feature so visitors do not have to re-enter passwords across multiple pages.
+* Fully customizable password entry screen to match your website's style and design.
+* Includes command-line tools to easily encrypt single files, whole folders, or integrate into automated build steps.
+
+### How to install (Download)
+You can encrypt files directly online without installing anything by visiting the [StatiCrypt Online Tool](https://robinmoisson.github.io/staticrypt/). 
+
+If you prefer using your terminal or build workflow, you can install the tool through Node.js by running:
+```bash
+npm install -g staticrypt
+```
+
+### Pros and Cons
+* **Pros:** Completely free and open source, requires no server or database, works on any basic static web host.
+* **Cons:** Requires a command-line tool or web interface for initial setup, and encrypted files can theoretically be brute-forced if a weak password is used.
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/robinmoisson/staticrypt)

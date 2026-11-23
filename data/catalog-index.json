@@ -18450,6 +18450,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "staticrypt",
+    "name": "StatiCrypt",
+    "tagline": "Password-protect static web pages easily",
+    "repo_url": "https://github.com/robinmoisson/staticrypt",
+    "full_name": "robinmoisson/staticrypt",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "security",
+      "encryption"
+    ],
+    "icon": "/icons/staticrypt.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8074,
+    "tier": "tier3_powertool",
+    "summary": "Safely password-protect public static web pages using in-browser decryption without needing any server logic.",
+    "i18n": {
+      "it": "Safely password-protect public static web pages using in-browser decryption without needing any server logic.",
+      "es": "Safely password-protect public static web pages using in-browser decryption without needing any server logic.",
+      "fr": "Safely password-protect public static web pages using in-browser decryption without needing any server logic.",
+      "de": "Safely password-protect public static web pages using in-browser decryption without needing any server logic."
+    },
+    "download_url": "https://robinmoisson.github.io/staticrypt/",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "webiny-js",
     "name": "Webiny",
     "tagline": "Programmable content platform for AWS",
@@ -19206,6 +19234,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "plop",
+    "name": "Plop",
+    "tagline": "Generate consistent code files easily",
+    "repo_url": "https://github.com/plopjs/plop",
+    "full_name": "plopjs/plop",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "generator",
+      "automation"
+    ],
+    "icon": "/icons/plop.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7687,
+    "tier": "tier3_powertool",
+    "summary": "A micro-generator tool that helps your team create consistent files and project patterns quickly.",
+    "i18n": {
+      "it": "A micro-generator tool that helps your team create consistent files and project patterns quickly.",
+      "es": "A micro-generator tool that helps your team create consistent files and project patterns quickly.",
+      "fr": "A micro-generator tool that helps your team create consistent files and project patterns quickly.",
+      "de": "A micro-generator tool that helps your team create consistent files and project patterns quickly."
+    },
+    "download_url": "https://plopjs.com",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "watchyourlan",
     "name": "WatchYourLAN",
     "tagline": "Keep track of every device on your network.",
@@ -19232,6 +19288,34 @@
     },
     "download_url": "https://github.com/aceberg/WatchYourLAN/releases/download/2.1.4/watchyourlan_2.1.4_linux_386.apk",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kubectl-ai",
+    "name": "kubectl-ai",
+    "tagline": "Talk to your computer clusters naturally.",
+    "repo_url": "https://github.com/googlecloudplatform/kubectl-ai",
+    "full_name": "googlecloudplatform/kubectl-ai",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "kubernetes",
+      "ai"
+    ],
+    "icon": "/icons/kubectl-ai.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7606,
+    "tier": "tier3_powertool",
+    "summary": "This tool lets you manage complex computer clusters by typing simple, everyday English instructions instead of memorizing technical commands.",
+    "i18n": {
+      "it": "Questo strumento ti permette di gestire cluster complessi usando istruzioni semplici in linguaggio naturale invece di comandi tecnici.",
+      "es": "Esta herramienta te permite gestionar clústeres complejos usando instrucciones simples en lenguaje natural en lugar de comandos técnicos.",
+      "fr": "Cet outil vous permet de gérer des clusters complexes en utilisant des instructions simples en langage naturel plutôt que des commandes techniques.",
+      "de": "Dieses Tool ermöglicht es Ihnen, komplexe Cluster mit einfachen Anweisungen in natürlicher Sprache statt mit technischen Befehlen zu verwalten."
+    },
+    "download_url": "https://github.com/GoogleCloudPlatform/kubectl-ai/releases/download/v0.0.31/kubectl-ai_0.0.31_checksums.txt",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "sidekick",
@@ -19707,6 +19791,62 @@
       "de": "Ein süßer interaktiver Assistent, der künstliche Intelligenz und alltägliche Aufgaben direkt am Bildschirmrand für Sie im Blick behält."
     },
     "download_url": "https://louis-cfm.github.io/coucou/",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "jrnl",
+    "name": "jrnl",
+    "tagline": "Quick command-line journaling made simple",
+    "repo_url": "https://github.com/jrnl-org/jrnl",
+    "full_name": "jrnl-org/jrnl",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "journal",
+      "notes"
+    ],
+    "icon": "/icons/jrnl.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 7362,
+    "tier": "tier3_powertool",
+    "summary": "Capture thoughts, ideas, and daily notes instantly as plain text right from your command line interface.",
+    "i18n": {
+      "it": "Registra pensieri, idee e note quotidiane istantaneamente come semplice testo direttamente dalla tua riga di comando.",
+      "es": "Captura pensamientos, ideas y notas diarias instantáneamente como texto plano directamente desde tu línea de comandos.",
+      "fr": "Capturez instantanément vos pensées et notes quotidiennes sous forme de texte brut directement depuis votre terminal.",
+      "de": "Erfassen Sie Gedanken, Ideen und Notizen sofort als Klartext direkt über Ihre Befehlszeile."
+    },
+    "download_url": "https://jrnl.sh",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "consola",
+    "name": "consola",
+    "tagline": "Elegant and colorful console logging tool.",
+    "repo_url": "https://github.com/unjs/consola",
+    "full_name": "unjs/consola",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "logging",
+      "utilities"
+    ],
+    "icon": "/icons/consola.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 7360,
+    "tier": "tier3_powertool",
+    "summary": "Consola makes software messages look clean, organized, and colorful in your command line or browser window.",
+    "i18n": {
+      "it": "Consola rende i messaggi software puliti, organizzati e colorati nel terminale o nel browser.",
+      "es": "Consola hace que los mensajes de software se vean limpios, organizados y coloridos en la terminal.",
+      "fr": "Consola rend les messages logiciels propres, organisés et colorés dans votre terminal ou navigateur.",
+      "de": "Consola sorgt dafür, dass Software-Nachrichten im Terminal oder Browser übersichtlich aussehen."
+    },
+    "download_url": "https://github.com/unjs/consola/releases",
     "updated_at": "2026-11-23"
   },
   {
@@ -20662,6 +20802,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "fkill-cli",
+    "name": "fkill-cli",
+    "tagline": "Quickly stop unwanted programs",
+    "repo_url": "https://github.com/sindresorhus/fkill-cli",
+    "full_name": "sindresorhus/fkill-cli",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "process",
+      "utility"
+    ],
+    "icon": "/icons/fkill-cli.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7013,
+    "tier": "tier3_powertool",
+    "summary": "fkill‑cli lets you easily end any running program on your computer, whether you know its name, ID, or the network port it uses.",
+    "i18n": {
+      "it": "fkill‑cli ti permette di chiudere facilmente qualsiasi programma in esecuzione, sia che tu conosca il nome, l’ID o la porta di rete che utilizza.",
+      "es": "fkill‑cli te ayuda a cerrar sin complicaciones cualquier programa activo, ya sea que conozcas su nombre, su ID o el puerto de red que está usando.",
+      "fr": "fkill‑cli vous permet de fermer facilement n’importe quel programme en cours, que vous connaissiez son nom, son identifiant ou le port réseau utilisé.",
+      "de": "fkill‑cli ermöglicht es dir, jedes laufende Programm mühelos zu schließen, egal ob du den Namen, die Prozess‑ID oder den genutzten Netzwerk‑Port kennst."
+    },
+    "download_url": "https://github.com/sindresorhus/fkill-cli/releases",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "macast",
     "name": "Macast",
     "tagline": "Stream phone media straight to computer",
@@ -20744,6 +20912,34 @@
     },
     "download_url": "https://github.com/reqable/reqable-app/releases/download/3.3.14/reqable-app-windows-x86_64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "isort",
+    "name": "isort",
+    "tagline": "Sort Python code imports automatically",
+    "repo_url": "https://github.com/pycqa/isort",
+    "full_name": "pycqa/isort",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "development",
+      "utility"
+    ],
+    "icon": "/icons/isort.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6965,
+    "tier": "tier3_powertool",
+    "summary": "An automated utility that organizes and sorts your Python code imports alphabetically and cleanly separates them by type.",
+    "i18n": {
+      "it": "Un programma utile che organizza e ordina le importazioni di Python in modo alfabetico e le separa chiaramente per tipo.",
+      "es": "Una utilidad automatizada que organiza y ordena las importaciones de Python alfabéticamente y las separa por tipo.",
+      "fr": "Un utilitaire automatisé qui organise et trie vos importations de code Python par ordre alphabétique et par type.",
+      "de": "Ein praktisches Werkzeug, das Python-Importe alphabetisch sortiert und übersichtlich nach Typen getrennt anordnet."
+    },
+    "download_url": "https://github.com/PyCQA/isort/releases/download/9.0.2/9.0.2.tar.gz.sigstore.json",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "haxe",
@@ -20884,6 +21080,62 @@
     },
     "download_url": "https://taxhacker.app",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "summarize",
+    "name": "Summarize",
+    "tagline": "Instantly turn any link into summaries",
+    "repo_url": "https://github.com/steipete/summarize",
+    "full_name": "steipete/summarize",
+    "category": "Video & Audio",
+    "tags": [
+      "summarizer",
+      "productivity"
+    ],
+    "icon": "/icons/summarize.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6875,
+    "tier": "tier3_powertool",
+    "summary": "Extract clean text and smart summaries from web pages, documents, videos, and podcasts instantly.",
+    "i18n": {
+      "it": "Estrai testo pulito e riassunti intelligenti da pagine web, documenti, video e podcast in un attimo.",
+      "es": "Extrae texto limpio y resúmenes inteligentes de páginas web, documentos, videos y podcasts al instante.",
+      "fr": "Extrayez du texte propre et des résumés intelligents de pages web, documents, vidéos et podcasts instantanément.",
+      "de": "Extrahieren Sie saubere Texte und intelligente Zusammenfassungen aus Webseiten, Dokumenten und Videos."
+    },
+    "download_url": "https://github.com/steipete/summarize/releases/download/v0.26.1/SHA256SUMS",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "bombardier",
+    "name": "Bombardier",
+    "tagline": "Blazing fast website stress testing utility",
+    "repo_url": "https://github.com/codesenberg/bombardier",
+    "full_name": "codesenberg/bombardier",
+    "category": "Productivity",
+    "tags": [
+      "networking",
+      "performance"
+    ],
+    "icon": "/icons/bombardier.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6856,
+    "tier": "tier3_powertool",
+    "summary": "Test how web servers handle heavy traffic loads by simulating thousands of simultaneous visitors with this fast benchmarking tool.",
+    "i18n": {
+      "it": "Verifica come i server web gestiscono il traffico intenso simulando migliaia di visitatori simultanei con questo strumento.",
+      "es": "Comprueba cómo los servidores web manejan el tráfico pesado simulando miles de visitantes simultáneos con esta herramienta.",
+      "fr": "Testez la résistance des serveurs web face au trafic intense en simulant des milliers de visiteurs simultanés.",
+      "de": "Testen Sie die Leistungsfähigkeit von Webservern unter hoher Last durch Simulation tausender gleichzeitiger Besucher."
+    },
+    "download_url": "https://github.com/codesenberg/bombardier/releases/download/v2.0.2/bombardier-windows-386.exe",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "sparkyfitness",
@@ -21334,6 +21586,146 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "apfel",
+    "name": "apfel",
+    "tagline": "Run private AI directly on Mac.",
+    "repo_url": "https://github.com/arthur-ficial/apfel",
+    "full_name": "arthur-ficial/apfel",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "ai",
+      "macos"
+    ],
+    "icon": "/icons/apfel.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 6622,
+    "tier": "tier3_powertool",
+    "summary": "Access the built-in artificial intelligence already on your Apple Silicon Mac without any cloud accounts, subscription fees, or internet connection required.",
+    "i18n": {
+      "it": "Accedi all'intelligenza artificiale integrata sul tuo Mac Apple Silicon senza costi di abbonamento o connessione Internet.",
+      "es": "Accede a la inteligencia artificial integrada en tu Mac con Apple Silicon sin necesidad de cuentas en la nube ni pagos mensuales.",
+      "fr": "Accédez à l'intelligence artificielle intégrée de votre Mac Apple Silicon sans abonnements ni connexion Internet requise.",
+      "de": "Greifen Sie auf die integrierte künstliche Intelligenz Ihres Apple Silicon Macs zu – komplett ohne Cloud, Abos oder Internet."
+    },
+    "download_url": "https://github.com/Arthur-Ficial/apfel/releases/download/v1.19.0/apfel-1.19.0-arm64-macos.tar.gz.sha256",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "slack-term",
+    "name": "slack-term",
+    "tagline": "Chat on workplace messaging from terminal",
+    "repo_url": "https://github.com/jpbruinsslot/slack-term",
+    "full_name": "jpbruinsslot/slack-term",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "chat",
+      "system-utility"
+    ],
+    "icon": "/icons/slack-term.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6614,
+    "tier": "tier3_powertool",
+    "summary": "Stay connected to your workplace messaging channels directly from your command line interface without opening heavy windows.",
+    "i18n": {
+      "it": "Rimani connesso ai canali di lavoro direttamente dalla riga di comando senza aprire finestre pesanti.",
+      "es": "Mantente conectado a tus canales de trabajo desde la línea de comandos sin abrir ventanas pesadas.",
+      "fr": "Restez connecté à vos canaux de travail directement depuis votre ligne de commande sans ouvrir de fenêtres.",
+      "de": "Bleiben Sie direkt über Ihre Befehlszeile mit Ihren Arbeitskanälen verbunden, ohne schwere Fenster zu öffnen."
+    },
+    "download_url": "https://github.com/jpbruinsslot/slack-term/releases/download/v0.5.0/slack-term-darwin-amd64",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "answer-me-with-html",
+    "name": "answer-me-with-html",
+    "tagline": "Turn complex answers into readable pages",
+    "repo_url": "https://github.com/qingyuna/answer-me-with-html",
+    "full_name": "qingyuna/answer-me-with-html",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/answer-me-with-html.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6602,
+    "tier": "tier3_powertool",
+    "summary": "Transform detailed AI assistant replies into clean, readable web pages with diagrams and tables instead of walls of text.",
+    "i18n": {
+      "it": "Trasforma le risposte dettagliate dell'assistente IA in pagine web pulite e leggibili con grafici e tabelle.",
+      "es": "Transforma respuestas detalladas de la IA en páginas web limpias y legibles con diagramas y tablas.",
+      "fr": "Transformez les réponses détaillées d'IA en pages web propres et lisibles avec des diagrammes et des tableaux.",
+      "de": "Verwandeln Sie detaillierte KI-Antworten in saubere, lesbare Webseiten mit Diagrammen und Tabellen."
+    },
+    "download_url": "https://answer-me-with-html.com/",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "lolcat",
+    "name": "lolcat",
+    "tagline": "Bring vibrant rainbow colors to text",
+    "repo_url": "https://github.com/busyloop/lolcat",
+    "full_name": "busyloop/lolcat",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "utility",
+      "system-utility"
+    ],
+    "icon": "/icons/lolcat.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 6599,
+    "tier": "tier3_powertool",
+    "summary": "Transform plain text in your command window into a colorful cascade of rainbow hues.",
+    "i18n": {
+      "it": "Trasforma il testo normale della finestra di comando in una cascata colorata di tonalità arcobaleno.",
+      "es": "Transforma el texto plano en tu ventana de comandos en una cascada colorida de tonos de arco iris.",
+      "fr": "Transformez du texte brut dans votre fenêtre de commande en une cascade colorée de teintes arc-en-ciel.",
+      "de": "Verwandeln Sie einfachen Text in Ihrem Befehlsfenster in einen farbenfrohen Regenbogenverlauf."
+    },
+    "download_url": "https://github.com/busyloop/lolcat/releases",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "jscpd",
+    "name": "jscpd",
+    "tagline": "Detect duplicate and dead code instantly.",
+    "repo_url": "https://github.com/kucherenko/jscpd",
+    "full_name": "kucherenko/jscpd",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "code-quality",
+      "utility"
+    ],
+    "icon": "/icons/jscpd.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6595,
+    "tier": "tier3_powertool",
+    "summary": "Find repeated code, dead files, and complexity hotspots across hundreds of programming languages to keep software clean and maintainable.",
+    "i18n": {
+      "it": "Trova codice ripetuto, file inutilizzati e punti critici di complessità in centinaia di linguaggi per mantenere il software pulito.",
+      "es": "Encuentra código repetido, archivos muertos y puntos críticos de complejidad en cientos de lenguajes para mantener tu software limpio.",
+      "fr": "Trouvez du code répété, des fichiers morts et des zones de complexité dans des centaines de langages pour garder un code propre.",
+      "de": "Finden Sie wiederholten Code, tote Dateien und Komplexitäts-Hotspots in Hunderten von Sprachen, um Software sauber zu halten."
+    },
+    "download_url": "https://github.com/kucherenko/jscpd/releases/download/v5.4.3/checksums.txt",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "sdrplusplus",
     "name": "SDRPlusPlus",
     "tagline": "Simple and fast radio signal software",
@@ -21388,6 +21780,62 @@
     },
     "download_url": "https://github.com/mtkennerly/ludusavi/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "pastel",
+    "name": "pastel",
+    "tagline": "Generate, analyze, and convert colors effortlessly.",
+    "repo_url": "https://github.com/sharkdp/pastel",
+    "full_name": "sharkdp/pastel",
+    "category": "Productivity",
+    "tags": [
+      "colors",
+      "utilities"
+    ],
+    "icon": "/icons/pastel.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 6566,
+    "tier": "tier3_powertool",
+    "summary": "Manage and convert color formats easily from your command line with powerful tools for everyday design tasks.",
+    "i18n": {
+      "it": "Gestisci e converti i formati di colore dal terminale con potenti strumenti per le attività di design.",
+      "es": "Gestiona y convierte formatos de color fácilmente desde tu terminal con herramientas para diseño.",
+      "fr": "Gérez et convertissez des formats de couleur facilement depuis votre terminal pour vos projets.",
+      "de": "Verwalten und konvertieren Sie Farbformate direkt über Ihr Terminal für alltägliche Designaufgaben."
+    },
+    "download_url": "https://github.com/sharkdp/pastel/releases/download/v0.12.0/pastel-musl_0.12.0_amd64.deb",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "anus",
+    "name": "ANUS",
+    "tagline": "Free terminal coding assistant with smart rotation",
+    "repo_url": "https://github.com/anus-dev/anus",
+    "full_name": "anus-dev/anus",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "coding-assistant"
+    ],
+    "icon": "/icons/anus.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6558,
+    "tier": "tier3_powertool",
+    "summary": "An open-source command-line coding assistant that utilizes free intelligence models to read code, edit files, and execute tasks without subscription fees.",
+    "i18n": {
+      "it": "Un assistente per scrivere codice da terminale che sfrutta modelli gratuiti intelligenti per modificare file senza costi in abbonamento.",
+      "es": "Un asistente de programación para la terminal que utiliza modelos gratuitos inteligentes para editar archivos sin cuotas de suscripción.",
+      "fr": "Un assistant de programmation en ligne de commande qui exploite des modèles gratuits intelligents pour modifier vos fichiers.",
+      "de": "Ein Befehlszeilen-Assistent, der intelligente Gratis-Modelle nutzt, um Code zu bearbeiten und Aufgaben ohne Abogebühren zu lösen."
+    },
+    "download_url": "https://anus.dev",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "sourcegit",
@@ -21472,6 +21920,90 @@
     },
     "download_url": "https://nlog-project.org",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "numi",
+    "name": "Numi",
+    "tagline": "Calculate using natural everyday language",
+    "repo_url": "https://github.com/nikolaeu/numi",
+    "full_name": "nikolaeu/numi",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "calculator"
+    ],
+    "icon": "/icons/numi.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6546,
+    "tier": "tier3_powertool",
+    "summary": "Numi is a smart calculator that understands plain English sentences instead of just numbers.",
+    "i18n": {
+      "it": "Numi è una calcolatrice intelligente che comprende frasi in linguaggio naturale.",
+      "es": "Numi es una calculadora inteligente que entiende frases cotidianas.",
+      "fr": "Numi est une calculatrice intelligente qui comprend le langage courant.",
+      "de": "Numi ist ein intelligenter Taschenrechner, der einfache Sätze versteht."
+    },
+    "download_url": "https://github.com/nikolaeu/numi/releases/download/mac-3.34/Numi.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "harlequin",
+    "name": "Harlequin",
+    "tagline": "The fast database workspace for terminals",
+    "repo_url": "https://github.com/tconbeer/harlequin",
+    "full_name": "tconbeer/harlequin",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "database",
+      "sql"
+    ],
+    "icon": "/icons/harlequin.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6535,
+    "tier": "tier3_powertool",
+    "summary": "Harlequin is a powerful SQL query studio that runs directly inside your command-line environment, supporting multiple databases with ease.",
+    "i18n": {
+      "it": "Harlequin è un potente studio per interrogazioni SQL che funziona direttamente all'interno del terminale, supportando vari database.",
+      "es": "Harlequin es un potente estudio de consultas SQL que se ejecuta directamente en tu terminal, compatible con múltiples bases de datos.",
+      "fr": "Harlequin est un studio de requêtes SQL puissant qui s'exécute directement dans votre terminal avec un support multi-base.",
+      "de": "Harlequin ist ein leistungsstarkes SQL-Abfragetool, das direkt in Ihrem Terminal läuft und verschiedene Datenbanken unterstützt."
+    },
+    "download_url": "https://github.com/tconbeer/harlequin/releases/download/v2.17.0/harlequin-2.17.0-py3-none-any.whl",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "ngxtop",
+    "name": "ngxtop",
+    "tagline": "Real-time web server traffic metrics",
+    "repo_url": "https://github.com/lebinh/ngxtop",
+    "full_name": "lebinh/ngxtop",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "monitoring",
+      "server"
+    ],
+    "icon": "/icons/ngxtop.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6522,
+    "tier": "tier3_powertool",
+    "summary": "Monitor your web server activity instantly with live metrics and request counts right in your terminal window.",
+    "i18n": {
+      "it": "Monitora l'attività del tuo server web istantaneamente con metriche in tempo reale direttamente nel terminale.",
+      "es": "Monitorea la actividad de tu servidor web al instante con métricas en vivo directamente en tu terminal.",
+      "fr": "Surveillez l'activité de votre serveur web instantanément avec des métriques en direct dans votre terminal.",
+      "de": "Überwachen Sie Ihre Webserver-Aktivität sofort mit Live-Metriken direkt in Ihrem Terminal."
+    },
+    "download_url": "https://github.com/lebinh/ngxtop/releases",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "codepilot",
@@ -21586,6 +22118,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "remove-ai-watermarks",
+    "name": "Remove AI Watermarks",
+    "tagline": "Clean AI marks from media effortlessly",
+    "repo_url": "https://github.com/wiltodelta/remove-ai-watermarks",
+    "full_name": "wiltodelta/remove-ai-watermarks",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "utilities",
+      "privacy"
+    ],
+    "icon": "/icons/remove-ai-watermarks.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 6482,
+    "tier": "tier3_powertool",
+    "summary": "Strip visible labels, invisible watermarks, and hidden metadata from your personal images, videos, audio clips, and text.",
+    "i18n": {
+      "it": "Elimina etichette visibili, filigrane invisibili e metadati nascosti da immagini, video, audio e testi personali.",
+      "es": "Limpia etiquetas visibles, marcas de agua invisibles y metadatos ocultos de tus imágenes, videos, audios y textos.",
+      "fr": "Supprimez les labels visibles, les filigranes invisibles et les métadonnées cachées de vos médias et documents personnels.",
+      "de": "Entfernen Sie sichtbare Labels, unsichtbare Wasserzeichen und versteckte Metadaten aus Ihren persönlichen Dateien."
+    },
+    "download_url": "https://raiw.cc",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "sshfs-win",
     "name": "sshfs-win",
     "tagline": "Mount remote folders as Windows drives",
@@ -21670,6 +22230,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "television",
+    "name": "Television",
+    "tagline": "Lightning-fast search for your data",
+    "repo_url": "https://github.com/alexpasmantier/television",
+    "full_name": "alexpasmantier/television",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "search"
+    ],
+    "icon": "/icons/television.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6437,
+    "tier": "tier3_powertool",
+    "summary": "Television is a high-speed tool that helps you instantly find files, text, and system information directly within your command window.",
+    "i18n": {
+      "it": "Television è uno strumento velocissimo per trovare istantaneamente file, testi e informazioni di sistema direttamente nel terminale.",
+      "es": "Television es una herramienta de alta velocidad que te ayuda a encontrar archivos, textos e información del sistema al instante.",
+      "fr": "Television est un outil ultra-rapide qui vous aide à trouver instantanément des fichiers, du texte et des données système.",
+      "de": "Television ist ein schnelles Werkzeug, mit dem Sie Dateien, Texte und Systeminformationen direkt im Terminal finden können."
+    },
+    "download_url": "https://github.com/alexpasmantier/television/releases/download/0.15.9/tv-0.15.9-aarch64-unknown-linux-gnu.deb",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "deepchat",
     "name": "DeepChat",
     "tagline": "Your private, all-in-one AI desktop assistant.",
@@ -21696,6 +22284,34 @@
     },
     "download_url": "https://github.com/ThinkInAIXYZ/deepchat/releases/download/v1.1.4/DeepChat-1.1.4-windows-arm64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "promptui",
+    "name": "promptui",
+    "tagline": "Interactive menus for terminal tools",
+    "repo_url": "https://github.com/manifoldco/promptui",
+    "full_name": "manifoldco/promptui",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "development",
+      "tools"
+    ],
+    "icon": "/icons/promptui.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 6407,
+    "tier": "tier3_powertool",
+    "summary": "Promptui helps developers create friendly, interactive menus and input fields for text-based computer programs.",
+    "i18n": {
+      "it": "Promptui aiuta gli sviluppatori a creare menu interattivi e campi di input intuitivi per programmi basati su testo.",
+      "es": "Promptui ayuda a los desarrolladores a crear menús interactivos y campos de entrada amigables para programas de texto.",
+      "fr": "Promptui aide les développeurs à créer des menus interactifs et des champs de saisie conviviaux pour les programmes textuels.",
+      "de": "Promptui hilft Entwicklern dabei, interaktive Menüs und benutzerfreundliche Eingabefelder für textbasierte Programme zu erstellen."
+    },
+    "download_url": "https://www.manifold.co",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "sanity",
@@ -21782,6 +22398,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "ouroboros",
+    "name": "Ouroboros",
+    "tagline": "Smarter, spec-first AI coding agent runner.",
+    "repo_url": "https://github.com/q00/ouroboros",
+    "full_name": "q00/ouroboros",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "coding"
+    ],
+    "icon": "/icons/ouroboros.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 6383,
+    "tier": "tier3_powertool",
+    "summary": "Ouroboros clarifies project goals through interactive interviews before handing tasks to your favorite AI coding assistants, ensuring high-quality results.",
+    "i18n": {
+      "it": "Ouroboros chiarisce gli obiettivi dei progetti tramite interviste interattive prima di affidare i compiti ai tuoi assistenti IA.",
+      "es": "Ouroboros aclara los objetivos del proyecto mediante entrevistas interactivas antes de pasar las tareas a tus asistentes de IA.",
+      "fr": "Ouroboros clarifie les objectifs des projets grâce à des entretiens interactifs avant de confier les tâches à vos assistants IA.",
+      "de": "Ouroboros klärt Projektziele durch interaktive Interviews, bevor Aufgaben an Ihre bevorzugten KI-Programmierassistenten übergeben werden."
+    },
+    "download_url": "https://github.com/Q00/ouroboros/releases/download/v0.65.4/ouroboros-tui-x86_64-pc-windows-msvc.exe",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "baserow",
     "name": "Baserow",
     "tagline": "Build custom databases without writing code.",
@@ -21808,6 +22452,34 @@
     },
     "download_url": "https://baserow.io",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "destructive-command-guard",
+    "name": "Destructive Command Guard",
+    "tagline": "Block dangerous commands before AI agents run",
+    "repo_url": "https://github.com/dicklesworthstone/destructive_command_guard",
+    "full_name": "dicklesworthstone/destructive_command_guard",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "security",
+      "automation"
+    ],
+    "icon": "/icons/destructive-command-guard.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 6373,
+    "tier": "tier3_powertool",
+    "summary": "High-performance safety hook that intercepts destructive file, git, and system commands before AI coding tools execute them.",
+    "i18n": {
+      "it": "Strumento di sicurezza che intercetta comandi distruttivi di file, git e sistema prima che gli assistenti IA li eseguano.",
+      "es": "Escudo de seguridad que intercepta comandos destructivos de archivos, git y sistema antes de que las herramientas de IA los ejecuten.",
+      "fr": "Outil de sécurité qui bloque les commandes destructrices de fichiers, git et système avant l'exécution par les assistants IA.",
+      "de": "Sicherheits-Schutzschild, der zerstörerische Datei-, Git- und Systembefehle abfängt, bevor KI-Assistenten sie ausführen."
+    },
+    "download_url": "https://github.com/Dicklesworthstone/destructive_command_guard/releases/download/v0.17.0/dcg-aarch64-apple-darwin.tar.xz.minisig",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "everywhere",
@@ -21975,6 +22647,34 @@
       "de": "Teilen Sie lokal an Windows angeschlossene USB-Geräte nahtlos mit virtuellen Maschinen und Linux."
     },
     "download_url": "https://github.com/dorssel/usbipd-win/releases/download/v5.3.0/usbipd-win_5.3.0_arm64.msi",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "alive-progress",
+    "name": "alive-progress",
+    "tagline": "Cool animated progress bars for Python",
+    "repo_url": "https://github.com/rsalmei/alive-progress",
+    "full_name": "rsalmei/alive-progress",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "progress-bar",
+      "system-utility"
+    ],
+    "icon": "/icons/alive-progress.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 6329,
+    "tier": "tier3_powertool",
+    "summary": "Add lively, responsive progress indicators to your Python scripts with real-time throughput speeds, time remaining estimates, and unique pause controls.",
+    "i18n": {
+      "it": "Aggiungi barre di avanzamento dinamiche ai tuoi script Python con stime del tempo rimanente e animazioni personalizzate.",
+      "es": "Añade indicadores de progreso dinámicos a tus scripts de Python con velocidad en tiempo real y estimaciones de finalización.",
+      "fr": "Intégrez des barres de progression dynamiques dans vos scripts Python avec des vitesses en temps réel et des estimations précises.",
+      "de": "Fügen Sie Ihren Python-Skripten lebendige Fortschrittsleisten mit Echtzeit-Geschwindigkeiten und Zeitschätzungen hinzu."
+    },
+    "download_url": "https://github.com/rsalmei/alive-progress/releases",
     "updated_at": "2026-11-23"
   },
   {
