@@ -11,7 +11,7 @@ summary: "Compare Microsoft-Activation-Scripts vs node and 8 free tools for PDF,
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
-app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "uni-app", "jobs-applier-ai-agent", "jumpserver"]
+app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "monitorcontrol", "jobs-applier-ai-agent", "filee"]
 updated_at: "2026-11-23"
 ---
 
@@ -28,9 +28,9 @@ Comparing **Microsoft-Activation-Scripts** and **node** highlights two distinct 
 | [Ventoy](/HubHum/apps/ventoy/) | Desktop App | Windows, Linux | ★ 81,093 | Open Source (GPL v3) |
 | [mkcert](/HubHum/apps/mkcert/) | Desktop App | Windows, macOS, Linux, iOS | ★ 59,896 | Open Source (BSD) |
 | [Files](/HubHum/apps/files/) | Desktop App | Windows | ★ 46,755 | Open Source (MIT) |
-| [uni-app](/HubHum/apps/uni-app/) | Desktop App | iOS | ★ 41,695 | Open Source (Apache 2.0) |
+| [MonitorControl](/HubHum/apps/monitorcontrol/) | Desktop App | macOS | ★ 34,803 | Open Source (MIT) |
 | [Jobs_Applier_AI_Agent](/HubHum/apps/jobs-applier-ai-agent/) | Desktop App | Windows, macOS, Linux | ★ 32,575 | Open Source (MIT) |
-| [JumpServer](/HubHum/apps/jumpserver/) | Desktop App | Windows, macOS, Linux | ★ 31,991 | Open Source (GPL v3) |
+| [Filee](/HubHum/apps/filee/) | Desktop App | Windows, macOS, Linux | ★ 29,808 | Open Source (MIT) |
 
 ### When to Pick Which Option
 - **Choose [Microsoft-Activation-Scripts](/HubHum/apps/microsoft-activation-scripts/) (Desktop App)** if you need what it specializes in: Activate Windows and Office operating systems easily using trusted open-source scripts and automated methods — it installs directly as a desktop application (Windows) (200,467 GitHub stars, vs node which runs as a Desktop App).

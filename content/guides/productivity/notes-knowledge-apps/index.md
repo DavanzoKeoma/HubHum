@@ -11,13 +11,13 @@ summary: "Distraction-free note-taking and personal knowledge organizers with of
 parent_slug: "productivity"
 child_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
 sibling_slugs: []
-app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin", "imhex", "obsidian-skills", "kazumi", "freecad", "notepad-plus-plus", "wiki", "steamtools", "nativescript", "editor", "notable", "animeko", "piliplus", "capacitor"]
+app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin", "imhex", "obsidian-skills", "brew", "freecad", "jumpserver", "notepad-plus-plus", "wiki", "vcpkg", "flatbuffers", "editor", "notable", "codeedit", "piliplus"]
 updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Encrypted Notes, Wikis & Knowledge Apps
 
-This topic hub groups **136 vetted free tools** specializing in **Encrypted Notes, Wikis & Knowledge Apps** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **140 vetted free tools** specializing in **Encrypted Notes, Wikis & Knowledge Apps** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -31,8 +31,8 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Joplin](/HubHum/apps/joplin/)** — Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access. *(Desktop App · License: Open Source (MIT))*
 - **[ImHex](/HubHum/apps/imhex/)** — ImHex is a powerful file inspection and editing tool built for examining raw data structures, with a focus on eye-friendly dark mode design. *(Desktop App · License: Open Source (GPL v2))*
 - **[Obsidian Skills](/HubHum/apps/obsidian-skills/)** — Obsidian Skills allows your favorite digital assistants to read, write, and organize your notes automatically. *(Open Reference · License: Open Source (MIT))*
-- **[Kazumi](/HubHum/apps/kazumi/)** — Kazumi is a flexible streaming application that lets you organize, watch, and enhance your favorite animated series effortlessly. *(Desktop App · License: Open Source (GPL v3))*
+- **[brew](/HubHum/apps/brew/)** — Homebrew is a simple tool that helps you quickly download, update, and organize applications and developer tools on your computer. *(Desktop App · License: Open Source (BSD))*
 - **[FreeCAD](/HubHum/apps/freecad/)** — Create and modify 3D objects easily using parametric modeling, 2D sketches, and powerful open-source engineering tools. *(Desktop App · License: Open Source (LGPL))*
+- **[JumpServer](/HubHum/apps/jumpserver/)** — An open-source privileged access management platform offering a unified workspace to safely connect to servers, databases, and cloud environments. *(Desktop App · License: Open Source (GPL v3))*
 - **[Notepad++](/HubHum/apps/notepad-plus-plus/)** — Notepad++ is a lightweight, free text editor for Windows that helps you write and organize code or plain text with color-coded highlighting and powerful search tools. *(Desktop App · License: Custom Open License)*
 - **[Wiki.js](/HubHum/apps/wiki/)** — Create, organize, and share your team knowledge easily using a modern and lightweight platform. *(Desktop App · License: Open Source (AGPL v3))*
-- **[SteamTools](/HubHum/apps/steamtools/)** — Manage game accounts, speed up access, and handle cloud saves easily with an open-source multi-platform gaming companion toolkit. *(Desktop App · License: Open Source (GPL v3))*

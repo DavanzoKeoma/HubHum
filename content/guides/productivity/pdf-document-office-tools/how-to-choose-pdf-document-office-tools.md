@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what PDF, Document & E-Book Tools t
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
-app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "uni-app"]
+app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "monitorcontrol"]
 updated_at: "2026-11-23"
 ---
 
@@ -30,4 +30,4 @@ Switching to free open-source tools in **PDF, Document & E-Book Tools** lets you
 - **[Ventoy](/HubHum/apps/ventoy/)** (Desktop App) — Ventoy lets you turn any USB drive into a multi-boot tool just by copying system files directly onto it without constant reformatting.
 - **[mkcert](/HubHum/apps/mkcert/)** (Desktop App) — mkcert creates trusted local certificates with zero configuration, letting developers run HTTPS locally without browser warnings.
 - **[Files](/HubHum/apps/files/)** (Desktop App) — Files is a free, open-source file manager that makes organizing your documents and photos on Windows simple and fast.
-- **[uni-app](/HubHum/apps/uni-app/)** (Desktop App) — Create native mobile, web, and mini-programs using a single unified codebase and familiar language syntax.
+- **[MonitorControl](/HubHum/apps/monitorcontrol/)** (Desktop App) — Manage external screen brightness and volume on your Mac using standard keyboard keys or sliders that match native Apple controls.

@@ -11,13 +11,13 @@ summary: "Everyday open-source software to edit PDFs, read e-books comfortably, 
 parent_slug: "productivity"
 child_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
 sibling_slugs: []
-app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "uni-app", "jobs-applier-ai-agent", "jumpserver", "filee", "vcpkg", "flatbuffers", "readest", "flutterexampleapps", "peass-ng", "xerj", "lynx", "zeal", "genoffice"]
+app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "monitorcontrol", "jobs-applier-ai-agent", "filee", "libuv", "readest", "osx-kvm", "flutterexampleapps", "peass-ng", "xerj", "opencore-legacy-patcher", "openemu", "flet", "openrct2"]
 updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Free PDF, Document & E-Book Tools
 
-This topic hub groups **94 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **95 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -29,10 +29,10 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Ventoy](/HubHum/apps/ventoy/)** — Ventoy lets you turn any USB drive into a multi-boot tool just by copying system files directly onto it without constant reformatting. *(Desktop App · License: Open Source (GPL v3))*
 - **[mkcert](/HubHum/apps/mkcert/)** — mkcert creates trusted local certificates with zero configuration, letting developers run HTTPS locally without browser warnings. *(Desktop App · License: Open Source (BSD))*
 - **[Files](/HubHum/apps/files/)** — Files is a free, open-source file manager that makes organizing your documents and photos on Windows simple and fast. *(Desktop App · License: Open Source (MIT))*
-- **[uni-app](/HubHum/apps/uni-app/)** — Create native mobile, web, and mini-programs using a single unified codebase and familiar language syntax. *(Desktop App · License: Open Source (Apache 2.0))*
+- **[MonitorControl](/HubHum/apps/monitorcontrol/)** — Manage external screen brightness and volume on your Mac using standard keyboard keys or sliders that match native Apple controls. *(Desktop App · License: Open Source (MIT))*
 - **[Jobs_Applier_AI_Agent](/HubHum/apps/jobs-applier-ai-agent/)** — This tool scans thousands of job postings to find matches for your resume and automatically fills out application forms on your behalf. *(Desktop App · License: Open Source (MIT))*
-- **[JumpServer](/HubHum/apps/jumpserver/)** — An open-source privileged access management platform offering a unified workspace to safely connect to servers, databases, and cloud environments. *(Desktop App · License: Open Source (GPL v3))*
 - **[Filee](/HubHum/apps/filee/)** — Convert hundreds of file formats instantly on your computer by dragging and dropping items right at your cursor, entirely offline. *(Desktop App · License: Open Source (MIT))*
-- **[vcpkg](/HubHum/apps/vcpkg/)** — vcpkg is a cross-platform library manager that helps developers easily find, install, and manage third-party software packages for C and C++ projects. *(Desktop App · License: Open Source (MIT))*
-- **[flatbuffers](/HubHum/apps/flatbuffers/)** — Store and exchange data efficiently without tedious unpacking steps, saving precious memory and processing time. *(Desktop App · License: Open Source (Apache 2.0))*
+- **[libuv](/HubHum/apps/libuv/)** — A robust multi-platform support library focused on asynchronous input and output operations, widely used for high-performance software. *(Desktop App · License: Open Source (MIT))*
 - **[Readest](/HubHum/apps/readest/)** — Readest is a feature-rich ebook reader that helps you organize your library and enjoy books across all your favorite devices. *(Desktop App · License: Open Source (AGPL v3))*
+- **[OSX-KVM](/HubHum/apps/osx-kvm/)** — Run Apple's desktop operating system on a standard Linux computer without needing actual Apple hardware. *(Desktop App · License: Custom Open License)*
+- **[FlutterExampleApps](/HubHum/apps/flutterexampleapps/)** — This collection provides a wide variety of practical app examples to help you learn how to build mobile software from the ground up. *(Desktop App · License: Custom Open License)*
