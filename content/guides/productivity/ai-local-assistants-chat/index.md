@@ -12,12 +12,12 @@ parent_slug: "productivity"
 child_slugs: ["productivity/ai-local-assistants-chat/best-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
 sibling_slugs: []
 app_slugs: ["nextchat", "chatgpt", "codewhale", "etcher", "claude-code-templates", "dbx", "invokeai", "gopeed", "llamafile", "fmt", "sqlitebrowser", "super-productivity", "react-native-web", "jcode", "obtainium", "wasmer", "mmkv", "airsim"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Local AI Assistants, LLM Studios & Chat Workspaces
 
-This topic hub groups **154 vetted free tools** specializing in **Local AI Assistants, LLM Studios & Chat Workspaces** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **177 vetted free tools** specializing in **Local AI Assistants, LLM Studios & Chat Workspaces** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

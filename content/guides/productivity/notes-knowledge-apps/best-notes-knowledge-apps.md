@@ -12,7 +12,7 @@ parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
 app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin", "imhex", "obsidian-skills", "kazumi"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Quick Answer: Awesome vs React Native

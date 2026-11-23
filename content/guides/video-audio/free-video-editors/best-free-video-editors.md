@@ -12,7 +12,7 @@ parent_slug: "video-audio/free-video-editors"
 child_slugs: []
 sibling_slugs: ["video-audio/free-video-editors/how-to-choose-free-video-editors", "video-audio/free-video-editors/troubleshooting-free-video-editors"]
 app_slugs: ["yt-dlp", "losslesscut", "recordly", "handbrake", "concat", "shotcut", "simpmusic", "youtube-dl-gui"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Quick Answer: yt-dlp vs LosslessCut

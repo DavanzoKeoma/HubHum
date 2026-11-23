@@ -12,7 +12,7 @@ parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools"]
 app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Fixing Common Problems with Free PDF, Document & E-Book Tools

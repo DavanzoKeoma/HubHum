@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what Screen Recorders, Streaming & 
 parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/troubleshooting-screen-recorders-streaming"]
-app_slugs: ["streamlink", "hghub", "xdm", "openscreen", "esearch", "streamcap"]
-updated_at: "2026-11-22"
+app_slugs: ["streamlink", "hghub", "xdm", "openscreen", "esearch", "snow-shot"]
+updated_at: "2026-11-23"
 ---
 
 ## How to Choose Free Screen Recorders, Streaming & Media Players Without Getting Lost
@@ -30,4 +30,4 @@ Switching to free open-source tools in **Screen Recorders, Streaming & Media Pla
 - **[Xtreme Download Manager](/HubHum/apps/xdm/)** (Desktop App) — Accelerate your downloads, grab online videos, and seamlessly pick up interrupted files right where they left off.
 - **[OpenScreen](/HubHum/apps/openscreen/)** (Desktop App) — OpenScreen is a free, open-source tool that lets you record your screen and turn your captures into polished product demos and walkthroughs.
 - **[eSearch](/HubHum/apps/esearch/)** (Desktop App) — eSearch is a versatile utility that combines screen recording, text recognition, and instant translation into one seamless experience.
-- **[StreamCap](/HubHum/apps/streamcap/)** (Desktop App) — StreamCap automatically monitors and records live broadcasts from dozens of websites so you never miss your favorite content.
+- **[Snow Shot](/HubHum/apps/snow-shot/)** (Desktop App) — Capture your computer screen, add helpful annotations, and extract text instantly with a free and open-source tool for Windows and Mac.

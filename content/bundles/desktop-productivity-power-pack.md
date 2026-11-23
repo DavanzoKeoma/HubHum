@@ -5,7 +5,7 @@ category: "Productivity"
 summary: "Switch windows effortlessly, organize backups, share files across devices, and trim daily desktop friction."
 tags: ["desktop", "workflow", "windows", "macos"]
 app_slugs: ["alt-tab-macos", "flameshot", "unigetui", "dbeaver", "bruno", "microsoft-activation-scripts"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ### Why this curated guide

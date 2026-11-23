@@ -12,7 +12,7 @@ parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/best-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat"]
 app_slugs: ["nextchat", "chatgpt", "codewhale", "etcher", "claude-code-templates"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Fixing Common Problems with Free Local AI Assistants, LLM Studios & Chat Workspaces

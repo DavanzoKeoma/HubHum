@@ -12,7 +12,7 @@ parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming"]
 app_slugs: ["streamlink", "hghub", "xdm", "openscreen", "esearch"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Fixing Common Problems with Free Screen Recorders, Streaming & Media Players

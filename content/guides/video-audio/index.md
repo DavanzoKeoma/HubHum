@@ -9,12 +9,12 @@ summary: "Compare free desktop editors, media players, audio tools, and streamin
 child_slugs: ["video-audio/free-video-editors", "video-audio/audio-media-players", "video-audio/screen-recorders-streaming"]
 sibling_slugs: []
 app_slugs: ["yt-dlp", "spotube", "losslesscut", "recordly", "pear-desktop", "yesplaymusic", "handbrake", "navidrome", "vlc", "spotify-tui", "concat", "audacity", "nuclear", "beets", "shotcut", "simpmusic", "autoclip", "streamlink"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Why Explore Free Video & Audio Software?
 
-This central guide brings together **80 verified free applications** in the **Video & Audio** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **87 verified free applications** in the **Video & Audio** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Video & Audio
 

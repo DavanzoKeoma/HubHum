@@ -12,7 +12,7 @@ parent_slug: "productivity/desktop-workflow-helpers"
 child_slugs: []
 sibling_slugs: ["productivity/desktop-workflow-helpers/best-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"]
 app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "rustdesk", "orca"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## How to Choose Free Window Switchers & Everyday Workflow Helpers Without Getting Lost

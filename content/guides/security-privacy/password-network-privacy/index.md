@@ -11,13 +11,13 @@ summary: "Verified free tools to inspect network connections, encrypt traffic, a
 parent_slug: "security-privacy"
 child_slugs: ["security-privacy/password-network-privacy/best-password-network-privacy", "security-privacy/password-network-privacy/how-to-choose-password-network-privacy", "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"]
 sibling_slugs: []
-app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "spotx", "safeline", "v2raya", "bpb-worker-panel", "esp32marauder", "netmaker", "simplewall", "outline-apps", "gui-for-singbox", "iodine", "bleachbit", "docker-ipsec-vpn-server"]
-updated_at: "2026-11-22"
+app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "spotx", "safeline", "v2raya", "bpb-worker-panel", "esp32marauder", "optimizerduck", "netmaker", "simplewall", "outline-apps", "gui-for-singbox", "iodine", "bleachbit"]
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Privacy Tools, VPNs & Network Monitors
 
-This topic hub groups **22 vetted free tools** specializing in **Privacy Tools, VPNs & Network Monitors** inside **Security & Privacy**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **25 vetted free tools** specializing in **Privacy Tools, VPNs & Network Monitors** inside **Security & Privacy**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -35,4 +35,4 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[v2rayA](/HubHum/apps/v2raya/)** — v2rayA provides a clean web-based control center for managing advanced internet connection tunnels and proxy rules. *(Desktop App · License: Open Source (AGPL v3))*
 - **[BPB-Worker-Panel](/HubHum/apps/bpb-worker-panel/)** — BPB-Worker-Panel provides a private, user-friendly interface to manage secure internet connections and bypass network restrictions easily. *(Desktop App · License: Open Source (GPL v3))*
 - **[ESP32Marauder](/HubHum/apps/esp32marauder/)** — ESP32Marauder is a comprehensive collection of wireless auditing tools designed for small pocket-sized microcontrollers. *(Desktop App · License: Open Source License)*
-- **[Netmaker](/HubHum/apps/netmaker/)** — Netmaker creates fast, secure, and distributed virtual private networks using WireGuard technology to connect your devices easily. *(Self-Hosted Web App · License: Custom Open License)*
+- **[optimizerDuck](/HubHum/apps/optimizerduck/)** — A free, open-source Windows optimization utility that helps you boost performance, protect your privacy, and manage background apps without technical headaches. *(Desktop App · License: Custom Open License)*

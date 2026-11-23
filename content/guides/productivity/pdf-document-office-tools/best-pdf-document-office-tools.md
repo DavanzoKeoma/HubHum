@@ -12,7 +12,7 @@ parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
 app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "uni-app", "jobs-applier-ai-agent", "jumpserver"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Quick Answer: Microsoft-Activation-Scripts vs node

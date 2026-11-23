@@ -9,12 +9,12 @@ summary: "Run modern dashboards, publishing tools, bookmark hubs, and family clo
 child_slugs: ["web-apps-cloud/self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cloud-apps", "web-apps-cloud/server-dashboards-automation", "web-apps-cloud/home-lab-media-servers"]
 sibling_slugs: []
 app_slugs: ["n8n", "dify", "open-webui", "immich", "stirling-pdf", "uptime-kuma", "hugo", "netdata", "unsloth", "strapi", "coolify", "memos", "gitea", "serviette", "appwrite", "ghost", "new-api", "clickhouse"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Why Explore Free Web Apps & Cloud Software?
 
-This central guide brings together **427 verified free applications** in the **Web Apps & Cloud** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **465 verified free applications** in the **Web Apps & Cloud** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Web Apps & Cloud
 

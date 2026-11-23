@@ -12,12 +12,12 @@ parent_slug: "productivity"
 child_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
 sibling_slugs: []
 app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin", "imhex", "obsidian-skills", "kazumi", "freecad", "notepad-plus-plus", "wiki", "steamtools", "nativescript", "editor", "notable", "animeko", "piliplus", "capacitor"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Encrypted Notes, Wikis & Knowledge Apps
 
-This topic hub groups **117 vetted free tools** specializing in **Encrypted Notes, Wikis & Knowledge Apps** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **136 vetted free tools** specializing in **Encrypted Notes, Wikis & Knowledge Apps** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

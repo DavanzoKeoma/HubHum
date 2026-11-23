@@ -12,12 +12,12 @@ parent_slug: "productivity"
 child_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
 sibling_slugs: []
 app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "uni-app", "jobs-applier-ai-agent", "jumpserver", "filee", "vcpkg", "flatbuffers", "readest", "flutterexampleapps", "peass-ng", "xerj", "lynx", "zeal", "genoffice"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Free PDF, Document & E-Book Tools
 
-This topic hub groups **107 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **94 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

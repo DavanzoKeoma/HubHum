@@ -11,13 +11,13 @@ summary: "Free system cleanup utilities and privacy auditing tools that remove u
 parent_slug: "security-privacy"
 child_slugs: ["security-privacy/system-cleaners-auditors/best-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
 sibling_slugs: []
-app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows", "cloud-torrent", "sophiapp", "pangolin-desktop"]
-updated_at: "2026-11-22"
+app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows", "sophiapp", "pangolin-desktop"]
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Privacy Cleaners & System Auditors
 
-This topic hub groups **8 vetted free tools** specializing in **Privacy Cleaners & System Auditors** inside **Security & Privacy**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **7 vetted free tools** specializing in **Privacy Cleaners & System Auditors** inside **Security & Privacy**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -29,6 +29,5 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Termix](/HubHum/apps/termix/)** — Termix is a flexible, self-hosted platform that lets you organize and control your remote servers, files, and connections from a single dashboard. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Winhance](/HubHum/apps/winhance/)** — Winhance is a handy utility application designed to clean up, optimize, and personalize your Windows 10 and 11 computers. *(Desktop App · License: Custom Open License)*
 - **[Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/)** — An advanced PowerShell tool helps you customize, clean up, and fine-tune Windows 10 and 11 safely. *(Desktop App · License: Open Source (MIT))*
-- **[Cloud Torrent](/HubHum/apps/cloud-torrent/)** — Cloud Torrent lets you manage your file downloads from any web browser and stream your media directly from your own server. *(Self-Hosted Web App · License: Custom Open License)*
 - **[SophiApp](/HubHum/apps/sophiapp/)** — SophiApp is a user-friendly tool that lets you customize and optimize your Windows 10 or 11 system using safe, official methods. *(Desktop App · License: Open Source (MIT))*
 - **[Pangolin Desktop](/HubHum/apps/pangolin-desktop/)** — Pangolin Desktop provides a modern and fluid visual interface shell built for dahliaOS using flexible multi-platform tools. *(Desktop App · License: Open Source (Apache 2.0))*

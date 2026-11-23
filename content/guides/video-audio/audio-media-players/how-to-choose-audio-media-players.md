@@ -12,7 +12,7 @@ parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
 app_slugs: ["spotube", "pear-desktop", "yesplaymusic", "navidrome", "vlc", "spotify-tui"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## How to Choose Free Audio Editors & Music Players Without Getting Lost

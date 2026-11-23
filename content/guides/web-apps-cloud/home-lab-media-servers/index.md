@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"]
 sibling_slugs: []
 app_slugs: ["netdata", "nanobot", "khoj", "changedetection-io", "meetily", "nanoclaw", "nocobase", "skyvern", "neko", "companyos", "convertx", "maxun", "surfsense", "trek", "audiobookshelf", "automatisch", "nightingale", "umbrel"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Home Lab Media Servers, E-Books & Streaming Hubs

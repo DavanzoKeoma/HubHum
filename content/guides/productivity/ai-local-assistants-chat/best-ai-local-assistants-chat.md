@@ -12,7 +12,7 @@ parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
 app_slugs: ["nextchat", "chatgpt", "codewhale", "etcher", "claude-code-templates", "dbx", "invokeai", "gopeed"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Quick Answer: NextChat vs ChatGPT

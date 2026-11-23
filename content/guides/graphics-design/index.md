@@ -9,7 +9,7 @@ summary: "Discover free screenshot tools, image optimizers, photo galleries, and
 child_slugs: ["graphics-design/photo-image-tools", "graphics-design/3d-visual-design-tools"]
 sibling_slugs: []
 app_slugs: ["ui-ux-pro-max-skill", "open-design", "photoprism", "flameshot", "react-native-elements", "slint", "best-flutter-ui-templates", "customtkinter", "easydiffusion", "tkinter-designer", "imageoptim", "dashboard-icons", "stable-dreamfusion", "modly", "open-codesign", "pyqt-fluent-widgets", "cura", "koharu"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Why Explore Free Graphics & Design Software?

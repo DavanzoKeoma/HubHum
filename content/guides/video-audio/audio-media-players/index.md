@@ -11,13 +11,13 @@ summary: "Reliable desktop and self-hosted players for organizing music librarie
 parent_slug: "video-audio"
 child_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/how-to-choose-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
 sibling_slugs: []
-app_slugs: ["spotube", "pear-desktop", "yesplaymusic", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear", "beets", "autoclip", "listen1-desktop", "captura", "ytdownloader", "spotifast", "feishin", "finetune", "google-play-music-desktop-player-unofficial", "spotify-player"]
-updated_at: "2026-11-22"
+app_slugs: ["spotube", "pear-desktop", "yesplaymusic", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear", "beets", "autoclip", "listen1-desktop", "captura", "ytdownloader", "spotifast", "feishin", "finetune", "google-play-music-desktop-player-unofficial", "lyricify-app"]
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Audio Editors & Music Players
 
-This topic hub groups **46 vetted free tools** specializing in **Audio Editors & Music Players** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **50 vetted free tools** specializing in **Audio Editors & Music Players** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

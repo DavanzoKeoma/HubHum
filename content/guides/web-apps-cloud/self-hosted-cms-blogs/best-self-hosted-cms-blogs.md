@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/self-hosted-cms-blogs"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/troubleshooting-self-hosted-cms-blogs"]
 app_slugs: ["n8n", "stirling-pdf", "hugo", "unsloth", "strapi", "gitea", "ghost", "new-api"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Quick Answer: n8n vs Stirling-PDF

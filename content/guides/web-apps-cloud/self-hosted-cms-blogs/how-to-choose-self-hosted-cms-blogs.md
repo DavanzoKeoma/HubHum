@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/self-hosted-cms-blogs"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/troubleshooting-self-hosted-cms-blogs"]
 app_slugs: ["n8n", "stirling-pdf", "hugo", "unsloth", "strapi", "gitea"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## How to Choose Free Self-Hosted CMS, Blogs & Publishing Platforms Without Getting Lost

@@ -5,7 +5,7 @@ category: "Curated Guides"
 summary: "Essential free tools to organize private notes, edit video and audio without limits, protect passwords, and publish online."
 tags: ["collection", "productivity", "privacy", "video"]
 app_slugs: ["joplin", "ghost", "losslesscut", "keepassxc", "audacity", "microsoft-activation-scripts"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ### Why this curated guide
