@@ -5,8 +5,8 @@ tagline: "Secure and share configuration files safely"
 summary: "Encrypt sensitive settings files so you can safely store them alongside your code in version control without risking leaks."
 tags: ["security", "configuration", "utilities", "developer-tools"]
 is_webapp: false
-app_type: "cli"
-category: "Utilities & Power Tools"
+app_type: "desktop"
+category: "Security & Privacy"
 icon: "/icons/dotenvx.png"
 stars: 5884
 source_url: "https://github.com/dotenvx/dotenvx"
@@ -14,15 +14,15 @@ download_url: "https://github.com/dotenvx/dotenvx/releases/download/v2.38.2/chec
 downloadUrl: "https://github.com/dotenvx/dotenvx/releases/download/v2.38.2/checksums.txt"
 download_label: "Download (checksums.txt)"
 license: "Open Source (BSD)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "UtilitiesApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_008"
-affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+affiliate_merchant_id: "MER_047"
+affiliate_name: "PureVPN"
+affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
+affiliate_pitch: "Protect your connection and block trackers before downloading or using this app."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-23"
@@ -69,8 +69,8 @@ You can set up the command-line tool using various methods depending on your ope
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
+* **FastestVPN:** Lifetime encrypted VPN protection with built-in ad blocking and WireGuard servers for private browsing — [FastestVPN](https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89&subid=hubhum_01_MER096) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/dotenvx/dotenvx)

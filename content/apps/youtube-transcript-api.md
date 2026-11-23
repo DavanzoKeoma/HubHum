@@ -5,8 +5,8 @@ tagline: "Easily pull captions from online videos"
 summary: "Fetch closed captions and automatically generated subtitles from online videos using a simple programming tool without needing complex setups."
 tags: ["subtitles", "transcript", "youtube", "automation"]
 is_webapp: false
-app_type: "cli"
-category: "Video & Audio"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/youtube-transcript-api.png"
 stars: 8649
 source_url: "https://github.com/jdepoix/youtube-transcript-api"
@@ -14,15 +14,15 @@ download_url: "https://github.com/jdepoix/youtube-transcript-api/releases"
 downloadUrl: "https://github.com/jdepoix/youtube-transcript-api/releases"
 download_label: "Get Command-Line Tool →"
 license: "Open Source (MIT)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_054"
-affiliate_name: "Creative Fabrica"
-affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
-affiliate_pitch: "Compatible asset libraries, templates, and fonts for your creative projects."
+affiliate_merchant_id: "MER_061"
+affiliate_name: "Systeme.io"
+affiliate_url: "https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061"
+affiliate_pitch: "Automate everyday online workflows free forever and safeguard your devices and backups."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-22"
@@ -69,8 +69,8 @@ For more information, visit the [PyPI Package Page](https://pypi.org/project/you
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
-* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
-* **Placeit by Envato:** Optional browser-based mockup and template generator — [Placeit by Envato](https://placeit.net/?subid=hubhum_01_MER369) (#ad)
+* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/jdepoix/youtube-transcript-api)

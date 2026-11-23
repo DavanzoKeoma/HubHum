@@ -6,7 +6,7 @@ summary: "Accelerate your downloads, grab online videos, and seamlessly pick up 
 tags: ["downloader", "torrent", "video-grabber", "manager"]
 is_webapp: false
 app_type: "desktop"
-category: "Video & Audio"
+category: "Productivity"
 icon: "/icons/xdm.png"
 stars: 8762
 source_url: "https://github.com/subhra74/xdm"
@@ -16,13 +16,13 @@ download_label: "Download for Windows (.msi)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_054"
-affiliate_name: "Creative Fabrica"
-affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
-affiliate_pitch: "Compatible asset libraries, templates, and fonts for your creative projects."
+affiliate_merchant_id: "MER_047"
+affiliate_name: "PureVPN"
+affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
+affiliate_pitch: "Protect your connection and block trackers before downloading or using this app."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-22"
@@ -72,8 +72,8 @@ You can download the official installer directly for your operating system:
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
-* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
-* **Placeit by Envato:** Optional browser-based mockup and template generator — [Placeit by Envato](https://placeit.net/?subid=hubhum_01_MER369) (#ad)
+* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
+* **FastestVPN:** Lifetime encrypted VPN protection with built-in ad blocking and WireGuard servers for private browsing — [FastestVPN](https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89&subid=hubhum_01_MER096) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/subhra74/xdm)

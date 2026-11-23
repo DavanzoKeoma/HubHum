@@ -6,7 +6,7 @@ summary: "Cava turns the music you are listening into colorful, moving bars on y
 tags: ["audio-visualizer", "music", "cross-platform"]
 is_webapp: false
 app_type: "desktop"
-category: "Productivity"
+category: "Video & Audio"
 icon: "/icons/cava.png"
 stars: 6548
 source_url: "https://github.com/karlstav/cava"
@@ -15,14 +15,14 @@ downloadUrl: "https://github.com/karlstav/cava/releases/download/1.0.0/cava_win_
 download_label: "Download for Windows (.msi)"
 license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux, Android"
-applicationCategory: "UtilitiesApplication"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_008"
-affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+affiliate_merchant_id: "MER_054"
+affiliate_name: "Creative Fabrica"
+affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
+affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
 ai_provider: "tier2_groq:qwen/qwen3.8-27b"
 featured_weekly: true
 updated_at: "2026-11-23"
@@ -67,8 +67,8 @@ Cava listens to the music playing on your computer and displays it as moving bar
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+* **Creative Fabrica:** Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/karlstav/cava)

@@ -4,9 +4,9 @@ slug: "ghost-cli"
 tagline: "Easily install and manage your blog"
 summary: "Manage and install your independent publishing website efficiently with a streamlined command-line utility."
 tags: ["publishing", "blogging", "system-utility", "management"]
-is_webapp: true
-app_type: "selfhosted"
-category: "Web Apps & Cloud"
+is_webapp: false
+app_type: "cli"
+category: "Websites & SEO"
 icon: "/icons/ghost-cli.png"
 stars: 502
 source_url: "https://github.com/TryGhost/Ghost-CLI"
@@ -14,15 +14,15 @@ download_url: "https://ghost.org"
 downloadUrl: "https://ghost.org"
 download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
-scouting_tier: "tier2_webapp"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "DeveloperApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_276"
-affiliate_name: "Rank Math Direct"
-affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
-affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Host and publish your website faster on reliable cloud infrastructure and custom domains."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-23"
@@ -64,8 +64,8 @@ To get started, you will need Node.js installed on your system. You can install 
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
-* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
-* **Elementor Pro Direct:** Optional visual page builder for WordPress sites — [Elementor Pro Direct](https://elementor.com/?subid=hubhum_01_MER265) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
+* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/TryGhost/Ghost-CLI)

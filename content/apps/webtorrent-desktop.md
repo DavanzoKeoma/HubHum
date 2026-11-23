@@ -6,7 +6,7 @@ summary: "WebTorrent Desktop allows you to watch videos or listen to audio files
 tags: ["media", "streaming", "utility"]
 is_webapp: false
 app_type: "desktop"
-category: "Productivity"
+category: "Video & Audio"
 icon: "/icons/webtorrent-desktop.png"
 stars: 10151
 source_url: "https://github.com/webtorrent/webtorrent-desktop"
@@ -16,13 +16,13 @@ download_label: "Download for Windows (.exe)"
 license: "Open Source (MIT)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "UtilitiesApplication"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_047"
-affiliate_name: "PureVPN"
-affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
-affiliate_pitch: "Protect your connection before downloading or using this app."
+affiliate_merchant_id: "MER_054"
+affiliate_name: "Creative Fabrica"
+affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
+affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: true
 updated_at: "2026-11-22"
@@ -67,8 +67,8 @@ WebTorrent Desktop is a simple media player that lets you start watching videos 
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
-* **Private Internet Access:** Optional privacy-focused VPN client for multiple devices — [Private Internet Access](https://www.privateinternetaccess.com/?subid=hubhum_01_MER048) (#ad)
+* **Creative Fabrica:** Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/webtorrent/webtorrent-desktop)
