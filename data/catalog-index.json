@@ -42921,6 +42921,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "vue-cms",
+    "name": "vue-cms",
+    "tagline": "Powerful administrative dashboard for web projects",
+    "repo_url": "https://github.com/neveryu/vue-cms",
+    "full_name": "neveryu/vue-cms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "dashboard",
+      "management"
+    ],
+    "icon": "/icons/vue-cms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 649,
+    "tier": "tier2_webapp",
+    "summary": "An enterprise-grade administrative management system built with modern tools to help you organize data, monitor analytics, and manage users easily.",
+    "i18n": {
+      "it": "Un sistema gestionale di livello aziendale per organizzare dati, monitorare analisi e gestire utenti facilmente.",
+      "es": "Un sistema de gestión empresarial para organizar datos, supervisar análisis y administrar usuarios fácilmente.",
+      "fr": "Un système de gestion d'entreprise pour organiser les données, suivre les analyses et gérer les utilisateurs.",
+      "de": "Ein unternehmenstaugliches Verwaltungssystem zur Organisation von Daten, Analyseüberwachung und Benutzerverwaltung."
+    },
+    "download_url": "https://neveryu.github.io/vue-cms/",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "ebou",
     "name": "Ebou",
     "tagline": "Messenger-style decentralized social network client",
@@ -42977,6 +43005,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "jfinal-cms",
+    "name": "jfinal_cms",
+    "tagline": "Powerful Java web publishing system.",
+    "repo_url": "https://github.com/jflyfox/jfinal_cms",
+    "full_name": "jflyfox/jfinal_cms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "website"
+    ],
+    "icon": "/icons/jfinal-cms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 640,
+    "tier": "tier2_webapp",
+    "summary": "jfinal_cms is a flexible content management system built in Java for creating information portals, blogs, and media galleries.",
+    "i18n": {
+      "it": "jfinal_cms è un flessibile sistema di gestione contenuti in Java per creare portali di informazione, blog e gallerie multimediali.",
+      "es": "jfinal_cms es un flexible sistema de gestión de contenidos en Java para crear portales de información, blogs y galerías multimedia.",
+      "fr": "jfinal_cms est un système de gestion de contenu flexible en Java pour créer des portails d'information, des blogs et des galeries.",
+      "de": "jfinal_cms ist ein flexibles Java-Inhaltssystem zum Erstellen von Informationsportalen, Blogs und Medien-Gallerien."
+    },
+    "download_url": "https://mtg.jflyfox.com/",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "hugagentos",
     "name": "HugAgentOS",
     "tagline": "Run autonomous 24/7 assistants anywhere",
@@ -43005,6 +43061,146 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "dotplant2",
+    "name": "dotplant2",
+    "tagline": "Flexible open-source online store system.",
+    "repo_url": "https://github.com/devgroup-ru/dotplant2",
+    "full_name": "devgroup-ru/dotplant2",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ecommerce",
+      "shop"
+    ],
+    "icon": "/icons/dotplant2.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 631,
+    "tier": "tier2_webapp",
+    "summary": "Dotplant2 is an open-source online store system designed to help you launch and manage custom digital shops with robust search engine optimization tools.",
+    "i18n": {
+      "it": "Dotplant2 è un sistema open-source per negozi online progettato per aiutarti a lanciare e gestire negozi digitali personalizzati.",
+      "es": "Dotplant2 es un sistema de tienda online de código abierto diseñado para ayudarte a lanzar y gestionar comercios digitales personalizados.",
+      "fr": "Dotplant2 est un système de boutique en ligne open-source conçu pour vous aider à lancer et gérer des magasins numériques personnalisés.",
+      "de": "Dotplant2 ist ein Open-Source-Online-Shop-System, mit dem Sie benutzerdefinierte digitale Geschäfte erstellen und verwalten können."
+    },
+    "download_url": "https://dotplant.ru/",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "markdown-site",
+    "name": "Markdown Site",
+    "tagline": "Publish websites instantly from plain text files.",
+    "repo_url": "https://github.com/waynesutton/markdown-site",
+    "full_name": "waynesutton/markdown-site",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "publishing",
+      "markdown"
+    ],
+    "icon": "/icons/markdown-site.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 628,
+    "tier": "tier2_webapp",
+    "summary": "An open-source publishing platform that lets you write websites, docs, or blogs in simple text files and sync them instantly.",
+    "i18n": {
+      "it": "Una piattaforma di pubblicazione open-source che consente di creare siti web, documenti o blog scrivendo semplici file di testo.",
+      "es": "Una plataforma de publicación de código abierto que te permite crear sitios web, documentos o blogs escribiendo en texto plano.",
+      "fr": "Une plateforme de publication open-source pour créer des sites web, des documents ou des blogs en écrivant de simples fichiers texte.",
+      "de": "Eine Open-Source-Publishing-Plattform, mit der Sie Websites, Dokumente oder Blogs in einfachen Textdateien schreiben und synchronisieren."
+    },
+    "download_url": "https://www.markdown.fast",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "botonic",
+    "name": "Botonic",
+    "tagline": "Build interactive conversational apps with React",
+    "repo_url": "https://github.com/hubtype/botonic",
+    "full_name": "hubtype/botonic",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "chatbots",
+      "messaging"
+    ],
+    "icon": "/icons/botonic.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 626,
+    "tier": "tier2_webapp",
+    "summary": "Create custom conversational assistants and smart chatbots for messaging apps and websites using the React language.",
+    "i18n": {
+      "it": "Crea assistenti di conversazione personalizzati e chatbot intelligenti per app di messaggistica e siti web usando React.",
+      "es": "Crea asistentes de conversación personalizados y chatbots inteligentes para aplicaciones de mensajería y sitios web usando React.",
+      "fr": "Créez des assistants conversationnels personnalisés et des robots intelligents pour applications de messagerie avec React.",
+      "de": "Entwickeln Sie maßgeschneiderte Konversationsassistenten und intelligente Chatbots für Messaging-Apps und Websites mit React."
+    },
+    "download_url": "https://botonic.io",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "ikaros",
+    "name": "ikaros",
+    "tagline": "Organize your anime and media collections easily.",
+    "repo_url": "https://github.com/ikaros-dev/ikaros",
+    "full_name": "ikaros-dev/ikaros",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "media-manager"
+    ],
+    "icon": "/icons/ikaros.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 625,
+    "tier": "tier2_webapp",
+    "summary": "Ikaros is a dedicated content manager designed to help you organize, search, and manage your anime, manga, games, and novels in one place.",
+    "i18n": {
+      "it": "Ikaros è un gestore di contenuti per organizzare, cercare e gestire anime, manga, giochi e romanzi in un unico posto.",
+      "es": "Ikaros es un gestor de contenido diseñado para ayudarte a organizar, buscar y gestionar anime, manga, juegos y novelas.",
+      "fr": "Ikaros est un gestionnaire de contenu conçu pour vous aider à organiser, rechercher et gérer vos animés, mangas et romans.",
+      "de": "Ikaros ist ein Inhaltsmanager, der Ihnen hilft, Anime, Manga, Spiele und Romane an einem Ort zu organisieren und zu suchen."
+    },
+    "download_url": "https://github.com/ikaros-dev/ikaros/releases/download/v1.2.6/ikaros-server.jar",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "typemill",
+    "name": "Typemill",
+    "tagline": "Create informational websites using simple markdown.",
+    "repo_url": "https://github.com/typemill/typemill",
+    "full_name": "typemill/typemill",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "markdown"
+    ],
+    "icon": "/icons/typemill.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 623,
+    "tier": "tier2_webapp",
+    "summary": "Typemill is a lightweight content management system that turns plain text files into professional documentation, user manuals, and eBooks.",
+    "i18n": {
+      "it": "Typemill è un sistema di gestione dei contenuti leggero che trasforma file di testo in manuali, documentazione ed eBook professionali.",
+      "es": "Typemill es un sistema de gestión de contenidos ligero que convierte archivos de texto plano en manuales y documentación profesional.",
+      "fr": "Typemill est un système de gestion de contenu léger qui transforme des fichiers texte en manuels et documentations professionnels.",
+      "de": "Typemill ist ein leichtgewichtinales Content-Management-System, das einfache Textdateien in professionelle Handbücher verwandelt."
+    },
+    "download_url": "https://typemill.net",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "wayland",
     "name": "Wayland",
     "tagline": "One desktop command center for every AI agent.",
@@ -43031,6 +43227,34 @@
     },
     "download_url": "https://github.com/FerroxLabs/wayland/releases/download/v0.13.2/Wayland-0.13.2-win-arm64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "feather",
+    "name": "feather",
+    "tagline": "A modern content system for Swift",
+    "repo_url": "https://github.com/feathercms/feather",
+    "full_name": "feathercms/feather",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "backend"
+    ],
+    "icon": "/icons/feather.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 610,
+    "tier": "tier2_webapp",
+    "summary": "Feather is a high-speed, modern content management tool built entirely with Swift for efficient server environments.",
+    "i18n": {
+      "it": "Feather è uno strumento di gestione contenuti moderno e veloce, sviluppato interamente in Swift per server efficienti.",
+      "es": "Feather es una herramienta de gestión de contenidos moderna y rápida creada completamente en Swift para servidores eficientes.",
+      "fr": "Feather est un outil de gestion de contenu moderne et rapide conçu entièrement en Swift pour des serveurs performants.",
+      "de": "Feather ist ein modernes und schnelles Content-Management-Tool, das komplett in Swift für effiziente Server entwickelt wurde."
+    },
+    "download_url": "https://feathercms.com",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "sciencefair",
@@ -43117,6 +43341,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "pagible",
+    "name": "pagible",
+    "tagline": "Powerful AI-driven content management for Laravel.",
+    "repo_url": "https://github.com/aimeos/pagible",
+    "full_name": "aimeos/pagible",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "laravel",
+      "cms"
+    ],
+    "icon": "/icons/pagible.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 604,
+    "tier": "tier2_webapp",
+    "summary": "PagibleAI CMS is a flexible cloud-native content management system for Laravel that leverages artificial intelligence to write, translate, and manage websites effortlessly.",
+    "i18n": {
+      "it": "PagibleAI CMS è un sistema flessibile per la gestione dei contenuti nativo cloud che sfrutta l'intelligenza artificiale per creare e tradurre siti.",
+      "es": "PagibleAI CMS es un sistema flexible de gestión de contenido en la nube que utiliza inteligencia artificial para escribir, traducir y administrar sitios.",
+      "fr": "PagibleAI CMS est un système de gestion de contenu flexible et natif du cloud qui exploite l'intelligence artificielle pour administrer vos sites.",
+      "de": "PagibleAI CMS ist ein flexibles, Cloud-natives Content-Management-System für Laravel, das künstliche Intelligenz nutzt, um Websites zu verwalten."
+    },
+    "download_url": "https://pagible.com",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "paperling",
     "name": "Paperling",
     "tagline": "Distraction-free markdown reader and editor",
@@ -43143,6 +43395,34 @@
     },
     "download_url": "https://github.com/Razee4315/Paperling/releases/download/v1.2.0/Paperling_1.2.0_arm64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "truthy",
+    "name": "truthy",
+    "tagline": "Ready-made backend for content sites",
+    "repo_url": "https://github.com/gobeam/truthy",
+    "full_name": "gobeam/truthy",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "backend"
+    ],
+    "icon": "/icons/truthy.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 604,
+    "tier": "tier2_webapp",
+    "summary": "Truthy is a free, open-source backend system that handles user accounts, permissions, and email settings so you can focus on creating content without building the technical foundation from scratch.",
+    "i18n": {
+      "it": "Truthy è un sistema backend open-source gratuito che gestisce account utente, permessi e impostazioni email, permettendoti di concentrarti sulla creazione di contenuti senza costruire le basi tecniche da zero.",
+      "es": "Truthy es un sistema de backend de código abierto y gratuito que gestiona cuentas de usuario, permisos y configuraciones de correo.",
+      "fr": "Truthy est un système de backend open source gratuit qui gère les comptes utilisateurs, les permissions et les paramètres e-mail.",
+      "de": "Truthy ist ein kostenloses, quelloffenes Backend-System, das Benutzerkonten, Berechtigungen und E-Mail-Einstellungen verwaltet, damit Sie sich auf die Erstellung von Inhalten konzentrieren können."
+    },
+    "download_url": "https://github.com/gobeam/truthy/releases",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "hermespet",
@@ -43199,6 +43479,62 @@
     },
     "download_url": "https://github.com/skillhub-club/skillhub-desktop/releases/download/v0.2.7/SkillHub.Desktop_0.2.7_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "emlog",
+    "name": "emlog",
+    "tagline": "Lightweight open-source website and blog publishing system",
+    "repo_url": "https://github.com/emlog/emlog",
+    "full_name": "emlog/emlog",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "blogging",
+      "cms"
+    ],
+    "icon": "/icons/emlog.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 595,
+    "tier": "tier2_webapp",
+    "summary": "Create your personal website or blog quickly with a lightweight publishing system that supports modern text formatting, themes, and plugins.",
+    "i18n": {
+      "it": "Crea il tuo sito web personale o blog rapidamente con un sistema di pubblicazione leggero che supporta formattazione, temi e plugin.",
+      "es": "Crea tu sitio web personal o blog rápidamente con un sistema de publicación ligero que admite formatos de texto modernos, temas y complementos.",
+      "fr": "Créez votre site web personnel ou blog rapidement grâce à un système de publication léger prenant en charge les thèmes et les extensions.",
+      "de": "Erstellen Sie Ihre persönliche Website oder Ihren Blog schnell mit einem leichtgewichtigen System, das moderne Formatierungen und Themes unterstützt."
+    },
+    "download_url": "https://github.com/emlog/emlog/releases",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "mesh",
+    "name": "Gentics Mesh",
+    "tagline": "Flexible headless content storage engine",
+    "repo_url": "https://github.com/gentics/mesh",
+    "full_name": "gentics/mesh",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "headless",
+      "cms"
+    ],
+    "icon": "/icons/mesh.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 594,
+    "tier": "tier2_webapp",
+    "summary": "Gentics Mesh stores and delivers your digital content securely through standard web links and modern search tools.",
+    "i18n": {
+      "it": "Gentics Mesh archivia e consegna i contenuti digitali in modo sicuro tramite collegamenti web standard e strumenti di ricerca.",
+      "es": "Gentics Mesh almacena y entrega tu contenido digital de forma segura a través de enlaces web estándar y herramientas modernas.",
+      "fr": "Gentics Mesh stocke et diffuse votre contenu numérique en toute sécurité grâce à des liens web standard et des outils de recherche.",
+      "de": "Gentics Mesh speichert und liefert Ihre digitalen Inhalte sicher über Standard-Weblinks und moderne Suchwerkzeuge aus."
+    },
+    "download_url": "https://getmesh.io",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "vela",
@@ -43341,6 +43677,90 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "flextype",
+    "name": "Flextype",
+    "tagline": "Fast file-based website content management",
+    "repo_url": "https://github.com/flextype/flextype",
+    "full_name": "flextype/flextype",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "file-based"
+    ],
+    "icon": "/icons/flextype.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 587,
+    "tier": "tier2_webapp",
+    "summary": "Create and manage digital content effortlessly using a lightweight file-based system without needing complex database servers.",
+    "i18n": {
+      "it": "Crea e gestisci contenuti digitali senza sforzo usando un sistema leggero basato su file senza server di database complessi.",
+      "es": "Crea y administra contenido digital sin esfuerzo usando un sistema ligero basado en archivos sin servidores de bases de datos.",
+      "fr": "Créez et gérez du contenu numérique facilement grâce à un système léger basé sur des fichiers sans serveurs de bases de données.",
+      "de": "Erstellen und verwalten Sie digitale Inhalte mühelos mit einem leichten dateibasierten System ohne komplexe Datenbankserver."
+    },
+    "download_url": "https://awilum.github.io/flextype",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "laracms",
+    "name": "laracms",
+    "tagline": "Flexible content management system built for developers",
+    "repo_url": "https://github.com/wanglelecc/laracms",
+    "full_name": "wanglelecc/laracms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "php"
+    ],
+    "icon": "/icons/laracms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 584,
+    "tier": "tier2_webapp",
+    "summary": "LaraCMS is a lightweight website and application backend designed to help developers quickly build company websites and web services.",
+    "i18n": {
+      "it": "LaraCMS è un backend leggero per siti web progettato per aiutare gli sviluppatori a creare rapidamente portali aziendali.",
+      "es": "LaraCMS es un backend ligero para sitios web diseñado para ayudar a los desarrolladores a crear portales empresariales.",
+      "fr": "LaraCMS est un backend de site web léger conçu pour aider les développeurs à créer rapidement des portails d'entreprise.",
+      "de": "LaraCMS ist ein leichtgewichtinales Website-Backend, das Entwicklern hilft, schnell Unternehmensportale zu erstellen."
+    },
+    "download_url": "https://www.laracms.cn/",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "jivejdon",
+    "name": "jivejdon",
+    "tagline": "Interconnected knowledge notebook and forum engine.",
+    "repo_url": "https://github.com/banq/jivejdon",
+    "full_name": "banq/jivejdon",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "knowledge-base",
+      "forum"
+    ],
+    "icon": "/icons/jivejdon.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 583,
+    "tier": "tier2_webapp",
+    "summary": "Organize discussions and notes into an interconnected knowledge web designed for humans and automated systems.",
+    "i18n": {
+      "it": "Organizza discussioni e note in una rete di conoscenza interconnessa progettata per umani e sistemi automatizzati.",
+      "es": "Organiza discusiones y notas en una red de conocimiento interconectada diseñada para humanos y sistemas automatizados.",
+      "fr": "Organisez des discussions et des notes dans un réseau de connaissances interconnecté conçu pour les humains et les systèmes.",
+      "de": "Organisieren Sie Diskussionen und Notizen in einem vernetzten Wissensnetzwerk für Menschen und automatisierte Systeme."
+    },
+    "download_url": "https://github.com/banq/jivejdon/releases/download/5.0/ROOT.war",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "kiri",
     "name": "Kiri",
     "tagline": "Capture screens, record video, extract text",
@@ -43367,6 +43787,118 @@
     },
     "download_url": "https://github.com/yuxino/Kiri/releases/download/v1.6.43/kiri_1.6.43_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "fastschema",
+    "name": "FastSchema",
+    "tagline": "Instant backend and content manager",
+    "repo_url": "https://github.com/fastschema/fastschema",
+    "full_name": "fastschema/fastschema",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "backend",
+      "cms"
+    ],
+    "icon": "/icons/fastschema.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 574,
+    "tier": "tier2_webapp",
+    "summary": "FastSchema is a free tool that automatically creates the backend for your website, allowing you to manage content and data without writing complex code.",
+    "i18n": {
+      "it": "FastSchema è uno strumento gratuito che crea automaticamente il backend del tuo sito, permettendo di gestire contenuti e dati senza scrivere codice complesso.",
+      "es": "FastSchema es una herramienta gratuita que crea automáticamente el backend de tu sitio, permitiendo gestionar contenido y datos sin escribir código complejo.",
+      "fr": "FastSchema est un outil gratuit qui crée automatiquement le backend de votre site, permettant de gérer le contenu et les données sans écrire de code complexe.",
+      "de": "FastSchema ist ein kostenloses Tool, das automatisch den Backend Ihrer Website erstellt und es ermöglicht, Inhalte und Daten ohne komplexen Code zu verwalten."
+    },
+    "download_url": "https://github.com/fastschema/fastschema/releases/download/v0.15.1/fastschema_0.15.1_checksums.txt",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "vaahcms",
+    "name": "VaahCMS",
+    "tagline": "Build professional web apps with ease.",
+    "repo_url": "https://github.com/webreinvent/vaahcms",
+    "full_name": "webreinvent/vaahcms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "web-development"
+    ],
+    "icon": "/icons/vaahcms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 572,
+    "tier": "tier2_webapp",
+    "summary": "VaahCMS is a flexible platform that combines powerful web development tools with a user-friendly system for managing your website content.",
+    "i18n": {
+      "it": "VaahCMS è una piattaforma flessibile che unisce strumenti di sviluppo web a un sistema semplice per gestire i contenuti del tuo sito.",
+      "es": "VaahCMS es una plataforma flexible que combina herramientas de desarrollo web con un sistema sencillo para gestionar el contenido de tu sitio.",
+      "fr": "VaahCMS est une plateforme flexible combinant des outils de développement web et un système simple pour gérer le contenu de votre site.",
+      "de": "VaahCMS ist eine flexible Plattform, die Web-Entwicklungstools mit einem benutzerfreundlichen System zur Inhaltsverwaltung kombiniert."
+    },
+    "download_url": "https://vaah.dev/cms",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "tensei",
+    "name": "Tensei",
+    "tagline": "Fast and secure content management system.",
+    "repo_url": "https://github.com/tenseijs/tensei",
+    "full_name": "tenseijs/tensei",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "content-management"
+    ],
+    "icon": "/icons/tensei.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 567,
+    "tier": "tier2_webapp",
+    "summary": "Tensei is an open-source tool that helps you manage digital content and create secure online services with ease.",
+    "i18n": {
+      "it": "Tensei è uno strumento open source che ti aiuta a gestire contenuti digitali e creare servizi online sicuri.",
+      "es": "Tensei es una herramienta de código abierto para administrar contenido digital y crear servicios en línea seguros.",
+      "fr": "Tensei est un outil open source qui vous aide à gérer du contenu numérique et à créer des services en ligne.",
+      "de": "Tensei ist ein Open-Source-Tool zur Verwaltung digitaler Inhalte und zum Erstellen sicherer Online-Dienste."
+    },
+    "download_url": "https://tenseijs.com",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "fluentcms",
+    "name": "FluentCMS",
+    "tagline": "Modern flexible content management for web",
+    "repo_url": "https://github.com/fluentcms/fluentcms",
+    "full_name": "fluentcms/fluentcms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "content-management"
+    ],
+    "icon": "/icons/fluentcms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 566,
+    "tier": "tier2_webapp",
+    "summary": "Manage digital content and media effortlessly using a flexible, high-speed open source system built for modern websites.",
+    "i18n": {
+      "it": "Gestisci contenuti digitali e media senza sforzo utilizzando un sistema open source flessibile e veloce per siti web.",
+      "es": "Administra contenidos digitales y multimedia fácilmente con un sistema de código abierto rápido y flexible para la web.",
+      "fr": "Gérez vos contenus numériques et médias facilement grâce à un système open source rapide et flexible pour le web.",
+      "de": "Verwalten Sie digitale Inhalte und Medien mühelos mit einem flexiblen, schnellen Open-Source-System für Websites."
+    },
+    "download_url": "https://fluentcms.com",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "rightmenu-master",
@@ -43423,6 +43955,34 @@
     },
     "download_url": "https://github.com/EthanYoQ/Invoice-Downloader/releases/download/v2026.09.25.1/InvoiceFlowAI-v2026.09.25.1-windows-x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "django-5-by-example",
+    "name": "Django-5-By-Example",
+    "tagline": "Master professional web applications step-by-step",
+    "repo_url": "https://github.com/packtpublishing/django-5-by-example",
+    "full_name": "packtpublishing/django-5-by-example",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "django",
+      "web-development"
+    ],
+    "icon": "/icons/django-5-by-example.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 556,
+    "tier": "tier2_webapp",
+    "summary": "Learn modern web development by building four complete real-world applications using Python and Django 5.",
+    "i18n": {
+      "it": "Impara lo sviluppo web moderno creando quattro applicazioni reali complete con Python e Django 5.",
+      "es": "Aprende desarrollo web moderno construyendo cuatro aplicaciones reales completas usando Python y Django 5.",
+      "fr": "Apprenez le développement web moderne en créant quatre applications concrètes complètes avec Python et Django 5.",
+      "de": "Lernen Sie moderne Webentwicklung, indem Sie vier vollständige reale Anwendungen mit Python und Django 5 erstellen."
+    },
+    "download_url": "https://djangobyexample.com/",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "hob",
@@ -43537,6 +44097,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "eleventy-netlify-boilerplate",
+    "name": "eleventy-netlify-boilerplate",
+    "tagline": "Build lightning-fast websites with content management",
+    "repo_url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
+    "full_name": "danurbanowicz/eleventy-netlify-boilerplate",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "blog",
+      "cms"
+    ],
+    "icon": "/icons/eleventy-netlify-boilerplate.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 546,
+    "tier": "tier2_webapp",
+    "summary": "Easily launch a high-performance blog using modern web tools and a built-in content editor.",
+    "i18n": {
+      "it": "Avvia facilmente un blog ad alte prestazioni con strumenti moderni e un editor di contenuti integrato.",
+      "es": "Lanza fácilmente un blog de alto rendimiento utilizando herramientas web modernas y un editor integrado.",
+      "fr": "Lancez facilement un blog haute performance grâce à des outils web modernes et un éditeur intégré.",
+      "de": "Starten Sie ganz einfach einen leistungsstarken Blog mit modernen Web-Tools und integriertem Editor."
+    },
+    "download_url": "https://eleventy-netlify-boilerplate.netlify.app/",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "symphonycms",
+    "name": "Symphony CMS",
+    "tagline": "Flexible content management with deep control",
+    "repo_url": "https://github.com/symphonycms/symphonycms",
+    "full_name": "symphonycms/symphonycms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "php"
+    ],
+    "icon": "/icons/symphonycms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 546,
+    "tier": "tier2_webapp",
+    "summary": "Symphony is a powerful web publishing platform that gives creators and developers total control over content structure using standard web languages.",
+    "i18n": {
+      "it": "Symphony è una piattaforma di publishing web flessibile che offre totale controllo sulla struttura dei contenuti tramite linguaggi standard.",
+      "es": "Symphony es una plataforma de publicación web flexible que ofrece control total sobre la estructura de contenidos mediante estándares.",
+      "fr": "Symphony est une plateforme de publication web flexible offrant un contrôle total sur la structure des contenus grâce aux standards web.",
+      "de": "Symphony ist eine flexible Web-Publishing-Plattform, die volle Kontrolle über die Inhaltsstruktur durch Webstandards ermöglicht."
+    },
+    "download_url": "https://www.getsymphony.com",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "percho",
     "name": "Percho",
     "tagline": "Clean visual desktop interface for AI coding",
@@ -43591,6 +44207,34 @@
     },
     "download_url": "https://github.com/lullabyX/sone/releases/download/v0.23.0/SONE_0.23.0_amd64.deb",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "webapp-wordlists",
+    "name": "Webapp Wordlists",
+    "tagline": "Ready‑made file lists for web apps",
+    "repo_url": "https://github.com/p0dalirius/webapp-wordlists",
+    "full_name": "p0dalirius/webapp-wordlists",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "wordlists",
+      "web-apps"
+    ],
+    "icon": "/icons/webapp-wordlists.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 536,
+    "tier": "tier2_webapp",
+    "summary": "A free collection of ready‑to‑use file and folder names for many popular web applications and CMS versions, helping you check, migrate or audit sites quickly.",
+    "i18n": {
+      "it": "Una raccolta pronta di nomi di file e cartelle per le versioni più diffuse di CMS e applicazioni web, utile per controlli e migrazioni.",
+      "es": "Una colección lista de nombres de archivos y carpetas de las versiones más populares de CMS y aplicaciones web, útil para auditorías y migraciones.",
+      "fr": "Une collection prête de noms de fichiers et dossiers pour les versions les plus courantes de CMS et d’applications web, pratique pour les vérifications et les migrations.",
+      "de": "Eine fertige Sammlung von Dateinamen und Ordnern für die gängigsten CMS‑ und Web‑App‑Versionen, praktisch für Prüfungen und Migrationen."
+    },
+    "download_url": "https://podalirius.net/",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "clawwork",
@@ -43649,6 +44293,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "omeka-s",
+    "name": "Omeka S",
+    "tagline": "Publish digital collections and museum archives",
+    "repo_url": "https://github.com/omeka/omeka-s",
+    "full_name": "omeka/omeka-s",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "publishing",
+      "archives"
+    ],
+    "icon": "/icons/omeka-s.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 534,
+    "tier": "tier2_webapp",
+    "summary": "Omeka S is a web publication system that lets cultural institutions share digital collections and exhibits from a shared pool of items.",
+    "i18n": {
+      "it": "Omeka S è un sistema di pubblicazione web per condividere collezioni digitali e mostre attingendo a un archivio comune.",
+      "es": "Omeka S es un sistema de publicación web para compartir colecciones digitales y exposiciones desde un archivo compartido.",
+      "fr": "Omeka S est un système de publication web pour partager des collections numériques et des expositions à partir d'un fonds commun.",
+      "de": "Omeka S ist ein Webpublikationssystem für Kultureinrichtungen, um digitale Sammlungen aus einem gemeinsamen Pool zu teilen."
+    },
+    "download_url": "https://github.com/omeka/omeka-s/releases",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "pdf2zh-desktop",
     "name": "pdf2zh-desktop",
     "tagline": "Translate academic PDFs keeping perfect formatting.",
@@ -43675,6 +44347,34 @@
     },
     "download_url": "https://github.com/AaronGIG/pdf2zh-desktop/releases/download/v2.3.42/pdf2zh-connector-v1.0.21.xpi",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "wikidocs",
+    "name": "WikiDocs",
+    "tagline": "Your private, portable knowledge base",
+    "repo_url": "https://github.com/zavy86/wikidocs",
+    "full_name": "zavy86/wikidocs",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "productivity",
+      "notes"
+    ],
+    "icon": "/icons/wikidocs.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 534,
+    "tier": "tier2_webapp",
+    "summary": "WikiDocs is a simple, private way to organize your notes and documents using standard text files that you fully own and control.",
+    "i18n": {
+      "it": "WikiDocs è un modo semplice e privato per organizzare note e documenti usando file di testo standard che possiedi e controlli totalmente.",
+      "es": "WikiDocs es una forma sencilla y privada de organizar tus notas y documentos usando archivos de texto estándar que posees y controlas.",
+      "fr": "WikiDocs est un moyen simple et privé d'organiser vos notes et documents en utilisant des fichiers texte standard que vous possédez.",
+      "de": "WikiDocs ist eine einfache und private Art, Notizen und Dokumente mit Standard-Textdateien zu organisieren, die Sie vollständig besitzen."
+    },
+    "download_url": "https://github.com/Zavy86/WikiDocs/releases/download/2.0.6/WikiDocs-windows-2.0.6.exe",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "savestate",
