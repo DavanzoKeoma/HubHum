@@ -11,7 +11,7 @@ summary: "Free system cleanup utilities and privacy auditing tools that remove u
 parent_slug: "security-privacy"
 child_slugs: ["security-privacy/system-cleaners-auditors/best-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
 sibling_slugs: []
-app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows", "dotenvx", "sophiapp", "pangolin-desktop"]
+app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows", "pdfcpu", "sophiapp", "pangolin-desktop"]
 updated_at: "2026-11-23"
 ---
 
@@ -29,6 +29,6 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Termix](/HubHum/apps/termix/)** — Termix is a flexible, self-hosted platform that lets you organize and control your remote servers, files, and connections from a single dashboard. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Winhance](/HubHum/apps/winhance/)** — Winhance is a handy utility application designed to clean up, optimize, and personalize your Windows 10 and 11 computers. *(Desktop App · License: Custom Open License)*
 - **[Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/)** — An advanced PowerShell tool helps you customize, clean up, and fine-tune Windows 10 and 11 safely. *(Desktop App · License: Open Source (MIT))*
-- **[dotenvx](/HubHum/apps/dotenvx/)** — Encrypt sensitive settings files so you can safely store them alongside your code in version control without risking leaks. *(Desktop App · License: Open Source (BSD))*
+- **[pdfcpu](/HubHum/apps/pdfcpu/)** — A powerful utility that lets you merge, split, encrypt, and modify PDF documents directly from your computer setup. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[SophiApp](/HubHum/apps/sophiapp/)** — SophiApp is a user-friendly tool that lets you customize and optimize your Windows 10 or 11 system using safe, official methods. *(Desktop App · License: Open Source (MIT))*
 - **[Pangolin Desktop](/HubHum/apps/pangolin-desktop/)** — Pangolin Desktop provides a modern and fluid visual interface shell built for dahliaOS using flexible multi-platform tools. *(Desktop App · License: Open Source (Apache 2.0))*

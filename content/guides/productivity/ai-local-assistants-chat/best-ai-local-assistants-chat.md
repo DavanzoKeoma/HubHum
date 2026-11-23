@@ -11,7 +11,7 @@ summary: "Compare NextChat vs ChatGPT and 8 free tools for Local AI Assistants, 
 parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
-app_slugs: ["nextchat", "chatgpt", "uni-app", "codewhale", "etcher", "claude-code-templates", "dbx", "invokeai"]
+app_slugs: ["nextchat", "chatgpt", "uni-app", "codewhale", "etcher", "claude-code-templates", "dbx", "librepods"]
 updated_at: "2026-11-23"
 ---
 
@@ -30,7 +30,7 @@ Comparing **NextChat** and **ChatGPT** highlights two distinct approaches in **L
 | [etcher](/HubHum/apps/etcher/) | Desktop App | Windows, macOS, Linux | ★ 34,750 | Open Source (Apache 2.0) |
 | [claude-code-templates](/HubHum/apps/claude-code-templates/) | Open Reference | All / Reference | ★ 34,018 | Open Source (MIT) |
 | [dbx](/HubHum/apps/dbx/) | Desktop App | Windows, macOS, Linux | ★ 31,013 | Open Source (Apache 2.0) |
-| [InvokeAI](/HubHum/apps/invokeai/) | Desktop App | Windows, macOS, Linux | ★ 29,140 | Open Source (Apache 2.0) |
+| [LibrePods](/HubHum/apps/librepods/) | Desktop App | Linux, Android | ★ 30,943 | Open Source (GPL v3) |
 
 ### When to Pick Which Option
 - **Choose [NextChat](/HubHum/apps/nextchat/) (Desktop App)** if you need what it specializes in: Easily converse with multiple artificial intelligence models in one clean interface without complex setup — it installs directly as a desktop application (Windows, macOS, Linux) (88,985 GitHub stars, vs ChatGPT which runs as a Desktop App).

@@ -11,13 +11,13 @@ summary: "Everyday open-source software to edit PDFs, read e-books comfortably, 
 parent_slug: "productivity"
 child_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
 sibling_slugs: []
-app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "monitorcontrol", "jobs-applier-ai-agent", "filee", "libuv", "readest", "social-analyzer", "react-native-web", "peass-ng", "xerj", "uwebsockets", "flet", "vercel", "duf"]
+app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "monitorcontrol", "jobs-applier-ai-agent", "filee", "vcpkg", "flatbuffers", "readest", "komi-store", "flutterexampleapps", "peass-ng", "ish", "ab-download-manager", "xerj", "effect"]
 updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Free PDF, Document & E-Book Tools
 
-This topic hub groups **119 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **123 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -32,7 +32,7 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[MonitorControl](/HubHum/apps/monitorcontrol/)** — Manage external screen brightness and volume on your Mac using standard keyboard keys or sliders that match native Apple controls. *(Desktop App · License: Open Source (MIT))*
 - **[Jobs_Applier_AI_Agent](/HubHum/apps/jobs-applier-ai-agent/)** — This tool scans thousands of job postings to find matches for your resume and automatically fills out application forms on your behalf. *(Desktop App · License: Open Source (MIT))*
 - **[Filee](/HubHum/apps/filee/)** — Convert hundreds of file formats instantly on your computer by dragging and dropping items right at your cursor, entirely offline. *(Desktop App · License: Open Source (MIT))*
-- **[libuv](/HubHum/apps/libuv/)** — A robust multi-platform support library focused on asynchronous input and output operations, widely used for high-performance software. *(Desktop App · License: Open Source (MIT))*
+- **[vcpkg](/HubHum/apps/vcpkg/)** — vcpkg is a cross-platform library manager that helps developers easily find, install, and manage third-party software packages for C and C++ projects. *(Desktop App · License: Open Source (MIT))*
+- **[flatbuffers](/HubHum/apps/flatbuffers/)** — Store and exchange data efficiently without tedious unpacking steps, saving precious memory and processing time. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Readest](/HubHum/apps/readest/)** — Readest is a feature-rich ebook reader that helps you organize your library and enjoy books across all your favorite devices. *(Desktop App · License: Open Source (AGPL v3))*
-- **[social-analyzer](/HubHum/apps/social-analyzer/)** — Quickly locate and analyze user profiles across more than a thousand social networks using a simple tool. *(Desktop App · License: Open Source (AGPL v3))*
-- **[React Native for Web](/HubHum/apps/react-native-web/)** — This tool allows developers to use mobile app code to create responsive, high-performance websites that look and feel like native apps. *(Desktop App · License: Open Source (MIT))*
+- **[komi-store](/HubHum/apps/komi-store/)** — Browse, discover, and install open-source software directly from GitHub and Codeberg with a single click. *(Desktop App · License: Open Source (Apache 2.0))*

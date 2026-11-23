@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Privacy Cleaners & System Audi
 parent_slug: "security-privacy/system-cleaners-auditors"
 child_slugs: []
 sibling_slugs: ["security-privacy/system-cleaners-auditors/best-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
-app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows", "dotenvx"]
+app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows", "pdfcpu"]
 updated_at: "2026-11-23"
 ---
 
@@ -30,4 +30,4 @@ Switching to free open-source tools in **Privacy Cleaners & System Auditors** le
 - **[Termix](/HubHum/apps/termix/)** (Desktop App) — Termix is a flexible, self-hosted platform that lets you organize and control your remote servers, files, and connections from a single dashboard.
 - **[Winhance](/HubHum/apps/winhance/)** (Desktop App) — Winhance is a handy utility application designed to clean up, optimize, and personalize your Windows 10 and 11 computers.
 - **[Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/)** (Desktop App) — An advanced PowerShell tool helps you customize, clean up, and fine-tune Windows 10 and 11 safely.
-- **[dotenvx](/HubHum/apps/dotenvx/)** (Desktop App) — Encrypt sensitive settings files so you can safely store them alongside your code in version control without risking leaks.
+- **[pdfcpu](/HubHum/apps/pdfcpu/)** (Desktop App) — A powerful utility that lets you merge, split, encrypt, and modify PDF documents directly from your computer setup.

@@ -11,13 +11,13 @@ summary: "Browser-based workspaces for saving links, backing up family photos, a
 parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/troubleshooting-self-hosted-cloud-apps"]
 sibling_slugs: []
-app_slugs: ["immich", "memos", "serviette", "gogs", "siyuan", "reactive-resume", "easyspider", "filament", "karakeep", "proxmoxve", "archivebox", "linkwarden", "docuseal", "katana", "documenso", "onedev", "notesnook", "mealie"]
+app_slugs: ["immich", "memos", "serviette", "gogs", "siyuan", "reactive-resume", "easyspider", "filament", "karakeep", "proxmoxve", "archivebox", "skyvern", "companyos", "linkwarden", "convertx", "windmill", "vux", "documenso"]
 updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Personal Cloud Hubs, Photos & File Sharing
 
-This topic hub groups **71 vetted free tools** specializing in **Personal Cloud Hubs, Photos & File Sharing** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **80 vetted free tools** specializing in **Personal Cloud Hubs, Photos & File Sharing** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -35,4 +35,4 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Karakeep](/HubHum/apps/karakeep/)** — Store and organize links, images, notes, and documents in one private, searchable space. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
 - **[ProxmoxVE](/HubHum/apps/proxmoxve/)** — This tool provides simple, one-command shortcuts to install hundreds of different services on your home server system. *(Self-Hosted Web App · License: Open Source (MIT))*
 - **[ArchiveBox](/HubHum/apps/archivebox/)** — ArchiveBox saves permanent offline copies of web pages, bookmarks, and media so they never disappear from the internet. *(Self-Hosted Web App · License: Open Source (MIT))*
-- **[Linkwarden](/HubHum/apps/linkwarden/)** — An open-source tool to collect, read, annotate, and archive important web pages and articles in one secure place. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
+- **[Skyvern](/HubHum/apps/skyvern/)** — Skyvern uses artificial intelligence and vision to navigate websites, fill out forms, and automate repetitive tasks reliably without breaking when. *(Self-Hosted Web App · License: Open Source (AGPL v3))*

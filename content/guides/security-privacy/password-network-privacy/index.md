@@ -11,13 +11,13 @@ summary: "Verified free tools to inspect network connections, encrypt traffic, a
 parent_slug: "security-privacy"
 child_slugs: ["security-privacy/password-network-privacy/best-password-network-privacy", "security-privacy/password-network-privacy/how-to-choose-password-network-privacy", "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"]
 sibling_slugs: []
-app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "safeline", "v2raya", "metube", "esp32marauder", "netmaker", "pdfcpu", "gui-for-singbox", "bleachbit", "docker-ipsec-vpn-server", "airgorah", "rytunex", "wireguard-install"]
+app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "safeline", "v2raya", "metube", "opensnitch", "esp32marauder", "netmaker", "gui-for-singbox", "bleachbit", "docker-ipsec-vpn-server", "airgorah", "spotx-bash", "privacy-sexy"]
 updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Privacy Tools, VPNs & Network Monitors
 
-This topic hub groups **19 vetted free tools** specializing in **Privacy Tools, VPNs & Network Monitors** inside **Security & Privacy**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **23 vetted free tools** specializing in **Privacy Tools, VPNs & Network Monitors** inside **Security & Privacy**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -33,6 +33,6 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[SafeLine](/HubHum/apps/safeline/)** — A robust security shield that filters web traffic, blocks malicious attacks, and keeps your online services safe from hackers. *(Self-Hosted Web App · License: Open Source (GPL v3))*
 - **[v2rayA](/HubHum/apps/v2raya/)** — v2rayA provides a clean web-based control center for managing advanced internet connection tunnels and proxy rules. *(Desktop App · License: Open Source (AGPL v3))*
 - **[metube](/HubHum/apps/metube/)** — MeTube is a free, self-hosted web interface that lets you download videos, audio, and subtitles from YouTube and hundreds of other sites directly to your server. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
+- **[OpenSnitch](/HubHum/apps/opensnitch/)** — OpenSnitch is a free, open-source firewall for Linux that asks you before any program connects to the internet. *(Desktop App · License: Open Source (GPL v3))*
 - **[ESP32Marauder](/HubHum/apps/esp32marauder/)** — ESP32Marauder is a comprehensive collection of wireless auditing tools designed for small pocket-sized microcontrollers. *(Desktop App · License: Open Source License)*
 - **[Netmaker](/HubHum/apps/netmaker/)** — Netmaker creates fast, secure, and distributed virtual private networks using WireGuard technology to connect your devices easily. *(Self-Hosted Web App · License: Custom Open License)*
-- **[pdfcpu](/HubHum/apps/pdfcpu/)** — A powerful utility that lets you merge, split, encrypt, and modify PDF documents directly from your computer setup. *(Desktop App · License: Open Source (Apache 2.0))*

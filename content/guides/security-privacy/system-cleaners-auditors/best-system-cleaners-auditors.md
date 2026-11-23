@@ -11,7 +11,7 @@ summary: "Compare Mole vs PentAGI and 8 free tools for Privacy Cleaners & System
 parent_slug: "security-privacy/system-cleaners-auditors"
 child_slugs: []
 sibling_slugs: ["security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
-app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows", "dotenvx", "sophiapp", "pangolin-desktop"]
+app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows", "pdfcpu", "sophiapp", "pangolin-desktop"]
 updated_at: "2026-11-23"
 ---
 
@@ -28,7 +28,7 @@ Comparing **Mole** and **PentAGI** highlights two distinct approaches in **Priva
 | [Termix](/HubHum/apps/termix/) | Desktop App | Windows, macOS, Linux | ★ 16,079 | Open Source (Apache 2.0) |
 | [Winhance](/HubHum/apps/winhance/) | Desktop App | Windows | ★ 15,036 | Custom Open License |
 | [Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/) | Desktop App | Windows | ★ 9,971 | Open Source (MIT) |
-| [dotenvx](/HubHum/apps/dotenvx/) | Desktop App | Windows, macOS, Linux | ★ 5,884 | Open Source (BSD) |
+| [pdfcpu](/HubHum/apps/pdfcpu/) | Desktop App | Windows, macOS, Linux | ★ 8,918 | Open Source (Apache 2.0) |
 | [SophiApp](/HubHum/apps/sophiapp/) | Desktop App | Windows | ★ 5,257 | Open Source (MIT) |
 | [Pangolin Desktop](/HubHum/apps/pangolin-desktop/) | Desktop App | Linux | ★ 1,964 | Open Source (Apache 2.0) |
 

@@ -11,7 +11,7 @@ summary: "Compare Netdata vs nanobot and 8 free tools for Home Lab Media Servers
 parent_slug: "web-apps-cloud/home-lab-media-servers"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"]
-app_slugs: ["netdata", "nanobot", "khoj", "changedetection-io", "meetily", "nanoclaw", "nocobase", "skyvern"]
+app_slugs: ["netdata", "nanobot", "khoj", "changedetection-io", "meetily", "nanoclaw", "nocobase", "marimo"]
 updated_at: "2026-11-23"
 ---
 
@@ -30,7 +30,7 @@ Comparing **Netdata** and **nanobot** highlights two distinct approaches in **Ho
 | [meetily](/HubHum/apps/meetily/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 32,898 | Open Source (MIT) |
 | [nanoclaw](/HubHum/apps/nanoclaw/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 31,128 | Open Source (MIT) |
 | [NocoBase](/HubHum/apps/nocobase/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 24,971 | Custom Open License |
-| [Skyvern](/HubHum/apps/skyvern/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 23,477 | Open Source (AGPL v3) |
+| [marimo](/HubHum/apps/marimo/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 23,714 | Open Source (Apache 2.0) |
 
 ### When to Pick Which Option
 - **Choose [Netdata](/HubHum/apps/netdata/) (Self-Hosted Web App)** if you need what it specializes in: Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues — it runs on your own private server or local computer so files stay under your control (81,537 GitHub stars, vs nanobot which runs as a Self-Hosted Web App).
