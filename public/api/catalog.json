@@ -2,27 +2,27 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-23T08:38:13.611458+00:00",
-  "total_apps": 1675,
+  "generated_at": "2026-11-23T08:40:43.218338+00:00",
+  "total_apps": 1700,
   "tier_counts": {
     "tier3_powertool": 325,
-    "tier2_webapp": 489,
-    "tier1_gui": 861
+    "tier2_webapp": 502,
+    "tier1_gui": 873
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 315,
-    "selfhosted": 488,
-    "desktop": 861,
+    "selfhosted": 501,
+    "desktop": 873,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 26,
-    "Productivity": 754,
+    "Productivity": 766,
     "Security & Privacy": 49,
     "Utilities & Power Tools": 287,
     "Video & Audio": 93,
-    "Web Apps & Cloud": 465,
+    "Web Apps & Cloud": 478,
     "Websites & SEO": 1
   },
   "apps": [
@@ -16097,6 +16097,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "pock",
+      "name": "Pock",
+      "tagline": "MacBook Touch Bar widget manager",
+      "repo_url": "https://github.com/pock/pock",
+      "full_name": "pock/pock",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "macbook"
+      ],
+      "icon": "/icons/pock.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 10176,
+      "tier": "tier1_gui",
+      "summary": "Transform your MacBook Touch Bar into a useful widget dashboard for media, weather, and quick system controls.",
+      "i18n": {
+        "it": "Trasforma la Touch Bar del tuo MacBook in una utile bacheca di widget per contenuti multimediali e controlli.",
+        "es": "Transforma la Touch Bar de tu MacBook en un panel de widgets útil para multimedia, clima y controles.",
+        "fr": "Transformez la Touch Bar de votre MacBook en tableau de bord de widgets pour les médias et contrôles.",
+        "de": "Verwandeln Sie die MacBook Touch Bar in ein nützliches Widget-Dashboard für Medien und Systemsteuerungen."
+      },
+      "download_url": "https://pock.app",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "usql",
       "name": "usql",
       "tagline": "Universal command-line tool for databases",
@@ -16377,6 +16405,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "hackintosh",
+      "name": "Hackintosh",
+      "tagline": "Run macOS on standard PC hardware easily.",
+      "repo_url": "https://github.com/daliansky/hackintosh",
+      "full_name": "daliansky/hackintosh",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "hackintosh"
+      ],
+      "icon": "/icons/hackintosh.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 10020,
+      "tier": "tier1_gui",
+      "summary": "A comprehensive, long-term maintenance collection of configuration guides and files to run macOS on popular laptops and desktop computers.",
+      "i18n": {
+        "it": "Una raccolta completa di guide e configurazioni per installare e mantenere macOS su vari computer portatili e fissi.",
+        "es": "Una colección completa de guías y archivos para ejecutar macOS en computadoras portátiles y de escritorio estándar.",
+        "fr": "Une collection complète de guides et de configurations pour installer et exécuter macOS sur divers ordinateurs portables et de bureau.",
+        "de": "Eine umfassende Sammlung von Anleitungen und Konfigurationen, um macOS auf gängigen Laptop- und Desktop-Computern auszuführen."
+      },
+      "download_url": "https://github.com/daliansky/Hackintosh/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "keystone",
       "name": "Keystone",
       "tagline": "A powerful system for managing digital content",
@@ -16459,6 +16515,62 @@
       },
       "download_url": "https://github.com/farag2/Sophia-Script-for-Windows/releases/download/8.1.0/Sophia.Script.for.Windows.11.v8.1.0_WinGet.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "opendrop",
+      "name": "OpenDrop",
+      "tagline": "Share files easily between devices wirelessly.",
+      "repo_url": "https://github.com/seemoo-lab/opendrop",
+      "full_name": "seemoo-lab/opendrop",
+      "category": "Productivity",
+      "tags": [
+        "file-sharing",
+        "networking"
+      ],
+      "icon": "/icons/opendrop.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 9962,
+      "tier": "tier1_gui",
+      "summary": "OpenDrop is an open file-sharing tool that lets you send documents directly between computers and mobile devices over local Wi-Fi networks.",
+      "i18n": {
+        "it": "OpenDrop è uno strumento di condivisione file che consente di inviare documenti direttamente tra dispositivi tramite Wi-Fi.",
+        "es": "OpenDrop es una herramienta para enviar documentos directamente entre ordenadores y dispositivos móviles a través de Wi-Fi.",
+        "fr": "OpenDrop est un outil open source permettant d'envoyer des documents directement entre ordinateurs et mobiles via Wi-Fi.",
+        "de": "OpenDrop ist ein Open-Source-Tool zum direkten Senden von Dokumenten zwischen Computern und Mobilgeräten über WLAN."
+      },
+      "download_url": "https://github.com/seemoo-lab/opendrop/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "eul",
+      "name": "eul",
+      "tagline": "Monitor your Mac status effortlessly.",
+      "repo_url": "https://github.com/gao-sun/eul",
+      "full_name": "gao-sun/eul",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "monitoring"
+      ],
+      "icon": "/icons/eul.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 9955,
+      "tier": "tier1_gui",
+      "summary": "A clean macOS status monitoring app that tracks system performance, memory usage, and battery levels directly from your menu bar.",
+      "i18n": {
+        "it": "Un'applicazione pulita per macOS che monitora le prestazioni del sistema, la memoria e la batteria direttamente dalla barra dei menu.",
+        "es": "Una aplicación limpia para macOS que rastrea el rendimiento del sistema, la memoria y la batería directamente desde la barra de menús.",
+        "fr": "Une application claire pour macOS qui suit les performances du système, la mémoire et la batterie directement depuis la barre des menus.",
+        "de": "Eine übersichtliche macOS-App zur Überwachung von Systemleistung, Arbeitsspeicher und Akkuladestand direkt in der Menüleiste."
+      },
+      "download_url": "https://github.com/gao-sun/eul/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "gtop",
@@ -16573,6 +16685,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "openbot",
+      "name": "OpenBot",
+      "tagline": "Your local workspace for persistent AI teammates",
+      "repo_url": "https://github.com/nightly-labs/openbot",
+      "full_name": "nightly-labs/openbot",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "desktop"
+      ],
+      "icon": "/icons/openbot.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 9908,
+      "tier": "tier1_gui",
+      "summary": "Manage multiple artificial intelligence assistants with individual workspaces, message queues, and built-in file sharing right on your desktop.",
+      "i18n": {
+        "it": "Gestisci più assistenti virtuali con spazi di lavoro dedicati, code di messaggi e condivisione file direttamente sul tuo computer.",
+        "es": "Organiza múltiples asistentes de inteligencia artificial con espacios privados, colas de tareas y carpetas compartidas en tu equipo.",
+        "fr": "Gérez plusieurs assistants intelligents avec des espaces de travail dédiés, des files d'attente et du partage de fichiers direct.",
+        "de": "Verwalten Sie mehrere KI-Assistenten mit eigenen Arbeitsbereichen, Aufgabenwarteschlangen und Dateifreigabe auf Ihrem PC."
+      },
+      "download_url": "https://github.com/nightly-labs/openbot/releases/download/v0.76.1/OpenBot-0.76.1-x64.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "hunk",
       "name": "hunk",
       "tagline": "Interactive tool for reviewing code changes",
@@ -16627,6 +16767,34 @@
       },
       "download_url": "https://kaneo.app/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "macdown",
+      "name": "MacDown",
+      "tagline": "Open-source Markdown editor for macOS",
+      "repo_url": "https://github.com/macdownapp/macdown",
+      "full_name": "macdownapp/macdown",
+      "category": "Productivity",
+      "tags": [
+        "markdown",
+        "editor"
+      ],
+      "icon": "/icons/macdown.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Custom Open License",
+      "stars": 9846,
+      "tier": "tier1_gui",
+      "summary": "MacDown is a free and open-source text editor designed for macOS that lets you write and preview documents using simple formatting symbols.",
+      "i18n": {
+        "it": "MacDown è un editor di testo open-source gratuito per macOS che permette di scrivere e visualizzare documenti con semplici simboli di formattazione.",
+        "es": "MacDown es un editor de texto de código abierto gratuito para macOS que te permite escribir y previsualizar documentos con símbolos sencillos.",
+        "fr": "MacDown est un traitement de texte open-source gratuit pour macOS qui vous permet de rédiger et prévisualiser des documents en toute simplicité.",
+        "de": "MacDown ist ein kostenloser Open-Source-Texteditor für macOS, mit dem Sie Dokumente ganz einfach mit Formatierungssymbolen schreiben."
+      },
+      "download_url": "https://macdown.uranusjr.com/",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "windows-auto-night-mode",
@@ -16769,6 +16937,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "bob",
+      "name": "Bob",
+      "tagline": "Quick translation and text recognition for Mac",
+      "repo_url": "https://github.com/ripperhe/bob",
+      "full_name": "ripperhe/bob",
+      "category": "Productivity",
+      "tags": [
+        "translation",
+        "ocr"
+      ],
+      "icon": "/icons/bob.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Custom Open License",
+      "stars": 9760,
+      "tier": "tier1_gui",
+      "summary": "Bob is a lightweight menu bar tool for Mac that instantly translates foreign text and extracts words from images on your screen.",
+      "i18n": {
+        "it": "Bob è uno strumento leggero per Mac che traduce all'istante testi stranieri ed estrae parole dalle immagini sullo schermo.",
+        "es": "Bob es una herramienta ligera para Mac que traduce al instante textos extranjeros y extrae palabras de imágenes en tu pantalla.",
+        "fr": "Bob est un outil léger pour Mac qui traduit instantanément des textes étrangers et extrait des mots d'images sur l'écran.",
+        "de": "Bob ist ein leichtes Mac-Menüleistentool, das Fremdtexte sofort übersetzt und Wörter aus Bildern auf dem Bildschirm extrahiert."
+      },
+      "download_url": "https://bobtranslate.com",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "reviewdog",
       "name": "reviewdog",
       "tagline": "Automated code reviews for cleaner software",
@@ -16851,6 +17047,34 @@
       },
       "download_url": "https://www.runtipi.io/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "tinycast",
+      "name": "Tinycast",
+      "tagline": "Lightning fast native macOS productivity launcher",
+      "repo_url": "https://github.com/abue-ammar/tinycast",
+      "full_name": "abue-ammar/tinycast",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "productivity"
+      ],
+      "icon": "/icons/tinycast.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Custom Open License",
+      "stars": 9731,
+      "tier": "tier1_gui",
+      "summary": "A lightweight, privacy-focused command launcher for macOS that helps you run commands, search files, and use productivity extensions instantly.",
+      "i18n": {
+        "it": "Un launcher leggero e orientato alla privacy per macOS che consente di eseguire comandi, cercare file e usare estensioni all'istante.",
+        "es": "Un lanzador ligero y privado para macOS que te ayuda a ejecutar comandos, buscar archivos y usar extensiones al instante.",
+        "fr": "Un lanceur léger et axé sur la confidentialité pour macOS qui vous permet d'exécuter des commandes et des extensions instantanément.",
+        "de": "Ein schneller und datenschutzfreundlicher Programmstarter für macOS, mit dem Sie Befehle ausführen und Erweiterungen nutzen können."
+      },
+      "download_url": "https://github.com/abue-ammar/tinycast/releases/download/v0.12.15/Tinycast-0.12.15.dmg",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "grocy",
@@ -17299,6 +17523,34 @@
       },
       "download_url": "https://github.com/git-ecosystem/git-credential-manager/releases/download/v3.0.2/gcm-win-arm64-3.0.2.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "whitesur-gtk-theme",
+      "name": "WhiteSur-gtk-theme",
+      "tagline": "Transform your Linux desktop to look like macOS.",
+      "repo_url": "https://github.com/vinceliuice/whitesur-gtk-theme",
+      "full_name": "vinceliuice/whitesur-gtk-theme",
+      "category": "Productivity",
+      "tags": [
+        "theme",
+        "macos"
+      ],
+      "icon": "/icons/whitesur-gtk-theme.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 9462,
+      "tier": "tier1_gui",
+      "summary": "Apply a clean, polished macOS visual style to your Linux desktop environment, window borders, web browser, and login screen.",
+      "i18n": {
+        "it": "Applica un look pulito e raffinato ispirato a macOS al tuo ambiente desktop Linux, alle finestre e al browser web.",
+        "es": "Aplica un aspecto limpio y elegante inspirado en macOS a tu entorno de escritorio Linux, ventanas y navegador web.",
+        "fr": "Appliquez un style visuel soigné inspiré de macOS à votre environnement de bureau Linux, vos fenêtres et votre navigateur.",
+        "de": "Verleihen Sie Ihrer Linux-Benutzeroberfläche, den Fenstern und dem Browser ein sauberes, poliertes Aussehen im macOS-Stil."
+      },
+      "download_url": "https://github.com/vinceliuice/WhiteSur-gtk-theme/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "certimate",
@@ -17889,6 +18141,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "sequelpro",
+      "name": "Sequel Pro",
+      "tagline": "Fast and easy Mac database management",
+      "repo_url": "https://github.com/sequelpro/sequelpro",
+      "full_name": "sequelpro/sequelpro",
+      "category": "Productivity",
+      "tags": [
+        "database",
+        "mysql"
+      ],
+      "icon": "/icons/sequelpro.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Custom Open License",
+      "stars": 9185,
+      "tier": "tier1_gui",
+      "summary": "Manage your database servers seamlessly on macOS with a fast, easy-to-use application designed for MySQL and MariaDB.",
+      "i18n": {
+        "it": "Gestisci i tuoi database su macOS in modo semplice e veloce con un'applicazione intuitiva creata per MySQL e MariaDB.",
+        "es": "Administra tus bases de datos en macOS sin complicaciones utilizando una aplicación rápida y sencilla para MySQL y MariaDB.",
+        "fr": "Gérez vos bases de données sur macOS facilement grâce à une application rapide et intuitive conçue pour MySQL et MariaDB.",
+        "de": "Verwalten Sie Ihre Datenbanken auf macOS mühelos mit einer schnellen und benutzerfreundlichen Anwendung für MySQL und MariaDB."
+      },
+      "download_url": "https://github.com/sequelpro/sequelpro/releases/download/release-1.1.2/sequel-pro-1.1.2.dmg",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "atlas",
       "name": "Atlas",
       "tagline": "Track and coordinate coding agents seamlessly.",
@@ -18309,6 +18589,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "virtualbuddy",
+      "name": "VirtualBuddy",
+      "tagline": "Run macOS safely on Apple Silicon",
+      "repo_url": "https://github.com/insidegui/virtualbuddy",
+      "full_name": "insidegui/virtualbuddy",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "virtualization"
+      ],
+      "icon": "/icons/virtualbuddy.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (BSD)",
+      "stars": 9006,
+      "tier": "tier1_gui",
+      "summary": "VirtualBuddy lets you run any macOS version, including betas, inside a window on your M‑series Mac, making testing and experimentation easy and safe.",
+      "i18n": {
+        "it": "VirtualBuddy ti permette di avviare qualsiasi versione di macOS, comprese le beta, in una finestra sul tuo Mac con chip M, facilitando test e sperimentazioni in totale sicurezza.",
+        "es": "VirtualBuddy permite iniciar cualquier versión de macOS, incluidas las betas, dentro de una ventana en tu Mac con procesador M, facilitando pruebas y experimentos de forma segura.",
+        "fr": "VirtualBuddy vous permet de lancer n’importe quelle version de macOS, y compris les versions bêta, dans une fenêtre sur votre Mac à puce M, simplifiant les tests en toute sécurité.",
+        "de": "VirtualBuddy ermöglicht das Starten jeder macOS‑Version, einschließlich Betas, in einem Fenster auf Ihrem M‑Series‑Mac, sodass Tests und Experimente sicher und einfach sind."
+      },
+      "download_url": "https://github.com/insidegui/VirtualBuddy/releases/download/2.2.1/VirtualBuddy_v2.2.1-430.dmg",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "sloth",
       "name": "Sloth",
       "tagline": "Easily inspect files and devices on Mac",
@@ -18391,6 +18699,34 @@
       },
       "download_url": "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-aarch64-apple-darwin.tar.gz.sha512",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "clipy",
+      "name": "Clipy",
+      "tagline": "Supercharge your Mac clipboard history easily.",
+      "repo_url": "https://github.com/clipy/clipy",
+      "full_name": "clipy/clipy",
+      "category": "Productivity",
+      "tags": [
+        "clipboard",
+        "mac"
+      ],
+      "icon": "/icons/clipy.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 8986,
+      "tier": "tier1_gui",
+      "summary": "Clipy is a handy clipboard manager for macOS that remembers everything you copy, letting you access past text and images effortlessly.",
+      "i18n": {
+        "it": "Clipy è un pratico gestore di appunti per macOS che ricorda tutto ciò che copi, consentendoti di accedere a testi e immagini passati.",
+        "es": "Clipy es un práctico administrador de portapapeles para macOS que recuerda todo lo que copias para acceder a textos e imágenes pasados.",
+        "fr": "Clipy est un gestionnaire de presse-papiers pratique pour macOS qui mémorise tout ce que vous copiez pour un accès rapide.",
+        "de": "Clipy ist ein praktischer Zwischenablagen-Manager für macOS, der sich kopierte Texte und Bilder merkt und schnellen Zugriff bietet."
+      },
+      "download_url": "https://github.com/Clipy/Clipy/releases/download/1.4.2/Clipy_1.4.2.dmg",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "go-app",
@@ -46532,6 +46868,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "tinykit",
+      "name": "tinykit",
+      "tagline": "Build custom web apps using AI",
+      "repo_url": "https://github.com/tinykit-studio/tinykit",
+      "full_name": "tinykit-studio/tinykit",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ai",
+        "self-hosted"
+      ],
+      "icon": "/icons/tinykit.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 530,
+      "tier": "tier2_webapp",
+      "summary": "Create and host interactive web applications on your own server using simple text instructions, built-in databases, and AI assistance.",
+      "i18n": {
+        "it": "Crea e ospita applicazioni web interattive sul tuo server usando semplici istruzioni testuali e database integrati.",
+        "es": "Crea y aloja aplicaciones web interactivas en tu propio servidor usando instrucciones de texto y bases de datos integradas.",
+        "fr": "Créez et hébergez des applications web interactives sur votre propre serveur à l'aide de simples instructions textuelles.",
+        "de": "Erstellen und hosten Sie interaktive Webanwendungen auf Ihrem eigenen Server mithilfe einfacher Textanweisungen."
+      },
+      "download_url": "https://tinykit.studio",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "echolite",
       "name": "Echolite",
       "tagline": "Easily download music with complete metadata",
@@ -46644,6 +47008,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "simpla",
+      "name": "simpla",
+      "tagline": "Modular content system for modern websites",
+      "repo_url": "https://github.com/simplajs/simpla",
+      "full_name": "simplajs/simpla",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "content-management"
+      ],
+      "icon": "/icons/simpla.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 523,
+      "tier": "tier2_webapp",
+      "summary": "Manage website content easily with a modular, serverless system that lets you edit pages directly and save updates automatically.",
+      "i18n": {
+        "it": "Gestisci i contenuti del sito facilmente con un sistema modulare e serverless che permette di modificare le pagine direttamente.",
+        "es": "Gestiona el contenido del sitio web fácilmente con un sistema modular y sin servidores que te permite editar páginas de forma directa.",
+        "fr": "Gérez le contenu de votre site facilement grâce à un système modulaire et sans serveur qui permet de modifier les pages directement.",
+        "de": "Verwalten Sie Website-Inhalte einfach mit einem modularen, serverlosen System, mit dem Sie Seiten direkt bearbeiten können."
+      },
+      "download_url": "https://www.simplajs.org",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "memory-forge-rs",
       "name": "Memory Forge",
       "tagline": "Fix AI assistant conversation history instantly",
@@ -46700,6 +47092,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "silverstripe-cms",
+      "name": "Silverstripe CMS",
+      "tagline": "Flexible and structured web content management",
+      "repo_url": "https://github.com/silverstripe/silverstripe-cms",
+      "full_name": "silverstripe/silverstripe-cms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "php",
+        "cms"
+      ],
+      "icon": "/icons/silverstripe-cms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (BSD)",
+      "stars": 516,
+      "tier": "tier2_webapp",
+      "summary": "Silverstripe CMS is a professional content management system that helps teams organize and publish digital pages securely.",
+      "i18n": {
+        "it": "Silverstripe CMS è un sistema di gestione dei contenuti professionale che aiuta i team a organizzare e pubblicare pagine digitali in sicurezza.",
+        "es": "Silverstripe CMS es un sistema de gestión de contenidos profesional que ayuda a los equipos a organizar y publicar páginas digitales de forma segura.",
+        "fr": "Silverstripe CMS est un système de gestion de contenu professionnel qui aide les équipes à organiser et publier des pages numériques en toute sécurité.",
+        "de": "Silverstripe CMS ist ein professionelles Content-Management-System, das Teams hilft, digitale Seiten sicher zu organisieren und zu veröffentlichen."
+      },
+      "download_url": "https://silverstripe.org/",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "markamd",
       "name": "marka.md",
       "tagline": "Local markdown notes ready for AI",
@@ -46726,6 +47146,34 @@
       },
       "download_url": "https://github.com/mattenarle10/markamd/releases/download/v1.7.11/marka.md_1.7.11_x64-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "tamiat",
+      "name": "tamiat",
+      "tagline": "Modern flexible content publishing system",
+      "repo_url": "https://github.com/tamiat/tamiat",
+      "full_name": "tamiat/tamiat",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "content-management",
+        "publishing"
+      ],
+      "icon": "/icons/tamiat.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 513,
+      "tier": "tier2_webapp",
+      "summary": "Tamiat is a lightweight web publishing tool designed to help you organize custom content types, manage permissions, and share your ideas online.",
+      "i18n": {
+        "it": "Tamiat is a lightweight web publishing tool designed to help you organize custom content types, manage permissions, and share your ideas online.",
+        "es": "Tamiat is a lightweight web publishing tool designed to help you organize custom content types, manage permissions, and share your ideas online.",
+        "fr": "Tamiat is a lightweight web publishing tool designed to help you organize custom content types, manage permissions, and share your ideas online.",
+        "de": "Tamiat is a lightweight web publishing tool designed to help you organize custom content types, manage permissions, and share your ideas online."
+      },
+      "download_url": "https://github.com/tamiat/tamiat/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "kuro",
@@ -46812,6 +47260,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "expressionengine",
+      "name": "ExpressionEngine",
+      "tagline": "Flexible and secure open-source website platform",
+      "repo_url": "https://github.com/expressionengine/expressionengine",
+      "full_name": "expressionengine/expressionengine",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "publishing"
+      ],
+      "icon": "/icons/expressionengine.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 507,
+      "tier": "tier2_webapp",
+      "summary": "Create custom websites and manage web content easily using a flexible, open-source publishing platform built for modern creators.",
+      "i18n": {
+        "it": "Crea siti web personalizzati e gestisci contenuti in modo semplice con una piattaforma di publishing aperta e flessibile.",
+        "es": "Crea sitios web personalizados y gestiona contenidos fácilmente utilizando una plataforma de publicación abierta y flexible.",
+        "fr": "Créez des sites web personnalisés et gérez du contenu facilement grâce à une plateforme de publication ouverte et flexible.",
+        "de": "Erstellen Sie benutzerdefinierte Websites und verwalten Sie Inhalte einfach mit einer flexiblen, offenen Verlagsplattform."
+      },
+      "download_url": "https://github.com/ExpressionEngine/ExpressionEngine/releases/download/7.5.28/signature.txt",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "hotclip",
       "name": "HotClip",
       "tagline": "Turn long videos into viral shorts.",
@@ -46840,6 +47316,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "webjike",
+      "name": "WEBJIKE",
+      "tagline": "Customizable clean directory and blog template",
+      "repo_url": "https://github.com/xiaodai945/webjike",
+      "full_name": "xiaodai945/webjike",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "directory",
+        "blog"
+      ],
+      "icon": "/icons/webjike.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 503,
+      "tier": "tier2_webapp",
+      "summary": "Create a personalized multi-category link directory and blog system using a lightweight content management setup.",
+      "i18n": {
+        "it": "Crea una directory di link e un blog personalizzati con un sistema di gestione dei contenuti leggero.",
+        "es": "Crea un directorio de enlaces y un blog personalizados utilizando un sistema de gestión de contenidos ligero.",
+        "fr": "Créez un annuaire de liens et un blog personnalisés à l'aide d'un système de gestion de contenu léger.",
+        "de": "Erstellen Sie ein personalisiertes Linkverzeichnis und einen Blog mit einem leichten Content-Management-System."
+      },
+      "download_url": "https://webjike.com",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "ghost-cli",
+      "name": "Ghost-CLI",
+      "tagline": "Easily install and manage your blog",
+      "repo_url": "https://github.com/tryghost/ghost-cli",
+      "full_name": "tryghost/ghost-cli",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "publishing",
+        "blogging"
+      ],
+      "icon": "/icons/ghost-cli.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 502,
+      "tier": "tier2_webapp",
+      "summary": "Manage and install your independent publishing website efficiently with a streamlined command-line utility.",
+      "i18n": {
+        "it": "Gestisci e installa il tuo sito di pubblicazione indipendente in modo efficiente con una comoda utility da riga di comando.",
+        "es": "Gestiona e instala tu sitio web de publicaciones independientes de forma eficiente con una utilidad de línea de comandos.",
+        "fr": "Gérez et installez votre site de publication indépendant efficacement à l'aide d'un utilitaire en ligne de commande.",
+        "de": "Verwalten und installieren Sie Ihre unabhängige Publikations-Website effizient mit einem praktischen Befehlszeilenwerkzeug."
+      },
+      "download_url": "https://ghost.org",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "neverclick",
       "name": "neverclick",
       "tagline": "Control your mouse completely using keyboard shortcuts.",
@@ -46866,6 +47398,174 @@
       },
       "download_url": "https://www.neverclick.com/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "asp-net-mvc-cms",
+      "name": "ASP.NET-MVC-CMS",
+      "tagline": "Build websites visually like building blocks.",
+      "repo_url": "https://github.com/seriawei/asp.net-mvc-cms",
+      "full_name": "seriawei/asp.net-mvc-cms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "aspnet",
+        "cms"
+      ],
+      "icon": "/icons/asp-net-mvc-cms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 495,
+      "tier": "tier2_webapp",
+      "summary": "An open-source website management platform that lets you design page layouts and content visually with live drag-and-drop tools.",
+      "i18n": {
+        "it": "Una piattaforma di gestione siti web open-source che consente di progettare layout e contenuti visivamente con strumenti drag-and-drop.",
+        "es": "Una plataforma de gestión de sitios web de código abierto que permite diseñar diseños y contenidos visualmente mediante arrastrar y soltar.",
+        "fr": "Une plateforme de gestion de sites web open-source qui permet de concevoir des mises en page et du contenu visuellement par glisser-déposer.",
+        "de": "Eine Open-Source-Website-Management-Plattform, mit der Sie Layouts und Inhalte visuell per Drag-and-Drop gestalten können."
+      },
+      "download_url": "https://www.zkea.net/zkeacms",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "scroll",
+      "name": "scroll",
+      "tagline": "Publish intelligent ideas and websites simply.",
+      "repo_url": "https://github.com/breck7/scroll",
+      "full_name": "breck7/scroll",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "publishing",
+        "blogging"
+      ],
+      "icon": "/icons/scroll.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 489,
+      "tier": "tier2_webapp",
+      "summary": "Scroll is a clean digital publishing language that lets you create websites, blogs, and documents easily by hand or with artificial intelligence.",
+      "i18n": {
+        "it": "Scroll è un linguaggio di pubblicazione digitale che ti consente di creare siti web, blog e documenti in modo semplice e veloce.",
+        "es": "Scroll es un lenguaje de publicación digital que te permite crear sitios web, blogs y documentos de manera muy sencilla.",
+        "fr": "Scroll est un langage de publication numérique qui vous permet de créer des sites web, des blogs et des documents facilement.",
+        "de": "Scroll ist eine digitale Publikationssprache, mit der Sie Websites, Blogs und Dokumente mühelos erstellen können."
+      },
+      "download_url": "https://scroll.surf",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "fullycms",
+      "name": "fullycms",
+      "tagline": "Multilingual website management made simple.",
+      "repo_url": "https://github.com/sseffa/fullycms",
+      "full_name": "sseffa/fullycms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "php",
+        "laravel"
+      ],
+      "icon": "/icons/fullycms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 488,
+      "tier": "tier2_webapp",
+      "summary": "FullyCMS is a multilingual content management system designed to help you easily organize articles, pages, and photo galleries.",
+      "i18n": {
+        "it": "FullyCMS è un sistema di gestione dei contenuti multilingua progettato per organizzare facilmente articoli, pagine e gallerie.",
+        "es": "FullyCMS es un sistema de gestión de contenidos multilingüe diseñado para organizar fácilmente artículos, páginas y galerías.",
+        "fr": "FullyCMS est un système de gestion de contenu multilingue conçu pour organiser facilement des articles, des pages et des galeries.",
+        "de": "FullyCMS ist ein mehrsprachiges Content-Management-System zur einfachen Verwaltung von Artikeln, Seiten und Foto-Galerien."
+      },
+      "download_url": "https://github.com/sseffa/fullycms/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "laravel-blog",
+      "name": "Laravel Blog",
+      "tagline": "Easily add a complete blogging system",
+      "repo_url": "https://github.com/binshops/laravel-blog",
+      "full_name": "binshops/laravel-blog",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "cms"
+      ],
+      "icon": "/icons/laravel-blog.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 486,
+      "tier": "tier2_webapp",
+      "summary": "Integrate a fully featured publishing and blog management system directly into your existing web projects in minutes.",
+      "i18n": {
+        "it": "Integra un sistema di pubblicazione e gestione blog completo direttamente nei tuoi progetti web esistenti in pochi minuti.",
+        "es": "Integra un sistema completo de publicación y gestión de blogs directamente en tus proyectos web existentes en minutos.",
+        "fr": "Intégrez un système complet de publication et de gestion de blog directement dans vos projets web existants en quelques minutes.",
+        "de": "Integrieren Sie in wenigen Minuten ein vollwertiges Veröffentlichungs- und Blog-Verwaltungssystem direkt in Ihre Webprojekte."
+      },
+      "download_url": "https://www.binshops.com",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "platformus",
+      "name": "Platformus",
+      "tagline": "Flexible open-source content management system",
+      "repo_url": "https://github.com/platformus/platformus",
+      "full_name": "platformus/platformus",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "aspnet"
+      ],
+      "icon": "/icons/platformus.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 483,
+      "tier": "tier2_webapp",
+      "summary": "Platformus is a modular open-source website system that lets creators build custom pages, shops, and user portals without writing complex code.",
+      "i18n": {
+        "it": "Platformus è un sistema modulare open-source che consente di creare siti web personalizzati, negozi e portali senza scrivere codice complesso.",
+        "es": "Platformus es un sistema web modular y abierto que permite crear páginas personalizadas, tiendas y portales sin programar código complejo.",
+        "fr": "Platformus est un système web modulaire et ouvert qui permet de créer des pages personnalisées, des boutiques et des portails sans coder.",
+        "de": "Platformus ist ein modulares Open-Source-Websystem, mit dem Benutzer maßgeschneiderte Websites, Shops und Portale ohne Code erstellen."
+      },
+      "download_url": "https://platformus.net/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "leaa",
+      "name": "leaa",
+      "tagline": "Flexible content management system for modern apps",
+      "repo_url": "https://github.com/solidzoro/leaa",
+      "full_name": "solidzoro/leaa",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "admin"
+      ],
+      "icon": "/icons/leaa.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (BSD)",
+      "stars": 473,
+      "tier": "tier2_webapp",
+      "summary": "Manage digital content, user permissions, and website assets smoothly using a modern, unified software workspace.",
+      "i18n": {
+        "it": "Gestisci contenuti digitali, permessi e risorse web senza sforzo usando uno spazio di lavoro software moderno e unificato.",
+        "es": "Administra contenido digital, permisos de usuario y recursos web sin esfuerzo con un espacio de trabajo moderno y unificado.",
+        "fr": "Gérez le contenu numérique, les permissions et les ressources web facilement grâce à un espace de travail unifié.",
+        "de": "Verwalten Sie digitale Inhalte, Benutzerrechte und Web-Assets mühelos mit einem modernen, einheitlichen Software-Arbeitsbereich."
+      },
+      "download_url": "https://github.com/SolidZORO/leaa/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "hubhum",

@@ -2,7 +2,7 @@
 
 > Plain-English, verified directory of free and open-source software explained without developer jargon, pointing strictly to official GitHub releases and upstream creator channels.
 
-Catalog Size: 1675 open-source tools (Tier 1 GUI: 861, Tier 2 Web/Self-Hosted: 489, Tier 3 Power Tools: 325 | 861 Desktop GUI, 488 Self-Hosted, 1 Web Apps, 315 CLI/Power Tools, 10 Open References) | 78 Topic Cluster Guides across 6 Pillars | 9 Curated Bundles.
+Catalog Size: 1700 open-source tools (Tier 1 GUI: 873, Tier 2 Web/Self-Hosted: 502, Tier 3 Power Tools: 325 | 873 Desktop GUI, 501 Self-Hosted, 1 Web Apps, 315 CLI/Power Tools, 10 Open References) | 78 Topic Cluster Guides across 6 Pillars | 9 Curated Bundles.
 
 ## Primary Endpoints
 - [Homepage & Interactive Catalog](https://davanzokeoma.github.io/HubHum/): Search and filter free software by format, OS, and everyday task
@@ -11,7 +11,7 @@ Catalog Size: 1675 open-source tools (Tier 1 GUI: 861, Tier 2 Web/Self-Hosted: 4
 - [Full Plain-English Software Digest (RAG)](https://davanzokeoma.github.io/HubHum/llms-full.txt): Structured index of every app summarized by category
 - [OpenAPI 3.0 Spec](https://davanzokeoma.github.io/HubHum/api/openapi.yaml): OpenAPI definition for public HubHum endpoints ([Swagger JSON](https://davanzokeoma.github.io/HubHum/api/swagger.json))
 - [AI Plugin Manifest](https://davanzokeoma.github.io/HubHum/.well-known/ai-plugin.json): Standard agent discovery manifest
-- [Open JSON Catalog API](https://davanzokeoma.github.io/HubHum/api/catalog.json): Machine-readable metadata for all 1675 software cards
+- [Open JSON Catalog API](https://davanzokeoma.github.io/HubHum/api/catalog.json): Machine-readable metadata for all 1700 software cards
 - [Topic Clusters & Bundles JSON API](https://davanzokeoma.github.io/HubHum/api/clusters.json): Hierarchical topic guide tree and curated starter bundles
 - [RSS Feed](https://davanzokeoma.github.io/HubHum/feed.xml): Latest indexed software guides and category comparisons
 - [About & Editorial Transparency](https://davanzokeoma.github.io/HubHum/about/): Methodology, official link verification policy, and #ad isolation
