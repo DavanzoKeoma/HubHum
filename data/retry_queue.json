@@ -82,5 +82,54 @@
     "html_url": "https://github.com/donnemartin/dev-setup",
     "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Richten Sie einen neuen Entwicklungscomputer auf macOS schnell mit organisierten Skripten ein.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-23T08:43:24.848448+00:00"
+  },
+  {
+    "full_name": "XcodesOrg/XcodesApp",
+    "slug": "xcodesapp",
+    "html_url": "https://github.com/XcodesOrg/XcodesApp",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:29:00.072046+00:00"
+  },
+  {
+    "full_name": "ly05010419/MacNativeGames",
+    "slug": "macnativegames",
+    "html_url": "https://github.com/ly05010419/MacNativeGames",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:29:25.057208+00:00"
+  },
+  {
+    "full_name": "intitni/CopilotForXcode",
+    "slug": "copilotforxcode",
+    "html_url": "https://github.com/intitni/CopilotForXcode",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Fügen Sie intelligente Codevervollständigung, interaktiven Chat und automatisierte Umgestaltung direkt in die offizielle Apple-Umgebung ein.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:29:29.964376+00:00"
+  },
+  {
+    "full_name": "luchina-gabriel/OSX-PROXMOX",
+    "slug": "osx-proxmox",
+    "html_url": "https://github.com/luchina-gabriel/OSX-PROXMOX",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:29:58.304119+00:00"
+  },
+  {
+    "full_name": "4gray/iptvnator",
+    "slug": "iptvnator",
+    "html_url": "https://github.com/4gray/iptvnator",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Missing required heading: ### Pros and Cons; Missing required heading: ### Sponsored Partner Tools (#ad))",
+    "queued_at": "2026-11-23T22:30:12.847646+00:00"
+  },
+  {
+    "full_name": "OpenIntelWireless/itlwm",
+    "slug": "itlwm",
+    "html_url": "https://github.com/OpenIntelWireless/itlwm",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-23T22:35:15.597388+00:00"
+  },
+  {
+    "full_name": "qvacua/vimr",
+    "slug": "vimr",
+    "html_url": "https://github.com/qvacua/vimr",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T22:37:27.632829+00:00"
   }
 ]

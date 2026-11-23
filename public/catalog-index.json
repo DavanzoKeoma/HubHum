@@ -19010,6 +19010,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "miaoyan",
+    "name": "MiaoYan",
+    "tagline": "Fast, local Markdown notes for Mac",
+    "repo_url": "https://github.com/tw93/miaoyan",
+    "full_name": "tw93/miaoyan",
+    "category": "Productivity",
+    "tags": [
+      "note-taking",
+      "markdown"
+    ],
+    "icon": "/icons/miaoyan.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 8807,
+    "tier": "tier1_gui",
+    "summary": "MiaoYan is a lightweight, native note-taking app for Mac, iPhone, and iPad that stores your text as simple files.",
+    "i18n": {
+      "it": "MiaoYan è un'app leggera e nativa per prendere appunti su Mac, iPhone e iPad.",
+      "es": "MiaoYan es una aplicación ligera y nativa para tomar notas en Mac, iPhone y iPad.",
+      "fr": "MiaoYan est une application légère et native pour prendre des notes sur Mac, iPhone et iPad.",
+      "de": "MiaoYan ist eine leichte, native Notiz-App für Mac, iPhone und iPad."
+    },
+    "download_url": "https://github.com/tw93/MiaoYan/releases/download/V4.11.0/MiaoYan.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "gitignore-io",
+    "name": "gitignore.io",
+    "tagline": "Quick ignore lists for any project",
+    "repo_url": "https://github.com/toptal/gitignore.io",
+    "full_name": "toptal/gitignore.io",
+    "category": "Productivity",
+    "tags": [
+      "gitignore",
+      "productivity"
+    ],
+    "icon": "/icons/gitignore-io.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8763,
+    "tier": "tier1_gui",
+    "summary": "Generate ready‑to‑use .gitignore files for any language or tool, so you can keep unwanted files out of your version history.",
+    "i18n": {
+      "it": "Crea file .gitignore pronti all'uso per qualsiasi linguaggio o strumento, così eviti di includere file inutili nella cronologia delle versioni.",
+      "es": "Genera archivos .gitignore listos para usar en cualquier lenguaje o herramienta, evitando que archivos innecesarios entren en el historial de versiones.",
+      "fr": "Générez des fichiers .gitignore prêts à l'emploi pour n'importe quel langage ou outil, afin d'éviter d'inclure des fichiers superflus dans l'historique des versions.",
+      "de": "Erstellen Sie sofort einsatzbereite .gitignore‑Dateien für jede Sprache oder jedes Werkzeug und verhindern Sie, dass unnötige Dateien in die Versionshistorie gelangen."
+    },
+    "download_url": "https://www.toptal.com/developers/gitignore",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "privatebin",
     "name": "PrivateBin",
     "tagline": "Secure, encrypted online pastebin service",
@@ -19148,6 +19204,34 @@
     },
     "download_url": "https://github.com/deeplethe/utopia/releases",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "wwdc",
+    "name": "WWDC",
+    "tagline": "Enjoy Apple developer conferences on Mac",
+    "repo_url": "https://github.com/insidegui/wwdc",
+    "full_name": "insidegui/wwdc",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "developer"
+    ],
+    "icon": "/icons/wwdc.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (BSD)",
+    "stars": 8745,
+    "tier": "tier1_gui",
+    "summary": "Browse, stream, and search Apple developer conference sessions with custom playback speeds and automatic progress syncing across your Macs.",
+    "i18n": {
+      "it": "Esplora, riproduci e cerca le sessioni delle conferenze Apple con velocità personalizzate e sincronizzazione automatica.",
+      "es": "Explora, reproduce y busca sesiones de conferencias de Apple con velocidades personalizadas y sincronización automática.",
+      "fr": "Explorez, lisez et recherchez des sessions de conférences Apple avec des vitesses personnalisées et une synchronisation.",
+      "de": "Durchsuche und streame Apple-Entwicklersitzungen mit benutzerdefinierten Wiedergabegeschwindigkeiten und automatischer Synchronisation."
+    },
+    "download_url": "https://github.com/insidegui/WWDC/releases/download/7.5/WWDC_v7.5-1044.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "modly",
@@ -19318,6 +19402,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "coteditor",
+    "name": "CotEditor",
+    "tagline": "Lightweight native text editor for Mac",
+    "repo_url": "https://github.com/coteditor/coteditor",
+    "full_name": "coteditor/coteditor",
+    "category": "Productivity",
+    "tags": [
+      "text-editor",
+      "macos"
+    ],
+    "icon": "/icons/coteditor.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 8706,
+    "tier": "tier1_gui",
+    "summary": "A clean, fast, and lightweight plain text editor designed specifically to blend seamlessly into your Mac desktop experience.",
+    "i18n": {
+      "it": "Un editor di testo semplice e veloce progettato per integrarsi perfettamente nell'esperienza del tuo computer Mac.",
+      "es": "Un editor de texto plano rápido y ligero diseñado específicamente para integrarse de forma natural en tu Mac.",
+      "fr": "Un éditeur de texte simple, rapide et léger conçu pour s'intégrer parfaitement à votre environnement Mac.",
+      "de": "Ein schneller und leichter Texteditor, der sich nahtlos in das Betriebssystem Ihres Mac einfügt."
+    },
+    "download_url": "https://github.com/coteditor/CotEditor/releases/download/7.1.3/CotEditor_7.1.3.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "oatpp",
     "name": "Oat++",
     "tagline": "Lightweight C++ tools for web services",
@@ -19372,6 +19484,34 @@
     },
     "download_url": "https://github.com/jdepoix/youtube-transcript-api/releases",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "gifski",
+    "name": "Gifski",
+    "tagline": "Turn your Mac videos into high-quality GIFs",
+    "repo_url": "https://github.com/sindresorhus/gifski",
+    "full_name": "sindresorhus/gifski",
+    "category": "Productivity",
+    "tags": [
+      "video",
+      "gif"
+    ],
+    "icon": "/icons/gifski.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 8612,
+    "tier": "tier1_gui",
+    "summary": "Transform any Mac video into a smooth, colorful animated GIF with advanced color blending and custom controls.",
+    "i18n": {
+      "it": "Transform any Mac video into a smooth, colorful animated GIF with advanced color blending and custom controls.",
+      "es": "Transform any Mac video into a smooth, colorful animated GIF with advanced color blending and custom controls.",
+      "fr": "Transform any Mac video into a smooth, colorful animated GIF with advanced color blending and custom controls.",
+      "de": "Transform any Mac video into a smooth, colorful animated GIF with advanced color blending and custom controls."
+    },
+    "download_url": "https://sindresorhus.com/gifski",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "hippy",
@@ -19624,6 +19764,34 @@
     },
     "download_url": "https://pemistahl.github.io/grex-js/",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "hex",
+    "name": "Hex",
+    "tagline": "Private voice typing for all platforms",
+    "repo_url": "https://github.com/anomalyco/hex",
+    "full_name": "anomalyco/hex",
+    "category": "Productivity",
+    "tags": [
+      "voice-typing",
+      "productivity"
+    ],
+    "icon": "/icons/hex.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 8264,
+    "tier": "tier1_gui",
+    "summary": "Hex lets you speak naturally and have the text appear instantly in any application.",
+    "i18n": {
+      "it": "Hex ti permette di parlare e vedere il testo apparire istantaneamente in qualsiasi app.",
+      "es": "Hex te permite hablar y ver el texto aparecer al instante en cualquier aplicación.",
+      "fr": "Hex vous permet de parler et de voir le texte apparaître instantanément dans n'importe quelle application.",
+      "de": "Hex ermöglicht es Ihnen, zu sprechen und den Text sofort in jeder Anwendung zu sehen."
+    },
+    "download_url": "https://github.com/anomalyco/hex/releases/download/v3.4.0/hex-3.4.0-windows-arm64.exe",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "open-codesign",
@@ -20242,6 +20410,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "tart",
+    "name": "tart",
+    "tagline": "Run macOS & Linux VMs on Apple Silicon",
+    "repo_url": "https://github.com/openai/tart",
+    "full_name": "openai/tart",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "linux"
+    ],
+    "icon": "/icons/tart.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 8011,
+    "tier": "tier1_gui",
+    "summary": "Tart lets you run macOS or Linux virtual machines on Apple Silicon Macs, so you can test software or automate tasks without buying hardware.",
+    "i18n": {
+      "it": "Tart ti permette di avviare macOS o Linux in macchine virtuali sul tuo Mac Apple Silicon, così puoi provare software o automatizzare attività senza acquistare altro hardware.",
+      "es": "Tart te permite crear y ejecutar máquinas virtuales de macOS o Linux en tu Mac con Apple Silicon, facilitando pruebas de software o automatizaciones sin necesidad de comprar otro equipo.",
+      "fr": "Tart vous permet de créer et d’exécuter des machines virtuelles macOS ou Linux sur votre Mac Apple Silicon, afin de tester des logiciels ou d’automatiser des tâches sans acheter de matériel supplémentaire.",
+      "de": "Tart ermöglicht das Erstellen und Ausführen von macOS‑ oder Linux‑virtuellen Maschinen auf Ihrem Apple‑Silicon‑Mac, sodass Sie Software testen oder Aufgaben automatisieren können."
+    },
+    "download_url": "https://github.com/openai/tart/releases/download/2.42.0/tart_2.42.0_checksums.txt",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "totk-pc-recomp",
     "name": "totk-pc-recomp",
     "tagline": "Run adventure games natively on PC",
@@ -20326,6 +20522,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "mochidiffusion",
+    "name": "MochiDiffusion",
+    "tagline": "Create AI images on your Mac",
+    "repo_url": "https://github.com/mochidiffusion/mochidiffusion",
+    "full_name": "mochidiffusion/mochidiffusion",
+    "category": "Productivity",
+    "tags": [
+      "ai-image-generation",
+      "macos-app"
+    ],
+    "icon": "/icons/mochidiffusion.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 7978,
+    "tier": "tier1_gui",
+    "summary": "MochiDiffusion lets you generate high-quality images locally on your Mac using advanced AI models.",
+    "i18n": {
+      "it": "MochiDiffusion ti permette di generare immagini di alta qualità localmente sul tuo Mac.",
+      "es": "MochiDiffusion te permite generar imágenes de alta calidad localmente en tu Mac.",
+      "fr": "MochiDiffusion vous permet de générer des images de haute qualité localement sur votre Mac.",
+      "de": "MochiDiffusion ermöglicht die lokale Erstellung hochwertiger Bilder auf Ihrem Mac."
+    },
+    "download_url": "https://github.com/MochiDiffusion/MochiDiffusion/releases/download/v7.0/Mochi.Diffusion.7.0.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "enquirer",
     "name": "enquirer",
     "tagline": "Stylish, intuitive and user-friendly CLI prompts.",
@@ -20352,6 +20576,34 @@
     },
     "download_url": "https://github.com/jonschlinkert",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "puremac",
+    "name": "PureMac",
+    "tagline": "Free open-source storage cleaner for Mac",
+    "repo_url": "https://github.com/momenbasel/puremac",
+    "full_name": "momenbasel/puremac",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "storage"
+    ],
+    "icon": "/icons/puremac.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 7934,
+    "tier": "tier1_gui",
+    "summary": "Reclaim precious Mac storage without hidden subscriptions or data tracking.",
+    "i18n": {
+      "it": "Recupera spazio prezioso sul Mac senza abbonamenti nascosti o tracciamenti.",
+      "es": "Recupera espacio valioso en tu Mac sin suscripciones ocultas ni seguimiento.",
+      "fr": "Récupérez de l'espace précieux sur votre Mac sans abonnement ni pistage.",
+      "de": "Geben Sie wertvollen Speicherplatz auf dem Mac frei – ganz ohne Abos oder Datennachverfolgung."
+    },
+    "download_url": "https://github.com/momenbasel/PureMac/releases/download/v3.3.0/PureMac-3.3.0.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "btrfs",
@@ -20606,6 +20858,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "opcore-simplify",
+    "name": "OpCore-Simplify",
+    "tagline": "Easy boot files for macOS on PC",
+    "repo_url": "https://github.com/lzhoang2801/opcore-simplify",
+    "full_name": "lzhoang2801/opcore-simplify",
+    "category": "Productivity",
+    "tags": [
+      "hackintosh",
+      "efi"
+    ],
+    "icon": "/icons/opcore-simplify.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (BSD)",
+    "stars": 7816,
+    "tier": "tier1_gui",
+    "summary": "OpCore‑Simplify helps you create the necessary boot files to run macOS on a standard PC, handling most of the complex steps automatically.",
+    "i18n": {
+      "it": "OpCore‑Simplify crea i file di avvio necessari per far funzionare macOS su un PC tradizionale, automatizzando la maggior parte delle operazioni complesse.",
+      "es": "OpCore‑Simplify genera los archivos de arranque necesarios para ejecutar macOS en un PC normal, automatizando la mayor parte de los pasos complicados.",
+      "fr": "OpCore‑Simplify crée les fichiers de démarrage indispensables pour faire fonctionner macOS sur un PC classique, en automatisant la plupart des étapes complexes.",
+      "de": "OpCore‑Simplify erzeugt die benötigten Boot‑Dateien, um macOS auf einem normalen PC zu starten, und automatisiert dabei die meisten komplizierten Schritte."
+    },
+    "download_url": "https://lzhoang2801.github.io/gathering-files/opencore-efi",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "parabolic",
     "name": "Parabolic",
     "tagline": "Easy video downloads made simple",
@@ -20660,6 +20940,34 @@
     },
     "download_url": "https://www.youtube.com/watch?v=grqXEz3bdC0",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "openmtp",
+    "name": "OpenMTP",
+    "tagline": "Fast, free Android file transfer for Mac",
+    "repo_url": "https://github.com/ganeshrvel/openmtp",
+    "full_name": "ganeshrvel/openmtp",
+    "category": "Productivity",
+    "tags": [
+      "file-transfer",
+      "android"
+    ],
+    "icon": "/icons/openmtp.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Android",
+    "license": "Open Source (MIT)",
+    "stars": 7777,
+    "tier": "tier1_gui",
+    "summary": "OpenMTP is a free, open-source tool that lets you easily move files between your Mac and Android phone via USB.",
+    "i18n": {
+      "it": "OpenMTP è uno strumento gratuito e open source per spostare file tra Mac e Android tramite USB.",
+      "es": "OpenMTP es una herramienta gratuita y de código abierto para mover archivos entre Mac y Android por USB.",
+      "fr": "OpenMTP est un outil gratuit et open source pour déplacer des fichiers entre Mac et Android via USB.",
+      "de": "OpenMTP ist ein kostenloses Open-Source-Tool zum Übertragen von Dateien zwischen Mac und Android per USB."
+    },
+    "download_url": "https://github.com/ganeshrvel/openmtp/releases/download/v3.3.0/openmtp-3.3.0-mac-arm64.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "liteide",
@@ -20800,6 +21108,34 @@
     },
     "download_url": "https://github.com/getopenscreen/openscreen/releases/download/v2.3.0/Openscreen.Setup.2.3.0-arm64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "keka",
+    "name": "Keka",
+    "tagline": "Simple file compression for Mac",
+    "repo_url": "https://github.com/aonez/keka",
+    "full_name": "aonez/keka",
+    "category": "Productivity",
+    "tags": [
+      "compression",
+      "mac"
+    ],
+    "icon": "/icons/keka.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Custom Open License",
+    "stars": 7701,
+    "tier": "tier1_gui",
+    "summary": "Keka lets you shrink files into zip, 7z, and other formats, and protect them with a password, all from a friendly Mac app.",
+    "i18n": {
+      "it": "Keka consente di comprimere file in formati zip, 7z e altri, proteggendoli con una password, tutto da un’app Mac intuitiva.",
+      "es": "Keka te permite comprimir archivos en formatos zip, 7z y más, y protegerlos con una contraseña, todo desde una aplicación Mac sencilla.",
+      "fr": "Keka vous permet de compresser des fichiers en formats zip, 7z et autres, et de les protéger par un mot de passe, le tout depuis une application Mac conviviale.",
+      "de": "Keka ermöglicht das Komprimieren von Dateien in Formaten wie zip, 7z und anderen und das Schützen mit einem Passwort, alles in einer benutzerfreundlichen Mac‑App."
+    },
+    "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.8/Keka-1.6.8.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "gitsome",
@@ -21054,6 +21390,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "fsnotes",
+    "name": "FSNotes",
+    "tagline": "Own your notes. Find them instantly.",
+    "repo_url": "https://github.com/glushchenko/fsnotes",
+    "full_name": "glushchenko/fsnotes",
+    "category": "Productivity",
+    "tags": [
+      "notes",
+      "markdown"
+    ],
+    "icon": "/icons/fsnotes.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 7593,
+    "tier": "tier1_gui",
+    "summary": "A lightning-fast native note-taking app for Mac and iPhone that stores everything in portable text files instead of locked databases.",
+    "i18n": {
+      "it": "Un'app di note nativa e velocissima per Mac e iPhone che salva tutto in file di testo portatili.",
+      "es": "Una app de notas rápida para Mac y iPhone que guarda todo en archivos de texto portátiles en lugar de bases de datos.",
+      "fr": "Une application de notes rapide pour Mac et iPhone qui enregistre tout dans des fichiers texte portables.",
+      "de": "Eine ultraschnelle Notizen-App für Mac und iPhone, die alles in portablen Textdateien speichert."
+    },
+    "download_url": "https://fsnot.es",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "arwes",
     "name": "Arwes",
     "tagline": "Build futuristic sci-fi user interfaces easily.",
@@ -21080,6 +21444,34 @@
     },
     "download_url": "https://github.com/arwes/arwes/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "sequel-ace",
+    "name": "Sequel-Ace",
+    "tagline": "Fast and simple Mac database management.",
+    "repo_url": "https://github.com/sequel-ace/sequel-ace",
+    "full_name": "sequel-ace/sequel-ace",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "macos"
+    ],
+    "icon": "/icons/sequel-ace.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 7567,
+    "tier": "tier1_gui",
+    "summary": "Sequel-Ace provides a clean, user-friendly way to view and manage your MySQL and MariaDB databases directly on your Mac.",
+    "i18n": {
+      "it": "Sequel-Ace offre un modo intuitivo per visualizzare e gestire i database MySQL e MariaDB direttamente sul tuo Mac.",
+      "es": "Sequel-Ace ofrece una forma sencilla e intuitiva de ver y gestionar tus bases de datos MySQL y MariaDB en tu Mac.",
+      "fr": "Sequel-Ace offre un moyen simple et intuitif de visualiser et de gérer vos bases de données MySQL et MariaDB sur votre Mac.",
+      "de": "Sequel-Ace bietet eine einfache und intuitive Möglichkeit, Ihre MySQL- und MariaDB-Datenbanken direkt auf Ihrem Mac zu verwalten."
+    },
+    "download_url": "https://sequel-ace.com",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "bleachbit",
@@ -21136,6 +21528,34 @@
     },
     "download_url": "https://github.com/persepolisdm/persepolis/releases/download/5.2.0/persepolis_5.2.0.0_windows_64bit.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "dayflow",
+    "name": "Dayflow",
+    "tagline": "Private automatic work journal",
+    "repo_url": "https://github.com/jerryzliu/dayflow",
+    "full_name": "jerryzliu/dayflow",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "time-tracking"
+    ],
+    "icon": "/icons/dayflow.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 7482,
+    "tier": "tier1_gui",
+    "summary": "Dayflow quietly records your screen activity on Mac and turns it into a clear, private timeline of what you actually did each day.",
+    "i18n": {
+      "it": "Dayflow registra silenziosamente l’attività dello schermo sul tuo Mac e la trasforma in una cronologia chiara e privata di ciò che hai realmente fatto ogni giorno.",
+      "es": "Dayflow registra discretamente la actividad de tu pantalla en Mac y la convierte en una línea de tiempo clara y privada de lo que realmente hiciste cada día.",
+      "fr": "Dayflow enregistre discrètement l’activité de votre écran sur Mac et la transforme en une chronologie claire et privée de ce que vous avez réellement accompli chaque jour.",
+      "de": "Dayflow zeichnet stillschweigend die Bildschirmaktivität auf Ihrem Mac auf und wandelt sie in eine klare, private Zeitleiste dessen, was Sie jeden Tag wirklich getan haben, um."
+    },
+    "download_url": "https://github.com/JerryZLiu/Dayflow/releases/download/v2.9.8/Dayflow.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "hertzbeat",
@@ -21222,6 +21642,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "turbo-fieldfare",
+    "name": "turbo-fieldfare",
+    "tagline": "Run large AI models on small Macs",
+    "repo_url": "https://github.com/drumih/turbo-fieldfare",
+    "full_name": "drumih/turbo-fieldfare",
+    "category": "Productivity",
+    "tags": [
+      "local-ai",
+      "macos"
+    ],
+    "icon": "/icons/turbo-fieldfare.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7444,
+    "tier": "tier1_gui",
+    "summary": "TurboFieldfare lets you run a powerful 26-billion parameter AI model on an 8 GB Apple Silicon Mac by using only about 2 GB of memory.",
+    "i18n": {
+      "it": "TurboFieldfare consente di eseguire un potente modello AI da 26 miliardi di parametri su un Mac Apple Silicon da 8 GB utilizzando solo circa 2 GB di memoria.",
+      "es": "TurboFieldfare permite ejecutar un potente modelo de IA de 26 mil millones de parámetros en una Mac Apple Silicon de 8 GB usando solo unos 2 GB de memoria.",
+      "fr": "TurboFieldfare permet d'exécuter un puissant modèle IA de 26 milliards de paramètres sur un Mac Apple Silicon de 8 Go en n'utilisant que 2 Go de mémoire.",
+      "de": "TurboFieldfare ermöglicht die Ausführung eines leistungsfähigen KI-Modells mit 26 Milliarden Parametern auf einem 8-GB-Apple-Silicon-Mac mit nur etwa 2 GB Speicher."
+    },
+    "download_url": "https://github.com/drumih/turbo-fieldfare/releases",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "mixxx",
     "name": "Mixxx",
     "tagline": "Free professional digital DJ mixing software",
@@ -21304,6 +21752,34 @@
     },
     "download_url": "https://github.com/timvisee/ffsend/releases/download/v0.2.77/ffsend-v0.2.77-linux-x64",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "caprine",
+    "name": "Caprine",
+    "tagline": "Chat on Messenger, privately",
+    "repo_url": "https://github.com/sindresorhus/caprine",
+    "full_name": "sindresorhus/caprine",
+    "category": "Productivity",
+    "tags": [
+      "messenger",
+      "privacy"
+    ],
+    "icon": "/icons/caprine.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 7423,
+    "tier": "tier1_gui",
+    "summary": "Caprine lets you use Facebook Messenger on your computer while keeping your chats private and offering handy shortcuts.",
+    "i18n": {
+      "it": "Caprine ti permette di usare Facebook Messenger sul tuo computer, proteggendo la tua privacy e aggiungendo scorciatoie utili.",
+      "es": "Caprine te permite usar Facebook Messenger en tu computadora, manteniendo tus conversaciones privadas y ofreciendo atajos útiles.",
+      "fr": "Caprine vous permet d’utiliser Facebook Messenger sur votre ordinateur tout en protégeant votre vie privée et en proposant des raccourcis pratiques.",
+      "de": "Caprine ermöglicht die Nutzung von Facebook Messenger auf Ihrem Computer, schützt Ihre Privatsphäre und bietet praktische Tastenkombinationen."
+    },
+    "download_url": "https://github.com/sindresorhus/caprine/releases/download/v2.61.0/Caprine-Setup-2.61.0.exe",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "rancher-desktop",
@@ -21471,6 +21947,34 @@
       "de": "Ein süßer interaktiver Assistent, der künstliche Intelligenz und alltägliche Aufgaben direkt am Bildschirmrand für Sie im Blick behält."
     },
     "download_url": "https://louis-cfm.github.io/coucou/",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "mac-setup",
+    "name": "mac-setup",
+    "tagline": "Easy Mac Dev Setup",
+    "repo_url": "https://github.com/sb2nov/mac-setup",
+    "full_name": "sb2nov/mac-setup",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "development"
+    ],
+    "icon": "/icons/mac-setup.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 7388,
+    "tier": "tier1_gui",
+    "summary": "This guide helps you set up a development environment on a new Mac quickly and easily.",
+    "i18n": {
+      "it": "Questa guida ti aiuta a configurare rapidamente un ambiente di sviluppo su un nuovo Mac.",
+      "es": "Esta guía te ayuda a configurar rápidamente un entorno de desarrollo en un nuevo Mac.",
+      "fr": "Ce guide vous aide à configurer rapidement un environnement de développement sur un nouveau Mac.",
+      "de": "Dieser Leitfaden hilft Ihnen, schnell eine Entwicklungsumgebung auf einem neuen Mac einzurichten."
+    },
+    "download_url": "https://sourabhbajaj.com/mac-setup/",
     "updated_at": "2026-11-23"
   },
   {
@@ -21866,6 +22370,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "fleet",
+    "name": "Fleet",
+    "tagline": "Simple control for all your devices",
+    "repo_url": "https://github.com/fleetdm/fleet",
+    "full_name": "fleetdm/fleet",
+    "category": "Productivity",
+    "tags": [
+      "device-management",
+      "security"
+    ],
+    "icon": "/icons/fleet.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, iOS",
+    "license": "Custom Open License",
+    "stars": 7242,
+    "tier": "tier1_gui",
+    "summary": "Fleet lets you keep all your computers, phones, and tablets up to date and secure from one easy-to-use interface.",
+    "i18n": {
+      "it": "Fleet ti permette di mantenere aggiornati e protetti tutti i computer, telefoni e tablet da un’unica interfaccia facile da usare.",
+      "es": "Fleet te permite mantener actualizados y seguros todos tus ordenadores, teléfonos y tabletas desde una única interfaz fácil de usar.",
+      "fr": "Fleet vous permet de garder tous vos ordinateurs, téléphones et tablettes à jour et sécurisés grâce à une interface unique et facile à utiliser.",
+      "de": "Fleet ermöglicht es Ihnen, alle Ihre Computer, Telefone und Tablets mit einer einzigen, leicht zu bedienenden Oberfläche aktuell und sicher zu halten."
+    },
+    "download_url": "https://github.com/fleetdm/fleet/releases/download/fleet-v4.95.0/fleetctl_v4.95.0_windows_amd64.msi",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "onionshare",
     "name": "OnionShare",
     "tagline": "Private file sharing and anonymous hosting",
@@ -21978,6 +22510,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "voiceink",
+    "name": "VoiceInk",
+    "tagline": "Type faster with your voice locally",
+    "repo_url": "https://github.com/beingpax/voiceink",
+    "full_name": "beingpax/voiceink",
+    "category": "Productivity",
+    "tags": [
+      "voice-to-text",
+      "mac"
+    ],
+    "icon": "/icons/voiceink.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 7198,
+    "tier": "tier1_gui",
+    "summary": "Convert your spoken words into text instantly on your Mac with complete privacy and zero cloud subscriptions.",
+    "i18n": {
+      "it": "Converti istantaneamente le tue parole parlate in testo sul tuo Mac con totale privacy e senza abbonamenti.",
+      "es": "Convierte tus palabras habladas en texto al instante en tu Mac con total privacidad y sin suscripciones.",
+      "fr": "Convertissez vos mots prononcés en texte instantanément sur votre Mac en toute confidentialité.",
+      "de": "Verwandeln Sie gesprochene Worte sofort auf Ihrem Mac in Text, völlig privat und ohne Abonnements."
+    },
+    "download_url": "https://github.com/Beingpax/VoiceInk/releases/download/v2.27/VoiceInk.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "flyingmouse-format",
     "name": "FlyingMouse Format",
     "tagline": "Free offline file and media converter",
@@ -22060,6 +22620,34 @@
     },
     "download_url": "https://www.plasmic.app",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "applite",
+    "name": "Applite",
+    "tagline": "Your native macOS app store companion",
+    "repo_url": "https://github.com/milanvarady/applite",
+    "full_name": "milanvarady/applite",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "utilities"
+    ],
+    "icon": "/icons/applite.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 7175,
+    "tier": "tier1_gui",
+    "summary": "Discover, install, and update your favorite desktop applications on macOS through a clean, native app store interface without touching the command line.",
+    "i18n": {
+      "it": "Scopri, installa e aggiorna le tue applicazioni desktop preferite su macOS tramite un'interfaccia semplice e nativa.",
+      "es": "Descubre, instala y actualiza tus aplicaciones de escritorio favoritas en macOS mediante una interfaz limpia y nativa.",
+      "fr": "Découvrez, installez et mettez à jour vos applications de bureau préférées sur macOS via une interface épurée.",
+      "de": "Entdecken, installieren und aktualisieren Sie Ihre bevorzugten Desktop-Anwendungen auf macOS über eine native Oberfläche."
+    },
+    "download_url": "https://github.com/milanvarady/Applite/releases/download/v1.4.2/Applite.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "docker-ipsec-vpn-server",
@@ -22342,6 +22930,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "ravynos",
+    "name": "ravynOS",
+    "tagline": "Mac‑like experience for any PC",
+    "repo_url": "https://github.com/ravynsoft/ravynos",
+    "full_name": "ravynsoft/ravynos",
+    "category": "Productivity",
+    "tags": [
+      "operating-system",
+      "macos-compatibility"
+    ],
+    "icon": "/icons/ravynos.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 7110,
+    "tier": "tier1_gui",
+    "summary": "ravynOS turns a regular PC into a Mac‑like computer, letting you run many Mac apps while staying secure and fast.",
+    "i18n": {
+      "it": "ravynOS trasforma il tuo PC in un computer simile a Mac, permettendo di eseguire molte app Mac in modo sicuro e veloce.",
+      "es": "ravynOS convierte tu PC en una computadora con aspecto de Mac, permitiendo ejecutar muchas aplicaciones de Mac de forma segura y rápida.",
+      "fr": "ravynOS transforme votre PC en un ordinateur au style Mac, vous permettant d’utiliser de nombreuses applications Mac en toute sécurité et rapidité.",
+      "de": "ravynOS macht aus Ihrem PC einen Mac‑ähnlichen Rechner, sodass Sie viele Mac‑Programme sicher und schnell nutzen können."
+    },
+    "download_url": "https://www.ravynos.com",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "walk",
     "name": "walk",
     "tagline": "Build native Windows desktop applications easily.",
@@ -22454,6 +23070,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "mac-dev-playbook",
+    "name": "mac-dev-playbook",
+    "tagline": "Quick Mac setup for developers",
+    "repo_url": "https://github.com/geerlingguy/mac-dev-playbook",
+    "full_name": "geerlingguy/mac-dev-playbook",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "development"
+    ],
+    "icon": "/icons/mac-dev-playbook.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 7060,
+    "tier": "tier1_gui",
+    "summary": "A ready‑made guide that automatically adds the tools and settings you need on a new Mac, so you can start coding right away.",
+    "i18n": {
+      "it": "Una guida pronta all’uso che aggiunge automaticamente gli strumenti e le impostazioni necessari su un nuovo Mac, così puoi iniziare a programmare subito.",
+      "es": "Una guía lista para usar que instala automáticamente las herramientas y configuraciones que necesitas en un Mac nuevo, para que empieces a programar de inmediato.",
+      "fr": "Un guide prêt à l’emploi qui ajoute automatiquement les outils et réglages nécessaires sur un nouveau Mac, vous permettant de commencer à coder immédiatement.",
+      "de": "Ein sofort nutzbares Handbuch, das automatisch Programme und Einstellungen auf einem neuen Mac einrichtet, damit Sie mit dem Coden beginnen können."
+    },
+    "download_url": "https://github.com/geerlingguy/mac-dev-playbook/releases",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "keepingyouawake",
     "name": "KeepingYouAwake",
     "tagline": "Keep your Mac awake effortlessly",
@@ -22480,6 +23124,34 @@
     },
     "download_url": "https://keepingyouawake.app",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "proxyman",
+    "name": "Proxyman",
+    "tagline": "Visual network debugging for Mac",
+    "repo_url": "https://github.com/proxymanapp/proxyman",
+    "full_name": "proxymanapp/proxyman",
+    "category": "Productivity",
+    "tags": [
+      "network-debugging",
+      "macos"
+    ],
+    "icon": "/icons/proxyman.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Custom Open License",
+    "stars": 7050,
+    "tier": "tier1_gui",
+    "summary": "Proxyman is a visual tool for Mac that lets you see and inspect all web traffic from your computer, iPhone, and Android devices.",
+    "i18n": {
+      "it": "Proxyman è uno strumento visivo per Mac che consente di visualizzare e ispezionare tutto il traffico web da computer, iPhone e dispositivi Android.",
+      "es": "Proxyman es una herramienta visual para Mac que permite ver e inspeccionar todo el tráfico web desde tu computadora, iPhone y dispositivos Android.",
+      "fr": "Proxyman est un outil visuel pour Mac qui permet de voir et d'inspecter tout le trafic web depuis votre ordinateur, votre iPhone et vos appareils Android.",
+      "de": "Proxyman ist ein visuelles Tool für Mac, das es Ihnen ermöglicht, den gesamten Webverkehr von Ihrem Computer, iPhone und Android-Geräten anzuzeigen und zu untersuchen."
+    },
+    "download_url": "https://github.com/ProxymanApp/Proxyman/releases/download/26.5.1/Proxyman_26.5.1.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "fkill-cli",
@@ -22703,6 +23375,34 @@
       "de": "Erleben Sie lokale Medien und Online-Streams in einer anpassbaren Benutzeroberfläche mit erweiterten Audio-Steuerungen."
     },
     "download_url": "https://github.com/namidaco/namida/releases/download/v8.6.7/Namida-x86_64-8.6.7-Installer.exe",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "macpass",
+    "name": "MacPass",
+    "tagline": "Native macOS password vault",
+    "repo_url": "https://github.com/macpass/macpass",
+    "full_name": "macpass/macpass",
+    "category": "Security & Privacy",
+    "tags": [
+      "password-manager",
+      "macos"
+    ],
+    "icon": "/icons/macpass.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 6901,
+    "tier": "tier1_gui",
+    "summary": "MacPass is a free, open-source password manager for Mac that securely stores and organizes all your login credentials in one encrypted place.",
+    "i18n": {
+      "it": "MacPass è un gestore di password gratuito e open-source per Mac che archivia e organizza in modo sicuro tutti i tuoi dati di accesso in un unico luogo crittografato.",
+      "es": "MacPass es un gestor de contraseñas gratuito y de código abierto para Mac que almacena y organiza de forma segura todas tus credenciales de inicio de sesión en un solo lugar cifrado.",
+      "fr": "MacPass est un gestionnaire de mots de passe gratuit et open source pour Mac qui stocke et organise en toute sécurité toutes vos identifiants de connexion dans un seul endroit chiffré.",
+      "de": "MacPass ist ein kostenloser, quelloffener Passwort-Manager für Mac, der alle Ihre Anmeldeinformationen sicher und verschlüsselt an einem zentralen Ort speichert und organisiert."
+    },
+    "download_url": "https://github.com/MacPass/MacPass/releases/download/0.8.2/MacPass-0.8.2.zip.sha256",
     "updated_at": "2026-11-23"
   },
   {
