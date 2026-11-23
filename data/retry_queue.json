@@ -70,13 +70,6 @@
     "queued_at": "2026-11-23T08:36:18.380823+00:00"
   },
   {
-    "full_name": "donnemartin/dev-setup",
-    "slug": "dev-setup",
-    "html_url": "https://github.com/donnemartin/dev-setup",
-    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Richten Sie einen neuen Entwicklungscomputer auf macOS schnell mit organisierten Skripten ein.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-23T08:43:24.848448+00:00"
-  },
-  {
     "full_name": "XcodesOrg/XcodesApp",
     "slug": "xcodesapp",
     "html_url": "https://github.com/XcodesOrg/XcodesApp",
@@ -432,5 +425,61 @@
     "html_url": "https://github.com/prasadgujar/low-level-design-primer",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-23T23:10:48.044749+00:00"
+  },
+  {
+    "full_name": "dthree/vorpal",
+    "slug": "vorpal",
+    "html_url": "https://github.com/dthree/vorpal",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T23:12:01.089578+00:00"
+  },
+  {
+    "full_name": "PaulJuliusMartinez/jless",
+    "slug": "jless",
+    "html_url": "https://github.com/PaulJuliusMartinez/jless",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T23:12:38.777435+00:00"
+  },
+  {
+    "full_name": "fallow-rs/fallow",
+    "slug": "fallow",
+    "html_url": "https://github.com/fallow-rs/fallow",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T23:14:33.412731+00:00"
+  },
+  {
+    "full_name": "unhappychoice/gitlogue",
+    "slug": "gitlogue",
+    "html_url": "https://github.com/unhappychoice/gitlogue",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T23:15:07.952623+00:00"
+  },
+  {
+    "full_name": "devspace-sh/devspace",
+    "slug": "devspace",
+    "html_url": "https://github.com/devspace-sh/devspace",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T23:16:25.945386+00:00"
+  },
+  {
+    "full_name": "Manavarya09/design-extract",
+    "slug": "design-extract",
+    "html_url": "https://github.com/Manavarya09/design-extract",
+    "reason": "tier1_gemini: validation failed (URL not present in source metadata or affiliate seed: https://example.com) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-23T23:16:35.186666+00:00"
+  },
+  {
+    "full_name": "niklashigi/apk-mitm",
+    "slug": "apk-mitm",
+    "html_url": "https://github.com/niklashigi/apk-mitm",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T23:17:41.037031+00:00"
+  },
+  {
+    "full_name": "stoplightio/prism",
+    "slug": "prism",
+    "html_url": "https://github.com/stoplightio/prism",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-23T23:18:35.286361+00:00"
   }
 ]

@@ -2,28 +2,28 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-23T23:11:06.998496+00:00",
-  "total_apps": 1850,
+  "generated_at": "2026-11-23T23:19:08.192500+00:00",
+  "total_apps": 1875,
   "tier_counts": {
-    "tier3_powertool": 239,
+    "tier3_powertool": 264,
     "tier2_webapp": 568,
     "tier1_gui": 1043
   },
   "app_type_counts": {
     "resource": 10,
-    "cli": 229,
+    "cli": 254,
     "selfhosted": 567,
     "desktop": 1043,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 38,
-    "Productivity": 898,
+    "Productivity": 901,
     "Security & Privacy": 47,
-    "Utilities & Power Tools": 230,
-    "Video & Audio": 92,
+    "Utilities & Power Tools": 250,
+    "Video & Audio": 93,
     "Web Apps & Cloud": 543,
-    "Websites & SEO": 2
+    "Websites & SEO": 3
   },
   "apps": [
     {
@@ -26009,6 +26009,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "dev-setup",
+      "name": "dev-setup",
+      "tagline": "Automate your Mac workspace setup",
+      "repo_url": "https://github.com/donnemartin/dev-setup",
+      "full_name": "donnemartin/dev-setup",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "macos",
+        "automation"
+      ],
+      "icon": "/icons/dev-setup.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 6281,
+      "tier": "tier3_powertool",
+      "summary": "This tool provides automated scripts to quickly install and configure essential software and system settings on your Mac.",
+      "i18n": {
+        "it": "Questo strumento offre script automatizzati per installare e configurare rapidamente software e impostazioni essenziali sul tuo Mac.",
+        "es": "Esta herramienta ofrece scripts automatizados para instalar y configurar rápidamente software y ajustes esenciales en tu Mac.",
+        "fr": "Cet outil propose des scripts automatisés pour installer et configurer rapidement les logiciels et paramètres essentiels sur votre Mac.",
+        "de": "Dieses Tool bietet automatisierte Skripte, um wichtige Software und Systemeinstellungen schnell auf Ihrem Mac zu installieren und zu konfigurieren."
+      },
+      "download_url": "https://github.com/donnemartin/dev-setup/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "leva",
       "name": "Leva",
       "tagline": "Gorgeous user controls for web applications",
@@ -28220,6 +28248,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "vapi-network",
+      "name": "vAPI Network",
+      "tagline": "Manage and pay for AI services securely",
+      "repo_url": "https://github.com/vapi-network/vapi-network",
+      "full_name": "vapi-network/vapi-network",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "ai",
+        "privacy"
+      ],
+      "icon": "/icons/vapi-network.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5657,
+      "tier": "tier3_powertool",
+      "summary": "vAPI Network is a secure tool that lets you discover and pay for AI services using your own digital wallet with built-in spending limits.",
+      "i18n": {
+        "it": "vAPI Network è uno strumento sicuro per scoprire e pagare servizi AI usando il tuo portafoglio digitale con limiti di spesa personalizzati.",
+        "es": "vAPI Network es una herramienta segura para descubrir y pagar servicios de IA usando tu propia billetera digital con límites de gasto.",
+        "fr": "vAPI Network est un outil sécurisé pour découvrir et payer des services IA via votre propre portefeuille numérique avec des limites de dépenses.",
+        "de": "vAPI Network ist ein sicheres Werkzeug, um KI-Dienste zu finden und mit Ihrer eigenen digitalen Geldbörse bei festen Ausgabenlimits zu bezahlen."
+      },
+      "download_url": "https://vapinetwork.ai",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "floral-notepaper",
       "name": "Floral Notepaper",
       "tagline": "Elegant and lightweight desktop notes",
@@ -28274,6 +28330,62 @@
       },
       "download_url": "https://github.com/umputun/remark42/releases/download/v1.18.0/remark42_1.18.0_checksums.txt",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "editly",
+      "name": "Editly",
+      "tagline": "Create professional videos using simple instructions",
+      "repo_url": "https://github.com/mifi/editly",
+      "full_name": "mifi/editly",
+      "category": "Video & Audio",
+      "tags": [
+        "video-editing",
+        "automation"
+      ],
+      "icon": "/icons/editly.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5649,
+      "tier": "tier3_powertool",
+      "summary": "Editly allows you to assemble videos, images, and music into polished clips by writing simple instructions instead of manual editing.",
+      "i18n": {
+        "it": "Editly ti permette di montare video, immagini e musica in clip rifinite scrivendo semplici istruzioni invece di usare il montaggio manuale.",
+        "es": "Editly te permite ensamblar videos, imágenes y música en clips pulidos escribiendo instrucciones sencillas en lugar de editar manualmente.",
+        "fr": "Editly vous permet d'assembler des vidéos, des images et de la musique en clips soignés en écrivant des instructions simples au lieu de monter manuellement.",
+        "de": "Editly ermöglicht es Ihnen, Videos, Bilder und Musik durch einfache Anweisungen zu bearbeiten, anstatt sie manuell schneiden zu müssen."
+      },
+      "download_url": "https://github.com/mifi/editly/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "phpinsights",
+      "name": "PHP Insights",
+      "tagline": "Instant quality checks for PHP code",
+      "repo_url": "https://github.com/nunomaduro/phpinsights",
+      "full_name": "nunomaduro/phpinsights",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "development",
+        "productivity"
+      ],
+      "icon": "/icons/phpinsights.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5649,
+      "tier": "tier3_powertool",
+      "summary": "PHP Insights helps you analyze your code quality and structure to ensure your projects remain clean, simple, and easy to maintain.",
+      "i18n": {
+        "it": "PHP Insights analizza la qualità e la struttura del tuo codice per garantire che i tuoi progetti rimangano puliti e facili da gestire.",
+        "es": "PHP Insights analiza la calidad y estructura de tu código para asegurar que tus proyectos se mantengan limpios, simples y fáciles de mantener.",
+        "fr": "PHP Insights analyse la qualité et la structure de votre code pour garantir que vos projets restent propres, simples et faciles à maintenir.",
+        "de": "PHP Insights analysiert die Qualität und Struktur Ihres Codes, damit Ihre Projekte sauber, einfach und wartungsfreundlich bleiben."
+      },
+      "download_url": "https://youtube.com/@nunomaduro?sub_confirmation=1",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "malware-patch",
@@ -28780,6 +28892,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "go-prompt",
+      "name": "go-prompt",
+      "tagline": "Smart command line helpers for Go",
+      "repo_url": "https://github.com/c-bata/go-prompt",
+      "full_name": "c-bata/go-prompt",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "developer-tools",
+        "system-utility"
+      ],
+      "icon": "/icons/go-prompt.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5499,
+      "tier": "tier3_powertool",
+      "summary": "A free toolkit that adds smart auto-complete and history to text-based tools, making them easier to use for developers.",
+      "i18n": {
+        "it": "Un toolkit gratuito che aggiunge autocompletamento intelligente e cronologia agli strumenti testuali, rendendoli più facili da usare per gli sviluppatori.",
+        "es": "Un kit de herramientas gratuito que añade autocompletado inteligente e historial a las herramientas de texto, facilitando su uso para los desarrolladores.",
+        "fr": "Un kit d'outils gratuit qui ajoute l'auto-complétion intelligente et l'historique aux outils textuels, facilitant leur utilisation pour les développeurs.",
+        "de": "Ein kostenloses Toolkit, das intelligente Autovervollständigung und Verlauf zu textbasierten Tools hinzufügt und sie für Entwickler benutzerfreundlicher macht."
+      },
+      "download_url": "https://godoc.org/github.com/c-bata/go-prompt",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "loopforge",
       "name": "LoopForge",
       "tagline": "Standardize software delivery with coding agents",
@@ -28833,6 +28973,62 @@
         "de": "Cuberite ist ein schneller, leichter Server, der es Ihnen ermöglicht, Minecraft-Welten mit einfacher Plugin-Unterstützung zu hosten."
       },
       "download_url": "https://cuberite.org",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "picocli",
+      "name": "picocli",
+      "tagline": "Create powerful command line tools easily.",
+      "repo_url": "https://github.com/remkop/picocli",
+      "full_name": "remkop/picocli",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "development-tools"
+      ],
+      "icon": "/icons/picocli.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5456,
+      "tier": "tier3_powertool",
+      "summary": "Picocli helps you build professional command line applications that are easy to use and include helpful features like automatic instructions.",
+      "i18n": {
+        "it": "Picocli ti aiuta a creare applicazioni da riga di comando professionali, facili da usare e dotate di istruzioni automatiche.",
+        "es": "Picocli te ayuda a crear aplicaciones de línea de comandos profesionales, fáciles de usar e incluyen instrucciones automáticas.",
+        "fr": "Picocli vous aide à créer des applications en ligne de commande professionnelles, simples à utiliser et incluant des instructions automatiques.",
+        "de": "Picocli hilft Ihnen beim Erstellen professioneller Befehlszeilenanwendungen, die benutzerfreundlich sind und automatische Hilfefunktionen bieten."
+      },
+      "download_url": "https://github.com/remkop/picocli/releases/download/v4.7.7/picocli-4.7.7-javadoc.jar",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "viddy",
+      "name": "viddy",
+      "tagline": "Watch commands with time travel",
+      "repo_url": "https://github.com/sachaos/viddy",
+      "full_name": "sachaos/viddy",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "monitoring"
+      ],
+      "icon": "/icons/viddy.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5452,
+      "tier": "tier3_powertool",
+      "summary": "A modern tool that runs commands repeatedly and lets you rewind through their history like a video.",
+      "i18n": {
+        "it": "Uno strumento moderno che esegue comandi ripetutamente e permette di scorrere la loro storia come un video.",
+        "es": "Una herramienta moderna que ejecuta comandos repetidamente y permite revisar su historial como un video.",
+        "fr": "Un outil moderne qui exécute des commandes en boucle et permet de revoir leur historique comme une vidéo.",
+        "de": "Ein modernes Tool, das Befehle wiederholt ausführt und es ermöglicht, deren Verlauf wie ein Video zurückzuspulen."
+      },
+      "download_url": "https://github.com/sachaos/viddy/releases/download/v1.3.1/viddy-v1.3.1-linux-arm64.sha256",
       "updated_at": "2026-11-23"
     },
     {
@@ -28892,6 +29088,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "mirrord",
+      "name": "mirrord",
+      "tagline": "Test local code against live cloud environments",
+      "repo_url": "https://github.com/metalbear-co/mirrord",
+      "full_name": "metalbear-co/mirrord",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "cloud"
+      ],
+      "icon": "/icons/mirrord.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 5427,
+      "tier": "tier3_powertool",
+      "summary": "Run any local code or AI assistant as if it were inside a live cloud server cluster with real settings and live data, without needing to perform manual system updates.",
+      "i18n": {
+        "it": "Esegui qualsiasi codice locale come se fosse su un server cloud live con dati reali, senza dover effettuare aggiornamenti manuali.",
+        "es": "Ejecuta cualquier código local como si estuviera en un servidor en la nube en vivo con datos reales, sin realizar instalaciones manuales.",
+        "fr": "Exécutez du code local comme s'il était dans un serveur cloud en direct avec des données réelles, sans configuration complexe.",
+        "de": "Führe lokalen Code so aus, als liefe er direkt in einem Live-Cloud-Server mit echten Daten, ganz ohne manuelle Uploads."
+      },
+      "download_url": "https://github.com/metalbear-co/mirrord/releases/download/3.290.0/mirrord.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "recyclerlistview",
       "name": "RecyclerListView",
       "tagline": "High-performance lists for mobile and web.",
@@ -28920,6 +29144,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "chafa",
+      "name": "chafa",
+      "tagline": "Turn images into beautiful text art",
+      "repo_url": "https://github.com/hpjansson/chafa",
+      "full_name": "hpjansson/chafa",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "graphics",
+        "system-utility"
+      ],
+      "icon": "/icons/chafa.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (LGPL)",
+      "stars": 5422,
+      "tier": "tier3_powertool",
+      "summary": "Chafa transforms your photos and animations into high-quality text-based graphics that display directly inside your terminal window.",
+      "i18n": {
+        "it": "Chafa converte foto e animazioni in grafica testuale di alta qualità visualizzabile direttamente nel tuo terminale.",
+        "es": "Chafa transforma tus fotos y animaciones en gráficos de texto de alta calidad que se muestran directamente en tu terminal.",
+        "fr": "Chafa convertit vos photos et animations en graphiques textuels de haute qualité affichables directement dans votre terminal.",
+        "de": "Chafa verwandelt Ihre Fotos und Animationen in hochwertige Textgrafiken, die direkt in Ihrem Terminal angezeigt werden."
+      },
+      "download_url": "https://github.com/hpjansson/chafa/releases/download/1.18.3/chafa-1.18.3.tar.xz.asc",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "altsnap",
       "name": "AltSnap",
       "tagline": "Effortlessly move and resize any window.",
@@ -28945,6 +29197,34 @@
         "de": "Easily drag, drop, and resize windows on Windows by holding the Alt key anywhere, bringing beloved Linux ergonomics to your desktop."
       },
       "download_url": "https://github.com/RamonUnch/AltSnap/releases/download/1.68/AltSnap1.68-inst.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "create-dmg",
+      "name": "create-dmg",
+      "tagline": "Instant, beautiful macOS app packages",
+      "repo_url": "https://github.com/sindresorhus/create-dmg",
+      "full_name": "sindresorhus/create-dmg",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "macos",
+        "developer-tools"
+      ],
+      "icon": "/icons/create-dmg.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 5398,
+      "tier": "tier3_powertool",
+      "summary": "Turn your finished macOS app into a professional-looking disk image in seconds.",
+      "i18n": {
+        "it": "Trasforma la tua app macOS in un'immagine disco professionale in pochi secondi.",
+        "es": "Convierte tu app de macOS en una imagen de disco profesional en segundos.",
+        "fr": "Transformez votre application macOS en image disque professionnelle en quelques secondes.",
+        "de": "Wandle deine macOS-App in Sekunden in ein professionelles Disk-Image um."
+      },
+      "download_url": "https://github.com/sindresorhus/create-dmg/releases",
       "updated_at": "2026-11-23"
     },
     {
@@ -29228,6 +29508,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "exiftool",
+      "name": "exiftool",
+      "tagline": "Read and edit hidden file details",
+      "repo_url": "https://github.com/exiftool/exiftool",
+      "full_name": "exiftool/exiftool",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "metadata",
+        "photo-management"
+      ],
+      "icon": "/icons/exiftool.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 5299,
+      "tier": "tier3_powertool",
+      "summary": "ExifTool is a free command-line tool that reveals and modifies the hidden metadata inside your photos, videos, and documents.",
+      "i18n": {
+        "it": "ExifTool è uno strumento gratuito da riga di comando che rivela e modifica i metadati nascosti nelle foto e nei video.",
+        "es": "ExifTool es una herramienta gratuita de línea de comandos que revela y modifica los metadatos ocultos en tus fotos y videos.",
+        "fr": "ExifTool est un outil gratuit en ligne de commande qui révèle et modifie les métadonnées cachées dans vos photos et vidéos.",
+        "de": "ExifTool ist ein kostenloses Kommandozeilenwerkzeug, das versteckte Metadaten in Fotos und Videos anzeigt und ändert."
+      },
+      "download_url": "https://exiftool.org/",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "saws",
       "name": "saws",
       "tagline": "Supercharge your cloud management command line.",
@@ -29396,6 +29704,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "octosql",
+      "name": "OctoSQL",
+      "tagline": "Query and join data from any source",
+      "repo_url": "https://github.com/cube2222/octosql",
+      "full_name": "cube2222/octosql",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "data-analysis",
+        "sql"
+      ],
+      "icon": "/icons/octosql.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 5273,
+      "tier": "tier3_powertool",
+      "summary": "OctoSQL lets you analyze and combine information from different files and databases using simple, standard commands.",
+      "i18n": {
+        "it": "OctoSQL ti permette di analizzare e combinare informazioni da diversi file e database usando comandi semplici e standard.",
+        "es": "OctoSQL te permite analizar y combinar información de diferentes archivos y bases de datos usando comandos simples y estándar.",
+        "fr": "OctoSQL vous permet d'analyser et de combiner des informations provenant de différents fichiers et bases de données avec des commandes simples.",
+        "de": "OctoSQL ermöglicht es Ihnen, Informationen aus verschiedenen Dateien und Datenbanken mit einfachen, standardmäßigen Befehlen zu analysieren."
+      },
+      "download_url": "https://github.com/cube2222/octosql/releases/download/v0.13.0/octosql_0.13.0_checksums.txt",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "sophiapp",
       "name": "SophiApp",
       "tagline": "Fine-tune your Windows settings easily.",
@@ -29422,6 +29758,34 @@
       },
       "download_url": "https://github.com/Sophia-Community/SophiApp/releases",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "rustnet",
+      "name": "RustNet",
+      "tagline": "See exactly what your apps are doing online",
+      "repo_url": "https://github.com/domcyrus/rustnet",
+      "full_name": "domcyrus/rustnet",
+      "category": "Productivity",
+      "tags": [
+        "network-monitoring",
+        "security"
+      ],
+      "icon": "/icons/rustnet.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux, Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5256,
+      "tier": "tier3_powertool",
+      "summary": "RustNet is a free, open-source tool that shows you live network activity for each program on your computer.",
+      "i18n": {
+        "it": "RustNet è uno strumento gratuito che mostra l'attività di rete in tempo reale per ogni programma.",
+        "es": "RustNet es una herramienta gratuita que muestra la actividad de red en tiempo real para cada programa.",
+        "fr": "RustNet est un outil gratuit qui affiche l'activité réseau en temps réel pour chaque programme.",
+        "de": "RustNet ist ein kostenloses Tool, das die Live-Netzwerkaktivität jeder Anwendung anzeigt."
+      },
+      "download_url": "https://github.com/domcyrus/rustnet/releases/download/v1.7.0/Rustnet_Windows_32-bit.msi",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "homelable",
@@ -29506,6 +29870,34 @@
       },
       "download_url": "https://github.com/iflytek/astron-rpa/releases/download/v1.1.7/astron-rpa-1.1.7-x64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "testsprite-cli",
+      "name": "testsprite-cli",
+      "tagline": "AI-powered automated testing from your terminal",
+      "repo_url": "https://github.com/testsprite/testsprite-cli",
+      "full_name": "testsprite/testsprite-cli",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "testing",
+        "ai"
+      ],
+      "icon": "/icons/testsprite-cli.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5222,
+      "tier": "tier3_powertool",
+      "summary": "An official tool that lets your coding assistant verify live web apps like a real user, catching bugs before they reach production.",
+      "i18n": {
+        "it": "Uno strumento ufficiale per verificare app web in tempo reale come un utente vero, individuando i bug prima della produzione.",
+        "es": "Una herramienta oficial para verificar aplicaciones web en vivo como un usuario real, detectando errores antes de producción.",
+        "fr": "Un outil officiel pour vérifier des applications web en direct comme un vrai utilisateur avant la mise en production.",
+        "de": "Ein offizielles Tool zur Überprüfung von Live-Web-Apps wie ein echter Nutzer, um Fehler vor der Produktion zu finden."
+      },
+      "download_url": "https://www.testsprite.com",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "colanode",
@@ -29648,6 +30040,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "mermaid-cli",
+      "name": "Mermaid CLI",
+      "tagline": "Turn text diagrams into professional images",
+      "repo_url": "https://github.com/mermaid-js/mermaid-cli",
+      "full_name": "mermaid-js/mermaid-cli",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "diagrams"
+      ],
+      "icon": "/icons/mermaid-cli.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5183,
+      "tier": "tier3_powertool",
+      "summary": "This tool converts simple text-based diagrams into high-quality images like PNG, SVG, or PDF files for your documents.",
+      "i18n": {
+        "it": "Questo strumento converte semplici diagrammi basati su testo in immagini di alta qualità come file PNG, SVG o PDF per i tuoi documenti.",
+        "es": "Esta herramienta convierte diagramas de texto simples en imágenes de alta calidad como archivos PNG, SVG o PDF para tus documentos.",
+        "fr": "Cet outil convertit des diagrammes textuels simples en images de haute qualité comme des fichiers PNG, SVG ou PDF pour vos documents.",
+        "de": "Dieses Tool wandelt einfache textbasierte Diagramme in hochwertige Bilder wie PNG-, SVG- oder PDF-Dateien für Ihre Dokumente um."
+      },
+      "download_url": "https://github.com/mermaid-js/mermaid-cli/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "wp-cli",
+      "name": "WP-CLI",
+      "tagline": "Manage your WordPress site via text commands.",
+      "repo_url": "https://github.com/wp-cli/wp-cli",
+      "full_name": "wp-cli/wp-cli",
+      "category": "Websites & SEO",
+      "tags": [
+        "wordpress",
+        "web-development"
+      ],
+      "icon": "/icons/wp-cli.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5179,
+      "tier": "tier3_powertool",
+      "summary": "WP-CLI allows you to update plugins, manage settings, and perform site maintenance directly through your computer's text-based interface.",
+      "i18n": {
+        "it": "WP-CLI ti permette di aggiornare plugin, gestire impostazioni e fare manutenzione al sito direttamente dal terminale del tuo computer.",
+        "es": "WP-CLI te permite actualizar complementos, gestionar ajustes y realizar mantenimiento del sitio directamente desde la interfaz de texto.",
+        "fr": "WP-CLI vous permet de mettre à jour des extensions, gérer les réglages et effectuer la maintenance de votre site via votre terminal.",
+        "de": "WP-CLI ermöglicht es Ihnen, Plugins zu aktualisieren, Einstellungen zu verwalten und Wartungsarbeiten direkt über die Konsole auszuführen."
+      },
+      "download_url": "https://github.com/wp-cli/wp-cli/releases/download/v2.12.0/wp-cli-2.12.0.phar",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "port-killer",
       "name": "Port-Killer",
       "tagline": "Easily free up busy computer ports",
@@ -29732,6 +30180,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "colorls",
+      "name": "colorls",
+      "tagline": "Colorful and icon-rich file listing",
+      "repo_url": "https://github.com/athityakumar/colorls",
+      "full_name": "athityakumar/colorls",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "productivity"
+      ],
+      "icon": "/icons/colorls.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5154,
+      "tier": "tier3_powertool",
+      "summary": "Transforms your terminal's file list into a colorful, easy-to-read view with helpful icons.",
+      "i18n": {
+        "it": "Trasforma l'elenco dei file del terminale in una vista colorata e leggibile con icone utili.",
+        "es": "Convierte la lista de archivos de tu terminal en una vista colorida y fácil de leer con iconos útiles.",
+        "fr": "Transforme la liste des fichiers de votre terminal en une vue colorée et lisible avec des icônes utiles.",
+        "de": "Verwandelt die Dateiliste Ihres Terminals in eine farbenfrohe, leicht lesbare Ansicht mit nützlichen Icons."
+      },
+      "download_url": "https://github.com/athityakumar/colorls/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "aliyunpan",
       "name": "aliyunpan",
       "tagline": "Manage your cloud storage via command line",
@@ -29757,6 +30233,34 @@
         "de": "Ein praktisches Konsolentool zum Verwalten, Sichern und Synchronisieren von Dateien im Cloud-Speicher."
       },
       "download_url": "https://github.com/tickstep/aliyunpan/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "mcporter",
+      "name": "MCPorter",
+      "tagline": "Easily connect and run AI tools",
+      "repo_url": "https://github.com/openclaw/mcporter",
+      "full_name": "openclaw/mcporter",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "automation",
+        "developer-tools"
+      ],
+      "icon": "/icons/mcporter.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5142,
+      "tier": "tier3_powertool",
+      "summary": "MCPorter helps you discover and run specialized AI tools directly from your terminal or custom scripts.",
+      "i18n": {
+        "it": "MCPorter ti consente di scoprire ed eseguire strumenti AI specializzati direttamente dal tuo terminale o dai tuoi script.",
+        "es": "MCPorter te ayuda a descubrir y ejecutar herramientas de IA especializadas directamente desde tu terminal o scripts.",
+        "fr": "MCPorter vous aide à découvrir et à exécuter des outils IA spécialisés directement depuis votre terminal ou vos scripts.",
+        "de": "MCPorter hilft dir dabei, spezialisierte KI-Tools direkt über dein Terminal oder deine Skripte zu finden und auszuführen."
+      },
+      "download_url": "https://github.com/openclaw/mcporter/releases/download/v0.17.1/checksums.txt",
       "updated_at": "2026-11-23"
     },
     {
@@ -29788,6 +30292,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "json-repair",
+      "name": "json_repair",
+      "tagline": "Fix broken structured text instantly in Python.",
+      "repo_url": "https://github.com/mangiucugna/json_repair",
+      "full_name": "mangiucugna/json_repair",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "json",
+        "utilities"
+      ],
+      "icon": "/icons/json-repair.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5138,
+      "tier": "tier3_powertool",
+      "summary": "Automatically repair malformed data structures from automated text generators and log files using a lightweight Python utility.",
+      "i18n": {
+        "it": "Correggi automaticamente file e flussi di dati incompleti o danneggiati generati da assistenti intelligenti.",
+        "es": "Corrige automáticamente datos estructurados deformados o incompletos generados por sistemas inteligentes.",
+        "fr": "Corrigez automatiquement les données structurées incomplètes ou endommagées générées par des assistants.",
+        "de": "Beheben Sie automatisch fehlerhafte oder unvollständige strukturierte Daten aus automatisierten Systemen."
+      },
+      "download_url": "https://mangiucugna.github.io/json_repair/",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "tbox",
       "name": "tbox",
       "tagline": "A versatile toolkit for C development",
@@ -29814,6 +30346,62 @@
       },
       "download_url": "https://tboox.top",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "s-tui",
+      "name": "s-tui",
+      "tagline": "Monitor your computer's health and performance",
+      "repo_url": "https://github.com/amanusk/s-tui",
+      "full_name": "amanusk/s-tui",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "monitoring",
+        "hardware"
+      ],
+      "icon": "/icons/s-tui.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v2)",
+      "stars": 5123,
+      "tier": "tier3_powertool",
+      "summary": "s-tui provides a clear, visual way to track your processor's temperature, speed, and power usage directly in your terminal window.",
+      "i18n": {
+        "it": "s-tui offre un modo semplice e visivo per monitorare la temperatura, la velocità e il consumo energetico del processore dal terminale.",
+        "es": "s-tui ofrece una forma clara y visual de seguir la temperatura, velocidad y consumo de energía de tu procesador desde la terminal.",
+        "fr": "s-tui offre un moyen clair et visuel de suivre la température, la vitesse et la consommation d'énergie de votre processeur dans le terminal.",
+        "de": "s-tui bietet eine klare, visuelle Möglichkeit, die Temperatur, Geschwindigkeit und den Stromverbrauch Ihres Prozessors im Terminal zu verfolgen."
+      },
+      "download_url": "https://amanusk.github.io/s-tui/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "mqttx",
+      "name": "MQTTX",
+      "tagline": "Easily test and debug IoT connections",
+      "repo_url": "https://github.com/emqx/mqttx",
+      "full_name": "emqx/mqttx",
+      "category": "Productivity",
+      "tags": [
+        "iot",
+        "messaging"
+      ],
+      "icon": "/icons/mqttx.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5110,
+      "tier": "tier3_powertool",
+      "summary": "MQTTX is a versatile tool for managing and troubleshooting messaging connections used by smart devices and internet-connected hardware.",
+      "i18n": {
+        "it": "MQTTX è uno strumento versatile per gestire e diagnosticare le connessioni di messaggistica utilizzate da dispositivi intelligenti.",
+        "es": "MQTTX es una herramienta versátil para gestionar y solucionar problemas de mensajería usados por dispositivos inteligentes.",
+        "fr": "MQTTX est un outil polyvalent pour gérer et diagnostiquer les connexions de messagerie utilisées par les objets connectés.",
+        "de": "MQTTX ist ein vielseitiges Werkzeug zur Verwaltung und Fehlerbehebung von Nachrichtenverbindungen für intelligente Geräte."
+      },
+      "download_url": "https://github.com/emqx/MQTTX/releases/download/v1.13.3/mqttx-cli-win-arm64.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "kmonad",
@@ -29870,6 +30458,62 @@
       },
       "download_url": "https://github.com/RandyGaul/cute_headers/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "arduino-cli",
+      "name": "arduino-cli",
+      "tagline": "Control Arduino boards from your terminal",
+      "repo_url": "https://github.com/arduino/arduino-cli",
+      "full_name": "arduino/arduino-cli",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "arduino",
+        "system-utility"
+      ],
+      "icon": "/icons/arduino-cli.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 5098,
+      "tier": "tier3_powertool",
+      "summary": "A free command-line tool that lets you manage, build, and upload code to Arduino boards without a graphical interface.",
+      "i18n": {
+        "it": "Uno strumento gratuito da riga di comando per gestire, compilare e caricare codice sulle schede Arduino senza interfaccia grafica.",
+        "es": "Una herramienta gratuita de línea de comandos para gestionar, compilar y cargar código en placas Arduino sin interfaz gráfica.",
+        "fr": "Un outil gratuit en ligne de commande pour gérer, compiler et téléverser du code sur des cartes Arduino sans interface graphique.",
+        "de": "Ein kostenloses Kommandozeilen-Tool zum Verwalten, Kompilieren und Hochladen von Code auf Arduino-Boards ohne grafische Oberfläche."
+      },
+      "download_url": "https://github.com/arduino/arduino-cli/releases/download/v1.6.0/arduino-cli_1.6.0_Windows_64bit.msi",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "forgit",
+      "name": "forgit",
+      "tagline": "Interactive tools for managing your files",
+      "repo_url": "https://github.com/wfxr/forgit",
+      "full_name": "wfxr/forgit",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "utilities"
+      ],
+      "icon": "/icons/forgit.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5096,
+      "tier": "tier3_powertool",
+      "summary": "This tool adds a visual, interactive menu to your file tracking tasks.",
+      "i18n": {
+        "it": "Questo strumento aggiunge un menu visivo e interattivo alle tue attività di gestione file.",
+        "es": "Esta herramienta añade un menú visual e interactivo a tus tareas de gestión de archivos.",
+        "fr": "Cet outil ajoute un menu visuel et interactif à vos tâches de gestion de fichiers.",
+        "de": "Dieses Tool fügt Ihren Dateiverwaltungsaufgaben ein visuelles, interaktives Menü hinzu."
+      },
+      "download_url": "https://github.com/wfxr/forgit/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "text-grab",
@@ -29984,6 +30628,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "cli-printing-press",
+      "name": "CLI Printing Press",
+      "tagline": "Build custom tools for any web service.",
+      "repo_url": "https://github.com/mvanhorn/cli-printing-press",
+      "full_name": "mvanhorn/cli-printing-press",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "automation"
+      ],
+      "icon": "/icons/cli-printing-press.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5038,
+      "tier": "tier3_powertool",
+      "summary": "Create powerful, offline-ready command-line tools for any website or service to help your AI agents work faster and more accurately.",
+      "i18n": {
+        "it": "Crea potenti strumenti da riga di comando per qualsiasi sito web, aiutando i tuoi agenti IA a lavorare in modo più rapido ed efficiente.",
+        "es": "Crea potentes herramientas de línea de comandos para cualquier sitio web, ayudando a tus agentes de IA a trabajar más rápido y mejor.",
+        "fr": "Créez de puissants outils en ligne de commande pour tout site web, aidant vos agents IA à travailler plus rapidement et plus efficacement.",
+        "de": "Erstellen Sie leistungsstarke Befehlszeilen-Tools für jede Website, damit Ihre KI-Agenten schneller und präziser arbeiten können."
+      },
+      "download_url": "https://github.com/mvanhorn/cli-printing-press/releases/download/v4.36.0/checksums.txt",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "ultralight",
       "name": "Ultralight",
       "tagline": "High-performance web rendering for apps",
@@ -30094,6 +30766,34 @@
       },
       "download_url": "https://github.com/modelflare-ai/AnyModelBot/releases/download/v0.1.44/anymodel-bot-0.1.44-win-arm64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "awless",
+      "name": "awless",
+      "tagline": "Powerful command line utility for cloud services",
+      "repo_url": "https://github.com/wallix/awless",
+      "full_name": "wallix/awless",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "cloud"
+      ],
+      "icon": "/icons/awless.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 4956,
+      "tier": "tier3_powertool",
+      "summary": "Manage cloud infrastructure easily with a friendly command line tool that simplifies tasks and handles automatic rollbacks.",
+      "i18n": {
+        "it": "Gestisci le risorse cloud facilmente con un pratico strumento da riga di comando che semplifica le attività complesse.",
+        "es": "Administra tu infraestructura en la nube fácilmente con una herramienta intuitiva que simplifica tareas complejas.",
+        "fr": "Gérez votre infrastructure cloud facilement grâce à un outil intuitif qui simplifie les tâches complexes.",
+        "de": "Verwalten Sie Cloud-Ressourcen einfach mit einem benutzerfreundlichen Befehlszeilen-Tool für komplexe Aufgaben."
+      },
+      "download_url": "https://awless.io/",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "agenta",
