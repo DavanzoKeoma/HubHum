@@ -56,17 +56,17 @@
     "queued_at": "2026-11-21T19:51:36.364589+00:00"
   },
   {
-    "full_name": "mixxxdj/mixxx",
-    "slug": "mixxx",
-    "html_url": "https://github.com/mixxxdj/mixxx",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (Field 'summary' appears truncated or incomplete: 'Mixxx lets anyone create live DJ mixes on a computer, with all the tools you need, and it’s completely free.')",
-    "queued_at": "2026-11-23T00:00:31.295874+00:00"
+    "full_name": "SDWebImage/SDWebImage",
+    "slug": "sdwebimage",
+    "html_url": "https://github.com/SDWebImage/SDWebImage",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-23T08:35:13.172423+00:00"
   },
   {
-    "full_name": "productdevbook/port-killer",
-    "slug": "port-killer",
-    "html_url": "https://github.com/productdevbook/port-killer",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
-    "queued_at": "2026-11-23T00:05:51.982209+00:00"
+    "full_name": "kyleneideck/BackgroundMusic",
+    "slug": "backgroundmusic",
+    "html_url": "https://github.com/kyleneideck/BackgroundMusic",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Regeln Sie App-Lautstärken einzeln, pausieren Sie Musik automatisch und nehmen Sie Systemaudio auf macOS auf.') | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-23T08:36:18.380823+00:00"
   }
 ]

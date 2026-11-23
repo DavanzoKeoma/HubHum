@@ -1988,6 +1988,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "brew",
+    "name": "brew",
+    "tagline": "Easily install and manage computer software.",
+    "repo_url": "https://github.com/homebrew/brew",
+    "full_name": "homebrew/brew",
+    "category": "Productivity",
+    "tags": [
+      "utility",
+      "package-manager"
+    ],
+    "icon": "/icons/brew.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (BSD)",
+    "stars": 50410,
+    "tier": "tier1_gui",
+    "summary": "Homebrew is a simple tool that helps you quickly download, update, and organize applications and developer tools on your computer.",
+    "i18n": {
+      "it": "Homebrew è uno strumento semplice che aiuta a scaricare, aggiornare e organizzare rapidamente applicazioni e strumenti sul computer.",
+      "es": "Homebrew es una herramienta sencilla que ayuda a descargar, actualizar y organizar rápidamente aplicaciones en tu ordenador.",
+      "fr": "Homebrew est un outil simple qui aide à télécharger, mettre à jour et organiser rapidement des applications sur votre ordinateur.",
+      "de": "Homebrew ist ein einfaches Tool zum schnellen Herunterladen, Aktualisieren und Verwalten von Programmen auf Ihrem Computer."
+    },
+    "download_url": "https://github.com/Homebrew/brew/releases/download/7.0.15/Homebrew.pkg",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "nanobot",
     "name": "nanobot",
     "tagline": "Your lightweight self-hosted personal AI companion",
@@ -2210,6 +2238,34 @@
     },
     "download_url": "https://github.com/siyuan-note/siyuan/releases/download/v3.8.11/siyuan-3.8.11-win-arm64.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "iina",
+    "name": "iina",
+    "tagline": "The modern media player for Mac.",
+    "repo_url": "https://github.com/iina/iina",
+    "full_name": "iina/iina",
+    "category": "Video & Audio",
+    "tags": [
+      "macos",
+      "video-player"
+    ],
+    "icon": "/icons/iina.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 47238,
+    "tier": "tier1_gui",
+    "summary": "Enjoy seamless video and music playback on macOS with a gorgeous, customizable media player built specifically for Apple computers.",
+    "i18n": {
+      "it": "Goditi la riproduzione fluida di video e musica su macOS con un lettore multimediale elegante e personalizzabile.",
+      "es": "Disfruta de una reproducción fluida de vídeo y música en macOS con un reproductor multimedia elegante y personalizable.",
+      "fr": "Profitez d'une lecture fluide de vos vidéos et musiques sur macOS avec un lecteur multimédia élégant et personnalisable.",
+      "de": "Genießen Sie die reibungslose Wiedergabe von Videos und Musik auf macOS mit einem eleganten und anpassbaren Media Player."
+    },
+    "download_url": "https://github.com/iina/iina/releases/download/v1.5.1/IINA.v1.5.1.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "cli",
@@ -2546,6 +2602,34 @@
     },
     "download_url": "https://puter.com",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "stats",
+    "name": "Stats",
+    "tagline": "Free Mac system monitor",
+    "repo_url": "https://github.com/exelban/stats",
+    "full_name": "exelban/stats",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "system-monitor"
+    ],
+    "icon": "/icons/stats.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 43574,
+    "tier": "tier1_gui",
+    "summary": "Stats is a free, lightweight app that shows your Mac's performance in the menu bar.",
+    "i18n": {
+      "it": "Stats è un'app gratuita che mostra le prestazioni del tuo Mac nella barra dei menu.",
+      "es": "Stats es una aplicación gratuita que muestra el rendimiento de tu Mac en la barra de menú.",
+      "fr": "Stats est une application gratuite qui affiche les performances de votre Mac dans la barre de menu.",
+      "de": "Stats ist eine kostenlose App, die die Leistung deines Macs in der Menüleiste anzeigt."
+    },
+    "download_url": "https://github.com/exelban/stats/releases/download/v3.1.1/Stats.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "yazi",
@@ -3472,6 +3556,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "bitchat",
+    "name": "bitchat",
+    "tagline": "Offline mesh and global internet chat",
+    "repo_url": "https://github.com/permissionlesstech/bitchat",
+    "full_name": "permissionlesstech/bitchat",
+    "category": "Productivity",
+    "tags": [
+      "messaging",
+      "bluetooth"
+    ],
+    "icon": "/icons/bitchat.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Public Domain / Free",
+    "stars": 37197,
+    "tier": "tier1_gui",
+    "summary": "Stay connected anywhere using local device bluetooth networks or global internet messaging without signups or central servers.",
+    "i18n": {
+      "it": "Rimani connesso ovunque tramite reti bluetooth locali o messaggistica internet globale senza registrazioni o server centrali.",
+      "es": "Mantente conectado en cualquier lugar usando redes bluetooth locales o mensajería por internet global sin registros ni servidores.",
+      "fr": "Restez connecté partout grâce aux réseaux bluetooth locaux ou à la messagerie internet mondiale sans inscription ni serveurs.",
+      "de": "Bleiben Sie überall über lokale Bluetooth-Netzwerke oder weltweite Internet-Nachrichten ohne Registrierung oder Server verbunden."
+    },
+    "download_url": "https://github.com/permissionlesstech/bitchat/releases/download/v1.8.0/SOURCE-MANIFEST.txt",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "wails",
     "name": "Wails",
     "tagline": "Build native desktop apps with Go",
@@ -3497,6 +3609,34 @@
     },
     "download_url": "https://wails.io",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "utm",
+    "name": "UTM",
+    "tagline": "Run virtual computers on your devices",
+    "repo_url": "https://github.com/utmapp/utm",
+    "full_name": "utmapp/utm",
+    "category": "Productivity",
+    "tags": [
+      "virtualization",
+      "emulator"
+    ],
+    "icon": "/icons/utm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Linux, iOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 37011,
+    "tier": "tier1_gui",
+    "summary": "Easily run different operating systems like Windows and Linux right on your Mac, iPhone, or iPad.",
+    "i18n": {
+      "it": "Esegui facilmente sistemi operativi come Windows e Linux direttamente sul tuo Mac, iPhone o iPad.",
+      "es": "Ejecuta fácilmente sistemas operativos como Windows y Linux directamente en tu Mac, iPhone o iPad.",
+      "fr": "Exécutez facilement des systèmes d'exploitation comme Windows et Linux directement sur votre Mac, iPhone ou iPad.",
+      "de": "Führen Sie Betriebssysteme wie Windows und Linux ganz einfach direkt auf Ihrem Mac, iPhone oder iPad aus."
+    },
+    "download_url": "https://github.com/utmapp/UTM/releases/download/v5.0.9-2/UTM.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "continue",
@@ -3639,6 +3779,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "monitorcontrol",
+    "name": "MonitorControl",
+    "tagline": "Control Mac external display brightness easily.",
+    "repo_url": "https://github.com/monitorcontrol/monitorcontrol",
+    "full_name": "monitorcontrol/monitorcontrol",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "utility"
+    ],
+    "icon": "/icons/monitorcontrol.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 34803,
+    "tier": "tier1_gui",
+    "summary": "Manage external screen brightness and volume on your Mac using standard keyboard keys or sliders that match native Apple controls.",
+    "i18n": {
+      "it": "Gestisci luminosità e volume dello schermo esterno sul tuo Mac usando i tasti della tastiera o cursori in stile Apple.",
+      "es": "Ajusta el brillo y volumen de pantallas externas en tu Mac usando las teclas habituales o controles deslizantes nativos.",
+      "fr": "Ajustez la luminosité et le volume de votre écran externe sur Mac à l'aide des touches du clavier ou de curseurs natifs.",
+      "de": "Regeln Sie Bildschirmhelligkeit und Lautstärke an externen Monitoren über gewohnte Mac-Tastaturtasten oder Schieberegler."
+    },
+    "download_url": "https://github.com/MonitorControl/MonitorControl/releases/download/v4.4.0/MonitorControl.4.4.0.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "etcher",
     "name": "etcher",
     "tagline": "Flash operating system images safely and easily.",
@@ -3665,6 +3833,34 @@
     },
     "download_url": "https://github.com/balena-io/etcher/releases/download/v2.1.9/balenaEtcher-2.1.9.Setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "betterdisplay",
+    "name": "BetterDisplay",
+    "tagline": "Unlock full display control on macOS",
+    "repo_url": "https://github.com/waydabber/betterdisplay",
+    "full_name": "waydabber/betterdisplay",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "displays"
+    ],
+    "icon": "/icons/betterdisplay.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 34681,
+    "tier": "tier1_gui",
+    "summary": "Manage screen scaling, brightness, and virtual displays on your Mac with advanced customization tools right from the menu bar.",
+    "i18n": {
+      "it": "Gestisci ridimensionamento, luminosità e schermi virtuali sul tuo Mac con strumenti di personalizzazione avanzati dalla barra dei menu.",
+      "es": "Gestiona la escala, el brillo y pantallas virtuales en tu Mac con herramientas de personalización avanzadas desde la barra de menús.",
+      "fr": "Gérez l'affichage, la luminosité et les écrans virtuels sur votre Mac grâce à des outils de personnalisation avancés.",
+      "de": "Verwalten Sie Auflösung, Helligkeit und virtuelle Bildschirme auf Ihrem Mac ganz einfach über die Menüleiste."
+    },
+    "download_url": "https://github.com/waydabber/BetterDisplay/releases/download/v5.2.1/BetterDisplay-v5.2.1.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "pentagi",
@@ -4029,6 +4225,34 @@
     },
     "download_url": "https://github.com/Zackriya-Solutions/meetily/releases/download/v0.5.0/meetily_0.5.0_x64-setup.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "shadowsocksx-ng",
+    "name": "ShadowsocksX-NG",
+    "tagline": "Native menu bar proxy client for macOS",
+    "repo_url": "https://github.com/shadowsocks/shadowsocksx-ng",
+    "full_name": "shadowsocks/shadowsocksx-ng",
+    "category": "Productivity",
+    "tags": [
+      "proxy",
+      "macos"
+    ],
+    "icon": "/icons/shadowsocksx-ng.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 32863,
+    "tier": "tier1_gui",
+    "summary": "Manage server connections, routing rules, and traffic subscriptions directly from your Mac's menu bar with a lightweight native app.",
+    "i18n": {
+      "it": "Gestisci server, regole di routing e abbonamenti di traffico direttamente dalla barra dei menu del Mac con un'app leggera.",
+      "es": "Administra conexiones de servidores, reglas y suscripciones de tráfico directamente desde la barra de menú de tu Mac.",
+      "fr": "Gérez les serveurs, les règles de routage et les abonnements directement depuis la barre des menus de votre Mac.",
+      "de": "Verwalten Sie Serververbindungen, Routing-Regeln und Abonnements direkt über die Menüleiste Ihres Mac."
+    },
+    "download_url": "https://github.com/shadowsocks/ShadowsocksX-NG/releases/download/v2.0.0-alpha.2/ShadowsocksX-NG2-2.0.0-alpha.2-3-arm64.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "yew",
@@ -6495,6 +6719,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "aerospace",
+    "name": "AeroSpace",
+    "tagline": "Keyboard-driven window tiling for Mac",
+    "repo_url": "https://github.com/nikitabobko/aerospace",
+    "full_name": "nikitabobko/aerospace",
+    "category": "Productivity",
+    "tags": [
+      "window-manager",
+      "productivity"
+    ],
+    "icon": "/icons/aerospace.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 23926,
+    "tier": "tier1_gui",
+    "summary": "AeroSpace organizes your Mac windows into neat, automatic grids that you control entirely with keyboard shortcuts.",
+    "i18n": {
+      "it": "AeroSpace organizza le finestre del Mac in griglie automatiche controllate da scorciatoie da tastiera.",
+      "es": "AeroSpace organiza las ventanas de tu Mac en cuadrículas automáticas controladas por atajos de teclado.",
+      "fr": "AeroSpace organise les fenêtres de votre Mac en grilles automatiques contrôlées par des raccourcis clavier.",
+      "de": "AeroSpace organisiert Ihre Mac-Fenster in automatisch angeordneten Gittern, die Sie über Tastenkürzeln steuern."
+    },
+    "download_url": "https://nikitabobko.github.io/AeroSpace/guide",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "super-productivity",
     "name": "Super Productivity",
     "tagline": "Private offline-first to-do and time tracker",
@@ -6549,6 +6801,62 @@
     },
     "download_url": "https://github.com/fosrl/pangolin/releases/download/1.27.0/installer_linux_amd64",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "omlx",
+    "name": "oMLX",
+    "tagline": "Run local artificial intelligence easily on Mac.",
+    "repo_url": "https://github.com/jundot/omlx",
+    "full_name": "jundot/omlx",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "macos"
+    ],
+    "icon": "/icons/omlx.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 23855,
+    "tier": "tier1_gui",
+    "summary": "Manage and run advanced language intelligence models directly from your Mac menu bar with smart caching and high performance.",
+    "i18n": {
+      "it": "Gestisci modelli di linguaggio avanzati direttamente dalla barra dei menu del Mac con caching intelligente e alte prestazioni.",
+      "es": "Gestiona modelos de lenguaje avanzados desde la barra de menús de tu Mac con almacenamiento en caché inteligente.",
+      "fr": "Gérez des modèles de langage avancés directement depuis la barre des menus de votre Mac avec un cache intelligent.",
+      "de": "Verwalten Sie fortschrittliche Sprachmodelle direkt über die Menüleiste Ihres Macs mit intelligentem Caching."
+    },
+    "download_url": "https://github.com/jundot/omlx/releases/download/v0.8.3/oMLX-0.8.3-macos15-sequoia.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "osx-kvm",
+    "name": "OSX-KVM",
+    "tagline": "Run macOS directly on Linux hardware",
+    "repo_url": "https://github.com/kholia/osx-kvm",
+    "full_name": "kholia/osx-kvm",
+    "category": "Productivity",
+    "tags": [
+      "virtualization",
+      "macos"
+    ],
+    "icon": "/icons/osx-kvm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 23844,
+    "tier": "tier1_gui",
+    "summary": "Run Apple's desktop operating system on a standard Linux computer without needing actual Apple hardware.",
+    "i18n": {
+      "it": "Esegui il sistema operativo Apple su un normale computer Linux senza bisogno di hardware originale.",
+      "es": "Ejecuta el sistema operativo de Apple en un ordenador Linux estándar sin necesidad de hardware original.",
+      "fr": "Exécutez le système d'exploitation Apple sur un ordinateur Linux standard sans matériel original.",
+      "de": "Nutze das Apple-Betriebssystem auf einem normalen Linux-Computer ohne Original-Hardware."
+    },
+    "download_url": "https://github.com/kholia/OSX-KVM/releases",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "ego-lite",
@@ -6745,6 +7053,62 @@
     },
     "download_url": "https://ly.cyberserval.tech/d4HFBvC",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "karabiner-elements",
+    "name": "Karabiner-Elements",
+    "tagline": "Custom keyboard layouts and shortcuts on Mac",
+    "repo_url": "https://github.com/pqrs-org/karabiner-elements",
+    "full_name": "pqrs-org/karabiner-elements",
+    "category": "Productivity",
+    "tags": [
+      "keyboard",
+      "macos"
+    ],
+    "icon": "/icons/karabiner-elements.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Public Domain / Free",
+    "stars": 23141,
+    "tier": "tier1_gui",
+    "summary": "Karabiner-Elements is a powerful tool that lets you remap keys, create custom shortcuts, and tailor your keyboard behavior on macOS.",
+    "i18n": {
+      "it": "Karabiner-Elements ti permette di rimappare i tasti, creare scorciatoie personalizzate e adattare la tastiera su macOS.",
+      "es": "Karabiner-Elements te permite remapear teclas, crear atajos personalizados y adaptar tu teclado en macOS.",
+      "fr": "Karabiner-Elements vous permet de réassigner des touches, créer des raccourcis et adapter votre clavier sur macOS.",
+      "de": "Karabiner-Elements ist ein starkes Werkzeug zum Neubelegen von Tasten und Erstellen eigener Kurzbefehle auf macOS."
+    },
+    "download_url": "https://github.com/pqrs-org/Karabiner-Elements/releases/download/v16.3.0/Karabiner-Elements-16.3.0.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "codeedit",
+    "name": "CodeEdit",
+    "tagline": "Lightning fast native macOS code editor",
+    "repo_url": "https://github.com/codeeditapp/codeedit",
+    "full_name": "codeeditapp/codeedit",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "editor"
+    ],
+    "icon": "/icons/codeedit.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 23125,
+    "tier": "tier1_gui",
+    "summary": "A lightweight, beautiful, native code editor designed specifically for macOS.",
+    "i18n": {
+      "it": "Un editor di codice nativo, leggero e bellissimo progettato specificamente per macOS.",
+      "es": "Un editor de código nativo, ligero y elegante diseñado específicamente para macOS.",
+      "fr": "Un éditeur de code natif, léger et élégant conçu spécifiquement pour macOS.",
+      "de": "Ein leichter, schöner und naiver Code-Editor, der speziell für macOS entwickelt wurde."
+    },
+    "download_url": "https://github.com/CodeEditApp/CodeEdit/releases/download/v0.3.6/CodeEdit.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "opengym",
@@ -6971,6 +7335,90 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "macos-security-and-privacy-guide",
+    "name": "macOS Security and Privacy Guide",
+    "tagline": "Community guide to Mac security and privacy",
+    "repo_url": "https://github.com/drduh/macos-security-and-privacy-guide",
+    "full_name": "drduh/macos-security-and-privacy-guide",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "security"
+    ],
+    "icon": "/icons/macos-security-and-privacy-guide.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 22611,
+    "tier": "tier1_gui",
+    "summary": "Discover proven techniques and best practices to secure your Mac, protect your personal privacy, and lock down sensitive files.",
+    "i18n": {
+      "it": "Scopri tecniche e migliori pratiche per proteggere il tuo Mac, difendere la tua privacy personale e blindare i dati sensibili.",
+      "es": "Descubre técnicas y buenas prácticas para proteger tu Mac, salvaguardar tu privacidad personal y asegurar tus archivos.",
+      "fr": "Découvrez des techniques pour sécuriser votre Mac, protéger votre vie privée et mettre vos fichiers sensibles à l'abri.",
+      "de": "Entdecken Sie bewährte Methoden, um Ihren Mac abzusichern, Ihre Privatsphäre zu schützen und sensible Daten zu verschlüsseln."
+    },
+    "download_url": "https://drduh.github.io/macOS-Security-and-Privacy-Guide/",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "lima",
+    "name": "lima",
+    "tagline": "Run Linux virtual machines effortlessly.",
+    "repo_url": "https://github.com/lima-vm/lima",
+    "full_name": "lima-vm/lima",
+    "category": "Productivity",
+    "tags": [
+      "linux",
+      "virtual-machines"
+    ],
+    "icon": "/icons/lima.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 22444,
+    "tier": "tier1_gui",
+    "summary": "Lima lets you launch Linux virtual machines with automatic file sharing and port forwarding on your computer.",
+    "i18n": {
+      "it": "Lima consente di avviare macchine virtuali Linux con condivisione file e inoltro porte automatici sul computer.",
+      "es": "Lima permite iniciar máquinas virtuales Linux con compartición de archivos y reenvío de puertos automáticos.",
+      "fr": "Lima permet de lancer des machines virtuelles Linux avec partage de fichiers et transfert de ports automatiques.",
+      "de": "Lima ermöglicht das Starten von Linux-VMs mit automatischer Dateifreigabe und Portweiterleitung auf Ihrem Computer."
+    },
+    "download_url": "https://github.com/lima-vm/lima/releases/download/v2.3.0/schema-limayaml.json",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "maccy",
+    "name": "Maccy",
+    "tagline": "Lightweight clipboard manager for macOS",
+    "repo_url": "https://github.com/p0deje/maccy",
+    "full_name": "p0deje/maccy",
+    "category": "Productivity",
+    "tags": [
+      "clipboard",
+      "macos"
+    ],
+    "icon": "/icons/maccy.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 22426,
+    "tier": "tier1_gui",
+    "summary": "Maccy is a lightweight clipboard manager for macOS that remembers everything you copy so you can quickly search and reuse past items.",
+    "i18n": {
+      "it": "Un leggero gestore di appunti per macOS che ricorda tutto ciò che copi per cercarlo e riutilizzarlo rapidamente.",
+      "es": "Un gestor de portapapeles ligero para macOS que recuerda todo lo que copias para buscarlo y reutilizarlo.",
+      "fr": "Un gestionnaire de presse-papiers léger pour macOS qui mémorise vos copies pour les retrouver et les réutiliser.",
+      "de": "Eine leichte Zwischenablageverwaltung für macOS, die alle Kopien speichert, damit Sie diese schnell durchsuchen können."
+    },
+    "download_url": "https://maccy.app",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "airbyte",
     "name": "Airbyte",
     "tagline": "Move data from anywhere effortlessly.",
@@ -7139,6 +7587,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "mos",
+    "name": "Mos",
+    "tagline": "Smooth mouse scrolling on macOS.",
+    "repo_url": "https://github.com/caldis/mos",
+    "full_name": "caldis/mos",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "mouse"
+    ],
+    "icon": "/icons/mos.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 21980,
+    "tier": "tier1_gui",
+    "summary": "Mos brings buttery-smooth mouse scrolling to macOS while letting you set separate scroll directions and customize shortcuts for any app.",
+    "i18n": {
+      "it": "Mos porta uno scorrimento fluido del mouse su macOS e consente di personalizzare direzioni e scorciatoie per ogni singola applicazione.",
+      "es": "Mos ofrece un desplazamiento de ratón suave en macOS y te permite configurar direcciones y accesos directos independientes para cada aplicación.",
+      "fr": "Mos apporte un défilement de souris fluide sur macOS tout en vous permettant de configurer des directions et des raccourcis par application.",
+      "de": "Mos sorgt für butterweiches Mausscrollen unter macOS und ermöglicht die unabhängige Anpassung von Richtungen und Kurzbefehlen."
+    },
+    "download_url": "https://mos.caldis.me",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "jcode",
     "name": "jcode",
     "tagline": "Run multiple parallel coding assistants instantly.",
@@ -7277,6 +7753,34 @@
     },
     "download_url": "https://github.com/SBoudrias/Inquirer.js/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "xbmc",
+    "name": "Kodi",
+    "tagline": "Your ultimate free home entertainment hub",
+    "repo_url": "https://github.com/xbmc/xbmc",
+    "full_name": "xbmc/xbmc",
+    "category": "Video & Audio",
+    "tags": [
+      "media",
+      "entertainment"
+    ],
+    "icon": "/icons/xbmc.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Custom Open License",
+    "stars": 21529,
+    "tier": "tier1_gui",
+    "summary": "Transform any computer or TV device into an organized, beautiful media jukebox for all your favorite movies and music.",
+    "i18n": {
+      "it": "Trasforma qualsiasi computer in un fantastico lettore multimediale per organizzare e riprodurre film, serie TV e musica.",
+      "es": "Convierte cualquier dispositivo en un centro multimedia completo para organizar y disfrutar de tus películas y música favorita.",
+      "fr": "Transformez n'importe quel ordinateur en un lecteur multimédia esthétique pour organiser et diffuser vos films et musiques.",
+      "de": "Verwandeln Sie jeden Computer in ein übersichtliches Medien-Center, um Filme, Serien und Musik bequem abzuspielen."
+    },
+    "download_url": "https://kodi.tv/",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "flutterexampleapps",
@@ -7839,6 +8343,62 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "v2rayu",
+    "name": "V2rayU",
+    "tagline": "Secure connection manager for Mac",
+    "repo_url": "https://github.com/yanue/v2rayu",
+    "full_name": "yanue/v2rayu",
+    "category": "Productivity",
+    "tags": [
+      "networking",
+      "security"
+    ],
+    "icon": "/icons/v2rayu.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 20200,
+    "tier": "tier1_gui",
+    "summary": "Easily manage your internet connection security and network protocols on your Mac computer with a friendly menu bar tool.",
+    "i18n": {
+      "it": "Gestisci facilmente la sicurezza della tua connessione internet sul computer Mac con un comodo strumento.",
+      "es": "Gestiona fácilmente la seguridad de tu conexión a internet en tu ordenador Mac con una herramienta sencilla.",
+      "fr": "Gérez facilement la sécurité de votre connexion Internet sur votre ordinateur Mac avec un outil pratique.",
+      "de": "Verwalten Sie die Sicherheit Ihrer Internetverbindung auf dem Mac ganz einfach mit einem praktischen Tool."
+    },
+    "download_url": "https://github.com/yanue/V2rayU/releases/download/v5.4.1/V2rayU-64.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "blackhole",
+    "name": "BlackHole",
+    "tagline": "Route audio between Mac apps effortlessly.",
+    "repo_url": "https://github.com/existentialaudio/blackhole",
+    "full_name": "existentialaudio/blackhole",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "audio"
+    ],
+    "icon": "/icons/blackhole.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 20104,
+    "tier": "tier1_gui",
+    "summary": "BlackHole is a modern macOS audio loopback driver that allows applications to pass sound between each other with zero added delay.",
+    "i18n": {
+      "it": "BlackHole è un driver audio virtuale per macOS che permette alle applicazioni di passarsi l'audio senza alcun ritardo aggiuntivo.",
+      "es": "BlackHole es un controlador de audio virtual para macOS que permite a las aplicaciones transferir sonido sin retraso adicional.",
+      "fr": "BlackHole est un pilote audio virtuel pour macOS permettant aux applications de s'échanger du son sans latence supplémentaire.",
+      "de": "BlackHole ist ein virtueller Audio-Treiber für macOS, mit dem Anwendungen Ton ohne zusätzliche Verzögerung austauschen können."
+    },
+    "download_url": "https://github.com/ExistentialAudio/BlackHole/releases",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "rocketride-server",
     "name": "rocketride-server",
     "tagline": "Build and scale AI workflows visually.",
@@ -8119,6 +8679,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "kap",
+    "name": "Kap",
+    "tagline": "Capture your Mac screen effortlessly.",
+    "repo_url": "https://github.com/wulkano/kap",
+    "full_name": "wulkano/kap",
+    "category": "Video & Audio",
+    "tags": [
+      "screen-recorder",
+      "macos"
+    ],
+    "icon": "/icons/kap.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 19432,
+    "tier": "tier1_gui",
+    "summary": "An open-source screen recorder for macOS that lets you capture your desktop with ease using a clean interface.",
+    "i18n": {
+      "it": "Un registratore di schermo open-source per macOS che permette di catturare il desktop con semplicità tramite un'interfaccia pulita.",
+      "es": "Un grabador de pantalla de código abierto para macOS que te permite capturar tu escritorio con facilidad y una interfaz limpia.",
+      "fr": "Un enregistreur d'écran open-source pour macOS qui permet de capturer votre bureau en toute simplicité avec une interface épurée.",
+      "de": "Ein Open-Source-Bildschirmrekorder für macOS, mit dem Sie Ihren Desktop über eine übersichtliche Benutzeroberfläche erfassen können."
+    },
+    "download_url": "https://github.com/wulkano/Kap/releases/download/v3.6.0/Kap-3.6.0-arm64.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "hurl",
     "name": "hurl",
     "tagline": "Run and test web requests easily.",
@@ -8285,6 +8873,34 @@
     },
     "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi",
     "updated_at": "2026-11-18"
+  },
+  {
+    "slug": "fail2ban",
+    "name": "fail2ban",
+    "tagline": "Block malicious intruders and automated login attacks.",
+    "repo_url": "https://github.com/fail2ban/fail2ban",
+    "full_name": "fail2ban/fail2ban",
+    "category": "Productivity",
+    "tags": [
+      "security",
+      "linux"
+    ],
+    "icon": "/icons/fail2ban.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 19093,
+    "tier": "tier1_gui",
+    "summary": "Fail2Ban protects computer systems by automatically blocking internet addresses that repeatedly fail to log in correctly.",
+    "i18n": {
+      "it": "Fail2Ban protegge i sistemi bloccando automaticamente gli indirizzi internet che falliscono ripetutamente l'accesso.",
+      "es": "Fail2Ban protege los sistemas bloqueando automáticamente las direcciones de internet que fallan repetidamente al iniciar sesión.",
+      "fr": "Fail2Ban protège les systèmes en bloquant automatiquement les adresses internet qui échouent à se connecter plusieurs fois.",
+      "de": "Fail2Ban schützt Systeme, indem es Internetadressen automatisch sperrt, die wiederholt fehlerhafte Anmeldeversuche unternehmen."
+    },
+    "download_url": "https://github.com/fail2ban/fail2ban/releases/download/1.1.1/fail2ban_1.1.1-1.upstream2_all.deb",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "uwebsockets",
@@ -19570,6 +20186,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "mixxx",
+    "name": "Mixxx",
+    "tagline": "Free professional digital DJ mixing software",
+    "repo_url": "https://github.com/mixxxdj/mixxx",
+    "full_name": "mixxxdj/mixxx",
+    "category": "Video & Audio",
+    "tags": [
+      "dj",
+      "audio"
+    ],
+    "icon": "/icons/mixxx.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Custom Open License",
+    "stars": 7428,
+    "tier": "tier1_gui",
+    "summary": "Mixxx is free DJ software that provides everything you need to perform live mixes, supporting professional hardware controllers.",
+    "i18n": {
+      "it": "Mixxx è un software DJ gratuito che offre tutto il necessario per eseguire mix dal vivo e supporta controller professionali.",
+      "es": "Mixxx es un programa de DJ gratuito que te ofrece todo lo necesario para realizar mezclas en directo y usar controladores.",
+      "fr": "Mixxx est un logiciel de DJ gratuit qui vous offre tout le nécessaire pour mixer en direct avec des contrôleurs audio.",
+      "de": "Mixxx ist eine kostenlose DJ-Software, die alles bietet, was Sie für Live-Mixe benötigen, inklusive Hardware-Unterstützung."
+    },
+    "download_url": "https://mixxx.org",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "calico",
     "name": "Calico",
     "tagline": "Secure and manage container cluster networks",
@@ -25338,6 +25982,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "phonebox",
+    "name": "PhoneBox",
+    "tagline": "Turn old phones into computer control decks",
+    "repo_url": "https://github.com/ersinkoc/phonebox",
+    "full_name": "ersinkoc/phonebox",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "desktop"
+    ],
+    "icon": "/icons/phonebox.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (MIT)",
+    "stars": 5199,
+    "tier": "tier1_gui",
+    "summary": "Transform an unused Android phone into a customizable desk panel and touch control deck for your computer via USB or Wi-Fi.",
+    "i18n": {
+      "it": "Trasforma un vecchio telefono Android in un pannello di controllo personalizzabile per il computer tramite USB o Wi-Fi.",
+      "es": "Transforma un teléfono Android antiguo en un panel de control y monitor personalizable para tu ordenador mediante USB o Wi-Fi.",
+      "fr": "Transformez un ancien téléphone Android en tableau de bord personnalisable et commande tactile pour votre ordinateur.",
+      "de": "Verwandeln Sie ein ungenutztes Android-Handy in ein anpassbares Schreibtischpanel und Touch-Steuerpult für Ihren Computer."
+    },
+    "download_url": "https://github.com/ersinkoc/phonebox/releases/download/v0.9.27/PhoneBox-0.9.27.apk",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "libreddit",
     "name": "Libreddit",
     "tagline": "A private, ad-free way to browse Reddit.",
@@ -25392,6 +26064,34 @@
     },
     "download_url": "https://mediacms.io",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "port-killer",
+    "name": "Port-Killer",
+    "tagline": "Easily free up busy computer ports",
+    "repo_url": "https://github.com/productdevbook/port-killer",
+    "full_name": "productdevbook/port-killer",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "network"
+    ],
+    "icon": "/icons/port-killer.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 5178,
+    "tier": "tier1_gui",
+    "summary": "Manage computer network connections, stop runaway background processes instantly, and keep your software running smoothly.",
+    "i18n": {
+      "it": "Gestisci le connessioni di rete e chiudi all'istante i programmi in blocco per mantenere il computer reattivo.",
+      "es": "Gestiona las conexiones de red y cierra procesos bloqueados al instante para mantener tu equipo funcionando de maravilla.",
+      "fr": "Gérez les connexions réseau et arrêtez instantanément les programmes bloqués pour garder votre ordinateur fluide.",
+      "de": "Verwalten Sie Netzwerkverbindungen und beenden Sie blockierende Hintergrundprozesse sofort mit nur einem Klick."
+    },
+    "download_url": "https://github.com/productdevbook/port-killer/releases/download/v3.4.0/PortKiller-v3.4.0-macos.dmg",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "kimai",
