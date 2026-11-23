@@ -2,17 +2,17 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-23T08:40:43.218338+00:00",
-  "total_apps": 1700,
+  "generated_at": "2026-11-23T08:42:50.819443+00:00",
+  "total_apps": 1725,
   "tier_counts": {
     "tier3_powertool": 325,
-    "tier2_webapp": 502,
+    "tier2_webapp": 527,
     "tier1_gui": 873
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 315,
-    "selfhosted": 501,
+    "selfhosted": 526,
     "desktop": 873,
     "webapp": 1
   },
@@ -22,7 +22,7 @@
     "Security & Privacy": 49,
     "Utilities & Power Tools": 287,
     "Video & Audio": 93,
-    "Web Apps & Cloud": 478,
+    "Web Apps & Cloud": 503,
     "Websites & SEO": 1
   },
   "apps": [
@@ -47565,6 +47565,706 @@
         "de": "Verwalten Sie digitale Inhalte, Benutzerrechte und Web-Assets mühelos mit einem modernen, einheitlichen Software-Arbeitsbereich."
       },
       "download_url": "https://github.com/SolidZORO/leaa/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "nextjs-netlify-blog-template",
+      "name": "Next.js Netlify Blog Template",
+      "tagline": "Launch a fast blog on Netlify.",
+      "repo_url": "https://github.com/wutali/nextjs-netlify-blog-template",
+      "full_name": "wutali/nextjs-netlify-blog-template",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "cms"
+      ],
+      "icon": "/icons/nextjs-netlify-blog-template.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 471,
+      "tier": "tier2_webapp",
+      "summary": "Easily launch a modern, feature-rich personal blog using Next.js and Netlify with built-in content management and tagging support.",
+      "i18n": {
+        "it": "Lancia facilmente un blog moderno con Next.js e Netlify, completo di gestione dei contenuti e organizzazione per tag.",
+        "es": "Crea fácilmente un blog moderno con Next.js y Netlify que incluye gestión de contenidos y organización por etiquetas.",
+        "fr": "Créez facilement un blog moderne avec Next.js et Netlify, doté d'une gestion de contenu et de tags intégrés.",
+        "de": "Erstellen Sie ganz einfach einen modernen Blog mit Next.js und Netlify inklusive integrierter Inhaltsverwaltung."
+      },
+      "download_url": "https://github.com/wutali/nextjs-netlify-blog-template/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "honohub",
+      "name": "honohub",
+      "tagline": "Fast, simple website content manager",
+      "repo_url": "https://github.com/rhinobase/honohub",
+      "full_name": "rhinobase/honohub",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "content",
+        "web"
+      ],
+      "icon": "/icons/honohub.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 469,
+      "tier": "tier2_webapp",
+      "summary": "Honohub lets you create and run a lightweight content system for your site, so you can add, edit, and organize pages without complex setup.",
+      "i18n": {
+        "it": "Honohub ti permette di creare e gestire un sistema per i contenuti del tuo sito, così puoi aggiungere e organizzare pagine senza complicazioni.",
+        "es": "Honohub te permite crear y manejar un sistema ligero para el contenido de tu sitio, así puedes añadir y organizar páginas sin configuraciones complicadas.",
+        "fr": "Honohub vous permet de créer et gérer un système léger pour le contenu de votre site, afin d’ajouter et organiser des pages sans configurations complexes.",
+        "de": "Honohub ermöglicht es Ihnen, ein leichtes System für die Inhalte Ihrer Website zu erstellen und zu verwalten, sodass Sie Seiten hinzufügen und organisieren können, ohne komplizierte Einstellungen."
+      },
+      "download_url": "https://honohub.dev",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "piccolo-admin",
+      "name": "Piccolo Admin",
+      "tagline": "Modern web control panel for databases.",
+      "repo_url": "https://github.com/piccolo-orm/piccolo_admin",
+      "full_name": "piccolo-orm/piccolo_admin",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "database",
+        "admin"
+      ],
+      "icon": "/icons/piccolo-admin.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 466,
+      "tier": "tier2_webapp",
+      "summary": "Manage your database records and website content using a sleek, modern control panel built for speed and ease of use.",
+      "i18n": {
+        "it": "Gestisci i dati del tuo database e i contenuti con un pannello di controllo elegante, veloce e semplice da usare.",
+        "es": "Administra los registros de tu base de datos y contenidos web con un panel de control elegante y rápido.",
+        "fr": "Gérez vos données de base et contenus web à l'aide d'un tableau de bord élégant, rapide et facile à utiliser.",
+        "de": "Verwalten Sie Ihre Datenbankeinträge und Inhalte über ein elegantes, schnelles und benutzerfreundliches Bedienfeld."
+      },
+      "download_url": "https://piccolo-orm.com/ecosystem/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "hatamoto",
+      "name": "Hatamoto",
+      "tagline": "Fast secure self-hosted content publishing",
+      "repo_url": "https://github.com/zen-labs-corp/hatamoto",
+      "full_name": "zen-labs-corp/hatamoto",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "publishing"
+      ],
+      "icon": "/icons/hatamoto.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 456,
+      "tier": "tier2_webapp",
+      "summary": "Hatamoto is an all-in-one website management system packed with a visual page builder, built-in search optimization, and AI assistant analytics.",
+      "i18n": {
+        "it": "Hatamoto è un sistema di gestione web all-in-one dotato di editor visivo, ottimizzazione per motori di ricerca e analisi avanzate.",
+        "es": "Hatamoto es un sistema de gestión de sitios web todo en uno con un creador visual de páginas y optimización para buscadores.",
+        "fr": "Hatamoto est un système de gestion de sites web tout-en-un doté d'un constructeur visuel de pages et d'outils d'optimisation.",
+        "de": "Hatamoto ist ein All-in-One-Websitesystem mit visuellem Seiten-Builder, integrierter Suchmaschinenoptimierung und Analysen."
+      },
+      "download_url": "https://github.com/Zen-Labs-Corp/hatamoto/releases/download/v1.4.2/hatamoto-darwin-amd64",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "contao",
+      "name": "Contao",
+      "tagline": "Build professional websites and web applications",
+      "repo_url": "https://github.com/contao/contao",
+      "full_name": "contao/contao",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "web-development"
+      ],
+      "icon": "/icons/contao.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (LGPL)",
+      "stars": 454,
+      "tier": "tier2_webapp",
+      "summary": "Contao is a flexible content management system designed to help you create secure websites, blogs, and online applications with ease.",
+      "i18n": {
+        "it": "Contao è un sistema di gestione dei contenuti flessibile per creare siti web sicuri, blog e applicazioni online con facilità.",
+        "es": "Contao es un sistema de gestión de contenidos flexible para crear sitios web seguros, blogs y aplicaciones con facilidad.",
+        "fr": "Contao est un système de gestion de contenu flexible pour créer des sites web sécurisés et des applications facilement.",
+        "de": "Contao ist ein flexibles Content-Management-System zur einfachen Erstellung sicherer Websites und Online-Anwendungen."
+      },
+      "download_url": "https://contao.org",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "modstartcms",
+      "name": "ModStartCMS",
+      "tagline": "Modular enterprise content management website system",
+      "repo_url": "https://github.com/mzkeep/modstartcms",
+      "full_name": "mzkeep/modstartcms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "laravel"
+      ],
+      "icon": "/icons/modstartcms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 453,
+      "tier": "tier2_webapp",
+      "summary": "Build flexible business websites and online portals quickly using a modular content management system powered by Laravel.",
+      "i18n": {
+        "it": "Crea siti web aziendali flessibili e portali online rapidamente utilizzando un sistema di gestione dei contenuti modulare.",
+        "es": "Crea sitios web empresariales flexibles y portales en línea rápidamente utilizando un sistema de gestión de contenidos modular.",
+        "fr": "Créez rapidement des sites web d'entreprise flexibles et des portails en ligne à l'aide d'un système de gestion de contenu.",
+        "de": "Erstellen Sie schnell flexible Unternehmenswebsites und Online-Portale mit einem modularen Content-Management-System."
+      },
+      "download_url": "https://modstart.com/?utm_source=github",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "djangocms-admin-style",
+      "name": "djangocms-admin-style",
+      "tagline": "Beautiful custom styles for content management.",
+      "repo_url": "https://github.com/django-cms/djangocms-admin-style",
+      "full_name": "django-cms/djangocms-admin-style",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "django",
+        "cms"
+      ],
+      "icon": "/icons/djangocms-admin-style.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 452,
+      "tier": "tier2_webapp",
+      "summary": "Enhance your content management dashboard with clean, modern styles tailored specifically for the Django website platform.",
+      "i18n": {
+        "it": "Migliora la tua dashboard di gestione contenuti con stili moderni e puliti creati specificamente per la piattaforma Django.",
+        "es": "Mejora tu panel de gestión de contenidos con estilos limpios y modernos diseñados específicamente para la plataforma Django.",
+        "fr": "Améliorez votre tableau de bord de gestion de contenu avec des styles propres et modernes conçus pour la plateforme Django.",
+        "de": "Verbessern Sie Ihr Inhaltsverwaltungs-Dashboard mit sauberen, modernen Stilen, die speziell für die Django-Plattform entwickelt wurden."
+      },
+      "download_url": "https://www.django-cms.org/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "api-admin",
+      "name": "API-Admin",
+      "tagline": "Manage and share web tools easily.",
+      "repo_url": "https://github.com/5ime/api-admin",
+      "full_name": "5ime/api-admin",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "php",
+        "website-tools"
+      ],
+      "icon": "/icons/api-admin.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 444,
+      "tier": "tier2_webapp",
+      "summary": "API-Admin is a ready-to-use website content manager that comes with over 20 built-in utility tools for sharing web services.",
+      "i18n": {
+        "it": "API-Admin è un gestore di contenuti web pronto all'uso che include oltre 20 strumenti di utilità integrati.",
+        "es": "API-Admin es un gestor de contenido web listo para usar que incluye más de 20 herramientas de utilidad integradas.",
+        "fr": "API-Admin est un gestionnaire de contenu web prêt à l'emploi doté de plus de 20 outils utilitaires intégrés.",
+        "de": "API-Admin ist ein gebrauchsfertiger Web-Inhaltsmanager mit über 20 integrierten Dienstprogrammen."
+      },
+      "download_url": "https://github.com/5ime/API-Admin/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "ideaspace",
+      "name": "IdeaSpace",
+      "tagline": "Create 3D web experiences easily",
+      "repo_url": "https://github.com/ideaspacevr/ideaspace",
+      "full_name": "ideaspacevr/ideaspace",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "3d",
+        "vr"
+      ],
+      "icon": "/icons/ideaspace.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 429,
+      "tier": "tier2_webapp",
+      "summary": "IdeaSpace lets you build interactive 3‑D and virtual‑reality sites without needing programming, using simple web tools that run on any browser.",
+      "i18n": {
+        "it": "IdeaSpace ti permette di realizzare siti interattivi 3D e VR senza programmazione, usando strumenti web semplici che funzionano in qualsiasi browser.",
+        "es": "IdeaSpace te permite crear sitios interactivos 3D y de realidad virtual sin programar, usando herramientas web simples que funcionan en cualquier navegador.",
+        "fr": "IdeaSpace vous permet de créer des sites interactifs 3D et VR sans programmation, grâce à des outils web simples qui fonctionnent dans n’importe quel navigateur.",
+        "de": "IdeaSpace ermöglicht es Ihnen, interaktive 3D‑ und VR‑Websites ohne Programmierung zu erstellen, mit einfachen Web‑Tools, die in jedem Browser laufen."
+      },
+      "download_url": "https://github.com/IdeaSpaceVR/IdeaSpace/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "neutralpress",
+      "name": "NeutralPress",
+      "tagline": "Modern zero-cost dynamic blog publishing system.",
+      "repo_url": "https://github.com/ravelloh/neutralpress",
+      "full_name": "ravelloh/neutralpress",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "publishing"
+      ],
+      "icon": "/icons/neutralpress.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 429,
+      "tier": "tier2_webapp",
+      "summary": "Create and manage a fast, secure personal website or digital portfolio with a clean visual editor and modern design.",
+      "i18n": {
+        "it": "Crea e gestisci un sito web o portfolio personale veloce e sicuro con un editor visivo pulito e un design moderno.",
+        "es": "Crea y gestiona un sitio web o portafolio personal rápido y seguro con un editor visual limpio y diseño moderno.",
+        "fr": "Créez et gérez un site web ou portfolio personnel rapide et sécurisé avec un éditeur visuel épuré et moderne.",
+        "de": "Erstellen und verwalten Sie eine schnelle, sichere persönliche Website mit einem klaren visuellen Editor."
+      },
+      "download_url": "https://neutralpress.net",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "laradashboard",
+      "name": "Lara Dashboard",
+      "tagline": "All-in-one modular dashboard and site builder.",
+      "repo_url": "https://github.com/laradashboard/laradashboard",
+      "full_name": "laradashboard/laradashboard",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "admin-panel",
+        "cms"
+      ],
+      "icon": "/icons/laradashboard.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 421,
+      "tier": "tier2_webapp",
+      "summary": "Lara Dashboard is a complete open-source control panel and publishing platform that helps you manage users, roles, and content with ease.",
+      "i18n": {
+        "it": "Lara Dashboard è un pannello di controllo open-source che semplifica la gestione di utenti, ruoli e contenuti multimediali.",
+        "es": "Lara Dashboard es una plataforma de gestión completa y modular que te ayuda a administrar usuarios y contenidos con facilidad.",
+        "fr": "Lara Dashboard est une plateforme open-source complète qui vous aide à gérer les utilisateurs, les rôles et vos contenus.",
+        "de": "Lara Dashboard ist eine umfassende Open-Source-Verwaltungsplattform, die die Verwaltung von Benutzern und Inhalten vereinfacht."
+      },
+      "download_url": "https://laradashboard.com/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "markdown-ninja",
+      "name": "Markdown Ninja",
+      "tagline": "Publish Markdown websites and newsletters instantly.",
+      "repo_url": "https://github.com/skerkour/markdown-ninja",
+      "full_name": "skerkour/markdown-ninja",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "publishing",
+        "blogging"
+      ],
+      "icon": "/icons/markdown-ninja.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 419,
+      "tier": "tier2_webapp",
+      "summary": "An easy-to-use publishing tool that transforms your text files into professional websites, blogs, and newsletters without technical setup.",
+      "i18n": {
+        "it": "Un comodo strumento di pubblicazione per trasformare file di testo in siti web, blog e newsletter senza configurazioni complesse.",
+        "es": "Una herramienta de publicación sencilla que transforma archivos de texto en sitios web, blogs y boletines sin configuraciones técnicas.",
+        "fr": "Un outil de publication facile qui transforme vos fichiers texte en sites web, blogs et newsletters sans configuration technique.",
+        "de": "Ein einfach zu bedienendes Publishing-Tool, das Textdateien ohne technische Einrichtung in professionelle Websites und Blogs verwandelt."
+      },
+      "download_url": "https://markdown.ninja",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "getsimplecms",
+      "name": "GetSimpleCMS",
+      "tagline": "Fast flatfile website content manager",
+      "repo_url": "https://github.com/getsimplecms/getsimplecms",
+      "full_name": "getsimplecms/getsimplecms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "php"
+      ],
+      "icon": "/icons/getsimplecms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 418,
+      "tier": "tier2_webapp",
+      "summary": "GetSimpleCMS is a lightweight website publishing system that stores pages in simple files instead of a heavy database.",
+      "i18n": {
+        "it": "GetSimpleCMS è un sistema di pubblicazione web leggero che memorizza le pagine in file semplici anziché in un database pesante.",
+        "es": "GetSimpleCMS es un sistema de publicación web ligero que almacena páginas en archivos sencillos en lugar de una base de datos.",
+        "fr": "GetSimpleCMS est un système de publication web léger qui stocke les pages dans des fichiers simples au lieu d'une base de données.",
+        "de": "GetSimpleCMS ist ein leichtgewichtiges Website-Veröffentlichungssystem, das Seiten in einfachen Dateien statt in einer Datenbank speichert."
+      },
+      "download_url": "https://get-simple.info",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "kunstmaanbundlescms",
+      "name": "KunstmaanBundlesCMS",
+      "tagline": "Powerful multi-language content management system.",
+      "repo_url": "https://github.com/kunstmaan/kunstmaanbundlescms",
+      "full_name": "kunstmaan/kunstmaanbundlescms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "content-management"
+      ],
+      "icon": "/icons/kunstmaanbundlescms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 412,
+      "tier": "tier2_webapp",
+      "summary": "Manage multi-language website content effortlessly with visual page builders, media managers, and collaborative workflow tools.",
+      "i18n": {
+        "it": "Gestisci contenuti web multilingue senza sforzo con costruttori di pagine visivi e strumenti di collaborazione.",
+        "es": "Gestione el contenido de su sitio web multilingüe fácilmente con creadores de páginas visuales y herramientas de colaboración.",
+        "fr": "Gérez le contenu de votre site web multilingue sans effort avec des constructeurs de pages visuels et des outils de collaboration.",
+        "de": "Verwalten Sie mehrsprachige Website-Inhalte mühelos mit visuellen Seiten-Buildern und Kollaborationswerkzeugen."
+      },
+      "download_url": "https://kunstmaancms.be",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "webed",
+      "name": "WebEd CMS",
+      "tagline": "Modular content management system for developers",
+      "repo_url": "https://github.com/duysolo/webed",
+      "full_name": "duysolo/webed",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "php"
+      ],
+      "icon": "/icons/webed.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 412,
+      "tier": "tier2_webapp",
+      "summary": "WebEd is a modular content management system built on a popular backend framework, offering drag-and-drop navigation and rich plugin support.",
+      "i18n": {
+        "it": "WebEd è un sistema di gestione contenuti modulare basato su un noto framework, ideale per creare e organizzare siti web.",
+        "es": "WebEd es un sistema de gestión de contenidos modular basado en un marco popular, que ofrece navegación y soporte de complementos.",
+        "fr": "WebEd est un système de gestion de contenu modulaire doté d'une navigation intuitive et d'une prise en charge de plugins.",
+        "de": "WebEd ist ein modulares Content-Management-System mit Drag-and-Drop-Navigation und umfassender Plugin-Unterstützung."
+      },
+      "download_url": "https://cms.sgsoft-studio.com/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "github-blog",
+      "name": "github-blog",
+      "tagline": "Turn your issues into a blog CMS",
+      "repo_url": "https://github.com/renatorib/github-blog",
+      "full_name": "renatorib/github-blog",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "cms"
+      ],
+      "icon": "/icons/github-blog.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 409,
+      "tier": "tier2_webapp",
+      "summary": "Turn your repository issues into a content management system for your blog with simple labels and structured queries.",
+      "i18n": {
+        "it": "Trasforma le issue del tuo archivio in un sistema di gestione contenuti per il tuo blog usando etichette e query.",
+        "es": "Convierte las incidencias de tu repositorio en un sistema de gestión de contenidos para tu blog mediante etiquetas.",
+        "fr": "Transformez les tickets de votre répertoire en un système de gestion de contenu pour votre blog avec des étiquettes.",
+        "de": "Verwandeln Sie Ihre Repository-Tickets mit einfachen Etiketten und strukturierten Abfragen in ein Blog-Inhaltssystem."
+      },
+      "download_url": "https://github.com/renatorib/github-blog/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "cmsprint",
+      "name": "Cmsprint",
+      "tagline": "Comprehensive database of content management system signatures.",
+      "repo_url": "https://github.com/lucifer1993/cmsprint",
+      "full_name": "lucifer1993/cmsprint",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "fingerprints"
+      ],
+      "icon": "/icons/cmsprint.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 398,
+      "tier": "tier2_webapp",
+      "summary": "Cmsprint provides a vast database of content management systems and middleware signatures to help identify web technologies quickly.",
+      "i18n": {
+        "it": "Cmsprint offre un vasto database di firme per sistemi di gestione e middleware per identificare rapidamente le tecnologie web.",
+        "es": "Cmsprint ofrece una amplia base de datos de firmas de sistemas y middleware para identificar tecnologías web rápidamente.",
+        "fr": "Cmsprint fournit une vaste base de données de signatures pour identifier rapidement les technologies web et les logiciels.",
+        "de": "Cmsprint bietet eine umfangreiche Datenbank von Signaturen zur schnellen Identifizierung von Web-Technologien und Middleware."
+      },
+      "download_url": "https://github.com/Lucifer1993/cmsprint/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "ketchup",
+      "name": "ketchup",
+      "tagline": "Developer-first lightweight content management system.",
+      "repo_url": "https://github.com/ketchuphq/ketchup",
+      "full_name": "ketchuphq/ketchup",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "developer-tools"
+      ],
+      "icon": "/icons/ketchup.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 395,
+      "tier": "tier2_webapp",
+      "summary": "Ketchup is a simple and self-contained content management system designed for developers and content creators.",
+      "i18n": {
+        "it": "Ketchup è un sistema di gestione dei contenuti semplice e autonomo progettato per sviluppatori e creatori di contenuti con supporto git.",
+        "es": "Ketchup es un sistema de gestión de contenidos sencillo e independiente diseñado para desarrolladores y creadores con plantillas flexibles.",
+        "fr": "Ketchup est un système de gestion de contenu simple et autonome conçu pour les développeurs avec des modèles contrôlés par version.",
+        "de": "Ketchup ist ein einfaches und eigenständiges Content-Management-System für Entwickler mit integrierter Versionskontrolle."
+      },
+      "download_url": "https://github.com/ketchuphq/ketchup/releases/download/v0.3.1/ketchup_0.3.1_checksums.txt",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "devtoolset",
+      "name": "DevToolset",
+      "tagline": "Server-free open-source developer tools navigator",
+      "repo_url": "https://github.com/iamcorey/devtoolset",
+      "full_name": "iamcorey/devtoolset",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "developer-tools",
+        "directory"
+      ],
+      "icon": "/icons/devtoolset.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 390,
+      "tier": "tier2_webapp",
+      "summary": "Launch your own curated directory of developer utilities and resources without needing a complex database or paid server setup.",
+      "i18n": {
+        "it": "Crea la tua directory curata di risorse per sviluppatori senza bisogno di un database complesso o di server a pagamento.",
+        "es": "Lanza tu propio directorio de utilidades para desarrolladores sin necesidad de una base de datos compleja o servidor de pago.",
+        "fr": "Lancez votre propre répertoire de ressources pour développeurs sans avoir besoin de base de données complexe.",
+        "de": "Starten Sie Ihr eigenes Verzeichnis für Entwickler-Tools ganz ohne komplexe Datenbank oder kostenpflichtigen Server."
+      },
+      "download_url": "https://DevToolset.net",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "vuefront",
+      "name": "vuefront",
+      "tagline": "Turn your old website into a modern app",
+      "repo_url": "https://github.com/vuefront/vuefront",
+      "full_name": "vuefront/vuefront",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "webapp",
+        "pwa"
+      ],
+      "icon": "/icons/vuefront.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 389,
+      "tier": "tier2_webapp",
+      "summary": "Convert traditional content management systems and online stores into lightning-fast mobile-friendly web apps in minutes.",
+      "i18n": {
+        "it": "Converti i sistemi di gestione contenuti e negozi in app web veloci e moderne in pochi minuti.",
+        "es": "Convierte sistemas de contenido y tiendas online en aplicaciones web rápidas en pocos minutos.",
+        "fr": "Convertissez des sites de contenu et boutiques en applications web rapides en quelques minutes.",
+        "de": "Verwandeln Sie klassische CMS-Websites und Online-Shops in Sekundenschnelle in moderne Web-Apps."
+      },
+      "download_url": "https://vuefront.com/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "marble",
+      "name": "Marble",
+      "tagline": "Super simple headless content management system.",
+      "repo_url": "https://github.com/usemarble/marble",
+      "full_name": "usemarble/marble",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "publishing"
+      ],
+      "icon": "/icons/marble.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 386,
+      "tier": "tier2_webapp",
+      "summary": "Marble lets you easily write and publish articles, product updates, and changelogs on your website using a clean editor.",
+      "i18n": {
+        "it": "Marble ti consente di scrivere e pubblicare facilmente articoli, aggiornamenti di prodotto e novità sul tuo sito.",
+        "es": "Marble te permite escribir y publicar fácilmente artículos, actualizaciones de productos y notas en tu sitio web.",
+        "fr": "Marble vous permet d'écrire et de publier facilement des articles, des mises à jour et des actualités sur votre site.",
+        "de": "Mit Marble können Sie Artikel, Produktupdates und Neuigkeiten ganz einfach auf Ihrer Website schreiben und veröffentlichen."
+      },
+      "download_url": "https://marblecms.com",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "maglev-core",
+      "name": "maglev-core",
+      "tagline": "Visual page builder for Rails apps",
+      "repo_url": "https://github.com/maglevhq/maglev-core",
+      "full_name": "maglevhq/maglev-core",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ruby",
+        "rails"
+      ],
+      "icon": "/icons/maglev-core.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 385,
+      "tier": "tier2_webapp",
+      "summary": "Maglev lets content creators visually edit web pages directly inside your Ruby on Rails application without complicated setups.",
+      "i18n": {
+        "it": "Maglev consente ai creatori di contenuti di modificare visivamente le pagine web direttamente all'interno della tua applicazione.",
+        "es": "Maglev permite a los creadores editar páginas web visualmente de forma directa dentro de tu aplicación Ruby on Rails.",
+        "fr": "Maglev permet aux créateurs de modifier visuellement des pages web directement au sein de votre application Ruby on Rails.",
+        "de": "Maglev ermöglicht es Erstellern, Webseiten direkt in Ihrer Ruby on Rails-Anwendung visuell und unkompliziert zu bearbeiten."
+      },
+      "download_url": "https://www.maglev.dev",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "grav-plugin-admin",
+      "name": "Grav Admin Plugin",
+      "tagline": "Visual control panel for your website",
+      "repo_url": "https://github.com/getgrav/grav-plugin-admin",
+      "full_name": "getgrav/grav-plugin-admin",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "admin"
+      ],
+      "icon": "/icons/grav-plugin-admin.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 378,
+      "tier": "tier2_webapp",
+      "summary": "Manage your flat-file website content, configuration files, and media visually through an intuitive browser interface.",
+      "i18n": {
+        "it": "Gestisci i contenuti, la configurazione e i file multimediali del tuo sito web tramite un'interfaccia browser intuitiva.",
+        "es": "Administra el contenido, la configuración y los archivos multimedia de tu sitio web mediante una interfaz de navegador intuitiva.",
+        "fr": "Gérez le contenu, la configuration et les fichiers multimédias de votre site Web grâce à une interface de navigateur intuitive.",
+        "de": "Verwalten Sie Ihre Website-Inhalte, Konfigurationen und Mediendateien visuell über eine intuitive Browserschnittstelle."
+      },
+      "download_url": "https://getgrav.org",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "livestreet",
+      "name": "livestreet",
+      "tagline": "Build community blogs and social platforms.",
+      "repo_url": "https://github.com/livestreet/livestreet",
+      "full_name": "livestreet/livestreet",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "community",
+        "blogs"
+      ],
+      "icon": "/icons/livestreet.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 377,
+      "tier": "tier2_webapp",
+      "summary": "Create your own interactive online community and shared blog network with this free, open-source publishing platform.",
+      "i18n": {
+        "it": "Crea la tua community online interattiva e una rete di blog condivisi con questa piattaforma di pubblicazione gratuita.",
+        "es": "Crea tu propia comunidad en línea interactiva y una red de blogs compartidos con esta plataforma gratuita y abierta.",
+        "fr": "Créez votre propre communauté en ligne interactive et réseau de blogs partagés avec cette plateforme de publication.",
+        "de": "Erstellen Sie Ihre eigene interaktive Online-Community und ein gemeinsames Blog-Netzwerk mit dieser kostenlosen Plattform."
+      },
+      "download_url": "https://livestreetcms.com",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "comcms-core",
+      "name": "comcms_core",
+      "tagline": "Modern enterprise website content management system",
+      "repo_url": "https://github.com/hogenwang/comcms_core",
+      "full_name": "hogenwang/comcms_core",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "netcore"
+      ],
+      "icon": "/icons/comcms-core.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 371,
+      "tier": "tier2_webapp",
+      "summary": "Manage business websites, publish articles, and handle digital content efficiently with a secure .NET platform.",
+      "i18n": {
+        "it": "Gestisci siti aziendali, pubblica articoli e organizza contenuti digitali con una piattaforma sicura.",
+        "es": "Administra sitios web comerciales, publica artículos y gestiona contenido digital de forma segura.",
+        "fr": "Gérez des sites d'entreprise, publiez des articles et organisez du contenu numérique en toute sécurité.",
+        "de": "Verwalten Sie Firmen-Websites, veröffentlichen Sie Artikel und steuern Sie digitale Inhalte sicher."
+      },
+      "download_url": "https://github.com/hogenwang/comcms_core/releases",
       "updated_at": "2026-11-23"
     },
     {

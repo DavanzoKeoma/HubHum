@@ -68,5 +68,12 @@
     "html_url": "https://github.com/kyleneideck/BackgroundMusic",
     "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Regeln Sie App-Lautstärken einzeln, pausieren Sie Musik automatisch und nehmen Sie Systemaudio auf macOS auf.') | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
     "queued_at": "2026-11-23T08:36:18.380823+00:00"
+  },
+  {
+    "full_name": "sarkistlt/graphql-auto-generating-cms",
+    "slug": "graphql-auto-generating-cms",
+    "html_url": "https://github.com/sarkistlt/graphql-auto-generating-cms",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-23T08:42:47.152485+00:00"
   }
 ]
