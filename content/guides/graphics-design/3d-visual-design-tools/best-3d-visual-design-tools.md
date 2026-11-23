@@ -11,7 +11,7 @@ summary: "Compare UI UX Pro Max Skill vs open-design and 8 free tools for 3D Mod
 parent_slug: "graphics-design/3d-visual-design-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/3d-visual-design-tools/how-to-choose-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "react-native-elements", "slint", "best-flutter-ui-templates", "customtkinter", "tkinter-designer", "dashboard-icons"]
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "react-native-elements", "slint", "best-flutter-ui-templates", "customtkinter", "openframeworks", "tkinter-designer"]
 updated_at: "2026-11-23"
 ---
 
@@ -29,8 +29,8 @@ Comparing **UI UX Pro Max Skill** and **open-design** highlights two distinct ap
 | [slint](/HubHum/apps/slint/) | CLI Tool | Windows | ★ 24,653 | Custom Open License |
 | [Best-Flutter-UI-Templates](/HubHum/apps/best-flutter-ui-templates/) | Desktop App | Windows, macOS, Linux | ★ 22,871 | Custom Open License |
 | [CustomTkinter](/HubHum/apps/customtkinter/) | CLI Tool | Windows, macOS | ★ 13,619 | Open Source (MIT) |
+| [openFrameworks](/HubHum/apps/openframeworks/) | Desktop App | Windows, Linux, iOS | ★ 10,472 | Custom Open License |
 | [Tkinter Designer](/HubHum/apps/tkinter-designer/) | Desktop App | Windows, macOS, Linux | ★ 10,246 | Open Source (BSD) |
-| [Dashboard Icons](/HubHum/apps/dashboard-icons/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 9,135 | Open Source (Apache 2.0) |
 
 ### When to Pick Which Option
 - **Choose [UI UX Pro Max Skill](/HubHum/apps/ui-ux-pro-max-skill/) (Open Reference)** if you need what it specializes in: An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning — it works in **Open Reference** mode (All / Reference) (151,922 GitHub stars, vs open-design which runs as a Desktop App).

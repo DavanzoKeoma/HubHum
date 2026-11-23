@@ -11,13 +11,13 @@ summary: "Everyday open-source software to edit PDFs, read e-books comfortably, 
 parent_slug: "productivity"
 child_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
 sibling_slugs: []
-app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "monitorcontrol", "jobs-applier-ai-agent", "filee", "libuv", "readest", "osx-kvm", "flutterexampleapps", "peass-ng", "xerj", "opencore-legacy-patcher", "openemu", "flet", "openrct2"]
+app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files", "monitorcontrol", "jobs-applier-ai-agent", "filee", "libuv", "readest", "social-analyzer", "react-native-web", "peass-ng", "xerj", "uwebsockets", "flet", "vercel", "duf"]
 updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Free PDF, Document & E-Book Tools
 
-This topic hub groups **95 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **119 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -34,5 +34,5 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Filee](/HubHum/apps/filee/)** — Convert hundreds of file formats instantly on your computer by dragging and dropping items right at your cursor, entirely offline. *(Desktop App · License: Open Source (MIT))*
 - **[libuv](/HubHum/apps/libuv/)** — A robust multi-platform support library focused on asynchronous input and output operations, widely used for high-performance software. *(Desktop App · License: Open Source (MIT))*
 - **[Readest](/HubHum/apps/readest/)** — Readest is a feature-rich ebook reader that helps you organize your library and enjoy books across all your favorite devices. *(Desktop App · License: Open Source (AGPL v3))*
-- **[OSX-KVM](/HubHum/apps/osx-kvm/)** — Run Apple's desktop operating system on a standard Linux computer without needing actual Apple hardware. *(Desktop App · License: Custom Open License)*
-- **[FlutterExampleApps](/HubHum/apps/flutterexampleapps/)** — This collection provides a wide variety of practical app examples to help you learn how to build mobile software from the ground up. *(Desktop App · License: Custom Open License)*
+- **[social-analyzer](/HubHum/apps/social-analyzer/)** — Quickly locate and analyze user profiles across more than a thousand social networks using a simple tool. *(Desktop App · License: Open Source (AGPL v3))*
+- **[React Native for Web](/HubHum/apps/react-native-web/)** — This tool allows developers to use mobile app code to create responsive, high-performance websites that look and feel like native apps. *(Desktop App · License: Open Source (MIT))*

@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Password Managers & Auth Vault
 parent_slug: "security-privacy/free-password-managers"
 child_slugs: []
 sibling_slugs: ["security-privacy/free-password-managers/best-free-password-managers", "security-privacy/free-password-managers/troubleshooting-free-password-managers"]
-app_slugs: ["gitleaks", "keepassxc", "bulk-crap-uninstaller", "metube", "hackbrowserdata", "clients"]
+app_slugs: ["gitleaks", "keepassxc", "hackbrowserdata", "clients", "pocket-id", "git-credential-manager"]
 updated_at: "2026-11-23"
 ---
 
@@ -27,7 +27,7 @@ Switching to free open-source tools in **Password Managers & Auth Vaults** lets 
 
 - **[Gitleaks](/HubHum/apps/gitleaks/)** (CLI Tool) — Scan your code repositories and directories to find accidentally exposed passwords, API keys, and sensitive tokens before they leak.
 - **[KeePassXC](/HubHum/apps/keepassxc/)** (Desktop App) — Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees.
-- **[Bulk Crap Uninstaller](/HubHum/apps/bulk-crap-uninstaller/)** (Desktop App) — Easily clean up multiple unwanted programs, leftover files, and hidden apps from your Windows computer all at once.
-- **[metube](/HubHum/apps/metube/)** (Self-Hosted Web App) — MeTube is a free, self-hosted web interface that lets you download videos, audio, and subtitles from YouTube and hundreds of other sites directly to your server.
-- **[HackBrowserData](/HubHum/apps/hackbrowserdata/)** (CLI Tool) — This tool helps you securely extract and view saved passwords, history, and cookies from various web browsers on your computer.
-- **[Bitwarden](/HubHum/apps/clients/)** (CLI Tool) — Bitwarden is a secure digital vault that remembers your passwords and sensitive information across all your devices.
+- **[HackBrowserData](/HubHum/apps/hackbrowserdata/)** (Desktop App) — This tool helps you securely extract and view saved passwords, history, and cookies from various web browsers on your computer.
+- **[Bitwarden](/HubHum/apps/clients/)** (Desktop App) — Bitwarden is a secure digital vault that remembers your passwords and sensitive information across all your devices.
+- **[Pocket ID](/HubHum/apps/pocket-id/)** (Self-Hosted Web App) — Pocket ID provides a secure and easy way to manage user logins for your applications using modern passkey technology instead of passwords.
+- **[Git Credential Manager](/HubHum/apps/git-credential-manager/)** (Desktop App) — Git Credential Manager simplifies how you sign in to your coding accounts by securely storing your access details across all your devices.

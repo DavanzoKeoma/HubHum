@@ -30,7 +30,7 @@ Comparing **yt-dlp** and **LosslessCut** highlights two distinct approaches in *
 | [Concat](/HubHum/apps/concat/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 19,264 | Open Source (AGPL v3) |
 | [Shotcut](/HubHum/apps/shotcut/) | Desktop App | Windows, macOS, Linux | ★ 15,750 | Open Source (GPL v3) |
 | [Palmier Pro](/HubHum/apps/palmier-pro/) | Desktop App | macOS | ★ 14,800 | Open Source (GPL v3) |
-| [SimpMusic](/HubHum/apps/simpmusic/) | Desktop App | Windows, macOS, Linux, Android | ★ 13,744 | Open Source (GPL v3) |
+| [SimpMusic](/HubHum/apps/simpmusic/) | Desktop App | Windows, macOS, Linux | ★ 13,744 | Open Source (GPL v3) |
 
 ### When to Pick Which Option
 - **Choose [yt-dlp](/HubHum/apps/yt-dlp/) (CLI Tool)** if you need what it specializes in: A reliable tool to save audio and video from thousands of online websites directly to your computer — it runs as fast terminal commands suited for automation and batch scripts (no graphical buttons) (209,259 GitHub stars, vs LosslessCut which runs as a Desktop App).

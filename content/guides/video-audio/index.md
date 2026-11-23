@@ -8,13 +8,13 @@ intent: "pillar"
 summary: "Compare free desktop editors, media players, audio tools, and streaming apps explained without technical jargon."
 child_slugs: ["video-audio/free-video-editors", "video-audio/audio-media-players", "video-audio/screen-recorders-streaming"]
 sibling_slugs: []
-app_slugs: ["yt-dlp", "spotube", "iina", "losslesscut", "recordly", "pear-desktop", "yesplaymusic", "handbrake", "navidrome", "xbmc", "vlc", "spotify-tui", "kap", "concat", "audacity", "nuclear", "beets", "shotcut"]
+app_slugs: ["yt-dlp", "spotube", "iina", "losslesscut", "recordly", "pear-desktop", "yesplaymusic", "handbrake", "navidrome", "spotx", "animeko", "vlc", "blackhole", "spotify-tui", "kap", "concat", "audacity", "nuclear"]
 updated_at: "2026-11-23"
 ---
 
 ## Why Explore Free Video & Audio Software?
 
-This central guide brings together **93 verified free applications** in the **Video & Audio** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **92 verified free applications** in the **Video & Audio** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Video & Audio
 
@@ -31,4 +31,4 @@ Choose the focus topic below that matches your task best to see step-by-step com
 - **[YesPlayMusic](/HubHum/apps/yesplaymusic/)** (Desktop App, ★ 33,668) — Enjoy a clean, high-design music player for your favorite tracks with zero distracting social clutter.
 - **[HandBrake](/HubHum/apps/handbrake/)** (Desktop App, ★ 25,054) — Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen.
 - **[Navidrome](/HubHum/apps/navidrome/)** (Self-Hosted Web App, ★ 24,852) — Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device.
-- **[Kodi](/HubHum/apps/xbmc/)** (Desktop App, ★ 21,529) — Transform any computer or TV device into an organized, beautiful media jukebox for all your favorite movies and music.
+- **[SpotX](/HubHum/apps/spotx/)** (Desktop App, ★ 23,458) — SpotX removes ads and unwanted clutter from your desktop music player so you can enjoy uninterrupted listening.

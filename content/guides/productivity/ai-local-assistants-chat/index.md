@@ -11,13 +11,13 @@ summary: "Run private AI chat workspaces, coding helpers, and local language mod
 parent_slug: "productivity"
 child_slugs: ["productivity/ai-local-assistants-chat/best-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
 sibling_slugs: []
-app_slugs: ["nextchat", "chatgpt", "uni-app", "codewhale", "etcher", "claude-code-templates", "dbx", "invokeai", "steamtools", "llamafile", "nativescript", "super-productivity", "karabiner-elements", "animeko", "jcode", "obtainium", "wasmer", "mmkv"]
+app_slugs: ["nextchat", "chatgpt", "uni-app", "codewhale", "etcher", "claude-code-templates", "dbx", "invokeai", "steamtools", "llamafile", "nativescript", "super-productivity", "osx-kvm", "karabiner-elements", "jcode", "obtainium", "wasmer", "piliplus"]
 updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Local AI Assistants, LLM Studios & Chat Workspaces
 
-This topic hub groups **167 vetted free tools** specializing in **Local AI Assistants, LLM Studios & Chat Workspaces** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **187 vetted free tools** specializing in **Local AI Assistants, LLM Studios & Chat Workspaces** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

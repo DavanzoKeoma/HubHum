@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Audio Editors & Music Players 
 parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
-app_slugs: ["spotube", "iina", "pear-desktop", "yesplaymusic", "navidrome", "xbmc"]
+app_slugs: ["spotube", "iina", "pear-desktop", "yesplaymusic", "navidrome", "spotx"]
 updated_at: "2026-11-23"
 ---
 
@@ -30,4 +30,4 @@ Switching to free open-source tools in **Audio Editors & Music Players** lets yo
 - **[Pear Desktop](/HubHum/apps/pear-desktop/)** (Desktop App) — Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer.
 - **[YesPlayMusic](/HubHum/apps/yesplaymusic/)** (Desktop App) — Enjoy a clean, high-design music player for your favorite tracks with zero distracting social clutter.
 - **[Navidrome](/HubHum/apps/navidrome/)** (Self-Hosted Web App) — Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device.
-- **[Kodi](/HubHum/apps/xbmc/)** (Desktop App) — Transform any computer or TV device into an organized, beautiful media jukebox for all your favorite movies and music.
+- **[SpotX](/HubHum/apps/spotx/)** (Desktop App) — SpotX removes ads and unwanted clutter from your desktop music player so you can enjoy uninterrupted listening.

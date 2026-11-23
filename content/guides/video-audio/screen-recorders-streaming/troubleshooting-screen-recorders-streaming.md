@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming"]
-app_slugs: ["kap", "streamlink", "hghub", "xdm", "openscreen"]
+app_slugs: ["animeko", "kap", "ani-cli", "streamlink", "hghub"]
 updated_at: "2026-11-23"
 ---
 
@@ -30,8 +30,8 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 ### Recommended Alternatives Covered
 
+- **[Animeko](/HubHum/apps/animeko/)** (Desktop App) — Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments.
 - **[Kap](/HubHum/apps/kap/)** (Desktop App) — An open-source screen recorder for macOS that lets you capture your desktop with ease using a clean interface.
-- **[Streamlink](/HubHum/apps/streamlink/)** (CLI Tool) — Streamlink lets you watch live video content directly in your favorite media player instead of using resource-heavy web browsers.
+- **[ani-cli](/HubHum/apps/ani-cli/)** (CLI Tool) — A simple tool that lets you search for and stream your favorite anime directly from your computer terminal.
+- **[Streamlink](/HubHum/apps/streamlink/)** (Desktop App) — Streamlink lets you watch live video content directly in your favorite media player instead of using resource-heavy web browsers.
 - **[HGhub](/HubHum/apps/hghub/)** (Desktop App) — HGhub is a flexible media player that lets you organize and watch content from various sources in one unified, easy-to-use interface.
-- **[Xtreme Download Manager](/HubHum/apps/xdm/)** (Desktop App) — Accelerate your downloads, grab online videos, and seamlessly pick up interrupted files right where they left off.
-- **[OpenScreen](/HubHum/apps/openscreen/)** (Desktop App) — OpenScreen is a free, open-source tool that lets you record your screen and turn your captures into polished product demos and walkthroughs.
