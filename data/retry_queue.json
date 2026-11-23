@@ -75,5 +75,12 @@
     "html_url": "https://github.com/sarkistlt/graphql-auto-generating-cms",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
     "queued_at": "2026-11-23T08:42:47.152485+00:00"
+  },
+  {
+    "full_name": "donnemartin/dev-setup",
+    "slug": "dev-setup",
+    "html_url": "https://github.com/donnemartin/dev-setup",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Richten Sie einen neuen Entwicklungscomputer auf macOS schnell mit organisierten Skripten ein.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-23T08:43:24.848448+00:00"
   }
 ]

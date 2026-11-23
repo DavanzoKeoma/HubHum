@@ -2,25 +2,25 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-23T08:42:50.819443+00:00",
-  "total_apps": 1725,
+  "generated_at": "2026-11-23T08:45:23.097138+00:00",
+  "total_apps": 1750,
   "tier_counts": {
-    "tier3_powertool": 325,
+    "tier3_powertool": 350,
     "tier2_webapp": 527,
     "tier1_gui": 873
   },
   "app_type_counts": {
-    "resource": 10,
-    "cli": 315,
+    "resource": 11,
+    "cli": 339,
     "selfhosted": 526,
     "desktop": 873,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 26,
-    "Productivity": 766,
-    "Security & Privacy": 49,
-    "Utilities & Power Tools": 287,
+    "Productivity": 769,
+    "Security & Privacy": 50,
+    "Utilities & Power Tools": 308,
     "Video & Audio": 93,
     "Web Apps & Cloud": 503,
     "Websites & SEO": 1
@@ -24385,6 +24385,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "helix-db",
+      "name": "helix-db",
+      "tagline": "High-performance graph and vector database",
+      "repo_url": "https://github.com/helixdb/helix-db",
+      "full_name": "helixdb/helix-db",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "database",
+        "graph"
+      ],
+      "icon": "/icons/helix-db.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 6310,
+      "tier": "tier3_powertool",
+      "summary": "HelixDB is an advanced graph database featuring native vector and full-text search built for modern applications.",
+      "i18n": {
+        "it": "HelixDB è un database a grafi avanzato con ricerca vettoriale e testuale nativa.",
+        "es": "HelixDB es una base de datos de grafos avanzada con búsqueda vectorial y de texto nativa.",
+        "fr": "HelixDB est une base de données de graphes avancée avec recherche vectorielle et textuelle native.",
+        "de": "HelixDB ist eine fortschrittliche Graphendatenbank mit nativer Vektor- und Volltextsuche."
+      },
+      "download_url": "https://github.com/HelixDB/helix-db/releases/download/v3.7.0/helix-x86_64-pc-windows-msvc.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "rainbond",
       "name": "Rainbond",
       "tagline": "Simple app deployment platform",
@@ -24411,6 +24439,34 @@
       },
       "download_url": "https://www.rainbond.io",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "crossdesk",
+      "name": "CrossDesk",
+      "tagline": "Lightweight cross-platform remote desktop software",
+      "repo_url": "https://github.com/kunkundi/crossdesk",
+      "full_name": "kunkundi/crossdesk",
+      "category": "Productivity",
+      "tags": [
+        "remote-desktop",
+        "productivity"
+      ],
+      "icon": "/icons/crossdesk.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux, Android",
+      "license": "Custom Open License",
+      "stars": 6288,
+      "tier": "tier3_powertool",
+      "summary": "Control computers securely from browsers, mobile devices, or terminals with high-performance video streaming.",
+      "i18n": {
+        "it": "Controlla computer in sicurezza da browser, dispositivi mobili o terminali con streaming video ad alte prestazioni.",
+        "es": "Controla ordenadores de forma segura desde navegadores, dispositivos móviles o terminales con streaming de vídeo.",
+        "fr": "Contrôlez des ordinateurs en toute sécurité depuis des navigateurs, mobiles ou terminaux avec un streaming vidéo fluide.",
+        "de": "Steuern Sie Computer sicher von Browsern, mobilen Geräten oder Terminals aus mit flüssigem Video-Streaming."
+      },
+      "download_url": "https://github.com/kunkundi/crossdesk/releases/download/v1.7.6-20261112/crossdesk-win-x64-v1.7.6-20261112.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "winit",
@@ -24497,6 +24553,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "removemacai",
+      "name": "RemoveMacAI",
+      "tagline": "Turn off Apple Intelligence and reclaim storage",
+      "repo_url": "https://github.com/omlahore/removemacai",
+      "full_name": "omlahore/removemacai",
+      "category": "Security & Privacy",
+      "tags": [
+        "macos",
+        "privacy"
+      ],
+      "icon": "/icons/removemacai.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 6272,
+      "tier": "tier3_powertool",
+      "summary": "Remove Apple Intelligence models and turn off unnecessary system features on your Mac to free up valuable storage space.",
+      "i18n": {
+        "it": "Rimuovi i modelli di Apple Intelligence e disattiva le funzioni di sistema non necessarie sul tuo Mac per liberare spazio.",
+        "es": "Elimina los modelos de Apple Intelligence y desactiva las funciones innecesarias en tu Mac para liberar espacio de almacenamiento.",
+        "fr": "Supprimez les modèles Apple Intelligence et désactivez les fonctionnalités superflues sur votre Mac pour libérer de l'espace.",
+        "de": "Entfernen Sie Apple Intelligence-Modelle und schalten Sie unnötige Systemfunktionen auf Ihrem Mac ab, um Speicherplatz zu sparen."
+      },
+      "download_url": "https://github.com/omlahore/RemoveMacAI/releases/download/v1.2.2/removemacai-darwin-arm64.tar.gz.sha256",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "cloud-torrent",
       "name": "Cloud Torrent",
       "tagline": "Manage and stream files remotely",
@@ -24523,6 +24607,34 @@
       },
       "download_url": "https://github.com/jpillora/cloud-torrent/releases/download/v0.9.4/cloud-torrent_0.9.4_linux_386.apk",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "procs",
+      "name": "procs",
+      "tagline": "Modern, human-friendly system process viewer",
+      "repo_url": "https://github.com/dalance/procs",
+      "full_name": "dalance/procs",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system",
+        "utility"
+      ],
+      "icon": "/icons/procs.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6248,
+      "tier": "tier3_powertool",
+      "summary": "Procs replaces traditional system monitoring tools with a colorful, readable interface, letting you easily search and manage active programs.",
+      "i18n": {
+        "it": "Procs sostituisce i tradizionali strumenti di monitoraggio con un'interfaccia colorata e leggibile per gestire facilmente i programmi attivi.",
+        "es": "Procs reemplaza las herramientas tradicionales con una interfaz colorida y legible para buscar y gestionar fácilmente los programas activos.",
+        "fr": "Procs remplace les outils traditionnels par une interface colorée et lisible pour rechercher et gérer facilement les programmes actifs.",
+        "de": "Procs ersetzt herkömmliche Überwachungstools durch eine übersichtliche, farbige Benutzeroberfläche zur einfachen Programmverwaltung."
+      },
+      "download_url": "https://github.com/dalance/procs/releases/download/v0.14.12/procs-0.14.12-1.x86_64.rpm",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "short-video-factory",
@@ -24637,6 +24749,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "httpstat",
+      "name": "httpstat",
+      "tagline": "Visualize web speed clearly",
+      "repo_url": "https://github.com/reorx/httpstat",
+      "full_name": "reorx/httpstat",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "networking",
+        "diagnostics"
+      ],
+      "icon": "/icons/httpstat.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6223,
+      "tier": "tier3_powertool",
+      "summary": "httpstat turns complex web connection data into a clear, readable report.",
+      "i18n": {
+        "it": "httpstat trasforma i dati di connessione complessi in un report chiaro e leggibile.",
+        "es": "httpstat convierte los datos de conexión complejos en un informe claro y legible.",
+        "fr": "httpstat transforme les données de connexion complexes en un rapport clair et lisible.",
+        "de": "httpstat verwandelt komplexe Verbindungsdaten in einen klaren, lesbaren Bericht."
+      },
+      "download_url": "https://github.com/reorx/httpstat/releases/download/1.3.0/httpstat-1.3.0-py3-none-any.whl",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "gdu",
+      "name": "gdu",
+      "tagline": "Fast and clear disk space analyzer",
+      "repo_url": "https://github.com/dundee/gdu",
+      "full_name": "dundee/gdu",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "storage",
+        "disk-analyzer"
+      ],
+      "icon": "/icons/gdu.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6222,
+      "tier": "tier3_powertool",
+      "summary": "Quickly find what is filling up your hard drive with an interactive visual map and clean terminal interface.",
+      "i18n": {
+        "it": "Scopri rapidamente cosa sta occupando spazio sul tuo disco rigido con un'interfaccia interattiva e pulita.",
+        "es": "Encuentra rápidamente qué llena tu disco duro con una interfaz interactiva y visual muy clara.",
+        "fr": "Trouvez rapidement ce qui remplit votre disque dur grâce à une interface interactive et visuelle.",
+        "de": "Finden Sie schnell heraus, was Ihre Festplatte füllt, mit einer übersichtlichen interaktiven Oberfläche."
+      },
+      "download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "tagbar",
       "name": "tagbar",
       "tagline": "Browse source code structure with ease",
@@ -24721,6 +24889,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "todo-txt-cli",
+      "name": "todo.txt-cli",
+      "tagline": "Manage plain text tasks anywhere easily",
+      "repo_url": "https://github.com/todotxt/todo.txt-cli",
+      "full_name": "todotxt/todo.txt-cli",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "tasks"
+      ],
+      "icon": "/icons/todo-txt-cli.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 6199,
+      "tier": "tier3_powertool",
+      "summary": "Manage your simple text-based task list efficiently using a flexible and lightweight script.",
+      "i18n": {
+        "it": "Gestisci il tuo elenco di attività basato su testo in modo efficiente con uno script leggero.",
+        "es": "Organiza tu lista de tareas en texto plano de forma eficiente utilizando un script ligero.",
+        "fr": "Gérez votre liste de tâches textuelle de manière efficace grâce à un script léger.",
+        "de": "Organisieren Sie Ihre textbasierte Aufgabenliste effizient mit einem leichten Skript."
+      },
+      "download_url": "https://todotxt.org",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "agent-autoloop",
       "name": "Agent Autoloop",
       "tagline": "Automate your AI agents to work independently.",
@@ -24747,6 +24943,34 @@
       },
       "download_url": "https://github.com/KKKKhazix/agent-autoloop/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "gpt-image2-skill",
+      "name": "GPT-Image2-Skill",
+      "tagline": "Create and edit images with AI prompts",
+      "repo_url": "https://github.com/wuyoscar/gpt-image2-skill",
+      "full_name": "wuyoscar/gpt-image2-skill",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "images"
+      ],
+      "icon": "/icons/gpt-image2-skill.png",
+      "is_webapp": false,
+      "app_type": "resource",
+      "operatingSystem": "All / Reference",
+      "license": "Open Source (MIT)",
+      "stars": 6181,
+      "tier": "tier3_powertool",
+      "summary": "Design, edit, and extract image prompts effortlessly using smart coding assistants and command-line tools.",
+      "i18n": {
+        "it": "Progetta, modifica ed estrai prompt per immagini facilmente utilizzando assistenti di programmazione e strumenti da riga di comando.",
+        "es": "Diseña, edita y extrae prompts de imágenes fácilmente utilizando asistentes de código y herramientas de línea de comandos.",
+        "fr": "Concevez, modifiez et extrayez des invites d'images facilement à l'aide d'assistants de code et d'outils en ligne de commande.",
+        "de": "Entwerfe, bearbeite und extrahiere Bildprompts mühelos mit intelligenten Assistenten und Befehlszeilentools."
+      },
+      "download_url": "https://github.com/wuyoscar/GPT-Image2-Skill/releases/download/v0.3.0/gpt_image_cli-0.3.0-py3-none-any.whl",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "react-nodegui",
@@ -24917,6 +25141,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "jnv",
+      "name": "jnv",
+      "tagline": "Interactive JSON viewer and query explorer",
+      "repo_url": "https://github.com/ynqa/jnv",
+      "full_name": "ynqa/jnv",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "json",
+        "system-utility"
+      ],
+      "icon": "/icons/jnv.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6140,
+      "tier": "tier3_powertool",
+      "summary": "Navigate and filter complex JSON data interactively right from your terminal with instant query feedback.",
+      "i18n": {
+        "it": "Navigate and filter complex JSON data interactively right from your terminal with instant query feedback.",
+        "es": "Navigate and filter complex JSON data interactively right from your terminal with instant query feedback.",
+        "fr": "Navigate and filter complex JSON data interactively right from your terminal with instant query feedback.",
+        "de": "Navigate and filter complex JSON data interactively right from your terminal with instant query feedback."
+      },
+      "download_url": "https://github.com/ynqa/jnv/releases/download/v0.7.1/dist-manifest.json",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "vikunja",
       "name": "Vikunja",
       "tagline": "Your personal, private task manager",
@@ -24973,6 +25225,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "bit",
+      "name": "bit",
+      "tagline": "Modernized command-line helper for version control",
+      "repo_url": "https://github.com/chriswalz/bit",
+      "full_name": "chriswalz/bit",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "git",
+        "system-utility"
+      ],
+      "icon": "/icons/bit.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 6095,
+      "tier": "tier3_powertool",
+      "summary": "Manage code history and branches easily with smart command suggestions, automatic updates, and helpful shortcuts.",
+      "i18n": {
+        "it": "Gestisci la cronologia del codice e i rami con suggerimenti di comandi intelligenti e scorciatoie utili.",
+        "es": "Gestiona el historial de código y ramas fácilmente con sugerencias inteligentes y accesos directos útiles.",
+        "fr": "Gérez l'historique de votre code et vos branches facilement grâce à des suggestions intelligentes.",
+        "de": "Verwalten Sie Code-Verläufe und Branches einfach mit intelligenten Befehlsvorschlägen und Shortcuts."
+      },
+      "download_url": "https://github.com/chriswalz/bit/releases/download/v1.1.2/bit_1.1.2_checksums.txt",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "jira-cli",
+      "name": "jira-cli",
+      "tagline": "Fast interactive command-line tool for Jira",
+      "repo_url": "https://github.com/ankitpokhrel/jira-cli",
+      "full_name": "ankitpokhrel/jira-cli",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "jira",
+        "system-utility"
+      ],
+      "icon": "/icons/jira-cli.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6090,
+      "tier": "tier3_powertool",
+      "summary": "Manage your Jira tasks, sprints, and issues directly from your terminal with a fast interactive interface.",
+      "i18n": {
+        "it": "Gestisci attività, sprint e ticket Jira direttamente dal tuo terminale con un'interfaccia interattiva e veloce.",
+        "es": "Gestiona tareas, sprints e incidencias de Jira directamente desde tu terminal con una interfaz interactiva y rápida.",
+        "fr": "Gérez vos tâches, sprints et tickets Jira directement depuis votre terminal grâce à une interface interactive rapide.",
+        "de": "Verwalten Sie Jira-Aufgaben, Sprints und Tickets direkt über das Terminal mit einer schnellen, interaktiven Benutzeroberfläche."
+      },
+      "download_url": "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.7.0/checksums.txt",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "lesspass",
       "name": "LessPass",
       "tagline": "Generate passwords without storing them",
@@ -25026,6 +25334,62 @@
         "de": "Führen Sie Windows-Terminalbefehle mit Administratorrechten aus, ohne neue Fenster öffnen zu müssen."
       },
       "download_url": "https://github.com/gerardog/gsudo/releases/download/v2.6.1/gsudo.setup.arm64.msi",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "inngest",
+      "name": "Inngest",
+      "tagline": "Build reliable background workflows effortlessly.",
+      "repo_url": "https://github.com/inngest/inngest",
+      "full_name": "inngest/inngest",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "workflows",
+        "background-jobs"
+      ],
+      "icon": "/icons/inngest.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 6068,
+      "tier": "tier3_powertool",
+      "summary": "Manage complex background tasks, retries, and scheduled jobs smoothly without configuring complex server infrastructure.",
+      "i18n": {
+        "it": "Gestisci attività in background complesse, tentativi e processi pianificati senza configurare infrastrutture complesse.",
+        "es": "Maneja tareas complejas en segundo plano, reintentos y trabajos programados sin configurar una infraestructura difícil.",
+        "fr": "Gérez des tâches complexes en arrière-plan, des nouvelles tentatives et des tâches planifiées sans infrastructure lourde.",
+        "de": "Verwalten Sie komplexe Hintergrundaufgaben, Wiederholungen und geplante Jobs ohne aufwändige Infrastruktur."
+      },
+      "download_url": "https://github.com/inngest/inngest/releases/download/v1.53.0/checksums.txt",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "zcf",
+      "name": "ZCF",
+      "tagline": "Simple setup for AI coding helpers",
+      "repo_url": "https://github.com/ufomiao/zcf",
+      "full_name": "ufomiao/zcf",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "ai"
+      ],
+      "icon": "/icons/zcf.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6065,
+      "tier": "tier3_powertool",
+      "summary": "ZCF lets you keep one easy file that automatically installs and configures your AI coding assistants, so you never have to set them up by hand.",
+      "i18n": {
+        "it": "ZCF ti permette di mantenere un unico file che installa e configura automaticamente i tuoi assistenti di programmazione AI, così non dovrai più impostarli manualmente.",
+        "es": "ZCF te permite mantener un solo archivo que instala y configura automáticamente tus asistentes de programación IA, evitando que tengas que configurarlos a mano.",
+        "fr": "ZCF vous permet de garder un seul fichier qui installe et configure automatiquement vos assistants de codage IA, ainsi vous n’avez plus à les configurer manuellement.",
+        "de": "ZCF ermöglicht Ihnen, eine einzige Datei zu pflegen, die Ihre KI‑Programmierungsassistenten automatisch installiert und einrichtet, sodass Sie sie nicht mehr von Hand konfigurieren müssen."
+      },
+      "download_url": "https://zcf.ufomiao.com/",
       "updated_at": "2026-11-23"
     },
     {
@@ -25113,6 +25477,62 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "carbon-now-cli",
+      "name": "carbon-now-cli",
+      "tagline": "Erstellen Sie beeindruckende Code-Bilder.",
+      "repo_url": "https://github.com/mixn/carbon-now-cli",
+      "full_name": "mixn/carbon-now-cli",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "code-formatter"
+      ],
+      "icon": "/icons/carbon-now-cli.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6034,
+      "tier": "tier3_powertool",
+      "summary": "Verwandeln Sie Programmiertext direkt über Ihre Befehlszeile in wunderschöne, teilbare Grafiken mit individuellem Design.",
+      "i18n": {
+        "it": "Verwandeln Sie Programmiertext direkt über Ihre Befehlszeile in wunderschöne, teilbare Grafiken mit individuellem Design.",
+        "es": "Verwandeln Sie Programmiertext direkt über Ihre Befehlszeile in wunderschöne, teilbare Grafiken mit individuellem Design.",
+        "fr": "Verwandeln Sie Programmiertext direkt über Ihre Befehlszeile in wunderschöne, teilbare Grafiken mit individuellem Design.",
+        "de": "Verwandeln Sie Programmiertext direkt über Ihre Befehlszeile in wunderschöne, teilbare Grafiken mit individuellem Design."
+      },
+      "download_url": "https://github.com/mixn/carbon-now-cli/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "shaders",
+      "name": "Shaders",
+      "tagline": "Stunning WebGPU visual effects made easy",
+      "repo_url": "https://github.com/shader-effects-inc/shaders",
+      "full_name": "shader-effects-inc/shaders",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "webgpu",
+        "animation"
+      ],
+      "icon": "/icons/shaders.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6027,
+      "tier": "tier3_powertool",
+      "summary": "Easily add high-performance visual graphics, gradients, and animations to your web projects using modern WebGPU components.",
+      "i18n": {
+        "it": "Aggiungi facilmente grafica e animazioni straordinarie ai tuoi siti web utilizzando componenti WebGPU moderni.",
+        "es": "Añade gráficos y animaciones de alta calidad a tus proyectos web utilizando componentes WebGPU modernos.",
+        "fr": "Ajoutez facilement des graphismes et des animations de pointe à vos sites web en utilisant des composants WebGPU.",
+        "de": "Fügen Sie Ihren Webprojekten ganz einfach moderne WebGPU-Grafiken, Farbverläufe und Animationen hinzu."
+      },
+      "download_url": "https://shaders.com",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "ecoute",
       "name": "Ecoute",
       "tagline": "Live speech transcription for conversations",
@@ -25197,6 +25617,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "maka",
+      "name": "Maka",
+      "tagline": "Your personal digital assistant",
+      "repo_url": "https://github.com/apache/maka",
+      "full_name": "apache/maka",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "automation"
+      ],
+      "icon": "/icons/maka.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5998,
+      "tier": "tier3_powertool",
+      "summary": "Maka records everything your computer does, so you can review past actions and keep a reliable history.",
+      "i18n": {
+        "it": "Maka salva ogni attività del tuo computer, permettendoti di rivedere le azioni passate e mantenere una cronologia affidabile.",
+        "es": "Maka guarda cada acción de tu computadora, para que puedas revisar lo que hiciste antes y conservar un historial fiable.",
+        "fr": "Maka enregistre chaque action de votre ordinateur, vous permettant de revoir les activités passées et de garder un historique fiable.",
+        "de": "Maka protokolliert jede Tätigkeit Ihres Computers, sodass Sie vergangene Aktionen nachverfolgen und eine verlässliche Historie behalten können."
+      },
+      "download_url": "https://github.com/apache/maka/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "scanopy",
       "name": "Scanopy",
       "tagline": "Automatically map and track your network",
@@ -25225,6 +25673,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "ccg-workflow",
+      "name": "ccg-workflow",
+      "tagline": "Collaborative multi-model AI assistant workflow engine",
+      "repo_url": "https://github.com/fengshao1227/ccg-workflow",
+      "full_name": "fengshao1227/ccg-workflow",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "ai",
+        "workflow"
+      ],
+      "icon": "/icons/ccg-workflow.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5985,
+      "tier": "tier3_powertool",
+      "summary": "Coordinate multiple specialized artificial intelligence models together in one seamless workflow to complete complex tasks easily.",
+      "i18n": {
+        "it": "Coordina insieme più modelli di intelligenza artificiale specializzati per completare facilmente compiti complessi.",
+        "es": "Coordina múltiples modelos de inteligencia artificial especializados juntos en un flujo de trabajo para completar tareas.",
+        "fr": "Coordonnez plusieurs modèles d'intelligence artificielle spécialisés ensemble dans un flux de travail fluide.",
+        "de": "Koordinieren Sie mehrere spezialisierte künstliche Intelligenzmodelle zusammen in einem nahtlosen Workflow."
+      },
+      "download_url": "https://ccg.fengshao1227.com",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "mongo-express",
       "name": "mongo-express",
       "tagline": "Easily manage your databases visually online.",
@@ -25251,6 +25727,34 @@
       },
       "download_url": "https://github.com/mongo-express/mongo-express/releases",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "clipboard",
+      "name": "Clipboard",
+      "tagline": "Extremely smart multi-item clipboard manager.",
+      "repo_url": "https://github.com/slackadays/clipboard",
+      "full_name": "slackadays/clipboard",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "clipboard",
+        "productivity"
+      ],
+      "icon": "/icons/clipboard.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 5944,
+      "tier": "tier3_powertool",
+      "summary": "Manage copy and paste history effortlessly with an advanced utility designed to handle text, files, and custom workflows.",
+      "i18n": {
+        "it": "Gestisci la cronologia di copia e incolla senza sforzo con un utilissimo strumento per file e flussi di lavoro.",
+        "es": "Administra el historial de copiar y pegar sin esfuerzo con una herramienta avanzada para texto y archivos.",
+        "fr": "Gérez l'historique de vos copies sans effort grâce à un utilitaire avancé conçu pour les fichiers et le texte.",
+        "de": "Verwalten Sie Ihren Kopierverlauf mühelos mit einem fortschrittlichen Werkzeug für Dateien und Text."
+      },
+      "download_url": "https://getclipboard.app/",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "msedgeredirect",
@@ -25309,6 +25813,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "hygen",
+      "name": "Hygen",
+      "tagline": "Fast and scalable project code generator.",
+      "repo_url": "https://github.com/jondot/hygen",
+      "full_name": "jondot/hygen",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "developer-tools",
+        "productivity"
+      ],
+      "icon": "/icons/hygen.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5924,
+      "tier": "tier3_powertool",
+      "summary": "Create, inject, and manage files within your software projects instantly using simple templates and interactive commands.",
+      "i18n": {
+        "it": "Crea, inserisci e gestisci file nei tuoi progetti software all'istante usando semplici modelli e comandi interattivi.",
+        "es": "Crea, inserta y gestiona archivos dentro de tus proyectos de software al instante usando plantillas simples y comandos.",
+        "fr": "Créez, insérez et gérez des fichiers dans vos projets logiciels instantanément grâce à des modèles simples et interactifs.",
+        "de": "Erstellen, fügen und verwalten Sie Dateien in Ihren Softwareprojekten sofort mit einfachen Vorlagen und Befehlen."
+      },
+      "download_url": "https://www.hygen.io",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "clasp",
+      "name": "clasp",
+      "tagline": "Build Google scripts from your computer",
+      "repo_url": "https://github.com/google/clasp",
+      "full_name": "google/clasp",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "development",
+        "google-workspace"
+      ],
+      "icon": "/icons/clasp.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5916,
+      "tier": "tier3_powertool",
+      "summary": "Write and organize Google scripts locally on your computer instead of using the browser editor.",
+      "i18n": {
+        "it": "Scrivi e organizza script Google in locale sul computer anziché usare l'editor web.",
+        "es": "Escribe y organiza scripts de Google de forma local en tu computadora en lugar de usar el editor web.",
+        "fr": "Rédigez et organisez vos scripts Google localement sur votre ordinateur plutôt que d'utiliser l'éditeur web.",
+        "de": "Schreiben und organisieren Sie Google-Skripte lokal auf Ihrem Computer, anstatt den Web-Editor zu verwenden."
+      },
+      "download_url": "https://developers.google.com/apps-script/guides/clasp",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "you-dont-need-gui",
       "name": "You-Dont-Need-GUI",
       "tagline": "Master command line shortcuts effortlessly",
@@ -25363,6 +25923,62 @@
       },
       "download_url": "https://basscss.com",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "dotenvx",
+      "name": "dotenvx",
+      "tagline": "Secure and share configuration files safely",
+      "repo_url": "https://github.com/dotenvx/dotenvx",
+      "full_name": "dotenvx/dotenvx",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "security",
+        "configuration"
+      ],
+      "icon": "/icons/dotenvx.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (BSD)",
+      "stars": 5884,
+      "tier": "tier3_powertool",
+      "summary": "Encrypt sensitive settings files so you can safely store them alongside your code in version control without risking leaks.",
+      "i18n": {
+        "it": "Cifra i file di impostazioni sensibili per poterli archiviare in sicurezza insieme al codice senza rischi di fughe di dati.",
+        "es": "Cifra los archivos de ajustes confidenciales para guardarlos de forma segura junto al código sin riesgo de filtraciones.",
+        "fr": "Chiffrez vos fichiers de paramètres sensibles pour les stocker en toute sécurité avec votre code sans risque de fuite.",
+        "de": "Verschlüsseln Sie sensible Einstellungsdateien, um sie sicher neben dem Quellcode ohne Datenlecks zu speichern."
+      },
+      "download_url": "https://github.com/dotenvx/dotenvx/releases/download/v2.38.2/checksums.txt",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "create-better-t-stack",
+      "name": "create-better-t-stack",
+      "tagline": "Build custom TypeScript projects instantly.",
+      "repo_url": "https://github.com/amanvarshney01/create-better-t-stack",
+      "full_name": "amanvarshney01/create-better-t-stack",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "development",
+        "system-utility"
+      ],
+      "icon": "/icons/create-better-t-stack.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5868,
+      "tier": "tier3_powertool",
+      "summary": "A modern tool for setting up custom full-stack TypeScript projects with clean code layouts and zero setup bloat.",
+      "i18n": {
+        "it": "Uno strumento moderno per configurare progetti TypeScript completi con layout puliti e senza fronzoli.",
+        "es": "Una herramienta moderna para configurar proyectos TypeScript completos con diseños limpios y sin complicaciones.",
+        "fr": "Un outil moderne pour configurer des projets TypeScript complets avec des structures propres et sans superflu.",
+        "de": "Ein modernes Werkzeug zum Einrichten vollständiger TypeScript-Projekte mit sauberen Layouts und ohne Ballast."
+      },
+      "download_url": "https://better-t-stack.dev",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "sudo",
@@ -25447,6 +26063,62 @@
       },
       "download_url": "https://github.com/komodorio/helm-dashboard/releases/download/v2.1.3/helm-dashboard_2.1.3_checksums.txt",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "win-acme",
+      "name": "win-acme",
+      "tagline": "Automate website security certificates on Windows",
+      "repo_url": "https://github.com/win-acme/win-acme",
+      "full_name": "win-acme/win-acme",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "ssl",
+        "security"
+      ],
+      "icon": "/icons/win-acme.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5843,
+      "tier": "tier3_powertool",
+      "summary": "Easily create, install, and automatically renew website security certificates on Windows servers without manual headaches.",
+      "i18n": {
+        "it": "Crea, installa e rinnova automaticamente i certificati di sicurezza web su Windows senza problemi manuali.",
+        "es": "Crea, instala y renueva automáticamente certificados de seguridad web en Windows sin complicaciones manuales.",
+        "fr": "Créez, installez et renouvelez automatiquement des certificats de sécurité web sous Windows sans tracas.",
+        "de": "Erstellen, installieren und erneuern Sie Website-Sicherheitszertifikate unter Windows vollautomatisch."
+      },
+      "download_url": "https://www.win-acme.com/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "npm-run-all",
+      "name": "npm-run-all",
+      "tagline": "Run multiple command scripts easily",
+      "repo_url": "https://github.com/mysticatea/npm-run-all",
+      "full_name": "mysticatea/npm-run-all",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "automation"
+      ],
+      "icon": "/icons/npm-run-all.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5832,
+      "tier": "tier3_powertool",
+      "summary": "A handy command-line utility that allows you to run multiple project scripts simultaneously or one after another without compatibility issues.",
+      "i18n": {
+        "it": "Un'utilità a riga di comando per eseguire più script di progetto contemporaneamente o in sequenza senza problemi di compatibilità.",
+        "es": "Una utilidad de línea de comandos para ejecutar múltiples scripts de proyectos simultáneamente o en secuencia sin problemas de compatibilidad.",
+        "fr": "Un utilitaire en ligne de commande pour exécuter plusieurs scripts de projet simultanément ou en séquence sans problèmes de compatibilité.",
+        "de": "Ein Befehlszeilen-Hilfsprogramm zum gleichzeitigen oder nacheinander Ausführen mehrerer Projektsskripte ohne Kompatibilitätsprobleme."
+      },
+      "download_url": "https://github.com/mysticatea/npm-run-all/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "panel",
@@ -25755,6 +26427,34 @@
       },
       "download_url": "https://github.com/nyblnet/bento/releases/download/v1.2.13/Bento_Slides.bento.html",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "legit",
+      "name": "legit",
+      "tagline": "Make version control friendly and accessible",
+      "repo_url": "https://github.com/frostming/legit",
+      "full_name": "frostming/legit",
+      "category": "Productivity",
+      "tags": [
+        "git",
+        "developer-tools"
+      ],
+      "icon": "/icons/legit.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows",
+      "license": "Open Source (BSD)",
+      "stars": 5675,
+      "tier": "tier3_powertool",
+      "summary": "Simplifies version control by bringing intuitive workflow automation to your command line, eliminating tedious steps.",
+      "i18n": {
+        "it": "Semplifica il controllo versione portando automazione intuitiva alla riga di comando per eliminare passaggi noiosi.",
+        "es": "Simplifica el control de versiones aportando automatización intuitiva a la línea de comandos para eliminar pasos tediosos.",
+        "fr": "Simplifie le contrôle de version en apportant une automatisation intuitive à votre ligne de commande pour éviter les tâches.",
+        "de": "Vereinfacht die Versionskontrolle durch intuitive Automatisierung in der Befehlszeile, um mühsame Schritte zu vermeiden."
+      },
+      "download_url": "https://github.com/frostming/legit/releases/download/1.2.0/legit.exe",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "telegram-media-downloader",

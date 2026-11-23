@@ -1,12 +1,12 @@
 # HubHum Compact RAG Digest (catalog-rag.txt)
-Generated: 2026-11-23T08:42:50.819443+00:00 | Total: 1725 apps | Tier1: 873 | Tier2: 527 | Tier3: 325 | Guides: 78 (6 Pillars) | Bundles: 9
+Generated: 2026-11-23T08:45:23.097138+00:00 | Total: 1750 apps | Tier1: 873 | Tier2: 527 | Tier3: 350 | Guides: 78 (6 Pillars) | Bundles: 9
 Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeoma.github.io/HubHum/api/catalog.json | Clusters JSON: https://davanzokeoma.github.io/HubHum/api/clusters.json
 
 ## Category Breakdown
 - Graphics & Design: 26 apps
-- Productivity: 766 apps
-- Security & Privacy: 49 apps
-- Utilities & Power Tools: 287 apps
+- Productivity: 769 apps
+- Security & Privacy: 50 apps
+- Utilities & Power Tools: 308 apps
 - Video & Audio: 93 apps
 - Web Apps & Cloud: 503 apps
 - Websites & SEO: 1 apps
@@ -1787,16 +1787,24 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Share locally connected Windows USB hardware with virtual machines and Linux environments seamlessly. | Source: https://github.com/dorssel/usbipd-win | Download: https://github.com/dorssel/usbipd-win/releases/download/v5.3.0/usbipd-win_5.3.0_arm64.msi
 [alive-progress] alive-progress (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6329★) -> https://davanzokeoma.github.io/HubHum/apps/alive-progress/
   Summary: Add lively, responsive progress indicators to your Python scripts with real-time throughput speeds, time remaining estimates, and unique pause controls. | Source: https://github.com/rsalmei/alive-progress | Download: https://github.com/rsalmei/alive-progress/releases
+[helix-db] helix-db (Utilities & Power Tools | tier3_powertool | cli | Windows | Open Source (Apache 2.0) | 6310★) -> https://davanzokeoma.github.io/HubHum/apps/helix-db/
+  Summary: HelixDB is an advanced graph database featuring native vector and full-text search built for modern applications. | Source: https://github.com/helixdb/helix-db | Download: https://github.com/HelixDB/helix-db/releases/download/v3.7.0/helix-x86_64-pc-windows-msvc.exe
 [rainbond] Rainbond (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Custom Open License | 6306★) -> https://davanzokeoma.github.io/HubHum/apps/rainbond/
   Summary: Rainbond lets you run and manage your software projects on your own servers without needing to learn complex container tools. | Source: https://github.com/goodrain/rainbond | Download: https://www.rainbond.io
+[crossdesk] CrossDesk (Productivity | tier3_powertool | cli | Windows, macOS, Linux, Android | Custom Open License | 6288★) -> https://davanzokeoma.github.io/HubHum/apps/crossdesk/
+  Summary: Control computers securely from browsers, mobile devices, or terminals with high-performance video streaming. | Source: https://github.com/kunkundi/crossdesk | Download: https://github.com/kunkundi/crossdesk/releases/download/v1.7.6-20261112/crossdesk-win-x64-v1.7.6-20261112.exe
 [winit] winit (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, iOS | Open Source (Apache 2.0) | 6287★) -> https://davanzokeoma.github.io/HubHum/apps/winit/
   Summary: Winit lets developers easily create windows and handle user inputs like mouse clicks and keystrokes across multiple operating systems. | Source: https://github.com/rust-windowing/winit | Download: https://docs.rs/winit/
 [implot] implot (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6285★) -> https://davanzokeoma.github.io/HubHum/apps/implot/
   Summary: ImPlot is a lightweight software library that lets you instantly draw interactive charts and graphs inside your applications. | Source: https://github.com/epezent/implot | Download: https://github.com/epezent/implot/releases
 [leva] Leva (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6277★) -> https://davanzokeoma.github.io/HubHum/apps/leva/
   Summary: Leva provides beautiful, ready-to-use visual panels for adjusting values in web applications instantly. | Source: https://github.com/pmndrs/leva | Download: https://leva.pmnd.rs
+[removemacai] RemoveMacAI (Security & Privacy | tier3_powertool | cli | macOS | Open Source (MIT) | 6272★) -> https://davanzokeoma.github.io/HubHum/apps/removemacai/
+  Summary: Remove Apple Intelligence models and turn off unnecessary system features on your Mac to free up valuable storage space. | Source: https://github.com/omlahore/removemacai | Download: https://github.com/omlahore/RemoveMacAI/releases/download/v1.2.2/removemacai-darwin-arm64.tar.gz.sha256
 [cloud-torrent] Cloud Torrent (Security & Privacy | tier2_webapp | selfhosted | Self-Hosted / Browser | Custom Open License | 6249★) -> https://davanzokeoma.github.io/HubHum/apps/cloud-torrent/
   Summary: Cloud Torrent lets you manage your file downloads from any web browser and stream your media directly from your own server. | Source: https://github.com/jpillora/cloud-torrent | Download: https://github.com/jpillora/cloud-torrent/releases/download/v0.9.4/cloud-torrent_0.9.4_linux_386.apk
+[procs] procs (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6248★) -> https://davanzokeoma.github.io/HubHum/apps/procs/
+  Summary: Procs replaces traditional system monitoring tools with a colorful, readable interface, letting you easily search and manage active programs. | Source: https://github.com/dalance/procs | Download: https://github.com/dalance/procs/releases/download/v0.14.12/procs-0.14.12-1.x86_64.rpm
 [short-video-factory] Short Video Factory (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (AGPL v3) | 6245★) -> https://davanzokeoma.github.io/HubHum/apps/short-video-factory/
   Summary: Short Video Factory uses artificial intelligence to turn your ideas into polished marketing videos and social media content in seconds. | Source: https://github.com/yils-lin/short-video-factory | Download: https://github.com/YILS-LIN/short-video-factory/releases/download/v1.4.0/short-video-factory-1.4.0-win-x64-setup.exe
 [openblocks] Openblocks (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (AGPL v3) | 6244★) -> https://davanzokeoma.github.io/HubHum/apps/openblocks/
@@ -1805,14 +1813,22 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Lightdash helps teams build interactive charts and data reports that update automatically using your existing business information. | Source: https://github.com/lightdash/lightdash | Download: https://github.com/lightdash/lightdash/releases/download/3.361.0/blast-radius.json
 [dograh] Dograh (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (BSD) | 6240★) -> https://davanzokeoma.github.io/HubHum/apps/dograh/
   Summary: Dograh is an open-source platform that lets you design and run your own automated voice assistants for phone calls and customer interactions. | Source: https://github.com/dograh-hq/dograh | Download: https://app.dograh.com
+[httpstat] httpstat (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6223★) -> https://davanzokeoma.github.io/HubHum/apps/httpstat/
+  Summary: httpstat turns complex web connection data into a clear, readable report. | Source: https://github.com/reorx/httpstat | Download: https://github.com/reorx/httpstat/releases/download/1.3.0/httpstat-1.3.0-py3-none-any.whl
+[gdu] gdu (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6222★) -> https://davanzokeoma.github.io/HubHum/apps/gdu/
+  Summary: Quickly find what is filling up your hard drive with an interactive visual map and clean terminal interface. | Source: https://github.com/dundee/gdu | Download: https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt
 [tagbar] tagbar (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Custom Open License | 6214★) -> https://davanzokeoma.github.io/HubHum/apps/tagbar/
   Summary: Tagbar displays an organized sidebar in Vim showing methods and classes ordered by their scope. | Source: https://github.com/preservim/tagbar | Download: https://preservim.github.io/tagbar
 [lobsterai] LobsterAI (Productivity | tier1_gui | desktop | Windows, macOS | Open Source (MIT) | 6207★) -> https://davanzokeoma.github.io/HubHum/apps/lobsterai/
   Summary: An open-source desktop assistant that completes real tasks like data analysis, document editing, and web research right on your computer. | Source: https://github.com/netease-youdao/lobsterai | Download: https://github.com/netease-youdao/LobsterAI/releases/download/2026.11.20/LobsterAI--win-x64.exe
 [cosmos-server] Cosmos-Server (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Custom Open License | 6204★) -> https://davanzokeoma.github.io/HubHum/apps/cosmos-server/
   Summary: Cosmos-Server provides a secure, all-in-one dashboard to manage your personal home server, applications, and data privacy with ease. | Source: https://github.com/azukaar/cosmos-server | Download: https://github.com/azukaar/Cosmos-Server/releases/download/v0.24.0/cosmos-cloud-0.24.0-amd64.zip.md5
+[todo-txt-cli] todo.txt-cli (Utilities & Power Tools | tier3_powertool | cli | Linux | Open Source (GPL v3) | 6199★) -> https://davanzokeoma.github.io/HubHum/apps/todo-txt-cli/
+  Summary: Manage your simple text-based task list efficiently using a flexible and lightweight script. | Source: https://github.com/todotxt/todo.txt-cli | Download: https://todotxt.org
 [agent-autoloop] Agent Autoloop (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 6196★) -> https://davanzokeoma.github.io/HubHum/apps/agent-autoloop/
   Summary: Agent Autoloop acts as a smart manager for your AI tools, handling tasks in the background and only interrupting you when a decision is needed. | Source: https://github.com/kkkkhazix/agent-autoloop | Download: https://github.com/KKKKhazix/agent-autoloop/releases
+[gpt-image2-skill] GPT-Image2-Skill (Productivity | tier3_powertool | resource | All / Reference | Open Source (MIT) | 6181★) -> https://davanzokeoma.github.io/HubHum/apps/gpt-image2-skill/
+  Summary: Design, edit, and extract image prompts effortlessly using smart coding assistants and command-line tools. | Source: https://github.com/wuyoscar/gpt-image2-skill | Download: https://github.com/wuyoscar/GPT-Image2-Skill/releases/download/v0.3.0/gpt_image_cli-0.3.0-py3-none-any.whl
 [react-nodegui] react-nodegui (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6178★) -> https://davanzokeoma.github.io/HubHum/apps/react-nodegui/
   Summary: Create fast, native cross-platform desktop applications using familiar React components and lightweight styling. | Source: https://github.com/nodegui/react-nodegui | Download: https://react.nodegui.org
 [pywebview] pywebview (Utilities & Power Tools | tier3_powertool | cli | Windows, Linux | Open Source (BSD) | 6173★) -> https://davanzokeoma.github.io/HubHum/apps/pywebview/
@@ -1825,44 +1841,76 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: HP-Socket helps software handle large amounts of data traffic efficiently across different types of network connections. | Source: https://github.com/ldcsaa/hp-socket | Download: https://github.com/ldcsaa/HP-Socket/releases/download/v6.0.9/hp-socket-6.0.9-demo-linux.7z
 [azul] Azul (Utilities & Power Tools | tier3_powertool | cli | Linux | Open Source (MIT) | 6140★) -> https://davanzokeoma.github.io/HubHum/apps/azul/
   Summary: Azul is a fast and flexible visual interface framework that helps developers build native desktop apps using familiar layout styles. | Source: https://github.com/fschutt/azul | Download: https://github.com/fschutt/azul/releases/download/0.2.0/AzMaps-android.apk
+[jnv] jnv (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6140★) -> https://davanzokeoma.github.io/HubHum/apps/jnv/
+  Summary: Navigate and filter complex JSON data interactively right from your terminal with instant query feedback. | Source: https://github.com/ynqa/jnv | Download: https://github.com/ynqa/jnv/releases/download/v0.7.1/dist-manifest.json
 [vikunja] Vikunja (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (AGPL v3) | 6133★) -> https://davanzokeoma.github.io/HubHum/apps/vikunja/
   Summary: Vikunja is a flexible task management tool that lets you organize your to-do lists exactly how you want. | Source: https://github.com/go-vikunja/vikunja | Download: https://github.com/go-vikunja/vikunja/releases/download/v2.8.0/Vikunja.Desktop-v2.8.0.exe
 [ezbookkeeping] ezBookkeeping (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 6108★) -> https://davanzokeoma.github.io/HubHum/apps/ezbookkeeping/
   Summary: Take full control of your money with this private, self-hosted tool that helps you track spending and visualize your financial habits. | Source: https://github.com/mayswind/ezbookkeeping | Download: https://ezbookkeeping.mayswind.net
+[bit] bit (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (Apache 2.0) | 6095★) -> https://davanzokeoma.github.io/HubHum/apps/bit/
+  Summary: Manage code history and branches easily with smart command suggestions, automatic updates, and helpful shortcuts. | Source: https://github.com/chriswalz/bit | Download: https://github.com/chriswalz/bit/releases/download/v1.1.2/bit_1.1.2_checksums.txt
+[jira-cli] jira-cli (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6090★) -> https://davanzokeoma.github.io/HubHum/apps/jira-cli/
+  Summary: Manage your Jira tasks, sprints, and issues directly from your terminal with a fast interactive interface. | Source: https://github.com/ankitpokhrel/jira-cli | Download: https://github.com/ankitpokhrel/jira-cli/releases/download/v1.7.0/checksums.txt
 [lesspass] LessPass (Security & Privacy | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (GPL v3) | 6086★) -> https://davanzokeoma.github.io/HubHum/apps/lesspass/
   Summary: LessPass creates unique passwords on the fly using a master password, eliminating the need to sync or store your sensitive data. | Source: https://github.com/lesspass/lesspass | Download: https://www.lesspass.com
 [gsudo] gsudo (Productivity | tier1_gui | desktop | Windows | Open Source (MIT) | 6082★) -> https://davanzokeoma.github.io/HubHum/apps/gsudo/
   Summary: Run Windows terminal commands with administrator permissions on demand without opening new windows. | Source: https://github.com/gerardog/gsudo | Download: https://github.com/gerardog/gsudo/releases/download/v2.6.1/gsudo.setup.arm64.msi
+[inngest] Inngest (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Custom Open License | 6068★) -> https://davanzokeoma.github.io/HubHum/apps/inngest/
+  Summary: Manage complex background tasks, retries, and scheduled jobs smoothly without configuring complex server infrastructure. | Source: https://github.com/inngest/inngest | Download: https://github.com/inngest/inngest/releases/download/v1.53.0/checksums.txt
+[zcf] ZCF (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6065★) -> https://davanzokeoma.github.io/HubHum/apps/zcf/
+  Summary: ZCF lets you keep one easy file that automatically installs and configures your AI coding assistants, so you never have to set them up by hand. | Source: https://github.com/ufomiao/zcf | Download: https://zcf.ufomiao.com/
 [infosec-reference] Infosec_Reference (Productivity | tier1_gui | desktop | Windows, Linux | Open Source (MIT) | 6045★) -> https://davanzokeoma.github.io/HubHum/apps/infosec-reference/
   Summary: Explore a massive, organized collection of cybersecurity techniques, security tools, and tactical defenses. | Source: https://github.com/rmusser01/infosec_reference | Download: https://rmusser.net/docs
 [netexec] NetExec (Productivity | tier1_gui | desktop | Windows | Open Source (BSD) | 6043★) -> https://davanzokeoma.github.io/HubHum/apps/netexec/
   Summary: NetExec helps system administrators safely manage, check, and automate tasks across complex connected environments. | Source: https://github.com/pennyw0rth/netexec | Download: https://netexec.wiki/
 [vcmi] vcmi (Productivity | tier1_gui | desktop | Windows, macOS, Linux, Android, iOS | Open Source (GPL v2) | 6039★) -> https://davanzokeoma.github.io/HubHum/apps/vcmi/
   Summary: Revive a legendary fantasy strategy game on modern computers and mobile devices with improved performance and new features. | Source: https://github.com/vcmi/vcmi | Download: https://github.com/vcmi/vcmi/releases/download/1.7.5/VCMI-Windows-arm64.exe
+[carbon-now-cli] carbon-now-cli (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6034★) -> https://davanzokeoma.github.io/HubHum/apps/carbon-now-cli/
+  Summary: Verwandeln Sie Programmiertext direkt über Ihre Befehlszeile in wunderschöne, teilbare Grafiken mit individuellem Design. | Source: https://github.com/mixn/carbon-now-cli | Download: https://github.com/mixn/carbon-now-cli/releases
+[shaders] Shaders (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 6027★) -> https://davanzokeoma.github.io/HubHum/apps/shaders/
+  Summary: Easily add high-performance visual graphics, gradients, and animations to your web projects using modern WebGPU components. | Source: https://github.com/shader-effects-inc/shaders | Download: https://shaders.com
 [ecoute] Ecoute (Productivity | tier1_gui | desktop | Windows | Open Source (MIT) | 6026★) -> https://davanzokeoma.github.io/HubHum/apps/ecoute/
   Summary: Ecoute provides real-time transcriptions for both your microphone input and speaker output directly inside a convenient textbox. | Source: https://github.com/sevask/ecoute | Download: https://github.com/SevaSk/ecoute
 [studio] Studio (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (AGPL v3) | 6015★) -> https://davanzokeoma.github.io/HubHum/apps/studio/
   Summary: Studio is a lightweight browser interface for managing popular databases with helpful auto-completion, easy data tables, and schema editors. | Source: https://github.com/outerbase/studio | Download: https://studio.outerbase.com
 [mangodisk] MangoDisk (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (GPL v3) | 6009★) -> https://davanzokeoma.github.io/HubHum/apps/mangodisk/
   Summary: Reclaim lost hard drive space safely by clearing hidden caches, duplicate files, and leftover app data across macOS, Windows, and Linux. | Source: https://github.com/harry0703/mangodisk | Download: https://github.com/harry0703/MangoDisk/releases/download/v2.1.1/MangoDisk-2.1.1-windows-cli.exe
+[maka] Maka (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (Apache 2.0) | 5998★) -> https://davanzokeoma.github.io/HubHum/apps/maka/
+  Summary: Maka records everything your computer does, so you can review past actions and keep a reliable history. | Source: https://github.com/apache/maka | Download: https://github.com/apache/maka/releases
 [scanopy] Scanopy (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (AGPL v3) | 5986★) -> https://davanzokeoma.github.io/HubHum/apps/scanopy/
   Summary: Scanopy creates and updates your network diagrams automatically so you never have to draw them by hand again. | Source: https://github.com/scanopy/scanopy | Download: https://github.com/scanopy/scanopy/releases/download/v0.20.1/scanopy-daemon-windows-amd64.exe
+[ccg-workflow] ccg-workflow (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 5985★) -> https://davanzokeoma.github.io/HubHum/apps/ccg-workflow/
+  Summary: Coordinate multiple specialized artificial intelligence models together in one seamless workflow to complete complex tasks easily. | Source: https://github.com/fengshao1227/ccg-workflow | Download: https://ccg.fengshao1227.com
 [mongo-express] mongo-express (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 5979★) -> https://davanzokeoma.github.io/HubHum/apps/mongo-express/
   Summary: mongo-express is a lightweight web application that lets you view, edit, and organize database records easily through your browser. | Source: https://github.com/mongo-express/mongo-express | Download: https://github.com/mongo-express/mongo-express/releases
+[clipboard] Clipboard (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (GPL v3) | 5944★) -> https://davanzokeoma.github.io/HubHum/apps/clipboard/
+  Summary: Manage copy and paste history effortlessly with an advanced utility designed to handle text, files, and custom workflows. | Source: https://github.com/slackadays/clipboard | Download: https://getclipboard.app/
 [msedgeredirect] MSEdgeRedirect (Productivity | tier1_gui | desktop | Windows | Open Source (LGPL) | 5944★) -> https://davanzokeoma.github.io/HubHum/apps/msedgeredirect/
   Summary: Automatically redirect web links, news, and weather widgets from the operating system directly to your chosen default web browser. | Source: https://github.com/rcmaehl/msedgeredirect | Download: https://github.com/rcmaehl/MSEdgeRedirect/releases/download/0.8.0.0/MSEdgeRedirect.exe
 [go-flutter] go-flutter (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (BSD) | 5934★) -> https://davanzokeoma.github.io/HubHum/apps/go-flutter/
   Summary: This tool allows you to bring mobile-first applications to Windows, macOS, and Linux using the Go programming language. | Source: https://github.com/go-flutter-desktop/go-flutter | Download: https://hover.build/
+[hygen] Hygen (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 5924★) -> https://davanzokeoma.github.io/HubHum/apps/hygen/
+  Summary: Create, inject, and manage files within your software projects instantly using simple templates and interactive commands. | Source: https://github.com/jondot/hygen | Download: https://www.hygen.io
+[clasp] clasp (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (Apache 2.0) | 5916★) -> https://davanzokeoma.github.io/HubHum/apps/clasp/
+  Summary: Write and organize Google scripts locally on your computer instead of using the browser editor. | Source: https://github.com/google/clasp | Download: https://developers.google.com/apps-script/guides/clasp
 [you-dont-need-gui] You-Dont-Need-GUI (Utilities & Power Tools | tier3_powertool | resource | All / Reference | Open Source License | 5916★) -> https://davanzokeoma.github.io/HubHum/apps/you-dont-need-gui/
   Summary: Ditch slow visual menus and speed up your daily computer tasks using quick text commands. | Source: https://github.com/you-dont-need/you-dont-need-gui | Download: https://github.com/you-dont-need/You-Dont-Need-GUI/releases
 [basscss] Basscss (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 5899★) -> https://davanzokeoma.github.io/HubHum/apps/basscss/
   Summary: Basscss is a compact collection of reusable style building blocks that helps you design web pages much faster. | Source: https://github.com/basscss/basscss | Download: https://basscss.com
+[dotenvx] dotenvx (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (BSD) | 5884★) -> https://davanzokeoma.github.io/HubHum/apps/dotenvx/
+  Summary: Encrypt sensitive settings files so you can safely store them alongside your code in version control without risking leaks. | Source: https://github.com/dotenvx/dotenvx | Download: https://github.com/dotenvx/dotenvx/releases/download/v2.38.2/checksums.txt
+[create-better-t-stack] create-better-t-stack (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 5868★) -> https://davanzokeoma.github.io/HubHum/apps/create-better-t-stack/
+  Summary: A modern tool for setting up custom full-stack TypeScript projects with clean code layouts and zero setup bloat. | Source: https://github.com/amanvarshney01/create-better-t-stack | Download: https://better-t-stack.dev
 [sudo] sudo (Productivity | tier1_gui | desktop | Windows | Open Source (MIT) | 5865★) -> https://davanzokeoma.github.io/HubHum/apps/sudo/
   Summary: Sudo for Windows allows users to run elevated commands directly from unelevated terminal windows without opening a new console. | Source: https://github.com/microsoft/sudo | Download: https://github.com/microsoft/sudo/releases
 [novel] novel (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (Apache 2.0) | 5864★) -> https://davanzokeoma.github.io/HubHum/apps/novel/
   Summary: Novel is a comprehensive educational project designed to teach you how to build and launch professional-grade Java web systems from scratch. | Source: https://github.com/201206030/novel | Download: https://novel.xxyopen.com
 [helm-dashboard] Helm Dashboard (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (Apache 2.0) | 5860★) -> https://davanzokeoma.github.io/HubHum/apps/helm-dashboard/
   Summary: Manage your server software packages visually without struggling through confusing command-line prompts. | Source: https://github.com/komodorio/helm-dashboard | Download: https://github.com/komodorio/helm-dashboard/releases/download/v2.1.3/helm-dashboard_2.1.3_checksums.txt
+[win-acme] win-acme (Utilities & Power Tools | tier3_powertool | cli | Windows | Open Source (Apache 2.0) | 5843★) -> https://davanzokeoma.github.io/HubHum/apps/win-acme/
+  Summary: Easily create, install, and automatically renew website security certificates on Windows servers without manual headaches. | Source: https://github.com/win-acme/win-acme | Download: https://www.win-acme.com/
+[npm-run-all] npm-run-all (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 5832★) -> https://davanzokeoma.github.io/HubHum/apps/npm-run-all/
+  Summary: A handy command-line utility that allows you to run multiple project scripts simultaneously or one after another without compatibility issues. | Source: https://github.com/mysticatea/npm-run-all | Download: https://github.com/mysticatea/npm-run-all/releases
 [panel] Panel (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (BSD) | 5827★) -> https://davanzokeoma.github.io/HubHum/apps/panel/
   Summary: Create custom data dashboards and web applications directly from Python code without complex front-end design. | Source: https://github.com/holoviz/panel | Download: https://panel.holoviz.org
 [miru-app] Miru App (Productivity | tier1_gui | desktop | Windows, Android | Open Source (AGPL v3) | 5821★) -> https://davanzokeoma.github.io/HubHum/apps/miru-app/
@@ -1885,6 +1933,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Xplorer is a fast, customizable file manager that helps you organize your files with built-in AI assistance and smart search tools. | Source: https://github.com/kimlimjustin/xplorer | Download: https://xplorer.space/
 [bento] Bento (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 5681★) -> https://davanzokeoma.github.io/HubHum/apps/bento/
   Summary: Bento is a portable presentation tool that packs the editor and viewer into a single file, letting you work entirely offline without accounts. | Source: https://github.com/nyblnet/bento | Download: https://github.com/nyblnet/bento/releases/download/v1.2.13/Bento_Slides.bento.html
+[legit] legit (Productivity | tier3_powertool | cli | Windows | Open Source (BSD) | 5675★) -> https://davanzokeoma.github.io/HubHum/apps/legit/
+  Summary: Simplifies version control by bringing intuitive workflow automation to your command line, eliminating tedious steps. | Source: https://github.com/frostming/legit | Download: https://github.com/frostming/legit/releases/download/1.2.0/legit.exe
 [telegram-media-downloader] Telegram Media Downloader (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 5670★) -> https://davanzokeoma.github.io/HubHum/apps/telegram-media-downloader/
   Summary: This tool helps you automatically download photos, videos, and documents from your Telegram conversations and channels to your computer. | Source: https://github.com/tangyoha/telegram_media_downloader | Download: https://github.com/tangyoha/telegram_media_downloader/releases
 [floral-notepaper] Floral Notepaper (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 5655★) -> https://davanzokeoma.github.io/HubHum/apps/floral-notepaper/
