@@ -2,26 +2,26 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-23T08:36:22.084853+00:00",
-  "total_apps": 1650,
+  "generated_at": "2026-11-23T08:38:13.611458+00:00",
+  "total_apps": 1675,
   "tier_counts": {
     "tier3_powertool": 325,
     "tier2_webapp": 489,
-    "tier1_gui": 836
+    "tier1_gui": 861
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 315,
     "selfhosted": 488,
-    "desktop": 836,
+    "desktop": 861,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 26,
-    "Productivity": 731,
+    "Productivity": 754,
     "Security & Privacy": 49,
     "Utilities & Power Tools": 287,
-    "Video & Audio": 91,
+    "Video & Audio": 93,
     "Web Apps & Cloud": 465,
     "Websites & SEO": 1
   },
@@ -8930,6 +8930,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "opencore-legacy-patcher",
+      "name": "OpenCore-Legacy-Patcher",
+      "tagline": "Run modern macOS on older computers.",
+      "repo_url": "https://github.com/dortania/opencore-legacy-patcher",
+      "full_name": "dortania/opencore-legacy-patcher",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "patcher"
+      ],
+      "icon": "/icons/opencore-legacy-patcher.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Custom Open License",
+      "stars": 19047,
+      "tier": "tier1_gui",
+      "summary": "Revive older Mac computers that are no longer officially supported by installing modern versions of macOS easily.",
+      "i18n": {
+        "it": "Riporta in vita i computer Mac non più supportati installando le versioni moderne di macOS in modo semplice.",
+        "es": "Da una nueva vida a los ordenadores Mac antiguos que ya no cuentan con soporte oficial instalando sistemas recientes.",
+        "fr": "Donnez une seconde jeunesse à vos anciens ordinateurs Apple non pris en charge en y installant les systèmes récents.",
+        "de": "Hau älteren Apple-Computern neues Leben ein, indem du moderne Versionen des Betriebssystems problemlos installierst."
+      },
+      "download_url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.5.1/AutoPkg-Assets.pkg",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "uwebsockets",
       "name": "uWebSockets",
       "tagline": "High-speed, secure web server technology",
@@ -9294,6 +9322,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "openemu",
+      "name": "OpenEmu",
+      "tagline": "Play classic retro video games on macOS",
+      "repo_url": "https://github.com/openemu/openemu",
+      "full_name": "openemu/openemu",
+      "category": "Productivity",
+      "tags": [
+        "emulation",
+        "gaming"
+      ],
+      "icon": "/icons/openemu.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Custom Open License",
+      "stars": 17883,
+      "tier": "tier1_gui",
+      "summary": "OpenEmu brings legendary retro console gaming to your Mac with a gorgeous native interface and robust controller support.",
+      "i18n": {
+        "it": "OpenEmu porta il leggendario gioco retrò sul tuo Mac con un'interfaccia nativa eccezionale e pieno supporto per i controller.",
+        "es": "OpenEmu trae los videojuegos retro clásicos a tu Mac con una hermosa interfaz nativa y compatibilidad total con mandos.",
+        "fr": "OpenEmu apporte le jeu rétro légendaire sur votre Mac grâce à une superbe interface native et une gestion complète des manettes.",
+        "de": "OpenEmu bringt legendäre Retro-Konsolenspiele mit einer wunderschönen nativen Oberfläche und tollem Controller-Support auf den Mac."
+      },
+      "download_url": "https://openemu.org",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "katana",
       "name": "Katana",
       "tagline": "Next-generation intelligent website crawling and spidering",
@@ -9460,6 +9516,34 @@
       },
       "download_url": "https://effect.website",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "best-app",
+      "name": "Best-App",
+      "tagline": "Curated collection of top-tier productivity tools.",
+      "repo_url": "https://github.com/hzlzh/best-app",
+      "full_name": "hzlzh/best-app",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "curated-list"
+      ],
+      "icon": "/icons/best-app.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Custom Open License",
+      "stars": 17584,
+      "tier": "tier1_gui",
+      "summary": "Discover an expertly curated catalog of highly rated desktop applications, utilities, and lifestyle hardware to upgrade your daily workflow.",
+      "i18n": {
+        "it": "Scopri una raccolta di applicazioni desktop, utilità e accessori di alta qualità per migliorare la tua produttività quotidiana.",
+        "es": "Descubre un catálogo de aplicaciones de escritorio y herramientas diseñadas para optimizar tu flujo de trabajo diario.",
+        "fr": "Découvrez un catalogue d'applications de bureau et d'utilitaires hautement recommandés pour optimiser votre quotidien.",
+        "de": "Entdecken Sie einen handverlesenen Katalog erstklassiger Desktop-Anwendungen und Dienstprogramme für den Alltag."
+      },
+      "download_url": "https://github.com/hzlzh/Best-App/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "flet",
@@ -10106,6 +10190,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "amethyst",
+      "name": "Amethyst",
+      "tagline": "Organize your Mac windows automatically",
+      "repo_url": "https://github.com/ianyh/amethyst",
+      "full_name": "ianyh/amethyst",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "macos"
+      ],
+      "icon": "/icons/amethyst.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 16338,
+      "tier": "tier1_gui",
+      "summary": "Amethyst is an automatic window arranger for macOS that keeps your open applications neatly tiled and organized without manual dragging.",
+      "i18n": {
+        "it": "Amethyst è un gestore automatico di finestre per macOS che mantiene le tue applicazioni in ordine senza trascinamento manuale.",
+        "es": "Amethyst es un organizador automático de ventanas para macOS que mantiene tus aplicaciones ordenadas sin necesidad de moverlas.",
+        "fr": "Amethyst est un gestionnaire de fenêtres automatique pour macOS qui garde vos applications bien alignées et organisées.",
+        "de": "Amethyst ist ein automatischer Fenster-Manager für macOS, der Ihre geöffneten Anwendungen sauber und ohne Ziehen anordnet."
+      },
+      "download_url": "https://ianyh.com/amethyst/",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "yq",
       "name": "yq",
       "tagline": "Easily process and convert data files",
@@ -10610,6 +10722,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "hidden",
+      "name": "Hidden",
+      "tagline": "Clean up your Mac menu bar",
+      "repo_url": "https://github.com/consolelabs/hidden",
+      "full_name": "consolelabs/hidden",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "utility"
+      ],
+      "icon": "/icons/hidden.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 15568,
+      "tier": "tier1_gui",
+      "summary": "An ultra-lightweight macOS utility that lets you tidy up crowded menu bar icons to give your desktop a clean look.",
+      "i18n": {
+        "it": "Un'utilità macOS leggerissima per nascondere le icone affollate della barra dei menu e dare al tuo computer un aspetto ordinato.",
+        "es": "Una utilidad para macOS muy ligera que oculta iconos innecesarios de la barra de menús para mantener tu escritorio ordenado.",
+        "fr": "Un utilitaire macOS ultra léger pour masquer les icônes encombrantes de la barre des menus et offrir un bureau propre.",
+        "de": "Ein ultraleichtes macOS-Dienstprogramm zum Ausblenden überflüssiger Menüleistensymbole für eine saubere und übersichtliche Benutzeroberfläche."
+      },
+      "download_url": "https://github.com/consolelabs/hidden/releases/download/v1.13.4/appcast.xml",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "gsy-github-app-flutter",
       "name": "GSY Github App",
       "tagline": "A feature-rich mobile client for Github.",
@@ -10692,6 +10832,34 @@
       },
       "download_url": "https://rdagent.azurewebsites.net/",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "easydict",
+      "name": "Easydict",
+      "tagline": "Instant multi-service translation for macOS",
+      "repo_url": "https://github.com/tisfeng/easydict",
+      "full_name": "tisfeng/easydict",
+      "category": "Productivity",
+      "tags": [
+        "translator",
+        "dictionary"
+      ],
+      "icon": "/icons/easydict.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 15401,
+      "tier": "tier1_gui",
+      "summary": "Easydict is a concise and elegant dictionary and translation application for macOS that lets you look up words and translate text instantly using multiple online services.",
+      "i18n": {
+        "it": "Un'applicazione di dizionario e traduzione elegante per macOS che consente di tradurre testi istantaneamente utilizzando vari servizi.",
+        "es": "Una aplicación de diccionario y traducción elegante para macOS que traduce textos al instante utilizando múltiples servicios en línea.",
+        "fr": "Une application de dictionnaire et de traduction élégante pour macOS qui traduit instantanément du texte avec plusieurs services.",
+        "de": "Eine elegante Wörterbuch- und Übersetzungs-App für macOS, die Text sofort über mehrere Dienste übersetzt."
+      },
+      "download_url": "https://github.com/tisfeng/Easydict/releases/download/2.26.0/Easydict.dmg",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "komorebi",
@@ -10888,6 +11056,34 @@
       },
       "download_url": "https://github.com/alexta69/metube/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "swifterswift",
+      "name": "SwifterSwift",
+      "tagline": "Boost productivity with helpful native extensions",
+      "repo_url": "https://github.com/swifterswift/swifterswift",
+      "full_name": "swifterswift/swifterswift",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "extensions"
+      ],
+      "icon": "/icons/swifterswift.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 15279,
+      "tier": "tier1_gui",
+      "summary": "Accelerate software creation using hundreds of tested native additions for common coding tasks.",
+      "i18n": {
+        "it": "Aumenta la produttività con centinaia di strumenti pronti per linguaggi di programmazione moderni.",
+        "es": "Mejora la productividad usando cientos de herramientas nativas comprobadas para tareas habituales.",
+        "fr": "Boostez votre productivité grâce à des centaines d'outils natifs testés pour vos projets.",
+        "de": "Steigern Sie Ihre Produktivität mit Hunderten getesteten nativen Werkzeugen für alltägliche Aufgaben."
+      },
+      "download_url": "https://swifterswift.com",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "cachet",
@@ -11254,6 +11450,62 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "notepadnext",
+      "name": "NotepadNext",
+      "tagline": "Cross-platform text editor for everyday notes.",
+      "repo_url": "https://github.com/dail8859/notepadnext",
+      "full_name": "dail8859/notepadnext",
+      "category": "Productivity",
+      "tags": [
+        "text-editor",
+        "note-taking"
+      ],
+      "icon": "/icons/notepadnext.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 14814,
+      "tier": "tier1_gui",
+      "summary": "NotepadNext is a flexible, cross-platform text editing application that brings familiar note-taking and coding features to Windows, Mac, and Linux.",
+      "i18n": {
+        "it": "NotepadNext è un'applicazione di scrittura flessibile e multipiattaforma che porta funzionalità familiari su Windows, Mac e Linux.",
+        "es": "NotepadNext es una aplicación flexible y multiplataforma que ofrece funciones de escritura habituales en Windows, Mac y Linux.",
+        "fr": "NotepadNext est une application flexible et multiplateforme qui apporte des fonctions d'écriture familières sur Windows, Mac et Linux.",
+        "de": "NotepadNext ist eine flexible, plattformübergreifende Schreibanwendung, die vertraute Funktionen auf Windows, Mac und Linux bringt."
+      },
+      "download_url": "https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-Installer-arm64.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "palmier-pro",
+      "name": "Palmier Pro",
+      "tagline": "AI-powered video editor for macOS",
+      "repo_url": "https://github.com/palmier-io/palmier-pro",
+      "full_name": "palmier-io/palmier-pro",
+      "category": "Video & Audio",
+      "tags": [
+        "video-editor",
+        "macos"
+      ],
+      "icon": "/icons/palmier-pro.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 14800,
+      "tier": "tier1_gui",
+      "summary": "Create and edit professional videos effortlessly using integrated artificial intelligence and modern timeline tools on your Mac.",
+      "i18n": {
+        "it": "Crea e modifica video professionali facilmente utilizzando intelligenza artificiale integrata e strumenti moderni sul tuo Mac.",
+        "es": "Crea y edita videos profesionales fácilmente usando inteligencia artificial integrada y herramientas modernas en tu Mac.",
+        "fr": "Créez et éditez des vidéos professionnelles facilement grâce à l'intelligence artificielle intégrée et aux outils modernes sur votre Mac.",
+        "de": "Erstellen und bearbeiten Sie professionelle Videos mühelos mit integrierter künstlicher Intelligenz und modernen Timeline-Werkzeugen auf Ihrem Mac."
+      },
+      "download_url": "https://github.com/palmier-io/palmier-pro/releases/download/v0.12.1/PalmierPro.dmg",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "hackbrowserdata",
       "name": "HackBrowserData",
       "tagline": "Easily export and decrypt browser data.",
@@ -11280,6 +11532,34 @@
       },
       "download_url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v1.2.0/checksums-v1.2.0.txt",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "electron-builder",
+      "name": "electron-builder",
+      "tagline": "Package and distribute desktop apps easily.",
+      "repo_url": "https://github.com/electron-userland/electron-builder",
+      "full_name": "electron-userland/electron-builder",
+      "category": "Productivity",
+      "tags": [
+        "utilities",
+        "desktop"
+      ],
+      "icon": "/icons/electron-builder.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 14723,
+      "tier": "tier1_gui",
+      "summary": "Turn desktop web applications into ready-to-share installers for Windows, macOS, and Linux with built-in automatic updates.",
+      "i18n": {
+        "it": "Trasforma le applicazioni desktop in installatori pronti per Windows, macOS e Linux con aggiornamenti automatici integrati.",
+        "es": "Convierte aplicaciones en instaladores listos para Windows, macOS y Linux con soporte de actualización automática integrado.",
+        "fr": "Transformez vos applications en programmes d'installation pour Windows, macOS et Linux avec des mises à jour automatiques.",
+        "de": "Erstellen Sie Installationsprogramme für Windows, macOS und Linux aus Ihren Anwendungen mit integrierten Updates."
+      },
+      "download_url": "https://www.electron.build",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "claudecodeui",
@@ -11364,6 +11644,34 @@
       },
       "download_url": "https://github.com/sorin-ionescu/prezto/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "textmate",
+      "name": "TextMate",
+      "tagline": "Powerful graphical text editor for macOS.",
+      "repo_url": "https://github.com/textmate/textmate",
+      "full_name": "textmate/textmate",
+      "category": "Productivity",
+      "tags": [
+        "text-editor",
+        "macos"
+      ],
+      "icon": "/icons/textmate.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 14579,
+      "tier": "tier1_gui",
+      "summary": "TextMate is a lightweight yet robust graphical text editor for macOS designed to streamline writing and coding tasks.",
+      "i18n": {
+        "it": "TextMate è un editor di testo grafico leggero e versatile per macOS, pensato per semplificare la scrittura e la programmazione.",
+        "es": "TextMate es un editor de texto gráfico ligero y potente para macOS diseñado para simplificar la escritura y la programación.",
+        "fr": "TextMate est un éditeur de texte graphique léger et robuste pour macOS conçu pour faciliter l'écriture et le code.",
+        "de": "TextMate ist ein leichter und robuster grafischer Texteditor für macOS, der das Schreiben und Programmieren vereinfacht."
+      },
+      "download_url": "https://github.com/textmate/textmate/releases/download/v2.0.23/TextMate_2.0.23.tbz",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "gron",
@@ -11532,6 +11840,62 @@
       },
       "download_url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.11.0/bit-Bitwarden-Installer-2026.11.0.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "wechatplugin-macos",
+      "name": "WeChatPlugin-MacOS",
+      "tagline": "Enhance your desktop messaging experience easily.",
+      "repo_url": "https://github.com/tkkk-ioser/wechatplugin-macos",
+      "full_name": "tkkk-ioser/wechatplugin-macos",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "utilities"
+      ],
+      "icon": "/icons/wechatplugin-macos.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 14285,
+      "tier": "tier1_gui",
+      "summary": "Unlock advanced messaging features, anti-recall protection, and automated replies for your desktop messenger.",
+      "i18n": {
+        "it": "Sblocca funzioni di messaggistica avanzate, protezione contro il ritiro dei messaggi e risposte automatiche sul computer.",
+        "es": "Desbloquea funciones de mensajería avanzadas, protección contra la retirada de mensajes y respuestas automáticas.",
+        "fr": "Débloquez des fonctions de messagerie avancées, une protection anti-rappel et des réponses automatiques.",
+        "de": "Schalten Sie erweiterte Messaging-Funktionen, den Schutz vor dem Rückruf von Nachrichten und automatische Antworten frei."
+      },
+      "download_url": "https://github.com/TKkk-iOSer/WeChatPlugin-MacOS/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "openhaystack",
+      "name": "OpenHaystack",
+      "tagline": "Build your own custom tracking tags.",
+      "repo_url": "https://github.com/seemoo-lab/openhaystack",
+      "full_name": "seemoo-lab/openhaystack",
+      "category": "Productivity",
+      "tags": [
+        "privacy",
+        "hardware"
+      ],
+      "icon": "/icons/openhaystack.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (AGPL v3)",
+      "stars": 14264,
+      "tier": "tier1_gui",
+      "summary": "Create your own personal tracking tags for items like keys or backpacks using Apple's global device-finding network.",
+      "i18n": {
+        "it": "Crea i tuoi tag di tracciamento per oggetti personali utilizzando la rete di ricerca globale di Apple.",
+        "es": "Crea tus propias etiquetas de seguimiento para objetos personales usando la red de búsqueda global de Apple.",
+        "fr": "Créez vos propres balises de suivi pour vos objets personnels en utilisant le réseau de recherche mondial d'Apple.",
+        "de": "Erstellen Sie Ihre eigenen Tracking-Tags für persönliche Gegenstände über das globale Suchnetzwerk von Apple."
+      },
+      "download_url": "https://owlink.org",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "http-server",
@@ -11812,6 +12176,34 @@
       },
       "download_url": "https://github.com/FormidableLabs/webpack-dashboard/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "macos-simple-kvm",
+      "name": "macOS-Simple-KVM",
+      "tagline": "Quick macOS VM on Linux",
+      "repo_url": "https://github.com/foxlet/macos-simple-kvm",
+      "full_name": "foxlet/macos-simple-kvm",
+      "category": "Productivity",
+      "tags": [
+        "productivity-utilities",
+        "virtualization"
+      ],
+      "icon": "/icons/macos-simple-kvm.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 13935,
+      "tier": "tier1_gui",
+      "summary": "Easily run macOS on Linux with a lightweight virtual machine.",
+      "i18n": {
+        "it": "Esegui macOS su Linux con una macchina virtuale leggera.",
+        "es": "Ejecuta macOS en Linux con una máquina virtual ligera.",
+        "fr": "Exécute macOS sur Linux avec une machine virtuelle légère.",
+        "de": "Führe macOS auf Linux mit einer leichten virtuellen Maschine aus."
+      },
+      "download_url": "https://github.com/foxlet/macOS-Simple-KVM/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "opensre",
@@ -12122,6 +12514,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "diffusionbee-stable-diffusion-ui",
+      "name": "DiffusionBee",
+      "tagline": "Create AI art locally on Mac",
+      "repo_url": "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui",
+      "full_name": "divamgupta/diffusionbee-stable-diffusion-ui",
+      "category": "Productivity",
+      "tags": [
+        "ai-art",
+        "mac-app"
+      ],
+      "icon": "/icons/diffusionbee-stable-diffusion-ui.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (AGPL v3)",
+      "stars": 13596,
+      "tier": "tier1_gui",
+      "summary": "Turn text descriptions into stunning images right on your computer without sending any data to the cloud.",
+      "i18n": {
+        "it": "Trasforma descrizioni testuali in immagini sbalorditive direttamente sul computer senza inviare dati sul cloud.",
+        "es": "Convierte descripciones de texto en imágenes increíbles directamente en tu computadora sin enviar datos a la nube.",
+        "fr": "Transformez du texte en images saisissantes directement sur votre ordinateur sans envoyer de données dans le cloud.",
+        "de": "Verwandle Textbeschreibungen direkt auf deinem Computer in beeindruckende Bilder, ohne Daten in die Cloud zu senden."
+      },
+      "download_url": "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui/releases/download/2.5.3/DiffusionBee_MPS_arm64-2.5.3.dmg",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "nexe",
       "name": "Nexe",
       "tagline": "Turn your programs into single files",
@@ -12206,6 +12626,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "cocoalumberjack",
+      "name": "CocoaLumberjack",
+      "tagline": "Lightning-fast flexible logging for Apple apps",
+      "repo_url": "https://github.com/cocoalumberjack/cocoalumberjack",
+      "full_name": "cocoalumberjack/cocoalumberjack",
+      "category": "Productivity",
+      "tags": [
+        "logging",
+        "ios"
+      ],
+      "icon": "/icons/cocoalumberjack.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (BSD)",
+      "stars": 13325,
+      "tier": "tier1_gui",
+      "summary": "Capture and manage application activity easily across all Apple devices with a fast, highly customizable logging framework.",
+      "i18n": {
+        "it": "Cattura e gestisci facilmente le attività delle tue app su tutti i dispositivi Apple con un sistema di log veloce e flessibile.",
+        "es": "Captura y gestiona fácilmente la actividad de las aplicaciones en dispositivos Apple con un potente sistema de registro de datos.",
+        "fr": "Capturez et gérez facilement l'activité des applications sur tous vos appareils Apple grâce à un outil de journalisation puissant.",
+        "de": "Erfassen und verwalten Sie App-Aktivitäten auf allen Apple-Geräten mühelos mit einem schnellen und anpassbaren Protokollsystem."
+      },
+      "download_url": "https://cocoalumberjack.github.io",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "ariang",
       "name": "AriaNg",
       "tagline": "A modern interface for managing downloads",
@@ -12232,6 +12680,34 @@
       },
       "download_url": "https://ariang.mayswind.net",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "fluidvoice",
+      "name": "FluidVoice",
+      "tagline": "Private voice dictation and local AI transcription.",
+      "repo_url": "https://github.com/altic-dev/fluidvoice",
+      "full_name": "altic-dev/fluidvoice",
+      "category": "Productivity",
+      "tags": [
+        "dictation",
+        "speech-to-text"
+      ],
+      "icon": "/icons/fluidvoice.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 13211,
+      "tier": "tier1_gui",
+      "summary": "Transform spoken words into clean text instantly right on your device using private local speech recognition.",
+      "i18n": {
+        "it": "Trascrivi la voce in testo pulito istantaneamente sul tuo computer usando il riconoscimento vocale locale.",
+        "es": "Transforma palabras habladas en texto limpio al instante en tu dispositivo con reconocimiento de voz local.",
+        "fr": "Transformez vos mots parlés en texte propre instantanément sur votre appareil grâce à la reconnaissance vocale.",
+        "de": "Wandeln Sie gesprochene Worte sofort direkt auf Ihrem Gerät mit lokalem Spracherkennungsschutz in Text um."
+      },
+      "download_url": "https://github.com/altic-dev/FluidVoice/releases/download/v1.6.13/Fluid-oss-1.6.13.dmg",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "broot",
@@ -12682,6 +13158,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "sketchybar",
+      "name": "SketchyBar",
+      "tagline": "Build a completely customized Mac status bar.",
+      "repo_url": "https://github.com/felixkratz/sketchybar",
+      "full_name": "felixkratz/sketchybar",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "customization"
+      ],
+      "icon": "/icons/sketchybar.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 12641,
+      "tier": "tier1_gui",
+      "summary": "Transform your Mac's top menu area into a fully custom, scriptable command center with animations and custom widgets.",
+      "i18n": {
+        "it": "Trasforma la barra superiore del tuo Mac in un centro di controllo personalizzato con animazioni e widget.",
+        "es": "Transforma la barra superior de tu Mac en un centro de control personalizado con animaciones y widgets.",
+        "fr": "Transformez la barre supérieure de votre Mac en un centre de contrôle personnalisé avec des animations.",
+        "de": "Verwandle die obere Leiste deines Macs in ein maßgeschneidertes Kontrollzentrum mit Animationen und Widgets."
+      },
+      "download_url": "https://felixkratz.github.io/SketchyBar/",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "umbrel",
       "name": "umbrelOS",
       "tagline": "Your own private home server operating system.",
@@ -12764,6 +13268,34 @@
       },
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "mas",
+      "name": "mas",
+      "tagline": "Manage Mac apps from terminal easily",
+      "repo_url": "https://github.com/mas-cli/mas",
+      "full_name": "mas-cli/mas",
+      "category": "Productivity",
+      "tags": [
+        "system-utility",
+        "macos"
+      ],
+      "icon": "/icons/mas.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 12441,
+      "tier": "tier1_gui",
+      "summary": "Control your Mac software collection directly from your command line tool.",
+      "i18n": {
+        "it": "Controlla i tuoi programmi Mac direttamente dalla riga di comando.",
+        "es": "Controla tu colección de software de Mac directamente desde la línea de comandos.",
+        "fr": "Contrôlez vos logiciels Mac directement depuis la ligne de commande.",
+        "de": "Steuern Sie Ihre Mac-Software direkt über die Befehlszeile."
+      },
+      "download_url": "https://github.com/mas-cli/mas/releases/download/v7.0.0/mas-7.0.0-arm64.pkg",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "escrcpy",
@@ -13072,6 +13604,34 @@
       },
       "download_url": "https://github.com/CursorTouch/Windows-MCP/releases/download/v0.9.0/windows_mcp-0.9.0-py3-none-any.whl",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "loop",
+      "name": "Loop",
+      "tagline": "Elegant window management for macOS",
+      "repo_url": "https://github.com/mrkai77/loop",
+      "full_name": "mrkai77/loop",
+      "category": "Productivity",
+      "tags": [
+        "macos",
+        "window-management"
+      ],
+      "icon": "/icons/loop.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 12014,
+      "tier": "tier1_gui",
+      "summary": "Take full control of your desktop windows using a handy radial menu, quick keyboard shortcuts, or mouse gestures on macOS.",
+      "i18n": {
+        "it": "Prendi il controllo delle finestre del desktop con un comodo menu radiale, scorciatoie da tastiera o gesti del mouse su macOS.",
+        "es": "Toma el control total de tus ventanas de escritorio usando un menú radial, atajos de teclado o gestos en macOS.",
+        "fr": "Prenez le contrôle de vos fenêtres de bureau à l'aide d'un menu radial pratique, de raccourcis clavier ou de gestes.",
+        "de": "Übernehmen Sie die Kontrolle über Ihre Desktop-Fenster mit einem radialen Menü, Tastenkombinationen oder Mausgesten."
+      },
+      "download_url": "https://github.com/mrkai77/Loop/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "libevent",
@@ -13634,6 +14194,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "audiokit",
+      "name": "AudioKit",
+      "tagline": "Create sound and music apps easily",
+      "repo_url": "https://github.com/audiokit/audiokit",
+      "full_name": "audiokit/audiokit",
+      "category": "Video & Audio",
+      "tags": [
+        "audio",
+        "sound"
+      ],
+      "icon": "/icons/audiokit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 11508,
+      "tier": "tier1_gui",
+      "summary": "An open-source toolkit for adding custom sound generation, audio filters, and real-time analysis to mobile and desktop software.",
+      "i18n": {
+        "it": "Un kit di strumenti open source per aggiungere generazione di suoni personalizzati e analisi audio in tempo reale alle tue app.",
+        "es": "Un conjunto de herramientas de código abierto para añadir generación de sonido personalizada y análisis de audio a tu software.",
+        "fr": "Un ensemble d'outils open source pour ajouter de la génération sonore personnalisée et de l'analyse audio à vos logiciels.",
+        "de": "Ein Open-Source-Toolkit zum Hinzufügen von benutzerdefinierter Klangerzeugung und Echtzeit-Audioanalyse zu deinen Apps."
+      },
+      "download_url": "https://audiokit.io",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "listen1-desktop",
       "name": "listen1_desktop",
       "tagline": "Search and play music across platforms",
@@ -13884,6 +14472,34 @@
       },
       "download_url": "https://github.com/blinkospace/blinko/releases/download/1.8.9/Blinko_1.8.9_x64-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "ss-rule-snippet",
+      "name": "SS-Rule-Snippet",
+      "tagline": "Streamline your network traffic rules effortlessly.",
+      "repo_url": "https://github.com/hackl0us/ss-rule-snippet",
+      "full_name": "hackl0us/ss-rule-snippet",
+      "category": "Productivity",
+      "tags": [
+        "networking",
+        "configuration"
+      ],
+      "icon": "/icons/ss-rule-snippet.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS",
+      "license": "Open Source (AGPL v3)",
+      "stars": 11203,
+      "tier": "tier1_gui",
+      "summary": "SS-Rule-Snippet offers carefully curated, lightweight network routing rules for popular traffic management tools, helping your devices run smoothly and efficiently.",
+      "i18n": {
+        "it": "SS-Rule-Snippet offre regole di instradamento di rete leggere e curate per strumenti popolari, aiutando i tuoi dispositivi a funzionare al meglio.",
+        "es": "SS-Rule-Snippet ofrece reglas de enrutamiento de red ligeras y curadas para herramientas populares, ayudando a que tus dispositivos funcionen sin problemas.",
+        "fr": "SS-Rule-Snippet propose des règles de routage réseau légères et soignées pour des outils populaires, garantissant un fonctionnement fluide.",
+        "de": "SS-Rule-Snippet bietet sorgfältig kuratierte, schlanke Netzwerk-Routing-Regeln für beliebte Tools, damit Ihre Geräte reibungslos funktionieren."
+      },
+      "download_url": "https://t.me/AppleNuts",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "vidbee",
@@ -14585,6 +15201,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "iringo",
+      "name": "iRingo",
+      "tagline": "Unlock full Apple features and services.",
+      "repo_url": "https://github.com/nsringo/iringo",
+      "full_name": "nsringo/iringo",
+      "category": "Productivity",
+      "tags": [
+        "apple",
+        "utilities"
+      ],
+      "icon": "/icons/iringo.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 10662,
+      "tier": "tier1_gui",
+      "summary": "Unlock complete Apple system capabilities and regional integrated services across your everyday devices.",
+      "i18n": {
+        "it": "Sblocca le piene capacità dei sistemi Apple e i servizi integrati su tutti i tuoi dispositivi quotidiani.",
+        "es": "Desbloquea todas las capacidades del sistema Apple y los servicios integrados en tus dispositivos.",
+        "fr": "Débloquez l'intégralité des fonctionnalités des systèmes Apple et des services intégrés au quotidien.",
+        "de": "Schalte die vollen Apple-Systemfunktionen und integrierten Dienste auf deinen Geräten frei."
+      },
+      "download_url": "https://NSRingo.github.io",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "httpx",
       "name": "httpx",
       "tagline": "Fast and flexible web server toolkit",
@@ -14751,6 +15395,34 @@
       },
       "download_url": "https://github.com/crmne/spotifast/releases/download/v0.17.2/spotifast-v0.17.2-aarch64-pc-windows-msvc.msi",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "netnewswire",
+      "name": "NetNewsWire",
+      "tagline": "Clean and fast news reader for Apple devices",
+      "repo_url": "https://github.com/ranchero-software/netnewswire",
+      "full_name": "ranchero-software/netnewswire",
+      "category": "Productivity",
+      "tags": [
+        "rss",
+        "news"
+      ],
+      "icon": "/icons/netnewswire.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 10557,
+      "tier": "tier1_gui",
+      "summary": "Stay updated with your favorite blogs, news sites, and journals in one clean, distraction-free app designed specifically for Mac and iPhone.",
+      "i18n": {
+        "it": "Rimani aggiornato sui tuoi siti e blog preferiti in un'unica applicazione pulita e senza distrazioni creata per Mac e iPhone.",
+        "es": "Mantente al día con tus blogs y sitios de noticias favoritos en una aplicación limpia y sin distracciones diseñada para Mac y iPhone.",
+        "fr": "Restez informé de vos blogs et sites d'actualités préférés grâce à une application épurée et sans distractions pour Mac et iPhone.",
+        "de": "Bleiben Sie mit Ihren Lieblings-Blogs und Nachrichtenseiten auf dem Laufenden in einer übersichtlichen App für Mac und iPhone."
+      },
+      "download_url": "https://netnewswire.com/",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "qrcp",
@@ -15003,6 +15675,34 @@
       },
       "download_url": "https://github.com/makecindy/cindy/releases/download/v0.1.143/cindy-0.1.143-win32-x64-cn.exe",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "webkit",
+      "name": "WebKit",
+      "tagline": "The powerhouse engine behind popular web browsing.",
+      "repo_url": "https://github.com/webkit/webkit",
+      "full_name": "webkit/webkit",
+      "category": "Productivity",
+      "tags": [
+        "browser",
+        "engine"
+      ],
+      "icon": "/icons/webkit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Custom Open License",
+      "stars": 10373,
+      "tier": "tier1_gui",
+      "summary": "WebKit is a cross-platform web browser engine that powers Safari and many other everyday applications across your devices.",
+      "i18n": {
+        "it": "WebKit è un motore per browser web multipiattaforma che alimenta Safari e molte altre applicazioni quotidiane.",
+        "es": "WebKit es un motor de navegador web multiplataforma que impulsa Safari y muchas otras aplicaciones cotidianas.",
+        "fr": "WebKit est un moteur de navigateur web multiplateforme qui alimente Safari et de nombreuses applications quotidiennes.",
+        "de": "WebKit ist eine plattformübergreifende Browser-Engine, die Safari und viele andere alltägliche Anwendungen antreibt."
+      },
+      "download_url": "https://github.com/WebKit/WebKit/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "dashbeam",
