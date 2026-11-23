@@ -2,27 +2,27 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-23T22:51:14.740956+00:00",
-  "total_apps": 1800,
+  "generated_at": "2026-11-23T23:02:40.210782+00:00",
+  "total_apps": 1825,
   "tier_counts": {
     "tier3_powertool": 239,
-    "tier2_webapp": 530,
-    "tier1_gui": 1031
+    "tier2_webapp": 543,
+    "tier1_gui": 1043
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 229,
-    "selfhosted": 529,
-    "desktop": 1031,
+    "selfhosted": 542,
+    "desktop": 1043,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 38,
-    "Productivity": 887,
-    "Security & Privacy": 46,
+    "Productivity": 898,
+    "Security & Privacy": 47,
     "Utilities & Power Tools": 230,
     "Video & Audio": 92,
-    "Web Apps & Cloud": 505,
+    "Web Apps & Cloud": 518,
     "Websites & SEO": 2
   },
   "apps": [
@@ -14782,6 +14782,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "prismlauncher",
+      "name": "PrismLauncher",
+      "tagline": "Manage all your Minecraft versions easily",
+      "repo_url": "https://github.com/prismlauncher/prismlauncher",
+      "full_name": "prismlauncher/prismlauncher",
+      "category": "Productivity",
+      "tags": [
+        "gaming",
+        "utility"
+      ],
+      "icon": "/icons/prismlauncher.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 11201,
+      "tier": "tier1_gui",
+      "summary": "PrismLauncher is a simple tool that lets you organize and run multiple versions of Minecraft from one convenient dashboard.",
+      "i18n": {
+        "it": "PrismLauncher è uno strumento semplice per organizzare ed eseguire diverse versioni di Minecraft da un'unica comoda interfaccia.",
+        "es": "PrismLauncher es una herramienta sencilla que te permite organizar y ejecutar múltiples versiones de Minecraft desde un solo panel.",
+        "fr": "PrismLauncher est un outil simple qui vous permet d'organiser et de lancer plusieurs versions de Minecraft depuis un tableau de bord unique.",
+        "de": "PrismLauncher ist ein einfaches Werkzeug, mit dem Sie mehrere Minecraft-Versionen von einem praktischen Dashboard aus verwalten können."
+      },
+      "download_url": "https://github.com/PrismLauncher/PrismLauncher/releases/download/11.1.1/PrismLauncher-Windows-MinGW-arm64-Setup-11.1.1.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "vidbee",
       "name": "VidBee",
       "tagline": "Download, transcribe, and organize your media.",
@@ -15143,6 +15171,34 @@
       },
       "download_url": "https://proton-native.js.org",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "spotifyd",
+      "name": "spotifyd",
+      "tagline": "Lightweight Spotify for any device",
+      "repo_url": "https://github.com/spotifyd/spotifyd",
+      "full_name": "spotifyd/spotifyd",
+      "category": "Productivity",
+      "tags": [
+        "music",
+        "streaming"
+      ],
+      "icon": "/icons/spotifyd.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 10844,
+      "tier": "tier1_gui",
+      "summary": "Spotifyd is a free, lightweight tool that lets you stream Spotify music on any computer or server.",
+      "i18n": {
+        "it": "Spotifyd è uno strumento gratuito e leggero che ti permette di trasmettere musica Spotify su qualsiasi computer o server.",
+        "es": "Spotifyd es una herramienta gratuita y ligera que te permite reproducir música de Spotify en cualquier computadora o servidor.",
+        "fr": "Spotifyd est un outil gratuit et léger qui vous permet de diffuser la musique Spotify sur n'importe quel ordinateur ou serveur.",
+        "de": "Spotifyd ist ein kostenloses, leichtgewichtiges Tool, mit dem Sie Spotify-Musik auf jedem Computer oder Server abspielen können."
+      },
+      "download_url": "https://github.com/Spotifyd/spotifyd/releases/download/v0.4.2/spotifyd-linux-aarch64-default.sha512",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "qt",
@@ -17777,6 +17833,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "appimagekit",
+      "name": "AppImageKit",
+      "tagline": "Portable Linux apps in one file",
+      "repo_url": "https://github.com/appimage/appimagekit",
+      "full_name": "appimage/appimagekit",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "packaging"
+      ],
+      "icon": "/icons/appimagekit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Custom Open License",
+      "stars": 9469,
+      "tier": "tier1_gui",
+      "summary": "AppImageKit helps developers bundle desktop applications into single, portable files that run on most Linux systems without installation.",
+      "i18n": {
+        "it": "AppImageKit aiuta gli sviluppatori a creare file portatili per app desktop che funzionano su Linux senza installazione.",
+        "es": "AppImageKit ayuda a los desarrolladores a empaquetar aplicaciones de escritorio en archivos portátiles que funcionan en Linux sin instalación.",
+        "fr": "AppImageKit aide les développeurs à emballer des applications de bureau en fichiers portables qui fonctionnent sur Linux sans installation.",
+        "de": "AppImageKit hilft Entwicklern, Desktop-Anwendungen in portable Dateien zu verpacken, die auf Linux ohne Installation laufen."
+      },
+      "download_url": "https://github.com/AppImage/AppImageKit/releases/download/13/obsolete-appimagetool-aarch64.AppImage",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "git-credential-manager",
       "name": "Git Credential Manager",
       "tagline": "Securely manage your code hosting logins",
@@ -19737,6 +19821,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "linuxkit",
+      "name": "LinuxKit",
+      "tagline": "Build secure, minimal Linux systems",
+      "repo_url": "https://github.com/linuxkit/linuxkit",
+      "full_name": "linuxkit/linuxkit",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "containers"
+      ],
+      "icon": "/icons/linuxkit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 8674,
+      "tier": "tier1_gui",
+      "summary": "LinuxKit is a free toolkit that helps you create small, secure, and unchangeable operating systems designed specifically for running containerized applications.",
+      "i18n": {
+        "it": "LinuxKit è un toolkit gratuito che aiuta a creare sistemi operativi piccoli, sicuri e immutabili, progettati specificamente per eseguire applicazioni containerizzate.",
+        "es": "LinuxKit es un kit de herramientas gratuito que ayuda a crear sistemas operativos pequeños, seguros e inmutables, diseñados específicamente para ejecutar aplicaciones contenerizadas.",
+        "fr": "LinuxKit est un kit d'outils gratuit qui aide à créer des systèmes d'exploitation petits, sûrs et immuables, conçus spécifiquement pour exécuter des applications conteneurisées.",
+        "de": "LinuxKit ist ein kostenloses Werkzeugset, das bei der Erstellung kleiner, sicherer und unveränderlicher Betriebssysteme hilft, die speziell für Container-Anwendungen entwickelt wurden."
+      },
+      "download_url": "https://github.com/linuxkit/linuxkit/releases/download/v1.8.2/linuxkit-windows-amd64.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "oatpp",
       "name": "Oat++",
       "tagline": "Lightweight C++ tools for web services",
@@ -19847,6 +19959,34 @@
       },
       "download_url": "https://framework.tds.qq.com/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "archinstall",
+      "name": "archinstall",
+      "tagline": "Guided setup for Arch Linux systems",
+      "repo_url": "https://github.com/archlinux/archinstall",
+      "full_name": "archlinux/archinstall",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "system-tools"
+      ],
+      "icon": "/icons/archinstall.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 8549,
+      "tier": "tier1_gui",
+      "summary": "Archinstall provides a friendly, guided way to set up your computer with Arch Linux, helping you manage your system settings and software easily.",
+      "i18n": {
+        "it": "Archinstall offre un modo semplice e guidato per configurare il tuo computer con Arch Linux, gestendo impostazioni e software in pochi passaggi.",
+        "es": "Archinstall ofrece una forma sencilla y guiada de configurar tu ordenador con Arch Linux, ayudándote a gestionar ajustes y programas fácilmente.",
+        "fr": "Archinstall propose un moyen simple et guidé d'installer Arch Linux sur votre ordinateur, facilitant la gestion de vos réglages et logiciels.",
+        "de": "Archinstall bietet eine benutzerfreundliche, geführte Methode zur Einrichtung von Arch Linux und hilft bei der Verwaltung von System und Software."
+      },
+      "download_url": "https://github.com/archlinux/archinstall/releases/download/4.5/archinstall-4.5.tar.gz.sig",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "nb",
@@ -20939,6 +21079,34 @@
       },
       "download_url": "https://github.com/maharmstone/btrfs/releases",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "howdy",
+      "name": "Howdy",
+      "tagline": "Log into Linux with your face",
+      "repo_url": "https://github.com/boltgolt/howdy",
+      "full_name": "boltgolt/howdy",
+      "category": "Productivity",
+      "tags": [
+        "facial-recognition",
+        "security"
+      ],
+      "icon": "/icons/howdy.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (MIT)",
+      "stars": 7889,
+      "tier": "tier1_gui",
+      "summary": "Unlock your Linux computer and approve administrative actions using facial recognition just like modern smartphones.",
+      "i18n": {
+        "it": "Sblocca il tuo computer Linux e approva le azioni amministrative usando il riconoscimento facciale.",
+        "es": "Desbloquea tu ordenador Linux y aprueba acciones administrativas utilizando reconocimiento facial.",
+        "fr": "Déverrouillez votre ordinateur Linux et approuvez les actions administratives par reconnaissance faciale.",
+        "de": "Entsperren Sie Ihren Linux-Computer und genehmigen Sie administrative Aktionen per Gesichtserkennung."
+      },
+      "download_url": "https://github.com/boltgolt/howdy/releases/download/v3.0.2/howdy-gtk_1.0.1_all.deb",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "ods",
@@ -23963,6 +24131,34 @@
       },
       "download_url": "https://github.com/cppcheck-opensource/cppcheck/releases/download/2.22.0/cppcheck-2.22.0-x64-Setup.msi",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "xrdp",
+      "name": "xrdp",
+      "tagline": "Secure remote Linux desktop access",
+      "repo_url": "https://github.com/neutrinolabs/xrdp",
+      "full_name": "neutrinolabs/xrdp",
+      "category": "Productivity",
+      "tags": [
+        "remote-desktop",
+        "linux"
+      ],
+      "icon": "/icons/xrdp.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 6791,
+      "tier": "tier1_gui",
+      "summary": "xrdp lets you securely connect to a Linux computer's graphical interface from any device using standard remote desktop tools.",
+      "i18n": {
+        "it": "xrdp ti permette di collegarti in modo sicuro all'interfaccia grafica di un computer Linux da qualsiasi dispositivo.",
+        "es": "xrdp te permite conectar de forma segura a la interfaz gráfica de un ordenador Linux desde cualquier dispositivo.",
+        "fr": "xrdp vous permet de vous connecter en toute sécurité à l'interface graphique d'un ordinateur Linux depuis n'importe quel appareil.",
+        "de": "xrdp ermöglicht es Ihnen, sich sicher an die grafische Oberfläche eines Linux-Computers von jedem Gerät aus zu verbinden."
+      },
+      "download_url": "https://github.com/neutrinolabs/xrdp/releases/download/v0.10.6.1/xrdp-0.10.6.1.tar.gz.asc",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "ytmdesktop",
@@ -29618,6 +29814,34 @@
       },
       "download_url": "https://code.wequick.net/Small",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "sparkleshare",
+      "name": "SparkleShare",
+      "tagline": "Private file syncing on your terms",
+      "repo_url": "https://github.com/hbons/sparkleshare",
+      "full_name": "hbons/sparkleshare",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "file-sync"
+      ],
+      "icon": "/icons/sparkleshare.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 5007,
+      "tier": "tier1_gui",
+      "summary": "SparkleShare lets you sync files across your devices using your own private storage instead of relying on big commercial cloud services.",
+      "i18n": {
+        "it": "SparkleShare ti permette di sincronizzare i file tra i tuoi dispositivi usando il tuo spazio di archiviazione privato.",
+        "es": "SparkleShare permite sincronizar archivos entre tus dispositivos utilizando tu propio almacenamiento privado.",
+        "fr": "SparkleShare vous permet de synchroniser vos fichiers entre vos appareils en utilisant votre propre stockage privé.",
+        "de": "SparkleShare ermöglicht die Synchronisierung von Dateien zwischen Ihren Geräten über Ihren eigenen privaten Speicher."
+      },
+      "download_url": "https://sparkleshare.org",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "anymodelbot",
@@ -38803,6 +39027,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "oneanime",
+      "name": "oneAnime",
+      "tagline": "Clean and modern anime viewing client",
+      "repo_url": "https://github.com/predidit/oneanime",
+      "full_name": "predidit/oneanime",
+      "category": "Productivity",
+      "tags": [
+        "anime",
+        "media-player"
+      ],
+      "icon": "/icons/oneanime.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 2158,
+      "tier": "tier1_gui",
+      "summary": "Enjoy your favorite Japanese animated series completely ad-free with community comments and modern design.",
+      "i18n": {
+        "it": "Goditi le tue serie animate preferite senza pubblicità, con commenti della community e un design moderno.",
+        "es": "Disfruta de tus series animadas favoritas sin anuncios, con comentarios de la comunidad y diseño moderno.",
+        "fr": "Profitez de vos séries animées préférées sans publicité, avec des commentaires et un design moderne.",
+        "de": "Genieße deine Lieblings-Anime-Serien völlig werbefrei mit Community-Kommentaren und modernem Design."
+      },
+      "download_url": "https://github.com/Predidit/oneAnime/releases/download/1.4.7/oneAnime_macos_1.4.7.dmg",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "omnibot",
       "name": "OmniBot",
       "tagline": "Your on-phone mobile artificial intelligence assistant",
@@ -40427,6 +40679,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "archlinuxtutorial",
+      "name": "ArchLinuxTutorial",
+      "tagline": "Complete Arch Linux guide",
+      "repo_url": "https://github.com/archlinuxstudio/archlinuxtutorial",
+      "full_name": "archlinuxstudio/archlinuxtutorial",
+      "category": "Security & Privacy",
+      "tags": [
+        "linux",
+        "tutorial"
+      ],
+      "icon": "/icons/archlinuxtutorial.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Custom Open License",
+      "stars": 1915,
+      "tier": "tier1_gui",
+      "summary": "A free, community-driven online tutorial that walks you through installing and using Arch Linux for daily tasks, media, and coding.",
+      "i18n": {
+        "it": "Un tutorial online gratuito e guidato dalla comunità che ti accompagna nell'installazione e nell'uso di Arch Linux per attività quotidiane, media e programmazione.",
+        "es": "Un tutorial en línea gratuito y comunitario que te guía en la instalación y el uso de Arch Linux para tareas diarias, medios y programación.",
+        "fr": "Un tutoriel en ligne gratuit et communautaire qui vous guide dans l'installation et l'utilisation d'Arch Linux pour les tâches quotidiennes, les médias et le code.",
+        "de": "Ein kostenloser, community-gestützter Online-Tutorial, der Sie durch die Installation und Nutzung von Arch Linux für tägliche Aufgaben, Medien und Programmierung führt."
+      },
+      "download_url": "https://ArchLinuxStudio.github.io/ArchLinuxTutorial/#/",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "starnet",
       "name": "starnet",
       "tagline": "Live pixel-art station for AI agents",
@@ -40873,6 +41153,62 @@
       },
       "download_url": "https://www.smartstore.com/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "zapzap",
+      "name": "zapzap",
+      "tagline": "Your desktop companion for WhatsApp messaging",
+      "repo_url": "https://github.com/rafatosta/zapzap",
+      "full_name": "rafatosta/zapzap",
+      "category": "Productivity",
+      "tags": [
+        "messaging",
+        "desktop"
+      ],
+      "icon": "/icons/zapzap.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 1733,
+      "tier": "tier1_gui",
+      "summary": "ZapZap lets you run WhatsApp comfortably on your desktop with multi-account support, custom themes, and reliable system notifications.",
+      "i18n": {
+        "it": "ZapZap ti permette di usare WhatsApp sul computer con più account, temi personalizzati e notifiche di sistema affidabili.",
+        "es": "ZapZap te permite usar WhatsApp en tu ordenador con múltiples cuentas, temas personalizados y notificaciones confiables.",
+        "fr": "ZapZap vous permet d'utiliser WhatsApp sur votre bureau avec plusieurs comptes et des notifications système fiables.",
+        "de": "ZapZap bringt WhatsApp auf Ihren Desktop mit Unterstützung für mehrere Konten und zuverlässigen Systembenachrichtigungen."
+      },
+      "download_url": "https://github.com/rafatosta/zapzap/releases/download/7.5.1/ZapZap-7.5.1-windows-arm64.exe",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "dsnote",
+      "name": "dsnote",
+      "tagline": "Offline voice notes and translations.",
+      "repo_url": "https://github.com/mkiol/dsnote",
+      "full_name": "mkiol/dsnote",
+      "category": "Productivity",
+      "tags": [
+        "voice-to-text",
+        "speech-recognition"
+      ],
+      "icon": "/icons/dsnote.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 1721,
+      "tier": "tier1_gui",
+      "summary": "Convert speech to text, read text aloud, and translate languages locally on your Linux or Sailfish device without internet.",
+      "i18n": {
+        "it": "Converti voce in testo, leggi ad alta voce e traduci lingue localmente sul tuo dispositivo Linux senza internet.",
+        "es": "Convierte voz a texto, lee en voz alta y traduce idiomas localmente en tu dispositivo Linux sin internet.",
+        "fr": "Convertissez la voix en texte, lisez à haute voix et traduisez des langues localement sur Linux sans internet.",
+        "de": "Wandeln Sie Sprache in Text um, lesen Sie laut vor und übersetzen Sie Sprachen lokal auf Linux ohne Internet."
+      },
+      "download_url": "https://github.com/mkiol/dsnote/releases",
+      "updated_at": "2026-11-23"
     },
     {
       "slug": "jquery-querybuilder",
@@ -50339,6 +50675,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "graphql-auto-generating-cms",
+      "name": "graphql-auto-generating-cms",
+      "tagline": "Instant CMS from your data structure",
+      "repo_url": "https://github.com/sarkistlt/graphql-auto-generating-cms",
+      "full_name": "sarkistlt/graphql-auto-generating-cms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "web-development"
+      ],
+      "icon": "/icons/graphql-auto-generating-cms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 376,
+      "tier": "tier2_webapp",
+      "summary": "This tool creates a ready-to-use content management interface by reading your existing data structure.",
+      "i18n": {
+        "it": "Questo strumento crea un'interfaccia di gestione dei contenuti pronta all'uso leggendo la tua struttura dati esistente.",
+        "es": "Esta herramienta crea una interfaz de gestión de contenido lista para usar al leer tu estructura de datos existente.",
+        "fr": "Cet outil crée une interface de gestion de contenu prête à l'emploi en lisant votre structure de données existante.",
+        "de": "Dieses Tool erstellt eine sofort einsatzbereite Inhaltsverwaltungsoberfläche, indem es Ihre vorhandene Datenstruktur liest."
+      },
+      "download_url": "https://github.com/sarkistlt/graphql-auto-generating-cms/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
       "slug": "comcms-core",
       "name": "comcms_core",
       "tagline": "Modern enterprise website content management system",
@@ -50364,6 +50728,342 @@
         "de": "Verwalten Sie Firmen-Websites, veröffentlichen Sie Artikel und steuern Sie digitale Inhalte sicher."
       },
       "download_url": "https://github.com/hogenwang/comcms_core/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "scipio-erp",
+      "name": "Scipio ERP",
+      "tagline": "Scalable toolkit for modern business applications",
+      "repo_url": "https://github.com/ilscipio/scipio-erp",
+      "full_name": "ilscipio/scipio-erp",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ecommerce",
+        "business"
+      ],
+      "icon": "/icons/scipio-erp.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 371,
+      "tier": "tier2_webapp",
+      "summary": "Scipio ERP is a comprehensive platform designed to help businesses manage online stores, inventory, and internal operations in one place.",
+      "i18n": {
+        "it": "Scipio ERP è una piattaforma completa per gestire negozi online, magazzino e operazioni aziendali in un unico sistema flessibile.",
+        "es": "Scipio ERP es una plataforma integral para gestionar tiendas online, inventario y operaciones internas en un solo sistema personalizable.",
+        "fr": "Scipio ERP est une plateforme complète pour gérer les boutiques en ligne, les stocks et les opérations internes dans un système unique.",
+        "de": "Scipio ERP ist eine umfassende Plattform zur Verwaltung von Online-Shops, Lagerbeständen und Betriebsabläufen in einem flexiblen System."
+      },
+      "download_url": "https://www.scipioerp.com",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "roadiz",
+      "name": "Roadiz",
+      "tagline": "Modern polymorphic content management system.",
+      "repo_url": "https://github.com/roadiz/roadiz",
+      "full_name": "roadiz/roadiz",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "publishing"
+      ],
+      "icon": "/icons/roadiz.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 368,
+      "tier": "tier2_webapp",
+      "summary": "Roadiz is a modern content management system based on a polymorphic node system that lets you build and manage dynamic websites with ease.",
+      "i18n": {
+        "it": "Roadiz è un moderno sistema di gestione dei contenuti basato su nodi flessibili che ti permette di creare siti web dinamici.",
+        "es": "Roadiz es un sistema moderno de gestión de contenidos basado en nodos flexibles que te permite crear sitios web dinámicos.",
+        "fr": "Roadiz est un système de gestion de contenu moderne basé sur des nœuds flexibles qui permet de créer des sites web dynamiques.",
+        "de": "Roadiz ist ein modernes Content-Management-System auf Basis flexibler Knoten, mit dem Sie dynamische Websites erstellen."
+      },
+      "download_url": "https://www.roadiz.io",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "thrivex-server",
+      "name": "ThriveX-Server",
+      "tagline": "Free, modern blog backend engine",
+      "repo_url": "https://github.com/liuyuyang01/thrivex-server",
+      "full_name": "liuyuyang01/thrivex-server",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "self-hosted"
+      ],
+      "icon": "/icons/thrivex-server.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 368,
+      "tier": "tier2_webapp",
+      "summary": "ThriveX-Server is a free, open-source backend system that powers modern personal blogs with fast performance and secure content management.",
+      "i18n": {
+        "it": "ThriveX-Server è un sistema backend open-source e gratuito che alimenta blog personali moderni con prestazioni rapide e gestione sicura dei contenuti.",
+        "es": "ThriveX-Server es un sistema de backend de código abierto y gratuito que impulsa blogs personales modernos con un rendimiento rápido y una gestión segura de contenido.",
+        "fr": "ThriveX-Server est un système backend open source et gratuit qui anime des blogs personnels modernes avec des performances rapides et une gestion sécurisée du contenu.",
+        "de": "ThriveX-Server ist ein kostenloses, quelloffenes Backend-System, das moderne persönliche Blogs mit schneller Leistung und sicherer Inhaltsverwaltung antreibt."
+      },
+      "download_url": "https://github.com/LiuYuYang01/ThriveX-Server/releases/download/4.0/blog.jar",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "asn1crypto",
+      "name": "asn1crypto",
+      "tagline": "Fast Python library for security structures.",
+      "repo_url": "https://github.com/wbond/asn1crypto",
+      "full_name": "wbond/asn1crypto",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "cryptography"
+      ],
+      "icon": "/icons/asn1crypto.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 364,
+      "tier": "tier2_webapp",
+      "summary": "Parse and read digital security credentials and certificates quickly and efficiently in Python.",
+      "i18n": {
+        "it": "Analizza e leggi credenziali di sicurezza digitali e certificati in modo rapido ed efficiente in Python.",
+        "es": "Analiza y lee credenciales de seguridad digitales y certificados de forma rápida y eficiente en Python.",
+        "fr": "Analysez et lisez rapidement des certificats et des identifiants de sécurité numériques en Python.",
+        "de": "Analysieren und lesen Sie digitale Sicherheitszertifikate schnell und effizient mit Python."
+      },
+      "download_url": "https://github.com/wbond/asn1crypto/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "storyden",
+      "name": "Storyden",
+      "tagline": "Modern secure platform for community forums",
+      "repo_url": "https://github.com/southclaws/storyden",
+      "full_name": "southclaws/storyden",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "forums",
+        "community"
+      ],
+      "icon": "/icons/storyden.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 350,
+      "tier": "tier2_webapp",
+      "summary": "Create vibrant online communities with a secure, modern platform that blends classic discussion forums, blogs, and knowledge bases.",
+      "i18n": {
+        "it": "Crea vivaci comunità online con una piattaforma moderna e sicura che unisce forum di discussione classici e basi di conoscenza.",
+        "es": "Crea comunidades en línea vibrantes con una plataforma moderna y segura que combina foros de discusión clásicos y bases de datos.",
+        "fr": "Créez des communautés en ligne dynamiques avec une plateforme moderne et sécurisée combinant forums de discussion et bases de connaissances.",
+        "de": "Erstellen Sie lebendige Online-Communitys mit einer sicheren, modernen Plattform, die klassische Diskussionsforen und Wikis verbindet."
+      },
+      "download_url": "https://www.storyden.org/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "laravel-admin-starter",
+      "name": "laravel-admin-starter",
+      "tagline": "Ready-made website admin dashboard",
+      "repo_url": "https://github.com/bpocallaghan/laravel-admin-starter",
+      "full_name": "bpocallaghan/laravel-admin-starter",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "admin-panel"
+      ],
+      "icon": "/icons/laravel-admin-starter.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 349,
+      "tier": "tier2_webapp",
+      "summary": "A free, open-source starting point for building website management panels with built-in user roles, content tools, and analytics.",
+      "i18n": {
+        "it": "Un punto di partenza gratuito e open source per creare pannelli di gestione web con ruoli utente, strumenti di contenuto e analisi integrate.",
+        "es": "Un punto de partida gratuito y de código abierto para crear paneles de gestión web con roles de usuario, herramientas de contenido y analíticas integradas.",
+        "fr": "Un point de départ gratuit et open source pour créer des panneaux de gestion web avec des rôles utilisateur, des outils de contenu et des analyses intégrées.",
+        "de": "Ein kostenloser Open-Source-Startpunkt für die Erstellung von Website-Verwaltungspanels mit Benutzerrollen, Inhaltstools und Analysen."
+      },
+      "download_url": "https://bpocallaghan.co.za",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "kooboo",
+      "name": "Kooboo",
+      "tagline": "All-in-one AI website builder",
+      "repo_url": "https://github.com/kooboo/kooboo",
+      "full_name": "kooboo/kooboo",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "website-builder",
+        "cms"
+      ],
+      "icon": "/icons/kooboo.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 345,
+      "tier": "tier2_webapp",
+      "summary": "Kooboo is a free, portable platform for building and running websites, online stores, and business apps with built-in AI assistance.",
+      "i18n": {
+        "it": "Kooboo è una piattaforma gratuita e portatile per creare e gestire siti web, negozi online e app aziendali con assistenza AI integrata.",
+        "es": "Kooboo es una plataforma gratuita y portable para crear y ejecutar sitios web, tiendas en línea y aplicaciones empresariales con asistencia de IA.",
+        "fr": "Kooboo est une plateforme gratuite et portable pour créer et exécuter des sites web, des boutiques en ligne et des applications d'entreprise avec une aide IA.",
+        "de": "Kooboo ist eine kostenlose, portierbare Plattform zum Erstellen und Betreiben von Websites, Online-Shops und Business-Apps mit KI-Unterstützung."
+      },
+      "download_url": "https://www.kooboo.com",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "easycms",
+      "name": "EasyCMS",
+      "tagline": "Fast, flexible website builder",
+      "repo_url": "https://github.com/aprilyush/easycms",
+      "full_name": "aprilyush/easycms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "web-development"
+      ],
+      "icon": "/icons/easycms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 336,
+      "tier": "tier2_webapp",
+      "summary": "EasyCMS is a free, open-source tool that helps you build and manage websites with articles, users, and permissions.",
+      "i18n": {
+        "it": "EasyCMS è uno strumento gratuito e open source per creare e gestire siti web con articoli e utenti.",
+        "es": "EasyCMS es una herramienta gratuita y de código abierto para crear y gestionar sitios web con artículos y usuarios.",
+        "fr": "EasyCMS est un outil gratuit et open source pour créer et gérer des sites web avec des articles et des utilisateurs.",
+        "de": "EasyCMS ist ein kostenloses Open-Source-Tool zum Erstellen und Verwalten von Websites mit Artikeln und Benutzern."
+      },
+      "download_url": "https://cms.atlass.cn/admin",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "jarves",
+      "name": "Jarves",
+      "tagline": "High-speed website management and creation",
+      "repo_url": "https://github.com/jarves/jarves",
+      "full_name": "jarves/jarves",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-publishing",
+        "cms"
+      ],
+      "icon": "/icons/jarves.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 335,
+      "tier": "tier2_webapp",
+      "summary": "Jarves is a powerful tool for building and managing websites with a focus on speed and ease of use.",
+      "i18n": {
+        "it": "Jarves è uno strumento per creare e gestire siti web in modo semplice e veloce.",
+        "es": "Jarves es una herramienta para crear y gestionar sitios web de forma rápida y sencilla.",
+        "fr": "Jarves est un outil pour créer et gérer des sites web rapidement.",
+        "de": "Jarves ist ein Werkzeug zur schnellen Erstellung und Verwaltung von Websites."
+      },
+      "download_url": "https://jarves.org",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "coisas",
+      "name": "coisas",
+      "tagline": "Simple web editor for GitHub files",
+      "repo_url": "https://github.com/fiatjaf/coisas",
+      "full_name": "fiatjaf/coisas",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "github"
+      ],
+      "icon": "/icons/coisas.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 333,
+      "tier": "tier2_webapp",
+      "summary": "A free, browser-based tool that lets you edit, create, and organize text files stored in your GitHub repository without needing to install any software.",
+      "i18n": {
+        "it": "Uno strumento gratuito basato sul browser che ti permette di modificare, creare e organizzare file di testo nel tuo repository GitHub senza installare software.",
+        "es": "Una herramienta gratuita basada en el navegador que te permite editar, crear y organizar archivos de texto en tu repositorio de GitHub sin instalar software.",
+        "fr": "Un outil gratuit basé sur le navigateur qui vous permet de modifier, créer et organiser des fichiers texte dans votre dépôt GitHub sans installer de logiciel.",
+        "de": "Ein kostenloses Browser-Tool, mit dem Sie Textdateien in Ihrem GitHub-Repository bearbeiten, erstellen und organisieren können, ohne Software zu installieren."
+      },
+      "download_url": "https://coisas.fiatjaf.com/",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "nebula",
+      "name": "Nebula",
+      "tagline": "Open-source broadcast automation",
+      "repo_url": "https://github.com/nebulabroadcast/nebula",
+      "full_name": "nebulabroadcast/nebula",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "broadcast-automation",
+        "media-management"
+      ],
+      "icon": "/icons/nebula.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 332,
+      "tier": "tier2_webapp",
+      "summary": "Nebula is a free, open-source system for managing media files and automating TV, radio, and video-on-demand broadcasts.",
+      "i18n": {
+        "it": "Nebula è un sistema open source gratuito per gestire i file multimediali e automatizzare le trasmissioni TV, radio e video on demand.",
+        "es": "Nebula es un sistema de código abierto gratuito para gestionar archivos multimedia y automatizar transmisiones de TV, radio y vídeo bajo demanda.",
+        "fr": "Nebula est un système open source gratuit pour gérer les fichiers multimédias et automatiser les diffusions TV, radio et vidéo à la demande.",
+        "de": "Nebula ist ein kostenloses Open-Source-System zur Verwaltung von Mediendateien und Automatisierung von TV-, Radio- und Video-on-Demand-Sendungen."
+      },
+      "download_url": "https://github.com/nebulabroadcast/nebula/releases",
+      "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "pico-286",
+      "name": "pico-286",
+      "tagline": "Run vintage PC games on microcontrollers.",
+      "repo_url": "https://github.com/xrip/pico-286",
+      "full_name": "xrip/pico-286",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "emulator",
+        "retro-computing"
+      ],
+      "icon": "/icons/pico-286.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 327,
+      "tier": "tier2_webapp",
+      "summary": "Emulate classic late-80s and early-90s personal computers directly on affordable microcontrollers and desktop operating systems.",
+      "i18n": {
+        "it": "Emula computer classici della fine degli anni '80 e inizio '90 direttamente su microcontrollori economici e sistemi desktop.",
+        "es": "Emula ordenadores clásicos de finales de los 80 y principios de los 90 directamente en microcontrolladores económicos y escritorios.",
+        "fr": "Émulez des ordinateurs classiques de la fin des années 80 et du début des 90 directement sur des microcontrôleurs et ordinateurs.",
+        "de": "Emuliere klassische PCs der späten 80er und frühen 90er Jahre direkt auf kostengünstigen Mikrocontrollern und Desktop-Systemen."
+      },
+      "download_url": "https://murmulator.ru/pico-xt",
       "updated_at": "2026-11-23"
     },
     {
