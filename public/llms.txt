@@ -11,36 +11,36 @@ Catalog Size: 1250 open-source tools (Tier 1 GUI: 670, Tier 2 Web/Self-Hosted: 3
 - [Full Plain-English Software Digest (RAG)](https://davanzokeoma.github.io/HubHum/llms-full.txt): Structured index of every app summarized by category
 - [OpenAPI 3.0 Spec](https://davanzokeoma.github.io/HubHum/api/openapi.yaml): OpenAPI definition for public HubHum endpoints ([Swagger JSON](https://davanzokeoma.github.io/HubHum/api/swagger.json))
 - [AI Plugin Manifest](https://davanzokeoma.github.io/HubHum/.well-known/ai-plugin.json): Standard agent discovery manifest
-- [Open JSON Catalog API](https://davanzokeoma.github.io/HubHum/api/catalog.json): Machine-readable metadata for all 1250 software cards
+- [Open JSON Catalog API](https://davanzokeoma.github.io/HubHum/api/catalog.json): Machine-readable metadata for all 1750 software cards
 - [Topic Clusters & Bundles JSON API](https://davanzokeoma.github.io/HubHum/api/clusters.json): Hierarchical topic guide tree and curated starter bundles
 - [RSS Feed](https://davanzokeoma.github.io/HubHum/feed.xml): Latest indexed software guides and category comparisons
 - [About & Editorial Transparency](https://davanzokeoma.github.io/HubHum/about/): Methodology, official link verification policy, and #ad isolation
 
 ## Topic Cluster Pillars (Main Guides)
-- [Video & Audio (70 apps)](https://davanzokeoma.github.io/HubHum/guides/video-audio/)
-  - [Video Cutters, Converters & Downloaders (18 apps)](https://davanzokeoma.github.io/HubHum/guides/video-audio/free-video-editors/)
-  - [Audio Editors & Music Players (41 apps)](https://davanzokeoma.github.io/HubHum/guides/video-audio/audio-media-players/)
-  - [Screen Recorders, Streaming & Media Players (11 apps)](https://davanzokeoma.github.io/HubHum/guides/video-audio/screen-recorders-streaming/)
+- [Video & Audio (93 apps)](https://davanzokeoma.github.io/HubHum/guides/video-audio/)
+  - [Video Cutters, Converters & Downloaders (24 apps)](https://davanzokeoma.github.io/HubHum/guides/video-audio/free-video-editors/)
+  - [Audio Editors & Music Players (54 apps)](https://davanzokeoma.github.io/HubHum/guides/video-audio/audio-media-players/)
+  - [Screen Recorders, Streaming & Media Players (15 apps)](https://davanzokeoma.github.io/HubHum/guides/video-audio/screen-recorders-streaming/)
 - [Graphics & Design (26 apps)](https://davanzokeoma.github.io/HubHum/guides/graphics-design/)
   - [Photo Optimizers, Galleries & Screen Capture (11 apps)](https://davanzokeoma.github.io/HubHum/guides/graphics-design/photo-image-tools/)
   - [3D Modeling & Visual Interface Studios (15 apps)](https://davanzokeoma.github.io/HubHum/guides/graphics-design/3d-visual-design-tools/)
-- [Security & Privacy (38 apps)](https://davanzokeoma.github.io/HubHum/guides/security-privacy/)
-  - [Free Password Managers & Auth Vaults (13 apps)](https://davanzokeoma.github.io/HubHum/guides/security-privacy/free-password-managers/)
-  - [Privacy Tools, VPNs & Network Monitors (19 apps)](https://davanzokeoma.github.io/HubHum/guides/security-privacy/password-network-privacy/)
-  - [Privacy Cleaners & System Auditors (6 apps)](https://davanzokeoma.github.io/HubHum/guides/security-privacy/system-cleaners-auditors/)
-- [Productivity (534 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/)
-  - [Encrypted Notes, Wikis & Knowledge Apps (110 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/notes-knowledge-apps/)
-  - [Free PDF, Document & E-Book Tools (70 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/pdf-document-office-tools/)
-  - [Window Switchers & Everyday Workflow Helpers (215 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/desktop-workflow-helpers/)
-  - [Local AI Assistants, LLM Studios & Chat Workspaces (139 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/ai-local-assistants-chat/)
-- [Web Apps & Cloud (351 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/)
-  - [Self-Hosted CMS, Blogs & Publishing Platforms (120 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/self-hosted-cms-blogs/)
-  - [Personal Cloud Hubs, Photos & File Sharing (61 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/self-hosted-cloud-apps/)
-  - [Server Dashboards, Monitoring & Cloud Panels (104 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/server-dashboards-automation/)
-  - [Home Lab Media Servers, E-Books & Streaming Hubs (66 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/home-lab-media-servers/)
-- [Utilities & Power Tools (230 apps)](https://davanzokeoma.github.io/HubHum/guides/utilities-power-tools/)
-  - [Modern Terminal Emulators & Fast File Finders (105 apps)](https://davanzokeoma.github.io/HubHum/guides/utilities-power-tools/modern-terminal-apps/)
-  - [Automation & System Power Utilities (125 apps)](https://davanzokeoma.github.io/HubHum/guides/utilities-power-tools/automation-power-utilities/)
+- [Security & Privacy (50 apps)](https://davanzokeoma.github.io/HubHum/guides/security-privacy/)
+  - [Free Password Managers & Auth Vaults (15 apps)](https://davanzokeoma.github.io/HubHum/guides/security-privacy/free-password-managers/)
+  - [Privacy Tools, VPNs & Network Monitors (28 apps)](https://davanzokeoma.github.io/HubHum/guides/security-privacy/password-network-privacy/)
+  - [Privacy Cleaners & System Auditors (7 apps)](https://davanzokeoma.github.io/HubHum/guides/security-privacy/system-cleaners-auditors/)
+- [Productivity (769 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/)
+  - [Encrypted Notes, Wikis & Knowledge Apps (140 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/notes-knowledge-apps/)
+  - [Free PDF, Document & E-Book Tools (95 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/pdf-document-office-tools/)
+  - [Window Switchers & Everyday Workflow Helpers (367 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/desktop-workflow-helpers/)
+  - [Local AI Assistants, LLM Studios & Chat Workspaces (167 apps)](https://davanzokeoma.github.io/HubHum/guides/productivity/ai-local-assistants-chat/)
+- [Web Apps & Cloud (503 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/)
+  - [Self-Hosted CMS, Blogs & Publishing Platforms (248 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/self-hosted-cms-blogs/)
+  - [Personal Cloud Hubs, Photos & File Sharing (70 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/self-hosted-cloud-apps/)
+  - [Server Dashboards, Monitoring & Cloud Panels (117 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/server-dashboards-automation/)
+  - [Home Lab Media Servers, E-Books & Streaming Hubs (68 apps)](https://davanzokeoma.github.io/HubHum/guides/web-apps-cloud/home-lab-media-servers/)
+- [Utilities & Power Tools (308 apps)](https://davanzokeoma.github.io/HubHum/guides/utilities-power-tools/)
+  - [Modern Terminal Emulators & Fast File Finders (144 apps)](https://davanzokeoma.github.io/HubHum/guides/utilities-power-tools/modern-terminal-apps/)
+  - [Automation & System Power Utilities (164 apps)](https://davanzokeoma.github.io/HubHum/guides/utilities-power-tools/automation-power-utilities/)
 
 ## Curated Software Bundles
 - [top-free-apps-this-week](https://davanzokeoma.github.io/HubHum/bundles/top-free-apps-this-week/)

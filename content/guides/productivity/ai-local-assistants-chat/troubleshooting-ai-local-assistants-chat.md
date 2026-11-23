@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/best-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat"]
-app_slugs: ["nextchat", "chatgpt", "kazumi", "codewhale", "etcher"]
-updated_at: "2026-11-22"
+app_slugs: ["nextchat", "chatgpt", "uni-app", "codewhale", "etcher"]
+updated_at: "2026-11-23"
 ---
 
 ## Fixing Common Problems with Free Local AI Assistants, LLM Studios & Chat Workspaces
@@ -32,6 +32,6 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 - **[NextChat](/HubHum/apps/nextchat/)** (Desktop App) — Easily converse with multiple artificial intelligence models in one clean interface without complex setup.
 - **[ChatGPT](/HubHum/apps/chatgpt/)** (Desktop App) — Access popular artificial intelligence assistants right from your computer desktop without opening a web browser.
-- **[Kazumi](/HubHum/apps/kazumi/)** (Desktop App) — Kazumi is a flexible streaming application that lets you organize, watch, and enhance your favorite animated series effortlessly.
+- **[uni-app](/HubHum/apps/uni-app/)** (Desktop App) — Create native mobile, web, and mini-programs using a single unified codebase and familiar language syntax.
 - **[Codewhale](/HubHum/apps/codewhale/)** (Desktop App) — An open-source terminal coding assistant that works with any model, splits tasks across multiple agents, and keeps your data completely transparent.
 - **[etcher](/HubHum/apps/etcher/)** (Desktop App) — Etcher is a straightforward tool that helps you write operating system files onto USB drives and SD cards without risking your important personal data.

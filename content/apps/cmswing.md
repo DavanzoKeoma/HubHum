@@ -1,0 +1,72 @@
+---
+title: "CmsWing"
+slug: "cmswing"
+tagline: "Powerful full-stack web publishing system"
+summary: "CmsWing is an enterprise-grade website publishing platform that lets teams manage content, configure menus, and handle data effortlessly."
+tags: ["cms", "ecommerce", "graphql", "publishing"]
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
+icon: "/icons/cmswing.png"
+stars: 1353
+source_url: "https://github.com/arterli/CmsWing"
+download_url: "https://www.cmswing.com"
+downloadUrl: "https://www.cmswing.com"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_276"
+affiliate_name: "Rank Math Direct"
+affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
+affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-22"
+i18n:
+  it:
+    tagline: "Potente sistema di pubblicazione web"
+    summary: "CmsWing è una piattaforma di pubblicazione aziendale che consente di gestire contenuti e configurare menu senza sforzo."
+  es:
+    tagline: "Potente sistema de publicación web"
+    summary: "CmsWing es una plataforma empresarial que permite a los equipos gestionar contenidos y configurar menús fácilmente."
+  fr:
+    tagline: "Puissant système de publication web"
+    summary: "CmsWing est une plateforme professionnelle permettant aux équipes de gérer du contenu et des menus facilement."
+  de:
+    tagline: "Leistungsstarkes Web-Publishing-System"
+    summary: "CmsWing ist eine professionelle Verlagsplattform, mit der Teams Inhalte verwalten und Menüs einfach einrichten können."
+---
+
+### What it does in plain English
+CmsWing is a comprehensive digital publishing platform designed to help teams build content-driven websites and online stores. It automates database structures and creates administrative menus directly from a visual control panel. By combining flexible data handling with built-in cloud storage support, it removes the usual setup friction for modern web projects.
+
+### Who it's for
+* Web developers building enterprise-grade content sites or digital storefronts.
+* Small business teams looking for a self-hosted platform to manage digital assets and articles.
+* System administrators needing a modular publishing tool with straightforward database integration.
+
+### Key features
+* Visual control panel that automatically generates administrative menus and access permissions.
+* Dynamic database handling that builds structural files and data models from backend inputs.
+* Integrated data query language support for smooth and efficient information requests.
+* Built-in support for popular cloud file storage networks to handle media uploads.
+* Pre-configured responsive templates optimized for search engines and mobile displays.
+
+### How to install (Download)
+To get started with the project source files and setup instructions, visit the [CmsWing Official Website](https://www.cmswing.net) or check out the project setup guide on the [CmsWing GitHub official project page](https://github.com/arterli/CmsWing).
+
+### Pros and Cons
+* **Pros:** Streamlines backend creation, supports major cloud storage services, and includes built-in search engine optimization features.
+* **Cons:** Requires a configured database server and familiarity with server-side JavaScript environments to run smoothly.
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **Elementor Pro Direct:** Optional visual page builder for WordPress sites — [Elementor Pro Direct](https://elementor.com/?subid=hubhum_01_MER265) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/arterli/CmsWing)

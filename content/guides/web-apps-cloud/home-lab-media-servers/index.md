@@ -12,12 +12,12 @@ parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"]
 sibling_slugs: []
 app_slugs: ["netdata", "nanobot", "khoj", "changedetection-io", "meetily", "nanoclaw", "nocobase", "skyvern", "neko", "companyos", "convertx", "maxun", "surfsense", "trek", "audiobookshelf", "automatisch", "nightingale", "umbrel"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Home Lab Media Servers, E-Books & Streaming Hubs
 
-This topic hub groups **66 vetted free tools** specializing in **Home Lab Media Servers, E-Books & Streaming Hubs** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **68 vetted free tools** specializing in **Home Lab Media Servers, E-Books & Streaming Hubs** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

@@ -11,28 +11,28 @@ summary: "Reliable desktop and self-hosted players for organizing music librarie
 parent_slug: "video-audio"
 child_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/how-to-choose-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
 sibling_slugs: []
-app_slugs: ["pear-desktop", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear", "beets", "autoclip", "listen1-desktop", "spotifast", "feishin", "finetune", "google-play-music-desktop-player-unofficial", "go-music-dl", "mpv-net", "soundnode-app", "musikcube", "your-spotify"]
-updated_at: "2026-11-22"
+app_slugs: ["spotube", "iina", "pear-desktop", "yesplaymusic", "navidrome", "xbmc", "vlc", "spotify-tui", "audacity", "nuclear", "beets", "autoclip", "audiokit", "listen1-desktop", "captura", "ytdownloader", "spotifast", "feishin"]
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Audio Editors & Music Players
 
-This topic hub groups **41 vetted free tools** specializing in **Audio Editors & Music Players** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **54 vetted free tools** specializing in **Audio Editors & Music Players** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
 
 ### All Qualifying Software in This Topic
 
+- **[Spotube](/HubHum/apps/spotube/)** — Spotube lets you listen to music from many sources, keep your own playlists, and enjoy lyrics without any tracking. *(Desktop App · License: Open Source (AGPL v3))*
+- **[iina](/HubHum/apps/iina/)** — Enjoy seamless video and music playback on macOS with a gorgeous, customizable media player built specifically for Apple computers. *(Desktop App · License: Open Source (GPL v3))*
 - **[Pear Desktop](/HubHum/apps/pear-desktop/)** — Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer. *(Desktop App · License: Open Source (MIT))*
+- **[YesPlayMusic](/HubHum/apps/yesplaymusic/)** — Enjoy a clean, high-design music player for your favorite tracks with zero distracting social clutter. *(Desktop App · License: Open Source (MIT))*
 - **[Navidrome](/HubHum/apps/navidrome/)** — Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device. *(Self-Hosted Web App · License: Open Source (GPL v3))*
+- **[Kodi](/HubHum/apps/xbmc/)** — Transform any computer or TV device into an organized, beautiful media jukebox for all your favorite movies and music. *(Desktop App · License: Custom Open License)*
 - **[VLC](/HubHum/apps/vlc/)** — VLC is a versatile media player that opens almost any video or audio file without needing extra downloads. *(Desktop App · License: Open Source (GPL v2))*
 - **[spotify-tui](/HubHum/apps/spotify-tui/)** — Manage your music player with a lightning-fast interface that runs entirely inside your text terminal. *(CLI Tool · License: Open Source (MIT))*
 - **[Audacity](/HubHum/apps/audacity/)** — Record your voice, remove background noise, mix tracks, and export podcasts or music free on Windows, Mac, and Linux. *(Desktop App · License: Open Source (GPL v3))*
 - **[Nuclear](/HubHum/apps/nuclear/)** — Enjoy music without ads or tracking. *(Desktop App · License: Open Source (AGPL v3))*
 - **[beets](/HubHum/apps/beets/)** — Beets automatically cleans up your music collection by fixing incorrect song information and organizing your files into a tidy library. *(CLI Tool · License: Open Source (MIT))*
 - **[autoclip](/HubHum/apps/autoclip/)** — Convert lengthy podcasts, interviews, and courses into bite-sized social media clips complete with captions and cover art automatically on your computer. *(Desktop App · License: Open Source (MIT))*
-- **[listen1_desktop](/HubHum/apps/listen1-desktop/)** — Enjoy seamless access to your favorite songs from multiple music providers in one unified desktop application. *(Desktop App · License: Open Source (MIT))*
-- **[Spotifast](/HubHum/apps/spotifast/)** — Spotifast provides a snappy, native desktop home for your music library, allowing you to browse playlists, search tracks, and control playback directly from your computer. *(Desktop App · License: Open Source (MIT))*
-- **[Feishin](/HubHum/apps/feishin/)** — Enjoy your personal music collection anywhere with a sleek, self-hosted desktop and web music player that connects to your own servers. *(Self-Hosted Web App · License: Open Source (GPL v3))*
-- **[FineTune](/HubHum/apps/finetune/)** — Take independent volume control of every app on your Mac, boost quiet sounds, and route audio effortlessly from your menu bar. *(Desktop App · License: Open Source (GPL v3))*

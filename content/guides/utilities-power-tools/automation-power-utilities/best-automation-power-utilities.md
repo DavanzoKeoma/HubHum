@@ -12,7 +12,7 @@ parent_slug: "utilities-power-tools/automation-power-utilities"
 child_slugs: []
 sibling_slugs: ["utilities-power-tools/automation-power-utilities/how-to-choose-automation-power-utilities", "utilities-power-tools/automation-power-utilities/troubleshooting-automation-power-utilities"]
 app_slugs: ["rea", "ohmyzsh", "agent-reach", "tauri", "terminal", "playwright", "puppeteer", "rtk"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Quick Answer: rea vs Oh My Zsh

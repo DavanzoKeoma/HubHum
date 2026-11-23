@@ -1,0 +1,72 @@
+---
+title: "Letterpad"
+slug: "letterpad"
+tagline: "Create beautiful blogs and photo stories easily"
+summary: "Letterpad is a comprehensive blog publishing engine that simplifies content management, design custom portfolios, and connects audiences online."
+tags: ["blogging", "publishing", "cms", "portfolio"]
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
+icon: "/icons/letterpad.png"
+stars: 789
+source_url: "https://github.com/letterpad/letterpad"
+download_url: "https://letterpad.app"
+downloadUrl: "https://letterpad.app"
+download_label: "Official Setup & Docs →"
+license: "Open Source (MIT)"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_276"
+affiliate_name: "Rank Math Direct"
+affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
+affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-22"
+i18n:
+  it:
+    tagline: "Crea splendidi blog e storie fotografiche facilmente"
+    summary: "Letterpad è un motore di pubblicazione completo per blog che semplifica la gestione dei contenuti e la creazione di portfoli."
+  es:
+    tagline: "Crea hermosos blogs e historias fotográficas fácilmente"
+    summary: "Letterpad es un motor completo de publicación de blogs que simplifica la gestión de contenidos y la creación de portafolios."
+  fr:
+    tagline: "Créez de superbes blogs et histoires photo facilement"
+    summary: "Letterpad est un moteur de publication de blog complet qui simplifie la gestion de contenu et la création de portfolios."
+  de:
+    tagline: "Erstellen Sie ganz einfach schöne Blogs und Fotostories"
+    summary: "Letterpad ist eine umfassende Blog-Publishing-Engine, die die Verwaltung von Inhalten und das Erstellen von Portfolios vereinfacht."
+---
+
+### What it does in plain English
+Letterpad is a modern blogging and publishing platform designed for creative writers, photographers, and independent creators. It gives you a clean admin dashboard to write posts, organize galleries, and manage your online presence. You can easily publish personal blogs, photography portfolios, or design showcases without dealing with complicated software.
+
+### Who it's for
+* Creative writers and journalists looking for a clean space to publish articles.
+* Photographers and visual artists who want to display photo stories and art portfolios.
+* Independent creators who need an easy self-hosted alternative to manage their personal website.
+
+### Key features
+* Fully developed admin dashboard and customizable public website templates.
+* Built-in page builder tailored for gorgeous photo stories and design showcases.
+* Support for custom domains to give your blog a professional brand identity.
+* Image management integration with popular media storage and stock libraries.
+* Built-in search engine optimization helpers to make your writing discoverable.
+
+### How to install (Download)
+You can explore a live preview of the platform on the [Letterpad Demo Page](https://demo.letterpad.app). To host your own independent instance, you can use container software with the official Letterpad Docker Package.
+
+### Pros and Cons
+* **Pros:** Complete control over your own data, multi-user support, and built-in visual layout options.
+* **Cons:** Requires technical setup with environment variables if self-hosting rather than using a standard point-and-click host.
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **Elementor Pro Direct:** Optional visual page builder for WordPress sites — [Elementor Pro Direct](https://elementor.com/?subid=hubhum_01_MER265) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/letterpad/letterpad)

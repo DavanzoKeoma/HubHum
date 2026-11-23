@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/self-hosted-cloud-apps"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps"]
 app_slugs: ["immich", "memos", "serviette", "gogs", "siyuan"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Fixing Common Problems with Free Personal Cloud Hubs, Photos & File Sharing

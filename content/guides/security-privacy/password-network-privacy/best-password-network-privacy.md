@@ -11,8 +11,8 @@ summary: "Compare Sherlock vs Win11Debloat and 8 free tools for Privacy Tools, V
 parent_slug: "security-privacy/password-network-privacy"
 child_slugs: []
 sibling_slugs: ["security-privacy/password-network-privacy/how-to-choose-password-network-privacy", "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"]
-app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "safeline", "v2raya"]
-updated_at: "2026-11-22"
+app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "spotx", "safeline"]
+updated_at: "2026-11-23"
 ---
 
 ## Quick Answer: Sherlock vs Win11Debloat
@@ -29,8 +29,8 @@ Comparing **Sherlock** and **Win11Debloat** highlights two distinct approaches i
 | [Maigret](/HubHum/apps/maigret/) | CLI Tool | Windows | ★ 41,080 | Open Source (MIT) |
 | [setup-ipsec-vpn](/HubHum/apps/setup-ipsec-vpn/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 29,087 | Custom Open License |
 | [Pangolin](/HubHum/apps/pangolin/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 23,897 | Custom Open License |
+| [SpotX](/HubHum/apps/spotx/) | Desktop App | Windows | ★ 23,458 | Open Source (MIT) |
 | [SafeLine](/HubHum/apps/safeline/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 23,341 | Open Source (GPL v3) |
-| [v2rayA](/HubHum/apps/v2raya/) | Desktop App | Windows, Linux | ★ 15,876 | Open Source (AGPL v3) |
 
 ### When to Pick Which Option
 - **Choose [Sherlock](/HubHum/apps/sherlock/) (CLI Tool)** if you need what it specializes in: Easily discover where a specific username is registered across hundreds of online platforms and social networks in seconds — it runs as fast terminal commands suited for automation and batch scripts (no graphical buttons) (114,779 GitHub stars, vs Win11Debloat which runs as a Desktop App).

@@ -1,0 +1,78 @@
+---
+title: "consola"
+slug: "consola"
+tagline: "Elegant and colorful console logging tool."
+summary: "Consola makes software messages look clean, organized, and colorful in your command line or browser window."
+tags: ["logging", "utilities", "developer-tools", "browser"]
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
+icon: "/icons/consola.png"
+stars: 7360
+source_url: "https://github.com/unjs/consola"
+download_url: "https://github.com/unjs/consola/releases"
+downloadUrl: "https://github.com/unjs/consola/releases"
+download_label: "Get Command-Line Tool →"
+license: "Custom Open License"
+scouting_tier: "tier3_powertool"
+operatingSystem: "Windows, macOS, Linux"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-23"
+i18n:
+  it:
+    tagline: "Strumento elegante e colorato per log di console."
+    summary: "Consola rende i messaggi software puliti, organizzati e colorati nel terminale o nel browser."
+  es:
+    tagline: "Herramienta elegante y colorida para registro de consola."
+    summary: "Consola hace que los mensajes de software se vean limpios, organizados y coloridos en la terminal."
+  fr:
+    tagline: "Outil de journalisation élégant et coloré."
+    summary: "Consola rend les messages logiciels propres, organisés et colorés dans votre terminal ou navigateur."
+  de:
+    tagline: "Elegantes und farbenfrohes Konsolen-Protokollierungstool."
+    summary: "Consola sorgt dafür, dass Software-Nachrichten im Terminal oder Browser übersichtlich aussehen."
+---
+
+### What it does in plain English
+Consola is a friendly tool for software creators that displays easy-to-read messages in the terminal window or web browser. Instead of plain boring text, it adds neat colors, helpful icons, and clear categories like success, warnings, or errors. It also lets creators pause notifications, filter out spam, and ask users quick questions right inside the text window.
+
+### Who it's for
+* Software creators building command-line tools or web applications
+* Programmers who want prettier and more organized status messages in their terminal
+* Testing teams looking to catch and review software warning messages easily
+
+### Key features
+* Displays colorful status messages with handy icons for success, warnings, and errors
+* Works seamlessly in both local terminal windows and web browsers
+* Automatically adapts to simpler environments when fancy colors are not supported
+* Allows asking interactive questions right inside the text window
+* Prevents log spamming by slowing down repetitive notification messages
+
+### How to install (Download)
+To add Consola to your JavaScript project, use your preferred package manager in your terminal:
+
+* **Using npm:** Run `npm i consola`
+* **Using yarn:** Run `yarn add consola`
+* **Using pnpm:** Run `pnpm i consola`
+
+For full project source code and examples, visit the [Official Consola Releases Page](https://github.com/unjs/consola/releases).
+
+### Pros and Cons
+* **Pros:** Free and open source, lightweight bundle size, works in browsers and servers
+* **Cons:** Requires familiarity with JavaScript or TypeScript development environments
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/unjs/consola)

@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what Audio Editors & Music Players 
 parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
-app_slugs: ["pear-desktop", "navidrome", "vlc", "spotify-tui", "audacity", "nuclear"]
-updated_at: "2026-11-22"
+app_slugs: ["spotube", "iina", "pear-desktop", "yesplaymusic", "navidrome", "xbmc"]
+updated_at: "2026-11-23"
 ---
 
 ## How to Choose Free Audio Editors & Music Players Without Getting Lost
@@ -25,9 +25,9 @@ Switching to free open-source tools in **Audio Editors & Music Players** lets yo
 
 ### Great Starting Points in Audio Editors & Music Players
 
+- **[Spotube](/HubHum/apps/spotube/)** (Desktop App) — Spotube lets you listen to music from many sources, keep your own playlists, and enjoy lyrics without any tracking.
+- **[iina](/HubHum/apps/iina/)** (Desktop App) — Enjoy seamless video and music playback on macOS with a gorgeous, customizable media player built specifically for Apple computers.
 - **[Pear Desktop](/HubHum/apps/pear-desktop/)** (Desktop App) — Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer.
+- **[YesPlayMusic](/HubHum/apps/yesplaymusic/)** (Desktop App) — Enjoy a clean, high-design music player for your favorite tracks with zero distracting social clutter.
 - **[Navidrome](/HubHum/apps/navidrome/)** (Self-Hosted Web App) — Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device.
-- **[VLC](/HubHum/apps/vlc/)** (Desktop App) — VLC is a versatile media player that opens almost any video or audio file without needing extra downloads.
-- **[spotify-tui](/HubHum/apps/spotify-tui/)** (CLI Tool) — Manage your music player with a lightning-fast interface that runs entirely inside your text terminal.
-- **[Audacity](/HubHum/apps/audacity/)** (Desktop App) — Record your voice, remove background noise, mix tracks, and export podcasts or music free on Windows, Mac, and Linux.
-- **[Nuclear](/HubHum/apps/nuclear/)** (Desktop App) — Enjoy music without ads or tracking.
+- **[Kodi](/HubHum/apps/xbmc/)** (Desktop App) — Transform any computer or TV device into an organized, beautiful media jukebox for all your favorite movies and music.

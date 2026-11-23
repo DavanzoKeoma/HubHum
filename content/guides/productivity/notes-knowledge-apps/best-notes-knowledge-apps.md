@@ -11,8 +11,8 @@ summary: "Compare Awesome vs React Native and 8 free tools for Encrypted Notes, 
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
-app_slugs: ["awesome", "react-native", "pake", "joplin", "obsidian-skills", "uni-app", "wiki", "steamtools"]
-updated_at: "2026-11-22"
+app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin", "imhex", "obsidian-skills", "brew"]
+updated_at: "2026-11-23"
 ---
 
 ## Quick Answer: Awesome vs React Native
@@ -25,12 +25,12 @@ Comparing **Awesome** and **React Native** highlights two distinct approaches in
 | --- | --- | --- | --- | --- |
 | [Awesome](/HubHum/apps/awesome/) | Open Reference | All / Reference | ★ 539,167 | Public Domain / Free |
 | [React Native](/HubHum/apps/react-native/) | Desktop App | Android, iOS | ★ 126,992 | Open Source (MIT) |
+| [MarkText](/HubHum/apps/marktext/) | Desktop App | Windows, macOS, Linux | ★ 64,263 | Open Source (MIT) |
 | [Pake](/HubHum/apps/pake/) | Desktop App | Windows, macOS, Linux | ★ 63,869 | Open Source (GPL v3) |
 | [Joplin](/HubHum/apps/joplin/) | Desktop App | Windows, macOS, Linux | ★ 57,234 | Open Source (MIT) |
+| [ImHex](/HubHum/apps/imhex/) | Desktop App | Windows, macOS, Linux | ★ 56,008 | Open Source (GPL v2) |
 | [Obsidian Skills](/HubHum/apps/obsidian-skills/) | Open Reference | All / Reference | ★ 53,269 | Open Source (MIT) |
-| [uni-app](/HubHum/apps/uni-app/) | Desktop App | iOS | ★ 41,695 | Open Source (Apache 2.0) |
-| [Wiki.js](/HubHum/apps/wiki/) | Desktop App | Windows, macOS, Linux | ★ 29,352 | Open Source (AGPL v3) |
-| [SteamTools](/HubHum/apps/steamtools/) | Desktop App | Windows, macOS, Linux, iOS | ★ 27,679 | Open Source (GPL v3) |
+| [brew](/HubHum/apps/brew/) | Desktop App | macOS | ★ 50,410 | Open Source (BSD) |
 
 ### When to Pick Which Option
 - **Choose [Awesome](/HubHum/apps/awesome/) (Open Reference)** if you need what it specializes in: Explore carefully organized collections of interesting topics, software tools, and guides curated by experts — it works in **Open Reference** mode (All / Reference) (539,167 GitHub stars, vs React Native which runs as a Desktop App).

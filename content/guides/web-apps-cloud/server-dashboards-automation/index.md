@@ -12,12 +12,12 @@ parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"]
 sibling_slugs: []
 app_slugs: ["dify", "open-webui", "uptime-kuma", "coolify", "appwrite", "clickhouse", "puter", "appsmith", "tooljet", "ai-website-cloner-template", "dokploy", "casaos", "langfuse", "glances", "homepage", "onyx", "signoz", "dokku"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Plain-English Overview: Server Dashboards, Monitoring & Cloud Panels
 
-This topic hub groups **104 vetted free tools** specializing in **Server Dashboards, Monitoring & Cloud Panels** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **117 vetted free tools** specializing in **Server Dashboards, Monitoring & Cloud Panels** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

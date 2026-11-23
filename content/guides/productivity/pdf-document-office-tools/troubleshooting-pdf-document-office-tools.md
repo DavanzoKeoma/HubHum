@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools"]
-app_slugs: ["flutter", "jobs-applier-ai-agent", "readest", "fmt", "sqlitebrowser"]
-updated_at: "2026-11-22"
+app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files"]
+updated_at: "2026-11-23"
 ---
 
 ## Fixing Common Problems with Free PDF, Document & E-Book Tools
@@ -30,8 +30,8 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 ### Recommended Alternatives Covered
 
-- **[Flutter](/HubHum/apps/flutter/)** (Desktop App) — Create gorgeous, lightning-fast apps for phones, web, and computers from a single shared set of instructions.
-- **[Jobs_Applier_AI_Agent](/HubHum/apps/jobs-applier-ai-agent/)** (Desktop App) — This tool scans thousands of job postings to find matches for your resume and automatically fills out application forms on your behalf.
-- **[Readest](/HubHum/apps/readest/)** (Desktop App) — Readest is a feature-rich ebook reader that helps you organize your library and enjoy books across all your favorite devices.
-- **[fmt](/HubHum/apps/fmt/)** (Desktop App) — fmt is a modern library that helps programmers display text and data clearly, quickly, and safely in their software projects.
-- **[DB Browser for SQLite](/HubHum/apps/sqlitebrowser/)** (Desktop App) — Manage and edit database files using a simple, spreadsheet-style interface without needing to learn complex technical commands.
+- **[Microsoft-Activation-Scripts](/HubHum/apps/microsoft-activation-scripts/)** (Desktop App) — Activate Windows and Office operating systems easily using trusted open-source scripts and automated methods.
+- **[node](/HubHum/apps/node/)** (Desktop App) — Run your JavaScript code anywhere with a reliable platform that powers web servers and network utilities seamlessly.
+- **[Ventoy](/HubHum/apps/ventoy/)** (Desktop App) — Ventoy lets you turn any USB drive into a multi-boot tool just by copying system files directly onto it without constant reformatting.
+- **[mkcert](/HubHum/apps/mkcert/)** (Desktop App) — mkcert creates trusted local certificates with zero configuration, letting developers run HTTPS locally without browser warnings.
+- **[Files](/HubHum/apps/files/)** (Desktop App) — Files is a free, open-source file manager that makes organizing your documents and photos on Windows simple and fast.

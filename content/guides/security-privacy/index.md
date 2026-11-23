@@ -8,13 +8,13 @@ intent: "pillar"
 summary: "Protect passwords, monitor network traffic, and declutter operating systems safely with transparent free software."
 child_slugs: ["security-privacy/free-password-managers", "security-privacy/password-network-privacy", "security-privacy/system-cleaners-auditors"]
 sibling_slugs: []
-app_slugs: ["sherlock", "mole", "win11debloat", "sniffnet", "maigret", "pentagi", "gitleaks", "keepassxc", "setup-ipsec-vpn", "pangolin", "safeline", "termix", "v2raya", "metube", "hackbrowserdata", "clients", "esp32marauder", "netmaker"]
-updated_at: "2026-11-22"
+app_slugs: ["sherlock", "mole", "win11debloat", "sniffnet", "maigret", "pentagi", "gitleaks", "keepassxc", "setup-ipsec-vpn", "pangolin", "spotx", "safeline", "bulk-crap-uninstaller", "termix", "v2raya", "metube", "winhance", "hackbrowserdata"]
+updated_at: "2026-11-23"
 ---
 
 ## Why Explore Free Security & Privacy Software?
 
-This central guide brings together **38 verified free applications** in the **Security & Privacy** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **50 verified free applications** in the **Security & Privacy** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Security & Privacy
 

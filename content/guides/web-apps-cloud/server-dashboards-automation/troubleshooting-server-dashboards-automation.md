@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/server-dashboards-automation"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation"]
 app_slugs: ["dify", "open-webui", "uptime-kuma", "coolify", "appwrite"]
-updated_at: "2026-11-22"
+updated_at: "2026-11-23"
 ---
 
 ## Fixing Common Problems with Free Server Dashboards, Monitoring & Cloud Panels

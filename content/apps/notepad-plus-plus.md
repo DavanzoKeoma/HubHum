@@ -1,0 +1,77 @@
+---
+title: "Notepad++"
+slug: "notepad-plus-plus"
+tagline: "Fast, free text editor for Windows"
+summary: "Notepad++ is a lightweight, free text editor for Windows that helps you write and organize code or plain text with color-coded highlighting and powerful search tools."
+tags: ["text-editor", "windows", "productivity"]
+is_webapp: false
+app_type: "desktop"
+category: "Productivity"
+icon: "/icons/notepad-plus-plus.png"
+stars: 29946
+source_url: "https://github.com/notepad-plus-plus/notepad-plus-plus"
+download_url: "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.Installer.arm64.exe"
+downloadUrl: "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.Installer.arm64.exe"
+download_label: "Download for Windows (.exe)"
+license: "Custom Open License"
+scouting_tier: "tier1_gui"
+operatingSystem: "Windows"
+applicationCategory: "UtilitiesApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+ai_provider: "tier2_groq:qwen/qwen3.8-27b"
+featured_weekly: true
+updated_at: "2026-11-22"
+i18n:
+  it:
+    tagline: "Editor di testo veloce e gratuito"
+    summary: "Notepad++ è un editor di testo leggero e gratuito per Windows che aiuta a scrivere e organizzare codice o testo semplice con evidenziazione dei colori e strumenti di ricerca potenti."
+  es:
+    tagline: "Editor de texto rápido y gratuito"
+    summary: "Notepad++ es un editor de texto ligero y gratuito para Windows que ayuda a escribir y organizar código o texto plano con resaltado de colores y herramientas de búsqueda potentes."
+  fr:
+    tagline: "Éditeur de texte rapide et gratuit"
+    summary: "Notepad++ est un éditeur de texte léger et gratuit pour Windows qui aide à écrire et organiser du code ou du texte brut avec la mise en évidence des couleurs et des outils de recherche puissants."
+  de:
+    tagline: "Schneller, kostenloser Texteditor"
+    summary: "Notepad++ ist ein leichter, kostenloser Texteditor für Windows, der beim Schreiben und Organisieren von Code oder Klartext mit Farbhervorhebung und leistungsstarken Suchwerkzeugen hilft."
+---
+
+### What it does in plain English
+Notepad++ is a fast, lightweight tool for writing and editing text files on your Windows computer. It makes reading code or long documents easier by using colors to highlight different parts of the text. You can also use powerful search tools to find specific words or patterns instantly across multiple files.
+
+### Who it's for
+* **Students and writers** who need a simple, distraction-free space to draft essays, notes, or scripts without paying for software.
+* **Developers and tech enthusiasts** who want a quick way to view, edit, and search through configuration files or code snippets.
+* **Office workers** who need to organize large amounts of text data and require a more capable alternative to the basic Windows Notepad.
+
+### Key features
+* **Syntax Highlighting:** Automatically colors different parts of your text (like code keywords or HTML tags) to make it easier to read and spot errors.
+* **Multi-document Interface:** Open and switch between many different files at once using tabs, similar to a web browser.
+* **Powerful Search:** Find specific text within a single file or search across hundreds of files in a folder simultaneously.
+* **Plugin Support:** Extend the app's capabilities with add-ons for specific tasks, such as JSON formatting or Python execution.
+* **Lightweight Performance:** Starts up quickly and uses very little computer memory, making it ideal for older or slower machines.
+
+### How to install (Download)
+Choose the installer that matches your computer's architecture:
+
+* [Download for Windows (Standard .exe)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.Installer.exe)
+* [Download for Windows (64-bit .exe)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.Installer.x64.exe)
+* [Download for Windows (ARM64 .exe)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.Installer.arm64.exe)
+* [Download for Windows (64-bit .msi)](https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.9.1/npp.8.9.9.1.Installer.x64.msi)
+
+### Pros and Cons
+* **Pros:** Completely free to use with no ads or subscriptions, extremely fast, and supports a wide variety of programming languages and file types.
+* **Cons:** Only available for Windows, and the interface can feel slightly cluttered for users who prefer a minimalist, distraction-free writing environment.
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/notepad-plus-plus/notepad-plus-plus)
