@@ -1,0 +1,74 @@
+---
+title: "UJCMS"
+slug: "ujcms"
+tagline: "Modern enterprise-grade content management platform"
+summary: "Build professional websites and manage digital content easily with a robust, flexible Java-based publishing platform."
+tags: ["content-management", "cms", "spring-boot"]
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
+icon: "/icons/ujcms.png"
+stars: 672
+source_url: "https://github.com/dromara/ujcms"
+download_url: "https://www.ujcms.com"
+downloadUrl: "https://www.ujcms.com"
+download_label: "Official Setup & Docs →"
+license: "Open Source (GPL v3)"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_276"
+affiliate_name: "Rank Math Direct"
+affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
+affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-23"
+i18n:
+  it:
+    tagline: "Piattaforma moderna di gestione contenuti aziendali"
+    summary: "Crea siti web professionali e gestisci contenuti digitali con una robusta piattaforma di pubblicazione basata su Java."
+  es:
+    tagline: "Plataforma moderna de gestión de contenidos empresariales"
+    summary: "Crea sitios web profesionales y gestiona contenidos digitales con una plataforma de publicación robusta y flexible."
+  fr:
+    tagline: "Plateforme moderne de gestion de contenu d'entreprise"
+    summary: "Créez des sites web professionnels et gérez vos contenus numériques grâce à une plateforme de publication robuste."
+  de:
+    tagline: "Moderne Unternehmensplattform für Inhaltsverwaltung"
+    summary: "Erstellen Sie professionelle Websites und verwalten Sie digitale Inhalte mit einer robusten, flexiblen Java-Plattform."
+---
+
+### What it does in plain English
+UJCMS is an open-source website content management system built with modern Java and web technologies. It lets organizations publish articles, structure web pages, and manage user accounts securely. Administrators can choose between traditional template rendering or a decoupled modern interface to power their online presence.
+
+### Who it's for
+* Web developers and digital agencies building custom enterprise portals.
+* Content editors and administrators managing multi-page community or corporate websites.
+* Organizations requiring a secure, self-hosted platform to publish articles and digital assets.
+
+### Key features
+* Dual development architecture supporting traditional page rendering or modern separated frontends.
+* Built-in administrative dashboard for managing users, articles, media uploads, and site settings.
+* Automatic database setup and table initialization upon first launch.
+* Responsive layouts that adapt seamlessly to mobile phones, tablets, and desktop screens.
+* Extensible template engine allowing full control over website appearance and themes.
+
+### How to install (Download)
+* Visit the [Official UJCMS Website](https://www.ujcms.com) to learn more about the project.
+* Explore step-by-step instructions in the [Official Documentation](https://www.ujcms.com/docs/).
+* Access downloads and packages directly from the [UJCMS Downloads Page](https://www.ujcms.com/downloads/).
+
+### Pros and Cons
+* **Pros:** Free and open-source foundation, flexible developer options, modern Vue-based management interface.
+* **Cons:** Requires familiarity with Java development tools and relational database setup for self-hosting.
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
+* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
+* **Elementor Pro Direct:** Optional visual page builder for WordPress sites — [Elementor Pro Direct](https://elementor.com/?subid=hubhum_01_MER265) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/dromara/ujcms)

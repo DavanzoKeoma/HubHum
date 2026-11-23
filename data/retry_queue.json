@@ -56,48 +56,6 @@
     "queued_at": "2026-11-21T19:51:36.364589+00:00"
   },
   {
-    "full_name": "marcantondahmen/automad",
-    "slug": "automad",
-    "html_url": "https://github.com/marcantondahmen/automad",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T10:53:27.016135+00:00"
-  },
-  {
-    "full_name": "ConduitPlatform/Conduit",
-    "slug": "conduit",
-    "html_url": "https://github.com/ConduitPlatform/Conduit",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T10:53:36.816297+00:00"
-  },
-  {
-    "full_name": "concretecms/concretecms",
-    "slug": "concretecms",
-    "html_url": "https://github.com/concretecms/concretecms",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T18:26:51.423910+00:00"
-  },
-  {
-    "full_name": "LiuYuYang01/ThriveX-Blog",
-    "slug": "thrivex-blog",
-    "html_url": "https://github.com/LiuYuYang01/ThriveX-Blog",
-    "reason": "tier1_gemini: validation failed (Field 'summary' appears truncated or incomplete: 'ThriveX-Blog is a fresh, beautiful, and completely free online journal platform that makes publishing personal content simple.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T18:27:14.447312+00:00"
-  },
-  {
-    "full_name": "liaocp666/Jasmine",
-    "slug": "jasmine",
-    "html_url": "https://github.com/liaocp666/Jasmine",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T18:27:40.602788+00:00"
-  },
-  {
-    "full_name": "Dreamer-Paul/Single",
-    "slug": "single",
-    "html_url": "https://github.com/Dreamer-Paul/Single",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-22T18:29:06.388580+00:00"
-  },
-  {
     "full_name": "robinmoisson/staticrypt",
     "slug": "staticrypt",
     "html_url": "https://github.com/robinmoisson/staticrypt",
@@ -138,5 +96,12 @@
     "html_url": "https://github.com/mixxxdj/mixxx",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (Field 'summary' appears truncated or incomplete: 'Mixxx lets anyone create live DJ mixes on a computer, with all the tools you need, and it’s completely free.')",
     "queued_at": "2026-11-23T00:00:31.295874+00:00"
+  },
+  {
+    "full_name": "productdevbook/port-killer",
+    "slug": "port-killer",
+    "html_url": "https://github.com/productdevbook/port-killer",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-23T00:05:51.982209+00:00"
   }
 ]

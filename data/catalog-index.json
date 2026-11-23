@@ -23742,6 +23742,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "unigram",
+    "name": "Unigram",
+    "tagline": "Native Telegram experience for Windows",
+    "repo_url": "https://github.com/telegrammessenger/unigram",
+    "full_name": "telegrammessenger/unigram",
+    "category": "Productivity",
+    "tags": [
+      "messaging",
+      "windows"
+    ],
+    "icon": "/icons/unigram.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 5550,
+    "tier": "tier1_gui",
+    "summary": "Unigram provides a fast, native way to use Telegram directly on your Windows desktop without needing a web browser.",
+    "i18n": {
+      "it": "Unigram offre un modo veloce e nativo per utilizzare Telegram direttamente sul tuo desktop Windows senza usare il browser.",
+      "es": "Unigram ofrece una forma rápida y nativa de usar Telegram directamente en tu escritorio Windows sin necesidad de un navegador.",
+      "fr": "Unigram offre un moyen rapide et natif d'utiliser Telegram directement sur votre bureau Windows sans utiliser de navigateur.",
+      "de": "Unigram bietet eine schnelle und native Möglichkeit, Telegram direkt auf Ihrem Windows-Desktop zu nutzen, ohne einen Browser."
+    },
+    "download_url": "https://www.microsoft.com/store/apps/9n97zckpd60q",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "protoactor-go",
     "name": "Proto Actor",
     "tagline": "High-performance messaging for distributed systems.",
@@ -23826,6 +23854,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "lan-mouse",
+    "name": "Lan Mouse",
+    "tagline": "Control multiple computers using one mouse.",
+    "repo_url": "https://github.com/feschber/lan-mouse",
+    "full_name": "feschber/lan-mouse",
+    "category": "Productivity",
+    "tags": [
+      "mouse",
+      "keyboard"
+    ],
+    "icon": "/icons/lan-mouse.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 5509,
+    "tier": "tier1_gui",
+    "summary": "Share a single mouse and keyboard seamlessly across multiple computers on your local network without cluttering your desk.",
+    "i18n": {
+      "it": "Condividi un singolo mouse e tastiera tra più computer sulla rete locale senza ingombrare la scrivania.",
+      "es": "Comparte un solo ratón y teclado entre múltiples ordenadores en tu red local sin ocupar espacio en el escritorio.",
+      "fr": "Partagez une seule souris et un seul clavier sur plusieurs ordinateurs de votre réseau local sans encombrer votre bureau.",
+      "de": "Teilen Sie eine Maus und Tastatur nahtlos auf mehreren Computern in Ihrem lokalen Netzwerk, ohne Ihren Schreibtisch zu überladen."
+    },
+    "download_url": "https://github.com/feschber/lan-mouse/releases/download/v0.11.0/lan-mouse-linux-arm64",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "loopforge",
     "name": "LoopForge",
     "tagline": "Standardize software delivery with coding agents",
@@ -23852,6 +23908,34 @@
     },
     "download_url": "https://loopforge.cn",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "cuberite",
+    "name": "Cuberite",
+    "tagline": "Fast, lightweight Minecraft server",
+    "repo_url": "https://github.com/cuberite/cuberite",
+    "full_name": "cuberite/cuberite",
+    "category": "Productivity",
+    "tags": [
+      "minecraft",
+      "game-server"
+    ],
+    "icon": "/icons/cuberite.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux, Android",
+    "license": "Custom Open License",
+    "stars": 5457,
+    "tier": "tier1_gui",
+    "summary": "Cuberite is a quick, memory‑friendly server that lets you host Minecraft worlds with easy plugin support.",
+    "i18n": {
+      "it": "Cuberite è un server rapido e leggero che ti permette di ospitare mondi Minecraft con supporto plugin semplice.",
+      "es": "Cuberite es un servidor rápido y ligero que te permite alojar mundos de Minecraft con soporte sencillo para plugins.",
+      "fr": "Cuberite est un serveur rapide et léger qui vous permet d’héberger des mondes Minecraft avec un support de plugins.",
+      "de": "Cuberite ist ein schneller, leichter Server, der es Ihnen ermöglicht, Minecraft-Welten mit einfacher Plugin-Unterstützung zu hosten."
+    },
+    "download_url": "https://cuberite.org",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "toga",
@@ -23908,6 +23992,34 @@
     },
     "download_url": "https://github.com/Flipkart/recyclerlistview/releases",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "altsnap",
+    "name": "AltSnap",
+    "tagline": "Effortlessly move and resize any window.",
+    "repo_url": "https://github.com/ramonunch/altsnap",
+    "full_name": "ramonunch/altsnap",
+    "category": "Productivity",
+    "tags": [
+      "windows",
+      "utilities"
+    ],
+    "icon": "/icons/altsnap.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 5413,
+    "tier": "tier1_gui",
+    "summary": "Easily drag, drop, and resize windows on Windows by holding the Alt key anywhere, bringing beloved Linux ergonomics to your desktop.",
+    "i18n": {
+      "it": "Easily drag, drop, and resize windows on Windows by holding the Alt key anywhere, bringing beloved Linux ergonomics to your desktop.",
+      "es": "Easily drag, drop, and resize windows on Windows by holding the Alt key anywhere, bringing beloved Linux ergonomics to your desktop.",
+      "fr": "Easily drag, drop, and resize windows on Windows by holding the Alt key anywhere, bringing beloved Linux ergonomics to your desktop.",
+      "de": "Easily drag, drop, and resize windows on Windows by holding the Alt key anywhere, bringing beloved Linux ergonomics to your desktop."
+    },
+    "download_url": "https://github.com/RamonUnch/AltSnap/releases/download/1.68/AltSnap1.68-inst.exe",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "cockpit",
@@ -24078,6 +24190,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "retoolkit",
+    "name": "retoolkit",
+    "tagline": "Pre-configured security and software analysis toolkit",
+    "repo_url": "https://github.com/mentebinaria/retoolkit",
+    "full_name": "mentebinaria/retoolkit",
+    "category": "Productivity",
+    "tags": [
+      "security",
+      "utilities"
+    ],
+    "icon": "/icons/retoolkit.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 5337,
+    "tier": "tier1_gui",
+    "summary": "Save hours setting up a security analysis workstation with this hand-picked bundle of pre-configured Windows utilities.",
+    "i18n": {
+      "it": "Risparmia ore nella configurazione di una postazione di analisi con questa raccolta di utilità Windows preconfigurate.",
+      "es": "Ahorra horas configurando una estación de trabajo de análisis con este paquete de utilidades de Windows preconfiguradas.",
+      "fr": "Gagnez des heures lors de la configuration d'un poste d'analyse avec ce lot d'utilitaires Windows préconfigurés.",
+      "de": "Sparen Sie Stunden beim Einrichten einer Analyse-Arbeitsstation mit diesem Bündel vorkonfigurierter Windows-Hilfsprogramme."
+    },
+    "download_url": "https://github.com/mentebinaria/retoolkit/releases/download/2026.04/retoolkit_2026.04.7z",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "nectarlink",
+    "name": "Nectarlink",
+    "tagline": "Connect your Android phone and PC seamlessly.",
+    "repo_url": "https://github.com/thtbee/nectarlink",
+    "full_name": "thtbee/nectarlink",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "utilities"
+    ],
+    "icon": "/icons/nectarlink.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux, Android",
+    "license": "Custom Open License",
+    "stars": 5328,
+    "tier": "tier1_gui",
+    "summary": "Control your Android phone, receive notifications, share files, and mirror your screen directly on your PC with complete privacy.",
+    "i18n": {
+      "it": "Gestisci notifiche, messaggi, file e schermo del tuo telefono Android direttamente sul computer in modo privato e sicuro.",
+      "es": "Controla tu teléfono Android, recibe notificaciones, comparte archivos y transmite tu pantalla directamente en el PC con privacidad.",
+      "fr": "Gérez vos notifications, messages, fichiers et écran de téléphone directement sur votre ordinateur en toute confidentialité.",
+      "de": "Empfangen Sie Benachrichtigungen, teilen Sie Dateien und spiegeln Sie Ihren Bildschirm direkt auf dem PC mit vollem Datenschutz."
+    },
+    "download_url": "https://github.com/thtbee/nectarlink/releases/download/v0.1.5/Nectarlink-0.1.5-arm64-setup.exe",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "isso",
     "name": "Isso",
     "tagline": "Lightweight, private-first website commenting system",
@@ -24190,6 +24358,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "kiln",
+    "name": "Kiln",
+    "tagline": "Build, evaluate, and optimize AI models locally",
+    "repo_url": "https://github.com/kiln-ai/kiln",
+    "full_name": "kiln-ai/kiln",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "machine-learning"
+    ],
+    "icon": "/icons/kiln.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS",
+    "license": "Custom Open License",
+    "stars": 5289,
+    "tier": "tier1_gui",
+    "summary": "An open-source desktop workbench that lets teams build, evaluate, fine-tune, and optimize artificial intelligence systems together without writing code.",
+    "i18n": {
+      "it": "Un ambiente di lavoro desktop open source per creare, valutare e ottimizzare sistemi di intelligenza artificiale senza scrivere codice.",
+      "es": "Un entorno de escritorio de código abierto para crear, evaluar y optimizar sistemas de inteligencia artificial sin programar.",
+      "fr": "Un atelier de bureau open-source pour créer, évaluer et optimiser des systèmes d'intelligence artificiallle sans écrire de code.",
+      "de": "Eine Open-Source-Desktop-Umgebung zum Erstellen, Bewerten und Optimieren von KI-Systemen ganz ohne Programmieraufwand."
+    },
+    "download_url": "https://github.com/Kiln-AI/Kiln/releases/download/v1.2.1/Kiln.MacOS.AppleSilicon.M-Processor.dmg",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "soundnode-app",
     "name": "soundnode-app",
     "tagline": "Listen to music without opening browser",
@@ -24244,6 +24440,34 @@
     },
     "download_url": "https://umbraco.com",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "micaforeveryone",
+    "name": "MicaForEveryone",
+    "tagline": "Bring modern Windows backdrops to classic apps.",
+    "repo_url": "https://github.com/micaforeveryone/micaforeveryone",
+    "full_name": "micaforeveryone/micaforeveryone",
+    "category": "Productivity",
+    "tags": [
+      "windows-11",
+      "customization"
+    ],
+    "icon": "/icons/micaforeveryone.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 5283,
+    "tier": "tier1_gui",
+    "summary": "MicaForEveryone enables modern translucent and material window background effects on classic desktop apps on Windows 11.",
+    "i18n": {
+      "it": "Abilita effetti di sfondo traslucidi moderni sulle app desktop classiche di Windows 11.",
+      "es": "Habilita efectos de fondo translúcidos modernos en aplicaciones de escritorio clásicas en Windows 11.",
+      "fr": "Activez des effets d'arrière-plan translucides modernes sur les applications classiques sous Windows 11.",
+      "de": "Aktivieren Sie moderne, durchscheinende Hintergrundeffekte für klassische Desktop-Anwendungen unter Windows 11."
+    },
+    "download_url": "https://github.com/MicaForEveryone/MicaForEveryone/releases/download/2.0.6.0/bundle.msixbundle",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "sophiapp",
@@ -24302,6 +24526,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "windowsspyblocker",
+    "name": "WindowsSpyBlocker",
+    "tagline": "Stop Windows spying and telemetry tracking",
+    "repo_url": "https://github.com/crazy-max/windowsspyblocker",
+    "full_name": "crazy-max/windowsspyblocker",
+    "category": "Security & Privacy",
+    "tags": [
+      "privacy",
+      "security"
+    ],
+    "icon": "/icons/windowsspyblocker.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 5240,
+    "tier": "tier1_gui",
+    "summary": "WindowsSpyBlocker analyzes and blocks network traffic to prevent data collection and telemetry on Windows computers.",
+    "i18n": {
+      "it": "WindowsSpyBlocker analizza e blocca il traffico di rete per impedire la raccolta di dati e la telemetria sui computer Windows.",
+      "es": "WindowsSpyBlocker analiza y bloquea el tráfico de red para evitar la recopilación de datos y telemetría en equipos con Windows.",
+      "fr": "WindowsSpyBlocker analyse et bloque le trafic réseau pour empêcher la collecte de données et la télémétrie sur les PC Windows.",
+      "de": "WindowsSpyBlocker analysiert und blockiert den Netzwerkverkehr, um Datensammlung und Telemetrie auf Windows-PCs zu verhindern."
+    },
+    "download_url": "https://github.com/crazy-max/WindowsSpyBlocker/releases/download/4.39.0/WindowsSpyBlocker.exe",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "astron-rpa",
     "name": "AstronRPA",
     "tagline": "Automate repetitive tasks with visual workflows.",
@@ -24356,6 +24608,34 @@
     },
     "download_url": "https://github.com/colanode/colanode/releases/download/v0.4.7/Colanode-0.4.7.Setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "chat-on-steroids",
+    "name": "Chat On Steroids",
+    "tagline": "Supercharge your local coding workflows effortlessly.",
+    "repo_url": "https://github.com/totec448-spec/chat-on-steroids",
+    "full_name": "totec448-spec/chat-on-steroids",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/chat-on-steroids.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 5205,
+    "tier": "tier1_gui",
+    "summary": "Transform your everyday artificial intelligence chats into a powerful local workspace that manages files, runs tests, and executes multi-agent projects.",
+    "i18n": {
+      "it": "Trasforma le chat di intelligenza artificiale in un potente spazio di lavoro locale per gestire file, test e progetti multi-agente.",
+      "es": "Convierte tus chats de inteligencia artificial en un potente espacio de trabajo local que gestiona archivos, pruebas y proyectos.",
+      "fr": "Transformez vos discussions d'intelligence artificielle en un espace de travail local puissant pour gérer vos fichiers et projets.",
+      "de": "Verwandeln Sie Ihre KI-Chats in einen leistungsstarken lokalen Arbeitsbereich zur Verwaltung von Dateien, Tests und Projekten."
+    },
+    "download_url": "https://github.com/totec448-spec/chat-on-steroids/releases/download/v2.1.54/Chat-On-Steroids-Setup-arm64.exe",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "libreddit",
@@ -24470,6 +24750,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "aliyunpan",
+    "name": "aliyunpan",
+    "tagline": "Manage your cloud storage via command line",
+    "repo_url": "https://github.com/tickstep/aliyunpan",
+    "full_name": "tickstep/aliyunpan",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "cloud-storage"
+    ],
+    "icon": "/icons/aliyunpan.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 5143,
+    "tier": "tier1_gui",
+    "summary": "A lightweight command-line tool that lets you manage, back up, and transfer files smoothly across multiple cloud storage accounts.",
+    "i18n": {
+      "it": "Un pratico strumento per gestire, archiviare e sincronizzare file nel cloud direttamente dal terminale.",
+      "es": "Una herramienta ligera por comandos para gestionar, respaldar y sincronizar tus archivos en la nube.",
+      "fr": "Un utilitaire pour gérer, sauvegarder et synchroniser facilement vos fichiers sur le cloud depuis le terminal.",
+      "de": "Ein praktisches Konsolentool zum Verwalten, Sichern und Synchronisieren von Dateien im Cloud-Speicher."
+    },
+    "download_url": "https://github.com/tickstep/aliyunpan/releases",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "whereami",
     "name": "whereami",
     "tagline": "Smart indoor location tracking via Wi-Fi",
@@ -24580,6 +24888,34 @@
     },
     "download_url": "https://github.com/RandyGaul/cute_headers/releases",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "text-grab",
+    "name": "Text-Grab",
+    "tagline": "Copy any text you can see.",
+    "repo_url": "https://github.com/thejoefin/text-grab",
+    "full_name": "thejoefin/text-grab",
+    "category": "Productivity",
+    "tags": [
+      "ocr",
+      "screenshot"
+    ],
+    "icon": "/icons/text-grab.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 5094,
+    "tier": "tier1_gui",
+    "summary": "Capture and extract text from images, videos, and PDFs instantly on your Windows device using private on-device recognition.",
+    "i18n": {
+      "it": "Estrai testo da immagini, video e PDF istantaneamente sul tuo computer Windows utilizzando il riconoscimento locale privato.",
+      "es": "Captura y extrae texto de imágenes, vídeos y PDF al instante en tu dispositivo Windows mediante reconocimiento privado.",
+      "fr": "Capturez et extrayez du texte d'images, de vidéos et de PDF instantanément sur Windows grâce à la reconnaissance locale.",
+      "de": "Erfassen und extrahieren Sie Text aus Bildern, Videos und PDFs sofort auf Ihrem Windows-Gerät mit privater Texterkennung."
+    },
+    "download_url": "https://github.com/TheJoeFin/Text-Grab/releases/download/v4.16.0/Text-Grab-arm64.exe",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "desktopnaotu",
@@ -39869,6 +40205,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "automad",
+    "name": "Automad",
+    "tagline": "Simple flat-file website content manager",
+    "repo_url": "https://github.com/marcantondahmen/automad",
+    "full_name": "marcantondahmen/automad",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "publishing"
+    ],
+    "icon": "/icons/automad.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 966,
+    "tier": "tier2_webapp",
+    "summary": "Automad is a lightweight content management system and template engine that stores your pages as plain files without needing a traditional database.",
+    "i18n": {
+      "it": "Automad è un sistema di gestione dei contenuti leggero che archivia le pagine come file di testo senza database tradizionali.",
+      "es": "Automad es un sistema de gestión de contenidos ligero que almacena tus páginas como archivos de texto sin bases de datos.",
+      "fr": "Automad est un système de gestion de contenu léger qui stocke vos pages sous forme de fichiers simples sans base de données.",
+      "de": "Automad ist ein leichtgewichtiger Content-Manager und Template-Engine, der Ihre Seiten als einfache Dateien ohne Datenbank speichert."
+    },
+    "download_url": "https://automad.org",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "deepseek-harness-desktop",
     "name": "DeepSeek Harness Desktop",
     "tagline": "Your complete desktop AI coding workspace",
@@ -40063,6 +40427,34 @@
     },
     "download_url": "https://github.com/h3poteto/whalebird-desktop/releases/download/v6.3.1/Whalebird-6.3.1-win-x64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "conduit",
+    "name": "Conduit",
+    "tagline": "Batteries-included backend that works anywhere.",
+    "repo_url": "https://github.com/conduitplatform/conduit",
+    "full_name": "conduitplatform/conduit",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "backend",
+      "self-hosted"
+    ],
+    "icon": "/icons/conduit.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 928,
+    "tier": "tier2_webapp",
+    "summary": "Conduit is a self-hosted backend platform that eliminates boilerplate code by providing ready-made modules for databases, user authentication, and APIs.",
+    "i18n": {
+      "it": "Conduit è una piattaforma backend autogestita che elimina il codice ripetitivo fornendo moduli pronti all'uso per database e API.",
+      "es": "Conduit es una plataforma backend autohospedada que elimina el código repetitivo proporcionando módulos listos para bases de datos y API.",
+      "fr": "Conduit est une plateforme backend autohébergée qui élimine le code répétitif en fournissant des modules prêts pour les bases de données.",
+      "de": "Conduit ist eine selbst gehostete Backend-Plattform, die wiederkehrenden Code durch vorgefertigte Module für Datenbanken und APIs ersetzt."
+    },
+    "download_url": "https://getconduit.dev",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "vue-notion",
@@ -40653,6 +41045,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "concretecms",
+    "name": "Concrete CMS",
+    "tagline": "Build and manage websites intuitively.",
+    "repo_url": "https://github.com/concretecms/concretecms",
+    "full_name": "concretecms/concretecms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "website"
+    ],
+    "icon": "/icons/concretecms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 854,
+    "tier": "tier2_webapp",
+    "summary": "Concrete CMS makes creating, editing, and organizing digital content straightforward for everyday website administrators.",
+    "i18n": {
+      "it": "Concrete CMS rende semplice creare, modificare e organizzare contenuti digitali per qualsiasi amministratore di siti.",
+      "es": "Concrete CMS hace que crear, editar y organizar contenido digital sea muy fácil para cualquier administrador web.",
+      "fr": "Concrete CMS simplifie la création, la modification et l'organisation des contenus numériques pour les administrateurs.",
+      "de": "Concrete CMS macht das Erstellen, Bearbeiten und Organisieren von digitalen Inhalten für Website-Administratoren einfach."
+    },
+    "download_url": "https://www.concretecms.org",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "whispersubtranslate",
     "name": "WhisperSubTranslate",
     "tagline": "Turn any video into multilingual subtitles locally.",
@@ -40821,6 +41241,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "thrivex-blog",
+    "name": "ThriveX-Blog",
+    "tagline": "Modern open-source blog management system",
+    "repo_url": "https://github.com/liuyuyang01/thrivex-blog",
+    "full_name": "liuyuyang01/thrivex-blog",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "blogging",
+      "publishing"
+    ],
+    "icon": "/icons/thrivex-blog.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 844,
+    "tier": "tier2_webapp",
+    "summary": "ThriveX-Blog is a fresh, beautiful, and completely free publishing platform designed to help you share your thoughts effortlessly.",
+    "i18n": {
+      "it": "ThriveX-Blog è una piattaforma di pubblicazione fresca, elegante e completamente gratuita per condividere storie online.",
+      "es": "ThriveX-Blog es una plataforma de publicación moderna, hermosa y gratuita creada para compartir tus ideas con facilidad.",
+      "fr": "ThriveX-Blog est une plateforme de publication élégante et totalement ouverte pour partager vos articles en toute simplicité.",
+      "de": "ThriveX-Blog ist eine frische und wunderschöne Plattform, mit der Sie Ihre Geschichten unkompliziert im Netz teilen können."
+    },
+    "download_url": "https://liuyuyang.net",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "lin-cms-flask",
     "name": "lin-cms-flask",
     "tagline": "Practical content management framework for developers.",
@@ -40959,6 +41407,34 @@
     },
     "download_url": "https://github.com/Deepender25/Edge-Drop/releases/download/v0.4.0/Edge-Drop-Setup-0.4.0.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "jasmine",
+    "name": "Jasmine",
+    "tagline": "A clean and elegant Typecho blog theme",
+    "repo_url": "https://github.com/liaocp666/jasmine",
+    "full_name": "liaocp666/jasmine",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "blogging",
+      "web-design"
+    ],
+    "icon": "/icons/jasmine.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 826,
+    "tier": "tier2_webapp",
+    "summary": "Jasmine is a minimalist theme for Typecho that focuses on providing a beautiful and distraction-free reading experience for your visitors.",
+    "i18n": {
+      "it": "Jasmine è un tema minimalista per Typecho che offre un'esperienza di lettura bella e senza distrazioni per i tuoi visitatori.",
+      "es": "Jasmine es un tema minimalista para Typecho que se centra en ofrecer una experiencia de lectura hermosa y sin distracciones.",
+      "fr": "Jasmine est un thème minimaliste pour Typecho qui offre une expérience de lecture belle et sans distraction pour vos visiteurs.",
+      "de": "Jasmine ist ein minimalistisches Theme für Typecho, das ein schönes und ablenkungsfreies Leseerlebnis für Ihre Besucher bietet."
+    },
+    "download_url": "https://github.com/liaocp666/Jasmine/releases",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "everest",
@@ -41801,6 +42277,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "single",
+    "name": "Single",
+    "tagline": "Clean and atmospheric blog design theme",
+    "repo_url": "https://github.com/dreamer-paul/single",
+    "full_name": "dreamer-paul/single",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "blog",
+      "theme"
+    ],
+    "icon": "/icons/single.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 729,
+    "tier": "tier2_webapp",
+    "summary": "Transform your online journal with a minimalist website theme featuring built-in dark mode and smooth navigation.",
+    "i18n": {
+      "it": "Trasforma il tuo diario online con un tema minimalista dotato di modalità scura integrata e navigazione fluida.",
+      "es": "Transforma tu diario en línea con un tema minimalista que incluye modo oscuro integrado y navegación fluida.",
+      "fr": "Transformez votre journal en ligne avec un thème minimaliste doté d'un mode sombre intégré et d'une navigation fluide.",
+      "de": "Verwandeln Sie Ihr Online-Tagebuch mit einem minimalistischen Theme, integriertem Dunkelmodus und flüssiger Navigation."
+    },
+    "download_url": "https://paugram.com",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "tavotto",
     "name": "Tavotto",
     "tagline": "Make AI-drawn research figures publication-ready",
@@ -42109,6 +42613,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "cody",
+    "name": "cody",
+    "tagline": "Simple JavaScript website management system",
+    "repo_url": "https://github.com/jcoppieters/cody",
+    "full_name": "jcoppieters/cody",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "cms",
+      "website"
+    ],
+    "icon": "/icons/cody.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 679,
+    "tier": "tier2_webapp",
+    "summary": "Manage website content, users, and files easily using a friendly visual interface powered by Node.js.",
+    "i18n": {
+      "it": "Gestisci contenuti, utenti e file del sito facilmente tramite un'interfaccia visiva basata su Node.js.",
+      "es": "Gestiona contenido, usuarios y archivos de sitios web fácilmente usando una interfaz visual basada en Node.js.",
+      "fr": "Gérez le contenu, les utilisateurs et les fichiers de sites web facilement grâce à une interface visuelle Node.js.",
+      "de": "Verwalten Sie Website-Inhalte, Benutzer und Dateien ganz einfach über eine visuelle Oberfläche mit Node.js."
+    },
+    "download_url": "https://www.coppieters.be",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "unyo-app",
     "name": "Unyo",
     "tagline": "Stream anime and read manga ad-free.",
@@ -42135,6 +42667,62 @@
     },
     "download_url": "https://github.com/K3vinb5/unyo-app/releases",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ujcms",
+    "name": "UJCMS",
+    "tagline": "Modern enterprise-grade content management platform",
+    "repo_url": "https://github.com/dromara/ujcms",
+    "full_name": "dromara/ujcms",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "content-management",
+      "cms"
+    ],
+    "icon": "/icons/ujcms.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 672,
+    "tier": "tier2_webapp",
+    "summary": "Build professional websites and manage digital content easily with a robust, flexible Java-based publishing platform.",
+    "i18n": {
+      "it": "Crea siti web professionali e gestisci contenuti digitali con una robusta piattaforma di pubblicazione basata su Java.",
+      "es": "Crea sitios web profesionales y gestiona contenidos digitales con una plataforma de publicación robusta y flexible.",
+      "fr": "Créez des sites web professionnels et gérez vos contenus numériques grâce à une plateforme de publication robuste.",
+      "de": "Erstellen Sie professionelle Websites und verwalten Sie digitale Inhalte mit einer robusten, flexiblen Java-Plattform."
+    },
+    "download_url": "https://www.ujcms.com",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "simple-php-router",
+    "name": "Simple PHP Router",
+    "tagline": "Fast and lightweight URL routing for PHP",
+    "repo_url": "https://github.com/skipperbent/simple-php-router",
+    "full_name": "skipperbent/simple-php-router",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "php",
+      "router"
+    ],
+    "icon": "/icons/simple-php-router.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 670,
+    "tier": "tier2_webapp",
+    "summary": "Manage web page addresses and organize visitor navigation effortlessly with a fast, lightweight routing tool for custom PHP applications.",
+    "i18n": {
+      "it": "Gestisci gli indirizzi delle pagine web e organizza la navigazione dei visitatori senza sforzo con uno strumento di routing leggero per PHP.",
+      "es": "Gestiona direcciones web y organiza la navegación de visitantes sin esfuerzo con una herramienta de enrutamiento ligera para proyectos PHP.",
+      "fr": "Gérez les adresses web et organisez la navigation des visiteurs sans effort avec un outil de routage léger pour les projets PHP.",
+      "de": "Verwalten Sie Webadressen und organisieren Sie die Navigation mühelos mit einem schlanken Routing-Werkzeug für individuelle PHP-Projekte."
+    },
+    "download_url": "https://github.com/skipperbent/simple-php-router/releases",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "nativeshell",
@@ -42193,6 +42781,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "puput",
+    "name": "puput",
+    "tagline": "Simple and powerful blog manager",
+    "repo_url": "https://github.com/apsl/puput",
+    "full_name": "apsl/puput",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "blog",
+      "django"
+    ],
+    "icon": "/icons/puput.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 661,
+    "tier": "tier2_webapp",
+    "summary": "Puput is a clean and flexible blog management tool designed to plug seamlessly into your existing website content system.",
+    "i18n": {
+      "it": "Puput è uno strumento di gestione blog pulito e flessibile progettato per integrarsi perfettamente nel tuo sito web.",
+      "es": "Puput es una herramienta de gestión de blogs limpia y flexible diseñada para integrarse en tu sistema de contenidos.",
+      "fr": "Puput est un outil de gestion de blog propre et flexible conçu pour s'intégrer parfaitement à votre site web.",
+      "de": "Puput ist ein sauberes und flexibles Blog-Verwaltungstool, das sich nahtlos in Ihr bestehendes Website-System einfügt."
+    },
+    "download_url": "https://github.com/APSL/puput/releases",
+    "updated_at": "2026-11-23"
+  },
+  {
     "slug": "jet-pilot",
     "name": "JET Pilot",
     "tagline": "Manage cloud clusters with speed and style.",
@@ -42219,6 +42835,90 @@
     },
     "download_url": "https://github.com/unxsist/jet-pilot/releases/download/v2.3.1/JET.Pilot_2.3.1_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "django-fiber",
+    "name": "Django Fiber",
+    "tagline": "Simple content management for Django projects",
+    "repo_url": "https://github.com/django-fiber/django-fiber",
+    "full_name": "django-fiber/django-fiber",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-development",
+      "cms"
+    ],
+    "icon": "/icons/django-fiber.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 659,
+    "tier": "tier2_webapp",
+    "summary": "Django Fiber is a straightforward tool that adds content management capabilities to your existing web projects.",
+    "i18n": {
+      "it": "Django Fiber è uno strumento intuitivo che aggiunge funzionalità di gestione dei contenuti ai tuoi progetti web esistenti.",
+      "es": "Django Fiber es una herramienta directa que añade capacidades de gestión de contenidos a tus proyectos web existentes.",
+      "fr": "Django Fiber est un outil simple qui ajoute des fonctionnalités de gestion de contenu à vos projets web existants.",
+      "de": "Django Fiber ist ein unkompliziertes Werkzeug, das Ihre bestehenden Webprojekte um Funktionen zur Inhaltsverwaltung erweitert."
+    },
+    "download_url": "https://ridethepony.org/",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "nameless",
+    "name": "NamelessMC",
+    "tagline": "Custom websites for Minecraft communities",
+    "repo_url": "https://github.com/namelessmc/nameless",
+    "full_name": "namelessmc/nameless",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "gaming",
+      "community"
+    ],
+    "icon": "/icons/nameless.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 655,
+    "tier": "tier2_webapp",
+    "summary": "NamelessMC provides a complete website platform designed to help Minecraft server owners manage their community, forums, and player data.",
+    "i18n": {
+      "it": "NamelessMC offre una piattaforma completa per gestire community, forum e dati dei giocatori per i proprietari di server Minecraft.",
+      "es": "NamelessMC ofrece una plataforma web completa para que los dueños de servidores de Minecraft gestionen su comunidad, foros y jugadores.",
+      "fr": "NamelessMC propose une plateforme web complète pour aider les propriétaires de serveurs Minecraft à gérer leur communauté et leurs forums.",
+      "de": "NamelessMC bietet eine vollständige Web-Plattform, mit der Minecraft-Serverbesitzer ihre Community, Foren und Spielerdaten verwalten können."
+    },
+    "download_url": "https://namelessmc.com/",
+    "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "property-web-builder",
+    "name": "PropertyWebBuilder",
+    "tagline": "Create professional real estate websites quickly.",
+    "repo_url": "https://github.com/etewiah/property_web_builder",
+    "full_name": "etewiah/property_web_builder",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "real-estate",
+      "website-builder"
+    ],
+    "icon": "/icons/property-web-builder.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 652,
+    "tier": "tier2_webapp",
+    "summary": "PropertyWebBuilder helps you launch fully featured real estate websites with tools to manage listings, maps, and property details in one place.",
+    "i18n": {
+      "it": "PropertyWebBuilder ti permette di creare siti web professionali per il settore immobiliare gestendo annunci, mappe e dettagli in modo semplice.",
+      "es": "PropertyWebBuilder te ayuda a lanzar sitios web inmobiliarios completos con herramientas para gestionar listados, mapas y detalles de propiedades.",
+      "fr": "PropertyWebBuilder vous permet de lancer des sites immobiliers complets avec des outils pour gérer vos annonces, cartes et détails de biens.",
+      "de": "PropertyWebBuilder hilft Ihnen beim Erstellen vollständiger Immobilien-Websites mit Werkzeugen zur Verwaltung von Angeboten, Karten und Objektdaten."
+    },
+    "download_url": "https://propertywebbuilder.com",
+    "updated_at": "2026-11-23"
   },
   {
     "slug": "ebou",
