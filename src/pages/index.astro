@@ -311,6 +311,7 @@ for (const cat of categories.slice(1)) {
     interface CatalogEntry {
       slug: string;
       name: string;
+      tagline?: string;
       category: string;
       tags?: string[];
       icon: string;
@@ -551,6 +552,21 @@ for (const cat of categories.slice(1)) {
       }
     }
 
+    const SEARCH_SYNONYMS: Record<string, string[]> = {
+      password: ['password', 'passwords', 'vault', 'login', 'logins', 'keepass', 'bitwarden', 'passkey', 'credentials'],
+      passwords: ['password', 'passwords', 'vault', 'login', 'logins', 'keepass', 'bitwarden', 'passkey', 'credentials'],
+      manager: ['manager', 'vault', 'organizer', 'keeper', 'storage', 'store', 'manage', 'passwords', 'keepass'],
+      video: ['video', 'videos', 'ffmpeg', 'mp4', 'mkv', 'handbrake', 'losslesscut'],
+      editor: ['editor', 'edit', 'editing', 'trimmer', 'trim', 'split', 'merge', 'cut', 'cutter', 'converter', 'convert', 'transcode', 'studio'],
+      edit: ['editor', 'edit', 'editing', 'trimmer', 'trim', 'split', 'merge', 'cut', 'cutter', 'converter', 'convert', 'transcode'],
+      photoshop: ['photo', 'photos', 'image', 'images', 'graphics', 'raster', 'drawing', 'paint', 'pixel'],
+      photo: ['photo', 'photos', 'image', 'images', 'graphics', 'raster', 'photography'],
+      cloud: ['cloud', 'self-hosted', 'selfhosted', 'server', 'vps', 'deploy', 'docker', 'hosting'],
+      hosting: ['cloud', 'self-hosted', 'selfhosted', 'server', 'vps', 'deploy', 'docker', 'hosting'],
+      selfhosted: ['self-hosted', 'selfhosted', 'cloud', 'server', 'vps', 'docker', 'hosting'],
+      vpn: ['vpn', 'wireguard', 'ipsec', 'proxy', 'tunnel', 'privacy', 'encrypted'],
+    };
+
     function isConsumerAppEntry(item: CatalogEntry): boolean {
       const t = item.app_type || (item.is_webapp ? 'webapp' : 'desktop');
       return t === 'desktop' || t === 'selfhosted' || t === 'webapp';
@@ -595,8 +611,12 @@ for (const cat of categories.slice(1)) {
             }
           }
           if (!q) return true;
-          const hay = `${item.name} ${item.summary} ${Object.values(item.i18n || {}).join(' ')} ${item.category} ${(item.tags || []).join(' ')}`.toLowerCase();
-          return hay.includes(q);
+          const hay = `${item.slug} ${item.name} ${item.tagline || ''} ${item.summary} ${Object.values(item.i18n || {}).join(' ')} ${item.category} ${(item.tags || []).join(' ')}`.toLowerCase();
+          const tokens = q.split(/\s+/).filter(Boolean);
+          return tokens.every((tok) => {
+            const alts = SEARCH_SYNONYMS[tok] || [tok];
+            return alts.some((alt) => hay.includes(alt));
+          });
         })
         .sort((a, b) => {
           if (selectedFormat === 'all') {

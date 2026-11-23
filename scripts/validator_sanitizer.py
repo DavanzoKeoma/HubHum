@@ -190,20 +190,14 @@ def strip_disallowed_markdown_links(markdown_text: str, allowed_urls: list[str])
 
 
 CLEAN_SPONSOR_COPY: dict[str, tuple[str, str]] = {
-    "hubhum_01_MER047": ("PureVPN", "Optional encrypted VPN service for private connections on public Wi-Fi"),
-    "hubhum_01_MER008": ("InterServer", "Optional managed hosting if you want to run cloud/self-hosted apps 24/7"),
-    "hubhum_01_MER054": ("Creative Fabrica", "Optional creative marketplace offering fonts, icons, and design templates"),
-    "hubhum_01_MER349": ("Envato Elements Direct", "Optional royalty-free stock footage, music tracks, and motion templates"),
-    "hubhum_01_MER276": ("Rank Math Direct", "Optional search optimization toolkit for managing site previews and indexing"),
-    "hubhum_01_MER269": ("WP Rocket Direct", "Optional caching add-on to accelerate WordPress page loads"),
-    "hubhum_01_MER369": ("Placeit by Envato", "Optional browser-based mockup and template generator"),
-    "hubhum_01_MER265": ("Elementor Pro Direct", "Optional visual page builder for WordPress sites"),
-    "hubhum_01_MER023": ("ThemeIsle", "Optional lightweight themes and layout starter packs for websites"),
-    "hubhum_01_MER089": ("Surfshark VPN", "Optional encrypted VPN service across desktop and mobile devices"),
-    "hubhum_01_MER064": ("TorGuard", "Optional configurable VPN service for private networking"),
-    "hubhum_01_MER048": ("Private Internet Access", "Optional privacy-focused VPN client for multiple devices"),
-    "hubhum_01_MER009": ("ScalaHosting", "Optional managed VPS cloud hosting for web applications"),
-    "hubhum_01_MER014": ("RoseHosting", "Optional managed Linux cloud server hosting"),
+    "hubhum_01_MER047": ("PureVPN", "Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers"),
+    "hubhum_01_MER119": ("AdGuard", "Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps"),
+    "hubhum_01_MER096": ("FastestVPN", "Lifetime encrypted VPN protection with built-in ad blocking and WireGuard servers for private browsing"),
+    "hubhum_01_MER008": ("InterServer", "Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month"),
+    "hubhum_01_MER062": ("Hosting.com (ex A2 Hosting)", "High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites"),
+    "hubhum_01_MER007": ("NameSilo", "Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup"),
+    "hubhum_01_MER054": ("Creative Fabrica", "Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals"),
+    "hubhum_01_MER061": ("Systeme.io", "Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees"),
 }
 
 
@@ -337,7 +331,7 @@ def relocate_affiliate_links_to_sponsored_section(body: str, triplet: list[dict]
                 break
 
     if len(chosen_partners) < 3:
-        for fallback_sid in ("hubhum_01_MER008", "hubhum_01_MER047", "hubhum_01_MER276", "hubhum_01_MER054"):
+        for fallback_sid in ("hubhum_01_MER008", "hubhum_01_MER061", "hubhum_01_MER047", "hubhum_01_MER054", "hubhum_01_MER119"):
             if fallback_sid not in seen_subids and fallback_sid in merchants_by_subid:
                 seen_subids.add(fallback_sid)
                 chosen_partners.append(merchants_by_subid[fallback_sid])

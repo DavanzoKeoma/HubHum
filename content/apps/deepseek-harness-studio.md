@@ -4,25 +4,25 @@ slug: "deepseek-harness-studio"
 tagline: "No-code desktop studio for AI workflows"
 summary: "Manage local AI models, run ready-made workflows, and discover plugins easily with a friendly desktop workspace for Windows and macOS."
 tags: ["ai", "desktop", "productivity", "workflows"]
-is_webapp: false
-app_type: "desktop"
-category: "Productivity"
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
 icon: "/icons/deepseek-harness-studio.png"
 stars: 731
 source_url: "https://github.com/fufankeji/deepseek-harness-studio"
 download_url: "https://www.beyondata.com/"
 downloadUrl: "https://www.beyondata.com/"
-download_label: "Visit Official Site"
+download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS"
-applicationCategory: "UtilitiesApplication"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"
 affiliate_name: "InterServer"
 affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -67,8 +67,8 @@ Get the official desktop installation files directly from the GitHub releases pa
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
+* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/fufankeji/deepseek-harness-studio)

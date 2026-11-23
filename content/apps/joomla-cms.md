@@ -12,17 +12,17 @@ stars: 5168
 source_url: "https://github.com/joomla/joomla-cms"
 download_url: "https://github.com/joomla/joomla-cms/releases/download/6.2.0/Joomla_6.2.0-Stable-Full_Package.tar.zst"
 downloadUrl: "https://github.com/joomla/joomla-cms/releases/download/6.2.0/Joomla_6.2.0-Stable-Full_Package.tar.zst"
-download_label: "Download (Joomla_6.2.0-Stable-Full_Package.tar.zst)"
+download_label: "Official Setup & Docs →"
 license: "Open Source (GPL v2)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
 applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_276"
-affiliate_name: "Rank Math Direct"
-affiliate_url: "https://rankmath.com/?subid=hubhum_01_MER276"
-affiliate_pitch: "Build and optimize your website faster with industry-standard tools."
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Host and publish your website faster on reliable cloud infrastructure and custom domains."
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -65,8 +65,8 @@ To get started with your own website, please visit the official download portal 
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Rank Math Direct:** Optional search optimization toolkit for managing site previews and indexing — [Rank Math Direct](https://rankmath.com/?subid=hubhum_01_MER276) (#ad)
-* **WP Rocket Direct:** Optional caching add-on to accelerate WordPress page loads — [WP Rocket Direct](https://wp-rocket.me/?subid=hubhum_01_MER269) (#ad)
-* **Elementor Pro Direct:** Optional visual page builder for WordPress sites — [Elementor Pro Direct](https://elementor.com/?subid=hubhum_01_MER265) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
+* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/joomla/joomla-cms)

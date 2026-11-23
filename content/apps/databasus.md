@@ -22,7 +22,7 @@ price: "0"
 affiliate_merchant_id: "MER_008"
 affiliate_name: "InterServer"
 affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Want to launch it in 1 click on an optimized cloud server without manual setup?"
+affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -82,8 +82,8 @@ You can install Databasus using an automated script, Docker, or Kubernetes:
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **ScalaHosting:** Optional managed VPS cloud hosting for web applications — [ScalaHosting](https://www.scalahosting.com/?subid=hubhum_01_MER009) (#ad)
-* **RoseHosting:** Optional managed Linux cloud server hosting — [RoseHosting](https://www.rosehosting.com/?subid=hubhum_01_MER014) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
+* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/databasus/databasus)

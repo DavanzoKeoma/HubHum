@@ -22,7 +22,7 @@ price: "0"
 affiliate_merchant_id: "MER_054"
 affiliate_name: "Creative Fabrica"
 affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
-affiliate_pitch: "Compatible asset libraries, templates, and fonts for your creative projects."
+affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -68,8 +68,8 @@ Musikcube is a high-performance music player that runs directly in your computer
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
-* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
-* **Placeit by Envato:** Optional browser-based mockup and template generator — [Placeit by Envato](https://placeit.net/?subid=hubhum_01_MER369) (#ad)
+* **Creative Fabrica:** Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/clangen/musikcube)

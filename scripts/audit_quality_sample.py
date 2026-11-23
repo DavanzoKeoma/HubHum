@@ -31,7 +31,7 @@ MERCHANT_SUBID_RE = re.compile(r"hubhum_01_MER(\d+)", re.IGNORECASE)
 DUPLICATE_FREE_RE = re.compile(r"\b(Free)\s+\1\b", re.IGNORECASE)
 
 WP_SEO_MERCHANTS = {"MER_276", "MER_265", "MER_269", "MER_023", "MER_141", "MER_192"}
-VPN_MERCHANTS = {"MER_047", "MER_089", "MER_064", "MER_048"}
+VPN_MERCHANTS = {"MER_089", "MER_064", "MER_048"}
 
 
 def _get_commit_app_files(commit_sha: str) -> set[str]:

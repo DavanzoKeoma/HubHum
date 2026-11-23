@@ -5,7 +5,7 @@ tagline: "Securely store and manage all your passwords."
 summary: "Bitwarden is a secure digital vault that remembers your passwords and sensitive information across all your devices."
 tags: ["security", "privacy", "passwords"]
 is_webapp: false
-app_type: "cli"
+app_type: "desktop"
 category: "Security & Privacy"
 icon: "/icons/clients.png"
 stars: 14296
@@ -14,7 +14,7 @@ download_url: "https://github.com/bitwarden/clients/releases/download/desktop-v2
 downloadUrl: "https://github.com/bitwarden/clients/releases/download/desktop-v2026.11.0/bit-Bitwarden-Installer-2026.11.0.exe"
 download_label: "Download for Windows (.exe)"
 license: "Custom Open License"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
@@ -22,7 +22,7 @@ price: "0"
 affiliate_merchant_id: "MER_047"
 affiliate_name: "PureVPN"
 affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
-affiliate_pitch: "Protect your connection before downloading or using this app."
+affiliate_pitch: "Protect your connection and block trackers before downloading or using this app."
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -66,8 +66,8 @@ You can download the official desktop application for your operating system belo
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
-* **Private Internet Access:** Optional privacy-focused VPN client for multiple devices — [Private Internet Access](https://www.privateinternetaccess.com/?subid=hubhum_01_MER048) (#ad)
+* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
+* **FastestVPN:** Lifetime encrypted VPN protection with built-in ad blocking and WireGuard servers for private browsing — [FastestVPN](https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89&subid=hubhum_01_MER096) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/bitwarden/clients)

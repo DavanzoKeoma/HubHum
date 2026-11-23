@@ -4,25 +4,25 @@ slug: "opencode-studio"
 tagline: "Manage your local OpenCode environment visually"
 summary: "Manage your local AI coding assistant setups, plugins, and server rules effortlessly through a visual control panel instead of editing raw configuration files."
 tags: ["ai", "configuration", "utilities", "developer-tools"]
-is_webapp: false
-app_type: "desktop"
-category: "Productivity"
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
 icon: "/icons/opencode-studio.png"
 stars: 796
 source_url: "https://github.com/Microck/opencode-studio"
 download_url: "https://github.com/Microck/opencode-studio/releases/download/v2.6.0/SHA256SUMS"
 downloadUrl: "https://github.com/Microck/opencode-studio/releases/download/v2.6.0/SHA256SUMS"
-download_label: "Download (SHA256SUMS)"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "UtilitiesApplication"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"
 affiliate_name: "InterServer"
 affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -70,8 +70,8 @@ Once installed, visit the web interface or use the local quickstart scripts prov
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
+* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/Microck/opencode-studio)

@@ -5,7 +5,7 @@ tagline: "Run and test web requests easily."
 summary: "Run and test web requests using simple text files instead of complex code."
 tags: ["http", "testing", "automation"]
 is_webapp: false
-app_type: "cli"
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/hurl.png"
 stars: 19346
@@ -14,15 +14,15 @@ download_url: "https://github.com/Orange-OpenSource/hurl/releases/download/8.1.0
 downloadUrl: "https://github.com/Orange-OpenSource/hurl/releases/download/8.1.0/hurl-8.1.0-x86_64-pc-windows-msvc-installer.exe"
 download_label: "Download for Windows (.exe)"
 license: "Open Source (Apache 2.0)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_008"
-affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Protect your files with encrypted cloud backups and personal connection security."
+affiliate_merchant_id: "MER_061"
+affiliate_name: "Systeme.io"
+affiliate_url: "https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061"
+affiliate_pitch: "Automate everyday online workflows free forever and safeguard your devices and backups."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -67,8 +67,8 @@ Hurl lets you write web requests and tests in a straightforward, human-readable 
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
+* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/Orange-OpenSource/hurl)

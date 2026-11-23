@@ -5,8 +5,8 @@ tagline: "Easy visual controller for video downloaders."
 summary: "Easily download online videos and whole playlists with a clean desktop window instead of typing complex commands."
 tags: ["downloader", "windows", "video", "utility"]
 is_webapp: false
-app_type: "desktop"
-category: "Video & Audio"
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/youtube-dl-wpf.png"
 stars: 1436
 source_url: "https://github.com/database64128/youtube-dl-wpf"
@@ -14,15 +14,15 @@ download_url: "https://github.com/database64128/youtube-dl-wpf/releases/download
 downloadUrl: "https://github.com/database64128/youtube-dl-wpf/releases/download/v1.13.1/youtube-dl-wpf-v1.13.1-windows-arm64.7z"
 download_label: "Download (youtube-dl-wpf-v1.13.1-windows-arm64.7z)"
 license: "Open Source (GPL v3)"
-scouting_tier: "tier1_gui"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"
 affiliate_name: "PureVPN"
 affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
-affiliate_pitch: "Protect your connection before downloading or using this app."
+affiliate_pitch: "Protect your connection and block trackers before downloading or using this app."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -69,8 +69,8 @@ To use this application, download one of the pre-built packages for your specifi
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **PureVPN:** Optional encrypted VPN service for private connections on public Wi-Fi — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
-* **Surfshark VPN:** Optional encrypted VPN service across desktop and mobile devices — [Surfshark VPN](https://surfshark.com/?subid=hubhum_01_MER089) (#ad)
-* **Private Internet Access:** Optional privacy-focused VPN client for multiple devices — [Private Internet Access](https://www.privateinternetaccess.com/?subid=hubhum_01_MER048) (#ad)
+* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
+* **FastestVPN:** Lifetime encrypted VPN protection with built-in ad blocking and WireGuard servers for private browsing — [FastestVPN](https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89&subid=hubhum_01_MER096) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/database64128/youtube-dl-wpf)

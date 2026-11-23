@@ -14,100 +14,125 @@ OUTPUT_PATH = PROJECT_ROOT / "data" / "affiliates_seed.json"
 
 CONSUMER_BASE_URLS: dict[str, str] = {
     "MER_047": "https://billing.purevpn.com/aff.php?aff=49386762",
-    "MER_089": "https://surfshark.com/",
-    "MER_048": "https://www.privateinternetaccess.com/",
-    "MER_064": "https://torguard.net/",
+    "MER_119": "https://adguard.com/?aid=138327",
+    "MER_096": "https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89",
     "MER_008": "https://www.interserver.net/r/1196747?id={clickid}",
-    "MER_009": "https://www.scalahosting.com/",
-    "MER_014": "https://www.rosehosting.com/",
+    "MER_062": "https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi",
+    "MER_007": "https://www.namesilo.com/?rid=b01c445hx",
     "MER_054": "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=[clickid]",
-    "MER_349": "https://elements.envato.com/",
-    "MER_369": "https://placeit.net/",
-    "MER_269": "https://wp-rocket.me/",
-    "MER_276": "https://rankmath.com/",
-    "MER_265": "https://elementor.com/",
-    "MER_023": "https://themeisle.com/",
+    "MER_061": "https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee",
 }
+
+VERIFIED_TRACKING_TOKENS = (
+    "aff=",
+    "aid=",
+    "a_aid=",
+    "/r/1196747",
+    "fpr=",
+    "rid=",
+    "/ref/29328369",
+    "sa=",
+)
 
 TRIPLET_DEFINITIONS: dict[str, list[dict[str, str]]] = {
     "privacy_security": [
         {
             "merchant_id": "MER_047",
             "context_role": "connection_privacy",
-            "section_hint": "### How to install (Download)",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
             "tip_template": "Before downloading installers or syncing private files over public Wi-Fi, shield your connection with [PureVPN]({url}) (#ad).",
         },
         {
-            "merchant_id": "MER_008",
-            "context_role": "private_cloud_backup",
-            "section_hint": "### What it does in plain English",
-            "tip_template": "For full control over encrypted off-site backups and private syncing, pair your setup with cloud storage on [InterServer]({url}) (#ad).",
+            "merchant_id": "MER_119",
+            "context_role": "system_adblock_privacy",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Block intrusive ads, tracking scripts, and phishing domains system-wide across browsers and apps with [AdGuard]({url}) (#ad).",
         },
         {
-            "merchant_id": "MER_054",
-            "context_role": "productivity_assets",
-            "section_hint": "### Key features",
-            "tip_template": "Ready-to-use digital planners, printable checklists, and clean document templates for daily organization via [Creative Fabrica]({url}) (#ad).",
-        },
-    ],
-    "graphics_video_design": [
-        {
-            "merchant_id": "MER_054",
-            "context_role": "fonts_templates",
-            "section_hint": "### Key features",
-            "tip_template": "Expand your creative library with commercial-safe fonts, lower-third templates, and overlays from [Creative Fabrica]({url}) (#ad).",
-        },
-        {
-            "merchant_id": "MER_349",
-            "context_role": "stock_media",
-            "section_hint": "### What it does in plain English",
-            "tip_template": "When you need royalty-free stock footage, music tracks, and motion presets alongside your edits, check out [Envato Elements Direct]({url}) (#ad).",
-        },
-        {
-            "merchant_id": "MER_047",
-            "context_role": "fast_private_transfers",
-            "section_hint": "### How to install (Download)",
-            "tip_template": "Keep large installer downloads and media transfers private without ISP bandwidth throttling via [PureVPN]({url}) (#ad).",
+            "merchant_id": "MER_096",
+            "context_role": "lifetime_vpn_tunnel",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Protect every device with WireGuard VPN encryption and built-in malware filtering via [FastestVPN]({url}) (#ad).",
         },
     ],
     "webapp_cms": [
         {
             "merchant_id": "MER_008",
             "context_role": "managed_cloud_hosting",
-            "section_hint": "### How to install (Download)",
-            "tip_template": "Prefer not to manage servers by hand? Run it online 24/7 in 1 click on [InterServer]({url}) (#ad).",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month with [InterServer]({url}) (#ad).",
         },
         {
-            "merchant_id": "MER_276",
-            "context_role": "seo_visibility",
-            "section_hint": "### Key features",
-            "tip_template": "Once your web portal is live, improve search indexing and rich previews with [Rank Math Direct]({url}) (#ad).",
+            "merchant_id": "MER_062",
+            "context_role": "high_speed_turbo_hosting",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Scale self-hosted web workspaces and databases with high-speed NVMe Turbo cloud hosting on [Hosting.com (ex A2 Hosting)]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_007",
+            "context_role": "domain_registrar",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Connect a custom domain at wholesale rates with free lifetime WHOIS privacy and instant DNS via [NameSilo]({url}) (#ad).",
+        },
+    ],
+    "graphics_video_design": [
+        {
+            "merchant_id": "MER_054",
+            "context_role": "fonts_templates",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Download commercial-safe fonts, SVG bundles, and ready-to-use creative templates with [Creative Fabrica]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_061",
+            "context_role": "creator_showcase_funnels",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Build portfolio pages, digital product storefronts, and automated email delivery free forever with [Systeme.io]({url}) (#ad).",
         },
         {
             "merchant_id": "MER_047",
-            "context_role": "admin_session_security",
-            "section_hint": "### What it does in plain English",
-            "tip_template": "Protect remote administrator dashboards when managing your site on the go with [PureVPN]({url}) (#ad).",
+            "context_role": "fast_private_transfers",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Keep large installer downloads and media asset transfers encrypted and private on public networks via [PureVPN]({url}) (#ad).",
         },
     ],
     "webdev_wordpress": [
         {
-            "merchant_id": "MER_276",
-            "context_role": "seo_growth",
-            "section_hint": "### Key features",
-            "tip_template": "Help everyday readers find your site faster on search engines with structured tools from [Rank Math Direct]({url}) (#ad).",
+            "merchant_id": "MER_008",
+            "context_role": "reliable_cloud_hosting",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Run your website or publishing stack 24/7 on dependable, budget-friendly cloud VPS hosting via [InterServer]({url}) (#ad).",
         },
         {
-            "merchant_id": "MER_269",
-            "context_role": "page_speed_caching",
-            "section_hint": "### What it does in plain English",
-            "tip_template": "Pair clean publishing with instant page caching to keep loading times snappy using [WP Rocket Direct]({url}) (#ad).",
+            "merchant_id": "MER_062",
+            "context_role": "turbo_web_hosting",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Accelerate dynamic websites and publishing dashboards with NVMe Turbo servers on [Hosting.com (ex A2 Hosting)]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_007",
+            "context_role": "domain_privacy_dns",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Register your project domain with free WHOIS privacy protection and straightforward DNS management on [NameSilo]({url}) (#ad).",
+        },
+    ],
+    "productivity_utilities": [
+        {
+            "merchant_id": "MER_061",
+            "context_role": "all_in_one_workspace",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Organize client funnels, newsletters, and automated everyday workflows on a free-forever plan with [Systeme.io]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_119",
+            "context_role": "distraction_free_browsing",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Speed up everyday browsing and block trackers and pop-ups system-wide with [AdGuard]({url}) (#ad).",
         },
         {
             "merchant_id": "MER_008",
-            "context_role": "reliable_cloud_hosting",
-            "section_hint": "### How to install (Download)",
-            "tip_template": "Run your finished project on dependable, budget-friendly cloud hosting via [InterServer]({url}) (#ad).",
+            "context_role": "cloud_backup_storage",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Store off-site backups and private cloud utilities reliably 24/7 on affordable VPS hosting via [InterServer]({url}) (#ad).",
         },
     ],
 }
@@ -116,24 +141,24 @@ CATEGORY_MAPPING: dict[str, dict[str, object]] = {
     "privacy_security": {
         "label": "Privacy, Torrenting & Security",
         "human_tags": ["privacy", "security", "vpn", "password", "torrent", "notes"],
-        "merchant_ids": ["MER_047", "MER_089", "MER_048", "MER_064"],
-        "injection_message": "Protect your connection before downloading or using this app.",
+        "merchant_ids": ["MER_047", "MER_119", "MER_096"],
+        "injection_message": "Protect your connection and block trackers before downloading or using this app.",
         "cta_label": "Protect your privacy",
         "i18n": {
             "it": {
-                "injection_message": "Proteggi la tua connessione prima di scaricare o usare questa app.",
+                "injection_message": "Proteggi la tua connessione e blocca i tracker prima di scaricare o usare questa app.",
                 "cta_label": "Proteggi la tua privacy",
             },
             "es": {
-                "injection_message": "Protege tu conexión antes de descargar o usar esta aplicación.",
+                "injection_message": "Protege tu conexión y bloquea rastreadores antes de descargar o usar esta aplicación.",
                 "cta_label": "Protege tu privacidad",
             },
             "fr": {
-                "injection_message": "Protégez votre connexion avant de télécharger ou d'utiliser cette application.",
+                "injection_message": "Protégez votre connexion et bloquez les traqueurs avant de télécharger ou d'utiliser cette application.",
                 "cta_label": "Protégez votre vie privée",
             },
             "de": {
-                "injection_message": "Schützen Sie Ihre Verbindung, bevor Sie diese App herunterladen oder nutzen.",
+                "injection_message": "Schützen Sie Ihre Verbindung und blockieren Sie Tracker, bevor Sie diese App herunterladen oder nutzen.",
                 "cta_label": "Privatsphäre schützen",
             },
         },
@@ -141,7 +166,7 @@ CATEGORY_MAPPING: dict[str, dict[str, object]] = {
     "webapp_cms": {
         "label": "Web Apps, CMS & Cloud Tools",
         "human_tags": ["webapp", "cms", "cloud", "self-hosted", "blog", "automation"],
-        "merchant_ids": ["MER_008", "MER_009", "MER_014"],
+        "merchant_ids": ["MER_008", "MER_062", "MER_007"],
         "injection_message": "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting.",
         "cta_label": "Open in Cloud (1-Click)",
         "i18n": {
@@ -166,7 +191,7 @@ CATEGORY_MAPPING: dict[str, dict[str, object]] = {
     "graphics_video_design": {
         "label": "Graphics, Video & Audio",
         "human_tags": ["graphics", "video", "design", "audio", "editing", "images"],
-        "merchant_ids": ["MER_349", "MER_054", "MER_369"],
+        "merchant_ids": ["MER_054", "MER_061", "MER_047"],
         "injection_message": "Download ready-to-use fonts, templates, and creative assets for your projects.",
         "cta_label": "Browse ready-to-use templates",
         "i18n": {
@@ -191,25 +216,50 @@ CATEGORY_MAPPING: dict[str, dict[str, object]] = {
     "webdev_wordpress": {
         "label": "Websites & Publishing",
         "human_tags": ["wordpress", "seo", "websites", "ecommerce", "landing", "productivity"],
-        "merchant_ids": ["MER_269", "MER_276", "MER_265", "MER_023"],
-        "injection_message": "Build and optimize your website faster with industry-standard tools.",
-        "cta_label": "Explore website tools",
+        "merchant_ids": ["MER_008", "MER_062", "MER_007"],
+        "injection_message": "Host and publish your website faster on reliable cloud infrastructure and custom domains.",
+        "cta_label": "Explore cloud hosting & domains",
         "i18n": {
             "it": {
-                "injection_message": "Costruisci e ottimizza il tuo sito più velocemente con strumenti professionali.",
-                "cta_label": "Scopri gli strumenti web",
+                "injection_message": "Ospita e pubblica il tuo sito più velocemente su infrastruttura cloud affidabile e domini dedicati.",
+                "cta_label": "Scopri hosting cloud e domini",
             },
             "es": {
-                "injection_message": "Crea y optimiza tu sitio web más rápido con herramientas estándar del sector.",
-                "cta_label": "Explorar herramientas web",
+                "injection_message": "Aloja y publica tu sitio web más rápido con hosting cloud confiable y dominios propios.",
+                "cta_label": "Explorar hosting y dominios",
             },
             "fr": {
-                "injection_message": "Créez et optimisez votre site web plus rapidement avec des outils de référence.",
-                "cta_label": "Découvrir les outils web",
+                "injection_message": "Hébergez et publiez votre site plus vite sur une infrastructure cloud fiable et des domaines dédiés.",
+                "cta_label": "Découvrir hébergement et domaines",
             },
             "de": {
-                "injection_message": "Erstellen und optimieren Sie Ihre Website schneller mit bewährten Standard-Tools.",
-                "cta_label": "Website-Tools entdecken",
+                "injection_message": "Hosten und veröffentlichen Sie Ihre Website schneller auf zuverlässiger Cloud-Infrastruktur mit eigener Domain.",
+                "cta_label": "Cloud-Hosting & Domains entdecken",
+            },
+        },
+    },
+    "productivity_utilities": {
+        "label": "Productivity, Backups & Everyday Utilities",
+        "human_tags": ["productivity", "backup", "notes", "workflow", "utility", "files"],
+        "merchant_ids": ["MER_061", "MER_119", "MER_008"],
+        "injection_message": "Automate everyday online workflows free forever and safeguard your devices and backups.",
+        "cta_label": "Start free workflow tools",
+        "i18n": {
+            "it": {
+                "injection_message": "Automatizza i flussi di lavoro gratis per sempre e proteggi dispositivi e backup nel cloud.",
+                "cta_label": "Inizia gratis ora",
+            },
+            "es": {
+                "injection_message": "Automatiza tus flujos de trabajo gratis para siempre y protege tus dispositivos y copias.",
+                "cta_label": "Empezar gratis ahora",
+            },
+            "fr": {
+                "injection_message": "Automatisez vos flux en ligne gratuitement à vie et protégez vos appareils et sauvegardes.",
+                "cta_label": "Commencer gratuitement",
+            },
+            "de": {
+                "injection_message": "Automatisieren Sie Ihre Abläufe dauerhaft kostenlos und sichern Sie Geräte sowie Cloud-Backups.",
+                "cta_label": "Jetzt kostenlos starten",
             },
         },
     },
@@ -239,6 +289,8 @@ def apply_subid_to_url(raw_url: str, subid: str) -> str:
         return raw_url.replace("{clickid}", subid)
 
     parsed = urlparse(raw_url)
+    if not parsed.path:
+        parsed = parsed._replace(path="/")
     query_params = dict(parse_qsl(parsed.query, keep_blank_values=True))
     query_params.setdefault("subid", subid)
     new_query = urlencode(query_params)
@@ -293,7 +345,11 @@ def _build_merchant_entry(mid: str, cat_key: str, m: dict, link_cfg: dict | None
     subid = build_subid(mid)
     raw_template = link_cfg["URL_Affiliato"] if link_cfg else CONSUMER_BASE_URLS.get(mid, m["URL_Policy"])
     tracking_url = apply_subid_to_url(raw_template, subid)
-    has_verified_tracking = bool(link_cfg) or ("aff=" in (m.get("URL_Policy") or ""))
+    has_verified_tracking = (bool(link_cfg) or ("aff=" in (m.get("URL_Policy") or ""))) and any(
+        tok in tracking_url for tok in VERIFIED_TRACKING_TOKENS
+    )
+    if not has_verified_tracking:
+        raise RuntimeError(f"Merchant {mid} ({m['Nome']}) privo di Affiliate ID verificato in tracking_url: {tracking_url}")
 
     return {
         "merchant_id": mid,
@@ -331,7 +387,6 @@ def build_seed_payload(db_path: Path) -> dict:
 
     for cat_key, cat_cfg in CATEGORY_MAPPING.items():
         cat_merchants = [merchants_index[mid] for mid in cat_cfg["merchant_ids"]]  # type: ignore[index]
-        cat_merchants.sort(key=lambda x: (x["verified_tracking_link"], x["priority_score"]), reverse=True)
 
         triplet_out = []
         for tdef in TRIPLET_DEFINITIONS[cat_key]:

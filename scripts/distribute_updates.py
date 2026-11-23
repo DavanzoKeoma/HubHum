@@ -172,12 +172,13 @@ def publish_devto(post: dict[str, object], dry_run: bool = False) -> str:
             "tags": post["tags"],
         }
     }
-    status, _ = _post_json(
+    status, resp_data = _post_json(
         "https://dev.to/api/articles",
         payload,
         headers={"api-key": api_key},
     )
-    print(f"[DISTRIBUTE OK] Dev.to -> HTTP {status} (canonical={post['canonical_url']})")
+    live_url = str(resp_data.get("url") or "")
+    print(f"[DISTRIBUTE OK] Dev.to -> HTTP {status} (live_url={live_url or 'n/a'}, canonical={post['canonical_url']})")
     return "sent"
 
 
@@ -209,12 +210,14 @@ def publish_hashnode(post: dict[str, object], dry_run: bool = False) -> str:
             }
         },
     }
-    status, _ = _post_json(
+    status, resp_data = _post_json(
         "https://gql.hashnode.com",
         payload,
         headers={"Authorization": token},
     )
-    print(f"[DISTRIBUTE OK] Hashnode -> HTTP {status} (canonical={post['canonical_url']})")
+    post_obj = ((resp_data.get("data") or {}).get("publishPost") or {}).get("post") if isinstance(resp_data, dict) else {}
+    live_url = str((post_obj or {}).get("url") or "")
+    print(f"[DISTRIBUTE OK] Hashnode -> HTTP {status} (live_url={live_url or 'n/a'}, canonical={post['canonical_url']})")
     return "sent"
 
 
@@ -231,13 +234,30 @@ def publish_mastodon(post: dict[str, object], dry_run: bool = False) -> str:
         f"{post['title']}\n\n{post['summary']}\n\n{post['cta_hook']}\n"
         f"{post['canonical_url']}\n#OpenSource #SelfHosted #FreeSoftware #HubHum"
     )
-    status, _ = _post_json(
+    status, resp_data = _post_json(
         f"{instance}/api/v1/statuses",
         {"status": status_text[:490], "visibility": "public"},
         headers={"Authorization": f"Bearer {token}"},
     )
-    print(f"[DISTRIBUTE OK] Mastodon -> HTTP {status}")
+    live_url = str(resp_data.get("url") or resp_data.get("uri") or "")
+    print(f"[DISTRIBUTE OK] Mastodon -> HTTP {status} (live_url={live_url or 'n/a'})")
     return "sent"
+
+
+def _build_bluesky_link_facets(text: str) -> list[dict[str, object]]:
+    """Build AT Protocol byte-offset facets so URLs in Bluesky posts are clickable."""
+    facets: list[dict[str, object]] = []
+    for match in re.finditer(r"https?://[^\s]+", text):
+        url = match.group(0).rstrip(".,;)")
+        byte_start = len(text[: match.start()].encode("utf-8"))
+        byte_end = byte_start + len(url.encode("utf-8"))
+        facets.append(
+            {
+                "index": {"byteStart": byte_start, "byteEnd": byte_end},
+                "features": [{"$type": "app.bsky.richtext.facet#link", "uri": url}],
+            }
+        )
+    return facets
 
 
 def publish_bluesky(post: dict[str, object], dry_run: bool = False) -> str:
@@ -257,21 +277,30 @@ def publish_bluesky(post: dict[str, object], dry_run: bool = False) -> str:
     )
     access_jwt = str(sess.get("accessJwt") or "")
     did = str(sess.get("did") or "")
-    text = f"{post['title']} — {post['summary'][:130]} {post['canonical_url']}"[:295]
-    status, _ = _post_json(
+    url_str = str(post["canonical_url"])
+    prefix_budget = max(40, 295 - len(url_str) - 2)
+    blurb = f"{post['title']} — {post['summary']}"[:prefix_budget].rstrip()
+    text = f"{blurb}\n{url_str}"[:298]
+    facets = _build_bluesky_link_facets(text)
+    record: dict[str, object] = {
+        "$type": "app.bsky.feed.post",
+        "text": text,
+        "createdAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+    }
+    if facets:
+        record["facets"] = facets
+    status, resp_data = _post_json(
         "https://bsky.social/xrpc/com.atproto.repo.createRecord",
         {
             "repo": did,
             "collection": "app.bsky.feed.post",
-            "record": {
-                "$type": "app.bsky.feed.post",
-                "text": text,
-                "createdAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-            },
+            "record": record,
         },
         headers={"Authorization": f"Bearer {access_jwt}"},
     )
-    print(f"[DISTRIBUTE OK] Bluesky -> HTTP {status}")
+    rkey = str(resp_data.get("uri") or "").split("/")[-1]
+    live_url = f"https://bsky.app/profile/{handle}/post/{rkey}" if rkey else ""
+    print(f"[DISTRIBUTE OK] Bluesky -> HTTP {status} (live_url={live_url or 'n/a'})")
     return "sent"
 
 

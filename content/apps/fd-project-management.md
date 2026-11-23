@@ -4,25 +4,25 @@ slug: "fd-project-management"
 tagline: "Responsive project management dashboard template"
 summary: "A modern responsive project management dashboard interface built to help track tasks and monitor team progress effortlessly."
 tags: ["flutter", "dashboard", "project-management", "ui-template"]
-is_webapp: false
-app_type: "desktop"
-category: "Graphics & Design"
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
 icon: "/icons/fd-project-management.png"
 stars: 535
 source_url: "https://github.com/firgia/FD-Project-Management"
 download_url: "https://github.com/firgia/FD-Project-Management/releases"
 downloadUrl: "https://github.com/firgia/FD-Project-Management/releases"
-download_label: "Visit Official Site"
+download_label: "Official Setup & Docs →"
 license: "Custom Open License"
-scouting_tier: "tier1_gui"
-operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DesignApplication"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_054"
-affiliate_name: "Creative Fabrica"
-affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
-affiliate_pitch: "Compatible asset libraries, templates, and fonts for your creative projects."
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -64,8 +64,8 @@ You can explore the project files and guide your setup process directly through 
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Envato Elements Direct:** Optional royalty-free stock footage, music tracks, and motion templates — [Envato Elements Direct](https://elements.envato.com/?subid=hubhum_01_MER349) (#ad)
-* **Creative Fabrica:** Optional creative marketplace offering fonts, icons, and design templates — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
-* **Placeit by Envato:** Optional browser-based mockup and template generator — [Placeit by Envato](https://placeit.net/?subid=hubhum_01_MER369) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
+* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/firgia/FD-Project-Management)

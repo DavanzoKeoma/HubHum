@@ -5,8 +5,8 @@ tagline: "Turn messy logs into a visual dashboard"
 summary: "This tool replaces cluttered text-based status updates with a clean, organized visual dashboard for your web development projects."
 tags: ["development", "tools", "web-design"]
 is_webapp: false
-app_type: "cli"
-category: "Utilities & Power Tools"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/webpack-dashboard.png"
 stars: 13945
 source_url: "https://github.com/FormidableLabs/webpack-dashboard"
@@ -14,15 +14,15 @@ download_url: "https://github.com/FormidableLabs/webpack-dashboard/releases"
 downloadUrl: "https://github.com/FormidableLabs/webpack-dashboard/releases"
 download_label: "Get Command-Line Tool →"
 license: "Open Source (MIT)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_008"
-affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Want to launch it in 1 click on an optimized cloud server without manual setup?"
+affiliate_merchant_id: "MER_061"
+affiliate_name: "Systeme.io"
+affiliate_url: "https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061"
+affiliate_pitch: "Automate everyday online workflows free forever and safeguard your devices and backups."
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: true
 updated_at: "2026-11-21"
@@ -67,8 +67,8 @@ For detailed setup instructions and configuration options, please visit the [Off
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Optional managed hosting if you want to run cloud/self-hosted apps 24/7 — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **ScalaHosting:** Optional managed VPS cloud hosting for web applications — [ScalaHosting](https://www.scalahosting.com/?subid=hubhum_01_MER009) (#ad)
-* **RoseHosting:** Optional managed Linux cloud server hosting — [RoseHosting](https://www.rosehosting.com/?subid=hubhum_01_MER014) (#ad)
+* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/FormidableLabs/webpack-dashboard)
