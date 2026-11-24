@@ -2,27 +2,27 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-24T06:58:13.672102+00:00",
-  "total_apps": 1925,
+  "generated_at": "2026-11-24T07:05:53.267651+00:00",
+  "total_apps": 1950,
   "tier_counts": {
     "tier3_powertool": 264,
-    "tier2_webapp": 568,
-    "tier1_gui": 1093
+    "tier2_webapp": 581,
+    "tier1_gui": 1105
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 254,
-    "selfhosted": 567,
-    "desktop": 1093,
+    "selfhosted": 580,
+    "desktop": 1105,
     "webapp": 1
   },
   "categories": {
-    "Graphics & Design": 39,
-    "Productivity": 945,
+    "Graphics & Design": 40,
+    "Productivity": 955,
     "Security & Privacy": 48,
     "Utilities & Power Tools": 250,
-    "Video & Audio": 97,
-    "Web Apps & Cloud": 543,
+    "Video & Audio": 98,
+    "Web Apps & Cloud": 556,
     "Websites & SEO": 3
   },
   "apps": [
@@ -7530,6 +7530,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "compose-samples",
+      "name": "Compose Samples",
+      "tagline": "Official user interface design example projects.",
+      "repo_url": "https://github.com/android/compose-samples",
+      "full_name": "android/compose-samples",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "mobile"
+      ],
+      "icon": "/icons/compose-samples.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 23579,
+      "tier": "tier1_gui",
+      "summary": "Explore real-world mobile app examples and design layouts to learn modern application development easily.",
+      "i18n": {
+        "it": "Explore real-world mobile app examples and design layouts to learn modern application development easily.",
+        "es": "Explore real-world mobile app examples and design layouts to learn modern application development easily.",
+        "fr": "Explore real-world mobile app examples and design layouts to learn modern application development easily.",
+        "de": "Explore real-world mobile app examples and design layouts to learn modern application development easily."
+      },
+      "download_url": "https://developer.android.com/jetpack/compose",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "notable",
       "name": "Notable",
       "tagline": "Clean and powerful Markdown note-taking",
@@ -7668,6 +7696,34 @@
       },
       "download_url": "https://ly.cyberserval.tech/d4HFBvC",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "maui",
+      "name": "maui",
+      "tagline": "Build native cross-platform apps easily",
+      "repo_url": "https://github.com/dotnet/maui",
+      "full_name": "dotnet/maui",
+      "category": "Productivity",
+      "tags": [
+        "cross-platform",
+        "mobile"
+      ],
+      "icon": "/icons/maui.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 23317,
+      "tier": "tier1_gui",
+      "summary": "Create native mobile and desktop applications from a single codebase using C# and modern user interface tools.",
+      "i18n": {
+        "it": "Crea applicazioni mobili e desktop native da un unico codice sorgente utilizzando C# e strumenti moderni.",
+        "es": "Crea aplicaciones móviles y de escritorio nativas desde un solo código base utilizando C# y herramientas modernas.",
+        "fr": "Créez des applications mobiles et de bureau à partir d'un code source unique en utilisant C# et des outils.",
+        "de": "Erstellen Sie native Mobil- und Desktop-Anwendungen aus einer einzigen Codebasis mit C# und modernen Tools."
+      },
+      "download_url": "https://dot.net/maui",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "karabiner-elements",
@@ -8174,6 +8230,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "nowinandroid",
+      "name": "Now in Android",
+      "tagline": "Stay updated on Android development trends",
+      "repo_url": "https://github.com/android/nowinandroid",
+      "full_name": "android/nowinandroid",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "mobile"
+      ],
+      "icon": "/icons/nowinandroid.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 22126,
+      "tier": "tier1_gui",
+      "summary": "Now in Android is a fully functional mobile application designed to help developers keep up-to-date with the latest Android news and updates.",
+      "i18n": {
+        "it": "Now in Android è un'applicazione mobile completamente funzionante pensata per aiutare gli sviluppatori a rimanere aggiornati.",
+        "es": "Now in Android es una aplicación móvil totalmente funcional diseñada para ayudar a los desarrolladores a mantenerse al día.",
+        "fr": "Now in Android est une application mobile entièrement fonctionnelle conçue pour aider les développeurs à suivre les actualités.",
+        "de": "Now in Android ist eine voll funktionsfähige mobile Anwendung, die Entwicklern hilft, sich über Neuigkeiten zu informieren."
+      },
+      "download_url": "https://github.com/android/nowinandroid/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "animeko",
       "name": "Animeko",
       "tagline": "All-in-one anime streaming and tracking platform",
@@ -8368,6 +8452,34 @@
       },
       "download_url": "https://github.com/SBoudrias/Inquirer.js/releases",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "gsyvideoplayer",
+      "name": "GSYVideoPlayer",
+      "tagline": "Powerful multi-engine mobile video player.",
+      "repo_url": "https://github.com/carguo/gsyvideoplayer",
+      "full_name": "carguo/gsyvideoplayer",
+      "category": "Video & Audio",
+      "tags": [
+        "video",
+        "android"
+      ],
+      "icon": "/icons/gsyvideoplayer.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 21537,
+      "tier": "tier1_gui",
+      "summary": "An advanced video playback toolkit for mobile devices supporting multiple video engines, caching, and custom visual filters.",
+      "i18n": {
+        "it": "Un toolkit di riproduzione video avanzato per dispositivi mobili che supporta più motori video, cache e filtri visivi personalizzati.",
+        "es": "Un kit de herramientas de reproducción de video avanzado para dispositivos móviles compatible con múltiples motores, caché y filtros.",
+        "fr": "Un kit d'outils de lecture vidéo avancé pour appareils mobiles prenant en charge plusieurs moteurs vidéo, le cache et des filtres.",
+        "de": "Ein fortschrittliches Video-Wiedergabe-Toolkit für Mobilgeräte mit Unterstützung für verschiedene Videomotoren, Caching und Filter."
+      },
+      "download_url": "https://github.com/CarGuo/GSYVideoPlayer/releases/download/v14.1.0/app-release.apk",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "xbmc",
@@ -8900,6 +9012,62 @@
       },
       "download_url": "https://linkwarden.app",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "dokit",
+      "name": "DoKit",
+      "tagline": "All-in-one development efficiency and testing platform",
+      "repo_url": "https://github.com/didi/dokit",
+      "full_name": "didi/dokit",
+      "category": "Productivity",
+      "tags": [
+        "developer-tools",
+        "productivity"
+      ],
+      "icon": "/icons/dokit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 20419,
+      "tier": "tier1_gui",
+      "summary": "Boost software development productivity with a comprehensive toolkit for mobile and web applications, featuring performance monitoring, mock data, and visual debugging.",
+      "i18n": {
+        "it": "Migliora la produttività dello sviluppo software con un toolkit completo per app mobili e web, monitoraggio e debug visivo.",
+        "es": "Mejora la productividad del desarrollo de software con un conjunto de herramientas para aplicaciones móviles y web.",
+        "fr": "Améliorez la productivité du développement logiciel avec une suite d'outils complète pour applications mobiles et web.",
+        "de": "Steigern Sie die Produktivität der Softwareentwicklung mit einem umfassenden Toolkit für mobile und Webanwendungen."
+      },
+      "download_url": "https://github.com/didi/DoKit/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "android-best-practices",
+      "name": "Android Best Practices",
+      "tagline": "Proven guidelines for mobile software craftsmanship.",
+      "repo_url": "https://github.com/futurice/android-best-practices",
+      "full_name": "futurice/android-best-practices",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "development"
+      ],
+      "icon": "/icons/android-best-practices.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 20398,
+      "tier": "tier1_gui",
+      "summary": "Discover essential do's and don'ts for mobile app development to write cleaner, faster, and more reliable applications.",
+      "i18n": {
+        "it": "Scopri consigli essenziali per lo sviluppo mobile e scrivi applicazioni più pulite, veloci e affidabili.",
+        "es": "Descubre consejos esenciales para el desarrollo móvil y escribe aplicaciones más limpias y fiables.",
+        "fr": "Découvrez des directives essentielles pour créer des applications mobiles propres, rapides et fiables.",
+        "de": "Entdecken Sie wichtige Leitfäden für saubere, schnellere und zuverlässigere Mobilanwendungen."
+      },
+      "download_url": "https://github.com/futurice/android-best-practices/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "typer",
@@ -9938,6 +10106,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "artemis",
+      "name": "Artemis",
+      "tagline": "Let AI assistants control Android phones",
+      "repo_url": "https://github.com/google/artemis",
+      "full_name": "google/artemis",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "automation"
+      ],
+      "icon": "/icons/artemis.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 17981,
+      "tier": "tier1_gui",
+      "summary": "Artemis turns everyday language instructions into reliable automated actions on Android devices, powering advanced testing and device control.",
+      "i18n": {
+        "it": "Artemis trasforma istruzioni in linguaggio naturale in azioni automatizzate su dispositivi Android, gestendo test e controlli avanzati.",
+        "es": "Artemis convierte instrucciones en lenguaje natural en acciones automatizadas confiables para dispositivos Android y pruebas.",
+        "fr": "Artemis transforme des consignes en langage naturel en actions automatisées sur appareils Android pour les tests et le contrôle.",
+        "de": "Artemis verwandelt natürliche Sprachbefehle in zuverlässige automatisierte Aktionen auf Android-Geräten für Tests und Steuerung."
+      },
+      "download_url": "https://github.com/google/artemis/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "asciinema",
       "name": "asciinema",
       "tagline": "Record and stream terminal sessions easily.",
@@ -10218,6 +10414,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "bbll",
+      "name": "BBLL",
+      "tagline": "Alternative Bilibili client for smart screens",
+      "repo_url": "https://github.com/xiaye13579/bbll",
+      "full_name": "xiaye13579/bbll",
+      "category": "Productivity",
+      "tags": [
+        "video",
+        "client"
+      ],
+      "icon": "/icons/bbll.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 17509,
+      "tier": "tier1_gui",
+      "summary": "BBLL is an independent third-party viewer designed to bring your favorite video content directly to television screens and mobile devices.",
+      "i18n": {
+        "it": "Un lettore multimediale alternativo per godersi i contenuti video preferiti comodamente sul televisore di casa.",
+        "es": "Un reproductor multimedia independiente para disfrutar de tus videos favoritos cómodamente en la pantalla del televisor.",
+        "fr": "Une application de lecture vidéo indépendante pour regarder vos contenus préférés sur votre télévision connectée.",
+        "de": "Ein praktischer Medienplayer, um Ihre Lieblingsvideos direkt auf dem Fernseher oder Android-Gerät zu streamen."
+      },
+      "download_url": "https://github.com/xiaye13579/BBLL/releases/download/v1.5.2/BBLL1.5.2.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "cz-cli",
       "name": "cz-cli",
       "tagline": "Standardize your project change notes effortlessly.",
@@ -10244,6 +10468,34 @@
       },
       "download_url": "https://commitizen.github.io/cz-cli/",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "material-components-android",
+      "name": "material-components-android",
+      "tagline": "Classic Android UI building blocks",
+      "repo_url": "https://github.com/material-components/material-components-android",
+      "full_name": "material-components/material-components-android",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "ui-design"
+      ],
+      "icon": "/icons/material-components-android.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 17476,
+      "tier": "tier1_gui",
+      "summary": "A library of ready-made design elements for Android apps, now in maintenance mode as developers shift to newer tools.",
+      "i18n": {
+        "it": "Una libreria di elementi di design pronti per app Android, ora in modalità di manutenzione mentre gli sviluppatori passano a strumenti più nuovi.",
+        "es": "Una biblioteca de elementos de diseño listos para aplicaciones Android, ahora en modo de mantenimiento mientras los desarrolladores migran a herramientas más nuevas.",
+        "fr": "Une bibliothèque d'éléments de design prêts à l'emploi pour les applications Android, maintenant en mode maintenance alors que les développeurs passent à des outils plus récents.",
+        "de": "Eine Bibliothek fertiger Designelemente für Android-Apps, die sich jetzt im Wartungsmodus befindet, während Entwickler auf neuere Werkzeuge umsteigen."
+      },
+      "download_url": "https://github.com/material-components/material-components-android/releases/download/1.14.0/catalog-debug.apk",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "metrics",
@@ -10778,6 +11030,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "maestro",
+      "name": "Maestro",
+      "tagline": "Painless automated testing for mobile apps",
+      "repo_url": "https://github.com/mobile-dev-inc/maestro",
+      "full_name": "mobile-dev-inc/maestro",
+      "category": "Productivity",
+      "tags": [
+        "automation",
+        "testing"
+      ],
+      "icon": "/icons/maestro.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 16497,
+      "tier": "tier1_gui",
+      "summary": "Test mobile and web applications effortlessly using human-readable commands and visual tools without complex setup.",
+      "i18n": {
+        "it": "Testa applicazioni mobili e web senza sforzo usando comandi chiari e strumenti visivi senza configurazioni complesse.",
+        "es": "Prueba aplicaciones móviles y web sin esfuerzo utilizando comandos legibles y herramientas visuales sencillas.",
+        "fr": "Testez des applications mobiles et web facilement grâce à des commandes claires et des outils visuels.",
+        "de": "Testen Sie Mobil- und Web-Anwendungen mühelos mit lesbaren Befehlen und visuellen Werkzeugen ohne Aufwand."
+      },
+      "download_url": "https://github.com/mobile-dev-inc/Maestro/releases/download/cli-2.12.1/checksums_sha256.txt",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "hammerspoon",
       "name": "Hammerspoon",
       "tagline": "Automate your macOS desktop using Lua.",
@@ -11058,6 +11338,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "organicmaps",
+      "name": "Organic Maps",
+      "tagline": "Private offline maps for everyday travel",
+      "repo_url": "https://github.com/organicmaps/organicmaps",
+      "full_name": "organicmaps/organicmaps",
+      "category": "Productivity",
+      "tags": [
+        "maps",
+        "offline"
+      ],
+      "icon": "/icons/organicmaps.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Custom Open License",
+      "stars": 16110,
+      "tier": "tier1_gui",
+      "summary": "Navigate anywhere without an internet connection using a fast, privacy-focused map app that never tracks your location or drains your phone battery.",
+      "i18n": {
+        "it": "Naviga ovunque senza connessione a internet usando un'applicazione di mappe veloce e privata che non traccia mai la tua posizione.",
+        "es": "Navega a cualquier lugar sin conexión a internet usando una aplicación de mapas rápida y privada que nunca rastrea tu ubicación.",
+        "fr": "Naviguez partout sans connexion internet grâce à une application de cartes rapide et confidentielle qui ne suit jamais vos déplacements.",
+        "de": "Navigieren Sie überall ohne Internetverbindung mit einer schnellen, datenschutzfreundlichen Karten-App, die Ihre Wege nicht verfolgt."
+      },
+      "download_url": "https://github.com/organicmaps/organicmaps/releases/download/2026.11.11-39-android/OrganicMaps-26111139-web-release.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "sherpa-onnx",
       "name": "sherpa-onnx",
       "tagline": "Offline speech recognition and voice tools",
@@ -11336,6 +11644,34 @@
       },
       "download_url": "https://github.com/mltframework/shotcut/releases/download/v26.11.15/shotcut-win64-26.11.15.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "imagetoolbox",
+      "name": "ImageToolbox",
+      "tagline": "Powerful photo editing on your device",
+      "repo_url": "https://github.com/t8rin/imagetoolbox",
+      "full_name": "t8rin/imagetoolbox",
+      "category": "Graphics & Design",
+      "tags": [
+        "android",
+        "photos"
+      ],
+      "icon": "/icons/imagetoolbox.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 15745,
+      "tier": "tier1_gui",
+      "summary": "ImageToolbox is an all-in-one photo editor that lets you crop, filter, erase backgrounds, and edit pictures directly on your phone.",
+      "i18n": {
+        "it": "ImageToolbox è un editor fotografico completo per ritagliare, applicare filtri, rimuovere sfondi e gestire le immagini.",
+        "es": "ImageToolbox es un editor de fotos completo para recortar, aplicar filtros, borrar fondos y gestionar imágenes fácilmente.",
+        "fr": "ImageToolbox est un éditeur photo complet pour recadrer, appliquer des filtres, effacer les arrières-plans et gérer vos images.",
+        "de": "ImageToolbox ist ein umfassender Bildeditor zum Zuschneiden, Filtern, Freistellen und Verwalten Ihrer Fotos."
+      },
+      "download_url": "https://github.com/T8RIN/ImageToolbox/releases/download/4.2.0/image-toolbox-4.2.0-arm64-v8a.apk",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "grav",
@@ -21949,6 +22285,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "low-level-design-primer",
+      "name": "Low-Level Design Primer",
+      "tagline": "Master large-scale system design and interviews",
+      "repo_url": "https://github.com/prasadgujar/low-level-design-primer",
+      "full_name": "prasadgujar/low-level-design-primer",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "system-design",
+        "programming"
+      ],
+      "icon": "/icons/low-level-design-primer.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 7989,
+      "tier": "tier2_webapp",
+      "summary": "An organized collection of learning resources, practice questions, and solutions designed to help you master low-level system design and coding interviews.",
+      "i18n": {
+        "it": "Una raccolta organizzata di risorse di apprendimento, domande pratiche e soluzioni per superare i colloqui tecnici di progettazione software.",
+        "es": "Una colección organizada de recursos de aprendizaje, preguntas prácticas y soluciones para dominar el diseño de sistemas a bajo nivel.",
+        "fr": "Une collection organisée de ressources d'apprentissage, de questions pratiques et de solutions pour réussir vos entretiens techniques.",
+        "de": "Eine organisierte Sammlung von Lernressourcen, Übungsfragen und Lösungen zur Vorbereitung auf technische Systemdesign-Interviews."
+      },
+      "download_url": "https://github.com/prasadgujar/low-level-design-primer/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "standard-version",
       "name": "standard-version",
       "tagline": "Automate versioning and release notes effortlessly.",
@@ -32084,6 +32448,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "intercooler-js",
+      "name": "Intercooler-js",
+      "tagline": "Add dynamic AJAX directly to HTML tags.",
+      "repo_url": "https://github.com/bigskysoftware/intercooler-js",
+      "full_name": "bigskysoftware/intercooler-js",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "ajax"
+      ],
+      "icon": "/icons/intercooler-js.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 4778,
+      "tier": "tier2_webapp",
+      "summary": "A lightweight helper library that lets web developers add dynamic server requests directly inside HTML elements without complex scripts.",
+      "i18n": {
+        "it": "Una libreria leggera che permette di aggiungere richieste AJAX dinamiche direttamente nei tag HTML senza script complessi.",
+        "es": "Una biblioteca ligera que permite añadir peticiones AJAX dinámicas directamente en elementos HTML sin scripts complejos.",
+        "fr": "Une bibliothèque légère pour ajouter des requêtes AJAX dynamiques directement dans les balises HTML sans scripts complexes.",
+        "de": "Eine leichte Bibliothek zum Hinzufügen dynamischer AJAX-Anfragen direkt in HTML-Elemente ohne komplexe Skripte."
+      },
+      "download_url": "https://intercoolerjs.org",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "sqlectron",
       "name": "Sqlectron",
       "tagline": "Simple and lightweight database management tool.",
@@ -32502,6 +32894,34 @@
       },
       "download_url": "https://timknowsbest.com/free-dynamic-dns",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "strider",
+      "name": "Strider",
+      "tagline": "Automate your project testing and deployment",
+      "repo_url": "https://github.com/strider-cd/strider",
+      "full_name": "strider-cd/strider",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "automation",
+        "server"
+      ],
+      "icon": "/icons/strider.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 4563,
+      "tier": "tier2_webapp",
+      "summary": "Manage software updates and publishing smoothly with an open platform that automates testing and delivery tasks.",
+      "i18n": {
+        "it": "Gestisci gli aggiornamenti software e la pubblicazione con una piattaforma aperta che automatizza i test.",
+        "es": "Gestiona actualizaciones y publicaciones de software con una plataforma abierta que automatiza pruebas y entregas.",
+        "fr": "Gérez les mises à jour et la publication de logiciels avec une plateforme ouverte qui automatise les tests.",
+        "de": "Verwalten Sie Software-Updates und Veröffentlichungen reibungslos mit einer offenen Plattform für automatisierte Tests."
+      },
+      "download_url": "https://strider-cd.github.io/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "codeg",
@@ -37431,6 +37851,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "lowdefy",
+      "name": "Lowdefy",
+      "tagline": "Build web apps using simple configuration",
+      "repo_url": "https://github.com/lowdefy/lowdefy",
+      "full_name": "lowdefy/lowdefy",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "low-code"
+      ],
+      "icon": "/icons/lowdefy.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 3026,
+      "tier": "tier2_webapp",
+      "summary": "Lowdefy lets you create professional web applications by writing simple settings instead of complex lines of computer code.",
+      "i18n": {
+        "it": "Lowdefy ti permette di creare applicazioni web professionali scrivendo semplici impostazioni invece di complesse righe di codice.",
+        "es": "Lowdefy le permite crear aplicaciones web profesionales escribiendo configuraciones sencillas en lugar de complejas líneas de código.",
+        "fr": "Lowdefy vous permet de créer des applications web professionnelles en écrivant des paramètres simples au lieu de lignes de code complexes.",
+        "de": "Mit Lowdefy können Sie professionelle Webanwendungen erstellen, indem Sie einfache Einstellungen statt komplexer Codezeilen schreiben."
+      },
+      "download_url": "https://lowdefy.com",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "comic-translate",
       "name": "comic-translate",
       "tagline": "Translate comics and manga automatically with AI.",
@@ -37737,6 +38185,34 @@
       },
       "download_url": "https://github.com/ImVexed/muon/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "wwwsqldesigner",
+      "name": "wwwsqldesigner",
+      "tagline": "Design database diagrams right in browser",
+      "repo_url": "https://github.com/ondras/wwwsqldesigner",
+      "full_name": "ondras/wwwsqldesigner",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "database",
+        "diagrams"
+      ],
+      "icon": "/icons/wwwsqldesigner.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (BSD)",
+      "stars": 2930,
+      "tier": "tier2_webapp",
+      "summary": "Create, visualize, and export database schemas directly in your web browser without needing extra software.",
+      "i18n": {
+        "it": "Crea, visualizza ed esporta schemi di database direttamente nel browser web senza software aggiuntivi.",
+        "es": "Crea, visualiza y exporta esquemas de bases de datos directamente en tu navegador web sin software adicional.",
+        "fr": "Créez, visualisez et exportez des schémas de bases de données directement dans votre navigateur web sans logiciel.",
+        "de": "Erstellen, visualisieren und exportieren Sie Datenbank-Schemata direkt im Webbrowser ohne zusätzliche Software."
+      },
+      "download_url": "https://sql.toad.cz/?keyword=online_library",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "maccms10",
@@ -53111,6 +53587,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "screenlite",
+      "name": "screenlite",
+      "tagline": "Open-source digital signage management platform",
+      "repo_url": "https://github.com/screenlite/screenlite",
+      "full_name": "screenlite/screenlite",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "digital-signage",
+        "content-management"
+      ],
+      "icon": "/icons/screenlite.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 368,
+      "tier": "tier2_webapp",
+      "summary": "Manage digital displays, schedules, and media content easily from a centralized control panel.",
+      "i18n": {
+        "it": "Gestisci schermi digitali, palinsesti e contenuti multimediali facilmente da un pannello di controllo centralizzato.",
+        "es": "Gestiona pantallas digitales, horarios y contenido multimedia fácilmente desde un panel de control centralizado.",
+        "fr": "Gérez des écrans numériques, des plannings et du contenu multimédia facilement depuis un panneau de contrôle centralisé.",
+        "de": "Verwalten Sie digitale Bildschirme, Zeitpläne und Medieninhalte einfach über ein zentrales Steuerungspanel."
+      },
+      "download_url": "https://screenlite.org",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "thrivex-server",
       "name": "ThriveX-Server",
       "tagline": "Free, modern blog backend engine",
@@ -53335,6 +53839,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "e107",
+      "name": "e107",
+      "tagline": "Build websites without writing code",
+      "repo_url": "https://github.com/e107inc/e107",
+      "full_name": "e107inc/e107",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "web-publishing"
+      ],
+      "icon": "/icons/e107.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 332,
+      "tier": "tier2_webapp",
+      "summary": "e107 is a free tool that helps you create and manage professional websites, blogs, and online communities without needing to know how to program.",
+      "i18n": {
+        "it": "e107 è uno strumento gratuito per creare e gestire siti web, blog e community online senza dover conoscere alcun linguaggio di programmazione.",
+        "es": "e107 es una herramienta gratuita que te ayuda a crear y gestionar sitios web, blogs y comunidades online sin necesidad de saber programar.",
+        "fr": "e107 est un outil gratuit pour créer et gérer des sites web, des blogs et des communautés en ligne sans avoir besoin de savoir programmer.",
+        "de": "e107 ist ein kostenloses Werkzeug zur Erstellung und Verwaltung von Webseiten, Blogs und Online-Communities ohne Programmierkenntnisse."
+      },
+      "download_url": "https://github.com/e107inc/e107/releases/download/v2.3.13/core_image.phar",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "nebula",
       "name": "Nebula",
       "tagline": "Open-source broadcast automation",
@@ -53361,6 +53893,34 @@
       },
       "download_url": "https://github.com/nebulabroadcast/nebula/releases",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "una",
+      "name": "UNA",
+      "tagline": "Build your own private social network",
+      "repo_url": "https://github.com/unacms/una",
+      "full_name": "unacms/una",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "community",
+        "social-network"
+      ],
+      "icon": "/icons/una.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 329,
+      "tier": "tier2_webapp",
+      "summary": "UNA is a complete platform for creating independent online communities, social networks, and collaborative websites.",
+      "i18n": {
+        "it": "UNA è una piattaforma completa per creare comunità online indipendenti, social network e siti web collaborativi.",
+        "es": "UNA es una plataforma completa para crear comunidades en línea independientes, redes sociales y sitios web colaborativos.",
+        "fr": "UNA est une plateforme complète pour créer des communautés en ligne indépendantes, des réseaux sociaux et des sites web collaboratifs.",
+        "de": "UNA ist eine umfassende Plattform zum Erstellen unabhängiger Online-Communities, sozialer Netzwerke und kollaborativer Websites."
+      },
+      "download_url": "https://unacms.com",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "pico-286",
@@ -53475,6 +54035,90 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "firebase-cms",
+      "name": "FirebaseCMS",
+      "tagline": "Build a complete online store easily.",
+      "repo_url": "https://github.com/alexabbott/firebase-cms",
+      "full_name": "alexabbott/firebase-cms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ecommerce",
+        "cms"
+      ],
+      "icon": "/icons/firebase-cms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 310,
+      "tier": "tier2_webapp",
+      "summary": "Launch a fully functional online shop and publishing platform powered by a secure cloud backend.",
+      "i18n": {
+        "it": "Launch a fully functional online shop and publishing platform powered by a secure cloud backend.",
+        "es": "Launch a fully functional online shop and publishing platform powered by a secure cloud backend.",
+        "fr": "Launch a fully functional online shop and publishing platform powered by a secure cloud backend.",
+        "de": "Launch a fully functional online shop and publishing platform powered by a secure cloud backend."
+      },
+      "download_url": "https://fir-cms-76f54.firebaseapp.com/",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "tipask",
+      "name": "tipask",
+      "tagline": "Open-source PHP question and answer community",
+      "repo_url": "https://github.com/sdfsky/tipask",
+      "full_name": "sdfsky/tipask",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "php",
+        "community"
+      ],
+      "icon": "/icons/tipask.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 306,
+      "tier": "tier2_webapp",
+      "summary": "Tipask is a powerful open-source community question-and-answer platform built with PHP to help you build interactive knowledge hubs.",
+      "i18n": {
+        "it": "Tipask è una potente piattaforma open-source di domande e risposte basata su PHP per creare hub di conoscenza interattivi.",
+        "es": "Tipask es una potente plataforma de preguntas y respuestas basada en PHP para crear centros de conocimiento interactivos.",
+        "fr": "Tipask est une puissante plateforme open-source de questions-réponses en PHP pour créer des hubs de connaissances interactifs.",
+        "de": "Tipask ist eine leistungsstarke Open-Source-Fragen-und-Antworten-Plattform auf PHP-Basis für interaktive Wissens-Hubs."
+      },
+      "download_url": "https://www.tipask.com",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "thrivex-admin",
+      "name": "ThriveX-Admin",
+      "tagline": "Modern open-source blog management dashboard system.",
+      "repo_url": "https://github.com/liuyuyang01/thrivex-admin",
+      "full_name": "liuyuyang01/thrivex-admin",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "dashboard"
+      ],
+      "icon": "/icons/thrivex-admin.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 303,
+      "tier": "tier2_webapp",
+      "summary": "ThriveX Admin is a stylish, open-source dashboard for managing blog content, user permissions, and site settings with ease.",
+      "i18n": {
+        "it": "ThriveX Admin è un pannello elegante e aperto per gestire contenuti, permessi utente e impostazioni di un blog.",
+        "es": "ThriveX Admin es un panel elegante para administrar contenido, permisos de usuario y configuración de blogs fácilmente.",
+        "fr": "ThriveX Admin est un tableau de bord élégant pour gérer le contenu, les utilisateurs et les paramètres d'un blog.",
+        "de": "ThriveX Admin ist ein elegantes Dashboard zur einfachen Verwaltung von Blog-Inhalten, Benutzern und Einstellungen."
+      },
+      "download_url": "https://liuyuyang.net",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "borgert-cms",
       "name": "Borgert CMS",
       "tagline": "Simple modular web publishing platform",
@@ -53559,6 +54203,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "groqd",
+      "name": "groqd",
+      "tagline": "Type-safe query builder for databases",
+      "repo_url": "https://github.com/formidablelabs/groqd",
+      "full_name": "formidablelabs/groqd",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "database",
+        "queries"
+      ],
+      "icon": "/icons/groqd.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 294,
+      "tier": "tier2_webapp",
+      "summary": "Build reliable database queries with autocomplete support, strong type-checking, and guaranteed data safety for your projects.",
+      "i18n": {
+        "it": "Costruisci interrogazioni ai database in modo affidabile con supporto per l'autocompletamento e sicurezza dei dati garantita.",
+        "es": "Crea consultas de bases de datos confiables con soporte de autocompletado y seguridad estricta para tus proyectos.",
+        "fr": "Créez des requêtes de base de données fiables avec une autocomplétion intelligente et une sécurité des données garantie.",
+        "de": "Erstellen Sie zuverlässige Datenbankabfragen mit automatischer Vervollständigung und starker Typsicherheit für Projekte."
+      },
+      "download_url": "https://nearform.com/open-source/groqd",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "wolfssl-examples",
       "name": "wolfssl-examples",
       "tagline": "Secure communication examples using lightweight crypto",
@@ -53585,6 +54257,34 @@
       },
       "download_url": "https://www.wolfssl.com",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "django-page-cms",
+      "name": "django-page-cms",
+      "tagline": "Organize hierarchical web pages simply",
+      "repo_url": "https://github.com/batiste/django-page-cms",
+      "full_name": "batiste/django-page-cms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "django",
+        "cms"
+      ],
+      "icon": "/icons/django-page-cms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (BSD)",
+      "stars": 286,
+      "tier": "tier2_webapp",
+      "summary": "Create and manage hierarchical web pages easily within your site structure using flexible dynamic content areas.",
+      "i18n": {
+        "it": "Crea e gestisci pagine web gerarchiche all'interno della tua struttura utilizzando aree di contenuto flessibili.",
+        "es": "Crea y administra páginas web jerárquicas dentro de tu sitio utilizando áreas de contenido dinámicas.",
+        "fr": "Créez et gérez des pages web hiérarchiques simplement au sein de votre site grâce à des zones de contenu flexibles.",
+        "de": "Erstellen und verwalten Sie hierarchische Webseiten ganz einfach mit flexiblen dynamischen Inhaltsbereichen."
+      },
+      "download_url": "https://django-page-cms.readthedocs.io/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "easyee",
