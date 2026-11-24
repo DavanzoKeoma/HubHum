@@ -224,53 +224,11 @@
     "queued_at": "2026-11-24T06:58:19.235448+00:00"
   },
   {
-    "full_name": "gpxstudio/gpx.studio",
-    "slug": "gpx-studio",
-    "html_url": "https://github.com/gpxstudio/gpx.studio",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:07:28.551249+00:00"
-  },
-  {
-    "full_name": "nuxsmin/sysPass",
-    "slug": "syspass",
-    "html_url": "https://github.com/nuxsmin/sysPass",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:08:33.106455+00:00"
-  },
-  {
-    "full_name": "tiangolo/uwsgi-nginx-docker",
-    "slug": "uwsgi-nginx-docker",
-    "html_url": "https://github.com/tiangolo/uwsgi-nginx-docker",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:09:07.639089+00:00"
-  },
-  {
     "full_name": "ledgersmb/LedgerSMB",
     "slug": "ledgersmb",
     "html_url": "https://github.com/ledgersmb/LedgerSMB",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T07:09:14.052161+00:00"
-  },
-  {
-    "full_name": "disintegration/bebop",
-    "slug": "bebop",
-    "html_url": "https://github.com/disintegration/bebop",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:09:22.972549+00:00"
-  },
-  {
-    "full_name": "K-G-PRAJWAL/ReactJS-Projects",
-    "slug": "reactjs-projects",
-    "html_url": "https://github.com/K-G-PRAJWAL/ReactJS-Projects",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:09:31.994530+00:00"
-  },
-  {
-    "full_name": "TotallyInformation/node-red-contrib-uibuilder",
-    "slug": "node-red-contrib-uibuilder",
-    "html_url": "https://github.com/TotallyInformation/node-red-contrib-uibuilder",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:09:34.123245+00:00"
   },
   {
     "full_name": "realiti4/claude-swap",
@@ -1279,5 +1237,33 @@
     "html_url": "https://github.com/ReactiveX/RxSwift",
     "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T19:21:40.164424+00:00"
+  },
+  {
+    "full_name": "andreisperid/E-TKT",
+    "slug": "e-tkt",
+    "html_url": "https://github.com/andreisperid/E-TKT",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:30:35.082855+00:00"
+  },
+  {
+    "full_name": "chr15m/slingcode",
+    "slug": "slingcode",
+    "html_url": "https://github.com/chr15m/slingcode",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:31:02.187441+00:00"
+  },
+  {
+    "full_name": "miroslavpejic85/mirotalkwebrtc",
+    "slug": "mirotalkwebrtc",
+    "html_url": "https://github.com/miroslavpejic85/mirotalkwebrtc",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:32:54.795017+00:00"
+  },
+  {
+    "full_name": "vycdev/Kromacut",
+    "slug": "kromacut",
+    "html_url": "https://github.com/vycdev/Kromacut",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:33:38.299582+00:00"
   }
 ]

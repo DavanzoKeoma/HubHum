@@ -2,17 +2,17 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-24T19:26:57.646509+00:00",
-  "total_apps": 2075,
+  "generated_at": "2026-11-24T19:34:03.063536+00:00",
+  "total_apps": 2100,
   "tier_counts": {
     "tier3_powertool": 289,
-    "tier2_webapp": 619,
+    "tier2_webapp": 644,
     "tier1_gui": 1167
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 279,
-    "selfhosted": 618,
+    "selfhosted": 643,
     "desktop": 1167,
     "webapp": 1
   },
@@ -22,7 +22,7 @@
     "Security & Privacy": 50,
     "Utilities & Power Tools": 271,
     "Video & Audio": 100,
-    "Web Apps & Cloud": 594,
+    "Web Apps & Cloud": 619,
     "Websites & SEO": 3
   },
   "apps": [
@@ -48519,6 +48519,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "gpx-studio",
+      "name": "gpx.studio",
+      "tagline": "Create and edit GPS route files",
+      "repo_url": "https://github.com/gpxstudio/gpx.studio",
+      "full_name": "gpxstudio/gpx.studio",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "maps",
+        "gps"
+      ],
+      "icon": "/icons/gpx-studio.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1272,
+      "tier": "tier2_webapp",
+      "summary": "gpx.studio is an easy-to-use online tool for drawing, modifying, and managing GPS route files for your outdoor activities.",
+      "i18n": {
+        "it": "gpx.studio è uno strumento online semplice per disegnare, modificare e gestire file di percorsi GPS per le tue attività all'aperto.",
+        "es": "gpx.studio es una herramienta en línea sencilla para dibujar, modificar y gestionar archivos de rutas GPS para tus actividades al aire libre.",
+        "fr": "gpx.studio est un outil en ligne simple pour dessiner, modifier et gérer des fichiers d'itinéraires GPS pour vos activités en plein air.",
+        "de": "gpx.studio ist ein benutzerfreundliches Online-Tool zum Zeichnen, Ändern und Verwalten von GPS-Routendateien für Ihre Outdoor-Aktivitäten."
+      },
+      "download_url": "https://gpx.studio/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "avalonia-funcui",
       "name": "Avalonia.FuncUI",
       "tagline": "Build cross-platform desktop user interfaces.",
@@ -50253,6 +50281,34 @@
       },
       "download_url": "https://github.com/aimeoa/hanshuang-codex/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "syspass",
+      "name": "sysPass",
+      "tagline": "Securely manage passwords for your team",
+      "repo_url": "https://github.com/nuxsmin/syspass",
+      "full_name": "nuxsmin/syspass",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "passwords"
+      ],
+      "icon": "/icons/syspass.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 995,
+      "tier": "tier2_webapp",
+      "summary": "sysPass is a web-based tool that helps you store, organize, and share sensitive passwords with high-level encryption.",
+      "i18n": {
+        "it": "sysPass è uno strumento web per archiviare, organizzare e condividere password sensibili con una crittografia avanzata.",
+        "es": "sysPass es una herramienta web para almacenar, organizar y compartir contraseñas confidenciales con cifrado avanzado.",
+        "fr": "sysPass est un outil web pour stocker, organiser et partager des mots de passe sensibles avec un chiffrement avancé.",
+        "de": "sysPass ist ein webbasiertes Tool zum Speichern, Organisieren und Teilen sensibler Passwörter mit fortschrittlicher Verschlüsselung."
+      },
+      "download_url": "https://syspass.org",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "direwolf-arch-rice",
@@ -53503,6 +53559,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "uwsgi-nginx-docker",
+      "name": "uwsgi-nginx-docker",
+      "tagline": "Run Python web apps in containers easily.",
+      "repo_url": "https://github.com/tiangolo/uwsgi-nginx-docker",
+      "full_name": "tiangolo/uwsgi-nginx-docker",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "self-hosted",
+        "nginx"
+      ],
+      "icon": "/icons/uwsgi-nginx-docker.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 661,
+      "tier": "tier2_webapp",
+      "summary": "Bundle Python web applications with uWSGI and Nginx inside a single container for straightforward deployment.",
+      "i18n": {
+        "it": "Raggruppa applicazioni web Python con uWSGI e Nginx in un unico contenitore per una facile pubblicazione.",
+        "es": "Empaqueta aplicaciones web de Python con uWSGI y Nginx dentro de un solo contenedor para facilitar su despliegue.",
+        "fr": "Regroupez des applications web Python avec uWSGI et Nginx dans un seul conteneur pour simplifier le déploiement.",
+        "de": "Bündeln Sie Python-Webanwendungen mit uWSGI und Nginx in einem einzigen Container für ein unkompliziertes Hosting."
+      },
+      "download_url": "https://hub.docker.com/r/tiangolo/uwsgi-nginx/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "jet-pilot",
       "name": "JET Pilot",
       "tagline": "Manage cloud clusters with speed and style.",
@@ -54791,6 +54875,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "bebop",
+      "name": "Bebop",
+      "tagline": "A simple, lightweight discussion forum.",
+      "repo_url": "https://github.com/disintegration/bebop",
+      "full_name": "disintegration/bebop",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "forum",
+        "community"
+      ],
+      "icon": "/icons/bebop.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 558,
+      "tier": "tier2_webapp",
+      "summary": "Bebop is a clean and efficient web application designed to help you create and manage your own online discussion board.",
+      "i18n": {
+        "it": "Bebop è un'applicazione web pulita ed efficiente per creare e gestire facilmente il proprio forum di discussione online.",
+        "es": "Bebop es una aplicación web limpia y eficiente diseñada para ayudarte a crear y gestionar tu propio foro de discusión en línea.",
+        "fr": "Bebop est une application web propre et efficace conçue pour vous aider à créer et gérer votre propre forum de discussion en ligne.",
+        "de": "Bebop ist eine saubere und effiziente Webanwendung, mit der Sie Ihr eigenes Online-Diskussionsforum erstellen und verwalten können."
+      },
+      "download_url": "https://github.com/disintegration/bebop/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "invoice-downloader",
       "name": "Invoice-Downloader",
       "tagline": "Automated invoice collection and expense organizer.",
@@ -55267,6 +55379,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "reactjs-projects",
+      "name": "ReactJS-Projects",
+      "tagline": "A collection of interactive web examples.",
+      "repo_url": "https://github.com/k-g-prajwal/reactjs-projects",
+      "full_name": "k-g-prajwal/reactjs-projects",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "learning-resources"
+      ],
+      "icon": "/icons/reactjs-projects.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 532,
+      "tier": "tier2_webapp",
+      "summary": "This collection provides a variety of functional web components to help you learn how modern interactive websites are built.",
+      "i18n": {
+        "it": "Questa raccolta offre vari componenti web funzionali per imparare come vengono creati i siti moderni.",
+        "es": "Esta colección ofrece varios componentes web funcionales para aprender cómo se crean los sitios modernos.",
+        "fr": "Cette collection propose divers composants web fonctionnels pour apprendre à créer des sites modernes.",
+        "de": "Diese Sammlung bietet verschiedene funktionale Web-Komponenten, um zu lernen, wie moderne Websites erstellt werden."
+      },
+      "download_url": "https://github.com/K-G-PRAJWAL/ReactJS-Projects/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "savestate",
       "name": "SaveState",
       "tagline": "Easily backup your video game saves.",
@@ -55349,6 +55489,34 @@
       },
       "download_url": "https://github.com/WilliamSchack/Echolite/releases/download/v2.0.1/Echolite-Windows-x64-Installer.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "node-red-contrib-uibuilder",
+      "name": "node-red-contrib-uibuilder",
+      "tagline": "Build data-driven web interfaces easily",
+      "repo_url": "https://github.com/totallyinformation/node-red-contrib-uibuilder",
+      "full_name": "totallyinformation/node-red-contrib-uibuilder",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "node-red",
+        "dashboard"
+      ],
+      "icon": "/icons/node-red-contrib-uibuilder.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 529,
+      "tier": "tier2_webapp",
+      "summary": "Create custom web applications and interactive dashboards connected directly to your automation flows without complex coding.",
+      "i18n": {
+        "it": "Crea applicazioni web personalizzate e dashboard interattive collegate direttamente ai tuoi flussi di automazione.",
+        "es": "Crea aplicaciones web personalizadas y paneles interactivos conectados directamente a tus flujos de automatización.",
+        "fr": "Créez des applications web personnalisées et des tableaux de bord interactifs connectés à vos flux d'automatisation.",
+        "de": "Erstellen Sie benutzerdefinierte Webanwendungen und interaktive Dashboards, die mit Ihren Automatisierungsabläufen verbunden sind."
+      },
+      "download_url": "https://totallyinformation.github.io/node-red-contrib-uibuilder/#/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "audion",
@@ -55491,6 +55659,62 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "dash-jl",
+      "name": "Dash.jl",
+      "tagline": "Build analytic web apps in Julia.",
+      "repo_url": "https://github.com/plotly/dash.jl",
+      "full_name": "plotly/dash.jl",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "julia",
+        "dash"
+      ],
+      "icon": "/icons/dash-jl.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 522,
+      "tier": "tier2_webapp",
+      "summary": "Create interactive data visualization web applications using your analytical Julia code without writing any frontend code.",
+      "i18n": {
+        "it": "Crea applicazioni web di visualizzazione dati interattive usando il codice analitico di Julia senza scrivere codice frontend.",
+        "es": "Crea aplicaciones web interactivas de visualización de datos usando código analítico de Julia sin escribir código frontend.",
+        "fr": "Créez des applications web de visualisation de données interactives en utilisant votre code Julia sans écrire de code frontend.",
+        "de": "Erstellen Sie interaktive Datenvisualisierungs-Web-Apps mit Ihrem analytischen Julia-Code, ganz ohne Frontend-Programmierung."
+      },
+      "download_url": "https://github.com/plotly/Dash.jl/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "bitshares-ui",
+      "name": "bitshares-ui",
+      "tagline": "The official wallet for BitShares blockchain.",
+      "repo_url": "https://github.com/bitshares/bitshares-ui",
+      "full_name": "bitshares/bitshares-ui",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blockchain",
+        "wallet"
+      ],
+      "icon": "/icons/bitshares-ui.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 520,
+      "tier": "tier2_webapp",
+      "summary": "BitShares-UI is a secure, browser-based interface that allows you to manage your digital assets on the BitShares blockchain.",
+      "i18n": {
+        "it": "BitShares-UI è un'interfaccia sicura basata su browser per gestire le tue risorse digitali sulla blockchain BitShares.",
+        "es": "BitShares-UI es una interfaz segura basada en navegador para gestionar tus activos digitales en la cadena de bloques BitShares.",
+        "fr": "BitShares-UI est une interface sécurisée basée sur un navigateur pour gérer vos actifs numériques sur la blockchain BitShares.",
+        "de": "BitShares-UI ist eine sichere browserbasierte Schnittstelle zur Verwaltung Ihrer digitalen Vermögenswerte auf der BitShares-Blockchain."
+      },
+      "download_url": "https://github.com/bitshares/bitshares-ui/releases/download/5.0.230907/BitShares_5.0.230907.exe",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "memory-forge-rs",
       "name": "Memory Forge",
       "tagline": "Fix AI assistant conversation history instantly",
@@ -55573,6 +55797,34 @@
       },
       "download_url": "https://silverstripe.org/",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "jotsy",
+      "name": "Jotsy",
+      "tagline": "Simple, private, and lightweight note-taking.",
+      "repo_url": "https://github.com/ohsayan/jotsy",
+      "full_name": "ohsayan/jotsy",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "productivity",
+        "notes"
+      ],
+      "icon": "/icons/jotsy.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 515,
+      "tier": "tier2_webapp",
+      "summary": "Jotsy is a minimalist, self-hosted tool designed to help you capture your thoughts without distractions or complex settings.",
+      "i18n": {
+        "it": "Jotsy è uno strumento minimalista per prendere appunti, progettato per organizzare i tuoi pensieri senza distrazioni o configurazioni complesse.",
+        "es": "Jotsy es una herramienta minimalista para tomar notas, diseñada para capturar tus ideas sin distracciones ni configuraciones complicadas.",
+        "fr": "Jotsy est un outil minimaliste pour prendre des notes, conçu pour capturer vos idées sans distractions ni configurations complexes.",
+        "de": "Jotsy ist ein minimalistisches Notizwerkzeug, das entwickelt wurde, um Ihre Gedanken ohne Ablenkungen oder komplizierte Einstellungen festzuhalten."
+      },
+      "download_url": "https://app.jotsy.dev",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "markamd",
@@ -55967,6 +56219,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "minimal-pwa",
+      "name": "minimal-pwa",
+      "tagline": "Turn any website into a mobile app",
+      "repo_url": "https://github.com/chr15m/minimal-pwa",
+      "full_name": "chr15m/minimal-pwa",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "mobile-apps"
+      ],
+      "icon": "/icons/minimal-pwa.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 487,
+      "tier": "tier2_webapp",
+      "summary": "This toolkit provides the essential files needed to make your website installable on mobile devices like a native application.",
+      "i18n": {
+        "it": "Questo pacchetto offre i file essenziali per rendere il tuo sito web installabile sui dispositivi mobili come un'applicazione nativa.",
+        "es": "Este kit proporciona los archivos esenciales para que tu sitio web se pueda instalar en dispositivos móviles como una aplicación nativa.",
+        "fr": "Ce kit fournit les fichiers essentiels pour rendre votre site web installable sur les appareils mobiles comme une application native.",
+        "de": "Dieses Toolkit bietet die notwendigen Dateien, um Ihre Website wie eine native Anwendung auf Mobilgeräten installierbar zu machen."
+      },
+      "download_url": "https://mccormick.cx/minimal-pwa",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "laravel-blog",
       "name": "Laravel Blog",
       "tagline": "Easily add a complete blogging system",
@@ -56275,6 +56555,62 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "chesskit",
+      "name": "Chesskit",
+      "tagline": "Free and open-source chess analysis platform",
+      "repo_url": "https://github.com/guillaumesd/chesskit",
+      "full_name": "guillaumesd/chesskit",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "chess",
+        "gaming"
+      ],
+      "icon": "/icons/chesskit.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 443,
+      "tier": "tier2_webapp",
+      "summary": "Chesskit is a versatile web tool that lets you play, study, and analyze your chess games for free on any device.",
+      "i18n": {
+        "it": "Chesskit è uno strumento web versatile che ti permette di giocare, studiare e analizzare le tue partite a scacchi gratuitamente.",
+        "es": "Chesskit es una herramienta web versátil que te permite jugar, estudiar y analizar tus partidas de ajedrez de forma gratuita.",
+        "fr": "Chesskit est un outil web polyvalent qui vous permet de jouer, d'étudier et d'analyser vos parties d'échecs gratuitement.",
+        "de": "Chesskit ist ein vielseitiges Web-Tool, mit dem Sie Ihre Schachpartien kostenlos spielen, studieren und analysieren können."
+      },
+      "download_url": "https://chesskit.org",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "quiz-app",
+      "name": "quiz-app",
+      "tagline": "Play fully customized browser quizzes easily.",
+      "repo_url": "https://github.com/safdarjamal/quiz-app",
+      "full_name": "safdarjamal/quiz-app",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "quiz",
+        "trivia"
+      ],
+      "icon": "/icons/quiz-app.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 435,
+      "tier": "tier2_webapp",
+      "summary": "QuizApp is a free, open-source quiz application that lets you play fully customized trivia challenges directly in your web browser.",
+      "i18n": {
+        "it": "QuizApp is a free, open-source quiz application that lets you play fully customized trivia challenges directly in your web browser.",
+        "es": "QuizApp is a free, open-source quiz application that lets you play fully customized trivia challenges directly in your web browser.",
+        "fr": "QuizApp is a free, open-source quiz application that lets you play fully customized trivia challenges directly in your web browser.",
+        "de": "QuizApp is a free, open-source quiz application that lets you play fully customized trivia challenges directly in your web browser."
+      },
+      "download_url": "https://safdarjamal.github.io/quiz-app/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "ideaspace",
       "name": "IdeaSpace",
       "tagline": "Create 3D web experiences easily",
@@ -56471,6 +56807,62 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "rack-app",
+      "name": "rack-app",
+      "tagline": "Minimalist tool for building web services",
+      "repo_url": "https://github.com/rack-app/rack-app",
+      "full_name": "rack-app/rack-app",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "ruby"
+      ],
+      "icon": "/icons/rack-app.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 410,
+      "tier": "tier2_webapp",
+      "summary": "A lightweight toolkit that helps developers create efficient web applications with minimal extra code and simple, clean rules.",
+      "i18n": {
+        "it": "Un kit leggero che aiuta gli sviluppatori a creare applicazioni web efficienti con codice ridotto al minimo e regole semplici.",
+        "es": "Un kit ligero que ayuda a los desarrolladores a crear aplicaciones web eficientes con el mínimo código y reglas sencillas.",
+        "fr": "Un kit léger qui aide les développeurs à créer des applications web efficaces avec un minimum de code et des règles simples.",
+        "de": "Ein leichtgewichtiges Toolkit, das Entwicklern hilft, effiziente Webanwendungen mit minimalem Code und einfachen Regeln zu erstellen."
+      },
+      "download_url": "https://github.com/rack-app/rack-app/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "tooling",
+      "name": "tooling",
+      "tagline": "Zero-config JavaScript web app builder",
+      "repo_url": "https://github.com/egoist/tooling",
+      "full_name": "egoist/tooling",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "developer-tools"
+      ],
+      "icon": "/icons/tooling.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 410,
+      "tier": "tier2_webapp",
+      "summary": "A modular tool that helps you create and run modern web applications without writing complex configuration files.",
+      "i18n": {
+        "it": "Uno strumento modulare che aiuta a creare e gestire applicazioni web moderne senza file di configurazione complessi.",
+        "es": "Una herramienta modular que ayuda a crear y ejecutar aplicaciones web modernas sin archivos de configuración complejos.",
+        "fr": "Un outil modulaire qui aide à créer et à exécuter des applications web modernes sans fichiers de configuration complexes.",
+        "de": "Ein modulares Tool, das bei der Erstellung und Ausführung moderner Webanwendungen ohne komplexe Konfigurationsdateien hilft."
+      },
+      "download_url": "https://github.com/egoist/tooling/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "github-blog",
       "name": "github-blog",
       "tagline": "Turn your issues into a blog CMS",
@@ -56497,6 +56889,90 @@
       },
       "download_url": "https://github.com/renatorib/github-blog/releases",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "scrumonline",
+      "name": "ScrumOnline",
+      "tagline": "Collaborative planning poker for agile teams",
+      "repo_url": "https://github.com/toxantron/scrumonline",
+      "full_name": "toxantron/scrumonline",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "productivity",
+        "collaboration"
+      ],
+      "icon": "/icons/scrumonline.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 405,
+      "tier": "tier2_webapp",
+      "summary": "ScrumOnline is a web-based tool that helps teams estimate project tasks together in real-time during planning meetings.",
+      "i18n": {
+        "it": "ScrumOnline è uno strumento web che aiuta i team a stimare insieme le attività di progetto in tempo reale durante le riunioni.",
+        "es": "ScrumOnline es una herramienta web que ayuda a los equipos a estimar tareas de proyectos juntos en tiempo real durante sus reuniones.",
+        "fr": "ScrumOnline est un outil web qui aide les équipes à estimer ensemble les tâches de projet en temps réel lors de leurs réunions.",
+        "de": "ScrumOnline ist ein Web-Tool, das Teams dabei unterstützt, Projektaufgaben während Meetings gemeinsam in Echtzeit zu schätzen."
+      },
+      "download_url": "https://www.scrumpoker.online",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "photon",
+      "name": "Photon",
+      "tagline": "Build native-style desktop apps with web tools",
+      "repo_url": "https://github.com/elyaconrad/photon",
+      "full_name": "elyaconrad/photon",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "development",
+        "ui-kit"
+      ],
+      "icon": "/icons/photon.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 404,
+      "tier": "tier2_webapp",
+      "summary": "Photon helps you create desktop applications that look and feel like native software using standard web technologies like HTML and CSS.",
+      "i18n": {
+        "it": "Photon ti permette di sviluppare applicazioni desktop con un aspetto nativo utilizzando tecnologie web standard come HTML e CSS.",
+        "es": "Photon te ayuda a crear aplicaciones de escritorio que se ven y se sienten como software nativo usando tecnologías web como HTML y CSS.",
+        "fr": "Photon vous aide à créer des applications de bureau à l'aspect natif en utilisant des technologies web comme le HTML et le CSS.",
+        "de": "Photon hilft Ihnen dabei, Desktop-Anwendungen mit nativem Aussehen mithilfe von Web-Technologien wie HTML und CSS zu entwickeln."
+      },
+      "download_url": "https://mauriceconrad.github.io/Photon/",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "svg-to-png",
+      "name": "svg-to-png",
+      "tagline": "Convert vector images to pixels accurately.",
+      "repo_url": "https://github.com/vincerubinetti/svg-to-png",
+      "full_name": "vincerubinetti/svg-to-png",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "graphics",
+        "converter"
+      ],
+      "icon": "/icons/svg-to-png.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 401,
+      "tier": "tier2_webapp",
+      "summary": "Turn complex vector graphics into high-quality image files directly in your web browser without losing details or formatting.",
+      "i18n": {
+        "it": "Trasforma grafiche vettoriali complesse in immagini di alta qualità direttamente nel browser senza perdere dettagli o formattazione.",
+        "es": "Transforma gráficos vectoriales complejos en imágenes de alta calidad directamente en tu navegador sin perder detalles ni formato.",
+        "fr": "Transformez des graphiques vectoriels complexes en images de haute qualité directement dans votre navigateur sans perte de détails.",
+        "de": "Wandeln Sie komplexe Vektorgrafiken direkt in Ihrem Browser in hochwertige Bilddateien um, ohne Details oder Formatierungen zu verlieren."
+      },
+      "download_url": "https://vincerubinetti.github.io/svg-to-png/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "cmsprint",
@@ -56553,6 +57029,34 @@
       },
       "download_url": "https://github.com/ketchuphq/ketchup/releases/download/v0.3.1/ketchup_0.3.1_checksums.txt",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "super-progressive-web-apps",
+      "name": "Super Progressive Web Apps",
+      "tagline": "Turn your website into a mobile app",
+      "repo_url": "https://github.com/superpwa/super-progressive-web-apps",
+      "full_name": "superpwa/super-progressive-web-apps",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "wordpress",
+        "web-development"
+      ],
+      "icon": "/icons/super-progressive-web-apps.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v2)",
+      "stars": 394,
+      "tier": "tier2_webapp",
+      "summary": "Super Progressive Web Apps helps you convert your WordPress site into a mobile-friendly app that visitors can save to their home screen.",
+      "i18n": {
+        "it": "Super Progressive Web Apps ti aiuta a trasformare il tuo sito WordPress in un'app mobile che i visitatori possono salvare sulla schermata iniziale.",
+        "es": "Super Progressive Web Apps te ayuda a convertir tu sitio de WordPress en una aplicación móvil que tus visitantes pueden guardar en su pantalla de inicio.",
+        "fr": "Super Progressive Web Apps vous aide à transformer votre site WordPress en une application mobile que les visiteurs peuvent enregistrer sur leur écran d'accueil.",
+        "de": "Super Progressive Web Apps hilft Ihnen, Ihre WordPress-Seite in eine mobile App zu verwandeln, die Besucher auf ihrem Startbildschirm speichern können."
+      },
+      "download_url": "https://wordpress.org/plugins/super-progressive-web-apps/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "devtoolset",
@@ -56751,6 +57255,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "raspberry-pi-dashboard",
+      "name": "Raspberry-Pi-Dashboard",
+      "tagline": "Monitor your Raspberry Pi from any browser.",
+      "repo_url": "https://github.com/femto-code/raspberry-pi-dashboard",
+      "full_name": "femto-code/raspberry-pi-dashboard",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "raspberry-pi",
+        "monitoring"
+      ],
+      "icon": "/icons/raspberry-pi-dashboard.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 375,
+      "tier": "tier2_webapp",
+      "summary": "A simple web-based dashboard that lets you track your Raspberry Pi's hardware performance and manage system settings from any device.",
+      "i18n": {
+        "it": "Una dashboard web per controllare le prestazioni hardware del tuo Raspberry Pi e gestire le impostazioni di sistema da qualsiasi dispositivo.",
+        "es": "Un panel web para supervisar el rendimiento del hardware de tu Raspberry Pi y gestionar los ajustes del sistema desde cualquier dispositivo.",
+        "fr": "Un tableau de bord web pour suivre les performances matérielles de votre Raspberry Pi et gérer les paramètres système depuis n'importe quel appareil.",
+        "de": "Ein Web-Dashboard zur Überwachung der Hardware-Leistung Ihres Raspberry Pi und zur Verwaltung der Systemeinstellungen von jedem Gerät aus."
+      },
+      "download_url": "https://github.com/femto-code/Raspberry-Pi-Dashboard/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "comcms-core",
       "name": "comcms_core",
       "tagline": "Modern enterprise website content management system",
@@ -56947,6 +57479,62 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "go-novel-dl",
+      "name": "go-novel-dl",
+      "tagline": "Easily download and organize your favorite web novels.",
+      "repo_url": "https://github.com/guohuiyuan/go-novel-dl",
+      "full_name": "guohuiyuan/go-novel-dl",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "books",
+        "downloaders"
+      ],
+      "icon": "/icons/go-novel-dl.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 360,
+      "tier": "tier2_webapp",
+      "summary": "A versatile tool that lets you search, download, and read web novels from multiple sources in one unified, easy-to-use interface.",
+      "i18n": {
+        "it": "Uno strumento versatile per cercare, scaricare e leggere romanzi web da molteplici fonti in un'unica interfaccia semplice.",
+        "es": "Una herramienta versátil para buscar, descargar y leer novelas web de múltiples fuentes en una interfaz unificada y sencilla.",
+        "fr": "Un outil polyvalent pour rechercher, télécharger et lire des romans web provenant de multiples sources via une interface unique.",
+        "de": "Ein vielseitiges Werkzeug zum Suchen, Herunterladen und Lesen von Webromanen aus vielen Quellen in einer einheitlichen Oberfläche."
+      },
+      "download_url": "https://github.com/guohuiyuan/go-novel-dl/releases/download/v1.0.23/go-novel-dl-desktop-macos-amd64.dmg",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "goku-image-to-svg-tool",
+      "name": "Goku Image to SVG Tool",
+      "tagline": "Turn images into clean vector graphics",
+      "repo_url": "https://github.com/goku-open/goku-image-to-svg-tool",
+      "full_name": "goku-open/goku-image-to-svg-tool",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "graphics",
+        "converter"
+      ],
+      "icon": "/icons/goku-image-to-svg-tool.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 358,
+      "tier": "tier2_webapp",
+      "summary": "Goku Image to SVG Tool converts standard images into editable vector files using a simple, visual web interface.",
+      "i18n": {
+        "it": "Goku Image to SVG Tool converte immagini comuni in file vettoriali modificabili tramite un'interfaccia web semplice e intuitiva.",
+        "es": "Goku Image to SVG Tool convierte imágenes estándar en archivos vectoriales editables mediante una interfaz web sencilla y visual.",
+        "fr": "Goku Image to SVG Tool convertit vos images en fichiers vectoriels modifiables grâce à une interface web simple et visuelle.",
+        "de": "Goku Image to SVG Tool wandelt Standardbilder über eine einfache, visuelle Weboberfläche in bearbeitbare Vektordateien um."
+      },
+      "download_url": "https://image-to-svg.streamlit.app",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "lightcms",
       "name": "LightCMS",
       "tagline": "Lightweight content management and admin system",
@@ -56972,6 +57560,34 @@
         "de": "LightCMS ist ein schlankes Werkzeug zur Verwaltung von Website-Inhalten und administrativen Aufgaben mit integrierter Benutzerverwaltung."
       },
       "download_url": "https://github.com/eddy8/LightCMS/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "dorknet",
+      "name": "DorkNet",
+      "tagline": "Automated search tool for application discovery",
+      "repo_url": "https://github.com/nullarray/dorknet",
+      "full_name": "nullarray/dorknet",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "automation"
+      ],
+      "icon": "/icons/dorknet.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 351,
+      "tier": "tier2_webapp",
+      "summary": "DorkNet automates searching the web for vulnerable applications using browser automation to save results for security checks.",
+      "i18n": {
+        "it": "DorkNet automatizza la ricerca di applicazioni vulnerabili sul web utilizzando l'automazione del browser.",
+        "es": "DorkNet automatiza la búsqueda de aplicaciones vulnerables en la web utilizando automatización de navegador.",
+        "fr": "DorkNet automatise la recherche d'applications vulnérables sur le web en utilisant l'automatisation du navigateur.",
+        "de": "DorkNet automatisiert die Suche nach anfälligen Anwendungen im Web mithilfe von Browser-Automatisierung."
+      },
+      "download_url": "https://github.com/NullArray/DorkNet/releases",
       "updated_at": "2026-11-24"
     },
     {
@@ -57112,6 +57728,34 @@
         "de": "GiiBee CMS ist ein Werkzeug zum Erstellen professioneller Websites, die für Suchmaschinen optimiert sind und die Inhaltsverwaltung vereinfachen."
       },
       "download_url": "https://github.com/givebest/node-nest-vue-nuxt-cms/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "hass-configurator",
+      "name": "hass-configurator",
+      "tagline": "Web-based editor for your automation settings",
+      "repo_url": "https://github.com/danielperna84/hass-configurator",
+      "full_name": "danielperna84/hass-configurator",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "home-automation",
+        "configuration"
+      ],
+      "icon": "/icons/hass-configurator.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 338,
+      "tier": "tier2_webapp",
+      "summary": "Easily edit text and automation settings in your web browser with built-in code checking and a file browser.",
+      "i18n": {
+        "it": "Modifica facilmente impostazioni e file di testo tramite il browser web con controllo errori integrato.",
+        "es": "Edita fácilmente archivos y ajustes de automatización en tu navegador con comprobación de errores integrada.",
+        "fr": "Modifiez facilement vos fichiers et paramètres dans votre navigateur avec vérification de code intégrée.",
+        "de": "Bearbeiten Sie Dateien und Einstellungen direkt im Browser mit integrierter Fehlerprüfung und Dateibrowser."
+      },
+      "download_url": "https://github.com/danielperna84/hass-configurator/releases",
       "updated_at": "2026-11-24"
     },
     {
@@ -57423,6 +58067,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "git-deps",
+      "name": "git-deps",
+      "tagline": "Visualize connections between your project changes",
+      "repo_url": "https://github.com/aspiers/git-deps",
+      "full_name": "aspiers/git-deps",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "git",
+        "productivity"
+      ],
+      "icon": "/icons/git-deps.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v2)",
+      "stars": 317,
+      "tier": "tier2_webapp",
+      "summary": "This tool automatically maps how different changes in your project relate to each other to help you organize your work history.",
+      "i18n": {
+        "it": "Questo strumento mappa automaticamente le relazioni tra le modifiche del tuo progetto per aiutarti a organizzare la cronologia del lavoro.",
+        "es": "Esta herramienta mapea automáticamente cómo se relacionan los cambios de tu proyecto para ayudarte a organizar tu historial de trabajo.",
+        "fr": "Cet outil cartographie automatiquement la relation entre les changements de votre projet pour vous aider à organiser votre historique de travail.",
+        "de": "Dieses Tool bildet automatisch die Beziehungen zwischen Projektänderungen ab, um Ihnen bei der Organisation Ihres Arbeitsverlaufs zu helfen."
+      },
+      "download_url": "https://github.com/aspiers/git-deps/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "firebase-cms",
       "name": "FirebaseCMS",
       "tagline": "Build a complete online store easily.",
@@ -57448,6 +58120,34 @@
         "de": "Launch a fully functional online shop and publishing platform powered by a secure cloud backend."
       },
       "download_url": "https://fir-cms-76f54.firebaseapp.com/",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "music-geshizhuanhuan",
+      "name": "Music Format Converter",
+      "tagline": "Unlock your music files for any device.",
+      "repo_url": "https://github.com/hruiccc/music-geshizhuanhuan",
+      "full_name": "hruiccc/music-geshizhuanhuan",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "audio",
+        "utility"
+      ],
+      "icon": "/icons/music-geshizhuanhuan.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 309,
+      "tier": "tier2_webapp",
+      "summary": "Convert restricted music files into standard audio formats like MP3 or FLAC for use on any player or device.",
+      "i18n": {
+        "it": "Converti file musicali protetti in formati audio standard come MP3 o FLAC per usarli su qualsiasi lettore.",
+        "es": "Convierte archivos de música restringidos a formatos estándar como MP3 o FLAC para usarlos en cualquier reproductor.",
+        "fr": "Convertissez vos fichiers musicaux protégés en formats standard comme MP3 ou FLAC pour les lire sur n'importe quel appareil.",
+        "de": "Wandeln Sie geschützte Musikdateien in Standardformate wie MP3 oder FLAC um, damit sie auf jedem Player funktionieren."
+      },
+      "download_url": "https://github.com/HRuiCcc/music-geshizhuanhuan/releases/download/v0.1.0/ceshi-demo.mp4",
       "updated_at": "2026-11-24"
     },
     {
