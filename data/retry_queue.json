@@ -56,39 +56,11 @@
     "queued_at": "2026-11-21T19:51:36.364589+00:00"
   },
   {
-    "full_name": "SDWebImage/SDWebImage",
-    "slug": "sdwebimage",
-    "html_url": "https://github.com/SDWebImage/SDWebImage",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-23T08:35:13.172423+00:00"
-  },
-  {
     "full_name": "kyleneideck/BackgroundMusic",
     "slug": "backgroundmusic",
     "html_url": "https://github.com/kyleneideck/BackgroundMusic",
     "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Regeln Sie App-Lautstärken einzeln, pausieren Sie Musik automatisch und nehmen Sie Systemaudio auf macOS auf.') | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
     "queued_at": "2026-11-23T08:36:18.380823+00:00"
-  },
-  {
-    "full_name": "XcodesOrg/XcodesApp",
-    "slug": "xcodesapp",
-    "html_url": "https://github.com/XcodesOrg/XcodesApp",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:29:00.072046+00:00"
-  },
-  {
-    "full_name": "ly05010419/MacNativeGames",
-    "slug": "macnativegames",
-    "html_url": "https://github.com/ly05010419/MacNativeGames",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:29:25.057208+00:00"
-  },
-  {
-    "full_name": "intitni/CopilotForXcode",
-    "slug": "copilotforxcode",
-    "html_url": "https://github.com/intitni/CopilotForXcode",
-    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Fügen Sie intelligente Codevervollständigung, interaktiven Chat und automatisierte Umgestaltung direkt in die offizielle Apple-Umgebung ein.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:29:29.964376+00:00"
   },
   {
     "full_name": "luchina-gabriel/OSX-PROXMOX",
@@ -119,13 +91,6 @@
     "queued_at": "2026-11-23T22:37:27.632829+00:00"
   },
   {
-    "full_name": "bitgapp/eqMac",
-    "slug": "eqmac",
-    "html_url": "https://github.com/bitgapp/eqMac",
-    "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'Améliorez le volume, ajustez les profils sonores et équilibrez l'audio sur tout votre Mac grâce à un panneau simple.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:38:28.241323+00:00"
-  },
-  {
     "full_name": "bizz84/SwiftyStoreKit",
     "slug": "swiftystorekit",
     "html_url": "https://github.com/bizz84/SwiftyStoreKit",
@@ -147,20 +112,6 @@
     "queued_at": "2026-11-23T22:41:43.103456+00:00"
   },
   {
-    "full_name": "argmaxinc/argmax-oss-swift",
-    "slug": "argmax-oss-swift",
-    "html_url": "https://github.com/argmaxinc/argmax-oss-swift",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-23T22:41:48.767136+00:00"
-  },
-  {
-    "full_name": "666OS/ClashMac",
-    "slug": "clashmac",
-    "html_url": "https://github.com/666OS/ClashMac",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons)",
-    "queued_at": "2026-11-23T22:43:17.262872+00:00"
-  },
-  {
     "full_name": "jacklandrin/OnlySwitch",
     "slug": "onlyswitch",
     "html_url": "https://github.com/jacklandrin/OnlySwitch",
@@ -175,34 +126,6 @@
     "queued_at": "2026-11-23T22:46:32.136333+00:00"
   },
   {
-    "full_name": "termux/termux-packages",
-    "slug": "termux-packages",
-    "html_url": "https://github.com/termux/termux-packages",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:48:41.759769+00:00"
-  },
-  {
-    "full_name": "polybar/polybar",
-    "slug": "polybar",
-    "html_url": "https://github.com/polybar/polybar",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-23T22:48:55.466110+00:00"
-  },
-  {
-    "full_name": "future-architect/vuls",
-    "slug": "vuls",
-    "html_url": "https://github.com/future-architect/vuls",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:50:20.267437+00:00"
-  },
-  {
-    "full_name": "xmake-io/xmake",
-    "slug": "xmake",
-    "html_url": "https://github.com/xmake-io/xmake",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-23T22:50:23.946716+00:00"
-  },
-  {
     "full_name": "Syllo/nvtop",
     "slug": "nvtop",
     "html_url": "https://github.com/Syllo/nvtop",
@@ -210,74 +133,11 @@
     "queued_at": "2026-11-23T22:51:58.120406+00:00"
   },
   {
-    "full_name": "TrinityCore/TrinityCore",
-    "slug": "trinitycore",
-    "html_url": "https://github.com/TrinityCore/TrinityCore",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:52:18.460711+00:00"
-  },
-  {
-    "full_name": "rr-debugger/rr",
-    "slug": "rr",
-    "html_url": "https://github.com/rr-debugger/rr",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:52:37.173848+00:00"
-  },
-  {
-    "full_name": "noisetorch/NoiseTorch",
-    "slug": "noisetorch",
-    "html_url": "https://github.com/noisetorch/NoiseTorch",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:53:19.670129+00:00"
-  },
-  {
-    "full_name": "oguzhaninan/Stacer",
-    "slug": "stacer",
-    "html_url": "https://github.com/oguzhaninan/Stacer",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:53:54.106617+00:00"
-  },
-  {
-    "full_name": "brndnmtthws/conky",
-    "slug": "conky",
-    "html_url": "https://github.com/brndnmtthws/conky",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:54:21.866602+00:00"
-  },
-  {
-    "full_name": "linux-surface/linux-surface",
-    "slug": "linux-surface",
-    "html_url": "https://github.com/linux-surface/linux-surface",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:54:46.252481+00:00"
-  },
-  {
-    "full_name": "PixiEditor/PixiEditor",
-    "slug": "pixieditor",
-    "html_url": "https://github.com/PixiEditor/PixiEditor",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:55:18.901034+00:00"
-  },
-  {
-    "full_name": "strawberrymusicplayer/strawberry",
-    "slug": "strawberry",
-    "html_url": "https://github.com/strawberrymusicplayer/strawberry",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:55:36.498820+00:00"
-  },
-  {
     "full_name": "dino/dino",
     "slug": "dino",
     "html_url": "https://github.com/dino/dino",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-23T22:55:43.675915+00:00"
-  },
-  {
-    "full_name": "p-e-w/argos",
-    "slug": "argos",
-    "html_url": "https://github.com/p-e-w/argos",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:56:11.043633+00:00"
   },
   {
     "full_name": "screenlite/screenlite",
@@ -481,5 +341,12 @@
     "html_url": "https://github.com/stoplightio/prism",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-23T23:18:35.286361+00:00"
+  },
+  {
+    "full_name": "luisbocanegra/plasma-panel-colorizer",
+    "slug": "plasma-panel-colorizer",
+    "html_url": "https://github.com/luisbocanegra/plasma-panel-colorizer",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T06:52:18.212272+00:00"
   }
 ]

@@ -6187,6 +6187,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "sdwebimage",
+    "name": "SDWebImage",
+    "tagline": "Fast asynchronous image loading for apps",
+    "repo_url": "https://github.com/sdwebimage/sdwebimage",
+    "full_name": "sdwebimage/sdwebimage",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "objective-c"
+    ],
+    "icon": "/icons/sdwebimage.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 25610,
+    "tier": "tier1_gui",
+    "summary": "Easily download and cache images asynchronously in your mobile applications without freezing the interface.",
+    "i18n": {
+      "it": "Scarica e memorizza immagini in modo asincrono senza bloccare l'interfaccia dell'applicazione mobile.",
+      "es": "Descarga y almacena imágenes de forma asíncrona sin congelar la interfaz de tu aplicación móvil.",
+      "fr": "Téléchargez et mettez en cache des images de manière asynchrone sans figer l'interface utilisateur.",
+      "de": "Laden und speichern Sie Bilder asynchron im Cache, ohne die Benutzeroberfläche Ihrer App einzufrieren."
+    },
+    "download_url": "https://sdwebimage.github.io",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "responsively-app",
     "name": "Responsively App",
     "tagline": "Test responsive web pages instantly",
@@ -9771,6 +9799,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "termux-packages",
+    "name": "termux-packages",
+    "tagline": "Build software packages for Android mobile environments",
+    "repo_url": "https://github.com/termux/termux-packages",
+    "full_name": "termux/termux-packages",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "utilities"
+    ],
+    "icon": "/icons/termux-packages.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux, Android",
+    "license": "Custom Open License",
+    "stars": 17439,
+    "tier": "tier1_gui",
+    "summary": "This tool provides automated scripts and patches to create and compile software applications specifically for Android terminal environments.",
+    "i18n": {
+      "it": "Questo strumento offre script automatizzati e patch per compilare applicazioni software specificamente per i terminali Android.",
+      "es": "Esta herramienta proporciona scripts y parches automatizados para compilar aplicaciones de software específicamente para Android.",
+      "fr": "Cet outil fournit des scripts automatisés pour compiler des applications logicielles spécifiquement destinées aux mobiles.",
+      "de": "Dieses Tool bietet automatisierte Skripte und Patches zum Kompilieren von Softwareanwendungen speziell für Android-Terminals."
+    },
+    "download_url": "https://termux.dev",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "wtf",
     "name": "WTF",
     "tagline": "Your terminal personal information dashboard.",
@@ -11113,6 +11169,34 @@
     },
     "download_url": "https://n8n.io",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "polybar",
+    "name": "Polybar",
+    "tagline": "Build beautiful, highly customizable desktop status bars.",
+    "repo_url": "https://github.com/polybar/polybar",
+    "full_name": "polybar/polybar",
+    "category": "Productivity",
+    "tags": [
+      "status-bar",
+      "desktop-customization"
+    ],
+    "icon": "/icons/polybar.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 15378,
+    "tier": "tier1_gui",
+    "summary": "Create gorgeous and personalized status bars for your computer desktop to instantly monitor system health, volume, and workspace windows.",
+    "i18n": {
+      "it": "Realizza barre di stato personalizzate per il tuo computer per monitorare istantaneamente sistema, volume e finestre aperte.",
+      "es": "Diseña barras de estado personalizadas para tu ordenador para monitorizar al instante el rendimiento, el volumen y las ventanas.",
+      "fr": "Concevez des barres d'état élégantes pour votre bureau afin de surveiller instantanément les performances et les fenêtres.",
+      "de": "Gestalten Sie individuelle Statusleisten für Ihren Desktop, um Systemleistung, Lautstärke und offene Fenster im Blick zu behalten."
+    },
+    "download_url": "https://github.com/polybar/polybar/releases/download/3.7.2/polybar-3.7.2.tar.gz.asc",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "openship",
@@ -13663,6 +13747,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "vuls",
+    "name": "Vuls",
+    "tagline": "Find hidden security flaws automatically",
+    "repo_url": "https://github.com/future-architect/vuls",
+    "full_name": "future-architect/vuls",
+    "category": "Productivity",
+    "tags": [
+      "security",
+      "vulnerability-scanner"
+    ],
+    "icon": "/icons/vuls.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 12365,
+    "tier": "tier1_gui",
+    "summary": "Vuls checks Linux, FreeBSD, containers and more for known security weaknesses without needing extra software on the target machines.",
+    "i18n": {
+      "it": "Vuls analizza Linux, FreeBSD, container e altri sistemi per individuare vulnerabilità note senza installare agenti sui server.",
+      "es": "Vuls revisa Linux, FreeBSD, contenedores y más para encontrar vulnerabilidades conocidas sin instalar agentes en los servidores.",
+      "fr": "Vuls analyse Linux, FreeBSD, conteneurs et d’autres systèmes pour repérer les vulnérabilités connues sans installer d’agent sur les serveurs.",
+      "de": "Vuls prüft Linux, FreeBSD, Container und andere Systeme, um bekannte Sicherheitslücken zu erkennen, ohne Agenten auf den Servern zu installieren."
+    },
+    "download_url": "https://github.com/future-architect/vuls/releases/download/v0.43.0/future-vuls_0.43.0_darwin_amd64.tar.gz.sigstore.json",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "illa-builder",
     "name": "ILLA Builder",
     "tagline": "Build internal tools without coding",
@@ -13689,6 +13801,34 @@
     },
     "download_url": "https://github.com/illacloud/illa-builder/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "xmake",
+    "name": "xmake",
+    "tagline": "Cross-platform software compilation utility",
+    "repo_url": "https://github.com/xmake-io/xmake",
+    "full_name": "xmake-io/xmake",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "compiler"
+    ],
+    "icon": "/icons/xmake.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 12314,
+    "tier": "tier1_gui",
+    "summary": "Xmake is a lightweight, cross-platform build utility that simplifies compiling code and managing project dependencies using the Lua scripting language.",
+    "i18n": {
+      "it": "Xmake è uno strumento di compilazione leggero e multipiattaforma che semplifica lo sviluppo e la gestione delle dipendenze con Lua.",
+      "es": "Xmake es una herramienta de compilación ligera y multiplataforma que simplifica la programación y la gestión de dependencias con Lua.",
+      "fr": "Xmake est un outil de compilation léger et multiplateforme qui simplifie le développement et la gestion des dépendances avec Lua.",
+      "de": "Xmake ist ein leichtgewichtinales, plattformübergreifendes Build-Tool, das die Programmverwaltung und Abhängigkeiten mit Lua vereinfacht."
+    },
+    "download_url": "https://github.com/xmake-io/xmake/releases/download/v3.1.2/xmake-bundle-v3.1.2.arm64.exe",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "genact",
@@ -15231,6 +15371,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "trinitycore",
+    "name": "TrinityCore",
+    "tagline": "Run your own private game world",
+    "repo_url": "https://github.com/trinitycore/trinitycore",
+    "full_name": "trinitycore/trinitycore",
+    "category": "Productivity",
+    "tags": [
+      "mmorpg",
+      "game-server"
+    ],
+    "icon": "/icons/trinitycore.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 10895,
+    "tier": "tier1_gui",
+    "summary": "TrinityCore lets you run a private version of a popular online role‑playing game, so you control the world, its rules, and who can play.",
+    "i18n": {
+      "it": "TrinityCore ti permette di gestire una versione privata di un noto gioco di ruolo online, così controlli il mondo, le regole e chi può giocare.",
+      "es": "TrinityCore te permite ejecutar una versión privada de un popular juego de rol en línea, dándote control total del mundo, sus reglas y quién puede jugar.",
+      "fr": "TrinityCore vous permet de lancer une version privée d’un jeu de rôle en ligne populaire, vous donnant le contrôle du monde, de ses règles et des joueurs.",
+      "de": "TrinityCore ermöglicht Ihnen, eine private Version eines bekannten Online‑Rollenspiels zu betreiben, sodass Sie die Welt, ihre Regeln und die Spieler selbst bestimmen."
+    },
+    "download_url": "https://github.com/TrinityCore/TrinityCore/releases/download/TDB335.26091/TDB_full_world_335.26091_2026_09_09.7z",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "captura",
     "name": "Captura",
     "tagline": "Record screens and audio effortlessly",
@@ -15424,6 +15592,34 @@
     },
     "download_url": "https://github.com/squizlabs/PHP_CodeSniffer/releases/download/3.7.2/phpcbf.phar",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "rr",
+    "name": "rr",
+    "tagline": "Record and replay software execution easily.",
+    "repo_url": "https://github.com/rr-debugger/rr",
+    "full_name": "rr-debugger/rr",
+    "category": "Productivity",
+    "tags": [
+      "debugger",
+      "linux"
+    ],
+    "icon": "/icons/rr.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Custom Open License",
+    "stars": 10762,
+    "tier": "tier1_gui",
+    "summary": "Capture software behavior and replay it backward to track down elusive programming bugs quickly.",
+    "i18n": {
+      "it": "Cattura il comportamento del software e riproducilo all'indietro per individuare bug complessi.",
+      "es": "Captura el comportamiento del software y reprodúcelo hacia atrás para encontrar errores ocultos.",
+      "fr": "Capturez le comportement du logiciel et rejouez-le en arrière pour traquer les bogues.",
+      "de": "Erfassen Sie das Softwareverhalten und spielen Sie es rückwärts ab, um Fehler schnell zu finden."
+    },
+    "download_url": "https://github.com/rr-debugger/rr/releases/download/5.10.0/rr-5.10.0-Linux-aarch64.deb",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "wuzz",
@@ -16292,6 +16488,34 @@
     },
     "download_url": "https://github.com/harelba/q/releases/download/v3.1.6/win-q.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "noisetorch",
+    "name": "NoiseTorch",
+    "tagline": "Real-time microphone noise cancellation for Linux",
+    "repo_url": "https://github.com/noisetorch/noisetorch",
+    "full_name": "noisetorch/noisetorch",
+    "category": "Productivity",
+    "tags": [
+      "audio",
+      "linux"
+    ],
+    "icon": "/icons/noisetorch.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Custom Open License",
+    "stars": 10359,
+    "tier": "tier1_gui",
+    "summary": "Remove background noises like mechanical keyboards and computer fans from your microphone in real time on Linux.",
+    "i18n": {
+      "it": "Rimuovi i rumori di fondo come tastiere e ventole dal tuo microfono in tempo reale su Linux.",
+      "es": "Elimina ruidos de fondo como teclados y ventiladores de tu micrófono en tiempo real en Linux.",
+      "fr": "Supprimez les bruits de fond de votre microphone en temps réel sur Linux.",
+      "de": "Entfernen Sie Hintergrundgeräusche von Tastaturen oder Lüftern in Echtzeit von Ihrem Mikrofon unter Linux."
+    },
+    "download_url": "https://github.com/noisetorch/NoiseTorch/releases/download/v0.12.2/NoiseTorch_x64_v0.12.2.tgz.md5sum",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "claurst",
@@ -18366,6 +18590,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "stacer",
+    "name": "Stacer",
+    "tagline": "Optimize and monitor your Linux computer",
+    "repo_url": "https://github.com/oguzhaninan/stacer",
+    "full_name": "oguzhaninan/stacer",
+    "category": "Productivity",
+    "tags": [
+      "linux",
+      "utilities"
+    ],
+    "icon": "/icons/stacer.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 9348,
+    "tier": "tier1_gui",
+    "summary": "Stacer is an easy-to-use desktop application for cleaning system clutter, checking processor usage, and managing startup programs on Linux.",
+    "i18n": {
+      "it": "Stacer è un'applicazione intuitiva per pulire il computer, controllare l'uso della memoria e gestire i programmi su Linux.",
+      "es": "Stacer es una aplicación fácil de usar para limpiar tu sistema, vigilar el procesador y administrar programas en Linux.",
+      "fr": "Stacer est une application simple pour nettoyer votre système, surveiller le processeur et gérer les logiciels sous Linux.",
+      "de": "Stacer ist eine benutzerfreundliche Anwendung zur Systemreinigung, Leistungsüberwachung und Programmverwaltung unter Linux."
+    },
+    "download_url": "https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/Stacer-1.1.0-x64.AppImage",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "bili23-downloader",
     "name": "Bili23-Downloader",
     "tagline": "Save and organize your favorite online videos",
@@ -19990,6 +20242,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "xcodesapp",
+    "name": "XcodesApp",
+    "tagline": "Easily install and switch Xcode versions",
+    "repo_url": "https://github.com/xcodesorg/xcodesapp",
+    "full_name": "xcodesorg/xcodesapp",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "developer-tools"
+    ],
+    "icon": "/icons/xcodesapp.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 8660,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple versions of Xcode on your Mac with a single click, supercharged downloads, and a built-in clean up tool.",
+    "i18n": {
+      "it": "Gestisci più versioni di Xcode sul tuo Mac con un solo clic, download ultraveloci e uno strumento di pulizia integrato.",
+      "es": "Administra múltiples versiones de Xcode en tu Mac con un solo clic, descargas rápidas y una herramienta de limpieza integrada.",
+      "fr": "Gérez plusieurs versions de Xcode sur votre Mac en un clic, des téléchargements rapides et un outil de nettoyage intégré.",
+      "de": "Verwalten Sie mehrere Xcode-Versionen auf Ihrem Mac mit nur einem Klick, schnellen Downloads und einem integrierten Reiniger."
+    },
+    "download_url": "https://xcodes.app",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "youtube-transcript-api",
     "name": "youtube-transcript-api",
     "tagline": "Easily pull captions from online videos",
@@ -20044,6 +20324,34 @@
     },
     "download_url": "https://sindresorhus.com/gifski",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "conky",
+    "name": "Conky",
+    "tagline": "Live desktop system stats",
+    "repo_url": "https://github.com/brndnmtthws/conky",
+    "full_name": "brndnmtthws/conky",
+    "category": "Productivity",
+    "tags": [
+      "system-monitor",
+      "desktop-utilities"
+    ],
+    "icon": "/icons/conky.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 8581,
+    "tier": "tier1_gui",
+    "summary": "Conky shows real‑time computer information right on your screen, so you can see CPU, memory, disk usage and more at a glance.",
+    "i18n": {
+      "it": "Conky visualizza le informazioni del computer in tempo reale direttamente sullo schermo, così puoi vedere CPU, memoria, utilizzo del disco e altro a colpo d'occhio.",
+      "es": "Conky muestra la información del ordenador en tiempo real sobre tu escritorio, permitiéndote ver la CPU, la memoria, el uso del disco y más de un vistazo.",
+      "fr": "Conky affiche les informations de votre ordinateur en temps réel sur le bureau, vous permettant de voir le CPU, la mémoire, l’usage du disque et plus en un clin d’œil.",
+      "de": "Conky zeigt die Computer‑Informationen in Echtzeit direkt auf dem Desktop an, sodass Sie CPU‑Auslastung, Speicher, Festplatten‑Nutzung und mehr sofort sehen können."
+    },
+    "download_url": "https://github.com/brndnmtthws/conky/releases/download/v1.26.2/conky-aarch64-v1.26.2.AppImage",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "hippy",
@@ -20354,6 +20662,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "macnativegames",
+    "name": "MacNativeGames",
+    "tagline": "Run console games natively on Apple chips.",
+    "repo_url": "https://github.com/ly05010419/macnativegames",
+    "full_name": "ly05010419/macnativegames",
+    "category": "Productivity",
+    "tags": [
+      "gaming",
+      "apple-silicon"
+    ],
+    "icon": "/icons/macnativegames.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 8254,
+    "tier": "tier1_gui",
+    "summary": "Run your own console game backups directly on Apple Silicon Macs, iPhones, and iPads without traditional emulation layers.",
+    "i18n": {
+      "it": "Esegui i tuoi backup di giochi per console direttamente su Mac, iPhone e iPad con chip Apple senza emulatori tradizionali.",
+      "es": "Ejecuta tus propias copias de juegos de consola directamente en Mac, iPhone y iPad con chips Apple sin emuladores tradicionales.",
+      "fr": "Exécutez vos propres copies de jeux de console directement sur Mac, iPhone et iPad dotés de puces Apple sans émulateurs.",
+      "de": "Führe deine eigenen Konsolenspiel-Backups direkt auf Apple Silicon Macs, iPhones und iPads ohne traditionelle Emulatoren aus."
+    },
+    "download_url": "https://github.com/ly05010419/MacNativeGames/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "open-codesign",
     "name": "open-codesign",
     "tagline": "Turn text prompts into interactive design prototypes",
@@ -20464,6 +20800,34 @@
     },
     "download_url": "https://github.com/ducaale/xh/releases",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "copilotforxcode",
+    "name": "Copilot for Xcode",
+    "tagline": "AI coding assistant for Xcode",
+    "repo_url": "https://github.com/intitni/copilotforxcode",
+    "full_name": "intitni/copilotforxcode",
+    "category": "Productivity",
+    "tags": [
+      "developer-tools",
+      "ai-assistant"
+    ],
+    "icon": "/icons/copilotforxcode.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 8199,
+    "tier": "tier1_gui",
+    "summary": "Bring GitHub Copilot, Codeium, and ChatGPT directly into your Xcode editor for smarter coding.",
+    "i18n": {
+      "it": "Porta GitHub Copilot, Codeium e ChatGPT direttamente nel tuo editor Xcode per una programmazione più intelligente.",
+      "es": "Lleva GitHub Copilot, Codeium y ChatGPT directamente a tu editor Xcode para una programación más inteligente.",
+      "fr": "Intégrez GitHub Copilot, Codeium et ChatGPT directement dans votre éditeur Xcode pour un codage plus intelligent.",
+      "de": "Bringen Sie GitHub Copilot, Codeium und ChatGPT direkt in Ihren Xcode-Editor für intelligentes Programmieren."
+    },
+    "download_url": "https://copilotforxcode.intii.com",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "google-play-music-desktop-player-unofficial",
@@ -20632,6 +20996,34 @@
     },
     "download_url": "https://www.traccar.org",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pixieditor",
+    "name": "PixiEditor",
+    "tagline": "All-in-one 2D art and animation tool",
+    "repo_url": "https://github.com/pixieditor/pixieditor",
+    "full_name": "pixieditor/pixieditor",
+    "category": "Productivity",
+    "tags": [
+      "2d-graphics",
+      "pixel-art"
+    ],
+    "icon": "/icons/pixieditor.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (LGPL)",
+    "stars": 8158,
+    "tier": "tier1_gui",
+    "summary": "Create pixel art, logos, and animations in one free program that works on Windows, Mac, and Linux.",
+    "i18n": {
+      "it": "Crea pixel art, loghi e animazioni in un unico programma gratuito che funziona su Windows, Mac e Linux.",
+      "es": "Crea pixel art, logotipos y animaciones en un solo programa gratuito que funciona en Windows, Mac y Linux.",
+      "fr": "Créez du pixel art, des logos et des animations dans un seul programme gratuit fonctionnant sur Windows, Mac et Linux.",
+      "de": "Erstelle Pixel-Art, Logos und Animationen in einer kostenlosen Anwendung, die auf Windows, Mac und Linux läuft."
+    },
+    "download_url": "https://github.com/PixiEditor/PixiEditor/releases/download/2.1.2.5/PixiEditor-2.1.2.5-setup-x64-win.exe",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "clack",
@@ -21192,6 +21584,34 @@
     },
     "download_url": "https://github.com/momenbasel/PureMac/releases/download/v3.3.0/PureMac-3.3.0.dmg",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "linux-surface",
+    "name": "linux-surface",
+    "tagline": "Run Linux smoothly on Microsoft Surface.",
+    "repo_url": "https://github.com/linux-surface/linux-surface",
+    "full_name": "linux-surface/linux-surface",
+    "category": "Productivity",
+    "tags": [
+      "linux",
+      "surface"
+    ],
+    "icon": "/icons/linux-surface.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Custom Open License",
+    "stars": 7931,
+    "tier": "tier1_gui",
+    "summary": "Custom software and patches that bring full hardware support to Microsoft Surface laptops, tablets, and convertibles running Linux.",
+    "i18n": {
+      "it": "Software e patch personalizzate che offrono il pieno supporto hardware ai dispositivi Microsoft Surface con Linux.",
+      "es": "Software y parches personalizados que brindan soporte completo de hardware a los dispositivos Microsoft Surface.",
+      "fr": "Logiciels et correctifs personnalisés qui apportent une prise en charge matérielle complète aux Microsoft Surface.",
+      "de": "Maßgeschneiderte Software und Patches für volle Hardware-Unterstützung auf Microsoft Surface Geräten."
+    },
+    "download_url": "https://github.com/linux-surface/linux-surface/releases/download/debian-7.3.6-1/linux-headers-7.3.6-1-surface_7.3.6-1_amd64.deb",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "btrfs",
@@ -24218,6 +24638,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "eqmac",
+    "name": "eqMac",
+    "tagline": "System-wide audio control for Mac",
+    "repo_url": "https://github.com/bitgapp/eqmac",
+    "full_name": "bitgapp/eqmac",
+    "category": "Productivity",
+    "tags": [
+      "audio",
+      "macos"
+    ],
+    "icon": "/icons/eqmac.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 6837,
+    "tier": "tier1_gui",
+    "summary": "Adjust the volume and sound quality of every app on your Mac with one simple tool.",
+    "i18n": {
+      "it": "Regola il volume e la qualità del suono di ogni app sul tuo Mac con uno strumento semplice.",
+      "es": "Ajusta el volumen y la calidad del sonido de cada aplicación en tu Mac con una herramienta.",
+      "fr": "Réglez le volume et la qualité du son de chaque application sur votre Mac avec un outil.",
+      "de": "Stellen Sie die Lautstärke und Klangqualität jeder App auf Ihrem Mac mit einem einfachen Tool."
+    },
+    "download_url": "https://github.com/bitgapp/eqMac/releases/download/v1.9.2/eqMac.dmg",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "greptimedb",
     "name": "GreptimeDB",
     "tagline": "Unified data storage for all your signals.",
@@ -25282,6 +25730,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "argmax-oss-swift",
+    "name": "Argmax Open-Source SDK",
+    "tagline": "On-device speech intelligence for Apple Silicon",
+    "repo_url": "https://github.com/argmaxinc/argmax-oss-swift",
+    "full_name": "argmaxinc/argmax-oss-swift",
+    "category": "Productivity",
+    "tags": [
+      "speech-to-text",
+      "ai"
+    ],
+    "icon": "/icons/argmax-oss-swift.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 6472,
+    "tier": "tier1_gui",
+    "summary": "Run advanced speech-to-text, speaker identification, and text-to-speech models directly on your Mac or iPhone with complete privacy.",
+    "i18n": {
+      "it": "Esegui modelli avanzati di riconoscimento vocale e sintesi direttamente sul tuo Mac o iPhone con totale privacy.",
+      "es": "Ejecuta modelos avanzados de voz a texto y síntesis directamente en tu Mac o iPhone con total privacidad.",
+      "fr": "Exécutez des modèles de transcription et de synthèse vocale avancés directement sur votre Mac ou iPhone en toute confidentialité.",
+      "de": "Führen Sie fortschrittliche Spracherkennungs- und Sprachgenerierungsmodelle direkt auf Ihrem Mac oder iPhone mit voller Privatsphäre aus."
+    },
+    "download_url": "https://github.com/argmaxinc/argmax-oss-swift/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "sshfs-win",
     "name": "sshfs-win",
     "tagline": "Mount remote folders as Windows drives",
@@ -25700,6 +26176,34 @@
     },
     "download_url": "https://github.com/OpenSelena/libreget/releases/download/v0.16.6/omniget_0.16.6_x64-portable.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "clashmac",
+    "name": "ClashMac",
+    "tagline": "Native proxy management for macOS systems",
+    "repo_url": "https://github.com/666os/clashmac",
+    "full_name": "666os/clashmac",
+    "category": "Productivity",
+    "tags": [
+      "networking",
+      "macos"
+    ],
+    "icon": "/icons/clashmac.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 6346,
+    "tier": "tier1_gui",
+    "summary": "Manage network connections, route traffic globally, and secure your Mac browsing experience with a native interface.",
+    "i18n": {
+      "it": "Gestisci le connessioni di rete e proteggi la tua navigazione su Mac con un'interfaccia nativa ed efficiente.",
+      "es": "Gestiona conexiones de red y protege tu navegación en Mac con una interfaz nativa y eficiente.",
+      "fr": "Gérez vos connexions réseau et sécurisez votre navigation sur Mac grâce à une interface native.",
+      "de": "Verwalten Sie Netzwerkverbindungen und sichern Sie Ihr Mac-Browsing mit einer nativen Oberfläche ab."
+    },
+    "download_url": "https://github.com/666OS/ClashMac/releases/download/27.1.9/ClashMac-27.1.9.dmg",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "x11docker",
@@ -32643,6 +33147,34 @@
     },
     "download_url": "https://github.com/arnegiacomo/fugleramme/releases/download/v0.33.0/uv.lock",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "strawberry",
+    "name": "Strawberry",
+    "tagline": "Free music player for collectors",
+    "repo_url": "https://github.com/strawberrymusicplayer/strawberry",
+    "full_name": "strawberrymusicplayer/strawberry",
+    "category": "Video & Audio",
+    "tags": [
+      "music-player",
+      "audio-organizer"
+    ],
+    "icon": "/icons/strawberry.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 4094,
+    "tier": "tier1_gui",
+    "summary": "Strawberry is a free, open-source music player that organizes your library and plays high-quality audio files without ads or subscriptions.",
+    "i18n": {
+      "it": "Strawberry è un lettore musicale open source che organizza la tua libreria e riproduce file audio di alta qualità senza pubblicità o abbonamenti.",
+      "es": "Strawberry es un reproductor musical de código abierto que organiza tu biblioteca y reproduce archivos de audio de alta calidad sin anuncios ni suscripciones.",
+      "fr": "Strawberry est un lecteur musical open source qui organise votre bibliothèque et lit des fichiers audio de haute qualité sans publicités ni abonnements.",
+      "de": "Strawberry ist ein kostenloser Open-Source-Musikplayer, der deine Bibliothek organisiert und hochqualitative Audio-Dateien ohne Werbung oder Abo abspielt."
+    },
+    "download_url": "https://github.com/strawberrymusicplayer/strawberry/releases/download/1.2.31/strawberry-dbgsym_1.2.31-bookworm_amd64.deb",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "haxor-news",
@@ -41856,6 +42388,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "argos",
+    "name": "Argos",
+    "tagline": "Turn Bash scripts into GNOME menus",
+    "repo_url": "https://github.com/p-e-w/argos",
+    "full_name": "p-e-w/argos",
+    "category": "Productivity",
+    "tags": [
+      "linux",
+      "gnome"
+    ],
+    "icon": "/icons/argos.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Custom Open License",
+    "stars": 1804,
+    "tier": "tier1_gui",
+    "summary": "Create custom desktop panel menus and monitoring tools instantly using simple scripts you already know.",
+    "i18n": {
+      "it": "Aggiungi menu a tendina personalizzati sul desktop usando semplici script e comandi che conosci già.",
+      "es": "Añade menús desplegables personalizados al escritorio usando simples scripts y comandos que ya conoces.",
+      "fr": "Ajoutez des menus déroulants personnalisés à votre bureau en utilisant des scripts simples.",
+      "de": "Fügen Sie benutzerdefinierte Desktop-Menüs hinzu und überwachen Sie Ihr System mit einfachen Skripten."
+    },
+    "download_url": "https://extensions.gnome.org/extension/1176/argos/",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "kanban-app",
     "name": "kanban-app",
     "tagline": "Lightweight native desktop task board.",
@@ -42274,6 +42834,34 @@
     },
     "download_url": "https://github.com/SpartanJ/ecode/releases/download/ecode-0.9.0/ecode-macos-0.9.0-arm64.dmg",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "rawmakase",
+    "name": "RAWmakase",
+    "tagline": "Fast non-destructive RAW photo editor",
+    "repo_url": "https://github.com/pch/rawmakase",
+    "full_name": "pch/rawmakase",
+    "category": "Graphics & Design",
+    "tags": [
+      "photo-editor",
+      "raw"
+    ],
+    "icon": "/icons/rawmakase.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1708,
+    "tier": "tier1_gui",
+    "summary": "RAWmakase is a fast, free photo editing tool that helps you develop professional image files using a familiar, user-friendly layout.",
+    "i18n": {
+      "it": "RAWmakase è un editor di foto veloce e gratuito che ti aiuta a sviluppare file d'immagine professionali con un layout familiare.",
+      "es": "RAWmakase es un editor de fotos rápido y gratuito que te ayuda a desarrollar archivos de imagen profesionales con un diseño familiar.",
+      "fr": "RAWmakase est un éditeur de photos rapide et gratuit qui vous aide à développer des images professionnelles avec une disposition familière.",
+      "de": "RAWmakase ist ein schneller, kostenloser Bildbearbeiter, mit dem Sie professionelle Bilddateien ganz einfach entwickeln können."
+    },
+    "download_url": "https://github.com/pch/rawmakase/releases/download/v0.7.2/rawmakase-v0.7.2-aarch64-pc-windows-msvc-setup.exe",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "rageframe2",
@@ -44992,6 +45580,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "jingos",
+    "name": "JingOS",
+    "tagline": "The First Linux Operating System for Tablets",
+    "repo_url": "https://github.com/jingos-team/jingos",
+    "full_name": "jingos-team/jingos",
+    "category": "Productivity",
+    "tags": [
+      "tablet",
+      "linux"
+    ],
+    "icon": "/icons/jingos.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 1145,
+    "tier": "tier1_gui",
+    "summary": "JingOS is an open-source, touch-friendly operating system designed specifically for tablets and everyday mobile productivity.",
+    "i18n": {
+      "it": "JingOS è un sistema operativo open-source ottimizzato per il controllo touch su tablet e dispositivi mobili.",
+      "es": "JingOS es un sistema operativo de código abierto diseñado específicamente para tabletas y productividad móvil.",
+      "fr": "JingOS est un système open-source conçu pour offrir une navigation tactile fluide sur tablettes et mobiles.",
+      "de": "JingOS ist ein quelloffenes Betriebssystem, das speziell für Touch-Bedienung auf Tablets entwickelt wurde."
+    },
+    "download_url": "https://jingos.com",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "af-media-bar",
     "name": "AF-Media-Bar",
     "tagline": "Sleek desktop media controls and lyrics.",
@@ -45326,6 +45942,34 @@
     },
     "download_url": "https://github.com/diyhi/bbs/releases",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "kde-material-you-colors",
+    "name": "kde-material-you-colors",
+    "tagline": "Dynamic wallpaper color themes for KDE Plasma",
+    "repo_url": "https://github.com/luisbocanegra/kde-material-you-colors",
+    "full_name": "luisbocanegra/kde-material-you-colors",
+    "category": "Productivity",
+    "tags": [
+      "kde",
+      "customization"
+    ],
+    "icon": "/icons/kde-material-you-colors.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1074,
+    "tier": "tier1_gui",
+    "summary": "Automatically generate light and dark color schemes for your desktop and terminal straight from your current wallpaper.",
+    "i18n": {
+      "it": "Genera automaticamente combinazioni di colori chiari e scuri per il desktop e il terminale direttamente dal tuo sfondo attuale.",
+      "es": "Genera automáticamente esquemas de colores claros y oscuros para tu escritorio y terminal directamente desde tu fondo actual.",
+      "fr": "Générez automatiquement des palettes de couleurs claires et sombres pour votre bureau et votre terminal à partir de votre fond d'écran.",
+      "de": "Erstellen Sie automatisch helle und dunkle Farbschemata für Ihren Desktop und Ihr Terminal direkt aus Ihrem aktuellen Hintergrundbild."
+    },
+    "download_url": "https://store.kde.org/p/2136963",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "s3manager",
@@ -47174,6 +47818,34 @@
     },
     "download_url": "https://vue-crud.github.io/",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "bilibililiverecorddownloader",
+    "name": "BilibiliLiveRecordDownLoader",
+    "tagline": "Auto-record Bilibili live streams",
+    "repo_url": "https://github.com/hmbsbige/bilibililiverecorddownloader",
+    "full_name": "hmbsbige/bilibililiverecorddownloader",
+    "category": "Video & Audio",
+    "tags": [
+      "recording",
+      "bilibili"
+    ],
+    "icon": "/icons/bilibililiverecorddownloader.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 833,
+    "tier": "tier1_gui",
+    "summary": "A free desktop tool that automatically records live streams from Bilibili, converting them into high-quality MP4 files with subtitles.",
+    "i18n": {
+      "it": "Un tool desktop gratuito che registra automaticamente le dirette di Bilibili, convertendole in file MP4 di alta qualità con sottotitoli.",
+      "es": "Una herramienta de escritorio gratuita que graba automáticamente las transmisiones en vivo de Bilibili, convirtiéndolas en archivos MP4 de alta calidad con subtítulos.",
+      "fr": "Un outil de bureau gratuit qui enregistre automatiquement les diffusions en direct de Bilibili, les convertissant en fichiers MP4 de haute qualité avec sous-titres.",
+      "de": "Ein kostenloses Desktop-Tool, das Bilibili-Livestreams automatisch aufzeichnet und sie in hochwertige MP4-Dateien mit Untertiteln konvertiert."
+    },
+    "download_url": "https://github.com/HMBSbige/BilibiliLiveRecordDownLoader/releases/download/4.0.0/BilibiliLiveRecordDownLoader-4.0.0-win-arm64.7z",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "edge-drop",
@@ -50562,6 +51234,34 @@
     },
     "download_url": "https://github.com/alexishida/Moji/releases/download/v1.0.7/Moji.Setup.1.0.7.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "colab-playground",
+    "name": "Colab Playground",
+    "tagline": "Control Colab sessions safely",
+    "repo_url": "https://github.com/scarletkc/colab-playground",
+    "full_name": "scarletkc/colab-playground",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "google-colab"
+    ],
+    "icon": "/icons/colab-playground.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 508,
+    "tier": "tier1_gui",
+    "summary": "Colab Playground lets you start and stop Google Colab compute sessions from your desktop, watch spending, and forward ports or add plugins.",
+    "i18n": {
+      "it": "Colab Playground ti permette di avviare e fermare le sessioni di calcolo di Google Colab dal tuo computer, controllare la spesa e inoltrare porte o aggiungere plugin.",
+      "es": "Colab Playground te permite iniciar y detener sesiones de cálculo de Google Colab desde tu escritorio, vigilar el gasto y reenviar puertos o añadir complementos.",
+      "fr": "Colab Playground vous permet de lancer et d’arrêter les sessions de calcul Google Colab depuis votre ordinateur, de suivre les dépenses et de rediriger des ports ou d’ajouter des extensions.",
+      "de": "Colab Playground ermöglicht es Ihnen, Google‑Colab‑Rechen‑Sitzungen von Ihrem Desktop aus zu starten und zu stoppen, die Kosten im Blick zu behalten und Ports weiterzuleiten oder Plugins hinzuzufügen."
+    },
+    "download_url": "https://github.com/scarletkc/colab-playground/releases/download/v0.4.0/colab-playground-x86_64-pc-windows-msvc.exe",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "dreamcoder",
