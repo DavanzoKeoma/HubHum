@@ -91,39 +91,11 @@
     "queued_at": "2026-11-23T22:51:58.120406+00:00"
   },
   {
-    "full_name": "ThomasBleijendaal/RapidCMS",
-    "slug": "rapidcms",
-    "html_url": "https://github.com/ThomasBleijendaal/RapidCMS",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:58:47.578197+00:00"
-  },
-  {
-    "full_name": "eddy8/LightCMS",
-    "slug": "lightcms",
-    "html_url": "https://github.com/eddy8/LightCMS",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:59:06.110136+00:00"
-  },
-  {
     "full_name": "xnx3/wangmarket",
     "slug": "wangmarket",
     "html_url": "https://github.com/xnx3/wangmarket",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-23T22:59:16.247529+00:00"
-  },
-  {
-    "full_name": "rikhuijzer/bloglite",
-    "slug": "bloglite",
-    "html_url": "https://github.com/rikhuijzer/bloglite",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:00:56.415071+00:00"
-  },
-  {
-    "full_name": "givebest/node-nest-vue-nuxt-cms",
-    "slug": "node-nest-vue-nuxt-cms",
-    "html_url": "https://github.com/givebest/node-nest-vue-nuxt-cms",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:01:03.235910+00:00"
   },
   {
     "full_name": "zenphoto/zenphoto",
@@ -138,41 +110,6 @@
     "html_url": "https://github.com/Qinmei/qinVideo",
     "reason": "tier1_gemini: validation failed (Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-23T23:03:37.545375+00:00"
-  },
-  {
-    "full_name": "BKWLD/decoy",
-    "slug": "decoy",
-    "html_url": "https://github.com/BKWLD/decoy",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:04:13.637057+00:00"
-  },
-  {
-    "full_name": "LMS-Laravel/OLD-LMS-Laravel",
-    "slug": "old-lms-laravel",
-    "html_url": "https://github.com/LMS-Laravel/OLD-LMS-Laravel",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:06:19.813554+00:00"
-  },
-  {
-    "full_name": "forestryio/forestry.io",
-    "slug": "forestry-io",
-    "html_url": "https://github.com/forestryio/forestry.io",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:06:34.372808+00:00"
-  },
-  {
-    "full_name": "jlelse/GoBlog",
-    "slug": "goblog",
-    "html_url": "https://github.com/jlelse/GoBlog",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:06:56.978556+00:00"
-  },
-  {
-    "full_name": "gatsbyjs/gatsby",
-    "slug": "gatsby",
-    "html_url": "https://github.com/gatsbyjs/gatsby",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:09:44.655288+00:00"
   },
   {
     "full_name": "unhappychoice/gitlogue",
@@ -285,27 +222,6 @@
     "html_url": "https://github.com/Tencent/ncnn",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T06:58:19.235448+00:00"
-  },
-  {
-    "full_name": "ondras/my-mind",
-    "slug": "my-mind",
-    "html_url": "https://github.com/ondras/my-mind",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:05:08.463397+00:00"
-  },
-  {
-    "full_name": "wangdahoo/vonic",
-    "slug": "vonic",
-    "html_url": "https://github.com/wangdahoo/vonic",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:05:12.233592+00:00"
-  },
-  {
-    "full_name": "liyupi/sql-father-frontend-public",
-    "slug": "sql-father-frontend-public",
-    "html_url": "https://github.com/liyupi/sql-father-frontend-public",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:07:00.906160+00:00"
   },
   {
     "full_name": "gpxstudio/gpx.studio",
@@ -1223,5 +1139,145 @@
     "html_url": "https://github.com/samuelclay/NewsBlur",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T19:15:00.903614+00:00"
+  },
+  {
+    "full_name": "XayahSuSuSu/Android-DataBackup",
+    "slug": "android-databackup",
+    "html_url": "https://github.com/XayahSuSuSu/Android-DataBackup",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:15:20.303795+00:00"
+  },
+  {
+    "full_name": "ArisGuimera/Android-Expert",
+    "slug": "android-expert",
+    "html_url": "https://github.com/ArisGuimera/Android-Expert",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:15:25.084460+00:00"
+  },
+  {
+    "full_name": "aistra0528/Hail",
+    "slug": "hail",
+    "html_url": "https://github.com/aistra0528/Hail",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:15:29.270223+00:00"
+  },
+  {
+    "full_name": "shiaho777/web-to-app",
+    "slug": "web-to-app",
+    "html_url": "https://github.com/shiaho777/web-to-app",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:15:38.359908+00:00"
+  },
+  {
+    "full_name": "romanvht/ByeByeDPI",
+    "slug": "byebyedpi",
+    "html_url": "https://github.com/romanvht/ByeByeDPI",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:15:45.826761+00:00"
+  },
+  {
+    "full_name": "InfinityLoop1308/PipePipe",
+    "slug": "pipepipe",
+    "html_url": "https://github.com/InfinityLoop1308/PipePipe",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:15:51.035549+00:00"
+  },
+  {
+    "full_name": "akveo/kittenTricks",
+    "slug": "kittentricks",
+    "html_url": "https://github.com/akveo/kittenTricks",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:15:55.150887+00:00"
+  },
+  {
+    "full_name": "plainhub/plain-app",
+    "slug": "plain-app",
+    "html_url": "https://github.com/plainhub/plain-app",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:16:06.050458+00:00"
+  },
+  {
+    "full_name": "zetbaitsu/Compressor",
+    "slug": "compressor",
+    "html_url": "https://github.com/zetbaitsu/Compressor",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:16:20.752261+00:00"
+  },
+  {
+    "full_name": "Bearded-Hen/Android-Bootstrap",
+    "slug": "android-bootstrap",
+    "html_url": "https://github.com/Bearded-Hen/Android-Bootstrap",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:16:34.211570+00:00"
+  },
+  {
+    "full_name": "alibaba/flutter_boost",
+    "slug": "flutter-boost",
+    "html_url": "https://github.com/alibaba/flutter_boost",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:17:09.541791+00:00"
+  },
+  {
+    "full_name": "cymcsg/UltimateRecyclerView",
+    "slug": "ultimaterecyclerview",
+    "html_url": "https://github.com/cymcsg/UltimateRecyclerView",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:17:24.931688+00:00"
+  },
+  {
+    "full_name": "espeak-ng/espeak-ng",
+    "slug": "espeak-ng",
+    "html_url": "https://github.com/espeak-ng/espeak-ng",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:17:29.536858+00:00"
+  },
+  {
+    "full_name": "naman14/Timber",
+    "slug": "timber",
+    "html_url": "https://github.com/naman14/Timber",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'Timber vous permet d’écouter votre musique avec une interface épurée, moderne et une navigation simple.')",
+    "queued_at": "2026-11-24T19:17:49.279365+00:00"
+  },
+  {
+    "full_name": "smuyyh/BookReader",
+    "slug": "bookreader",
+    "html_url": "https://github.com/smuyyh/BookReader",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:17:53.755568+00:00"
+  },
+  {
+    "full_name": "DroidPluginTeam/DroidPlugin",
+    "slug": "droidplugin",
+    "html_url": "https://github.com/DroidPluginTeam/DroidPlugin",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:18:00.448433+00:00"
+  },
+  {
+    "full_name": "alibaba/AndFix",
+    "slug": "andfix",
+    "html_url": "https://github.com/alibaba/AndFix",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:18:39.330178+00:00"
+  },
+  {
+    "full_name": "Gurupreet/ComposeCookBook",
+    "slug": "composecookbook",
+    "html_url": "https://github.com/Gurupreet/ComposeCookBook",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:19:04.486722+00:00"
+  },
+  {
+    "full_name": "igorwojda/android-showcase",
+    "slug": "android-showcase",
+    "html_url": "https://github.com/igorwojda/android-showcase",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:20:07.985389+00:00"
+  },
+  {
+    "full_name": "ReactiveX/RxSwift",
+    "slug": "rxswift",
+    "html_url": "https://github.com/ReactiveX/RxSwift",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T19:21:40.164424+00:00"
   }
 ]

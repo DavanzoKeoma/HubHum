@@ -2,27 +2,27 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-24T19:15:04.871394+00:00",
-  "total_apps": 2050,
+  "generated_at": "2026-11-24T19:26:57.646509+00:00",
+  "total_apps": 2075,
   "tier_counts": {
     "tier3_powertool": 289,
-    "tier2_webapp": 606,
-    "tier1_gui": 1155
+    "tier2_webapp": 619,
+    "tier1_gui": 1167
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 279,
-    "selfhosted": 605,
-    "desktop": 1155,
+    "selfhosted": 618,
+    "desktop": 1167,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 40,
-    "Productivity": 1006,
-    "Security & Privacy": 49,
+    "Productivity": 1017,
+    "Security & Privacy": 50,
     "Utilities & Power Tools": 271,
     "Video & Audio": 100,
-    "Web Apps & Cloud": 581,
+    "Web Apps & Cloud": 594,
     "Websites & SEO": 3
   },
   "apps": [
@@ -1791,6 +1791,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "gatsby",
+      "name": "Gatsby",
+      "tagline": "Build lightning fast modern websites easily.",
+      "repo_url": "https://github.com/gatsbyjs/gatsby",
+      "full_name": "gatsbyjs/gatsby",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "frontend"
+      ],
+      "icon": "/icons/gatsby.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 55916,
+      "tier": "tier2_webapp",
+      "summary": "Gatsby is a powerful web development tool that lets creators build incredibly fast websites and apps using modern component design.",
+      "i18n": {
+        "it": "Gatsby è un potente strumento di sviluppo web per creare siti e applicazioni incredibilmente veloci usando componenti moderni.",
+        "es": "Gatsby es una potente herramienta de desarrollo web para crear sitios y aplicaciones increíblemente veloces con componentes modernos.",
+        "fr": "Gatsby est un puissant outil de développement web pour créer des sites et applications ultra rapides avec des composants modernes.",
+        "de": "Gatsby ist ein leistungsstarkes Webentwicklungstool zum Erstellen blitzschneller Websites und Apps mit modernen Komponenten."
+      },
+      "download_url": "https://www.gatsbyjs.com",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "ghost",
       "name": "Ghost",
       "tagline": "Independent publishing & paid newsletters",
@@ -1900,6 +1928,34 @@
         "de": "Greifen Sie auf Tausende offizielle Google-Icons und Symbole zu, um Ihre digitalen Designs zu bereichern."
       },
       "download_url": "https://google.github.io/material-design-icons/",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "open-source-ios-apps",
+      "name": "Open-Source iOS Apps",
+      "tagline": "Massive directory of open-source Apple apps",
+      "repo_url": "https://github.com/dkhamsing/open-source-ios-apps",
+      "full_name": "dkhamsing/open-source-ios-apps",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "directory"
+      ],
+      "icon": "/icons/open-source-ios-apps.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Public Domain / Free",
+      "stars": 53459,
+      "tier": "tier1_gui",
+      "summary": "Explore a curated, collaborative collection of thousands of open-source applications built for iPhone, iPad, Apple Watch, and Apple TV.",
+      "i18n": {
+        "it": "Esplora una raccolta curata e collaborativa di migliaia di applicazioni open-source create per iPhone, iPad, Apple Watch e Apple TV.",
+        "es": "Explora una colección colaborativa de miles de aplicaciones de código abierto diseñadas para iPhone, iPad, Apple Watch y Apple TV.",
+        "fr": "Explorez une collection collaborative de milliers d'applications open source conçues pour l'iPhone, l'iPad, l'Apple Watch et l'Apple TV.",
+        "de": "Entdecken Sie eine kuratierte Sammlung von tausenden Open-Source-Anwendungen für iPhone, iPad, Apple Watch und Apple TV."
+      },
+      "download_url": "https://github.com/dkhamsing/open-source-ios-apps/releases",
       "updated_at": "2026-11-24"
     },
     {
@@ -3972,6 +4028,34 @@
       },
       "download_url": "https://continue.dev",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "sheetjs",
+      "name": "SheetJS",
+      "tagline": "The ultimate toolkit for spreadsheet data.",
+      "repo_url": "https://github.com/sheetjs/sheetjs",
+      "full_name": "sheetjs/sheetjs",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "data"
+      ],
+      "icon": "/icons/sheetjs.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 36337,
+      "tier": "tier1_gui",
+      "summary": "SheetJS helps you easily extract, read, and create spreadsheet files that work perfectly across all modern and older software.",
+      "i18n": {
+        "it": "SheetJS ti aiuta a estrarre, leggere e creare facilmente file di fogli di calcolo compatibili con ogni software.",
+        "es": "SheetJS le ayuda a extraer, leer y crear fácilmente archivos de hojas de cálculo compatibles con cualquier software.",
+        "fr": "SheetJS vous aide à extraire, lire et créer facilement des fichiers de feuilles de calcul compatibles avec tous les logiciels.",
+        "de": "SheetJS hilft Ihnen dabei, Tabellendateien einfach zu extrahieren, zu lesen und zu erstellen, die mit jeder Software kompatibel sind."
+      },
+      "download_url": "https://sheetjs.com/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "zellij",
@@ -6548,6 +6632,34 @@
       },
       "download_url": "https://cli.angular.dev",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "lottie-ios",
+      "name": "Lottie for iOS",
+      "tagline": "Bring high-quality animations to mobile apps",
+      "repo_url": "https://github.com/airbnb/lottie-ios",
+      "full_name": "airbnb/lottie-ios",
+      "category": "Productivity",
+      "tags": [
+        "animation",
+        "mobile-development"
+      ],
+      "icon": "/icons/lottie-ios.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 26950,
+      "tier": "tier1_gui",
+      "summary": "Lottie allows mobile apps to display smooth, complex animations that are small in file size and easy to manage.",
+      "i18n": {
+        "it": "Lottie consente alle app mobili di visualizzare animazioni fluide e complesse, mantenendo dimensioni ridotte e facilità di gestione.",
+        "es": "Lottie permite que las aplicaciones móviles muestren animaciones fluidas y complejas con un tamaño de archivo pequeño y fácil gestión.",
+        "fr": "Lottie permet aux applications mobiles d'afficher des animations fluides et complexes, tout en restant légères et faciles à gérer.",
+        "de": "Lottie ermöglicht es mobilen Apps, flüssige und komplexe Animationen anzuzeigen, die klein in der Dateigröße und einfach zu verwalten sind."
+      },
+      "download_url": "https://lottie.airbnb.tech",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "llamafile",
@@ -11224,6 +11336,34 @@
       },
       "download_url": "https://ast-grep.github.io/",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "realm-swift",
+      "name": "Realm Swift",
+      "tagline": "Simple data storage for mobile apps",
+      "repo_url": "https://github.com/realm/realm-swift",
+      "full_name": "realm/realm-swift",
+      "category": "Productivity",
+      "tags": [
+        "mobile-development",
+        "database"
+      ],
+      "icon": "/icons/realm-swift.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 16604,
+      "tier": "tier1_gui",
+      "summary": "Realm is a mobile database that helps apps save information directly on your phone or tablet so they work perfectly even without internet.",
+      "i18n": {
+        "it": "Realm è un database mobile che salva le informazioni direttamente sul tuo dispositivo, permettendo alle app di funzionare anche offline.",
+        "es": "Realm es una base de datos móvil que guarda información directamente en tu dispositivo para que las apps funcionen incluso sin internet.",
+        "fr": "Realm est une base de données mobile qui enregistre les informations sur votre appareil pour que vos applications fonctionnent sans internet.",
+        "de": "Realm ist eine mobile Datenbank, die Informationen direkt auf Ihrem Gerät speichert, damit Apps auch ohne Internetverbindung funktionieren."
+      },
+      "download_url": "https://realm.io",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "openrct2",
@@ -25225,6 +25365,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "libchecker",
+      "name": "LibChecker",
+      "tagline": "Inspect libraries inside your Android apps",
+      "repo_url": "https://github.com/libchecker/libchecker",
+      "full_name": "libchecker/libchecker",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "utilities"
+      ],
+      "icon": "/icons/libchecker.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 7361,
+      "tier": "tier1_gui",
+      "summary": "Discover which hidden software libraries and building blocks are used by every app installed on your Android device.",
+      "i18n": {
+        "it": "Discover which hidden software libraries and building blocks are used by every app installed on your Android device.",
+        "es": "Discover which hidden software libraries and building blocks are used by every app installed on your Android device.",
+        "fr": "Discover which hidden software libraries and building blocks are used by every app installed on your Android device.",
+        "de": "Discover which hidden software libraries and building blocks are used by every app installed on your Android device."
+      },
+      "download_url": "https://github.com/LibChecker/LibChecker/releases/download/2.5.5.1/LibChecker-2.5.5.1.2a0850a-2955-foss-release.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "consola",
       "name": "consola",
       "tagline": "Elegant and colorful console logging tool.",
@@ -25727,6 +25895,34 @@
       },
       "download_url": "https://github.com/simeji/jid/releases/download/v1.1.3/checksums.txt",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "takephoto",
+      "name": "TakePhoto",
+      "tagline": "Simplify Android photo handling and processing",
+      "repo_url": "https://github.com/crazycodeboy/takephoto",
+      "full_name": "crazycodeboy/takephoto",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "photography"
+      ],
+      "icon": "/icons/takephoto.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 7202,
+      "tier": "tier1_gui",
+      "summary": "TakePhoto is a helpful tool that lets you easily capture, select, crop, and compress images within your Android applications.",
+      "i18n": {
+        "it": "TakePhoto è uno strumento che ti permette di acquisire, selezionare, ritagliare e comprimere immagini nelle tue app Android.",
+        "es": "TakePhoto es una herramienta que te permite capturar, seleccionar, recortar y comprimir imágenes en tus aplicaciones Android.",
+        "fr": "TakePhoto est un outil qui vous permet de capturer, sélectionner, recadrer et compresser des images dans vos applications Android.",
+        "de": "TakePhoto ist ein Werkzeug, mit dem Sie Bilder in Ihren Android-Anwendungen einfach aufnehmen, auswählen, zuschneiden und komprimieren können."
+      },
+      "download_url": "https://www.devio.org/tags/#TakePhoto",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "voiceink",
@@ -26597,6 +26793,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "androidproject",
+      "name": "AndroidProject",
+      "tagline": "A complete foundation for mobile apps.",
+      "repo_url": "https://github.com/getactivity/androidproject",
+      "full_name": "getactivity/androidproject",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "development"
+      ],
+      "icon": "/icons/androidproject.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 6932,
+      "tier": "tier1_gui",
+      "summary": "AndroidProject provides a ready-to-use structure that helps developers build mobile apps faster without repeating basic setup tasks.",
+      "i18n": {
+        "it": "AndroidProject offre una struttura pronta all'uso che aiuta a creare app mobile più velocemente senza ripetere le configurazioni di base.",
+        "es": "AndroidProject ofrece una estructura lista para usar que ayuda a crear apps móviles más rápido sin repetir tareas de configuración básicas.",
+        "fr": "AndroidProject fournit une structure prête à l'emploi qui aide à créer des applications mobiles plus rapidement sans répéter les tâches de base.",
+        "de": "AndroidProject bietet eine fertige Struktur, mit der mobile Apps schneller erstellt werden können, ohne grundlegende Aufgaben zu wiederholen."
+      },
+      "download_url": "https://github.com/getActivity/AndroidProject/releases/download/17.0/AndroidProject.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "chsrc",
       "name": "chsrc",
       "tagline": "Fast, simple software update source switcher",
@@ -26765,6 +26989,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "shattered-pixel-dungeon",
+      "name": "Shattered Pixel Dungeon",
+      "tagline": "Explore randomized dungeons in classic style",
+      "repo_url": "https://github.com/00-evan/shattered-pixel-dungeon",
+      "full_name": "00-evan/shattered-pixel-dungeon",
+      "category": "Productivity",
+      "tags": [
+        "gaming",
+        "strategy"
+      ],
+      "icon": "/icons/shattered-pixel-dungeon.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 6864,
+      "tier": "tier1_gui",
+      "summary": "Dive into challenging, randomized dungeon adventures with hundreds of unique items and enemies to master.",
+      "i18n": {
+        "it": "Immergiti in avventure avvincenti e casuali con centinaia di oggetti e nemici unici da scoprire.",
+        "es": "Sumérgete en emocionantes aventuras de mazmorras con cientos de objetos y enemigos únicos.",
+        "fr": "Plongez dans des aventures de donjon palpitantes avec des centaines d'objets et d'ennemis uniques.",
+        "de": "Stürze dich in herausfordernde Dungeons mit hunderten einzigartigen Gegenständen und Gegnern."
+      },
+      "download_url": "https://github.com/00-Evan/shattered-pixel-dungeon/releases/download/v4.0.2/ShatteredPD-v4.0.2-Android.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "bombardier",
       "name": "Bombardier",
       "tagline": "Blazing fast website stress testing utility",
@@ -26819,6 +27071,34 @@
       },
       "download_url": "https://github.com/CodeWithCJ/SparkyFitness/releases/download/v1.12.1/app-release.apk",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "walle",
+      "name": "Walle",
+      "tagline": "Lightning-fast Android app distribution packaging",
+      "repo_url": "https://github.com/meituan-dianping/walle",
+      "full_name": "meituan-dianping/walle",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "packaging"
+      ],
+      "icon": "/icons/walle.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 6848,
+      "tier": "tier1_gui",
+      "summary": "Walle generates customized Android application packages instantly by writing custom store signatures directly into the installation file.",
+      "i18n": {
+        "it": "Walle genera pacchetti di distribuzione Android personalizzati all'istante scrivendo firme di negozio direttamente nel file.",
+        "es": "Walle genera paquetes de aplicaciones Android personalizadas al instante escribiendo firmas de tienda directamente en el archivo.",
+        "fr": "Walle génère des paquets d'applications Android personnalisés instantanément en écrivant des signatures directement dans le fichier.",
+        "de": "Walle generiert sofort angepasste Android-App-Pakete, indem es benutzerdefinierte Signaturen direkt in die Installationsdatei schreibt."
+      },
+      "download_url": "https://github.com/Meituan-Dianping/walle/releases/download/v1.1.6/walle-cli-all.jar",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "rowy",
@@ -26877,6 +27157,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "haven",
+      "name": "Haven",
+      "tagline": "Turn your phone into a security guard.",
+      "repo_url": "https://github.com/guardianproject/haven",
+      "full_name": "guardianproject/haven",
+      "category": "Productivity",
+      "tags": [
+        "security",
+        "privacy"
+      ],
+      "icon": "/icons/haven.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 6833,
+      "tier": "tier1_gui",
+      "summary": "Haven uses your phone's sensors to monitor your personal space and alert you to any unexpected movement or sound.",
+      "i18n": {
+        "it": "Haven usa i sensori del tuo telefono per monitorare i tuoi spazi e avvisarti di movimenti o suoni inaspettati.",
+        "es": "Haven usa los sensores de tu teléfono para vigilar tus espacios personales y avisarte de cualquier movimiento o sonido.",
+        "fr": "Haven utilise les capteurs de votre téléphone pour surveiller vos espaces et vous alerter en cas de mouvement ou de bruit.",
+        "de": "Haven nutzt die Sensoren deines Handys, um deine Umgebung zu überwachen und dich bei unerwarteten Geräuschen zu warnen."
+      },
+      "download_url": "https://github.com/guardianproject/haven/releases/download/0.2.1-beta-1/Haven-0.2.1-beta-1-release.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "greptimedb",
       "name": "GreptimeDB",
       "tagline": "Unified data storage for all your signals.",
@@ -26931,6 +27239,34 @@
       },
       "download_url": "https://github.com/akopytov/sysbench/releases",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "xxpermissions",
+      "name": "XXPermissions",
+      "tagline": "Simplify Android app permission management",
+      "repo_url": "https://github.com/getactivity/xxpermissions",
+      "full_name": "getactivity/xxpermissions",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "development"
+      ],
+      "icon": "/icons/xxpermissions.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 6814,
+      "tier": "tier1_gui",
+      "summary": "XXPermissions is a tool that helps developers handle complex Android permission requests with just a single line of code.",
+      "i18n": {
+        "it": "XXPermissions aiuta gli sviluppatori a gestire le richieste di permessi su Android con una sola riga di codice.",
+        "es": "XXPermissions ayuda a los desarrolladores a gestionar solicitudes de permisos en Android con una sola línea de código.",
+        "fr": "XXPermissions aide les développeurs à gérer les demandes d'autorisations Android avec une seule ligne de code.",
+        "de": "XXPermissions hilft Entwicklern, Android-Berechtigungsanfragen mit nur einer einzigen Codezeile zu verwalten."
+      },
+      "download_url": "https://github.com/getActivity/XXPermissions/releases/download/28.3/XXPermissions.apk",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "cppcheck",
@@ -27071,6 +27407,34 @@
       },
       "download_url": "https://github.com/koharu-rs/koharu/releases/download/0.86.4/koharu_0.86.4_x64-setup.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "vpnhotspot",
+      "name": "VPNHotspot",
+      "tagline": "Share your VPN connection via hotspot.",
+      "repo_url": "https://github.com/mygod/vpnhotspot",
+      "full_name": "mygod/vpnhotspot",
+      "category": "Security & Privacy",
+      "tags": [
+        "android",
+        "networking"
+      ],
+      "icon": "/icons/vpnhotspot.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 6728,
+      "tier": "tier1_gui",
+      "summary": "VPNHotspot allows you to share your secure VPN connection with other devices through your phone's Wi-Fi hotspot or repeater.",
+      "i18n": {
+        "it": "VPNHotspot ti permette di condividere la tua connessione VPN sicura con altri dispositivi tramite l'hotspot Wi-Fi del tuo telefono.",
+        "es": "VPNHotspot te permite compartir tu conexión VPN segura con otros dispositivos a través del punto de acceso Wi-Fi de tu teléfono.",
+        "fr": "VPNHotspot vous permet de partager votre connexion VPN sécurisée avec d'autres appareils via le point d'accès Wi-Fi de votre téléphone.",
+        "de": "VPNHotspot ermöglicht es Ihnen, Ihre sichere VPN-Verbindung über den WLAN-Hotspot Ihres Telefons mit anderen Geräten zu teilen."
+      },
+      "download_url": "https://github.com/Mygod/VPNHotspot/releases/download/v3.0.8/mobile-arm64-v8a-release.apk",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "arcreel",
@@ -38187,6 +38551,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "my-mind",
+      "name": "my-mind",
+      "tagline": "Visualize your ideas with mind maps",
+      "repo_url": "https://github.com/ondras/my-mind",
+      "full_name": "ondras/my-mind",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "productivity",
+        "mind-mapping"
+      ],
+      "icon": "/icons/my-mind.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 3372,
+      "tier": "tier2_webapp",
+      "summary": "My Mind is a web-based tool that helps you organize thoughts and brainstorm projects using clear, visual diagrams.",
+      "i18n": {
+        "it": "My Mind è uno strumento web per organizzare i pensieri e pianificare progetti attraverso diagrammi visuali chiari.",
+        "es": "My Mind es una herramienta web para organizar pensamientos y planificar proyectos mediante diagramas visuales claros.",
+        "fr": "My Mind est un outil web pour organiser vos pensées et planifier vos projets grâce à des diagrammes visuels clairs.",
+        "de": "My Mind ist ein webbasiertes Werkzeug zur Organisation von Gedanken und zur Planung von Projekten durch klare visuelle Diagramme."
+      },
+      "download_url": "https://my-mind.github.io",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "bambuddy",
       "name": "Bambuddy",
       "tagline": "Private control for your 3D printers",
@@ -38213,6 +38605,34 @@
       },
       "download_url": "https://github.com/maziggy/bambuddy/releases/download/v1.3.2/bambuddy-.1.3.2-windows-x64-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "vonic",
+      "name": "vonic",
+      "tagline": "Mobile-ready components for web projects",
+      "repo_url": "https://github.com/wangdahoo/vonic",
+      "full_name": "wangdahoo/vonic",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "mobile-ui"
+      ],
+      "icon": "/icons/vonic.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 3369,
+      "tier": "tier2_webapp",
+      "summary": "Vonic provides a collection of pre-made visual elements to help you build mobile-friendly web interfaces quickly and easily.",
+      "i18n": {
+        "it": "Vonic offre una raccolta di elementi visivi predefiniti per creare interfacce web ottimizzate per dispositivi mobili in modo rapido.",
+        "es": "Vonic ofrece una colección de elementos visuales predefinidos para crear interfaces web optimizadas para móviles de forma rápida.",
+        "fr": "Vonic propose une collection d'éléments visuels prédéfinis pour créer rapidement des interfaces web optimisées pour les mobiles.",
+        "de": "Vonic bietet eine Sammlung vorgefertigter visueller Elemente, mit denen Sie schnell mobilfreundliche Web-Oberflächen erstellen können."
+      },
+      "download_url": "https://github.com/wangdahoo/vonic/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "jsrsasign",
@@ -46809,6 +47229,34 @@
       },
       "download_url": "https://github.com/wieslawsoltes/Dock/releases/download/v12.1.5/Dock.Avalonia.12.1.5.nupkg",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "sql-father-frontend-public",
+      "name": "SQL Father",
+      "tagline": "Generate database tables and test data instantly.",
+      "repo_url": "https://github.com/liyupi/sql-father-frontend-public",
+      "full_name": "liyupi/sql-father-frontend-public",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "database",
+        "development-tools"
+      ],
+      "icon": "/icons/sql-father-frontend-public.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1497,
+      "tier": "tier2_webapp",
+      "summary": "SQL Father is a visual tool that helps you design database tables and generate realistic test data for your software projects.",
+      "i18n": {
+        "it": "SQL Father è uno strumento visivo che ti aiuta a progettare tabelle per database e generare dati di test realistici per i tuoi progetti.",
+        "es": "SQL Father es una herramienta visual que te ayuda a diseñar tablas de bases de datos y generar datos de prueba realistas para tus proyectos.",
+        "fr": "SQL Father est un outil visuel qui vous aide à concevoir des tables de base de données et à générer des données de test pour vos projets.",
+        "de": "SQL Father ist ein visuelles Werkzeug, das Ihnen hilft, Datenbanktabellen zu entwerfen und realistische Testdaten für Projekte zu erstellen."
+      },
+      "download_url": "https://sqlfather.yupi.icu",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "lime",
@@ -56443,6 +56891,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "rapidcms",
+      "name": "RapidCMS",
+      "tagline": "Build custom websites using C# code",
+      "repo_url": "https://github.com/thomasbleijendaal/rapidcms",
+      "full_name": "thomasbleijendaal/rapidcms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "content-management"
+      ],
+      "icon": "/icons/rapidcms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 367,
+      "tier": "tier2_webapp",
+      "summary": "RapidCMS is a flexible tool that lets you create and manage website content entirely through programming code.",
+      "i18n": {
+        "it": "RapidCMS è uno strumento flessibile che permette di creare e gestire contenuti web interamente tramite codice di programmazione.",
+        "es": "RapidCMS es una herramienta flexible que permite crear y gestionar contenido web completamente a través de código de programación.",
+        "fr": "RapidCMS est un outil flexible qui permet de créer et de gérer du contenu web entièrement via du code de programmation.",
+        "de": "RapidCMS ist ein flexibles Werkzeug, mit dem Sie Website-Inhalte vollständig über Programmiercode erstellen und verwalten können."
+      },
+      "download_url": "https://github.com/ThomasBleijendaal/RapidCMS/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "asn1crypto",
       "name": "asn1crypto",
       "tagline": "Fast Python library for security structures.",
@@ -56469,6 +56945,34 @@
       },
       "download_url": "https://github.com/wbond/asn1crypto/releases",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "lightcms",
+      "name": "LightCMS",
+      "tagline": "Lightweight content management and admin system",
+      "repo_url": "https://github.com/eddy8/lightcms",
+      "full_name": "eddy8/lightcms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "admin-panel"
+      ],
+      "icon": "/icons/lightcms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 355,
+      "tier": "tier2_webapp",
+      "summary": "LightCMS is a streamlined tool for managing website content and administrative tasks with built-in user and permission controls.",
+      "i18n": {
+        "it": "LightCMS è uno strumento snello per gestire contenuti web e attività amministrative con controlli integrati per utenti e permessi.",
+        "es": "LightCMS es una herramienta ágil para gestionar contenido web y tareas administrativas con controles integrados de usuario y permisos.",
+        "fr": "LightCMS est un outil épuré pour gérer le contenu de sites web et les tâches administratives avec des contrôles d'accès intégrés.",
+        "de": "LightCMS ist ein schlankes Werkzeug zur Verwaltung von Website-Inhalten und administrativen Aufgaben mit integrierter Benutzerverwaltung."
+      },
+      "download_url": "https://github.com/eddy8/LightCMS/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "storyden",
@@ -56553,6 +57057,62 @@
       },
       "download_url": "https://www.kooboo.com",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "bloglite",
+      "name": "bloglite",
+      "tagline": "Simple, private, and efficient self-hosted blogging.",
+      "repo_url": "https://github.com/rikhuijzer/bloglite",
+      "full_name": "rikhuijzer/bloglite",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "self-hosted"
+      ],
+      "icon": "/icons/bloglite.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 342,
+      "tier": "tier2_webapp",
+      "summary": "Bloglite is a lightweight personal publishing tool that lets you write and manage your own blog directly from your web browser.",
+      "i18n": {
+        "it": "Bloglite è uno strumento di pubblicazione leggero che ti permette di scrivere e gestire il tuo blog direttamente dal browser.",
+        "es": "Bloglite es una herramienta de publicación ligera que te permite escribir y gestionar tu propio blog directamente desde el navegador.",
+        "fr": "Bloglite est un outil de publication léger qui vous permet d'écrire et de gérer votre propre blog directement depuis votre navigateur.",
+        "de": "Bloglite ist ein leichtgewichtiges Werkzeug, mit dem Sie Ihren eigenen Blog direkt über Ihren Webbrowser schreiben und verwalten können."
+      },
+      "download_url": "https://fx-demo.huijzer.xyz",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "node-nest-vue-nuxt-cms",
+      "name": "GiiBee CMS",
+      "tagline": "SEO-friendly website management system",
+      "repo_url": "https://github.com/givebest/node-nest-vue-nuxt-cms",
+      "full_name": "givebest/node-nest-vue-nuxt-cms",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "cms",
+        "seo"
+      ],
+      "icon": "/icons/node-nest-vue-nuxt-cms.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 339,
+      "tier": "tier2_webapp",
+      "summary": "GiiBee CMS is a powerful tool for building professional websites that are optimized for search engines.",
+      "i18n": {
+        "it": "GiiBee CMS è uno strumento per creare siti web professionali ottimizzati per i motori di ricerca, facilitando la gestione di contenuti e prodotti.",
+        "es": "GiiBee CMS es una herramienta para crear sitios web profesionales optimizados para buscadores, facilitando la gestión de contenidos y productos.",
+        "fr": "GiiBee CMS est un outil pour créer des sites web professionnels optimisés pour les moteurs de recherche, facilitant la gestion de contenu et produits.",
+        "de": "GiiBee CMS ist ein Werkzeug zum Erstellen professioneller Websites, die für Suchmaschinen optimiert sind und die Inhaltsverwaltung vereinfachen."
+      },
+      "download_url": "https://github.com/givebest/node-nest-vue-nuxt-cms/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "easycms",
@@ -56751,6 +57311,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "pico-386",
+      "name": "pico-386",
+      "tagline": "Run classic DOS software on Raspberry Pi",
+      "repo_url": "https://github.com/xrip/pico-386",
+      "full_name": "xrip/pico-386",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "retro-gaming",
+        "emulator"
+      ],
+      "icon": "/icons/pico-386.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 327,
+      "tier": "tier2_webapp",
+      "summary": "This tool turns a Raspberry Pi Pico 2 into a vintage computer that runs classic DOS games and programs.",
+      "i18n": {
+        "it": "Questo strumento trasforma un Raspberry Pi Pico 2 in un computer vintage per eseguire giochi e programmi DOS classici.",
+        "es": "Esta herramienta convierte una Raspberry Pi Pico 2 en una computadora antigua para ejecutar juegos y programas DOS clásicos.",
+        "fr": "Cet outil transforme un Raspberry Pi Pico 2 en un ordinateur vintage pour faire tourner des jeux et logiciels DOS classiques.",
+        "de": "Dieses Tool verwandelt einen Raspberry Pi Pico 2 in einen Vintage-Computer, um klassische DOS-Spiele und Programme auszuführen."
+      },
+      "download_url": "https://github.com/xrip/pico-386/releases/download/v4.0.0/m2p2-386-C500-P125MHz.uf2",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "kms",
       "name": "KMS",
       "tagline": "Flexible content management for Ruby developers",
@@ -56947,6 +57535,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "decoy",
+      "name": "Decoy",
+      "tagline": "Streamlined content management for web projects",
+      "repo_url": "https://github.com/bkwld/decoy",
+      "full_name": "bkwld/decoy",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "content-management"
+      ],
+      "icon": "/icons/decoy.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 300,
+      "tier": "tier2_webapp",
+      "summary": "Decoy is a content management tool that helps developers organize website data using familiar structures.",
+      "i18n": {
+        "it": "Decoy è uno strumento che aiuta a gestire i dati dei siti web in modo intuitivo.",
+        "es": "Decoy es una herramienta que ayuda a organizar los datos de sitios web de forma intuitiva.",
+        "fr": "Decoy est un outil qui aide à organiser les données de sites web de manière intuitive.",
+        "de": "Decoy ist ein Werkzeug, das hilft, Website-Daten intuitiv zu verwalten."
+      },
+      "download_url": "https://docs.decoy.bukwild.com/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "skeleton",
       "name": "Sulu Skeleton",
       "tagline": "Start your Sulu website project",
@@ -57028,6 +57644,34 @@
         "de": "Erstellen Sie zuverlässige Datenbankabfragen mit automatischer Vervollständigung und starker Typsicherheit für Projekte."
       },
       "download_url": "https://nearform.com/open-source/groqd",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "old-lms-laravel",
+      "name": "OLD-LMS-Laravel",
+      "tagline": "Simple platform for managing educational content",
+      "repo_url": "https://github.com/lms-laravel/old-lms-laravel",
+      "full_name": "lms-laravel/old-lms-laravel",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "education",
+        "web-tools"
+      ],
+      "icon": "/icons/old-lms-laravel.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 290,
+      "tier": "tier2_webapp",
+      "summary": "This tool provides a straightforward way to organize and share educational materials through a custom web-based learning environment.",
+      "i18n": {
+        "it": "Questo strumento offre un modo semplice per organizzare e condividere materiali didattici tramite un ambiente di apprendimento web.",
+        "es": "Esta herramienta ofrece una forma directa de organizar y compartir materiales educativos a través de un entorno de aprendizaje web.",
+        "fr": "Cet outil offre un moyen simple d'organiser et de partager des supports pédagogiques via un environnement d'apprentissage sur le web.",
+        "de": "Dieses Tool bietet eine unkomplizierte Möglichkeit, Lehrmaterialien über eine webbasierte Lernumgebung zu organisieren und zu teilen."
+      },
+      "download_url": "https://github.com/LMS-Laravel/OLD-LMS-Laravel/releases",
       "updated_at": "2026-11-24"
     },
     {
@@ -57113,6 +57757,62 @@
       },
       "download_url": "https://easyproject.cn/easyee",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "forestry-io",
+      "name": "Forestry.io",
+      "tagline": "Professional website building toolkit",
+      "repo_url": "https://github.com/forestryio/forestry.io",
+      "full_name": "forestryio/forestry.io",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "static-site-generator"
+      ],
+      "icon": "/icons/forestry-io.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 286,
+      "tier": "tier2_webapp",
+      "summary": "Forestry.io is a comprehensive toolkit designed to help developers create, manage, and optimize high-performance websites.",
+      "i18n": {
+        "it": "Forestry.io è un kit di strumenti completo per aiutare gli sviluppatori a creare, gestire e ottimizzare siti web ad alte prestazioni.",
+        "es": "Forestry.io es un conjunto de herramientas diseñado para ayudar a los desarrolladores a crear, gestionar y optimizar sitios web de alto rendimiento.",
+        "fr": "Forestry.io est une boîte à outils complète conçue pour aider les développeurs à créer, gérer et optimiser des sites web performants.",
+        "de": "Forestry.io ist ein umfassendes Toolkit, das Entwicklern hilft, leistungsstarke Websites zu erstellen, zu verwalten und zu optimieren."
+      },
+      "download_url": "https://forestry.io",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "goblog",
+      "name": "GoBlog",
+      "tagline": "A personal, private, and powerful blogging platform.",
+      "repo_url": "https://github.com/jlelse/goblog",
+      "full_name": "jlelse/goblog",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "blogging",
+        "personal-website"
+      ],
+      "icon": "/icons/goblog.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 285,
+      "tier": "tier2_webapp",
+      "summary": "GoBlog is a lightweight tool for managing your own personal blog with full control over your content and data.",
+      "i18n": {
+        "it": "GoBlog è uno strumento leggero per gestire il tuo blog personale mantenendo il pieno controllo sui tuoi contenuti.",
+        "es": "GoBlog es una herramienta ligera para gestionar tu blog personal manteniendo el control total sobre tus contenidos.",
+        "fr": "GoBlog est un outil léger pour gérer votre blog personnel tout en gardant un contrôle total sur vos contenus.",
+        "de": "GoBlog ist ein leichtgewichtiges Tool zur Verwaltung Ihres persönlichen Blogs mit voller Kontrolle über Ihre Inhalte."
+      },
+      "download_url": "https://goblog.app",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "subrion",
