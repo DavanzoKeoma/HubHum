@@ -2,25 +2,25 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-24T07:09:40.392226+00:00",
-  "total_apps": 1975,
+  "generated_at": "2026-11-24T07:19:12.519508+00:00",
+  "total_apps": 2000,
   "tier_counts": {
-    "tier3_powertool": 264,
+    "tier3_powertool": 289,
     "tier2_webapp": 606,
     "tier1_gui": 1105
   },
   "app_type_counts": {
     "resource": 10,
-    "cli": 254,
+    "cli": 279,
     "selfhosted": 605,
     "desktop": 1105,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 40,
-    "Productivity": 955,
+    "Productivity": 959,
     "Security & Privacy": 48,
-    "Utilities & Power Tools": 250,
+    "Utilities & Power Tools": 271,
     "Video & Audio": 98,
     "Web Apps & Cloud": 581,
     "Websites & SEO": 3
@@ -12598,6 +12598,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "edit",
+      "name": "Edit",
+      "tagline": "Classic text editor with modern controls.",
+      "repo_url": "https://github.com/microsoft/edit",
+      "full_name": "microsoft/edit",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "text-editor",
+        "productivity"
+      ],
+      "icon": "/icons/edit.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 14806,
+      "tier": "tier3_powertool",
+      "summary": "Edit is a lightweight, classic-style text editor that brings modern controls and a familiar layout to everyday file editing tasks.",
+      "i18n": {
+        "it": "Edit è un editor di testo leggero e classico che porta controlli moderni e familiari alle tue attività quotidiane di scrittura.",
+        "es": "Edit es un editor de texto ligero y clásico que ofrece controles modernos y familiares para tus tareas diarias de edición.",
+        "fr": "Edit est un éditeur de texte léger qui combine une présentation classique et des commandes modernes pour vos fichiers.",
+        "de": "Edit ist ein leichter, klassischer Texteditor, der moderne Steuerelemente für alltägliche Bearbeitungsaufgaben bietet."
+      },
+      "download_url": "https://github.com/microsoft/edit/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "palmier-pro",
       "name": "Palmier Pro",
       "tagline": "AI-powered video editor for macOS",
@@ -15314,6 +15342,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "slides",
+      "name": "Slides",
+      "tagline": "Create presentations directly in your terminal",
+      "repo_url": "https://github.com/maaslalani/slides",
+      "full_name": "maaslalani/slides",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "presentation"
+      ],
+      "icon": "/icons/slides.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 11713,
+      "tier": "tier3_powertool",
+      "summary": "Slides turns simple text files into professional presentations that you can run and navigate entirely within your command window.",
+      "i18n": {
+        "it": "Slides trasforma semplici file di testo in presentazioni professionali da gestire e visualizzare interamente nel tuo terminale.",
+        "es": "Slides convierte archivos de texto simples en presentaciones profesionales que puedes ejecutar y navegar desde tu terminal.",
+        "fr": "Slides transforme des fichiers texte simples en présentations professionnelles que vous pouvez gérer directement dans votre terminal.",
+        "de": "Slides verwandelt einfache Textdateien in professionelle Präsentationen, die Sie direkt in Ihrem Terminal ausführen können."
+      },
+      "download_url": "https://github.com/maaslalani/slides/releases/download/v0.9.0/slides_0.9.0_checksums.txt",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "medis",
       "name": "Medis",
       "tagline": "Beautiful and easy database management app",
@@ -15650,6 +15706,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "oh-my-fish",
+      "name": "oh-my-fish",
+      "tagline": "Easily customize your command-line workspace.",
+      "repo_url": "https://github.com/oh-my-fish/oh-my-fish",
+      "full_name": "oh-my-fish/oh-my-fish",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "customization"
+      ],
+      "icon": "/icons/oh-my-fish.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 11421,
+      "tier": "tier3_powertool",
+      "summary": "Manage themes and helper packages for your command-line shell with speed and simplicity.",
+      "i18n": {
+        "it": "Gestisci temi e pacchetti helper per il tuo terminale con velocità e semplicità.",
+        "es": "Administra temas y paquetes de ayuda para tu terminal de comandos con velocidad y simplicidad.",
+        "fr": "Gérez des thèmes et des packages d'aide pour votre terminal de commande avec rapidité.",
+        "de": "Verwalten Sie Themes und Hilfspakete für Ihre Befehlszeile schnell und unkompliziert."
+      },
+      "download_url": "https://github.com/oh-my-fish/oh-my-fish/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "trail-code",
       "name": "Trail-Code",
       "tagline": "Shared memory for your coding agents",
@@ -15760,6 +15844,34 @@
       },
       "download_url": "https://psutil.io",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "terminal-gui",
+      "name": "Terminal.Gui",
+      "tagline": "Build sophisticated command-line user interfaces",
+      "repo_url": "https://github.com/tui-cs/terminal.gui",
+      "full_name": "tui-cs/terminal.gui",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "toolkit"
+      ],
+      "icon": "/icons/terminal-gui.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 11317,
+      "tier": "tier3_powertool",
+      "summary": "Create gorgeous, interactive terminal applications with mouse support, charts, and modern widgets across all major operating systems.",
+      "i18n": {
+        "it": "Crea applicazioni per terminale interattive e moderne con supporto per mouse, grafici e widget su tutti i sistemi operativi.",
+        "es": "Crea aplicaciones de consola interactivas y modernas con soporte para ratón, gráficos y widgets en múltiples sistemas operativos.",
+        "fr": "Créez des applications de console interactives et modernes avec prise en charge de la souris et des graphiques sous tout système.",
+        "de": "Entwickeln Sie interaktive Konsolenanwendungen mit Mausunterstützung, Grafiken und modernen Widgets für alle gängigen Betriebssysteme."
+      },
+      "download_url": "https://tui-cs.github.io/Terminal.Gui/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "mac-mouse-fix",
@@ -16180,6 +16292,34 @@
       },
       "download_url": "https://apps.umbrel.com/app/llama-gpt",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "ftxui",
+      "name": "FTXUI",
+      "tagline": "Create beautiful terminal interfaces easily",
+      "repo_url": "https://github.com/arthursonzogni/ftxui",
+      "full_name": "arthursonzogni/ftxui",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "system-utility"
+      ],
+      "icon": "/icons/ftxui.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 10910,
+      "tier": "tier3_powertool",
+      "summary": "FTXUI is a simple tool that helps developers build modern, interactive visual interfaces directly inside their terminal window.",
+      "i18n": {
+        "it": "FTXUI è uno strumento semplice per creare interfacce visive interattive e moderne direttamente all'interno del terminale.",
+        "es": "FTXUI es una herramienta sencilla que ayuda a crear interfaces visuales interactivas y modernas directamente en la ventana del terminal.",
+        "fr": "FTXUI est un outil simple permettant de créer des interfaces visuelles interactives et modernes directement dans la fenêtre du terminal.",
+        "de": "FTXUI ist ein einfaches Werkzeug, mit dem Entwickler moderne, interaktive Benutzeroberflächen direkt im Terminal erstellen können."
+      },
+      "download_url": "https://github.com/ArthurSonzogni/FTXUI/releases/download/v7.0.3/ftxui-7.0.3-Darwin.dmg",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "lago",
@@ -20605,6 +20745,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "claude-code-usage-monitor",
+      "name": "Claude-Code-Usage-Monitor",
+      "tagline": "Track your AI usage and stay within limits.",
+      "repo_url": "https://github.com/maciek-roboblog/claude-code-usage-monitor",
+      "full_name": "maciek-roboblog/claude-code-usage-monitor",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "ai-tools"
+      ],
+      "icon": "/icons/claude-code-usage-monitor.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 8818,
+      "tier": "tier3_powertool",
+      "summary": "This tool monitors your AI coding activity in real-time, helping you manage token limits and avoid unexpected service interruptions.",
+      "i18n": {
+        "it": "Questo strumento monitora l'attività di programmazione IA in tempo reale, aiutandoti a gestire i limiti di utilizzo ed evitare interruzioni.",
+        "es": "Esta herramienta monitorea tu actividad de programación con IA en tiempo real, ayudándote a gestionar límites y evitar interrupciones.",
+        "fr": "Cet outil surveille votre activité de programmation IA en temps réel, vous aidant à gérer vos limites et à éviter les interruptions.",
+        "de": "Dieses Tool überwacht Ihre KI-Programmieraktivitäten in Echtzeit und hilft Ihnen, Nutzungslimits einzuhalten und Unterbrechungen zu vermeiden."
+      },
+      "download_url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "miaoyan",
       "name": "MiaoYan",
       "tagline": "Fast, local Markdown notes for Mac",
@@ -21025,6 +21193,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "google-images-download",
+      "name": "Google Images Download",
+      "tagline": "Batch download images from Google",
+      "repo_url": "https://github.com/hardikvasa/google-images-download",
+      "full_name": "hardikvasa/google-images-download",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "image-download"
+      ],
+      "icon": "/icons/google-images-download.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 8704,
+      "tier": "tier3_powertool",
+      "summary": "Google Images Download lets you quickly collect many pictures from Google Image search and save them to your computer with a single command.",
+      "i18n": {
+        "it": "Google Images Download ti permette di raccogliere rapidamente molte foto da Google Immagini e salvarle sul tuo computer con un semplice comando.",
+        "es": "Google Images Download te permite reunir rápidamente muchas fotos de la búsqueda de Google Imágenes y guardarlas en tu ordenador con un solo comando.",
+        "fr": "Google Images Download vous permet de rassembler rapidement de nombreuses photos depuis la recherche Google Images et de les enregistrer sur votre ordinateur en une seule commande.",
+        "de": "Google Images Download ermöglicht es Ihnen, schnell viele Bilder aus der Google‑Bildersuche zu sammeln und mit einem einzigen Befehl auf Ihrem Rechner zu speichern."
+      },
+      "download_url": "https://github.com/hardikvasa/google-images-download/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "linuxkit",
       "name": "LinuxKit",
       "tagline": "Build secure, minimal Linux systems",
@@ -21190,6 +21386,34 @@
         "de": "Conky zeigt die Computer‑Informationen in Echtzeit direkt auf dem Desktop an, sodass Sie CPU‑Auslastung, Speicher, Festplatten‑Nutzung und mehr sofort sehen können."
       },
       "download_url": "https://github.com/brndnmtthws/conky/releases/download/v1.26.2/conky-aarch64-v1.26.2.AppImage",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "wego",
+      "name": "wego",
+      "tagline": "Check weather forecasts right in terminal",
+      "repo_url": "https://github.com/schachmat/wego",
+      "full_name": "schachmat/wego",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "weather",
+        "system-utility"
+      ],
+      "icon": "/icons/wego.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (ISC)",
+      "stars": 8572,
+      "tier": "tier3_powertool",
+      "summary": "Wego brings live weather forecasts directly into your command line window with colorful ascii tables or fun emojis.",
+      "i18n": {
+        "it": "Wego mostra le previsioni meteo in tempo reale direttamente nella riga di comando con tabelle artistiche o emoji.",
+        "es": "Wego muestra pronósticos del tiempo en vivo directamente en tu ventana de comandos con tablas de colores o emojis.",
+        "fr": "Wego affiche les prévisions météo en direct directement dans votre invite de commande avec des tableaux colorés.",
+        "de": "Wego bringt Live-Wettervorhersagen direkt in Ihre Befehlszeile mit bunten ASCII-Tabellen oder praktischen Emojis."
+      },
+      "download_url": "https://github.com/schachmat/wego/releases",
       "updated_at": "2026-11-24"
     },
     {
@@ -25645,6 +25869,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "tuios",
+      "name": "tuios",
+      "tagline": "Manage your terminal windows and coding agents.",
+      "repo_url": "https://github.com/gaurav-gosain/tuios",
+      "full_name": "gaurav-gosain/tuios",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "multiplexer"
+      ],
+      "icon": "/icons/tuios.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6780,
+      "tier": "tier3_powertool",
+      "summary": "Tuios is a modern terminal window manager that organizes your command-line panes, keeps sessions alive, and tracks all your coding agents in one unified inbox.",
+      "i18n": {
+        "it": "Tuios è un gestore di finestre per terminale che organizza i riquadri di comando e tiene traccia dei tuoi agenti di codifica.",
+        "es": "Tuios es un gestor de ventanas de terminal moderno que organiza tus paneles de comandos y realiza un seguimiento de tus agentes.",
+        "fr": "Tuios est un gestionnaire de fenêtres de terminal moderne qui organise vos panneaux de commande et suit vos agents de code.",
+        "de": "Tuios ist ein moderner Terminal-Fenstermanager, der Ihre Befehlszeilenfenster organisiert und Ihre Programmieragenten verfolgt."
+      },
+      "download_url": "https://github.com/Gaurav-Gosain/tuios/releases/download/v0.13.3/checksums.txt",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "ytmdesktop",
       "name": "ytmdesktop",
       "tagline": "Enjoy YouTube Music on your desktop",
@@ -28333,6 +28585,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "autoenv",
+      "name": "autoenv",
+      "tagline": "Magic per-project shell environments automatically.",
+      "repo_url": "https://github.com/hyperupcall/autoenv",
+      "full_name": "hyperupcall/autoenv",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "productivity"
+      ],
+      "icon": "/icons/autoenv.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6065,
+      "tier": "tier3_powertool",
+      "summary": "Automatically execute project settings and activate virtual tools the exact moment you navigate into a folder.",
+      "i18n": {
+        "it": "Attiva automaticamente le impostazioni e gli strumenti del progetto non appena apri una determinata cartella nel terminale.",
+        "es": "Ejecuta automáticamente configuraciones y activa herramientas de proyecto en el instante exacto en que entras a una carpeta.",
+        "fr": "Exécutez automatiquement les réglages et activez vos outils dès que vous accédez à un dossier spécifique de votre terminal.",
+        "de": "Führen Sie Projekteinstellungen automatisch aus und aktivieren Sie Werkzeuge, sobald Sie in einen bestimmten Ordner wechseln."
+      },
+      "download_url": "https://github.com/hyperupcall/autoenv/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "zcf",
       "name": "ZCF",
       "tagline": "Simple setup for AI coding helpers",
@@ -29228,6 +29508,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "aidlearning-framework",
+      "name": "AidLearning-FrameWork",
+      "tagline": "Run Linux and AI on mobile devices.",
+      "repo_url": "https://github.com/aidlearning/aidlearning-framework",
+      "full_name": "aidlearning/aidlearning-framework",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "linux"
+      ],
+      "icon": "/icons/aidlearning-framework.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "macOS, Linux, Android, iOS",
+      "license": "Custom Open License",
+      "stars": 5819,
+      "tier": "tier3_powertool",
+      "summary": "Transform your Android phone or tablet into a powerful mobile development hub complete with a full Linux desktop and offline AI tools.",
+      "i18n": {
+        "it": "Trasforma il tuo telefono o tablet Android in un potente centro di sviluppo mobile completo di desktop Linux e strumenti di intelligenza artificiale.",
+        "es": "Convierte tu teléfono o tableta Android en un potente centro de desarrollo móvil completo con escritorio Linux y herramientas de inteligencia artificial.",
+        "fr": "Transformez votre téléphone ou tablette Android en un puissant poste de travail mobile complet avec un bureau Linux et des outils d'intelligence artificielle.",
+        "de": "Verwandle dein Android-Smartphone oder -Tablet in einen leistungsstarken mobilen Entwicklungsarbeitsplatz mit Linux-Desktop und KI-Werkzeugen."
+      },
+      "download_url": "https://github.com/aidlearning/AidLearning-FrameWork/releases/download/V2.1.0/aidlux_2.1.0_latest_release.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "yasb",
       "name": "yasb",
       "tagline": "Customizable status bar for Windows desktops",
@@ -29422,6 +29730,34 @@
       },
       "download_url": "https://github.com/SwiftOnSecurity/sysmon-config/releases",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "sc-im",
+      "name": "sc-im",
+      "tagline": "Lightning-fast keyboard-driven terminal spreadsheet tool",
+      "repo_url": "https://github.com/andmarti1424/sc-im",
+      "full_name": "andmarti1424/sc-im",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "system-utility"
+      ],
+      "icon": "/icons/sc-im.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 5720,
+      "tier": "tier3_powertool",
+      "summary": "Manage numbers and spreadsheets directly inside your terminal using familiar keyboard shortcuts.",
+      "i18n": {
+        "it": "Gestisci numeri e tabelle direttamente nel terminale usando comandi da tastiera veloci.",
+        "es": "Organiza datos y números directamente en la terminal usando atajos de teclado rápidos.",
+        "fr": "Gérez des chiffres et des tableaux directement dans le terminal grâce à des raccourcis clavier.",
+        "de": "Verwalten Sie Zahlen und Tabellen direkt im Terminal mit vertrauten Tastenkombinationen."
+      },
+      "download_url": "https://github.com/andmarti1424/sc-im/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "angular-electron",
@@ -29872,6 +30208,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "toggleterm-nvim",
+      "name": "toggleterm.nvim",
+      "tagline": "Manage multiple terminals inside text editor",
+      "repo_url": "https://github.com/akinsho/toggleterm.nvim",
+      "full_name": "akinsho/toggleterm.nvim",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "editor"
+      ],
+      "icon": "/icons/toggleterm-nvim.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 5620,
+      "tier": "tier3_powertool",
+      "summary": "Easily open, hide, and manage multiple command-line windows directly inside your text editor without losing your workflow.",
+      "i18n": {
+        "it": "Apri, nascondi e gestisci facilmente più finestre di comando direttamente all'interno del tuo editor di testo.",
+        "es": "Abre, oculta y gestiona múltiples ventanas de comandos directamente dentro de tu editor de texto.",
+        "fr": "Ouvrez, masquez et gérez facilement plusieurs fenêtres de commande directement dans votre éditeur de texte.",
+        "de": "Öffnen, verbergen und verwalten Sie mehrere Befehlsfenster direkt in Ihrem Texteditor ganz mühelos."
+      },
+      "download_url": "https://github.com/akinsho/toggleterm.nvim/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "fswatch",
       "name": "fswatch",
       "tagline": "Monitor file system changes in real time.",
@@ -29926,6 +30290,34 @@
       },
       "download_url": "https://github.com/openemr/openemr/releases/download/v8_5_0/changelog.md",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "vorpal",
+      "name": "Vorpal",
+      "tagline": "Build interactive text-based computer tools",
+      "repo_url": "https://github.com/dthree/vorpal",
+      "full_name": "dthree/vorpal",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "development",
+        "tools"
+      ],
+      "icon": "/icons/vorpal.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5618,
+      "tier": "tier3_powertool",
+      "summary": "Vorpal helps you create custom text-based interfaces that allow users to interact with your software through simple typed commands.",
+      "i18n": {
+        "it": "Vorpal ti aiuta a creare interfacce testuali personalizzate che permettono agli utenti di interagire con il software tramite semplici comandi.",
+        "es": "Vorpal te ayuda a crear interfaces de texto personalizadas que permiten a los usuarios interactuar con tu software mediante comandos simples.",
+        "fr": "Vorpal vous aide à créer des interfaces textuelles personnalisées permettant aux utilisateurs d'interagir avec vos logiciels via des commandes.",
+        "de": "Vorpal hilft dir beim Erstellen benutzerdefinierter Textoberflächen, mit denen Nutzer über einfache Befehle mit deiner Software interagieren können."
+      },
+      "download_url": "https://vorpal.js.org",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "brooklyn",
@@ -30012,6 +30404,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "pterm",
+      "name": "PTerm",
+      "tagline": "Create beautiful, interactive terminal displays",
+      "repo_url": "https://github.com/pterm/pterm",
+      "full_name": "pterm/pterm",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "productivity"
+      ],
+      "icon": "/icons/pterm.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5571,
+      "tier": "tier3_powertool",
+      "summary": "PTerm helps you transform plain text into professional, colorful, and interactive displays within your terminal window.",
+      "i18n": {
+        "it": "PTerm trasforma il testo semplice in interfacce terminale professionali, colorate e interattive.",
+        "es": "PTerm transforma texto simple en interfaces de terminal profesionales, coloridas e interactivas.",
+        "fr": "PTerm transforme le texte simple en interfaces de terminal professionnelles, colorées et interactives.",
+        "de": "PTerm verwandelt einfachen Text in professionelle, farbenfrohe und interaktive Terminal-Oberflächen."
+      },
+      "download_url": "https://pterm.sh",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "ms",
       "name": "ms",
       "tagline": "Easily convert time formats instantly.",
@@ -30094,6 +30514,34 @@
       },
       "download_url": "https://www.microsoft.com/store/apps/9n97zckpd60q",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "jless",
+      "name": "jless",
+      "tagline": "Explore and search JSON data easily",
+      "repo_url": "https://github.com/pauljuliusmartinez/jless",
+      "full_name": "pauljuliusmartinez/jless",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "json",
+        "system-utility"
+      ],
+      "icon": "/icons/jless.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5523,
+      "tier": "tier3_powertool",
+      "summary": "jless is a lightweight command-line viewer for reading, exploring, and searching through complex JSON data files quickly.",
+      "i18n": {
+        "it": "jless è un visualizzatore a riga di comando per leggere, esplorare e cercare dati JSON complessi in modo semplice.",
+        "es": "jless es un visor de línea de comandos para leer, explorar y buscar en datos JSON complejos de forma rápida.",
+        "fr": "jless est un outil de visualisation en ligne de commande pour lire, explorer et rechercher facilement dans des fichiers JSON.",
+        "de": "jless ist ein Befehlszeilen-Betrachter zum schnellen Lesen, Erkunden und Durchsuchen von komplexen JSON-Datendateien."
+      },
+      "download_url": "https://jless.io",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "peekaboo",
@@ -30290,6 +30738,34 @@
       },
       "download_url": "https://loopforge.cn",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "wetty",
+      "name": "WeTTY",
+      "tagline": "Access your computer terminal through a browser",
+      "repo_url": "https://github.com/butlerx/wetty",
+      "full_name": "butlerx/wetty",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "utilities"
+      ],
+      "icon": "/icons/wetty.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5488,
+      "tier": "tier3_powertool",
+      "summary": "WeTTY lets you securely control your computer's command line directly from any web browser window.",
+      "i18n": {
+        "it": "WeTTY ti permette di controllare in modo sicuro la riga di comando del tuo computer direttamente da qualsiasi browser web.",
+        "es": "WeTTY te permite controlar de forma segura la línea de comandos de tu equipo directamente desde cualquier navegador web.",
+        "fr": "WeTTY vous permet de contrôler en toute sécurité la ligne de commande de votre ordinateur directement depuis n'importe quel navigateur web.",
+        "de": "WeTTY ermöglicht Ihnen den sicheren Zugriff auf die Befehlszeile Ihres Computers direkt über jeden Webbrowser."
+      },
+      "download_url": "https://butlerx.github.io/wetty",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "cuberite",
@@ -30570,6 +31046,34 @@
       },
       "download_url": "https://github.com/sindresorhus/create-dmg/releases",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "fallow",
+      "name": "fallow",
+      "tagline": "Smart codebase intelligence for web developers",
+      "repo_url": "https://github.com/fallow-rs/fallow",
+      "full_name": "fallow-rs/fallow",
+      "category": "Productivity",
+      "tags": [
+        "code-quality",
+        "developer-tools"
+      ],
+      "icon": "/icons/fallow.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 5398,
+      "tier": "tier3_powertool",
+      "summary": "Understand codebase health, find unused code, and spot complexity hotspots instantly without complex setup.",
+      "i18n": {
+        "it": "Monitora la salute del codice, trova parti inutilizzate e individua problemi di complessità senza configurazioni complesse.",
+        "es": "Comprende la salud del código, encuentra código no utilizado y detecta puntos críticos de complejidad al instante.",
+        "fr": "Analysez la santé du code, détectez le code inutilisé et repérez les zones de complexité instantanément.",
+        "de": "Überwachen Sie die Code-Gesundheit, finden Sie ungenutzten Code und erkennen Sie Komplexitäts-Hotspots sofort."
+      },
+      "download_url": "https://github.com/fallow-rs/fallow/releases/download/v3.47.0/fallow-lsp-win32-arm64-msvc.exe",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "cockpit",
@@ -31130,6 +31634,34 @@
       },
       "download_url": "https://github.com/domcyrus/rustnet/releases/download/v1.7.0/Rustnet_Windows_32-bit.msi",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "devspace",
+      "name": "devspace",
+      "tagline": "Speed up cloud-native container workflows",
+      "repo_url": "https://github.com/devspace-sh/devspace",
+      "full_name": "devspace-sh/devspace",
+      "category": "Productivity",
+      "tags": [
+        "kubernetes",
+        "development"
+      ],
+      "icon": "/icons/devspace.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5249,
+      "tier": "tier3_powertool",
+      "summary": "Automate your container deployment workflow and build software directly inside Kubernetes clusters without rebuilding images every time.",
+      "i18n": {
+        "it": "Automatizza i rilasci e sviluppa software direttamente all'interno dei cluster Kubernetes senza ricaricare le immagini.",
+        "es": "Automatiza tus despliegues y desarrolla software directamente dentro de Kubernetes sin reconstruir imágenes cada vez.",
+        "fr": "Automatisez vos déploiements et développez directement dans Kubernetes sans reconstruire vos images à chaque fois.",
+        "de": "Automatisieren Sie Bereitstellungen und entwickeln Sie direkt in Kubernetes, ohne Images ständig neu zu bauen."
+      },
+      "download_url": "https://github.com/devspace-sh/devspace/releases/download/v6.3.21/devspace-windows-386.exe",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "homelable",
@@ -32336,6 +32868,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "xplr",
+      "name": "xplr",
+      "tagline": "Fast and flexible keyboard-based file explorer",
+      "repo_url": "https://github.com/sayanarijit/xplr",
+      "full_name": "sayanarijit/xplr",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "file-manager"
+      ],
+      "icon": "/icons/xplr.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 4854,
+      "tier": "tier3_powertool",
+      "summary": "xplr is a lightweight tool that lets you navigate and manage your files directly from your terminal using only your keyboard.",
+      "i18n": {
+        "it": "xplr è uno strumento leggero che ti permette di gestire i file dal terminale usando solo la tastiera.",
+        "es": "xplr es una herramienta ligera que te permite navegar y gestionar archivos desde tu terminal usando solo el teclado.",
+        "fr": "xplr est un outil léger qui vous permet de gérer vos fichiers depuis votre terminal en utilisant uniquement votre clavier.",
+        "de": "xplr ist ein leichtgewichtiges Werkzeug, mit dem Sie Dateien direkt über Ihr Terminal mit der Tastatur verwalten können."
+      },
+      "download_url": "https://github.com/sayanarijit/xplr/releases/download/v1.2.2/source.tar.gz.asc",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "doublecmd",
       "name": "Double Commander",
       "tagline": "Powerful dual-pane file management for everyone",
@@ -32390,6 +32950,34 @@
       },
       "download_url": "https://github.com/autobrr/qui/releases/download/v1.36.0/qui_1.36.0_windows_x86_64.msi",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "pokemon-terminal",
+      "name": "Pokemon-Terminal",
+      "tagline": "Bring your favorite Pokemon to your terminal.",
+      "repo_url": "https://github.com/lazovelko/pokemon-terminal",
+      "full_name": "lazovelko/pokemon-terminal",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "personalization",
+        "fun"
+      ],
+      "icon": "/icons/pokemon-terminal.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 4808,
+      "tier": "tier3_powertool",
+      "summary": "Pokemon-Terminal lets you display your favorite creatures as backgrounds for your computer's command window or desktop wallpaper.",
+      "i18n": {
+        "it": "Pokemon-Terminal ti permette di impostare i tuoi personaggi preferiti come sfondo del terminale o del desktop.",
+        "es": "Pokemon-Terminal te permite mostrar tus criaturas favoritas como fondo de pantalla en tu terminal o escritorio.",
+        "fr": "Pokemon-Terminal vous permet d'afficher vos créatures préférées en arrière-plan de votre terminal ou de votre bureau.",
+        "de": "Pokemon-Terminal ermöglicht es dir, deine Lieblingskreaturen als Hintergrund für dein Terminal oder deinen Desktop festzulegen."
+      },
+      "download_url": "https://github.com/LazoVelko/Pokemon-Terminal/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "core",
@@ -33456,6 +34044,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "asciimatics",
+      "name": "asciimatics",
+      "tagline": "Build fun text animations and interfaces.",
+      "repo_url": "https://github.com/peterbrittain/asciimatics",
+      "full_name": "peterbrittain/asciimatics",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "animation",
+        "system-utility"
+      ],
+      "icon": "/icons/asciimatics.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 4308,
+      "tier": "tier3_powertool",
+      "summary": "Create full-screen text user interfaces, interactive forms, and retro ASCII art animations effortlessly across any computer platform.",
+      "i18n": {
+        "it": "Crea interfacce utente in modalità testo, moduli interattivi e animazioni in stile retrò su qualsiasi piattaforma.",
+        "es": "Crea interfaces de texto en pantalla completa, formularios y animaciones retro de arte ASCII en cualquier plataforma.",
+        "fr": "Créez des interfaces textuelles en plein écran, des formulaires et des animations ASCII rétro sur toutes les plateformes.",
+        "de": "Erstellen Sie bildschirmfüllende Textoberflächen, interaktive Formulare und Retro-ASCII-Animationen auf jeder Plattform."
+      },
+      "download_url": "https://github.com/peterbrittain/asciimatics/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "ironcalc",
       "name": "IronCalc",
       "tagline": "A modern, high-performance spreadsheet engine.",
@@ -33510,6 +34126,34 @@
       },
       "download_url": "https://github.com/OpenTabletDriver/OpenTabletDriver/releases/download/v0.6.8.1/opentabletdriver_0.6.8.1-1_x64.deb",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "crossterm",
+      "name": "crossterm",
+      "tagline": "Build smooth cross-platform terminal text interfaces",
+      "repo_url": "https://github.com/crossterm-rs/crossterm",
+      "full_name": "crossterm-rs/crossterm",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "cross-platform"
+      ],
+      "icon": "/icons/crossterm.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 4272,
+      "tier": "tier3_powertool",
+      "summary": "Crossterm is a pure tool library for writing text-based user interfaces that work seamlessly across Windows and UNIX systems.",
+      "i18n": {
+        "it": "Crossterm è una libreria per creare interfacce di testo che funzionano senza problemi su sistemi Windows e UNIX.",
+        "es": "Crossterm es una librería para crear interfaces de texto que funcionan perfectamente en sistemas Windows y UNIX.",
+        "fr": "Crossterm est une bibliothèque pour créer des interfaces textuelles fonctionnant parfaitement sur Windows et UNIX.",
+        "de": "Crossterm ist eine Bibliothek zum Erstellen von Textoberflächen, die nahtlos auf Windows- und UNIX-Systemen laufen."
+      },
+      "download_url": "https://crates.io/crates/crossterm",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "lxrunoffline",
@@ -33930,6 +34574,34 @@
       },
       "download_url": "https://github.com/AgenticResourceRegistry/AgenticResourceRegistry/releases/download/v1.17.1/observal-windows-arm64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "ytfzf",
+      "name": "ytfzf",
+      "tagline": "Watch online videos directly from text commands",
+      "repo_url": "https://github.com/pystardust/ytfzf",
+      "full_name": "pystardust/ytfzf",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "video"
+      ],
+      "icon": "/icons/ytfzf.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 4165,
+      "tier": "tier3_powertool",
+      "summary": "Search and play online video content straight from your text command prompt without needing a browser or account.",
+      "i18n": {
+        "it": "Cerca e riproduci contenuti video online direttamente dal terminale senza bisogno di un browser o di un account.",
+        "es": "Busca y reproduce videos en línea directamente desde la terminal de comandos sin necesidad de navegador o cuenta.",
+        "fr": "Recherchez et lisez des vidéos en ligne directement depuis votre invite de commande sans navigateur ni compte.",
+        "de": "Suchen und spielen Sie Online-Videos direkt über die Befehlszeile ab, ganz ohne Browser oder Konto."
+      },
+      "download_url": "https://github.com/pystardust/ytfzf/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "cozo",
@@ -34490,6 +35162,34 @@
       },
       "download_url": "https://linkstack.org",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "eternalterminal",
+      "name": "EternalTerminal",
+      "tagline": "Remote shell that never disconnects.",
+      "repo_url": "https://github.com/mistertea/eternalterminal",
+      "full_name": "mistertea/eternalterminal",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "ssh"
+      ],
+      "icon": "/icons/eternalterminal.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 3956,
+      "tier": "tier3_powertool",
+      "summary": "Eternal Terminal is a secure remote shell connection that automatically reconnects your workspace without interrupting your active session.",
+      "i18n": {
+        "it": "Eternal Terminal è una connessione sicura che si ricollega automaticamente senza interrompere la sessione attiva.",
+        "es": "Eternal Terminal es una conexión segura que se reconecta automáticamente sin interrumpir su sesión activa.",
+        "fr": "Eternal Terminal est une connexion sécurisée qui se reconnecte automatiquement sans interrompre votre session.",
+        "de": "Eternal Terminal ist eine sichere Verbindung, die sich automatisch wiederverbindet, ohne die Sitzung zu unterbrechen."
+      },
+      "download_url": "https://mistertea.github.io/EternalTerminal/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "yyjson",
