@@ -2,17 +2,17 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-24T07:05:53.267651+00:00",
-  "total_apps": 1950,
+  "generated_at": "2026-11-24T07:09:40.392226+00:00",
+  "total_apps": 1975,
   "tier_counts": {
     "tier3_powertool": 264,
-    "tier2_webapp": 581,
+    "tier2_webapp": 606,
     "tier1_gui": 1105
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 254,
-    "selfhosted": 580,
+    "selfhosted": 605,
     "desktop": 1105,
     "webapp": 1
   },
@@ -22,7 +22,7 @@
     "Security & Privacy": 48,
     "Utilities & Power Tools": 250,
     "Video & Audio": 98,
-    "Web Apps & Cloud": 556,
+    "Web Apps & Cloud": 581,
     "Websites & SEO": 3
   },
   "apps": [
@@ -38495,6 +38495,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "numbat",
+      "name": "Numbat",
+      "tagline": "Smart scientific calculations with units.",
+      "repo_url": "https://github.com/sharkdp/numbat",
+      "full_name": "sharkdp/numbat",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "calculator",
+        "science"
+      ],
+      "icon": "/icons/numbat.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 2847,
+      "tier": "tier2_webapp",
+      "summary": "A modern calculator tool that handles physical units and scientific numbers safely to prevent costly math mistakes.",
+      "i18n": {
+        "it": "Uno strumento di calcolo moderno che gestisce unità fisiche e numeri scientifici in sicurezza per evitare errori.",
+        "es": "Una herramienta de cálculo moderna que maneja unidades físicas y números científicos para evitar errores.",
+        "fr": "Un outil de calcul moderne qui gère les unités physiques et les nombres scientifiques pour éviter les erreurs.",
+        "de": "Ein modernes Rechenwerkzeug, das physikalische Einheiten und Zahlen sicher handhabt, um Fehler zu vermeiden."
+      },
+      "download_url": "https://github.com/sharkdp/numbat/releases/download/v1.24.0/numbat-musl_1.24.0_amd64.deb",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "zkeacms",
       "name": "ZKEACMS",
       "tagline": "Visual website building made simple",
@@ -40315,6 +40343,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "android-advancedwebview",
+      "name": "Android-AdvancedWebView",
+      "tagline": "Better web browsing inside Android apps",
+      "repo_url": "https://github.com/delight-im/android-advancedwebview",
+      "full_name": "delight-im/android-advancedwebview",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "android",
+        "development"
+      ],
+      "icon": "/icons/android-advancedwebview.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 2412,
+      "tier": "tier2_webapp",
+      "summary": "This tool provides a reliable and feature-rich way to display websites directly within your Android mobile applications.",
+      "i18n": {
+        "it": "Questo strumento offre un modo affidabile e ricco di funzionalità per visualizzare siti web direttamente all'interno delle tue app Android.",
+        "es": "Esta herramienta ofrece una forma fiable y completa de mostrar sitios web directamente dentro de tus aplicaciones móviles Android.",
+        "fr": "Cet outil offre un moyen fiable et complet d'afficher des sites web directement au sein de vos applications mobiles Android.",
+        "de": "Dieses Tool bietet eine zuverlässige und funktionsreiche Möglichkeit, Websites direkt in Ihren Android-Apps anzuzeigen."
+      },
+      "download_url": "https://github.com/delight-im/Android-AdvancedWebView/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "bilibili-video-downloader",
       "name": "Bilibili Video Downloader",
       "tagline": "Easily download and organize Bilibili videos.",
@@ -41657,6 +41713,34 @@
       },
       "download_url": "https://github.com/Tavris1/ComfyUI-Easy-Install/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "electrode",
+      "name": "Electrode",
+      "tagline": "Build scalable enterprise web applications easily",
+      "repo_url": "https://github.com/electrode-io/electrode",
+      "full_name": "electrode-io/electrode",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "webapp",
+        "frontend"
+      ],
+      "icon": "/icons/electrode.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 2115,
+      "tier": "tier2_webapp",
+      "summary": "Electrode is an open-source platform designed to help developers build large-scale, high-performance web applications using modern JavaScript tools.",
+      "i18n": {
+        "it": "Una piattaforma open-source per creare applicazioni web avanzate e scalabili utilizzando tecnologie JavaScript moderne.",
+        "es": "Una plataforma de código abierto para crear aplicaciones web avanzadas y escalables utilizando herramientas modernas de JavaScript.",
+        "fr": "Une plateforme open-source pour créer des applications web avancées et évolutives en utilisant des technologies modernes.",
+        "de": "Eine Open-Source-Plattform zur Entwicklung großer, leistungsstarker Webanwendungen mit modernen JavaScript-Werkzeugen."
+      },
+      "download_url": "https://github.com/electrode-io/electrode/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "butterfly",
@@ -43115,6 +43199,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "themostdangerouswritingapp",
+      "name": "The Most Dangerous Writing App",
+      "tagline": "Keep typing or lose everything forever.",
+      "repo_url": "https://github.com/maebert/themostdangerouswritingapp",
+      "full_name": "maebert/themostdangerouswritingapp",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "writing",
+        "productivity"
+      ],
+      "icon": "/icons/themostdangerouswritingapp.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 1915,
+      "tier": "tier2_webapp",
+      "summary": "An intense online writing tool that deletes your work if you stop typing for more than five seconds, forcing your creativity past overthinking.",
+      "i18n": {
+        "it": "Uno strumento di scrittura online che cancella il tuo lavoro se smetti di digitare per più di cinque secondi.",
+        "es": "Una intensa herramienta de escritura online que borra tu trabajo si dejas de escribir durante más de cinco segundos.",
+        "fr": "Un outil d'écriture en ligne intense qui supprime votre travail si vous arrêtez de taper pendant plus de cinq secondes.",
+        "de": "Ein intensives Online-Schreibtool, das deine Arbeit löscht, wenn du länger als fünf Sekunden nicht tippst."
+      },
+      "download_url": "https://maebert.github.io/themostdangerouswritingapp",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "starnet",
       "name": "starnet",
       "tagline": "Live pixel-art station for AI agents",
@@ -43141,6 +43253,34 @@
       },
       "download_url": "https://github.com/androoAGI/starnet/releases/download/v0.15.4/StarNet_0.15.4_x64-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "demogpt",
+      "name": "DemoGPT",
+      "tagline": "Build custom artificial intelligence agents instantly.",
+      "repo_url": "https://github.com/melih-unsal/demogpt",
+      "full_name": "melih-unsal/demogpt",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ai",
+        "agents"
+      ],
+      "icon": "/icons/demogpt.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1906,
+      "tier": "tier2_webapp",
+      "summary": "Create powerful smart assistants and automated workflows instantly using simple prompts and built-in tools.",
+      "i18n": {
+        "it": "Crea assistenti intelligenti e flussi automatizzati all'istante usando semplici comandi testuali e strumenti integrati.",
+        "es": "Crea asistentes inteligentes y flujos automatizados de forma instantánea usando sencillas instrucciones y herramientas.",
+        "fr": "Créez des assistants intelligents et des flux automatisés instantanément en utilisant des instructions simples.",
+        "de": "Erstellen Sie smarte Assistenten und automatisierte Abläufe sofort mit einfachen Befehlen und integrierten Tools."
+      },
+      "download_url": "https://github.com/melih-unsal/DemoGPT/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "git-interactive-rebase-tool",
@@ -43869,6 +44009,34 @@
       },
       "download_url": "https://www.rageframe.com",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "django-locallibrary-tutorial",
+      "name": "Django Local Library",
+      "tagline": "Learn web development with online library software",
+      "repo_url": "https://github.com/mdn/django-locallibrary-tutorial",
+      "full_name": "mdn/django-locallibrary-tutorial",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "django",
+        "education"
+      ],
+      "icon": "/icons/django-locallibrary-tutorial.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Public Domain / Free",
+      "stars": 1690,
+      "tier": "tier2_webapp",
+      "summary": "An educational web application creating an online catalog for a local library to browse books and manage accounts.",
+      "i18n": {
+        "it": "Un'applicazione web educativa che crea un catalogo online per gestire libri e account utente.",
+        "es": "Una aplicación web educativa que crea un catálogo en línea para explorar libros y gestionar cuentas.",
+        "fr": "Une application web éducative créant un catalogue en ligne pour une bibliothèque locale.",
+        "de": "Eine Bildungs-Webanwendung, die einen Online-Katalog für eine lokale Bibliothek erstellt."
+      },
+      "download_url": "https://github.com/mdn/django-locallibrary-tutorial/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "notion-api-worker",
@@ -44963,6 +45131,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "hawtio",
+      "name": "Hawtio",
+      "tagline": "Manage your Java applications easily",
+      "repo_url": "https://github.com/hawtio/hawtio",
+      "full_name": "hawtio/hawtio",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "monitoring",
+        "management"
+      ],
+      "icon": "/icons/hawtio.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 1465,
+      "tier": "tier2_webapp",
+      "summary": "A lightweight web console that helps you monitor, manage, and inspect your Java applications and backend environments effortlessly.",
+      "i18n": {
+        "it": "Una console web leggera che ti aiuta a monitorare e gestire i tuoi programmi Java e ambienti di backend senza sforzo.",
+        "es": "Una consola web ligera que te ayuda a monitorear y administrar tus programas Java y entornos de backend sin esfuerzo.",
+        "fr": "Une console web légère qui vous aide à surveiller et gérer vos applications Java et environnements backend sans effort.",
+        "de": "Eine leichte Webkonsole, mit der Sie Ihre Java-Anwendungen und Backend-Umgebungen mühelos überwachen und verwalten können."
+      },
+      "download_url": "https://github.com/hawtio/hawtio/releases/download/hawtio-5.3.0/hawtio-default-5.3.0.war",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "iaito",
       "name": "iaito",
       "tagline": "Friendly graphical interface for code analysis",
@@ -45103,6 +45299,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "hackernews",
+      "name": "hackernews",
+      "tagline": "Lightning-fast Hacker News web reader experience.",
+      "repo_url": "https://github.com/nuxt/hackernews",
+      "full_name": "nuxt/hackernews",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "news",
+        "reader"
+      ],
+      "icon": "/icons/hackernews.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1436,
+      "tier": "tier2_webapp",
+      "summary": "Enjoy a high-performance, modern clone of Hacker News designed for blazing-fast browsing and smooth page loading.",
+      "i18n": {
+        "it": "Goditi un clone moderno e ad alte prestazioni di Hacker News progettato per una navigazione velocissima e pulita.",
+        "es": "Disfruta de un clon moderno y de alto rendimiento de Hacker News diseñado para una navegación rápida y fluida.",
+        "fr": "Profitez d'un clone moderne et performant de Hacker News conçu pour une navigation ultra-rapide et épurée.",
+        "de": "Genießen Sie einen modernen, performanten Klon von Hacker News, der für blitzschnelles Surfen optimiert ist."
+      },
+      "download_url": "https://hn.nuxt.dev",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "seabird",
       "name": "Seabird",
       "tagline": "Explore cloud clusters with ease",
@@ -45241,6 +45465,34 @@
       },
       "download_url": "https://github.com/yatli/fvim/releases/download/v0.3.549%2Bee4316c/fvim-linux-amd64-v0.3.548%2Bg2e4087d-2-gee4316c.deb",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "snake",
+      "name": "snake",
+      "tagline": "Play classic snake inside your URL",
+      "repo_url": "https://github.com/epidemian/snake",
+      "full_name": "epidemian/snake",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "game",
+        "browser"
+      ],
+      "icon": "/icons/snake.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Public Domain / Free",
+      "stars": 1398,
+      "tier": "tier2_webapp",
+      "summary": "Play the nostalgic snake game directly within your web browser address bar using clever text tricks.",
+      "i18n": {
+        "it": "Divertiti con il classico gioco del serpente direttamente nella barra degli indirizzi del tuo browser.",
+        "es": "Disfruta del clásico juego del serpiente directamente dentro de la barra de direcciones de tu navegador.",
+        "fr": "Jouez au jeu classique du serpent directement dans la barre d'adresse de votre navigateur web.",
+        "de": "Spiele das nostalgische Schlangenspiel direkt in der Adresszeile deines Webbrowsers."
+      },
+      "download_url": "https://demian.ferrei.ro/snake",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "yii2-starter-kit",
@@ -45465,6 +45717,34 @@
       },
       "download_url": "https://sulu.io",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "sharry",
+      "name": "Sharry",
+      "tagline": "Secure self-hosted file sharing web application",
+      "repo_url": "https://github.com/eikek/sharry",
+      "full_name": "eikek/sharry",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "file-sharing",
+        "self-hosted"
+      ],
+      "icon": "/icons/sharry.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 1357,
+      "tier": "tier2_webapp",
+      "summary": "Share files securely using your own private server and generate custom download links with expiration dates.",
+      "i18n": {
+        "it": "Condividi file in modo sicuro sul tuo server privato e genera collegamenti di download con scadenza personalizzata.",
+        "es": "Comparte archivos de forma segura utilizando tu propio servidor privado y genera enlaces de descarga con caducidad.",
+        "fr": "Partagez des fichiers en toute sécurité sur votre propre serveur et générez des liens de téléchargement temporaires.",
+        "de": "Teilen Sie Dateien sicher über Ihren eigenen Server und erstellen Sie Download-Links mit individuellem Ablaufdatum."
+      },
+      "download_url": "https://github.com/eikek/sharry/releases/download/v1.17.0/sharry-restserver_1.17.0_all.deb",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "cmswing",
@@ -46111,6 +46391,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "hackerweb",
+      "name": "HackerWeb",
+      "tagline": "A clean reader for tech news.",
+      "repo_url": "https://github.com/cheeaun/hackerweb",
+      "full_name": "cheeaun/hackerweb",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "reader",
+        "news"
+      ],
+      "icon": "/icons/hackerweb.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1249,
+      "tier": "tier2_webapp",
+      "summary": "Browse popular technology discussions in a fast, distraction-free mobile layout that feels just like a native app.",
+      "i18n": {
+        "it": "Sfoglia le discussioni tecnologiche più popolari in un layout mobile veloce e privo di distrazioni.",
+        "es": "Explora las discusiones tecnológicas más populares en un diseño móvil rápido y sin distracciones.",
+        "fr": "Parcourez les discussions technologiques populaires dans une interface mobile rapide et sans distractions.",
+        "de": "Durchstöbern Sie beliebte Technikdiskussionen in einem schnellen und ablenkungsfreien Layout."
+      },
+      "download_url": "https://hackerwebapp.com/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "spot",
       "name": "Spot",
       "tagline": "Build native desktop apps with Go",
@@ -46335,6 +46643,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "musicapp-kmp",
+      "name": "MusicApp-KMP",
+      "tagline": "Cross-platform music player for everyone",
+      "repo_url": "https://github.com/seabdulbasit/musicapp-kmp",
+      "full_name": "seabdulbasit/musicapp-kmp",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "music",
+        "cross-platform"
+      ],
+      "icon": "/icons/musicapp-kmp.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1215,
+      "tier": "tier2_webapp",
+      "summary": "Enjoy streaming trending albums and top charts seamlessly across your computer, phone, tablet, and web browser.",
+      "i18n": {
+        "it": "Ascolta album di tendenza e classifiche su computer, smartphone, tablet e browser web.",
+        "es": "Disfruta transmitiendo álbumes de tendencia y listas de éxitos en tu ordenador, móvil y navegador.",
+        "fr": "Profitez de la diffusion de musique et d'albums tendance sur tous vos appareils et navigateurs.",
+        "de": "Genießen Sie das Streamen von Trend-Alben und Charts nahtlos auf Computer, Smartphone und Browser."
+      },
+      "download_url": "https://github.com/SEAbdulbasit/MusicApp-KMP/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "cui",
       "name": "CUI",
       "tagline": "Lightweight immediate-mode UI components for C",
@@ -46361,6 +46697,34 @@
       },
       "download_url": "https://github.com/yappologistic/CUI/releases/download/v1.4.0/cui.c",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "subtitle-translator",
+      "name": "Subtitle Translator",
+      "tagline": "Translate whole seasons of subtitles instantly",
+      "repo_url": "https://github.com/rockbenben/subtitle-translator",
+      "full_name": "rockbenben/subtitle-translator",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "subtitles",
+        "translation"
+      ],
+      "icon": "/icons/subtitle-translator.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1207,
+      "tier": "tier2_webapp",
+      "summary": "Translate entire seasons of video subtitles in one pass while keeping your timeline perfectly intact.",
+      "i18n": {
+        "it": "Traduci interi stagioni di sottotitoli in un solo passaggio mantenendo la sincronizzazione temporale intatta.",
+        "es": "Traduce temporadas enteras de subtítulos de vídeo en una sola pasada manteniendo la sincronización intacta.",
+        "fr": "Traduisez des saisons entières de sous-titres vidéo en une seule fois tout en conservant vos repères temporels.",
+        "de": "Übersetze ganze Staffeln von Videountertiteln in einem Durchgang, ohne dass die Zeitstempel verschoben werden."
+      },
+      "download_url": "https://github.com/rockbenben/subtitle-translator/releases/download/v3.2.1/SubtitleTranslator_3.2.1_x64_portable.exe",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "masuit-myblogs",
@@ -46979,6 +47343,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "budget",
+      "name": "Budget",
+      "tagline": "Track your income and expenses easily",
+      "repo_url": "https://github.com/range-of-motion/budget",
+      "full_name": "range-of-motion/budget",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "finance",
+        "budgeting"
+      ],
+      "icon": "/icons/budget.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1070,
+      "tier": "tier2_webapp",
+      "summary": "Take control of your personal finances with this open-source expense tracker.",
+      "i18n": {
+        "it": "Gestisci le tue spese con questo strumento open source.",
+        "es": "Lleva el control de tus finanzas personales con esta herramienta.",
+        "fr": "Prenez le contrôle de vos finances avec cet outil open source.",
+        "de": "Behalten Sie Ihre Finanzen mit diesem Open-Source-Tool im Griff."
+      },
+      "download_url": "https://usebudget.com",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "macytdl",
       "name": "MacYTDL",
       "tagline": "Download videos easily on Mac",
@@ -47173,6 +47565,34 @@
       },
       "download_url": "https://github.com/hsr88/mouzi/releases/download/v0.2.1/Mouzi_0.2.1_x64-portable.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "timeoff-management-application",
+      "name": "TimeOff.Management",
+      "tagline": "Simple absence management for teams",
+      "repo_url": "https://github.com/timeoff-management/timeoff-management-application",
+      "full_name": "timeoff-management/timeoff-management-application",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "hr-management",
+        "web-app"
+      ],
+      "icon": "/icons/timeoff-management-application.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1046,
+      "tier": "tier2_webapp",
+      "summary": "A free web tool that helps small businesses track employee vacations, sick days, and holidays with easy calendar views and approval workflows.",
+      "i18n": {
+        "it": "Uno strumento web gratuito che aiuta le piccole imprese a tracciare ferie, malattie e festività con viste calendaristiche e flussi di approvazione facili.",
+        "es": "Una herramienta web gratuita que ayuda a las pequeñas empresas a rastrear vacaciones, días de enfermedad y festivos con vistas de calendario y flujos de aprobación fáciles.",
+        "fr": "Un outil web gratuit qui aide les petites entreprises à suivre les congés, les jours de maladie et les jours fériés avec des vues calendrier et des flux d'approbation faciles.",
+        "de": "Ein kostenloses Web-Tool, das kleinen Unternehmen hilft, Urlaubstage, Krankheitszeiten und Feiertage mit einfachen Kalenderansichten und Genehmigungsworkflows zu verwalten."
+      },
+      "download_url": "https://TimeOff.Management",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "gitcomet",
@@ -47567,6 +47987,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "openbudgeteer",
+      "name": "OpenBudgeteer",
+      "tagline": "Organize your money using bucket budgeting.",
+      "repo_url": "https://github.com/theaxelander/openbudgeteer",
+      "full_name": "theaxelander/openbudgeteer",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "finance",
+        "budgeting"
+      ],
+      "icon": "/icons/openbudgeteer.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 974,
+      "tier": "tier2_webapp",
+      "summary": "Take control of your personal finances by sorting your income into digital buckets for clear, stress-free spending and saving goals.",
+      "i18n": {
+        "it": "Prendi il controllo delle tue finanze personali smistando le entrate in sezioni digitali per raggiungere obiettivi di spesa e risparmio chiari.",
+        "es": "Toma el control de tus finanzas personales clasificando tus ingresos en cubos digitales para lograr metas de gasto y ahorro claras.",
+        "fr": "Prenez le contrôle de vos finances personnelles en répartissant vos revenus dans des enveloppes numériques pour des objectifs clairs.",
+        "de": "Übernehmen Sie die Kontrolle über Ihre Finanzen, indem Sie Einnahmen in digitale Töpfe für klare Ausgabe- und Sparziele verteilen."
+      },
+      "download_url": "https://axelander.dev",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "torrentplayer",
       "name": "TorrentPlayer",
       "tagline": "Stream any torrent video or audio instantly.",
@@ -47959,6 +48407,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "shinydashboard",
+      "name": "shinydashboard",
+      "tagline": "Build interactive data dashboards easily.",
+      "repo_url": "https://github.com/rstudio/shinydashboard",
+      "full_name": "rstudio/shinydashboard",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "dashboards",
+        "data-visualization"
+      ],
+      "icon": "/icons/shinydashboard.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 925,
+      "tier": "tier2_webapp",
+      "summary": "Create clean, professional web dashboards using statistical programming languages without needing web design experience.",
+      "i18n": {
+        "it": "Realizza pannelli di controllo web puliti e professionali utilizzando linguaggi statistici senza competenze di design.",
+        "es": "Crea paneles web limpios y profesionales usando lenguajes estadísticos sin necesidad de experiencia en diseño.",
+        "fr": "Concevez des interfaces web propres et professionnelles avec des langages statistiques sans compétences en design.",
+        "de": "Entwickeln Sie saubere, professionelle Web-Dashboards mit Statistiksprachen ohne Vorkenntnisse im Webdesign."
+      },
+      "download_url": "https://rstudio.github.io/shinydashboard/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "vue-notion",
       "name": "vue-notion",
       "tagline": "Render notes and pages effortlessly.",
@@ -48181,6 +48657,34 @@
       },
       "download_url": "https://nestacms.com",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "theannoyingsite-com",
+      "name": "TheAnnoyingSite.com",
+      "tagline": "The absolute worst webpage ever built",
+      "repo_url": "https://github.com/feross/theannoyingsite.com",
+      "full_name": "feross/theannoyingsite.com",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "browser",
+        "humor"
+      ],
+      "icon": "/icons/theannoyingsite-com.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 895,
+      "tier": "tier2_webapp",
+      "summary": "Explore the limits of browser capabilities through a hilariously frustrating collection of web tricks.",
+      "i18n": {
+        "it": "Esplora i limiti dei browser attraverso una collezione esilarante e frustrante di trucchi web.",
+        "es": "Explora los límites del navegador a través de una colección hilarante y frustrante de trucos web.",
+        "fr": "Explorez les limites des navigateurs grâce à une collection hilarante et frustrante d'astuces web.",
+        "de": "Erforschen Sie die Grenzen von Browsern durch eine urkomische und frustrierende Sammlung von Web-Tricks."
+      },
+      "download_url": "https://theannoyingsite.com",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "marmite",
@@ -49415,6 +49919,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "call-me",
+      "name": "Call-Me",
+      "tagline": "Add instant video calling to websites.",
+      "repo_url": "https://github.com/miroslavpejic85/call-me",
+      "full_name": "miroslavpejic85/call-me",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "webrtc",
+        "video-calling"
+      ],
+      "icon": "/icons/call-me.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 769,
+      "tier": "tier2_webapp",
+      "summary": "Embed a simple video call button on your website so visitors can connect with your team instantly inside their web browser.",
+      "i18n": {
+        "it": "Inserisci un pulsante di chiamata video sul tuo sito affinché i visitatori possano connettersi istantaneamente dal browser.",
+        "es": "Inserta un botón de videollamada en tu sitio web para que los visitantes se conecten instantáneamente desde su navegador.",
+        "fr": "Intégrez un bouton d'appel vidéo sur votre site pour que les visiteurs se connectent instantanément via leur navigateur.",
+        "de": "Integrieren Sie einen Videoanruf-Button auf Ihrer Website, damit Besucher sich sofort über den Browser verbinden können."
+      },
+      "download_url": "https://cme.mirotalk.com",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "orfeo",
       "name": "Orfeo",
       "tagline": "Master piano with interactive MIDI lessons",
@@ -49497,6 +50029,34 @@
       },
       "download_url": "https://github.com/coderedcorp/coderedcms/releases",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "your-source-to-prompt-html",
+      "name": "your-source-to-prompt.html",
+      "tagline": "Turn local code files into AI prompts",
+      "repo_url": "https://github.com/dicklesworthstone/your-source-to-prompt.html",
+      "full_name": "dicklesworthstone/your-source-to-prompt.html",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ai",
+        "developer-tools"
+      ],
+      "icon": "/icons/your-source-to-prompt-html.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 760,
+      "tier": "tier2_webapp",
+      "summary": "Quickly and securely bundle your local code projects into a single organized text prompt for artificial intelligence models directly in your browser.",
+      "i18n": {
+        "it": "Raggruppa in modo rapido e sicuro i tuoi progetti di codice locali in un unico prompt di testo per modelli di intelligenza artificiale.",
+        "es": "Agrupa rápida y de forma segura tus proyectos de código locales en un solo prompt de texto para modelos de inteligencia artificial.",
+        "fr": "Regroupez rapidement et en toute sécurité vos projets de code locaux en une seule invite textuelle pour les modèles d'intelligence artificielle.",
+        "de": "Führen Sie Ihre lokalen Codeprojekte direkt im Browser sicher zu einem einzigen Textprompt für Künstliche Intelligenz zusammen."
+      },
+      "download_url": "https://github.com/Dicklesworthstone/your-source-to-prompt.html/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "dsh-desktop",
@@ -50031,6 +50591,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "docker-registry-browser",
+      "name": "docker-registry-browser",
+      "tagline": "Visual web dashboard for software registries",
+      "repo_url": "https://github.com/klausmeyer/docker-registry-browser",
+      "full_name": "klausmeyer/docker-registry-browser",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "self-hosted",
+        "web-interface"
+      ],
+      "icon": "/icons/docker-registry-browser.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 701,
+      "tier": "tier2_webapp",
+      "summary": "Browse, inspect, and clean up stored software packages and image tags using a friendly visual web interface.",
+      "i18n": {
+        "it": "Esamina, controlla e pulisci i pacchetti software salvati tramite un'interfaccia web semplice e intuitiva.",
+        "es": "Explora, inspecciona y limpia paquetes de software guardados mediante una interfaz web visual y amigable.",
+        "fr": "Parcourez, inspectez et nettoyez les paquets logiciels enregistrés grâce à une interface web claire et intuitive.",
+        "de": "Durchsuchen, prüfen und bereinigen Sie gespeicherte Softwarepakete über eine übersichtliche Benutzeroberfläche."
+      },
+      "download_url": "https://hub.docker.com/r/klausmeyer/docker-registry-browser/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "opentypeless",
       "name": "OpenTypeless",
       "tagline": "Speak naturally and type anywhere with AI.",
@@ -50393,6 +50981,34 @@
       },
       "download_url": "https://github.com/aqm857886159/Nomi/releases/download/v0.24.1/Nomi-win-x64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "pix-plot",
+      "name": "pix-plot",
+      "tagline": "Explore massive image collections visually.",
+      "repo_url": "https://github.com/pleonard212/pix-plot",
+      "full_name": "pleonard212/pix-plot",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "visualizer",
+        "photos"
+      ],
+      "icon": "/icons/pix-plot.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 661,
+      "tier": "tier2_webapp",
+      "summary": "Transform thousands of photos into an interactive visual map where similar images group together automatically.",
+      "i18n": {
+        "it": "Trasforma migliaia di foto in una mappa interattiva dove le immagini simili si raggruppano automaticamente.",
+        "es": "Convierte miles de fotos en un mapa interactivo donde las imágenes similares se agrupan automáticamente.",
+        "fr": "Transformez des milliers de photos en une carte interactive où les images similaires se regroupent automatiquement.",
+        "de": "Verwandeln Sie Tausende von Fotos in eine interaktive Karte, auf der sich ähnliche Bilder automatisch gruppieren."
+      },
+      "download_url": "https://github.com/pleonard212/pix-plot/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "puput",
@@ -50841,6 +51457,34 @@
       },
       "download_url": "https://github.com/ikaros-dev/ikaros/releases/download/v1.2.6/ikaros-server.jar",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "nuepress",
+      "name": "nuepress",
+      "tagline": "Combine WordPress with modern web apps",
+      "repo_url": "https://github.com/krestaino/nuepress",
+      "full_name": "krestaino/nuepress",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "wordpress",
+        "website"
+      ],
+      "icon": "/icons/nuepress.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 624,
+      "tier": "tier2_webapp",
+      "summary": "Nuepress connects WordPress content directly to modern web frameworks for faster and smoother reading experiences.",
+      "i18n": {
+        "it": "Nuepress collega i contenuti di WordPress direttamente ai moderni framework web per letture più veloci.",
+        "es": "Nuepress conecta el contenido de WordPress directamente a marcos web modernos para una lectura más rápida.",
+        "fr": "Nuepress connecte le contenu WordPress directement aux frameworks web modernes pour des lectures plus rapides.",
+        "de": "Nuepress verbindet WordPress-Inhalte direkt mit modernen Web-Frameworks für schnellere Lesebereiche."
+      },
+      "download_url": "https://nuepress.kmr.io/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "typemill",
@@ -51879,6 +52523,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "wxmp",
+      "name": "wxmp",
+      "tagline": "Format Markdown articles for publishing platforms",
+      "repo_url": "https://github.com/jaywcjlove/wxmp",
+      "full_name": "jaywcjlove/wxmp",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "editor",
+        "markdown"
+      ],
+      "icon": "/icons/wxmp.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 539,
+      "tier": "tier2_webapp",
+      "summary": "Create beautifully styled articles for messaging and publishing platforms using simple Markdown text formatting.",
+      "i18n": {
+        "it": "Crea articoli eleganti e formattati per piattaforme di messaggistica usando la semplice sintassi Markdown.",
+        "es": "Crea artículos atractivos para plataformas de mensajería utilizando un formato de texto Markdown sencillo.",
+        "fr": "Créez des articles élégants pour les plateformes de messagerie en utilisant le formatage de texte Markdown.",
+        "de": "Erstelle wunderschön gestaltete Artikel für Messaging-Plattformen mithilfe einfacher Markdown-Textformatierung."
+      },
+      "download_url": "https://github.com/jaywcjlove/wxmp/releases/download/v2.4.1/wxmp.Setup.2.4.1.exe",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "webapp-wordlists",
       "name": "Webapp Wordlists",
       "tagline": "Ready‑made file lists for web apps",
@@ -52213,6 +52885,34 @@
       },
       "download_url": "https://github.com/incldue/CineFlow/releases/download/V4.0.0/CineFlow-4.0.0-Setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "ginatra",
+      "name": "Ginatra",
+      "tagline": "Simple web interface for your code",
+      "repo_url": "https://github.com/narkoz/ginatra",
+      "full_name": "narkoz/ginatra",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-tools",
+        "development"
+      ],
+      "icon": "/icons/ginatra.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 523,
+      "tier": "tier2_webapp",
+      "summary": "Ginatra provides a clean, web-based dashboard to view and manage your local code collections easily.",
+      "i18n": {
+        "it": "Ginatra offre una dashboard web pulita per visualizzare e gestire facilmente le tue raccolte di codice locali.",
+        "es": "Ginatra ofrece un panel web limpio para ver y gestionar fácilmente tus colecciones de código locales.",
+        "fr": "Ginatra propose un tableau de bord web épuré pour visualiser et gérer facilement vos collections de code locales.",
+        "de": "Ginatra bietet ein übersichtliches Web-Dashboard, um Ihre lokalen Codesammlungen einfach anzuzeigen und zu verwalten."
+      },
+      "download_url": "https://narkoz.github.io/ginatra",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "simpla",

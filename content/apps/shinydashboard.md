@@ -1,0 +1,72 @@
+---
+title: "shinydashboard"
+slug: "shinydashboard"
+tagline: "Build interactive data dashboards easily."
+summary: "Create clean, professional web dashboards using statistical programming languages without needing web design experience."
+tags: ["dashboards", "data-visualization", "web-apps", "statistics"]
+is_webapp: true
+app_type: "selfhosted"
+category: "Web Apps & Cloud"
+icon: "/icons/shinydashboard.png"
+stars: 925
+source_url: "https://github.com/rstudio/shinydashboard"
+download_url: "https://rstudio.github.io/shinydashboard/"
+downloadUrl: "https://rstudio.github.io/shinydashboard/"
+download_label: "Official Setup & Docs →"
+license: "Custom Open License"
+scouting_tier: "tier2_webapp"
+operatingSystem: "Self-Hosted / Browser"
+applicationCategory: "BusinessApplication"
+priceCurrency: "USD"
+price: "0"
+affiliate_merchant_id: "MER_008"
+affiliate_name: "InterServer"
+affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
+affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
+ai_provider: "tier1_gemini:gemini-flash-lite-latest"
+featured_weekly: true
+updated_at: "2026-11-24"
+i18n:
+  it:
+    tagline: "Crea dashboard interattive con facilità."
+    summary: "Realizza pannelli di controllo web puliti e professionali utilizzando linguaggi statistici senza competenze di design."
+  es:
+    tagline: "Construye paneles interactivos fácilmente."
+    summary: "Crea paneles web limpios y profesionales usando lenguajes estadísticos sin necesidad de experiencia en diseño."
+  fr:
+    tagline: "Créez des tableaux de bord interactifs."
+    summary: "Concevez des interfaces web propres et professionnelles avec des langages statistiques sans compétences en design."
+  de:
+    tagline: "Erstellen Sie interaktive Dashboards."
+    summary: "Entwickeln Sie saubere, professionelle Web-Dashboards mit Statistiksprachen ohne Vorkenntnisse im Webdesign."
+---
+
+### What it does in plain English
+Shiny Dashboard helps data analysts and researchers turn raw numbers and statistics into clean, interactive web interfaces. It organizes charts, tables, and metrics into structured layouts with sidebars, headers, and tabs. You can share your findings with colleagues or clients through a browser window without writing complex web code.
+
+### Who it's for
+* Data analysts who need to share interactive charts with team members
+* Researchers wanting to present statistical findings clearly in a browser
+* Students and teachers building visual reports for projects
+
+### Key features
+* Professional header, sidebar, and body layout templates
+* Ready-to-use widgets for displaying text, numbers, and status indicators
+* Flexible grid system for arranging charts and tables neatly
+* Built-in support for collapsible menus and user-friendly navigation tabs
+* Fully compatible with standard statistical charting tools
+
+### How to install (Download)
+To use this tool, open your statistical programming environment and run the standard package installation command found on the [Official Documentation Website](https://rstudio.github.io/shinydashboard/).
+
+### Pros and Cons
+* **Pros:** Free forever, highly customizable, integrates smoothly with popular data analysis scripts.
+* **Cons:** Requires basic familiarity with statistical programming languages to set up initial layouts.
+
+### Sponsored Partner Tools (#ad)
+*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
+* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
+
+**Official Source & Credits:** [Official Source / Credits](https://github.com/rstudio/shinydashboard)

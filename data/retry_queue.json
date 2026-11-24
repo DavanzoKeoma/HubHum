@@ -509,5 +509,61 @@
     "html_url": "https://github.com/wangdahoo/vonic",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T07:05:12.233592+00:00"
+  },
+  {
+    "full_name": "liyupi/sql-father-frontend-public",
+    "slug": "sql-father-frontend-public",
+    "html_url": "https://github.com/liyupi/sql-father-frontend-public",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T07:07:00.906160+00:00"
+  },
+  {
+    "full_name": "gpxstudio/gpx.studio",
+    "slug": "gpx-studio",
+    "html_url": "https://github.com/gpxstudio/gpx.studio",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T07:07:28.551249+00:00"
+  },
+  {
+    "full_name": "nuxsmin/sysPass",
+    "slug": "syspass",
+    "html_url": "https://github.com/nuxsmin/sysPass",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T07:08:33.106455+00:00"
+  },
+  {
+    "full_name": "tiangolo/uwsgi-nginx-docker",
+    "slug": "uwsgi-nginx-docker",
+    "html_url": "https://github.com/tiangolo/uwsgi-nginx-docker",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T07:09:07.639089+00:00"
+  },
+  {
+    "full_name": "ledgersmb/LedgerSMB",
+    "slug": "ledgersmb",
+    "html_url": "https://github.com/ledgersmb/LedgerSMB",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T07:09:14.052161+00:00"
+  },
+  {
+    "full_name": "disintegration/bebop",
+    "slug": "bebop",
+    "html_url": "https://github.com/disintegration/bebop",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T07:09:22.972549+00:00"
+  },
+  {
+    "full_name": "K-G-PRAJWAL/ReactJS-Projects",
+    "slug": "reactjs-projects",
+    "html_url": "https://github.com/K-G-PRAJWAL/ReactJS-Projects",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T07:09:31.994530+00:00"
+  },
+  {
+    "full_name": "TotallyInformation/node-red-contrib-uibuilder",
+    "slug": "node-red-contrib-uibuilder",
+    "html_url": "https://github.com/TotallyInformation/node-red-contrib-uibuilder",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T07:09:34.123245+00:00"
   }
 ]
