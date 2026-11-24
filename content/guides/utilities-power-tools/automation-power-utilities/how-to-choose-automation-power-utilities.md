@@ -12,7 +12,7 @@ parent_slug: "utilities-power-tools/automation-power-utilities"
 child_slugs: []
 sibling_slugs: ["utilities-power-tools/automation-power-utilities/best-automation-power-utilities", "utilities-power-tools/automation-power-utilities/troubleshooting-automation-power-utilities"]
 app_slugs: ["rea", "ohmyzsh", "agent-reach", "tauri", "terminal", "playwright"]
-updated_at: "2026-11-23"
+updated_at: "2026-11-24"
 ---
 
 ## How to Choose Free Automation & System Power Utilities Without Getting Lost

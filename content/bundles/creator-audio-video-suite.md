@@ -5,7 +5,7 @@ category: "Video & Audio"
 summary: "Combine non-linear video editing, fast lossless cutting, format transcoding, clean audio mastering, and automated subtitling."
 tags: ["video-editor", "audio", "subtitles", "transcoding"]
 app_slugs: ["shotcut", "olive", "losslesscut", "handbrake", "audacity", "whispersubtranslate"]
-updated_at: "2026-11-23"
+updated_at: "2026-11-24"
 ---
 
 ### Why this curated guide

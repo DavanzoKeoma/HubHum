@@ -11,20 +11,22 @@ summary: "Free screen recorders, desktop media players, and streaming tools that
 parent_slug: "video-audio"
 child_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming", "video-audio/screen-recorders-streaming/troubleshooting-screen-recorders-streaming"]
 sibling_slugs: []
-app_slugs: ["animeko", "kap", "ani-cli", "streamlink", "hghub", "openscreen", "snow-shot", "seanime", "streamlink-twitch-gui", "fladder", "downvid", "markeron", "kiri", "cineflow", "hotclip", "api-admin"]
-updated_at: "2026-11-23"
+app_slugs: ["ijkplayer", "animeko", "gsyvideoplayer", "kap", "ani-cli", "streamlink", "hghub", "openscreen", "snow-shot", "seanime", "streamlink-twitch-gui", "fladder", "downvid", "markeron", "kiri", "cineflow", "hotclip"]
+updated_at: "2026-11-24"
 ---
 
 ## Plain-English Overview: Screen Recorders, Streaming & Media Players
 
-This topic hub groups **16 vetted free tools** specializing in **Screen Recorders, Streaming & Media Players** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **17 vetted free tools** specializing in **Screen Recorders, Streaming & Media Players** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
 
 ### All Qualifying Software in This Topic
 
+- **[ijkplayer](/HubHum/apps/ijkplayer/)** — Smoothly play online and local videos on mobile devices with hardware acceleration and robust format support. *(Desktop App · License: Open Source (GPL v2))*
 - **[Animeko](/HubHum/apps/animeko/)** — Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments. *(Desktop App · License: Open Source (AGPL v3))*
+- **[GSYVideoPlayer](/HubHum/apps/gsyvideoplayer/)** — An advanced video playback toolkit for mobile devices supporting multiple video engines, caching, and custom visual filters. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Kap](/HubHum/apps/kap/)** — An open-source screen recorder for macOS that lets you capture your desktop with ease using a clean interface. *(Desktop App · License: Open Source (MIT))*
 - **[ani-cli](/HubHum/apps/ani-cli/)** — A simple tool that lets you search for and stream your favorite anime directly from your computer terminal. *(CLI Tool · License: Open Source (GPL v3))*
 - **[Streamlink](/HubHum/apps/streamlink/)** — Streamlink lets you watch live video content directly in your favorite media player instead of using resource-heavy web browsers. *(Desktop App · License: Open Source (BSD))*
@@ -34,5 +36,3 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Seanime](/HubHum/apps/seanime/)** — Seanime organizes your local media library and provides a unified interface for streaming anime and reading manga on any device. *(Self-Hosted Web App · License: Open Source (GPL v3))*
 - **[streamlink-twitch-gui](/HubHum/apps/streamlink-twitch-gui/)** — A lightweight desktop application that lets you watch Twitch streams in your favorite media player instead of a heavy web browser. *(Desktop App · License: Open Source (MIT))*
 - **[Fladder](/HubHum/apps/fladder/)** — Fladder is a friendly way to watch and organize your personal media collection across all your devices. *(Desktop App · License: Open Source (GPL v3))*
-- **[DownVid](/HubHum/apps/downvid/)** — DownVid is a modern, cross-platform video downloader that helps you save high-definition media from popular websites without watermarks. *(Desktop App · License: Open Source (MIT))*
-- **[MarkerOn](/HubHum/apps/markeron/)** — Draw, highlight, and annotate directly on your computer screen using simple keyboard shortcuts. *(Desktop App · License: Open Source (MIT))*

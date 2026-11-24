@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "security-privacy/password-network-privacy"
 child_slugs: []
 sibling_slugs: ["security-privacy/password-network-privacy/best-password-network-privacy", "security-privacy/password-network-privacy/how-to-choose-password-network-privacy"]
-app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn"]
-updated_at: "2026-11-23"
+app_slugs: ["sherlock", "v2rayng", "win11debloat", "sniffnet", "maigret"]
+updated_at: "2026-11-24"
 ---
 
 ## Fixing Common Problems with Free Privacy Tools, VPNs & Network Monitors
@@ -31,7 +31,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 ### Recommended Alternatives Covered
 
 - **[Sherlock](/HubHum/apps/sherlock/)** (CLI Tool) — Easily discover where a specific username is registered across hundreds of online platforms and social networks in seconds.
+- **[v2rayNG](/HubHum/apps/v2rayng/)** (Desktop App) — Manage private online connections securely on your Android device using advanced routing cores.
 - **[Win11Debloat](/HubHum/apps/win11debloat/)** (Desktop App) — Remove unwanted pre-installed apps, block background tracking, and declutter your computer interface in just a few clicks.
 - **[Sniffnet](/HubHum/apps/sniffnet/)** (Desktop App) — Easily observe and analyze your computer's internet traffic in real-time with visual graphs, custom alerts, and security filters.
 - **[Maigret](/HubHum/apps/maigret/)** (CLI Tool) — Maigret gathers online profile information by scanning thousands of public websites using only a username.
-- **[setup-ipsec-vpn](/HubHum/apps/setup-ipsec-vpn/)** (Self-Hosted Web App) — Easily create your own secure personal virtual private network server in minutes without complicated manual steps.

@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "security-privacy/system-cleaners-auditors"
 child_slugs: []
 sibling_slugs: ["security-privacy/system-cleaners-auditors/best-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors"]
-app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows"]
-updated_at: "2026-11-23"
+app_slugs: ["mole", "pentagi", "termix", "metube", "winhance"]
+updated_at: "2026-11-24"
 ---
 
 ## Fixing Common Problems with Free Privacy Cleaners & System Auditors
@@ -33,5 +33,5 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 - **[Mole](/HubHum/apps/mole/)** (Desktop App) — Mole is an open-source system cleaner that removes junk files, uninstalls applications completely, and monitors system performance.
 - **[PentAGI](/HubHum/apps/pentagi/)** (Self-Hosted Web App) — An autonomous multi-agent system that performs security testing and delivers comprehensive reports based on your plain-language goals.
 - **[Termix](/HubHum/apps/termix/)** (Desktop App) — Termix is a flexible, self-hosted platform that lets you organize and control your remote servers, files, and connections from a single dashboard.
+- **[metube](/HubHum/apps/metube/)** (Self-Hosted Web App) — MeTube is a free, self-hosted web interface that lets you download videos, audio, and subtitles from YouTube and hundreds of other sites directly to your server.
 - **[Winhance](/HubHum/apps/winhance/)** (Desktop App) — Winhance is a handy utility application designed to clean up, optimize, and personalize your Windows 10 and 11 computers.
-- **[Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/)** (Desktop App) — An advanced PowerShell tool helps you customize, clean up, and fine-tune Windows 10 and 11 safely.

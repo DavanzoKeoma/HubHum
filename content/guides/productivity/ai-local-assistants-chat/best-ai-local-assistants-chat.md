@@ -11,8 +11,8 @@ summary: "Compare NextChat vs ChatGPT and 8 free tools for Local AI Assistants, 
 parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
-app_slugs: ["nextchat", "chatgpt", "uni-app", "codewhale", "etcher", "claude-code-templates", "dbx", "librepods"]
-updated_at: "2026-11-23"
+app_slugs: ["nextchat", "chatgpt", "codewhale", "etcher", "claude-code-templates", "comprehensive-rust", "dbx", "librepods"]
+updated_at: "2026-11-24"
 ---
 
 ## Quick Answer: NextChat vs ChatGPT
@@ -25,10 +25,10 @@ Comparing **NextChat** and **ChatGPT** highlights two distinct approaches in **L
 | --- | --- | --- | --- | --- |
 | [NextChat](/HubHum/apps/nextchat/) | Desktop App | Windows, macOS, Linux | ★ 88,985 | Open Source (MIT) |
 | [ChatGPT](/HubHum/apps/chatgpt/) | Desktop App | Windows, macOS, Linux | ★ 54,673 | Custom Open License |
-| [uni-app](/HubHum/apps/uni-app/) | Desktop App | iOS | ★ 41,695 | Open Source (Apache 2.0) |
 | [Codewhale](/HubHum/apps/codewhale/) | Desktop App | Windows | ★ 41,189 | Open Source (MIT) |
 | [etcher](/HubHum/apps/etcher/) | Desktop App | Windows, macOS, Linux | ★ 34,750 | Open Source (Apache 2.0) |
 | [claude-code-templates](/HubHum/apps/claude-code-templates/) | Open Reference | All / Reference | ★ 34,018 | Open Source (MIT) |
+| [Comprehensive Rust](/HubHum/apps/comprehensive-rust/) | Desktop App | Android | ★ 33,561 | Open Source (Apache 2.0) |
 | [dbx](/HubHum/apps/dbx/) | Desktop App | Windows, macOS, Linux | ★ 31,013 | Open Source (Apache 2.0) |
 | [LibrePods](/HubHum/apps/librepods/) | Desktop App | Linux, Android | ★ 30,943 | Open Source (GPL v3) |
 

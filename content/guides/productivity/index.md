@@ -9,12 +9,12 @@ summary: "Get more done every day with free note-taking apps, window managers, f
 child_slugs: ["productivity/notes-knowledge-apps", "productivity/pdf-document-office-tools", "productivity/desktop-workflow-helpers", "productivity/ai-local-assistants-chat"]
 sibling_slugs: []
 app_slugs: ["awesome", "microsoft-activation-scripts", "flutter", "clash-verge-rev", "cc-switch", "powertoys", "rustdesk", "orca", "react-native", "node", "v2rayn", "openhands", "nextchat", "ventoy", "termux-app", "marktext", "pake", "mkcert"]
-updated_at: "2026-11-23"
+updated_at: "2026-11-24"
 ---
 
 ## Why Explore Free Productivity Software?
 
-This central guide brings together **901 verified free applications** in the **Productivity** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **959 verified free applications** in the **Productivity** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Productivity
 

@@ -12,7 +12,7 @@ parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps"]
 app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin"]
-updated_at: "2026-11-23"
+updated_at: "2026-11-24"
 ---
 
 ## Fixing Common Problems with Free Encrypted Notes, Wikis & Knowledge Apps

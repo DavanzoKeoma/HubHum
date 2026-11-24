@@ -12,7 +12,7 @@ parent_slug: "utilities-power-tools/modern-terminal-apps"
 child_slugs: []
 sibling_slugs: ["utilities-power-tools/modern-terminal-apps/best-modern-terminal-apps", "utilities-power-tools/modern-terminal-apps/how-to-choose-modern-terminal-apps"]
 app_slugs: ["gemini-cli", "scrapling", "fzf", "imgui", "tabby"]
-updated_at: "2026-11-23"
+updated_at: "2026-11-24"
 ---
 
 ## Fixing Common Problems with Free Modern Terminal Emulators & Fast File Finders

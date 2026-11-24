@@ -11,8 +11,8 @@ summary: "Compare Gitleaks vs KeePassXC and 8 free tools for Password Managers &
 parent_slug: "security-privacy/free-password-managers"
 child_slugs: []
 sibling_slugs: ["security-privacy/free-password-managers/how-to-choose-free-password-managers", "security-privacy/free-password-managers/troubleshooting-free-password-managers"]
-app_slugs: ["gitleaks", "keepassxc", "hackbrowserdata", "clients", "pocket-id", "git-credential-manager", "macpass", "cloud-torrent"]
-updated_at: "2026-11-23"
+app_slugs: ["gitleaks", "keepassxc", "hackbrowserdata", "clients", "pocket-id", "git-credential-manager", "pdfcpu", "macpass"]
+updated_at: "2026-11-24"
 ---
 
 ## Quick Answer: Gitleaks vs KeePassXC
@@ -29,8 +29,8 @@ Comparing **Gitleaks** and **KeePassXC** highlights two distinct approaches in *
 | [Bitwarden](/HubHum/apps/clients/) | Desktop App | Windows, macOS, Linux | ★ 14,296 | Custom Open License |
 | [Pocket ID](/HubHum/apps/pocket-id/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 10,410 | Open Source (BSD) |
 | [Git Credential Manager](/HubHum/apps/git-credential-manager/) | Desktop App | Windows, macOS, Linux | ★ 9,464 | Custom Open License |
+| [pdfcpu](/HubHum/apps/pdfcpu/) | Desktop App | Windows, macOS, Linux | ★ 8,918 | Open Source (Apache 2.0) |
 | [MacPass](/HubHum/apps/macpass/) | Desktop App | macOS | ★ 6,901 | Custom Open License |
-| [Cloud Torrent](/HubHum/apps/cloud-torrent/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 6,249 | Custom Open License |
 
 ### When to Pick Which Option
 - **Choose [Gitleaks](/HubHum/apps/gitleaks/) (CLI Tool)** if you need what it specializes in: Scan your code repositories and directories to find accidentally exposed passwords, API keys, and sensitive tokens before they leak — it runs as fast terminal commands suited for automation and batch scripts (no graphical buttons) (31,205 GitHub stars, vs KeePassXC which runs as a Desktop App).

@@ -11,8 +11,8 @@ summary: "Verified free tools to inspect network connections, encrypt traffic, a
 parent_slug: "security-privacy"
 child_slugs: ["security-privacy/password-network-privacy/best-password-network-privacy", "security-privacy/password-network-privacy/how-to-choose-password-network-privacy", "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"]
 sibling_slugs: []
-app_slugs: ["sherlock", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "safeline", "v2raya", "metube", "opensnitch", "esp32marauder", "netmaker", "gui-for-singbox", "bleachbit", "docker-ipsec-vpn-server", "airgorah", "spotx-bash", "privacy-sexy"]
-updated_at: "2026-11-23"
+app_slugs: ["sherlock", "v2rayng", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "safeline", "v2raya", "opensnitch", "esp32marauder", "netmaker", "gui-for-singbox", "bleachbit", "docker-ipsec-vpn-server", "airgorah", "spotx-bash", "cloud-torrent"]
+updated_at: "2026-11-24"
 ---
 
 ## Plain-English Overview: Privacy Tools, VPNs & Network Monitors
@@ -25,6 +25,7 @@ Before picking your software, read our practical guides below covering head-to-h
 ### All Qualifying Software in This Topic
 
 - **[Sherlock](/HubHum/apps/sherlock/)** — Easily discover where a specific username is registered across hundreds of online platforms and social networks in seconds. *(CLI Tool · License: Open Source (MIT))*
+- **[v2rayNG](/HubHum/apps/v2rayng/)** — Manage private online connections securely on your Android device using advanced routing cores. *(Desktop App · License: Open Source (GPL v3))*
 - **[Win11Debloat](/HubHum/apps/win11debloat/)** — Remove unwanted pre-installed apps, block background tracking, and declutter your computer interface in just a few clicks. *(Desktop App · License: Open Source (MIT))*
 - **[Sniffnet](/HubHum/apps/sniffnet/)** — Easily observe and analyze your computer's internet traffic in real-time with visual graphs, custom alerts, and security filters. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Maigret](/HubHum/apps/maigret/)** — Maigret gathers online profile information by scanning thousands of public websites using only a username. *(CLI Tool · License: Open Source (MIT))*
@@ -32,7 +33,6 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Pangolin](/HubHum/apps/pangolin/)** — Safely connect to your private web apps, remote desktops, and servers without exposing them to the public internet. *(Self-Hosted Web App · License: Custom Open License)*
 - **[SafeLine](/HubHum/apps/safeline/)** — A robust security shield that filters web traffic, blocks malicious attacks, and keeps your online services safe from hackers. *(Self-Hosted Web App · License: Open Source (GPL v3))*
 - **[v2rayA](/HubHum/apps/v2raya/)** — v2rayA provides a clean web-based control center for managing advanced internet connection tunnels and proxy rules. *(Desktop App · License: Open Source (AGPL v3))*
-- **[metube](/HubHum/apps/metube/)** — MeTube is a free, self-hosted web interface that lets you download videos, audio, and subtitles from YouTube and hundreds of other sites directly to your server. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
 - **[OpenSnitch](/HubHum/apps/opensnitch/)** — OpenSnitch is a free, open-source firewall for Linux that asks you before any program connects to the internet. *(Desktop App · License: Open Source (GPL v3))*
 - **[ESP32Marauder](/HubHum/apps/esp32marauder/)** — ESP32Marauder is a comprehensive collection of wireless auditing tools designed for small pocket-sized microcontrollers. *(Desktop App · License: Open Source License)*
 - **[Netmaker](/HubHum/apps/netmaker/)** — Netmaker creates fast, secure, and distributed virtual private networks using WireGuard technology to connect your devices easily. *(Self-Hosted Web App · License: Custom Open License)*

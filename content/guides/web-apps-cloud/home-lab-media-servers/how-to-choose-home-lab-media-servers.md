@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/home-lab-media-servers"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"]
 app_slugs: ["netdata", "nanobot", "khoj", "changedetection-io", "meetily", "nanoclaw"]
-updated_at: "2026-11-23"
+updated_at: "2026-11-24"
 ---
 
 ## How to Choose Free Home Lab Media Servers, E-Books & Streaming Hubs Without Getting Lost

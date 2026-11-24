@@ -11,8 +11,8 @@ summary: "Compare Awesome vs React Native and 8 free tools for Encrypted Notes, 
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
-app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin", "imhex", "obsidian-skills", "brew"]
-updated_at: "2026-11-23"
+app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin", "imhex", "obsidian-skills", "okhttp"]
+updated_at: "2026-11-24"
 ---
 
 ## Quick Answer: Awesome vs React Native
@@ -30,7 +30,7 @@ Comparing **Awesome** and **React Native** highlights two distinct approaches in
 | [Joplin](/HubHum/apps/joplin/) | Desktop App | Windows, macOS, Linux | ★ 57,234 | Open Source (MIT) |
 | [ImHex](/HubHum/apps/imhex/) | Desktop App | Windows, macOS, Linux | ★ 56,008 | Open Source (GPL v2) |
 | [Obsidian Skills](/HubHum/apps/obsidian-skills/) | Open Reference | All / Reference | ★ 53,269 | Open Source (MIT) |
-| [brew](/HubHum/apps/brew/) | Desktop App | macOS | ★ 50,410 | Open Source (BSD) |
+| [okhttp](/HubHum/apps/okhttp/) | Desktop App | Android | ★ 47,114 | Open Source (Apache 2.0) |
 
 ### When to Pick Which Option
 - **Choose [Awesome](/HubHum/apps/awesome/) (Open Reference)** if you need what it specializes in: Explore carefully organized collections of interesting topics, software tools, and guides curated by experts — it works in **Open Reference** mode (All / Reference) (539,167 GitHub stars, vs React Native which runs as a Desktop App).
