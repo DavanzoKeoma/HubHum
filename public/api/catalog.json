@@ -2,25 +2,25 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-24T19:34:03.063536+00:00",
-  "total_apps": 2100,
+  "generated_at": "2026-11-24T19:40:36.189663+00:00",
+  "total_apps": 2125,
   "tier_counts": {
-    "tier3_powertool": 289,
+    "tier3_powertool": 314,
     "tier2_webapp": 644,
     "tier1_gui": 1167
   },
   "app_type_counts": {
     "resource": 10,
-    "cli": 279,
+    "cli": 304,
     "selfhosted": 643,
     "desktop": 1167,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 40,
-    "Productivity": 1017,
+    "Productivity": 1020,
     "Security & Privacy": 50,
-    "Utilities & Power Tools": 271,
+    "Utilities & Power Tools": 293,
     "Video & Audio": 100,
     "Web Apps & Cloud": 619,
     "Websites & SEO": 3
@@ -1229,6 +1229,34 @@
       },
       "download_url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "last30days-skill",
+      "name": "Last30Days Research Skill",
+      "tagline": "AI agent search across real communities.",
+      "repo_url": "https://github.com/mvanhorn/last30days-skill",
+      "full_name": "mvanhorn/last30days-skill",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "ai-agent",
+        "search-engine"
+      ],
+      "icon": "/icons/last30days-skill.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 74061,
+      "tier": "tier3_powertool",
+      "summary": "An AI research assistant that scans Reddit, social networks, and live prediction markets to synthesize what people are truly discussing.",
+      "i18n": {
+        "it": "Un assistente di ricerca IA che analizza Reddit e social media per sintetizzare cosa dicono realmente le persone.",
+        "es": "Un asistente de búsqueda con IA que escanea Reddit y redes sociales para sintetizar lo que la gente discute.",
+        "fr": "Un assistant de recherche par IA qui analyse Reddit et les réseaux sociaux pour synthétiser les vrais sujets.",
+        "de": "Ein KI-Rechercheassistent, der Reddit und soziale Netzwerke durchsucht, um echte Meinungen zusammenzufassen."
+      },
+      "download_url": "https://github.com/mvanhorn/last30days-skill/releases/download/v4.6.0/last30days-pp-mcp-darwin-amd64.mcpb",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "strapi",
@@ -13494,6 +13522,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "pure",
+      "name": "Pure",
+      "tagline": "Pretty, minimal, and lightning-fast terminal prompt.",
+      "repo_url": "https://github.com/sindresorhus/pure",
+      "full_name": "sindresorhus/pure",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "productivity"
+      ],
+      "icon": "/icons/pure.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 14474,
+      "tier": "tier3_powertool",
+      "summary": "Pure replaces cluttered command line prompts with a clean, beautifully organized interface that shows important status details without getting in your way.",
+      "i18n": {
+        "it": "Pure sostituisce i prompt disordinati con un'interfaccia pulita che mostra i dettagli importanti senza intralciare il lavoro.",
+        "es": "Pure reemplaza las líneas de comandos recargadas con una interfaz limpia que muestra detalles importantes sin estorbar.",
+        "fr": "Pure remplace les invites de commande encombrées par une interface épurée qui affiche les détails clés sans vous ralentir.",
+        "de": "Pure ersetzt unübersichtliche Befehlszeilen durch eine saubere Oberfläche, die wichtige Statusdetails ohne Ablenkung anzeigt."
+      },
+      "download_url": "https://github.com/sindresorhus/pure/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "circleimageview",
       "name": "CircleImageView",
       "tagline": "Round profile pictures easily",
@@ -15146,6 +15202,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "ttyd",
+      "name": "ttyd",
+      "tagline": "Access your computer terminal through any browser",
+      "repo_url": "https://github.com/tsl0922/ttyd",
+      "full_name": "tsl0922/ttyd",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "remote-access"
+      ],
+      "icon": "/icons/ttyd.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 12676,
+      "tier": "tier3_powertool",
+      "summary": "ttyd allows you to share your computer's command interface over the web securely.",
+      "i18n": {
+        "it": "ttyd ti permette di condividere l'interfaccia a riga di comando del tuo computer sul web in modo sicuro da qualsiasi browser.",
+        "es": "ttyd te permite compartir la interfaz de comandos de tu computadora a través de la web de forma segura desde cualquier navegador.",
+        "fr": "ttyd vous permet de partager l'interface de commande de votre ordinateur sur le web en toute sécurité depuis n'importe quel navigateur.",
+        "de": "ttyd ermöglicht es Ihnen, die Befehlszeilenschnittstelle Ihres Computers sicher über das Internet von jedem Browser aus zu teilen."
+      },
+      "download_url": "https://github.com/tsl0922/ttyd/releases/download/1.7.7/ttyd.win32.exe",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "heroicgameslauncher",
       "name": "Heroic Games Launcher",
       "tagline": "Your ultimate multi-store PC game launcher",
@@ -15591,6 +15675,34 @@
         "de": "Xmake ist ein leichtgewichtinales, plattformübergreifendes Build-Tool, das die Programmverwaltung und Abhängigkeiten mit Lua vereinfacht."
       },
       "download_url": "https://github.com/xmake-io/xmake/releases/download/v3.1.2/xmake-bundle-v3.1.2.arm64.exe",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "gdb-dashboard",
+      "name": "GDB Dashboard",
+      "tagline": "A clearer view for program debugging.",
+      "repo_url": "https://github.com/cyrus-and/gdb-dashboard",
+      "full_name": "cyrus-and/gdb-dashboard",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "development",
+        "debugging"
+      ],
+      "icon": "/icons/gdb-dashboard.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 12287,
+      "tier": "tier3_powertool",
+      "summary": "This tool adds a visual interface to your debugger, showing all important information in one place.",
+      "i18n": {
+        "it": "Questo strumento aggiunge un'interfaccia visiva al tuo debugger, mostrando tutte le informazioni importanti in un unico posto.",
+        "es": "Esta herramienta añade una interfaz visual a tu depurador, mostrando toda la información importante en un solo lugar.",
+        "fr": "Cet outil ajoute une interface visuelle à votre débogueur, affichant toutes les informations importantes au même endroit.",
+        "de": "Dieses Tool fügt Ihrem Debugger eine visuelle Oberfläche hinzu, die alle wichtigen Informationen an einem Ort anzeigt."
+      },
+      "download_url": "https://github.com/cyrus-and/gdb-dashboard/releases",
       "updated_at": "2026-11-24"
     },
     {
@@ -20017,6 +20129,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "lf",
+      "name": "lf",
+      "tagline": "Fast and lightweight terminal file manager",
+      "repo_url": "https://github.com/gokcehan/lf",
+      "full_name": "gokcehan/lf",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "utilities"
+      ],
+      "icon": "/icons/lf.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 9601,
+      "tier": "tier3_powertool",
+      "summary": "lf is a high-performance tool for navigating and managing your computer files directly from your command line interface.",
+      "i18n": {
+        "it": "lf è uno strumento veloce per navigare e gestire i file del computer direttamente dalla riga di comando.",
+        "es": "lf es una herramienta de alto rendimiento para navegar y gestionar archivos desde la línea de comandos.",
+        "fr": "lf est un outil performant pour naviguer et gérer vos fichiers directement depuis votre ligne de commande.",
+        "de": "lf ist ein leistungsstarkes Werkzeug, um Dateien direkt über die Befehlszeile effizient zu verwalten."
+      },
+      "download_url": "https://github.com/gokcehan/lf/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "pgweb",
       "name": "pgweb",
       "tagline": "Simple web-based PostgreSQL database explorer",
@@ -22929,6 +23069,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "dsh-tui",
+      "name": "dsh-TUI",
+      "tagline": "Interactive terminal interface for DeepSeek Harness",
+      "repo_url": "https://github.com/ccch1mneyyy/dsh-tui",
+      "full_name": "ccch1mneyyy/dsh-tui",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "system-utility"
+      ],
+      "icon": "/icons/dsh-tui.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 8200,
+      "tier": "tier3_powertool",
+      "summary": "dsh-TUI provides a friendly, visual way to interact with DeepSeek Harness directly from your computer's command terminal.",
+      "i18n": {
+        "it": "dsh-TUI offre un modo semplice e visivo per interagire con DeepSeek Harness direttamente dal terminale del tuo computer.",
+        "es": "dsh-TUI ofrece una forma amigable y visual de interactuar con DeepSeek Harness directamente desde la terminal de tu computadora.",
+        "fr": "dsh-TUI offre un moyen convivial et visuel d'interagir avec DeepSeek Harness directement depuis le terminal de votre ordinateur.",
+        "de": "dsh-TUI bietet eine freundliche und visuelle Möglichkeit, direkt über das Terminal Ihres Computers mit DeepSeek Harness zu interagieren."
+      },
+      "download_url": "https://github.com/ccch1mneyyy/dsh-TUI/releases/download/v0.20.2/dsh-tui-setup-win-x64.exe",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "copilotforxcode",
       "name": "Copilot for Xcode",
       "tagline": "AI coding assistant for Xcode",
@@ -24105,6 +24273,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "no-more-secrets",
+      "name": "No More Secrets",
+      "tagline": "Recreate the classic movie decryption effect",
+      "repo_url": "https://github.com/bartobri/no-more-secrets",
+      "full_name": "bartobri/no-more-secrets",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "fun"
+      ],
+      "icon": "/icons/no-more-secrets.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 7844,
+      "tier": "tier3_powertool",
+      "summary": "Add a fun, cinematic data-decryption visual to your terminal text output.",
+      "i18n": {
+        "it": "Aggiungi un effetto visivo cinematografico al testo del tuo terminale.",
+        "es": "Añade un efecto visual cinematográfico al texto de tu terminal.",
+        "fr": "Ajoutez un effet visuel cinématographique au texte de votre terminal.",
+        "de": "Fügen Sie Ihrem Terminal-Text einen filmischen Entschlüsselungseffekt hinzu."
+      },
+      "download_url": "https://github.com/bartobri/no-more-secrets/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "iptvnator",
       "name": "IPTVnator",
       "tagline": "Free, open-source IPTV player",
@@ -24187,6 +24383,34 @@
       },
       "download_url": "https://lzhoang2801.github.io/gathering-files/opencore-efi",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "oh-my-bash",
+      "name": "Oh My Bash",
+      "tagline": "Make your terminal look and work better",
+      "repo_url": "https://github.com/ohmybash/oh-my-bash",
+      "full_name": "ohmybash/oh-my-bash",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "productivity"
+      ],
+      "icon": "/icons/oh-my-bash.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 7783,
+      "tier": "tier3_powertool",
+      "summary": "Oh My Bash is a community-driven tool that upgrades your command-line experience with beautiful themes and helpful shortcuts.",
+      "i18n": {
+        "it": "Oh My Bash è uno strumento guidato dalla comunità che potenzia il tuo terminale con temi grafici e comandi rapidi personalizzati.",
+        "es": "Oh My Bash es una herramienta comunitaria que mejora tu terminal con temas visuales y atajos útiles para el día a día.",
+        "fr": "Oh My Bash est un outil communautaire qui améliore votre terminal avec des thèmes visuels et des raccourcis pratiques.",
+        "de": "Oh My Bash ist ein Community-Tool, das dein Terminal mit schönen Designs und hilfreichen Abkürzungen aufwertet."
+      },
+      "download_url": "https://ohmybash.github.io",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "parabolic",
@@ -24354,6 +24578,34 @@
         "de": "Verwalten Sie Ihre Passwörter sicher auf Ihrem Mobilgerät über eine einzige verschlüsselte Datei."
       },
       "download_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.5.9/KeePassDX-4.5.9-free.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "sshx",
+      "name": "sshx",
+      "tagline": "Collaborative live terminal sharing online",
+      "repo_url": "https://github.com/ekzhang/sshx",
+      "full_name": "ekzhang/sshx",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "collaboration"
+      ],
+      "icon": "/icons/sshx.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 7724,
+      "tier": "tier3_powertool",
+      "summary": "Share your computer command line instantly over the web with end-to-end encryption and real-time multiplayer cursor tracking.",
+      "i18n": {
+        "it": "Condividi il tuo terminale istantaneamente via web con crittografia avanzata e tracciamento dei cursori in tempo reale.",
+        "es": "Comparte tu terminal al instante en la web con cifrado seguro y seguimiento de cursores en tiempo real para varios usuarios.",
+        "fr": "Partagez votre terminal instantanément sur le web avec un chiffrement sécurisé et un suivi des curseurs en temps réel.",
+        "de": "Teilen Sie Ihr Befehlszeilenterminal sofort im Web mit sicherer Verschlüsselung und Echtzeit-Cursor-Verfolgung."
+      },
+      "download_url": "https://sshx.io",
       "updated_at": "2026-11-24"
     },
     {
@@ -24805,6 +25057,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "netcatty",
+      "name": "Netcatty",
+      "tagline": "All-in-one workspace for remote servers",
+      "repo_url": "https://github.com/binaricat/netcatty",
+      "full_name": "binaricat/netcatty",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "ssh"
+      ],
+      "icon": "/icons/netcatty.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 7567,
+      "tier": "tier3_powertool",
+      "summary": "Netcatty is a modern tool that combines remote server access, file management, and terminal windows into one organized, easy-to-use workspace.",
+      "i18n": {
+        "it": "Netcatty unisce l'accesso ai server, la gestione dei file e le finestre del terminale in un unico spazio di lavoro semplice e organizzato.",
+        "es": "Netcatty combina el acceso a servidores, la gestión de archivos y ventanas de terminal en un espacio de trabajo organizado y fácil de usar.",
+        "fr": "Netcatty combine l'accès aux serveurs, la gestion de fichiers et les fenêtres de terminal dans un espace de travail simple et organisé.",
+        "de": "Netcatty vereint Serverzugriff, Dateiverwaltung und Terminalfenster in einem übersichtlichen und benutzerfreundlichen Arbeitsbereich."
+      },
+      "download_url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.90/Netcatty-1.1.90-portable-win-x64.exe",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "sequel-ace",
       "name": "Sequel-Ace",
       "tagline": "Fast and simple Mac database management.",
@@ -24859,6 +25139,34 @@
       },
       "download_url": "https://github.com/bleachbit/bleachbit/releases/download/v6.0.6/BleachBit-6.0.6-setup-English.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "useful-scripts",
+      "name": "Useful Scripts",
+      "tagline": "Handy command-line scripts for daily workflows",
+      "repo_url": "https://github.com/oldratlee/useful-scripts",
+      "full_name": "oldratlee/useful-scripts",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "productivity"
+      ],
+      "icon": "/icons/useful-scripts.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 7515,
+      "tier": "tier3_powertool",
+      "summary": "A practical collection of shell and system utilities designed to make technical everyday tasks faster and smoother.",
+      "i18n": {
+        "it": "Una raccolta pratica di utilità per semplificare e velocizzare le attività tecniche di tutti i giorni.",
+        "es": "Una colección práctica de utilidades de sistema diseñadas para agilizar las tareas técnicas cotidianas.",
+        "fr": "Une collection d'utilitaires système conçus pour accélérer et simplifier les tâches techniques quotidiennes.",
+        "de": "Eine nützliche Sammlung von Systemhilfen zur Vereinfachung täglicher technischer Aufgaben."
+      },
+      "download_url": "https://github.com/oldratlee/useful-scripts",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "persepolis",
@@ -26595,6 +26903,34 @@
       },
       "download_url": "https://github.com/ProxymanApp/Proxyman/releases/download/26.5.1/Proxyman_26.5.1.dmg",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "blink",
+      "name": "Blink",
+      "tagline": "Professional terminal access for your iPad",
+      "repo_url": "https://github.com/blinksh/blink",
+      "full_name": "blinksh/blink",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "ios"
+      ],
+      "icon": "/icons/blink.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 7028,
+      "tier": "tier3_powertool",
+      "summary": "Blink provides a high-performance, stable connection to your remote computers directly from your iOS device.",
+      "i18n": {
+        "it": "Blink offre una connessione stabile e veloce ai tuoi computer remoti direttamente dal tuo dispositivo iOS.",
+        "es": "Blink proporciona una conexión estable y de alto rendimiento a sus computadoras remotas directamente desde su dispositivo iOS.",
+        "fr": "Blink offre une connexion stable et performante à vos ordinateurs distants directement depuis votre appareil iOS.",
+        "de": "Blink bietet eine stabile und leistungsstarke Verbindung zu Ihren entfernten Computern direkt von Ihrem iOS-Gerät aus."
+      },
+      "download_url": "https://blink.sh",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "vimr",
@@ -30824,6 +31160,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "themer",
+      "name": "themer",
+      "tagline": "Generate matching themes for your apps",
+      "repo_url": "https://github.com/mjswensen/themer",
+      "full_name": "mjswensen/themer",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "themes",
+        "customization"
+      ],
+      "icon": "/icons/themer.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5866,
+      "tier": "tier3_powertool",
+      "summary": "Transform a simple color palette into matching visual themes for your text editors, terminal windows, web browsers, and desktop wallpapers.",
+      "i18n": {
+        "it": "Trasforma una semplice palette di colori in temi visivi coordinati per editor di testo, terminali e sfondi del desktop.",
+        "es": "Convierte una simple paleta de colores en temas visuales para tus editores de texto, terminales y fondos de pantalla.",
+        "fr": "Transformez une simple palette de couleurs en thèmes visuels pour vos éditeurs de texte, terminaux et fonds d'écran.",
+        "de": "Verwandeln Sie eine einfache Farbpalette in passende visuelle Themes für Texteditoren, Terminalfenster und Desktophintergründe."
+      },
+      "download_url": "https://themer.dev",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "sudo",
       "name": "sudo",
       "tagline": "Run admin commands from regular windows.",
@@ -31214,6 +31578,34 @@
       },
       "download_url": "https://www.nodegit.org/",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "tilix",
+      "name": "Tilix",
+      "tagline": "Organize your terminal windows with ease",
+      "repo_url": "https://github.com/gnunn1/tilix",
+      "full_name": "gnunn1/tilix",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "linux",
+        "productivity"
+      ],
+      "icon": "/icons/tilix.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 5745,
+      "tier": "tier3_powertool",
+      "summary": "Tilix is a flexible terminal tool that lets you arrange multiple command windows side-by-side to keep your workspace tidy and efficient.",
+      "i18n": {
+        "it": "Tilix è uno strumento per terminale che ti permette di affiancare più finestre per mantenere il tuo spazio di lavoro ordinato ed efficiente.",
+        "es": "Tilix es una herramienta de terminal que te permite organizar varias ventanas lado a lado para mantener tu espacio de trabajo ordenado.",
+        "fr": "Tilix est un outil de terminal qui vous permet d'organiser plusieurs fenêtres côte à côte pour garder votre espace de travail ordonné.",
+        "de": "Tilix ist ein Terminal-Tool, mit dem Sie mehrere Fenster nebeneinander anordnen können, um Ihren Arbeitsbereich übersichtlich zu halten."
+      },
+      "download_url": "https://gnunn1.github.io/tilix-web",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "lunar",
@@ -32532,6 +32924,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "rainfrog",
+      "name": "rainfrog",
+      "tagline": "Simple database management in your terminal",
+      "repo_url": "https://github.com/achristmascarl/rainfrog",
+      "full_name": "achristmascarl/rainfrog",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "database",
+        "system-utility"
+      ],
+      "icon": "/icons/rainfrog.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5418,
+      "tier": "tier3_powertool",
+      "summary": "Rainfrog is a lightweight tool that lets you view and manage your database information directly from your command line interface.",
+      "i18n": {
+        "it": "Rainfrog è uno strumento leggero che ti permette di visualizzare e gestire i dati del tuo database direttamente dal terminale.",
+        "es": "Rainfrog es una herramienta ligera que te permite ver y gestionar la información de tu base de datos desde la línea de comandos.",
+        "fr": "Rainfrog est un outil léger qui vous permet de visualiser et de gérer vos bases de données directement depuis votre terminal.",
+        "de": "Rainfrog ist ein leichtgewichtiges Werkzeug, mit dem Sie Ihre Datenbankinformationen direkt über die Befehlszeile verwalten können."
+      },
+      "download_url": "https://github.com/achristmascarl/rainfrog/releases/download/v0.4.7/rainfrog-v0.4.7-aarch64-apple-darwin.sha256",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "altsnap",
       "name": "AltSnap",
       "tagline": "Effortlessly move and resize any window.",
@@ -32670,6 +33090,34 @@
       },
       "download_url": "https://doc.sun-panel.top",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "liveterm",
+      "name": "LiveTerm",
+      "tagline": "Create terminal‑style sites fast",
+      "repo_url": "https://github.com/cveinnt/liveterm",
+      "full_name": "cveinnt/liveterm",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "website",
+        "template"
+      ],
+      "icon": "/icons/liveterm.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5388,
+      "tier": "tier3_powertool",
+      "summary": "LiveTerm lets you turn a single JSON file into a sleek, terminal‑looking personal website in just minutes, without needing to write code.",
+      "i18n": {
+        "it": "LiveTerm trasforma un unico file JSON in un sito personale dall’aspetto terminale, pronto in pochi minuti e senza dover programmare.",
+        "es": "LiveTerm convierte un solo archivo JSON en un sitio web personal con apariencia de terminal, listo en minutos y sin necesidad de programar.",
+        "fr": "LiveTerm transforme un fichier JSON unique en un site personnel au look terminal, opérationnel en quelques minutes et sans écrire de code.",
+        "de": "LiveTerm wandelt eine einzige JSON‑Datei in eine persönliche Website im Terminal‑Stil um, die in wenigen Minuten fertig ist und keinen Code erfordert."
+      },
+      "download_url": "https://liveterm.vercel.app",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "flyingcarpet",
@@ -33372,6 +33820,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "design-extract",
+      "name": "design-extract",
+      "tagline": "Extract any website's complete design system.",
+      "repo_url": "https://github.com/manavarya09/design-extract",
+      "full_name": "manavarya09/design-extract",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "design",
+        "web-development"
+      ],
+      "icon": "/icons/design-extract.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5202,
+      "tier": "tier3_powertool",
+      "summary": "Capture colors, fonts, and layout patterns from any website to use in your own projects with a single command.",
+      "i18n": {
+        "it": "Cattura colori, caratteri e layout da qualsiasi sito web per usarli nei tuoi progetti con un solo comando.",
+        "es": "Captura colores, fuentes y diseños de cualquier sitio web para usarlos en tus propios proyectos con un solo comando.",
+        "fr": "Capturez les couleurs, les polices et les mises en page de n'importe quel site web pour vos projets avec une seule commande.",
+        "de": "Erfassen Sie Farben, Schriftarten und Layouts von jeder Website, um sie mit einem Befehl in Ihren Projekten zu nutzen."
+      },
+      "download_url": "https://www.designlang.app",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "phonebox",
       "name": "PhoneBox",
       "tagline": "Turn old phones into computer control decks",
@@ -33624,6 +34100,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "apk-mitm",
+      "name": "apk-mitm",
+      "tagline": "Easily inspect Android app network traffic",
+      "repo_url": "https://github.com/niklashigi/apk-mitm",
+      "full_name": "niklashigi/apk-mitm",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "android",
+        "security"
+      ],
+      "icon": "/icons/apk-mitm.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5150,
+      "tier": "tier3_powertool",
+      "summary": "This tool automatically modifies Android apps so you can inspect their network traffic for testing and research purposes.",
+      "i18n": {
+        "it": "Questo strumento modifica automaticamente le app Android per consentirti di analizzare il loro traffico di rete a scopo di ricerca.",
+        "es": "Esta herramienta modifica automáticamente aplicaciones de Android para que puedas inspeccionar su tráfico de red con fines de investigación.",
+        "fr": "Cet outil modifie automatiquement les applications Android pour vous permettre d'inspecter leur trafic réseau à des fins de recherche.",
+        "de": "Dieses Tool modifiziert Android-Apps automatisch, damit Sie deren Netzwerkverkehr zu Forschungszwecken untersuchen können."
+      },
+      "download_url": "https://npm.im/apk-mitm",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "aliyunpan",
       "name": "aliyunpan",
       "tagline": "Manage your cloud storage via command line",
@@ -33762,6 +34266,34 @@
       },
       "download_url": "https://tboox.top",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "peon-ping",
+      "name": "peon-ping",
+      "tagline": "Get audio alerts for AI coding agents",
+      "repo_url": "https://github.com/peonping/peon-ping",
+      "full_name": "peonping/peon-ping",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "ai"
+      ],
+      "icon": "/icons/peon-ping.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 5123,
+      "tier": "tier3_powertool",
+      "summary": "Stop checking your terminal constantly by receiving voice notifications and visual banners when your AI coding agent needs your attention.",
+      "i18n": {
+        "it": "Smetti di controllare il terminale ricevendo notifiche vocali e banner visivi quando il tuo assistente di programmazione AI ha bisogno di te.",
+        "es": "Deja de revisar tu terminal constantemente recibiendo notificaciones de voz y avisos visuales cuando tu agente de IA necesite tu atención.",
+        "fr": "Arrêtez de surveiller votre terminal en recevant des notifications vocales et des bannières visuelles dès qu'une action requiert votre attention.",
+        "de": "Hören Sie auf, ständig Ihr Terminal zu prüfen, indem Sie Sprachbenachrichtigungen erhalten, sobald Ihr KI-Coding-Agent Ihre Aufmerksamkeit benötigt."
+      },
+      "download_url": "https://github.com/PeonPing/peon-ping/releases/download/v2.37.0/checksums.txt",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "s-tui",
@@ -33988,6 +34520,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "prism",
+      "name": "Prism",
+      "tagline": "Create instant mock servers for testing",
+      "repo_url": "https://github.com/stoplightio/prism",
+      "full_name": "stoplightio/prism",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "development",
+        "testing"
+      ],
+      "icon": "/icons/prism.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5074,
+      "tier": "tier3_powertool",
+      "summary": "Prism turns your technical design files into working mock servers, allowing you to test and validate software before it is fully built.",
+      "i18n": {
+        "it": "Prism trasforma i tuoi file di progettazione in server di prova funzionanti, permettendoti di testare il software prima che sia pronto.",
+        "es": "Prism convierte tus archivos de diseño en servidores de prueba funcionales, permitiéndote validar software antes de que esté terminado.",
+        "fr": "Prism transforme vos fichiers de conception en serveurs de test fonctionnels pour valider vos logiciels avant leur développement complet.",
+        "de": "Prism verwandelt Ihre Designdateien in funktionierende Testserver, damit Sie Software validieren können, bevor sie vollständig fertig ist."
+      },
+      "download_url": "https://stoplight.io/open-source/prism",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "whodb",
       "name": "WhoDB",
       "tagline": "A simple, visual workspace for databases",
@@ -34212,6 +34772,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "claude-swap",
+      "name": "claude-swap",
+      "tagline": "Manage multiple Claude accounts effortlessly",
+      "repo_url": "https://github.com/realiti4/claude-swap",
+      "full_name": "realiti4/claude-swap",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "tools"
+      ],
+      "icon": "/icons/claude-swap.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 4945,
+      "tier": "tier3_powertool",
+      "summary": "Switch between different Claude accounts instantly without logging out, or let the app automatically rotate them to avoid usage limits.",
+      "i18n": {
+        "it": "Passa da un account Claude all'altro senza disconnetterti o lascia che l'app ruoti automaticamente gli account per evitare limiti di utilizzo.",
+        "es": "Cambia entre diferentes cuentas de Claude sin cerrar sesión o deja que la aplicación las rote automáticamente para evitar límites de uso.",
+        "fr": "Passez d'un compte Claude à un autre sans vous déconnecter ou laissez l'application les alterner automatiquement pour éviter les limites d'usage.",
+        "de": "Wechseln Sie zwischen verschiedenen Claude-Konten, ohne sich abzumelden, oder lassen Sie die App die Konten automatisch wechseln, um Nutzungslimits zu vermeiden."
+      },
+      "download_url": "https://github.com/realiti4/claude-swap/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "agenta",
       "name": "Agenta",
       "tagline": "Build and share AI coworkers by chatting",
@@ -34294,6 +34882,34 @@
       },
       "download_url": "https://styledictionary.com",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "youplot",
+      "name": "YouPlot",
+      "tagline": "Visualize data directly in your terminal",
+      "repo_url": "https://github.com/red-data-tools/youplot",
+      "full_name": "red-data-tools/youplot",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "data-visualization",
+        "productivity"
+      ],
+      "icon": "/icons/youplot.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 4877,
+      "tier": "tier3_powertool",
+      "summary": "YouPlot is a simple tool that turns raw data into clear charts and graphs right inside your command window.",
+      "i18n": {
+        "it": "YouPlot è uno strumento semplice che trasforma dati grezzi in grafici chiari direttamente all'interno della finestra di comando.",
+        "es": "YouPlot es una herramienta sencilla que convierte datos sin procesar en gráficos claros directamente dentro de la ventana de comandos.",
+        "fr": "YouPlot est un outil simple qui transforme vos données brutes en graphiques clairs directement dans votre fenêtre de commande.",
+        "de": "YouPlot ist ein einfaches Werkzeug, das Rohdaten direkt im Befehlsfenster in übersichtliche Diagramme verwandelt."
+      },
+      "download_url": "https://github.com/red-data-tools/YouPlot/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "exact",
@@ -34436,6 +35052,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "agent-of-empires",
+      "name": "Agent of Empires",
+      "tagline": "Manage your AI coding assistants easily",
+      "repo_url": "https://github.com/agent-of-empires/agent-of-empires",
+      "full_name": "agent-of-empires/agent-of-empires",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "ai"
+      ],
+      "icon": "/icons/agent-of-empires.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 4834,
+      "tier": "tier3_powertool",
+      "summary": "Agent of Empires keeps your AI coding tools running in the background so you can monitor and control them from your phone or computer.",
+      "i18n": {
+        "it": "Agent of Empires mantiene attivi i tuoi strumenti di programmazione AI in background, permettendoti di controllarli da telefono o PC.",
+        "es": "Agent of Empires mantiene tus herramientas de IA activas en segundo plano para que puedas controlarlas desde tu móvil o computadora.",
+        "fr": "Agent of Empires garde vos outils d'IA actifs en arrière-plan pour que vous puissiez les contrôler depuis votre mobile ou ordinateur.",
+        "de": "Agent of Empires hält Ihre KI-Tools im Hintergrund aktiv, damit Sie diese bequem von Ihrem Smartphone oder PC aus steuern können."
+      },
+      "download_url": "https://github.com/agent-of-empires/agent-of-empires/releases/download/v1.25.0/aoe-darwin-amd64.tar.gz.sha256",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "doublecmd",
       "name": "Double Commander",
       "tagline": "Powerful dual-pane file management for everyone",
@@ -34490,6 +35134,34 @@
       },
       "download_url": "https://github.com/autobrr/qui/releases/download/v1.36.0/qui_1.36.0_windows_x86_64.msi",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "terminal-browser",
+      "name": "terminal-browser",
+      "tagline": "A full web browser inside your terminal",
+      "repo_url": "https://github.com/zenbu-labs/terminal-browser",
+      "full_name": "zenbu-labs/terminal-browser",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "web-browser"
+      ],
+      "icon": "/icons/terminal-browser.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 4810,
+      "tier": "tier3_powertool",
+      "summary": "Browse the web directly within your command-line interface without ever leaving your terminal window.",
+      "i18n": {
+        "it": "Naviga sul web direttamente dalla riga di comando senza mai uscire dalla finestra del terminale.",
+        "es": "Navega por la web directamente desde la línea de comandos sin salir nunca de la ventana del terminal.",
+        "fr": "Naviguez sur le web directement depuis votre ligne de commande sans jamais quitter la fenêtre du terminal.",
+        "de": "Surfen Sie direkt über die Befehlszeile im Internet, ohne das Terminalfenster verlassen zu müssen."
+      },
+      "download_url": "https://terminal-browser.com",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "pokemon-terminal",
@@ -34686,6 +35358,34 @@
       },
       "download_url": "https://github.com/rememberber/WePush/releases/download/next-v1.2.0/SHA256SUMS",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "socialbox-termux",
+      "name": "SocialBox-Termux",
+      "tagline": "Security testing tool for mobile devices",
+      "repo_url": "https://github.com/samsesh/socialbox-termux",
+      "full_name": "samsesh/socialbox-termux",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "security",
+        "testing"
+      ],
+      "icon": "/icons/socialbox-termux.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Linux",
+      "license": "Open Source (MIT)",
+      "stars": 4683,
+      "tier": "tier3_powertool",
+      "summary": "SocialBox is a specialized tool designed to help security researchers test account login strength on mobile devices.",
+      "i18n": {
+        "it": "SocialBox è uno strumento progettato per aiutare i ricercatori di sicurezza a testare la robustezza degli accessi ai profili.",
+        "es": "SocialBox es una herramienta diseñada para ayudar a los investigadores de seguridad a probar la resistencia de los inicios de sesión.",
+        "fr": "SocialBox est un outil conçu pour aider les chercheurs en sécurité à tester la robustesse des connexions aux comptes.",
+        "de": "SocialBox ist ein Werkzeug, das Sicherheitsforschern dabei hilft, die Stärke von Anmeldevorgängen auf Mobilgeräten zu testen."
+      },
+      "download_url": "https://github.com/samsesh/SocialBox-Termux/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "switch",
