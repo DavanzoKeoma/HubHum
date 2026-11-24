@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-24T07:19:15.692526+00:00",
+  "generated_at": "2026-11-24T19:36:32.198775+00:00",
   "min_pillar_apps": 10,
   "min_subpillar_apps": 6,
   "pillars": [
     {
       "macro_slug": "video-audio",
       "category": "Video & Audio",
-      "app_count": 98,
+      "app_count": 100,
       "subpillars": [
         {
           "sub_slug": "video-audio/free-video-editors",
           "sub_topic": "Video Cutters, Converters & Downloaders",
-          "app_count": 19,
+          "app_count": 21,
           "articles": [
             "video-audio/free-video-editors/best-free-video-editors",
             "video-audio/free-video-editors/how-to-choose-free-video-editors",
@@ -70,12 +70,12 @@
     {
       "macro_slug": "security-privacy",
       "category": "Security & Privacy",
-      "app_count": 48,
+      "app_count": 50,
       "subpillars": [
         {
           "sub_slug": "security-privacy/free-password-managers",
           "sub_topic": "Free Password Managers & Auth Vaults",
-          "app_count": 15,
+          "app_count": 18,
           "articles": [
             "security-privacy/free-password-managers/best-free-password-managers",
             "security-privacy/free-password-managers/how-to-choose-free-password-managers",
@@ -85,7 +85,7 @@
         {
           "sub_slug": "security-privacy/password-network-privacy",
           "sub_topic": "Privacy Tools, VPNs & Network Monitors",
-          "app_count": 23,
+          "app_count": 24,
           "articles": [
             "security-privacy/password-network-privacy/best-password-network-privacy",
             "security-privacy/password-network-privacy/how-to-choose-password-network-privacy",
@@ -95,7 +95,7 @@
         {
           "sub_slug": "security-privacy/system-cleaners-auditors",
           "sub_topic": "Privacy Cleaners & System Auditors",
-          "app_count": 10,
+          "app_count": 8,
           "articles": [
             "security-privacy/system-cleaners-auditors/best-system-cleaners-auditors",
             "security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors",
@@ -107,12 +107,12 @@
     {
       "macro_slug": "productivity",
       "category": "Productivity",
-      "app_count": 959,
+      "app_count": 1017,
       "subpillars": [
         {
           "sub_slug": "productivity/notes-knowledge-apps",
           "sub_topic": "Encrypted Notes, Wikis & Knowledge Apps",
-          "app_count": 172,
+          "app_count": 180,
           "articles": [
             "productivity/notes-knowledge-apps/best-notes-knowledge-apps",
             "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps",
@@ -122,7 +122,7 @@
         {
           "sub_slug": "productivity/pdf-document-office-tools",
           "sub_topic": "Free PDF, Document & E-Book Tools",
-          "app_count": 132,
+          "app_count": 142,
           "articles": [
             "productivity/pdf-document-office-tools/best-pdf-document-office-tools",
             "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools",
@@ -132,7 +132,7 @@
         {
           "sub_slug": "productivity/desktop-workflow-helpers",
           "sub_topic": "Window Switchers & Everyday Workflow Helpers",
-          "app_count": 435,
+          "app_count": 463,
           "articles": [
             "productivity/desktop-workflow-helpers/best-desktop-workflow-helpers",
             "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers",
@@ -142,7 +142,7 @@
         {
           "sub_slug": "productivity/ai-local-assistants-chat",
           "sub_topic": "Local AI Assistants, LLM Studios & Chat Workspaces",
-          "app_count": 220,
+          "app_count": 232,
           "articles": [
             "productivity/ai-local-assistants-chat/best-ai-local-assistants-chat",
             "productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat",
@@ -154,12 +154,12 @@
     {
       "macro_slug": "web-apps-cloud",
       "category": "Web Apps & Cloud",
-      "app_count": 581,
+      "app_count": 619,
       "subpillars": [
         {
           "sub_slug": "web-apps-cloud/self-hosted-cms-blogs",
           "sub_topic": "Self-Hosted CMS, Blogs & Publishing Platforms",
-          "app_count": 293,
+          "app_count": 303,
           "articles": [
             "web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs",
             "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs",
@@ -169,7 +169,7 @@
         {
           "sub_slug": "web-apps-cloud/self-hosted-cloud-apps",
           "sub_topic": "Personal Cloud Hubs, Photos & File Sharing",
-          "app_count": 79,
+          "app_count": 90,
           "articles": [
             "web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps",
             "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps",
@@ -179,7 +179,7 @@
         {
           "sub_slug": "web-apps-cloud/server-dashboards-automation",
           "sub_topic": "Server Dashboards, Monitoring & Cloud Panels",
-          "app_count": 130,
+          "app_count": 145,
           "articles": [
             "web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation",
             "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation",
@@ -189,7 +189,7 @@
         {
           "sub_slug": "web-apps-cloud/home-lab-media-servers",
           "sub_topic": "Home Lab Media Servers, E-Books & Streaming Hubs",
-          "app_count": 79,
+          "app_count": 81,
           "articles": [
             "web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers",
             "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers",

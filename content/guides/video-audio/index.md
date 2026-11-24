@@ -8,13 +8,13 @@ intent: "pillar"
 summary: "Compare free desktop editors, media players, audio tools, and streaming apps explained without technical jargon."
 child_slugs: ["video-audio/free-video-editors", "video-audio/audio-media-players", "video-audio/screen-recorders-streaming"]
 sibling_slugs: []
-app_slugs: ["yt-dlp", "scrcpy", "spotube", "iina", "losslesscut", "recordly", "pear-desktop", "yesplaymusic", "ijkplayer", "handbrake", "navidrome", "spotx", "animeko", "gsyvideoplayer", "vlc", "blackhole", "spotify-tui", "kap"]
+app_slugs: ["yt-dlp", "scrcpy", "spotube", "iina", "losslesscut", "recordly", "pear-desktop", "yesplaymusic", "ijkplayer", "seal", "handbrake", "navidrome", "spotx", "animeko", "gsyvideoplayer", "vlc", "blackhole", "spotify-tui"]
 updated_at: "2026-11-24"
 ---
 
 ## Why Explore Free Video & Audio Software?
 
-This central guide brings together **98 verified free applications** in the **Video & Audio** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **100 verified free applications** in the **Video & Audio** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Video & Audio
 
@@ -31,4 +31,4 @@ Choose the focus topic below that matches your task best to see step-by-step com
 - **[Pear Desktop](/HubHum/apps/pear-desktop/)** (Desktop App, ★ 34,107) — Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer.
 - **[YesPlayMusic](/HubHum/apps/yesplaymusic/)** (Desktop App, ★ 33,668) — Enjoy a clean, high-design music player for your favorite tracks with zero distracting social clutter.
 - **[ijkplayer](/HubHum/apps/ijkplayer/)** (Desktop App, ★ 33,229) — Smoothly play online and local videos on mobile devices with hardware acceleration and robust format support.
-- **[HandBrake](/HubHum/apps/handbrake/)** (Desktop App, ★ 25,054) — Convert and optimize your video files effortlessly so they play smoothly on your phone, tablet, computer, or television screen.
+- **[Seal](/HubHum/apps/seal/)** (Desktop App, ★ 30,982) — Seal lets you save videos and audio from popular websites directly to your phone.

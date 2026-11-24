@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Audio Editors & Music Players 
 parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
-app_slugs: ["scrcpy", "spotube", "iina", "pear-desktop", "yesplaymusic", "navidrome"]
+app_slugs: ["scrcpy", "spotube", "iina", "pear-desktop", "yesplaymusic", "seal"]
 updated_at: "2026-11-24"
 ---
 
@@ -30,4 +30,4 @@ Switching to free open-source tools in **Audio Editors & Music Players** lets yo
 - **[iina](/HubHum/apps/iina/)** (Desktop App) — Enjoy seamless video and music playback on macOS with a gorgeous, customizable media player built specifically for Apple computers.
 - **[Pear Desktop](/HubHum/apps/pear-desktop/)** (Desktop App) — Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer.
 - **[YesPlayMusic](/HubHum/apps/yesplaymusic/)** (Desktop App) — Enjoy a clean, high-design music player for your favorite tracks with zero distracting social clutter.
-- **[Navidrome](/HubHum/apps/navidrome/)** (Self-Hosted Web App) — Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device.
+- **[Seal](/HubHum/apps/seal/)** (Desktop App) — Seal lets you save videos and audio from popular websites directly to your phone.

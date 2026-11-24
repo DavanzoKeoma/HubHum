@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Personal Cloud Hubs, Photos & 
 parent_slug: "web-apps-cloud/self-hosted-cloud-apps"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/troubleshooting-self-hosted-cloud-apps"]
-app_slugs: ["immich", "memos", "serviette", "gogs", "siyuan", "reactive-resume"]
+app_slugs: ["immich", "memos", "serviette", "new-api", "jeecgboot", "siyuan"]
 updated_at: "2026-11-24"
 ---
 
@@ -28,6 +28,6 @@ Switching to free open-source tools in **Personal Cloud Hubs, Photos & File Shar
 - **[Immich](/HubHum/apps/immich/)** (Self-Hosted Web App) — Manage and back up your photos and videos on your own private cloud storage without sharing your personal memories.
 - **[Memos](/HubHum/apps/memos/)** (Self-Hosted Web App) — Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline while keeping your data.
 - **[serviette](/HubHum/apps/serviette/)** (Self-Hosted Web App) — An easy no-code question-answering assistant that keeps answers in sync with your live documents automatically.
-- **[Gogs](/HubHum/apps/gogs/)** (Self-Hosted Web App) — Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle.
+- **[New API](/HubHum/apps/new-api/)** (Self-Hosted Web App) — Easily connect, manage, and monitor multiple artificial intelligence services through a single compatible control panel with built-in cost tracking.
+- **[JeecgBoot](/HubHum/apps/jeecgboot/)** (Self-Hosted Web App) — JeecgBoot is a free, open-source platform that combines smart artificial intelligence with low-code tools to build business software.
 - **[SiYuan](/HubHum/apps/siyuan/)** (Self-Hosted Web App) — SiYuan is a secure, self-hosted tool for organizing your notes, documents, and ideas with powerful linking and AI assistance.
-- **[Reactive Resume](/HubHum/apps/reactive-resume/)** (Self-Hosted Web App) — Create, customize, and track your job applications using a secure and free open-source resume builder with live PDF preview.

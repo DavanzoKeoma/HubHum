@@ -11,7 +11,7 @@ summary: "Compare Immich vs Memos and 8 free tools for Personal Cloud Hubs, Phot
 parent_slug: "web-apps-cloud/self-hosted-cloud-apps"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/troubleshooting-self-hosted-cloud-apps"]
-app_slugs: ["immich", "memos", "serviette", "gogs", "siyuan", "reactive-resume", "easyspider", "filament"]
+app_slugs: ["immich", "memos", "serviette", "new-api", "jeecgboot", "siyuan", "reactive-resume", "jan"]
 updated_at: "2026-11-24"
 ---
 
@@ -26,11 +26,11 @@ Comparing **Immich** and **Memos** highlights two distinct approaches in **Perso
 | [Immich](/HubHum/apps/immich/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 119,698 | Open Source (AGPL v3) |
 | [Memos](/HubHum/apps/memos/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 64,585 | Open Source (MIT) |
 | [serviette](/HubHum/apps/serviette/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 58,699 | Open Source (MIT) |
-| [Gogs](/HubHum/apps/gogs/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 47,959 | Open Source (MIT) |
+| [New API](/HubHum/apps/new-api/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 52,261 | Open Source (AGPL v3) |
+| [JeecgBoot](/HubHum/apps/jeecgboot/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 48,539 | Open Source (Apache 2.0) |
 | [SiYuan](/HubHum/apps/siyuan/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 47,300 | Open Source (AGPL v3) |
 | [Reactive Resume](/HubHum/apps/reactive-resume/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 45,933 | Open Source (MIT) |
-| [EasySpider](/HubHum/apps/easyspider/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 44,798 | Open Source (AGPL v3) |
-| [Filament](/HubHum/apps/filament/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 32,537 | Open Source (MIT) |
+| [Jan](/HubHum/apps/jan/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 45,908 | Custom Open License |
 
 ### When to Pick Which Option
 - **Choose [Immich](/HubHum/apps/immich/) (Self-Hosted Web App)** if you need what it specializes in: Manage and back up your photos and videos on your own private cloud storage without sharing your personal memories — it runs on your own private server or local computer so files stay under your control (119,698 GitHub stars, vs Memos which runs as a Self-Hosted Web App).

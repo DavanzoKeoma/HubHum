@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Local AI Assistants, LLM Studi
 parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/best-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
-app_slugs: ["nextchat", "chatgpt", "codewhale", "etcher", "claude-code-templates", "comprehensive-rust"]
+app_slugs: ["nextchat", "chatgpt", "open-source-ios-apps", "kazumi", "codewhale", "freecad"]
 updated_at: "2026-11-24"
 ---
 
@@ -27,7 +27,7 @@ Switching to free open-source tools in **Local AI Assistants, LLM Studios & Chat
 
 - **[NextChat](/HubHum/apps/nextchat/)** (Desktop App) — Easily converse with multiple artificial intelligence models in one clean interface without complex setup.
 - **[ChatGPT](/HubHum/apps/chatgpt/)** (Desktop App) — Access popular artificial intelligence assistants right from your computer desktop without opening a web browser.
+- **[Open-Source iOS Apps](/HubHum/apps/open-source-ios-apps/)** (Desktop App) — Explore a curated, collaborative collection of thousands of open-source applications built for iPhone, iPad, Apple Watch, and Apple TV.
+- **[Kazumi](/HubHum/apps/kazumi/)** (Desktop App) — Kazumi is a flexible streaming application that lets you organize, watch, and enhance your favorite animated series effortlessly.
 - **[Codewhale](/HubHum/apps/codewhale/)** (Desktop App) — An open-source terminal coding assistant that works with any model, splits tasks across multiple agents, and keeps your data completely transparent.
-- **[etcher](/HubHum/apps/etcher/)** (Desktop App) — Etcher is a straightforward tool that helps you write operating system files onto USB drives and SD cards without risking your important personal data.
-- **[claude-code-templates](/HubHum/apps/claude-code-templates/)** (Open Reference) — Browse thousands of pre-made components, tools, and custom shortcuts to supercharge your terminal coding assistant instantly.
-- **[Comprehensive Rust](/HubHum/apps/comprehensive-rust/)** (Desktop App) — A complete, multi-day training program created by Google's Android team to teach the Rust programming language.
+- **[FreeCAD](/HubHum/apps/freecad/)** (Desktop App) — Create and modify 3D objects easily using parametric modeling, 2D sketches, and powerful open-source engineering tools.

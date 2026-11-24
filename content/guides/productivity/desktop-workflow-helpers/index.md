@@ -11,13 +11,13 @@ summary: "Lightweight free helpers that organize windows, speed up repetitive ta
 parent_slug: "productivity"
 child_slugs: ["productivity/desktop-workflow-helpers/best-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"]
 sibling_slugs: []
-app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "rustdesk", "orca", "v2rayn", "openhands", "termux-app", "motrix", "material-design-icons", "dbeaver", "bruno", "nvm", "ifixai", "retrofit", "stats", "uni-app"]
+app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "rustdesk", "orca", "v2rayn", "openhands", "termux-app", "motrix", "material-design-icons", "dbeaver", "brew", "bruno", "nvm", "ifixai", "retrofit", "stats"]
 updated_at: "2026-11-24"
 ---
 
 ## Plain-English Overview: Window Switchers & Everyday Workflow Helpers
 
-This topic hub groups **435 vetted free tools** specializing in **Window Switchers & Everyday Workflow Helpers** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **463 vetted free tools** specializing in **Window Switchers & Everyday Workflow Helpers** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

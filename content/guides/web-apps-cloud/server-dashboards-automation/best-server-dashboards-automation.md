@@ -11,7 +11,7 @@ summary: "Compare dify vs Open WebUI and 8 free tools for Server Dashboards, Mon
 parent_slug: "web-apps-cloud/server-dashboards-automation"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"]
-app_slugs: ["dify", "open-webui", "uptime-kuma", "coolify", "appwrite", "clickhouse", "puter", "appsmith"]
+app_slugs: ["dify", "open-webui", "uptime-kuma", "coolify", "appwrite", "clickhouse", "gogs", "easyspider"]
 updated_at: "2026-11-24"
 ---
 
@@ -29,8 +29,8 @@ Comparing **dify** and **Open WebUI** highlights two distinct approaches in **Se
 | [Coolify](/HubHum/apps/coolify/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 66,285 | Open Source (Apache 2.0) |
 | [Appwrite](/HubHum/apps/appwrite/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 58,419 | Open Source (BSD) |
 | [ClickHouse](/HubHum/apps/clickhouse/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 51,033 | Open Source (Apache 2.0) |
-| [Puter](/HubHum/apps/puter/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 44,214 | Open Source (AGPL v3) |
-| [Appsmith](/HubHum/apps/appsmith/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 41,281 | Open Source (Apache 2.0) |
+| [Gogs](/HubHum/apps/gogs/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 47,959 | Open Source (MIT) |
+| [EasySpider](/HubHum/apps/easyspider/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 44,798 | Open Source (AGPL v3) |
 
 ### When to Pick Which Option
 - **Choose [dify](/HubHum/apps/dify/) (Self-Hosted Web App)** if you need what it specializes in: Create custom artificial intelligence workflows, smart assistants, and document search pipelines easily on one collaborative workspace — it runs on your own private server or local computer so files stay under your control (161,552 GitHub stars, vs Open WebUI which runs as a Self-Hosted Web App).

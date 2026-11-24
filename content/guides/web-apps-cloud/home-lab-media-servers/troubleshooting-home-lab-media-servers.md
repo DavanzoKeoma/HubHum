@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "web-apps-cloud/home-lab-media-servers"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers"]
-app_slugs: ["netdata", "nanobot", "khoj", "changedetection-io", "meetily"]
+app_slugs: ["netdata", "gatsby", "puter", "ai-website-cloner-template", "onyx"]
 updated_at: "2026-11-24"
 ---
 
@@ -31,7 +31,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 ### Recommended Alternatives Covered
 
 - **[Netdata](/HubHum/apps/netdata/)** (Self-Hosted Web App) — Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues.
-- **[nanobot](/HubHum/apps/nanobot/)** (Self-Hosted Web App) — Manage files, automate daily tasks, and chat with a secure personal AI assistant running right from your browser or favorite messaging app.
-- **[Khoj](/HubHum/apps/khoj/)** (Self-Hosted Web App) — Transform your daily workflow with an open-source AI assistant that chats with your personal documents, browses the web, and automates research.
-- **[changedetection.io](/HubHum/apps/changedetection-io/)** (Self-Hosted Web App) — Monitor any web page for updates, price drops, or restocks and receive instant alerts directly to your favorite messaging apps.
-- **[meetily](/HubHum/apps/meetily/)** (Self-Hosted Web App) — Capture, transcribe, and summarize your meetings securely on your own computer without sending sensitive audio data to the cloud.
+- **[Gatsby](/HubHum/apps/gatsby/)** (Self-Hosted Web App) — Gatsby is a powerful web development tool that lets creators build incredibly fast websites and apps using modern component design.
+- **[Puter](/HubHum/apps/puter/)** (Self-Hosted Web App) — Puter is a free, open-source internet computer that brings all your files, applications, and games together in one accessible web place.
+- **[AI Website Cloner Template](/HubHum/apps/ai-website-cloner-template/)** (Self-Hosted Web App) — Recreate any website as a clean Next.js app instantly by giving your AI coding assistant a simple link command.
+- **[Onyx](/HubHum/apps/onyx/)** (Self-Hosted Web App) — Onyx connects all your apps and documents into one central assistant, letting your team chat with private company knowledge securely.
