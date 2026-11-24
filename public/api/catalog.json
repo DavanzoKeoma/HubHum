@@ -2,26 +2,26 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-24T06:52:26.789378+00:00",
-  "total_apps": 1900,
+  "generated_at": "2026-11-24T06:58:13.672102+00:00",
+  "total_apps": 1925,
   "tier_counts": {
     "tier3_powertool": 264,
     "tier2_webapp": 568,
-    "tier1_gui": 1068
+    "tier1_gui": 1093
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 254,
     "selfhosted": 567,
-    "desktop": 1068,
+    "desktop": 1093,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 39,
-    "Productivity": 923,
-    "Security & Privacy": 47,
+    "Productivity": 945,
+    "Security & Privacy": 48,
     "Utilities & Power Tools": 250,
-    "Video & Audio": 95,
+    "Video & Audio": 97,
     "Web Apps & Cloud": 543,
     "Websites & SEO": 3
   },
@@ -333,6 +333,34 @@
       },
       "download_url": "https://github.com/farion1231/cc-switch/releases/download/v4.0.37/CC-Switch-v4.0.37-Windows-arm64.msi",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "scrcpy",
+      "name": "scrcpy",
+      "tagline": "Mirror and control your Android screen",
+      "repo_url": "https://github.com/genymobile/scrcpy",
+      "full_name": "genymobile/scrcpy",
+      "category": "Video & Audio",
+      "tags": [
+        "android",
+        "mirroring"
+      ],
+      "icon": "/icons/scrcpy.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 155525,
+      "tier": "tier1_gui",
+      "summary": "Display and control your Android phone or tablet directly from your computer monitor without needing any extra apps.",
+      "i18n": {
+        "it": "Mostra e controlla il tuo dispositivo Android direttamente dal computer senza installare alcuna app aggiuntiva.",
+        "es": "Muestra y controla tu dispositivo Android directamente desde el ordenador sin necesidad de instalar ninguna aplicación.",
+        "fr": "Affichez et contrôlez votre appareil Android directement depuis votre ordinateur sans installer aucune application.",
+        "de": "Spiegeln und bedienen Sie Ihr Android-Gerät direkt am Computer, ganz ohne zusätzliche Apps auf dem Telefon."
+      },
+      "download_url": "https://github.com/Genymobile/scrcpy/releases/download/v5.0.1/scrcpy-server-v5.0.1",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "ui-ux-pro-max-skill",
@@ -1259,6 +1287,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "v2rayng",
+      "name": "v2rayNG",
+      "tagline": "Secure private connection tool for Android",
+      "repo_url": "https://github.com/2dust/v2rayng",
+      "full_name": "2dust/v2rayng",
+      "category": "Security & Privacy",
+      "tags": [
+        "android",
+        "networking"
+      ],
+      "icon": "/icons/v2rayng.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 66454,
+      "tier": "tier1_gui",
+      "summary": "Manage private online connections securely on your Android device using advanced routing cores.",
+      "i18n": {
+        "it": "Gestisci connessioni di rete private in sicurezza sul tuo dispositivo Android con motori di routing avanzati.",
+        "es": "Administra conexiones de red privadas de forma segura en tu dispositivo Android con motores de enrutamiento avanzados.",
+        "fr": "Gérez des connexions réseau privées en toute sécurité sur votre appareil Android grâce à des moteurs de routage avancés.",
+        "de": "Verwalten Sie private Netzwerkverbindungen sicher auf Ihrem Android-Gerät mit fortschrittlichen Routing-Kernen."
+      },
+      "download_url": "https://github.com/2dust/v2rayNG/releases/download/2.3.15/v2rayNG_2.3.15-fdroid_arm64-v8a.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "coolify",
       "name": "Coolify",
       "tagline": "Your own private cloud management platform.",
@@ -1819,6 +1875,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "material-design-icons",
+      "name": "material-design-icons",
+      "tagline": "Official Google graphic icon collections",
+      "repo_url": "https://github.com/google/material-design-icons",
+      "full_name": "google/material-design-icons",
+      "category": "Productivity",
+      "tags": [
+        "icons",
+        "design"
+      ],
+      "icon": "/icons/material-design-icons.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 54357,
+      "tier": "tier1_gui",
+      "summary": "Access thousands of official Google graphic icons and variable symbols to elevate your digital designs and user interfaces.",
+      "i18n": {
+        "it": "Accedi a migliaia di icone e simboli grafici ufficiali di Google per valorizzare i tuoi progetti digitali.",
+        "es": "Accede a miles de iconos y símbolos oficiales de Google para mejorar tus diseños digitales y interfaces.",
+        "fr": "Accédez à des milliers d'icônes et symboles officiels de Google pour embellir vos créations numériques.",
+        "de": "Greifen Sie auf Tausende offizielle Google-Icons und Symbole zu, um Ihre digitalen Designs zu bereichern."
+      },
+      "download_url": "https://google.github.io/material-design-icons/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "obsidian-skills",
       "name": "Obsidian Skills",
       "tagline": "Supercharge your notes with intelligent automation.",
@@ -2295,6 +2379,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "okhttp",
+      "name": "okhttp",
+      "tagline": "Fast and efficient network communication.",
+      "repo_url": "https://github.com/lysine-dev/okhttp",
+      "full_name": "lysine-dev/okhttp",
+      "category": "Productivity",
+      "tags": [
+        "networking",
+        "android"
+      ],
+      "icon": "/icons/okhttp.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 47114,
+      "tier": "tier1_gui",
+      "summary": "An efficient network client that helps Java and Android applications load data faster and save bandwidth.",
+      "i18n": {
+        "it": "Un client di rete efficiente che aiuta le applicazioni Java e Android a caricare dati più rapidamente e risparmiare banda.",
+        "es": "Un cliente de red eficiente que ayuda a las aplicaciones Java y Android a cargar datos más rápido y ahorrar ancho de banda.",
+        "fr": "Un client réseau efficace qui aide les applications Java et Android à charger les données plus vite et économiser de la bande passante.",
+        "de": "Ein effizienter Netzwerk-Client, der Java- und Android-Anwendungen hilft, Daten schneller zu laden und Bandbreite zu sparen."
+      },
+      "download_url": "https://lysine.dev/okhttp/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "cli",
       "name": "GitHub CLI",
       "tagline": "Manage your code projects right inside your terminal window.",
@@ -2629,6 +2741,34 @@
       },
       "download_url": "https://puter.com",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "retrofit",
+      "name": "Retrofit",
+      "tagline": "Type-safe network client for apps",
+      "repo_url": "https://github.com/lysine-dev/retrofit",
+      "full_name": "lysine-dev/retrofit",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "networking"
+      ],
+      "icon": "/icons/retrofit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 43942,
+      "tier": "tier1_gui",
+      "summary": "Retrofit makes it easy for developers to connect mobile and desktop applications to web services securely and reliably.",
+      "i18n": {
+        "it": "Retrofit semplifica la connessione di applicazioni mobili e desktop a servizi web in modo sicuro e affidabile.",
+        "es": "Retrofit facilita la conexión de aplicaciones móviles y de escritorio a servicios web de forma segura.",
+        "fr": "Retrofit facilite la connexion des applications mobiles et de bureau aux services web en toute sécurité.",
+        "de": "Retrofit erleichtert Entwicklern die sichere und zuverlässige Verbindung von Apps mit Webdiensten."
+      },
+      "download_url": "https://lysine.dev/retrofit/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "stats",
@@ -3105,6 +3245,34 @@
       },
       "download_url": "https://term.ink",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "dioxus",
+      "name": "dioxus",
+      "tagline": "Build multi-platform apps with one codebase",
+      "repo_url": "https://github.com/dioxuslabs/dioxus",
+      "full_name": "dioxuslabs/dioxus",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "cross-platform"
+      ],
+      "icon": "/icons/dioxus.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 39891,
+      "tier": "tier1_gui",
+      "summary": "Create fast applications for the web, desktop, and mobile devices using a unified codebase and modern component design.",
+      "i18n": {
+        "it": "Sviluppa applicazioni veloci per web, desktop e dispositivi mobili utilizzando un codice unificato.",
+        "es": "Crea aplicaciones rápidas para web, escritorio y dispositivos móviles utilizando un código unificado.",
+        "fr": "Développez des applications rapides pour le web, le bureau et les mobiles avec un code unique.",
+        "de": "Entwickeln Sie schnelle Anwendungen für Web, Desktop und Mobilgeräte mit einer einzigen Codebasis."
+      },
+      "download_url": "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.10/dx-aarch64-apple-darwin.sha256",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "spacedrive",
@@ -3666,6 +3834,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "shadowsocks-android",
+      "name": "shadowsocks-android",
+      "tagline": "Secure private connection client for Android.",
+      "repo_url": "https://github.com/shadowsocks/shadowsocks-android",
+      "full_name": "shadowsocks/shadowsocks-android",
+      "category": "Productivity",
+      "tags": [
+        "networking",
+        "privacy"
+      ],
+      "icon": "/icons/shadowsocks-android.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 36852,
+      "tier": "tier1_gui",
+      "summary": "A lightweight tunneling application for Android designed to help you securely route internet traffic and protect your online privacy.",
+      "i18n": {
+        "it": "Un'applicazione leggera per Android progettata per instradare in sicurezza il traffico internet e proteggere la tua privacy.",
+        "es": "Una aplicación ligera para Android diseñada para enrutar el tráfico de internet de forma segura y proteger tu privacidad.",
+        "fr": "Une application légère pour Android conçue pour acheminer le trafic internet en toute sécurité et protéger votre vie privée.",
+        "de": "Eine leichte Anwendung für Android, mit der Sie den Internetverkehr sicher leiten und Ihre Privatsphäre schützen können."
+      },
+      "download_url": "https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.3.5-nightly/shadowsocks-5.3.5-nightly.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "continue",
       "name": "Continue",
       "tagline": "Your open-source intelligent coding assistant",
@@ -3974,6 +4170,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "gold-miner",
+      "name": "Gold Miner",
+      "tagline": "Crowdsourced translated technical articles hub",
+      "repo_url": "https://github.com/xitu/gold-miner",
+      "full_name": "xitu/gold-miner",
+      "category": "Productivity",
+      "tags": [
+        "translation",
+        "community"
+      ],
+      "icon": "/icons/gold-miner.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Custom Open License",
+      "stars": 34381,
+      "tier": "tier1_gui",
+      "summary": "Explore thousands of top-tier translated technical articles covering programming, artificial intelligence, and design.",
+      "i18n": {
+        "it": "Esplora migliaia di articoli tecnici tradotti su programmazione, intelligenza artificiale e design.",
+        "es": "Explora miles de artículos técnicos traducidos sobre programación, inteligencia artificial y diseño.",
+        "fr": "Découvrez des milliers d'articles techniques traduits sur la programmation, l'intelligence artificielle et le design.",
+        "de": "Entdecken Sie tausende übersetzte technische Artikel zu Programmierung, künstlicher Intelligenz und Design."
+      },
+      "download_url": "https://juejin.cn/tag/掘金翻译计划",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "shadps4",
       "name": "shadPS4",
       "tagline": "PlayStation 4 emulator for desktop computers.",
@@ -4142,6 +4366,62 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "androidutilcode",
+      "name": "AndroidUtilCode",
+      "tagline": "Powerful helper tools for mobile app creation",
+      "repo_url": "https://github.com/blankj/androidutilcode",
+      "full_name": "blankj/androidutilcode",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "development"
+      ],
+      "icon": "/icons/androidutilcode.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 33598,
+      "tier": "tier1_gui",
+      "summary": "AndroidUtilCode is a comprehensive collection of pre-made code snippets and tools designed to make mobile software creation faster and simpler.",
+      "i18n": {
+        "it": "AndroidUtilCode è una raccolta completa di frammenti di codice pronti all'uso per semplificare e velocizzare lo sviluppo di app mobili.",
+        "es": "AndroidUtilCode es una colección completa de fragmentos de código listos para usar que simplifican el desarrollo de aplicaciones móviles.",
+        "fr": "AndroidUtilCode est une collection complète de blocs de code prêts à l'emploi pour simplifier et accélérer le développement d'applications.",
+        "de": "AndroidUtilCode ist eine umfassende Sammlung fertiger Code-Bausteine, die die Entwicklung von mobilen Apps einfacher und schneller macht."
+      },
+      "download_url": "https://blankj.com/2016/07/31/android-utils-code/",
+      "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "comprehensive-rust",
+      "name": "Comprehensive Rust",
+      "tagline": "Google's free Rust course",
+      "repo_url": "https://github.com/google/comprehensive-rust",
+      "full_name": "google/comprehensive-rust",
+      "category": "Productivity",
+      "tags": [
+        "programming",
+        "education"
+      ],
+      "icon": "/icons/comprehensive-rust.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 33561,
+      "tier": "tier1_gui",
+      "summary": "A complete, multi-day training program created by Google's Android team to teach the Rust programming language.",
+      "i18n": {
+        "it": "Un programma di formazione completo e gratuito creato dal team Android di Google per insegnare il linguaggio Rust.",
+        "es": "Un programa de formación completo y gratuito creado por el equipo de Android de Google para enseñar el lenguaje Rust.",
+        "fr": "Un programme de formation complet et gratuit créé par l'équipe Android de Google pour enseigner le langage Rust.",
+        "de": "Ein vollständiges und kostenloses Schulungsprogramm, das vom Android-Team von Google erstellt wurde, um die Programmiersprache Rust zu lehren."
+      },
+      "download_url": "https://google.github.io/comprehensive-rust/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "onyx",
       "name": "Onyx",
       "tagline": "Your smart internal team knowledge assistant",
@@ -4196,6 +4476,34 @@
       },
       "download_url": "https://github.com/iOfficeAI/OfficeCLI/releases/download/v1.0.163/officecli-win-arm64.exe",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "ijkplayer",
+      "name": "ijkplayer",
+      "tagline": "High performance mobile video playback engine",
+      "repo_url": "https://github.com/bilibili/ijkplayer",
+      "full_name": "bilibili/ijkplayer",
+      "category": "Video & Audio",
+      "tags": [
+        "video-player",
+        "android"
+      ],
+      "icon": "/icons/ijkplayer.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (GPL v2)",
+      "stars": 33229,
+      "tier": "tier1_gui",
+      "summary": "Smoothly play online and local videos on mobile devices with hardware acceleration and robust format support.",
+      "i18n": {
+        "it": "Riproduci video online e locali sui dispositivi mobili con accelerazione hardware e supporto per formati multipli.",
+        "es": "Reproduce videos en línea y locales en dispositivos móviles con aceleración por hardware y soporte de formatos.",
+        "fr": "Lisez des vidéos en ligne et locales sur mobile avec accélération matérielle et prise en charge des formats.",
+        "de": "Geben Sie Online- und Lokalvideos auf Mobilgeräten mit Hardwarebeschleunigung und starker Formatunterstützung wieder."
+      },
+      "download_url": "https://github.com/bilibili/ijkplayer/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "modern-unix",
@@ -4814,6 +5122,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "dsh-go",
+      "name": "dsh-Go",
+      "tagline": "Pocket assistant and remote computer controller",
+      "repo_url": "https://github.com/ccch1mneyyy/dsh-go",
+      "full_name": "ccch1mneyyy/dsh-go",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "android"
+      ],
+      "icon": "/icons/dsh-go.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (AGPL v3)",
+      "stars": 30971,
+      "tier": "tier1_gui",
+      "summary": "Run an AI workspace directly on your mobile device or securely control your desktop computer remotely.",
+      "i18n": {
+        "it": "Esegui uno spazio di lavoro IA sul tuo telefono o controlla in sicurezza il tuo computer da remoto.",
+        "es": "Ejecuta un espacio de trabajo con IA en tu móvil o controla tu ordenador de forma remota.",
+        "fr": "Exécutez un espace de travail IA sur votre mobile ou contrôlez votre ordinateur à distance.",
+        "de": "Führen Sie einen KI-Arbeitsplatz auf dem Handy aus oder steuern Sie Ihren Computer aus der Ferne."
+      },
+      "download_url": "https://github.com/ccch1mneyyy/dsh-Go/releases/download/v1.3.0/dsh-go-1.3.0-arm64.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "librepods",
       "name": "LibrePods",
       "tagline": "Unlock full AirPods control on Android",
@@ -5064,6 +5400,34 @@
       },
       "download_url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x64.msi",
       "updated_at": "2026-11-18"
+    },
+    {
+      "slug": "mindustry",
+      "name": "Mindustry",
+      "tagline": "Build automated factories and defend them.",
+      "repo_url": "https://github.com/anuken/mindustry",
+      "full_name": "anuken/mindustry",
+      "category": "Productivity",
+      "tags": [
+        "strategy",
+        "automation"
+      ],
+      "icon": "/icons/mindustry.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 29956,
+      "tier": "tier1_gui",
+      "summary": "Mindustry is an engaging strategy game where you construct complex automated supply chains to feed your defenses and outlast invading enemies.",
+      "i18n": {
+        "it": "Mindustry è un gioco di strategia in cui costruisci catene di montaggio automatizzate per alimentare le tue difese.",
+        "es": "Mindustry es un juego de estrategia donde construyes cadenas de suministro automatizadas para alimentar tus defensas.",
+        "fr": "Mindustry est un jeu de stratégie où vous construisez des chaînes d'approvisionnement automatisées pour vos défenses.",
+        "de": "Mindustry ist ein Strategiespiel, in dem du automatisierte Lieferketten aufbaust, um deine Verteidigung zu versorgen."
+      },
+      "download_url": "https://github.com/Anuken/Mindustry/releases/download/v160.8/assets.jar",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "notepad-plus-plus",
@@ -5458,6 +5822,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "smsforwarder",
+      "name": "SmsForwarder",
+      "tagline": "Forward phone texts and alerts effortlessly",
+      "repo_url": "https://github.com/pppscn/smsforwarder",
+      "full_name": "pppscn/smsforwarder",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "utilities"
+      ],
+      "icon": "/icons/smsforwarder.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (BSD)",
+      "stars": 29006,
+      "tier": "tier1_gui",
+      "summary": "Automatically redirect incoming phone messages, calls, and app alerts to your favorite messaging apps and email accounts.",
+      "i18n": {
+        "it": "Reindirizza automaticamente messaggi, chiamate e notifiche dello smartphone alle tue app di messaggistica preferite.",
+        "es": "Redirige automáticamente mensajes, llamadas y alertas de aplicaciones móviles a tus plataformas de mensajería favoritas.",
+        "fr": "Redirigez automatiquement vos messages, appels et notifications mobiles vers vos applications de messagerie préférées.",
+        "de": "Leiten Sie eingehende Handy-Nachrichten, Anrufe und App-Benachrichtigungen direkt an Ihre bevorzugten Dienste weiter."
+      },
+      "download_url": "https://github.com/pppscn/SmsForwarder/releases/download/v3.5.0/SmsF_3.5.0.260224_100055_universal_release.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "fyne",
       "name": "Fyne",
       "tagline": "Build native cross-platform apps easily.",
@@ -5792,6 +6184,34 @@
       },
       "download_url": "https://github.com/hashicorp/vagrant/releases/download/v2.4.9/vagrant-2.4.9.gem",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "quasar",
+      "name": "Quasar Framework",
+      "tagline": "Build cross-platform apps fast",
+      "repo_url": "https://github.com/quasarframework/quasar",
+      "full_name": "quasarframework/quasar",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "cross-platform"
+      ],
+      "icon": "/icons/quasar.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 27197,
+      "tier": "tier1_gui",
+      "summary": "Quasar lets developers create high-performance web and mobile applications from a single codebase.",
+      "i18n": {
+        "it": "Quasar consente agli sviluppatori di creare applicazioni web e mobili ad alte prestazioni da un'unica base di codice.",
+        "es": "Quasar permite a los desarrolladores crear aplicaciones web y móviles de alto rendimiento desde una sola base de código.",
+        "fr": "Quasar permet aux développeurs de créer des applications web et mobiles haute performance à partir d'une seule base de code.",
+        "de": "Quasar ermöglicht es Entwicklern, leistungsstarke Web- und Mobile-Apps aus einer einzigen Codebasis zu erstellen."
+      },
+      "download_url": "https://quasar.dev",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "unigetui",
@@ -6214,6 +6634,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "mihon",
+      "name": "Mihon",
+      "tagline": "Read manga and comics on Android",
+      "repo_url": "https://github.com/mihonapp/mihon",
+      "full_name": "mihonapp/mihon",
+      "category": "Productivity",
+      "tags": [
+        "reader",
+        "manga"
+      ],
+      "icon": "/icons/mihon.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 25612,
+      "tier": "tier1_gui",
+      "summary": "Discover and read your favorite manga, webtoons, and comics on your Android device with a fully customizable reading tool.",
+      "i18n": {
+        "it": "Scopri e leggi i tuoi manga, webtoon e fumetti preferiti su Android con un lettore completamente personalizzabile.",
+        "es": "Descubre y lee tus manga, webtoons y cómics favoritos en tu dispositivo Android con un lector totalmente personalizable.",
+        "fr": "Découvrez et lisez vos mangas, webtoons et BD préférés sur votre appareil Android grâce à un lecteur personnalisable.",
+        "de": "Entdecke und lese deine Lieblingsmanga, Webtoons und Comics auf deinem Android-Gerät mit einem anpassbaren Leser."
+      },
+      "download_url": "https://github.com/mihonapp/mihon/releases/download/v0.21.3/mihon-arm64-v8a-v0.21.3.apk",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "sdwebimage",
       "name": "SDWebImage",
       "tagline": "Fast asynchronous image loading for apps",
@@ -6604,6 +7052,34 @@
       },
       "download_url": "https://github.com/qeeqbox/social-analyzer/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "baserecyclerviewadapterhelper",
+      "name": "BaseRecyclerViewAdapterHelper",
+      "tagline": "Simplify Android lists with powerful adapters.",
+      "repo_url": "https://github.com/cymchad/baserecyclerviewadapterhelper",
+      "full_name": "cymchad/baserecyclerviewadapterhelper",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "development"
+      ],
+      "icon": "/icons/baserecyclerviewadapterhelper.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (MIT)",
+      "stars": 24555,
+      "tier": "tier1_gui",
+      "summary": "Build smooth and efficient scrolling lists in mobile apps without writing repetitive boilerplate code.",
+      "i18n": {
+        "it": "Crea elenchi a scorrimento fluidi ed efficienti nelle app mobili senza scrivere codice ripetitivo.",
+        "es": "Crea listas desplazables fluidas y eficientes en aplicaciones móviles sin escribir código repetitivo.",
+        "fr": "Créez des listes de défilement fluides et efficaces dans les applications mobiles sans code répétitif.",
+        "de": "Erstelle reibungslose und effiziente Scroll-Listen in mobilen Apps ohne wiederholenden Boilerplate-Code."
+      },
+      "download_url": "https://www.recyclerview.org/",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "dash",
@@ -46363,6 +46839,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "plotinus",
+      "name": "Plotinus",
+      "tagline": "Universal command palette for Linux",
+      "repo_url": "https://github.com/p-e-w/plotinus",
+      "full_name": "p-e-w/plotinus",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "productivity"
+      ],
+      "icon": "/icons/plotinus.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Custom Open License",
+      "stars": 1024,
+      "tier": "tier1_gui",
+      "summary": "Plotinus adds a searchable command palette to any GTK+ 3 application on Linux.",
+      "i18n": {
+        "it": "Plotinus aggiunge una palette di comandi ricercabile a qualsiasi applicazione GTK+ 3 su Linux.",
+        "es": "Plotinus añade una paleta de comandos buscable a cualquier aplicación GTK+ 3 en Linux.",
+        "fr": "Plotinus ajoute une palette de commandes recherchable à toute application GTK+ 3 sur Linux.",
+        "de": "Plotinus fügt jeder GTK+ 3-Anwendung unter Linux eine durchsuchbare Befehlspalette hinzu."
+      },
+      "download_url": "https://github.com/p-e-w/plotinus/releases",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "android-cookbook-examples",
       "name": "Android-Cookbook-Examples",
       "tagline": "Massive collection of Android sample code",
@@ -46473,6 +46977,34 @@
       },
       "download_url": "https://github.com/aimeoa/hanshuang-codex/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "direwolf-arch-rice",
+      "name": "Direwolf Arch Rice",
+      "tagline": "Build a beautiful minimalist Linux desktop.",
+      "repo_url": "https://github.com/ibrahimbutt/direwolf-arch-rice",
+      "full_name": "ibrahimbutt/direwolf-arch-rice",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "customization"
+      ],
+      "icon": "/icons/direwolf-arch-rice.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (MIT)",
+      "stars": 989,
+      "tier": "tier1_gui",
+      "summary": "Transform a lightweight Linux system into a customized, distraction-free desktop environment with tiled windows and automated color themes.",
+      "i18n": {
+        "it": "Trasforma un sistema Linux leggero in un ambiente desktop personalizzato, privo di distrazioni e con temi cromatici automatici.",
+        "es": "Transforma un sistema Linux ligero en un entorno de escritorio personalizado y sin distracciones con temas de color automáticos.",
+        "fr": "Transformez un système Linux léger en un environnement de bureau personnalisé, sans distractions et doté de thèmes automatiques.",
+        "de": "Verwandeln Sie ein leichtgewichtige Linux-System in eine maßgeschneiderte, ablenkungsfreie Desktop-Umgebung mit automatischen Themes."
+      },
+      "download_url": "https://github.com/ibrahimbutt/direwolf-arch-rice/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "templatespider",
@@ -46697,6 +47229,34 @@
       },
       "download_url": "https://automad.org",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "cameractrls",
+      "name": "cameractrls",
+      "tagline": "Advanced Linux camera controls",
+      "repo_url": "https://github.com/soyersoyer/cameractrls",
+      "full_name": "soyersoyer/cameractrls",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "camera"
+      ],
+      "icon": "/icons/cameractrls.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Custom Open License",
+      "stars": 964,
+      "tier": "tier1_gui",
+      "summary": "A free tool for Linux users to adjust camera settings like brightness, focus, and pan/tilt with a simple visual interface or command line.",
+      "i18n": {
+        "it": "Uno strumento gratuito per Linux che permette di regolare luminosità, messa a fuoco e movimenti della webcam tramite interfaccia grafica o riga di comando.",
+        "es": "Una herramienta gratuita para Linux que permite ajustar brillo, enfoque y movimiento de la cámara mediante una interfaz visual o línea de comandos.",
+        "fr": "Un outil gratuit pour Linux permettant d'ajuster la luminosité, la mise au point et les mouvements de la caméra via une interface visuelle ou en ligne de commande.",
+        "de": "Ein kostenloses Tool für Linux, um Helligkeit, Fokus und Kamerabewegungen über eine visuelle Oberfläche oder die Befehlszeile einzustellen."
+      },
+      "download_url": "https://github.com/soyersoyer/cameractrls/releases",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "deepseek-harness-desktop",
@@ -47679,6 +48239,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "xdg-desktop-portal",
+      "name": "xdg-desktop-portal",
+      "tagline": "Secure bridge for sandboxed apps",
+      "repo_url": "https://github.com/flatpak/xdg-desktop-portal",
+      "full_name": "flatpak/xdg-desktop-portal",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "system-utility"
+      ],
+      "icon": "/icons/xdg-desktop-portal.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Custom Open License",
+      "stars": 845,
+      "tier": "tier1_gui",
+      "summary": "This tool allows isolated applications to safely access your files and system features.",
+      "i18n": {
+        "it": "Questo strumento consente alle applicazioni isolate di accedere in modo sicuro ai file e alle funzionalità di sistema.",
+        "es": "Esta herramienta permite que las aplicaciones aisladas accedan de forma segura a tus archivos y funciones del sistema.",
+        "fr": "Cet outil permet aux applications isolées d'accéder en toute sécurité à vos fichiers et fonctionnalités système.",
+        "de": "Dieses Tool ermöglicht es isolierten Anwendungen, sicher auf Ihre Dateien und Systemfunktionen zuzugreifen."
+      },
+      "download_url": "https://github.com/flatpak/xdg-desktop-portal/releases/download/1.22.1/xdg-desktop-portal-1.22.1.tar.xz.sha256sum",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "studiocms",
       "name": "studiocms",
       "tagline": "Fast native content management for web publishers",
@@ -48265,6 +48853,34 @@
       },
       "download_url": "https://github.com/ad-si/Perspec/releases/download/v1.2.1.0/Perspec_arm64.AppImage",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "lexora",
+      "name": "Lexora",
+      "tagline": "Your independent, self-evolving desktop AI assistant.",
+      "repo_url": "https://github.com/uselexora/lexora",
+      "full_name": "uselexora/lexora",
+      "category": "Productivity",
+      "tags": [
+        "ai-agent",
+        "desktop-assistant"
+      ],
+      "icon": "/icons/lexora.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (AGPL v3)",
+      "stars": 790,
+      "tier": "tier1_gui",
+      "summary": "Lexora is a local-first desktop assistant that manages files, executes projects, and creates text and images right on your computer.",
+      "i18n": {
+        "it": "Lexora è un assistente desktop che gestisce file, esegue progetti e crea contenuti multimediali direttamente sul tuo computer.",
+        "es": "Lexora es un asistente de escritorio que gestiona archivos, ejecuta proyectos y crea contenido multimedia directamente en tu equipo.",
+        "fr": "Lexora est un assistant de bureau qui gère les fichiers, exécute des projets et crée du contenu directement sur votre ordinateur.",
+        "de": "Lexora ist ein Desktop-Assistent, der Dateien verwaltet, Projekte ausführt und Inhalte direkt auf deinem Computer erstellt."
+      },
+      "download_url": "https://github.com/useLexora/Lexora/releases/download/v0.22.0/Lexora-Buddy-0.22.0-windows-arm64.exe",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "letterpad",
@@ -48995,6 +49611,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "ignis",
+      "name": "Ignis",
+      "tagline": "Build custom desktop user interfaces easily.",
+      "repo_url": "https://github.com/ignis-sh/ignis",
+      "full_name": "ignis-sh/ignis",
+      "category": "Productivity",
+      "tags": [
+        "customization",
+        "desktop"
+      ],
+      "icon": "/icons/ignis.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (LGPL)",
+      "stars": 695,
+      "tier": "tier1_gui",
+      "summary": "Ignis lets you create and customize your own desktop bars and panels using Python and modern display components.",
+      "i18n": {
+        "it": "Ignis consente di creare e personalizzare barre e pannelli desktop utilizzando Python e componenti grafici moderni.",
+        "es": "Ignis te permite crear y personalizar tus propias barras y paneles de escritorio usando Python y componentes modernos.",
+        "fr": "Ignis vous permet de créer et de personnaliser vos propres barres et panneaux de bureau à l'aide de Python.",
+        "de": "Mit Ignis kannst du eigene Desktop-Leisten und Panels mit Python und modernen Anzeigekomponenten gestalten."
+      },
+      "download_url": "https://ignis-sh.github.io/ignis/",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "enduro",
       "name": "Enduro",
       "tagline": "Minimalistic lean node.js publishing tool",
@@ -49359,6 +50003,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "nyxuri",
+      "name": "Nyxuri",
+      "tagline": "Clean, customizable Arch desktop setup",
+      "repo_url": "https://github.com/ech678/nyxuri",
+      "full_name": "ech678/nyxuri",
+      "category": "Productivity",
+      "tags": [
+        "linux",
+        "desktop-customization"
+      ],
+      "icon": "/icons/nyxuri.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 657,
+      "tier": "tier1_gui",
+      "summary": "Nyxuri is a free tool that helps you build a clean, modern desktop on Arch Linux.",
+      "i18n": {
+        "it": "Nyxuri è uno strumento gratuito per creare un desktop moderno su Arch Linux.",
+        "es": "Nyxuri es una herramienta gratuita para crear un escritorio moderno en Arch Linux.",
+        "fr": "Nyxuri est un outil gratuit pour créer un bureau moderne sur Arch Linux.",
+        "de": "Nyxuri ist ein kostenloses Tool, um ein modernes Desktop-Setup auf Arch Linux zu erstellen."
+      },
+      "download_url": "https://nyxniri.com",
+      "updated_at": "2026-11-24"
+    },
+    {
       "slug": "nameless",
       "name": "NamelessMC",
       "tagline": "Custom websites for Minecraft communities",
@@ -49525,6 +50197,34 @@
       },
       "download_url": "https://mtg.jflyfox.com/",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "tauri-tutorial",
+      "name": "Tauri Tutorial",
+      "tagline": "Build lightweight cross-platform desktop applications easily.",
+      "repo_url": "https://github.com/lencx/tauri-tutorial",
+      "full_name": "lencx/tauri-tutorial",
+      "category": "Productivity",
+      "tags": [
+        "tutorial",
+        "cross-platform"
+      ],
+      "icon": "/icons/tauri-tutorial.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 637,
+      "tier": "tier1_gui",
+      "summary": "Create fast desktop software using familiar web languages and native tools.",
+      "i18n": {
+        "it": "Crea software desktop veloci usando linguaggi web familiari e strumenti nativi.",
+        "es": "Desarrolla software rápido usando lenguajes web habituales y herramientas nativas.",
+        "fr": "Développez des logiciels rapides avec des langages web familiers et des outils natifs.",
+        "de": "Entwickle schnelle Desktop-Software mit vertrauten Websprachen und nativen Werkzeugen."
+      },
+      "download_url": "https://github.com/lencx/tauri-tutorial/releases/download/v0.1.7/OhMyBox_0.1.7_x64_en-US.msi",
+      "updated_at": "2026-11-24"
     },
     {
       "slug": "hugagentos",
