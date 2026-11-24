@@ -11563,6 +11563,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "mvt",
+    "name": "mvt",
+    "tagline": "Detect mobile spyware fast",
+    "repo_url": "https://github.com/mvt-project/mvt",
+    "full_name": "mvt-project/mvt",
+    "category": "Productivity",
+    "tags": [
+      "mobile-forensics",
+      "security"
+    ],
+    "icon": "/icons/mvt.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Custom Open License",
+    "stars": 16180,
+    "tier": "tier1_gui",
+    "summary": "MVT helps investigators find signs of mobile spyware on Android and iOS devices.",
+    "i18n": {
+      "it": "MVT aiuta gli investigatori a individuare segni di spyware mobile su Android e iOS.",
+      "es": "MVT ayuda a los investigadores a encontrar señales de spyware móvil en Android e iOS.",
+      "fr": "MVT aide les enquêteurs à repérer les signes de spyware mobile sur Android et iOS.",
+      "de": "MVT unterstützt Ermittler dabei, Anzeichen von mobilem Spyware auf Android und iOS zu finden."
+    },
+    "download_url": "https://mvt.re",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "terminalizer",
     "name": "Terminalizer",
     "tagline": "Record your screen and share terminal animations.",
@@ -11644,6 +11672,34 @@
       "de": "Navigieren Sie überall ohne Internetverbindung mit einer schnellen, datenschutzfreundlichen Karten-App, die Ihre Wege nicht verfolgt."
     },
     "download_url": "https://github.com/organicmaps/organicmaps/releases/download/2026.11.11-39-android/OrganicMaps-26111139-web-release.apk",
+    "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "virtualxposed",
+    "name": "VirtualXposed",
+    "tagline": "Run advanced phone modifications without root access.",
+    "repo_url": "https://github.com/android-hacker/virtualxposed",
+    "full_name": "android-hacker/virtualxposed",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "customization"
+    ],
+    "icon": "/icons/virtualxposed.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 16098,
+    "tier": "tier1_gui",
+    "summary": "VirtualXposed lets you use powerful customization tools on your Android device without needing to change your system settings.",
+    "i18n": {
+      "it": "VirtualXposed ti permette di usare strumenti di personalizzazione avanzati sul tuo dispositivo Android senza dover modificare il sistema.",
+      "es": "VirtualXposed te permite usar herramientas de personalización avanzadas en tu dispositivo Android sin cambiar la configuración del sistema.",
+      "fr": "VirtualXposed vous permet d'utiliser des outils de personnalisation avancés sur votre Android sans modifier les paramètres du système.",
+      "de": "VirtualXposed ermöglicht die Nutzung leistungsstarker Anpassungstools auf Ihrem Android-Gerät, ohne die Systemeinstellungen zu ändern."
+    },
+    "download_url": "https://vxp.app",
     "updated_at": "2026-11-24"
   },
   {
@@ -12095,6 +12151,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "android-cleanarchitecture",
+    "name": "Android-CleanArchitecture",
+    "tagline": "Learn to build tidy Android apps",
+    "repo_url": "https://github.com/android10/android-cleanarchitecture",
+    "full_name": "android10/android-cleanarchitecture",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "sample"
+    ],
+    "icon": "/icons/android-cleanarchitecture.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 15525,
+    "tier": "tier1_gui",
+    "summary": "This free sample shows how to organize an Android app so it stays easy to understand, test, and update over time.",
+    "i18n": {
+      "it": "Questo esempio gratuito mostra come strutturare un’app Android in modo che sia facile da capire, testare e aggiornare nel tempo.",
+      "es": "Este ejemplo gratuito muestra cómo organizar una aplicación Android para que sea fácil de entender, probar y actualizar con el tiempo.",
+      "fr": "Cet exemple gratuit montre comment structurer une application Android afin qu’elle reste facile à comprendre, tester et mettre à jour au fil du temps.",
+      "de": "Dieses kostenlose Beispiel zeigt, wie man eine Android‑App so organisiert, dass sie leicht zu verstehen, zu testen und im Laufe der Zeit zu aktualisieren ist."
+    },
+    "download_url": "https://github.com/android10/Android-CleanArchitecture/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "gsy-github-app-flutter",
     "name": "GSY Github App",
     "tagline": "A feature-rich mobile client for Github.",
@@ -12177,6 +12261,34 @@
     },
     "download_url": "https://rdagent.azurewebsites.net/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "gmscore",
+    "name": "GmsCore",
+    "tagline": "Free Google services for Android",
+    "repo_url": "https://github.com/microg/gmscore",
+    "full_name": "microg/gmscore",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "privacy"
+    ],
+    "icon": "/icons/gmscore.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 15413,
+    "tier": "tier1_gui",
+    "summary": "GmsCore lets Android phones run apps that need Google services, even when those services aren’t present, giving you more freedom and privacy.",
+    "i18n": {
+      "it": "GmsCore permette ai telefoni Android di usare app che richiedono i servizi Google, anche quando non sono installati, offrendo più libertà e privacy.",
+      "es": "GmsCore permite que los teléfonos Android ejecuten aplicaciones que necesitan los servicios de Google, incluso si no están instalados, brindando más libertad y privacidad.",
+      "fr": "GmsCore permet aux téléphones Android d’utiliser des applications qui nécessitent les services Google, même lorsqu’ils ne sont pas installés, offrant plus de liberté et de confidentialité.",
+      "de": "GmsCore lässt Android‑Handys Apps laufen, die normalerweise Google‑Dienste benötigen, selbst wenn diese nicht installiert sind, und sorgt für mehr Freiheit und Datenschutz."
+    },
+    "download_url": "https://github.com/microg/GmsCore/releases/download/v0.3.18.252432/com.android.vending-84022636-hw.apk",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "easydict",
@@ -12795,6 +12907,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "metrolist",
+    "name": "Metrolist",
+    "tagline": "Ad-free YouTube Music player",
+    "repo_url": "https://github.com/metrolistgroup/metrolist",
+    "full_name": "metrolistgroup/metrolist",
+    "category": "Video & Audio",
+    "tags": [
+      "music-player",
+      "youtube-music"
+    ],
+    "icon": "/icons/metrolist.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 14932,
+    "tier": "tier1_gui",
+    "summary": "Metrolist is a free, open-source app that lets you stream YouTube Music on your phone, tablet, or computer without ads.",
+    "i18n": {
+      "it": "Metrolist è un'app gratuita e open source per ascoltare YouTube Music su telefono, tablet o computer senza pubblicità.",
+      "es": "Metrolist es una aplicación gratuita y de código abierto para escuchar YouTube Music en tu teléfono, tableta o computadora sin anuncios.",
+      "fr": "Metrolist est une application gratuite et open source pour écouter YouTube Music sur téléphone, tablette ou ordinateur sans publicité.",
+      "de": "Metrolist ist eine kostenlose Open-Source-App, um YouTube Music auf Handy, Tablet oder Computer ohne Werbung zu hören."
+    },
+    "download_url": "https://github.com/MetrolistGroup/Metrolist/releases/download/v14.0.1/metrolist-installer-windows-x64-14.0.1.exe",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "espanso",
     "name": "espanso",
     "tagline": "Type faster with smart text expansion.",
@@ -13159,6 +13299,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "qmui-android",
+    "name": "QMUI_Android",
+    "tagline": "Speed up Android app user interface design.",
+    "repo_url": "https://github.com/tencent/qmui_android",
+    "full_name": "tencent/qmui_android",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ui-library"
+    ],
+    "icon": "/icons/qmui-android.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 14477,
+    "tier": "tier1_gui",
+    "summary": "A powerful toolkit that helps app creators quickly build consistent mobile interfaces and save hours on routine setup code.",
+    "i18n": {
+      "it": "Un toolkit che aiuta gli sviluppatori a creare interfacce mobili coerenti risparmiando tempo sulla configurazione.",
+      "es": "Una herramienta que ayuda a crear interfaces móviles coherentes y ahorra tiempo en la configuración rutinaria.",
+      "fr": "Un outil pour concevoir rapidement des interfaces mobiles cohérentes et gagner du temps sur la configuration.",
+      "de": "Ein Toolkit zur schnellen Erstellung konsistenter mobiler Oberflächen, das wertvolle Entwicklungszeit spart."
+    },
+    "download_url": "https://qmuiteam.com/android",
+    "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "circleimageview",
+    "name": "CircleImageView",
+    "tagline": "Round profile pictures easily",
+    "repo_url": "https://github.com/hdodenhof/circleimageview",
+    "full_name": "hdodenhof/circleimageview",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ui"
+    ],
+    "icon": "/icons/circleimageview.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 14460,
+    "tier": "tier1_gui",
+    "summary": "CircleImageView lets Android apps show photos in a perfect circle, perfect for profile pictures, without slowing down the app.",
+    "i18n": {
+      "it": "CircleImageView permette alle app Android di visualizzare foto in cerchio perfetto, ideale per avatar, senza rallentare l’app.",
+      "es": "CircleImageView permite que las apps Android muestren fotos en un círculo, ideal para avatares, sin afectar el rendimiento.",
+      "fr": "CircleImageView permet aux applications Android d’afficher des photos en cercle parfait, idéal pour les avatars, sans ralentir l’application.",
+      "de": "CircleImageView lässt Android‑Apps Fotos in einem perfekten Kreis anzeigen, ideal für Profilbilder, ohne die App zu verlangsamen."
+    },
+    "download_url": "https://github.com/hdodenhof/CircleImageView/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "browseros",
     "name": "BrowserOS",
     "tagline": "A dedicated browser for AI agents",
@@ -13325,6 +13521,34 @@
     },
     "download_url": "https://github.com/TKkk-iOSer/WeChatPlugin-MacOS/releases",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "thunderbird-android",
+    "name": "Thunderbird for Android",
+    "tagline": "Private, open-source email for Android",
+    "repo_url": "https://github.com/thunderbird/thunderbird-android",
+    "full_name": "thunderbird/thunderbird-android",
+    "category": "Productivity",
+    "tags": [
+      "email",
+      "android"
+    ],
+    "icon": "/icons/thunderbird-android.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 14280,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple email accounts in one private, ad-free app that respects your data.",
+    "i18n": {
+      "it": "Gestisci più account email in un'unica app privata e senza pubblicità che rispetta i tuoi dati.",
+      "es": "Gestiona múltiples cuentas de correo en una única app privada y sin anuncios que respeta tus datos.",
+      "fr": "Gérez plusieurs comptes e-mail dans une seule application privée et sans publicité qui respecte vos données.",
+      "de": "Verwalten Sie mehrere E-Mail-Konten in einer privaten, werbefreien App, die Ihre Daten respektiert."
+    },
+    "download_url": "https://github.com/thunderbird/thunderbird-android/releases/download/K9MAIL_25_0/k9mail-25.0.apk",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "openhaystack",
@@ -13521,6 +13745,34 @@
     },
     "download_url": "https://automatisch.io",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "lawnchair",
+    "name": "Lawnchair",
+    "tagline": "Free, customizable Android home screen",
+    "repo_url": "https://github.com/lawnchairlauncher/lawnchair",
+    "full_name": "lawnchairlauncher/lawnchair",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "launcher"
+    ],
+    "icon": "/icons/lawnchair.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 14004,
+    "tier": "tier1_gui",
+    "summary": "Lawnchair is a free, open-source home app for Android that brings Pixel-style features and deep customization options to your device.",
+    "i18n": {
+      "it": "Lawnchair è un'app home open source per Android che offre funzionalità stile Pixel e ampie opzioni di personalizzazione per il tuo dispositivo.",
+      "es": "Lawnchair es una app de inicio de código abierto para Android que ofrece funciones estilo Pixel y amplias opciones de personalización para tu dispositivo.",
+      "fr": "Lawnchair est une application d'accueil open source pour Android qui offre des fonctionnalités de type Pixel et de nombreuses options de personnalisation.",
+      "de": "Lawnchair ist eine Open-Source-Startbildschirm-App für Android, die Pixel-Funktionen und umfassende Anpassungsoptionen für Ihr Gerät bietet."
+    },
+    "download_url": "https://github.com/LawnchairLauncher/lawnchair/releases/download/1.2.0.1884/Lawnchair-1.2.0.1884.apk",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "pillow",
@@ -13775,6 +14027,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "logger",
+    "name": "Logger",
+    "tagline": "Readable Android logs made simple",
+    "repo_url": "https://github.com/orhanobut/logger",
+    "full_name": "orhanobut/logger",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "developer-tools"
+    ],
+    "icon": "/icons/logger.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 13825,
+    "tier": "tier1_gui",
+    "summary": "Logger turns complex Android app messages into clear, easy-to-read text for developers.",
+    "i18n": {
+      "it": "Logger trasforma i messaggi complessi delle app Android in testo chiaro e facile da leggere.",
+      "es": "Logger convierte los mensajes complejos de las apps de Android en texto claro y fácil de leer.",
+      "fr": "Logger transforme les messages complexes des applications Android en texte clair et facile à lire.",
+      "de": "Logger verwandelt komplexe Android-App-Nachrichten in klaren, leicht lesbaren Text."
+    },
+    "download_url": "https://github.com/orhanobut/logger/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "archisteamfarm",
     "name": "ArchiSteamFarm",
     "tagline": "Manage multiple Steam accounts and rewards automatically",
@@ -13915,6 +14195,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "fay",
+    "name": "Fay",
+    "tagline": "Open-source digital human framework",
+    "repo_url": "https://github.com/xszyou/fay",
+    "full_name": "xszyou/fay",
+    "category": "Productivity",
+    "tags": [
+      "digital-human",
+      "ai-framework"
+    ],
+    "icon": "/icons/fay.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 13655,
+    "tier": "tier1_gui",
+    "summary": "Fay is a free, open-source tool that connects AI language models with digital avatars for interactive applications.",
+    "i18n": {
+      "it": "Fay è uno strumento gratuito e open source che collega i modelli di linguaggio AI con avatar digitali.",
+      "es": "Fay es una herramienta gratuita y de código abierto que conecta modelos de lenguaje de IA con avatares digitales.",
+      "fr": "Fay est un outil gratuit et open source qui connecte les modèles de langage IA aux avatars numériques.",
+      "de": "Fay ist ein kostenloses Open-Source-Tool, das KI-Sprachmodelle mit digitalen Avataren verbindet."
+    },
+    "download_url": "https://github.com/xszyou/Fay/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "ccstatusline",
     "name": "ccstatusline",
     "tagline": "Beautiful custom status bars for Claude",
@@ -13969,6 +14277,34 @@
     },
     "download_url": "https://github.com/TomSchimansky/CustomTkinter/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "aegis",
+    "name": "Aegis",
+    "tagline": "Secure and private two-factor authentication.",
+    "repo_url": "https://github.com/beemdevelopment/aegis",
+    "full_name": "beemdevelopment/aegis",
+    "category": "Productivity",
+    "tags": [
+      "security",
+      "privacy"
+    ],
+    "icon": "/icons/aegis.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 13615,
+    "tier": "tier1_gui",
+    "summary": "Aegis is a secure Android app that manages your two-factor login codes with strong encryption and easy backup options.",
+    "i18n": {
+      "it": "Aegis è un'app Android sicura che gestisce i tuoi codici di accesso a due fattori con crittografia robusta e opzioni di backup.",
+      "es": "Aegis es una aplicación segura para Android que gestiona tus códigos de acceso de dos factores con cifrado y copias de seguridad.",
+      "fr": "Aegis est une application Android sécurisée qui gère vos codes de connexion à deux facteurs avec un chiffrement et des sauvegardes.",
+      "de": "Aegis ist eine sichere Android-App, die Ihre Zwei-Faktor-Anmeldecodes mit starker Verschlüsselung und Backup-Optionen verwaltet."
+    },
+    "download_url": "https://github.com/beemdevelopment/Aegis/releases/download/v3.4.3/aegis-v3.4.3.apk",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "diffusionbee-stable-diffusion-ui",
@@ -14081,6 +14417,34 @@
     },
     "download_url": "https://github.com/ccfos/nightingale/releases/download/v9.3.0/checksums.txt",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pixez-flutter",
+    "name": "PixEz Flutter",
+    "tagline": "Free Pixiv viewer for all devices",
+    "repo_url": "https://github.com/notsfsssf/pixez-flutter",
+    "full_name": "notsfsssf/pixez-flutter",
+    "category": "Productivity",
+    "tags": [
+      "image-viewer",
+      "pixiv-client"
+    ],
+    "icon": "/icons/pixez-flutter.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux, Android, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 13450,
+    "tier": "tier1_gui",
+    "summary": "Browse and view animated images from Pixiv directly on your phone, computer, or tablet without needing a special internet connection tool.",
+    "i18n": {
+      "it": "Sfoglia e guarda le immagini animate di Pixiv direttamente su telefono, computer o tablet senza bisogno di strumenti di connessione speciali.",
+      "es": "Explora y visualiza imágenes animadas de Pixiv directamente en tu teléfono, computadora o tableta sin necesidad de herramientas de conexión especiales.",
+      "fr": "Parcourez et regardez les images animées de Pixiv directement sur votre téléphone, ordinateur ou tablette sans avoir besoin d'outils de connexion spéciaux.",
+      "de": "Durchsuchen und ansehen Sie animierte Bilder von Pixiv direkt auf Ihrem Telefon, Computer oder Tablet, ohne dass Sie ein spezielles Verbindungstool benötigen."
+    },
+    "download_url": "https://github.com/Notsfsssf/pixez-flutter/releases/download/0.9.114/windows-x86_64-release.msix.exe",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "cocoalumberjack",
@@ -14811,6 +15175,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "matisse",
+    "name": "Matisse",
+    "tagline": "Sleek media picker for Android apps",
+    "repo_url": "https://github.com/zhihu/matisse",
+    "full_name": "zhihu/matisse",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "media-picker"
+    ],
+    "icon": "/icons/matisse.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 12490,
+    "tier": "tier1_gui",
+    "summary": "Matisse is a beautifully designed tool that lets Android app creators easily add local photo and video selection features.",
+    "i18n": {
+      "it": "Matisse è uno strumento ben progettato che consente agli sviluppatori Android di aggiungere selezioni di foto e video.",
+      "es": "Matisse es una herramienta bien diseñada que permite a los creadores de apps de Android añadir selección de fotos y videos.",
+      "fr": "Matisse est un outil bien conçu qui permet aux créateurs d'applications Android d'ajouter la sélection de photos et vidéos.",
+      "de": "Matisse ist ein gut gestaltetes Tool, mit dem Android-Entwickler ganz einfach lokale Foto- und Videoauswahlen hinzufügen können."
+    },
+    "download_url": "https://github.com/zhihu/Matisse/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "mas",
     "name": "mas",
     "tagline": "Manage Mac apps from terminal easily",
@@ -14837,6 +15229,34 @@
     },
     "download_url": "https://github.com/mas-cli/mas/releases/download/v7.0.0/mas-7.0.0-arm64.pkg",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "androidviewanimations",
+    "name": "AndroidViewAnimations",
+    "tagline": "Smooth animations for Android apps",
+    "repo_url": "https://github.com/daimajia/androidviewanimations",
+    "full_name": "daimajia/androidviewanimations",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ui-ux"
+    ],
+    "icon": "/icons/androidviewanimations.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (MIT)",
+    "stars": 12430,
+    "tier": "tier1_gui",
+    "summary": "A free collection of ready-made visual effects that make Android app screens move, bounce, and fade smoothly.",
+    "i18n": {
+      "it": "Una raccolta gratuita di effetti visivi pronti all'uso che fanno muovere, rimbalzare e dissolvere gli schermi delle app Android.",
+      "es": "Una colección gratuita de efectos visuales listos para usar que hacen que las pantallas de las apps Android se muevan, reboten y desvanezcan suavemente.",
+      "fr": "Une collection gratuite d'effets visuels prêts à l'emploi qui font bouger, rebondir et s'estomper les écrans des applications Android.",
+      "de": "Eine kostenlose Sammlung fertiger visueller Effekte, die Android-App-Bildschirme sanft bewegen, springen und verblassen lassen."
+    },
+    "download_url": "https://github.com/daimajia/AndroidViewAnimations/releases/download/v2.0/library-release.aar",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "escrcpy",
@@ -14949,6 +15369,34 @@
     },
     "download_url": "https://github.com/illacloud/illa-builder/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "react-native-firebase",
+    "name": "react-native-firebase",
+    "tagline": "Connect mobile apps to cloud services",
+    "repo_url": "https://github.com/invertase/react-native-firebase",
+    "full_name": "invertase/react-native-firebase",
+    "category": "Productivity",
+    "tags": [
+      "mobile-development",
+      "cloud-services"
+    ],
+    "icon": "/icons/react-native-firebase.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Custom Open License",
+    "stars": 12328,
+    "tier": "tier1_gui",
+    "summary": "A toolkit that lets developers easily link their mobile applications to Google's cloud services for data, login, and messaging.",
+    "i18n": {
+      "it": "Un kit che permette agli sviluppatori di collegare facilmente le loro app mobili ai servizi cloud di Google per dati, accesso e messaggistica.",
+      "es": "Un kit que permite a los desarrolladores conectar fácilmente sus aplicaciones móviles a los servicios en la nube de Google para datos, inicio de sesión y mensajería.",
+      "fr": "Un kit qui permet aux développeurs de connecter facilement leurs applications mobiles aux services cloud de Google pour les données, la connexion et la messagerie.",
+      "de": "Ein Toolkit, das Entwicklern ermöglicht, ihre mobilen Anwendungen einfach mit Googles Cloud-Diensten für Daten, Anmeldung und Nachrichten zu verknüpfen."
+    },
+    "download_url": "https://rnfirebase.io",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "xmake",
@@ -15315,6 +15763,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "coil",
+    "name": "coil",
+    "tagline": "Fast image loading for mobile apps",
+    "repo_url": "https://github.com/coil-kt/coil",
+    "full_name": "coil-kt/coil",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "images"
+    ],
+    "icon": "/icons/coil.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 11968,
+    "tier": "tier1_gui",
+    "summary": "Coil is a lightweight image loading tool for mobile applications that saves device storage and loads visuals smoothly.",
+    "i18n": {
+      "it": "Coil è uno strumento di caricamento immagini leggero per applicazioni mobili che salva spazio e carica la grafica senza intoppi.",
+      "es": "Coil es una herramienta ligera de carga de imágenes para aplicaciones móviles que ahorra espacio y carga gráficos sin problemas.",
+      "fr": "Coil est un outil léger de chargement d'images pour applications mobiles qui économise de l'espace et charge les visuels en douceur.",
+      "de": "Coil ist ein leichtes Bildladetool für mobile Anwendungen, das Speicherplatz spart und Grafiken reibungslos lädt."
+    },
+    "download_url": "https://coil-kt.github.io/coil/",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "dependencies",
     "name": "Dependencies",
     "tagline": "Modern tool for checking software requirements",
@@ -15369,6 +15845,34 @@
     },
     "download_url": "https://www.nasiko.com",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gogogo",
+    "name": "GoGoGo",
+    "tagline": "Simulate Android location with ease",
+    "repo_url": "https://github.com/zcshou/gogogo",
+    "full_name": "zcshou/gogogo",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "location-simulator"
+    ],
+    "icon": "/icons/gogogo.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 11920,
+    "tier": "tier1_gui",
+    "summary": "GoGoGo is an Android app that lets you fake your GPS location for testing or privacy.",
+    "i18n": {
+      "it": "GoGoGo è un'app Android che permette di simulare la posizione GPS per test o privacy.",
+      "es": "GoGoGo es una app para Android que permite simular la ubicación GPS para pruebas o privacidad.",
+      "fr": "GoGoGo est une application Android qui permet de simuler la position GPS pour des tests ou la vie privée.",
+      "de": "GoGoGo ist eine Android-App, mit der Sie Ihren GPS-Standort für Tests oder Datenschutz simulieren können."
+    },
+    "download_url": "https://github.com/ZCShou/GoGoGo/releases/download/ReleaseV1.12.3/VirtGO-2.1.0-android-arm64-v8a.apk",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "netmaker",
@@ -15847,6 +16351,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "recyclerview-animators",
+    "name": "recyclerview-animators",
+    "tagline": "Smooth Android list animations",
+    "repo_url": "https://github.com/wasabeef/recyclerview-animators",
+    "full_name": "wasabeef/recyclerview-animators",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ui-animation"
+    ],
+    "icon": "/icons/recyclerview-animators.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 11522,
+    "tier": "tier1_gui",
+    "summary": "A free Android library that adds smooth, professional animations to scrolling lists in your apps.",
+    "i18n": {
+      "it": "Una libreria Android gratuita che aggiunge animazioni professionali alle liste scorrevoli nelle tue app.",
+      "es": "Una biblioteca de Android gratuita que añade animaciones profesionales a las listas desplazables de tus aplicaciones.",
+      "fr": "Une bibliothèque Android gratuite qui ajoute des animations professionnelles aux listes défilantes de vos applications.",
+      "de": "Eine kostenlose Android-Bibliothek, die professionelle Animationen zu scrollbaren Listen in Ihren Apps hinzufügt."
+    },
+    "download_url": "https://github.com/wasabeef/recyclerview-animators/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "nuklear",
     "name": "Nuklear",
     "tagline": "Lightweight single-header graphical user interface library",
@@ -16012,6 +16544,34 @@
       "de": "Verwalten Sie Themes und Hilfspakete für Ihre Befehlszeile schnell und unkompliziert."
     },
     "download_url": "https://github.com/oh-my-fish/oh-my-fish/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "cloudstream",
+    "name": "CloudStream",
+    "tagline": "Free, ad-free media player",
+    "repo_url": "https://github.com/recloudstream/cloudstream",
+    "full_name": "recloudstream/cloudstream",
+    "category": "Productivity",
+    "tags": [
+      "media-player",
+      "android"
+    ],
+    "icon": "/icons/cloudstream.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 11414,
+    "tier": "tier1_gui",
+    "summary": "CloudStream is a free Android app that lets you stream and download media from various sources without ads or tracking.",
+    "i18n": {
+      "it": "CloudStream è un'app Android gratuita che consente di trasmettere e scaricare contenuti multimediali senza pubblicità o tracciamento.",
+      "es": "CloudStream es una aplicación de Android gratuita que permite transmitir y descargar contenido multimedia sin anuncios ni rastreo.",
+      "fr": "CloudStream est une application Android gratuite qui permet de diffuser et de télécharger des médias sans publicités ni suivi.",
+      "de": "CloudStream ist eine kostenlose Android-App, mit der Sie Medien ohne Werbung oder Tracking streamen und herunterladen können."
+    },
+    "download_url": "https://github.com/recloudstream/cloudstream/releases/download/v4.9.1/4.9.1.apk",
     "updated_at": "2026-11-24"
   },
   {
@@ -16768,6 +17328,34 @@
     },
     "download_url": "https://github.com/therecipe/qt/releases",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "morphe-manager",
+    "name": "Morphe Manager",
+    "tagline": "Modify Android apps to remove unwanted ads.",
+    "repo_url": "https://github.com/morpheapp/morphe-manager",
+    "full_name": "morpheapp/morphe-manager",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "utility"
+    ],
+    "icon": "/icons/morphe-manager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 10795,
+    "tier": "tier1_gui",
+    "summary": "Morphe Manager is a handy Android utility that patches popular media apps to strip out interruptions and ads directly on your device.",
+    "i18n": {
+      "it": "Morphe Manager è un'utilità Android per rimuovere interruzioni e pubblicità dalle app multimediali direttamente sul tuo dispositivo.",
+      "es": "Morphe Manager es una herramienta para Android que parchea apps multimedia para eliminar interrupciones directamente en tu móvil.",
+      "fr": "Morphe Manager est un outil Android pour modifier les applications multimédias et supprimer les publicités directement chez vous.",
+      "de": "Morphe Manager ist ein Android-Werkzeug zum Entfernen von Werbung und Unterbrechungen direkt auf Ihrem Mobilgerät."
+    },
+    "download_url": "https://github.com/MorpheApp/morphe-manager/releases/download/v2.7.1/morphe-manager-2.7.1.apk",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "inshellisense",
@@ -21894,6 +22482,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "bottombar",
+    "name": "BottomBar",
+    "tagline": "Easy bottom navigation bar for Android apps.",
+    "repo_url": "https://github.com/roughike/bottombar",
+    "full_name": "roughike/bottombar",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "navigation"
+    ],
+    "icon": "/icons/bottombar.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8340,
+    "tier": "tier1_gui",
+    "summary": "BottomBar adds customizable, modern bottom navigation menus to your mobile apps with simple XML setup and flexible animations.",
+    "i18n": {
+      "it": "BottomBar aggiunge menu di navigazione moderni e personalizzabili alle tue app mobili con una configurazione semplice.",
+      "es": "BottomBar añade menús de navegación inferiores modernos y personalizables a tus aplicaciones móviles de forma sencilla.",
+      "fr": "BottomBar ajoute des menus de navigation inférieurs modernes et personnalisables à vos applications mobiles facilement.",
+      "de": "BottomBar fügt Ihren mobilen Apps moderne, anpassbare untere Navigationsmenüs mit einfacher XML-Einrichtung hinzu."
+    },
+    "download_url": "https://github.com/roughike/BottomBar/releases/download/V2.3.1/bottom-bar-2.3.1.aar",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "ni",
     "name": "ni",
     "tagline": "Use the right package manager effortlessly.",
@@ -22958,6 +23574,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "ribs",
+    "name": "RIBs",
+    "tagline": "Cross-platform mobile app architecture framework",
+    "repo_url": "https://github.com/uber/ribs",
+    "full_name": "uber/ribs",
+    "category": "Productivity",
+    "tags": [
+      "mobile",
+      "architecture"
+    ],
+    "icon": "/icons/ribs.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7952,
+    "tier": "tier1_gui",
+    "summary": "Build scalable mobile applications using Uber's robust cross-platform architecture framework designed for large engineering teams.",
+    "i18n": {
+      "it": "Crea app mobili scalabili utilizzando il robusto framework di architettura di Uber per grandi team di ingegneri.",
+      "es": "Construya aplicaciones móviles escalables utilizando el sólido framework de arquitectura de Uber para equipos grandes.",
+      "fr": "Créez des applications mobiles évolutives grâce au cadre d'architecture robuste d'Uber pour les grandes équipes.",
+      "de": "Erstellen Sie skalierbare mobile Apps mit Ubars robustem Architektur-Framework für große Entwicklungsteams."
+    },
+    "download_url": "https://eng.uber.com/tag/ribs/",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "puremac",
     "name": "PureMac",
     "tagline": "Free open-source storage cleaner for Mac",
@@ -23518,6 +24162,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "keepassdx",
+    "name": "KeePassDX",
+    "tagline": "Secure local password vault for Android",
+    "repo_url": "https://github.com/kunzisoft/keepassdx",
+    "full_name": "kunzisoft/keepassdx",
+    "category": "Security & Privacy",
+    "tags": [
+      "passwords",
+      "security"
+    ],
+    "icon": "/icons/keepassdx.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 7736,
+    "tier": "tier1_gui",
+    "summary": "Manage all your passwords securely on your mobile device using a single encrypted file with top-tier protection.",
+    "i18n": {
+      "it": "Gestisci tutte le tue password in modo sicuro sul tuo dispositivo mobile utilizzando un unico file cifrato.",
+      "es": "Administra todas tus contraseñas de forma segura en tu móvil utilizando un único archivo cifrado.",
+      "fr": "Gérez tous vos mots de passe en toute sécurité sur votre mobile grâce à un fichier chiffré unique.",
+      "de": "Verwalten Sie Ihre Passwörter sicher auf Ihrem Mobilgerät über eine einzige verschlüsselte Datei."
+    },
+    "download_url": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.5.9/KeePassDX-4.5.9-free.apk",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "np",
     "name": "np",
     "tagline": "Safe, interactive software publishing",
@@ -23768,6 +24440,34 @@
     },
     "download_url": "https://github.com/aceberg/WatchYourLAN/releases/download/2.1.4/watchyourlan_2.1.4_linux_386.apk",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "installerx-revived",
+    "name": "InstallerX-Revived",
+    "tagline": "Modern and flexible Android app installer.",
+    "repo_url": "https://github.com/wxxsfxyzm/installerx-revived",
+    "full_name": "wxxsfxyzm/installerx-revived",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "installer"
+    ],
+    "icon": "/icons/installerx-revived.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 7664,
+    "tier": "tier1_gui",
+    "summary": "Install Android packages effortlessly with a clean interface, flexible authorizers, and powerful custom installation profiles.",
+    "i18n": {
+      "it": "Installa pacchetti Android facilmente con un'interfaccia pulita, autorizzatori flessibili e profili di installazione personalizzati.",
+      "es": "Instala paquetes de Android fácilmente con una interfaz limpia, autorizadores flexibles y perfiles de instalación personalizados.",
+      "fr": "Installez des paquets Android facilement avec une interface propre, des autorisateurs flexibles et des profils personnalisés.",
+      "de": "Installieren Sie Android-Pakete mühelos mit einer sauberen Oberfläche, flexiblen Autorisiern und eigenen Installationsprofilen."
+    },
+    "download_url": "https://github.com/wxxsfxyzm/InstallerX-Revived/releases/download/26.09/InstallerX-Revived-online-26.09.apk",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "kubectl-ai",
