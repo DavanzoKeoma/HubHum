@@ -2520,6 +2520,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "architecture-samples",
+    "name": "architecture-samples",
+    "tagline": "Learn clean app design",
+    "repo_url": "https://github.com/android/architecture-samples",
+    "full_name": "android/architecture-samples",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "samples"
+    ],
+    "icon": "/icons/architecture-samples.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 45912,
+    "tier": "tier1_gui",
+    "summary": "A collection of example Android apps that use a simple to‑do list to show how to keep code tidy, testable, and easy to improve.",
+    "i18n": {
+      "it": "Una raccolta di app Android d’esempio che usa una semplice lista di cose da fare per mostrare come mantenere il codice ordinato, testabile e facile da migliorare.",
+      "es": "Una colección de aplicaciones Android de ejemplo que utiliza una lista de tareas sencilla para demostrar cómo mantener el código ordenado, testeable y fácil de mejorar.",
+      "fr": "Une collection d’applications Android d’exemple qui utilise une simple liste de tâches pour montrer comment garder le code organisé, testable et facile à améliorer.",
+      "de": "Eine Sammlung von Beispiel‑Android‑Apps, die eine einfache Aufgabenliste nutzt, um zu zeigen, wie man Code übersichtlich, testbar und leicht erweiterbar hält, und Ihnen hilft."
+    },
+    "download_url": "https://github.com/android/architecture-samples/releases",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "jan",
     "name": "Jan",
     "tagline": "Run private AI models on your computer.",
@@ -3108,6 +3136,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "newpipe",
+    "name": "NewPipe",
+    "tagline": "Watch and listen without Google",
+    "repo_url": "https://github.com/teamnewpipe/newpipe",
+    "full_name": "teamnewpipe/newpipe",
+    "category": "Productivity",
+    "tags": [
+      "video",
+      "audio"
+    ],
+    "icon": "/icons/newpipe.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 40914,
+    "tier": "tier1_gui",
+    "summary": "NewPipe lets you enjoy videos and music from popular services on Android without needing a Google account or Play Store.",
+    "i18n": {
+      "it": "NewPipe ti permette di guardare video e ascoltare musica da YouTube, SoundCloud e altri servizi senza bisogno di un account o di Google Play.",
+      "es": "NewPipe te permite ver videos y escuchar música de YouTube, SoundCloud y otros servicios sin necesidad de una cuenta ni de Google Play.",
+      "fr": "NewPipe vous permet de regarder des vidéos et d’écouter de la musique depuis YouTube, SoundCloud et d’autres services sans créer de compte ni utiliser Google Play.",
+      "de": "NewPipe ermöglicht das Ansehen von Videos und das Hören von Musik von YouTube, SoundCloud und weiteren Diensten, ohne ein Konto oder Google Play zu benötigen."
+    },
+    "download_url": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.29.3/NewPipe_v0.29.3.apk",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "zoxide",
     "name": "zoxide",
     "tagline": "Navigate your folders in seconds",
@@ -3528,6 +3584,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "mpandroidchart",
+    "name": "MPAndroidChart",
+    "tagline": "Beautiful charts for Android apps",
+    "repo_url": "https://github.com/philjay/mpandroidchart",
+    "full_name": "philjay/mpandroidchart",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "data-visualization"
+    ],
+    "icon": "/icons/mpandroidchart.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 38184,
+    "tier": "tier1_gui",
+    "summary": "MPAndroidChart is a free tool that helps developers add smooth, interactive graphs to Android applications.",
+    "i18n": {
+      "it": "MPAndroidChart è uno strumento gratuito che aiuta gli sviluppatori ad aggiungere grafici interattivi e fluidi alle app Android.",
+      "es": "MPAndroidChart es una herramienta gratuita que ayuda a los desarrolladores a añadir gráficos interactivos y fluidos a las aplicaciones Android.",
+      "fr": "MPAndroidChart est un outil gratuit qui aide les développeurs à ajouter des graphiques interactifs et fluides aux applications Android.",
+      "de": "MPAndroidChart ist ein kostenloses Tool, das Entwicklern hilft, interaktive und flüssige Diagramme in Android-Apps einzubetten."
+    },
+    "download_url": "https://philjay.cc/mpandroidchart",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "khoj",
     "name": "Khoj",
     "tagline": "Your personal autonomous AI second brain",
@@ -3917,6 +4001,34 @@
     },
     "download_url": "https://changedetection.io",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "lottie-android",
+    "name": "Lottie for Android",
+    "tagline": "Bring motion graphics to apps",
+    "repo_url": "https://github.com/airbnb/lottie-android",
+    "full_name": "airbnb/lottie-android",
+    "category": "Productivity",
+    "tags": [
+      "animation",
+      "android"
+    ],
+    "icon": "/icons/lottie-android.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 35782,
+    "tier": "tier1_gui",
+    "summary": "Lottie lets designers turn animated designs into tiny files that run smoothly on Android phones, without extra work from developers.",
+    "i18n": {
+      "it": "Lottie trasforma le animazioni create in After Effects in file leggeri che funzionano senza problemi su Android, senza che gli sviluppatori debbano ricrearli a mano.",
+      "es": "Lottie convierte animaciones de After Effects en archivos pequeños que se ejecutan sin problemas en Android, sin que los desarrolladores tengan que volver a crear cada detalle.",
+      "fr": "Lottie transforme les animations After Effects en fichiers légers qui s’exécutent parfaitement sur Android, sans que les développeurs aient à les recréer manuellement.",
+      "de": "Lottie wandelt After‑Effects‑Animationen in kleine Dateien um, die auf Android reibungslos laufen, ohne dass Entwickler sie von Hand neu erstellen müssen."
+    },
+    "download_url": "https://airbnb.io/lottie/",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "kitty",
@@ -5095,6 +5207,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "seal",
+    "name": "Seal",
+    "tagline": "Free Android video downloader",
+    "repo_url": "https://github.com/junkfood02/seal",
+    "full_name": "junkfood02/seal",
+    "category": "Video & Audio",
+    "tags": [
+      "downloader",
+      "android"
+    ],
+    "icon": "/icons/seal.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 30982,
+    "tier": "tier1_gui",
+    "summary": "Seal lets you save videos and audio from popular websites directly to your phone.",
+    "i18n": {
+      "it": "Seal ti permette di salvare video e audio da siti web popolari direttamente sul telefono.",
+      "es": "Seal te permite guardar videos y audio de sitios web populares directamente en tu teléfono.",
+      "fr": "Seal vous permet d'enregistrer des vidéos et de l'audio depuis des sites web populaires directement sur votre téléphone.",
+      "de": "Seal ermöglicht es Ihnen, Videos und Audio von beliebten Websites direkt auf Ihr Telefon zu speichern."
+    },
+    "download_url": "https://github.com/JunkFood02/Seal/releases/download/v1.13.1/Seal-1.13.1-arm64-v8a-release.apk",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "dsh-go",
     "name": "dsh-Go",
     "tagline": "Pocket assistant and remote computer controller",
@@ -5235,6 +5375,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ente",
+    "name": "ente",
+    "tagline": "Secure private cloud storage for everyone",
+    "repo_url": "https://github.com/ente/ente",
+    "full_name": "ente/ente",
+    "category": "Productivity",
+    "tags": [
+      "cloud",
+      "encryption"
+    ],
+    "icon": "/icons/ente.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (AGPL v3)",
+    "stars": 30455,
+    "tier": "tier1_gui",
+    "summary": "Store your photos, passwords, and documents in a fully encrypted cloud that keeps your personal data private and secure.",
+    "i18n": {
+      "it": "Conserva foto, password e documenti in un cloud completamente cifrato che protegge i tuoi dati personali.",
+      "es": "Guarda tus fotos, contraseñas y documentos en una nube totalmente cifrada que mantiene tus datos privados.",
+      "fr": "Enregistrez vos photos, mots de passe et documents dans un cloud entièrement chiffré qui protège vos données.",
+      "de": "Speichern Sie Fotos, Passwörter und Dokumente in einer voll verschlüsselten Cloud, die Ihre Daten schützt."
+    },
+    "download_url": "https://github.com/ente/ente/releases/download/locker-v1.0.13/ente-locker-v1.0.13.apk",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "kestra",
     "name": "Kestra",
     "tagline": "Automate and coordinate everyday business workflows.",
@@ -5261,6 +5429,34 @@
     },
     "download_url": "https://github.com/kestra-io/kestra/releases/download/v2.0.11/checksums_sha256.txt",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "revanced-manager",
+    "name": "revanced-manager",
+    "tagline": "Custom Android App Enhancer",
+    "repo_url": "https://github.com/revanced/revanced-manager",
+    "full_name": "revanced/revanced-manager",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "app-patcher"
+    ],
+    "icon": "/icons/revanced-manager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 30234,
+    "tier": "tier1_gui",
+    "summary": "Revanced Manager lets you patch Android apps with custom features, download them automatically, and manage settings—all from a single app.",
+    "i18n": {
+      "it": "Revanced Manager ti permette di modificare le app Android con funzionalità personalizzate, scaricarle automaticamente e gestire le impostazioni da un'unica interfaccia.",
+      "es": "Revanced Manager te permite parchear apps Android con funciones personalizadas, descargarlas automáticamente y gestionar ajustes desde una sola aplicación.",
+      "fr": "Revanced Manager vous permet de patcher vos applications Android avec des fonctionnalités personnalisées, de les télécharger automatiquement et de gérer les paramètres depuis une seule application.",
+      "de": "Revanced Manager ermöglicht es Ihnen, Android‑Apps mit individuellen Funktionen zu patchen, sie automatisch herunterzuladen und Einstellungen von einer einzigen App aus zu verwalten."
+    },
+    "download_url": "https://github.com/ReVanced/revanced-manager/releases/download/v2.6.0/revanced-manager-2.6.0.apk",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "sim",
@@ -5569,6 +5765,34 @@
     },
     "download_url": "https://nx.dev",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "tvapp",
+    "name": "TVAPP",
+    "tagline": "Your ultimate hub for TV entertainment",
+    "repo_url": "https://github.com/youhunwl/tvapp",
+    "full_name": "youhunwl/tvapp",
+    "category": "Productivity",
+    "tags": [
+      "media",
+      "tv"
+    ],
+    "icon": "/icons/tvapp.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 29363,
+    "tier": "tier1_gui",
+    "summary": "TVAPP is a curated collection of high-quality Android TV applications for movies, live broadcasts, music, and gaming.",
+    "i18n": {
+      "it": "TVAPP è una raccolta curata di app Android TV per film, dirette, musica e giochi.",
+      "es": "TVAPP es una colección de aplicaciones Android TV para películas, televisión en vivo y juegos.",
+      "fr": "TVAPP est une collection d'applications Android TV pour les films, le direct et les jeux.",
+      "de": "TVAPP ist eine Sammlung von Android TV-Apps für Filme, Live-TV und Spiele."
+    },
+    "download_url": "https://app.iyouhun.com",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "wiki",
@@ -5905,6 +6129,34 @@
     },
     "download_url": "https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/download/0.20.39.5/Clash.for.Windows.Setup_Opt-5.arm64.exe",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "android-guides",
+    "name": "android_guides",
+    "tagline": "Free step‑by‑step Android learning guides",
+    "repo_url": "https://github.com/codepath/android_guides",
+    "full_name": "codepath/android_guides",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "learning"
+    ],
+    "icon": "/icons/android-guides.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (MIT)",
+    "stars": 28342,
+    "tier": "tier1_gui",
+    "summary": "A free, community‑maintained collection of clear Android tutorials that help you build apps without hunting outdated blog posts.",
+    "i18n": {
+      "it": "Una collezione gratuita e collaborativa di tutorial Android chiari che ti aiutano a creare app senza cercare post di blog obsoleti.",
+      "es": "Una colección gratuita y colaborativa de tutoriales Android claros que te ayuda a crear apps sin buscar publicaciones de blog desactualizadas.",
+      "fr": "Une collection gratuite et collaborative de tutoriels Android clairs qui vous aide à créer des applications sans chercher des articles de blog obsolètes.",
+      "de": "Eine kostenlose, gemeinschaftlich gepflegte Sammlung klarer Android‑Anleitungen, die beim Erstellen von Apps hilft, ohne veraltete Blog‑Beiträge zu durchsuchen."
+    },
+    "download_url": "https://github.com/codepath/android_guides/releases",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "glow",
@@ -8707,6 +8959,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "kernelsu",
+    "name": "KernelSU",
+    "tagline": "Advanced kernel-based root solution for Android.",
+    "repo_url": "https://github.com/tiann/kernelsu",
+    "full_name": "tiann/kernelsu",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "root"
+    ],
+    "icon": "/icons/kernelsu.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 20986,
+    "tier": "tier1_gui",
+    "summary": "KernelSU provides deep operating system access and custom module management directly inside the device core.",
+    "i18n": {
+      "it": "KernelSU offre accesso profondo al sistema operativo e gestione dei moduli direttamente nel nucleo del dispositivo.",
+      "es": "KernelSU proporciona acceso profundo al sistema operativo y gestión de módulos personalizados directamente en el núcleo.",
+      "fr": "KernelSU offre un accès profond au système d'exploitation et une gestion des modules directement au cœur de l'appareil.",
+      "de": "KernelSU bietet tiefen Zugriff auf das Betriebssystem und benutzerdefinierte Modulverwaltung direkt im Gerätekern."
+    },
+    "download_url": "https://github.com/tiann/KernelSU/releases/download/v3.3.1/ksud-x86_64-pc-windows-gnu.exe",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "translucenttb",
     "name": "TranslucentTB",
     "tagline": "Make your Windows taskbar completely transparent.",
@@ -9069,6 +9349,34 @@
     },
     "download_url": "https://typer.tiangolo.com/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "nativebase",
+    "name": "NativeBase",
+    "tagline": "Accessible components for mobile and web.",
+    "repo_url": "https://github.com/geekyants/nativebase",
+    "full_name": "geekyants/nativebase",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "design"
+    ],
+    "icon": "/icons/nativebase.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 20364,
+    "tier": "tier1_gui",
+    "summary": "NativeBase provides a collection of ready-to-use design elements that help you build consistent applications for phones and computers.",
+    "i18n": {
+      "it": "NativeBase offre una raccolta di elementi di design pronti all'uso per creare applicazioni coerenti su telefoni e computer.",
+      "es": "NativeBase ofrece una colección de elementos de diseño listos para usar para crear aplicaciones coherentes en teléfonos y ordenadores.",
+      "fr": "NativeBase propose une collection d'éléments de design prêts à l'emploi pour créer des applications cohérentes sur mobile et ordinateur.",
+      "de": "NativeBase bietet eine Sammlung gebrauchsfertiger Designelemente, mit denen Sie konsistente Anwendungen für Handys und Computer erstellen können."
+    },
+    "download_url": "https://nativebase.io/",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "ai-goofish-monitor",
@@ -22566,6 +22874,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "osx-proxmox",
+    "name": "OSX-PROXMOX",
+    "tagline": "Run macOS on any computer",
+    "repo_url": "https://github.com/luchina-gabriel/osx-proxmox",
+    "full_name": "luchina-gabriel/osx-proxmox",
+    "category": "Productivity",
+    "tags": [
+      "hackintosh",
+      "proxmox"
+    ],
+    "icon": "/icons/osx-proxmox.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Custom Open License",
+    "stars": 7978,
+    "tier": "tier1_gui",
+    "summary": "Easily install macOS on Proxmox VE, supporting both AMD and Intel hardware, with a simple script and step‑by‑step guide.",
+    "i18n": {
+      "it": "Installa facilmente macOS su Proxmox VE, compatibile con hardware AMD e Intel, con uno script semplice e una guida passo‑passo.",
+      "es": "Instala macOS en Proxmox VE de forma sencilla, compatible con hardware AMD e Intel, con un script y guía paso a paso.",
+      "fr": "Installez macOS sur Proxmox VE facilement, compatible avec matériel AMD et Intel, grâce à un script simple et un guide pas à pas.",
+      "de": "Installiere macOS auf Proxmox VE einfach, kompatibel mit AMD- und Intel-Hardware, mit einem einfachen Skript und Schritt‑für‑Schritt‑Anleitung."
+    },
+    "download_url": "https://osx-proxmox.com",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "phpmyadmin",
     "name": "phpMyAdmin",
     "tagline": "Manage your databases through a web browser",
@@ -22956,6 +23292,34 @@
     },
     "download_url": "https://www.mandiant.com/resources/blog/commando-vm-windows-offensive-distribution",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "iptvnator",
+    "name": "IPTVnator",
+    "tagline": "Free, open-source IPTV player",
+    "repo_url": "https://github.com/4gray/iptvnator",
+    "full_name": "4gray/iptvnator",
+    "category": "Productivity",
+    "tags": [
+      "iptv",
+      "media-player"
+    ],
+    "icon": "/icons/iptvnator.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (MIT)",
+    "stars": 7835,
+    "tier": "tier1_gui",
+    "summary": "Watch live TV, movies, and series from your own playlists or accounts on any device.",
+    "i18n": {
+      "it": "Guarda TV in diretta, film e serie dalle tue playlist o account su qualsiasi dispositivo.",
+      "es": "Mira TV en vivo, películas y series desde tus propias listas o cuentas en cualquier dispositivo.",
+      "fr": "Regardez la TV en direct, des films et des séries depuis vos propres listes ou comptes sur n'importe quel appareil.",
+      "de": "Sehen Sie Live-Fernsehen, Filme und Serien von Ihren eigenen Playlists oder Konten auf jedem Gerät."
+    },
+    "download_url": "https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-windows-x64-setup.exe",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "oni2",
@@ -25002,6 +25366,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "itlwm",
+    "name": "itlwm",
+    "tagline": "Intel Wi-Fi drivers for macOS systems",
+    "repo_url": "https://github.com/openintelwireless/itlwm",
+    "full_name": "openintelwireless/itlwm",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "drivers"
+    ],
+    "icon": "/icons/itlwm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (GPL v2)",
+    "stars": 7129,
+    "tier": "tier1_gui",
+    "summary": "Enable Intel wireless network cards on macOS computers by bridging hardware support for seamless everyday internet connectivity.",
+    "i18n": {
+      "it": "Abilita le schede di rete wireless Intel sui computer macOS integrando il supporto hardware per una connessione fluida.",
+      "es": "Habilita tarjetas de red inalámbricas Intel en ordenadores macOS integrando soporte de hardware para una conexión fluida.",
+      "fr": "Activez les cartes réseau sans fil Intel sur les ordinateurs macOS en intégrant le support matériel pour une connexion fluide.",
+      "de": "Aktivieren Sie Intel WLAN-Karten auf macOS-Computern durch Integration der Hardware-Unterstützung für nahtloses Internet."
+    },
+    "download_url": "https://OpenIntelWireless.github.io/itlwm/",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "blocky",
     "name": "Blocky",
     "tagline": "Fast, private ad-blocking for your network",
@@ -25280,6 +25672,34 @@
     },
     "download_url": "https://github.com/ProxymanApp/Proxyman/releases/download/26.5.1/Proxyman_26.5.1.dmg",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "vimr",
+    "name": "VimR",
+    "tagline": "Powerful Neovim GUI for macOS",
+    "repo_url": "https://github.com/qvacua/vimr",
+    "full_name": "qvacua/vimr",
+    "category": "Productivity",
+    "tags": [
+      "text-editor",
+      "writing"
+    ],
+    "icon": "/icons/vimr.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 7016,
+    "tier": "tier1_gui",
+    "summary": "VimR brings the powerful Neovim editor to macOS with a clean GUI, making coding faster and more enjoyable.",
+    "i18n": {
+      "it": "VimR porta l'editor Neovim su macOS con un'interfaccia pulita, rendendo la programmazione più veloce e piacevole.",
+      "es": "VimR lleva el editor Neovim a macOS con una interfaz limpia, haciendo la codificación más rápida y agradable.",
+      "fr": "VimR apporte l'éditeur Neovim sur macOS avec une interface propre, rendant la programmation plus rapide et agréable.",
+      "de": "VimR bringt den Neovim-Editor auf macOS mit einer sauberen Oberfläche, sodass das Programmieren schneller und angenehmer wird."
+    },
+    "download_url": "https://github.com/qvacua/vimr/releases/download/v0.67.0-20261010.130648/VimR-v0.67.0.tar.bz2",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "fkill-cli",
@@ -26514,6 +26934,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "opendisplay",
+    "name": "opendisplay",
+    "tagline": "Turn spare devices into second monitors",
+    "repo_url": "https://github.com/peetzweg/opendisplay",
+    "full_name": "peetzweg/opendisplay",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "display"
+    ],
+    "icon": "/icons/opendisplay.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 6549,
+    "tier": "tier1_gui",
+    "summary": "Use an iPhone, iPad, or spare Mac as a true second display for your computer without restrictions or subscriptions.",
+    "i18n": {
+      "it": "Usa un iPhone, iPad o Mac di riserva come vero secondo schermo per il tuo computer senza abbonamenti o restrizioni.",
+      "es": "Usa un iPhone, iPad o Mac adicional como una verdadera segunda pantalla para tu ordenador sin restricciones ni pagos.",
+      "fr": "Utilisez un iPhone, iPad ou Mac de rechange comme véritable second écran pour votre ordinateur sans aucun abonnement.",
+      "de": "Nutze ein iPhone, iPad oder einen alten Mac als echten Zweitbildschirm für deinen Computer ganz ohne Abonnements."
+    },
+    "download_url": "https://github.com/peetzweg/opendisplay/releases/download/v1.30.3/OpenDisplay.dmg",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "cava",
     "name": "cava",
     "tagline": "Beautiful audio visualizer for your screen",
@@ -26624,6 +27072,34 @@
     },
     "download_url": "https://github.com/tconbeer/harlequin/releases/download/v2.17.0/harlequin-2.17.0-py3-none-any.whl",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "tablepro",
+    "name": "TablePro",
+    "tagline": "Free native database manager",
+    "repo_url": "https://github.com/tableproapp/tablepro",
+    "full_name": "tableproapp/tablepro",
+    "category": "Productivity",
+    "tags": [
+      "database",
+      "productivity"
+    ],
+    "icon": "/icons/tablepro.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Linux, iOS",
+    "license": "Open Source (AGPL v3)",
+    "stars": 6531,
+    "tier": "tier1_gui",
+    "summary": "TablePro is a free, open-source tool that lets you view and edit data in various databases directly on your Mac, iPhone, or Linux computer.",
+    "i18n": {
+      "it": "TablePro è uno strumento gratuito e open source che ti permette di visualizzare e modificare i dati nei database direttamente su Mac, iPhone o computer Linux.",
+      "es": "TablePro es una herramienta gratuita y de código abierto que te permite ver y editar datos en bases de datos directamente en tu Mac, iPhone o computadora Linux.",
+      "fr": "TablePro est un outil gratuit et open source qui vous permet de consulter et de modifier des données dans des bases de données directement sur votre Mac, iPhone ou ordinateur Linux.",
+      "de": "TablePro ist ein kostenloses Open-Source-Tool, mit dem Sie Daten in Datenbanken direkt auf Ihrem Mac, iPhone oder Linux-Computer anzeigen und bearbeiten können."
+    },
+    "download_url": "https://github.com/TableProApp/TablePro/releases/download/v0.88.0/TablePro-0.88.0.dmg",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "vcards",
@@ -40624,6 +41100,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "dino",
+    "name": "Dino",
+    "tagline": "Secure chat for Linux desktops",
+    "repo_url": "https://github.com/dino/dino",
+    "full_name": "dino/dino",
+    "category": "Productivity",
+    "tags": [
+      "chat",
+      "linux"
+    ],
+    "icon": "/icons/dino.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 2508,
+    "tier": "tier1_gui",
+    "summary": "Dino lets you send instant messages, make voice calls, share files, and chat in groups on Linux, all with built‑in privacy protection.",
+    "i18n": {
+      "it": "Dino ti permette di inviare messaggi, fare chiamate vocali, condividere file e partecipare a gruppi su Linux, con protezione della privacy integrata.",
+      "es": "Dino te permite enviar mensajes, hacer llamadas de voz, compartir archivos y conversar en grupos en Linux, con privacidad incorporada.",
+      "fr": "Dino vous permet d’envoyer des messages, de passer des appels vocaux, de partager des fichiers et de discuter en groupe sur Linux, tout en protégeant votre vie privée.",
+      "de": "Dino ermöglicht das Senden von Nachrichten, Sprach‑Anrufe, das Teilen von Dateien und Gruppen‑Chats auf Linux, mit eingebautem Datenschutz."
+    },
+    "download_url": "https://github.com/dino/dino/releases/download/v0.5.1/dino-0.5.1.tar.gz.asc",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "thatproject",
     "name": "ThatProject",
     "tagline": "Exciting microcontroller and hardware DIY tutorials",
@@ -48520,6 +49024,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "astal",
+    "name": "Astal",
+    "tagline": "Build custom desktop shells easily",
+    "repo_url": "https://github.com/aylur/astal",
+    "full_name": "aylur/astal",
+    "category": "Productivity",
+    "tags": [
+      "desktop",
+      "customization"
+    ],
+    "icon": "/icons/astal.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (LGPL)",
+    "stars": 1006,
+    "tier": "tier1_gui",
+    "summary": "Astal provides powerful building blocks to help you design lightweight widgets and fully personalized desktop shells from scratch.",
+    "i18n": {
+      "it": "Astal fornisce potenti componenti per progettare widget leggeri e interfacce desktop completamente personalizzate.",
+      "es": "Astal ofrece componentes potentes para diseñar widgets ligeros y escritorios completamente personalizados.",
+      "fr": "Astal fournit des composants puissants pour concevoir des widgets légers et des bureaux personnalisés.",
+      "de": "Astal bietet leistungsstarke Bausteine, um leichte Widgets und personalisierte Desktop-Umgebungen zu gestalten."
+    },
+    "download_url": "https://astal.dev",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "hanshuang-codex",
     "name": "Hanshuang Codex",
     "tagline": "Easily manage AI tools and custom developer memory profiles.",
@@ -50060,6 +50592,62 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "gruvbox-plus-icon-pack",
+    "name": "Gruvbox Plus Icon Pack",
+    "tagline": "Warm, cohesive Linux icons",
+    "repo_url": "https://github.com/syleleuth/gruvbox-plus-icon-pack",
+    "full_name": "syleleuth/gruvbox-plus-icon-pack",
+    "category": "Productivity",
+    "tags": [
+      "linux",
+      "icons"
+    ],
+    "icon": "/icons/gruvbox-plus-icon-pack.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 837,
+    "tier": "tier1_gui",
+    "summary": "A comprehensive icon set for Linux desktops that brings a warm, earthy color palette to your applications, folders, and system files.",
+    "i18n": {
+      "it": "Un set di icone completo per desktop Linux che porta una palette di colori calda e terrosa alle tue applicazioni e cartelle.",
+      "es": "Un conjunto de iconas completo para escritorio Linux que aporta una paleta de colores cálida y terrosa a tus aplicaciones y carpetas.",
+      "fr": "Un ensemble d'icônes complet pour les bureaux Linux qui apporte une palette de couleurs chaude et terreuse à vos applications et dossiers.",
+      "de": "Ein umfassendes Icon-Paket für Linux-Desktops, das eine warme, erdige Farbpalette für Ihre Anwendungen und Ordner bereitstellt."
+    },
+    "download_url": "https://github.com/SylEleuth/gruvbox-plus-icon-pack/releases/download/v6.7.0/folders-color-chooser",
+    "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "skykeep",
+    "name": "Skykeep",
+    "tagline": "Your iCloud apps on any computer.",
+    "repo_url": "https://github.com/yashwanthkamireddi/skykeep",
+    "full_name": "yashwanthkamireddi/skykeep",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "cloud"
+    ],
+    "icon": "/icons/skykeep.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 835,
+    "tier": "tier1_gui",
+    "summary": "Skykeep brings your Apple notes, photos, and files to Windows and Linux as native apps that work offline.",
+    "i18n": {
+      "it": "Skykeep porta le tue note, foto e file Apple su Windows e Linux come app native che funzionano offline.",
+      "es": "Skykeep lleva tus notas, fotos y archivos de Apple a Windows y Linux como aplicaciones nativas que funcionan sin conexión.",
+      "fr": "Skykeep apporte vos notes, photos et fichiers Apple sur Windows et Linux sous forme d'applications natives fonctionnant hors ligne.",
+      "de": "Skykeep bringt deine Apple-Notizen, Fotos und Dateien als native Apps, die offline funktionieren, auf Windows und Linux."
+    },
+    "download_url": "https://github.com/YashwanthKamireddi/Skykeep/releases/download/v0.1.40/Skykeep-windows-x64-setup.exe",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "vue-crud",
     "name": "Vue CRUD",
     "tagline": "Speedy data management interface builder",
@@ -50954,6 +51542,34 @@
     },
     "download_url": "https://xibosignage.com",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "stream-tube-desktop",
+    "name": "Stream‑Tube‑Desktop",
+    "tagline": "Ad‑free YouTube desktop player",
+    "repo_url": "https://github.com/avaneesh-inamdar/stream-tube-desktop",
+    "full_name": "avaneesh-inamdar/stream-tube-desktop",
+    "category": "Productivity",
+    "tags": [
+      "youtube",
+      "desktop"
+    ],
+    "icon": "/icons/stream-tube-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 743,
+    "tier": "tier1_gui",
+    "summary": "Stream Tube lets you watch YouTube videos on your computer without any ads, pop‑ups or tracking, and works even when you’re offline.",
+    "i18n": {
+      "it": "Stream Tube ti permette di guardare i video di YouTube sul computer senza pubblicità, pop‑up o tracciamento, anche offline.",
+      "es": "Stream Tube te permite ver videos de YouTube en tu PC sin anuncios, ventanas emergentes ni rastreo, incluso sin conexión.",
+      "fr": "Stream Tube vous permet de regarder des vidéos YouTube sur votre ordinateur sans publicités, pop‑ups ni suivi, même hors ligne.",
+      "de": "Stream Tube ermöglicht das Ansehen von YouTube‑Videos auf dem PC ohne Werbung, Pop‑ups oder Tracking, sogar offline."
+    },
+    "download_url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop/releases",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "httptoolkit-desktop",
@@ -51964,6 +52580,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "plasma-smart-video-wallpaper-reborn",
+    "name": "Smart Video Wallpaper Reborn",
+    "tagline": "Play live videos on your desktop",
+    "repo_url": "https://github.com/luisbocanegra/plasma-smart-video-wallpaper-reborn",
+    "full_name": "luisbocanegra/plasma-smart-video-wallpaper-reborn",
+    "category": "Productivity",
+    "tags": [
+      "wallpaper",
+      "customization"
+    ],
+    "icon": "/icons/plasma-smart-video-wallpaper-reborn.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 640,
+    "tier": "tier1_gui",
+    "summary": "Transform your computer screen into a lively video background with custom playback controls, battery saving modes, and seamless transitions.",
+    "i18n": {
+      "it": "Transform your computer screen into a lively video background with custom playback controls, battery saving modes, and seamless transitions.",
+      "es": "Transform your computer screen into a lively video background with custom playback controls, battery saving modes, and seamless transitions.",
+      "fr": "Transform your computer screen into a lively video background with custom playback controls, battery saving modes, and seamless transitions.",
+      "de": "Transform your computer screen into a lively video background with custom playback controls, battery saving modes, and seamless transitions."
+    },
+    "download_url": "https://store.kde.org/p/2139746",
+    "updated_at": "2026-11-24"
+  },
+  {
     "slug": "tauri-tutorial",
     "name": "Tauri Tutorial",
     "tagline": "Build lightweight cross-platform desktop applications easily.",
@@ -52186,6 +52830,34 @@
     },
     "download_url": "https://typemill.net",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "energy",
+    "name": "Energy",
+    "tagline": "Build desktop apps with Go and Web",
+    "repo_url": "https://github.com/energye/energy",
+    "full_name": "energye/energy",
+    "category": "Productivity",
+    "tags": [
+      "desktop-development",
+      "go-language"
+    ],
+    "icon": "/icons/energy.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 621,
+    "tier": "tier1_gui",
+    "summary": "Energy is a free toolkit that lets developers create cross-platform desktop applications using Go code and standard web technologies like HTML and CSS.",
+    "i18n": {
+      "it": "Energy è un toolkit gratuito che consente agli sviluppatori di creare applicazioni desktop multipiattaforma utilizzando codice Go e tecnologie web standard come HTML e CSS.",
+      "es": "Energy es un kit de herramientas gratuito que permite a los desarrolladores crear aplicaciones de escritorio multiplataforma utilizando código Go y tecnologías web estándar como HTML y CSS.",
+      "fr": "Energy est un kit d'outils gratuit qui permet aux développeurs de créer des applications de bureau multiplateformes en utilisant du code Go et des technologies web standard comme HTML et CSS.",
+      "de": "Energy ist ein kostenloses Toolkit, das Entwicklern ermöglicht, plattformübergreifende Desktop-Anwendungen mit Go-Code und Standard-Webtechnologien wie HTML und CSS zu erstellen."
+    },
+    "download_url": "https://energye.github.io",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "wayland",
@@ -52718,6 +53390,34 @@
     },
     "download_url": "https://www.laracms.cn/",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "connmap",
+    "name": "connmap",
+    "tagline": "Live map of your network peers",
+    "repo_url": "https://github.com/cantrepro/connmap",
+    "full_name": "cantrepro/connmap",
+    "category": "Productivity",
+    "tags": [
+      "network",
+      "visualization"
+    ],
+    "icon": "/icons/connmap.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 583,
+    "tier": "tier1_gui",
+    "summary": "connmap puts a small map on your desktop that instantly shows where each device you’re connected to is located around the world.",
+    "i18n": {
+      "it": "connmap aggiunge una piccola mappa sul desktop che indica subito la posizione geografica di tutti i dispositivi con cui sei connesso.",
+      "es": "connmap coloca un pequeño mapa en tu escritorio que muestra al instante la ubicación geográfica de cada dispositivo al que estás conectado.",
+      "fr": "connmap place une petite carte sur votre bureau qui indique immédiatement la localisation géographique de chaque appareil auquel vous êtes connecté.",
+      "de": "connmap zeigt auf Ihrem Desktop eine kleine Karte, die sofort den geografischen Standort jedes Geräts anzeigt, mit dem Sie verbunden sind."
+    },
+    "download_url": "https://github.com/cantrepro/connmap/releases",
+    "updated_at": "2026-11-24"
   },
   {
     "slug": "jivejdon",
