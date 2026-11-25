@@ -19430,6 +19430,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "uhabits",
+    "name": "Loop Habit Tracker",
+    "tagline": "Build better habits with simple tracking",
+    "repo_url": "https://github.com/isoron/uhabits",
+    "full_name": "isoron/uhabits",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "habits"
+    ],
+    "icon": "/icons/uhabits.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 10451,
+    "tier": "tier1_gui",
+    "summary": "Loop Habit Tracker helps you build and maintain positive daily routines through detailed progress charts, gentle reminders, and complete privacy.",
+    "i18n": {
+      "it": "Monitora le tue abitudini quotidiane e raggiungi obiettivi a lungo termine con statistiche dettagliate e totale privacy.",
+      "es": "Desarrolla rutinas positivas y alcanza tus metas a largo plazo con gráficos detallados, recordatorios y total privacidad.",
+      "fr": "Suivez vos routines quotidiennes et atteignez vos objectifs à long terme grâce à des graphiques détaillés et sans publicité.",
+      "de": "Behalte deine täglichen Routinen im Blick und erreiche langfristige Ziele mit detaillierten Diagrammen und voller Privatsphäre."
+    },
+    "download_url": "https://github.com/iSoron/uhabits/releases/download/v2.3.2/loop-2.3.2-debug.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "dnsserver",
     "name": "Technitium DNS Server",
     "tagline": "Private, secure, and ad-free internet browsing.",
@@ -19794,6 +19822,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "react-native-calendars",
+    "name": "React Native Calendars",
+    "tagline": "Beautiful custom calendar tools for mobile apps",
+    "repo_url": "https://github.com/wix/react-native-calendars",
+    "full_name": "wix/react-native-calendars",
+    "category": "Productivity",
+    "tags": [
+      "calendar",
+      "mobile"
+    ],
+    "icon": "/icons/react-native-calendars.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 10324,
+    "tier": "tier1_gui",
+    "summary": "Easily add fully customizable, smooth-scrolling date selection calendars and event planners to your mobile applications.",
+    "i18n": {
+      "it": "Aggiungi facilmente calendari di selezione date scorrevoli e pianificatori di eventi personalizzabili alle tue app.",
+      "es": "Agrega fácilmente calendarios de selección de fechas y planificadores de eventos personalizables a tus aplicaciones.",
+      "fr": "Ajoutez facilement des calendriers de sélection de dates fluides et des planificateurs d'événements à vos applications.",
+      "de": "Fügen Sie Ihren mobilen Apps ganz einfach anpassbare, reibungslos scrollende Datumsauswahl- und Eventplaner hinzu."
+    },
+    "download_url": "https://github.com/wix/react-native-calendars/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "tkinter-designer",
     "name": "Tkinter Designer",
     "tagline": "Turn design mockups into Python interfaces instantly.",
@@ -19876,6 +19932,34 @@
     },
     "download_url": "https://microsoft.github.io/UFO/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "mvparms",
+    "name": "MVPArms",
+    "tagline": "Streamline Android app development easily",
+    "repo_url": "https://github.com/jessyancoding/mvparms",
+    "full_name": "jessyancoding/mvparms",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "development"
+    ],
+    "icon": "/icons/mvparms.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 10221,
+    "tier": "tier1_gui",
+    "summary": "Accelerate Android app creation using a structured, pre-configured toolkit that bundles popular industry development tools together.",
+    "i18n": {
+      "it": "Accelera la creazione di app Android utilizzando un kit di strumenti strutturato che unisce risorse popolari.",
+      "es": "Acelera la creación de apps para Android utilizando un conjunto de herramientas estructurado y preconfigurado.",
+      "fr": "Accélérez la création d'applications Android à l'aide d'un ensemble d'outils structurés et préconfigurés.",
+      "de": "Beschleunigen Sie die Android-Entwicklung mit einem strukturierten Toolkit, das beliebte Bibliotheken bündelt."
+    },
+    "download_url": "https://github.com/JessYanCoding/MVPArms/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "finetune",
@@ -20156,6 +20240,34 @@
     },
     "download_url": "https://github.com/superplanehq/superplane/releases/download/fleet-manager/v0.1.7/checksums.txt",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "mobilerun",
+    "name": "Mobilerun",
+    "tagline": "Control mobile phones with everyday text.",
+    "repo_url": "https://github.com/droidrun/mobilerun",
+    "full_name": "droidrun/mobilerun",
+    "category": "Productivity",
+    "tags": [
+      "automation",
+      "mobile"
+    ],
+    "icon": "/icons/mobilerun.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (MIT)",
+    "stars": 10111,
+    "tier": "tier1_gui",
+    "summary": "Automate Android and iOS devices using simple everyday language commands.",
+    "i18n": {
+      "it": "Automatizza dispositivi Android e iOS usando semplici comandi di linguaggio quotidiano senza toccare lo schermo manualmente.",
+      "es": "Automatiza dispositivos Android e iOS usando sencillos comandos de lenguaje natural sin necesidad de toques manuales.",
+      "fr": "Automatisez les appareils Android et iOS à l'aide de simples commandes textuelles sans manipulations manuelles fastidieuses.",
+      "de": "Automatisieren Sie Android- und iOS-Geräte mithilfe einfacher Spracheingaben, ohne mühsame manuelle Bedienung."
+    },
+    "download_url": "https://mobilerun.ai/framework",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "miller",
@@ -20578,6 +20690,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "mika",
+    "name": "Mika",
+    "tagline": "Your personal on-device phone assistant.",
+    "repo_url": "https://github.com/wangzan101/mika",
+    "full_name": "wangzan101/mika",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/mika.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9881,
+    "tier": "tier1_gui",
+    "summary": "An intelligent Android agent that operates your apps and browser to complete daily tasks automatically.",
+    "i18n": {
+      "it": "Un assistente intelligente per Android che gestisce app e browser per completare le tue attività quotidiane.",
+      "es": "Un agente inteligente para Android que opera tus aplicaciones y el navegador para completar tareas diarias.",
+      "fr": "Un agent intelligent sur Android qui contrôle vos applications et votre navigateur pour accomplir vos tâches.",
+      "de": "Ein intelligenter Android-Agent, der Apps und Browser bedient, um tägliche Aufgaben automatisch zu erledigen."
+    },
+    "download_url": "https://github.com/wangzan101/Mika/releases/download/v0.1.50/Mika-v0.1.50-arm64.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "hunk",
     "name": "hunk",
     "tagline": "Interactive tool for reviewing code changes",
@@ -20604,6 +20744,62 @@
     },
     "download_url": "https://github.com/modem-dev/hunk/releases/download/v0.25.0/SHA256SUMS",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "glide-transformations",
+    "name": "glide-transformations",
+    "tagline": "Easy image effects for Android apps",
+    "repo_url": "https://github.com/wasabeef/glide-transformations",
+    "full_name": "wasabeef/glide-transformations",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "images"
+    ],
+    "icon": "/icons/glide-transformations.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9867,
+    "tier": "tier1_gui",
+    "summary": "Transform and filter your mobile app images effortlessly with a rich collection of visual adjustments built for Android developers.",
+    "i18n": {
+      "it": "Trasforma e filtra le immagini delle tue app mobili senza sforzo con una ricca raccolta di regolazioni visive per sviluppatori.",
+      "es": "Transforma y filtra las imágenes de tu aplicación móvil sin esfuerzo con una rica colección de ajustes visuales.",
+      "fr": "Transformez et filtrez les images de vos applications mobiles sans effort grâce à une riche collection de filtres visuels.",
+      "de": "Transformieren und filtern Sie Ihre App-Bilder mühelos mit einer reichhaltigen Sammlung visueller Effekte für Entwickler."
+    },
+    "download_url": "https://github.com/wasabeef/glide-transformations/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "android-security-awesome",
+    "name": "Android Security Awesome",
+    "tagline": "Ultimate directory for mobile security tools.",
+    "repo_url": "https://github.com/ashishb/android-security-awesome",
+    "full_name": "ashishb/android-security-awesome",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "security"
+    ],
+    "icon": "/icons/android-security-awesome.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9858,
+    "tier": "tier1_gui",
+    "summary": "Discover a massive curated directory of top-tier Android security testing tools, malware analyzers, and learning resources.",
+    "i18n": {
+      "it": "Esplora una vasta raccolta curata di strumenti per la sicurezza Android, analisi di malware e guide di studio.",
+      "es": "Explora una gran colección de herramientas de análisis de seguridad para Android, examinadores de malware y guías.",
+      "fr": "Découvrez une vaste sélection d'outils d'analyse de sécurité Android, de scanners de logiciels malveillants et de guides.",
+      "de": "Entdecken Sie eine riesige Sammlung von Android-Sicherheitstools, Malware-Analysatoren und Lernressourcen."
+    },
+    "download_url": "https://github.com/ashishb/android-security-awesome/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "kaneo",
@@ -20744,6 +20940,34 @@
     },
     "download_url": "https://psysh.org",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "operit",
+    "name": "Operit",
+    "tagline": "Powerful open-source AI agent for Android",
+    "repo_url": "https://github.com/aaswordman/operit",
+    "full_name": "aaswordman/operit",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "assistant"
+    ],
+    "icon": "/icons/operit.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (LGPL)",
+    "stars": 9820,
+    "tier": "tier1_gui",
+    "summary": "Operit is a versatile AI assistant for Android that connects smart models to your files, terminal, and apps for seamless automation.",
+    "i18n": {
+      "it": "Operit è un assistente AI versatile per Android che collega modelli intelligenti ai tuoi file, terminale e app per l'automazione.",
+      "es": "Operit es un asistente de IA versátil para Android que conecta modelos inteligentes a tus archivos, terminal y aplicaciones.",
+      "fr": "Operit est un assistant IA polyvalent pour Android qui connecte des modèles intelligents à vos fichiers, terminal et applications.",
+      "de": "Operit ist ein vielseitiger KI-Assistent für Android, der intelligente Modelle mit Ihren Dateien und Apps verbindet."
+    },
+    "download_url": "https://github.com/AAswordman/Operit/releases/download/v1.12.2/app-release.apk",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "console",
@@ -20914,6 +21138,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "avloadingindicatorview",
+    "name": "AVLoadingIndicatorView",
+    "tagline": "Collection of nice mobile loading animations",
+    "repo_url": "https://github.com/harlonwang/avloadingindicatorview",
+    "full_name": "harlonwang/avloadingindicatorview",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "animation"
+    ],
+    "icon": "/icons/avloadingindicatorview.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 9737,
+    "tier": "tier1_gui",
+    "summary": "Discover a diverse collection of smooth loading animations for Android applications to enhance user wait times.",
+    "i18n": {
+      "it": "Scopri una vasta raccolta di fluide animazioni di caricamento per app Android per migliorare i tempi di attesa.",
+      "es": "Descubre una diversa colección de fluidas animaciones de carga para aplicaciones móviles y mejora las esperas.",
+      "fr": "Découvrez une collection variée d'animations de chargement fluides pour applications Android afin d'embellir les attentes.",
+      "de": "Entdecken Sie eine vielfältige Sammlung flüssiger Ladeanimationen für Android-Anwendungen zur besseren Wartezeit."
+    },
+    "download_url": "https://github.com/HarlonWang/AVLoadingIndicatorView/releases/download/1.0.1/app-debug.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "tinycast",
     "name": "Tinycast",
     "tagline": "Lightning fast native macOS productivity launcher",
@@ -20940,6 +21192,34 @@
     },
     "download_url": "https://github.com/abue-ammar/tinycast/releases/download/v0.12.15/Tinycast-0.12.15.dmg",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "appmanager",
+    "name": "AppManager",
+    "tagline": "Advanced package manager for Android devices",
+    "repo_url": "https://github.com/muntashirakon/appmanager",
+    "full_name": "muntashirakon/appmanager",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "utilities"
+    ],
+    "icon": "/icons/appmanager.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 9722,
+    "tier": "tier1_gui",
+    "summary": "Take full control of your mobile applications, track down hidden software trackers, and manage device permissions easily.",
+    "i18n": {
+      "it": "Prendi il controllo totale delle tue app, individua tracker nascosti e gestisci i permessi del tuo dispositivo.",
+      "es": "Toma el control total de tus aplicaciones, detecta rastreadores ocultos y administra permisos fácilmente.",
+      "fr": "Prenez le contrôle total de vos applications, traquez les traceurs cachés et gérez vos autorisations.",
+      "de": "Behalten Sie die vollständige Kontrolle über Ihre Apps, finden Sie versteckte Tracker und verwalten Sie Berechtigungen."
+    },
+    "download_url": "https://github.com/MuntashirAkon/AppManager/releases/download/v4.1.1/AppManager_v4.1.1.apk",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "grocy",
@@ -21054,6 +21334,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "react-native-vision-camera",
+    "name": "React Native Vision Camera",
+    "tagline": "High-performance camera toolkit for apps",
+    "repo_url": "https://github.com/margelo/react-native-vision-camera",
+    "full_name": "margelo/react-native-vision-camera",
+    "category": "Productivity",
+    "tags": [
+      "camera",
+      "mobile"
+    ],
+    "icon": "/icons/react-native-vision-camera.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 9665,
+    "tier": "tier1_gui",
+    "summary": "Capture high-resolution photos and videos effortlessly while scanning codes and applying live filters inside mobile apps.",
+    "i18n": {
+      "it": "Cattura foto e video in alta risoluzione mentre scansioni codici e applichi filtri in tempo reale.",
+      "es": "Captura fotos y videos de alta resolución mientras escaneas códigos y aplicas filtros en vivo.",
+      "fr": "Capturez des photos et des vidéos haute résolution tout en scannant des codes et des filtres.",
+      "de": "Erfassen Sie hochauflösende Fotos und Videos, scannen Sie Codes und nutzen Sie Live-Filter."
+    },
+    "download_url": "https://github.com/margelo/react-native-vision-camera/releases/download/v5.2.4/app-release.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "airtest",
     "name": "Airtest",
     "tagline": "Cross-platform visual test automation framework",
@@ -21080,6 +21388,34 @@
     },
     "download_url": "https://airtest.netease.com/",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "adaway",
+    "name": "AdAway",
+    "tagline": "Block mobile ads system-wide with ease.",
+    "repo_url": "https://github.com/adaway/adaway",
+    "full_name": "adaway/adaway",
+    "category": "Security & Privacy",
+    "tags": [
+      "android",
+      "ad-blocker"
+    ],
+    "icon": "/icons/adaway.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 9655,
+    "tier": "tier1_gui",
+    "summary": "AdAway is a free and open-source ad blocker for Android that cleans up your browsing and apps by filtering out unwanted advertisements.",
+    "i18n": {
+      "it": "AdAway è un blocco pubblicitario open source per Android che pulisce la navigazione e le app filtrando annunci indesiderati.",
+      "es": "AdAway es un bloqueador de anuncios de código abierto para Android que elimina la publicidad no deseada en tus aplicaciones.",
+      "fr": "AdAway est un bloqueur de publicités open source pour Android qui nettoie votre navigation et vos applications.",
+      "de": "AdAway ist ein quelloffener Werbeblocker für Android, der unerwünschte Anzeigen in Apps und Browsern herausfiltert."
+    },
+    "download_url": "https://github.com/AdAway/AdAway/releases/download/v6.1.4/AdAway-6.1.4-20241027.apk",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "self-hosted",
@@ -56696,6 +57032,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "ledgersmb",
+    "name": "LedgerSMB",
+    "tagline": "Free web-based accounting and ERP system",
+    "repo_url": "https://github.com/ledgersmb/ledgersmb",
+    "full_name": "ledgersmb/ledgersmb",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "accounting",
+      "erp"
+    ],
+    "icon": "/icons/ledgersmb.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 579,
+    "tier": "tier2_webapp",
+    "summary": "Manage business finances, invoices, and inventory securely using a web-based double-entry bookkeeping system.",
+    "i18n": {
+      "it": "Gestisci le finanze aziendali, le fatture e l'inventario in modo sicuro utilizzando un sistema contabile basato sul web.",
+      "es": "Administra las finanzas, facturas e inventario de tu negocio de forma segura con un sistema web de doble entrada.",
+      "fr": "Gérez les finances, factures et stocks de votre entreprise en toute sécurité grâce à un système de comptabilité web.",
+      "de": "Verwalten Sie Geschäftsfinanzen, Rechnungen und Bestände sicher mit einem webbasierten System für doppelte Buchführung."
+    },
+    "download_url": "https://github.com/ledgersmb/LedgerSMB/releases/download/1.13.9/ledgersmb-1.13.9.tar.gz.asc",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "kiri",
     "name": "Kiri",
     "tagline": "Capture screens, record video, extract text",
@@ -58376,6 +58740,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "e-tkt",
+    "name": "E-TKT",
+    "tagline": "Open-source DIY embossed label maker",
+    "repo_url": "https://github.com/andreisperid/e-tkt",
+    "full_name": "andreisperid/e-tkt",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "hardware",
+      "diy"
+    ],
+    "icon": "/icons/e-tkt.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 482,
+    "tier": "tier2_webapp",
+    "summary": "E-TKT is a custom-built, open-source device that lets you create embossed labels without relying on expensive or wasteful proprietary cartridges.",
+    "i18n": {
+      "it": "E-TKT è un dispositivo open source che permette di creare etichette a rilievo evitando l'uso di costose cartucce proprietarie.",
+      "es": "E-TKT es un dispositivo de código abierto que permite crear etiquetas en relieve sin depender de cartuchos costosos o contaminantes.",
+      "fr": "E-TKT est un appareil open source permettant de créer des étiquettes en relief sans dépendre de cartouches coûteuses ou polluantes.",
+      "de": "E-TKT ist ein Open-Source-Gerät zum Erstellen von Prägeetiketten, das ohne teure oder umweltschädliche proprietäre Kartuschen auskommt."
+    },
+    "download_url": "https://andreisperid.github.io/E-TKT/",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "leaa",
     "name": "leaa",
     "tagline": "Flexible content management system for modern apps",
@@ -58738,6 +59130,34 @@
     },
     "download_url": "https://neutralpress.net",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "slingcode",
+    "name": "Slingcode",
+    "tagline": "Run web apps offline",
+    "repo_url": "https://github.com/chr15m/slingcode",
+    "full_name": "chr15m/slingcode",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "offline",
+      "web-apps"
+    ],
+    "icon": "/icons/slingcode.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 428,
+    "tier": "tier2_webapp",
+    "summary": "Slingcode lets you create, run, and share simple web programs directly from a single HTML file, without software or internet connection.",
+    "i18n": {
+      "it": "Slingcode ti permette di creare, eseguire e condividere semplici programmi web da un unico file HTML, senza software aggiuntivo né connessione internet.",
+      "es": "Slingcode te permite crear, ejecutar y compartir programas web simples desde un solo archivo HTML, sin software adicional ni conexión a internet.",
+      "fr": "Slingcode vous permet de créer, lancer et partager de simples programmes web à partir d’un seul fichier HTML, sans logiciel supplémentaire ni connexion internet.",
+      "de": "Slingcode ermöglicht das Erstellen, Ausführen und Teilen einfacher Web‑Programme aus einer einzigen HTML‑Datei, ganz ohne zusätzliche Software oder Internetverbindung."
+    },
+    "download_url": "https://github.com/chr15m/slingcode/releases/download/0.2.2/slingcode.html",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "laradashboard",
@@ -59524,6 +59944,34 @@
     "updated_at": "2026-11-24"
   },
   {
+    "slug": "mirotalkwebrtc",
+    "name": "mirotalkwebrtc",
+    "tagline": "Self-hosted video meeting scheduler",
+    "repo_url": "https://github.com/miroslavpejic85/mirotalkwebrtc",
+    "full_name": "miroslavpejic85/mirotalkwebrtc",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "webrtc",
+      "video-conferencing"
+    ],
+    "icon": "/icons/mirotalkwebrtc.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 365,
+    "tier": "tier2_webapp",
+    "summary": "Create and manage your own private video meeting platform with custom scheduling, user dashboards, and secure room controls.",
+    "i18n": {
+      "it": "Crea e gestisci la tua piattaforma di riunioni video privata con pianificazione personalizzata e controlli sicuri.",
+      "es": "Crea y administra tu propia plataforma privada de videoconferencias con programación personalizada y controles seguros.",
+      "fr": "Créez et gérez votre propre plateforme de réunion vidéo privée avec planification personnalisée et contrôles sécurisés.",
+      "de": "Erstellen und verwalten Sie Ihre eigene private Videokonferenzplattform mit benutzerdefinierter Planung und sicheren Räumen."
+    },
+    "download_url": "https://webrtc.mirotalk.com",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "asn1crypto",
     "name": "asn1crypto",
     "tagline": "Fast Python library for security structures.",
@@ -59634,6 +60082,34 @@
     },
     "download_url": "https://github.com/eddy8/LightCMS/releases",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "wangmarket",
+    "name": "wangmarket",
+    "tagline": "Build and manage multiple websites instantly.",
+    "repo_url": "https://github.com/xnx3/wangmarket",
+    "full_name": "xnx3/wangmarket",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "website-builder",
+      "cms"
+    ],
+    "icon": "/icons/wangmarket.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 353,
+    "tier": "tier2_webapp",
+    "summary": "Launch and manage thousands of independent websites quickly on an ultra-efficient, private cloud system designed for maximum profitability and ease.",
+    "i18n": {
+      "it": "Avvia migliaia di siti web indipendenti con un sistema cloud efficiente progettato per la massima semplicità.",
+      "es": "Lanza y administra miles de sitios web independientes rápidamente en un sistema cloud eficiente y sencillo.",
+      "fr": "Lancez et gérez des milliers de sites web indépendants rapidement grâce à un système cloud très efficace.",
+      "de": "Starten und verwalten Sie Tausende unabhängiger Websites schnell auf einem effizienten Cloud-System."
+    },
+    "download_url": "https://www.wang.market",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "dorknet",
@@ -59830,6 +60306,34 @@
     },
     "download_url": "https://github.com/danielperna84/hass-configurator/releases",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "kromacut",
+    "name": "Kromacut",
+    "tagline": "Turn images into multicolor 3D prints",
+    "repo_url": "https://github.com/vycdev/kromacut",
+    "full_name": "vycdev/kromacut",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "3d-printing",
+      "image-editor"
+    ],
+    "icon": "/icons/kromacut.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 338,
+    "tier": "tier2_webapp",
+    "summary": "Transform regular pictures into gorgeous stacked, color-layered 3D prints with physics-based filament planning and automated previews.",
+    "i18n": {
+      "it": "Trasforma immagini ordinarie in splendide stampe 3D a strati colorati con pianificazione del filante e anteprime automatiche.",
+      "es": "Transforma imágenes comunes en hermosas impresiones 3D en capas con planificación de filamento y vistas previas automáticas.",
+      "fr": "Transformez des images ordinaires en superbes impressions 3D en couches colorées avec planification et aperçus automatiques.",
+      "de": "Verwandeln Sie gewöhnliche Bilder in atemberaubende mehrschichtige 3D-Drucke mit automatischer Filamentplanung und Vorschau."
+    },
+    "download_url": "https://github.com/vycdev/Kromacut/releases/download/v4.3.0/Kromacut_4.3.0_windows_x64_offline-setup.exe",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "easycms",
@@ -60112,6 +60616,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "zenphoto",
+    "name": "Zenphoto",
+    "tagline": "Simple self-hosted gallery and media CMS",
+    "repo_url": "https://github.com/zenphoto/zenphoto",
+    "full_name": "zenphoto/zenphoto",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "photography",
+      "cms"
+    ],
+    "icon": "/icons/zenphoto.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 319,
+    "tier": "tier2_webapp",
+    "summary": "Zenphoto is a lightweight self-hosted content manager built specifically to showcase photos, videos, and audio collections easily.",
+    "i18n": {
+      "it": "Zenphoto è un gestore di contenuti leggero e autonomo creato appositamente per mostrare foto, video e file audio.",
+      "es": "Zenphoto es un gestor de contenidos autohospedado y ligero diseñado específicamente para mostrar colecciones de fotos y videos.",
+      "fr": "Zenphoto est un gestionnaire de contenu léger auto-hébergé conçu spécifiquement pour présenter des photos, vidéos et audios.",
+      "de": "Zenphoto ist ein leichtgewichtiger Content-Manager zur einfachen Präsentation von Fotos, Videos und Audiodateien."
+    },
+    "download_url": "https://www.zenphoto.org",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "richie",
     "name": "richie",
     "tagline": "Build custom education portals and catalogs",
@@ -60166,6 +60698,34 @@
     },
     "download_url": "https://github.com/aspiers/git-deps/releases",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "qinvideo",
+    "name": "qinVideo",
+    "tagline": "Manage your own streaming and video site",
+    "repo_url": "https://github.com/qinmei/qinvideo",
+    "full_name": "qinmei/qinvideo",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "video",
+      "cms"
+    ],
+    "icon": "/icons/qinvideo.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 313,
+    "tier": "tier2_webapp",
+    "summary": "qinVideo is a complete video and content management system designed for hosting streaming media, anime, articles, and reader comments.",
+    "i18n": {
+      "it": "qinVideo è un sistema completo di gestione contenuti per ospitare file multimediali, anime, articoli e commenti.",
+      "es": "qinVideo es un sistema completo de gestión de contenidos para alojar multimedia, anime, artículos y comentarios.",
+      "fr": "qinVideo est un système complet de gestion de contenu pour héberger des médias, des animés et des articles.",
+      "de": "qinVideo ist ein umfassendes Inhaltsverwaltungssystem zum Hosting von Streaming-Medien, Anime und Artikeln."
+    },
+    "download_url": "https://qinvideo.org",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "firebase-cms",
@@ -60728,6 +61288,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "reader",
+    "name": "reader",
+    "tagline": "Clean distraction-free web TXT book reader",
+    "repo_url": "https://github.com/tiansh/reader",
+    "full_name": "tiansh/reader",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "reader",
+      "txt"
+    ],
+    "icon": "/icons/reader.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MPL 2.0)",
+    "stars": 276,
+    "tier": "tier2_webapp",
+    "summary": "A lightweight web app for reading TXT files offline with customizable layouts, word conversion, and speech playback.",
+    "i18n": {
+      "it": "Un'applicazione web leggera per leggere file di testo offline con layout personalizzabili e sintesi vocale.",
+      "es": "Una aplicación web ligera para leer archivos de texto sin conexión con diseños personalizables y voz.",
+      "fr": "Une application web légère pour lire des fichiers texte hors ligne avec des mises en page personnalisables.",
+      "de": "Eine leichte Web-App zum Offline-Lesen von Textdateien mit anpassbaren Layouts und Sprachwiedergabe."
+    },
+    "download_url": "https://tiansh.github.io/reader",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "g6",
     "name": "GNUBOARD6",
     "tagline": "Modern Python-based content management system",
@@ -60838,6 +61426,118 @@
     },
     "download_url": "https://www.xuanmo.xin/details/2987",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "memory-hole",
+    "name": "memory-hole",
+    "tagline": "Organize support tickets easily",
+    "repo_url": "https://github.com/yogthos/memory-hole",
+    "full_name": "yogthos/memory-hole",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "support",
+      "issue-tracker"
+    ],
+    "icon": "/icons/memory-hole.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 267,
+    "tier": "tier2_webapp",
+    "summary": "Memory Hole helps teams keep track of common support questions and their answers, making it simple to find the right solution fast.",
+    "i18n": {
+      "it": "Memory Hole consente ai team di tenere traccia delle domande di supporto più comuni e delle relative soluzioni, facilitando la ricerca della risposta giusta in pochi secondi.",
+      "es": "Memory Hole ayuda a los equipos a registrar preguntas frecuentes de soporte y sus respuestas, haciendo que encontrar la solución correcta sea rápido y sencillo.",
+      "fr": "Memory Hole permet aux équipes de suivre les questions de support courantes et leurs réponses, afin de retrouver rapidement la bonne solution.",
+      "de": "Memory Hole unterstützt Teams dabei, häufige Support‑Fragen und deren Antworten zu organisieren, sodass die passende Lösung schnell gefunden wird."
+    },
+    "download_url": "https://github.com/yogthos/memory-hole/releases/download/1.1/memory-hole.jar",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "reeddit",
+    "name": "reeddit",
+    "tagline": "Minimalist elastic reader for Reddit content",
+    "repo_url": "https://github.com/berbaquero/reeddit",
+    "full_name": "berbaquero/reeddit",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "reddit",
+      "reader"
+    ],
+    "icon": "/icons/reeddit.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 258,
+    "tier": "tier2_webapp",
+    "summary": "Reeddit is a clean, minimalist web reader that lets you browse and organize your favorite Reddit communities into custom streams.",
+    "i18n": {
+      "it": "Reeddit è un lettore web pulito e minimalista che ti permette di esplorare e organizzare le tue comunità preferite in flussi personalizzati.",
+      "es": "Reeddit es un lector web limpio y minimalista que te permite explorar y organizar tus comunidades favoritas de Reddit en flujos personalizados.",
+      "fr": "Reeddit est un lecteur web épuré et minimaliste qui vous permet de parcourir et d'organiser vos communautés préférées en flux personnalisés.",
+      "de": "Reeddit ist ein sauberer, minimalistischer Webreader, mit dem Sie Ihre Lieblings-Reddit-Communities in benutzerdefinierten Streams durchstöbern können."
+    },
+    "download_url": "https://reedditapp.com/about",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "aspnet-core-mvc",
+    "name": "aspnet-core-mvc",
+    "tagline": "Master modern web development step by step.",
+    "repo_url": "https://github.com/webgentle/aspnet-core-mvc",
+    "full_name": "webgentle/aspnet-core-mvc",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "tutorial",
+      "education"
+    ],
+    "icon": "/icons/aspnet-core-mvc.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 256,
+    "tier": "tier2_webapp",
+    "summary": "Learn how to build powerful web applications from scratch using structured video guides and practical examples.",
+    "i18n": {
+      "it": "Scopri come creare potenti applicazioni web da zero utilizzando guide video strutturate ed esempi pratici.",
+      "es": "Aprende a crear potentes aplicaciones web desde cero utilizando guías en video estructuradas y ejemplos prácticos.",
+      "fr": "Apprenez à créer de puissantes applications web à partir de zéro grâce à des tutoriels vidéo et des exemples.",
+      "de": "Lernen Sie, wie Sie leistungsstarke Webanwendungen von Grund auf mit strukturierten Videoguides erstellen."
+    },
+    "download_url": "https://webgentle.github.io/aspnet-core-mvc/",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "contribution-automation",
+    "name": "Contribution Automation",
+    "tagline": "Take control of your GitHub graph.",
+    "repo_url": "https://github.com/simarsinghrayat/contribution-automation",
+    "full_name": "simarsinghrayat/contribution-automation",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "github",
+      "automation"
+    ],
+    "icon": "/icons/contribution-automation.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 254,
+    "tier": "tier2_webapp",
+    "summary": "Manage and schedule your GitHub contributions effortlessly with a simple visual tool to keep your developer profile active.",
+    "i18n": {
+      "it": "Gestisci e programma i tuoi contributi GitHub con uno strumento visivo semplice per mantenere attivo il tuo profilo.",
+      "es": "Gestiona y programa tus contribuciones de GitHub sin esfuerzo con una herramienta visual sencilla para mantener activo tu perfil.",
+      "fr": "Gérez et planifiez vos contributions GitHub sans effort grâce à un outil visuel simple pour garder votre profil actif.",
+      "de": "Verwalten und planen Sie Ihre GitHub-Beiträge mühelos mit einem einfachen visuellen Tool, um Ihr Profil aktiv zu halten."
+    },
+    "download_url": "https://app-commit-ten.vercel.app",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "hubhum",

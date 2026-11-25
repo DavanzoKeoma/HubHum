@@ -56,27 +56,6 @@
     "queued_at": "2026-11-21T19:51:36.364589+00:00"
   },
   {
-    "full_name": "xnx3/wangmarket",
-    "slug": "wangmarket",
-    "html_url": "https://github.com/xnx3/wangmarket",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-23T22:59:16.247529+00:00"
-  },
-  {
-    "full_name": "zenphoto/zenphoto",
-    "slug": "zenphoto",
-    "html_url": "https://github.com/zenphoto/zenphoto",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:03:26.345051+00:00"
-  },
-  {
-    "full_name": "Qinmei/qinVideo",
-    "slug": "qinvideo",
-    "html_url": "https://github.com/Qinmei/qinVideo",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:03:37.545375+00:00"
-  },
-  {
     "full_name": "unhappychoice/gitlogue",
     "slug": "gitlogue",
     "html_url": "https://github.com/unhappychoice/gitlogue",
@@ -91,13 +70,6 @@
     "queued_at": "2026-11-24T06:52:52.852260+00:00"
   },
   {
-    "full_name": "ledgersmb/LedgerSMB",
-    "slug": "ledgersmb",
-    "html_url": "https://github.com/ledgersmb/LedgerSMB",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:09:14.052161+00:00"
-  },
-  {
     "full_name": "Bash-it/bash-it",
     "slug": "bash-it",
     "html_url": "https://github.com/Bash-it/bash-it",
@@ -110,13 +82,6 @@
     "html_url": "https://github.com/tstack/lnav",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T07:13:19.354436+00:00"
-  },
-  {
-    "full_name": "AAswordman/Operit",
-    "slug": "operit",
-    "html_url": "https://github.com/AAswordman/Operit",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:13:25.383392+00:00"
   },
   {
     "full_name": "achannarasappa/ticker",
@@ -259,88 +224,11 @@
     "queued_at": "2026-11-24T19:02:46.757526+00:00"
   },
   {
-    "full_name": "iSoron/uhabits",
-    "slug": "uhabits",
-    "html_url": "https://github.com/iSoron/uhabits",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:03:38.277131+00:00"
-  },
-  {
     "full_name": "RunanywhereAI/runanywhere-sdks",
     "slug": "runanywhere-sdks",
     "html_url": "https://github.com/RunanywhereAI/runanywhere-sdks",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T19:04:16.293898+00:00"
-  },
-  {
-    "full_name": "wix/react-native-calendars",
-    "slug": "react-native-calendars",
-    "html_url": "https://github.com/wix/react-native-calendars",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:04:32.670709+00:00"
-  },
-  {
-    "full_name": "JessYanCoding/MVPArms",
-    "slug": "mvparms",
-    "html_url": "https://github.com/JessYanCoding/MVPArms",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:04:45.151538+00:00"
-  },
-  {
-    "full_name": "droidrun/mobilerun",
-    "slug": "mobilerun",
-    "html_url": "https://github.com/droidrun/mobilerun",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:04:50.741433+00:00"
-  },
-  {
-    "full_name": "wasabeef/glide-transformations",
-    "slug": "glide-transformations",
-    "html_url": "https://github.com/wasabeef/glide-transformations",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:04:54.247224+00:00"
-  },
-  {
-    "full_name": "wangzan101/Mika",
-    "slug": "mika",
-    "html_url": "https://github.com/wangzan101/Mika",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:05:01.127833+00:00"
-  },
-  {
-    "full_name": "ashishb/android-security-awesome",
-    "slug": "android-security-awesome",
-    "html_url": "https://github.com/ashishb/android-security-awesome",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:05:09.065099+00:00"
-  },
-  {
-    "full_name": "HarlonWang/AVLoadingIndicatorView",
-    "slug": "avloadingindicatorview",
-    "html_url": "https://github.com/HarlonWang/AVLoadingIndicatorView",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:05:43.604223+00:00"
-  },
-  {
-    "full_name": "MuntashirAkon/AppManager",
-    "slug": "appmanager",
-    "html_url": "https://github.com/MuntashirAkon/AppManager",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:06:03.478427+00:00"
-  },
-  {
-    "full_name": "margelo/react-native-vision-camera",
-    "slug": "react-native-vision-camera",
-    "html_url": "https://github.com/margelo/react-native-vision-camera",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:06:09.945086+00:00"
-  },
-  {
-    "full_name": "AdAway/AdAway",
-    "slug": "adaway",
-    "html_url": "https://github.com/AdAway/AdAway",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:06:15.592896+00:00"
   },
   {
     "full_name": "koral--/android-gif-drawable",
@@ -733,33 +621,5 @@
     "html_url": "https://github.com/ReactiveX/RxSwift",
     "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T19:21:40.164424+00:00"
-  },
-  {
-    "full_name": "andreisperid/E-TKT",
-    "slug": "e-tkt",
-    "html_url": "https://github.com/andreisperid/E-TKT",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:30:35.082855+00:00"
-  },
-  {
-    "full_name": "chr15m/slingcode",
-    "slug": "slingcode",
-    "html_url": "https://github.com/chr15m/slingcode",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:31:02.187441+00:00"
-  },
-  {
-    "full_name": "miroslavpejic85/mirotalkwebrtc",
-    "slug": "mirotalkwebrtc",
-    "html_url": "https://github.com/miroslavpejic85/mirotalkwebrtc",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:32:54.795017+00:00"
-  },
-  {
-    "full_name": "vycdev/Kromacut",
-    "slug": "kromacut",
-    "html_url": "https://github.com/vycdev/Kromacut",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:33:38.299582+00:00"
   }
 ]
