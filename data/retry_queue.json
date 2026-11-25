@@ -56,46 +56,11 @@
     "queued_at": "2026-11-21T19:51:36.364589+00:00"
   },
   {
-    "full_name": "unhappychoice/gitlogue",
-    "slug": "gitlogue",
-    "html_url": "https://github.com/unhappychoice/gitlogue",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T23:15:07.952623+00:00"
-  },
-  {
     "full_name": "quexten/goldwarden",
     "slug": "goldwarden",
     "html_url": "https://github.com/quexten/goldwarden",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T06:52:52.852260+00:00"
-  },
-  {
-    "full_name": "Bash-it/bash-it",
-    "slug": "bash-it",
-    "html_url": "https://github.com/Bash-it/bash-it",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:11:35.635511+00:00"
-  },
-  {
-    "full_name": "tstack/lnav",
-    "slug": "lnav",
-    "html_url": "https://github.com/tstack/lnav",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:13:19.354436+00:00"
-  },
-  {
-    "full_name": "achannarasappa/ticker",
-    "slug": "ticker",
-    "html_url": "https://github.com/achannarasappa/ticker",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:14:58.609581+00:00"
-  },
-  {
-    "full_name": "ayn2op/discordo",
-    "slug": "discordo",
-    "html_url": "https://github.com/ayn2op/discordo",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:15:06.794745+00:00"
   },
   {
     "full_name": "amantus-ai/vibetunnel",
@@ -105,13 +70,6 @@
     "queued_at": "2026-11-24T07:16:46.171565+00:00"
   },
   {
-    "full_name": "schollz/progressbar",
-    "slug": "progressbar",
-    "html_url": "https://github.com/schollz/progressbar",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:16:50.041549+00:00"
-  },
-  {
     "full_name": "Guake/guake",
     "slug": "guake",
     "html_url": "https://github.com/Guake/guake",
@@ -119,81 +77,11 @@
     "queued_at": "2026-11-24T07:16:59.982757+00:00"
   },
   {
-    "full_name": "tmux-python/tmuxp",
-    "slug": "tmuxp",
-    "html_url": "https://github.com/tmux-python/tmuxp",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:17:02.069646+00:00"
-  },
-  {
-    "full_name": "orhun/binsider",
-    "slug": "binsider",
-    "html_url": "https://github.com/orhun/binsider",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:17:06.096898+00:00"
-  },
-  {
-    "full_name": "hugomd/parrot.live",
-    "slug": "parrot-live",
-    "html_url": "https://github.com/hugomd/parrot.live",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:17:14.530895+00:00"
-  },
-  {
-    "full_name": "jeffreytse/zsh-vi-mode",
-    "slug": "zsh-vi-mode",
-    "html_url": "https://github.com/jeffreytse/zsh-vi-mode",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:17:16.291853+00:00"
-  },
-  {
-    "full_name": "gptme/gptme",
-    "slug": "gptme",
-    "html_url": "https://github.com/gptme/gptme",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:17:21.557846+00:00"
-  },
-  {
     "full_name": "zerebos/ghostty-config",
     "slug": "ghostty-config",
     "html_url": "https://github.com/zerebos/ghostty-config",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T07:17:59.012415+00:00"
-  },
-  {
-    "full_name": "hackerb9/lsix",
-    "slug": "lsix",
-    "html_url": "https://github.com/hackerb9/lsix",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:18:43.621600+00:00"
-  },
-  {
-    "full_name": "jmacdonald/amp",
-    "slug": "amp",
-    "html_url": "https://github.com/jmacdonald/amp",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:18:50.157379+00:00"
-  },
-  {
-    "full_name": "icholy/ttygif",
-    "slug": "ttygif",
-    "html_url": "https://github.com/icholy/ttygif",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:18:57.377537+00:00"
-  },
-  {
-    "full_name": "jeroenjanssens/data-science-at-the-command-line",
-    "slug": "data-science-at-the-command-line",
-    "html_url": "https://github.com/jeroenjanssens/data-science-at-the-command-line",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:19:01.521662+00:00"
-  },
-  {
-    "full_name": "Textualize/toolong",
-    "slug": "toolong",
-    "html_url": "https://github.com/Textualize/toolong",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:19:08.252744+00:00"
   },
   {
     "full_name": "Curzibn/Luban",
@@ -628,5 +516,40 @@
     "html_url": "https://github.com/jirutka/ldap-passwd-webui",
     "reason": "tier1_gemini: call error (Invalid IPv6 URL) | tier2_groq: call error (Invalid IPv6 URL)",
     "queued_at": "2026-11-25T03:05:59.625224+00:00"
+  },
+  {
+    "full_name": "nickjvandyke/opencode.nvim",
+    "slug": "opencode-nvim",
+    "html_url": "https://github.com/nickjvandyke/opencode.nvim",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T03:09:16.697939+00:00"
+  },
+  {
+    "full_name": "psmux/psmux",
+    "slug": "psmux",
+    "html_url": "https://github.com/psmux/psmux",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T03:09:21.560243+00:00"
+  },
+  {
+    "full_name": "strukto-ai/mirage",
+    "slug": "mirage",
+    "html_url": "https://github.com/strukto-ai/mirage",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-25T03:09:34.424811+00:00"
+  },
+  {
+    "full_name": "daltonmenezes/aura-theme",
+    "slug": "aura-theme",
+    "html_url": "https://github.com/daltonmenezes/aura-theme",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-25T03:09:38.685559+00:00"
+  },
+  {
+    "full_name": "Textualize/rich-cli",
+    "slug": "rich-cli",
+    "html_url": "https://github.com/Textualize/rich-cli",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T03:09:54.778827+00:00"
   }
 ]

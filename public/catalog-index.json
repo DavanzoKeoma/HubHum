@@ -13159,6 +13159,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "bash-it",
+    "name": "Bash-it",
+    "tagline": "Manage your terminal scripts and aliases easily.",
+    "repo_url": "https://github.com/bash-it/bash-it",
+    "full_name": "bash-it/bash-it",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "automation"
+    ],
+    "icon": "/icons/bash-it.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 15306,
+    "tier": "tier3_powertool",
+    "summary": "Bash-it is a community-driven collection of commands, themes, and shortcuts that helps you organize and supercharge your everyday terminal experience.",
+    "i18n": {
+      "it": "Bash-it è una raccolta di comandi, temi e scorciatoie per organizzare e velocizzare la tua esperienza quotidiana nel terminale.",
+      "es": "Bash-it es una colección de comandos, temas y atajos comunitarios para organizar y mejorar tu experiencia diaria en la terminal.",
+      "fr": "Bash-it est une collection de commandes et de thèmes pour organiser et dynamiser votre expérience quotidienne dans le terminal.",
+      "de": "Bash-it ist eine Sammlung von Befehlen und Designs zur Organisation und Verbesserung Ihrer täglichen Arbeit im Terminal."
+    },
+    "download_url": "https://github.com/Bash-it/bash-it/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "vosk-api",
     "name": "vosk-api",
     "tagline": "Turn spoken words into text completely offline.",
@@ -18728,6 +18756,34 @@
     },
     "download_url": "https://github.com/Spotifyd/spotifyd/releases/download/v0.4.2/spotifyd-linux-aarch64-default.sha512",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "lnav",
+    "name": "lnav",
+    "tagline": "Navigate and analyze log files easily",
+    "repo_url": "https://github.com/tstack/lnav",
+    "full_name": "tstack/lnav",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "logs",
+      "system-utility"
+    ],
+    "icon": "/icons/lnav.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 10820,
+    "tier": "tier3_powertool",
+    "summary": "An advanced terminal log viewer that automatically merges, decompresses, and indexes error messages from multiple log files in real time.",
+    "i18n": {
+      "it": "Un visualizzatore di log avanzato che unisce, decomprime e indicizza automaticamente i messaggi di errore da più file in tempo reale.",
+      "es": "Un visor de registros avanzado que une, decomprime e indexa automáticamente mensajes de error de múltiples archivos en tiempo real.",
+      "fr": "Un visionneur de journaux avancé qui fusionne, décompresse et indexe automatiquement les messages d'erreur de plusieurs fichiers.",
+      "de": "Ein fortschrittlicher Protokollbetrachter, der Fehlermeldungen aus mehreren Dateien in Echtzeit zusammenführt und indiziert."
+    },
+    "download_url": "https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1.tar.bz2",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "qt",
@@ -31162,6 +31218,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ticker",
+    "name": "Ticker",
+    "tagline": "Track stocks and crypto in your terminal.",
+    "repo_url": "https://github.com/achannarasappa/ticker",
+    "full_name": "achannarasappa/ticker",
+    "category": "Productivity",
+    "tags": [
+      "finance",
+      "stocks"
+    ],
+    "icon": "/icons/ticker.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 6273,
+    "tier": "tier3_powertool",
+    "summary": "Monitor live stock and cryptocurrency market prices and portfolio values directly inside your command-line interface.",
+    "i18n": {
+      "it": "Segui i prezzi di mercato in tempo reale e il valore del portafoglio direttamente all'interno della schermata di comando.",
+      "es": "Monitorea precios de mercado en vivo y valores de cartera directamente desde tu interfaz de comandos.",
+      "fr": "Surveillez les cours en direct et la valeur de votre portefeuille directement depuis votre ligne de commande.",
+      "de": "Beobachte Live-Marktpreise und Depotwerte direkt in deiner Befehlszeilenschnittstelle."
+    },
+    "download_url": "https://github.com/achannarasappa/ticker/releases/download/v5.3.0/ticker-5.3.0-linux-amd64.deb",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "removemacai",
     "name": "RemoveMacAI",
     "tagline": "Turn off Apple Intelligence and reclaim storage",
@@ -32783,6 +32867,34 @@
     },
     "download_url": "https://basscss.com",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "discordo",
+    "name": "Discordo",
+    "tagline": "Lightweight text-based chat messenger",
+    "repo_url": "https://github.com/ayn2op/discordo",
+    "full_name": "ayn2op/discordo",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "chat",
+      "system-utility"
+    ],
+    "icon": "/icons/discordo.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 5894,
+    "tier": "tier3_powertool",
+    "summary": "Chat on your favorite messaging service right from your command line interface with this ultra-fast, lightweight text-based client.",
+    "i18n": {
+      "it": "Chatta sul tuo servizio di messaggistica preferito direttamente dal terminale con questo client testuale leggero e veloce.",
+      "es": "Chatea en tu servicio de mensajería favorito directamente desde la línea de comandos con este cliente rápido y ligero.",
+      "fr": "Discutez sur votre service de messagerie préféré directement depuis votre terminal grâce à ce client textuel ultra-rapide.",
+      "de": "Chatten Sie über Ihren bevorzugten Nachrichtendienst direkt von der Befehlszeile aus mit diesem ultraschnellen Client."
+    },
+    "download_url": "https://github.com/ayn2op/discordo/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "dotenvx",
@@ -35193,6 +35305,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "gitlogue",
+    "name": "gitlogue",
+    "tagline": "Watch your code history play like a movie",
+    "repo_url": "https://github.com/unhappychoice/gitlogue",
+    "full_name": "unhappychoice/gitlogue",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "git",
+      "visualization"
+    ],
+    "icon": "/icons/gitlogue.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (ISC)",
+    "stars": 5284,
+    "tier": "tier3_powertool",
+    "summary": "gitlogue turns the history of your code into a lively animated story with typing effects, syntax colors, and file‑tree visuals.",
+    "i18n": {
+      "it": "gitlogue trasforma la cronologia del tuo codice in una storia animata con effetti di digitazione, colori della sintassi e visualizzazioni dell’albero dei file.",
+      "es": "gitlogue convierte el historial de tu código en una historia animada con efectos de escritura, resaltado de sintaxis y visualizaciones del árbol de archivos.",
+      "fr": "gitlogue transforme l’historique de votre code en une histoire animée avec des effets de frappe, coloration syntaxique et visualisation de l’arborescence des fichiers.",
+      "de": "gitlogue wandelt die Historie Ihres Codes in eine animierte Geschichte mit Tipp‑Effekten, Syntax‑Färbung und Dateibaum‑Visualisierung um."
+    },
+    "download_url": "https://github.com/unhappychoice/gitlogue/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "micaforeveryone",
     "name": "MicaForEveryone",
     "tagline": "Bring modern Windows backdrops to classic apps.",
@@ -37125,6 +37265,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "progressbar",
+    "name": "Progressbar",
+    "tagline": "Simple thread-safe progress bar for Go",
+    "repo_url": "https://github.com/schollz/progressbar",
+    "full_name": "schollz/progressbar",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "progress-bar",
+      "system-utility"
+    ],
+    "icon": "/icons/progressbar.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 4704,
+    "tier": "tier3_powertool",
+    "summary": "A lightweight, reliable progress indicator designed to work smoothly across all operating systems without any messy multi-line glitches.",
+    "i18n": {
+      "it": "Una barra di avanzamento leggera e affidabile progettata per funzionare perfettamente su qualsiasi sistema operativo.",
+      "es": "Un indicador de progreso ligero y fiable diseñado para funcionar sin problemas en todos los sistemas operativos.",
+      "fr": "Un indicateur de progression léger et fiable conçu pour fonctionner sans heurts sur tous les systèmes d'exploitation.",
+      "de": "Eine leichte und zuverlässige Fortschrittsanzeige, die problemlos auf allen Betriebssystemen funktioniert."
+    },
+    "download_url": "https://pkg.go.dev/github.com/schollz/progressbar/v3?tab=doc",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "wepush",
     "name": "WePush",
     "tagline": "Effortless multi-channel bulk messaging tool",
@@ -37433,6 +37601,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "tmuxp",
+    "name": "tmuxp",
+    "tagline": "Save and restore custom terminal workspaces instantly.",
+    "repo_url": "https://github.com/tmux-python/tmuxp",
+    "full_name": "tmux-python/tmuxp",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "productivity"
+    ],
+    "icon": "/icons/tmuxp.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 4602,
+    "tier": "tier3_powertool",
+    "summary": "Manage complex terminal screen layouts effortlessly by saving and reloading multi-window setups through simple text files.",
+    "i18n": {
+      "it": "Gestisci layout di terminale complessi salvando e ricaricando configurazioni tramite semplici file di testo.",
+      "es": "Gestiona diseños de terminal complejos guardando y recargando configuraciones mediante archivos sencillos.",
+      "fr": "Gérez des dispositions de terminal complexes en sauvegardant et rechargeant des fichiers de configuration.",
+      "de": "Verwalten Sie komplexe Terminal-Layouts ganz einfach durch das Speichern und Laden einfacher Textdateien."
+    },
+    "download_url": "https://tmuxp.git-pull.com/",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "auto-subs",
     "name": "AutoSubs",
     "tagline": "Private, local AI subtitle generation",
@@ -37657,6 +37853,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "binsider",
+    "name": "Binsider",
+    "tagline": "Explore and analyze binary files easily",
+    "repo_url": "https://github.com/orhun/binsider",
+    "full_name": "orhun/binsider",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "utilities",
+      "security"
+    ],
+    "icon": "/icons/binsider.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 4536,
+    "tier": "tier3_powertool",
+    "summary": "Binsider is a user-friendly terminal tool that helps you inspect, test, and understand software compiled files securely.",
+    "i18n": {
+      "it": "Binsider è uno strumento da terminale facile da usare che ti aiuta a ispezionare, testare e comprendere file software.",
+      "es": "Binsider es una herramienta de terminal intuitiva que te ayuda a inspeccionar, probar y entender archivos de software compilados.",
+      "fr": "Binsider est un outil de terminal convivial qui vous aide à inspecter, tester et comprendre des fichiers logiciels compilés.",
+      "de": "Binsider ist ein benutzerfreundliches Terminal-Tool, mit dem Sie kompilierte Softwaredateien untersuchen und verstehen können."
+    },
+    "download_url": "https://github.com/orhun/binsider/releases/download/v0.3.2/binsider-0.3.2-aarch64-apple-darwin.tar.gz.sha512",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "parrot-live",
+    "name": "parrot.live",
+    "tagline": "Animated parrots for your terminal",
+    "repo_url": "https://github.com/hugomd/parrot.live",
+    "full_name": "hugomd/parrot.live",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "fun",
+      "system-utility"
+    ],
+    "icon": "/icons/parrot-live.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 4502,
+    "tier": "tier3_powertool",
+    "summary": "A simple web service that lets you display a fun, animated parrot in your computer's command line window using a single short command.",
+    "i18n": {
+      "it": "Un servizio web semplice che ti permette di visualizzare un pappagallo animato e divertente nella finestra a riga di comando del tuo computer con un solo comando breve.",
+      "es": "Un servicio web sencillo que te permite mostrar un loro animado y divertido en la ventana de línea de comandos de tu computadora usando un solo comando corto.",
+      "fr": "Un service web simple qui vous permet d'afficher un perroquet animé et amusant dans la fenêtre de ligne de commande de votre ordinateur avec une seule commande courte.",
+      "de": "Ein einfacher Webdienst, der es Ihnen ermöglicht, einen animierten und lustigen Papagei im Befehlsfenster Ihres Computers mit einem einzigen kurzen Befehl anzuzeigen."
+    },
+    "download_url": "https://parrot.live",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "opentrace",
     "name": "OpenTrace",
     "tagline": "Visualize your internet connection path easily",
@@ -37683,6 +37935,62 @@
     },
     "download_url": "https://github.com/Archeb/opentrace/releases/download/v1.5.2/osx-arm64.dmg",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "gptme",
+    "name": "gptme",
+    "tagline": "Your personal AI assistant inside your terminal",
+    "repo_url": "https://github.com/gptme/gptme",
+    "full_name": "gptme/gptme",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "system-utility"
+    ],
+    "icon": "/icons/gptme.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (MIT)",
+    "stars": 4494,
+    "tier": "tier3_powertool",
+    "summary": "Run a powerful artificial intelligence assistant directly from your terminal that can write code, run commands, and browse the web.",
+    "i18n": {
+      "it": "Esegui un potente assistente di intelligenza artificiale direttamente dal terminale per scrivere codice e navigare nel web.",
+      "es": "Ejecuta un potente asistente de inteligencia artificial directamente desde tu terminal para escribir código y navegar.",
+      "fr": "Exécutez un puissant assistant d'intelligence artificielle directement depuis votre terminal pour coder et naviguer.",
+      "de": "Führen Sie einen leistungsstarken KI-Assistenten direkt in Ihrem Terminal aus, um Code zu schreiben und im Web zu surfen."
+    },
+    "download_url": "https://github.com/gptme/gptme/releases/download/v0.37.0/gptme_0.37.0_x64-setup.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "zsh-vi-mode",
+    "name": "zsh-vi-mode",
+    "tagline": "Better and friendly vi mode for Zsh",
+    "repo_url": "https://github.com/jeffreytse/zsh-vi-mode",
+    "full_name": "jeffreytse/zsh-vi-mode",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "automation"
+    ],
+    "icon": "/icons/zsh-vi-mode.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 4493,
+    "tier": "tier3_powertool",
+    "summary": "Enhance your terminal navigation with a smooth, near-native vim editing mode designed specifically for Zsh shells.",
+    "i18n": {
+      "it": "Migliora la navigazione nel terminale con una modalità di modifica vim fluida e quasi nativa progettata per Zsh.",
+      "es": "Mejora tu navegación en la terminal con un modo de edición vim fluido y casi nativo diseñado para Zsh.",
+      "fr": "Améliorez votre navigation dans le terminal avec un mode d'édition vim fluide et presque natif conçu pour Zsh.",
+      "de": "Verbessern Sie Ihre Terminal-Navigation mit einem flüssigen, fast nativen Vim-Bearbeitungsmodus für Zsh."
+    },
+    "download_url": "https://github.com/jeffreytse/zsh-vi-mode/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "wakapi",
@@ -38609,6 +38917,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "lsix",
+    "name": "lsix",
+    "tagline": "View image thumbnails right in your terminal.",
+    "repo_url": "https://github.com/hackerb9/lsix",
+    "full_name": "hackerb9/lsix",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "images"
+    ],
+    "icon": "/icons/lsix.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 4174,
+    "tier": "tier3_powertool",
+    "summary": "Browse and preview picture files directly inside your command-line interface with handy graphical thumbnails.",
+    "i18n": {
+      "it": "Sfoglia e visualizza in anteprima le immagini direttamente all'interno della riga di comando con pratiche miniature.",
+      "es": "Explora y previsualiza archivos de imagen directamente dentro de la interfaz de comandos con prácticas miniaturas.",
+      "fr": "Parcourez et prévisualisez des fichiers d'images directement dans votre interface de commande avec des miniatures.",
+      "de": "Durchsuchen und betrachten Sie Bilddateien direkt in Ihrer Befehlszeilenschnittstelle mit praktischen Miniaturansichten."
+    },
+    "download_url": "https://github.com/hackerb9/lsix/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "cpm-cmake",
     "name": "CPM.cmake",
     "tagline": "Simple dependency management for your projects.",
@@ -38719,6 +39055,34 @@
     },
     "download_url": "https://github.com/cozodb/cozo/releases/download/v0.7.6/cozo-0.7.6-aarch64-apple-darwin.gz",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "amp",
+    "name": "amp",
+    "tagline": "Lightning fast terminal text editor",
+    "repo_url": "https://github.com/jmacdonald/amp",
+    "full_name": "jmacdonald/amp",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "editor",
+      "system-utility"
+    ],
+    "icon": "/icons/amp.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 4144,
+    "tier": "tier3_powertool",
+    "summary": "Edit text files instantly inside your computer command terminal with a fast, modern layout inspired by classic keyboard tools.",
+    "i18n": {
+      "it": "Modifica file di testo istantaneamente nel terminale con un layout moderno e veloce ispirato ai classici strumenti da tastiera.",
+      "es": "Edita archivos de texto al instante en tu terminal con un diseño moderno y rápido inspirado en herramientas clásicas de teclado.",
+      "fr": "Modifiez des fichiers texte instantanément dans votre terminal grâce à une disposition moderne et rapide inspirée d'outils classiques.",
+      "de": "Bearbeiten Sie Textdateien sofort im Terminal mit einem schnellen, modernen Layout, das von klassischen Tastaturwerkzeugen inspiriert ist."
+    },
+    "download_url": "https://github.com/jmacdonald/amp/releases/download/0.7.1/amp-aarch64-apple-darwin",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "dotnetspider",
@@ -39169,6 +39533,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "ttygif",
+    "name": "ttygif",
+    "tagline": "Turn terminal sessions into animated GIFs",
+    "repo_url": "https://github.com/icholy/ttygif",
+    "full_name": "icholy/ttygif",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "productivity"
+    ],
+    "icon": "/icons/ttygif.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 4012,
+    "tier": "tier3_powertool",
+    "summary": "This tool captures your command-line activity and converts it into a shareable animated image file.",
+    "i18n": {
+      "it": "Questo strumento registra le attività del terminale e le converte in un file immagine animato facile da condividere.",
+      "es": "Esta herramienta captura la actividad de tu línea de comandos y la convierte en un archivo de imagen animado para compartir.",
+      "fr": "Cet outil capture l'activité de votre ligne de commande et la transforme en un fichier image animé facile à partager.",
+      "de": "Dieses Tool zeichnet Ihre Befehlszeilenaktivitäten auf und wandelt sie in eine teilbare, animierte Bilddatei um."
+    },
+    "download_url": "https://github.com/icholy/ttygif/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "open-compute",
     "name": "open-compute",
     "tagline": "Run your web services on your hardware.",
@@ -39195,6 +39587,62 @@
     },
     "download_url": "https://github.com/elliothux/open-compute/releases/download/v0.4.0/ocd-v0.4.0-darwin-arm64",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "data-science-at-the-command-line",
+    "name": "Data Science at the Command Line",
+    "tagline": "Master data tasks using your terminal",
+    "repo_url": "https://github.com/jeroenjanssens/data-science-at-the-command-line",
+    "full_name": "jeroenjanssens/data-science-at-the-command-line",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "data-science",
+      "system-utility"
+    ],
+    "icon": "/icons/data-science-at-the-command-line.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Custom Open License",
+    "stars": 3978,
+    "tier": "tier3_powertool",
+    "summary": "Learn how to clean, explore, and model data quickly using standard terminal commands instead of complex programs.",
+    "i18n": {
+      "it": "Impara a ripulire, esplorare e analizzare dati rapidamente usando i normali comandi del terminale anziché programmi complessi.",
+      "es": "Aprende a limpiar, explorar y modelar datos rápidamente utilizando comandos estándar de la terminal en lugar de programas complejos.",
+      "fr": "Apprenez à nettoyer, explorer et modéliser des données rapidement à l'aide de commandes de terminal standard plutôt que de logiciels complexes.",
+      "de": "Erfahren Sie, wie Sie Daten schnell und unkompliziert mit Standard-Terminalbefehlen anstelle komplexer Programme verarbeiten."
+    },
+    "download_url": "https://datascienceatthecommandline.com",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "toolong",
+    "name": "toolong",
+    "tagline": "Fast terminal log viewer and merger",
+    "repo_url": "https://github.com/textualize/toolong",
+    "full_name": "textualize/toolong",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "logs",
+      "system-utility"
+    ],
+    "icon": "/icons/toolong.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3971,
+    "tier": "tier3_powertool",
+    "summary": "Inspect, merge, and search massive log files instantly right from your command-line interface.",
+    "i18n": {
+      "it": "Ispeziona, unisci e cerca enormi file di registro all'istante direttamente dalla tua interfaccia a riga di comando.",
+      "es": "Inspecciona, fusiona y busca archivos de registro masivos al instante directamente desde tu interfaz de comandos.",
+      "fr": "Inspectez, fusionnez et recherchez des fichiers journaux massifs instantanément directement depuis votre interface de commande.",
+      "de": "Untersuchen, zusammenführen und Durchsuchen Sie massive Protokolldateien sofort direkt über Ihre Befehlszeilenschnittstelle."
+    },
+    "download_url": "https://www.textualize.io/",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "twill",
@@ -39617,6 +40065,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "pebrel",
+    "name": "Pebrel",
+    "tagline": "Your AI-native terminal workspace.",
+    "repo_url": "https://github.com/kuddev/pebrel",
+    "full_name": "kuddev/pebrel",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "developer-tools"
+    ],
+    "icon": "/icons/pebrel.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 3888,
+    "tier": "tier3_powertool",
+    "summary": "Pebrel is a fast, GPU-accelerated workspace that brings local shells, remote servers, file managers, and artificial intelligence tools together in one place.",
+    "i18n": {
+      "it": "Pebrel è un ambiente veloce e accelerato via GPU che riunisce shell locali, server remoti, file manager e strumenti di intelligenza artificiale.",
+      "es": "Pebrel es un entorno rápido acelerado por GPU que reúne consolas locales, servidores remotos, administradores de archivos e inteligencia artificial.",
+      "fr": "Pebrel est un environnement rapide accéléré par GPU qui réunit consoles locales, serveurs distants, gestionnaires de fichiers et intelligence artificielle.",
+      "de": "Pebrel ist eine schnelle, GPU-beschleunigte Arbeitsumgebung für lokale Shells, Remote-Server, Dateimanager und künstliche Intelligenz."
+    },
+    "download_url": "https://github.com/Kuddev/pebrel/releases/download/v2.6.1/Pebrel-v2.6.1-windows-arm64-setup.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "stablediffusion-infinity",
     "name": "stablediffusion-infinity",
     "tagline": "Expand pictures infinitely using artificial intelligence",
@@ -39671,6 +40147,34 @@
     },
     "download_url": "https://memories.gallery",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "abtop",
+    "name": "abtop",
+    "tagline": "Monitor your AI coding agent sessions.",
+    "repo_url": "https://github.com/graykode/abtop",
+    "full_name": "graykode/abtop",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "developer-tools",
+      "monitoring"
+    ],
+    "icon": "/icons/abtop.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3880,
+    "tier": "tier3_powertool",
+    "summary": "Keep track of active AI assistant sessions, token usage, context windows, and rate limits in a single real-time dashboard.",
+    "i18n": {
+      "it": "Tieni d'occhio le sessioni di programmazione AI, l'uso dei token, i limiti di velocità e la memoria in tempo reale.",
+      "es": "Supervisa las sesiones de asistentes virtuales de código, el uso de tokens, límites de velocidad y puertos.",
+      "fr": "Suivez vos sessions d'intelligence artificielle, l'utilisation des jetons et les limites de taux en temps réel.",
+      "de": "Behalten Sie den Überblick über aktive KI-Assistenten, Token-Verbrauch, Kontextfenster und Ratenlimits."
+    },
+    "download_url": "https://github.com/graykode/abtop/releases/download/v0.5.5/abtop-aarch64-apple-darwin.tar.xz.sha256",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "kitchenowl",
@@ -39841,6 +40345,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "netwatch",
+    "name": "netwatch",
+    "tagline": "See exactly what your network is doing",
+    "repo_url": "https://github.com/matthart1983/netwatch",
+    "full_name": "matthart1983/netwatch",
+    "category": "Productivity",
+    "tags": [
+      "network-monitoring",
+      "diagnostics"
+    ],
+    "icon": "/icons/netwatch.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3809,
+    "tier": "tier3_powertool",
+    "summary": "netwatch is a free tool that shows you live details about your internet connections, speeds, and potential issues directly on your screen.",
+    "i18n": {
+      "it": "netwatch è uno strumento gratuito che mostra in tempo reale i dettagli delle tue connessioni internet, le velocità e i potenziali problemi.",
+      "es": "netwatch es una herramienta gratuita que muestra en tiempo real los detalles de tus conexiones a internet, las velocidades y los posibles problemas.",
+      "fr": "netwatch est un outil gratuit qui affiche en temps réel les détails de vos connexions internet, les vitesses et les problèmes potentiels.",
+      "de": "netwatch ist ein kostenloses Tool, das Live-Details zu Ihren Internetverbindungen, Geschwindigkeiten und möglichen Problemen anzeigt."
+    },
+    "download_url": "https://github.com/matthart1983/netwatch/releases/download/v1.0.0/netwatch_1.0.0-1_amd64.deb",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "openoutreach",
     "name": "OpenOutreach",
     "tagline": "AI-powered outreach that finds your customers.",
@@ -39923,6 +40455,34 @@
     },
     "download_url": "https://github.com/Ruben2776/PicView/releases/download/5.2.2/Setup-PicView-v5.2.2-win-arm64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "doxx",
+    "name": "doxx",
+    "tagline": "Read Word files inside your terminal.",
+    "repo_url": "https://github.com/bgreenwell/doxx",
+    "full_name": "bgreenwell/doxx",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "documents"
+    ],
+    "icon": "/icons/doxx.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 3795,
+    "tier": "tier3_powertool",
+    "summary": "Open and read Word documents instantly in your terminal without opening heavy office software.",
+    "i18n": {
+      "it": "Apri e leggi documenti Word all'istante nel terminale senza avviare pesanti programmi per ufficio.",
+      "es": "Abre y lee documentos de Word al instante en tu terminal sin usar pesados programas de oficina.",
+      "fr": "Ouvrez et lisez des documents Word instantanément dans votre terminal sans logiciel lourd.",
+      "de": "Öffnen und lesen Sie Word-Dokumente blitzschnell im Terminal ohne schwere Bürosoftware."
+    },
+    "download_url": "https://github.com/bgreenwell/doxx/releases/download/v0.1.4/doxx-x86_64-pc-windows-msvc.msi",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "openbiliclaw",
@@ -40037,6 +40597,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "ox",
+    "name": "Ox",
+    "tagline": "A simple and flexible text editor",
+    "repo_url": "https://github.com/curlpipe/ox",
+    "full_name": "curlpipe/ox",
+    "category": "Productivity",
+    "tags": [
+      "editor",
+      "system-utility"
+    ],
+    "icon": "/icons/ox.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 3754,
+    "tier": "tier3_powertool",
+    "summary": "Ox is a lightweight, highly customizable text editor that runs right inside your terminal for fast and easy file management.",
+    "i18n": {
+      "it": "Ox è un editor di testo leggero e altamente personalizzabile che si esegue direttamente nel terminale.",
+      "es": "Ox es un editor de texto ligero y altamente personalizable que se ejecuta directamente en tu terminal.",
+      "fr": "Ox est un éditeur de texte léger et hautement personnalisable qui s'exécute directement dans votre terminal.",
+      "de": "Ox ist ein leichter und hochgradig anpassbarer Texteditor, der direkt in Ihrem Terminal läuft."
+    },
+    "download_url": "https://github.com/curlpipe/ox/releases/download/0.7.7/ox.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "qview",
     "name": "qView",
     "tagline": "A clean and minimal image viewer",
@@ -40091,6 +40679,34 @@
     },
     "download_url": "https://github.com/yakyak/yakyak/releases/download/v1.5.11.5/yakyak-1.5.11.5-linux-amd64.deb",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "curlie",
+    "name": "curlie",
+    "tagline": "The power of command-line tools simplified",
+    "repo_url": "https://github.com/rs/curlie",
+    "full_name": "rs/curlie",
+    "category": "Productivity",
+    "tags": [
+      "networking",
+      "system-utility"
+    ],
+    "icon": "/icons/curlie.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3735,
+    "tier": "tier3_powertool",
+    "summary": "Curlie combines the robust performance of classic network tools with a friendly, readable interface for testing web services.",
+    "i18n": {
+      "it": "Curlie unisce la robustezza dei classici strumenti di rete a un'interfaccia amichevole e leggibile per testare i servizi web.",
+      "es": "Curlie combina la robustez de las herramientas de red clásicas con una interfaz amigable y legible para probar servicios web.",
+      "fr": "Curlie associe la robustesse des outils réseau classiques à une interface conviviale et lisible pour tester les services web.",
+      "de": "Curlie verbindet die Stärke klassischer Netzwerk-Tools mit einer benutzerfreundlichen und lesbaren Oberfläche zum Testen von Webdiensten."
+    },
+    "download_url": "https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_linux_386.deb",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "oxicloud",
@@ -40175,6 +40791,34 @@
     },
     "download_url": "https://alibaba.github.io/LuaViewSDK",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pb",
+    "name": "pb",
+    "tagline": "Console progress bars for Go developers",
+    "repo_url": "https://github.com/cheggaaa/pb",
+    "full_name": "cheggaaa/pb",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "utilities"
+    ],
+    "icon": "/icons/pb.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 3726,
+    "tier": "tier3_powertool",
+    "summary": "Create clear, real-time terminal progress indicators for console applications and data transfers in Go.",
+    "i18n": {
+      "it": "Crea indicatori di progresso in tempo reale per le applicazioni da riga di comando e i trasferimenti di dati in Go.",
+      "es": "Crea indicadores de progreso en tiempo real para aplicaciones de consola y transferencias de datos en Go.",
+      "fr": "Créez des indicateurs de progression en temps réel pour vos applications console et transferts de données en Go.",
+      "de": "Erstellen Sie übersichtliche Echtzeit-Fortschrittsanzeigen für Konsolenanwendungen und Datenübertragungen in Go."
+    },
+    "download_url": "https://github.com/cheggaaa/pb/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "bark-server",
@@ -40317,6 +40961,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "command-line-api",
+    "name": "command-line-api",
+    "tagline": "Smart command-line tools for developers",
+    "repo_url": "https://github.com/dotnet/command-line-api",
+    "full_name": "dotnet/command-line-api",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "developer-tools",
+      "system-utility"
+    ],
+    "icon": "/icons/command-line-api.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3679,
+    "tier": "tier3_powertool",
+    "summary": "A free library that helps programmers create user-friendly command-line applications with automatic help and error handling.",
+    "i18n": {
+      "it": "Una libreria gratuita che aiuta i programmatori a creare applicazioni da riga di comando user-friendly con aiuto automatico e gestione degli errori.",
+      "es": "Una biblioteca gratuita que ayuda a los programadores a crear aplicaciones de línea de comandos fáciles de usar con ayuda automática y manejo de errores.",
+      "fr": "Une bibliothèque gratuite qui aide les développeurs à créer des applications de ligne de commande conviviales avec aide automatique et gestion des erreurs.",
+      "de": "Eine kostenlose Bibliothek, die Entwicklern hilft, benutzerfreundliche Befehlszeilenanwendungen mit automatischer Hilfe und Fehlerbehandlung zu erstellen."
+    },
+    "download_url": "https://github.com/dotnet/command-line-api/wiki",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "wifit3",
     "name": "wifit3",
     "tagline": "Portable Wi-Fi security auditing tool",
@@ -40427,6 +41099,34 @@
     },
     "download_url": "https://github.com/therealaleph/MasterHttpRelayVPN-RUST/releases/download/v1.9.38/mhrv-rs-android-arm64-v8a-v1.9.38.apk",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "surge",
+    "name": "Surge",
+    "tagline": "Blazing fast keyboard-driven download manager",
+    "repo_url": "https://github.com/surgedm/surge",
+    "full_name": "surgedm/surge",
+    "category": "Productivity",
+    "tags": [
+      "downloader",
+      "system-utility"
+    ],
+    "icon": "/icons/surge.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3651,
+    "tier": "tier3_powertool",
+    "summary": "Accelerate your downloads by splitting files into parallel chunks with a lightning-fast terminal dashboard and browser integration.",
+    "i18n": {
+      "it": "Accelera i download dividendo i file in parti parallele con una splendida interfaccia testuale e integrazione browser.",
+      "es": "Acelera tus descargas dividiendo archivos en fragmentos paralelos mediante una interfaz de terminal rápida y moderna.",
+      "fr": "Accélérez vos téléchargements en divisant les fichiers en morceaux parallèles avec un tableau de bord terminal efficace.",
+      "de": "Beschleunigen Sie Ihre Downloads durch paralleles Herunterladen von Dateischnitten in einer modernen Terminal-Ansicht."
+    },
+    "download_url": "https://github.com/SurgeDM/Surge/releases/download/v0.13.0/Surge_0.13.0_linux_x86_64.AppImage",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "rio",
