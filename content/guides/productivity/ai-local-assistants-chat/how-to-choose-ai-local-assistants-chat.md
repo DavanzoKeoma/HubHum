@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what Local AI Assistants, LLM Studi
 parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/best-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
-app_slugs: ["nextchat", "chatgpt", "open-source-ios-apps", "kazumi", "codewhale", "freecad"]
-updated_at: "2026-11-24"
+app_slugs: ["free-programming-books-zh-cn", "nextchat", "motrix", "chatgpt", "material-design-icons", "brew"]
+updated_at: "2026-11-25"
 ---
 
 ## How to Choose Free Local AI Assistants, LLM Studios & Chat Workspaces Without Getting Lost
@@ -25,9 +25,9 @@ Switching to free open-source tools in **Local AI Assistants, LLM Studios & Chat
 
 ### Great Starting Points in Local AI Assistants, LLM Studios & Chat Workspaces
 
+- **[Free Programming Books Chinese](/HubHum/apps/free-programming-books-zh-cn/)** (Desktop App) — Explore a massive, community-curated library of free programming books, tutorials, and development guides entirely in Chinese.
 - **[NextChat](/HubHum/apps/nextchat/)** (Desktop App) — Easily converse with multiple artificial intelligence models in one clean interface without complex setup.
+- **[Motrix](/HubHum/apps/motrix/)** (Desktop App) — Motrix is a modern, clean download manager that handles regular files, torrents, and magnet links with ease across multiple operating systems.
 - **[ChatGPT](/HubHum/apps/chatgpt/)** (Desktop App) — Access popular artificial intelligence assistants right from your computer desktop without opening a web browser.
-- **[Open-Source iOS Apps](/HubHum/apps/open-source-ios-apps/)** (Desktop App) — Explore a curated, collaborative collection of thousands of open-source applications built for iPhone, iPad, Apple Watch, and Apple TV.
-- **[Kazumi](/HubHum/apps/kazumi/)** (Desktop App) — Kazumi is a flexible streaming application that lets you organize, watch, and enhance your favorite animated series effortlessly.
-- **[Codewhale](/HubHum/apps/codewhale/)** (Desktop App) — An open-source terminal coding assistant that works with any model, splits tasks across multiple agents, and keeps your data completely transparent.
-- **[FreeCAD](/HubHum/apps/freecad/)** (Desktop App) — Create and modify 3D objects easily using parametric modeling, 2D sketches, and powerful open-source engineering tools.
+- **[material-design-icons](/HubHum/apps/material-design-icons/)** (Desktop App) — Access thousands of official Google graphic icons and variable symbols to elevate your digital designs and user interfaces.
+- **[brew](/HubHum/apps/brew/)** (Desktop App) — Homebrew is a simple tool that helps you quickly download, update, and organize applications and developer tools on your computer.

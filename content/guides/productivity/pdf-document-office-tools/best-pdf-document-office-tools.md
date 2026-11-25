@@ -11,8 +11,8 @@ summary: "Compare Microsoft-Activation-Scripts vs node and 8 free tools for PDF,
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
-app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "okhttp", "files", "sheetjs", "gold-miner"]
-updated_at: "2026-11-24"
+app_slugs: ["microsoft-activation-scripts", "node", "pake", "files", "architecture-samples", "kazumi", "lottie-android", "gold-miner"]
+updated_at: "2026-11-25"
 ---
 
 ## Quick Answer: Microsoft-Activation-Scripts vs node
@@ -25,11 +25,11 @@ Comparing **Microsoft-Activation-Scripts** and **node** highlights two distinct 
 | --- | --- | --- | --- | --- |
 | [Microsoft-Activation-Scripts](/HubHum/apps/microsoft-activation-scripts/) | Desktop App | Windows | ★ 200,467 | Open Source (GPL v3) |
 | [node](/HubHum/apps/node/) | Desktop App | Windows, macOS, Linux | ★ 123,872 | Custom Open License |
-| [Ventoy](/HubHum/apps/ventoy/) | Desktop App | Windows, Linux | ★ 81,093 | Open Source (GPL v3) |
-| [mkcert](/HubHum/apps/mkcert/) | Desktop App | Windows, macOS, Linux, iOS | ★ 59,896 | Open Source (BSD) |
-| [okhttp](/HubHum/apps/okhttp/) | Desktop App | Android | ★ 47,114 | Open Source (Apache 2.0) |
+| [Pake](/HubHum/apps/pake/) | Desktop App | Windows, macOS, Linux | ★ 63,869 | Open Source (GPL v3) |
 | [Files](/HubHum/apps/files/) | Desktop App | Windows | ★ 46,755 | Open Source (MIT) |
-| [SheetJS](/HubHum/apps/sheetjs/) | Desktop App | iOS | ★ 36,337 | Open Source (Apache 2.0) |
+| [architecture-samples](/HubHum/apps/architecture-samples/) | Desktop App | Android | ★ 45,912 | Open Source (Apache 2.0) |
+| [Kazumi](/HubHum/apps/kazumi/) | Desktop App | Windows, macOS, Linux, iOS | ★ 43,451 | Open Source (GPL v3) |
+| [Lottie for Android](/HubHum/apps/lottie-android/) | Desktop App | Android | ★ 35,782 | Open Source (Apache 2.0) |
 | [Gold Miner](/HubHum/apps/gold-miner/) | Desktop App | Android, iOS | ★ 34,381 | Custom Open License |
 
 ### When to Pick Which Option

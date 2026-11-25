@@ -12,12 +12,12 @@ parent_slug: "utilities-power-tools"
 child_slugs: ["utilities-power-tools/modern-terminal-apps/best-modern-terminal-apps", "utilities-power-tools/modern-terminal-apps/how-to-choose-modern-terminal-apps", "utilities-power-tools/modern-terminal-apps/troubleshooting-modern-terminal-apps"]
 sibling_slugs: []
 app_slugs: ["gemini-cli", "scrapling", "fzf", "imgui", "tabby", "ripgrep", "alacritty", "bat", "dive", "bubbletea", "fd", "cobra", "yazi", "pm2", "cheat-sh", "zoxide", "oh-my-pi", "linux-command"]
-updated_at: "2026-11-24"
+updated_at: "2026-11-25"
 ---
 
 ## Plain-English Overview: Modern Terminal Emulators & Fast File Finders
 
-This topic hub groups **136 vetted free tools** specializing in **Modern Terminal Emulators & Fast File Finders** inside **Utilities & Power Tools**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **144 vetted free tools** specializing in **Modern Terminal Emulators & Fast File Finders** inside **Utilities & Power Tools**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

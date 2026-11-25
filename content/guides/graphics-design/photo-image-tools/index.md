@@ -11,13 +11,13 @@ summary: "Free creative apps for compressing photos, capturing crisp screenshots
 parent_slug: "graphics-design"
 child_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
 sibling_slugs: []
-app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion", "imageoptim", "dashboard-icons", "stable-dreamfusion", "modly", "esearch", "koharu", "pastel", "text-grab", "style-dictionary", "opentabletdriver", "triangula", "tools-ocr"]
-updated_at: "2026-11-24"
+app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion", "imageoptim", "dashboard-icons", "stable-dreamfusion", "modly", "esearch", "koharu", "pastel", "text-grab", "opentabletdriver", "triangula", "tools-ocr", "butterfly"]
+updated_at: "2026-11-25"
 ---
 
 ## Plain-English Overview: Photo Optimizers, Galleries & Screen Capture
 
-This topic hub groups **22 vetted free tools** specializing in **Photo Optimizers, Galleries & Screen Capture** inside **Graphics & Design**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **20 vetted free tools** specializing in **Photo Optimizers, Galleries & Screen Capture** inside **Graphics & Design**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

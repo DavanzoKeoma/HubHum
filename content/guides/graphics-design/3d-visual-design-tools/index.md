@@ -11,13 +11,13 @@ summary: "Accessible free software for 3D printing preparation, visual layouts, 
 parent_slug: "graphics-design"
 child_slugs: ["graphics-design/3d-visual-design-tools/best-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/how-to-choose-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
 sibling_slugs: []
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "react-native-elements", "slint", "best-flutter-ui-templates", "easydict", "customtkinter", "lipgloss", "openframeworks", "tkinter-designer", "mahapps-metro", "open-codesign", "pyqt-fluent-widgets", "cura", "ttkbootstrap", "kivymd", "atlantafx", "qymcad"]
-updated_at: "2026-11-24"
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "react-native-elements", "slint", "best-flutter-ui-templates", "easydict", "customtkinter", "lipgloss", "openframeworks", "tkinter-designer", "mahapps-metro", "open-codesign", "pyqt-fluent-widgets", "cura", "onlyswitch", "style-dictionary", "ttkbootstrap", "kivymd"]
+updated_at: "2026-11-25"
 ---
 
 ## Plain-English Overview: 3D Modeling & Visual Interface Studios
 
-This topic hub groups **18 vetted free tools** specializing in **3D Modeling & Visual Interface Studios** inside **Graphics & Design**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **21 vetted free tools** specializing in **3D Modeling & Visual Interface Studios** inside **Graphics & Design**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

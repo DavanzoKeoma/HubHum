@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "web-apps-cloud/home-lab-media-servers"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers"]
-app_slugs: ["netdata", "gatsby", "puter", "ai-website-cloner-template", "onyx"]
-updated_at: "2026-11-24"
+app_slugs: ["open-webui", "appwrite", "gogs", "jan", "qwenpaw"]
+updated_at: "2026-11-25"
 ---
 
 ## Fixing Common Problems with Free Home Lab Media Servers, E-Books & Streaming Hubs
@@ -30,8 +30,8 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 ### Recommended Alternatives Covered
 
-- **[Netdata](/HubHum/apps/netdata/)** (Self-Hosted Web App) — Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues.
-- **[Gatsby](/HubHum/apps/gatsby/)** (Self-Hosted Web App) — Gatsby is a powerful web development tool that lets creators build incredibly fast websites and apps using modern component design.
-- **[Puter](/HubHum/apps/puter/)** (Self-Hosted Web App) — Puter is a free, open-source internet computer that brings all your files, applications, and games together in one accessible web place.
-- **[AI Website Cloner Template](/HubHum/apps/ai-website-cloner-template/)** (Self-Hosted Web App) — Recreate any website as a clean Next.js app instantly by giving your AI coding assistant a simple link command.
-- **[Onyx](/HubHum/apps/onyx/)** (Self-Hosted Web App) — Onyx connects all your apps and documents into one central assistant, letting your team chat with private company knowledge securely.
+- **[Open WebUI](/HubHum/apps/open-webui/)** (Self-Hosted Web App) — Run smart artificial intelligence models completely offline or connect to cloud services with a friendly, feature-packed web control panel.
+- **[Appwrite](/HubHum/apps/appwrite/)** (Self-Hosted Web App) — An open-source cloud backend that gives you secure user login, databases, file storage, and serverless functions in one unified place.
+- **[Gogs](/HubHum/apps/gogs/)** (Self-Hosted Web App) — Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle.
+- **[Jan](/HubHum/apps/jan/)** (Self-Hosted Web App) — Jan is an open-source alternative to online smart assistants that runs completely offline on your own personal computer.
+- **[QwenPaw](/HubHum/apps/qwenpaw/)** (Self-Hosted Web App) — Manage chats, automate tasks, and connect across multiple messaging apps using your own private artificial intelligence assistant.

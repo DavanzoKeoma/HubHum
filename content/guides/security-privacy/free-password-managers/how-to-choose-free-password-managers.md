@@ -12,7 +12,7 @@ parent_slug: "security-privacy/free-password-managers"
 child_slugs: []
 sibling_slugs: ["security-privacy/free-password-managers/best-free-password-managers", "security-privacy/free-password-managers/troubleshooting-free-password-managers"]
 app_slugs: ["gitleaks", "keepassxc", "hackbrowserdata", "clients", "pocket-id", "git-credential-manager"]
-updated_at: "2026-11-24"
+updated_at: "2026-11-25"
 ---
 
 ## How to Choose Free Password Managers & Auth Vaults Without Getting Lost

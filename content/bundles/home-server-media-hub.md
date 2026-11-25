@@ -5,7 +5,7 @@ category: "Web Apps & Cloud"
 summary: "Build an ad-free family media hub for audiobooks, comics, e-books, personal photos, and private music libraries on your own server."
 tags: ["self-hosted", "media-server", "streaming", "ebooks"]
 app_slugs: ["audiobookshelf", "kavita", "navidrome", "calibre-web-automated", "suwayomi-server", "immich"]
-updated_at: "2026-11-24"
+updated_at: "2026-11-25"
 ---
 
 ### Why this curated guide

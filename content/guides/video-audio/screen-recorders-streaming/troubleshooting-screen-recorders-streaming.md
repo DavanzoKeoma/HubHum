@@ -12,7 +12,7 @@ parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming"]
 app_slugs: ["ijkplayer", "animeko", "gsyvideoplayer", "kap", "ani-cli"]
-updated_at: "2026-11-24"
+updated_at: "2026-11-25"
 ---
 
 ## Fixing Common Problems with Free Screen Recorders, Streaming & Media Players

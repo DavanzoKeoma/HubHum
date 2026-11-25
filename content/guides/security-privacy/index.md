@@ -9,12 +9,12 @@ summary: "Protect passwords, monitor network traffic, and declutter operating sy
 child_slugs: ["security-privacy/free-password-managers", "security-privacy/password-network-privacy", "security-privacy/system-cleaners-auditors"]
 sibling_slugs: []
 app_slugs: ["sherlock", "mole", "v2rayng", "win11debloat", "sniffnet", "maigret", "pentagi", "gitleaks", "keepassxc", "setup-ipsec-vpn", "pangolin", "safeline", "termix", "v2raya", "metube", "winhance", "hackbrowserdata", "opensnitch"]
-updated_at: "2026-11-24"
+updated_at: "2026-11-25"
 ---
 
 ## Why Explore Free Security & Privacy Software?
 
-This central guide brings together **50 verified free applications** in the **Security & Privacy** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **51 verified free applications** in the **Security & Privacy** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Security & Privacy
 

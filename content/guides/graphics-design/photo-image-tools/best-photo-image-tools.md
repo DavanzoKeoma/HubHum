@@ -12,7 +12,7 @@ parent_slug: "graphics-design/photo-image-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
 app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion", "imageoptim", "dashboard-icons"]
-updated_at: "2026-11-24"
+updated_at: "2026-11-25"
 ---
 
 ## Quick Answer: PhotoPrism vs flameshot

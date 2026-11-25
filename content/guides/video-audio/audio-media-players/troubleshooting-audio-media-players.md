@@ -12,7 +12,7 @@ parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/how-to-choose-audio-media-players"]
 app_slugs: ["scrcpy", "spotube", "iina", "pear-desktop", "yesplaymusic"]
-updated_at: "2026-11-24"
+updated_at: "2026-11-25"
 ---
 
 ## Fixing Common Problems with Free Audio Editors & Music Players

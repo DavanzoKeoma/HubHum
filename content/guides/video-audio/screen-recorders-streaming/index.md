@@ -12,7 +12,7 @@ parent_slug: "video-audio"
 child_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming", "video-audio/screen-recorders-streaming/troubleshooting-screen-recorders-streaming"]
 sibling_slugs: []
 app_slugs: ["ijkplayer", "animeko", "gsyvideoplayer", "kap", "ani-cli", "streamlink", "hghub", "openscreen", "snow-shot", "seanime", "streamlink-twitch-gui", "fladder", "downvid", "markeron", "kiri", "cineflow", "hotclip"]
-updated_at: "2026-11-24"
+updated_at: "2026-11-25"
 ---
 
 ## Plain-English Overview: Screen Recorders, Streaming & Media Players
