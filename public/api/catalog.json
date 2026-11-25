@@ -2,27 +2,27 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-25T23:38:16.497004+00:00",
-  "total_apps": 2425,
+  "generated_at": "2026-11-25T23:42:33.200691+00:00",
+  "total_apps": 2450,
   "tier_counts": {
     "tier3_powertool": 364,
-    "tier2_webapp": 720,
-    "tier1_gui": 1341
+    "tier2_webapp": 733,
+    "tier1_gui": 1353
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 354,
-    "selfhosted": 719,
-    "desktop": 1341,
+    "selfhosted": 732,
+    "desktop": 1353,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 45,
-    "Productivity": 1187,
+    "Productivity": 1199,
     "Security & Privacy": 58,
     "Utilities & Power Tools": 330,
     "Video & Audio": 107,
-    "Web Apps & Cloud": 695,
+    "Web Apps & Cloud": 708,
     "Websites & SEO": 3
   },
   "apps": [
@@ -21417,6 +21417,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "openshorts",
+      "name": "OpenShorts",
+      "tagline": "Turn long videos into viral shorts",
+      "repo_url": "https://github.com/mutonby/openshorts",
+      "full_name": "mutonby/openshorts",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "icon": "/icons/openshorts.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 9892,
+      "tier": "tier2_webapp",
+      "summary": "OpenShorts is an open-source platform that automatically transforms long videos into viral vertical clips with AI detection, subtitles, and smart cropping.",
+      "i18n": {
+        "it": "OpenShorts è una piattaforma open-source per trasformare automaticamente video lunghi in clip verticali virali con intelligenza artificiale.",
+        "es": "OpenShorts es una plataforma de código abierto que convierte videos largos en clips verticales virales mediante inteligencia artificial.",
+        "fr": "OpenShorts est une plateforme open-source pour transformer automatiquement vos longues vidéos en clips verticaux viraux.",
+        "de": "OpenShorts ist eine Open-Source-Plattform zur automatischen Erstellung viraler vertikaler Clips aus langen Videos mit KI."
+      },
+      "download_url": "https://www.openshorts.app/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "mika",
       "name": "Mika",
       "tagline": "Your personal on-device phone assistant.",
@@ -36956,6 +36984,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "react-native-modal",
+      "name": "React Native Modal",
+      "tagline": "Animated and customizable mobile pop-up windows.",
+      "repo_url": "https://github.com/react-native-modal/react-native-modal",
+      "full_name": "react-native-modal/react-native-modal",
+      "category": "Productivity",
+      "tags": [
+        "mobile",
+        "components"
+      ],
+      "icon": "/icons/react-native-modal.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5647,
+      "tier": "tier1_gui",
+      "summary": "An enhanced, animated, and customizable pop-up window component for mobile applications.",
+      "i18n": {
+        "it": "Un componente per finestre pop-up avanzato e animato per app mobili con transizioni fluide e gesti di tocco.",
+        "es": "Un componente avanzado y animado de ventanas emergentes para aplicaciones móviles con transiciones fluidas.",
+        "fr": "Un composant de fenêtre contextuelle mobile amélioré avec des transitions fluides et des options de style.",
+        "de": "Eine verbesserte, animierte Popup-Komponente für mobile Apps mit fließenden Übergängen und Gesten."
+      },
+      "download_url": "https://github.com/react-native-modal/react-native-modal/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "skiasharp",
       "name": "SkiaSharp",
       "tagline": "Powerful 2D graphics for every platform",
@@ -38020,6 +38076,62 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "streamyfin",
+      "name": "Streamyfin",
+      "tagline": "Modern and smooth Jellyfin streaming client",
+      "repo_url": "https://github.com/streamyfin/streamyfin",
+      "full_name": "streamyfin/streamyfin",
+      "category": "Productivity",
+      "tags": [
+        "streaming",
+        "media"
+      ],
+      "icon": "/icons/streamyfin.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 5388,
+      "tier": "tier1_gui",
+      "summary": "Streamyfin is a user-friendly media streaming app that connects to your personal home server for a fast, reliable viewing experience.",
+      "i18n": {
+        "it": "Streamyfin è un'applicazione di streaming multimediale intuitiva che si collega al tuo server domestico personale.",
+        "es": "Streamyfin es una aplicación de streaming multimedia fácil de usar que se conecta a tu servidor personal en casa.",
+        "fr": "Streamyfin est une application de lecture multimédia conviviale qui se connecte à votre serveur domestique personnel.",
+        "de": "Streamyfin ist eine benutzerfreundliche Streaming-App, die sich mit Ihrem persönlichen Heimserver verbindet."
+      },
+      "download_url": "https://github.com/streamyfin/streamyfin/releases/download/v0.55.2/streamyfin-android-phone-apk.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "koloda",
+      "name": "Koloda",
+      "tagline": "Swipe‑able card stacks for iOS apps",
+      "repo_url": "https://github.com/yalantis/koloda",
+      "full_name": "yalantis/koloda",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "ui"
+      ],
+      "icon": "/icons/koloda.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5385,
+      "tier": "tier1_gui",
+      "summary": "Koloda lets iOS developers add swipe‑able card stacks that behave like popular dating apps, making interactive lists simple and fun.",
+      "i18n": {
+        "it": "Koloda permette agli sviluppatori iOS di aggiungere mazzi di carte scorrevoli, simili a quelle delle app di incontri, rendendo le liste interattive facili e divertenti.",
+        "es": "Koloda ayuda a los desarrolladores iOS a incorporar mazos de tarjetas deslizables, como en aplicaciones de citas, facilitando listas interactivas y divertidas.",
+        "fr": "Koloda permet aux développeurs iOS d’ajouter des paquets de cartes glissables, similaires aux applications de rencontre, rendant les listes interactives simples et ludiques.",
+        "de": "Koloda ermöglicht iOS‑Entwicklern das Einbinden von wischbaren Kartenstapeln, ähnlich wie in Dating‑Apps, und macht interaktive Listen einfach und unterhaltsam."
+      },
+      "download_url": "https://yalantis.com",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "flyingcarpet",
       "name": "FlyingCarpet",
       "tagline": "Move files between devices without internet",
@@ -38132,6 +38244,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "iloader",
+      "name": "iloader",
+      "tagline": "Easily install mobile apps and manage files",
+      "repo_url": "https://github.com/nab138/iloader",
+      "full_name": "nab138/iloader",
+      "category": "Productivity",
+      "tags": [
+        "utilities",
+        "mobile"
+      ],
+      "icon": "/icons/iloader.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5343,
+      "tier": "tier1_gui",
+      "summary": "Install mobile apps and manage device pairing files effortlessly through a clean, user-friendly desktop program.",
+      "i18n": {
+        "it": "Installa app mobili e gestisci i file di abbinamento del dispositivo senza sforzo tramite un'applicazione pulita.",
+        "es": "Instala aplicaciones móviles y gestiona los archivos de emparejamiento de dispositivos con una aplicación limpia.",
+        "fr": "Installez des applications mobiles et gérez les fichiers d'association de périphériques sans effort via un logiciel.",
+        "de": "Installieren Sie mobile Apps und verwalten Sie Gerätekopplungsdateien mühelos über eine übersichtliche App."
+      },
+      "download_url": "https://github.com/nab138/iloader/releases/download/v2.4.2/iloader-windows-x64.exe",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "unidbg",
+      "name": "unidbg",
+      "tagline": "Run and test mobile app code safely",
+      "repo_url": "https://github.com/zhkl0228/unidbg",
+      "full_name": "zhkl0228/unidbg",
+      "category": "Productivity",
+      "tags": [
+        "emulation",
+        "android"
+      ],
+      "icon": "/icons/unidbg.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5342,
+      "tier": "tier1_gui",
+      "summary": "Unidbg lets you run mobile app libraries on your computer for learning and troubleshooting purposes without installing an entire phone simulator.",
+      "i18n": {
+        "it": "Unidbg permette di eseguire librerie di app mobili sul computer per scopi di studio e analisi senza usare un simulatore completo.",
+        "es": "Unidbg te permite ejecutar bibliotecas de aplicaciones móviles en tu computadora para estudiarlas y probarlas sin simuladores pesados.",
+        "fr": "Unidbg permet d'exécuter des bibliothèques mobiles sur votre ordinateur pour les analyser facilement sans simulateur lourd.",
+        "de": "Mit Unidbg lassen sich mobile Bibliotheken zu Lern- und Analysezwecken direkt auf dem Computer ausführen."
+      },
+      "download_url": "https://github.com/zhkl0228/unidbg/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "retoolkit",
       "name": "retoolkit",
       "tagline": "Pre-configured security and software analysis toolkit",
@@ -38160,6 +38328,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "bulletinboard",
+      "name": "BulletinBoard",
+      "tagline": "Create native iOS contextual bottom cards easily",
+      "repo_url": "https://github.com/alexaubry/bulletinboard",
+      "full_name": "alexaubry/bulletinboard",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "developer-tools"
+      ],
+      "icon": "/icons/bulletinboard.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5328,
+      "tier": "tier1_gui",
+      "summary": "BulletinBoard lets developers add native-style contextual bottom cards to iOS apps for fast user onboarding and setup.",
+      "i18n": {
+        "it": "BulletinBoard consente agli sviluppatori di aggiungere schede contestuali in stile nativo alle app iOS per onboarding e configurazioni rapide.",
+        "es": "BulletinBoard permite a los desarrolladores agregar tarjetas contextuales de estilo nativo en iOS para incorporación y configuraciones rápidas.",
+        "fr": "BulletinBoard permet aux développeurs d'ajouter des cartes contextuelles de style natif sur iOS pour l'intégration et la configuration.",
+        "de": "Mit BulletinBoard können Entwickler native Kontextkarten am Bildschirmrand für schnelle App-Einrichtungen hinzufügen."
+      },
+      "download_url": "https://github.com/alexaubry/BulletinBoard/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "nectarlink",
       "name": "Nectarlink",
       "tagline": "Connect your Android phone and PC seamlessly.",
@@ -38186,6 +38382,34 @@
       },
       "download_url": "https://github.com/thtbee/nectarlink/releases/download/v0.1.5/Nectarlink-0.1.5-arm64-setup.exe",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "ipapatch",
+      "name": "IPAPatch",
+      "tagline": "Modify and enhance iPhone apps without jailbreaking",
+      "repo_url": "https://github.com/naituw/ipapatch",
+      "full_name": "naituw/ipapatch",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "developer"
+      ],
+      "icon": "/icons/ipapatch.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5321,
+      "tier": "tier1_gui",
+      "summary": "Easily customize and test third-party iPhone apps by injecting custom code and external tools without jailbreaking your device.",
+      "i18n": {
+        "it": "Personalizza e prova facilmente app per iPhone iniettando codice personalizzato senza bisogno di jailbreak.",
+        "es": "Personaliza y prueba aplicaciones de iPhone fácilmente inyectando código personalizado sin necesidad de jailbreak.",
+        "fr": "Personnalisez et testez facilement des applications iPhone en y injectant du code sans jailbreak.",
+        "de": "Passen und testen Sie iPhone-Apps unkompliziert an, indem Sie eigenen Code ohne Jailbreak einfügen."
+      },
+      "download_url": "https://github.com/Naituw/IPAPatch/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "isso",
@@ -38720,6 +38944,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "estabbarcontroller",
+      "name": "ESTabBarController",
+      "tagline": "Animate and customize mobile tab bars easily.",
+      "repo_url": "https://github.com/eggswift/estabbarcontroller",
+      "full_name": "eggswift/estabbarcontroller",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "ui"
+      ],
+      "icon": "/icons/estabbarcontroller.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5221,
+      "tier": "tier1_gui",
+      "summary": "Create engaging mobile app navigation bars with custom animations, badges, and smooth visual effects.",
+      "i18n": {
+        "it": "Crea barre di navigazione per app mobili con animazioni personalizzate, badge ed effetti visivi fluidi.",
+        "es": "Crea barras de navegación atractivas para aplicaciones móviles con animaciones personalizadas y efectos visuales.",
+        "fr": "Créez des barres de navigation pour applications mobiles avec des animations personnalisées et des effets fluides.",
+        "de": "Erstellen Sie ansprechende Navigationsleisten für mobile Apps mit benutzerdefinierten Animationen und Effekten."
+      },
+      "download_url": "https://github.com/eggswift/ESTabBarController/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "colanode",
       "name": "Colanode",
       "tagline": "Private, local-first team collaboration workspace.",
@@ -38914,6 +39166,34 @@
       },
       "download_url": "https://github.com/mermaid-js/mermaid-cli/releases",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "sol2",
+      "name": "sol2",
+      "tagline": "High-performance C++ and Lua binding library",
+      "repo_url": "https://github.com/thephd/sol2",
+      "full_name": "thephd/sol2",
+      "category": "Productivity",
+      "tags": [
+        "cplusplus",
+        "lua"
+      ],
+      "icon": "/icons/sol2.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5182,
+      "tier": "tier1_gui",
+      "summary": "Seamlessly connect C++ code and Lua scripts with lightning speed and a simple header-only setup.",
+      "i18n": {
+        "it": "Collega facilmente codice C++ e script Lua con velocità elevata e una semplice configurazione.",
+        "es": "Conecta sin esfuerzo código C++ y scripts Lua con gran velocidad y una sencilla configuración.",
+        "fr": "Connectez facilement du code C++ et des scripts Lua avec une vitesse fulgurante.",
+        "de": "Verbinden Sie C++-Code und Lua-Skripte nahtlos mit hoher Geschwindigkeit und einfachem Setup."
+      },
+      "download_url": "https://github.com/ThePhD/sol2/releases/download/v3.3.0/config.hpp",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "wp-cli",
@@ -39112,6 +39392,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "learnapollo",
+      "name": "learnapollo",
+      "tagline": "Hands-on tutorials for data connection libraries",
+      "repo_url": "https://github.com/learnapollo/learnapollo",
+      "full_name": "learnapollo/learnapollo",
+      "category": "Productivity",
+      "tags": [
+        "tutorial",
+        "graphql"
+      ],
+      "icon": "/icons/learnapollo.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5142,
+      "tier": "tier1_gui",
+      "summary": "Master modern data querying and connection management across multiple platforms with step-by-step interactive lessons and practical examples.",
+      "i18n": {
+        "it": "Impara a gestire connessioni e query dati moderne su più piattaforme con lezioni interattive passo dopo passo.",
+        "es": "Domina las consultas de datos modernas en múltiples plataformas con lecciones interactivas paso a paso.",
+        "fr": "Maîtrisez la gestion des données et requêtes sur plusieurs plateformes grâce à des leçons interactives.",
+        "de": "Meistern Sie moderne Datenabfragen auf mehreren Plattformen mit Schritt-für-Schritt-Anleitungen."
+      },
+      "download_url": "https://www.learnapollo.com",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "mcporter",
       "name": "MCPorter",
       "tagline": "Easily connect and run AI tools",
@@ -39278,6 +39586,34 @@
       },
       "download_url": "https://amanusk.github.io/s-tui/",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "sill",
+      "name": "Sill",
+      "tagline": "Use your Mac apps on iPhone or iPad",
+      "repo_url": "https://github.com/saffsanity/sill",
+      "full_name": "saffsanity/sill",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "remote-desktop"
+      ],
+      "icon": "/icons/sill.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5114,
+      "tier": "tier1_gui",
+      "summary": "Sill lets you view and control your Mac's windows directly from your iPhone or iPad using touch, gestures, or an Apple Pencil.",
+      "i18n": {
+        "it": "Sill ti permette di visualizzare e controllare le finestre del tuo Mac direttamente dal tuo iPhone o iPad tramite tocco o gesti.",
+        "es": "Sill te permite ver y controlar las ventanas de tu Mac directamente desde tu iPhone o iPad usando gestos táctiles o un lápiz digital.",
+        "fr": "Sill vous permet d'afficher et de contrôler les fenêtres de votre Mac depuis votre iPhone ou iPad avec des gestes tactiles ou un stylet.",
+        "de": "Sill ermöglicht es dir, deine Mac-Fenster direkt von deinem iPhone oder iPad aus mit Touch-Gesten oder einem Eingabestift zu steuern."
+      },
+      "download_url": "https://github.com/Saffsanity/sill/releases/download/v0.6.2/Sill.dmg",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "mqttx",
@@ -39532,6 +39868,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "ohhttpstubs",
+      "name": "OHHTTPStubs",
+      "tagline": "Test network data with fake responses",
+      "repo_url": "https://github.com/alisoftware/ohhttpstubs",
+      "full_name": "alisoftware/ohhttpstubs",
+      "category": "Productivity",
+      "tags": [
+        "networking",
+        "testing"
+      ],
+      "icon": "/icons/ohhttpstubs.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5062,
+      "tier": "tier1_gui",
+      "summary": "Easily test your apps with fake network data, custom response times, and error codes to simulate any network condition.",
+      "i18n": {
+        "it": "Testa le tue app con dati di rete finti e tempi di risposta personalizzati per simulare qualsiasi condizione.",
+        "es": "Prueba tus aplicaciones con datos de red falsificados y tiempos de respuesta personalizados fácilmente.",
+        "fr": "Testez vos applications avec de faux flux réseau et des temps de réponse personnalisés en toute simplicité.",
+        "de": "Testen Sie Ihre Apps ganz einfach mit gefälschten Netzwerkdaten und individuell angepassten Antwortzeiten."
+      },
+      "download_url": "https://github.com/AliSoftware/OHHTTPStubs/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "saber",
       "name": "Saber",
       "tagline": "Simple and secure digital handwriting notes.",
@@ -39614,6 +39978,34 @@
       },
       "download_url": "https://ultralig.ht",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "coral",
+      "name": "Coral",
+      "tagline": "Secure execution rails for AI agents.",
+      "repo_url": "https://github.com/withcoral/coral",
+      "full_name": "withcoral/coral",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ai",
+        "security"
+      ],
+      "icon": "/icons/coral.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5031,
+      "tier": "tier2_webapp",
+      "summary": "Coral is a self-hosted gateway that gives AI agents precise permissions, custom tools, and safe access to enterprise systems.",
+      "i18n": {
+        "it": "Coral è un gateway autogestito che offre agli agenti IA permessi precisi, strumenti personalizzati e accesso sicuro.",
+        "es": "Coral es una pasarela autohospedada que otorga a los agentes de IA permisos precisos, herramientas y acceso seguro.",
+        "fr": "Coral est une passerelle auto-hébergée qui offre aux agents IA des permissions précises et un accès sécurisé.",
+        "de": "Coral ist ein selbstgehostetes Gateway, das KI-Agenten präzise Berechtigungen und sichere Systemzugriffe bietet."
+      },
+      "download_url": "https://withcoral.com",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "small",
@@ -42946,6 +43338,34 @@
       },
       "download_url": "https://ibireme.github.io/yyjson/doc/doxygen/html/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "mpx",
+      "name": "Mpx",
+      "tagline": "Build high-performance apps for any platform.",
+      "repo_url": "https://github.com/didi/mpx",
+      "full_name": "didi/mpx",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "development",
+        "cross-platform"
+      ],
+      "icon": "/icons/mpx.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 3954,
+      "tier": "tier2_webapp",
+      "summary": "Mpx is a powerful tool that helps developers create fast, reliable applications that work seamlessly across mini-programs, web, and mobile.",
+      "i18n": {
+        "it": "Mpx è uno strumento potente che aiuta a creare app veloci e affidabili che funzionano su mini-programmi, web e dispositivi mobili.",
+        "es": "Mpx es una herramienta potente que ayuda a crear aplicaciones rápidas y fiables que funcionan en mini-programas, web y móviles.",
+        "fr": "Mpx est un outil puissant qui aide à créer des applications rapides et fiables fonctionnant sur mini-programmes, web et mobile.",
+        "de": "Mpx ist ein leistungsstarkes Werkzeug zur Erstellung schneller und zuverlässiger Apps für Mini-Programme, Web und Mobilgeräte."
+      },
+      "download_url": "https://mpxjs.cn",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "lektor",
@@ -52999,6 +53419,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "piral",
+      "name": "Piral",
+      "tagline": "Build modular web apps with micro frontends",
+      "repo_url": "https://github.com/smapiot/piral",
+      "full_name": "smapiot/piral",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web",
+        "development"
+      ],
+      "icon": "/icons/piral.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1940,
+      "tier": "tier2_webapp",
+      "summary": "Piral helps teams build modular web applications that load independent feature modules at runtime.",
+      "i18n": {
+        "it": "Piral aiuta i team a creare applicazioni web modulari che caricano moduli di funzionalità indipendenti in esecuzione.",
+        "es": "Piral ayuda a los equipos a crear aplicaciones web modulares que cargan módulos de características independientes en tiempo de ejecución.",
+        "fr": "Piral aide les équipes à créer des applications web modulaires qui chargent des modules de fonctionnalités indépendants à l'exécution.",
+        "de": "Piral hilft Teams dabei, modulare Webanwendungen zu erstellen, die unabhängige Funktionsmodule zur Laufzeit laden."
+      },
+      "download_url": "https://piral.io",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "easy-stock",
       "name": "easy-stock",
       "tagline": "AI-powered desktop research hub for stocks",
@@ -55799,6 +56247,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "thephish",
+      "name": "ThePhish",
+      "tagline": "Automated phishing email analysis tool",
+      "repo_url": "https://github.com/emalderson/thephish",
+      "full_name": "emalderson/thephish",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "email"
+      ],
+      "icon": "/icons/thephish.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 1385,
+      "tier": "tier2_webapp",
+      "summary": "Automatically investigate suspicious emails by pulling links, addresses, and attachments into a security investigation workspace for rapid threat verdicts.",
+      "i18n": {
+        "it": "Esamina automaticamente le email sospette estraendo link e allegati in un ambiente di sicurezza per una rapida verifica delle minacce.",
+        "es": "Investiga correos sospechosos automáticamente enviando enlaces y archivos adjuntos a un espacio de seguridad para veredictos rápidos.",
+        "fr": "Examinez automatiquement les e-mails suspects en extrayant liens et pièces jointes vers un espace de sécurité pour des verdicts rapides.",
+        "de": "Untersuchen Sie verdächtige E-Mails automatisch, indem Sie Links und Anhänge in einen Sicherheitsbereich zur schnellen Bedrohungsprüfung leiten."
+      },
+      "download_url": "https://github.com/emalderson/ThePhish/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "treefrog-framework",
       "name": "TreeFrog Framework",
       "tagline": "High-speed C++ web application framework.",
@@ -55824,6 +56300,34 @@
         "de": "Erstellen Sie ultraschnelle Web-Apps mit C++ und Qt sowie integrierten Datenbank- und Codegeneratoren."
       },
       "download_url": "https://github.com/treefrogframework/treefrog-framework/releases/download/v2.12.1/treefrog-2.12.1-msvc_64-setup.exe",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "traingenerator",
+      "name": "Traingenerator",
+      "tagline": "Create ML code instantly",
+      "repo_url": "https://github.com/jrieke/traingenerator",
+      "full_name": "jrieke/traingenerator",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "machine-learning",
+        "code-generator"
+      ],
+      "icon": "/icons/traingenerator.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1382,
+      "tier": "tier2_webapp",
+      "summary": "Traingenerator lets you pick a machine‑learning task, set a few options, and instantly download ready‑to‑run Python code or a notebook.",
+      "i18n": {
+        "it": "Traingenerator ti permette di scegliere un compito di apprendimento automatico, impostare qualche opzione e scaricare subito codice Python pronto all'uso o un notebook.",
+        "es": "Traingenerator te permite seleccionar una tarea de aprendizaje automático, ajustar algunas opciones y descargar al momento código Python listo para ejecutar o un cuaderno.",
+        "fr": "Traingenerator vous aide à choisir une tâche d’apprentissage automatique, à régler quelques paramètres et à télécharger immédiatement du code Python prêt à l’emploi ou un notebook.",
+        "de": "Traingenerator ermöglicht es Ihnen, eine Aufgabe des maschinellen Lernens auszuwählen, ein paar Optionen festzulegen und sofort fertigen Python‑Code oder ein Notebook herunterzuladen."
+      },
+      "download_url": "https://traingenerator.jrieke.com",
       "updated_at": "2026-11-25"
     },
     {
@@ -56469,6 +56973,34 @@
       },
       "download_url": "https://firecms.co",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "foloup",
+      "name": "FoloUp",
+      "tagline": "AI-powered voice interviewer for hiring",
+      "repo_url": "https://github.com/foloup/foloup",
+      "full_name": "foloup/foloup",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "hiring",
+        "ai"
+      ],
+      "icon": "/icons/foloup.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1284,
+      "tier": "tier2_webapp",
+      "summary": "FoloUp is an open-source platform that uses artificial intelligence to conduct natural, conversational voice interviews with job candidates.",
+      "i18n": {
+        "it": "FoloUp è una piattaforma open-source che utilizza l'intelligenza artificiale per condurre colloqui di lavoro vocali e naturali.",
+        "es": "FoloUp es una plataforma de código abierto que utiliza inteligencia artificial para realizar entrevistas de voz naturales con candidatos.",
+        "fr": "FoloUp est une plateforme open-source qui utilise l'intelligence artificielle pour mener des entretiens vocaux naturels.",
+        "de": "FoloUp ist eine Open-Source-Plattform, die künstliche Intelligenz nutzt, um natürliche Sprachinterviews mit Kandidaten zu führen."
+      },
+      "download_url": "https://foloup.suveenellawela.com",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "guijs",
@@ -57199,6 +57731,34 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "keras-flask-deploy-webapp",
+      "name": "keras-flask-deploy-webapp",
+      "tagline": "Turn image classification models into web apps.",
+      "repo_url": "https://github.com/imfing/keras-flask-deploy-webapp",
+      "full_name": "imfing/keras-flask-deploy-webapp",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ai",
+        "web"
+      ],
+      "icon": "/icons/keras-flask-deploy-webapp.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 1211,
+      "tier": "tier2_webapp",
+      "summary": "An easy-to-use template that lets you display and test your artificial intelligence image models directly inside a clean web browser window.",
+      "i18n": {
+        "it": "Un modello semplice per mostrare e testare i tuoi modelli di immagine di intelligenza artificiale direttamente all'interno di un browser.",
+        "es": "Una plantilla sencilla para mostrar y probar tus modelos de inteligencia artificial de imágenes directamente en un navegador web.",
+        "fr": "Un modèle simple pour afficher et tester vos modèles d'images d'intelligence artificiale directement dans un navigateur web.",
+        "de": "Eine einfache Vorlage zum Testen und Präsentieren Ihrer Bilderkennungsmodelle der künstlichen Intelligenz direkt im Browser."
+      },
+      "download_url": "https://github.com/imfing/keras-flask-deploy-webapp/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "subtitle-translator",
       "name": "Subtitle Translator",
       "tagline": "Translate whole seasons of subtitles instantly",
@@ -57337,6 +57897,34 @@
       },
       "download_url": "https://www.fork-cms.com",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "csswand",
+      "name": "csswand",
+      "tagline": "Copy beautiful ready-to-use CSS effects",
+      "repo_url": "https://github.com/oliver-gomes/csswand",
+      "full_name": "oliver-gomes/csswand",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "animations",
+        "web-design"
+      ],
+      "icon": "/icons/csswand.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1168,
+      "tier": "tier2_webapp",
+      "summary": "Browse a collection of hand-crafted CSS animations and styles to easily copy and paste into your own web projects.",
+      "i18n": {
+        "it": "Esplora una collezione di animazioni e stili CSS fatti a mano da copiare e incollare facilmente nei tuoi progetti web.",
+        "es": "Explora una colección de animaciones y estilos CSS hechos a mano para copiar y pegar fácilmente en tus proyectos web.",
+        "fr": "Parcourez une collection d'animations et de styles CSS faits main à copier et coller facilement dans vos projets web.",
+        "de": "Entdecken Sie eine Sammlung handgefertigter CSS-Animationen und Stile, die Sie ganz einfach in Ihre Webprojekte kopieren können."
+      },
+      "download_url": "https://www.csswand.dev/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "yolov8-pyside6-gui",
@@ -57843,6 +58431,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "goapp",
+      "name": "goapp",
+      "tagline": "Structured design guideline for Go web services",
+      "repo_url": "https://github.com/naughtygopher/goapp",
+      "full_name": "naughtygopher/goapp",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web",
+        "architecture"
+      ],
+      "icon": "/icons/goapp.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1076,
+      "tier": "tier2_webapp",
+      "summary": "An opinionated architectural guideline and template for structuring and developing maintainable Go web applications.",
+      "i18n": {
+        "it": "Una guida architetturale e un modello strutturato per sviluppare applicazioni web in Go pulite e manutenibili.",
+        "es": "Una guía arquitectónica y plantilla opinada para estructurar y desarrollar aplicaciones web en Go fáciles de mantener.",
+        "fr": "Un guide architectural et un modèle pour structurer et développer des applications web Go propres et maintenables.",
+        "de": "Ein architektonischer Leitfaden und eine Vorlage zur Strukturierung und Entwicklung wartbarer Go-Webanwendungen."
+      },
+      "download_url": "https://github.com/naughtygopher/goapp/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "kde-material-you-colors",
       "name": "kde-material-you-colors",
       "tagline": "Dynamic wallpaper color themes for KDE Plasma",
@@ -58095,6 +58711,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "poznote",
+      "name": "Poznote",
+      "tagline": "Powerful self-hosted note-taking workspace alternative.",
+      "repo_url": "https://github.com/timothepoznanski/poznote",
+      "full_name": "timothepoznanski/poznote",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "notes",
+        "productivity"
+      ],
+      "icon": "/icons/poznote.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1055,
+      "tier": "tier2_webapp",
+      "summary": "Poznote is a free, self-hosted note-taking workspace designed to help you organize notes, documents, and ideas without the clutter.",
+      "i18n": {
+        "it": "Uno spazio di lavoro self-hosted gratuito e flessibile per organizzare note, documenti e idee personali in modo semplice.",
+        "es": "Una plataforma de notas autohospedada y gratuita diseñada para organizar tus ideas y documentos sin complicaciones.",
+        "fr": "Un espace de notes gratuit et auto-hébergé pour organiser vos documents, idées et projets sans complexité inutile.",
+        "de": "Ein kostenloser, selbst gehosteter Notizarbeitsplatz zum Organisieren von Ideen und Dokumenten ohne komplizierten Ballast."
+      },
+      "download_url": "https://poznote.com",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "ytmdl-web-v2",
+      "name": "ytmdl-web-v2",
+      "tagline": "Download songs with built-in album metadata.",
+      "repo_url": "https://github.com/deepjyoti30/ytmdl-web-v2",
+      "full_name": "deepjyoti30/ytmdl-web-v2",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "music",
+        "downloader"
+      ],
+      "icon": "/icons/ytmdl-web-v2.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1054,
+      "tier": "tier2_webapp",
+      "summary": "An intuitive web tool that downloads your favorite tracks directly from video platforms while automatically tagging them with proper album art, artist names, and song details from popular music databases.",
+      "i18n": {
+        "it": "Uno strumento web intuitivo che scarica i tuoi brani preferiti e li arricchisce automaticamente con copertine e dettagli accurati.",
+        "es": "Una herramienta web intuitiva que descarga tus canciones favoritas y les añade automáticamente carátulas y detalles oficiales.",
+        "fr": "Un outil web intuitif qui télécharge vos morceaux préférés tout en y ajoutant automatiquement les pochettes et informations.",
+        "de": "Ein intuitives Web-Tool, das Lieblingssongs herunterlädt und sie automatisch mit offiziellen Albuminformationen versieht."
+      },
+      "download_url": "https://ytmdl.deepjyoti30.dev",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "backdrop",
       "name": "Backdrop",
       "tagline": "Manage websites easily without complex tools.",
@@ -58205,6 +58877,34 @@
       },
       "download_url": "https://github.com/Auto-Explore/GitComet/releases/download/v0.3.4/gitcomet-v0.3.4-windows-arm64.msi",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "nxbt",
+      "name": "NXBT",
+      "tagline": "Control your Nintendo Switch remotely",
+      "repo_url": "https://github.com/brikwerk/nxbt",
+      "full_name": "brikwerk/nxbt",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "gaming",
+        "automation"
+      ],
+      "icon": "/icons/nxbt.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1044,
+      "tier": "tier2_webapp",
+      "summary": "Turn your computer into a wireless game controller to play your Nintendo Switch using any web browser, keyboard, or custom automated script.",
+      "i18n": {
+        "it": "Trasforma il tuo computer in un controller wireless per giocare con la tua Nintendo Switch usando qualsiasi browser, tastiera o script.",
+        "es": "Convierte tu ordenador en un mando inalámbrico para jugar con tu Nintendo Switch usando cualquier navegador, teclado o script automatizado.",
+        "fr": "Transformez votre ordinateur en manette sans fil pour jouer sur votre Nintendo Switch via n'importe quel navigateur, clavier ou script.",
+        "de": "Verwandeln Sie Ihren Computer in einen kabellosen Controller, um Ihre Nintendo Switch über jeden Browser, jede Tastatur oder Skripte zu steuern."
+      },
+      "download_url": "https://github.com/Brikwerk/nxbt/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "aether-gui",
