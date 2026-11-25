@@ -2,17 +2,17 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-25T03:05:09.935520+00:00",
-  "total_apps": 2200,
+  "generated_at": "2026-11-25T03:07:13.025996+00:00",
+  "total_apps": 2225,
   "tier_counts": {
     "tier3_powertool": 314,
-    "tier2_webapp": 657,
+    "tier2_webapp": 682,
     "tier1_gui": 1229
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 304,
-    "selfhosted": 656,
+    "selfhosted": 681,
     "desktop": 1229,
     "webapp": 1
   },
@@ -22,7 +22,7 @@
     "Security & Privacy": 51,
     "Utilities & Power Tools": 293,
     "Video & Audio": 103,
-    "Web Apps & Cloud": 632,
+    "Web Apps & Cloud": 657,
     "Websites & SEO": 3
   },
   "apps": [
@@ -81,6 +81,34 @@
       },
       "download_url": "https://rea.tools",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "system-design-primer",
+      "name": "System Design Primer",
+      "tagline": "Master large-scale system design and interviews.",
+      "repo_url": "https://github.com/donnemartin/system-design-primer",
+      "full_name": "donnemartin/system-design-primer",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "system-design",
+        "architecture"
+      ],
+      "icon": "/icons/system-design-primer.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 379100,
+      "tier": "tier2_webapp",
+      "summary": "Learn how to build massive, scalable software architectures and prepare effectively for technical design interviews.",
+      "i18n": {
+        "it": "Impara a progettare architetture software massive e preparati per i colloqui tecnici con risorse organizzate.",
+        "es": "Aprende a diseñar arquitecturas de software masivas y prepárate para entrevistas técnicas con recursos organizados.",
+        "fr": "Apprenez à concevoir des architectures logicielles massives et préparez vos entretiens techniques en toute confiance.",
+        "de": "Lernen Sie skalierbare Architekturen zu entwerfen und bereiten Sie sich optimal auf technische Interviews vor."
+      },
+      "download_url": "https://github.com/donnemartin/system-design-primer/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "n8n",
@@ -2489,6 +2517,34 @@
       },
       "download_url": "https://github.com/iina/iina/releases/download/v1.5.1/IINA.v1.5.1.dmg",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "cobalt",
+      "name": "cobalt",
+      "tagline": "Save online media without annoying friction.",
+      "repo_url": "https://github.com/imputnet/cobalt",
+      "full_name": "imputnet/cobalt",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "downloader",
+        "media"
+      ],
+      "icon": "/icons/cobalt.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 47194,
+      "tier": "tier2_webapp",
+      "summary": "An ultra-clean media downloader that grabs online content without trackers, paywalls, or annoying ads.",
+      "i18n": {
+        "it": "Un downloader multimediale pulito che cattura contenuti online senza tracciatori, paywall o fastidiose pubblicità.",
+        "es": "Un descargador multimedia limpio que obtiene contenido en línea sin rastreadores, muros de pago ni anuncios molestos.",
+        "fr": "Un téléchargeur multimédia propre qui récupère du contenu en ligne sans traqueurs, paywalls ou publicités ennuyeuses.",
+        "de": "Ein übersichtlicher Mediendownloader, der Online-Inhalte ohne Tracker, Paywalls oder lästige Werbung herunterlädt."
+      },
+      "download_url": "https://cobalt.tools",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "okhttp",
@@ -9910,6 +9966,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "profile-summary-for-github",
+      "name": "profile-summary-for-github",
+      "tagline": "Visualize your GitHub coding presence instantly.",
+      "repo_url": "https://github.com/tipsy/profile-summary-for-github",
+      "full_name": "tipsy/profile-summary-for-github",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "github",
+        "visualization"
+      ],
+      "icon": "/icons/profile-summary-for-github.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 19942,
+      "tier": "tier2_webapp",
+      "summary": "Transform your raw coding stats and repositories into colorful, comprehensive visual dashboards.",
+      "i18n": {
+        "it": "Trasforma le tue statistiche di programmazione e i tuoi repository in dashboard visive colorate.",
+        "es": "Transforma tus estadísticas de código y repositorios en paneles visuales coloridos.",
+        "fr": "Transformez vos statistiques de code et vos dépôts en tableaux de bord visuels.",
+        "de": "Verwandeln Sie Ihre Programmierstatistiken und Repositories in farbige Dashboards."
+      },
+      "download_url": "https://profile-summary-for-github.com/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "activitywatch",
       "name": "ActivityWatch",
       "tagline": "Private and automatic time tracking",
@@ -10860,6 +10944,34 @@
       },
       "download_url": "https://github.com/asciinema/asciinema/releases/download/v3.2.1/asciinema-aarch64-apple-darwin",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "spellbook-of-modern-webdev",
+      "name": "Spellbook of Modern Web Dev",
+      "tagline": "The big picture of modern web development",
+      "repo_url": "https://github.com/dexteryy/spellbook-of-modern-webdev",
+      "full_name": "dexteryy/spellbook-of-modern-webdev",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "learning"
+      ],
+      "icon": "/icons/spellbook-of-modern-webdev.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 17969,
+      "tier": "tier2_webapp",
+      "summary": "A comprehensive map, taxonomy, and learning resource collection for navigating modern JavaScript web development without feeling overwhelmed.",
+      "i18n": {
+        "it": "Una guida dettagliata e tassonomia per orientarsi nello sviluppo web JavaScript moderno senza perdersi nel caos.",
+        "es": "Un mapa exhaustivo y taxonomía para navegar por el desarrollo web moderno en JavaScript sin sufrir fatiga digital.",
+        "fr": "Une cartographie complète et structurée pour comprendre le développement web JavaScript moderne sans se surmener.",
+        "de": "Eine umfassende Übersicht und Taxonomie zur Navigation durch die moderne JavaScript-Webentwicklung ohne Überforderung."
+      },
+      "download_url": "https://github.com/dexteryy/spellbook-of-modern-webdev/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "openemu",
@@ -11980,6 +12092,34 @@
       },
       "download_url": "https://burn.dev",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "pakeplus",
+      "name": "PakePlus",
+      "tagline": "Turn any webpage into a desktop app.",
+      "repo_url": "https://github.com/sjj1024/pakeplus",
+      "full_name": "sjj1024/pakeplus",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "webapp",
+        "desktop"
+      ],
+      "icon": "/icons/pakeplus.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 16266,
+      "tier": "tier2_webapp",
+      "summary": "Transform any website, HTML page, or web project into a lightweight desktop and mobile application in just minutes.",
+      "i18n": {
+        "it": "Trasforma qualsiasi sito web o progetto web in un'applicazione desktop e mobile leggera in pochi minuti.",
+        "es": "Convierte cualquier sitio web o proyecto web en una aplicación de escritorio y móvil ligera en pocos minutos.",
+        "fr": "Transformez n'importe quel site web ou projet web en une application de bureau et mobile légère en quelques minutes.",
+        "de": "Verwandeln Sie jede Website oder jedes Webprojekt in wenigen Minuten in eine leichte Desktop- und Mobile-Anwendung."
+      },
+      "download_url": "https://github.com/Sjj1024/PakePlus/releases/download/PakePlus-v2.2.8/PakePlus_2.2.8_arm64-setup.exe",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "server",
@@ -21025,6 +21165,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "weylus",
+      "name": "Weylus",
+      "tagline": "Turn your tablet into a touchscreen.",
+      "repo_url": "https://github.com/h-m-h/weylus",
+      "full_name": "h-m-h/weylus",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "tablet",
+        "touchscreen"
+      ],
+      "icon": "/icons/weylus.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 9804,
+      "tier": "tier2_webapp",
+      "summary": "Transform your tablet or smartphone into a responsive graphic tablet and second touch screen for your computer.",
+      "i18n": {
+        "it": "Trasforma il tuo tablet o smartphone in una tavoletta grafica reattiva e in un secondo schermo touch per il computer.",
+        "es": "Convierte tu tableta o smartphone en una tableta gráfica táctil y segunda pantalla inalámbrica para tu ordenador.",
+        "fr": "Transformez votre tablette ou smartphone en tablette graphique et second écran tactile réactif pour votre ordinateur.",
+        "de": "Verwandeln Sie Ihr Tablet oder Smartphone in ein Grafik-Tablet und einen zweiten Touchscreen für Ihren Computer."
+      },
+      "download_url": "https://github.com/H-M-H/Weylus/releases/download/v0.11.4/Weylus_0.11.4_amd64.deb",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "fluent-reader",
       "name": "Fluent Reader",
       "tagline": "A clean and modern news reader",
@@ -23767,6 +23935,34 @@
       },
       "download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2.msi",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "workout-cool",
+      "name": "workout-cool",
+      "tagline": "Modern open-source fitness coaching platform",
+      "repo_url": "https://github.com/snouzy/workout-cool",
+      "full_name": "snouzy/workout-cool",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "fitness",
+        "workout"
+      ],
+      "icon": "/icons/workout-cool.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 8707,
+      "tier": "tier2_webapp",
+      "summary": "Create custom workout plans, monitor your daily fitness progress, and access a comprehensive exercise database with visual demonstrations.",
+      "i18n": {
+        "it": "Crea piani di allenamento personalizzati, monitora i tuoi progressi fisici e accedi a un database di esercizi completo.",
+        "es": "Crea rutinas de ejercicio personalizadas, registra tu progreso diario y accede a una amplia base de datos de movimientos.",
+        "fr": "Créez des programmes d'entraînement personnalisés, suivez vos progrès et accédez à une base de données d'exercices complète.",
+        "de": "Erstellen Sie individuelle Trainingspläne, verfolgen Sie Ihre Fortschritte und nutzen Sie eine umfassende Übungsdatenbank."
+      },
+      "download_url": "https://workout.cool",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "coteditor",
@@ -35136,6 +35332,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "cloudbeaver",
+      "name": "CloudBeaver Community",
+      "tagline": "Manage databases anywhere through web browsers.",
+      "repo_url": "https://github.com/dbeaver/cloudbeaver",
+      "full_name": "dbeaver/cloudbeaver",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "database",
+        "sql"
+      ],
+      "icon": "/icons/cloudbeaver.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5249,
+      "tier": "tier2_webapp",
+      "summary": "CloudBeaver Community is a web-based database management tool that lets you explore, edit, and query multiple databases right from your browser.",
+      "i18n": {
+        "it": "CloudBeaver Community è uno strumento di gestione database web per esplorare, modificare e interrogare dati direttamente dal browser.",
+        "es": "CloudBeaver Community es una herramienta web para explorar, editar y consultar múltiples bases de datos directamente desde el navegador.",
+        "fr": "CloudBeaver Community est un outil web de gestion de bases de données pour explorer, modifier et interroger vos données facilement.",
+        "de": "CloudBeaver Community ist ein webbasiertes Datenbank-Verwaltungstool zum Durchsuchen, Bearbeiten und Abfragen direkt im Browser."
+      },
+      "download_url": "https://dbeaver.com/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "devspace",
       "name": "devspace",
       "tagline": "Speed up cloud-native container workflows",
@@ -36228,6 +36452,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "app-privacy-policy-generator",
+      "name": "App Privacy Policy Generator",
+      "tagline": "Generate custom app privacy policies instantly",
+      "repo_url": "https://github.com/nisrulz/app-privacy-policy-generator",
+      "full_name": "nisrulz/app-privacy-policy-generator",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "privacy",
+        "generator"
+      ],
+      "icon": "/icons/app-privacy-policy-generator.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 4990,
+      "tier": "tier2_webapp",
+      "summary": "Create customized privacy policies and terms of use for your mobile, web, and desktop applications using an interactive wizard.",
+      "i18n": {
+        "it": "Crea informative sulla privacy e termini d'uso personalizzati per le tue applicazioni mobili e web usando una procedura guidata.",
+        "es": "Crea políticas de privacidad y términos de uso personalizados para tus aplicaciones móviles y web mediante un asistente interactivo.",
+        "fr": "Créez des politiques de confidentialité et conditions d'utilisation personnalisées pour vos applications mobiles et web facilement.",
+        "de": "Erstellen Sie maßgeschneiderte Datenschutzrichtlinien und Nutzungsbedingungen für Ihre Apps mithilfe eines interaktiven Assistenten."
+      },
+      "download_url": "https://app-privacy-policy-generator.nisrulz.com/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "anymodelbot",
       "name": "AnyModelBot",
       "tagline": "Your own AI bots on any model",
@@ -36564,6 +36816,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "cashew",
+      "name": "Cashew",
+      "tagline": "Track your budget and expenses easily.",
+      "repo_url": "https://github.com/jameskokoska/cashew",
+      "full_name": "jameskokoska/cashew",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "finance",
+        "budget"
+      ],
+      "icon": "/icons/cashew.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 4836,
+      "tier": "tier2_webapp",
+      "summary": "Cashew is a feature-rich personal finance application that helps you track budgets, manage transactions, and monitor savings goals.",
+      "i18n": {
+        "it": "Cashew è un'applicazione per la finanza personale che ti aiuta a gestire budget, transazioni e obiettivi di risparmio.",
+        "es": "Cashew es una aplicación de finanzas personales que te ayuda a gestionar presupuestos, transacciones y metas de ahorro.",
+        "fr": "Cashew est une application de finances personnelles pour suivre vos budgets, vos transactions et vos objectifs d'épargne.",
+        "de": "Cashew ist eine Haushaltsbuch-App, mit der Sie Budgets, Transaktionen und Sparziele einfach verwalten können."
+      },
+      "download_url": "https://github.com/jameskokoska/Cashew/releases/download/5.3.4%2B396/app-release.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "agent-of-empires",
       "name": "Agent of Empires",
       "tagline": "Manage your AI coding assistants easily",
@@ -36786,6 +37066,34 @@
       },
       "download_url": "https://intercoolerjs.org",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "microblog",
+      "name": "Microblog",
+      "tagline": "Your own private social networking space.",
+      "repo_url": "https://github.com/miguelgrinberg/microblog",
+      "full_name": "miguelgrinberg/microblog",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "webapp",
+        "tutorial"
+      ],
+      "icon": "/icons/microblog.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 4771,
+      "tier": "tier2_webapp",
+      "summary": "Launch a fully functional social posting website complete with user accounts and timelines.",
+      "i18n": {
+        "it": "Crea una piattaforma di condivisione social completa di profili utente e feed.",
+        "es": "Crea una plataforma social completa con perfiles de usuario y cronologías.",
+        "fr": "Lancez une plateforme de publication sociale dotée de profils et de fils d'actualité.",
+        "de": "Starten Sie eine soziale Plattform mit Benutzerprofilen und Timelines."
+      },
+      "download_url": "https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "sqlectron",
@@ -37824,6 +38132,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "terraink",
+      "name": "terraink",
+      "tagline": "Create unique custom map art posters",
+      "repo_url": "https://github.com/yousifamanuel/terraink",
+      "full_name": "yousifamanuel/terraink",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "maps",
+        "design"
+      ],
+      "icon": "/icons/terraink.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 4298,
+      "tier": "tier2_webapp",
+      "summary": "Terraink is a cartographic web engine that transforms real map data into unique, customizable, and print-ready city map posters.",
+      "i18n": {
+        "it": "Terraink trasforma i dati reali delle mappe in poster artistici personalizzabili e pronti per la stampa.",
+        "es": "Terraink convierte datos reales de mapas en pósters de ciudades personalizables y listos para imprimir.",
+        "fr": "Terraink transforme des données cartographiques réelles en affiches de villes personnalisables.",
+        "de": "Terraink verwandelt echte Kartendaten in wunderschöne, individuell anpassbare Stadtkarten-Poster."
+      },
+      "download_url": "https://terraink.app",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "ironcalc",
       "name": "IronCalc",
       "tagline": "A modern, high-performance spreadsheet engine.",
@@ -37962,6 +38298,34 @@
       },
       "download_url": "https://github.com/nuttyartist/notes/releases/download/v2.3.1/NotesSetup_2.3.1.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "wave",
+      "name": "Wave",
+      "tagline": "Build live Python web dashboards instantly",
+      "repo_url": "https://github.com/h2oai/wave",
+      "full_name": "h2oai/wave",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "dashboards",
+        "web-apps"
+      ],
+      "icon": "/icons/wave.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 4258,
+      "tier": "tier2_webapp",
+      "summary": "Create stunning, real-time web dashboards and interactive applications using only Python or R without writing front-end code.",
+      "i18n": {
+        "it": "Realizza dashboard web in tempo reale e applicazioni interattive usando solo Python o R senza codice front-end.",
+        "es": "Crea paneles web en tiempo real y aplicaciones interactivas usando solo Python o R sin código web tradicional.",
+        "fr": "Concevez des tableaux de bord en temps réel et des applications interactives en Python ou R sans code front-end.",
+        "de": "Erstellen Sie interaktive Echtzeit-Web-Dashboards und Anwendungen direkt in Python oder R ohne Front-End-Code."
+      },
+      "download_url": "https://github.com/h2oai/wave/releases/download/v1.8.18/h2o_wave-1.8.18-py3-none-any.whl",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "pagescms",
@@ -38606,6 +38970,34 @@
       },
       "download_url": "https://github.com/xubiaolin/docker-zerotier-planet/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "next-pwa",
+      "name": "next-pwa",
+      "tagline": "Turn your Next.js site into an app",
+      "repo_url": "https://github.com/shadowwalker/next-pwa",
+      "full_name": "shadowwalker/next-pwa",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "pwa",
+        "web-development"
+      ],
+      "icon": "/icons/next-pwa.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 4075,
+      "tier": "tier2_webapp",
+      "summary": "An effortless plugin that transforms any website into an offline-ready, lightning-fast app with zero setup required.",
+      "i18n": {
+        "it": "Un comodo componente che converte qualsiasi sito web in un'applicazione pronta per funzionare anche offline.",
+        "es": "Un práctico complemento para transformar cualquier página web en una aplicación rápida y compatible sin conexión.",
+        "fr": "Un plugin pratique pour convertir n'importe quel site web en une application ultra rapide et accessible hors ligne.",
+        "de": "Ein praktisches Plugin, das jede Website in eine blitzschnelle und offline-fähige Anwendung verwandelt."
+      },
+      "download_url": "https://github.com/shadowwalker/next-pwa/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "wslmanager",
@@ -61564,6 +61956,314 @@
         "de": "Verwalten und planen Sie Ihre GitHub-Beiträge mühelos mit einem einfachen visuellen Tool, um Ihr Profil aktiv zu halten."
       },
       "download_url": "https://app-commit-ten.vercel.app",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "chord-seq-ai-app",
+      "name": "ChordSeqAI Web App",
+      "tagline": "AI-powered chord progression suggester for composers",
+      "repo_url": "https://github.com/petrivan/chord-seq-ai-app",
+      "full_name": "petrivan/chord-seq-ai-app",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "music",
+        "ai"
+      ],
+      "icon": "/icons/chord-seq-ai-app.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 250,
+      "tier": "tier2_webapp",
+      "summary": "Compose beautiful chord progressions effortlessly with intelligent AI suggestions, timeline controls, and built-in audio playback right in your browser.",
+      "i18n": {
+        "it": "Componi progressioni di accordi con suggerimenti IA intelligenti, controlli della timeline e riproduzione audio integrata.",
+        "es": "Compón progresiones de acordes fácilmente con sugerencias de IA inteligentes, controles de línea de tiempo y audio.",
+        "fr": "Composez de belles progressions d'accords grâce à des suggestions d'IA intelligentes et un lecteur audio intégré.",
+        "de": "Komponieren Sie Akkordfolgen ganz einfach mit intelligenten KI-Vorschlägen, Zeitleistenreglern und integrierter Audiowiedergabe."
+      },
+      "download_url": "https://chordseqai.com",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "clobbr",
+      "name": "clobbr",
+      "tagline": "Test your digital service speed.",
+      "repo_url": "https://github.com/parsecph/clobbr",
+      "full_name": "parsecph/clobbr",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "developer-tools",
+        "performance"
+      ],
+      "icon": "/icons/clobbr.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 241,
+      "tier": "tier2_webapp",
+      "summary": "Check how well your web services handle multiple visitors at once by sending automated requests in sequence or parallel.",
+      "i18n": {
+        "it": "Controlla come i tuoi servizi web gestiscono più visitatori inviando richieste automatizzate in sequenza o in parallelo.",
+        "es": "Comprueba cómo tus servicios web manejan múltiples visitantes enviando solicitudes automatizadas en secuencia o paralelo.",
+        "fr": "Vérifiez comment vos services web gèrent plusieurs visiteurs en envoyant des requêtes automatisées en séquence ou en parallèle.",
+        "de": "Prüfen Sie, wie gut Ihre Webdienste mehrere Besucher bewältigen, indem Sie automatisierte Anfragen senden."
+      },
+      "download_url": "https://github.com/parsecph/clobbr/releases/download/v1.16.2/cli-1-16-2-windows.exe",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "hotel-management-system",
+      "name": "Hotel-Management-System",
+      "tagline": "Hotel Management Made Simple",
+      "repo_url": "https://github.com/vaibhavverma9999/hotel-management-system",
+      "full_name": "vaibhavverma9999/hotel-management-system",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "hotel",
+        "management"
+      ],
+      "icon": "/icons/hotel-management-system.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 235,
+      "tier": "tier2_webapp",
+      "summary": "Easily handle bookings, rooms, and payments with a web‑based system that keeps guests and staff organized.",
+      "i18n": {
+        "it": "Gestisci prenotazioni, camere e pagamenti con un sistema web che mantiene ospiti e personale organizzati.",
+        "es": "Administra reservas, habitaciones y pagos con un sistema web que mantiene a huéspedes y personal organizados.",
+        "fr": "Gérez les réservations, chambres et paiements avec un système web qui garde clients et personnel organisés.",
+        "de": "Verwalten Sie Buchungen, Zimmer und Zahlungen mit einem Web‑System, das Gäste und Personal organisiert hält."
+      },
+      "download_url": "https://github.com/vaibhavverma9999/Hotel-Management-System/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "drupalgap",
+      "name": "DrupalGap",
+      "tagline": "Build custom apps for Drupal sites",
+      "repo_url": "https://github.com/signalpoint/drupalgap",
+      "full_name": "signalpoint/drupalgap",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "drupal",
+        "web-apps"
+      ],
+      "icon": "/icons/drupalgap.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v2)",
+      "stars": 233,
+      "tier": "tier2_webapp",
+      "summary": "DrupalGap is an open-source development kit that lets you build custom mobile and web applications for Drupal content management systems.",
+      "i18n": {
+        "it": "DrupalGap è un kit di sviluppo open-source per creare app mobili e web personalizzate collegate a siti Drupal in modo semplice.",
+        "es": "DrupalGap es un kit de desarrollo de código abierto para crear aplicaciones móviles y web conectadas a sitios Drupal fácilmente.",
+        "fr": "DrupalGap est un kit de développement open-source pour créer des applications mobiles et web personnalisées pour les sites Drupal.",
+        "de": "DrupalGap ist ein Open-Source-Entwicklungskit zum Erstellen maßgeschneiderter mobiler und Web-Anwendungen für Drupal-Websites."
+      },
+      "download_url": "https://www.drupalgap.org",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "onnx-web",
+      "name": "onnx-web",
+      "tagline": "Run AI image generation on your hardware",
+      "repo_url": "https://github.com/ssube/onnx-web",
+      "full_name": "ssube/onnx-web",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ai",
+        "image-generation"
+      ],
+      "icon": "/icons/onnx-web.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 232,
+      "tier": "tier2_webapp",
+      "summary": "An accessible web interface for running advanced AI image generation models locally using your graphics card.",
+      "i18n": {
+        "it": "Un'interfaccia web accessibile per eseguire modelli avanzati di intelligenza artificiale localmente sul tuo computer.",
+        "es": "Una interfaz web accesible para ejecutar modelos avanzados de generación de imágenes utilizando tu tarjeta gráfica.",
+        "fr": "Une interface web conviviale pour exécuter des modèles de génération d'art visuel directement sur votre matériel.",
+        "de": "Eine benutzerfreundliche Oberfläche zum lokalen Ausführen von fortschrittlichen KI-Bildgenerierungsmodellen."
+      },
+      "download_url": "https://discord.gg/7CdQmutGuw",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "docker-vulnerable-dvwa",
+      "name": "docker-vulnerable-dvwa",
+      "tagline": "Practice web security safely in containers",
+      "repo_url": "https://github.com/opsxcq/docker-vulnerable-dvwa",
+      "full_name": "opsxcq/docker-vulnerable-dvwa",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "testing"
+      ],
+      "icon": "/icons/docker-vulnerable-dvwa.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 231,
+      "tier": "tier2_webapp",
+      "summary": "An intentionally insecure web playground designed to help security professionals, students, and developers practice identifying and fixing common flaws.",
+      "i18n": {
+        "it": "Un ambiente web intenzionalmente vulnerabile per testare abilità di sicurezza e comprendere le falle comuni in modo controllato.",
+        "es": "Un entorno web vulnerable diseñado para ayudar a profesionales y estudiantes a practicar la seguridad y detectar fallos comunes.",
+        "fr": "Un environnement web intentionnellement vulnérable pour tester ses compétences en cybersécurité et apprendre à corriger les failles.",
+        "de": "Eine absichtlich anfällige Web-Umgebung, mit der Sicherheitsexperten und Entwickler gängige Schwachstellen gefahrlos testen können."
+      },
+      "download_url": "https://github.com/opsxcq/docker-vulnerable-dvwa",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "rust-web-app",
+      "name": "rust-web-app",
+      "tagline": "Explore clean architecture patterns for web apps",
+      "repo_url": "https://github.com/kodraus/rust-web-app",
+      "full_name": "kodraus/rust-web-app",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-application",
+        "architecture"
+      ],
+      "icon": "/icons/rust-web-app.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 216,
+      "tier": "tier2_webapp",
+      "summary": "Discover a well-structured sample online store application built to showcase scalable and maintainable patterns in software design.",
+      "i18n": {
+        "it": "Scopri un negozio online di esempio progettato per mostrare pattern scalabili e manutenibili nella programmazione moderna.",
+        "es": "Descubre una tienda online de ejemplo diseñada para mostrar patrones escalables y mantenibles en el desarrollo de software.",
+        "fr": "Découvrez une application de boutique en ligne conçue pour illustrer des modèles d'architecture évolutifs et maintenables.",
+        "de": "Entdecken Sie eine Beispiel-Online-Shop-Anwendung zur Veranschaulichung skalierbarer und wartbarer Software-Designmuster."
+      },
+      "download_url": "https://github.com/KodrAus/rust-web-app/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "godotprojectzero",
+      "name": "GodotProjectZero",
+      "tagline": "Minimalistic text and idle adventure game.",
+      "repo_url": "https://github.com/tinytakinteller/godotprojectzero",
+      "full_name": "tinytakinteller/godotprojectzero",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "game",
+        "idle"
+      ],
+      "icon": "/icons/godotprojectzero.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 212,
+      "tier": "tier2_webapp",
+      "summary": "Immerse yourself in a minimalistic text-based idle game where you gather resources, explore the dark forest, and battle ancient creatures.",
+      "i18n": {
+        "it": "Immergiti in un gioco idle testuale e minimale in cui raccogli risorse ed esplori una foresta oscura.",
+        "es": "Sumérgete en un juego inactivo minimalista y basado en texto donde recolectas recursos y luchas contra monstruos.",
+        "fr": "Plongez dans un jeu textuel minimaliste où vous rassemblez des ressources et combattez de redoutables créatures.",
+        "de": "Tauchen Sie ein in ein minimalistisches Idle-Spiel, in dem Sie Ressourcen sammeln und uralte Kreaturen bekämpfen."
+      },
+      "download_url": "https://tinytakinteller.itch.io/the-best-game-ever",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "father",
+      "name": "Father",
+      "tagline": "Search, download, and create custom memes",
+      "repo_url": "https://github.com/liyupi/father",
+      "full_name": "liyupi/father",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "memes",
+        "image-editor"
+      ],
+      "icon": "/icons/father.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 207,
+      "tier": "tier2_webapp",
+      "summary": "An open-source web application for instantly searching, downloading, and editing custom memes right in your browser.",
+      "i18n": {
+        "it": "Un'applicazione web open-source per cercare, scaricare e modificare meme personalizzati direttamente nel browser.",
+        "es": "Una aplicación web de código abierto para buscar, descargar y editar memes personalizados directamente en el navegador.",
+        "fr": "Une application web open source pour rechercher, télécharger et modifier des memes personnalisés dans votre navigateur.",
+        "de": "Eine Open-Source-Web-Anwendung zum Suchen, Herunterladen und Bearbeiten von benutzerdefinierten Memes im Browser."
+      },
+      "download_url": "https://father.cool",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "lib-reviews",
+      "name": "lib.reviews",
+      "tagline": "An open platform for sharing honest reviews.",
+      "repo_url": "https://github.com/permacommons/lib.reviews",
+      "full_name": "permacommons/lib.reviews",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "reviews",
+        "community"
+      ],
+      "icon": "/icons/lib-reviews.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Public Domain / Free",
+      "stars": 203,
+      "tier": "tier2_webapp",
+      "summary": "Share and explore unbiased reviews for absolutely anything using a free, community-driven information platform.",
+      "i18n": {
+        "it": "Condividi ed esplora recensioni imparziali su qualsiasi cosa utilizzando una piattaforma informativa libera e guidata dalla comunità.",
+        "es": "Comparte y explora reseñas imparciales sobre cualquier cosa utilizando una plataforma de información libre impulsada por la comunidad.",
+        "fr": "Partagez et découvrez des avis impartiaux sur n'importe quoi grâce à une plateforme d'information libre et gérée par la communauté.",
+        "de": "Teilen und entdecken Sie unvoreingenommene Bewertungen zu allem Möglichen über eine freie, gemeinschaftsbasierte Informationsplattform."
+      },
+      "download_url": "https://github.com/permacommons/lib.reviews/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "webvectors",
+      "name": "Webvectors",
+      "tagline": "Publish language models online instantly.",
+      "repo_url": "https://github.com/akutuzov/webvectors",
+      "full_name": "akutuzov/webvectors",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ai",
+        "natural-language-processing"
+      ],
+      "icon": "/icons/webvectors.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 202,
+      "tier": "tier2_webapp",
+      "summary": "Webvectors turns complex word relationship models into interactive online tools that anyone can explore through a web browser.",
+      "i18n": {
+        "it": "Webvectors trasforma complessi modelli di linguaggio in strumenti interattivi online esplorabili facilmente tramite browser.",
+        "es": "Webvectors convierte complejos modelos de lenguaje en herramientas interactivas en línea para explorar desde el navegador.",
+        "fr": "Webvectors transforme des modèles de langage complexes en outils interactifs en ligne accessibles depuis un navigateur.",
+        "de": "Webvectors verwandelt komplexe Sprachmodelle in interaktive Online-Tools, die ganz einfach über den Browser erkundet werden können."
+      },
+      "download_url": "https://vectors.nlpl.eu/explore/embeddings/",
       "updated_at": "2026-11-25"
     },
     {

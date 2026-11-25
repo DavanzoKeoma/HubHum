@@ -621,5 +621,12 @@
     "html_url": "https://github.com/ReactiveX/RxSwift",
     "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T19:21:40.164424+00:00"
+  },
+  {
+    "full_name": "jirutka/ldap-passwd-webui",
+    "slug": "ldap-passwd-webui",
+    "html_url": "https://github.com/jirutka/ldap-passwd-webui",
+    "reason": "tier1_gemini: call error (Invalid IPv6 URL) | tier2_groq: call error (Invalid IPv6 URL)",
+    "queued_at": "2026-11-25T03:05:59.625224+00:00"
   }
 ]
