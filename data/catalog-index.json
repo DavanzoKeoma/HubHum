@@ -39113,6 +39113,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "guake",
+    "name": "Guake",
+    "tagline": "Instant dropdown terminal for your desktop",
+    "repo_url": "https://github.com/guake/guake",
+    "full_name": "guake/guake",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "productivity"
+    ],
+    "icon": "/icons/guake.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 4666,
+    "tier": "tier3_powertool",
+    "summary": "Guake provides a lightning-fast dropdown command-line window that slides down instantly with a single keystroke, keeping your workflow uninterrupted.",
+    "i18n": {
+      "it": "Guake offre una finestra di comando a discesa ultraveloce che appare con un solo tasto, mantenendo il tuo flusso di lavoro fluido.",
+      "es": "Guake ofrece una ventana de comandos desplegable ultrarrápida que aparece con una sola tecla, manteniendo tu trabajo sin interrupciones.",
+      "fr": "Guake offre une fenêtre de commande déroulante ultra-rapide qui apparaît en un clin d'œil pour garder votre flux de travail fluide.",
+      "de": "Guake bietet ein blitzschnelles Dropdown-Befehlsfenster, das sich per Tastendruck öffnet und deinen Arbeitsfluss ungestört lässt."
+    },
+    "download_url": "https://guake.github.io",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "webui",
     "name": "webui",
     "tagline": "Use any browser as app interface",
@@ -39979,6 +40007,34 @@
     },
     "download_url": "https://harnessrouter.ai/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ghostty-config",
+    "name": "Ghostty Config",
+    "tagline": "Visual Ghostty Terminal Customizer",
+    "repo_url": "https://github.com/zerebos/ghostty-config",
+    "full_name": "zerebos/ghostty-config",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "productivity"
+    ],
+    "icon": "/icons/ghostty-config.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 4355,
+    "tier": "tier3_powertool",
+    "summary": "A free web tool that lets you visually design your Ghostty terminal settings with live previews and easy export options.",
+    "i18n": {
+      "it": "Uno strumento web gratuito per personalizzare il terminale Ghostty con anteprime in tempo reale ed esportazione semplice.",
+      "es": "Una herramienta web gratuita para personalizar tu terminal Ghostty con vistas previas en tiempo real y exportación fácil.",
+      "fr": "Un outil web gratuit pour personnaliser votre terminal Ghostty avec des aperçus en temps réel et un export facile.",
+      "de": "Ein kostenloses Web-Tool, um Ihr Ghostty-Terminal mit Live-Vorschau und einfachem Export zu personalisieren."
+    },
+    "download_url": "https://ghostty.zerebos.com/",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "seanime",
@@ -41521,6 +41577,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "opencode-nvim",
+    "name": "opencode.nvim",
+    "tagline": "Smart AI assistance inside your text editor",
+    "repo_url": "https://github.com/nickjvandyke/opencode.nvim",
+    "full_name": "nickjvandyke/opencode.nvim",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "productivity",
+      "coding"
+    ],
+    "icon": "/icons/opencode-nvim.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3925,
+    "tier": "tier3_powertool",
+    "summary": "This tool brings AI-powered coding help directly into your text editor so you can stay focused without switching between different programs.",
+    "i18n": {
+      "it": "Questo strumento integra l'assistenza alla programmazione basata su intelligenza artificiale direttamente nel tuo editor di testo preferito.",
+      "es": "Esta herramienta integra asistencia de programación mediante inteligencia artificial directamente en tu editor de texto favorito.",
+      "fr": "Cet outil intègre une assistance à la programmation par intelligence artificielle directement dans votre éditeur de texte favori.",
+      "de": "Dieses Tool integriert KI-gestützte Programmierhilfe direkt in Ihren bevorzugten Texteditor."
+    },
+    "download_url": "https://github.com/nickjvandyke/opencode.nvim/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "shaarli",
     "name": "Shaarli",
     "tagline": "Your own private, lightning-fast bookmark manager.",
@@ -41603,6 +41687,62 @@
     },
     "download_url": "https://github.com/ricochet-im/ricochet/releases/download/v1.1.4/ricochet-1.1.4-win-install.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "psmux",
+    "name": "psmux",
+    "tagline": "Native terminal multitasking for Windows",
+    "repo_url": "https://github.com/psmux/psmux",
+    "full_name": "psmux/psmux",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "productivity"
+    ],
+    "icon": "/icons/psmux.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 3906,
+    "tier": "tier3_powertool",
+    "summary": "psmux lets you split your Windows terminal into multiple panes and manage sessions easily without needing complex extra software.",
+    "i18n": {
+      "it": "psmux ti permette di dividere il terminale Windows in più riquadri e gestire le sessioni facilmente senza software aggiuntivi complessi.",
+      "es": "psmux te permite dividir tu terminal de Windows en varios paneles y gestionar sesiones fácilmente sin necesidad de software complejo.",
+      "fr": "psmux vous permet de diviser votre terminal Windows en plusieurs volets et de gérer vos sessions facilement sans logiciel complexe.",
+      "de": "psmux ermöglicht es Ihnen, Ihr Windows-Terminal in mehrere Bereiche zu unterteilen und Sitzungen einfach ohne komplexe Zusatzsoftware zu verwalten."
+    },
+    "download_url": "https://github.com/psmux/psmux/releases/download/v3.4.0/psmux-v3.4.0-arm64-setup.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "mirage",
+    "name": "Mirage",
+    "tagline": "A virtual terminal for AI agents",
+    "repo_url": "https://github.com/strukto-ai/mirage",
+    "full_name": "strukto-ai/mirage",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "icon": "/icons/mirage.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3903,
+    "tier": "tier3_powertool",
+    "summary": "Mirage creates a flexible, secure virtual environment that allows AI agents to interact with files, tools, and data across different systems.",
+    "i18n": {
+      "it": "Mirage crea un ambiente virtuale sicuro che permette agli agenti AI di gestire file, strumenti e dati su sistemi diversi.",
+      "es": "Mirage crea un entorno virtual seguro que permite a los agentes de IA interactuar con archivos, herramientas y datos en distintos sistemas.",
+      "fr": "Mirage crée un environnement virtuel sécurisé permettant aux agents IA d'interagir avec des fichiers, des outils et des données sur divers systèmes.",
+      "de": "Mirage schafft eine sichere virtuelle Umgebung, in der KI-Agenten mit Dateien, Werkzeugen und Daten über verschiedene Systeme hinweg arbeiten können."
+    },
+    "download_url": "https://www.strukto.ai",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "pico",
@@ -42025,6 +42165,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "aura-theme",
+    "name": "Aura Theme",
+    "tagline": "A beautiful dark theme for your apps",
+    "repo_url": "https://github.com/daltonmenezes/aura-theme",
+    "full_name": "daltonmenezes/aura-theme",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "design",
+      "customization"
+    ],
+    "icon": "/icons/aura-theme.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 3833,
+    "tier": "tier3_powertool",
+    "summary": "Aura Theme provides a cohesive and visually pleasing dark color scheme for your favorite code editors, terminals, and desktop applications.",
+    "i18n": {
+      "it": "Aura Theme offre uno schema di colori scuri coerente e piacevole per i tuoi editor di codice, terminali e applicazioni desktop preferiti.",
+      "es": "Aura Theme ofrece un esquema de colores oscuros coherente y atractivo para tus editores de código, terminales y aplicaciones favoritas.",
+      "fr": "Aura Theme propose un jeu de couleurs sombres cohérent et esthétique pour vos éditeurs de code, terminaux et applications préférés.",
+      "de": "Aura Theme bietet ein stimmiges und ansprechendes dunkles Farbschema für deine bevorzugten Code-Editoren, Terminals und Anwendungen."
+    },
+    "download_url": "https://github.com/daltonmenezes/aura-theme/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "netwatch",
     "name": "netwatch",
     "tagline": "See exactly what your network is doing",
@@ -42219,6 +42387,34 @@
     },
     "download_url": "https://github.com/Javis603/token-monitor/releases/download/v0.95.1/Token-Monitor-0.95.1.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "rich-cli",
+    "name": "rich-cli",
+    "tagline": "Make terminal text beautiful",
+    "repo_url": "https://github.com/textualize/rich-cli",
+    "full_name": "textualize/rich-cli",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "productivity"
+    ],
+    "icon": "/icons/rich-cli.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3783,
+    "tier": "tier3_powertool",
+    "summary": "Rich-CLI turns plain command-line text into colorful, formatted output with support for code, Markdown, and JSON files.",
+    "i18n": {
+      "it": "Rich-CLI trasforma il testo della riga di comando in output colorato e formattato, supportando file di codice, Markdown e JSON.",
+      "es": "Rich-CLI convierte el texto de la línea de comandos en salidas coloridas y formateadas, con soporte para código, Markdown y JSON.",
+      "fr": "Rich-CLI transforme le texte de la ligne de commande en sorties colorées et formatées, avec prise en charge du code, Markdown et JSON.",
+      "de": "Rich-CLI verwandelt Klartext in der Kommandozeile in farbenfrohe, formatierte Ausgaben mit Unterstützung für Code, Markdown und JSON."
+    },
+    "download_url": "https://www.textualize.io",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "orbtk",
@@ -43088,6 +43284,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "ascii-image-converter",
+    "name": "ascii-image-converter",
+    "tagline": "Turn photos into text art",
+    "repo_url": "https://github.com/thezoraiz/ascii-image-converter",
+    "full_name": "thezoraiz/ascii-image-converter",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "image-converter",
+      "ascii-art"
+    ],
+    "icon": "/icons/ascii-image-converter.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3586,
+    "tier": "tier3_powertool",
+    "summary": "A free tool that transforms your photos into colorful text art or braille patterns directly in your terminal.",
+    "i18n": {
+      "it": "Uno strumento gratuito che trasforma le tue foto in arte testuale colorata o in caratteri braille direttamente nel terminale.",
+      "es": "Una herramienta gratuita que convierte tus fotos en arte de texto con colores o patrones braille directamente en la terminal.",
+      "fr": "Un outil gratuit qui transforme vos photos en art textuel coloré ou en motifs braille directement dans votre terminal.",
+      "de": "Ein kostenloses Werkzeug, das Ihre Fotos in farbiges Textkunst oder Braille-Muster direkt im Terminal umwandelt."
+    },
+    "download_url": "https://github.com/TheZoraiz/ascii-image-converter/releases/download/v1.13.1/sha256_checksums.txt",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "lenovolegionlinux",
     "name": "LenovoLegionLinux",
     "tagline": "Control Lenovo Legion laptops on Linux",
@@ -43256,6 +43480,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "rmpc",
+    "name": "rmpc",
+    "tagline": "Modern terminal music player client",
+    "repo_url": "https://github.com/mierak/rmpc",
+    "full_name": "mierak/rmpc",
+    "category": "Video & Audio",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "icon": "/icons/rmpc.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (BSD)",
+    "stars": 3545,
+    "tier": "tier3_powertool",
+    "summary": "Rmpc is a sleek, highly customizable music player client for your command line that brings album art and synchronized lyrics to your terminal.",
+    "i18n": {
+      "it": "Rmpc è un client musicale elegante e altamente personalizzabile per la riga di comando che porta copertine e testi sincronizzati nel terminale.",
+      "es": "Rmpc es un cliente de música elegante y personalizable para la línea de comandos que ofrece carátulas y letras sincronizadas en tu terminal.",
+      "fr": "Rmpc est un client musical élégant et personnalisable pour votre ligne de commande qui apporte pochettes et paroles synchronisées dans votre terminal.",
+      "de": "Rmpc ist ein eleganter und anpassbarer Musik-Client für die Befehlszeile, der Albumcover und synchronisierte Liedtexte ins Terminal bringt."
+    },
+    "download_url": "https://rmpc.mierak.dev",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "im-server",
     "name": "JuggleIM",
     "tagline": "Scalable messaging for any application",
@@ -43312,6 +43564,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "rainbowstream",
+    "name": "Rainbow Stream",
+    "tagline": "Smart and colorful terminal Twitter client",
+    "repo_url": "https://github.com/orakaro/rainbowstream",
+    "full_name": "orakaro/rainbowstream",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "twitter",
+      "system-utility"
+    ],
+    "icon": "/icons/rainbowstream.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3521,
+    "tier": "tier3_powertool",
+    "summary": "Manage your social feeds right from your command-line interface with a smart, colorful, and feature-rich terminal application.",
+    "i18n": {
+      "it": "Manage your social feeds right from your command-line interface with a smart, colorful, and feature-rich terminal application.",
+      "es": "Manage your social feeds right from your command-line interface with a smart, colorful, and feature-rich terminal application.",
+      "fr": "Manage your social feeds right from your command-line interface with a smart, colorful, and feature-rich terminal application.",
+      "de": "Manage your social feeds right from your command-line interface with a smart, colorful, and feature-rich terminal application."
+    },
+    "download_url": "https://github.com/orakaro/rainbowstream",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "lmnr",
     "name": "Laminar",
     "tagline": "Watch and improve your AI agents.",
@@ -43338,6 +43618,34 @@
     },
     "download_url": "https://laminar.sh",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "bacon",
+    "name": "Bacon",
+    "tagline": "Background code checker for Rust projects",
+    "repo_url": "https://github.com/canop/bacon",
+    "full_name": "canop/bacon",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "developer-tools",
+      "productivity"
+    ],
+    "icon": "/icons/bacon.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (AGPL v3)",
+    "stars": 3482,
+    "tier": "tier3_powertool",
+    "summary": "Instantly check your Rust code for warnings, errors, and test failures in the background while you edit.",
+    "i18n": {
+      "it": "Controlla istantaneamente il tuo codice Rust per errori e test in background mentre scrivi.",
+      "es": "Comprueba al instante tu código Rust en busca de errores y fallos de pruebas en segundo plano.",
+      "fr": "Vérifiez instantanément votre code Rust pour les erreurs et les tests en arrière-plan pendant que vous éditez.",
+      "de": "Überprüfen Sie Ihren Rust-Code im Hintergrund automatisch auf Fehler und Testergebnisse."
+    },
+    "download_url": "https://dystroy.org/bacon",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "edgeever",
@@ -43394,6 +43702,34 @@
     },
     "download_url": "https://github.com/transmission-remote-gui/transgui/releases/download/v5.18.0/transgui-5.18.0-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "caporal-js",
+    "name": "Caporal.js",
+    "tagline": "Build powerful command line tools easily.",
+    "repo_url": "https://github.com/mattallty/caporal.js",
+    "full_name": "mattallty/caporal.js",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "automation"
+    ],
+    "icon": "/icons/caporal-js.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3444,
+    "tier": "tier3_powertool",
+    "summary": "Create robust terminal applications quickly with built-in help, auto-complete, and user input validation.",
+    "i18n": {
+      "it": "Realizza applicazioni per terminale robuste con aiuto integrato, completamento automatico e validazione degli input.",
+      "es": "Crea aplicaciones de terminal robustas con ayuda integrada, autocompletado y validación de entradas de usuario.",
+      "fr": "Développez des applications de terminal robustes avec aide intégrée, saisie semi-automatique et validation.",
+      "de": "Entwickeln Sie robuste Terminal-Anwendungen mit integrierter Hilfe, Autovervollständigung und Eingabevalidierung."
+    },
+    "download_url": "https://github.com/mattallty/Caporal.js/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "microweber",
@@ -43480,6 +43816,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "glorious-demo",
+    "name": "Glorious Demo",
+    "tagline": "Create beautiful animated code demonstrations easily.",
+    "repo_url": "https://github.com/glorious-codes/glorious-demo",
+    "full_name": "glorious-codes/glorious-demo",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "productivity",
+      "web-tools"
+    ],
+    "icon": "/icons/glorious-demo.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3388,
+    "tier": "tier3_powertool",
+    "summary": "Glorious Demo helps you showcase how your software works by creating smooth, animated simulations of typing and terminal commands.",
+    "i18n": {
+      "it": "Glorious Demo ti aiuta a mostrare il funzionamento del tuo software creando simulazioni animate di scrittura e comandi da terminale.",
+      "es": "Glorious Demo te ayuda a mostrar cómo funciona tu software creando simulaciones animadas de escritura y comandos de terminal.",
+      "fr": "Glorious Demo vous aide à montrer le fonctionnement de votre logiciel en créant des simulations animées de saisie et de commandes.",
+      "de": "Glorious Demo hilft Ihnen, Ihre Software zu präsentieren, indem es flüssige, animierte Simulationen von Code-Eingaben und Befehlen erstellt."
+    },
+    "download_url": "https://gdemo.compilorama.com",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "textbee",
     "name": "textbee",
     "tagline": "Turn your Android phone into an SMS gateway",
@@ -43506,6 +43870,34 @@
     },
     "download_url": "https://github.com/textbee/textbee/releases/download/v2.10.0/textbee.dev.v2.10.0.apk",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "vtm",
+    "name": "vtm",
+    "tagline": "A text-based desktop environment",
+    "repo_url": "https://github.com/directvt/vtm",
+    "full_name": "directvt/vtm",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "productivity",
+      "system-utility"
+    ],
+    "icon": "/icons/vtm.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 3380,
+    "tier": "tier3_powertool",
+    "summary": "vtm turns your text-based workspace into a versatile desktop environment that works consistently across all your devices.",
+    "i18n": {
+      "it": "vtm trasforma il tuo spazio di lavoro testuale in un ambiente desktop versatile che funziona in modo coerente su tutti i tuoi dispositivi.",
+      "es": "vtm convierte su espacio de trabajo basado en texto en un entorno de escritorio versátil que funciona de forma consistente en todos sus dispositivos.",
+      "fr": "vtm transforme votre espace de travail textuel en un environnement de bureau polyvalent qui fonctionne de manière cohérente sur tous vos appareils.",
+      "de": "vtm verwandelt Ihren textbasierten Arbeitsbereich in eine vielseitige Desktop-Umgebung, die auf all Ihren Geräten einheitlich funktioniert."
+    },
+    "download_url": "https://github.com/directvt/vtm/releases/download/v2026.10.12/vtm_linux_arm32.tar.7z",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "garbro",
@@ -43732,6 +44124,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "ratty",
+    "name": "Ratty",
+    "tagline": "A 3D-rendered terminal for your desktop",
+    "repo_url": "https://github.com/orhun/ratty",
+    "full_name": "orhun/ratty",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "productivity"
+    ],
+    "icon": "/icons/ratty.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3335,
+    "tier": "tier3_powertool",
+    "summary": "Ratty is a unique terminal emulator that brings 3D graphics and interactive objects directly into your command-line workspace.",
+    "i18n": {
+      "it": "Ratty è un emulatore di terminale unico che porta grafica 3D e oggetti interattivi direttamente nel tuo spazio di lavoro a riga di comando.",
+      "es": "Ratty es un emulador de terminal único que trae gráficos 3D y objetos interactivos directamente a tu espacio de trabajo de línea de comandos.",
+      "fr": "Ratty est un émulateur de terminal unique qui apporte des graphismes 3D et des objets interactifs directement dans votre ligne de commande.",
+      "de": "Ratty ist ein einzigartiger Terminal-Emulator, der 3D-Grafiken und interaktive Objekte direkt in Ihre Befehlszeilenumgebung bringt."
+    },
+    "download_url": "https://github.com/orhun/ratty/releases/download/v0.6.0/dist-manifest.json",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "checkcle",
     "name": "CheckCle",
     "tagline": "Real-time monitoring for your digital services",
@@ -43786,6 +44206,90 @@
     },
     "download_url": "https://github.com/zlgopen/awtk/releases",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gobang",
+    "name": "gobang",
+    "tagline": "Fast keyboard-driven terminal database manager",
+    "repo_url": "https://github.com/tako8ki/gobang",
+    "full_name": "tako8ki/gobang",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "database",
+      "system-utility"
+    ],
+    "icon": "/icons/gobang.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3325,
+    "tier": "tier3_powertool",
+    "summary": "Manage and inspect popular database systems quickly right from your terminal using simple keyboard controls.",
+    "i18n": {
+      "it": "Gestisci e ispeziona i database più diffusi direttamente dal terminale utilizzando comandi da tastiera.",
+      "es": "Administra e inspecciona bases de datos populares directamente desde tu terminal con sencillos atajos de teclado.",
+      "fr": "Gérez et inspectez vos bases de données populaires directement depuis votre terminal grâce à des raccourcis clavier.",
+      "de": "Verwalten und überprüfen Sie beliebige Datenbanken direkt im Terminal über intuitive Tastatursteuerung."
+    },
+    "download_url": "https://github.com/TaKO8Ki/gobang/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "viu",
+    "name": "viu",
+    "tagline": "View images directly in your terminal",
+    "repo_url": "https://github.com/atanunq/viu",
+    "full_name": "atanunq/viu",
+    "category": "Productivity",
+    "tags": [
+      "utilities",
+      "system-utility"
+    ],
+    "icon": "/icons/viu.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 3317,
+    "tier": "tier3_powertool",
+    "summary": "Viu is a lightweight tool that lets you display images and animated GIFs directly within your command-line interface.",
+    "i18n": {
+      "it": "Viu è un piccolo strumento che permette di visualizzare immagini e GIF animate direttamente all'interno della riga di comando.",
+      "es": "Viu es una herramienta ligera que te permite mostrar imágenes y GIFs animados directamente dentro de tu interfaz de comandos.",
+      "fr": "Viu est un outil léger qui vous permet d'afficher des images et des GIF animés directement dans votre interface de ligne de commande.",
+      "de": "Viu ist ein leichtgewichtiges Werkzeug, mit dem Sie Bilder und animierte GIFs direkt in Ihrer Befehlszeilenschnittstelle anzeigen können."
+    },
+    "download_url": "https://github.com/atanunq/viu/releases/download/v1.6.1/viu-x86_64-pc-windows-msvc.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "tgpt",
+    "name": "tgpt",
+    "tagline": "Free AI chat in your terminal",
+    "repo_url": "https://github.com/aandrew-me/tgpt",
+    "full_name": "aandrew-me/tgpt",
+    "category": "Productivity",
+    "tags": [
+      "ai-chat",
+      "system-utility"
+    ],
+    "icon": "/icons/tgpt.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 3304,
+    "tier": "tier3_powertool",
+    "summary": "tgpt brings free AI chatbots directly into your computer's command line, letting you ask questions and get answers without opening a web browser.",
+    "i18n": {
+      "it": "tgpt porta i chatbot AI gratuiti direttamente nella riga di comando del tuo computer, permettendoti di fare domande e ricevere risposte senza aprire un browser web.",
+      "es": "tgpt lleva los chatbots de IA gratuitos directamente a la línea de comandos de tu computadora, permitiéndote hacer preguntas y recibir respuestas sin abrir un navegador web.",
+      "fr": "tgpt apporte les chatbots IA gratuits directement dans la ligne de commande de votre ordinateur, vous permettant de poser des questions et de recevoir des réponses sans ouvrir de navigateur web.",
+      "de": "tgpt bringt kostenlose KI-Chatbots direkt in die Kommandozeile Ihres Computers, sodass Sie Fragen stellen und Antworten erhalten können, ohne einen Webbrowser zu öffnen."
+    },
+    "download_url": "https://github.com/aandrew-me/tgpt/releases/download/v2.16.0/tgpt-amd64.exe",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "aiostreams",
@@ -44040,6 +44544,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "tio",
+    "name": "tio",
+    "tagline": "Simple serial device connection tool",
+    "repo_url": "https://github.com/tio/tio",
+    "full_name": "tio/tio",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "hardware",
+      "serial"
+    ],
+    "icon": "/icons/tio.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 3229,
+    "tier": "tier3_powertool",
+    "summary": "Connect and communicate with hardware serial devices instantly using a straightforward command-line utility.",
+    "i18n": {
+      "it": "Connettiti e comunica istantaneamente con dispositivi seriali hardware usando una pratica utilità a riga di comando.",
+      "es": "Conéctate y comunícate instantáneamente con dispositivos seriales de hardware mediante una utilidad de línea de comandos.",
+      "fr": "Connectez-vous et communiquez instantanément avec des périphériques série à l'aide d'un utilitaire de ligne de commande.",
+      "de": "Verbinden und kommunizieren Sie sofort mit seriellen Hardwaregeräten über ein unkompliziertes Befehlszeilentool."
+    },
+    "download_url": "https://github.com/tio/tio/releases/download/v3.9/tio-3.9.tar.xz.asc",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "autobrr",
     "name": "autobrr",
     "tagline": "Automate your downloads in real-time",
@@ -44094,6 +44626,62 @@
     },
     "download_url": "https://github.com/Wisser/Jailer/releases/download/v17.3.2/Jailer-database-tools-17.3.2.msi",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kew",
+    "name": "kew",
+    "tagline": "Private, distraction-free music player",
+    "repo_url": "https://github.com/ravachol/kew",
+    "full_name": "ravachol/kew",
+    "category": "Video & Audio",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "icon": "/icons/kew.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 3220,
+    "tier": "tier3_powertool",
+    "summary": "kew is a fast, lightweight music player that lets you enjoy your local audio files without any tracking or algorithmic interference.",
+    "i18n": {
+      "it": "kew è un lettore musicale veloce e leggero che ti permette di ascoltare i tuoi file audio locali senza tracciamento o algoritmi.",
+      "es": "kew es un reproductor de música rápido y ligero que te permite disfrutar de tus archivos locales sin rastreo ni algoritmos.",
+      "fr": "kew est un lecteur de musique rapide et léger qui vous permet d'écouter vos fichiers locaux sans suivi ni algorithmes.",
+      "de": "kew ist ein schneller und leichter Musik-Player, mit dem Sie Ihre lokalen Dateien ohne Tracking oder Algorithmen genießen können."
+    },
+    "download_url": "https://github.com/ravachol/kew/releases/download/v4.4.3/kew-4.4.3-windows-x64.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "tvision",
+    "name": "tvision",
+    "tagline": "Modern interface tools for terminal apps",
+    "repo_url": "https://github.com/magiblot/tvision",
+    "full_name": "magiblot/tvision",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "development",
+      "system-utility"
+    ],
+    "icon": "/icons/tvision.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, Linux",
+    "license": "Custom Open License",
+    "stars": 3219,
+    "tier": "tier3_powertool",
+    "summary": "tvision brings classic text-based windowing and menus to modern computers, allowing you to build clean, functional terminal interfaces.",
+    "i18n": {
+      "it": "tvision porta le classiche finestre e i menu testuali sui computer moderni, permettendo di creare interfacce da terminale pulite e funzionali.",
+      "es": "tvision lleva las ventanas y menús de texto clásicos a los equipos modernos, permitiendo crear interfaces de terminal limpias y funcionales.",
+      "fr": "tvision apporte les fenêtres et menus textuels classiques aux ordinateurs modernes, permettant de créer des interfaces de terminal épurées.",
+      "de": "tvision bringt klassische textbasierte Fenster und Menüs auf moderne Computer und ermöglicht den Bau sauberer, funktionaler Terminal-Oberflächen."
+    },
+    "download_url": "https://github.com/magiblot/tvision/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "lsp-ai",
@@ -44458,6 +45046,34 @@
     },
     "download_url": "https://github.com/easymodo/qimgv/releases/download/v1.0.2/qimgv-x64_1.0.2-video.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "diskonaut",
+    "name": "diskonaut",
+    "tagline": "Visualize and reclaim your disk space",
+    "repo_url": "https://github.com/imsnif/diskonaut",
+    "full_name": "imsnif/diskonaut",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "storage",
+      "utility"
+    ],
+    "icon": "/icons/diskonaut.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3167,
+    "tier": "tier3_powertool",
+    "summary": "Diskonaut helps you identify which files and folders are taking up the most space on your computer using a clear visual map.",
+    "i18n": {
+      "it": "Diskonaut ti aiuta a identificare quali file occupano più spazio sul tuo computer tramite una mappa visiva.",
+      "es": "Diskonaut te ayuda a identificar qué archivos ocupan más espacio en tu computadora mediante un mapa visual.",
+      "fr": "Diskonaut vous aide à identifier les fichiers qui occupent le plus d'espace sur votre ordinateur grâce à une carte visuelle.",
+      "de": "Diskonaut hilft Ihnen, mit einer visuellen Karte zu erkennen, welche Dateien den meisten Speicherplatz belegen."
+    },
+    "download_url": "https://github.com/imsnif/diskonaut/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "termscp",
@@ -44852,6 +45468,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "khal",
+    "name": "khal",
+    "tagline": "Fast calendar management for your terminal",
+    "repo_url": "https://github.com/pimutils/khal",
+    "full_name": "pimutils/khal",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "productivity",
+      "calendar"
+    ],
+    "icon": "/icons/khal.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3094,
+    "tier": "tier3_powertool",
+    "summary": "Khal is a lightweight calendar tool that lets you manage your schedule directly from your computer's command interface.",
+    "i18n": {
+      "it": "Khal è uno strumento leggero per gestire i tuoi appuntamenti direttamente dall'interfaccia a riga di comando del tuo computer.",
+      "es": "Khal es una herramienta ligera para gestionar tu agenda directamente desde la interfaz de comandos de tu computadora.",
+      "fr": "Khal est un outil léger pour gérer votre emploi du temps directement depuis l'interface de commande de votre ordinateur.",
+      "de": "Khal ist ein leichtgewichtiges Kalender-Tool, mit dem Sie Ihre Termine direkt über die Befehlszeile Ihres Computers verwalten können."
+    },
+    "download_url": "https://khal.readthedocs.io/",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "jasypt-spring-boot",
     "name": "jasypt-spring-boot",
     "tagline": "Secure sensitive configuration properties effortlessly",
@@ -44877,6 +45521,34 @@
       "de": "Verschlüsseln Sie sensible Projektdaten automatisch, um Passwörter und Datenbankschlüssel sicher zu halten."
     },
     "download_url": "https://github.com/ulisesbocchio/jasypt-spring-boot/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "ghostty-web",
+    "name": "ghostty-web",
+    "tagline": "Powerful web terminal for developers",
+    "repo_url": "https://github.com/coder/ghostty-web",
+    "full_name": "coder/ghostty-web",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "web-development"
+    ],
+    "icon": "/icons/ghostty-web.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3084,
+    "tier": "tier3_powertool",
+    "summary": "A high-performance terminal emulator for websites that handles complex text and commands accurately.",
+    "i18n": {
+      "it": "Un emulatore di terminale ad alte prestazioni per i siti web che gestisce testo complesso e comandi con precisione.",
+      "es": "Un emulador de terminal de alto rendimiento para sitios web que maneja texto complejo y comandos con precisión.",
+      "fr": "Un émulateur de terminal haute performance pour les sites web qui gère le texte complexe et les commandes avec précision.",
+      "de": "Ein leistungsstarker Terminal-Emulator für Websites, der komplexe Texte und Befehle präzise verarbeitet."
+    },
+    "download_url": "https://github.com/coder/ghostty-web/releases",
     "updated_at": "2026-11-25"
   },
   {
@@ -44906,6 +45578,34 @@
     },
     "download_url": "https://dittofeed.com/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "darktile",
+    "name": "Darktile",
+    "tagline": "Fast, visual-focused terminal for Linux",
+    "repo_url": "https://github.com/liamg/darktile",
+    "full_name": "liamg/darktile",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "linux",
+      "system-utility"
+    ],
+    "icon": "/icons/darktile.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3081,
+    "tier": "tier3_powertool",
+    "summary": "Darktile is a high-performance terminal emulator that uses your graphics card to display text and images smoothly.",
+    "i18n": {
+      "it": "Darktile è un emulatore di terminale che usa la scheda grafica per visualizzare testo e immagini in modo fluido su Linux.",
+      "es": "Darktile es un emulador de terminal que utiliza la tarjeta gráfica para mostrar texto e imágenes con fluidez en Linux.",
+      "fr": "Darktile est un émulateur de terminal utilisant la carte graphique pour afficher du texte et des images de manière fluide sous Linux.",
+      "de": "Darktile ist ein Terminal-Emulator, der die Grafikkarte nutzt, um Text und Bilder unter Linux flüssig darzustellen."
+    },
+    "download_url": "https://github.com/liamg/darktile/releases/download/v0.0.11/darktile-linux-amd64",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "nod",
