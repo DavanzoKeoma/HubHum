@@ -229,5 +229,47 @@
     "html_url": "https://github.com/didi/mpx",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-25T12:19:06.655398+00:00"
+  },
+  {
+    "full_name": "smapiot/piral",
+    "slug": "piral",
+    "html_url": "https://github.com/smapiot/piral",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T12:21:19.694070+00:00"
+  },
+  {
+    "full_name": "emalderson/ThePhish",
+    "slug": "thephish",
+    "html_url": "https://github.com/emalderson/ThePhish",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-25T12:23:21.548888+00:00"
+  },
+  {
+    "full_name": "jrieke/traingenerator",
+    "slug": "traingenerator",
+    "html_url": "https://github.com/jrieke/traingenerator",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'Traingenerator crée des modèles de code personnalisés pour vos projets d'apprentissage automatique via une interface web simple.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T12:23:30.675001+00:00"
+  },
+  {
+    "full_name": "FoloUp/FoloUp",
+    "slug": "foloup",
+    "html_url": "https://github.com/FoloUp/FoloUp",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T12:23:44.084966+00:00"
+  },
+  {
+    "full_name": "imfing/keras-flask-deploy-webapp",
+    "slug": "keras-flask-deploy-webapp",
+    "html_url": "https://github.com/imfing/keras-flask-deploy-webapp",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T12:24:58.896377+00:00"
+  },
+  {
+    "full_name": "oliver-gomes/csswand",
+    "slug": "csswand",
+    "html_url": "https://github.com/oliver-gomes/csswand",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T12:25:09.698212+00:00"
   }
 ]

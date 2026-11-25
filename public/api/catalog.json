@@ -2,17 +2,17 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-25T12:20:30.890709+00:00",
-  "total_apps": 2325,
+  "generated_at": "2026-11-25T12:25:39.384380+00:00",
+  "total_apps": 2350,
   "tier_counts": {
     "tier3_powertool": 339,
-    "tier2_webapp": 695,
+    "tier2_webapp": 720,
     "tier1_gui": 1291
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 329,
-    "selfhosted": 694,
+    "selfhosted": 719,
     "desktop": 1291,
     "webapp": 1
   },
@@ -22,7 +22,7 @@
     "Security & Privacy": 56,
     "Utilities & Power Tools": 310,
     "Video & Audio": 105,
-    "Web Apps & Cloud": 670,
+    "Web Apps & Cloud": 695,
     "Websites & SEO": 3
   },
   "apps": [
@@ -49051,6 +49051,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "solara",
+      "name": "Solara",
+      "tagline": "Build web apps using only Python",
+      "repo_url": "https://github.com/widgetti/solara",
+      "full_name": "widgetti/solara",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "data-science"
+      ],
+      "icon": "/icons/solara.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 2180,
+      "tier": "tier2_webapp",
+      "summary": "Solara lets you create interactive web applications using simple Python code without needing to learn complex web design languages.",
+      "i18n": {
+        "it": "Solara ti permette di creare applicazioni web interattive usando solo il linguaggio Python senza dover imparare complessi strumenti web.",
+        "es": "Solara te permite crear aplicaciones web interactivas usando solo código Python sin necesidad de aprender lenguajes de diseño web complejos.",
+        "fr": "Solara vous permet de créer des applications web interactives en utilisant uniquement Python sans apprendre de langages de conception web.",
+        "de": "Solara ermöglicht es Ihnen, interaktive Webanwendungen mit einfachem Python-Code zu erstellen, ohne komplexe Web-Design-Sprachen zu lernen."
+      },
+      "download_url": "https://solara.dev",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "runjs",
       "name": "RunJS",
       "tagline": "Instant JavaScript and TypeScript playground",
@@ -49163,6 +49191,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "microdot",
+      "name": "Microdot",
+      "tagline": "Tiny web tool for Python projects",
+      "repo_url": "https://github.com/miguelgrinberg/microdot",
+      "full_name": "miguelgrinberg/microdot",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web",
+        "microcontroller"
+      ],
+      "icon": "/icons/microdot.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 2159,
+      "tier": "tier2_webapp",
+      "summary": "Microdot lets you create simple web pages or tiny services with just a few lines of Python, even on tiny devices.",
+      "i18n": {
+        "it": "Microdot ti permette di creare pagine web o piccoli servizi con poche righe di Python, anche su dispositivi molto piccoli.",
+        "es": "Microdot te ayuda a crear páginas web o servicios ligeros con solo unas líneas de Python, incluso en dispositivos muy pequeños.",
+        "fr": "Microdot vous permet de créer des pages web ou de petits services avec quelques lignes de Python, même sur des appareils très compacts.",
+        "de": "Microdot ermöglicht das Erstellen einfacher Webseiten oder kleiner Dienste mit wenigen Python‑Zeilen, selbst auf sehr kleinen Geräten."
+      },
+      "download_url": "https://code.miguelgrinberg.com/miguelgrinberg/microdot",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "oneanime",
       "name": "oneAnime",
       "tagline": "Clean and modern anime viewing client",
@@ -49217,6 +49273,34 @@
       },
       "download_url": "https://github.com/omnimind-ai/OmniBot/releases/download/v0.7.0/OpenOmniBot-v0.7.0-standard.apk",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "terminal-in-react",
+      "name": "Terminal in React",
+      "tagline": "Embed a working terminal in your website.",
+      "repo_url": "https://github.com/nitin42/terminal-in-react",
+      "full_name": "nitin42/terminal-in-react",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "system-utility",
+        "component"
+      ],
+      "icon": "/icons/terminal-in-react.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 2153,
+      "tier": "tier2_webapp",
+      "summary": "Add an interactive, customizable command-line interface directly into your React web pages to showcase commands or build fun web toys.",
+      "i18n": {
+        "it": "Aggiungi un'interfaccia a riga di comando interattiva direttamente nelle tue pagine web per mostrare comandi o creare giochi.",
+        "es": "Agrega una interfaz de comandos interactiva directamente en tus páginas web para mostrar comandos o crear juguetes web.",
+        "fr": "Ajoutez une interface de commande interactive directement dans vos pages web pour présenter des commandes ou créer des jeux.",
+        "de": "Fügen Sie eine interaktive Befehlszeilenschnittstelle direkt in Ihre Webseiten ein, um Befehle zu präsentieren."
+      },
+      "download_url": "https://terminal-in-react.surge.sh/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "ndm",
@@ -49329,6 +49413,34 @@
       },
       "download_url": "https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_arm64-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "ever-traduora",
+      "name": "Ever Traduora",
+      "tagline": "Manage your project translations with ease.",
+      "repo_url": "https://github.com/ever-co/ever-traduora",
+      "full_name": "ever-co/ever-traduora",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "translation",
+        "productivity"
+      ],
+      "icon": "/icons/ever-traduora.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 2140,
+      "tier": "tier2_webapp",
+      "summary": "Ever Traduora is a collaborative platform that helps teams organize, import, and export translation files for their projects.",
+      "i18n": {
+        "it": "Ever Traduora è una piattaforma collaborativa che aiuta i team a organizzare, importare ed esportare file di traduzione.",
+        "es": "Ever Traduora es una plataforma colaborativa que ayuda a los equipos a organizar, importar y exportar archivos de traducción.",
+        "fr": "Ever Traduora est une plateforme collaborative qui aide les équipes à organiser, importer et exporter des fichiers de traduction.",
+        "de": "Ever Traduora ist eine kollaborative Plattform, die Teams bei der Organisation, dem Import und Export von Übersetzungsdateien unterstützt."
+      },
+      "download_url": "https://traduora.co",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "pty",
@@ -50115,6 +50227,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "holytips",
+      "name": "HolyTips",
+      "tagline": "Essential web security cheat sheets",
+      "repo_url": "https://github.com/holybugx/holytips",
+      "full_name": "holybugx/holytips",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "web-development"
+      ],
+      "icon": "/icons/holytips.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 2038,
+      "tier": "tier2_webapp",
+      "summary": "A free, open collection of practical notes and checklists for finding security flaws in websites.",
+      "i18n": {
+        "it": "Una raccolta gratuita e aperta di note pratiche e liste di controllo per trovare vulnerabilità nei siti web.",
+        "es": "Una colección gratuita y abierta de notas prácticas y listas de verificación para encontrar vulnerabilidades en sitios web.",
+        "fr": "Une collection gratuite et ouverte de notes pratiques et de listes de contrôle pour trouver des vulnérabilités sur les sites web.",
+        "de": "Eine kostenlose, offene Sammlung praktischer Notizen und Checklisten zum Finden von Sicherheitslücken in Websites."
+      },
+      "download_url": "https://github.com/HolyBugx/HolyTips/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "py-gpt",
       "name": "py-gpt",
       "tagline": "All-in-one desktop artificial intelligence assistant",
@@ -50843,6 +50983,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "download-directory-github-io",
+      "name": "Download Directory",
+      "tagline": "Download single folders from GitHub easily",
+      "repo_url": "https://github.com/download-directory/download-directory.github.io",
+      "full_name": "download-directory/download-directory.github.io",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "github",
+        "downloader"
+      ],
+      "icon": "/icons/download-directory-github-io.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1917,
+      "tier": "tier2_webapp",
+      "summary": "Instantly download any sub-folder from a large online code collection with a single click without downloading the whole library.",
+      "i18n": {
+        "it": "Scarica istantaneamente qualsiasi sottocartella da una grande raccolta di codice online con un solo clic.",
+        "es": "Descarga al instante cualquier subcarpeta de una gran colección de código en línea con un solo clic.",
+        "fr": "Téléchargez instantanément n'importe quel sous-dossier d'une grande bibliothèque de code en un seul clic.",
+        "de": "Laden Sie jeden Unterordner aus einer großen Online-Code-Sammlung mit nur einem Klick sofort herunter."
+      },
+      "download_url": "https://download-directory.github.io",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "archlinuxtutorial",
       "name": "ArchLinuxTutorial",
       "tagline": "Complete Arch Linux guide",
@@ -51179,6 +51347,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "monosketch",
+      "name": "MonoSketch",
+      "tagline": "Create text-based technical diagrams instantly.",
+      "repo_url": "https://github.com/tuanchauict/monosketch",
+      "full_name": "tuanchauict/monosketch",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "diagrams",
+        "ascii"
+      ],
+      "icon": "/icons/monosketch.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 1828,
+      "tier": "tier2_webapp",
+      "summary": "An easy web application for drawing ASCII diagrams, technical flowcharts, and text art directly inside your browser.",
+      "i18n": {
+        "it": "Un'applicazione web semplice per disegnare diagrammi ASCII, grafici e illustrazioni testuali direttamente nel browser.",
+        "es": "Una aplicación web sencilla para dibujar diagramas ASCII, esquemas técnicos y arte de texto directamente en tu navegador.",
+        "fr": "Une application web pratique pour dessiner des diagrammes ASCII, des organigrammes et du texte artistique directement.",
+        "de": "Eine einfache Webanwendung zum Zeichnen von ASCII-Diagrammen, technischen Abläufen und Textkunst direkt im Browser."
+      },
+      "download_url": "https://monosketch.io",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "argos",
       "name": "Argos",
       "tagline": "Turn Bash scripts into GNOME menus",
@@ -51459,6 +51655,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "wxdraw",
+      "name": "wxDraw",
+      "tagline": "Easy 2D animation for mini apps",
+      "repo_url": "https://github.com/bobiscool/wxdraw",
+      "full_name": "bobiscool/wxdraw",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "canvas",
+        "animation"
+      ],
+      "icon": "/icons/wxdraw.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1721,
+      "tier": "tier2_webapp",
+      "summary": "wxDraw is a lightweight tool that makes it simple to create smooth 2D graphics and animations inside WeChat mini programs without complex coding.",
+      "i18n": {
+        "it": "wxDraw è uno strumento leggero che rende semplice creare grafica 2D e animazioni fluide all'interno dei mini programmi WeChat senza codifica complessa.",
+        "es": "wxDraw es una herramienta ligera que facilita la creación de gráficos 2D y animaciones fluidas dentro de los mini programas de WeChat sin codificación compleja.",
+        "fr": "wxDraw est un outil léger qui simplifie la création de graphiques 2D et d'animations fluides au sein des mini-programmes WeChat sans codage complexe.",
+        "de": "wxDraw ist ein leichtgewichtiges Tool, das die Erstellung von 2D-Grafiken und flüssigen Animationen in WeChat-Mini-Programmen ohne komplexe Codierung erleichtert."
+      },
+      "download_url": "https://github.com/bobiscool/wxDraw/releases/download/v1.2/wxdraw.js",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "jquery-querybuilder",
       "name": "jQuery-QueryBuilder",
       "tagline": "Create complex search filters visually",
@@ -51681,6 +51905,34 @@
       },
       "download_url": "https://www.rageframe.com",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "borg-ui",
+      "name": "borg-ui",
+      "tagline": "Manage your file backups effortlessly via web",
+      "repo_url": "https://github.com/karanhudia/borg-ui",
+      "full_name": "karanhudia/borg-ui",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "backup",
+        "web-ui"
+      ],
+      "icon": "/icons/borg-ui.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 1694,
+      "tier": "tier2_webapp",
+      "summary": "Replace complex terminal commands with a clean web interface to easily create, schedule, and restore your system backups.",
+      "i18n": {
+        "it": "Sostituisci i comandi da terminale con un'interfaccia web per creare, pianificare e ripristinare i backup.",
+        "es": "Sustituye los comandos de terminal por una interfaz web para crear, programar y restaurar tus copias.",
+        "fr": "Remplacez les commandes complexes par une interface web claire pour créer, planifier et restaurer vos sauvegardes.",
+        "de": "Ersetzen Sie komplexe Befehle durch eine übersichtliche Benutzeroberfläche zum Erstellen und Wiederherstellen."
+      },
+      "download_url": "https://github.com/karanhudia/borg-ui/releases/download/v2.4.10/borg-ui-2.4.10.tar.gz.sha256",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "django-locallibrary-tutorial",
@@ -51907,6 +52159,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "briefing",
+      "name": "Briefing",
+      "tagline": "Secure and private group video chat",
+      "repo_url": "https://github.com/holtwick/briefing",
+      "full_name": "holtwick/briefing",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "video-chat",
+        "privacy"
+      ],
+      "icon": "/icons/briefing.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 1638,
+      "tier": "tier2_webapp",
+      "summary": "Briefing provides a simple, private way to host group video calls directly in your web browser without needing extra software.",
+      "i18n": {
+        "it": "Briefing offre un modo semplice e privato per ospitare videochiamate di gruppo direttamente nel browser senza installare software.",
+        "es": "Briefing ofrece una forma sencilla y privada de realizar videollamadas grupales directamente en el navegador sin instalar programas.",
+        "fr": "Briefing offre un moyen simple et privé d'organiser des appels vidéo de groupe directement dans votre navigateur sans logiciel.",
+        "de": "Briefing bietet eine einfache und private Möglichkeit für Gruppen-Videoanrufe direkt im Browser ohne zusätzliche Software."
+      },
+      "download_url": "https://brie.fi/ng",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "downvid",
       "name": "DownVid",
       "tagline": "Save online videos effortlessly in high quality",
@@ -52129,6 +52409,34 @@
       },
       "download_url": "https://e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=desktop",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "coronavirus-tracker-api",
+      "name": "Coronavirus Tracker API",
+      "tagline": "Fast global health data tracking tool.",
+      "repo_url": "https://github.com/expdev07/coronavirus-tracker-api",
+      "full_name": "expdev07/coronavirus-tracker-api",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "health",
+        "data"
+      ],
+      "icon": "/icons/coronavirus-tracker-api.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 1566,
+      "tier": "tier2_webapp",
+      "summary": "This tool provides quick access to worldwide health statistics including confirmed cases, deaths, and recovery numbers from multiple sources.",
+      "i18n": {
+        "it": "Questo strumento offre un accesso rapido alle statistiche sanitarie mondiali, inclusi casi confermati, decessi e guarigioni da varie fonti.",
+        "es": "Esta herramienta proporciona acceso rápido a estadísticas de salud mundiales, incluyendo casos confirmados, muertes y recuperaciones de varias fuentes.",
+        "fr": "Cet outil offre un accès rapide aux statistiques de santé mondiales, y compris les cas confirmés, les décès et les guérisons provenant de diverses sources.",
+        "de": "Dieses Tool bietet schnellen Zugriff auf weltweite Gesundheitsstatistiken, einschließlich bestätigter Fälle, Todesfälle und Genesungen aus verschiedenen Quellen."
+      },
+      "download_url": "https://coronavirus-tracker-api.herokuapp.com",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "noutube",
@@ -52467,6 +52775,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "cryptii",
+      "name": "cryptii",
+      "tagline": "Convert, encode, and encrypt data easily.",
+      "repo_url": "https://github.com/cryptii/cryptii",
+      "full_name": "cryptii/cryptii",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "encryption",
+        "privacy"
+      ],
+      "icon": "/icons/cryptii.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1513,
+      "tier": "tier2_webapp",
+      "summary": "Cryptii is a browser-based tool that lets you transform, scramble, and decode information without sending your data to any external servers.",
+      "i18n": {
+        "it": "Cryptii è uno strumento basato su browser che ti permette di trasformare e decodificare informazioni senza inviare dati a server esterni.",
+        "es": "Cryptii es una herramienta basada en navegador que permite transformar y descodificar información sin enviar datos a servidores externos.",
+        "fr": "Cryptii est un outil par navigateur permettant de transformer et décoder des informations sans envoyer de données vers des serveurs externes.",
+        "de": "Cryptii ist ein browserbasiertes Werkzeug, mit dem Sie Informationen umwandeln und entschlüsseln können, ohne Daten an externe Server zu senden."
+      },
+      "download_url": "https://cryptii.com/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "fizzy",
       "name": "Fizzy",
       "tagline": "Modular extensible editor and application workspace.",
@@ -52549,6 +52885,34 @@
       },
       "download_url": "https://github.com/ostafen/digler/releases/download/v0.1.0/digler-windows-amd64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "tonzhon-music",
+      "name": "Tonzhon Music",
+      "tagline": "A clean, distraction-free music player.",
+      "repo_url": "https://github.com/enzeberg/tonzhon-music",
+      "full_name": "enzeberg/tonzhon-music",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "music",
+        "web-app"
+      ],
+      "icon": "/icons/tonzhon-music.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1499,
+      "tier": "tier2_webapp",
+      "summary": "Tonzhon is a minimalist web-based music player designed to help you listen to your favorite songs without any ads or social clutter.",
+      "i18n": {
+        "it": "Tonzhon è un lettore musicale web minimalista progettato per ascoltare i tuoi brani preferiti senza pubblicità o distrazioni sociali.",
+        "es": "Tonzhon es un reproductor de música web minimalista diseñado para escuchar tus canciones favoritas sin anuncios ni distracciones sociales.",
+        "fr": "Tonzhon est un lecteur de musique web minimaliste conçu pour écouter vos chansons préférées sans publicité ni distractions sociales.",
+        "de": "Tonzhon ist ein minimalistischer Web-Musikplayer, mit dem Sie Ihre Lieblingslieder ohne Werbung oder soziale Ablenkungen hören können."
+      },
+      "download_url": "https://tonzhon.whamon.com",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "dock",
@@ -52915,6 +53279,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "meelo",
+      "name": "Meelo",
+      "tagline": "Your private, self-hosted music server hub",
+      "repo_url": "https://github.com/arthi-chaud/meelo",
+      "full_name": "arthi-chaud/meelo",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "music",
+        "self-hosted"
+      ],
+      "icon": "/icons/meelo.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 1452,
+      "tier": "tier2_webapp",
+      "summary": "Take full control of your personal music collection with a dedicated self-hosted server designed for rich metadata and beautiful browsing.",
+      "i18n": {
+        "it": "Prendi il controllo della tua collezione musicale con un server privato pensato per metadati ricchi e una navigazione perfetta.",
+        "es": "Toma el control de tu colección musical personal con un servidor privado diseñado para metadatos detallados y una gran navegación.",
+        "fr": "Reprenez le contrôle de votre bibliothèque musicale grâce à un serveur personnel conçu pour des métadonnées riches.",
+        "de": "Übernehmen Sie die Kontrolle über Ihre Musiksammlung mit einem privaten Server für detailreiche Metadaten und tolles Browsen."
+      },
+      "download_url": "https://github.com/Arthi-chaud/Meelo/releases/download/v3.13.2/meelo.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "galene",
+      "name": "Galene",
+      "tagline": "Lightweight self-hosted video meetings server",
+      "repo_url": "https://github.com/jech/galene",
+      "full_name": "jech/galene",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "video-conferencing",
+        "self-hosted"
+      ],
+      "icon": "/icons/galene.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1444,
+      "tier": "tier2_webapp",
+      "summary": "Galene is an efficient video conferencing platform that runs smoothly on modest hardware while giving you complete privacy and control.",
+      "i18n": {
+        "it": "Galene è una piattaforma di videoconferenza efficiente che funziona perfettamente su hardware modesti garantendo totale privacy.",
+        "es": "Galene es una plataforma de videoconferencia eficiente que funciona de maravilla en servidores modestos con total privacidad.",
+        "fr": "Galene est une plateforme de visioconférence efficace qui fonctionne parfaitement sur du matériel modeste avec une totale confidentialité.",
+        "de": "Galene ist eine effiziente Videokonferenz-Plattform, die reibungslos auf bescheidenen Servern läuft und maximale Privatsphäre bietet."
+      },
+      "download_url": "https://galene.org",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "lwgui",
       "name": "LWGUI",
       "tagline": "Lightweight and powerful shader custom inspector",
@@ -53139,6 +53559,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "responsiveframework",
+      "name": "ResponsiveFramework",
+      "tagline": "Easily adapt apps to any screen size.",
+      "repo_url": "https://github.com/codelessly/responsiveframework",
+      "full_name": "codelessly/responsiveframework",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "development",
+        "mobile"
+      ],
+      "icon": "/icons/responsiveframework.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1405,
+      "tier": "tier2_webapp",
+      "summary": "ResponsiveFramework helps developers automatically adjust their app layouts to look perfect on phones, tablets, and desktop computers.",
+      "i18n": {
+        "it": "ResponsiveFramework aiuta a regolare automaticamente il layout delle app per adattarsi perfettamente a telefoni, tablet e computer.",
+        "es": "ResponsiveFramework ayuda a ajustar automáticamente el diseño de tus aplicaciones para que luzcan perfectas en móviles, tablets y escritorio.",
+        "fr": "ResponsiveFramework permet d'ajuster automatiquement la mise en page de vos applications pour les mobiles, tablettes et ordinateurs.",
+        "de": "ResponsiveFramework hilft Entwicklern, App-Layouts automatisch für Handys, Tablets und Desktop-Computer zu optimieren."
+      },
+      "download_url": "https://codelessly.com",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "fvim",
       "name": "FVim",
       "tagline": "High-performance graphical interface for Neovim.",
@@ -53249,6 +53697,34 @@
       },
       "download_url": "https://kanmail.io",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "treefrog-framework",
+      "name": "TreeFrog Framework",
+      "tagline": "High-speed C++ web application framework.",
+      "repo_url": "https://github.com/treefrogframework/treefrog-framework",
+      "full_name": "treefrogframework/treefrog-framework",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "development",
+        "web"
+      ],
+      "icon": "/icons/treefrog-framework.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (BSD)",
+      "stars": 1385,
+      "tier": "tier2_webapp",
+      "summary": "Build ultra-fast web apps using C++ and Qt with built-in database tools and automatic project generators.",
+      "i18n": {
+        "it": "Crea app web ultra-veloci usando C++ e Qt con strumenti di database integrati e generatori di codice.",
+        "es": "Crea aplicaciones web ultrarrápidas usando C++ y Qt con herramientas de base de datos integradas.",
+        "fr": "Créez des applications web ultra-rapides en C++ et Qt avec des outils de base de données intégrés.",
+        "de": "Erstellen Sie ultraschnelle Web-Apps mit C++ und Qt sowie integrierten Datenbank- und Codegeneratoren."
+      },
+      "download_url": "https://github.com/treefrogframework/treefrog-framework/releases/download/v2.12.1/treefrog-2.12.1-msvc_64-setup.exe",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "guislice",
@@ -53643,6 +54119,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "surrealist",
+      "name": "Surrealist",
+      "tagline": "Visual interface for managing database information.",
+      "repo_url": "https://github.com/surrealdb/surrealist",
+      "full_name": "surrealdb/surrealist",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "database",
+        "management"
+      ],
+      "icon": "/icons/surrealist.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1305,
+      "tier": "tier2_webapp",
+      "summary": "Surrealist provides a clear, visual way to organize and interact with your database information without needing complex commands.",
+      "i18n": {
+        "it": "Surrealist offre un modo semplice e visivo per organizzare e interagire con i dati del tuo database senza usare comandi complessi.",
+        "es": "Surrealist ofrece una forma clara y visual de organizar e interactuar con la información de tu base de datos sin comandos complejos.",
+        "fr": "Surrealist offre un moyen simple et visuel d'organiser et d'interagir avec vos données sans utiliser de commandes complexes.",
+        "de": "Surrealist bietet eine klare, visuelle Möglichkeit, Ihre Datenbankinformationen zu organisieren, ohne komplizierte Befehle zu nutzen."
+      },
+      "download_url": "https://github.com/surrealdb/surrealist/releases/download/surrealist-v3.9.13/Surrealist_3.9.13_x64-setup.exe",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "courselit",
       "name": "CourseLit",
       "tagline": "Create and sell online courses easily.",
@@ -53895,6 +54399,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "express-locallibrary-tutorial",
+      "name": "Express Local Library Tutorial",
+      "tagline": "Learn to build web-based library catalogs.",
+      "repo_url": "https://github.com/mdn/express-locallibrary-tutorial",
+      "full_name": "mdn/express-locallibrary-tutorial",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "education",
+        "web-development"
+      ],
+      "icon": "/icons/express-locallibrary-tutorial.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Public Domain / Free",
+      "stars": 1275,
+      "tier": "tier2_webapp",
+      "summary": "This educational project provides a complete template for creating a functional online library catalog system for managing books and users.",
+      "i18n": {
+        "it": "Questo progetto didattico offre un modello completo per creare un sistema di catalogo di biblioteca online per gestire libri e utenti.",
+        "es": "Este proyecto educativo ofrece una plantilla completa para crear un sistema de catálogo de biblioteca en línea para gestionar libros y usuarios.",
+        "fr": "Ce projet éducatif fournit un modèle complet pour créer un système de catalogue de bibliothèque en ligne pour gérer les livres et les utilisateurs.",
+        "de": "Dieses Bildungsprojekt bietet eine vollständige Vorlage für die Erstellung eines funktionalen Online-Bibliothekskatalogs zur Verwaltung von Büchern."
+      },
+      "download_url": "https://github.com/mdn/express-locallibrary-tutorial/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "gpx-studio",
       "name": "gpx.studio",
       "tagline": "Create and edit GPS route files",
@@ -53949,6 +54481,62 @@
       },
       "download_url": "https://funcui.avaloniaui.net/",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "local-web-server",
+      "name": "local-web-server",
+      "tagline": "Instant local web server for developers",
+      "repo_url": "https://github.com/lwsjs/local-web-server",
+      "full_name": "lwsjs/local-web-server",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "local-server"
+      ],
+      "icon": "/icons/local-web-server.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1266,
+      "tier": "tier2_webapp",
+      "summary": "A lightweight command-line tool that instantly serves your local files as a live website for testing and development.",
+      "i18n": {
+        "it": "Uno strumento da riga di comando leggero che serve istantaneamente i file locali come sito web live per test e sviluppo.",
+        "es": "Una herramienta de línea de comandos ligera que sirve instantáneamente sus archivos locales como un sitio web en vivo para pruebas y desarrollo.",
+        "fr": "Un outil en ligne de commande léger qui sert instantanément vos fichiers locaux comme un site web en direct pour les tests et le développement.",
+        "de": "Ein leichtgewichtiges Kommandozeilenwerkzeug, das Ihre lokalen Dateien sofort als Live-Website für Tests und Entwicklung bereitstellt."
+      },
+      "download_url": "https://github.com/lwsjs/local-web-server/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "houdini",
+      "name": "Houdini",
+      "tagline": "Hundreds of offensive and useful security tools",
+      "repo_url": "https://github.com/cybersecsi/houdini",
+      "full_name": "cybersecsi/houdini",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "self-hosted"
+      ],
+      "icon": "/icons/houdini.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 1264,
+      "tier": "tier2_webapp",
+      "summary": "Houdini is an extensive collection of containerized network security and ethical hacking tools with ready-to-run commands.",
+      "i18n": {
+        "it": "Houdini è una vasta raccolta di strumenti di sicurezza di rete e hacking etico containerizzati con comandi pronti all'uso.",
+        "es": "Houdini es una amplia colección de herramientas de seguridad de red y piratería ética en contenedores con comandos listos para usar.",
+        "fr": "Houdini est une vaste collection d'outils de sécurité réseau et de piratage éthique conteneurisés avec des commandes prêtes à l'emploi.",
+        "de": "Houdini ist eine umfangreiche Sammlung containerisierter Netzwerksicherheits- und Hacking-Tools mit sofort einsatzbereiten Befehlen."
+      },
+      "download_url": "https://houdini.secsi.io",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "nora",
@@ -54315,6 +54903,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "gowebly",
+      "name": "Gowebly",
+      "tagline": "Build web apps with Go easily.",
+      "repo_url": "https://github.com/gowebly/gowebly",
+      "full_name": "gowebly/gowebly",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "productivity"
+      ],
+      "icon": "/icons/gowebly.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 1231,
+      "tier": "tier2_webapp",
+      "summary": "Gowebly automates the setup of web projects using the Go programming language, handling the complex configuration for you.",
+      "i18n": {
+        "it": "Gowebly automatizza la configurazione di progetti web usando il linguaggio Go, gestendo le impostazioni complesse al posto tuo.",
+        "es": "Gowebly automatiza la configuración de proyectos web usando el lenguaje Go, gestionando los ajustes complejos por ti.",
+        "fr": "Gowebly automatise la configuration de projets web en utilisant le langage Go, gérant les réglages complexes à votre place.",
+        "de": "Gowebly automatisiert die Einrichtung von Webprojekten mit der Programmiersprache Go und übernimmt die komplexe Konfiguration für Sie."
+      },
+      "download_url": "https://github.com/gowebly/gowebly/releases/download/v3.1.1/gowebly_3.1.1_linux_amd64.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "markeron",
       "name": "MarkerOn",
       "tagline": "Lightweight desktop screen annotation tool",
@@ -54455,6 +55071,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "jpg-glitch",
+      "name": "jpg-glitch",
+      "tagline": "Create artistic digital distortion effects",
+      "repo_url": "https://github.com/snorpey/jpg-glitch",
+      "full_name": "snorpey/jpg-glitch",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "creative",
+        "image-editor"
+      ],
+      "icon": "/icons/jpg-glitch.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1213,
+      "tier": "tier2_webapp",
+      "summary": "This tool allows you to creatively corrupt your images to achieve a unique, digital glitch aesthetic.",
+      "i18n": {
+        "it": "Questo strumento ti permette di corrompere le tue immagini per ottenere un effetto estetico di distorsione digitale unico.",
+        "es": "Esta herramienta te permite corromper tus imágenes de forma creativa para lograr una estética única de distorsión digital.",
+        "fr": "Cet outil vous permet de corrompre vos images de manière créative pour obtenir une esthétique de distorsion numérique unique.",
+        "de": "Dieses Werkzeug ermöglicht es Ihnen, Ihre Bilder kreativ zu verfremden, um eine einzigartige digitale Glitch-Ästhetik zu erzielen."
+      },
+      "download_url": "https://snorpey.github.io/jpg-glitch/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "subtitle-translator",
       "name": "Subtitle Translator",
       "tagline": "Translate whole seasons of subtitles instantly",
@@ -54481,6 +55125,34 @@
       },
       "download_url": "https://github.com/rockbenben/subtitle-translator/releases/download/v3.2.1/SubtitleTranslator_3.2.1_x64_portable.exe",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "anarki",
+      "name": "anarki",
+      "tagline": "Community-driven Lisp web platform",
+      "repo_url": "https://github.com/arclanguage/anarki",
+      "full_name": "arclanguage/anarki",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "lisp",
+        "web-development"
+      ],
+      "icon": "/icons/anarki.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 1200,
+      "tier": "tier2_webapp",
+      "summary": "Anarki is a collaborative, open-source version of the Arc programming language that includes a ready-to-use news site builder.",
+      "i18n": {
+        "it": "Anarki è una versione open-source e collaborativa del linguaggio Arc che include un costruttore di siti di notizie.",
+        "es": "Anarki es una versión colaborativa y de código abierto del lenguaje Arc que incluye un creador de sitios de noticias.",
+        "fr": "Anarki est une version collaborative et open source du langage Arc qui inclut un constructeur de site d'actualités.",
+        "de": "Anarki ist eine kollaborative Open-Source-Version der Arc-Programmiersprache, die einen Nachrichten-Website-Baukasten enthält."
+      },
+      "download_url": "https://arclanguage.github.io",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "masuit-myblogs",
@@ -54649,6 +55321,34 @@
       },
       "download_url": "https://github.com/BlueManCZ/hyprmod/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "pixel-editor",
+      "name": "Pixel Editor",
+      "tagline": "Create digital pixel art in browser",
+      "repo_url": "https://github.com/lospec/pixel-editor",
+      "full_name": "lospec/pixel-editor",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "art",
+        "design"
+      ],
+      "icon": "/icons/pixel-editor.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 1149,
+      "tier": "tier2_webapp",
+      "summary": "Pixel Editor is a simple, web-based tool for designing pixel art directly in your internet browser.",
+      "i18n": {
+        "it": "Pixel Editor è uno strumento semplice basato sul web per creare disegni in stile pixel art direttamente dal tuo browser internet.",
+        "es": "Pixel Editor es una herramienta sencilla basada en la web para diseñar arte de píxeles directamente desde su navegador de internet.",
+        "fr": "Pixel Editor est un outil web simple pour concevoir des créations en pixel art directement depuis votre navigateur internet.",
+        "de": "Pixel Editor ist ein einfaches, webbasiertes Werkzeug zum Entwerfen von Pixel-Art direkt in Ihrem Internetbrowser."
+      },
+      "download_url": "https://Lospec.com/pixel-editor",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "dockit",

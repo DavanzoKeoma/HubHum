@@ -1,5 +1,5 @@
 # HubHum Compact RAG Digest (catalog-rag.txt)
-Generated: 2026-11-25T12:20:30.890709+00:00 | Total: 2325 apps | Tier1: 1291 | Tier2: 695 | Tier3: 339 | Guides: 78 (6 Pillars) | Bundles: 9
+Generated: 2026-11-25T12:25:39.384380+00:00 | Total: 2350 apps | Tier1: 1291 | Tier2: 720 | Tier3: 339 | Guides: 78 (6 Pillars) | Bundles: 9
 Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeoma.github.io/HubHum/api/catalog.json | Clusters JSON: https://davanzokeoma.github.io/HubHum/api/clusters.json
 
 ## Category Breakdown
@@ -8,7 +8,7 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
 - Security & Privacy: 56 apps
 - Utilities & Power Tools: 310 apps
 - Video & Audio: 105 apps
-- Web Apps & Cloud: 670 apps
+- Web Apps & Cloud: 695 apps
 - Websites & SEO: 3 apps
 
 ## Active Topic Cluster Guides & Bundles
@@ -3549,6 +3549,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Piranha CMS is a lightweight, flexible system that helps you manage website content with an easy-to-use editing interface. | Source: https://github.com/piranhacms/piranha.core | Download: https://piranhacms.org
 [cpeditor] CP Editor (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (GPL v3) | 2192★) -> https://davanzokeoma.github.io/HubHum/apps/cpeditor/
   Summary: CP Editor is a specialized tool designed to help programmers fetch, write, test, and submit their code for competitive challenges. | Source: https://github.com/cpeditor/cpeditor | Download: https://github.com/cpeditor/cpeditor/releases/download/7.1.2/cpeditor-7.1.2-windows-x64-setup-with-gcc-15.2.0.exe
+[solara] Solara (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 2180★) -> https://davanzokeoma.github.io/HubHum/apps/solara/
+  Summary: Solara lets you create interactive web applications using simple Python code without needing to learn complex web design languages. | Source: https://github.com/widgetti/solara | Download: https://solara.dev
 [runjs] RunJS (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Custom Open License | 2177★) -> https://davanzokeoma.github.io/HubHum/apps/runjs/
   Summary: RunJS is an interactive desktop scratchpad that executes JavaScript and TypeScript code instantly as you type. | Source: https://github.com/lukehaas/runjs | Download: https://github.com/lukehaas/RunJS/releases/download/v4.1.0/RunJS-Setup-4.1.0.exe
 [limusic] limusic (Video & Audio | tier1_gui | desktop | Windows, macOS, Linux | Open Source (GPL v3) | 2171★) -> https://davanzokeoma.github.io/HubHum/apps/limusic/
@@ -3557,10 +3559,14 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: yutto is a friendly tool that lets you save your favorite Bilibili videos, series, and courses directly to your computer for offline viewing. | Source: https://github.com/yutto-dev/yutto | Download: https://github.com/yutto-dev/yutto/releases/download/v2.3.1/yutto-2.3.1-cp311-abi3-macosx_10_12_x86_64.whl
 [pygubu] pygubu (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 2168★) -> https://davanzokeoma.github.io/HubHum/apps/pygubu/
   Summary: Create graphical windows and forms for Python scripts using an intuitive visual designer instead of writing layout code by hand. | Source: https://github.com/alejandroautalan/pygubu | Download: https://github.com/alejandroautalan/pygubu/releases
+[microdot] Microdot (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 2159★) -> https://davanzokeoma.github.io/HubHum/apps/microdot/
+  Summary: Microdot lets you create simple web pages or tiny services with just a few lines of Python, even on tiny devices. | Source: https://github.com/miguelgrinberg/microdot | Download: https://code.miguelgrinberg.com/miguelgrinberg/microdot
 [oneanime] oneAnime (Productivity | tier1_gui | desktop | Windows, macOS, Linux, Android, iOS | Open Source (GPL v3) | 2158★) -> https://davanzokeoma.github.io/HubHum/apps/oneanime/
   Summary: Enjoy your favorite Japanese animated series completely ad-free with community comments and modern design. | Source: https://github.com/predidit/oneanime | Download: https://github.com/Predidit/oneAnime/releases/download/1.4.7/oneAnime_macos_1.4.7.dmg
 [omnibot] OmniBot (Productivity | tier1_gui | desktop | Linux, Android | Custom Open License | 2154★) -> https://davanzokeoma.github.io/HubHum/apps/omnibot/
   Summary: OmniBot runs directly on your Android device as an intelligent agent capable of operating terminals and managing daily tasks. | Source: https://github.com/omnimind-ai/omnibot | Download: https://github.com/omnimind-ai/OmniBot/releases/download/v0.7.0/OpenOmniBot-v0.7.0-standard.apk
+[terminal-in-react] Terminal in React (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 2153★) -> https://davanzokeoma.github.io/HubHum/apps/terminal-in-react/
+  Summary: Add an interactive, customizable command-line interface directly into your React web pages to showcase commands or build fun web toys. | Source: https://github.com/nitin42/terminal-in-react | Download: https://terminal-in-react.surge.sh/
 [ndm] ndm (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (GPL v3) | 2151★) -> https://davanzokeoma.github.io/HubHum/apps/ndm/
   Summary: Manage your software building blocks and add-ons through a clean window instead of typing complex commands. | Source: https://github.com/720kb/ndm | Download: https://github.com/720kb/ndm/releases/download/v1.2.0/ndm-1.2.0.exe
 [nginx-ignition] nginx-ignition (Productivity | tier1_gui | desktop | Windows, Linux | Open Source (MIT) | 2145★) -> https://davanzokeoma.github.io/HubHum/apps/nginx-ignition/
@@ -3569,6 +3575,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Umka is a simple and efficient language designed to be easily added into other programs to handle logic and automation tasks. | Source: https://github.com/vtereshkov/umka-lang | Download: https://github.com/vtereshkov/umka-lang/releases
 [museeks] Museeks (Video & Audio | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 2142★) -> https://davanzokeoma.github.io/HubHum/apps/museeks/
   Summary: Museeks lets you play your favorite songs on Windows, macOS, or Linux with a tidy interface, automatic library updates, and easy playlist management. | Source: https://github.com/martpie/museeks | Download: https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_arm64-setup.exe
+[ever-traduora] Ever Traduora (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (AGPL v3) | 2140★) -> https://davanzokeoma.github.io/HubHum/apps/ever-traduora/
+  Summary: Ever Traduora is a collaborative platform that helps teams organize, import, and export translation files for their projects. | Source: https://github.com/ever-co/ever-traduora | Download: https://traduora.co
 [pty] pty (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 2122★) -> https://davanzokeoma.github.io/HubHum/apps/pty/
   Summary: This tool allows software creators to interact with terminal-based programs programmatically. | Source: https://github.com/creack/pty | Download: https://pkg.go.dev/github.com/creack/pty?tab=doc
 [comfyui-easy-install] ComfyUI-Easy-Install (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 2115★) -> https://davanzokeoma.github.io/HubHum/apps/comfyui-easy-install/
@@ -3625,6 +3633,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: This starter kit helps you create professional websites that are lightning-fast and simple to update using a friendly content editor. | Source: https://github.com/decaporg/gatsby-starter-decap-cms | Download: https://gatsby-netlify-cms.netlify.app/
 [suneditor] SunEditor (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 2039★) -> https://davanzokeoma.github.io/HubHum/apps/suneditor/
   Summary: SunEditor provides a complete, easy-to-install text editing interface for websites without needing complex setup or extra software. | Source: https://github.com/jihong88/suneditor | Download: https://suneditor.com
+[holytips] HolyTips (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (GPL v3) | 2038★) -> https://davanzokeoma.github.io/HubHum/apps/holytips/
+  Summary: A free, open collection of practical notes and checklists for finding security flaws in websites. | Source: https://github.com/holybugx/holytips | Download: https://github.com/HolyBugx/HolyTips/releases
 [py-gpt] py-gpt (Productivity | tier1_gui | desktop | Linux | Custom Open License | 2035★) -> https://davanzokeoma.github.io/HubHum/apps/py-gpt/
   Summary: Connect multiple leading artificial intelligence models directly on your desktop for chatting, automated tasks, and document research. | Source: https://github.com/szczyglis-dev/py-gpt | Download: https://github.com/szczyglis-dev/py-gpt/releases/download/v2.9.1/PyGPT-2.9.1-aarch64.AppImage
 [stretch] Stretch (Productivity | tier1_gui | desktop | iOS | Open Source (MIT) | 2029★) -> https://davanzokeoma.github.io/HubHum/apps/stretch/
@@ -3677,6 +3687,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Browse your entire game collection and launch different emulators from one unified, fully customizable graphical interface. | Source: https://github.com/mmatyas/pegasus-frontend | Download: https://github.com/mmatyas/pegasus-frontend/releases/download/weekly_2024w38/pegasus-fe_alpha16-82-gc3462e68_android.apk
 [ferrite] Ferrite (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1918★) -> https://davanzokeoma.github.io/HubHum/apps/ferrite/
   Summary: A fast, lightweight text editor designed for Markdown, JSON, YAML, and TOML files with a native, responsive experience. | Source: https://github.com/olaproeis/ferrite | Download: https://github.com/OlaProeis/Ferrite/releases/download/v0.3.1/ferrite-windows-x64-setup.exe
+[download-directory-github-io] Download Directory (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1917★) -> https://davanzokeoma.github.io/HubHum/apps/download-directory-github-io/
+  Summary: Instantly download any sub-folder from a large online code collection with a single click without downloading the whole library. | Source: https://github.com/download-directory/download-directory.github.io | Download: https://download-directory.github.io
 [archlinuxtutorial] ArchLinuxTutorial (Security & Privacy | tier1_gui | desktop | Linux | Custom Open License | 1915★) -> https://davanzokeoma.github.io/HubHum/apps/archlinuxtutorial/
   Summary: A free, community-driven online tutorial that walks you through installing and using Arch Linux for daily tasks, media, and coding. | Source: https://github.com/archlinuxstudio/archlinuxtutorial | Download: https://ArchLinuxStudio.github.io/ArchLinuxTutorial/#/
 [themostdangerouswritingapp] The Most Dangerous Writing App (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (GPL v3) | 1915★) -> https://davanzokeoma.github.io/HubHum/apps/themostdangerouswritingapp/
@@ -3701,6 +3713,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Roxy-WI lets you see and control multiple proxy and high‑availability servers from one easy web screen, making changes safe and coordinated. | Source: https://github.com/roxy-wi/roxy-wi | Download: https://roxy-wi.org
 [chocolateygui] ChocolateyGUI (Productivity | tier1_gui | desktop | Windows | Open Source (Apache 2.0) | 1831★) -> https://davanzokeoma.github.io/HubHum/apps/chocolateygui/
   Summary: ChocolateyGUI provides a user-friendly window to search, install, and update software on your Windows computer without typing commands. | Source: https://github.com/chocolatey/chocolateygui | Download: https://github.com/chocolatey/ChocolateyGUI/releases/download/3.3.0/ChocolateyGUI.msi
+[monosketch] MonoSketch (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (Apache 2.0) | 1828★) -> https://davanzokeoma.github.io/HubHum/apps/monosketch/
+  Summary: An easy web application for drawing ASCII diagrams, technical flowcharts, and text art directly inside your browser. | Source: https://github.com/tuanchauict/monosketch | Download: https://monosketch.io
 [argos] Argos (Productivity | tier1_gui | desktop | Linux | Custom Open License | 1804★) -> https://davanzokeoma.github.io/HubHum/apps/argos/
   Summary: Create custom desktop panel menus and monitoring tools instantly using simple scripts you already know. | Source: https://github.com/p-e-w/argos | Download: https://extensions.gnome.org/extension/1176/argos/
 [kanban-app] kanban-app (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Custom Open License | 1801★) -> https://davanzokeoma.github.io/HubHum/apps/kanban-app/
@@ -3721,6 +3735,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: ZapZap lets you run WhatsApp comfortably on your desktop with multi-account support, custom themes, and reliable system notifications. | Source: https://github.com/rafatosta/zapzap | Download: https://github.com/rafatosta/zapzap/releases/download/7.5.1/ZapZap-7.5.1-windows-arm64.exe
 [dsnote] dsnote (Productivity | tier1_gui | desktop | Linux | Open Source (MPL 2.0) | 1721★) -> https://davanzokeoma.github.io/HubHum/apps/dsnote/
   Summary: Convert speech to text, read text aloud, and translate languages locally on your Linux or Sailfish device without internet. | Source: https://github.com/mkiol/dsnote | Download: https://github.com/mkiol/dsnote/releases
+[wxdraw] wxDraw (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1721★) -> https://davanzokeoma.github.io/HubHum/apps/wxdraw/
+  Summary: wxDraw is a lightweight tool that makes it simple to create smooth 2D graphics and animations inside WeChat mini programs without complex coding. | Source: https://github.com/bobiscool/wxdraw | Download: https://github.com/bobiscool/wxDraw/releases/download/v1.2/wxdraw.js
 [jquery-querybuilder] jQuery-QueryBuilder (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1719★) -> https://davanzokeoma.github.io/HubHum/apps/jquery-querybuilder/
   Summary: Easily build sophisticated database queries and search filters through a clean visual interface. | Source: https://github.com/mistic100/jquery-querybuilder | Download: https://querybuilder.js.org
 [axiom] Axiom (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (GPL v3) | 1716★) -> https://davanzokeoma.github.io/HubHum/apps/axiom/
@@ -3737,6 +3753,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: RAWmakase is a fast, free photo editing tool that helps you develop professional image files using a familiar, user-friendly layout. | Source: https://github.com/pch/rawmakase | Download: https://github.com/pch/rawmakase/releases/download/v0.7.2/rawmakase-v0.7.2-aarch64-pc-windows-msvc-setup.exe
 [rageframe2] RageFrame 2 (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (Apache 2.0) | 1707★) -> https://davanzokeoma.github.io/HubHum/apps/rageframe2/
   Summary: RageFrame 2 is a powerful foundation that helps developers build web applications quickly by providing pre-made, essential features. | Source: https://github.com/jianyan74/rageframe2 | Download: https://www.rageframe.com
+[borg-ui] borg-ui (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (AGPL v3) | 1694★) -> https://davanzokeoma.github.io/HubHum/apps/borg-ui/
+  Summary: Replace complex terminal commands with a clean web interface to easily create, schedule, and restore your system backups. | Source: https://github.com/karanhudia/borg-ui | Download: https://github.com/karanhudia/borg-ui/releases/download/v2.4.10/borg-ui-2.4.10.tar.gz.sha256
 [django-locallibrary-tutorial] Django Local Library (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Public Domain / Free | 1690★) -> https://davanzokeoma.github.io/HubHum/apps/django-locallibrary-tutorial/
   Summary: An educational web application creating an online catalog for a local library to browse books and manage accounts. | Source: https://github.com/mdn/django-locallibrary-tutorial | Download: https://github.com/mdn/django-locallibrary-tutorial/releases
 [notion-api-worker] Notion API Worker (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Custom Open License | 1668★) -> https://davanzokeoma.github.io/HubHum/apps/notion-api-worker/
@@ -3753,6 +3771,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: An infinite visual canvas workspace that keeps your artificial intelligence coding assistants, command lines, tasks, and notes visible side by side. | Source: https://github.com/deadwavewave/opencove | Download: https://github.com/DeadWaveWave/opencove/releases/download/v0.5.2/OpenCove-0.5.2-win-x64.exe
 [postbird] Postbird (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1642★) -> https://davanzokeoma.github.io/HubHum/apps/postbird/
   Summary: Manage PostgreSQL databases effortlessly with an ultra-fast, lightweight client featuring built-in AI search tools. | Source: https://github.com/paxa/postbird | Download: https://github.com/Paxa/postbird/releases/download/v0.9.2/Postbird-macos-arm64.dmg
+[briefing] Briefing (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (AGPL v3) | 1638★) -> https://davanzokeoma.github.io/HubHum/apps/briefing/
+  Summary: Briefing provides a simple, private way to host group video calls directly in your web browser without needing extra software. | Source: https://github.com/holtwick/briefing | Download: https://brie.fi/ng
 [downvid] DownVid (Video & Audio | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1635★) -> https://davanzokeoma.github.io/HubHum/apps/downvid/
   Summary: DownVid is a modern, cross-platform video downloader that helps you save high-definition media from popular websites without watermarks. | Source: https://github.com/downvid/downvid | Download: https://github.com/Downvid/downvid/releases/download/v1.12.0/DownVid-Wails-windows-x64-1.12.0-installer.exe
 [typicms] TypiCMS (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1619★) -> https://davanzokeoma.github.io/HubHum/apps/typicms/
@@ -3769,6 +3789,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Binding.scala connects your data and your user interface with pure functional expressions, making web development clean and reliable. | Source: https://github.com/thoughtworksinc/binding.scala | Download: https://javadoc.io/page/com.thoughtworks.binding/binding_2.13/latest/com/thoughtworks/binding/index.html
 [desktop] desktop (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (Apache 2.0) | 1570★) -> https://davanzokeoma.github.io/HubHum/apps/desktop/
   Summary: Create safe, isolated virtual desktop environments that intelligent assistants can control to perform tasks and run applications securely. | Source: https://github.com/e2b-dev/desktop | Download: https://e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=desktop
+[coronavirus-tracker-api] Coronavirus Tracker API (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (GPL v3) | 1566★) -> https://davanzokeoma.github.io/HubHum/apps/coronavirus-tracker-api/
+  Summary: This tool provides quick access to worldwide health statistics including confirmed cases, deaths, and recovery numbers from multiple sources. | Source: https://github.com/expdev07/coronavirus-tracker-api | Download: https://coronavirus-tracker-api.herokuapp.com
 [noutube] NouTube (Video & Audio | tier1_gui | desktop | Android, iOS | Open Source (AGPL v3) | 1559★) -> https://davanzokeoma.github.io/HubHum/apps/noutube/
   Summary: Stream your favorite videos and music without interruptions or advertisements, and keep media playing in the background while using other apps. | Source: https://github.com/nonbili/noutube | Download: https://github.com/nonbili/NouTube/releases/download/v0.7.10/app-full-arm64-v8a-release.apk
 [grok-app] Grok App (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1549★) -> https://davanzokeoma.github.io/HubHum/apps/grok-app/
@@ -3793,12 +3815,16 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Winter is a free, open-source content management system built on a popular PHP framework for rapid and secure website development. | Source: https://github.com/wintercms/winter | Download: https://wintercms.com
 [tyde] tyde (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (BSD) | 1520★) -> https://davanzokeoma.github.io/HubHum/apps/tyde/
   Summary: Tyde is a lightweight and modern desktop workspace for Unix systems built around clean material design principles. | Source: https://github.com/fyshos/tyde | Download: https://fyne.io/fynedesk/
+[cryptii] cryptii (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1513★) -> https://davanzokeoma.github.io/HubHum/apps/cryptii/
+  Summary: Cryptii is a browser-based tool that lets you transform, scramble, and decode information without sending your data to any external servers. | Source: https://github.com/cryptii/cryptii | Download: https://cryptii.com/
 [fizzy] Fizzy (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1506★) -> https://davanzokeoma.github.io/HubHum/apps/fizzy/
   Summary: Fizzy is a lightweight, customizable editor shell that loads plugins dynamically to adapt to your specific workflow needs. | Source: https://github.com/fizzyedit/fizzy | Download: https://github.com/fizzyedit/fizzy/releases/download/v0.1.7/fizzy_windows_arm64.exe
 [compass] Compass (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Custom Open License | 1503★) -> https://davanzokeoma.github.io/HubHum/apps/compass/
   Summary: Explore, modify, and analyze your database records visually without writing complex commands. | Source: https://github.com/mongodb-js/compass | Download: https://github.com/mongodb-js/compass/releases/download/v1.53.3/mongodb-compass-1.53.3-win32-x64.exe
 [digler] digler (Productivity | tier1_gui | desktop | Windows | Open Source (MIT) | 1503★) -> https://davanzokeoma.github.io/HubHum/apps/digler/
   Summary: Digler is a flexible tool for forensic disk analysis and file recovery, designed to help you retrieve lost or deleted files from storage devices. | Source: https://github.com/ostafen/digler | Download: https://github.com/ostafen/digler/releases/download/v0.1.0/digler-windows-amd64.exe
+[tonzhon-music] Tonzhon Music (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1499★) -> https://davanzokeoma.github.io/HubHum/apps/tonzhon-music/
+  Summary: Tonzhon is a minimalist web-based music player designed to help you listen to your favorite songs without any ads or social clutter. | Source: https://github.com/enzeberg/tonzhon-music | Download: https://tonzhon.whamon.com
 [dock] Dock (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1498★) -> https://davanzokeoma.github.io/HubHum/apps/dock/
   Summary: Create flexible multi-window software interfaces where users can easily rearrange, drag, and dock panels. | Source: https://github.com/wieslawsoltes/dock | Download: https://github.com/wieslawsoltes/Dock/releases/download/v12.1.5/Dock.Avalonia.12.1.5.nupkg
 [sql-father-frontend-public] SQL Father (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Custom Open License | 1497★) -> https://davanzokeoma.github.io/HubHum/apps/sql-father-frontend-public/
@@ -3825,6 +3851,10 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Explore complex software code using a visual interface rather than a text-based window. | Source: https://github.com/hteso/iaito | Download: https://github.com/radareorg/cutter
 [gifcurry] gifcurry (Video & Audio | tier1_gui | desktop | Linux | Open Source (BSD) | 1457★) -> https://davanzokeoma.github.io/HubHum/apps/gifcurry/
   Summary: Easily convert video clips into animations or short movies with custom text overlays, cropping, and adjustable settings. | Source: https://github.com/lettier/gifcurry | Download: https://github.com/lettier/gifcurry/releases/download/6.0.1.0/gifcurry-6.0.1.0-x86_64.AppImage
+[meelo] Meelo (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (GPL v3) | 1452★) -> https://davanzokeoma.github.io/HubHum/apps/meelo/
+  Summary: Take full control of your personal music collection with a dedicated self-hosted server designed for rich metadata and beautiful browsing. | Source: https://github.com/arthi-chaud/meelo | Download: https://github.com/Arthi-chaud/Meelo/releases/download/v3.13.2/meelo.apk
+[galene] Galene (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1444★) -> https://davanzokeoma.github.io/HubHum/apps/galene/
+  Summary: Galene is an efficient video conferencing platform that runs smoothly on modest hardware while giving you complete privacy and control. | Source: https://github.com/jech/galene | Download: https://galene.org
 [lwgui] LWGUI (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1440★) -> https://davanzokeoma.github.io/HubHum/apps/lwgui/
   Summary: LWGUI is a lightweight, flexible, and powerful shader graphical user interface system built for Unity to maximize material inspector productivity. | Source: https://github.com/jasonma0012/lwgui | Download: https://github.com/JasonMa0012/LWGUI/releases
 [angelsword] AngelSword (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Custom Open License | 1439★) -> https://davanzokeoma.github.io/HubHum/apps/angelsword/
@@ -3841,6 +3871,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: An intuitive graphical window for examining Go software code execution, inspecting variables, and tracking bugs effortlessly. | Source: https://github.com/aarzilli/gdlv | Download: https://github.com/aarzilli/gdlv/releases
 [engineercms] engineercms (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (Apache 2.0) | 1422★) -> https://davanzokeoma.github.io/HubHum/apps/engineercms/
   Summary: EngineerCMS is a knowledge management system designed for civil and engineering teams to organize project files, collaborate on documents in real-time, and share resources securely. | Source: https://github.com/3xxx/engineercms | Download: https://www.zsj123.net/
+[responsiveframework] ResponsiveFramework (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1405★) -> https://davanzokeoma.github.io/HubHum/apps/responsiveframework/
+  Summary: ResponsiveFramework helps developers automatically adjust their app layouts to look perfect on phones, tablets, and desktop computers. | Source: https://github.com/codelessly/responsiveframework | Download: https://codelessly.com
 [fvim] FVim (Productivity | tier1_gui | desktop | Linux | Open Source (MIT) | 1403★) -> https://davanzokeoma.github.io/HubHum/apps/fvim/
   Summary: FVim is a fast, cross-platform graphical user interface for Neovim that brings smooth font rendering, window splitting, and modern themes to your text editing setup. | Source: https://github.com/yatli/fvim | Download: https://github.com/yatli/fvim/releases/download/v0.3.549%2Bee4316c/fvim-linux-amd64-v0.3.548%2Bg2e4087d-2-gee4316c.deb
 [snake] snake (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Public Domain / Free | 1398★) -> https://davanzokeoma.github.io/HubHum/apps/snake/
@@ -3849,6 +3881,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: An application template providing ready-to-use authentication, management tools, and a local server environment for modern websites. | Source: https://github.com/yii-starter-kit/yii2-starter-kit | Download: https://yii2-starter-kit.terentev.net
 [kanmail] Kanmail (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Custom Open License | 1392★) -> https://davanzokeoma.github.io/HubHum/apps/kanmail/
   Summary: Kanmail organizes your emails into a visual kanban board layout, helping you manage messages like project tasks. | Source: https://github.com/oxygem/kanmail | Download: https://kanmail.io
+[treefrog-framework] TreeFrog Framework (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (BSD) | 1385★) -> https://davanzokeoma.github.io/HubHum/apps/treefrog-framework/
+  Summary: Build ultra-fast web apps using C++ and Qt with built-in database tools and automatic project generators. | Source: https://github.com/treefrogframework/treefrog-framework | Download: https://github.com/treefrogframework/treefrog-framework/releases/download/v2.12.1/treefrog-2.12.1-msvc_64-setup.exe
 [guislice] GUIslice (Productivity | tier1_gui | desktop | Linux | Open Source (MIT) | 1376★) -> https://davanzokeoma.github.io/HubHum/apps/guislice/
   Summary: GUIslice lets you create custom visual touch screens for popular microcontroller boards and microcomputers using a simple visual layout designer. | Source: https://github.com/impulseadventure/guislice | Download: https://github.com/ImpulseAdventure/GUIslice/releases/download/v0.17.2/GUIslice_ref.pdf
 [imgui-sfml] imgui-sfml (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1374★) -> https://davanzokeoma.github.io/HubHum/apps/imgui-sfml/
@@ -3877,6 +3911,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: MoonShine is a flexible control panel toolkit that lets developers build and customize web dashboards using simple tools and artificial intelligence. | Source: https://github.com/moonshine-software/moonshine | Download: https://getmoonshine.app
 [apiark] ApiArk (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1305★) -> https://davanzokeoma.github.io/HubHum/apps/apiark/
   Summary: Test and organize web requests locally without cloud logins or massive RAM usage. | Source: https://github.com/berbicanes/apiark | Download: https://github.com/berbicanes/apiark/releases/download/v0.4.6/apiark-cli-windows-x86_64.exe
+[surrealist] Surrealist (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1305★) -> https://davanzokeoma.github.io/HubHum/apps/surrealist/
+  Summary: Surrealist provides a clear, visual way to organize and interact with your database information without needing complex commands. | Source: https://github.com/surrealdb/surrealist | Download: https://github.com/surrealdb/surrealist/releases/download/surrealist-v3.9.13/Surrealist_3.9.13_x64-setup.exe
 [courselit] CourseLit (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (AGPL v3) | 1304★) -> https://davanzokeoma.github.io/HubHum/apps/courselit/
   Summary: CourseLit lets you build your own branded website to sell online courses, digital downloads, and publish blogs without hassle. | Source: https://github.com/codelitdev/courselit | Download: https://courselit.app
 [lastwave-desktop] LastWave-Desktop (Video & Audio | tier1_gui | desktop | Windows, Linux | Custom Open License | 1296★) -> https://davanzokeoma.github.io/HubHum/apps/lastwave-desktop/
@@ -3895,10 +3931,16 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: FireCMS automatically generates powerful admin dashboards and content managers for your cloud databases in minutes. | Source: https://github.com/firecmsco/firecms | Download: https://firecms.co
 [guijs] guijs (Productivity | tier1_gui | desktop | Windows, Linux | Open Source (MIT) | 1280★) -> https://davanzokeoma.github.io/HubHum/apps/guijs/
   Summary: An intuitive graphical control center designed to help you easily manage JavaScript projects without touching the command line. | Source: https://github.com/akryum/guijs | Download: https://github.com/Akryum/guijs/releases/download/v0.1.19/guijs-debug.x64.msi
+[express-locallibrary-tutorial] Express Local Library Tutorial (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Public Domain / Free | 1275★) -> https://davanzokeoma.github.io/HubHum/apps/express-locallibrary-tutorial/
+  Summary: This educational project provides a complete template for creating a functional online library catalog system for managing books and users. | Source: https://github.com/mdn/express-locallibrary-tutorial | Download: https://github.com/mdn/express-locallibrary-tutorial/releases
 [gpx-studio] gpx.studio (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1272★) -> https://davanzokeoma.github.io/HubHum/apps/gpx-studio/
   Summary: gpx.studio is an easy-to-use online tool for drawing, modifying, and managing GPS route files for your outdoor activities. | Source: https://github.com/gpxstudio/gpx.studio | Download: https://gpx.studio/
 [avalonia-funcui] Avalonia.FuncUI (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1270★) -> https://davanzokeoma.github.io/HubHum/apps/avalonia-funcui/
   Summary: Create native cross-platform applications using the F# programming language and user interface toolkits. | Source: https://github.com/fsprojects/avalonia.funcui | Download: https://funcui.avaloniaui.net/
+[local-web-server] local-web-server (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1266★) -> https://davanzokeoma.github.io/HubHum/apps/local-web-server/
+  Summary: A lightweight command-line tool that instantly serves your local files as a live website for testing and development. | Source: https://github.com/lwsjs/local-web-server | Download: https://github.com/lwsjs/local-web-server/releases
+[houdini] Houdini (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (GPL v3) | 1264★) -> https://davanzokeoma.github.io/HubHum/apps/houdini/
+  Summary: Houdini is an extensive collection of containerized network security and ethical hacking tools with ready-to-run commands. | Source: https://github.com/cybersecsi/houdini | Download: https://houdini.secsi.io
 [nora] Nora (Video & Audio | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1264★) -> https://davanzokeoma.github.io/HubHum/apps/nora/
   Summary: Enjoy local music playback on your desktop with an elegant player featuring synced lyrics, custom themes, and library organization tools. | Source: https://github.com/sandakan/nora | Download: https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-win-arm64.exe
 [beacon] Beacon (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1263★) -> https://davanzokeoma.github.io/HubHum/apps/beacon/
@@ -3925,6 +3967,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: A user-friendly desktop utility designed to search, download, and organize digital comic chapters directly on your computer. | Source: https://github.com/zeal-l/bilibili-manga-downloader | Download: https://github.com/Zeal-L/BiliBili-Manga-Downloader/releases
 [pideck] PiDeck (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1235★) -> https://davanzokeoma.github.io/HubHum/apps/pideck/
   Summary: An open-source desktop workbench that helps you organize multiple local project chats, coding assistants, and histories. | Source: https://github.com/ayuayue/pideck | Download: https://github.com/ayuayue/PiDeck/releases/download/v0.13.2/PiDeck-0.13.2-portable.exe
+[gowebly] Gowebly (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (Apache 2.0) | 1231★) -> https://davanzokeoma.github.io/HubHum/apps/gowebly/
+  Summary: Gowebly automates the setup of web projects using the Go programming language, handling the complex configuration for you. | Source: https://github.com/gowebly/gowebly | Download: https://github.com/gowebly/gowebly/releases/download/v3.1.1/gowebly_3.1.1_linux_amd64.apk
 [markeron] MarkerOn (Video & Audio | tier1_gui | desktop | Windows, macOS | Open Source (MIT) | 1225★) -> https://davanzokeoma.github.io/HubHum/apps/markeron/
   Summary: Draw, highlight, and annotate directly on your computer screen using simple keyboard shortcuts. | Source: https://github.com/ifer47/markeron | Download: https://github.com/ifer47/markeron/releases/download/v2.31.0/MarkerOn_2.31.0_x64-setup.exe
 [octo-web] octo-web (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (Apache 2.0) | 1225★) -> https://davanzokeoma.github.io/HubHum/apps/octo-web/
@@ -3935,8 +3979,12 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Enjoy streaming trending albums and top charts seamlessly across your computer, phone, tablet, and web browser. | Source: https://github.com/seabdulbasit/musicapp-kmp | Download: https://github.com/SEAbdulbasit/MusicApp-KMP/releases
 [cui] CUI (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1213★) -> https://davanzokeoma.github.io/HubHum/apps/cui/
   Summary: Build native desktop and browser interfaces in C without external dependencies, featuring built-in motion and hundreds of components. | Source: https://github.com/yappologistic/cui | Download: https://github.com/yappologistic/CUI/releases/download/v1.4.0/cui.c
+[jpg-glitch] jpg-glitch (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1213★) -> https://davanzokeoma.github.io/HubHum/apps/jpg-glitch/
+  Summary: This tool allows you to creatively corrupt your images to achieve a unique, digital glitch aesthetic. | Source: https://github.com/snorpey/jpg-glitch | Download: https://snorpey.github.io/jpg-glitch/
 [subtitle-translator] Subtitle Translator (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1207★) -> https://davanzokeoma.github.io/HubHum/apps/subtitle-translator/
   Summary: Translate entire seasons of video subtitles in one pass while keeping your timeline perfectly intact. | Source: https://github.com/rockbenben/subtitle-translator | Download: https://github.com/rockbenben/subtitle-translator/releases/download/v3.2.1/SubtitleTranslator_3.2.1_x64_portable.exe
+[anarki] anarki (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Custom Open License | 1200★) -> https://davanzokeoma.github.io/HubHum/apps/anarki/
+  Summary: Anarki is a collaborative, open-source version of the Arc programming language that includes a ready-to-use news site builder. | Source: https://github.com/arclanguage/anarki | Download: https://arclanguage.github.io
 [masuit-myblogs] Masuit.MyBlogs (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 1187★) -> https://davanzokeoma.github.io/HubHum/apps/masuit-myblogs/
   Summary: Masuit.MyBlogs is a lightweight, high-speed blogging platform designed to handle millions of requests with minimal hardware resources. | Source: https://github.com/ldqk/masuit.myblogs | Download: https://github.com/ldqk/Masuit.MyBlogs/releases/download/2026.10.27/Masuit.MyBlogs.Core.rar
 [core2d] Core2D (Graphics & Design | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 1186★) -> https://davanzokeoma.github.io/HubHum/apps/core2d/
@@ -3949,6 +3997,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: ProcessWire is a powerful tool for building websites that gives you full control over your content and design without unnecessary complexity. | Source: https://github.com/processwire/processwire | Download: https://processwire.com
 [hyprmod] HyprMod (Productivity | tier1_gui | desktop | Linux | Open Source (GPL v3) | 1154★) -> https://davanzokeoma.github.io/HubHum/apps/hyprmod/
   Summary: Easily tweak Hyprland settings with a live preview, undo changes, and manage profiles—all from a friendly GTK interface. | Source: https://github.com/bluemancz/hyprmod | Download: https://github.com/BlueManCZ/hyprmod/releases
+[pixel-editor] Pixel Editor (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (GPL v3) | 1149★) -> https://davanzokeoma.github.io/HubHum/apps/pixel-editor/
+  Summary: Pixel Editor is a simple, web-based tool for designing pixel art directly in your internet browser. | Source: https://github.com/lospec/pixel-editor | Download: https://Lospec.com/pixel-editor
 [dockit] dockit (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (Apache 2.0) | 1145★) -> https://davanzokeoma.github.io/HubHum/apps/dockit/
   Summary: A private, open-source desktop workspace for querying and managing Elasticsearch, MongoDB, DynamoDB, and OpenSearch using plain English. | Source: https://github.com/geek-fun/dockit | Download: https://github.com/geek-fun/dockit/releases/download/v2.0.3/DocKit_2.0.3_x64-setup.exe
 [jingos] JingOS (Productivity | tier1_gui | desktop | Linux, Android | Open Source (GPL v3) | 1145★) -> https://davanzokeoma.github.io/HubHum/apps/jingos/
