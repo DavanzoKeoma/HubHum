@@ -11,7 +11,7 @@ summary: "Free creative apps for compressing photos, capturing crisp screenshots
 parent_slug: "graphics-design"
 child_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
 sibling_slugs: []
-app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion", "imageoptim", "mahapps-metro", "stable-dreamfusion", "modly", "open-codesign", "esearch", "koharu", "text-grab", "style-dictionary", "opentabletdriver", "triangula", "tools-ocr"]
+app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion", "imageoptim", "mahapps-metro", "stable-dreamfusion", "modly", "open-codesign", "app-store-screenshots", "esearch", "koharu", "pastel", "text-grab", "opentabletdriver", "triangula"]
 updated_at: "2026-11-25"
 ---
 
@@ -35,4 +35,4 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Stable-Dreamfusion](/HubHum/apps/stable-dreamfusion/)** — Transform simple text descriptions or single photos into fully rendered 3D objects using advanced AI diffusion models. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Modly](/HubHum/apps/modly/)** — Transform any 2D photo into a realistic 3D model right on your computer using privacy-focused local artificial intelligence. *(Desktop App · License: Custom Open License)*
 - **[open-codesign](/HubHum/apps/open-codesign/)** — An open-source desktop app that transforms simple text descriptions into polished design prototypes and slide decks locally on your computer. *(Desktop App · License: Open Source (MIT))*
-- **[eSearch](/HubHum/apps/esearch/)** — eSearch is a versatile utility that combines screen recording, text recognition, and instant translation into one seamless experience. *(Desktop App · License: Open Source (GPL v3))*
+- **[App Store Screenshots](/HubHum/apps/app-store-screenshots/)** — Turn raw app captures into professional marketing slides and export precise store-ready image bundles for iOS and Android. *(Desktop App · License: Open Source (MIT))*

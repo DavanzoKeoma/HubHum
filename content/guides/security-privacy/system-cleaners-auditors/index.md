@@ -11,7 +11,7 @@ summary: "Free system cleanup utilities and privacy auditing tools that remove u
 parent_slug: "security-privacy"
 child_slugs: ["security-privacy/system-cleaners-auditors/best-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
 sibling_slugs: []
-app_slugs: ["mole", "pentagi", "termix", "metube", "winhance", "sophia-script-for-windows", "pdfcpu", "gnirehtet", "cloud-torrent", "dotenvx", "sophiapp", "pangolin-desktop"]
+app_slugs: ["mole", "pentagi", "termix", "metube", "winhance", "sophia-script-for-windows", "pdfcpu", "gnirehtet", "sophiapp", "magnetissimo", "pangolin-desktop", "archlinuxtutorial"]
 updated_at: "2026-11-25"
 ---
 
@@ -32,7 +32,7 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/)** — An advanced PowerShell tool helps you customize, clean up, and fine-tune Windows 10 and 11 safely. *(Desktop App · License: Open Source (MIT))*
 - **[pdfcpu](/HubHum/apps/pdfcpu/)** — A powerful utility that lets you merge, split, encrypt, and modify PDF documents directly from your computer setup. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[gnirehtet](/HubHum/apps/gnirehtet/)** — Gnirehtet lets your Android phone use the internet connection of the computer it’s plugged into, without needing root access or extra apps. *(Desktop App · License: Open Source (Apache 2.0))*
-- **[Cloud Torrent](/HubHum/apps/cloud-torrent/)** — Cloud Torrent lets you manage your file downloads from any web browser and stream your media directly from your own server. *(Self-Hosted Web App · License: Custom Open License)*
-- **[dotenvx](/HubHum/apps/dotenvx/)** — Encrypt sensitive settings files so you can safely store them alongside your code in version control without risking leaks. *(Desktop App · License: Open Source (BSD))*
 - **[SophiApp](/HubHum/apps/sophiapp/)** — SophiApp is a user-friendly tool that lets you customize and optimize your Windows 10 or 11 system using safe, official methods. *(Desktop App · License: Open Source (MIT))*
+- **[Magnetissimo](/HubHum/apps/magnetissimo/)** — Magnetissimo searches multiple torrent sites at once and saves the results to your own private, searchable database. *(Self-Hosted Web App · License: Open Source (MIT))*
 - **[Pangolin Desktop](/HubHum/apps/pangolin-desktop/)** — Pangolin Desktop provides a modern and fluid visual interface shell built for dahliaOS using flexible multi-platform tools. *(Desktop App · License: Open Source (Apache 2.0))*
+- **[ArchLinuxTutorial](/HubHum/apps/archlinuxtutorial/)** — A free, community-driven online tutorial that walks you through installing and using Arch Linux for daily tasks, media, and coding. *(Desktop App · License: Custom Open License)*

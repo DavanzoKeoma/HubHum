@@ -11,7 +11,7 @@ summary: "Offline and self-hosted password managers and 2FA vaults that keep you
 parent_slug: "security-privacy"
 child_slugs: ["security-privacy/free-password-managers/best-free-password-managers", "security-privacy/free-password-managers/how-to-choose-free-password-managers", "security-privacy/free-password-managers/troubleshooting-free-password-managers"]
 sibling_slugs: []
-app_slugs: ["gitleaks", "keepassxc", "hackbrowserdata", "clients", "pocket-id", "git-credential-manager", "lamda", "keepassdx", "macpass", "lesspass", "personal-management-system", "nodewarden", "passwordpusher", "magnetissimo", "globalprotect-openconnect", "archlinuxtutorial", "goldwarden", "rowel"]
+app_slugs: ["gitleaks", "keepassxc", "hackbrowserdata", "clients", "pocket-id", "git-credential-manager", "lamda", "keepassdx", "macpass", "cloud-torrent", "lesspass", "dotenvx", "personal-management-system", "nodewarden", "passwordpusher", "globalprotect-openconnect", "goldwarden", "rowel"]
 updated_at: "2026-11-25"
 ---
 
@@ -33,6 +33,6 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[lamda](/HubHum/apps/lamda/)** — A comprehensive tool that lets you remotely view, control, and automate Android devices from your computer. *(Desktop App · License: Open Source (MIT))*
 - **[KeePassDX](/HubHum/apps/keepassdx/)** — Manage all your passwords securely on your mobile device using a single encrypted file with top-tier protection. *(Desktop App · License: Open Source (GPL v3))*
 - **[MacPass](/HubHum/apps/macpass/)** — MacPass is a free, open-source password manager for Mac that securely stores and organizes all your login credentials in one encrypted place. *(Desktop App · License: Custom Open License)*
+- **[Cloud Torrent](/HubHum/apps/cloud-torrent/)** — Cloud Torrent lets you manage your file downloads from any web browser and stream your media directly from your own server. *(Self-Hosted Web App · License: Custom Open License)*
 - **[LessPass](/HubHum/apps/lesspass/)** — LessPass creates unique passwords on the fly using a master password, eliminating the need to sync or store your sensitive data. *(Self-Hosted Web App · License: Open Source (GPL v3))*
-- **[Personal Management System](/HubHum/apps/personal-management-system/)** — This web application acts as a central dashboard to store your notes, passwords, finances, and files in one private, secure location. *(Self-Hosted Web App · License: Open Source (MIT))*
-- **[NodeWarden](/HubHum/apps/nodewarden/)** — NodeWarden lets you run a Bitwarden‑compatible password manager on Cloudflare Workers, giving you a fast, offline‑ready web vault and full sync across devices. *(Self-Hosted Web App · License: Custom Open License)*
+- **[dotenvx](/HubHum/apps/dotenvx/)** — Encrypt sensitive settings files so you can safely store them alongside your code in version control without risking leaks. *(Desktop App · License: Open Source (BSD))*
