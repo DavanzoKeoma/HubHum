@@ -2,24 +2,24 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-25T12:33:29.487243+00:00",
-  "total_apps": 2375,
+  "generated_at": "2026-11-25T23:34:43.480797+00:00",
+  "total_apps": 2400,
   "tier_counts": {
     "tier3_powertool": 364,
     "tier2_webapp": 720,
-    "tier1_gui": 1291
+    "tier1_gui": 1316
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 354,
     "selfhosted": 719,
-    "desktop": 1291,
+    "desktop": 1316,
     "webapp": 1
   },
   "categories": {
-    "Graphics & Design": 42,
-    "Productivity": 1142,
-    "Security & Privacy": 56,
+    "Graphics & Design": 43,
+    "Productivity": 1165,
+    "Security & Privacy": 57,
     "Utilities & Power Tools": 330,
     "Video & Audio": 107,
     "Web Apps & Cloud": 695,
@@ -15902,6 +15902,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "skeletonview",
+      "name": "SkeletonView",
+      "tagline": "Elegant loading placeholders for apps",
+      "repo_url": "https://github.com/juanpe/skeletonview",
+      "full_name": "juanpe/skeletonview",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "ui"
+      ],
+      "icon": "/icons/skeletonview.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 12899,
+      "tier": "tier1_gui",
+      "summary": "SkeletonView lets you show smooth loading placeholders while content loads, keeping users informed and engaged.",
+      "i18n": {
+        "it": "SkeletonView mostra segnaposti di caricamento fluidi mentre i dati arrivano, così gli utenti sanno che qualcosa sta succedendo e rimangono coinvolti.",
+        "es": "SkeletonView muestra marcadores de carga suaves mientras el contenido se carga, manteniendo a los usuarios informados y comprometidos.",
+        "fr": "SkeletonView affiche des espaces réservés de chargement fluides pendant le chargement du contenu, informant les utilisateurs et les gardant engagés.",
+        "de": "SkeletonView zeigt flüssige Ladeplatzhalter an, während Inhalte geladen werden, sodass Nutzer wissen, dass etwas passiert und sie interessiert bleiben."
+      },
+      "download_url": "https://github.com/Juanpe/SkeletonView/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "zeal",
       "name": "Zeal",
       "tagline": "Instant offline access to technical documentation",
@@ -17608,6 +17636,34 @@
       },
       "download_url": "https://owncast.online",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "timliu-ios",
+      "name": "TimLiu-iOS",
+      "tagline": "Curated iOS development tools and guides",
+      "repo_url": "https://github.com/tim9liu9/timliu-ios",
+      "full_name": "tim9liu9/timliu-ios",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "development"
+      ],
+      "icon": "/icons/timliu-ios.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 11675,
+      "tier": "tier1_gui",
+      "summary": "Discover an extensive, hand-picked collection of libraries, plugins, and expert blogs to speed up mobile app creation.",
+      "i18n": {
+        "it": "Scopri una vasta collezione di librerie, plugin e blog di esperti per velocizzare la creazione di app mobili.",
+        "es": "Descubre una amplia colección de bibliotecas, complementos y blogs de expertos para acelerar la creación de aplicaciones.",
+        "fr": "Découvrez une vaste collection de bibliothèques, plugins et blogs d'experts pour accélérer la création d'applications.",
+        "de": "Entdecken Sie eine umfangreiche Sammlung von Bibliotheken, Plugins und Experten-Blogs zur Beschleunigung von Apps."
+      },
+      "download_url": "https://github.com/Tim9Liu9/TimLiu-iOS/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "wcdb",
@@ -19427,6 +19483,34 @@
       },
       "download_url": "https://github.com/openscad/openscad/releases/download/openscad-2021.01/OpenSCAD-2021.01-x86-32-Installer.exe",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "nvactivityindicatorview",
+      "name": "NVActivityIndicatorView",
+      "tagline": "Gorgeous loading animations for mobile apps.",
+      "repo_url": "https://github.com/ninjaprox/nvactivityindicatorview",
+      "full_name": "ninjaprox/nvactivityindicatorview",
+      "category": "Productivity",
+      "tags": [
+        "mobile",
+        "animation"
+      ],
+      "icon": "/icons/nvactivityindicatorview.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 10712,
+      "tier": "tier1_gui",
+      "summary": "Enhance your mobile app's user experience with a massive library of gorgeous, smooth loading animations.",
+      "i18n": {
+        "it": "Migliora l'esperienza utente della tua app mobile con una vasta libreria di animazioni di caricamento fluide.",
+        "es": "Mejora la experiencia de usuario de tu aplicación móvil con una gran biblioteca de animaciones de carga fluidas.",
+        "fr": "Améliorez l'expérience utilisateur de votre appli mobile avec une vaste bibliothèque d'animations de chargement fluides.",
+        "de": "Verbessern Sie die Benutzererfahrung Ihrer mobilen App mit einer riesigen Bibliothek flüssiger Ladeanimationen."
+      },
+      "download_url": "https://github.com/ninjaprox/NVActivityIndicatorView/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "soup",
@@ -22173,6 +22257,34 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "bark",
+      "name": "Bark",
+      "tagline": "Send custom alerts to your iPhone",
+      "repo_url": "https://github.com/finb/bark",
+      "full_name": "finb/bark",
+      "category": "Productivity",
+      "tags": [
+        "notifications",
+        "ios"
+      ],
+      "icon": "/icons/bark.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 9629,
+      "tier": "tier1_gui",
+      "summary": "Push custom notifications to your iPhone effortlessly using simple web requests without draining your battery.",
+      "i18n": {
+        "it": "Invia notifiche personalizzate al tuo iPhone in modo semplice tramite richieste web senza scaricare la batteria.",
+        "es": "Envía notificaciones personalizadas a tu iPhone fácilmente usando peticiones web sin agotar tu batería.",
+        "fr": "Envoyez des notifications personnalisées sur votre iPhone à l'aide de simples requêtes web.",
+        "de": "Senden Sie mühelos benutzerdefinierte Benachrichtigungen per Webanfrage an Ihr iPhone."
+      },
+      "download_url": "https://bark.day.app",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "npkill",
       "name": "npkill",
       "tagline": "Free up disk space instantly",
@@ -22339,6 +22451,90 @@
       },
       "download_url": "https://sosedoff.github.io/pgweb",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "materialfiles",
+      "name": "MaterialFiles",
+      "tagline": "A clean, modern Android file manager",
+      "repo_url": "https://github.com/zhanghai/materialfiles",
+      "full_name": "zhanghai/materialfiles",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "file-manager"
+      ],
+      "icon": "/icons/materialfiles.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 9553,
+      "tier": "tier1_gui",
+      "summary": "MaterialFiles is a beautifully designed, open-source file manager that helps you organize and manage your phone's storage with ease.",
+      "i18n": {
+        "it": "MaterialFiles è un gestore di file open source dal design elegante che ti aiuta a organizzare facilmente i documenti sul tuo telefono.",
+        "es": "MaterialFiles es un gestor de archivos de código abierto con un diseño elegante que te ayuda a organizar tus documentos fácilmente.",
+        "fr": "MaterialFiles est un gestionnaire de fichiers open source au design élégant qui vous aide à organiser vos documents facilement.",
+        "de": "MaterialFiles ist ein elegant gestalteter Open-Source-Dateimanager, mit dem Sie Ihre Dokumente auf dem Telefon einfach verwalten können."
+      },
+      "download_url": "https://github.com/zhanghai/MaterialFiles/releases/download/v1.7.5/app-release-fdroid.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "r-swift",
+      "name": "R.swift",
+      "tagline": "Type-safe autocompleted mobile app resources",
+      "repo_url": "https://github.com/mac-cain13/r.swift",
+      "full_name": "mac-cain13/r.swift",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "development"
+      ],
+      "icon": "/icons/r-swift.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 9548,
+      "tier": "tier1_gui",
+      "summary": "Get strong typed, autocompleted resources like images, fonts and segues in Swift projects to prevent runtime crashes.",
+      "i18n": {
+        "it": "Ottieni risorse fortemente tipizzate e autocompletate come immagini e font nei progetti Swift per evitare arresti anomali.",
+        "es": "Obtenga recursos con tipos estrictos y autocompletados como imágenes y fuentes en proyectos Swift para evitar fallos.",
+        "fr": "Obtenez des ressources fortement typées et autocomplétées comme des images et des polices dans Swift pour éviter les bugs.",
+        "de": "Nutzen Sie streng typisierte und autogene Ressourcen wie Bilder und Schriftarten in Swift-Projekten ohne Laufzeitabstürze."
+      },
+      "download_url": "https://github.com/mac-cain13/R.swift/releases/download/7.8.0/rswift-7.8.0.pkg",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "swiftgen",
+      "name": "SwiftGen",
+      "tagline": "Turn app assets into safe code",
+      "repo_url": "https://github.com/swiftgen/swiftgen",
+      "full_name": "swiftgen/swiftgen",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "code-generator"
+      ],
+      "icon": "/icons/swiftgen.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 9544,
+      "tier": "tier1_gui",
+      "summary": "SwiftGen automates code generation for your app's assets, fonts, and text files so you never have to worry about broken text references.",
+      "i18n": {
+        "it": "SwiftGen genera automaticamente codice per le risorse delle tue app, eliminando i riferimenti di testo rischiosi.",
+        "es": "SwiftGen genera código automáticamente para los recursos de tu aplicación, eliminando referencias de texto arriesgadas.",
+        "fr": "SwiftGen automatise la génération de code pour vos ressources graphiques et textuelles afin d'éviter les erreurs.",
+        "de": "SwiftGen automatisiert die Codeerstellung für App-Ressourcen, um Tippfehler und Abstürze zuverlässig zu verhindern."
+      },
+      "download_url": "https://github.com/SwiftGen/SwiftGen/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "neohtop",
@@ -24049,6 +24245,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "android-data",
+      "name": "Android_Data",
+      "tagline": "Curated learning resources for Android developers",
+      "repo_url": "https://github.com/freelander/android_data",
+      "full_name": "freelander/android_data",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "learning"
+      ],
+      "icon": "/icons/android-data.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 8970,
+      "tier": "tier1_gui",
+      "summary": "This collection gathers essential books, tools, and tutorials to help beginners start their journey into Android development quickly.",
+      "i18n": {
+        "it": "Una raccolta di libri, strumenti e tutorial essenziali per aiutare i principianti a iniziare lo sviluppo Android in modo rapido.",
+        "es": "Esta colección reúne libros, herramientas y tutoriales esenciales para ayudar a los principiantes a comenzar en el desarrollo Android.",
+        "fr": "Cette collection rassemble des livres, des outils et des tutoriels essentiels pour aider les débutants à démarrer le développement Android.",
+        "de": "Diese Sammlung bietet wichtige Bücher, Werkzeuge und Anleitungen, um Anfängern den schnellen Einstieg in die Android-Entwicklung zu erleichtern."
+      },
+      "download_url": "https://github.com/Freelander/Android_Data/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "xcodegen",
       "name": "XcodeGen",
       "tagline": "Generate Xcode projects from simple text files",
@@ -24945,6 +25169,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "ios-oss",
+      "name": "ios-oss",
+      "tagline": "Discover & support creative projects on iOS",
+      "repo_url": "https://github.com/kickstarter/ios-oss",
+      "full_name": "kickstarter/ios-oss",
+      "category": "Productivity",
+      "tags": [
+        "crowdfunding",
+        "ios"
+      ],
+      "icon": "/icons/ios-oss.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 8677,
+      "tier": "tier1_gui",
+      "summary": "Kickstarter’s iPhone app lets you explore innovative ideas, back the ones you love, and follow their progress—all from the palm of your hand.",
+      "i18n": {
+        "it": "L’app iPhone di Kickstarter ti permette di esplorare idee innovative, sostenere quelle che ami e seguirne l’avanzamento, tutto dal palmo della tua mano.",
+        "es": "La app iPhone de Kickstarter te permite explorar ideas innovadoras, respaldar tus favoritas y seguir su progreso, todo desde la palma de tu mano.",
+        "fr": "L’application iPhone de Kickstarter vous permet d’explorer des idées innovantes, de soutenir celles que vous aimez et de suivre leur évolution, le tout depuis la paume de votre main.",
+        "de": "Die Kickstarter‑App für iPhone lässt dich innovative Ideen entdecken, deine Lieblingsprojekte unterstützen und ihren Fortschritt verfolgen – alles in deiner Handfläche."
+      },
+      "download_url": "https://www.kickstarter.com/mobile",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "linuxkit",
       "name": "LinuxKit",
       "tagline": "Build secure, minimal Linux systems",
@@ -25055,6 +25307,62 @@
       },
       "download_url": "https://github.com/jdepoix/youtube-transcript-api/releases",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "ibanimatable",
+      "name": "IBAnimatable",
+      "tagline": "Design app animations visually in Interface Builder",
+      "repo_url": "https://github.com/ibanimatable/ibanimatable",
+      "full_name": "ibanimatable/ibanimatable",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "animation"
+      ],
+      "icon": "/icons/ibanimatable.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 8641,
+      "tier": "tier1_gui",
+      "summary": "Create gorgeous custom mobile app user interfaces, smooth transitions, and dynamic animations visually without writing code.",
+      "i18n": {
+        "it": "Crea interfacce utente personalizzate, transizioni fluide e animazioni dinamiche senza scrivere codice.",
+        "es": "Crea interfaces de usuario personalizadas, transiciones fluidas y animaciones dinámicas sin escribir código.",
+        "fr": "Créez des interfaces utilisateur personnalisées, des transitions fluides et des animations dynamiques sans coder.",
+        "de": "Erstellen Sie wunderschöne Benutzeroberflächen, flüssige Übergänge und dynamische Animationen ohne Code."
+      },
+      "download_url": "https://github.com/IBAnimatable/IBAnimatable/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "flutter-deer",
+      "name": "Flutter Deer",
+      "tagline": "Realistic mobile design practice project",
+      "repo_url": "https://github.com/simplezhli/flutter_deer",
+      "full_name": "simplezhli/flutter_deer",
+      "category": "Productivity",
+      "tags": [
+        "flutter",
+        "mobile-app"
+      ],
+      "icon": "/icons/flutter-deer.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 8626,
+      "tier": "tier1_gui",
+      "summary": "Explore a fully realized mobile application project built with rich interface components, dark mode, and complete design layouts.",
+      "i18n": {
+        "it": "Esplora un'applicazione mobile completa creata con ricchi componenti di interfaccia, modalità scura e layout realistici.",
+        "es": "Explora una aplicación móvil completa construida con ricos componentes de interfaz, modo oscuro y diseños detallados.",
+        "fr": "Découvrez une application mobile complète conçue avec des composants d'interface riches, un mode sombre et des maquettes.",
+        "de": "Entdecken Sie eine vollständige mobile Anwendung mit reichhaltigen Benutzeroberflächen, Dunkelmodus und echten Layouts."
+      },
+      "download_url": "https://github.com/simplezhli/flutter_deer/releases/download/1.3.2/app-release.apk",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "gifski",
@@ -25421,6 +25729,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "libimobiledevice",
+      "name": "libimobiledevice",
+      "tagline": "Connect and manage iOS devices seamlessly.",
+      "repo_url": "https://github.com/libimobiledevice/libimobiledevice",
+      "full_name": "libimobiledevice/libimobiledevice",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "mobile"
+      ],
+      "icon": "/icons/libimobiledevice.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (LGPL)",
+      "stars": 8379,
+      "tier": "tier1_gui",
+      "summary": "A reliable cross-platform tool to communicate with mobile phones and tablets without proprietary software or phone modifications.",
+      "i18n": {
+        "it": "Uno strumento multipiattaforma per comunicare con telefoni e tablet senza software proprietario o modifiche al telefono.",
+        "es": "Una herramienta multiplataforma para comunicarse con teléfonos y tabletas sin software propietario ni modificaciones.",
+        "fr": "Un outil multiplateforme pour communiquer avec des téléphones et tablettes sans logiciel propriétaire ni modification.",
+        "de": "Ein zuverlässiges Werkzeug zur Kommunikation mit Mobilgeräten ohne proprietäre Software oder Gerätemodifikationen."
+      },
+      "download_url": "https://github.com/libimobiledevice/libimobiledevice/releases/download/1.4.0/libimobiledevice-1.4.0.tar.bz2",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "antennapod",
       "name": "AntennaPod",
       "tagline": "Your favorite audio shows on Android",
@@ -25559,6 +25895,34 @@
       },
       "download_url": "https://pemistahl.github.io/grex-js/",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "swift-30-projects",
+      "name": "Swift-30-Projects",
+      "tagline": "Build thirty practical apps using Swift",
+      "repo_url": "https://github.com/soapyigu/swift-30-projects",
+      "full_name": "soapyigu/swift-30-projects",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "learning"
+      ],
+      "icon": "/icons/swift-30-projects.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 8283,
+      "tier": "tier1_gui",
+      "summary": "Master mobile app development by creating thirty complete, hands-on projects using modern Swift and interface components.",
+      "i18n": {
+        "it": "Impara lo sviluppo mobile creando trenta progetti completi e pratici utilizzando moderni componenti Swift e di interfaccia.",
+        "es": "Domina el desarrollo móvil creando treinta proyectos completos y prácticos utilizando componentes modernos de Swift.",
+        "fr": "Maîtrisez le développement mobile en créant trente projets complets et pratiques à l'aide de composants Swift modernes.",
+        "de": "Meistere die mobile Entwicklung, indem du dreißig vollständige, praktische Projekte mit modernen Swift-Komponenten erstellst."
+      },
+      "download_url": "https://github.com/soapyigu/Swift-30-Projects/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "hex",
@@ -25754,6 +26118,34 @@
         "de": "APatch ermöglicht dir, Kernel und Android-System zu patchen, Root-Zugriff zu erhalten und Module zu unterstützen, ohne komplizierte Schritte."
       },
       "download_url": "https://github.com/bmax121/APatch/releases/download/11282/APatch_11282_e8e4651_HEAD-release-signed.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "mornye",
+      "name": "Mornye",
+      "tagline": "High-quality personal audio player",
+      "repo_url": "https://github.com/mornyeapp/mornye",
+      "full_name": "mornyeapp/mornye",
+      "category": "Productivity",
+      "tags": [
+        "audio",
+        "music"
+      ],
+      "icon": "/icons/mornye.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (LGPL)",
+      "stars": 8217,
+      "tier": "tier1_gui",
+      "summary": "Mornye is a feature-rich mobile music player that manages your local library and high-resolution audio files without ads or subscriptions.",
+      "i18n": {
+        "it": "Mornye è un lettore musicale mobile ricco di funzioni per gestire la tua libreria e file audio ad alta risoluzione senza pubblicità.",
+        "es": "Mornye es un reproductor de música móvil con múltiples funciones para gestionar tu biblioteca local y audio de alta resolución sin anuncios.",
+        "fr": "Mornye est un lecteur de musique mobile riche en fonctionnalités pour gérer votre bibliothèque et vos fichiers audio sans publicité.",
+        "de": "Mornye ist ein funktionsreicher Musikplayer für Mobilgeräte zur Verwaltung Ihrer Mediathek und hochauflösenden Audiodateien ohne Werbung."
+      },
+      "download_url": "https://github.com/mornyeapp/Mornye/releases/download/v5.4.5/Mornye-v5.4.5-arm32.apk",
       "updated_at": "2026-11-25"
     },
     {
@@ -26289,6 +26681,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "analyze",
+      "name": "analyze",
+      "tagline": "In-depth code analysis for software developers",
+      "repo_url": "https://github.com/draveness/analyze",
+      "full_name": "draveness/analyze",
+      "category": "Productivity",
+      "tags": [
+        "source-code",
+        "development"
+      ],
+      "icon": "/icons/analyze.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 8066,
+      "tier": "tier1_gui",
+      "summary": "Explore detailed technical breakdowns and source code analysis of popular software frameworks to level up your development skills.",
+      "i18n": {
+        "it": "Esplora analisi tecniche dettagliate e guide sul codice sorgente di famosi framework per migliorare le tue competenze di sviluppo.",
+        "es": "Explora análisis técnicos detallados y guías de código fuente de marcos de trabajo populares para mejorar tus habilidades.",
+        "fr": "Explorez des analyses techniques détaillées et l'étude du code source de frameworks populaires pour progresser en programmation.",
+        "de": "Entdecken Sie detaillierte technische Erklärungen und Quellcode-Analysen beliebter Frameworks, um Ihre Programmierkenntnisse zu verbessern."
+      },
+      "download_url": "https://draveness.me",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "ultimateandroidreference",
       "name": "UltimateAndroidReference",
       "tagline": "Curated guide for Android development success",
@@ -26343,6 +26763,34 @@
       },
       "download_url": "https://www.webiny.com",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "app-store-screenshots",
+      "name": "App Store Screenshots",
+      "tagline": "Create stunning store screenshots effortlessly",
+      "repo_url": "https://github.com/parthjadhav/app-store-screenshots",
+      "full_name": "parthjadhav/app-store-screenshots",
+      "category": "Graphics & Design",
+      "tags": [
+        "design",
+        "marketing"
+      ],
+      "icon": "/icons/app-store-screenshots.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 8047,
+      "tier": "tier1_gui",
+      "summary": "Turn raw app captures into professional marketing slides and export precise store-ready image bundles for iOS and Android.",
+      "i18n": {
+        "it": "Trasforma le schermate grezze delle app in diapositive di marketing professionali ed esporta pacchetti di immagini per iOS e Android.",
+        "es": "Convierte capturas sin editar en diapositivas de marketing profesionales y exporta paquetes de imágenes listos para iOS y Android.",
+        "fr": "Transformez vos captures d'applications brutes en diapositives marketing professionnelles et exportez des lots prêts pour iOS et Android.",
+        "de": "Verwandeln Sie rohe App-Aufnahmen in professionelle Marketing-Folien und exportieren Sie präzise Bildpakete für iOS und Android."
+      },
+      "download_url": "https://www.parthjadhav.com/products/app-store-screenshots",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "iodine",
@@ -26511,6 +26959,34 @@
       },
       "download_url": "https://github.com/openai/tart/releases/download/2.42.0/tart_2.42.0_checksums.txt",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "subsampling-scale-image-view",
+      "name": "Subsampling Scale Image View",
+      "tagline": "Zoom and pan massive images smoothly.",
+      "repo_url": "https://github.com/davemorrissey/subsampling-scale-image-view",
+      "full_name": "davemorrissey/subsampling-scale-image-view",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "image-viewer"
+      ],
+      "icon": "/icons/subsampling-scale-image-view.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 8008,
+      "tier": "tier1_gui",
+      "summary": "An Android image viewer component that effortlessly handles huge maps and architectural blueprints without crashing from memory exhaustion.",
+      "i18n": {
+        "it": "Un componente Android per visualizzare immagini gigantesche come mappe e progetti senza esaurire la memoria del dispositivo.",
+        "es": "Un componente de imagen para Android que maneja mapas enormes y planos sin sufrir problemas de falta de memoria.",
+        "fr": "Un composant d'affichage d'images pour Android qui gère les cartes géantes et plans sans saturer la mémoire.",
+        "de": "Eine Android-Bildanzeigekomponente für gigantische Karten und Pläne, die Speicherüberläufe zuverlässig verhindert."
+      },
+      "download_url": "https://github.com/davemorrissey/subsampling-scale-image-view/releases/download/v3.10.0/subsampling-scale-image-view-3.10.0.aar",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "totk-pc-recomp",
@@ -27213,6 +27689,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "android-developer-roadmap",
+      "name": "Android Developer Roadmap",
+      "tagline": "Your visual guide to Android mastery",
+      "repo_url": "https://github.com/skydoves/android-developer-roadmap",
+      "full_name": "skydoves/android-developer-roadmap",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "roadmap"
+      ],
+      "icon": "/icons/android-developer-roadmap.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 7808,
+      "tier": "tier1_gui",
+      "summary": "Navigate the complex mobile app ecosystem with clear visual paths, curated learning nodes, and practical tutorials.",
+      "i18n": {
+        "it": "Esplora l'ecosistema delle app mobili con percorsi visivi chiari, nodi di apprendimento e tutorial pratici.",
+        "es": "Navega por el ecosistema móvil con rutas visuales claras, nodos de aprendizaje seleccionados y tutoriales prácticos.",
+        "fr": "Parcourez l'écosystème mobile grâce à des chemins visuels clairs, des étapes d'apprentissage et des tutoriels.",
+        "de": "Navigieren Sie durch das mobile Ökosystem mit klaren visuellen Lernpfaden, strukturierten Themen und praktischen Anleitungen."
+      },
+      "download_url": "https://github.com/skydoves/android-developer-roadmap/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "client",
       "name": "Droid-ify",
       "tagline": "Clean, private Android app store",
@@ -27323,6 +27827,34 @@
       },
       "download_url": "https://github.com/NickvisionApps/Parabolic/releases/download/2026.5.0/NickvisionParabolicSetup-arm64.exe",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "canta",
+      "name": "Canta",
+      "tagline": "Remove unwanted phone apps safely",
+      "repo_url": "https://github.com/samolego/canta",
+      "full_name": "samolego/canta",
+      "category": "Security & Privacy",
+      "tags": [
+        "android",
+        "utilities"
+      ],
+      "icon": "/icons/canta.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (LGPL)",
+      "stars": 7780,
+      "tier": "tier1_gui",
+      "summary": "Remove pre-installed phone software and unwanted applications without needing advanced administrator powers on your device.",
+      "i18n": {
+        "it": "Elimina software preinstallato e applicazioni indesiderate dal tuo telefono senza bisogno di permessi di amministratore.",
+        "es": "Elimina software preinstalado y aplicaciones no deseadas del teléfono sin necesidad de permisos de superusuario.",
+        "fr": "Effacez les logiciels préinstallés et les applications indésirables de votre téléphone sans privilèges administrateur.",
+        "de": "Löschen Sie vorinstallierte Software und unerwünschte Anwendungen ganz einfach von Ihrem Telefon ohne Root-Zugriff."
+      },
+      "download_url": "https://github.com/samolego/Canta/releases/download/v4.1.0/androidApp-release.apk",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "guilite",
@@ -27519,6 +28051,34 @@
       },
       "download_url": "https://github.com/sindresorhus/np/releases",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "readyou",
+      "name": "ReadYou",
+      "tagline": "Modern Material You RSS reader for Android",
+      "repo_url": "https://github.com/readyouapp/readyou",
+      "full_name": "readyouapp/readyou",
+      "category": "Productivity",
+      "tags": [
+        "rss",
+        "android"
+      ],
+      "icon": "/icons/readyou.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 7714,
+      "tier": "tier1_gui",
+      "summary": "ReadYou is a beautifully designed, modern RSS news reader for Android devices that brings all your favorite blogs and publication feeds into one clean, distraction-free space.",
+      "i18n": {
+        "it": "ReadYou è un lettore di notizie RSS per Android progettato per raccogliere tutti i tuoi blog preferiti in uno spazio pulito e senza distrazioni.",
+        "es": "ReadYou es un lector de noticias RSS para Android diseñado para reunir tus blogs y fuentes favoritas en un espacio limpio y sin distracciones.",
+        "fr": "ReadYou est un lecteur de flux RSS pour Android qui rassemble tous vos blogs préférés dans un espace épuré et sans aucune distraction.",
+        "de": "ReadYou ist ein moderner RSS-Newsreader für Android, der all Ihre Lieblingsblogs und Feeds in einer übersichtlichen, ruhigen Oberfläche bündelt."
+      },
+      "download_url": "https://github.com/ReadYouApp/ReadYou/releases/download/0.16.2/ReadYou-0.16.2-091c9207-signed.apk",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "yuxi",
@@ -27801,6 +28361,62 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "jtapplecalendar",
+      "name": "JTAppleCalendar",
+      "tagline": "Build custom calendars for Apple applications.",
+      "repo_url": "https://github.com/patchthecode/jtapplecalendar",
+      "full_name": "patchthecode/jtapplecalendar",
+      "category": "Productivity",
+      "tags": [
+        "calendar",
+        "ios"
+      ],
+      "icon": "/icons/jtapplecalendar.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 7640,
+      "tier": "tier1_gui",
+      "summary": "JTAppleCalendar is a flexible open-source calendar tool for iOS applications that lets developers design completely custom date grids and layouts.",
+      "i18n": {
+        "it": "JTAppleCalendar è uno strumento di calendario flessibile per iOS che consente di personalizzare completamente griglie e layout di date.",
+        "es": "JTAppleCalendar es una herramienta de calendario flexible para iOS que permite personalizar por completo las cuadrículas de fechas.",
+        "fr": "JTAppleCalendar est un outil de calendrier flexible pour iOS qui permet de concevoir des grilles de dates entièrement sur mesure.",
+        "de": "JTAppleCalendar ist ein flexibles Open-Source-Kalendertool für iOS, mit dem Entwickler völlig individuelle Datumsraster gestalten."
+      },
+      "download_url": "https://patchthecode.com",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "android-databackup",
+      "name": "DataBackup",
+      "tagline": "Reliable and fast Android data protection",
+      "repo_url": "https://github.com/xayahsususu/android-databackup",
+      "full_name": "xayahsususu/android-databackup",
+      "category": "Productivity",
+      "tags": [
+        "backup",
+        "android"
+      ],
+      "icon": "/icons/android-databackup.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 7630,
+      "tier": "tier1_gui",
+      "summary": "DataBackup provides a simple way to create complete copies of your phone's information to keep your files safe and secure.",
+      "i18n": {
+        "it": "DataBackup offre un modo semplice per creare copie complete delle informazioni del tuo telefono per mantenere i tuoi file al sicuro.",
+        "es": "DataBackup ofrece una forma sencilla de crear copias completas de la información de tu teléfono para mantener tus archivos seguros.",
+        "fr": "DataBackup offre un moyen simple de créer des copies complètes des informations de votre téléphone pour garder vos fichiers en sécurité.",
+        "de": "DataBackup bietet eine einfache Möglichkeit, vollständige Kopien Ihrer Telefoninformationen zu erstellen, um Ihre Dateien sicher zu verwahren."
+      },
+      "download_url": "https://github.com/XayahSuSuSu/Android-DataBackup/releases/download/2.0.12/DataBackup-2.0.12-arm64-v8a-foss-release.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "kubectl-ai",
       "name": "kubectl-ai",
       "tagline": "Talk to your computer clusters naturally.",
@@ -27969,6 +28585,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "purelayout",
+      "name": "PureLayout",
+      "tagline": "Simplify app screen layout creation effortlessly.",
+      "repo_url": "https://github.com/purelayout/purelayout",
+      "full_name": "purelayout/purelayout",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "development"
+      ],
+      "icon": "/icons/purelayout.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 7573,
+      "tier": "tier1_gui",
+      "summary": "Design clean and responsive mobile and desktop screen layouts using an intuitive, developer-friendly interface for Apple devices.",
+      "i18n": {
+        "it": "Progetta layout di schermate per dispositivi mobili e desktop in modo pulito e intuitivo per le piattaforme Apple.",
+        "es": "Diseña distribuciones de pantalla limpias y responsivas para dispositivos Apple de forma intuitiva.",
+        "fr": "Concevez des dispositions d'écran propres et réactives pour les appareils Apple grâce à une interface intuitive.",
+        "de": "Entwerfen Sie saubere und anpassungsfähige Bildschirm-Layouts für Apple-Geräte mit einer intuitiven Benutzeroberfläche."
+      },
+      "download_url": "https://github.com/PureLayout/PureLayout/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "netcatty",
       "name": "Netcatty",
       "tagline": "All-in-one workspace for remote servers",
@@ -28023,6 +28667,34 @@
       },
       "download_url": "https://sequel-ace.com",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "android-expert",
+      "name": "Android-Expert",
+      "tagline": "Learn to build Android apps from scratch",
+      "repo_url": "https://github.com/arisguimera/android-expert",
+      "full_name": "arisguimera/android-expert",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "education"
+      ],
+      "icon": "/icons/android-expert.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 7551,
+      "tier": "tier1_gui",
+      "summary": "Master mobile app development using modern programming tools through a comprehensive, step-by-step video guide for beginners.",
+      "i18n": {
+        "it": "Master mobile app development using modern programming tools through a comprehensive, step-by-step video guide for beginners.",
+        "es": "Master mobile app development using modern programming tools through a comprehensive, step-by-step video guide for beginners.",
+        "fr": "Master mobile app development using modern programming tools through a comprehensive, step-by-step video guide for beginners.",
+        "de": "Master mobile app development using modern programming tools through a comprehensive, step-by-step video guide for beginners."
+      },
+      "download_url": "https://github.com/ArisGuimera/Android-Expert/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "bleachbit",
@@ -30318,6 +30990,34 @@
         "de": "Genießen Sie ein tolles Lesebücher-Erlebnis auf Android mit realistischen Blättereffekten und Wi-Fi-Buchübertragung."
       },
       "download_url": "https://github.com/smuyyh/BookReader/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "droidplugin",
+      "name": "DroidPlugin",
+      "tagline": "Run apps without installing them",
+      "repo_url": "https://github.com/droidpluginteam/droidplugin",
+      "full_name": "droidpluginteam/droidplugin",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "utilities"
+      ],
+      "icon": "/icons/droidplugin.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (LGPL)",
+      "stars": 6974,
+      "tier": "tier1_gui",
+      "summary": "DroidPlugin allows you to run third-party mobile applications directly without needing to go through the standard installation process.",
+      "i18n": {
+        "it": "DroidPlugin ti permette di eseguire applicazioni di terze parti direttamente senza dover passare per la procedura di installazione standard.",
+        "es": "DroidPlugin te permite ejecutar aplicaciones de terceros directamente sin necesidad de pasar por el proceso de instalación estándar.",
+        "fr": "DroidPlugin vous permet d'exécuter des applications tierces directement sans avoir à passer par le processus d'installation standard.",
+        "de": "DroidPlugin ermöglicht es Ihnen, Anwendungen von Drittanbietern direkt auszuführen, ohne den Standard-Installationsprozess zu durchlaufen."
+      },
+      "download_url": "https://droidpluginteam.github.io/DroidPlugin/",
       "updated_at": "2026-11-25"
     },
     {
