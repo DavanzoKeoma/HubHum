@@ -25086,6 +25086,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "antennapod",
+    "name": "AntennaPod",
+    "tagline": "Your favorite audio shows on Android",
+    "repo_url": "https://github.com/antennapod/antennapod",
+    "full_name": "antennapod/antennapod",
+    "category": "Video & Audio",
+    "tags": [
+      "podcast",
+      "audio"
+    ],
+    "icon": "/icons/antennapod.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 8349,
+    "tier": "tier1_gui",
+    "summary": "AntennaPod is a free, open-source podcast manager for Android that helps you find, download, and enjoy your favorite audio shows without any ads or distractions.",
+    "i18n": {
+      "it": "AntennaPod è un gestore di podcast open-source per Android che ti permette di ascoltare i tuoi programmi audio preferiti senza pubblicità.",
+      "es": "AntennaPod es un gestor de podcasts de código abierto para Android que te ayuda a escuchar tus programas de audio favoritos sin anuncios.",
+      "fr": "AntennaPod est un gestionnaire de podcasts open-source pour Android qui vous aide à écouter vos émissions audio préférées sans publicité.",
+      "de": "AntennaPod ist ein Open-Source-Podcast-Manager für Android, mit dem Sie Ihre Lieblings-Audiosendungen ganz ohne Werbung genießen können."
+    },
+    "download_url": "https://antennapod.org",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "bottombar",
     "name": "BottomBar",
     "tagline": "Easy bottom navigation bar for Android apps.",
@@ -25226,6 +25254,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "sdmaid-se",
+    "name": "SD Maid 2/SE",
+    "tagline": "Thorough file maintenance for Android devices",
+    "repo_url": "https://github.com/d4rken-org/sdmaid-se",
+    "full_name": "d4rken-org/sdmaid-se",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "cleanup"
+    ],
+    "icon": "/icons/sdmaid-se.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 8263,
+    "tier": "tier1_gui",
+    "summary": "Keep your Android phone or tablet running smoothly by safely cleaning leftover app files, hidden caches, and forgotten duplicates.",
+    "i18n": {
+      "it": "Mantieni il tuo dispositivo Android pulito rimuovendo file residui di vecchie app, cache nascoste e dati duplicati in eccesso.",
+      "es": "Optimiza tu dispositivo Android eliminando archivos residuales de aplicaciones desinstaladas, cachés ocultas y duplicados.",
+      "fr": "Optimisez votre appareil Android en supprimant facilement les fichiers résiduels d'applications, les caches et les doublons.",
+      "de": "Halten Sie Ihr Android-Gerät sauber, indem Sie verwaiste App-Dateien, versteckte Caches und doppelte Daten sicher entfernen."
+    },
+    "download_url": "https://github.com/d4rken-org/sdmaid-se/releases/download/v2.2.3-rc0/eu.darken.sdmse-v2.2.3-rc0-20203000-FOSS-RELEASE.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "macnativegames",
     "name": "MacNativeGames",
     "tagline": "Run console games natively on Apple chips.",
@@ -25336,6 +25392,34 @@
     },
     "download_url": "https://orchardcore.net",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "apatch",
+    "name": "APatch",
+    "tagline": "Root your Android with a patch",
+    "repo_url": "https://github.com/bmax121/apatch",
+    "full_name": "bmax121/apatch",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "kernel-patch"
+    ],
+    "icon": "/icons/apatch.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 8224,
+    "tier": "tier1_gui",
+    "summary": "APatch lets you patch your Android kernel and system, giving you root access and module support without complex steps.",
+    "i18n": {
+      "it": "APatch ti permette di patchare il kernel e il sistema Android, ottenendo accesso root e supporto per moduli, senza passaggi complicati.",
+      "es": "APatch te permite parchear el kernel y el sistema Android, obteniendo acceso root y soporte para módulos, sin pasos complicados.",
+      "fr": "APatch te permet de patcher le noyau et le système Android, obtenant un accès root et un support de modules, sans étapes compliquées.",
+      "de": "APatch ermöglicht dir, Kernel und Android-System zu patchen, Root-Zugriff zu erhalten und Module zu unterstützen, ohne komplizierte Schritte."
+    },
+    "download_url": "https://github.com/bmax121/APatch/releases/download/11282/APatch_11282_e8e4651_HEAD-release-signed.apk",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "xh",
@@ -25786,6 +25870,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "gnirehtet",
+    "name": "gnirehtet",
+    "tagline": "Share PC internet with Android",
+    "repo_url": "https://github.com/genymobile/gnirehtet",
+    "full_name": "genymobile/gnirehtet",
+    "category": "Security & Privacy",
+    "tags": [
+      "android",
+      "network"
+    ],
+    "icon": "/icons/gnirehtet.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8092,
+    "tier": "tier1_gui",
+    "summary": "Gnirehtet lets your Android phone use the internet connection of the computer it’s plugged into, without needing root access or extra apps.",
+    "i18n": {
+      "it": "Gnirehtet permette al tuo telefono Android di usare la connessione internet del computer a cui è collegato, senza richiedere permessi di root o app aggiuntive.",
+      "es": "Gnirehtet permite que tu teléfono Android use la conexión a internet del ordenador al que está conectado, sin necesidad de acceso root ni aplicaciones extra.",
+      "fr": "Gnirehtet permet à votre téléphone Android d’utiliser la connexion internet de l’ordinateur auquel il est branché, sans nécessiter de droits root ni d’applications supplémentaires.",
+      "de": "Gnirehtet ermöglicht Ihrem Android‑Handy die Internetverbindung des PCs zu nutzen, an den es angeschlossen ist, ohne Root‑Rechte oder zusätzliche Apps."
+    },
+    "download_url": "https://github.com/Genymobile/gnirehtet/releases/download/v2.5.1/SHA256SUMS.txt",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "suwayomi-server",
     "name": "Suwayomi-Server",
     "tagline": "Centralized manga library and reader server",
@@ -25840,6 +25952,34 @@
     },
     "download_url": "https://robinmoisson.github.io/staticrypt/",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "ultimateandroidreference",
+    "name": "UltimateAndroidReference",
+    "tagline": "Curated guide for Android development success",
+    "repo_url": "https://github.com/aritraroy/ultimateandroidreference",
+    "full_name": "aritraroy/ultimateandroidreference",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "development"
+    ],
+    "icon": "/icons/ultimateandroidreference.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8062,
+    "tier": "tier1_gui",
+    "summary": "This project provides a hand-picked collection of the best libraries, tools, and learning resources for building Android applications.",
+    "i18n": {
+      "it": "Questa raccolta offre una selezione dei migliori strumenti, librerie e risorse didattiche per creare applicazioni Android di qualità.",
+      "es": "Este proyecto ofrece una colección seleccionada de las mejores bibliotecas, herramientas y recursos para crear aplicaciones Android.",
+      "fr": "Ce projet propose une sélection des meilleures bibliothèques, outils et ressources d'apprentissage pour créer des applications Android.",
+      "de": "Dieses Projekt bietet eine handverlesene Sammlung der besten Bibliotheken, Werkzeuge und Ressourcen für die Android-App-Entwicklung."
+    },
+    "download_url": "https://github.com/aritraroy/UltimateAndroidReference/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "webiny-js",
@@ -25898,6 +26038,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "litepal",
+    "name": "LitePal",
+    "tagline": "Simple SQLite for Android",
+    "repo_url": "https://github.com/guolindev/litepal",
+    "full_name": "guolindev/litepal",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "database"
+    ],
+    "icon": "/icons/litepal.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8039,
+    "tier": "tier1_gui",
+    "summary": "LitePal lets Android developers use SQLite without writing SQL, handling tables, CRUD, and migrations automatically.",
+    "i18n": {
+      "it": "LitePal consente agli sviluppatori Android di usare SQLite senza scrivere SQL, gestendo tabelle, CRUD e migrazioni automaticamente.",
+      "es": "LitePal permite a los desarrolladores Android usar SQLite sin escribir SQL, gestionando tablas, CRUD y migraciones automáticamente.",
+      "fr": "LitePal permet aux développeurs Android d'utiliser SQLite sans écrire de SQL, en gérant tables, CRUD et migrations automatiquement.",
+      "de": "LitePal ermöglicht Android-Entwicklern die Nutzung von SQLite ohne SQL, mit automatischer Tabellenverwaltung, CRUD und Migrationen."
+    },
+    "download_url": "https://github.com/guolindev/LitePal/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "qingjian",
     "name": "Qingjian",
     "tagline": "Learn languages while you type",
@@ -25952,6 +26120,34 @@
     },
     "download_url": "https://www.outrunlabs.com/revery/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "xpopup",
+    "name": "XPopup",
+    "tagline": "Elegant and versatile popup library for Android",
+    "repo_url": "https://github.com/junixapp/xpopup",
+    "full_name": "junixapp/xpopup",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ui"
+    ],
+    "icon": "/icons/xpopup.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8023,
+    "tier": "tier1_gui",
+    "summary": "XPopup is a powerful Android library that provides smooth, customizable popups, bottom sheets, and menus with butter-smooth animations.",
+    "i18n": {
+      "it": "XPopup è una potente libreria Android che offre popup fluidi, menu e fogli inferiori personalizzabili con animazioni eccezionali.",
+      "es": "XPopup es una potente biblioteca para Android que ofrece elementos emergentes fluidos y menús personalizables con animaciones.",
+      "fr": "XPopup est une bibliothèque Android puissante qui fournit des pop-up fluides et des menus personnalisables avec superbes animations.",
+      "de": "XPopup ist eine leistungsstarke Android-Bibliothek für flüssige, anpassbare Pop-ups, Menüs und Bottom-Sheets mit tollen Animationen."
+    },
+    "download_url": "https://github.com/junixapp/XPopup/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "tart",
@@ -26682,6 +26878,62 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "client",
+    "name": "Droid-ify",
+    "tagline": "Clean, private Android app store",
+    "repo_url": "https://github.com/droid-ify/client",
+    "full_name": "droid-ify/client",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "app-store"
+    ],
+    "icon": "/icons/client.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 7805,
+    "tier": "tier1_gui",
+    "summary": "Droid-ify is a simple, clutter-free way to find and install free, open-source apps on your Android phone.",
+    "i18n": {
+      "it": "Droid-ify è un modo semplice e senza pubblicità per trovare e installare app open source sul tuo telefono Android.",
+      "es": "Droid-ify es una forma sencilla y sin publicidad de encontrar e instalar aplicaciones de código abierto en tu teléfono Android.",
+      "fr": "Droid-ify est une méthode simple et sans publicité pour trouver et installer des applications open source sur votre téléphone Android.",
+      "de": "Droid-ify ist eine einfache, werbefreie Möglichkeit, Open-Source-Apps für Ihr Android-Telefon zu finden und zu installieren."
+    },
+    "download_url": "https://github.com/Droid-ify/client/releases/download/v0.7.8/app-release.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "shadow",
+    "name": "Shadow",
+    "tagline": "Dynamic Android plugin framework by Tencent",
+    "repo_url": "https://github.com/tencent/shadow",
+    "full_name": "tencent/shadow",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "mobile"
+    ],
+    "icon": "/icons/shadow.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (BSD)",
+    "stars": 7790,
+    "tier": "tier1_gui",
+    "summary": "Shadow is a production-tested Android plugin framework that lets mobile apps load external features dynamically without complex hacks.",
+    "i18n": {
+      "it": "Shadow è un framework per plugin Android testato sul campo che consente di caricare funzionalità esterne senza trucchi complessi.",
+      "es": "Shadow es un marco de complementos de Android probado en producción que permite cargar características externas de forma dinámica.",
+      "fr": "Shadow est un cadre de plugins Android testé en production qui permet de charger des fonctionnalités externes sans code complexe.",
+      "de": "Shadow ist ein erprobtes Android-Plugin-Framework, mit dem mobile Apps externe Funktionen dynamisch laden können."
+    },
+    "download_url": "https://github.com/Tencent/Shadow/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "oh-my-bash",
     "name": "Oh My Bash",
     "tagline": "Make your terminal look and work better",
@@ -27016,6 +27268,34 @@
     },
     "download_url": "https://github.com/aonez/Keka/releases/download/v1.6.8/Keka-1.6.8.dmg",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "newsblur",
+    "name": "NewsBlur",
+    "tagline": "A smarter way to read news",
+    "repo_url": "https://github.com/samuelclay/newsblur",
+    "full_name": "samuelclay/newsblur",
+    "category": "Productivity",
+    "tags": [
+      "news",
+      "productivity"
+    ],
+    "icon": "/icons/newsblur.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 7697,
+    "tier": "tier1_gui",
+    "summary": "NewsBlur is a personal news reader that helps you organize your favorite websites and newsletters in one clean, distraction-free space.",
+    "i18n": {
+      "it": "NewsBlur è un lettore di notizie personale che ti aiuta a organizzare i tuoi siti e newsletter preferiti in uno spazio pulito e senza distrazioni.",
+      "es": "NewsBlur es un lector de noticias personal que te ayuda a organizar tus sitios web y boletines favoritos en un espacio limpio y sin distracciones.",
+      "fr": "NewsBlur est un lecteur d'actualités personnel qui vous aide à organiser vos sites et newsletters préférés dans un espace propre et sans distraction.",
+      "de": "NewsBlur ist ein persönlicher Nachrichtenleser, der Ihnen hilft, Ihre Lieblingsseiten und Newsletter an einem sauberen und ablenkungsfreien Ort zu ordnen."
+    },
+    "download_url": "https://www.newsblur.com",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "gitsome",
@@ -27550,6 +27830,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "hail",
+    "name": "Hail",
+    "tagline": "Freeze and control unwanted mobile apps.",
+    "repo_url": "https://github.com/aistra0528/hail",
+    "full_name": "aistra0528/hail",
+    "category": "Security & Privacy",
+    "tags": [
+      "android",
+      "utility"
+    ],
+    "icon": "/icons/hail.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 7464,
+    "tier": "tier1_gui",
+    "summary": "Freeze, hide, or disable Android applications effortlessly to extend battery life and reduce background memory usage.",
+    "i18n": {
+      "it": "Congela, nascondi o disabilita le applicazioni Android per prolungare la durata della batteria e ridurre l'uso della memoria.",
+      "es": "Congela, oculta o desactiva aplicaciones de Android fácilmente para ahorrar batería y reducir el uso de memoria en segundo plano.",
+      "fr": "Gelez, masquez ou désactivez les applications Android pour prolonger l'autonomie de la batterie et réduire la mémoire utilisée.",
+      "de": "Android-Anwendungen einfach einfrieren, verstecken oder deaktivieren, um den Akku zu schonen und den Speicherverbrauch zu senken."
+    },
+    "download_url": "https://github.com/aistra0528/Hail/releases/download/v1.11.0/Hail-v1.11.0.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "esearch",
     "name": "eSearch",
     "tagline": "All-in-one screen capture and search tool",
@@ -28026,6 +28334,62 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "byebyedpi",
+    "name": "ByeByeDPI",
+    "tagline": "Local traffic management for Android devices",
+    "repo_url": "https://github.com/romanvht/byebyedpi",
+    "full_name": "romanvht/byebyedpi",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "network"
+    ],
+    "icon": "/icons/byebyedpi.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 7356,
+    "tier": "tier1_gui",
+    "summary": "ByeByeDPI is a local tool that helps manage network traffic on your Android device without sending data to external servers.",
+    "i18n": {
+      "it": "ByeByeDPI è uno strumento locale che aiuta a gestire il traffico di rete sul tuo dispositivo Android senza inviare dati a server esterni.",
+      "es": "ByeByeDPI es una herramienta local que ayuda a gestionar el tráfico de red en tu dispositivo Android sin enviar datos a servidores externos.",
+      "fr": "ByeByeDPI est un outil local qui aide à gérer le trafic réseau sur votre appareil Android sans envoyer de données vers des serveurs externes.",
+      "de": "ByeByeDPI ist ein lokales Tool, das hilft, den Netzwerkverkehr auf Ihrem Android-Gerät zu verwalten, ohne Daten an externe Server zu senden."
+    },
+    "download_url": "https://github.com/romanvht/ByeByeDPI/releases/download/v.1.8.2/ByeByeDPI-v1.8.2-arm64-v8a-release.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "web-to-app",
+    "name": "web-to-app",
+    "tagline": "Turn web projects into mobile apps",
+    "repo_url": "https://github.com/shiaho777/web-to-app",
+    "full_name": "shiaho777/web-to-app",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "apk"
+    ],
+    "icon": "/icons/web-to-app.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Public Domain / Free",
+    "stars": 7351,
+    "tier": "tier1_gui",
+    "summary": "Transform websites and server code into standalone mobile applications directly on your phone without requiring a computer.",
+    "i18n": {
+      "it": "Trasforma siti web e codice di server in applicazioni mobili autonome direttamente sul tuo telefono senza bisogno di un computer.",
+      "es": "Transforma sitios web y código de servidor en aplicaciones móviles independientes directamente en tu teléfono sin usar un ordenador.",
+      "fr": "Transformez des sites web et du code serveur en applications mobiles autonomes directement sur votre téléphone sans ordinateur.",
+      "de": "Verwandeln Sie Websites und Servercode direkt auf Ihrem Handy ohne Computer in eigenständige mobile Apps."
+    },
+    "download_url": "https://github.com/shiaho777/web-to-app/releases/download/v2.9.0/web-to-app-2.9.0.APK",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "spotify-player",
     "name": "spotify-player",
     "tagline": "Control your music from the terminal.",
@@ -28166,6 +28530,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "pipepipe",
+    "name": "PipePipe",
+    "tagline": "Watch videos freely on Android",
+    "repo_url": "https://github.com/infinityloop1308/pipepipe",
+    "full_name": "infinityloop1308/pipepipe",
+    "category": "Productivity",
+    "tags": [
+      "video",
+      "android"
+    ],
+    "icon": "/icons/pipepipe.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 7309,
+    "tier": "tier1_gui",
+    "summary": "PipePipe lets you watch YouTube and other video services on Android without ads, with extra controls, and without needing a Google account.",
+    "i18n": {
+      "it": "PipePipe ti permette di guardare YouTube e altri video su Android senza pubblicità, con controlli extra e senza bisogno di un account Google.",
+      "es": "PipePipe te permite ver YouTube y otros servicios de video en Android sin anuncios, con controles extra y sin necesidad de una cuenta de Google.",
+      "fr": "PipePipe vous permet de visionner YouTube et d’autres services vidéo sur Android sans publicités, avec des contrôles supplémentaires et sans compte Google requis.",
+      "de": "PipePipe ermöglicht das Ansehen von YouTube und anderen Videodiensten auf Android ohne Werbung, mit zusätzlichen Steuerungen und ohne ein Google‑Konto."
+    },
+    "download_url": "https://github.com/InfinityLoop1308/PipePipe/releases/download/v5.6.0/PipePipe_5.6.0-arm64-v8a-release.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "wasm-pack",
     "name": "wasm-pack",
     "tagline": "Build high performance browser code easily",
@@ -28220,6 +28612,62 @@
     },
     "download_url": "https://wger.de",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "kittentricks",
+    "name": "kittenTricks",
+    "tagline": "Starter kit for mobile apps",
+    "repo_url": "https://github.com/akveo/kittentricks",
+    "full_name": "akveo/kittentricks",
+    "category": "Productivity",
+    "tags": [
+      "mobile-development",
+      "starter-kit"
+    ],
+    "icon": "/icons/kittentricks.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 7265,
+    "tier": "tier1_gui",
+    "summary": "A free, open-source template that provides over 40 ready-made screens to help developers launch polished mobile applications quickly.",
+    "i18n": {
+      "it": "Un modello gratuito e open source che offre oltre 40 schermate pronte per aiutare gli sviluppatori a lanciare rapidamente applicazioni mobili curate.",
+      "es": "Una plantilla gratuita y de código abierto que ofrece más de 40 pantallas listas para ayudar a los desarrolladores a lanzar aplicaciones móviles pulidas rápidamente.",
+      "fr": "Un modèle gratuit et open source qui fournit plus de 40 écrans prêts à l'emploi pour aider les développeurs à lancer rapidement des applications mobiles soignées.",
+      "de": "Ein kostenloses Open-Source-Template, das über 40 fertige Bildschirme bereitstellt, um Entwicklern beim schnellen Launch von polierten mobilen Apps zu helfen."
+    },
+    "download_url": "https://akveo.github.io/react-native-ui-kitten/",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "plain-app",
+    "name": "PlainApp",
+    "tagline": "Manage your phone from any web browser",
+    "repo_url": "https://github.com/plainhub/plain-app",
+    "full_name": "plainhub/plain-app",
+    "category": "Productivity",
+    "tags": [
+      "productivity",
+      "android"
+    ],
+    "icon": "/icons/plain-app.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (AGPL v3)",
+    "stars": 7263,
+    "tier": "tier1_gui",
+    "summary": "PlainApp turns your Android phone into a private hub that you can control directly from your computer's web browser without any cloud services.",
+    "i18n": {
+      "it": "PlainApp trasforma il tuo telefono Android in un centro di controllo privato accessibile dal browser del tuo computer senza usare il cloud.",
+      "es": "PlainApp convierte tu teléfono Android en un centro privado que puedes controlar desde el navegador de tu computadora sin usar la nube.",
+      "fr": "PlainApp transforme votre téléphone Android en un hub privé que vous pouvez contrôler depuis le navigateur de votre ordinateur sans cloud.",
+      "de": "PlainApp macht Ihr Android-Telefon zu einem privaten Hub, den Sie ohne Cloud-Dienste direkt über Ihren Webbrowser steuern können."
+    },
+    "download_url": "https://github.com/plainhub/plain-app/releases/download/v3.3.25/PlainApp-3.3.25-64bit-Recommended.apk",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "hatch",
@@ -28418,6 +28866,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "compressor",
+    "name": "Compressor",
+    "tagline": "Shrink Android images without losing quality",
+    "repo_url": "https://github.com/zetbaitsu/compressor",
+    "full_name": "zetbaitsu/compressor",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "image-compression"
+    ],
+    "icon": "/icons/compressor.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 7230,
+    "tier": "tier1_gui",
+    "summary": "Easily shrink large photos on Android devices down to smaller file sizes while preserving crystal-clear image quality.",
+    "i18n": {
+      "it": "Easily shrink large photos on Android devices down to smaller file sizes while preserving crystal-clear image quality.",
+      "es": "Easily shrink large photos on Android devices down to smaller file sizes while preserving crystal-clear image quality.",
+      "fr": "Easily shrink large photos on Android devices down to smaller file sizes while preserving crystal-clear image quality.",
+      "de": "Easily shrink large photos on Android devices down to smaller file sizes while preserving crystal-clear image quality."
+    },
+    "download_url": "https://github.com/zetbaitsu/Compressor/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "aisoc",
     "name": "AiSOC",
     "tagline": "Open-source AI security operations center",
@@ -28502,6 +28978,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "android-bootstrap",
+    "name": "Android-Bootstrap",
+    "tagline": "Consistent design elements for Android apps",
+    "repo_url": "https://github.com/bearded-hen/android-bootstrap",
+    "full_name": "bearded-hen/android-bootstrap",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "development"
+    ],
+    "icon": "/icons/android-bootstrap.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (MIT)",
+    "stars": 7211,
+    "tier": "tier1_gui",
+    "summary": "Android-Bootstrap provides a collection of pre-styled visual components that help developers create uniform and professional-looking mobile apps.",
+    "i18n": {
+      "it": "Android-Bootstrap offre una raccolta di componenti visivi pre-impostati per creare app mobili dall'aspetto uniforme e professionale.",
+      "es": "Android-Bootstrap ofrece una colección de componentes visuales pre-estilizados para crear apps móviles con un aspecto uniforme y profesional.",
+      "fr": "Android-Bootstrap propose une collection de composants visuels pré-stylisés pour créer des applications mobiles au rendu uniforme et professionnel.",
+      "de": "Android-Bootstrap bietet eine Sammlung vorgefertigter visueller Komponenten, mit denen Entwickler einheitliche und professionelle Apps erstellen können."
+    },
+    "download_url": "https://github.com/Bearded-Hen/Android-Bootstrap/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "takephoto",
     "name": "TakePhoto",
     "tagline": "Simplify Android photo handling and processing",
@@ -28556,6 +29060,34 @@
     },
     "download_url": "https://github.com/Beingpax/VoiceInk/releases/download/v2.27/VoiceInk.dmg",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "flutter-boost",
+    "name": "flutter_boost",
+    "tagline": "Seamless hybrid app integration",
+    "repo_url": "https://github.com/alibaba/flutter_boost",
+    "full_name": "alibaba/flutter_boost",
+    "category": "Productivity",
+    "tags": [
+      "mobile-development",
+      "flutter"
+    ],
+    "icon": "/icons/flutter-boost.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 7192,
+    "tier": "tier1_gui",
+    "summary": "FlutterBoost is a developer tool that allows you to add modern Flutter screens to your existing native mobile apps with minimal effort.",
+    "i18n": {
+      "it": "FlutterBoost è uno strumento per sviluppatori che consente di aggiungere schermate Flutter moderne alle app native esistenti con un minimo di sforzo.",
+      "es": "FlutterBoost es una herramienta para desarrolladores que permite agregar pantallas Flutter modernas a sus aplicaciones nativas existentes con un esfuerzo mínimo.",
+      "fr": "FlutterBoost est un outil pour développeurs qui permet d'ajouter des écrans Flutter modernes à vos applications natives existantes avec un effort minimal.",
+      "de": "FlutterBoost ist ein Entwicklerwerkzeug, das es ermöglicht, moderne Flutter-Bildschirme in bestehende native mobile Apps mit minimalem Aufwand zu integrieren."
+    },
+    "download_url": "https://github.com/alibaba/flutter_boost",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "flyingmouse-format",
@@ -28668,6 +29200,34 @@
     },
     "download_url": "https://github.com/milanvarady/Applite/releases/download/v1.4.2/Applite.dmg",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "ultimaterecyclerview",
+    "name": "UltimateRecyclerView",
+    "tagline": "Flexible and feature-rich Android list component",
+    "repo_url": "https://github.com/cymcsg/ultimaterecyclerview",
+    "full_name": "cymcsg/ultimaterecyclerview",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ui-components"
+    ],
+    "icon": "/icons/ultimaterecyclerview.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 7163,
+    "tier": "tier1_gui",
+    "summary": "An advanced list component for Android that adds pull-to-refresh, smooth animations, and infinite scrolling to your apps.",
+    "i18n": {
+      "it": "Un componente avanzato per liste Android che aggiunge ricarica a scorrimento, animazioni fluide e scorrimento infinito.",
+      "es": "Un componente de listas avanzado para Android que añade actualización, animaciones fluidas y desplazamiento infinito.",
+      "fr": "Un composant de liste avancé pour Android qui ajoute le rafraîchissement par glissement et un défilement infini.",
+      "de": "Eine erweiterte Listenkomponente für Android, die Aktualisierungen, flüssige Animationen und endloses Scrollen bietet."
+    },
+    "download_url": "https://github.com/cymcsg/UltimateRecyclerView/releases/download/v0.7.0/demo-v0.7.0.apk",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "docker-ipsec-vpn-server",
@@ -29146,6 +29706,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "espeak-ng",
+    "name": "eSpeak NG",
+    "tagline": "Compact text-to-speech for over 100 languages",
+    "repo_url": "https://github.com/espeak-ng/espeak-ng",
+    "full_name": "espeak-ng/espeak-ng",
+    "category": "Productivity",
+    "tags": [
+      "accessibility",
+      "speech"
+    ],
+    "icon": "/icons/espeak-ng.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 7057,
+    "tier": "tier1_gui",
+    "summary": "eSpeak NG is a lightweight tool that reads text aloud in many different languages and accents.",
+    "i18n": {
+      "it": "eSpeak NG è uno strumento leggero che legge testi ad alta voce in moltissime lingue e accenti diversi.",
+      "es": "eSpeak NG es una herramienta ligera que lee textos en voz alta en una gran variedad de idiomas y acentos.",
+      "fr": "eSpeak NG est un outil léger qui lit des textes à voix haute dans plus de cent langues et accents différents.",
+      "de": "eSpeak NG ist ein leichtgewichtiges Programm, das Texte in vielen verschiedenen Sprachen und Akzenten vorliest."
+    },
+    "download_url": "https://github.com/espeak-ng/espeak-ng/releases/download/1.52.0/espeak-ng.msi",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "keepingyouawake",
     "name": "KeepingYouAwake",
     "tagline": "Keep your Mac awake effortlessly",
@@ -29200,6 +29788,34 @@
     },
     "download_url": "https://github.com/ProxymanApp/Proxyman/releases/download/26.5.1/Proxyman_26.5.1.dmg",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "timber",
+    "name": "Timber",
+    "tagline": "Sleek material design offline music player",
+    "repo_url": "https://github.com/naman14/timber",
+    "full_name": "naman14/timber",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "audio"
+    ],
+    "icon": "/icons/timber.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 7034,
+    "tier": "tier1_gui",
+    "summary": "Enjoy your local audio files with a clean layout, customizable dark themes, and rich playback controls.",
+    "i18n": {
+      "it": "Goditi i tuoi file audio locali con una grafica pulita, temi scuri personalizzabili e controlli completi.",
+      "es": "Disfruta de tus archivos de audio locales con una interfaz limpia, temas oscuros y controles avanzados.",
+      "fr": "Profitez de vos fichiers audio locaux avec une interface claire, des thèmes sombres et des contrôles.",
+      "de": "Genießen Sie Ihre lokalen Audiosdateien mit einem sauberen Layout, dunklen Themes und Steuerung."
+    },
+    "download_url": "https://github.com/naman14/Timber/releases/download/v1.7/app-release.apk",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "blink",
@@ -29342,6 +29958,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "bookreader",
+    "name": "BookReader",
+    "tagline": "Read your favorite digital books anywhere.",
+    "repo_url": "https://github.com/smuyyh/bookreader",
+    "full_name": "smuyyh/bookreader",
+    "category": "Productivity",
+    "tags": [
+      "reader",
+      "android"
+    ],
+    "icon": "/icons/bookreader.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 6975,
+    "tier": "tier1_gui",
+    "summary": "Enjoy a rich e-reading experience on Android with custom page turns, Wi-Fi book transfers, and support for multiple popular document formats.",
+    "i18n": {
+      "it": "Goditi un'esperienza di lettura avanzata su Android con sfogliatura 3D, trasferimento Wi-Fi e supporto per formati multipli.",
+      "es": "Disfruta de una gran experiencia de lectura en Android con cambio de página realista, transferencia Wi-Fi y múltiples formatos.",
+      "fr": "Profitez d'une expérience de lecture fluide sur Android avec tournage de page 3D, transfert Wi-Fi et formats multiples.",
+      "de": "Genießen Sie ein tolles Lesebücher-Erlebnis auf Android mit realistischen Blättereffekten und Wi-Fi-Buchübertragung."
+    },
+    "download_url": "https://github.com/smuyyh/BookReader/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "reqable-app",
     "name": "reqable-app",
     "tagline": "All-in-one web testing and traffic inspector",
@@ -29424,6 +30068,34 @@
     },
     "download_url": "https://github.com/HaxeFoundation/haxe/releases/download/4.3.7/haxe-4.3.7-win.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "andfix",
+    "name": "AndFix",
+    "tagline": "Fix Android app bugs instantly",
+    "repo_url": "https://github.com/alibaba/andfix",
+    "full_name": "alibaba/andfix",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "development"
+    ],
+    "icon": "/icons/andfix.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 6957,
+    "tier": "tier1_gui",
+    "summary": "AndFix allows developers to repair bugs in Android applications without requiring users to download and reinstall the entire software.",
+    "i18n": {
+      "it": "AndFix permette agli sviluppatori di correggere i bug nelle app Android senza che gli utenti debbano scaricare e reinstallare il software.",
+      "es": "AndFix permite a los desarrolladores reparar errores en aplicaciones Android sin que los usuarios tengan que descargar y reinstalar el software.",
+      "fr": "AndFix permet aux développeurs de corriger les bugs des applications Android sans que les utilisateurs aient à télécharger et réinstaller le logiciel.",
+      "de": "AndFix ermöglicht es Entwicklern, Fehler in Android-Apps zu beheben, ohne dass Benutzer die Software erneut herunterladen und installieren müssen."
+    },
+    "download_url": "https://github.com/alibaba/AndFix/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "androidproject",
@@ -29592,6 +30264,34 @@
     },
     "download_url": "https://taxhacker.app",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "composecookbook",
+    "name": "ComposeCookBook",
+    "tagline": "Visual guide to Android UI building blocks",
+    "repo_url": "https://github.com/gurupreet/composecookbook",
+    "full_name": "gurupreet/composecookbook",
+    "category": "Productivity",
+    "tags": [
+      "android-development",
+      "ui-reference"
+    ],
+    "icon": "/icons/composecookbook.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (MIT)",
+    "stars": 6894,
+    "tier": "tier1_gui",
+    "summary": "An interactive Android app that displays every modern interface component, layout, and animation style in one place.",
+    "i18n": {
+      "it": "Un'app Android interattiva che mostra ogni componente dell'interfaccia, layout e stile di animazione in un unico posto.",
+      "es": "Una aplicación Android interactiva que muestra todos los elementos de la interfaz, diseños y estilos de animación en un solo lugar.",
+      "fr": "Une application Android interactive qui affiche tous les éléments d'interface, les mises en page et les styles d'animation en un seul endroit.",
+      "de": "Eine interaktive Android-App, die alle Benutzeroberflächenelemente, Layouts und Animationsstile an einem Ort anzeigt."
+    },
+    "download_url": "https://github.com/Gurupreet/ComposeCookBook/releases/download/2.0.0/app-debug.apk",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "summarize",
