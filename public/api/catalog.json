@@ -2,24 +2,24 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-25T23:34:43.480797+00:00",
-  "total_apps": 2400,
+  "generated_at": "2026-11-25T23:38:16.497004+00:00",
+  "total_apps": 2425,
   "tier_counts": {
     "tier3_powertool": 364,
     "tier2_webapp": 720,
-    "tier1_gui": 1316
+    "tier1_gui": 1341
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 354,
     "selfhosted": 719,
-    "desktop": 1316,
+    "desktop": 1341,
     "webapp": 1
   },
   "categories": {
-    "Graphics & Design": 43,
-    "Productivity": 1165,
-    "Security & Privacy": 57,
+    "Graphics & Design": 45,
+    "Productivity": 1187,
+    "Security & Privacy": 58,
     "Utilities & Power Tools": 330,
     "Video & Audio": 107,
     "Web Apps & Cloud": 695,
@@ -28697,6 +28697,34 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "swiftmessages",
+      "name": "SwiftMessages",
+      "tagline": "Customizable in‑app notifications",
+      "repo_url": "https://github.com/swiftkickmobile/swiftmessages",
+      "full_name": "swiftkickmobile/swiftmessages",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "notifications"
+      ],
+      "icon": "/icons/swiftmessages.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 7544,
+      "tier": "tier1_gui",
+      "summary": "SwiftMessages lets iPhone and iPad apps display brief, stylish notifications anywhere on the screen, with customization and smooth gestures.",
+      "i18n": {
+        "it": "SwiftMessages consente alle app per iPhone e iPad di mostrare notifiche brevi e dall’aspetto curato in qualsiasi punto dello schermo, con opzioni di personalizzazione e gesti fluidi.",
+        "es": "SwiftMessages permite que las aplicaciones de iPhone y iPad muestren notificaciones breves y elegantes en cualquier parte de la pantalla, con opciones de personalización y gestos suaves.",
+        "fr": "SwiftMessages permet aux applications iPhone et iPad d’afficher des notifications courtes et élégantes n’importe où à l’écran, avec des options de personnalisation et des gestes fluides.",
+        "de": "SwiftMessages ermöglicht iPhone‑ und iPad‑Apps, kurze, stilvolle Benachrichtigungen überall auf dem Bildschirm anzuzeigen, mit Anpassungsoptionen und flüssigen Gesten."
+      },
+      "download_url": "https://github.com/SwiftKickMobile/SwiftMessages/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "bleachbit",
       "name": "BleachBit",
       "tagline": "Free up disk space and privacy",
@@ -29257,6 +29285,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "fspagerview",
+      "name": "FSPagerView",
+      "tagline": "Elegant sliding banners for iOS apps",
+      "repo_url": "https://github.com/wenchaod/fspagerview",
+      "full_name": "wenchaod/fspagerview",
+      "category": "Productivity",
+      "tags": [
+        "ios-development",
+        "ui-components"
+      ],
+      "icon": "/icons/fspagerview.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 7365,
+      "tier": "tier1_gui",
+      "summary": "FSPagerView is a free open-source tool for developers to create smooth, interactive sliding screens in iPhone and iPad applications.",
+      "i18n": {
+        "it": "FSPagerView è uno strumento open source gratuito per sviluppatori che crea schermate scorrevoli fluide nelle app per iPhone e iPad.",
+        "es": "FSPagerView es una herramienta de código abierto gratuita para desarrolladores que crea pantallas deslizantes fluidas en aplicaciones de iPhone y iPad.",
+        "fr": "FSPagerView est un outil open source gratuit pour les développeurs afin de créer des écrans glissants fluides dans les applications iPhone et iPad.",
+        "de": "FSPagerView ist ein kostenloses Open-Source-Tool für Entwickler, um flüssige, interaktive Slider-Screens in iPhone- und iPad-Apps zu erstellen."
+      },
+      "download_url": "https://github.com/WenchaoD/FSPagerView/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "jrnl",
       "name": "jrnl",
       "tagline": "Quick command-line journaling made simple",
@@ -29591,6 +29647,34 @@
       },
       "download_url": "https://github.com/wasm-bindgen/wasm-pack/releases/download/v0.15.1/wasm-pack-init-arm64.exe",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "viewanimator",
+      "name": "ViewAnimator",
+      "tagline": "Bring your mobile interface to life",
+      "repo_url": "https://github.com/marcosgriselli/viewanimator",
+      "full_name": "marcosgriselli/viewanimator",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "animation"
+      ],
+      "icon": "/icons/viewanimator.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 7301,
+      "tier": "tier1_gui",
+      "summary": "Animate complex mobile application screens and list items smoothly using simple, elegant single-line commands.",
+      "i18n": {
+        "it": "Crea animazioni fluide e complesse per le interfacce mobili con una sola riga di codice pulita.",
+        "es": "Crea animaciones fluidas y complejas en interfaces móviles utilizando comandos simples de una sola línea.",
+        "fr": "Animez des interfaces mobiles complexes de manière fluide grâce à des commandes simples en une seule ligne.",
+        "de": "Erstellen Sie flüssige Animationen für mobile Oberflächen ganz einfach mit nur wenigen Zeilen Code."
+      },
+      "download_url": "https://github.com/marcosgriselli/ViewAnimator/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "wger",
@@ -30097,6 +30181,34 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "qmui-ios",
+      "name": "QMUI_iOS",
+      "tagline": "Speed up Apple mobile app development",
+      "repo_url": "https://github.com/tencent/qmui_ios",
+      "full_name": "tencent/qmui_ios",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "mobile"
+      ],
+      "icon": "/icons/qmui-ios.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 7192,
+      "tier": "tier1_gui",
+      "summary": "Accelerate Apple mobile app creation with a robust set of ready-to-use visual styles, custom components, and smart tools.",
+      "i18n": {
+        "it": "Semplifica la creazione di app per iPhone con stili visivi pronti all'uso, componenti personalizzati e strumenti intelligenti.",
+        "es": "Simplifica la creación de apps para iPhone con estilos visuales listos para usar, componentes personalizados y herramientas.",
+        "fr": "Accélérez la création d'applications mobiles avec des styles visuels prêts à l'emploi et des composants personnalisés.",
+        "de": "Beschleunigen Sie die Erstellung von iPhone-Apps mit gebrauchsfertigen visuellen Stilen und praktischen Werkzeugen."
+      },
+      "download_url": "https://qmuiteam.com/ios",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "flyingmouse-format",
       "name": "FlyingMouse Format",
       "tagline": "Free offline file and media converter",
@@ -30515,6 +30627,34 @@
       },
       "download_url": "https://github.com/0xERR0R/blocky/releases/download/v0.36.0/blocky_checksums.txt",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "icecubesapp",
+      "name": "IceCubesApp",
+      "tagline": "Mastodon client, fast & friendly",
+      "repo_url": "https://github.com/dimillian/icecubesapp",
+      "full_name": "dimillian/icecubesapp",
+      "category": "Productivity",
+      "tags": [
+        "mastodon",
+        "social-media"
+      ],
+      "icon": "/icons/icecubesapp.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (AGPL v3)",
+      "stars": 7112,
+      "tier": "tier1_gui",
+      "summary": "IceCubesApp lets you connect to any Mastodon instance, browse timelines, and post updates with a clean, SwiftUI interface.",
+      "i18n": {
+        "it": "IceCubesApp ti permette di connetterti a qualsiasi istanza Mastodon, visualizzare le timeline e pubblicare aggiornamenti con un’interfaccia pulita.",
+        "es": "IceCubesApp te permite conectarte a cualquier instancia de Mastodon, ver las líneas de tiempo y publicar actualizaciones con una interfaz limpia.",
+        "fr": "IceCubesApp vous permet de vous connecter à n’importe quelle instance Mastodon, de parcourir les timelines et de publier des mises à jour avec une interface propre.",
+        "de": "IceCubesApp ermöglicht es Ihnen, sich mit jeder Mastodon-Instanz zu verbinden, Zeitachsen zu durchsuchen und Updates mit einer sauberen Oberfläche zu veröffentlichen."
+      },
+      "download_url": "https://apps.apple.com/us/app/ice-cubes-for-mastodon/id6444915884",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "masscode",
@@ -31413,6 +31553,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "30-days-of-react-native",
+      "name": "30-days-of-react-native",
+      "tagline": "Explore interactive mobile app interface demos",
+      "repo_url": "https://github.com/fangwei716/30-days-of-react-native",
+      "full_name": "fangwei716/30-days-of-react-native",
+      "category": "Productivity",
+      "tags": [
+        "react-native",
+        "mobile-apps"
+      ],
+      "icon": "/icons/30-days-of-react-native.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 6849,
+      "tier": "tier1_gui",
+      "summary": "Discover a collection of practical mobile app interface examples and smooth UI animations designed for learning and testing.",
+      "i18n": {
+        "it": "Scopri una raccolta di esempi pratici di interfacce per dispositivi mobili e animazioni fluide per test e apprendimento.",
+        "es": "Descubre una colección de ejemplos prácticos de interfaces móviles y animaciones fluidas diseñadas para aprender.",
+        "fr": "Découvrez une collection d'exemples pratiques d'interfaces mobiles et d'animations fluides conçues pour l'apprentissage.",
+        "de": "Entdecken Sie eine Sammlung praktischer mobiler Benutzeroberflächen und flüssiger Animationen zum Lernen."
+      },
+      "download_url": "https://github.com/fangwei716/30-days-of-react-native/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "sparkyfitness",
       "name": "SparkyFitness",
       "tagline": "Your private, all-in-one family health tracker.",
@@ -31833,6 +32001,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "swinject",
+      "name": "Swinject",
+      "tagline": "Organize your app code more efficiently.",
+      "repo_url": "https://github.com/swinject/swinject",
+      "full_name": "swinject/swinject",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "ios"
+      ],
+      "icon": "/icons/swinject.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6703,
+      "tier": "tier1_gui",
+      "summary": "Swinject helps developers keep their app components organized and easy to manage by simplifying how different parts of the software connect.",
+      "i18n": {
+        "it": "Swinject aiuta gli sviluppatori a mantenere i componenti delle app organizzati e facili da gestire semplificando le connessioni interne.",
+        "es": "Swinject ayuda a los desarrolladores a mantener los componentes de sus aplicaciones organizados y fáciles de gestionar mediante conexiones simples.",
+        "fr": "Swinject aide les développeurs à garder les composants de leurs applications organisés et faciles à gérer en simplifiant leurs connexions.",
+        "de": "Swinject hilft Entwicklern dabei, App-Komponenten übersichtlich zu halten und die Verbindungen zwischen den Programmteilen zu vereinfachen."
+      },
+      "download_url": "https://github.com/Swinject/Swinject/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "arcreel",
       "name": "ArcReel",
       "tagline": "AI-powered workspace for video storytelling",
@@ -31887,6 +32083,34 @@
       },
       "download_url": "https://github.com/martin-olivier/airgorah/releases/download/v0.9.0/airgorah_0.9.0_aarch64.deb",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "palera1n",
+      "name": "palera1n",
+      "tagline": "Custom control for older Apple devices",
+      "repo_url": "https://github.com/palera1n/palera1n",
+      "full_name": "palera1n/palera1n",
+      "category": "Productivity",
+      "tags": [
+        "utility",
+        "mobile"
+      ],
+      "icon": "/icons/palera1n.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6699,
+      "tier": "tier1_gui",
+      "summary": "This tool provides advanced access to older Apple hardware, allowing users to modify their device software beyond standard settings.",
+      "i18n": {
+        "it": "Questo strumento offre accesso avanzato ai dispositivi Apple meno recenti, permettendo di modificare il software oltre le impostazioni standard.",
+        "es": "Esta herramienta ofrece acceso avanzado a dispositivos Apple antiguos, permitiendo modificar el software más allá de los ajustes estándar.",
+        "fr": "Cet outil offre un accès avancé aux anciens appareils Apple, permettant de modifier le logiciel au-delà des paramètres habituels.",
+        "de": "Dieses Tool bietet erweiterten Zugriff auf ältere Apple-Geräte und ermöglicht Softwareänderungen jenseits der Standardeinstellungen."
+      },
+      "download_url": "https://github.com/palera1n/palera1n/releases/download/v2.4/palera1n_amd64.deb",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "bookorbit",
@@ -32561,6 +32785,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "nativescript-vue",
+      "name": "nativescript-vue",
+      "tagline": "Build native mobile apps using Vue",
+      "repo_url": "https://github.com/nativescript-vue/nativescript-vue",
+      "full_name": "nativescript-vue/nativescript-vue",
+      "category": "Productivity",
+      "tags": [
+        "mobile",
+        "nativescript"
+      ],
+      "icon": "/icons/nativescript-vue.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6536,
+      "tier": "tier1_gui",
+      "summary": "Create native mobile applications for iOS and Android using the Vue framework and modern JavaScript tools.",
+      "i18n": {
+        "it": "Crea applicazioni mobili native per iOS e Android utilizzando il framework Vue e strumenti moderni.",
+        "es": "Crea aplicaciones móviles nativas para iOS y Android utilizando el marco Vue y herramientas modernas.",
+        "fr": "Créez des applications mobiles natives pour iOS et Android en utilisant le framework Vue.",
+        "de": "Entwickle native mobile Anwendungen für iOS und Android mit dem Vue-Framework und modernen Werkzeugen."
+      },
+      "download_url": "https://nativescript-vue.org/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "harlequin",
       "name": "Harlequin",
       "tagline": "The fast database workspace for terminals",
@@ -32897,6 +33149,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "app-store-compliance",
+      "name": "App Store Compliance",
+      "tagline": "Stop app rejections before they happen.",
+      "repo_url": "https://github.com/mjmirza/app-store-compliance",
+      "full_name": "mjmirza/app-store-compliance",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "mobile"
+      ],
+      "icon": "/icons/app-store-compliance.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Custom Open License",
+      "stars": 6458,
+      "tier": "tier1_gui",
+      "summary": "This tool scans your mobile app for common policy violations and regulatory risks to help you get approved on your first submission attempt.",
+      "i18n": {
+        "it": "Questo strumento analizza la tua app mobile per individuare violazioni delle regole e rischi normativi, aiutandoti a ottenere l'approvazione al primo tentativo.",
+        "es": "Esta herramienta escanea tu aplicación móvil en busca de infracciones y riesgos normativos para ayudarte a obtener la aprobación al primer intento.",
+        "fr": "Cet outil analyse votre application mobile pour détecter les violations de règles et les risques réglementaires afin d'obtenir une approbation dès le premier essai.",
+        "de": "Dieses Tool scannt Ihre mobile App auf Richtlinienverstöße und regulatorische Risiken, damit Sie die Zulassung direkt beim ersten Versuch erhalten."
+      },
+      "download_url": "https://mjmirza.github.io/app-store-compliance/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "pywinauto",
       "name": "pywinauto",
       "tagline": "Automate Windows desktop apps easily.",
@@ -33035,6 +33315,34 @@
       },
       "download_url": "https://www.manifold.co",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "ios-developer-roadmap",
+      "name": "iOS-Developer-Roadmap",
+      "tagline": "Your step-by-step guide to iOS mastery",
+      "repo_url": "https://github.com/bohdanorlov/ios-developer-roadmap",
+      "full_name": "bohdanorlov/ios-developer-roadmap",
+      "category": "Productivity",
+      "tags": [
+        "education",
+        "ios"
+      ],
+      "icon": "/icons/ios-developer-roadmap.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 6406,
+      "tier": "tier1_gui",
+      "summary": "This roadmap provides a clear, structured path for learning how to build apps for Apple devices from the ground up.",
+      "i18n": {
+        "it": "Questo percorso offre una guida chiara e strutturata per imparare a creare app per i dispositivi Apple partendo dalle basi.",
+        "es": "Esta hoja de ruta ofrece un camino claro y estructurado para aprender a crear aplicaciones para dispositivos Apple desde cero.",
+        "fr": "Cette feuille de route offre un chemin clair et structuré pour apprendre à créer des applications pour les appareils Apple dès le début.",
+        "de": "Dieser Fahrplan bietet einen klaren und strukturierten Weg, um von Grund auf zu lernen, wie man Apps für Apple-Geräte entwickelt."
+      },
+      "download_url": "https://github.com/BohdanOrlov/iOS-Developer-Roadmap/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "sanity",
@@ -33287,6 +33595,34 @@
       },
       "download_url": "https://github.com/666OS/ClashMac/releases/download/27.1.9/ClashMac-27.1.9.dmg",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "react-native-image-crop-picker",
+      "name": "React Native Image Crop Picker",
+      "tagline": "Easily pick and crop mobile photos",
+      "repo_url": "https://github.com/ivpusic/react-native-image-crop-picker",
+      "full_name": "ivpusic/react-native-image-crop-picker",
+      "category": "Productivity",
+      "tags": [
+        "mobile",
+        "photos"
+      ],
+      "icon": "/icons/react-native-image-crop-picker.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6345,
+      "tier": "tier1_gui",
+      "summary": "A robust mobile library that lets app users select pictures and videos from their gallery or camera, resize them, and crop them perfectly.",
+      "i18n": {
+        "it": "Una libreria mobile per scegliere foto e video dalla galleria o fotocamera, ridimensionarli e ritagliarli facilmente.",
+        "es": "Una herramienta móvil para elegir imágenes y vídeos de la galería o cámara, cambiarles el tamaño y recortarlos.",
+        "fr": "Une bibliothèque mobile pour choisir des images et vidéos depuis la galerie ou la caméra, les redimensionner et les recadrer.",
+        "de": "Eine mobile Bibliothek zum Auswählen, Verkleinern und Zuschneiden von Bildern und Videos aus Galerie oder Kamera."
+      },
+      "download_url": "https://github.com/ivpusic/react-native-image-crop-picker/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "x11docker",
@@ -33625,6 +33961,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "bangumi",
+      "name": "Bangumi",
+      "tagline": "Track anime, manga, and games easily.",
+      "repo_url": "https://github.com/czy0729/bangumi",
+      "full_name": "czy0729/bangumi",
+      "category": "Graphics & Design",
+      "tags": [
+        "anime",
+        "tracker"
+      ],
+      "icon": "/icons/bangumi.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6276,
+      "tier": "tier1_gui",
+      "summary": "Manage your entertainment progress, discover new media, and connect with other pop culture enthusiasts through a clean, ad-free mobile interface.",
+      "i18n": {
+        "it": "Gestisci i tuoi progressi di intrattenimento, scopri nuovi contenuti e connettiti con altri appassionati tramite un'interfaccia mobile pulita.",
+        "es": "Gestiona tu progreso de entretenimiento, descubre nuevos medios y conéctate con otros entusiastas a través de una interfaz móvil limpia.",
+        "fr": "Gérez vos progrès de divertissement, découvrez de nouveaux médias et connectez-vous avec d'autres passionnés via une interface mobile épurée.",
+        "de": "Verwalten Sie Ihren Medienfortschritt, entdecken Sie neue Inhalte und vernetzen Sie sich mit anderen Fans über eine saubere mobile Oberfläche."
+      },
+      "download_url": "https://github.com/czy0729/Bangumi/releases/download/8.42.2/bangumi_v8.42.2_arm64-v8a.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "ticker",
       "name": "Ticker",
       "tagline": "Track stocks and crypto in your terminal.",
@@ -33679,6 +34043,62 @@
       },
       "download_url": "https://github.com/omlahore/RemoveMacAI/releases/download/v1.2.2/removemacai-darwin-arm64.tar.gz.sha256",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "swipecellkit",
+      "name": "SwipeCellKit",
+      "tagline": "Swipe actions like Mail",
+      "repo_url": "https://github.com/swipecellkit/swipecellkit",
+      "full_name": "swipecellkit/swipecellkit",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "ui"
+      ],
+      "icon": "/icons/swipecellkit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 6271,
+      "tier": "tier1_gui",
+      "summary": "Add swipe‑to‑action rows and columns in iOS apps, just like the Mail app, with customizable buttons and haptic feedback.",
+      "i18n": {
+        "it": "Aggiungi azioni di scorrimento a righe e colonne in app iOS, come Mail, con pulsanti personalizzabili e feedback vibrazionale.",
+        "es": "Añade acciones de deslizamiento a filas y columnas en apps iOS, como Mail, con botones personalizables y retroalimentación háptica.",
+        "fr": "Ajoutez des actions de glissement aux lignes et colonnes dans les apps iOS, comme Mail, avec boutons personnalisables et retour haptique.",
+        "de": "Fügen Sie Wischaktionen zu Zeilen und Spalten in iOS‑Apps hinzu, wie bei Mail, mit anpassbaren Schaltflächen und haptischem Feedback."
+      },
+      "download_url": "https://jerkoch.com/2017/02/07/swiper-no-swiping.html",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "messagekit",
+      "name": "MessageKit",
+      "tagline": "Customizable chat UI for iOS apps",
+      "repo_url": "https://github.com/messagekit/messagekit",
+      "full_name": "messagekit/messagekit",
+      "category": "Productivity",
+      "tags": [
+        "chat",
+        "ui"
+      ],
+      "icon": "/icons/messagekit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6270,
+      "tier": "tier1_gui",
+      "summary": "MessageKit lets developers add beautiful, easy‑to‑customize chat interfaces to iOS apps, handling text, photos, videos and more.",
+      "i18n": {
+        "it": "MessageKit consente di inserire chat dall’aspetto curato e facilmente personalizzabili nelle app iOS, supportando testo, foto, video e altri tipi di messaggi.",
+        "es": "MessageKit permite añadir chats elegantes y totalmente personalizables a aplicaciones iOS, con soporte para texto, fotos, videos y más.",
+        "fr": "MessageKit offre la possibilité d’intégrer des discussions au design soigné et entièrement modulables dans les applications iOS, avec prise en charge du texte, des photos.",
+        "de": "MessageKit ermöglicht das Einbinden von ansprechenden, leicht anpassbaren Chat‑Benutzeroberflächen in iOS‑Apps und unterstützt Texte, Fotos, Videos und weitere Nachrichtentypen."
+      },
+      "download_url": "https://messagekit.github.io",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "cloud-torrent",
@@ -34269,6 +34689,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "jxcategoryview",
+      "name": "JXCategoryView",
+      "tagline": "Create smooth, professional tabbed navigation menus.",
+      "repo_url": "https://github.com/pujiaxin33/jxcategoryview",
+      "full_name": "pujiaxin33/jxcategoryview",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "development"
+      ],
+      "icon": "/icons/jxcategoryview.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6150,
+      "tier": "tier1_gui",
+      "summary": "JXCategoryView helps developers build highly customizable tabbed navigation bars that look and feel like popular mobile apps.",
+      "i18n": {
+        "it": "JXCategoryView aiuta a creare barre di navigazione a schede altamente personalizzabili, simili a quelle delle app più famose.",
+        "es": "JXCategoryView ayuda a crear barras de navegación por pestañas altamente personalizables, similares a las de las apps más populares.",
+        "fr": "JXCategoryView aide à créer des barres de navigation par onglets hautement personnalisables, semblables aux applications populaires.",
+        "de": "JXCategoryView hilft dabei, hochgradig anpassbare Tab-Navigationsleisten zu erstellen, die wie bekannte Apps aussehen und funktionieren."
+      },
+      "download_url": "https://github.com/pujiaxin33/JXCategoryView/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "hp-socket",
       "name": "HP-Socket",
       "tagline": "High-performance network communication tools",
@@ -34717,6 +35165,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "macaw",
+      "name": "Macaw",
+      "tagline": "Vector graphics library for Swift",
+      "repo_url": "https://github.com/exyte/macaw",
+      "full_name": "exyte/macaw",
+      "category": "Graphics & Design",
+      "tags": [
+        "vector-graphics",
+        "ios"
+      ],
+      "icon": "/icons/macaw.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 6042,
+      "tier": "tier1_gui",
+      "summary": "Macaw is a powerful vector graphics and SVG library written in Swift that helps developers render scalable artwork and animations easily.",
+      "i18n": {
+        "it": "Macaw è una potente libreria di grafica vettoriale e SVG scritta in Swift per visualizzare illustrazioni animate.",
+        "es": "Macaw es una potente biblioteca de gráficos vectoriales y SVG en Swift que facilita renderizar arte y animaciones.",
+        "fr": "Macaw est une bibliothèque de graphiques vectoriels et SVG en Swift qui aide à afficher des illustrations et animations.",
+        "de": "Macaw ist eine leistungsstarke Vektorgrafik- und SVG-Bibliothek in Swift zum Rendern von Illustrationen und Animationen."
+      },
+      "download_url": "https://github.com/exyte/Macaw/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "swiftybeaver",
       "name": "SwiftyBeaver",
       "tagline": "Colorful Swift logging made simple",
@@ -34882,6 +35358,34 @@
       },
       "download_url": "https://github.com/SevaSk/ecoute",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "enchanted",
+      "name": "enchanted",
+      "tagline": "Chat with private smart models anywhere.",
+      "repo_url": "https://github.com/gluonfield/enchanted",
+      "full_name": "gluonfield/enchanted",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "macos"
+      ],
+      "icon": "/icons/enchanted.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 6023,
+      "tier": "tier1_gui",
+      "summary": "Talk securely with your own private smart models on Apple devices using a clean, familiar interface.",
+      "i18n": {
+        "it": "Parla in modo sicuro con i tuoi modelli intelligenti privati sui tuoi dispositivi Apple usando un'interfaccia pulita.",
+        "es": "Habla de forma segura con tus propios modelos inteligentes privados en dispositivos Apple con una interfaz limpia.",
+        "fr": "Discutez en toute sécurité avec vos propres modèles intelligents privés sur les appareils Apple via une interface propre.",
+        "de": "Sprechen Sie sicher mit Ihren eigenen privaten intelligenten Modellen auf Apple-Geräten über eine saubere Oberfläche."
+      },
+      "download_url": "https://github.com/gluonfield/enchanted/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "markedit",
@@ -35500,6 +36004,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "shadowrocket-rules",
+      "name": "shadowrocket-rules",
+      "tagline": "Comprehensive automated network routing rules",
+      "repo_url": "https://github.com/gmoogway/shadowrocket-rules",
+      "full_name": "gmoogway/shadowrocket-rules",
+      "category": "Security & Privacy",
+      "tags": [
+        "routing",
+        "proxy"
+      ],
+      "icon": "/icons/shadowrocket-rules.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (GPL v3)",
+      "stars": 5842,
+      "tier": "tier1_gui",
+      "summary": "Get massive, daily-updated lists for direct routing, proxy traffic, and ad blocking in your network configuration tool.",
+      "i18n": {
+        "it": "Ottieni elenchi enormi e aggiornati quotidianamente per il routing diretto, il traffico proxy e il blocco degli annunci.",
+        "es": "Obtenga listas masivas actualizadas diariamente para enrutamiento directo, tráfico proxy y bloqueo de anuncios.",
+        "fr": "Obtenez des listes massives mises à jour quotidiennement pour le routage direct, le trafic proxy et le blocage des publicités.",
+        "de": "Erhalten Sie riesige, täglich aktualisierte Listen für Direkt-Routing, Proxy-Traffic und Werbungblockierung."
+      },
+      "download_url": "https://shadowrocket.061227.xyz",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "npm-run-all",
       "name": "npm-run-all",
       "tagline": "Run multiple command scripts easily",
@@ -35638,6 +36170,34 @@
       },
       "download_url": "https://github.com/aidlearning/AidLearning-FrameWork/releases/download/V2.1.0/aidlux_2.1.0_latest_release.apk",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "permissionskit",
+      "name": "PermissionsKit",
+      "tagline": "Simplify app permissions and status checks.",
+      "repo_url": "https://github.com/sparrowcode/permissionskit",
+      "full_name": "sparrowcode/permissionskit",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "utilities"
+      ],
+      "icon": "/icons/permissionskit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5816,
+      "tier": "tier1_gui",
+      "summary": "Easily handle device permissions like camera, bluetooth, and notifications in app projects with clean modular components.",
+      "i18n": {
+        "it": "Gestisci facilmente i permessi dei dispositivi come fotocamera e notifiche nei progetti con componenti modulari puliti.",
+        "es": "Maneja fácilmente permisos de dispositivos como cámara y notificaciones en proyectos con componentes limpios y modulares.",
+        "fr": "Gérez facilement les autorisations d'appareils comme la caméra et les notifications avec des composants modulaires propres.",
+        "de": "Verwalte Gerätekerechtigungen wie Kamera und Benachrichtigungen in Projekten ganz einfach mit sauberen Modulen."
+      },
+      "download_url": "https://x.com/sparrowcode_ios",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "yasb",
@@ -35976,6 +36536,90 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "earlgrey",
+      "name": "EarlGrey",
+      "tagline": "Automated user interface testing for iOS apps",
+      "repo_url": "https://github.com/google/earlgrey",
+      "full_name": "google/earlgrey",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "testing"
+      ],
+      "icon": "/icons/earlgrey.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 5701,
+      "tier": "tier1_gui",
+      "summary": "EarlGrey is a native testing framework that helps developers verify iOS app screens and user flows with maximum reliability.",
+      "i18n": {
+        "it": "EarlGrey è un framework di test nativo che aiuta a verificare schermate e flussi delle app iOS con massima affidabilità.",
+        "es": "EarlGrey es un marco de pruebas nativo que ayuda a verificar pantallas y flujos de aplicaciones iOS con gran fiabilidad.",
+        "fr": "EarlGrey est un cadre de test natif qui aide à vérifier les écrans et flux d'applications iOS avec une grande fiabilité.",
+        "de": "EarlGrey ist ein natives Testframework, das hilft, iOS-App-Bildschirme und Benutzerabläufe zuverlässig zu überprüfen."
+      },
+      "download_url": "https://google.github.io/EarlGrey/",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "ytlite",
+      "name": "YTLite",
+      "tagline": "Enhance your iPhone YouTube experience effortlessly.",
+      "repo_url": "https://github.com/dayanch96/ytlite",
+      "full_name": "dayanch96/ytlite",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "youtube"
+      ],
+      "icon": "/icons/ytlite.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Linux, iOS",
+      "license": "Custom Open License",
+      "stars": 5697,
+      "tier": "tier1_gui",
+      "summary": "YTLite is a flexible enhancer for YouTube on iOS that adds background playback, video downloads, and custom interface options.",
+      "i18n": {
+        "it": "YTLite è un utile componente aggiuntivo per YouTube su iOS che consente riproduzione in background e download di video.",
+        "es": "YTLite es un flexible potenciador para YouTube en iOS que añade reproducción en segundo plano y descargas de vídeo.",
+        "fr": "YTLite est un module flexible pour YouTube sur iOS qui permet la lecture en arrière-plan et le téléchargement de vidéos.",
+        "de": "YTLite ist eine flexible Erweiterung für YouTube unter iOS, die Hintergrundwiedergabe und Videodownloads ermöglicht."
+      },
+      "download_url": "https://github.com/dayanch96/YTLite/releases/download/v6.0/com.dvntm.ytlite_6.0_iphoneos-arm.deb",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "open-swiftui-animations",
+      "name": "Open SwiftUI Animations",
+      "tagline": "Beautiful pure SwiftUI animation inspirations.",
+      "repo_url": "https://github.com/amosgyamfi/open-swiftui-animations",
+      "full_name": "amosgyamfi/open-swiftui-animations",
+      "category": "Productivity",
+      "tags": [
+        "swiftui",
+        "ios"
+      ],
+      "icon": "/icons/open-swiftui-animations.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Public Domain / Free",
+      "stars": 5694,
+      "tier": "tier1_gui",
+      "summary": "Discover a rich collection of expressive, pure SwiftUI animations and fluid effects for your Apple device projects.",
+      "i18n": {
+        "it": "Scopri una ricca raccolta di animazioni ed effetti fluidi in puro SwiftUI per i tuoi progetti su dispositivi Apple.",
+        "es": "Descubre una rica colección de animaciones expresivas y efectos fluidos en SwiftUI puro para tus proyectos de Apple.",
+        "fr": "Découvrez une riche collection d'animations expressives et d'effets fluides en pur SwiftUI pour vos projets Apple.",
+        "de": "Entdecken Sie eine umfangreiche Sammlung ausdrucksstarker, reiner SwiftUI-Animationen für Ihre Apple-Projekte."
+      },
+      "download_url": "https://twitter.com/amos_gyamfi",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "bento",
       "name": "Bento",
       "tagline": "A complete presentation suite in one file.",
@@ -36198,6 +36842,62 @@
       },
       "download_url": "https://youtube.com/@nunomaduro?sub_confirmation=1",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "react-native-splash-screen",
+      "name": "React Native Splash Screen",
+      "tagline": "Smooth loading screens for mobile apps",
+      "repo_url": "https://github.com/crazycodeboy/react-native-splash-screen",
+      "full_name": "crazycodeboy/react-native-splash-screen",
+      "category": "Productivity",
+      "tags": [
+        "mobile",
+        "react-native"
+      ],
+      "icon": "/icons/react-native-splash-screen.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5649,
+      "tier": "tier1_gui",
+      "summary": "Easily display and hide custom loading screens on iOS and Android while your mobile application starts up.",
+      "i18n": {
+        "it": "Mostra e nascondi facilmente schermate di caricamento personalizzate su iOS e Android durante l'avvio della tua app.",
+        "es": "Muestra y oculta fácilmente pantallas de carga personalizadas en iOS y Android mientras tu aplicación móvil se inicia.",
+        "fr": "Affichez et masquez facilement des écrans de chargement personnalisés sur iOS et Android lors du démarrage de votre application.",
+        "de": "Zeigen und verbergen Sie ganz einfach benutzerdefinierte Ladebildschirme unter iOS und Android, während Ihre App startet."
+      },
+      "download_url": "https://github.com/crazycodeboy/react-native-splash-screen/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "chartview",
+      "name": "ChartView",
+      "tagline": "Build stunning native charts easily",
+      "repo_url": "https://github.com/apppear/chartview",
+      "full_name": "apppear/chartview",
+      "category": "Productivity",
+      "tags": [
+        "swiftui",
+        "charts"
+      ],
+      "icon": "/icons/chartview.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 5648,
+      "tier": "tier1_gui",
+      "summary": "Create beautiful, customizable charts in your Apple apps with a smooth native tool designed for seamless data visualization.",
+      "i18n": {
+        "it": "Crea grafici belli e personalizzabili nelle tue app Apple con uno strumento nativo fluido per la visualizzazione dei dati.",
+        "es": "Crea gráficos hermosos y personalizables en tus aplicaciones de Apple con una herramienta nativa fluida para visualización.",
+        "fr": "Créez de beaux graphiques personnalisables dans vos applications Apple grâce à un outil natif fluide pour vos données.",
+        "de": "Erstellen Sie schöne, anpassbare Diagramme in Ihren Apple-Apps mit einem flüssigen nativen Tool zur Datenvisualisierung."
+      },
+      "download_url": "https://github.com/AppPear/ChartView/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "malware-patch",
