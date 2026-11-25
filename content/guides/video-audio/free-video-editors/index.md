@@ -17,7 +17,7 @@ updated_at: "2026-11-25"
 
 ## Plain-English Overview: Video Cutters, Converters & Downloaders
 
-This topic hub groups **21 vetted free tools** specializing in **Video Cutters, Converters & Downloaders** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **20 vetted free tools** specializing in **Video Cutters, Converters & Downloaders** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

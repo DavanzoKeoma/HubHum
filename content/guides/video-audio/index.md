@@ -14,7 +14,7 @@ updated_at: "2026-11-25"
 
 ## Why Explore Free Video & Audio Software?
 
-This central guide brings together **103 verified free applications** in the **Video & Audio** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **107 verified free applications** in the **Video & Audio** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Video & Audio
 

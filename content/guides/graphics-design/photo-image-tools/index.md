@@ -11,13 +11,13 @@ summary: "Free creative apps for compressing photos, capturing crisp screenshots
 parent_slug: "graphics-design"
 child_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
 sibling_slugs: []
-app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion", "imageoptim", "dashboard-icons", "stable-dreamfusion", "modly", "esearch", "koharu", "pastel", "text-grab", "opentabletdriver", "triangula", "tools-ocr", "butterfly"]
+app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion", "imageoptim", "mahapps-metro", "stable-dreamfusion", "modly", "open-codesign", "esearch", "koharu", "text-grab", "style-dictionary", "opentabletdriver", "triangula", "tools-ocr"]
 updated_at: "2026-11-25"
 ---
 
 ## Plain-English Overview: Photo Optimizers, Galleries & Screen Capture
 
-This topic hub groups **20 vetted free tools** specializing in **Photo Optimizers, Galleries & Screen Capture** inside **Graphics & Design**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **22 vetted free tools** specializing in **Photo Optimizers, Galleries & Screen Capture** inside **Graphics & Design**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -31,8 +31,8 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[OpenSCAD](/HubHum/apps/openscad/)** — OpenSCAD is a specialized tool for designing precise 3D objects by writing descriptive instructions instead of drawing them by hand. *(Desktop App · License: Custom Open License)*
 - **[Easy Diffusion](/HubHum/apps/easydiffusion/)** — Turn text descriptions into breathtaking images right on your own computer with a simple, friendly control panel and zero technical setup. *(Desktop App · License: Custom Open License)*
 - **[ImageOptim](/HubHum/apps/imageoptim/)** — Make your digital pictures load faster by shrinking their file sizes automatically without losing any visual quality. *(Desktop App · License: Open Source (GPL v2))*
-- **[Dashboard Icons](/HubHum/apps/dashboard-icons/)** — Access a massive library of professional icons and logos to organize your digital workspace and AI assistant tools. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
+- **[MahApps.Metro](/HubHum/apps/mahapps-metro/)** — MahApps.Metro provides a collection of tools to give standard Windows desktop software a clean, modern, and professional appearance. *(Desktop App · License: Open Source (MIT))*
 - **[Stable-Dreamfusion](/HubHum/apps/stable-dreamfusion/)** — Transform simple text descriptions or single photos into fully rendered 3D objects using advanced AI diffusion models. *(Desktop App · License: Open Source (Apache 2.0))*
 - **[Modly](/HubHum/apps/modly/)** — Transform any 2D photo into a realistic 3D model right on your computer using privacy-focused local artificial intelligence. *(Desktop App · License: Custom Open License)*
+- **[open-codesign](/HubHum/apps/open-codesign/)** — An open-source desktop app that transforms simple text descriptions into polished design prototypes and slide decks locally on your computer. *(Desktop App · License: Open Source (MIT))*
 - **[eSearch](/HubHum/apps/esearch/)** — eSearch is a versatile utility that combines screen recording, text recognition, and instant translation into one seamless experience. *(Desktop App · License: Open Source (GPL v3))*
-- **[Koharu](/HubHum/apps/koharu/)** — Koharu is a privacy-focused manga translator that automatically detects, cleans, and translates panels directly on your computer. *(Desktop App · License: Open Source (Apache 2.0))*

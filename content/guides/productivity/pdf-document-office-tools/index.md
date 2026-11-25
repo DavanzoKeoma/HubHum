@@ -11,13 +11,13 @@ summary: "Everyday open-source software to edit PDFs, read e-books comfortably, 
 parent_slug: "productivity"
 child_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
 sibling_slugs: []
-app_slugs: ["microsoft-activation-scripts", "node", "pake", "files", "architecture-samples", "kazumi", "lottie-android", "gold-miner", "jobs-applier-ai-agent", "ente", "filee", "gopeed", "quasar", "flatbuffers", "readest", "mihon", "piliplus", "peass-ng"]
+app_slugs: ["microsoft-activation-scripts", "node", "pake", "files", "architecture-samples", "kazumi", "lottie-android", "gold-miner", "jobs-applier-ai-agent", "ente", "filee", "gopeed", "quasar", "flatbuffers", "readest", "mihon", "compose-samples", "peass-ng"]
 updated_at: "2026-11-25"
 ---
 
 ## Plain-English Overview: Free PDF, Document & E-Book Tools
 
-This topic hub groups **144 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **156 vetted free tools** specializing in **Free PDF, Document & E-Book Tools** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

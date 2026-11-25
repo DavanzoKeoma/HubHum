@@ -11,7 +11,7 @@ summary: "Compare PhotoPrism vs flameshot and 8 free tools for Photo Optimizers,
 parent_slug: "graphics-design/photo-image-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
-app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion", "imageoptim", "dashboard-icons"]
+app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion", "imageoptim", "mahapps-metro"]
 updated_at: "2026-11-25"
 ---
 
@@ -30,7 +30,7 @@ Comparing **PhotoPrism** and **flameshot** highlights two distinct approaches in
 | [OpenSCAD](/HubHum/apps/openscad/) | Desktop App | Windows, macOS, Linux | ★ 10,716 | Custom Open License |
 | [Easy Diffusion](/HubHum/apps/easydiffusion/) | Desktop App | Windows | ★ 10,480 | Custom Open License |
 | [ImageOptim](/HubHum/apps/imageoptim/) | Desktop App | Windows, macOS, Linux | ★ 10,046 | Open Source (GPL v2) |
-| [Dashboard Icons](/HubHum/apps/dashboard-icons/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 9,135 | Open Source (Apache 2.0) |
+| [MahApps.Metro](/HubHum/apps/mahapps-metro/) | Desktop App | Windows | ★ 9,840 | Open Source (MIT) |
 
 ### When to Pick Which Option
 - **Choose [PhotoPrism](/HubHum/apps/photoprism/) (Self-Hosted Web App)** if you need what it specializes in: PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly — it runs on your own private server or local computer so files stay under your control (40,470 GitHub stars, vs flameshot which runs as a Desktop App).
