@@ -44881,6 +44881,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "claude-codex-bridge",
+    "name": "Claude Codex Bridge",
+    "tagline": "Coordinate multiple coding assistants together easily",
+    "repo_url": "https://github.com/seemseam/claude_codex_bridge",
+    "full_name": "seemseam/claude_codex_bridge",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "developer-tools"
+    ],
+    "icon": "/icons/claude-codex-bridge.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 3635,
+    "tier": "tier3_powertool",
+    "summary": "Manage multiple artificial intelligence coding assistants side-by-side in one visible workspace and control them from your phone.",
+    "i18n": {
+      "it": "Gestisci più assistenti di codifica IA affiancati in un'unica schermata visibile e controllali dal tuo telefono.",
+      "es": "Gestiona múltiples asistentes de código de inteligencia artificial lado a lado en un espacio visible y contrólalos desde tu móvil.",
+      "fr": "Gérez plusieurs assistants de programmation intelligents côte à côte dans un espace de travail visuel et pilotez-les depuis votre mobile.",
+      "de": "Verwalte mehrere KI-Programmierassistenten nebeneinander in einem sichtbaren Arbeitsbereich und steuere sie von deinem Handy aus."
+    },
+    "download_url": "https://github.com/SeemSeam/claude_codex_bridge/releases/download/v8.7.25/ccb-mobile-v8.7.25.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "wireguard-install",
     "name": "WireGuard VPN Server Installer",
     "tagline": "Set up your own private VPN server",
@@ -45129,6 +45157,34 @@
       "de": "Ein kostenloses Werkzeug, das Ihre Fotos in farbiges Textkunst oder Braille-Muster direkt im Terminal umwandelt."
     },
     "download_url": "https://github.com/TheZoraiz/ascii-image-converter/releases/download/v1.13.1/sha256_checksums.txt",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "ddgr",
+    "name": "ddgr",
+    "tagline": "Search DuckDuckGo right from your terminal",
+    "repo_url": "https://github.com/jarun/ddgr",
+    "full_name": "jarun/ddgr",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "search",
+      "system-utility"
+    ],
+    "icon": "/icons/ddgr.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 3581,
+    "tier": "tier3_powertool",
+    "summary": "Query DuckDuckGo privately and efficiently right from your text terminal with a lightweight command-line tool.",
+    "i18n": {
+      "it": "Interroga DuckDuckGo in modo privato ed efficiente direttamente dal terminale di testo con un leggero strumento a riga di comando.",
+      "es": "Consulta DuckDuckGo de forma privada y eficiente directamente desde tu terminal de texto con una ligera herramienta de línea de comandos.",
+      "fr": "Interrogez DuckDuckGo en toute confidentialité et efficacité directement depuis votre terminal de texte avec un outil en ligne de commande.",
+      "de": "Frage DuckDuckGo privat und effizient direkt über dein Textterminal mit einem schlanken Befehlszeilentool ab."
+    },
+    "download_url": "https://github.com/jarun/ddgr/releases",
     "updated_at": "2026-11-25"
   },
   {
@@ -45606,6 +45662,34 @@
     },
     "download_url": "https://pinry.github.io/pinry/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "xdg-ninja",
+    "name": "xdg-ninja",
+    "tagline": "Clean up your home folder clutter easily.",
+    "repo_url": "https://github.com/b3nj5m1n/xdg-ninja",
+    "full_name": "b3nj5m1n/xdg-ninja",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "utilities",
+      "organization"
+    ],
+    "icon": "/icons/xdg-ninja.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3419,
+    "tier": "tier3_powertool",
+    "summary": "A helpful utility that scans your personal user folder for unwanted files and directories, showing you how to organize them properly.",
+    "i18n": {
+      "it": "Un'utilità che scansiona la tua cartella personale alla ricerca di file indesiderati e ti mostra come organizzarli correttamente.",
+      "es": "Una utilidad que escanea tu carpeta personal en busca de archivos no deseados y te muestra cómo organizarlos correctamente.",
+      "fr": "Un utilitaire qui analyse votre dossier personnel à la recherche de fichiers indésirables et vous montre comment les organiser.",
+      "de": "Ein Werkzeug, das Ihren persönlichen Ordner nach unerwünschten Dateien durchsucht und zeigt, wie man sie richtig aufräumt."
+    },
+    "download_url": "https://github.com/b3nj5m1n/xdg-ninja/releases/download/v0.2.0.2/xdgnj",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "opengist",
@@ -46252,6 +46336,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "openocta",
+    "name": "openocta",
+    "tagline": "Intelligent desktop IT operations assistant",
+    "repo_url": "https://github.com/openocta/openocta",
+    "full_name": "openocta/openocta",
+    "category": "Productivity",
+    "tags": [
+      "aiops",
+      "itops"
+    ],
+    "icon": "/icons/openocta.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 3256,
+    "tier": "tier3_powertool",
+    "summary": "Manage server health, inspect system alerts, and run data queries using natural language on your desktop.",
+    "i18n": {
+      "it": "Gestisci la salute del server e analizza gli avvisi di sistema utilizzando il linguaggio naturale sul tuo desktop.",
+      "es": "Gestiona el estado del servidor y analiza alertas del sistema utilizando lenguaje natural en tu escritorio.",
+      "fr": "Gérez la santé des serveurs et analysez les alertes système en utilisant le langage naturel sur votre bureau.",
+      "de": "Verwalten Sie den Serverstatus und analysieren Sie Systemwarnungen in natürlicher Sprache auf Ihrem Desktop."
+    },
+    "download_url": "https://github.com/openocta/openocta/releases/download/v1.0.9/openocta_1.0.9_linux_amd64.deb",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "achat",
     "name": "AChat",
     "tagline": "Unified team platform for AI conversations",
@@ -46616,6 +46728,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "kitty-themes",
+    "name": "kitty-themes",
+    "tagline": "Personalize your terminal with gorgeous color schemes.",
+    "repo_url": "https://github.com/dexpota/kitty-themes",
+    "full_name": "dexpota/kitty-themes",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "themes"
+    ],
+    "icon": "/icons/kitty-themes.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 3206,
+    "tier": "tier3_powertool",
+    "summary": "Transform your command line workspace instantly by choosing from a massive library of ready-made color palettes.",
+    "i18n": {
+      "it": "Trasforma all'istante il tuo ambiente di lavoro a riga di comando scegliendo tra una vasta libreria di palette pronte all'uso.",
+      "es": "Transforma al instante tu espacio de trabajo de comandos eligiendo entre una enorme biblioteca de paletas listas para usar.",
+      "fr": "Transformez instantanément votre espace de travail en choisissant parmi une vaste bibliothèque de thèmes prêts à l'emploi.",
+      "de": "Verwandle deinen Befehlszeilen-Arbeitsbereich im Handumdrehen mit einer riesigen Auswahl an fertigen Farbpaletten."
+    },
+    "download_url": "https://github.com/dexpota/kitty-themes/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "athas",
     "name": "Athas",
     "tagline": "Fast, modern editor for your projects",
@@ -46782,6 +46922,34 @@
     },
     "download_url": "https://github.com/github-aws-runners/terraform-aws-github-runner/releases/download/v8.1.1/github-aws-runners-terraform-aws-github-runner-attestation-66859316.intoto.jsonl",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "fuxi",
+    "name": "Fuxi",
+    "tagline": "Fast terminal AI coding assistant",
+    "repo_url": "https://github.com/fuxicodex/fuxi",
+    "full_name": "fuxicodex/fuxi",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "ai",
+      "system-utility"
+    ],
+    "icon": "/icons/fuxi.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 3183,
+    "tier": "tier3_powertool",
+    "summary": "Fuxi is an intelligent coding companion that lives in your terminal to edit code, run commands, and streamline your development tasks.",
+    "i18n": {
+      "it": "Fuxi è un compagno di programmazione intelligente che vive nel tuo terminale per modificare il codice e velocizzare il lavoro.",
+      "es": "Fuxi es un compañero inteligente que vive en tu terminal para editar código, ejecutar comandos y agilizar tus tareas.",
+      "fr": "Fuxi est un compagnon de codage intelligent qui réside dans votre terminal pour modifier le code et simplifier vos tâches.",
+      "de": "Fuxi ist ein intelligenter Programmierassistent im Terminal, mit dem Sie Code bearbeiten und Aufgaben beschleunigen."
+    },
+    "download_url": "https://www.fuxicode.com",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "coverlet",
@@ -47008,6 +47176,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "pokete",
+    "name": "Pokete",
+    "tagline": "Retro monster battling inside your terminal",
+    "repo_url": "https://github.com/lxgr-linux/pokete",
+    "full_name": "lxgr-linux/pokete",
+    "category": "Productivity",
+    "tags": [
+      "game",
+      "system-utility"
+    ],
+    "icon": "/icons/pokete.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 3156,
+    "tier": "tier3_powertool",
+    "summary": "Catch, train, and battle pixel monsters right inside your command-line interface with this nostalgic terminal adventure.",
+    "i18n": {
+      "it": "Cattura, alleva e combatti mostri in pixel art direttamente nel tuo terminale con questa avventura nostalgica.",
+      "es": "Captura, entrena y combate monstruos de píxeles directamente en tu línea de comandos con esta aventura nostálgica.",
+      "fr": "Capturez, entraînez et combattez des monstres en pixels directement dans votre terminal avec cette aventure nostalgique.",
+      "de": "Fange, trainiere und kämpfe mit Pixelmonstern direkt in deiner Befehlszeile mit diesem nostalgischen Abenteuer."
+    },
+    "download_url": "https://github.com/lxgr-linux/pokete/releases/download/0.9.2/Pokete-0.9.2-x86_64.AppImage",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "shynet",
     "name": "Shynet",
     "tagline": "Privacy-focused web analytics you control.",
@@ -47176,6 +47372,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "chaterm",
+    "name": "Chaterm",
+    "tagline": "AI-powered terminal for cloud management",
+    "repo_url": "https://github.com/chaterm/chaterm",
+    "full_name": "chaterm/chaterm",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "system-utility"
+    ],
+    "icon": "/icons/chaterm.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 3115,
+    "tier": "tier3_powertool",
+    "summary": "Manage cloud servers and infrastructure using natural language.",
+    "i18n": {
+      "it": "Gestisci server cloud e infrastrutture usando il linguaggio naturale.",
+      "es": "Administra servidores en la nube con lenguaje natural.",
+      "fr": "Gérez vos serveurs cloud et infrastructures en langage naturel.",
+      "de": "Verwalten Sie Cloud-Server und Infrastruktur mit natürlicher Sprache."
+    },
+    "download_url": "https://github.com/chaterm/Chaterm/releases/download/v0.13.0/chaterm-0.13.0-setup-x64.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "magnetissimo",
     "name": "Magnetissimo",
     "tagline": "A smart, self-hosted torrent search engine",
@@ -47286,6 +47510,62 @@
     },
     "download_url": "https://github.com/guptarohit/asciigraph/releases/download/v0.10.0/asciigraph_0.10.0_sha512-checksums.txt",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "weathr",
+    "name": "weathr",
+    "tagline": "Animated live weather inside your terminal.",
+    "repo_url": "https://github.com/veirt/weathr",
+    "full_name": "veirt/weathr",
+    "category": "Productivity",
+    "tags": [
+      "weather",
+      "system-utility"
+    ],
+    "icon": "/icons/weathr.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows",
+    "license": "Open Source (GPL v3)",
+    "stars": 3095,
+    "tier": "tier3_powertool",
+    "summary": "Weathr transforms your command line into a live meteorological display featuring real-time data and charming ASCII animations.",
+    "i18n": {
+      "it": "Visualizza previsioni meteorologiche in tempo reale nel tuo terminale con animazioni in ASCII per pioggia, neve e temporali.",
+      "es": "Transforma tu terminal en una pantalla meteorológica en vivo con datos reales y animaciones ASCII encantadoras.",
+      "fr": "Transformez votre écran noir en une station météo animée avec des graphismes ASCII pour la pluie, la neige et les tempêtes.",
+      "de": "Verwandeln Sie Ihr Terminal in ein lebendiges Wetterdisplay mit echten Daten und charmanten ASCII-Animationen."
+    },
+    "download_url": "https://github.com/Veirt/weathr/releases/download/v1.4.0/weathr-windows-amd64.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "contour",
+    "name": "Contour Terminal",
+    "tagline": "A lightning-fast, modal virtual terminal emulator",
+    "repo_url": "https://github.com/contour-terminal/contour",
+    "full_name": "contour-terminal/contour",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "productivity"
+    ],
+    "icon": "/icons/contour.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 3094,
+    "tier": "tier3_powertool",
+    "summary": "Contour is a modern, GPU-accelerated terminal emulator designed for power users with persistent background sessions and rich graphics support.",
+    "i18n": {
+      "it": "Contour is a modern, GPU-accelerated terminal emulator designed for power users with persistent background sessions and rich graphics support.",
+      "es": "Contour is a modern, GPU-accelerated terminal emulator designed for power users with persistent background sessions and rich graphics support.",
+      "fr": "Contour is a modern, GPU-accelerated terminal emulator designed for power users with persistent background sessions and rich graphics support.",
+      "de": "Contour is a modern, GPU-accelerated terminal emulator designed for power users with persistent background sessions and rich graphics support."
+    },
+    "download_url": "https://github.com/contour-terminal/contour/releases/download/v0.8.0.9335/contour-0.8.0.9335-win64.msi",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "khal",
@@ -47425,6 +47705,34 @@
       "de": "Darktile ist ein Terminal-Emulator, der die Grafikkarte nutzt, um Text und Bilder unter Linux flüssig darzustellen."
     },
     "download_url": "https://github.com/liamg/darktile/releases/download/v0.0.11/darktile-linux-amd64",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "collab-public",
+    "name": "collab-public",
+    "tagline": "Build software with your AI agents",
+    "repo_url": "https://github.com/collabs-inc/collab-public",
+    "full_name": "collabs-inc/collab-public",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "ai",
+      "agents"
+    ],
+    "icon": "/icons/collab-public.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Custom Open License",
+    "stars": 3076,
+    "tier": "tier3_powertool",
+    "summary": "Collaborator is an infinite canvas environment that brings your AI agents, code files, and running terminals together in one organized workspace.",
+    "i18n": {
+      "it": "Un ambiente su tela infinita che riunisce agenti IA, file di codice e terminali in un unico spazio di lavoro organizzato.",
+      "es": "Un entorno de lienzo infinito que reúne a tus agentes de IA, archivos de código y terminales en un espacio de trabajo organizado.",
+      "fr": "Un espace de travail sur canevas infini qui regroupe vos agents IA, vos fichiers de code et vos terminaux.",
+      "de": "Eine unendliche Arbeitsfläche, die KI-Agenten, Codedateien und aktive Terminals übersichtlich an einem Ort vereint."
+    },
+    "download_url": "https://github.com/collabs-inc/collab-public/releases/download/v0.8.4/Collaborator-0.8.4-arm64-mac.zip.blockmap",
     "updated_at": "2026-11-25"
   },
   {
@@ -47988,6 +48296,118 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "terminal-icons",
+    "name": "Terminal-Icons",
+    "tagline": "Add visual file icons to your terminal.",
+    "repo_url": "https://github.com/devblackops/terminal-icons",
+    "full_name": "devblackops/terminal-icons",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "powershell",
+      "system-utility"
+    ],
+    "icon": "/icons/terminal-icons.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2960,
+    "tier": "tier3_powertool",
+    "summary": "Enhance your command-line workspace by adding intuitive file and folder icons directly to your text interface.",
+    "i18n": {
+      "it": "Migliora il tuo spazio di lavoro a riga di comando aggiungendo icone intuitive per file e cartelle.",
+      "es": "Mejora tu espacio de trabajo de comandos añadiendo iconos intuitivos para archivos y carpetas.",
+      "fr": "Améliorez votre espace de travail en ligne de commande en ajoutant des icônes intuitives.",
+      "de": "Verbessern Sie Ihren Befehlszeilen-Arbeitsplatz durch intuitive Datei- und Ordnersymbole."
+    },
+    "download_url": "https://github.com/devblackops/Terminal-Icons/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "termius-pro-zh-cn",
+    "name": "Termius Pro Chinese Localization",
+    "tagline": "Translate and customize your remote server manager.",
+    "repo_url": "https://github.com/arcsurge/termius-pro-zh_cn",
+    "full_name": "arcsurge/termius-pro-zh_cn",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "translation",
+      "localization"
+    ],
+    "icon": "/icons/termius-pro-zh-cn.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS",
+    "license": "Custom Open License",
+    "stars": 2953,
+    "tier": "tier3_powertool",
+    "summary": "Easily translate your remote server management software into Chinese with automated scripts and unlock advanced features.",
+    "i18n": {
+      "it": "Traduci facilmente il tuo software di gestione server in cinese con script automatizzati e sblocca funzioni avanzate.",
+      "es": "Traduce fácilmente tu software de gestión de servidores al chino con scripts automatizados y desbloquea funciones avanzadas.",
+      "fr": "Traduisez facilement votre logiciel de gestion de serveurs en chinois grâce à des scripts automatisés et débloquez des fonctionnalités avancées.",
+      "de": "Übersetzen Sie Ihre Server-Management-Software ganz einfach mit automatisierten Skripten ins Chinesische und schalten Sie erweiterte Funktionen frei."
+    },
+    "download_url": "https://github.com/ArcSurge/Termius-Pro-zh_CN/releases/download/v10.4.1/app-linux-localize-skip.asar",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "terminal-mac",
+    "name": "terminal-mac",
+    "tagline": "Run a virtual Mac inside your terminal.",
+    "repo_url": "https://github.com/govijr/terminal-mac",
+    "full_name": "govijr/terminal-mac",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "macos",
+      "virtualization"
+    ],
+    "icon": "/icons/terminal-mac.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 2949,
+    "tier": "tier3_powertool",
+    "summary": "Run a completely separate macOS virtual machine right inside your command-line interface, perfect for safe automated computer tasks.",
+    "i18n": {
+      "it": "Esegui una macchina virtuale macOS completamente separata direttamente all'interno della tua interfaccia a riga di comando.",
+      "es": "Ejecuta una máquina virtual de macOS completamente separada directamente dentro de tu interfaz de línea de comandos.",
+      "fr": "Exécutez une machine virtuelle macOS entièrement distincte directement dans votre interface en ligne de commande.",
+      "de": "Führen Sie eine vollständig getrennte macOS-virtuelle Maschine direkt in Ihrer Befehlszeilenschnittstelle aus."
+    },
+    "download_url": "https://github.com/govijr/terminal-mac/releases/download/v0.2.0-6/get.sh",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "bagels",
+    "name": "Bagels",
+    "tagline": "Track your personal expenses inside your terminal",
+    "repo_url": "https://github.com/enhancedjax/bagels",
+    "full_name": "enhancedjax/bagels",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "finance",
+      "system-utility"
+    ],
+    "icon": "/icons/bagels.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 2945,
+    "tier": "tier3_powertool",
+    "summary": "Manage your money, accounts, and budgets effortlessly using a lightning-fast keyboard-driven tool that lives right in your command line.",
+    "i18n": {
+      "it": "Gestisci denaro, conti e budget senza sforzo usando uno strumento rapido da tastiera direttamente nel tuo terminale.",
+      "es": "Administra tu dinero, cuentas y presupuestos sin esfuerzo usando una herramienta rápida basada en teclado en tu terminal.",
+      "fr": "Gérez votre argent, vos comptes et vos budgets sans effort grâce à un outil rapide piloté au clavier dans votre terminal.",
+      "de": "Verwalten Sie Geld, Konten und Budgets mühelos mit einem schnellen, tastaturgesteuerten Tool direkt in Ihrem Terminal."
+    },
+    "download_url": "https://github.com/EnhancedJax/Bagels/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "clawpanel",
     "name": "ClawPanel",
     "tagline": "Manage multiple AI agents easily",
@@ -48042,6 +48462,34 @@
     },
     "download_url": "https://github.com/ImVexed/muon/releases",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "asciinema-player",
+    "name": "asciinema-player",
+    "tagline": "Embed interactive terminal recordings anywhere online",
+    "repo_url": "https://github.com/asciinema/asciinema-player",
+    "full_name": "asciinema/asciinema-player",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "player"
+    ],
+    "icon": "/icons/asciinema-player.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 2934,
+    "tier": "tier3_powertool",
+    "summary": "Play lightweight terminal session recordings and live streams directly inside any web page with smooth controls and real text copying.",
+    "i18n": {
+      "it": "Riproduci registrazioni di terminali leggeri e flussi live direttamente su qualsiasi pagina web con comandi fluidi.",
+      "es": "Reproduce grabaciones de sesiones de terminal ligeras y transmisiones en vivo directamente en cualquier página web.",
+      "fr": "Lisez des enregistrements de terminal légers et des flux en direct directement sur n'importe quelle page web facilement.",
+      "de": "Spielen Sie leichte Terminal-Aufnahmen und Live-Streams direkt auf jeder Webseite mit reibungslosen Bedienelementen ab."
+    },
+    "download_url": "https://github.com/asciinema/asciinema-player/releases/download/v3.19.0/asciinema-player.css",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "wwwsqldesigner",
@@ -48126,6 +48574,34 @@
     },
     "download_url": "https://jekyll.github.io/jekyll-admin/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "moviebox-tui",
+    "name": "MovieBox-Tui",
+    "tagline": "Stream and download movies from your terminal.",
+    "repo_url": "https://github.com/mesamirh/moviebox-tui",
+    "full_name": "mesamirh/moviebox-tui",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "media-player"
+    ],
+    "icon": "/icons/moviebox-tui.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 2914,
+    "tier": "tier3_powertool",
+    "summary": "Browse, stream, and download movies, TV series, and live television directly inside your command-line terminal window.",
+    "i18n": {
+      "it": "Esplora, riproduci in streaming e scarica film, serie TV e televisione in diretta direttamente dal tuo terminale.",
+      "es": "Busca, transmite y descarga películas, series y televisión en vivo directamente dentro de la ventana de tu terminal.",
+      "fr": "Parcourez, diffusez et téléchargez des films, des séries TV et la télévision en direct directement dans votre terminal.",
+      "de": "Durchsuchen, streamen und laden Sie Filme, Serien und Live-TV direkt in Ihrem Befehlszeilen-Terminal herunter."
+    },
+    "download_url": "https://github.com/mesamirh/MovieBox-Tui/releases/download/v0.1.30/SHA256SUMS",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "mili",
@@ -48240,6 +48716,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "tach",
+    "name": "tach",
+    "tagline": "Enforce Python code boundaries and dependencies",
+    "repo_url": "https://github.com/tach-org/tach",
+    "full_name": "tach-org/tach",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "architecture",
+      "dependencies"
+    ],
+    "icon": "/icons/tach.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2875,
+    "tier": "tier3_powertool",
+    "summary": "Manage Python code organization easily by visualizing and enforcing clean module boundaries without slowing down execution.",
+    "i18n": {
+      "it": "Organizza il tuo codice Python visualizzando e applicando regole pulite tra i moduli senza rallentare l'esecuzione.",
+      "es": "Organiza tu código Python visualizando y aplicando límites claros entre módulos sin ralentizar la ejecución.",
+      "fr": "Organisez votre code Python en visualisant et en appliquant des limites propres entre les modules sans ralentissement.",
+      "de": "Organisiere deinen Python-Code durch saubere Modulgrenzen und visuelle Darstellung, ganz ohne Leistungseinbußen."
+    },
+    "download_url": "https://docs.gauge.sh/",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "wailbrew",
     "name": "WailBrew",
     "tagline": "Simple visual manager for Homebrew packages",
@@ -48294,6 +48798,34 @@
     },
     "download_url": "https://github.com/mvp/uhubctl/releases",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "dircolors-solarized",
+    "name": "dircolors-solarized",
+    "tagline": "Beautiful color themes for your terminal.",
+    "repo_url": "https://github.com/seebi/dircolors-solarized",
+    "full_name": "seebi/dircolors-solarized",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "system-utility",
+      "themes"
+    ],
+    "icon": "/icons/dircolors-solarized.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2859,
+    "tier": "tier3_powertool",
+    "summary": "Give your command line file lists a gorgeous, eye-friendly color makeover using Ethan Schoonover's popular Solarized design palette.",
+    "i18n": {
+      "it": "Rendi l'elenco dei file nel terminale più bello e riposante usando la famosa palette di colori Solarized.",
+      "es": "Dale a tus listas de archivos en la terminal un cambio de color hermoso y agradable a la vista usando la paleta Solarized.",
+      "fr": "Offrez à vos listes de fichiers de terminal une superbe palette de couleurs reposante grâce au design populaire Solarized.",
+      "de": "Verleihen Sie Ihren Dateilisten im Terminal ein wunderschönes, augenschonendes Farbdesign mit der beliebten Solarized-Palette."
+    },
+    "download_url": "https://ethanschoonover.com/solarized",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "pi-apps",
@@ -48408,6 +48940,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "extraterm",
+    "name": "Extraterm",
+    "tagline": "The modern terminal emulator for power users",
+    "repo_url": "https://github.com/sedwards2009/extraterm",
+    "full_name": "sedwards2009/extraterm",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "developer-tools"
+    ],
+    "icon": "/icons/extraterm.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2836,
+    "tier": "tier3_powertool",
+    "summary": "Extraterm upgrades your command line workflow with image previews, split panes, and smart command framing.",
+    "i18n": {
+      "it": "Extraterm migliora il tuo flusso di lavoro da riga di comando con anteprime di immagini e divisione dello schermo.",
+      "es": "Extraterm mejora tu flujo de trabajo en la línea de comandos con vistas previas de imágenes y paneles divididos.",
+      "fr": "Extraterm améliore votre flux de travail en ligne de commande avec des aperçus d'images et des volets divisés.",
+      "de": "Extraterm verbessert Ihren Befehlszeilen-Workflow mit Bildvorschaubereichen und teilbaren Arbeitsfenstern."
+    },
+    "download_url": "https://github.com/sedwards2009/extraterm/releases/download/v0.82.0/extratermqt-setup-0.82.0.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "roslynpad",
     "name": "RoslynPad",
     "tagline": "Lightweight editor for C# programming",
@@ -48434,6 +48994,34 @@
     },
     "download_url": "https://github.com/roslynpad/roslynpad/releases/download/22.1/RoslynPad-macos-arm64.dmg",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "hugo-theme-terminal",
+    "name": "Hugo Theme Terminal",
+    "tagline": "A clean vintage computer website theme.",
+    "repo_url": "https://github.com/panr/hugo-theme-terminal",
+    "full_name": "panr/hugo-theme-terminal",
+    "category": "Websites & SEO",
+    "tags": [
+      "blog",
+      "theme"
+    ],
+    "icon": "/icons/hugo-theme-terminal.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2834,
+    "tier": "tier3_powertool",
+    "summary": "Transform your static website with a classic, retro computer terminal look featuring monospace fonts and custom color schemes.",
+    "i18n": {
+      "it": "Trasforma il tuo sito con un classico stile da terminale retrò, caratterizzato da font a spaziatura fissa.",
+      "es": "Dale a tu sitio web un aspecto clásico de terminal retro con fuentes monoespaciadas y esquemas de color.",
+      "fr": "Donnez à votre site web un style de terminal informatique classique avec des polices à chasse fixe.",
+      "de": "Verleihen Sie Ihrer Website einen klassischen Retro-Terminal-Look mit Festbreitenschriften und Farben."
+    },
+    "download_url": "https://github.com/panr/hugo-theme-terminal/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "lin-cms-vue",
@@ -48492,6 +49080,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "dekit",
+    "name": "dekit",
+    "tagline": "Manage background software tasks easily",
+    "repo_url": "https://github.com/pvolok/dekit",
+    "full_name": "pvolok/dekit",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "process-manager",
+      "utility"
+    ],
+    "icon": "/icons/dekit.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2825,
+    "tier": "tier3_powertool",
+    "summary": "Manage your background servers, databases, and automated background tasks smoothly across development and production environments.",
+    "i18n": {
+      "it": "Gestisci server, database e attività in background in modo fluido sia in ambiente di sviluppo che di produzione.",
+      "es": "Gestiona tus servidores y bases de datos en segundo plano sin esfuerzo en entornos de desarrollo y producción.",
+      "fr": "Gérez vos serveurs et bases de données en arrière-plan en toute simplicité dans vos environnements.",
+      "de": "Verwalten Sie Ihre Server und Datenbanken reibungslos sowohl in Entwicklungs- als auch in Produktionsumgebungen."
+    },
+    "download_url": "https://github.com/pvolok/dekit/releases/download/v0.10.3/install.ps1",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "homebridge-config-ui-x",
     "name": "homebridge-config-ui-x",
     "tagline": "Manage your smart home server browser dashboard.",
@@ -48548,6 +49164,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "timg",
+    "name": "timg",
+    "tagline": "View images and videos in your terminal",
+    "repo_url": "https://github.com/hzeller/timg",
+    "full_name": "hzeller/timg",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "viewer"
+    ],
+    "icon": "/icons/timg.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v2)",
+    "stars": 2806,
+    "tier": "tier3_powertool",
+    "summary": "Preview pictures, animated GIFs, and videos directly inside your shell without launching a bulky external window.",
+    "i18n": {
+      "it": "Guarda foto, GIF animate e video direttamente nella tua shell senza aprire pesanti programmi esterni.",
+      "es": "Previsualiza fotos, GIFs animados y videos directamente en tu consola sin abrir pesadas aplicaciones externas.",
+      "fr": "Aperçu de photos, de GIF animés et de vidéos directement dans votre terminal sans lancer d'application externe.",
+      "de": "Vorschau von Fotos, animierten GIFs und Videos direkt in der Shell, ohne separate Grafikprogramme zu öffnen."
+    },
+    "download_url": "https://github.com/hzeller/timg/releases/download/v1.6.3/timg-v1.6.3-x86_64.AppImage",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "gloomberb",
+    "name": "Gloomberb",
+    "tagline": "Fast keyboard-driven finance terminal",
+    "repo_url": "https://github.com/gloom-sh/gloomberb",
+    "full_name": "gloom-sh/gloomberb",
+    "category": "Productivity",
+    "tags": [
+      "finance",
+      "stocks"
+    ],
+    "icon": "/icons/gloomberb.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS",
+    "license": "Open Source (MIT)",
+    "stars": 2805,
+    "tier": "tier3_powertool",
+    "summary": "Track live quotes, stock charts, financial filings, and your personal investment portfolio right from your keyboard.",
+    "i18n": {
+      "it": "Monitora quotazioni, grafici azionari e portafogli di investimento direttamente dalla tua tastiera.",
+      "es": "Sigue cotizaciones, gráficos bursátiles y tu cartera de inversiones directamente desde el teclado.",
+      "fr": "Suivez les cotations, les graphiques boursiers et votre portefeuille directement depuis votre clavier.",
+      "de": "Verfolgen Sie Börsenkurse, Charts und Ihr Anlageportfolio direkt über Ihre Tastatur."
+    },
+    "download_url": "https://github.com/gloom-sh/gloomberb/releases/download/v0.20.21/GloomSetup.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "titanium-sdk",
     "name": "Titanium SDK",
     "tagline": "Build native mobile apps using JavaScript",
@@ -48602,6 +49274,34 @@
     },
     "download_url": "https://zauonlok.github.io/renderer/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "gonzo",
+    "name": "Gonzo",
+    "tagline": "Real-time terminal log analysis tool",
+    "repo_url": "https://github.com/control-theory/gonzo",
+    "full_name": "control-theory/gonzo",
+    "category": "Utilities & Power Tools",
+    "tags": [
+      "logs",
+      "system-utility"
+    ],
+    "icon": "/icons/gonzo.png",
+    "is_webapp": false,
+    "app_type": "cli",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 2797,
+    "tier": "tier3_powertool",
+    "summary": "A powerful, real-time log analysis tool for your terminal with interactive charts, AI-powered insights, and live web dashboards.",
+    "i18n": {
+      "it": "Analizza i log in tempo reale direttamente dal terminale con grafici interattivi, intelligenza artificiale e cruscotti web.",
+      "es": "Analiza registros en tiempo real desde tu terminal con gráficos interactivos, inteligencia artificial y paneles web.",
+      "fr": "Analysez vos journaux en temps réel depuis le terminal avec des graphiques interactifs, de l'intelligence artificielle et des tableaux de bord.",
+      "de": "Analysieren Sie Protokolle in Echtzeit im Terminal mit interaktiven Diagrammen, künstlicher Intelligenz und Web-Dashboards."
+    },
+    "download_url": "https://github.com/control-theory/gonzo/releases/download/v0.4.3/checksums.txt",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "nodezator",
