@@ -532,6 +532,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "free-programming-books-zh-cn",
+    "name": "Free Programming Books Chinese",
+    "tagline": "Curated collection of free Chinese programming books.",
+    "repo_url": "https://github.com/justjavac/free-programming-books-zh_cn",
+    "full_name": "justjavac/free-programming-books-zh_cn",
+    "category": "Productivity",
+    "tags": [
+      "books",
+      "programming"
+    ],
+    "icon": "/icons/free-programming-books-zh-cn.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 119704,
+    "tier": "tier1_gui",
+    "summary": "Explore a massive, community-curated library of free programming books, tutorials, and development guides entirely in Chinese.",
+    "i18n": {
+      "it": "Scopri una vasta libreria di libri di programmazione gratuiti, guide e manuali di sviluppo interamente in lingua cinese.",
+      "es": "Explora una gran biblioteca comunitaria de libros de programación gratuitos y guías de desarrollo en idioma chino.",
+      "fr": "Découvrez une vaste bibliothèque communautaire de livres de programmation gratuits et de guides de développement en chinois.",
+      "de": "Entdecken Sie eine riesige, von der Community kuratierte Bibliothek kostenloser Programmierbücher und Anleitungen auf Chinesisch."
+    },
+    "download_url": "https://weibo.com/justjavac",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "immich",
     "name": "Immich",
     "tagline": "Your private media server and backup",
@@ -2716,6 +2744,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "gkd",
+    "name": "gkd",
+    "tagline": "Automate screen clicks and bypass annoyances",
+    "repo_url": "https://github.com/gkd-kit/gkd",
+    "full_name": "gkd-kit/gkd",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "automation"
+    ],
+    "icon": "/icons/gkd.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 45384,
+    "tier": "tier1_gui",
+    "summary": "An Android application that uses custom rules to automatically tap your screen, skip opening screens, and dismiss prompts.",
+    "i18n": {
+      "it": "Un'applicazione Android che usa regole personalizzate per toccare automaticamente lo schermo, saltare le schermate iniziali e chiudere gli avvisi.",
+      "es": "Una aplicación para Android que utiliza reglas personalizadas para tocar automáticamente la pantalla, saltar pantallas de inicio y descartar avisos.",
+      "fr": "Une application Android qui utilise des règles personnalisées pour toucher automatiquement l'écran, passer les écrans d'accueil et fermer les alertes.",
+      "de": "Eine Android-Anwendung, die benutzerdefinierte Regeln verwendet, um automatisch auf den Bildschirm zu tippen, Startbildschirme zu überspringen und Meldungen zu schließen."
+    },
+    "download_url": "https://github.com/gkd-kit/gkd/releases/download/v1.13.2/gkd-v1.13.2.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "fd",
     "name": "fd",
     "tagline": "Lightning-fast alternative to standard file search.",
@@ -4003,6 +4059,34 @@
     "updated_at": "2026-11-24"
   },
   {
+    "slug": "smarttube",
+    "name": "SmartTube",
+    "tagline": "Distraction-free media browsing on your TV",
+    "repo_url": "https://github.com/yuliskov/smarttube",
+    "full_name": "yuliskov/smarttube",
+    "category": "Productivity",
+    "tags": [
+      "streaming",
+      "media-player"
+    ],
+    "icon": "/icons/smarttube.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (MIT)",
+    "stars": 36622,
+    "tier": "tier1_gui",
+    "summary": "Enjoy seamless video streaming on your Android TV with custom speed controls, ad skipping, and a clean interface.",
+    "i18n": {
+      "it": "Enjoy seamless video streaming on your Android TV with custom speed controls, ad skipping, and a clean interface.",
+      "es": "Enjoy seamless video streaming on your Android TV with custom speed controls, ad skipping, and a clean interface.",
+      "fr": "Enjoy seamless video streaming on your Android TV with custom speed controls, ad skipping, and a clean interface.",
+      "de": "Enjoy seamless video streaming on your Android TV with custom speed controls, ad skipping, and a clean interface."
+    },
+    "download_url": "https://github.com/yuliskov/SmartTube/releases/download/32.80s/SmartTube_stable_32.80_arm64-v8a.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "continue",
     "name": "Continue",
     "tagline": "Your open-source intelligent coding assistant",
@@ -4731,6 +4815,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "qtscrcpy",
+    "name": "QtScrcpy",
+    "tagline": "Control Android screens from your computer",
+    "repo_url": "https://github.com/barry-ran/qtscrcpy",
+    "full_name": "barry-ran/qtscrcpy",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "screen-mirroring"
+    ],
+    "icon": "/icons/qtscrcpy.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Linux, Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 33013,
+    "tier": "tier1_gui",
+    "summary": "Display and control your Android smartphone screen directly from your computer with ultra-low latency, keyboard mapping, and zero ads.",
+    "i18n": {
+      "it": "Visualizza e controlla lo schermo del tuo smartphone Android direttamente dal PC con latenza minima e senza pubblicità.",
+      "es": "Muestra y controla la pantalla de tu móvil Android directamente en el PC con baja latencia y sin anuncios.",
+      "fr": "Affichez et contrôlez l'écran de votre smartphone Android directement sur votre PC avec une faible latence.",
+      "de": "Zeigen und steuern Sie Ihren Android-Smartphone-Bildschirm direkt auf dem PC mit extrem niedriger Latenz."
+    },
+    "download_url": "https://github.com/barry-ran/QtScrcpy/releases/download/v4.2.1/QtScrcpy-mac-arm64-Qt6.5.3-v4.2.1.dmg",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "meetily",
     "name": "meetily",
     "tagline": "Private AI meeting notes on your device",
@@ -5121,6 +5233,34 @@
     },
     "download_url": "https://avaloniaui.net",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "android-open-project",
+    "name": "Android Open Project",
+    "tagline": "Curated collection of Android open source projects.",
+    "repo_url": "https://github.com/trinea/android-open-project",
+    "full_name": "trinea/android-open-project",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "open-source"
+    ],
+    "icon": "/icons/android-open-project.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 31816,
+    "tier": "tier1_gui",
+    "summary": "Browse a categorized directory of open source Android tools, libraries, and custom view components to accelerate app creation.",
+    "i18n": {
+      "it": "Esplora una directory di strumenti e librerie open source per Android per velocizzare lo sviluppo delle tue app.",
+      "es": "Explora un directorio categorizado de herramientas y librerías abiertas para Android para agilizar tus desarrollos.",
+      "fr": "Parcourez un répertoire d'outils et de bibliothèques open source pour Android afin d'accélérer vos créations.",
+      "de": "Durchstöbern Sie eine kuratierte Liste von Android-Werkzeugen und -Bibliotheken zur Beschleunigung Ihrer Apps."
+    },
+    "download_url": "https://p.codekk.com/",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "flameshot",
@@ -6971,6 +7111,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "lsposed",
+    "name": "LSPosed",
+    "tagline": "Modify Android system behavior without changing apps.",
+    "repo_url": "https://github.com/lsposed/lsposed",
+    "full_name": "lsposed/lsposed",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "customization"
+    ],
+    "icon": "/icons/lsposed.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 25633,
+    "tier": "tier1_gui",
+    "summary": "LSPosed lets advanced Android users customize system settings and app features safely in memory without altering original files.",
+    "i18n": {
+      "it": "LSPosed consente di personalizzare le impostazioni di Android in memoria senza modificare i file originali delle applicazioni.",
+      "es": "LSPosed permite personalizar ajustes de Android en la memoria sin alterar los archivos originales de las aplicaciones.",
+      "fr": "LSPosed permet de personnaliser les paramètres Android en mémoire sans modifier les fichiers d'origine des applications.",
+      "de": "LSPosed ermöglicht die Anpassung von Android-Einstellungen im Arbeitsspeicher, ohne Originaldateien zu verändern."
+    },
+    "download_url": "https://lsposed.org",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "asdf",
     "name": "asdf",
     "tagline": "Manage all language versions in one tool",
@@ -7165,6 +7333,34 @@
     },
     "download_url": "https://fig.io",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "smartrefreshlayout",
+    "name": "SmartRefreshLayout",
+    "tagline": "Smooth pull-to-refresh for Android apps.",
+    "repo_url": "https://github.com/scwang90/smartrefreshlayout",
+    "full_name": "scwang90/smartrefreshlayout",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ui"
+    ],
+    "icon": "/icons/smartrefreshlayout.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 25081,
+    "tier": "tier1_gui",
+    "summary": "An advanced pull-to-refresh and load-more layout for Android applications featuring customizable headers, footers, and smooth scrolling animations.",
+    "i18n": {
+      "it": "Un layout avanzato per aggiornare e caricare contenuti nelle app Android con animazioni fluide e testate personalizzabili.",
+      "es": "Un diseño avanzado para refrescar y cargar contenido en aplicaciones de Android con animaciones fluidas y encabezados personalizables.",
+      "fr": "Un composant avancé de rafraîchissement et de chargement pour Android doté d'animations fluides et d'en-têtes personnalisables.",
+      "de": "Ein fortschrittliches Layout zum Aktualisieren und Laden von Inhalten in Android-Apps mit flüssigen Animationen und anpassbaren Elementen."
+    },
+    "download_url": "https://segmentfault.com/a/1190000010066071",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "handbrake",
@@ -7641,6 +7837,34 @@
     },
     "download_url": "https://github.com/yorukot/superfile/releases/download/v1.6.1/superfile-v1.6.1-checksums.txt",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "ncnn",
+    "name": "ncnn",
+    "tagline": "Run artificial intelligence models anywhere efficiently.",
+    "repo_url": "https://github.com/tencent/ncnn",
+    "full_name": "tencent/ncnn",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "machine-learning"
+    ],
+    "icon": "/icons/ncnn.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Custom Open License",
+    "stars": 24096,
+    "tier": "tier1_gui",
+    "summary": "High-performance neural network inference engine that runs AI models smoothly across mobile phones, computers, and everyday smart devices without requiring external runtime libraries.",
+    "i18n": {
+      "it": "Motore di calcolo per reti neurali ad alte prestazioni che esegue modelli di intelligenza artificiale su smartphone e computer.",
+      "es": "Motor de inferencia de redes neuronales de alto rendimiento que ejecuta modelos de inteligencia artificial en móviles y ordenadores.",
+      "fr": "Moteur d'inférence de réseaux neuronaux haute performance qui exécute des modèles d'IA sur mobiles et ordinateurs.",
+      "de": "Leistungsstarkes Neuronales-Netzwerk-Inferenz-Tool, das KI-Modelle reibungslos auf Mobiltelefonen und Computern ausführt."
+    },
+    "download_url": "https://github.com/Tencent/ncnn/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "archon",
@@ -9939,6 +10163,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "backgroundmusic",
+    "name": "BackgroundMusic",
+    "tagline": "Control Mac app volumes and auto-pause music",
+    "repo_url": "https://github.com/kyleneideck/backgroundmusic",
+    "full_name": "kyleneideck/backgroundmusic",
+    "category": "Productivity",
+    "tags": [
+      "macos",
+      "audio"
+    ],
+    "icon": "/icons/backgroundmusic.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (GPL v2)",
+    "stars": 19402,
+    "tier": "tier1_gui",
+    "summary": "A free macOS utility that lets you adjust the volume of individual apps and automatically pauses your music when other sounds play.",
+    "i18n": {
+      "it": "Un'utilità gratuita per macOS che consente di regolare il volume di ogni app e di mettere in pausa automaticamente la musica quando altri suoni vengono riprodotti.",
+      "es": "Una utilidad gratuita para macOS que permite ajustar el volumen de cada aplicación y pausar automáticamente la música cuando se reproducen otros sonidos.",
+      "fr": "Un utilitaire gratuit pour macOS qui permet de régler le volume de chaque application et de mettre automatiquement en pause la musique lorsque d'autres sons sont joués.",
+      "de": "Ein kostenloses macOS-Tool, das die Lautstärke einzelner Apps anpasst und Musik automatisch pausiert, wenn andere Töne abgespielt werden."
+    },
+    "download_url": "https://github.com/kyleneideck/BackgroundMusic/releases/download/v0.5.0/BackgroundMusic-0.5.0.pkg",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "hurl",
     "name": "hurl",
     "tagline": "Run and test web requests easily.",
@@ -12207,6 +12459,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "electerm",
+    "name": "electerm",
+    "tagline": "All-in-one remote server manager tool",
+    "repo_url": "https://github.com/electerm/electerm",
+    "full_name": "electerm/electerm",
+    "category": "Productivity",
+    "tags": [
+      "system-utility",
+      "ssh"
+    ],
+    "icon": "/icons/electerm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android",
+    "license": "Open Source (MIT)",
+    "stars": 15705,
+    "tier": "tier1_gui",
+    "summary": "Manage remote servers, files, and terminal sessions effortlessly in one sleek desktop and mobile window.",
+    "i18n": {
+      "it": "Gestisci server remoti, file e sessioni di terminale senza sforzo in un'unica elegante finestra.",
+      "es": "Administra servidores remotos, archivos y sesiones de terminal sin esfuerzo en una sola ventana.",
+      "fr": "Gérez vos serveurs distants, fichiers et sessions de terminal facilement dans une seule interface.",
+      "de": "Verwalten Sie Remote-Server, Dateien und Terminal-Sitzungen mühelos in einer übersichtlichen Benutzeroberfläche."
+    },
+    "download_url": "https://github.com/electerm/electerm/releases/download/v5.15.0/electerm-5.15.0-win-arm64-installer.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "dearpygui",
     "name": "DearPyGui",
     "tagline": "Build fast interactive Python windows instantly.",
@@ -12429,6 +12709,34 @@
     },
     "download_url": "https://rdagent.azurewebsites.net/",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "android",
+    "name": "Android Open Source Projects",
+    "tagline": "Curated mobile development tutorials and components",
+    "repo_url": "https://github.com/open-android/android",
+    "full_name": "open-android/android",
+    "category": "Productivity",
+    "tags": [
+      "development",
+      "education"
+    ],
+    "icon": "/icons/android.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 15414,
+    "tier": "tier1_gui",
+    "summary": "Discover heavily tested mobile code tools and step-by-step video guides designed to make application creation clear and approachable.",
+    "i18n": {
+      "it": "Scopri strumenti di codice mobile testati e guide video passo-passo per rendere la creazione di app semplice e chiara.",
+      "es": "Descubre herramientas de código móvil probadas y videoguías paso a paso diseñadas para facilitar la creación de aplicaciones.",
+      "fr": "Découvrez des outils de code mobile testés et des guides vidéo étape par étape pour rendre la création d'applications facile.",
+      "de": "Entdecken Sie getestete mobile Code-Werkzeuge und Schritt-für-Schritt-Videoanleitungen für eine einfache App-Erstellung."
+    },
+    "download_url": "https://github.com/open-android/Android/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "gmscore",
@@ -12709,6 +13017,34 @@
     },
     "download_url": "https://github.com/alexta69/metube/releases",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "vosk-api",
+    "name": "vosk-api",
+    "tagline": "Turn spoken words into text completely offline.",
+    "repo_url": "https://github.com/alphacep/vosk-api",
+    "full_name": "alphacep/vosk-api",
+    "category": "Productivity",
+    "tags": [
+      "speech-to-text",
+      "offline"
+    ],
+    "icon": "/icons/vosk-api.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 15285,
+    "tier": "tier1_gui",
+    "summary": "An offline speech recognition tool that converts speech to text across dozens of languages without sending data to the cloud.",
+    "i18n": {
+      "it": "Uno strumento di riconoscimento vocale offline che converte il parlato in testo in decine di lingue senza inviare dati sul cloud.",
+      "es": "Una herramienta de reconocimiento de voz sin conexión que transcribe audio en docenas de idiomas sin enviar datos a la nube.",
+      "fr": "Un outil de reconnaissance vocale hors ligne qui transcrit l'audio en texte dans de nombreuses langues sans envoyer vos données.",
+      "de": "Ein Offline-Spracherkennungstool, das Sprache in vielen Sprachen in Text umwandelt, ohne Daten an die Cloud zu senden."
+    },
+    "download_url": "https://github.com/alphacep/vosk-api/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "swifterswift",
@@ -13549,6 +13885,34 @@
     },
     "download_url": "https://github.com/hdodenhof/CircleImageView/releases",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "arouter",
+    "name": "ARouter",
+    "tagline": "Simplify Android component navigation and modularization.",
+    "repo_url": "https://github.com/alibaba/arouter",
+    "full_name": "alibaba/arouter",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "modularization"
+    ],
+    "icon": "/icons/arouter.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 14447,
+    "tier": "tier1_gui",
+    "summary": "Easily split large mobile applications into independent pieces and navigate smoothly between them with automated parameter passing.",
+    "i18n": {
+      "it": "Dividi grandi applicazioni in parti indipendenti e naviga facilmente tra di esse con passaggio automatico dei parametri.",
+      "es": "Divide grandes aplicaciones móviles en piezas independientes y navega suavemente entre ellas con paso automático de parámetros.",
+      "fr": "Divisez de grandes applications en morceaux indépendants et naviguez facilement entre eux avec transfert automatique de paramètres.",
+      "de": "Teile große mobile Apps in unabhängige Module auf und navigiere reibungslos zwischen ihnen mit automatischer Parameterübergabe."
+    },
+    "download_url": "https://github.com/alibaba/ARouter/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "browseros",
@@ -17161,6 +17525,34 @@
     },
     "download_url": "https://aihot.news",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "nvtop",
+    "name": "nvtop",
+    "tagline": "Monitor your graphics hardware performance easily.",
+    "repo_url": "https://github.com/syllo/nvtop",
+    "full_name": "syllo/nvtop",
+    "category": "Productivity",
+    "tags": [
+      "hardware",
+      "monitoring"
+    ],
+    "icon": "/icons/nvtop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Custom Open License",
+    "stars": 11175,
+    "tier": "tier1_gui",
+    "summary": "Track GPU and accelerator performance in real time using a familiar terminal layout.",
+    "i18n": {
+      "it": "Tieni d'occhio le prestazioni di GPU e acceleratori in tempo reale tramite un'interfaccia intuitiva.",
+      "es": "Visualiza el rendimiento de tus tarjetas gráficas y aceleradores en tiempo real con una interfaz clara.",
+      "fr": "Suivez l'utilisation de vos cartes graphiques et accélérateurs en temps réel avec un affichage clair.",
+      "de": "Überwachen Sie die Leistung von Grafikkarten und Prozessoren übersichtlich in Echtzeit direkt im Terminal."
+    },
+    "download_url": "https://github.com/Syllo/nvtop/releases/download/3.4.0/nvtop-3.4.0-aarch64.AppImage",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "bbot",
@@ -27914,6 +28306,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "swiftystorekit",
+    "name": "SwiftyStoreKit",
+    "tagline": "Lightweight in-app purchase helper for Swift",
+    "repo_url": "https://github.com/bizz84/swiftystorekit",
+    "full_name": "bizz84/swiftystorekit",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "macos"
+    ],
+    "icon": "/icons/swiftystorekit.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 6667,
+    "tier": "tier1_gui",
+    "summary": "Simplify digital purchases and subscriptions inside Apple ecosystem apps using a clean, easy-to-read programming interface.",
+    "i18n": {
+      "it": "Gestisci acquisti digitali e abbonamenti nelle app per dispositivi Apple con un'interfaccia di programmazione pulita e intuitiva.",
+      "es": "Simplifica las compras digitales y suscripciones en aplicaciones de Apple usando una interfaz de programación limpia y directa.",
+      "fr": "Simplifiez les achats numériques et abonnements dans vos applications Apple grâce à une interface de programmation claire.",
+      "de": "Vereinfachen Sie digitale Käufe und Abonnements in Apple-Anwendungen mithilfe einer sauberen und klaren Programmierschnittstelle."
+    },
+    "download_url": "https://github.com/bizz84/SwiftyStoreKit/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "stretchly",
     "name": "stretchly",
     "tagline": "Friendly reminder app for healthy computer breaks",
@@ -30378,6 +30798,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "onlyswitch",
+    "name": "OnlySwitch",
+    "tagline": "All-in-one macOS menu bar control center",
+    "repo_url": "https://github.com/jacklandrin/onlyswitch",
+    "full_name": "jacklandrin/onlyswitch",
+    "category": "Graphics & Design",
+    "tags": [
+      "macos",
+      "menu-bar"
+    ],
+    "icon": "/icons/onlyswitch.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 6084,
+    "tier": "tier1_gui",
+    "summary": "Manage Mac system settings, audio mixers, shortcuts, and widgets from one customizable menu bar companion app.",
+    "i18n": {
+      "it": "Gestisci impostazioni Mac, mixer audio, scorciatoie e widget da un'unica applicazione personalizzabile per la barra dei menu.",
+      "es": "Gestiona ajustes del Mac, mezcladores de audio, accesos directos y widgets desde una app personalizable en la barra de menús.",
+      "fr": "Gérez les réglages Mac, mixeurs audio, raccourcis et widgets depuis une application personnalisable dans la barre des menus.",
+      "de": "Verwalten Sie Mac-Systemeinstellungen, Audiomixer, Shortcuts und Widgets über einen anpassbaren Begleiter in der Menüleiste."
+    },
+    "download_url": "https://github.com/jacklandrin/OnlySwitch/releases/download/release_3.7.0/OnlySwitch.dmg",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "gsudo",
     "name": "gsudo",
     "tagline": "Run commands with admin rights easily",
@@ -30711,6 +31159,34 @@
     },
     "download_url": "https://github.com/SevaSk/ecoute",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "markedit",
+    "name": "MarkEdit",
+    "tagline": "Simple Markdown editor for Mac",
+    "repo_url": "https://github.com/markedit-app/markedit",
+    "full_name": "markedit-app/markedit",
+    "category": "Productivity",
+    "tags": [
+      "markdown",
+      "macos"
+    ],
+    "icon": "/icons/markedit.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS",
+    "license": "Open Source (MIT)",
+    "stars": 6021,
+    "tier": "tier1_gui",
+    "summary": "MarkEdit lets you write and edit Markdown files on macOS with a tiny, fast, and privacy‑focused app that feels like the built‑in TextEdit.",
+    "i18n": {
+      "it": "MarkEdit ti permette di scrivere e modificare file Markdown su macOS con un’app piccola, veloce e attenta alla privacy, che ricorda l’editor di testo predefinito.",
+      "es": "MarkEdit te permite crear y editar archivos Markdown en macOS con una aplicación pequeña, rápida y centrada en la privacidad, que se siente como el editor de texto estándar.",
+      "fr": "MarkEdit vous permet d’écrire et de modifier des fichiers Markdown sur macOS grâce à une application petite, rapide et respectueuse de la vie privée, qui ressemble à l’éditeur de texte natif.",
+      "de": "MarkEdit ermöglicht das Schreiben und Bearbeiten von Markdown‑Dateien unter macOS mit einer kleinen, schnellen und datenschutzfreundlichen Anwendung, die wie der integrierte Texteditor wirkt."
+    },
+    "download_url": "https://github.com/MarkEdit-app/MarkEdit/releases/download/v1.37.1/MarkEdit-1.37.1-apple-silicon.dmg",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "studio",
@@ -49080,6 +49556,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "plasma-panel-colorizer",
+    "name": "Plasma Panel Colorizer",
+    "tagline": "Customize and colorize your desktop panels",
+    "repo_url": "https://github.com/luisbocanegra/plasma-panel-colorizer",
+    "full_name": "luisbocanegra/plasma-panel-colorizer",
+    "category": "Productivity",
+    "tags": [
+      "customization",
+      "desktop"
+    ],
+    "icon": "/icons/plasma-panel-colorizer.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 1288,
+    "tier": "tier1_gui",
+    "summary": "Transform your Linux desktop panels with advanced color controls, background effects, and flexible style presets.",
+    "i18n": {
+      "it": "Trasforma i pannelli del tuo desktop Linux con controlli cromatici avanzati, effetti di sfondo e preset di stile flessibili.",
+      "es": "Transforma los paneles de tu escritorio con controles de color avanzados, efectos de fondo y ajustes preestablecidos.",
+      "fr": "Transformez vos panneaux de bureau Linux grâce à des commandes de couleur avancées et des préréglages de style.",
+      "de": "Verändern Sie Ihre Linux-Desktop-Leisten mit erweiterten Farbsteuerungseinstellungen, Hintergrundeffekten und Stilen."
+    },
+    "download_url": "https://github.com/luisbocanegra/plasma-panel-colorizer/releases/download/v8.1.0/plasmoid-panel-colorizer-v8.1.0.plasmoid",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "launcher",
     "name": "Flashpoint Launcher",
     "tagline": "Explore and play preserved web classics.",
@@ -52916,6 +53420,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "breezy-desktop",
+    "name": "breezy-desktop",
+    "tagline": "Virtual reality workspaces for Linux desktops",
+    "repo_url": "https://github.com/wheaney/breezy-desktop",
+    "full_name": "wheaney/breezy-desktop",
+    "category": "Productivity",
+    "tags": [
+      "xr",
+      "virtual-desktop"
+    ],
+    "icon": "/icons/breezy-desktop.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (GPL v3)",
+    "stars": 799,
+    "tier": "tier1_gui",
+    "summary": "Transform your smart glasses into multi-monitor virtual workspaces or gaming displays on Linux.",
+    "i18n": {
+      "it": "Trasforma i tuoi occhiali smart in workstation virtuali multi-schermo o display da gioco su Linux.",
+      "es": "Transforma tus gafas inteligentes en escritorios virtuales multidispositivo o pantallas de juego en Linux.",
+      "fr": "Transformez vos lunettes intelligentes en bureaux virtuels multi-écrans ou écrans de jeu sous Linux.",
+      "de": "Verwandeln Sie Ihre Smart Glasses in virtuelle Multi-Monitor-Arbeitsplätze oder Gaming-Displays unter Linux für immersive Produktivität."
+    },
+    "download_url": "https://github.com/wheaney/breezy-desktop/releases/download/v2.12.4/breezy_gnome_setup",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "opencode-studio",
     "name": "Opencode Studio",
     "tagline": "Manage your local OpenCode environment visually",
@@ -53082,6 +53614,34 @@
     },
     "download_url": "https://asgardcms.com/",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "audioghost-ai",
+    "name": "AudioGhost AI",
+    "tagline": "Extract any sound using text prompts",
+    "repo_url": "https://github.com/0x0funky/audioghost-ai",
+    "full_name": "0x0funky/audioghost-ai",
+    "category": "Productivity",
+    "tags": [
+      "audio",
+      "ai"
+    ],
+    "icon": "/icons/audioghost-ai.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Custom Open License",
+    "stars": 786,
+    "tier": "tier1_gui",
+    "summary": "Extract or remove any specific sound from audio and video files using simple text descriptions, running entirely on your local computer.",
+    "i18n": {
+      "it": "Estrai o rimuovi qualsiasi suono specifico da file audio e video usando semplici descrizioni di testo, direttamente sul tuo computer.",
+      "es": "Extrae o elimina cualquier sonido específico de archivos de audio y video usando descripciones de texto simples, directamente en tu equipo.",
+      "fr": "Extrayez ou supprimez n'importe quel son spécifique de fichiers audio et vidéo à l'aide de simples descriptions textuelles en local.",
+      "de": "Extrahieren oder entfernen Sie bestimmte Töne aus Audio- und Videodateien mithilfe einfacher Textbeschreibungen direkt auf Ihrem PC."
+    },
+    "download_url": "https://github.com/0x0funky/audioghost-ai/releases/download/v1.4.0/AudioGhost_1.4.0_x64-setup.exe",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "call-me",
@@ -53896,6 +54456,34 @@
     "updated_at": "2026-11-24"
   },
   {
+    "slug": "offline-file-converter-windows",
+    "name": "Offline File Converter for Windows",
+    "tagline": "Convert files privately on Windows offline.",
+    "repo_url": "https://github.com/zero5122/offline-file-converter-windows",
+    "full_name": "zero5122/offline-file-converter-windows",
+    "category": "Productivity",
+    "tags": [
+      "converter",
+      "windows"
+    ],
+    "icon": "/icons/offline-file-converter-windows.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 692,
+    "tier": "tier1_gui",
+    "summary": "A free desktop application that converts documents, images, audio, and video directly on your computer without uploading files to online servers.",
+    "i18n": {
+      "it": "Un'applicazione desktop gratuita per convertire documenti, immagini, audio e video direttamente sul tuo computer senza inviare file online.",
+      "es": "Una aplicación de escritorio gratuita que convierte documentos, imágenes, audio y video localmente en tu equipo sin subir archivos a internet.",
+      "fr": "Une application de bureau gratuite pour convertir documents, images, audio et vidéo directement sur votre ordinateur sans transfert en ligne.",
+      "de": "Eine kostenlose Desktop-Anwendung zum lokalen Konvertieren von Dokumenten, Bildern, Audio und Video auf Ihrem PC ohne Cloud-Uploads."
+    },
+    "download_url": "https://github.com/zero5122/offline-file-converter-windows/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "enduro",
     "name": "Enduro",
     "tagline": "Minimalistic lean node.js publishing tool",
@@ -54034,6 +54622,34 @@
     },
     "download_url": "https://www.coppieters.be",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "clipboard-history-manager-windows",
+    "name": "Windows Clipboard History Manager",
+    "tagline": "Never lose a copied item again.",
+    "repo_url": "https://github.com/umbra9179/clipboard-history-manager-windows",
+    "full_name": "umbra9179/clipboard-history-manager-windows",
+    "category": "Productivity",
+    "tags": [
+      "windows",
+      "clipboard"
+    ],
+    "icon": "/icons/clipboard-history-manager-windows.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 678,
+    "tier": "tier1_gui",
+    "summary": "Easily track, search, edit, and organize everything you copy on Windows with a free, open-source desktop history manager.",
+    "i18n": {
+      "it": "Monitora, cerca, modifica e organizza facilmente tutto ciò che copi su Windows con un gestore di cronologia desktop gratuito.",
+      "es": "Rastrea, busca, edita y organiza fácilmente todo lo que copies en Windows con un administrador de portapapeles gratuito.",
+      "fr": "Suivez, recherchez, modifiez et organisez facilement tout ce que vous copiez sous Windows avec un gestionnaire gratuit.",
+      "de": "Verfolgen, suchen, bearbeiten und organisieren Sie alles kopierte unter Windows mit einem kostenlosen Desktop-Verlauf."
+    },
+    "download_url": "https://github.com/Umbra9179/clipboard-history-manager-windows/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "unyo-app",
@@ -55660,6 +56276,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "rkvm",
+    "name": "rkvm",
+    "tagline": "Share keyboard and mouse across Linux PCs",
+    "repo_url": "https://github.com/htrefil/rkvm",
+    "full_name": "htrefil/rkvm",
+    "category": "Productivity",
+    "tags": [
+      "keyboard-sharing",
+      "mouse-sharing"
+    ],
+    "icon": "/icons/rkvm.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Linux",
+    "license": "Open Source (MIT)",
+    "stars": 555,
+    "tier": "tier1_gui",
+    "summary": "rkvm lets you control several Linux computers with a single keyboard and mouse, switching between them with a shortcut.",
+    "i18n": {
+      "it": "rkvm ti permette di controllare diversi computer Linux con una sola tastiera e mouse, cambiando dispositivo con una scorciatoia.",
+      "es": "rkvm te permite manejar varios equipos Linux con un solo teclado y ratón, cambiando entre ellos con un atajo.",
+      "fr": "rkvm vous permet de contrôler plusieurs ordinateurs Linux avec un seul clavier et une seule souris, en changeant avec un raccourci.",
+      "de": "rkvm ermöglicht die Steuerung mehrerer Linux-Computer mit einer einzigen Tastatur und Maus, wobei Sie per Tastenkürzel wechseln."
+    },
+    "download_url": "https://github.com/htrefil/rkvm/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "ffmpeg-video-audio-converter",
+    "name": "FFmpeg Video & Audio Converter",
+    "tagline": "Easy visual conversion for all your media",
+    "repo_url": "https://github.com/umbradev315/ffmpeg-video-audio-converter",
+    "full_name": "umbradev315/ffmpeg-video-audio-converter",
+    "category": "Video & Audio",
+    "tags": [
+      "video-converter",
+      "audio-encoder"
+    ],
+    "icon": "/icons/ffmpeg-video-audio-converter.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows",
+    "license": "Open Source (MIT)",
+    "stars": 554,
+    "tier": "tier1_gui",
+    "summary": "Convert media files and manage batch queues effortlessly using a friendly Windows desktop interface powered by FFmpeg.",
+    "i18n": {
+      "it": "Converti file multimediali e gestisci code batch con una pratica interfaccia grafica per Windows basata su FFmpeg.",
+      "es": "Convierte archivos multimedia y gestiona colas por lotes fácilmente usando una interfaz de escritorio para Windows.",
+      "fr": "Convertissez vos fichiers et gérez des files d'attente grâce à une interface de bureau intuitive propulsée par FFmpeg.",
+      "de": "Konvertieren Sie Mediendateien und verwalten Sie Stapelverarbeitungen über eine benutzerfreundliche Windows-Oberfläche."
+    },
+    "download_url": "https://github.com/umbradev315/ffmpeg-video-audio-converter/releases/download/v4.3.4/FFmpeg.Video",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "kk-mix",
     "name": "kk-mix",
     "tagline": "Batch video editing for Windows folders",
@@ -56106,6 +56778,34 @@
     },
     "download_url": "https://github.com/Matteo842/SaveState/releases/download/v3.3/SaveState_v3.3.AppImage",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "arcmd",
+    "name": "ArcMD",
+    "tagline": "Lightning-fast native writing workspace",
+    "repo_url": "https://github.com/ciao1019/arcmd",
+    "full_name": "ciao1019/arcmd",
+    "category": "Productivity",
+    "tags": [
+      "markdown",
+      "editor"
+    ],
+    "icon": "/icons/arcmd.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 530,
+    "tier": "tier1_gui",
+    "summary": "ArcMD is an ultra-responsive local document editor offering fluid performance and aesthetic organization for your writing projects.",
+    "i18n": {
+      "it": "ArcMD è un editor di documenti locale reattivo che offre prestazioni fluide e un'organizzazione estetica per i tuoi progetti.",
+      "es": "ArcMD es un editor de documentos local muy receptivo que ofrece un rendimiento fluido y organización estética para tus escritos.",
+      "fr": "ArcMD est un éditeur de documents local ultra-réactif offrant des performances fluides et une organisation esthétique pour vos écrits.",
+      "de": "ArcMD ist ein reaktionsschneller lokaler Dokumenteneditor mit flüssiger Leistung und ästhetischer Organisation für Ihre Texte."
+    },
+    "download_url": "https://github.com/Ciao1019/ArcMD/releases/download/v0.3.0/arcmd-setup-0.3.0-amd64.exe",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "tinykit",

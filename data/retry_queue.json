@@ -56,41 +56,6 @@
     "queued_at": "2026-11-21T19:51:36.364589+00:00"
   },
   {
-    "full_name": "kyleneideck/BackgroundMusic",
-    "slug": "backgroundmusic",
-    "html_url": "https://github.com/kyleneideck/BackgroundMusic",
-    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Regeln Sie App-Lautstärken einzeln, pausieren Sie Musik automatisch und nehmen Sie Systemaudio auf macOS auf.') | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
-    "queued_at": "2026-11-23T08:36:18.380823+00:00"
-  },
-  {
-    "full_name": "bizz84/SwiftyStoreKit",
-    "slug": "swiftystorekit",
-    "html_url": "https://github.com/bizz84/SwiftyStoreKit",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:39:46.535779+00:00"
-  },
-  {
-    "full_name": "jacklandrin/OnlySwitch",
-    "slug": "onlyswitch",
-    "html_url": "https://github.com/jacklandrin/OnlySwitch",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-23T22:45:11.653867+00:00"
-  },
-  {
-    "full_name": "MarkEdit-app/MarkEdit",
-    "slug": "markedit",
-    "html_url": "https://github.com/MarkEdit-app/MarkEdit",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:46:32.136333+00:00"
-  },
-  {
-    "full_name": "Syllo/nvtop",
-    "slug": "nvtop",
-    "html_url": "https://github.com/Syllo/nvtop",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-23T22:51:58.120406+00:00"
-  },
-  {
     "full_name": "xnx3/wangmarket",
     "slug": "wangmarket",
     "html_url": "https://github.com/xnx3/wangmarket",
@@ -119,13 +84,6 @@
     "queued_at": "2026-11-23T23:15:07.952623+00:00"
   },
   {
-    "full_name": "luisbocanegra/plasma-panel-colorizer",
-    "slug": "plasma-panel-colorizer",
-    "html_url": "https://github.com/luisbocanegra/plasma-panel-colorizer",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:52:18.212272+00:00"
-  },
-  {
     "full_name": "quexten/goldwarden",
     "slug": "goldwarden",
     "html_url": "https://github.com/quexten/goldwarden",
@@ -133,88 +91,11 @@
     "queued_at": "2026-11-24T06:52:52.852260+00:00"
   },
   {
-    "full_name": "wheaney/breezy-desktop",
-    "slug": "breezy-desktop",
-    "html_url": "https://github.com/wheaney/breezy-desktop",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:54:01.812587+00:00"
-  },
-  {
-    "full_name": "htrefil/rkvm",
-    "slug": "rkvm",
-    "html_url": "https://github.com/htrefil/rkvm",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:55:19.497874+00:00"
-  },
-  {
-    "full_name": "justjavac/free-programming-books-zh_CN",
-    "slug": "free-programming-books-zh-cn",
-    "html_url": "https://github.com/justjavac/free-programming-books-zh_CN",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:55:31.062330+00:00"
-  },
-  {
-    "full_name": "gkd-kit/gkd",
-    "slug": "gkd",
-    "html_url": "https://github.com/gkd-kit/gkd",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:56:01.602084+00:00"
-  },
-  {
-    "full_name": "yuliskov/SmartTube",
-    "slug": "smarttube",
-    "html_url": "https://github.com/yuliskov/SmartTube",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:56:28.644898+00:00"
-  },
-  {
-    "full_name": "barry-ran/QtScrcpy",
-    "slug": "qtscrcpy",
-    "html_url": "https://github.com/barry-ran/QtScrcpy",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:56:57.558261+00:00"
-  },
-  {
-    "full_name": "Trinea/android-open-project",
-    "slug": "android-open-project",
-    "html_url": "https://github.com/Trinea/android-open-project",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:57:02.237451+00:00"
-  },
-  {
-    "full_name": "LSPosed/LSPosed",
-    "slug": "lsposed",
-    "html_url": "https://github.com/LSPosed/LSPosed",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:57:59.178350+00:00"
-  },
-  {
-    "full_name": "scwang90/SmartRefreshLayout",
-    "slug": "smartrefreshlayout",
-    "html_url": "https://github.com/scwang90/SmartRefreshLayout",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:58:08.147726+00:00"
-  },
-  {
-    "full_name": "Tencent/ncnn",
-    "slug": "ncnn",
-    "html_url": "https://github.com/Tencent/ncnn",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T06:58:19.235448+00:00"
-  },
-  {
     "full_name": "ledgersmb/LedgerSMB",
     "slug": "ledgersmb",
     "html_url": "https://github.com/ledgersmb/LedgerSMB",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T07:09:14.052161+00:00"
-  },
-  {
-    "full_name": "electerm/electerm",
-    "slug": "electerm",
-    "html_url": "https://github.com/electerm/electerm",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T07:11:31.838632+00:00"
   },
   {
     "full_name": "Bash-it/bash-it",
@@ -348,41 +229,6 @@
     "html_url": "https://github.com/Textualize/toolong",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-24T07:19:08.252744+00:00"
-  },
-  {
-    "full_name": "0x0funky/audioghost-ai",
-    "slug": "audioghost-ai",
-    "html_url": "https://github.com/0x0funky/audioghost-ai",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-24T18:36:59.635308+00:00"
-  },
-  {
-    "full_name": "Ciao1019/ArcMD",
-    "slug": "arcmd",
-    "html_url": "https://github.com/Ciao1019/ArcMD",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-24T18:37:21.120021+00:00"
-  },
-  {
-    "full_name": "open-android/Android",
-    "slug": "android",
-    "html_url": "https://github.com/open-android/Android",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T18:51:33.988063+00:00"
-  },
-  {
-    "full_name": "alphacep/vosk-api",
-    "slug": "vosk-api",
-    "html_url": "https://github.com/alphacep/vosk-api",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T18:51:56.184373+00:00"
-  },
-  {
-    "full_name": "alibaba/ARouter",
-    "slug": "arouter",
-    "html_url": "https://github.com/alibaba/ARouter",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T18:52:42.196581+00:00"
   },
   {
     "full_name": "FreeRDP/FreeRDP",
