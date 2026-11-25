@@ -2,17 +2,17 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-25T23:42:33.200691+00:00",
-  "total_apps": 2450,
+  "generated_at": "2026-11-25T23:45:28.812752+00:00",
+  "total_apps": 2475,
   "tier_counts": {
     "tier3_powertool": 364,
-    "tier2_webapp": 733,
+    "tier2_webapp": 758,
     "tier1_gui": 1353
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 354,
-    "selfhosted": 732,
+    "selfhosted": 757,
     "desktop": 1353,
     "webapp": 1
   },
@@ -22,7 +22,7 @@
     "Security & Privacy": 58,
     "Utilities & Power Tools": 330,
     "Video & Audio": 107,
-    "Web Apps & Cloud": 708,
+    "Web Apps & Cloud": 733,
     "Websites & SEO": 3
   },
   "apps": [
@@ -58963,6 +58963,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "opensupports",
+      "name": "OpenSupports",
+      "tagline": "Manage customer support tickets with ease.",
+      "repo_url": "https://github.com/opensupports/opensupports",
+      "full_name": "opensupports/opensupports",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "helpdesk",
+        "customer-support"
+      ],
+      "icon": "/icons/opensupports.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 1035,
+      "tier": "tier2_webapp",
+      "summary": "OpenSupports is a clean, self-hosted helpdesk platform that simplifies tracking and resolving customer support queries.",
+      "i18n": {
+        "it": "OpenSupports è una piattaforma di helpdesk open source pulita che semplifica il tracciamento dei problemi dei clienti.",
+        "es": "OpenSupports es una plataforma de ayuda autohospedada que simplifica el seguimiento y resolución de consultas.",
+        "fr": "OpenSupports est une plateforme de support open source épurée qui simplifie le suivi et la résolution des requêtes.",
+        "de": "OpenSupports ist eine übersichtliche Helpdesk-Plattform, die das Verfolgen und Lösen von Kundenanfragen vereinfacht."
+      },
+      "download_url": "https://www.opensupports.com/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "echo-agent",
       "name": "Echo Agent",
       "tagline": "Open-source desktop artificial intelligence with memory",
@@ -58989,6 +59017,34 @@
       },
       "download_url": "https://github.com/fuyuxiang/echo-agent/releases/download/v0.3.11/EchoAgent_0.3.11_x64-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "filerise",
+      "name": "FileRise",
+      "tagline": "Lightweight self-hosted file manager hub",
+      "repo_url": "https://github.com/error311/filerise",
+      "full_name": "error311/filerise",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "file-manager",
+        "self-hosted"
+      ],
+      "icon": "/icons/filerise.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1029,
+      "tier": "tier2_webapp",
+      "summary": "Manage, share, and secure your files effortlessly with a powerful self-hosted web storage hub.",
+      "i18n": {
+        "it": "Gestisci e condividi file in sicurezza con un potente hub di archiviazione web privato.",
+        "es": "Organiza, comparte y protege tus archivos fácilmente con un centro de almacenamiento web privado.",
+        "fr": "Gérez et partagez vos fichiers en toute sécurité grâce à une plateforme de stockage web privée.",
+        "de": "Verwalten und teilen Sie Dateien sicher über eine leistungsstarke, selbst gehostete Plattform."
+      },
+      "download_url": "https://github.com/error311/FileRise/releases/download/v3.48.0/FileRise-v3.48.0.zip.sha256",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "hexwalk",
@@ -59045,6 +59101,34 @@
       },
       "download_url": "https://github.com/p-e-w/plotinus/releases",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "chhoto-url",
+      "name": "chhoto-url",
+      "tagline": "Blazing-fast lightweight self-hosted link shortener",
+      "repo_url": "https://github.com/sintan1729/chhoto-url",
+      "full_name": "sintan1729/chhoto-url",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "url-shortener",
+        "self-hosted"
+      ],
+      "icon": "/icons/chhoto-url.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 1023,
+      "tier": "tier2_webapp",
+      "summary": "Turn long web addresses into short, clean links using a featherlight, privacy-friendly tool built for your own server.",
+      "i18n": {
+        "it": "Trasforma lunghi indirizzi web in link brevi e puliti usando uno strumento leggero e rispettoso della privacy.",
+        "es": "Convierte direcciones web largas en enlaces cortos y limpios utilizando una herramienta ligera para tu propio servidor.",
+        "fr": "Transformez de longues adresses web en liens courts et propres grâce à un outil ultra-léger axé sur la confidentialité.",
+        "de": "Verwandeln Sie lange Webadressen in kurze, saubere Links mit einem datenschutzfreundlichen Tool für Ihren eigenen Server."
+      },
+      "download_url": "https://chhoto.link",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "android-cookbook-examples",
@@ -59131,6 +59215,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "openuserjs-org",
+      "name": "OpenUserJS.org",
+      "tagline": "Your central hub for open user scripts",
+      "repo_url": "https://github.com/openuserjs/openuserjs.org",
+      "full_name": "openuserjs/openuserjs.org",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "browser-extensions",
+        "community"
+      ],
+      "icon": "/icons/openuserjs-org.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 1014,
+      "tier": "tier2_webapp",
+      "summary": "OpenUserJS.org is a welcoming community platform where you can discover, share, and create free and open-source browser user scripts to customize your web browsing experience.",
+      "i18n": {
+        "it": "OpenUserJS.org è una piattaforma comunitaria in cui puoi scoprire, condividere e creare script personalizzati open-source per il tuo browser.",
+        "es": "OpenUserJS.org es una plataforma comunitaria donde puedes descubrir, compartir y crear scripts de navegador libres y de código abierto.",
+        "fr": "OpenUserJS.org est une plateforme communautaire où vous pouvez découvrir, partager et créer des scripts de navigateur open-source.",
+        "de": "OpenUserJS.org ist eine Gemeinschaftsplattform zum Entdecken, Teilen und Erstellen freier und quelloffener Browser-Skripte."
+      },
+      "download_url": "https://openuserjs.org/",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "apps",
+      "name": "daily.dev App Suite",
+      "tagline": "The complete browser extension and web platform.",
+      "repo_url": "https://github.com/dailydotdev/apps",
+      "full_name": "dailydotdev/apps",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "extension",
+        "webapp"
+      ],
+      "icon": "/icons/apps.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 1006,
+      "tier": "tier2_webapp",
+      "summary": "The official web platform and browser extension tools providing seamless productivity features and developer updates.",
+      "i18n": {
+        "it": "Gli strumenti ufficiali per la piattaforma web e l'estensione del browser che offrono funzionalità di produttività.",
+        "es": "Las herramientas oficiales de plataforma web y extensión de navegador que ofrecen funciones de productividad.",
+        "fr": "Les outils officiels de plateforme web et d'extension de navigateur offrant des fonctionnalités de productivité.",
+        "de": "Die offiziellen Webplattform- und Browsererweiterungstools, die produktivitätsfördernde Funktionen bieten."
+      },
+      "download_url": "https://daily.dev",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "astal",
       "name": "Astal",
       "tagline": "Build custom desktop shells easily",
@@ -59157,6 +59297,34 @@
       },
       "download_url": "https://astal.dev",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "agents-universe",
+      "name": "agents-universe",
+      "tagline": "Collaborative digital twins for team workflows.",
+      "repo_url": "https://github.com/agents-universe/agents-universe",
+      "full_name": "agents-universe/agents-universe",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ai",
+        "collaboration"
+      ],
+      "icon": "/icons/agents-universe.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 1003,
+      "tier": "tier2_webapp",
+      "summary": "An enterprise-grade artificial intelligence platform where specialized agents work together, share team context, and execute tasks concurrently.",
+      "i18n": {
+        "it": "Una piattaforma aziendale di intelligenza artificiale in cui agenti specializzati collaborano, condividono il contesto e svolgono attività.",
+        "es": "Una plataforma empresarial de inteligencia artificial donde agentes especializados colaboran, comparten contexto y ejecutan tareas.",
+        "fr": "Une plateforme d'intelligence artificielle d'entreprise où des agents spécialisés collaborent, partagent le contexte et exécutent des tâches.",
+        "de": "Eine KI-Unternehmensplattform, auf der spezialisierte Agenten zusammenarbeiten, Projektkontext teilen und Aufgaben ausführen."
+      },
+      "download_url": "https://agents-universe.com/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "hanshuang-codex",
@@ -59297,6 +59465,34 @@
       },
       "download_url": "https://www.templatespider.zvo.cn",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "money-tracker",
+      "name": "money-tracker",
+      "tagline": "Track your income and expenses effortlessly",
+      "repo_url": "https://github.com/ayastreb/money-tracker",
+      "full_name": "ayastreb/money-tracker",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "finance",
+        "budget"
+      ],
+      "icon": "/icons/money-tracker.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 986,
+      "tier": "tier2_webapp",
+      "summary": "An open-source progressive web app that allows you to track your money, work offline, and securely sync your financial records.",
+      "i18n": {
+        "it": "Un'applicazione web open-source per monitorare le tue finanze personali, funzionare offline e sincronizzare i dati.",
+        "es": "Una aplicación web de código abierto para gestionar tus finanzas personales, trabajar sin conexión y sincronizar datos.",
+        "fr": "Une application web open-source pour suivre vos finances personnelles, travailler hors ligne et synchroniser vos données.",
+        "de": "Eine Open-Source-Web-App zum Verwalten persönlicher Finanzen, die offline arbeitet und Daten sicher synchronisiert."
+      },
+      "download_url": "https://moneytracker.cc/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "craftable",
@@ -59607,6 +59803,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "hawkpost",
+      "name": "Hawkpost",
+      "tagline": "Secure message collection via unique PGP links",
+      "repo_url": "https://github.com/whitesmith/hawkpost",
+      "full_name": "whitesmith/hawkpost",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "encryption",
+        "security"
+      ],
+      "icon": "/icons/hawkpost.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 949,
+      "tier": "tier2_webapp",
+      "summary": "Create secure shareable links that let non-technical people send you encrypted messages safely using your public encryption key.",
+      "i18n": {
+        "it": "Crea link sicuri e condivisi per ricevere messaggi cifrati da chiunque utilizzi la tua chiave pubblica, senza complicazioni.",
+        "es": "Crea enlaces seguros para que personas sin conocimientos técnicos puedan enviarte mensajes cifrados con tu clave pública.",
+        "fr": "Créez des liens de partage sécurisés pour permettre à des non-techniciens de vous envoyer des messages chiffrés facilement.",
+        "de": "Erstellen Sie sichere Freigabelinks, mit denen Personen verschlüsselte Nachrichten über Ihren öffentlichen Schlüssel senden."
+      },
+      "download_url": "https://hawkpost.co",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "qymcad",
       "name": "QymCAD",
       "tagline": "Parametric 3D mechanical design software",
@@ -59801,6 +60025,62 @@
       },
       "download_url": "https://rstudio.github.io/shinydashboard/",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "weblink",
+      "name": "weblink",
+      "tagline": "Secure browser desktop control and file sharing",
+      "repo_url": "https://github.com/99percentpeople/weblink",
+      "full_name": "99percentpeople/weblink",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "webrtc",
+        "remote-desktop"
+      ],
+      "icon": "/icons/weblink.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 924,
+      "tier": "tier2_webapp",
+      "summary": "Control your desktop and share files securely from any browser using peer-to-peer technology without complex setup.",
+      "i18n": {
+        "it": "Controlla il tuo desktop e condividi file in modo sicuro da qualsiasi browser usando la tecnologia peer-to-peer.",
+        "es": "Controla tu escritorio y comparte archivos de forma segura desde cualquier navegador usando tecnología peer-to-peer.",
+        "fr": "Contrôlez votre bureau et partagez des fichiers en toute sécurité depuis n'importe quel navigateur.",
+        "de": "Steuern Sie Ihren Desktop und teilen Sie Dateien sicher von jedem Browser aus mit Peer-to-Peer-Technologie."
+      },
+      "download_url": "https://github.com/99percentpeople/weblink/releases/download/v1.3.8/Weblink-windows-x64-setup.exe",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "ytplaylist-len",
+      "name": "ytplaylist-len",
+      "tagline": "Calculate exact YouTube playlist durations instantly",
+      "repo_url": "https://github.com/sharatsachin/ytplaylist-len",
+      "full_name": "sharatsachin/ytplaylist-len",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "youtube",
+        "productivity"
+      ],
+      "icon": "/icons/ytplaylist-len.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 922,
+      "tier": "tier2_webapp",
+      "summary": "Discover the total length of any YouTube playlist or video collection, calculate playback speeds, and plan realistic watch schedules.",
+      "i18n": {
+        "it": "Scopri la durata totale di qualsiasi playlist YouTube, calcola le velocità di riproduzione e pianifica programmi di visione realistici.",
+        "es": "Descubre la duración total de cualquier lista de YouTube, calcula velocidades de reproducción y planifica calendarios de visualización.",
+        "fr": "Découvrez la durée totale de n'importe quelle liste YouTube, calculez les vitesses de lecture et planifiez des horaires de visionnage.",
+        "de": "Ermitteln Sie die Gesamtlänge jeder YouTube-Wiedergabeliste, berechnen Sie Wiedergabegeschwindigkeiten und planen Sie realistische Ziele."
+      },
+      "download_url": "https://ytplaylist-len.sharats.dev/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "vue-notion",
@@ -60027,6 +60307,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "iprotate-burp-extension",
+      "name": "IPRotate Burp Extension",
+      "tagline": "Change your IP on every web request",
+      "repo_url": "https://github.com/rhinosecuritylabs/iprotate_burp_extension",
+      "full_name": "rhinosecuritylabs/iprotate_burp_extension",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "proxy"
+      ],
+      "icon": "/icons/iprotate-burp-extension.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 897,
+      "tier": "tier2_webapp",
+      "summary": "An extension for Burp Suite that automatically rotates your source IP address across multiple cloud gateway regions on every request.",
+      "i18n": {
+        "it": "Un'estensione per Burp Suite che ruota automaticamente l'indirizzo IP di origine tra più regioni cloud ad ogni richiesta.",
+        "es": "Una extensión para Burp Suite que rota automáticamente tu dirección IP de origen en múltiples regiones en la nube por cada solicitud.",
+        "fr": "Une extension pour Burp Suite qui fait pivoter automatiquement votre adresse IP source sur plusieurs régions cloud à chaque requête.",
+        "de": "Eine Erweiterung für Burp Suite, die Ihre Quell-IP-Adresse bei jeder Anfrage automatisch über mehrere Cloud-Regionen hinweg rotiert."
+      },
+      "download_url": "https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "theannoyingsite-com",
       "name": "TheAnnoyingSite.com",
       "tagline": "The absolute worst webpage ever built",
@@ -60053,6 +60361,34 @@
       },
       "download_url": "https://theannoyingsite.com",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "hydro",
+      "name": "Hydro",
+      "tagline": "Reactive components for ASP.NET Core apps",
+      "repo_url": "https://github.com/hydrostack/hydro",
+      "full_name": "hydrostack/hydro",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "aspnet",
+        "components"
+      ],
+      "icon": "/icons/hydro.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 893,
+      "tier": "tier2_webapp",
+      "summary": "Build interactive web pages in ASP.NET Core without writing JavaScript using server-rendered reactive components.",
+      "i18n": {
+        "it": "Crea pagine web interattive in ASP.NET Core senza scrivere JavaScript usando componenti reattivi.",
+        "es": "Construye páginas web interactivas en ASP.NET Core sin escribir JavaScript usando componentes reactivos.",
+        "fr": "Créez des pages web interactives dans ASP.NET Core sans écrire de JavaScript grâce à des composants réactifs.",
+        "de": "Erstellen Sie interaktive Webseiten in ASP.NET Core ohne JavaScript mit reaktiven Komponenten."
+      },
+      "download_url": "https://usehydro.dev",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "marmite",
@@ -60195,6 +60531,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "coreui",
+      "name": "CoreUI",
+      "tagline": "Professional UI library for modern web apps",
+      "repo_url": "https://github.com/coreui/coreui",
+      "full_name": "coreui/coreui",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ui-kit",
+        "bootstrap"
+      ],
+      "icon": "/icons/coreui.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 883,
+      "tier": "tier2_webapp",
+      "summary": "Build responsive websites and admin panels faster with a comprehensive user interface library built natively on top of Bootstrap and clean JavaScript.",
+      "i18n": {
+        "it": "Crea siti web reattivi e pannelli di controllo velocemente usando una libreria moderna basata su Bootstrap e JavaScript pulito.",
+        "es": "Diseña sitios web responsivos y paneles de administración de forma rápida con una biblioteca completa basada en Bootstrap.",
+        "fr": "Créez des sites web responsifs et des tableaux de bord rapidement grâce à une bibliothèque complète basée sur Bootstrap.",
+        "de": "Erstellen Sie responsive Websites und Admin-Dashboards schnell mit einer umfassenden UI-Bibliothek auf Basis von Bootstrap."
+      },
+      "download_url": "https://coreui.io/bootstrap/docs/getting-started/introduction/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "textpattern",
       "name": "Textpattern",
       "tagline": "Fast, elegant, and free website builder",
@@ -60221,6 +60585,34 @@
       },
       "download_url": "https://github.com/textpattern/textpattern/releases/download/4.9.2/textpattern-4.9.2.tar.gz.SHA256SUM",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "bash-prompt-generator",
+      "name": "bash-prompt-generator",
+      "tagline": "Custom Bash Prompt Builder",
+      "repo_url": "https://github.com/scriptim/bash-prompt-generator",
+      "full_name": "scriptim/bash-prompt-generator",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "automation",
+        "prompt"
+      ],
+      "icon": "/icons/bash-prompt-generator.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 879,
+      "tier": "tier2_webapp",
+      "summary": "Create a personalized Bash prompt with a simple web interface, choosing colors, icons, and commands without writing code.",
+      "i18n": {
+        "it": "Crea un prompt Bash personalizzato con un'interfaccia web semplice, scegliendo colori, icone e comandi senza scrivere codice.",
+        "es": "Crea un prompt Bash personalizado con una interfaz web sencilla, eligiendo colores, iconos y comandos sin escribir código.",
+        "fr": "Créez un prompt Bash personnalisé grâce à une interface web simple, choisissez couleurs, icônes et commandes sans écrire de code.",
+        "de": "Erstellen Sie einen individuellen Bash-Prompt mit einer einfachen Weboberfläche, wählen Sie Farben, Symbole und Befehle ohne Code zu schreiben."
+      },
+      "download_url": "https://bash-prompt-generator.org/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "zblogphp",
@@ -60671,6 +61063,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "servas",
+      "name": "Servas",
+      "tagline": "Your personal bookmark organizer",
+      "repo_url": "https://github.com/beromir/servas",
+      "full_name": "beromir/servas",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "bookmark",
+        "self-hosted"
+      ],
+      "icon": "/icons/servas.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 842,
+      "tier": "tier2_webapp",
+      "summary": "Servas is a web tool you can host yourself to keep, tag, and share bookmarks across devices.",
+      "i18n": {
+        "it": "Servas è uno strumento web che puoi ospitare da solo per salvare, etichettare e condividere i segnalibri su tutti i tuoi dispositivi.",
+        "es": "Servas es una herramienta web que puedes alojar tú mismo para guardar, etiquetar y compartir marcadores en todos tus dispositivos.",
+        "fr": "Servas est une application web que vous pouvez héberger vous‑même pour enregistrer, taguer et partager vos favoris sur tous vos appareils.",
+        "de": "Servas ist ein Web‑Tool, das Sie selbst hosten können, um Lesezeichen zu speichern, zu taggen und auf allen Geräten zu teilen."
+      },
+      "download_url": "https://servas.app",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "lin-cms-flask",
       "name": "lin-cms-flask",
       "tagline": "Practical content management framework for developers.",
@@ -60923,6 +61343,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "mormot",
+      "name": "mORMot",
+      "tagline": "High-performance data management toolkit",
+      "repo_url": "https://github.com/synopse/mormot",
+      "full_name": "synopse/mormot",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "database",
+        "development"
+      ],
+      "icon": "/icons/mormot.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 823,
+      "tier": "tier2_webapp",
+      "summary": "Build fast client-server applications and web services with a powerful open-source data toolkit designed for efficiency.",
+      "i18n": {
+        "it": "Crea applicazioni client-server e servizi web veloci con un potente toolkit di gestione dati open source progettato per l'efficienza.",
+        "es": "Construya aplicaciones cliente-servidor y servicios web rápidos con un potente kit de herramientas de datos de código abierto.",
+        "fr": "Créez des applications client-serveur et des services web rapides avec une boîte à outils de données open-source performante.",
+        "de": "Erstellen Sie schnelle Client-Server-Anwendungen und Webdienste mit einem leistungsstarken Open-Source-Datentoolkit."
+      },
+      "download_url": "https://synopse.info",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "everest",
       "name": "Everest",
       "tagline": "Lightweight, beautiful web service testing tool",
@@ -60951,6 +61399,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "wwwolf-php-webshell",
+      "name": "wwwolf-php-webshell",
+      "tagline": "Lightweight and reliable PHP management script",
+      "repo_url": "https://github.com/whitewinterwolf/wwwolf-php-webshell",
+      "full_name": "whitewinterwolf/wwwolf-php-webshell",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "php",
+        "security"
+      ],
+      "icon": "/icons/wwwolf-php-webshell.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 822,
+      "tier": "tier2_webapp",
+      "summary": "A robust and compatible web management script designed for secure remote administration without breaking server configurations.",
+      "i18n": {
+        "it": "Un solido script di gestione web progettato per l'amministrazione remota sicura senza compromettere le configurazioni del server.",
+        "es": "Un sólido script de gestión web diseñado para la administración remota segura sin romper las configuraciones del servidor.",
+        "fr": "Un script de gestion web robuste conçu pour l'administration à distance sécurisée sans perturber les configurations du serveur.",
+        "de": "Ein robustes Web-Verwaltungsskript für die sichere Remote-Administration, ohne Serverkonfigurationen zu beschädigen."
+      },
+      "download_url": "https://www.whitewinterwolf.com/tags/php-webshell/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "bossconsole",
       "name": "BossConsole",
       "tagline": "Native multi-threaded operator console for AI agents",
@@ -60977,6 +61453,90 @@
       },
       "download_url": "https://github.com/risa-labs-inc/BossConsole/releases/download/v9.5.45/BOSS-9.5.45-arm64.msi",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "webprotege",
+      "name": "WebProtégé",
+      "tagline": "Collaborative web tool for creating ontologies.",
+      "repo_url": "https://github.com/protegeproject/webprotege",
+      "full_name": "protegeproject/webprotege",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ontology",
+        "collaboration"
+      ],
+      "icon": "/icons/webprotege.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 817,
+      "tier": "tier2_webapp",
+      "summary": "WebProtégé is a free web environment that lets teams build, edit, and collaborate on structured knowledge bases and ontologies.",
+      "i18n": {
+        "it": "WebProtégé è un ambiente web gratuito per creare, modificare e collaborare su basi di conoscenza strutturate e ontologie.",
+        "es": "WebProtégé es un entorno web gratuito para construir, editar y colaborar en bases de conocimiento y ontologías estructuradas.",
+        "fr": "WebProtégé est un environnement web gratuit pour créer, modifier et collaborer sur des bases de connaissances structurées.",
+        "de": "WebProtégé ist eine kostenlose Webumgebung zum Erstellen, Bearbeiten und Zusammenarbeiten an strukturierten Wissensbasen."
+      },
+      "download_url": "https://github.com/protegeproject/webprotege/releases/download/v4.0.2/webprotege-cli-4.0.2.jar",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "rssbox",
+      "name": "rssbox",
+      "tagline": "Convert popular website feeds into RSS.",
+      "repo_url": "https://github.com/stefansundin/rssbox",
+      "full_name": "stefansundin/rssbox",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "rss",
+        "feeds"
+      ],
+      "icon": "/icons/rssbox.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 816,
+      "tier": "tier2_webapp",
+      "summary": "Turn regular online services and websites that do not natively support RSS into clean, readable news feeds instantly.",
+      "i18n": {
+        "it": "Trasforma servizi online e siti web che non supportano RSS in feed di notizie puliti e leggibili all'istante.",
+        "es": "Transforma servicios y sitios web que no admiten RSS de forma nativa en fuentes de noticias limpias y legibles al instante.",
+        "fr": "Transformez instantanément des sites web et services en ligne sans support RSS natif en flux d'actualités propres.",
+        "de": "Verwandeln Sie Online-Dienste und Websites ohne native RSS-Unterstützung sofort in saubere und lesbare Nachrichten-Feeds."
+      },
+      "download_url": "https://github.com/stefansundin/rssbox/discussions/64",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "framework",
+      "name": "Feather HTTP",
+      "tagline": "Build lightweight web services instantly.",
+      "repo_url": "https://github.com/featherhttp/framework",
+      "full_name": "featherhttp/framework",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web",
+        "development"
+      ],
+      "icon": "/icons/framework.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 813,
+      "tier": "tier2_webapp",
+      "summary": "A streamlined, low-ceremony toolkit for creating fast web services and lightweight online applications without unnecessary complexity.",
+      "i18n": {
+        "it": "Un kit di strumenti essenziale e leggero per creare servizi web veloci e applicazioni online senza complessità inutili.",
+        "es": "Un conjunto de herramientas ágil y ligero para crear servicios web rápidos y aplicaciones online sin complicaciones innecesarias.",
+        "fr": "Un ensemble d'outils simple et léger pour créer des services web rapides et des applications en ligne sans complexité inutile.",
+        "de": "Ein schlankes und einfaches Werkzeugset zum Erstellen schneller Webdienste und Online-Anwendungen ohne unnötige Komplexität."
+      },
+      "download_url": "https://github.com/featherhttp/framework/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "cyrene-agent",
@@ -61399,6 +61959,62 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "image-to-braille",
+      "name": "Image-to-Braille",
+      "tagline": "Turn your photos into unicode braille art",
+      "repo_url": "https://github.com/505e06b2/image-to-braille",
+      "full_name": "505e06b2/image-to-braille",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "image-conversion",
+        "braille"
+      ],
+      "icon": "/icons/image-to-braille.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 782,
+      "tier": "tier2_webapp",
+      "summary": "Transform any picture into textured unicode braille characters instantly right inside your web browser without installing anything.",
+      "i18n": {
+        "it": "Trasforma qualsiasi immagine in caratteri braille unicode istantaneamente direttamente all'interno del browser web.",
+        "es": "Transforma cualquier foto en caracteres braille unicode al instante directamente en tu navegador web sin instalar nada.",
+        "fr": "Transformez instantanément n'importe quelle image en caractères braille unicode directement dans votre navigateur web.",
+        "de": "Wandeln Sie jedes Bild sofort direkt in Ihrem Webbrowser ohne Installation in Unicode-Braille-Zeichen um."
+      },
+      "download_url": "https://505e06b2.github.io/Image-to-Braille/",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "activist",
+      "name": "activist",
+      "tagline": "Safe platform for social and political action",
+      "repo_url": "https://github.com/activist-org/activist",
+      "full_name": "activist-org/activist",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "activism",
+        "community"
+      ],
+      "icon": "/icons/activist.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 773,
+      "tier": "tier2_webapp",
+      "summary": "An open-source digital hub designed to help organizations, groups, and individuals safely organize and coordinate political or social change.",
+      "i18n": {
+        "it": "Un hub digitale open-source per aiutare organizzazioni e singoli a coordinare azioni sociali e politiche in sicurezza.",
+        "es": "Un espacio digital de código abierto para ayudar a organizaciones y personas a coordinar acciones políticas y sociales de forma segura.",
+        "fr": "Un espace numérique open source pour aider les organisations et les individus à coordonner des actions politiques et sociales en toute sécurité.",
+        "de": "Eine Open-Source-Plattform, die Organisationen und Einzelpersonen hilft, politischen und sozialen Wandel sicher zu koordinieren."
+      },
+      "download_url": "https://activist.org",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "call-me",
       "name": "Call-Me",
       "tagline": "Add instant video calling to websites.",
@@ -61481,6 +62097,34 @@
       },
       "download_url": "https://pruvious.com",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "bowtie",
+      "name": "Bowtie",
+      "tagline": "Build interactive Python dashboards instantly.",
+      "repo_url": "https://github.com/jwkvam/bowtie",
+      "full_name": "jwkvam/bowtie",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "dashboards",
+        "visualization"
+      ],
+      "icon": "/icons/bowtie.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 764,
+      "tier": "tier2_webapp",
+      "summary": "Create stunning interactive web dashboards directly in Python without writing complex frontend web code or JavaScript.",
+      "i18n": {
+        "it": "Crea splendide dashboard web interattive direttamente in Python senza scrivere codice frontend complesso.",
+        "es": "Crea impresionantes paneles web interactivos directamente en Python sin escribir código web complejo.",
+        "fr": "Créez de superbes tableaux de bord web interactifs directement en Python sans code front-end complexe.",
+        "de": "Erstellen Sie atemberaubende interaktive Web-Dashboards direkt in Python ohne komplexen Frontend-Code."
+      },
+      "download_url": "https://github.com/jwkvam/bowtie/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "coderedcms",
@@ -61903,6 +62547,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "lunalytics",
+      "name": "Lunalytics",
+      "tagline": "Modern open source system health monitoring",
+      "repo_url": "https://github.com/ksjaay/lunalytics",
+      "full_name": "ksjaay/lunalytics",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "monitoring",
+        "uptime"
+      ],
+      "icon": "/icons/lunalytics.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 734,
+      "tier": "tier2_webapp",
+      "summary": "Keep track of your websites, servers, and digital services with a sleek multi-user health dashboard.",
+      "i18n": {
+        "it": "Tieni sott'occhio siti web e server con una moderna dashboard multiutente dotata di avvisi istantanei e pagine di stato.",
+        "es": "Supervisa sitios web y servidores con un panel moderno multiusuario que ofrece alertas instantáneas y páginas de estado.",
+        "fr": "Suivez l'état de vos sites et serveurs grâce à un tableau de bord multi-utilisateurs moderne doté d'alertes instantanées.",
+        "de": "Behalten Sie Websites und Server mit einem modernen, mehrbenutzerfähigen Systemstatus-Dashboard und Sofortwarnungen im Blick."
+      },
+      "download_url": "https://lunalytics.xyz",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "deepseek-harness-studio",
       "name": "DeepSeek Harness Studio",
       "tagline": "No-code desktop studio for AI workflows",
@@ -62069,6 +62741,34 @@
       },
       "download_url": "https://www.jamstackcms.io/",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "enbizcard",
+      "name": "EnBizCard",
+      "tagline": "Free interactive digital business cards",
+      "repo_url": "https://github.com/vishnuraghavb/enbizcard",
+      "full_name": "vishnuraghavb/enbizcard",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "digital-business-card",
+        "open-source"
+      ],
+      "icon": "/icons/enbizcard.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 715,
+      "tier": "tier2_webapp",
+      "summary": "EnBizCard lets you design and share a responsive online business card that lives on your own website, without paying for a hosting service.",
+      "i18n": {
+        "it": "EnBizCard ti permette di creare e condividere un biglietto da visita online, reattivo e ospitato sul tuo sito, senza costi di hosting.",
+        "es": "EnBizCard te permite diseñar y compartir una tarjeta de visita en línea, responsiva y alojada en tu propio sitio, sin pagar por hosting.",
+        "fr": "EnBizCard vous permet de créer et partager une carte de visite en ligne, réactive et hébergée sur votre site, sans frais d’hébergement.",
+        "de": "EnBizCard ermöglicht es Ihnen, eine responsive Online-Visitenkarte zu erstellen und zu teilen, die auf Ihrer eigenen Website gehostet wird, ohne Hosting‑Kosten."
+      },
+      "download_url": "https://enbizcard.vishnuraghav.com",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "codex-app-manager",
