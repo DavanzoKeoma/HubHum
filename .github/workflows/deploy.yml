@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -63,7 +63,7 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Checkout repository for IndexNow ping
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Notify IndexNow of updated sitemap URLs
         run: python3 scripts/ping_indexnow.py || true

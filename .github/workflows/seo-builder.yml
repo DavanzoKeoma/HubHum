@@ -79,7 +79,7 @@ jobs:
           fi
 
       - name: Checkout repository with HUBHUM_PAT (enables deploy.yml chaining)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           token: ${{ secrets.HUBHUM_PAT }}
           fetch-depth: 10
