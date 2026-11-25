@@ -2,26 +2,26 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-25T02:59:37.032977+00:00",
-  "total_apps": 2150,
+  "generated_at": "2026-11-25T03:02:15.477607+00:00",
+  "total_apps": 2175,
   "tier_counts": {
     "tier3_powertool": 314,
     "tier2_webapp": 644,
-    "tier1_gui": 1192
+    "tier1_gui": 1217
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 304,
     "selfhosted": 643,
-    "desktop": 1192,
+    "desktop": 1217,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 41,
-    "Productivity": 1043,
+    "Productivity": 1066,
     "Security & Privacy": 50,
     "Utilities & Power Tools": 293,
-    "Video & Audio": 101,
+    "Video & Audio": 103,
     "Web Apps & Cloud": 619,
     "Websites & SEO": 3
   },
@@ -14306,6 +14306,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "freerdp",
+      "name": "FreeRDP",
+      "tagline": "Connect to remote computers securely and freely",
+      "repo_url": "https://github.com/freerdp/freerdp",
+      "full_name": "freerdp/freerdp",
+      "category": "Productivity",
+      "tags": [
+        "remote-desktop",
+        "utilities"
+      ],
+      "icon": "/icons/freerdp.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 14053,
+      "tier": "tier1_gui",
+      "summary": "FreeRDP lets you securely connect to and control remote computers across different operating systems with complete freedom.",
+      "i18n": {
+        "it": "FreeRDP permette di connettersi e controllare computer remoti in modo sicuro e indipendente dal sistema operativo.",
+        "es": "FreeRDP te permite conectar y controlar ordenadores remotos de forma segura a través de diferentes sistemas.",
+        "fr": "FreeRDP vous permet de vous connecter et de contrôler des ordinateurs distants sur différents systèmes.",
+        "de": "Mit FreeRDP können Sie sich sicher und flexibel mit Remote-Computern über verschiedene Betriebssysteme hinweg verbinden."
+      },
+      "download_url": "https://github.com/FreeRDP/FreeRDP/releases/download/3.33.1/freerdp-3.33.1.tar.gz.asc",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "automatisch",
       "name": "Automatisch",
       "tagline": "Automate everyday workflows without expensive subscriptions",
@@ -14388,6 +14416,34 @@
       },
       "download_url": "https://github.com/python-pillow/Pillow/releases/download/13.0.0/pillow-13.0.0.cdx.json",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "stf",
+      "name": "stf",
+      "tagline": "Control and test Android devices instantly in browser",
+      "repo_url": "https://github.com/openstf/stf",
+      "full_name": "openstf/stf",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "debugging"
+      ],
+      "icon": "/icons/stf.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 13969,
+      "tier": "tier1_gui",
+      "summary": "Manage, test, and debug multiple Android smartphones and tablets directly from your web browser in real time without physical cables.",
+      "i18n": {
+        "it": "Gestisci e debugga smartphone e tablet Android direttamente dal browser web in tempo reale senza cavi fisici.",
+        "es": "Administra y depura teléfonos y tabletas Android directamente desde tu navegador web en tiempo real.",
+        "fr": "Gérez et déboguez des smartphones et tablettes Android directement depuis votre navigateur en temps réel.",
+        "de": "Verwalten und testen Sie Android-Smartphones und -Tablets direkt über Ihren Webbrowser in Echtzeit."
+      },
+      "download_url": "https://openstf.io",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "mealie",
@@ -14754,6 +14810,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "androidautosize",
+      "name": "AndroidAutoSize",
+      "tagline": "Effortless screen adaptation for Android apps",
+      "repo_url": "https://github.com/jessyancoding/androidautosize",
+      "full_name": "jessyancoding/androidautosize",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "ui"
+      ],
+      "icon": "/icons/androidautosize.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 13723,
+      "tier": "tier1_gui",
+      "summary": "Make your mobile app layouts look perfect across every screen size and phone model with a single setup step.",
+      "i18n": {
+        "it": "Rendi perfetti i layout della tua app mobile su qualsiasi schermo e modello di telefono con una sola configurazione.",
+        "es": "Haz que los diseños de tu aplicación móvil se vean perfectos en cualquier pantalla y modelo de teléfono con un solo paso.",
+        "fr": "Rendez les mises en page de votre application mobile parfaites sur tous les écrans et téléphones en une seule étape.",
+        "de": "Sorgen Sie dafür, dass Ihre mobilen App-Layouts auf jedem Bildschirm und Telefonmodell mit einem einzigen Schritt perfekt aussehen."
+      },
+      "download_url": "https://github.com/JessYanCoding/AndroidAutoSize/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "git-history",
       "name": "Git History",
       "tagline": "Easily view file changes over time",
@@ -15006,6 +15090,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "mui",
+      "name": "mui",
+      "tagline": "Build high-performance mobile web apps.",
+      "repo_url": "https://github.com/dcloudio/mui",
+      "full_name": "dcloudio/mui",
+      "category": "Productivity",
+      "tags": [
+        "mobile",
+        "web-development"
+      ],
+      "icon": "/icons/mui.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 13463,
+      "tier": "tier1_gui",
+      "summary": "Mui is a toolkit that helps you create mobile web applications that feel as smooth and responsive as native phone software.",
+      "i18n": {
+        "it": "Mui è un set di strumenti per creare applicazioni web mobili che offrono un'esperienza fluida e reattiva come le app native.",
+        "es": "Mui es un conjunto de herramientas para crear aplicaciones web móviles que se sienten tan fluidas y rápidas como el software nativo.",
+        "fr": "Mui est une boîte à outils pour créer des applications web mobiles offrant une expérience fluide et réactive comme les applications natives.",
+        "de": "Mui ist ein Toolkit zur Erstellung mobiler Webanwendungen, die sich so flüssig und reaktionsschnell wie native Software anfühlen."
+      },
+      "download_url": "https://dev.dcloud.net.cn/mui/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "pixez-flutter",
       "name": "PixEz Flutter",
       "tagline": "Free Pixiv viewer for all devices",
@@ -15032,6 +15144,34 @@
       },
       "download_url": "https://github.com/Notsfsssf/pixez-flutter/releases/download/0.9.114/windows-x86_64-release.msix.exe",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "assimp",
+      "name": "assimp",
+      "tagline": "Load over 40 3D formats easily",
+      "repo_url": "https://github.com/assimp/assimp",
+      "full_name": "assimp/assimp",
+      "category": "Productivity",
+      "tags": [
+        "3d",
+        "graphics"
+      ],
+      "icon": "/icons/assimp.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 13339,
+      "tier": "tier1_gui",
+      "summary": "Open Asset Import Library simplifies working with 3D models by loading over 40 different file formats into a single, clean structure.",
+      "i18n": {
+        "it": "Open Asset Import Library semplifica i modelli 3D caricando oltre 40 formati diversi in un'unica struttura pulita.",
+        "es": "Open Asset Import Library simplifica los modelos 3D cargando más de 40 formatos diferentes en una sola estructura limpia.",
+        "fr": "Open Asset Import Library simplifie les modèles 3D en chargeant plus de 40 formats différents dans une structure unique.",
+        "de": "Open Asset Import Library vereinfacht 3D-Modelle, indem sie über 40 verschiedene Formate in eine einheitliche Struktur lädt."
+      },
+      "download_url": "https://www.assimp.org",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "cocoalumberjack",
@@ -15062,6 +15202,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "vector",
+      "name": "Vector",
+      "tagline": "Modern Android system customization framework",
+      "repo_url": "https://github.com/jingmatrix/vector",
+      "full_name": "jingmatrix/vector",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "customization"
+      ],
+      "icon": "/icons/vector.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 13303,
+      "tier": "tier1_gui",
+      "summary": "Modify Android system and app behavior safely in memory without changing underlying app installation files.",
+      "i18n": {
+        "it": "Modifica il comportamento del sistema e delle app in memoria in modo sicuro senza alterare i file di installazione originali.",
+        "es": "Modifica el comportamiento del sistema y las aplicaciones de forma segura en la memoria sin alterar los archivos originales.",
+        "fr": "Modifiez le comportement du système et des applications en mémoire en toute sécurité sans altérer les fichiers d'origine.",
+        "de": "Passen Sie System- und App-Verhalten sicher im Arbeitsspeicher an, ohne die zugrundeliegenden Installationsdateien zu verändern."
+      },
+      "download_url": "https://modules.lsposed.org/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "ariang",
       "name": "AriaNg",
       "tagline": "A modern interface for managing downloads",
@@ -15088,6 +15256,34 @@
       },
       "download_url": "https://ariang.mayswind.net",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "create-react-native-app",
+      "name": "create-react-native-app",
+      "tagline": "Start a simple mobile app quickly",
+      "repo_url": "https://github.com/expo/create-react-native-app",
+      "full_name": "expo/create-react-native-app",
+      "category": "Productivity",
+      "tags": [
+        "mobile",
+        "react-native"
+      ],
+      "icon": "/icons/create-react-native-app.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (BSD)",
+      "stars": 13245,
+      "tier": "tier1_gui",
+      "summary": "A tool that helped beginners launch mobile apps for iPhone, Android, and the web, but it’s now replaced by a newer solution.",
+      "i18n": {
+        "it": "Uno strumento che ha aiutato i principianti a creare app per iPhone, Android e web, ma ora è stato sostituito da una soluzione più recente.",
+        "es": "Una herramienta que facilitó a los principiantes lanzar aplicaciones para iPhone, Android y la web, pero ahora está reemplazada por una solución más nueva.",
+        "fr": "Un outil qui a aidé les débutants à créer des applications pour iPhone, Android et le web, mais il est maintenant remplacé par une solution récente.",
+        "de": "Ein Werkzeug, das Anfängern half, Apps für iPhone, Android und das Web zu erstellen, ist jetzt durch eine neuere Lösung ersetzt worden."
+      },
+      "download_url": "https://github.com/expo/create-react-native-app/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "fluidvoice",
@@ -15174,6 +15370,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "learningnotes",
+      "name": "LearningNotes",
+      "tagline": "Comprehensive programming knowledge notes and guides",
+      "repo_url": "https://github.com/francistao/learningnotes",
+      "full_name": "francistao/learningnotes",
+      "category": "Productivity",
+      "tags": [
+        "education",
+        "programming"
+      ],
+      "icon": "/icons/learningnotes.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 13134,
+      "tier": "tier1_gui",
+      "summary": "LearningNotes is an extensive collection of study guides, code examples, and technical insights covering mobile development, Java, algorithms, and system design.",
+      "i18n": {
+        "it": "LearningNotes è una vasta raccolta di guide di studio, esempi di codice e approfondimenti tecnici sullo sviluppo mobile, Java e algoritmi.",
+        "es": "LearningNotes es una amplia colección de guías de estudio, ejemplos de código e información técnica sobre desarrollo móvil, Java y algoritmos.",
+        "fr": "LearningNotes est une vaste collection de guides d'étude, d'exemples de code et d'analyses techniques couvrant le développement mobile, Java et les algorithmes.",
+        "de": "LearningNotes ist eine umfangreiche Sammlung von Studienanleitungen, Codebeispielen und technischen Einblicken zu Mobilentwicklung, Java und Algorithmen."
+      },
+      "download_url": "https://github.com/francistao/LearningNotes/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "distrobox",
       "name": "distrobox",
       "tagline": "Run any Linux distribution seamlessly anywhere",
@@ -15228,6 +15452,34 @@
       },
       "download_url": "https://wallabag.org",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "libretube",
+      "name": "LibreTube",
+      "tagline": "Private YouTube client for Android devices",
+      "repo_url": "https://github.com/libre-tube/libretube",
+      "full_name": "libre-tube/libretube",
+      "category": "Productivity",
+      "tags": [
+        "streaming",
+        "privacy"
+      ],
+      "icon": "/icons/libretube.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 13059,
+      "tier": "tier1_gui",
+      "summary": "LibreTube is a privacy-focused video streaming client for Android that lets you watch content without intrusive tracking or advertisements.",
+      "i18n": {
+        "it": "LibreTube è un'app Android per lo streaming video orientata alla privacy che ti permette di guardare contenuti senza tracciamento.",
+        "es": "LibreTube es una aplicación de transmisión de video para Android centrada en la privacidad que te permite ver contenido sin anuncios.",
+        "fr": "LibreTube est une application de streaming vidéo pour Android axée sur la confidentialité qui vous permet de regarder sans suivi.",
+        "de": "LibreTube ist ein datenschutzfreundlicher Video-Streaming-Client für Android, mit dem Sie Inhalte ohne lästige Werbung ansehen können."
+      },
+      "download_url": "https://github.com/libre-tube/LibreTube/releases/download/v32.1/app-release.apk",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "glazewm",
@@ -15986,6 +16238,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "anki-android",
+      "name": "Anki-Android",
+      "tagline": "Smart flashcards for Android",
+      "repo_url": "https://github.com/ankidroid/anki-android",
+      "full_name": "ankidroid/anki-android",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "flashcards"
+      ],
+      "icon": "/icons/anki-android.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 12335,
+      "tier": "tier1_gui",
+      "summary": "AnkiDroid lets you study flashcards on your Android phone, using spaced‑repetition to help you remember anything for the long term.",
+      "i18n": {
+        "it": "AnkiDroid ti permette di studiare flashcard sul tuo Android, usando la ripetizione spaziata per ricordare a lungo qualsiasi cosa.",
+        "es": "AnkiDroid te permite repasar tarjetas en tu Android, aplicando la repetición espaciada para que recuerdes cualquier tema durante mucho tiempo.",
+        "fr": "AnkiDroid vous permet d’étudier des cartes sur votre Android, grâce à la répétition espacée qui aide à retenir durablement n’importe quel sujet.",
+        "de": "AnkiDroid ermöglicht das Lernen mit Karteikarten auf Ihrem Android‑Gerät, wobei das Spaced‑Repetition‑Verfahren hilft, alles langfristig zu behalten."
+      },
+      "download_url": "https://github.com/ankidroid/Anki-Android/releases/download/v2.25.3/AnkiDroid-2.25.3-arm64-v8a.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "react-native-firebase",
       "name": "react-native-firebase",
       "tagline": "Connect mobile apps to cloud services",
@@ -16236,6 +16516,62 @@
       },
       "download_url": "https://github.com/imsnif/bandwhich/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "matrix",
+      "name": "Matrix",
+      "tagline": "Monitor app performance and crashes easily.",
+      "repo_url": "https://github.com/tencent/matrix",
+      "full_name": "tencent/matrix",
+      "category": "Productivity",
+      "tags": [
+        "performance",
+        "monitoring"
+      ],
+      "icon": "/icons/matrix.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 12073,
+      "tier": "tier1_gui",
+      "summary": "An advanced application performance tracking tool used in WeChat to monitor crashes, memory leaks, and lagging issues.",
+      "i18n": {
+        "it": "Uno strumento avanzato per tracciare le prestazioni delle app, identificare arresti anomali e perdite di memoria.",
+        "es": "Una herramienta avanzada para rastrear el rendimiento de aplicaciones, detectar fallos y fugas de memoria.",
+        "fr": "Un outil avancé pour suivre les performances des applications mobiles et détecter les ralentissements.",
+        "de": "Ein fortschrittliches Tool zur Leistungsüberwachung von Apps, um Abstürze und Speicherlecks zu erkennen."
+      },
+      "download_url": "https://github.com/Tencent/matrix/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "detox",
+      "name": "Detox",
+      "tagline": "Automate mobile app testing without flakiness.",
+      "repo_url": "https://github.com/wix/detox",
+      "full_name": "wix/detox",
+      "category": "Productivity",
+      "tags": [
+        "automation",
+        "testing"
+      ],
+      "icon": "/icons/detox.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 12055,
+      "tier": "tier1_gui",
+      "summary": "Test mobile apps on real devices automatically by interacting with your application just like a real user does.",
+      "i18n": {
+        "it": "Testa app mobili su dispositivi reali interagendo come un utente reale per eliminare i blocchi casuali.",
+        "es": "Prueba aplicaciones móviles en dispositivos reales interactuando tal como lo haría un usuario común.",
+        "fr": "Testez des applications mobiles sur de vrais appareils en interagissant exactement comme un utilisateur.",
+        "de": "Testen Sie mobile Apps auf echten Geräten, indem Sie genau wie ein echter Benutzer mit ihnen interagieren."
+      },
+      "download_url": "https://wix.github.io/Detox/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "lipgloss",
@@ -16882,6 +17218,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "unciv",
+      "name": "Unciv",
+      "tagline": "Retro empire building strategy game",
+      "repo_url": "https://github.com/yairm210/unciv",
+      "full_name": "yairm210/unciv",
+      "category": "Productivity",
+      "tags": [
+        "games",
+        "strategy"
+      ],
+      "icon": "/icons/unciv.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, Android",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 11637,
+      "tier": "tier1_gui",
+      "summary": "Build powerful civilizations, explore the map, and conquer opponents in a classic turn-based strategy game designed for low-power devices.",
+      "i18n": {
+        "it": "Costruisci potenti civiltà ed esplora la mappa in un classico gioco di strategia a turni progettato per tutti i dispositivi.",
+        "es": "Construye civilizaciones poderosas y explora el mapa en un juego de estrategia por turnos clásico diseñado para cualquier dispositivo.",
+        "fr": "Construisez des civilisations puissantes et explorez la carte dans un jeu de stratégie classique au tour par tour pour tout appareil.",
+        "de": "Erschaffe mächtige Zivilisationen und erobere Gegner in einem klassischen Rundenstrategie-Spiel für alle Geräte."
+      },
+      "download_url": "https://github.com/yairm210/Unciv/releases/download/5.0.3/Unciv.msi",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "bore",
       "name": "bore",
       "tagline": "Share your local apps online",
@@ -17106,6 +17470,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "mono",
+      "name": "Mono",
+      "tagline": "Run cross-platform applications effortlessly.",
+      "repo_url": "https://github.com/mono/mono",
+      "full_name": "mono/mono",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "runtime"
+      ],
+      "icon": "/icons/mono.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Custom Open License",
+      "stars": 11474,
+      "tier": "tier1_gui",
+      "summary": "Mono is an open-source platform that enables developers to run C# and .NET applications across different operating systems.",
+      "i18n": {
+        "it": "Mono è una piattaforma open source che consente di eseguire applicazioni C# e .NET su diversi sistemi operativi.",
+        "es": "Mono es una plataforma de código abierto que permite ejecutar aplicaciones C# y .NET en diferentes sistemas operativos.",
+        "fr": "Mono est une plateforme open source permettant d'exécuter des applications C# et .NET sur différents systèmes d'exploitation.",
+        "de": "Mono ist eine Open-Source-Plattform, mit der C#- und .NET-Anwendungen auf verschiedenen Betriebssystemen ausgeführt werden können."
+      },
+      "download_url": "https://www.mono-project.com",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "listen1-desktop",
       "name": "listen1_desktop",
       "tagline": "Search and play music across platforms",
@@ -17132,6 +17524,34 @@
       },
       "download_url": "https://github.com/listen1/listen1_desktop/releases/download/v2.33.0/listen1_2.33.0_win.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "realm-java",
+      "name": "Realm Java",
+      "tagline": "Fast mobile database for Android",
+      "repo_url": "https://github.com/realm/realm-java",
+      "full_name": "realm/realm-java",
+      "category": "Productivity",
+      "tags": [
+        "database",
+        "android"
+      ],
+      "icon": "/icons/realm-java.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 11445,
+      "tier": "tier1_gui",
+      "summary": "Realm Java is an efficient mobile database built to run directly inside phones and tablets, replacing slower traditional database tools.",
+      "i18n": {
+        "it": "Realm Java è un efficiente database mobile creato per funzionare direttamente all'interno di smartphone e tablet.",
+        "es": "Realm Java es una eficiente base de datos móvil diseñada para ejecutarse directamente dentro de teléfonos y tabletas.",
+        "fr": "Realm Java est une base de données mobile efficace conçue pour fonctionner directement à l'intérieur des téléphones.",
+        "de": "Realm Java ist eine effiziente mobile Datenbank, die direkt auf Smartphones und Tablets ausgeführt wird."
+      },
+      "download_url": "https://realm.io",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "linkding",
@@ -17302,6 +17722,34 @@
       "updated_at": "2026-11-22"
     },
     {
+      "slug": "spotiflyer",
+      "name": "SpotiFlyer",
+      "tagline": "Save your favorite music for offline listening",
+      "repo_url": "https://github.com/shabinder/spotiflyer",
+      "full_name": "shabinder/spotiflyer",
+      "category": "Video & Audio",
+      "tags": [
+        "music",
+        "utility"
+      ],
+      "icon": "/icons/spotiflyer.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 11334,
+      "tier": "tier1_gui",
+      "summary": "SpotiFlyer allows you to download albums, tracks, and playlists from various music platforms to listen without an internet connection.",
+      "i18n": {
+        "it": "SpotiFlyer ti permette di scaricare album, brani e playlist da diverse piattaforme musicali per ascoltarli senza connessione internet.",
+        "es": "SpotiFlyer te permite descargar álbumes, canciones y listas de reproducción de varias plataformas para escucharlas sin conexión a internet.",
+        "fr": "SpotiFlyer vous permet de télécharger des albums, des pistes et des listes de lecture depuis diverses plateformes pour une écoute hors ligne.",
+        "de": "SpotiFlyer ermöglicht es Ihnen, Alben, Titel und Playlists von verschiedenen Musikplattformen herunterzuladen, um sie offline zu hören."
+      },
+      "download_url": "https://spotiflyer.in/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "psutil",
       "name": "psutil",
       "tagline": "Monitor system health and performance easily",
@@ -17356,6 +17804,90 @@
       },
       "download_url": "https://tui-cs.github.io/Terminal.Gui/",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "materialdesign",
+      "name": "MaterialDesign",
+      "tagline": "Thousands of free community icons",
+      "repo_url": "https://github.com/templarian/materialdesign",
+      "full_name": "templarian/materialdesign",
+      "category": "Productivity",
+      "tags": [
+        "icons",
+        "design"
+      ],
+      "icon": "/icons/materialdesign.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 11315,
+      "tier": "tier1_gui",
+      "summary": "Access over seven thousand community-created icons to style your digital projects and everyday designs.",
+      "i18n": {
+        "it": "Accedi a oltre settemila icone create dalla community per dare stile ai tuoi progetti digitali.",
+        "es": "Accede a más de siete mil iconos comunitarios para dar estilo a tus proyectos digitales diarios.",
+        "fr": "Accédez à plus de sept mille icônes communautaires pour styliser vos projets et conceptions numériques.",
+        "de": "Greifen Sie auf über siebentausend Community-Icons zu, um Ihre digitalen Projekte und Designs zu gestalten."
+      },
+      "download_url": "https://materialdesignicons.com",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "ytdlnis",
+      "name": "YTDLnis",
+      "tagline": "Powerful open-source video and audio downloader for Android.",
+      "repo_url": "https://github.com/deniscerri/ytdlnis",
+      "full_name": "deniscerri/ytdlnis",
+      "category": "Video & Audio",
+      "tags": [
+        "downloader",
+        "android"
+      ],
+      "icon": "/icons/ytdlnis.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 11297,
+      "tier": "tier1_gui",
+      "summary": "YTDLnis is a feature-rich media downloader for Android that lets you save audio and video files from thousands of websites easily.",
+      "i18n": {
+        "it": "YTDLnis è un versatile gestore di download per Android che salva file multimediali da migliaia di siti web con facilità.",
+        "es": "YTDLnis es una completa aplicación para Android que te permite guardar contenido multimedia de miles de sitios web fácilmente.",
+        "fr": "YTDLnis est un outil complet pour Android qui permet de télécharger des fichiers audio et vidéo depuis des milliers de sites.",
+        "de": "YTDLnis ist ein vielseitiger Android-Downloader, mit dem Sie Audio- und Videodateien von Tausenden Webseiten speichern können."
+      },
+      "download_url": "https://github.com/deniscerri/ytdlnis/releases/download/v1.9.1.1/YTDLnis-1.9.1.1-arm64-v8a-release-github.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "graphql-code-generator",
+      "name": "GraphQL Code Generator",
+      "tagline": "Turn data schemas into ready-to-use code.",
+      "repo_url": "https://github.com/dotansimha/graphql-code-generator",
+      "full_name": "dotansimha/graphql-code-generator",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "automation"
+      ],
+      "icon": "/icons/graphql-code-generator.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (MIT)",
+      "stars": 11266,
+      "tier": "tier1_gui",
+      "summary": "Automatically generate customized programming code from your app's data blueprints, saving hours of manual setup.",
+      "i18n": {
+        "it": "Genera automaticamente codice personalizzato dai blueprint dei dati della tua app, risparmiando ore di lavoro manuale.",
+        "es": "Genera automáticamente código personalizado a partir de los esquemas de datos de tu aplicación, ahorrando horas de trabajo.",
+        "fr": "Générez automatiquement du code personnalisé à partir des schémas de données de votre application pour gagner un temps précieux.",
+        "de": "Generieren Sie automatisch maßgeschneiderten Code aus Ihren Datenbauplänen und sparen Sie wertvolle manuelle Einrichtungszeit."
+      },
+      "download_url": "https://the-guild.dev/graphql/codegen/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "mac-mouse-fix",
@@ -17638,6 +18170,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "zygisknext",
+      "name": "ZygiskNext",
+      "tagline": "Advanced system customization for mobile devices",
+      "repo_url": "https://github.com/dr-tsng/zygisknext",
+      "full_name": "dr-tsng/zygisknext",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "system-tools"
+      ],
+      "icon": "/icons/zygisknext.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Custom Open License",
+      "stars": 11159,
+      "tier": "tier1_gui",
+      "summary": "ZygiskNext provides a standalone way to run specialized system modifications on Android devices using modern root management tools.",
+      "i18n": {
+        "it": "ZygiskNext offre un metodo indipendente per eseguire modifiche di sistema su dispositivi Android tramite strumenti di gestione root moderni.",
+        "es": "ZygiskNext ofrece una forma independiente de ejecutar modificaciones de sistema en dispositivos Android usando herramientas modernas de gestión root.",
+        "fr": "ZygiskNext offre un moyen indépendant d'exécuter des modifications système sur les appareils Android avec des outils de gestion root modernes.",
+        "de": "ZygiskNext bietet eine eigenständige Möglichkeit, Systemänderungen auf Android-Geräten mit modernen Root-Verwaltungstools auszuführen."
+      },
+      "download_url": "https://github.com/Dr-TSNG/ZygiskNext/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "october",
       "name": "October",
       "tagline": "Simple website builder for creators",
@@ -17664,6 +18224,34 @@
       },
       "download_url": "https://octobercms.com",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "permissionsdispatcher",
+      "name": "PermissionsDispatcher",
+      "tagline": "Simplify Android runtime permissions easily",
+      "repo_url": "https://github.com/permissions-dispatcher/permissionsdispatcher",
+      "full_name": "permissions-dispatcher/permissionsdispatcher",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "permissions"
+      ],
+      "icon": "/icons/permissionsdispatcher.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 11140,
+      "tier": "tier1_gui",
+      "summary": "Manage device permissions in Android apps safely and cleanly using simple labels without writing tedious conditional statements.",
+      "i18n": {
+        "it": "Manage device permissions in Android apps safely and cleanly using simple labels without writing tedious conditional statements.",
+        "es": "Manage device permissions in Android apps safely and cleanly using simple labels without writing tedious conditional statements.",
+        "fr": "Manage device permissions in Android apps safely and cleanly using simple labels without writing tedious conditional statements.",
+        "de": "Manage device permissions in Android apps safely and cleanly using simple labels without writing tedious conditional statements."
+      },
+      "download_url": "https://github.com/permissions-dispatcher/PermissionsDispatcher",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "dufs",
@@ -17748,6 +18336,34 @@
       },
       "download_url": "https://www.npmjs.com/package/readme-md-generator",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "filedownloader",
+      "name": "FileDownloader",
+      "tagline": "Fast, reliable Android file downloads",
+      "repo_url": "https://github.com/lingochamp/filedownloader",
+      "full_name": "lingochamp/filedownloader",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "download-manager"
+      ],
+      "icon": "/icons/filedownloader.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 11126,
+      "tier": "tier1_gui",
+      "summary": "FileDownloader is a free Android library that helps apps download files quickly using multiple connections.",
+      "i18n": {
+        "it": "FileDownloader è una libreria Android gratuita che aiuta le app a scaricare file rapidamente usando più connessioni.",
+        "es": "FileDownloader es una biblioteca de Android gratuita que ayuda a las apps a descargar archivos rápidamente usando múltiples conexiones.",
+        "fr": "FileDownloader est une bibliothèque Android gratuite qui aide les applications à télécharger des fichiers rapidement via plusieurs connexions.",
+        "de": "FileDownloader ist eine kostenlose Android-Bibliothek, die Apps hilft, Dateien schnell über mehrere Verbindungen herunterzuladen."
+      },
+      "download_url": "https://github.com/lingochamp/FileDownloader/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "dawarich",
@@ -17943,6 +18559,34 @@
       },
       "download_url": "https://proton-native.js.org",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "mobile-mcp",
+      "name": "Mobile MCP",
+      "tagline": "Let AI assistants control your mobile apps",
+      "repo_url": "https://github.com/mobile-next/mobile-mcp",
+      "full_name": "mobile-next/mobile-mcp",
+      "category": "Productivity",
+      "tags": [
+        "automation",
+        "mobile"
+      ],
+      "icon": "/icons/mobile-mcp.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 10860,
+      "tier": "tier1_gui",
+      "summary": "An assistant bridge that allows artificial intelligence agents to test, navigate, and automate iOS and Android apps effortlessly.",
+      "i18n": {
+        "it": "Un ponte che consente agli assistenti di intelligenza artificiale di testare e automatizzare le app iOS e Android.",
+        "es": "Un puente que permite a los agentes de inteligencia artificial probar y automatizar aplicaciones móviles.",
+        "fr": "Un pont permettant aux agents d'intelligence artificielle de tester et d'automatiser vos applications mobiles.",
+        "de": "Eine Brücke, mit der Künstliche Intelligenz mobile Apps für iOS und Android testen und steuern kann."
+      },
+      "download_url": "https://github.com/mobile-next/mobile-mcp/releases/download/1.0.20/mobile-mcp-darwin.mcpb",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "spotifyd",
@@ -18195,6 +18839,34 @@
       },
       "download_url": "https://github.com/aandrew-me/ytDownloader/releases/download/v4.1.0/YTDownloader_Win.exe",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "rtranslator",
+      "name": "RTranslator",
+      "tagline": "Offline real-time translation on Android devices.",
+      "repo_url": "https://github.com/niedev/rtranslator",
+      "full_name": "niedev/rtranslator",
+      "category": "Productivity",
+      "tags": [
+        "translation",
+        "offline"
+      ],
+      "icon": "/icons/rtranslator.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 10718,
+      "tier": "tier1_gui",
+      "summary": "Translate live conversations effortlessly right on your phone without needing an internet connection or subscriptions.",
+      "i18n": {
+        "it": "Traduci conversazioni dal vivo direttamente sul tuo telefono senza bisogno di una connessione internet o abbonamenti.",
+        "es": "Traduce conversaciones en vivo directamente en tu teléfono sin necesidad de conexión a internet ni suscripciones.",
+        "fr": "Traduisez des conversations en direct directement sur votre téléphone sans connexion Internet ni abonnement.",
+        "de": "Übersetzen Sie Live-Gespräche direkt auf Ihrem Telefon ganz ohne Internetverbindung oder Abonnements."
+      },
+      "download_url": "https://github.com/niedev/RTranslator/releases/download/2.1.5/RTranslator_2.1.5.apk",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "openscad",
@@ -18559,6 +19231,34 @@
       },
       "download_url": "https://github.com/crmne/spotifast/releases/download/v0.17.2/spotifast-v0.17.2-aarch64-pc-windows-msvc.msi",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "android-async-http",
+      "name": "Android Async Http",
+      "tagline": "Lightweight asynchronous web requests for mobile apps",
+      "repo_url": "https://github.com/android-async-http/android-async-http",
+      "full_name": "android-async-http/android-async-http",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "networking"
+      ],
+      "icon": "/icons/android-async-http.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 10562,
+      "tier": "tier1_gui",
+      "summary": "An efficient callback-based network communication tool designed to help mobile applications handle web requests smoothly in the background.",
+      "i18n": {
+        "it": "Uno strumento di comunicazione di rete efficiente per aiutare le app mobili a gestire le richieste web in background senza rallentamenti.",
+        "es": "Una herramienta eficiente de comunicación de red diseñada para ayudar a las aplicaciones móviles a gestionar peticiones web en segundo plano.",
+        "fr": "Un outil de communication réseau efficace conçu pour aider les applications mobiles à gérer les requêtes web en arrière-plan.",
+        "de": "Ein effizientes Netzwerk-Kommunikationswerkzeug, das mobilen Apps hilft, Web-Anfragen reibungslos im Hintergrund auszuführen."
+      },
+      "download_url": "https://github.com/android-async-http/android-async-http/releases/download/1.4.11/android-async-http-1.4.11-javadoc.jar",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "netnewswire",

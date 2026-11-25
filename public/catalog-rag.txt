@@ -1,13 +1,13 @@
 # HubHum Compact RAG Digest (catalog-rag.txt)
-Generated: 2026-11-25T02:59:37.032977+00:00 | Total: 2150 apps | Tier1: 1192 | Tier2: 644 | Tier3: 314 | Guides: 78 (6 Pillars) | Bundles: 9
+Generated: 2026-11-25T03:02:15.477607+00:00 | Total: 2175 apps | Tier1: 1217 | Tier2: 644 | Tier3: 314 | Guides: 78 (6 Pillars) | Bundles: 9
 Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeoma.github.io/HubHum/api/catalog.json | Clusters JSON: https://davanzokeoma.github.io/HubHum/api/clusters.json
 
 ## Category Breakdown
 - Graphics & Design: 41 apps
-- Productivity: 1043 apps
+- Productivity: 1066 apps
 - Security & Privacy: 50 apps
 - Utilities & Power Tools: 293 apps
-- Video & Audio: 101 apps
+- Video & Audio: 103 apps
 - Web Apps & Cloud: 619 apps
 - Websites & SEO: 3 apps
 
@@ -1067,12 +1067,16 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: A simple tool that lets you search for and stream your favorite anime directly from your computer terminal. | Source: https://github.com/pystardust/ani-cli | Download: https://github.com/pystardust/ani-cli/releases/download/v5.1/ani-cli
 [nmap] nmap (Productivity | tier1_gui | desktop | Windows, Linux | Custom Open License | 14057★) -> https://davanzokeoma.github.io/HubHum/apps/nmap/
   Summary: Nmap lets you discover devices and services on a network quickly and safely. | Source: https://github.com/nmap/nmap | Download: https://svn.nmap.org/
+[freerdp] FreeRDP (Productivity | tier1_gui | desktop | Android | Open Source (Apache 2.0) | 14053★) -> https://davanzokeoma.github.io/HubHum/apps/freerdp/
+  Summary: FreeRDP lets you securely connect to and control remote computers across different operating systems with complete freedom. | Source: https://github.com/freerdp/freerdp | Download: https://github.com/FreeRDP/FreeRDP/releases/download/3.33.1/freerdp-3.33.1.tar.gz.asc
 [automatisch] Automatisch (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Custom Open License | 14028★) -> https://davanzokeoma.github.io/HubHum/apps/automatisch/
   Summary: Connect your favorite online services and automate repetitive tasks without writing code or risking data privacy. | Source: https://github.com/automatisch/automatisch | Download: https://automatisch.io
 [lawnchair] Lawnchair (Productivity | tier1_gui | desktop | Android | Custom Open License | 14004★) -> https://davanzokeoma.github.io/HubHum/apps/lawnchair/
   Summary: Lawnchair is a free, open-source home app for Android that brings Pixel-style features and deep customization options to your device. | Source: https://github.com/lawnchairlauncher/lawnchair | Download: https://github.com/LawnchairLauncher/lawnchair/releases/download/1.2.0.1884/Lawnchair-1.2.0.1884.apk
 [pillow] Pillow (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Custom Open License | 14004★) -> https://davanzokeoma.github.io/HubHum/apps/pillow/
   Summary: Pillow is a versatile tool that adds professional-grade image editing and manipulation capabilities to your computer programs. | Source: https://github.com/python-pillow/pillow | Download: https://github.com/python-pillow/Pillow/releases/download/13.0.0/pillow-13.0.0.cdx.json
+[stf] stf (Productivity | tier1_gui | desktop | Android | Custom Open License | 13969★) -> https://davanzokeoma.github.io/HubHum/apps/stf/
+  Summary: Manage, test, and debug multiple Android smartphones and tablets directly from your web browser in real time without physical cables. | Source: https://github.com/openstf/stf | Download: https://openstf.io
 [mealie] Mealie (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (AGPL v3) | 13965★) -> https://davanzokeoma.github.io/HubHum/apps/mealie/
   Summary: Organize family recipes, plan weekly meals, and automatically pull ingredient lists from any website into one private digital cookbook. | Source: https://github.com/mealie-recipes/mealie | Download: https://docs.mealie.io
 [zettlr] Zettlr (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (GPL v3) | 13954★) -> https://davanzokeoma.github.io/HubHum/apps/zettlr/
@@ -1099,6 +1103,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: MiMo-Code is an intelligent assistant that helps you write, manage, and debug code directly within your command line interface. | Source: https://github.com/xiaomimimo/mimo-code | Download: https://mimo.xiaomi.com/mimocode
 [simpmusic] SimpMusic (Video & Audio | tier1_gui | desktop | Windows, macOS, Linux | Open Source (GPL v3) | 13744★) -> https://davanzokeoma.github.io/HubHum/apps/simpmusic/
   Summary: SimpMusic lets you listen to your favorite songs and podcasts from YouTube without interruptions or advertisements. | Source: https://github.com/maxrave-dev/simpmusic | Download: https://github.com/maxrave-dev/SimpMusic/releases/download/v2.6.0/SimpMusic-2.6.0-mac-aarch64.dmg
+[androidautosize] AndroidAutoSize (Productivity | tier1_gui | desktop | Android | Open Source (Apache 2.0) | 13723★) -> https://davanzokeoma.github.io/HubHum/apps/androidautosize/
+  Summary: Make your mobile app layouts look perfect across every screen size and phone model with a single setup step. | Source: https://github.com/jessyancoding/androidautosize | Download: https://github.com/JessYanCoding/AndroidAutoSize/releases
 [git-history] Git History (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 13684★) -> https://davanzokeoma.github.io/HubHum/apps/git-history/
   Summary: Git History lets you quickly see how any file has changed by simply updating the web address in your browser. | Source: https://github.com/pomber/git-history | Download: https://githistory.xyz/
 [fay] Fay (Productivity | tier1_gui | desktop | Android | Open Source (GPL v3) | 13655★) -> https://davanzokeoma.github.io/HubHum/apps/fay/
@@ -1117,22 +1123,34 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: AutoHotkey is a tool that lets you create shortcuts and automate repetitive tasks on your computer to save time and effort. | Source: https://github.com/autohotkey/autohotkey | Download: https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.32/AutoHotkey_2.0.32_setup.exe
 [nightingale] Nightingale (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (Apache 2.0) | 13510★) -> https://davanzokeoma.github.io/HubHum/apps/nightingale/
   Summary: Nightingale is a free, self-hosted tool that watches your servers and databases to send you alerts when something goes wrong. | Source: https://github.com/ccfos/nightingale | Download: https://github.com/ccfos/nightingale/releases/download/v9.3.0/checksums.txt
+[mui] mui (Productivity | tier1_gui | desktop | Android, iOS | Open Source (MIT) | 13463★) -> https://davanzokeoma.github.io/HubHum/apps/mui/
+  Summary: Mui is a toolkit that helps you create mobile web applications that feel as smooth and responsive as native phone software. | Source: https://github.com/dcloudio/mui | Download: https://dev.dcloud.net.cn/mui/
 [pixez-flutter] PixEz Flutter (Productivity | tier1_gui | desktop | Windows, Linux, Android, iOS | Open Source (GPL v3) | 13450★) -> https://davanzokeoma.github.io/HubHum/apps/pixez-flutter/
   Summary: Browse and view animated images from Pixiv directly on your phone, computer, or tablet without needing a special internet connection tool. | Source: https://github.com/notsfsssf/pixez-flutter | Download: https://github.com/Notsfsssf/pixez-flutter/releases/download/0.9.114/windows-x86_64-release.msix.exe
+[assimp] assimp (Productivity | tier1_gui | desktop | Android | Custom Open License | 13339★) -> https://davanzokeoma.github.io/HubHum/apps/assimp/
+  Summary: Open Asset Import Library simplifies working with 3D models by loading over 40 different file formats into a single, clean structure. | Source: https://github.com/assimp/assimp | Download: https://www.assimp.org
 [cocoalumberjack] CocoaLumberjack (Productivity | tier1_gui | desktop | macOS, iOS | Open Source (BSD) | 13325★) -> https://davanzokeoma.github.io/HubHum/apps/cocoalumberjack/
   Summary: Capture and manage application activity easily across all Apple devices with a fast, highly customizable logging framework. | Source: https://github.com/cocoalumberjack/cocoalumberjack | Download: https://cocoalumberjack.github.io
+[vector] Vector (Productivity | tier1_gui | desktop | Android | Open Source (GPL v3) | 13303★) -> https://davanzokeoma.github.io/HubHum/apps/vector/
+  Summary: Modify Android system and app behavior safely in memory without changing underlying app installation files. | Source: https://github.com/jingmatrix/vector | Download: https://modules.lsposed.org/
 [ariang] AriaNg (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 13277★) -> https://davanzokeoma.github.io/HubHum/apps/ariang/
   Summary: AriaNg provides a clean, user-friendly dashboard to control your file downloads with ease. | Source: https://github.com/mayswind/ariang | Download: https://ariang.mayswind.net
+[create-react-native-app] create-react-native-app (Productivity | tier1_gui | desktop | Android, iOS | Open Source (BSD) | 13245★) -> https://davanzokeoma.github.io/HubHum/apps/create-react-native-app/
+  Summary: A tool that helped beginners launch mobile apps for iPhone, Android, and the web, but it’s now replaced by a newer solution. | Source: https://github.com/expo/create-react-native-app | Download: https://github.com/expo/create-react-native-app/releases
 [fluidvoice] FluidVoice (Productivity | tier1_gui | desktop | macOS, iOS | Open Source (GPL v3) | 13211★) -> https://davanzokeoma.github.io/HubHum/apps/fluidvoice/
   Summary: Transform spoken words into clean text instantly right on your device using private local speech recognition. | Source: https://github.com/altic-dev/fluidvoice | Download: https://github.com/altic-dev/FluidVoice/releases/download/v1.6.13/Fluid-oss-1.6.13.dmg
 [broot] broot (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 13173★) -> https://davanzokeoma.github.io/HubHum/apps/broot/
   Summary: Broot is a fast, interactive tool designed to help you explore large directory trees, locate files quickly, and manage your projects without losing. | Source: https://github.com/canop/broot | Download: https://dystroy.org/broot
 [esp32marauder] ESP32Marauder (Security & Privacy | tier1_gui | desktop | Windows, macOS, Linux | Open Source License | 13166★) -> https://davanzokeoma.github.io/HubHum/apps/esp32marauder/
   Summary: ESP32Marauder is a comprehensive collection of wireless auditing tools designed for small pocket-sized microcontrollers. | Source: https://github.com/justcallmekoko/esp32marauder | Download: https://github.com/justcallmekoko/ESP32Marauder/releases/download/v1.20.0/esp32_marauder_v1_20_0_20261028_cyd_2432S024_guition.bin
+[learningnotes] LearningNotes (Productivity | tier1_gui | desktop | Android | Custom Open License | 13134★) -> https://davanzokeoma.github.io/HubHum/apps/learningnotes/
+  Summary: LearningNotes is an extensive collection of study guides, code examples, and technical insights covering mobile development, Java, algorithms, and system design. | Source: https://github.com/francistao/learningnotes | Download: https://github.com/francistao/LearningNotes/releases
 [distrobox] distrobox (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (GPL v3) | 13131★) -> https://davanzokeoma.github.io/HubHum/apps/distrobox/
   Summary: Use any Linux distribution inside your terminal with full file and graphics sharing. Enjoy complete compatibility and software freedom without hassle. | Source: https://github.com/89luca89/distrobox | Download: https://distrobox.it/
 [wallabag] wallabag (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 13071★) -> https://davanzokeoma.github.io/HubHum/apps/wallabag/
   Summary: Capture online articles and clean web pages to your own reading library, stripping away annoying pop-ups and distractions. | Source: https://github.com/wallabag/wallabag | Download: https://wallabag.org
+[libretube] LibreTube (Productivity | tier1_gui | desktop | Android | Open Source (GPL v3) | 13059★) -> https://davanzokeoma.github.io/HubHum/apps/libretube/
+  Summary: LibreTube is a privacy-focused video streaming client for Android that lets you watch content without intrusive tracking or advertisements. | Source: https://github.com/libre-tube/libretube | Download: https://github.com/libre-tube/LibreTube/releases/download/v32.1/app-release.apk
 [glazewm] GlazeWM (Productivity | tier1_gui | desktop | Windows, macOS | Open Source (GPL v3) | 13022★) -> https://davanzokeoma.github.io/HubHum/apps/glazewm/
   Summary: GlazeWM is a smart window manager that arranges your open application windows into clean, non-overlapping tiles using keyboard shortcuts. | Source: https://github.com/glzr-io/glazewm | Download: https://github.com/glzr-io/glazewm/releases/download/v3.10.1/glazewm-v3.10.1.exe
 [pipx] pipx (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 13012★) -> https://davanzokeoma.github.io/HubHum/apps/pipx/
@@ -1187,6 +1205,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Vuls checks Linux, FreeBSD, containers and more for known security weaknesses without needing extra software on the target machines. | Source: https://github.com/future-architect/vuls | Download: https://github.com/future-architect/vuls/releases/download/v0.43.0/future-vuls_0.43.0_darwin_amd64.tar.gz.sigstore.json
 [illa-builder] ILLA Builder (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (Apache 2.0) | 12357★) -> https://davanzokeoma.github.io/HubHum/apps/illa-builder/
   Summary: ILLA Builder is a free, open-source platform that lets you create dashboards and admin panels by dragging and dropping components. | Source: https://github.com/illacloud/illa-builder | Download: https://github.com/illacloud/illa-builder/releases
+[anki-android] Anki-Android (Productivity | tier1_gui | desktop | Android | Open Source (GPL v3) | 12335★) -> https://davanzokeoma.github.io/HubHum/apps/anki-android/
+  Summary: AnkiDroid lets you study flashcards on your Android phone, using spaced‑repetition to help you remember anything for the long term. | Source: https://github.com/ankidroid/anki-android | Download: https://github.com/ankidroid/Anki-Android/releases/download/v2.25.3/AnkiDroid-2.25.3-arm64-v8a.apk
 [react-native-firebase] react-native-firebase (Productivity | tier1_gui | desktop | Android, iOS | Custom Open License | 12328★) -> https://davanzokeoma.github.io/HubHum/apps/react-native-firebase/
   Summary: A toolkit that lets developers easily link their mobile applications to Google's cloud services for data, login, and messaging. | Source: https://github.com/invertase/react-native-firebase | Download: https://rnfirebase.io
 [xmake] xmake (Productivity | tier1_gui | desktop | Windows, Linux | Open Source (Apache 2.0) | 12314★) -> https://davanzokeoma.github.io/HubHum/apps/xmake/
@@ -1205,6 +1225,10 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Onefetch is a lightweight tool that displays project information and code statistics for your local projects right in your terminal. | Source: https://github.com/o2sh/onefetch | Download: https://github.com/o2sh/onefetch/releases/download/3.2.0/onefetch-setup.exe
 [bandwhich] bandwhich (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 12084★) -> https://davanzokeoma.github.io/HubHum/apps/bandwhich/
   Summary: Bandwhich shows you exactly which programs are using your network connection in real time. | Source: https://github.com/imsnif/bandwhich | Download: https://github.com/imsnif/bandwhich/releases
+[matrix] Matrix (Productivity | tier1_gui | desktop | Android | Custom Open License | 12073★) -> https://davanzokeoma.github.io/HubHum/apps/matrix/
+  Summary: An advanced application performance tracking tool used in WeChat to monitor crashes, memory leaks, and lagging issues. | Source: https://github.com/tencent/matrix | Download: https://github.com/Tencent/matrix/releases
+[detox] Detox (Productivity | tier1_gui | desktop | Android, iOS | Open Source (MIT) | 12055★) -> https://davanzokeoma.github.io/HubHum/apps/detox/
+  Summary: Test mobile apps on real devices automatically by interacting with your application just like a real user does. | Source: https://github.com/wix/detox | Download: https://wix.github.io/Detox/
 [lipgloss] Lip Gloss (Graphics & Design | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 12034★) -> https://davanzokeoma.github.io/HubHum/apps/lipgloss/
   Summary: Lip Gloss helps you create professional, colorful, and well-organized text displays directly inside your terminal window. | Source: https://github.com/charmbracelet/lipgloss | Download: https://github.com/charmbracelet/lipgloss/releases
 [windows-mcp] Windows-MCP (Productivity | tier1_gui | desktop | Windows | Open Source (MIT) | 12015★) -> https://davanzokeoma.github.io/HubHum/apps/windows-mcp/
@@ -1251,6 +1275,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Take complete control of your live video broadcasts and audience chat by hosting your own private streaming server. | Source: https://github.com/owncast/owncast | Download: https://owncast.online
 [wcdb] WCDB (Productivity | tier1_gui | desktop | Windows, macOS, Linux, iOS | Custom Open License | 11655★) -> https://davanzokeoma.github.io/HubHum/apps/wcdb/
   Summary: WCDB is a high-performance database tool that helps developers organize and store information within mobile and desktop applications. | Source: https://github.com/tencent/wcdb | Download: https://github.com/Tencent/wcdb/releases
+[unciv] Unciv (Productivity | tier1_gui | desktop | Windows, Android | Open Source (MPL 2.0) | 11637★) -> https://davanzokeoma.github.io/HubHum/apps/unciv/
+  Summary: Build powerful civilizations, explore the map, and conquer opponents in a classic turn-based strategy game designed for low-power devices. | Source: https://github.com/yairm210/unciv | Download: https://github.com/yairm210/Unciv/releases/download/5.0.3/Unciv.msi
 [bore] bore (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 11619★) -> https://davanzokeoma.github.io/HubHum/apps/bore/
   Summary: bore lets you make your computer’s local programs reachable from anywhere on the internet, without needing complex setup. | Source: https://github.com/ekzhang/bore | Download: https://bore.pub
 [talos] Talos (Productivity | tier1_gui | desktop | Windows, Linux | Open Source (MPL 2.0) | 11584★) -> https://davanzokeoma.github.io/HubHum/apps/talos/
@@ -1267,8 +1293,12 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: HGhub is a flexible media player that lets you organize and watch content from various sources in one unified, easy-to-use interface. | Source: https://github.com/minireel/hghub | Download: https://github.com/Minireel/HGhub/releases/download/v0.0.4/HGhub_0.0.4_x64-setup.exe
 [audiokit] AudioKit (Video & Audio | tier1_gui | desktop | macOS, iOS | Open Source (MIT) | 11508★) -> https://davanzokeoma.github.io/HubHum/apps/audiokit/
   Summary: An open-source toolkit for adding custom sound generation, audio filters, and real-time analysis to mobile and desktop software. | Source: https://github.com/audiokit/audiokit | Download: https://audiokit.io
+[mono] Mono (Productivity | tier1_gui | desktop | Android, iOS | Custom Open License | 11474★) -> https://davanzokeoma.github.io/HubHum/apps/mono/
+  Summary: Mono is an open-source platform that enables developers to run C# and .NET applications across different operating systems. | Source: https://github.com/mono/mono | Download: https://www.mono-project.com
 [listen1-desktop] listen1_desktop (Video & Audio | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 11451★) -> https://davanzokeoma.github.io/HubHum/apps/listen1-desktop/
   Summary: Enjoy seamless access to your favorite songs from multiple music providers in one unified desktop application. | Source: https://github.com/listen1/listen1_desktop | Download: https://github.com/listen1/listen1_desktop/releases/download/v2.33.0/listen1_2.33.0_win.exe
+[realm-java] Realm Java (Productivity | tier1_gui | desktop | Android | Open Source (Apache 2.0) | 11445★) -> https://davanzokeoma.github.io/HubHum/apps/realm-java/
+  Summary: Realm Java is an efficient mobile database built to run directly inside phones and tablets, replacing slower traditional database tools. | Source: https://github.com/realm/realm-java | Download: https://realm.io
 [linkding] linkding (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 11439★) -> https://davanzokeoma.github.io/HubHum/apps/linkding/
   Summary: Store, tag, and organize all your favorite web links on your own server. | Source: https://github.com/sissbruecker/linkding | Download: https://linkding.link/
 [oh-my-fish] oh-my-fish (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 11421★) -> https://davanzokeoma.github.io/HubHum/apps/oh-my-fish/
@@ -1281,10 +1311,18 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: A free developer tool that lets you check, test, and fix connections between AI assistants and their data sources. | Source: https://github.com/modelcontextprotocol/inspector | Download: https://modelcontextprotocol.io/docs/2026-07-28/tools/inspector
 [memreduct] Mem Reduct (Productivity | tier1_gui | desktop | Windows | Open Source (GPL v3) | 11339★) -> https://davanzokeoma.github.io/HubHum/apps/memreduct/
   Summary: Mem Reduct helps you reclaim unused memory to keep your computer responsive during heavy tasks. | Source: https://github.com/henrypp/memreduct | Download: https://github.com/henrypp/memreduct/releases/download/v.3.5.2/memreduct-3.5.2-setup.exe
+[spotiflyer] SpotiFlyer (Video & Audio | tier1_gui | desktop | Android | Open Source (GPL v3) | 11334★) -> https://davanzokeoma.github.io/HubHum/apps/spotiflyer/
+  Summary: SpotiFlyer allows you to download albums, tracks, and playlists from various music platforms to listen without an internet connection. | Source: https://github.com/shabinder/spotiflyer | Download: https://spotiflyer.in/
 [psutil] psutil (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (BSD) | 11330★) -> https://davanzokeoma.github.io/HubHum/apps/psutil/
   Summary: A simple tool that lets you track your computer's performance, including CPU, memory, and active programs, using the Python language. | Source: https://github.com/giampaolo/psutil | Download: https://psutil.io
 [terminal-gui] Terminal.Gui (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (MIT) | 11317★) -> https://davanzokeoma.github.io/HubHum/apps/terminal-gui/
   Summary: Create gorgeous, interactive terminal applications with mouse support, charts, and modern widgets across all major operating systems. | Source: https://github.com/tui-cs/terminal.gui | Download: https://tui-cs.github.io/Terminal.Gui/
+[materialdesign] MaterialDesign (Productivity | tier1_gui | desktop | Android | Custom Open License | 11315★) -> https://davanzokeoma.github.io/HubHum/apps/materialdesign/
+  Summary: Access over seven thousand community-created icons to style your digital projects and everyday designs. | Source: https://github.com/templarian/materialdesign | Download: https://materialdesignicons.com
+[ytdlnis] YTDLnis (Video & Audio | tier1_gui | desktop | Android | Open Source (GPL v3) | 11297★) -> https://davanzokeoma.github.io/HubHum/apps/ytdlnis/
+  Summary: YTDLnis is a feature-rich media downloader for Android that lets you save audio and video files from thousands of websites easily. | Source: https://github.com/deniscerri/ytdlnis | Download: https://github.com/deniscerri/ytdlnis/releases/download/v1.9.1.1/YTDLnis-1.9.1.1-arm64-v8a-release-github.apk
+[graphql-code-generator] GraphQL Code Generator (Productivity | tier1_gui | desktop | Android | Open Source (MIT) | 11266★) -> https://davanzokeoma.github.io/HubHum/apps/graphql-code-generator/
+  Summary: Automatically generate customized programming code from your app's data blueprints, saving hours of manual setup. | Source: https://github.com/dotansimha/graphql-code-generator | Download: https://the-guild.dev/graphql/codegen/
 [mac-mouse-fix] Mac Mouse Fix (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Custom Open License | 11266★) -> https://davanzokeoma.github.io/HubHum/apps/mac-mouse-fix/
   Summary: Upgrade any regular mouse to feel like an expensive Apple trackpad with buttery smooth scrolling and powerful custom gestures. | Source: https://github.com/noah-nuebling/mac-mouse-fix | Download: https://macmousefix.com/
 [mremoteng] mRemoteNG (Productivity | tier1_gui | desktop | Windows | Open Source (GPL v2) | 11233★) -> https://davanzokeoma.github.io/HubHum/apps/mremoteng/
@@ -1305,14 +1343,20 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: bbot is a powerful tool that helps you map out internet-connected systems and find potential security gaps automatically. | Source: https://github.com/blacklanternsecurity/bbot | Download: https://www.blacklanternsecurity.com/bbot/
 [hive] Hive (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (Apache 2.0) | 11166★) -> https://davanzokeoma.github.io/HubHum/apps/hive/
   Summary: Manage collaborative groups of smart assistant helpers that handle complex multi-step work automatically while you stay in control. | Source: https://github.com/aden-hive/hive | Download: https://github.com/aden-hive/hive/releases
+[zygisknext] ZygiskNext (Productivity | tier1_gui | desktop | Android | Custom Open License | 11159★) -> https://davanzokeoma.github.io/HubHum/apps/zygisknext/
+  Summary: ZygiskNext provides a standalone way to run specialized system modifications on Android devices using modern root management tools. | Source: https://github.com/dr-tsng/zygisknext | Download: https://github.com/Dr-TSNG/ZygiskNext/releases
 [october] October (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Custom Open License | 11156★) -> https://davanzokeoma.github.io/HubHum/apps/october/
   Summary: October lets you create and manage website content without tangled code, giving you a clean, straightforward way to keep your site up to date. | Source: https://github.com/octobercms/october | Download: https://octobercms.com
+[permissionsdispatcher] PermissionsDispatcher (Productivity | tier1_gui | desktop | Android | Open Source (Apache 2.0) | 11140★) -> https://davanzokeoma.github.io/HubHum/apps/permissionsdispatcher/
+  Summary: Manage device permissions in Android apps safely and cleanly using simple labels without writing tedious conditional statements. | Source: https://github.com/permissions-dispatcher/permissionsdispatcher | Download: https://github.com/permissions-dispatcher/PermissionsDispatcher
 [dufs] dufs (Utilities & Power Tools | tier3_powertool | cli | Windows, macOS, Linux | Open Source (Apache 2.0) | 11138★) -> https://davanzokeoma.github.io/HubHum/apps/dufs/
   Summary: dufs turns a folder on your computer into a web page where friends can view, download, upload or search files without installing extra tools. | Source: https://github.com/sigoden/dufs | Download: https://github.com/sigoden/dufs/releases
 [frappe] Frappe (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 11137★) -> https://davanzokeoma.github.io/HubHum/apps/frappe/
   Summary: Frappe is a powerful tool for creating complex, data-driven web applications without needing to write excessive amounts of code. | Source: https://github.com/frappe/frappe | Download: https://frappe.io/framework
 [readme-md-generator] readme-md-generator (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 11135★) -> https://davanzokeoma.github.io/HubHum/apps/readme-md-generator/
   Summary: This tool automatically generates polished project description files by scanning your existing project settings. | Source: https://github.com/kefranabg/readme-md-generator | Download: https://www.npmjs.com/package/readme-md-generator
+[filedownloader] FileDownloader (Productivity | tier1_gui | desktop | Android | Open Source (Apache 2.0) | 11126★) -> https://davanzokeoma.github.io/HubHum/apps/filedownloader/
+  Summary: FileDownloader is a free Android library that helps apps download files quickly using multiple connections. | Source: https://github.com/lingochamp/filedownloader | Download: https://github.com/lingochamp/FileDownloader/releases
 [dawarich] Dawarich (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (AGPL v3) | 11004★) -> https://davanzokeoma.github.io/HubHum/apps/dawarich/
   Summary: Keep a private journal of your travels and visited places with a self-hosted location tracking and mapping hub. | Source: https://github.com/freika/dawarich | Download: https://github.com/Freika/dawarich/releases/download/1.23.0/docker-compose.yml
 [llama-gpt] LlamaGPT (Web Apps & Cloud | tier2_webapp | selfhosted | Self-Hosted / Browser | Open Source (MIT) | 10922★) -> https://davanzokeoma.github.io/HubHum/apps/llama-gpt/
@@ -1327,6 +1371,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Capture desktop screens, webcams, audio, and mouse movements easily with a lightweight recording utility. | Source: https://github.com/mathewsachin/captura | Download: https://github.com/MathewSachin/Captura/releases/download/v8.0.0/Captura-Setup.exe
 [proton-native] proton-native (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 10867★) -> https://davanzokeoma.github.io/HubHum/apps/proton-native/
   Summary: Create fast, cross-platform desktop applications using familiar web coding skills without heavy overhead. | Source: https://github.com/kusti8/proton-native | Download: https://proton-native.js.org
+[mobile-mcp] Mobile MCP (Productivity | tier1_gui | desktop | Android, iOS | Open Source (Apache 2.0) | 10860★) -> https://davanzokeoma.github.io/HubHum/apps/mobile-mcp/
+  Summary: An assistant bridge that allows artificial intelligence agents to test, navigate, and automate iOS and Android apps effortlessly. | Source: https://github.com/mobile-next/mobile-mcp | Download: https://github.com/mobile-next/mobile-mcp/releases/download/1.0.20/mobile-mcp-darwin.mcpb
 [spotifyd] spotifyd (Productivity | tier1_gui | desktop | Linux | Open Source (GPL v3) | 10844★) -> https://davanzokeoma.github.io/HubHum/apps/spotifyd/
   Summary: Spotifyd is a free, lightweight tool that lets you stream Spotify music on any computer or server. | Source: https://github.com/spotifyd/spotifyd | Download: https://github.com/Spotifyd/spotifyd/releases/download/v0.4.2/spotifyd-linux-aarch64-default.sha512
 [qt] Qt for Go (Productivity | tier1_gui | desktop | Windows, macOS, Linux, iOS | Open Source (LGPL) | 10800★) -> https://davanzokeoma.github.io/HubHum/apps/qt/
@@ -1345,6 +1391,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: Wuzz is a text-based tool that helps you view and modify web traffic directly from your terminal. | Source: https://github.com/asciimoo/wuzz | Download: https://github.com/asciimoo/wuzz/releases/download/v0.5.0/wuzz_windows_386.exe
 [ytdownloader] ytDownloader (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (GPL v3) | 10742★) -> https://davanzokeoma.github.io/HubHum/apps/ytdownloader/
   Summary: Download your favorite videos, songs, and entire playlists from hundreds of popular websites directly to your computer with a clean app. | Source: https://github.com/aandrew-me/ytdownloader | Download: https://github.com/aandrew-me/ytDownloader/releases/download/v4.1.0/YTDownloader_Win.exe
+[rtranslator] RTranslator (Productivity | tier1_gui | desktop | Android | Open Source (Apache 2.0) | 10718★) -> https://davanzokeoma.github.io/HubHum/apps/rtranslator/
+  Summary: Translate live conversations effortlessly right on your phone without needing an internet connection or subscriptions. | Source: https://github.com/niedev/rtranslator | Download: https://github.com/niedev/RTranslator/releases/download/2.1.5/RTranslator_2.1.5.apk
 [openscad] OpenSCAD (Graphics & Design | tier1_gui | desktop | Windows, macOS, Linux | Custom Open License | 10716★) -> https://davanzokeoma.github.io/HubHum/apps/openscad/
   Summary: OpenSCAD is a specialized tool for designing precise 3D objects by writing descriptive instructions instead of drawing them by hand. | Source: https://github.com/openscad/openscad | Download: https://github.com/openscad/openscad/releases/download/openscad-2021.01/OpenSCAD-2021.01-x86-32-Installer.exe
 [soup] Soup (Productivity | tier1_gui | desktop | Windows, macOS, Linux | Open Source (Apache 2.0) | 10712★) -> https://davanzokeoma.github.io/HubHum/apps/soup/
@@ -1371,6 +1419,8 @@ Site: https://davanzokeoma.github.io/HubHum/ | Catalog JSON: https://davanzokeom
   Summary: AIChat brings advanced artificial intelligence directly into your command-line interface for faster, smarter daily tasks. | Source: https://github.com/sigoden/aichat | Download: https://github.com/sigoden/aichat/releases
 [spotifast] Spotifast (Video & Audio | tier1_gui | desktop | Windows, macOS, Linux | Open Source (MIT) | 10570★) -> https://davanzokeoma.github.io/HubHum/apps/spotifast/
   Summary: Spotifast provides a snappy, native desktop home for your music library, allowing you to browse playlists, search tracks, and control playback directly from your computer. | Source: https://github.com/crmne/spotifast | Download: https://github.com/crmne/spotifast/releases/download/v0.17.2/spotifast-v0.17.2-aarch64-pc-windows-msvc.msi
+[android-async-http] Android Async Http (Productivity | tier1_gui | desktop | Android | Open Source (Apache 2.0) | 10562★) -> https://davanzokeoma.github.io/HubHum/apps/android-async-http/
+  Summary: An efficient callback-based network communication tool designed to help mobile applications handle web requests smoothly in the background. | Source: https://github.com/android-async-http/android-async-http | Download: https://github.com/android-async-http/android-async-http/releases/download/1.4.11/android-async-http-1.4.11-javadoc.jar
 [netnewswire] NetNewsWire (Productivity | tier1_gui | desktop | macOS, iOS | Open Source (MIT) | 10557★) -> https://davanzokeoma.github.io/HubHum/apps/netnewswire/
   Summary: Stay updated with your favorite blogs, news sites, and journals in one clean, distraction-free app designed specifically for Mac and iPhone. | Source: https://github.com/ranchero-software/netnewswire | Download: https://netnewswire.com/
 [qrcp] qrcp (Utilities & Power Tools | tier3_powertool | cli | Linux | Open Source (MIT) | 10530★) -> https://davanzokeoma.github.io/HubHum/apps/qrcp/
