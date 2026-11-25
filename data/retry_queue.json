@@ -161,20 +161,6 @@
     "queued_at": "2026-11-24T19:18:00.448433+00:00"
   },
   {
-    "full_name": "igorwojda/android-showcase",
-    "slug": "android-showcase",
-    "html_url": "https://github.com/igorwojda/android-showcase",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:20:07.985389+00:00"
-  },
-  {
-    "full_name": "ReactiveX/RxSwift",
-    "slug": "rxswift",
-    "html_url": "https://github.com/ReactiveX/RxSwift",
-    "reason": "tier1_gemini: validation failed (Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:21:40.164424+00:00"
-  },
-  {
     "full_name": "jirutka/ldap-passwd-webui",
     "slug": "ldap-passwd-webui",
     "html_url": "https://github.com/jirutka/ldap-passwd-webui",
@@ -215,5 +201,33 @@
     "html_url": "https://github.com/Textualize/rich-cli",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-25T03:09:54.778827+00:00"
+  },
+  {
+    "full_name": "Juanpe/SkeletonView",
+    "slug": "skeletonview",
+    "html_url": "https://github.com/Juanpe/SkeletonView",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-25T12:16:30.121933+00:00"
+  },
+  {
+    "full_name": "Tim9Liu9/TimLiu-iOS",
+    "slug": "timliu-ios",
+    "html_url": "https://github.com/Tim9Liu9/TimLiu-iOS",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T12:16:56.590766+00:00"
+  },
+  {
+    "full_name": "ninjaprox/NVActivityIndicatorView",
+    "slug": "nvactivityindicatorview",
+    "html_url": "https://github.com/ninjaprox/NVActivityIndicatorView",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T12:17:44.560290+00:00"
+  },
+  {
+    "full_name": "didi/mpx",
+    "slug": "mpx",
+    "html_url": "https://github.com/didi/mpx",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-25T12:19:06.655398+00:00"
   }
 ]

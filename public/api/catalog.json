@@ -2,27 +2,27 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-25T12:15:36.860510+00:00",
-  "total_apps": 2300,
+  "generated_at": "2026-11-25T12:20:30.890709+00:00",
+  "total_apps": 2325,
   "tier_counts": {
     "tier3_powertool": 339,
-    "tier2_webapp": 682,
-    "tier1_gui": 1279
+    "tier2_webapp": 695,
+    "tier1_gui": 1291
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 329,
-    "selfhosted": 681,
-    "desktop": 1279,
+    "selfhosted": 694,
+    "desktop": 1291,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 42,
-    "Productivity": 1127,
+    "Productivity": 1139,
     "Security & Privacy": 56,
     "Utilities & Power Tools": 310,
     "Video & Audio": 105,
-    "Web Apps & Cloud": 657,
+    "Web Apps & Cloud": 670,
     "Websites & SEO": 3
   },
   "apps": [
@@ -7670,6 +7670,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "rxswift",
+      "name": "RxSwift",
+      "tagline": "Simplify asynchronous app events effortlessly",
+      "repo_url": "https://github.com/reactivex/rxswift",
+      "full_name": "reactivex/rxswift",
+      "category": "Productivity",
+      "tags": [
+        "reactive",
+        "ios"
+      ],
+      "icon": "/icons/rxswift.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 24624,
+      "tier": "tier1_gui",
+      "summary": "Manage complex app data streams and user actions smoothly using clean reactive programming in Swift.",
+      "i18n": {
+        "it": "Gestisci flussi di dati e azioni utente nelle tue app in modo pulito ed efficiente.",
+        "es": "Maneja flujos de datos complejos y acciones de usuario de forma limpia y reactiva.",
+        "fr": "Gérez facilement les flux de données et les interactions utilisateur grâce à la programmation réactive.",
+        "de": "Verwalte komplexe Datenströme und Benutzeraktionen mühelos mit sauberer reaktiver Programmierung."
+      },
+      "download_url": "https://github.com/ReactiveX/RxSwift/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "social-analyzer",
       "name": "social-analyzer",
       "tagline": "Find online profiles across thousand sites.",
@@ -11926,6 +11954,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "better-scroll",
+      "name": "BetterScroll",
+      "tagline": "Smooth scrolling for mobile and web",
+      "repo_url": "https://github.com/ustbhuangyi/better-scroll",
+      "full_name": "ustbhuangyi/better-scroll",
+      "category": "Productivity",
+      "tags": [
+        "web-development",
+        "ui-tools"
+      ],
+      "icon": "/icons/better-scroll.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 16428,
+      "tier": "tier1_gui",
+      "summary": "BetterScroll helps developers create smooth, high-performance scrolling experiences for mobile and desktop websites.",
+      "i18n": {
+        "it": "BetterScroll aiuta gli sviluppatori a creare esperienze di scorrimento fluide e ad alte prestazioni per siti web mobile e desktop.",
+        "es": "BetterScroll ayuda a los desarrolladores a crear experiencias de desplazamiento fluidas y de alto rendimiento para sitios web.",
+        "fr": "BetterScroll aide les développeurs à créer des expériences de défilement fluides et performantes pour les sites web.",
+        "de": "BetterScroll hilft Entwicklern, flüssige und leistungsstarke Scroll-Erlebnisse für mobile und Desktop-Websites zu erstellen."
+      },
+      "download_url": "https://better-scroll.github.io/docs/en-US/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "bentopdf",
       "name": "bentopdf",
       "tagline": "Your private browser-based PDF toolbox.",
@@ -13632,6 +13688,34 @@
       },
       "download_url": "https://github.com/MetrolistGroup/Metrolist/releases/download/v14.0.1/metrolist-installer-windows-x64-14.0.1.exe",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "cocoapods",
+      "name": "CocoaPods",
+      "tagline": "Manage code libraries for software projects",
+      "repo_url": "https://github.com/cocoapods/cocoapods",
+      "full_name": "cocoapods/cocoapods",
+      "category": "Productivity",
+      "tags": [
+        "dependencies",
+        "development"
+      ],
+      "icon": "/icons/cocoapods.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 14833,
+      "tier": "tier1_gui",
+      "summary": "CocoaPods organizes external code libraries and manages dependencies for your software projects automatically.",
+      "i18n": {
+        "it": "CocoaPods organizza librerie di codice esterne e gestisce automaticamente le dipendenze dei tuoi progetti.",
+        "es": "CocoaPods organiza librerías de código externas y gestiona automáticamente las dependencias de tus proyectos.",
+        "fr": "CocoaPods organise les bibliothèques de code externes et gère automatiquement les dépendances de vos projets.",
+        "de": "CocoaPods organisiert externe Code-Bibliotheken und verwaltet automatisch die Abhängigkeiten Ihrer Projekte."
+      },
+      "download_url": "https://cocoapods.org/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "espanso",
@@ -15510,6 +15594,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "openreplay",
+      "name": "OpenReplay",
+      "tagline": "Understand exactly how users experience your site.",
+      "repo_url": "https://github.com/openreplay/openreplay",
+      "full_name": "openreplay/openreplay",
+      "category": "Productivity",
+      "tags": [
+        "analytics",
+        "web-development"
+      ],
+      "icon": "/icons/openreplay.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 13187,
+      "tier": "tier1_gui",
+      "summary": "OpenReplay lets you watch recordings of user sessions to see exactly where they struggle, helping you fix bugs and improve your product.",
+      "i18n": {
+        "it": "OpenReplay ti permette di guardare le registrazioni delle sessioni utente per individuare problemi e migliorare l'esperienza del tuo prodotto.",
+        "es": "OpenReplay te permite ver grabaciones de sesiones de usuario para detectar errores y mejorar la experiencia de tu producto fácilmente.",
+        "fr": "OpenReplay vous permet de visionner des enregistrements de sessions pour identifier les bugs et optimiser votre produit en toute sécurité.",
+        "de": "OpenReplay ermöglicht es Ihnen, Nutzersitzungen aufzuzeichnen, um Fehler zu finden und die Bedienung Ihres Produkts gezielt zu verbessern."
+      },
+      "download_url": "https://github.com/openreplay/openreplay/releases/download/v1.28.0/openreplay-mcp-desktop.mcpb",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "broot",
       "name": "broot",
       "tagline": "Navigate directories and find files instantly.",
@@ -15620,6 +15732,34 @@
       },
       "download_url": "https://distrobox.it/",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "iglistkit",
+      "name": "IGListKit",
+      "tagline": "Build fast and flexible lists easily.",
+      "repo_url": "https://github.com/instagram/iglistkit",
+      "full_name": "instagram/iglistkit",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "lists"
+      ],
+      "icon": "/icons/iglistkit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 13093,
+      "tier": "tier1_gui",
+      "summary": "A powerful data-driven list management tool for app developers that eliminates clunky list updates and boosts scrolling performance.",
+      "i18n": {
+        "it": "Uno strumento di gestione elenchi basato sui dati per sviluppatori che elimina aggiornamenti lenti e migliora la fluidità.",
+        "es": "Una herramienta de listas basada en datos para desarrolladores que elimina actualizaciones lentas y mejora el desplazamiento.",
+        "fr": "Un outil de gestion de listes pour développeurs qui élimine les mises à jour lourdes et améliore la fluidité de défilement.",
+        "de": "Ein datengesteuertes Listen-Werkzeug für Entwickler, das umständliche Aktualisierungen vermeidet und die Scroll-Leistung steigert."
+      },
+      "download_url": "https://instagram.github.io/IGListKit/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "wallabag",
@@ -16292,6 +16432,34 @@
       },
       "download_url": "https://github.com/mas-cli/mas/releases/download/v7.0.0/mas-7.0.0-arm64.pkg",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "svprogresshud",
+      "name": "SVProgressHUD",
+      "tagline": "Clean progress indicators for iOS apps",
+      "repo_url": "https://github.com/svprogresshud/svprogresshud",
+      "full_name": "svprogresshud/svprogresshud",
+      "category": "Productivity",
+      "tags": [
+        "ios-development",
+        "ui-components"
+      ],
+      "icon": "/icons/svprogresshud.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 12434,
+      "tier": "tier1_gui",
+      "summary": "SVProgressHUD is a lightweight tool that displays clear, stylish progress bars and status messages in iOS and tvOS applications.",
+      "i18n": {
+        "it": "SVProgressHUD è uno strumento leggero che mostra barre di avanzamento e messaggi di stato chiari nelle app iOS e tvOS.",
+        "es": "SVProgressHUD es una herramienta ligera que muestra barras de progreso y mensajes de estado claros en aplicaciones iOS y tvOS.",
+        "fr": "SVProgressHUD est un outil léger qui affiche des barres de progression et des messages d'état clairs dans les applications iOS et tvOS.",
+        "de": "SVProgressHUD ist ein leichtgewichtiges Tool, das klare Fortschrittsbalken und Statusmeldungen in iOS- und tvOS-Apps anzeigt."
+      },
+      "download_url": "https://github.com/SVProgressHUD/SVProgressHUD",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "androidviewanimations",
@@ -17188,6 +17356,34 @@
       },
       "download_url": "https://github.com/0xJacky/nginx-ui/releases/download/v3.0.6/app-dist.tar.gz.minisig",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "eureka",
+      "name": "Eureka",
+      "tagline": "Build beautiful iOS forms with ease",
+      "repo_url": "https://github.com/xmartlabs/eureka",
+      "full_name": "xmartlabs/eureka",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "development"
+      ],
+      "icon": "/icons/eureka.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 11803,
+      "tier": "tier1_gui",
+      "summary": "Eureka is a tool that helps developers create professional-looking data entry forms for iPhone and iPad applications quickly.",
+      "i18n": {
+        "it": "Eureka è uno strumento che aiuta gli sviluppatori a creare moduli di inserimento dati professionali per app iPhone e iPad in modo rapido.",
+        "es": "Eureka es una herramienta que ayuda a los desarrolladores a crear formularios de entrada de datos profesionales para apps de iPhone y iPad.",
+        "fr": "Eureka est un outil qui aide les développeurs à créer rapidement des formulaires de saisie de données professionnels pour iPhone et iPad.",
+        "de": "Eureka ist ein Werkzeug, das Entwicklern hilft, schnell professionelle Dateneingabeformulare für iPhone- und iPad-Apps zu erstellen."
+      },
+      "download_url": "https://eurekacommunity.github.io",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "docker-pi-hole",
@@ -18674,6 +18870,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "ios-good-practices",
+      "name": "iOS Good Practices",
+      "tagline": "Essential guidelines for iOS app development",
+      "repo_url": "https://github.com/futurice/ios-good-practices",
+      "full_name": "futurice/ios-good-practices",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "development"
+      ],
+      "icon": "/icons/ios-good-practices.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 10979,
+      "tier": "tier1_gui",
+      "summary": "Discover helpful expert advice, design patterns, and coding standards for building reliable Apple mobile applications.",
+      "i18n": {
+        "it": "Scopri consigli esperti, modelli di progettazione e standard di codifica per creare applicazioni mobili Apple affidabili.",
+        "es": "Descubre consejos de expertos, patrones de diseño y estándares de código para crear aplicaciones móviles de Apple fiables.",
+        "fr": "Découvrez des conseils d'experts, des modèles de conception et des normes de code pour créer des applications mobiles fiables.",
+        "de": "Entdecken Sie Expertenrat, Designmuster und Codierungsstandards für die Entwicklung zuverlässiger Apple-Mobilanwendungen."
+      },
+      "download_url": "https://www.futurice.com",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "llama-gpt",
       "name": "LlamaGPT",
       "tagline": "Your own private offline AI chatbot",
@@ -19427,6 +19651,34 @@
       },
       "download_url": "https://github.com/wader/fq/releases/download/v0.18.0/checksums.txt",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "fscalendar",
+      "name": "FSCalendar",
+      "tagline": "Beautiful, flexible calendars for iOS apps",
+      "repo_url": "https://github.com/wenchaod/fscalendar",
+      "full_name": "wenchaod/fscalendar",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "development"
+      ],
+      "icon": "/icons/fscalendar.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 10626,
+      "tier": "tier1_gui",
+      "summary": "FSCalendar is a powerful tool that helps developers add highly customizable and interactive calendar displays to their iPhone and iPad applications.",
+      "i18n": {
+        "it": "FSCalendar è uno strumento che aiuta gli sviluppatori a creare calendari interattivi e personalizzabili per le loro app su iPhone e iPad.",
+        "es": "FSCalendar es una herramienta que ayuda a los desarrolladores a añadir calendarios interactivos y personalizables a sus apps de iPhone y iPad.",
+        "fr": "FSCalendar est un outil qui aide les développeurs à ajouter des calendriers interactifs et personnalisables à leurs applications iOS.",
+        "de": "FSCalendar ist ein Werkzeug, das Entwicklern hilft, interaktive und anpassbare Kalender in ihre iPhone- und iPad-Apps zu integrieren."
+      },
+      "download_url": "https://github.com/WenchaoD/FSCalendar/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "gocui",
@@ -20465,6 +20717,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "folding-cell",
+      "name": "folding-cell",
+      "tagline": "An expanding paper-folding mobile UI component",
+      "repo_url": "https://github.com/ramotion/folding-cell",
+      "full_name": "ramotion/folding-cell",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "ui"
+      ],
+      "icon": "/icons/folding-cell.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 10169,
+      "tier": "tier1_gui",
+      "summary": "Easily add folding, paper-card animation effects to list items in your mobile applications for an engaging user experience.",
+      "i18n": {
+        "it": "Aggiungi facilmente effetti di animazione carta pieghevole agli elementi delle liste nelle tue app mobili.",
+        "es": "Agrega fácilmente efectos de animación de tarjetas plegables a los elementos de listas en tus aplicaciones móviles.",
+        "fr": "Ajoutez facilement des effets d'animation de cartes pliantes aux éléments de liste dans vos applications mobiles.",
+        "de": "Fügen Sie Ihren mobilen Apps ganz einfach Animationen für papierfaltbare Listenelemente hinzu."
+      },
+      "download_url": "https://www.ramotion.com/folding-cell/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "webtorrent-desktop",
       "name": "WebTorrent Desktop",
       "tagline": "Stream video and audio files instantly.",
@@ -21330,6 +21610,34 @@
         "de": "Operit ist ein vielseitiger KI-Assistent für Android, der intelligente Modelle mit Ihren Dateien und Apps verbindet."
       },
       "download_url": "https://github.com/AAswordman/Operit/releases/download/v1.12.2/app-release.apk",
+      "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "quick",
+      "name": "Quick",
+      "tagline": "Clearer testing for Apple software projects.",
+      "repo_url": "https://github.com/quick/quick",
+      "full_name": "quick/quick",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "testing"
+      ],
+      "icon": "/icons/quick.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 9820,
+      "tier": "tier1_gui",
+      "summary": "Quick helps software creators write readable, organized tests to ensure their applications work exactly as expected.",
+      "i18n": {
+        "it": "Quick aiuta gli sviluppatori a scrivere test leggibili e organizzati per garantire che le loro applicazioni funzionino correttamente.",
+        "es": "Quick ayuda a los creadores de software a escribir pruebas legibles y organizadas para asegurar que sus aplicaciones funcionen como se espera.",
+        "fr": "Quick aide les créateurs de logiciels à écrire des tests lisibles et organisés pour garantir que leurs applications fonctionnent parfaitement.",
+        "de": "Quick hilft Softwareentwicklern dabei, lesbare und strukturierte Tests zu schreiben, um sicherzustellen, dass ihre Apps wie geplant funktionieren."
+      },
+      "download_url": "https://quick.github.io/Quick/",
       "updated_at": "2026-11-25"
     },
     {
@@ -30627,6 +30935,34 @@
       },
       "download_url": "https://github.com/getActivity/XXPermissions/releases/download/28.3/XXPermissions.apk",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "android-showcase",
+      "name": "Android Showcase",
+      "tagline": "Modern production-ready Android architectural blueprint.",
+      "repo_url": "https://github.com/igorwojda/android-showcase",
+      "full_name": "igorwojda/android-showcase",
+      "category": "Productivity",
+      "tags": [
+        "android",
+        "jetpack-compose"
+      ],
+      "icon": "/icons/android-showcase.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android",
+      "license": "Open Source (MIT)",
+      "stars": 6808,
+      "tier": "tier1_gui",
+      "summary": "Explore a modern, modular Android application built with industry-standard practices, Jetpack Compose, and clean architecture.",
+      "i18n": {
+        "it": "Esplora un'applicazione Android modulare e moderna creata con pratiche standard del settore e Jetpack Compose.",
+        "es": "Explora una aplicación Android modular y moderna creada con prácticas estándar de la industria y Jetpack Compose.",
+        "fr": "Découvrez une application Android modulaire et moderne créée avec les pratiques standard de l'industrie.",
+        "de": "Entdecken Sie eine modulares Android-Beispielprojekt, das mit modernen Industriestandards entwickelt wurde."
+      },
+      "download_url": "https://github.com/igorwojda/android-showcase/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "cppcheck",
@@ -42416,6 +42752,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "telegram-tt",
+      "name": "telegram-tt",
+      "tagline": "Ultra-fast and lightweight Telegram web client",
+      "repo_url": "https://github.com/ajaxy/telegram-tt",
+      "full_name": "ajaxy/telegram-tt",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "telegram",
+        "messaging"
+      ],
+      "icon": "/icons/telegram-tt.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 3654,
+      "tier": "tier2_webapp",
+      "summary": "An award-winning, lightning-fast web client for Telegram designed for maximum speed, smooth animations, and zero clutter.",
+      "i18n": {
+        "it": "Un client web premiato e velocissimo per Telegram, progettato per offrire massima velocità, animazioni fluide e zero distrazioni.",
+        "es": "Un cliente web galardonado y ultrarrápido para Telegram diseñado para ofrecer máxima velocidad, animaciones fluidas y cero desorden.",
+        "fr": "Un client web primé et ultra-rapide pour Telegram conçu pour une vitesse maximale, des animations fluides et sans encombrement.",
+        "de": "Ein preisgekrönter, blitzschneller Webclient für Telegram, der für maximale Geschwindigkeit, flüssige Animationen und null Unordnung sorgt."
+      },
+      "download_url": "https://github.com/Ajaxy/telegram-tt/releases/download/air_v2.12.3/Telegram.Air_2.12.3_x64-setup.exe",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "commafeed",
       "name": "CommaFeed",
       "tagline": "A private, self-hosted news reader.",
@@ -44515,6 +44879,34 @@
       "updated_at": "2026-11-20"
     },
     {
+      "slug": "jasypt-spring-boot",
+      "name": "jasypt-spring-boot",
+      "tagline": "Secure sensitive configuration properties effortlessly",
+      "repo_url": "https://github.com/ulisesbocchio/jasypt-spring-boot",
+      "full_name": "ulisesbocchio/jasypt-spring-boot",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "encryption"
+      ],
+      "icon": "/icons/jasypt-spring-boot.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 3087,
+      "tier": "tier2_webapp",
+      "summary": "Automatically encrypt sensitive configuration details in your software projects to keep passwords and database keys safe.",
+      "i18n": {
+        "it": "Crittografa automaticamente i dati riservati dei progetti software per mantenere al sicuro chiavi e password.",
+        "es": "Cifra automáticamente los datos confidenciales en proyectos de software para mantener seguras contraseñas y claves.",
+        "fr": "Chiffrez automatiquement les données confidentielles de vos projets pour garder vos mots de passe en sécurité.",
+        "de": "Verschlüsseln Sie sensible Projektdaten automatisch, um Passwörter und Datenbankschlüssel sicher zu halten."
+      },
+      "download_url": "https://github.com/ulisesbocchio/jasypt-spring-boot/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "dittofeed",
       "name": "Dittofeed",
       "tagline": "Send messages across any channel",
@@ -44933,6 +45325,34 @@
       },
       "download_url": "https://github.com/snapotter-hq/SnapOtter/releases/download/v2.3.0/docker-compose-gpu.yml",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "uwsgi-nginx-flask-docker",
+      "name": "uwsgi-nginx-flask-docker",
+      "tagline": "Run Python Flask inside single Docker containers",
+      "repo_url": "https://github.com/tiangolo/uwsgi-nginx-flask-docker",
+      "full_name": "tiangolo/uwsgi-nginx-flask-docker",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "self-hosted",
+        "flask"
+      ],
+      "icon": "/icons/uwsgi-nginx-flask-docker.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 2999,
+      "tier": "tier2_webapp",
+      "summary": "Bundle Python Flask web apps with uWSGI and Nginx into a single optimized Docker container for easy deployment.",
+      "i18n": {
+        "it": "Collega app web Flask in Python con uWSGI e Nginx in un unico container Docker ottimizzato per la distribuzione.",
+        "es": "Combina aplicaciones web Flask con uWSGI y Nginx dentro de un único contenedor Docker optimizado.",
+        "fr": "Associez des applications web Flask avec uWSGI et Nginx dans un seul conteneur Docker optimisé.",
+        "de": "Kombinieren Sie Python Flask Web-Apps mit uWSGI und Nginx in einem einzigen optimierten Docker-Container."
+      },
+      "download_url": "https://hub.docker.com/r/tiangolo/uwsgi-nginx-flask/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "jclasslib",
@@ -45859,6 +46279,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "tweb",
+      "name": "tweb",
+      "tagline": "Fast, private Telegram in your browser",
+      "repo_url": "https://github.com/morethanwords/tweb",
+      "full_name": "morethanwords/tweb",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "messaging",
+        "webapp"
+      ],
+      "icon": "/icons/tweb.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 2741,
+      "tier": "tier2_webapp",
+      "summary": "tweb is a free, open-source web version of Telegram that runs directly in your browser.",
+      "i18n": {
+        "it": "tweb è una versione web gratuita e open source di Telegram che funziona direttamente nel browser.",
+        "es": "tweb es una versión web gratuita y de código abierto de Telegram que funciona directamente en tu navegador.",
+        "fr": "tweb est une version web gratuite et open source de Telegram qui fonctionne directement dans votre navigateur.",
+        "de": "tweb ist eine kostenlose, quelloffene Web-Version von Telegram, die direkt in Ihrem Browser läuft."
+      },
+      "download_url": "https://web.telegram.org/k/",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "fladder",
       "name": "Fladder",
       "tagline": "A versatile viewer for your media library",
@@ -46249,6 +46697,34 @@
       },
       "download_url": "https://www.smartstore.com/en/net",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "metastream",
+      "name": "Metastream",
+      "tagline": "Watch streaming media with friends together.",
+      "repo_url": "https://github.com/samuelmaddock/metastream",
+      "full_name": "samuelmaddock/metastream",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "streaming",
+        "media"
+      ],
+      "icon": "/icons/metastream.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 2649,
+      "tier": "tier2_webapp",
+      "summary": "Synchronize online videos across different devices to watch movies and shows with friends in real time.",
+      "i18n": {
+        "it": "Sincronizza i video online su diversi dispositivi per guardare film e programmi con gli amici in tempo reale.",
+        "es": "Sincroniza videos en línea en diferentes dispositivos para ver películas y programas con amigos en tiempo real.",
+        "fr": "Synchronisez des vidéos en ligne sur différents appareils pour regarder des films et des émissions avec des amis en temps réel.",
+        "de": "Synchronisieren Sie Online-Videos auf verschiedenen Geräten, um Filme und Shows in Echtzeit mit Freunden zu schauen."
+      },
+      "download_url": "https://getmetastream.com/",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "phoenix",
@@ -46923,6 +47399,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "cloudtunes",
+      "name": "CloudTunes",
+      "tagline": "Your personal music library in the cloud",
+      "repo_url": "https://github.com/jkbrzt/cloudtunes",
+      "full_name": "jkbrzt/cloudtunes",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "music",
+        "media-player"
+      ],
+      "icon": "/icons/cloudtunes.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 2506,
+      "tier": "tier2_webapp",
+      "summary": "CloudTunes brings your music files and online videos together into one organized, easy-to-use music player.",
+      "i18n": {
+        "it": "CloudTunes unisce i tuoi file musicali e i video online in un unico lettore musicale organizzato e facile da usare.",
+        "es": "CloudTunes reúne tus archivos de música y videos en línea en un reproductor de música organizado y fácil de usar.",
+        "fr": "CloudTunes rassemble vos fichiers musicaux et vos vidéos en ligne dans un lecteur de musique organisé et simple à utiliser.",
+        "de": "CloudTunes vereint Ihre Musikdateien und Online-Videos in einem organisierten und benutzerfreundlichen Musikplayer."
+      },
+      "download_url": "https://twitter.com/jkbrzt",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "thatproject",
       "name": "ThatProject",
       "tagline": "Exciting microcontroller and hardware DIY tutorials",
@@ -46977,6 +47481,34 @@
       },
       "download_url": "https://learnhouse.app",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "opendaw",
+      "name": "openDAW",
+      "tagline": "Professional music production directly in your browser.",
+      "repo_url": "https://github.com/andremichelle/opendaw",
+      "full_name": "andremichelle/opendaw",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "audio",
+        "music"
+      ],
+      "icon": "/icons/opendaw.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 2482,
+      "tier": "tier2_webapp",
+      "summary": "openDAW is a powerful, privacy-focused music studio that lets you record, edit, and mix audio tracks without needing to install any software.",
+      "i18n": {
+        "it": "openDAW è uno studio musicale potente e attento alla privacy per registrare, modificare e mixare tracce audio direttamente online.",
+        "es": "openDAW es un estudio de música potente y privado para grabar, editar y mezclar pistas de audio directamente desde tu navegador.",
+        "fr": "openDAW est un studio de musique puissant et privé pour enregistrer, éditer et mixer des pistes audio directement en ligne.",
+        "de": "openDAW ist ein leistungsstarkes, privatsphärenfreundliches Musikstudio zum Aufnehmen, Bearbeiten und Mischen von Audiospuren im Browser."
+      },
+      "download_url": "https://opendaw.studio",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "bitterbot-desktop",
@@ -47061,6 +47593,34 @@
       },
       "download_url": "https://kivymd.readthedocs.io",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "webcord",
+      "name": "WebCord",
+      "tagline": "Secure and private alternative chat client",
+      "repo_url": "https://github.com/spacingbat3/webcord",
+      "full_name": "spacingbat3/webcord",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "chat",
+        "privacy"
+      ],
+      "icon": "/icons/webcord.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 2460,
+      "tier": "tier2_webapp",
+      "summary": "WebCord is a privacy-focused chat client designed to give you a secure alternative experience without tracking.",
+      "i18n": {
+        "it": "WebCord è un client di chat incentrato sulla privacy progettato per offrire un'esperienza sicura senza tracciamento.",
+        "es": "WebCord es un cliente de chat enfocado en la privacidad diseñado para ofrecer una experiencia segura sin rastreo.",
+        "fr": "WebCord est un client de chat axé sur la confidentialité conçu pour offrir une expérience sécurisée sans suivi.",
+        "de": "WebCord ist ein datenschutzorientierter Chat-Client, der für ein sicheres Erlebnis ohne Tracking entwickelt wurde."
+      },
+      "download_url": "https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/webcord-squirrel-arm64.exe",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "iplug2",
@@ -47315,6 +47875,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "batnoter",
+      "name": "BatNoter",
+      "tagline": "Self-hosted Markdown notes in Git",
+      "repo_url": "https://github.com/batnoter/batnoter",
+      "full_name": "batnoter/batnoter",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "notes",
+        "markdown"
+      ],
+      "icon": "/icons/batnoter.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 2419,
+      "tier": "tier2_webapp",
+      "summary": "BatNoter is a free, open-source web app that lets you store and organize Markdown notes directly inside your personal GitHub account.",
+      "i18n": {
+        "it": "BatNoter è un'app web open source che ti permette di salvare e organizzare note in formato Markdown direttamente nel tuo account GitHub.",
+        "es": "BatNoter es una aplicación web de código abierto que te permite guardar y organizar notas en Markdown directamente en tu cuenta de GitHub.",
+        "fr": "BatNoter est une application web open source qui vous permet de stocker et d'organiser des notes en Markdown directement dans votre compte GitHub.",
+        "de": "BatNoter ist eine Open-Source-Web-App, mit der Sie Markdown-Notizen direkt in Ihrem GitHub-Konto speichern und organisieren können."
+      },
+      "download_url": "https://batnoter.com",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "android-advancedwebview",
       "name": "Android-AdvancedWebView",
       "tagline": "Better web browsing inside Android apps",
@@ -47369,6 +47957,34 @@
       },
       "download_url": "https://github.com/lanyeeee/bilibili-video-downloader/releases/download/v0.2.1/bilibili-video-downloader_0.2.1_windows_x64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "burpgpt",
+      "name": "BurpGPT",
+      "tagline": "AI-powered web security scanning",
+      "repo_url": "https://github.com/aress31/burpgpt",
+      "full_name": "aress31/burpgpt",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "security",
+        "web-scanning"
+      ],
+      "icon": "/icons/burpgpt.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 2404,
+      "tier": "tier2_webapp",
+      "summary": "BurpGPT is a Burp Suite extension that uses AI to analyze web traffic and find security issues that standard scanners might miss.",
+      "i18n": {
+        "it": "BurpGPT è un'estensione per Burp Suite che utilizza l'IA per analizzare il traffico web e individuare problemi di sicurezza che gli scanner standard potrebbero perdere.",
+        "es": "BurpGPT es una extensión de Burp Suite que usa IA para analizar el tráfico web y detectar problemas de seguridad que los escáneres estándar podrían pasar por alto.",
+        "fr": "BurpGPT est une extension pour Burp Suite qui utilise l'IA pour analyser le trafic web et détecter les problèmes de sécurité que les scanners standards pourraient manquer.",
+        "de": "BurpGPT ist eine Burp Suite-Erweiterung, die KI nutzt, um Webverkehr zu analysieren und Sicherheitslücken zu finden, die Standard-Scanner übersehen könnten."
+      },
+      "download_url": "https://github.com/aress31/burpgpt/releases",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "viro",
@@ -47593,6 +48209,34 @@
       },
       "download_url": "https://github.com/wxFormBuilder/wxFormBuilder/releases/download/v4.2.1/wxFormBuilder-4.2.1-x64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "docspell",
+      "name": "Docspell",
+      "tagline": "Organize your digital and paper documents",
+      "repo_url": "https://github.com/eikek/docspell",
+      "full_name": "eikek/docspell",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "productivity",
+        "document-management"
+      ],
+      "icon": "/icons/docspell.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 2355,
+      "tier": "tier2_webapp",
+      "summary": "Docspell helps you collect, organize, and search through your piles of digital files, emails, and scanned paper documents with ease.",
+      "i18n": {
+        "it": "Docspell ti aiuta a raccogliere, organizzare e cercare tra i tuoi file digitali, email e documenti scansionati con estrema facilità.",
+        "es": "Docspell te ayuda a recopilar, organizar y buscar entre tus archivos digitales, correos electrónicos y documentos escaneados fácilmente.",
+        "fr": "Docspell vous aide à rassembler, organiser et rechercher parmi vos fichiers numériques, e-mails et documents numérisés en toute simplicité.",
+        "de": "Docspell hilft Ihnen dabei, Ihre digitalen Dateien, E-Mails und gescannten Dokumente mühelos zu sammeln, zu ordnen und zu durchsuchen."
+      },
+      "download_url": "https://github.com/eikek/docspell/releases/download/v0.43.0/docspell-joex_0.43.0_all.deb",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "yaaw",
@@ -48099,6 +48743,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "webapp-rs",
+      "name": "webapp.rs",
+      "tagline": "Full-stack web application written in Rust",
+      "repo_url": "https://github.com/saschagrunert/webapp.rs",
+      "full_name": "saschagrunert/webapp.rs",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "web-development",
+        "full-stack"
+      ],
+      "icon": "/icons/webapp-rs.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 2254,
+      "tier": "tier2_webapp",
+      "summary": "Build and run complete web applications entirely in Rust with high performance and strong security.",
+      "i18n": {
+        "it": "Crea e gestisci applicazioni web complete interamente in Rust con alte prestazioni e sicurezza avanzata.",
+        "es": "Crea y ejecuta aplicaciones web completas totalmente en Rust con alto rendimiento y seguridad sólida.",
+        "fr": "Créez et exécutez des applications web complètes entièrement en Rust avec des performances élevées.",
+        "de": "Erstellen und betreiben Sie komplette Webanwendungen vollständig in Rust mit hoher Leistung."
+      },
+      "download_url": "https://github.com/saschagrunert/webapp.rs/releases",
+      "updated_at": "2026-11-25"
+    },
+    {
       "slug": "skales",
       "name": "Skales",
       "tagline": "Your private local AI desktop assistant.",
@@ -48125,6 +48797,34 @@
       },
       "download_url": "https://github.com/skalesapp/skales/releases/download/v12.9.65/Skales-Setup-12.9.65-arm64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "diagon",
+      "name": "Diagon",
+      "tagline": "Transform text into beautiful diagrams.",
+      "repo_url": "https://github.com/arthursonzogni/diagon",
+      "full_name": "arthursonzogni/diagon",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "diagrams",
+        "ascii-art"
+      ],
+      "icon": "/icons/diagon.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 2237,
+      "tier": "tier2_webapp",
+      "summary": "Instantly turn math equations, flowcharts, and trees into clean text-based diagrams for documentation and notes.",
+      "i18n": {
+        "it": "Converti istantaneamente equazioni, diagrammi e alberi in disegni di testo puliti per la documentazione.",
+        "es": "Transforma ecuaciones, diagramas de flujo y árboles en dibujos de texto limpios para notas y guías.",
+        "fr": "Convertissez instantanément vos équations et organigrammes en graphiques texte clairs et lisibles.",
+        "de": "Wandeln Sie mathematische Formeln und Ablaufpläne sofort in saubere Textgrafiken für Dokumentationen um."
+      },
+      "download_url": "https://github.com/ArthurSonzogni/Diagon/releases/download/v1.1.158/diagon-1.1.156-Darwin.dmg",
+      "updated_at": "2026-11-25"
     },
     {
       "slug": "nyaovim",
