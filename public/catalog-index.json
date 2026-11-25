@@ -14923,6 +14923,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "luban",
+    "name": "Luban",
+    "tagline": "Smart Android image compression tool library",
+    "repo_url": "https://github.com/curzibn/luban",
+    "full_name": "curzibn/luban",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "image-compression"
+    ],
+    "icon": "/icons/luban.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 13772,
+    "tier": "tier1_gui",
+    "summary": "Luban is an efficient Android image compression library that replicates the popular WeChat Moments compression style to save device storage while maintaining visual quality.",
+    "i18n": {
+      "it": "Luban è una libreria di compressione immagini per Android che imita lo stile di WeChat per ridurre lo spazio salvaguardando la qualità visiva.",
+      "es": "Luban es una biblioteca de compresión de imágenes en Android que replica el estilo de compresión de WeChat para ahorrar espacio manteniendo calidad.",
+      "fr": "Luban est une bibliothèque de compression d'images pour Android qui reproduit le style de WeChat pour réduire la taille des fichiers.",
+      "de": "Luban ist eine effiziente Android-Bildkomprimierungsbibliothek, die den WeChat-Komprimierungsstil nachbildet, um Speicherplatz zu sparen."
+    },
+    "download_url": "https://github.com/Curzibn/Luban/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "simpmusic",
     "name": "SimpMusic",
     "tagline": "Ad-free music streaming for everyone.",
@@ -17191,6 +17219,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "android-foss",
+    "name": "Android FOSS",
+    "tagline": "Curated free and open source Android apps",
+    "repo_url": "https://github.com/offa/android-foss",
+    "full_name": "offa/android-foss",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "privacy"
+    ],
+    "icon": "/icons/android-foss.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 11784,
+    "tier": "tier1_gui",
+    "summary": "Explore a massive, hand-picked collection of privacy-focused, free, and open-source applications for your Android device.",
+    "i18n": {
+      "it": "Esplora una vasta collezione di applicazioni Android gratuite e aperte focalizzate sulla privacy.",
+      "es": "Explora una colección masiva de aplicaciones Android gratuitas y de código abierto centradas en la privacidad.",
+      "fr": "Découvrez une vaste collection d'applications Android gratuites et open source axées sur la confidentialité.",
+      "de": "Entdecken Sie eine große Sammlung datenschutzfreundlicher, freier und quelloffener Android-Apps."
+    },
+    "download_url": "https://offa.github.io/android-foss/",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "pyroscope",
     "name": "pyroscope",
     "tagline": "Find and fix software performance bottlenecks.",
@@ -17609,6 +17665,34 @@
     },
     "download_url": "https://audiokit.io",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "immersionbar",
+    "name": "ImmersionBar",
+    "tagline": "Seamless Android status and navigation bars",
+    "repo_url": "https://github.com/gyf-dev/immersionbar",
+    "full_name": "gyf-dev/immersionbar",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "development"
+    ],
+    "icon": "/icons/immersionbar.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 11479,
+    "tier": "tier1_gui",
+    "summary": "ImmersionBar provides a simple way to create immersive, edge-to-edge screen designs for Android applications.",
+    "i18n": {
+      "it": "ImmersionBar offre un modo semplice per creare design a schermo intero coinvolgenti per le applicazioni Android.",
+      "es": "ImmersionBar ofrece una forma sencilla de crear diseños de pantalla completa e inmersivos para aplicaciones Android.",
+      "fr": "ImmersionBar offre un moyen simple de créer des designs immersifs plein écran pour les applications Android.",
+      "de": "ImmersionBar bietet eine einfache Möglichkeit, immersive Vollbild-Designs für Android-Anwendungen zu erstellen."
+    },
+    "download_url": "https://github.com/gyf-dev/ImmersionBar/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "mono",
@@ -18504,6 +18588,34 @@
       "de": "FileDownloader ist eine kostenlose Android-Bibliothek, die Apps hilft, Dateien schnell über mehrere Verbindungen herunterzuladen."
     },
     "download_url": "https://github.com/lingochamp/FileDownloader/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "fluentui-system-icons",
+    "name": "Fluent UI System Icons",
+    "tagline": "Modern, friendly system icons for applications",
+    "repo_url": "https://github.com/microsoft/fluentui-system-icons",
+    "full_name": "microsoft/fluentui-system-icons",
+    "category": "Graphics & Design",
+    "tags": [
+      "icons",
+      "design"
+    ],
+    "icon": "/icons/fluentui-system-icons.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 11014,
+    "tier": "tier1_gui",
+    "summary": "Access a comprehensive collection of modern, familiar icons created by Microsoft for user interfaces across mobile and desktop platforms.",
+    "i18n": {
+      "it": "Accedi a una vasta raccolta di icone moderne e familiari create da Microsoft per interfacce utente su dispositivi mobili e desktop.",
+      "es": "Accede a una colección completa de iconos modernos y familiares creados por Microsoft para interfaces de usuario en móviles y escritorios.",
+      "fr": "Accédez à une collection complète d'icônes modernes et familières conçues par Microsoft pour les interfaces mobiles et de bureau.",
+      "de": "Nutzen Sie eine umfassende Sammlung moderner und vertrauter Symbole von Microsoft für Benutzeroberflächen auf mobilen und Desktop-Geräten."
+    },
+    "download_url": "https://aka.ms/fluentui-system-icons",
     "updated_at": "2026-11-25"
   },
   {
@@ -19932,6 +20044,34 @@
     },
     "download_url": "https://github.com/noisetorch/NoiseTorch/releases/download/v0.12.2/NoiseTorch_x64_v0.12.2.tgz.md5sum",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "runanywhere-sdks",
+    "name": "Runanywhere SDKs",
+    "tagline": "Run smart AI completely offline anywhere",
+    "repo_url": "https://github.com/runanywhereai/runanywhere-sdks",
+    "full_name": "runanywhereai/runanywhere-sdks",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "offline"
+    ],
+    "icon": "/icons/runanywhere-sdks.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Custom Open License",
+    "stars": 10354,
+    "tier": "tier1_gui",
+    "summary": "Build private, offline-first applications with text, voice, and vision capabilities running locally across all your favorite devices.",
+    "i18n": {
+      "it": "Crea applicazioni private e offline con funzionalità di testo, voce e visione eseguite localmente su tutti i tuoi dispositivi.",
+      "es": "Desarrolla aplicaciones privadas y sin conexión con capacidades de texto, voz y visión ejecutadas localmente en tus dispositivos.",
+      "fr": "Créez des applications privées et hors ligne dotées de capacités textuelles, vocales et visuelles exécutées localement.",
+      "de": "Entwickeln Sie private, offline-fähige Anwendungen mit Text-, Sprach- und Bildfunktionen, die lokal auf Ihren Geräten laufen."
+    },
+    "download_url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/download/cpp-desktop-v0.20.43/RunAnywhere-cpp-desktop-linux-arm64-v0.20.43.tar.gz.sha256",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "claurst",
@@ -21670,6 +21810,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "android-gif-drawable",
+    "name": "android-gif-drawable",
+    "tagline": "Smooth GIF playback for Android apps",
+    "repo_url": "https://github.com/koral--/android-gif-drawable",
+    "full_name": "koral--/android-gif-drawable",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "gif"
+    ],
+    "icon": "/icons/android-gif-drawable.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 9642,
+    "tier": "tier1_gui",
+    "summary": "A lightweight tool that lets Android developers display animated GIFs efficiently without slowing down their applications.",
+    "i18n": {
+      "it": "Uno strumento leggero che consente agli sviluppatori Android di visualizzare GIF animate in modo efficiente senza rallentare le applicazioni.",
+      "es": "Una herramienta ligera que permite a los desarrolladores de Android mostrar GIF animados de manera eficiente sin ralentizar sus aplicaciones.",
+      "fr": "Un outil léger qui permet aux développeurs Android d'afficher des GIF animés efficacement sans ralentir leurs applications.",
+      "de": "Ein leichtgewichtiges Tool, das Android-Entwicklern ermöglicht, animierte GIFs effizient anzuzeigen, ohne ihre Anwendungen zu verlangsamen."
+    },
+    "download_url": "https://github.com/koral--/android-gif-drawable/releases/download/v1.2.32/android-gif-drawable-1.2.32-javadoc.jar",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "npkill",
     "name": "npkill",
     "tagline": "Free up disk space instantly",
@@ -21780,6 +21948,34 @@
     },
     "download_url": "https://github.com/gokcehan/lf/releases",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "android-observablescrollview",
+    "name": "Android-ObservableScrollView",
+    "tagline": "Track scrolling events easily in mobile apps",
+    "repo_url": "https://github.com/ksoichiro/android-observablescrollview",
+    "full_name": "ksoichiro/android-observablescrollview",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "development"
+    ],
+    "icon": "/icons/android-observablescrollview.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9600,
+    "tier": "tier1_gui",
+    "summary": "An open-source Android library that lets developers easily observe scrolling movements to create smooth modern navigation animations.",
+    "i18n": {
+      "it": "Una libreria Android open-source che consente agli sviluppatori di monitorare i movimenti di scorrimento per animazioni fluide.",
+      "es": "Una biblioteca de Android de código abierto que permite a los desarrolladores observar el desplazamiento para crear animaciones fluidas.",
+      "fr": "Une bibliothèque Android open-source permettant aux développeurs de suivre les mouvements de défilement pour des animations fluides.",
+      "de": "Eine Open-Source-Android-Bibliothek, mit der Entwickler Scroll-Bewegungen für flüssige Benutzeroberflächen-Animationen überwachen."
+    },
+    "download_url": "https://ksoichiro.github.io/Android-ObservableScrollView/",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "pgweb",
@@ -22090,6 +22286,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "calendarview",
+    "name": "CalendarView",
+    "tagline": "Ultra-fast custom calendar for Android apps",
+    "repo_url": "https://github.com/huanghaibin-dev/calendarview",
+    "full_name": "huanghaibin-dev/calendarview",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "calendar"
+    ],
+    "icon": "/icons/calendarview.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9419,
+    "tier": "tier1_gui",
+    "summary": "An ultra-performing calendar component for Android that renders entirely through custom graphics for incredible speed and minimal memory use.",
+    "i18n": {
+      "it": "Un componente calendario ad alte prestazioni per Android che offre velocità incredibile e consumo minimo di memoria.",
+      "es": "Un componente de calendario de alto rendimiento para Android que ofrece velocidad increíble y consumo mínimo de memoria.",
+      "fr": "Un composant de calendrier haute performance pour Android qui offre une vitesse incroyable et une faible mémoire.",
+      "de": "Eine leistungsstarke Kalenderkomponente für Android, die unglaubliche Geschwindigkeit und minimalen Speicher bietet."
+    },
+    "download_url": "https://github.com/huanghaibin-dev/CalendarView/releases/download/latest/CalendarViewDemo.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "multipass",
     "name": "Multipass",
     "tagline": "Run Ubuntu instantly on any computer",
@@ -22314,6 +22538,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "berty",
+    "name": "Berty",
+    "tagline": "Secure peer-to-peer offline messenger app",
+    "repo_url": "https://github.com/berty/berty",
+    "full_name": "berty/berty",
+    "category": "Productivity",
+    "tags": [
+      "messaging",
+      "privacy"
+    ],
+    "icon": "/icons/berty.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Custom Open License",
+    "stars": 9368,
+    "tier": "tier1_gui",
+    "summary": "Berty is a secure, decentralized messaging application that lets you chat with friends without needing an internet connection or cellular data.",
+    "i18n": {
+      "it": "Berty è un'app di messaggistica decentralizzata e sicura che ti permette di chattare senza connessione internet o dati mobili.",
+      "es": "Berty es una aplicación de mensajería descentralizada y segura que te permite chatear sin conexión a internet ni datos móviles.",
+      "fr": "Berty est une application de messagerie décentralisée et sécurisée qui vous permet de discuter sans connexion Internet ni données.",
+      "de": "Berty ist eine sichere, dezentrale Messaging-App, mit der Sie ganz ohne Internetverbindung oder mobile Daten chatten können."
+    },
+    "download_url": "https://berty.tech",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "taskbook",
     "name": "taskbook",
     "tagline": "Manage tasks and notes in terminal.",
@@ -22396,6 +22648,62 @@
     },
     "download_url": "https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/Stacer-1.1.0-x64.AppImage",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "quickstart-android",
+    "name": "quickstart-android",
+    "tagline": "Ready-to-use sample apps for mobile development",
+    "repo_url": "https://github.com/firebase/quickstart-android",
+    "full_name": "firebase/quickstart-android",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "mobile"
+    ],
+    "icon": "/icons/quickstart-android.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 9345,
+    "tier": "tier1_gui",
+    "summary": "Explore clear sample applications demonstrating mobile cloud tools and features for Android development projects.",
+    "i18n": {
+      "it": "Esplora chiare applicazioni di esempio che dimostrano strumenti cloud e funzionalità per lo sviluppo mobile Android.",
+      "es": "Explora aplicaciones de muestra claras que demuestran herramientas móviles en la nube para proyectos Android.",
+      "fr": "Découvrez des applications d'exemple claires démontrant des outils cloud mobiles pour les projets de développement Android.",
+      "de": "Entdecken Sie klare Beispielanwendungen, die mobile Cloud-Werkzeuge für Android-Entwicklungsprojekte demonstrieren."
+    },
+    "download_url": "https://firebase.google.com",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "androidnote",
+    "name": "AndroidNote",
+    "tagline": "Free Android development notes",
+    "repo_url": "https://github.com/gcssloop/androidnote",
+    "full_name": "gcssloop/androidnote",
+    "category": "Productivity",
+    "tags": [
+      "android-development",
+      "programming-notes"
+    ],
+    "icon": "/icons/androidnote.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 9343,
+    "tier": "tier1_gui",
+    "summary": "A comprehensive collection of free study notes and guides for learning Android app development, covering custom views, coding tips, and practical tools.",
+    "i18n": {
+      "it": "Una raccolta completa di note di studio gratuite e guide per l'apprendimento dello sviluppo di app Android, che copre viste personalizzate, consigli di codifica e strumenti pratici.",
+      "es": "Una colección completa de notas de estudio gratuitas y guías para aprender el desarrollo de aplicaciones Android, que cubre vistas personalizadas, consejos de codificación y herramientas prácticas.",
+      "fr": "Une collection complète de notes d'étude gratuites et de guides pour apprendre le développement d'applications Android, couvrant les vues personnalisées, les conseils de codage et les outils pratiques.",
+      "de": "Eine umfassende Sammlung kostenloser Lernnotizen und Anleitungen zum Erlernen der Android-App-Entwicklung, die benutzerdefinierte Ansichten, Coding-Tipps und praktische Werkzeuge abdeckt."
+    },
+    "download_url": "https://www.gcssloop.com/#blog",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "bili23-downloader",
@@ -22650,6 +22958,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "rikkahub",
+    "name": "rikkahub",
+    "tagline": "Chat with multiple smart AI providers",
+    "repo_url": "https://github.com/rikkahub/rikkahub",
+    "full_name": "rikkahub/rikkahub",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ai"
+    ],
+    "icon": "/icons/rikkahub.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (AGPL v3)",
+    "stars": 9194,
+    "tier": "tier1_gui",
+    "summary": "RikkaHub is an Android app that lets you chat with different artificial intelligence services in one convenient place.",
+    "i18n": {
+      "it": "RikkaHub è un'app Android che ti consente di chattare con diversi servizi di intelligenza artificiale in un unico posto comodo.",
+      "es": "RikkaHub es una aplicación para Android que te permite chatear con diferentes servicios de inteligencia artificial en un solo lugar.",
+      "fr": "RikkaHub est une application Android qui vous permet de discuter avec différents services d'intelligence artificielle en un seul endroit.",
+      "de": "RikkaHub ist eine Android-App, mit der Sie bequem an einem Ort mit verschiedenen künstlichen Intelligenzen chatten können."
+    },
+    "download_url": "https://github.com/rikkahub/rikkahub/releases/download/3.3.1/rikkahub-3.3.1-arm64-v8a.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "sequelpro",
     "name": "Sequel Pro",
     "tagline": "Fast and easy Mac database management",
@@ -22788,6 +23124,34 @@
     },
     "download_url": "https://olivevideoeditor.org/",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "android-gpuimage",
+    "name": "android-gpuimage",
+    "tagline": "Fast photo filters for Android",
+    "repo_url": "https://github.com/wasabeef/android-gpuimage",
+    "full_name": "wasabeef/android-gpuimage",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "photo"
+    ],
+    "icon": "/icons/android-gpuimage.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Custom Open License",
+    "stars": 9153,
+    "tier": "tier1_gui",
+    "summary": "Android‑GPUImage lets developers add a wide range of real‑time photo effects to Android apps, using the device’s graphics chip for smooth performance.",
+    "i18n": {
+      "it": "Android‑GPUImage permette di aggiungere effetti fotografici in tempo reale alle app Android, usando la GPU del telefono per risultati fluidi.",
+      "es": "Android‑GPUImage permite a los desarrolladores añadir efectos fotográficos en tiempo real a sus apps Android, usando la GPU del teléfono para un rendimiento fluido.",
+      "fr": "Android‑GPUImage permet aux développeurs d’ajouter des effets photo en temps réel aux applications Android, en utilisant le GPU du téléphone pour des performances fluides.",
+      "de": "Android‑GPUImage ermöglicht Entwicklern, Echtzeit‑Fotoeffekte in Android‑Apps zu integrieren, wobei die GPU des Geräts für flüssige Leistung sorgt."
+    },
+    "download_url": "https://github.com/wasabeef/android-gpuimage/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "whatcable",
@@ -22984,6 +23348,34 @@
     },
     "download_url": "https://http-prompt.com",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "flutterdouban",
+    "name": "FlutterDouBan",
+    "tagline": "A faithful replica of the Douban mobile experience.",
+    "repo_url": "https://github.com/kaina404/flutterdouban",
+    "full_name": "kaina404/flutterdouban",
+    "category": "Productivity",
+    "tags": [
+      "flutter",
+      "mobile"
+    ],
+    "icon": "/icons/flutterdouban.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Custom Open License",
+    "stars": 9093,
+    "tier": "tier1_gui",
+    "summary": "Explore movies, books, music, community groups, and marketplaces through a pixel-accurate mobile application built with Flutter.",
+    "i18n": {
+      "it": "Esplora film, libri, musica, gruppi e mercati attraverso un'applicazione mobile ricreata fedelmente con Flutter.",
+      "es": "Explora películas, libros, música, grupos y mercados a través de una aplicación móvil creada con precisión usando Flutter.",
+      "fr": "Découvrez des films, des livres, de la musique et des groupes grâce à une application mobile conçue fidèlement avec Flutter.",
+      "de": "Entdecken Sie Filme, Bücher, Musik und Communitys über eine mit Flutter detailgetreu nachgebildete mobile Anwendung."
+    },
+    "download_url": "https://github.com/kaina404/FlutterDouBan/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "release-it",
@@ -23266,6 +23658,34 @@
     "updated_at": "2026-11-20"
   },
   {
+    "slug": "android-ad-cleaner",
+    "name": "Android Ad Cleaner",
+    "tagline": "Clean annoying ads from Android phones",
+    "repo_url": "https://github.com/rddmwmddr/android-ad-cleaner",
+    "full_name": "rddmwmddr/android-ad-cleaner",
+    "category": "Security & Privacy",
+    "tags": [
+      "android",
+      "utilities"
+    ],
+    "icon": "/icons/android-ad-cleaner.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Android",
+    "license": "Open Source (MIT)",
+    "stars": 8976,
+    "tier": "tier1_gui",
+    "summary": "Easily turn off annoying system ads, trending searches, and marketing spam on popular Android phones without needing advanced technical modifications.",
+    "i18n": {
+      "it": "Elimina facilmente pubblicità di sistema, ricerche di tendenza e notifiche promozionali sui telefoni Android senza modifiche complesse.",
+      "es": "Desactiva fácilmente anuncios del sistema, búsquedas populares y spam de marketing en teléfonos Android sin configuraciones difíciles.",
+      "fr": "Désactivez facilement les publicités système, recherches tendance et spams marketing sur les téléphones Android sans modifications.",
+      "de": "Schalten Sie Systemwerbung, Trendsuchen und Marketing-Benachrichtigungen auf Android-Handys ganz einfach ohne komplexe Schritte aus."
+    },
+    "download_url": "https://github.com/rddmwmddr/android-ad-cleaner/releases/download/v0.4.5/AndroidAdCleaner-0.4.5-windows-setup.exe",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "networkmanager",
     "name": "NETworkManager",
     "tagline": "All-in-one tool for network management",
@@ -23322,6 +23742,34 @@
     "updated_at": "2026-11-22"
   },
   {
+    "slug": "python-for-android",
+    "name": "python-for-android",
+    "tagline": "Turn Python code into Android apps",
+    "repo_url": "https://github.com/kivy/python-for-android",
+    "full_name": "kivy/python-for-android",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "development"
+    ],
+    "icon": "/icons/python-for-android.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (MIT)",
+    "stars": 8950,
+    "tier": "tier1_gui",
+    "summary": "This free tool helps you package your Python programs into installable Android files.",
+    "i18n": {
+      "it": "Questo strumento gratuito aiuta a impacchettare i programmi Python in file Android installabili.",
+      "es": "Esta herramienta gratuita ayuda a empaquetar programas de Python en archivos instalables para Android.",
+      "fr": "Cet outil gratuit aide à emballer vos programmes Python dans des fichiers Android installables.",
+      "de": "Dieses kostenlose Tool hilft, Python-Programme in installierbare Android-Dateien zu verpacken."
+    },
+    "download_url": "https://python-for-android.readthedocs.io",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "openrig",
     "name": "OpenRig",
     "tagline": "Turn coding agents into organized teams.",
@@ -23376,6 +23824,34 @@
     },
     "download_url": "https://github.com/pdfcpu/pdfcpu/releases/download/v0.16.4/checksums.txt",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "materialdesignlibrary",
+    "name": "MaterialDesignLibrary",
+    "tagline": "Modern UI components for Android",
+    "repo_url": "https://github.com/navasmdc/materialdesignlibrary",
+    "full_name": "navasmdc/materialdesignlibrary",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ui"
+    ],
+    "icon": "/icons/materialdesignlibrary.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8907,
+    "tier": "tier1_gui",
+    "summary": "MaterialDesignLibrary lets you add the latest Android look and feel to apps that run on older phones, so they look fresh and work smoothly.",
+    "i18n": {
+      "it": "MaterialDesignLibrary ti permette di aggiungere l’aspetto più recente di Android alle app che girano su telefoni più vecchi, così sembrano nuove e funzionano senza problemi.",
+      "es": "MaterialDesignLibrary te permite añadir el estilo más reciente de Android a aplicaciones que se ejecutan en teléfonos antiguos, haciendo que se vean actuales y funcionen sin problemas.",
+      "fr": "MaterialDesignLibrary vous permet d’ajouter le dernier style Android aux applications fonctionnant sur des téléphones plus anciens, afin qu’elles paraissent modernes et fonctionnent sans accroc.",
+      "de": "MaterialDesignLibrary ermöglicht es, das neueste Android‑Design in Apps zu integrieren, die auf älteren Handys laufen, sodass sie modern aussehen und reibungslos funktionieren."
+    },
+    "download_url": "https://github.com/navasmdc/MaterialDesignLibrary/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "builder",
@@ -23600,6 +24076,62 @@
     },
     "download_url": "https://github.com/tw93/MiaoYan/releases/download/V4.11.0/MiaoYan.dmg",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "florisboard",
+    "name": "FlorisBoard",
+    "tagline": "Private, customizable open-source Android keyboard",
+    "repo_url": "https://github.com/florisboard/florisboard",
+    "full_name": "florisboard/florisboard",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "keyboard"
+    ],
+    "icon": "/icons/florisboard.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8801,
+    "tier": "tier1_gui",
+    "summary": "Take back control of your typing with a privacy-focused Android keyboard designed never to track your keystrokes.",
+    "i18n": {
+      "it": "Riprendi il controllo della scrittura con una tastiera Android incentrata sulla privacy che non traccia mai i tuoi dati.",
+      "es": "Recupera el control al escribir con un teclado para Android enfocado en la privacidad que jamás rastrea tus datos.",
+      "fr": "Reprenez le contrôle de votre saisie avec un clavier Android axé sur la confidentialité qui ne trace jamais vos frappes.",
+      "de": "Behalten Sie die Kontrolle über Ihre Eingaben mit einer datenschutzfreundlichen Android-Tastatur ohne Datensammlung."
+    },
+    "download_url": "https://github.com/florisboard/florisboard/releases/download/v0.5.2/florisboard-0.5.2-preview.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "lamda",
+    "name": "lamda",
+    "tagline": "All-in-one Android control hub",
+    "repo_url": "https://github.com/firerpa/lamda",
+    "full_name": "firerpa/lamda",
+    "category": "Security & Privacy",
+    "tags": [
+      "android-automation",
+      "remote-desktop"
+    ],
+    "icon": "/icons/lamda.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Android",
+    "license": "Open Source (MIT)",
+    "stars": 8768,
+    "tier": "tier1_gui",
+    "summary": "A comprehensive tool that lets you remotely view, control, and automate Android devices from your computer.",
+    "i18n": {
+      "it": "Uno strumento completo per visualizzare, controllare e automatizzare i dispositivi Android dal computer.",
+      "es": "Una herramienta integral para ver, controlar y automatizar dispositivos Android desde tu computadora.",
+      "fr": "Un outil complet pour visualiser, contrôler et automatiser les appareils Android depuis votre ordinateur.",
+      "de": "Ein umfassendes Tool, um Android-Geräte vom Computer aus fernzusteuern, zu überwachen und zu automatisieren."
+    },
+    "download_url": "https://github.com/firerpa/lamda/releases/download/v10.14/startmitm.exe",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "gitignore-io",
@@ -23852,6 +24384,34 @@
     },
     "download_url": "https://github.com/ionuttbara/windows-defender-remover/releases/download/release13-rev1/Defender.Remover.13.exe",
     "updated_at": "2026-11-22"
+  },
+  {
+    "slug": "statusbarutil",
+    "name": "StatusBarUtil",
+    "tagline": "Easily Style Android Status Bars",
+    "repo_url": "https://github.com/houzi3/statusbarutil",
+    "full_name": "houzi3/statusbarutil",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "ui"
+    ],
+    "icon": "/icons/statusbarutil.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8725,
+    "tier": "tier1_gui",
+    "summary": "StatusBarUtil lets Android developers change the look of the status bar without writing complex code.",
+    "i18n": {
+      "it": "StatusBarUtil permette agli sviluppatori Android di personalizzare l’aspetto della barra di stato in modo semplice.",
+      "es": "StatusBarUtil permite a los desarrolladores Android cambiar el aspecto de la barra de estado sin complicaciones.",
+      "fr": "StatusBarUtil permet aux développeurs Android de modifier l'apparence de la barre d'état sans code compliqué.",
+      "de": "StatusBarUtil ermöglicht Android-Entwicklern, das Aussehen der Statusleiste ohne komplizierten Code zu ändern."
+    },
+    "download_url": "https://t.cn/Rq746Kb",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "treg",
@@ -24302,6 +24862,62 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "react-native-mmkv",
+    "name": "react-native-mmkv",
+    "tagline": "Ultra-fast storage for mobile apps",
+    "repo_url": "https://github.com/margelo/react-native-mmkv",
+    "full_name": "margelo/react-native-mmkv",
+    "category": "Productivity",
+    "tags": [
+      "mobile-development",
+      "performance"
+    ],
+    "icon": "/icons/react-native-mmkv.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 8530,
+    "tier": "tier1_gui",
+    "summary": "This tool provides a high-performance way for mobile applications to save and retrieve user data instantly.",
+    "i18n": {
+      "it": "Questo strumento offre un modo ad alte prestazioni per le applicazioni mobile per salvare e recuperare dati utente istantaneamente.",
+      "es": "Esta herramienta ofrece una forma de alto rendimiento para que las aplicaciones móviles guarden y recuperen datos de usuario al instante.",
+      "fr": "Cet outil offre un moyen haute performance pour les applications mobiles de sauvegarder et récupérer des données utilisateur instantanément.",
+      "de": "Dieses Tool bietet eine leistungsstarke Möglichkeit für mobile Anwendungen, Benutzerdaten sofort zu speichern und abzurufen."
+    },
+    "download_url": "https://mrousavy.com",
+    "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "jev-chat-jarvis",
+    "name": "jev-chat-jarvis",
+    "tagline": "Smart chat judgment and reply assistant",
+    "repo_url": "https://github.com/jev-chat/jev-chat-jarvis",
+    "full_name": "jev-chat/jev-chat-jarvis",
+    "category": "Productivity",
+    "tags": [
+      "chat",
+      "assistant"
+    ],
+    "icon": "/icons/jev-chat-jarvis.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (MIT)",
+    "stars": 8511,
+    "tier": "tier1_gui",
+    "summary": "Understand what people really mean in chats and draft the right replies with one tap, while you keep full control over sending.",
+    "i18n": {
+      "it": "Comprendi le vere intenzioni nelle chat e crea risposte perfette con un solo tocco, mantenendo sempre il controllo.",
+      "es": "Comprende la verdadera intención en los chats y redacta respuestas con un toque, manteniendo siempre el control de envío.",
+      "fr": "Comprenez les intentions cachées dans vos discussions et rédigez des réponses en un seul geste en gardant le contrôle.",
+      "de": "Verstehen Sie die wahre Absicht in Chats und entwerfen Sie Antworten mit einem Fingertipp, während Sie die Kontrolle behalten."
+    },
+    "download_url": "https://github.com/jev-chat/jev-chat-jarvis/releases/download/v1.7/jev-assistant-v1.7-release.apk",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "nb",
     "name": "nb",
     "tagline": "Portable command-line note-taking and archiving",
@@ -24384,6 +25000,34 @@
     },
     "download_url": "https://github.com/mumble-voip/mumble/releases/download/v1.5.939/mumble_client-1.5.939.x64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "pokedex",
+    "name": "Pokedex",
+    "tagline": "Explore Pokémon characters with modern Android design.",
+    "repo_url": "https://github.com/skydoves/pokedex",
+    "full_name": "skydoves/pokedex",
+    "category": "Productivity",
+    "tags": [
+      "android",
+      "mobile"
+    ],
+    "icon": "/icons/pokedex.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 8391,
+    "tier": "tier1_gui",
+    "summary": "Pokedex is a lightweight mobile reference app demonstrating modern Android programming practices and clean design.",
+    "i18n": {
+      "it": "Pokedex è un'applicazione mobile leggera che mostra le moderne pratiche di programmazione Android.",
+      "es": "Pokedex es una aplicación móvil ligera que demuestra prácticas modernas de programación en Android.",
+      "fr": "Pokedex est une application mobile légère qui illustre les pratiques modernes de programmation Android.",
+      "de": "Pokedex ist eine schlanke mobile Referenz-App, die moderne Android-Programmierpraktiken demonstriert."
+    },
+    "download_url": "https://github.com/skydoves/Pokedex/releases",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "flagsmith",
@@ -53084,6 +53728,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "steam-achievement-manager-windows",
+    "name": "Steam Achievement Manager for Windows",
+    "tagline": "Manage Steam achievements easily",
+    "repo_url": "https://github.com/solv4626/steam-achievement-manager-windows",
+    "full_name": "solv4626/steam-achievement-manager-windows",
+    "category": "Productivity",
+    "tags": [
+      "gaming",
+      "utility"
+    ],
+    "icon": "/icons/steam-achievement-manager-windows.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 1063,
+    "tier": "tier1_gui",
+    "summary": "A free desktop tool that lets you unlock, relock, and edit achievements for your Steam games without using complex commands.",
+    "i18n": {
+      "it": "Un tool desktop gratuito che ti permette di sbloccare, ribloccare e modificare i trofei dei tuoi giochi Steam senza comandi complessi.",
+      "es": "Una herramienta de escritorio gratuita que te permite desbloquear, volver a bloquear y editar logros de tus juegos de Steam sin comandos complejos.",
+      "fr": "Un outil de bureau gratuit qui vous permet de débloquer, rebloquer et modifier les succès de vos jeux Steam sans commandes complexes.",
+      "de": "Ein kostenloses Desktop-Tool, mit dem Sie Erfolge in Ihren Steam-Spielen freischalten, wieder sperren und bearbeiten können, ohne komplexe Befehle zu verwenden."
+    },
+    "download_url": "https://github.com/solv4626/steam-achievement-manager-windows/releases",
+    "updated_at": "2026-11-25"
+  },
+  {
     "slug": "officedex",
     "name": "officedex",
     "tagline": "Create rich office documents using artificial intelligence",
@@ -53642,6 +54314,34 @@
     },
     "download_url": "https://github.com/ibrahimbutt/direwolf-arch-rice/releases",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "goldwarden",
+    "name": "Goldwarden",
+    "tagline": "Advanced security tools for your vault",
+    "repo_url": "https://github.com/quexten/goldwarden",
+    "full_name": "quexten/goldwarden",
+    "category": "Security & Privacy",
+    "tags": [
+      "security",
+      "privacy"
+    ],
+    "icon": "/icons/goldwarden.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux",
+    "license": "Open Source (MIT)",
+    "stars": 989,
+    "tier": "tier1_gui",
+    "summary": "Goldwarden adds powerful, extra security features to your existing password vault, such as biometric unlocking and system-wide auto-typing.",
+    "i18n": {
+      "it": "Goldwarden aggiunge potenti funzioni di sicurezza al tuo archivio password, come lo sblocco biometrico e la digitazione automatica.",
+      "es": "Goldwarden añade funciones de seguridad adicionales a tu gestor de contraseñas, incluyendo desbloqueo biométrico y autocompletado.",
+      "fr": "Goldwarden ajoute des fonctions de sécurité puissantes à votre coffre-fort, comme le déverrouillage biométrique et la saisie automatique.",
+      "de": "Goldwarden ergänzt Ihren Passwort-Tresor um nützliche Sicherheitsfunktionen wie biometrische Entsperrung und automatische Eingabe."
+    },
+    "download_url": "https://github.com/quexten/goldwarden/releases/download/v0.3.6/goldwarden_windows_aarch64.exe",
+    "updated_at": "2026-11-25"
   },
   {
     "slug": "templatespider",
