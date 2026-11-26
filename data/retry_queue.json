@@ -63,13 +63,6 @@
     "queued_at": "2026-11-24T07:16:46.171565+00:00"
   },
   {
-    "full_name": "ermaozi/get_subscribe",
-    "slug": "get-subscribe",
-    "html_url": "https://github.com/ermaozi/get_subscribe",
-    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
-    "queued_at": "2026-11-24T19:08:13.216555+00:00"
-  },
-  {
     "full_name": "jirutka/ldap-passwd-webui",
     "slug": "ldap-passwd-webui",
     "html_url": "https://github.com/jirutka/ldap-passwd-webui",
@@ -82,20 +75,6 @@
     "html_url": "https://github.com/LNPANDY/NX2Apple",
     "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'Transformez facilement vos sauvegardes de jeux en applications natives pour appareils Apple grâce à un outil de bureau simple.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
     "queued_at": "2026-11-25T23:34:02.204863+00:00"
-  },
-  {
-    "full_name": "jhaizhou-ops/d2r-mobile",
-    "slug": "d2r-mobile",
-    "html_url": "https://github.com/jhaizhou-ops/d2r-mobile",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-25T23:38:38.761861+00:00"
-  },
-  {
-    "full_name": "onehumanbeing/esp32-iphone-agent",
-    "slug": "esp32-iphone-agent",
-    "html_url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-25T23:39:09.129965+00:00"
   },
   {
     "full_name": "painebenjamin/app.enfugue.ai",

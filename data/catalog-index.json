@@ -22538,6 +22538,34 @@
     "updated_at": "2026-11-25"
   },
   {
+    "slug": "get-subscribe",
+    "name": "Get Subscribe",
+    "tagline": "Free automatically updated network subscription links",
+    "repo_url": "https://github.com/ermaozi/get_subscribe",
+    "full_name": "ermaozi/get_subscribe",
+    "category": "Security & Privacy",
+    "tags": [
+      "network",
+      "utility"
+    ],
+    "icon": "/icons/get-subscribe.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android",
+    "license": "Open Source (GPL v3)",
+    "stars": 9543,
+    "tier": "tier1_gui",
+    "summary": "Automatically gathers and updates free network subscription links for common internet configuration formats, helping users find working connections for testing.",
+    "i18n": {
+      "it": "Raccoglie e aggiorna automaticamente i link di abbonamento di rete gratuiti per i formati più comuni, aiutando a trovare connessioni funzionanti.",
+      "es": "Recopila y actualiza automáticamente enlaces de suscripción de red gratuitos para formatos comunes, facilitando pruebas de conexión.",
+      "fr": "Rassemble et met à jour automatiquement des liens d'abonnement réseau gratuits pour les formats courants facilitant les tests.",
+      "de": "Sammelt und aktualisiert automatisch kostenlose Netzwerk-Abonnement-Links für gängige Formate zum schnellen Testen."
+    },
+    "download_url": "https://blog.ermao.net",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "neohtop",
     "name": "NeoHtop",
     "tagline": "A modern, visual system monitor.",
@@ -38021,6 +38049,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "d2r-mobile",
+    "name": "d2r-mobile",
+    "tagline": "Play your console adventure games anywhere",
+    "repo_url": "https://github.com/jhaizhou-ops/d2r-mobile",
+    "full_name": "jhaizhou-ops/d2r-mobile",
+    "category": "Productivity",
+    "tags": [
+      "gaming",
+      "compatibility-layer"
+    ],
+    "icon": "/icons/d2r-mobile.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 5388,
+    "tier": "tier1_gui",
+    "summary": "An open-source compatibility layer allowing you to play your legally owned console adventure game on mobile phones and computers.",
+    "i18n": {
+      "it": "Un livello di compatibilità open source per giocare ai tuoi giochi d'avventura per console su smartphone e computer.",
+      "es": "Una capa de compatibilidad de código abierto para jugar tus juegos de aventura de consola en teléfonos y ordenadores.",
+      "fr": "Une couche de compatibilité open source pour exécuter vos jeux d'aventure de console sur mobiles et ordinateurs.",
+      "de": "Eine Open-Source-Kompatibilitätsschicht, um Konsolenspiele direkt auf Mobiltelefonen und Computern zu spielen."
+    },
+    "download_url": "https://github.com/jhaizhou-ops/d2r-mobile/releases/download/v2.3.5/D2RMobile-android.apk",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "liveterm",
     "name": "LiveTerm",
     "tagline": "Create terminal‑style sites fast",
@@ -38187,6 +38243,34 @@
     },
     "download_url": "https://github.com/AienTech/dossier/releases/download/v1.15.1/Dossier-1.15.1-win-x64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "esp32-iphone-agent",
+    "name": "ESP32 iPhone Agent",
+    "tagline": "Let an artificial intelligence control an iPhone",
+    "repo_url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+    "full_name": "onehumanbeing/esp32-iphone-agent",
+    "category": "Productivity",
+    "tags": [
+      "automation",
+      "ai"
+    ],
+    "icon": "/icons/esp32-iphone-agent.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (MIT)",
+    "stars": 5348,
+    "tier": "tier1_gui",
+    "summary": "Allow any AI model to control a real iPhone using a tiny affordable board acting as its eyes and hands without jailbreaking.",
+    "i18n": {
+      "it": "Consenti a qualsiasi modello di intelligenza artificiale di controllare un iPhone reale usando una piccola scheda economica senza sblocco.",
+      "es": "Permite que cualquier modelo de IA controle un iPhone real utilizando una pequeña placa económica como ojos y manos sin modificación.",
+      "fr": "Permettez à n'importe quel modèle d'IA de contrôler un vrai iPhone en utilisant une petite carte abordable sans modification.",
+      "de": "Ermöglichen Sie jedem KI-Modell die Steuerung eines echten iPhones über eine günstige Platine als Augen und Hände ohne Jailbreak."
+    },
+    "download_url": "https://github.com/onehumanbeing/esp32-iphone-agent/releases/download/cli-v0.1.4/checksums.txt",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "qor",
@@ -39981,6 +40065,34 @@
     "updated_at": "2026-11-25"
   },
   {
+    "slug": "hellosilicon",
+    "name": "HelloSilicon",
+    "tagline": "Learn low-level processor programming on Mac.",
+    "repo_url": "https://github.com/below/hellosilicon",
+    "full_name": "below/hellosilicon",
+    "category": "Productivity",
+    "tags": [
+      "assembly",
+      "apple-silicon"
+    ],
+    "icon": "/icons/hellosilicon.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 5013,
+    "tier": "tier1_gui",
+    "summary": "Discover how to write low-level processor code on modern Apple computers by exploring clear examples, adapting classic guides, and mastering system tools.",
+    "i18n": {
+      "it": "Scopri come scrivere codice per processori sui computer Apple moderni esplorando esempi chiari e adattando guide classiche.",
+      "es": "Descubre cómo escribir código de procesador en ordenadores Apple modernos explorando ejemplos claros y adaptando guías.",
+      "fr": "Découvrez comment écrire du code processeur sur les ordinateurs Apple modernes en explorant des exemples clairs.",
+      "de": "Erfahren Sie, wie Sie Prozessorcode auf modernen Apple-Computern schreiben, indem Sie klare Beispiele erkunden."
+    },
+    "download_url": "https://github.com/below/HelloSilicon/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "small",
     "name": "Small",
     "tagline": "Lightweight modular app development tool",
@@ -40037,6 +40149,62 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "ios-weekly",
+    "name": "iOS-Weekly",
+    "tagline": "Curated iOS development news and insights",
+    "repo_url": "https://github.com/swiftolddriver/ios-weekly",
+    "full_name": "swiftolddriver/ios-weekly",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "newsletter"
+    ],
+    "icon": "/icons/ios-weekly.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 4993,
+    "tier": "tier1_gui",
+    "summary": "Discover handpicked, high-value iOS development articles, tools, and engineering best practices curated by experienced mobile experts.",
+    "i18n": {
+      "it": "Scopri articoli, strumenti e pratiche di sviluppo iOS di alta qualità selezionati da esperti di applicazioni mobili.",
+      "es": "Descubre artículos, herramientas y buenas prácticas de desarrollo iOS seleccionados por expertos experimentados.",
+      "fr": "Découvrez des articles, des outils et des bonnes pratiques de développement iOS sélectionnés par des experts.",
+      "de": "Entdecken Sie handverlesene iOS-Entwicklungsartikel, Tools und Best Practices, kuratiert von mobilen Experten."
+    },
+    "download_url": "https://swiftolddriver.github.io/iOS-Weekly/",
+    "updated_at": "2026-11-26"
+  },
+  {
+    "slug": "zlphotobrowser",
+    "name": "ZLPhotoBrowser",
+    "tagline": "Feature-rich photo and video picker",
+    "repo_url": "https://github.com/longitachi/zlphotobrowser",
+    "full_name": "longitachi/zlphotobrowser",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "media-picker"
+    ],
+    "icon": "/icons/zlphotobrowser.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 4992,
+    "tier": "tier1_gui",
+    "summary": "Add a powerful media picker to your mobile app with smooth photo selection, video cropping, and built-in editing tools.",
+    "i18n": {
+      "it": "Aggiungi un potente selettore multimediale alla tua app mobile con selezione fluida e strumenti di modifica integrati.",
+      "es": "Añade un potente selector multimedia a tu aplicación móvil con selección fluida y herramientas de edición integradas.",
+      "fr": "Ajoutez un sélecteur multimédia puissant à votre application mobile avec sélection fluide et retouche intégrée.",
+      "de": "Fügen Sie Ihrer mobilen App einen leistungsstarken Medien-Picker mit flüssiger Auswahl und Bearbeitung hinzu."
+    },
+    "download_url": "https://github.com/longitachi/ZLPhotoBrowser/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "app-privacy-policy-generator",
     "name": "App Privacy Policy Generator",
     "tagline": "Generate custom app privacy policies instantly",
@@ -40063,6 +40231,34 @@
     },
     "download_url": "https://app-privacy-policy-generator.nisrulz.com/",
     "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "ui",
+    "name": "Shoutem UI",
+    "tagline": "Beautiful components for mobile apps",
+    "repo_url": "https://github.com/shoutem/ui",
+    "full_name": "shoutem/ui",
+    "category": "Productivity",
+    "tags": [
+      "mobile-development",
+      "ui-components"
+    ],
+    "icon": "/icons/ui.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Custom Open License",
+    "stars": 4982,
+    "tier": "tier1_gui",
+    "summary": "A free collection of ready-made design elements that helps developers create polished mobile apps for iOS and Android without writing complex code from scratch.",
+    "i18n": {
+      "it": "Una raccolta gratuita di elementi di design pronti all'uso che aiuta gli sviluppatori a creare app mobili curate per iOS e Android senza scrivere codice complesso.",
+      "es": "Una colección gratuita de elementos de diseño listos para usar que ayuda a los desarrolladores a crear aplicaciones móviles pulidas para iOS y Android sin escribir código complejo.",
+      "fr": "Une collection gratuite d'éléments de design prêts à l'emploi qui aide les développeurs à créer des applications mobiles soignées pour iOS et Android sans écrire de code complexe.",
+      "de": "Eine kostenlose Sammlung von fertigen Design-Elementen, die Entwicklern hilft, polierte Mobile-Apps für iOS und Android zu erstellen, ohne komplexen Code zu schreiben."
+    },
+    "download_url": "https://github.com/shoutem/ui/releases",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "anymodelbot",
@@ -40121,6 +40317,62 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "theos",
+    "name": "Theos",
+    "tagline": "Cross-platform program creation tool suite",
+    "repo_url": "https://github.com/theos/theos",
+    "full_name": "theos/theos",
+    "category": "Productivity",
+    "tags": [
+      "developer-tools",
+      "build-system"
+    ],
+    "icon": "/icons/theos.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, iOS",
+    "license": "Custom Open License",
+    "stars": 4953,
+    "tier": "tier1_gui",
+    "summary": "Theos is a cross-platform build system for creating programs on iOS, macOS, Linux, and Windows.",
+    "i18n": {
+      "it": "Un sistema di compilazione multi-piattaforma per creare programmi su iOS, macOS, Linux e Windows.",
+      "es": "Un sistema de compilación multiplataforma para crear programas en iOS, macOS, Linux y Windows.",
+      "fr": "Un système de compilation multiplateforme pour créer des programmes sur iOS, macOS, Linux et Windows.",
+      "de": "Ein plattformübergreifendes Build-System zum Erstellen von Programmen für iOS, macOS, Linux und Windows."
+    },
+    "download_url": "https://theos.dev",
+    "updated_at": "2026-11-26"
+  },
+  {
+    "slug": "tocropviewcontroller",
+    "name": "TOCropViewController",
+    "tagline": "Easily crop and rotate photos on iOS",
+    "repo_url": "https://github.com/timoliver/tocropviewcontroller",
+    "full_name": "timoliver/tocropviewcontroller",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "objective-c"
+    ],
+    "icon": "/icons/tocropviewcontroller.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (MIT)",
+    "stars": 4947,
+    "tier": "tier1_gui",
+    "summary": "An intuitive iOS screen component that lets app users crop and rotate pictures smoothly, just like the built-in photo gallery.",
+    "i18n": {
+      "it": "Un componente per iOS che consente agli utenti di ritagliare e ruotare le immagini in modo semplice e familiare.",
+      "es": "Un componente de iOS que permite recortar y rotar imágenes con total fluidez y un estilo muy familiar.",
+      "fr": "Un composant iOS qui permet de recadrer et de faire pivoter des images de manière fluide et intuitive.",
+      "de": "Eine iOS-Komponente, mit der Benutzer Bilder ganz einfach und gewohnt zuschneiden und drehen können."
+    },
+    "download_url": "https://github.com/TimOliver/TOCropViewController/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "claude-swap",
     "name": "claude-swap",
     "tagline": "Manage multiple Claude accounts effortlessly",
@@ -40147,6 +40399,34 @@
     },
     "download_url": "https://github.com/realiti4/claude-swap/releases",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "encrypted-dns",
+    "name": "encrypted-dns",
+    "tagline": "Secure DNS for iPhone & Mac",
+    "repo_url": "https://github.com/paulmillr/encrypted-dns",
+    "full_name": "paulmillr/encrypted-dns",
+    "category": "Productivity",
+    "tags": [
+      "privacy",
+      "dns"
+    ],
+    "icon": "/icons/encrypted-dns.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Public Domain / Free",
+    "stars": 4941,
+    "tier": "tier1_gui",
+    "summary": "Encrypted‑DNS provides ready‑to‑install files that let iPhone and Mac use DNS over HTTPS, keeping your browsing queries private.",
+    "i18n": {
+      "it": "Encrypted‑DNS offre file pronti da installare che permettono a iPhone e Mac di usare DNS su HTTPS, proteggendo la privacy delle tue ricerche online.",
+      "es": "Encrypted‑DNS proporciona archivos listos para instalar que permiten a iPhone y Mac usar DNS sobre HTTPS, manteniendo privadas tus consultas de navegación.",
+      "fr": "Encrypted‑DNS fournit des fichiers prêts à installer qui permettent à iPhone et Mac d’utiliser le DNS via HTTPS, protégeant la confidentialité de vos recherches en ligne.",
+      "de": "Encrypted‑DNS stellt installierbare Dateien bereit, mit denen iPhone und Mac DNS über HTTPS nutzen können, um Ihre Online‑Abfragen privat zu halten."
+    },
+    "download_url": "https://paulmillr.com/posts/encrypted-dns/",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "agenta",
@@ -40205,6 +40485,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "anyrtc-rtmp-opensource",
+    "name": "anyRTC-RTMP-OpenSource",
+    "tagline": "Cross-platform video streaming and playback toolkit.",
+    "repo_url": "https://github.com/anyrtcio-community/anyrtc-rtmp-opensource",
+    "full_name": "anyrtcio-community/anyrtc-rtmp-opensource",
+    "category": "Video & Audio",
+    "tags": [
+      "streaming",
+      "video"
+    ],
+    "icon": "/icons/anyrtc-rtmp-opensource.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, Android, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 4909,
+    "tier": "tier1_gui",
+    "summary": "Build live video broadcasting and playback applications for mobile and desktop devices with this open-source streaming toolkit.",
+    "i18n": {
+      "it": "Crea applicazioni di trasmissione e riproduzione video in tempo reale per dispositivi mobili e desktop con questo kit di streaming.",
+      "es": "Construya aplicaciones de transmision de video en directo y reproduccion para moviles y ordenadores con este kit de streaming.",
+      "fr": "Creez des applications de diffusion video en direct et de lecture pour appareils mobiles et ordinateurs avec ce kit de streaming.",
+      "de": "Erstellen Sie Live-Video-Streaming- und Wiedergabeanwendungen fuer Mobil- und Desktop-Geraete mit diesem Open-Source-Toolkit."
+    },
+    "download_url": "https://www.anyrtc.io",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "style-dictionary",
     "name": "Style Dictionary",
     "tagline": "Sync design styles across all platforms",
@@ -40233,6 +40541,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "swiftyuserdefaults",
+    "name": "SwiftyUserDefaults",
+    "tagline": "Modern Swift API for app settings.",
+    "repo_url": "https://github.com/sunshinejr/swiftyuserdefaults",
+    "full_name": "sunshinejr/swiftyuserdefaults",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "macos"
+    ],
+    "icon": "/icons/swiftyuserdefaults.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (MIT)",
+    "stars": 4879,
+    "tier": "tier1_gui",
+    "summary": "Easily manage app settings and user preferences with a clean, strongly typed Swift syntax.",
+    "i18n": {
+      "it": "Gestisci facilmente le preferenze delle app con una sintassi Swift pulita e fortemente tipizzata.",
+      "es": "Gestiona fácilmente las preferencias de la aplicación con una sintaxis Swift limpia y fuertemente tipada.",
+      "fr": "Gérez facilement les préférences d'application avec une syntaxe Swift propre et fortement typée.",
+      "de": "Verwalten Sie App-Einstellungen ganz einfach mit einer sauberen und typisierten Swift-Syntax."
+    },
+    "download_url": "https://radex.io/swift/nsuserdefaults/static",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "youplot",
     "name": "YouPlot",
     "tagline": "Visualize data directly in your terminal",
@@ -40259,6 +40595,34 @@
     },
     "download_url": "https://github.com/red-data-tools/YouPlot/releases",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "imagepicker",
+    "name": "ImagePicker",
+    "tagline": "Smooth photo selection for mobile apps.",
+    "repo_url": "https://github.com/hyperoslo/imagepicker",
+    "full_name": "hyperoslo/imagepicker",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "camera"
+    ],
+    "icon": "/icons/imagepicker.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Custom Open License",
+    "stars": 4875,
+    "tier": "tier1_gui",
+    "summary": "ImagePicker lets app users capture photos and pick pictures from their gallery simultaneously with a sleek user interface.",
+    "i18n": {
+      "it": "ImagePicker consente agli utenti di scattare foto e selezionare immagini dalla galleria contemporaneamente.",
+      "es": "ImagePicker permite a los usuarios tomar fotos y seleccionar imágenes de su galería al mismo tiempo.",
+      "fr": "ImagePicker permet aux utilisateurs de prendre des photos et de sélectionner des images de leur galerie en même temps.",
+      "de": "ImagePicker ermöglicht es Benutzern, Fotos aufzunehmen und gleichzeitig Bilder aus ihrer Galerie auszuwählen."
+    },
+    "download_url": "https://github.com/hyperoslo/ImagePicker/releases",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "exact",
@@ -40373,6 +40737,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "notificationbanner",
+    "name": "NotificationBanner",
+    "tagline": "Easily display custom notifications in iOS apps.",
+    "repo_url": "https://github.com/daltron/notificationbanner",
+    "full_name": "daltron/notificationbanner",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "notifications"
+    ],
+    "icon": "/icons/notificationbanner.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (MIT)",
+    "stars": 4856,
+    "tier": "tier1_gui",
+    "summary": "NotificationBanner is a lightweight Swift library that lets you display smooth, customizable in-app notification banners on iOS devices.",
+    "i18n": {
+      "it": "NotificationBanner è una libreria Swift leggera per mostrare notifiche personalizzate all'interno delle app iOS.",
+      "es": "NotificationBanner es una ligera librería de Swift para mostrar notificaciones personalizadas dentro de apps iOS.",
+      "fr": "NotificationBanner est une bibliothèque Swift légère pour afficher des bannières de notification fluides sur iOS.",
+      "de": "NotificationBanner ist eine kompakte Swift-Bibliothek zum Anzeigen reibungsloser In-App-Benachrichtigungen auf iOS."
+    },
+    "download_url": "https://github.com/Daltron/NotificationBanner/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "xplr",
     "name": "xplr",
     "tagline": "Fast and flexible keyboard-based file explorer",
@@ -40399,6 +40791,34 @@
     },
     "download_url": "https://github.com/sayanarijit/xplr/releases/download/v1.2.2/source.tar.gz.asc",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "animatedcollectionviewlayout",
+    "name": "AnimatedCollectionViewLayout",
+    "tagline": "Add smooth scrolling animations to lists easily",
+    "repo_url": "https://github.com/kelvinjin/animatedcollectionviewlayout",
+    "full_name": "kelvinjin/animatedcollectionviewlayout",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "animation"
+    ],
+    "icon": "/icons/animatedcollectionviewlayout.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (MIT)",
+    "stars": 4852,
+    "tier": "tier1_gui",
+    "summary": "AnimatedCollectionViewLayout is a simple tool that adds beautiful visual transitions and animations to iPhone and iPad app lists without breaking existing code.",
+    "i18n": {
+      "it": "Questo strumento aggiunge transizioni visive alle liste delle app iOS senza modificare il codice esistente.",
+      "es": "Una herramienta sencilla que añade transiciones visuales a las listas de tu aplicación sin alterar tu código.",
+      "fr": "Un outil simple pour intégrer des transitions visuelles fluides aux listes d'applications sans modifier le code.",
+      "de": "Ein einfaches Werkzeug, um schöne visuelle Übergänge zu App-Listen hinzuzufügen, ohne den bestehenden Code zu ändern."
+    },
+    "download_url": "https://github.com/KelvinJin/AnimatedCollectionViewLayout/releases",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "cashew",
@@ -40429,6 +40849,34 @@
     "updated_at": "2026-11-25"
   },
   {
+    "slug": "harmonoid",
+    "name": "Harmonoid",
+    "tagline": "A stunning and fluid music player.",
+    "repo_url": "https://github.com/harmonoid/harmonoid",
+    "full_name": "harmonoid/harmonoid",
+    "category": "Video & Audio",
+    "tags": [
+      "music",
+      "audio"
+    ],
+    "icon": "/icons/harmonoid.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Custom Open License",
+    "stars": 4836,
+    "tier": "tier1_gui",
+    "summary": "Harmonoid is a gorgeous music player built for desktop and mobile devices.",
+    "i18n": {
+      "it": "Harmonoid è un meraviglioso lettore musicale per computer e dispositivi mobili.",
+      "es": "Harmonoid es un reproductor de música precioso para ordenadores y móviles.",
+      "fr": "Harmonoid est un superbe lecteur de musique pour ordinateurs et mobiles.",
+      "de": "Harmonoid ist ein wunderschöner Musikplayer für Computer und Mobilgeräte."
+    },
+    "download_url": "https://harmonoid.com",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "agent-of-empires",
     "name": "Agent of Empires",
     "tagline": "Manage your AI coding assistants easily",
@@ -40455,6 +40903,34 @@
     },
     "download_url": "https://github.com/agent-of-empires/agent-of-empires/releases/download/v1.25.0/aoe-darwin-amd64.tar.gz.sha256",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "tsmessages",
+    "name": "TSMessages",
+    "tagline": "Quick top‑screen alerts for iPhone apps",
+    "repo_url": "https://github.com/krausefx/tsmessages",
+    "full_name": "krausefx/tsmessages",
+    "category": "Productivity",
+    "tags": [
+      "notifications",
+      "ios"
+    ],
+    "icon": "/icons/tsmessages.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (MIT)",
+    "stars": 4831,
+    "tier": "tier1_gui",
+    "summary": "TSMessages lets iPhone apps display short, colorful banners at the top, so users instantly see success, error, warning or info messages.",
+    "i18n": {
+      "it": "TSMessages consente alle app iPhone di mostrare brevi banner colorati in alto, così gli utenti vedono subito messaggi di successo, errore, avviso o informazione.",
+      "es": "TSMessages permite a las apps iPhone mostrar breves banners coloridos en la parte superior, de modo que los usuarios vean al instante mensajes de éxito, error, advertencia o información.",
+      "fr": "TSMessages permet aux applications iPhone d’afficher de courts bannières colorées en haut, afin que les utilisateurs voient immédiatement des messages de succès, d’erreur, d’avertissement ou d’information.",
+      "de": "TSMessages lässt iPhone‑Apps kurze, farbige Banner oben anzeigen, sodass Nutzer sofort Erfolgs‑, Fehler‑, Warn‑ oder Informationsmeldungen sehen."
+    },
+    "download_url": "https://krausefx.com",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "doublecmd",
@@ -40569,6 +41045,34 @@
     "updated_at": "2026-11-24"
   },
   {
+    "slug": "aidoku",
+    "name": "Aidoku",
+    "tagline": "Free open source manga reader app",
+    "repo_url": "https://github.com/aidoku/aidoku",
+    "full_name": "aidoku/aidoku",
+    "category": "Productivity",
+    "tags": [
+      "manga",
+      "reader"
+    ],
+    "icon": "/icons/aidoku.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 4807,
+    "tier": "tier1_gui",
+    "summary": "Enjoy a clean, ad-free manga reading experience across your Apple devices with local storage and reading tracking.",
+    "i18n": {
+      "it": "Goditi una lettura di manga pulita e senza pubblicità sui tuoi dispositivi Apple con archiviazione locale e monitoraggio.",
+      "es": "Disfruta de una lectura de manga limpia y sin anuncios en tus dispositivos Apple con almacenamiento local y seguimiento.",
+      "fr": "Profitez d'une lecture de manga propre et sans publicité sur vos appareils Apple avec stockage local et suivi.",
+      "de": "Genießen Sie ein sauberes, werbefreies Manga-Leseerlebnis auf Ihren Apple-Geräten mit lokalem Speicher und Tracking."
+    },
+    "download_url": "https://github.com/Aidoku/Aidoku/releases/download/v0.9-4/Aidoku.ipa",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "core",
     "name": "core",
     "tagline": "Secure your home network traffic",
@@ -40625,6 +41129,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "kelivo",
+    "name": "Kelivo",
+    "tagline": "Chat with every major AI model safely.",
+    "repo_url": "https://github.com/chevey339/kelivo",
+    "full_name": "chevey339/kelivo",
+    "category": "Productivity",
+    "tags": [
+      "ai",
+      "chat"
+    ],
+    "icon": "/icons/kelivo.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Open Source (AGPL v3)",
+    "stars": 4787,
+    "tier": "tier1_gui",
+    "summary": "Manage multiple artificial intelligence models in one workspace while keeping your personal data securely on your own device.",
+    "i18n": {
+      "it": "Gestisci più modelli di intelligenza artificiale in un'unica schermata mantenendo i dati personali sul tuo dispositivo.",
+      "es": "Administra múltiples modelos de inteligencia artificial en un solo espacio manteniendo tus datos seguros en el dispositivo.",
+      "fr": "Gérez plusieurs modèles d'intelligence artificialle dans un espace de travail tout en gardant vos données sur votre appareil.",
+      "de": "Verwalten Sie mehrere KI-Modelle in einem Arbeitsbereich und behalten Sie Ihre persönlichen Daten sicher auf Ihrem Gerät."
+    },
+    "download_url": "https://github.com/Chevey339/kelivo/releases/download/v1.3.7/Kelivo_windows_1.3.7%2B89-NoImpeller_setup.exe",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "intercooler-js",
     "name": "Intercooler-js",
     "tagline": "Add dynamic AJAX directly to HTML tags.",
@@ -40651,6 +41183,34 @@
     },
     "download_url": "https://intercoolerjs.org",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "git-point",
+    "name": "git-point",
+    "tagline": "Manage your projects right from your mobile device.",
+    "repo_url": "https://github.com/gitpoint/git-point",
+    "full_name": "gitpoint/git-point",
+    "category": "Productivity",
+    "tags": [
+      "github",
+      "mobile"
+    ],
+    "icon": "/icons/git-point.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Android, iOS",
+    "license": "Open Source (MIT)",
+    "stars": 4774,
+    "tier": "tier1_gui",
+    "summary": "Take your code discussions and projects on the go with a lightweight mobile app designed for everyday developers.",
+    "i18n": {
+      "it": "Porta le discussioni sui tuoi progetti sempre con te grazie a un'applicazione mobile leggera e semplice da usare.",
+      "es": "Lleva tus discusiones de código a todas partes con una aplicación móvil ligera diseñada para desarrolladores.",
+      "fr": "Emportez vos discussions de code partout avec vous grâce à une application mobile légère et pratique.",
+      "de": "Behalten Sie Ihre Code-Projekte und Diskussionen mit einer praktischen Mobil-App immer im Blick."
+    },
+    "download_url": "https://github.com/gitpoint/git-point/releases/download/1.7.1/GitPoint.apk",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "microblog",
@@ -40681,6 +41241,34 @@
     "updated_at": "2026-11-25"
   },
   {
+    "slug": "efqrcode",
+    "name": "EFQRCode",
+    "tagline": "Create and read stylized QR codes",
+    "repo_url": "https://github.com/efprefix/efqrcode",
+    "full_name": "efprefix/efqrcode",
+    "category": "Productivity",
+    "tags": [
+      "qr-code",
+      "mobile"
+    ],
+    "icon": "/icons/efqrcode.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (MIT)",
+    "stars": 4758,
+    "tier": "tier1_gui",
+    "summary": "A lightweight programming tool for generating customized QR codes with watermarks or icons, and scanning codes across Apple devices.",
+    "i18n": {
+      "it": "Uno strumento leggero per generare codici QR personalizzati con immagini e scansionare codici su tutti i dispositivi Apple.",
+      "es": "Una herramienta ligera para generar códigos QR personalizados con marcas de agua o iconos y escanear códigos en dispositivos Apple.",
+      "fr": "Un outil léger pour générer des codes QR personnalisés avec des filigranes ou des icônes et scanner des codes sur les appareils Apple.",
+      "de": "Ein leichtgewichtigenes Tool zum Erstellen individueller QR-Codes mit Wasserzeichen oder Symbolen und zum Scannen auf Apple-Geräten."
+    },
+    "download_url": "https://efprefix.github.io/EFQRCode",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "sqlectron",
     "name": "Sqlectron",
     "tagline": "Simple and lightweight database management tool.",
@@ -40707,6 +41295,62 @@
     },
     "download_url": "https://github.com/sqlectron/sqlectron/releases/download/v1.39.0/sqlectron-1.39.0.exe",
     "updated_at": "2026-11-20"
+  },
+  {
+    "slug": "devicekit",
+    "name": "DeviceKit",
+    "tagline": "Easily identify Apple devices in code.",
+    "repo_url": "https://github.com/devicekit/devicekit",
+    "full_name": "devicekit/devicekit",
+    "category": "Productivity",
+    "tags": [
+      "ios",
+      "development"
+    ],
+    "icon": "/icons/devicekit.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (MIT)",
+    "stars": 4741,
+    "tier": "tier1_gui",
+    "summary": "DeviceKit is a lightweight tool for developers to identify Apple device models, battery status, and hardware metrics in code.",
+    "i18n": {
+      "it": "DeviceKit è uno strumento leggero per sviluppatori per identificare modelli di dispositivi Apple e metriche hardware.",
+      "es": "DeviceKit es una herramienta ligera para desarrolladores para identificar modelos de dispositivos Apple y métricas.",
+      "fr": "DeviceKit est un outil léger pour les développeurs pour identifier les modèles d'appareils Apple et métriques.",
+      "de": "DeviceKit ist ein leichtgewichtinales Tool für Entwickler zur Identifizierung von Apple-Gerätemodellen und Metriken."
+    },
+    "download_url": "https://github.com/devicekit/DeviceKit/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
+    "slug": "twindesk",
+    "name": "TwinDesk",
+    "tagline": "Turn multiple computers into one unified desk.",
+    "repo_url": "https://github.com/inukaasith/twindesk",
+    "full_name": "inukaasith/twindesk",
+    "category": "Productivity",
+    "tags": [
+      "cross-platform",
+      "productivity"
+    ],
+    "icon": "/icons/twindesk.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+    "license": "Open Source (GPL v3)",
+    "stars": 4741,
+    "tier": "tier1_gui",
+    "summary": "TwinDesk connects your Windows, Mac, Linux, and mobile devices so they share a single mouse, keyboard, clipboard, and screen seamlessly.",
+    "i18n": {
+      "it": "TwinDesk collega i tuoi dispositivi Windows, Mac, Linux e mobili per condividere tastiera, mouse, appunti e schermo.",
+      "es": "TwinDesk conecta tus equipos Windows, Mac, Linux y móviles para compartir ratón, teclado, portapapeles y pantallas.",
+      "fr": "TwinDesk connecte vos appareils Windows, Mac, Linux et mobiles pour partager un seul clavier, souris, presse-papiers.",
+      "de": "TwinDesk verbindet Windows-, Mac-, Linux- und Mobilgeräte, um Maus, Tastatur, Zwischenablage und Bildschirme zu teilen."
+    },
+    "download_url": "https://github.com/InukaAsith/TwinDesk/releases/download/v3.2.1/TwinDesk-FullKVM-Setup-3.2.1-arm64.exe",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "tweakpane",
@@ -41073,6 +41717,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "swiftocr",
+    "name": "SwiftOCR",
+    "tagline": "Fast and simple text recognition library.",
+    "repo_url": "https://github.com/nmac427/swiftocr",
+    "full_name": "nmac427/swiftocr",
+    "category": "Productivity",
+    "tags": [
+      "ocr",
+      "neural-network"
+    ],
+    "icon": "/icons/swiftocr.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "macOS, iOS",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 4629,
+    "tier": "tier1_gui",
+    "summary": "SwiftOCR is a fast optical character recognition library written in Swift that uses a neural network to read short alphanumeric codes.",
+    "i18n": {
+      "it": "SwiftOCR è una libreria di riconoscimento ottico dei caratteri scritta in Swift che utilizza una rete neurale per leggere codici alfanumerici brevi.",
+      "es": "SwiftOCR es una biblioteca de reconocimiento óptico de caracteres escrita en Swift que utiliza una red neural para leer códigos alfanuméricos cortos.",
+      "fr": "SwiftOCR est une bibliothèque de reconnaissance optique de caractères écrite en Swift qui utilise un réseau de neurones pour lire de courts codes alphanumériques.",
+      "de": "SwiftOCR ist eine in Swift geschriebene Texterkennungsbibliothek, die ein neuronales Netz nutzt, um kurze alphanumerische Codes zu lesen."
+    },
+    "download_url": "https://github.com/NMAC427/SwiftOCR/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "desktop-cc-gui",
     "name": "desktop-cc-gui",
     "tagline": "Unify multiple AI coding assistants easily.",
@@ -41183,6 +41855,34 @@
     },
     "download_url": "https://github.com/wasi-master/13ft/releases/download/v0.5.0/portable.py",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "adblock4limbo",
+    "name": "Adblock4limbo",
+    "tagline": "Block mobile web ads instantly.",
+    "repo_url": "https://github.com/limbopro/adblock4limbo",
+    "full_name": "limbopro/adblock4limbo",
+    "category": "Security & Privacy",
+    "tags": [
+      "adblocker",
+      "privacy"
+    ],
+    "icon": "/icons/adblock4limbo.png",
+    "is_webapp": false,
+    "app_type": "desktop",
+    "operatingSystem": "iOS",
+    "license": "Open Source (MIT)",
+    "stars": 4587,
+    "tier": "tier1_gui",
+    "summary": "Remove intrusive popups, banners, and video commercials across major browsers and mobile routing tools.",
+    "i18n": {
+      "it": "Remove intrusive popups, banners, and video commercials across major browsers and mobile routing tools.",
+      "es": "Remove intrusive popups, banners, and video commercials across major browsers and mobile routing tools.",
+      "fr": "Remove intrusive popups, banners, and video commercials across major browsers and mobile routing tools.",
+      "de": "Remove intrusive popups, banners, and video commercials across major browsers and mobile routing tools."
+    },
+    "download_url": "https://limbopro.com/archives/12904.html",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "cloudflare-ddns",
