@@ -66635,6 +66635,34 @@
     "updated_at": "2026-11-24"
   },
   {
+    "slug": "webappanalyzer",
+    "name": "Webappanalyzer",
+    "tagline": "Discover underlying website technologies instantly.",
+    "repo_url": "https://github.com/enthec/webappanalyzer",
+    "full_name": "enthec/webappanalyzer",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "developer-tools",
+      "automation"
+    ],
+    "icon": "/icons/webappanalyzer.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 619,
+    "tier": "tier2_webapp",
+    "summary": "Webappanalyzer inspects web pages to uncover the software, frameworks, and tools running behind the scenes.",
+    "i18n": {
+      "it": "Webappanalyzer ispeziona le pagine web per svelare i software, i framework e gli strumenti nascosti.",
+      "es": "Webappanalyzer inspecciona páginas web para revelar el software, los marcos de trabajo y herramientas ocultas.",
+      "fr": "Webappanalyzer inspecte les pages web pour révéler les logiciels, frameworks et outils cachés.",
+      "de": "Webappanalyzer untersucht Webseiten, um die dahinter liegende Software, Frameworks und Tools aufzudecken."
+    },
+    "download_url": "https://github.com/enthec/webappanalyzer/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "wayland",
     "name": "Wayland",
     "tagline": "One desktop command center for every AI agent.",
@@ -66661,6 +66689,34 @@
     },
     "download_url": "https://github.com/FerroxLabs/wayland/releases/download/v0.13.2/Wayland-0.13.2-win-arm64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "minisearch",
+    "name": "MiniSearch",
+    "tagline": "Private AI search inside your browser",
+    "repo_url": "https://github.com/felladrin/minisearch",
+    "full_name": "felladrin/minisearch",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "search",
+      "ai"
+    ],
+    "icon": "/icons/minisearch.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (Apache 2.0)",
+    "stars": 613,
+    "tier": "tier2_webapp",
+    "summary": "A private web search engine with an AI assistant that runs entirely inside your browser without sharing your data.",
+    "i18n": {
+      "it": "Un motore di ricerca web privato con assistente IA che funziona direttamente nel tuo browser senza condividere i tuoi dati.",
+      "es": "Un motor de búsqueda web privado con asistente de IA que se ejecuta completamente dentro de tu navegador sin compartir tus datos.",
+      "fr": "Un moteur de recherche web privé avec assistant IA qui s'exécute entièrement dans votre navigateur sans partager vos données.",
+      "de": "Eine private Websuchmaschine mit KI-Assistenten, die vollständig in Ihrem Browser läuft, ohne Ihre Daten zu teilen."
+    },
+    "download_url": "https://felladrin-minisearch.hf.space",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "feather",
@@ -66717,6 +66773,34 @@
     },
     "download_url": "https://github.com/sciencefair-land/sciencefair/releases/download/v1.0.6/sciencefair-setup-1.0.6.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "aria-devtools",
+    "name": "aria-devtools",
+    "tagline": "Spot accessibility errors instantly",
+    "repo_url": "https://github.com/ziolko/aria-devtools",
+    "full_name": "ziolko/aria-devtools",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "accessibility",
+      "web-development"
+    ],
+    "icon": "/icons/aria-devtools.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 607,
+    "tier": "tier2_webapp",
+    "summary": "See your website exactly as screen readers do to find missing labels and keyboard issues.",
+    "i18n": {
+      "it": "Vedi il tuo sito web esattamente come lo vedono i lettori dello schermo per trovare etichette mancanti.",
+      "es": "Ve tu sitio web exactamente como lo ven los lectores de pantalla para encontrar etiquetas faltantes.",
+      "fr": "Voyez votre site web exactement comme le voient les lecteurs d'écran pour trouver les étiquettes manquantes.",
+      "de": "Sehen Sie Ihre Website genau so, wie Screenreader sie darstellen, um fehlende Beschriftungen zu finden."
+    },
+    "download_url": "https://chrome.google.com/webstore/detail/aria-devtools/dneemiigcbbgbdjlcdjjnianlikimpck?hl=en",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "file-converter-pro",
@@ -66915,6 +66999,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "react-windows-ui",
+    "name": "react-windows-ui",
+    "tagline": "Windows‑style UI for React apps",
+    "repo_url": "https://github.com/virtualvivek/react-windows-ui",
+    "full_name": "virtualvivek/react-windows-ui",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ui",
+      "windows"
+    ],
+    "icon": "/icons/react-windows-ui.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 598,
+    "tier": "tier2_webapp",
+    "summary": "A collection of ready‑made components that let you give your React website the look and feel of a Windows desktop, without writing complex code.",
+    "i18n": {
+      "it": "Fornisce componenti pronti all’uso che ti permettono di dare al tuo sito React l’aspetto di un desktop Windows, senza codice complesso.",
+      "es": "Ofrece componentes listos para usar que permiten que tu sitio React tenga el aspecto de un escritorio Windows, sin código complejo.",
+      "fr": "Propose des composants prêts à l’emploi qui donnent à votre site React l’apparence d’un bureau Windows, sans code complexe.",
+      "de": "Bietet fertige Bausteine, die Ihrer React‑Website das Aussehen eines Windows‑Desktops verleihen, ohne komplexen Code."
+    },
+    "download_url": "https://github.com/virtualvivek/react-windows-ui/releases/download/v4.2.4/react-windows-ui.min.css",
+    "updated_at": "2026-11-26"
+  },
+  {
+    "slug": "wavelog",
+    "name": "Wavelog",
+    "tagline": "The self-hosted logbook for radio amateurs.",
+    "repo_url": "https://github.com/wavelog/wavelog",
+    "full_name": "wavelog/wavelog",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "radio",
+      "amateur-radio"
+    ],
+    "icon": "/icons/wavelog.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 597,
+    "tier": "tier2_webapp",
+    "summary": "Log your amateur radio contacts from anywhere using any web browser with this self-hosted software.",
+    "i18n": {
+      "it": "Registra i tuoi contatti radioamatoriali da qualsiasi luogo utilizzando un browser web con questo software self-hosted.",
+      "es": "Registra tus contactos de radioaficionado desde cualquier lugar usando cualquier navegador web con este software autohospedado.",
+      "fr": "Enregistrez vos contacts radioamateurs de n'importe où en utilisant un navigateur web avec ce logiciel auto-hébergé.",
+      "de": "Protokollieren Sie Ihre Amateurfunkkontakte von überall aus mit einem Webbrowser über diese selbst gehostete Software."
+    },
+    "download_url": "https://www.wavelog.org",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "emlog",
     "name": "emlog",
     "tagline": "Lightweight open-source website and blog publishing system",
@@ -66969,6 +67109,34 @@
     },
     "download_url": "https://getmesh.io",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "kokraf",
+    "name": "Kokraf",
+    "tagline": "Browser-based collaborative 3D modeling tool",
+    "repo_url": "https://github.com/sengchor/kokraf",
+    "full_name": "sengchor/kokraf",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "3d-modeling",
+      "browser"
+    ],
+    "icon": "/icons/kokraf.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 593,
+    "tier": "tier2_webapp",
+    "summary": "Create and manipulate 3D models directly inside your web browser without installing any heavy software.",
+    "i18n": {
+      "it": "Crea e modifica oggetti 3D direttamente nel tuo browser web senza installare software pesanti.",
+      "es": "Crea y manipula modelos 3D directamente en tu navegador web sin instalar software pesado.",
+      "fr": "Créez et modifiez des objets 3D directement dans votre navigateur web sans installer de logiciel lourd.",
+      "de": "Erstellen und bearbeiten Sie 3D-Modelle direkt in Ihrem Webbrowser, ohne schwere Software zu installieren."
+    },
+    "download_url": "https://kokraf.com/",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "vela",
@@ -67419,6 +67587,62 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "tasks",
+    "name": "Tasks",
+    "tagline": "Simple task manager, no fuss",
+    "repo_url": "https://github.com/thewhitetulip/tasks",
+    "full_name": "thewhitetulip/tasks",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "todo",
+      "webapp"
+    ],
+    "icon": "/icons/tasks.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 560,
+    "tier": "tier2_webapp",
+    "summary": "Tasks helps you keep track of everyday tasks with a clean, web-based interface.",
+    "i18n": {
+      "it": "Tasks ti aiuta a tenere traccia delle attività quotidiane con un'interfaccia web pulita.",
+      "es": "Tasks te ayuda a seguir tus tareas diarias con una interfaz web limpia.",
+      "fr": "Tasks vous aide à suivre vos tâches quotidiennes avec une interface web épurée.",
+      "de": "Tasks hilft dir, deine täglichen Aufgaben mit einer sauberen Weboberfläche zu verfolgen."
+    },
+    "download_url": "https://github.com/thewhitetulip/Tasks/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
+    "slug": "sandbox",
+    "name": "Sandbox",
+    "tagline": "Interactive mini-projects and coding tutorials collection",
+    "repo_url": "https://github.com/taniarascia/sandbox",
+    "full_name": "taniarascia/sandbox",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "frontend",
+      "tutorials"
+    ],
+    "icon": "/icons/sandbox.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 559,
+    "tier": "tier2_webapp",
+    "summary": "Explore a collection of interactive web exercises, task lists, and color pickers designed to practice essential browser development skills.",
+    "i18n": {
+      "it": "Esplora una raccolta di esercizi web interattivi, elenchi di attività e selettori di colori progettati per esercitare lo sviluppo.",
+      "es": "Explora una colección de ejercicios web interactivos, listas de tareas y selectores de color diseñados para practicar el desarrollo.",
+      "fr": "Découvrez une collection d'exercices web interactifs, de listes de tâches et de sélecteurs de couleurs pour pratiquer le code.",
+      "de": "Entdecken Sie eine Sammlung interaktiver Webübungen, Aufgabenlisten und Farbwähler zum Üben wichtiger Browser-Entwicklungsfähigkeiten."
+    },
+    "download_url": "https://taniarascia.github.io/sandbox",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "bebop",
     "name": "Bebop",
     "tagline": "A simple, lightweight discussion forum.",
@@ -67585,6 +67809,34 @@
     },
     "download_url": "https://github.com/umbradev315/ffmpeg-video-audio-converter/releases/download/v4.3.4/FFmpeg.Video",
     "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "play-samples",
+    "name": "play-samples",
+    "tagline": "Official starter templates for web applications",
+    "repo_url": "https://github.com/playframework/play-samples",
+    "full_name": "playframework/play-samples",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "templates",
+      "web-development"
+    ],
+    "icon": "/icons/play-samples.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Public Domain / Free",
+    "stars": 553,
+    "tier": "tier2_webapp",
+    "summary": "Jumpstart your next web application project using a collection of official template examples and ready-to-use boilerplate code.",
+    "i18n": {
+      "it": "Inizia subito il tuo prossimo progetto web utilizzando una collezione di esempi ufficiali e codice pronto all'uso.",
+      "es": "Comienza tu próximo proyecto web usando una colección de ejemplos oficiales y código listo para usar.",
+      "fr": "Démarrez votre prochain projet web en utilisant une collection d'exemples officiels et de code prêt à l'emploi.",
+      "de": "Beginnen Sie Ihr nächstes Webprojekt mit einer Sammlung offizieller Beispiele und einsatzbereitem Boilerplate-Code."
+    },
+    "download_url": "https://github.com/playframework/play-samples/releases",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "kk-mix",
@@ -68063,6 +68315,34 @@
     "updated_at": "2026-11-25"
   },
   {
+    "slug": "flashpaper",
+    "name": "FlashPaper",
+    "tagline": "Secure one‑time secret sharing",
+    "repo_url": "https://github.com/andrewpaglusch/flashpaper",
+    "full_name": "andrewpaglusch/flashpaper",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "privacy",
+      "secret-sharing"
+    ],
+    "icon": "/icons/flashpaper.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 530,
+    "tier": "tier2_webapp",
+    "summary": "FlashPaper lets you send a password or private note that can be read only once, then disappears, keeping your information safe without storing it long‑term.",
+    "i18n": {
+      "it": "FlashPaper consente di inviare una password o una nota privata leggibile una sola volta; poi scompare, così le tue informazioni restano al sicuro senza essere archiviate a lungo termine.",
+      "es": "FlashPaper permite enviar una contraseña o una nota confidencial que solo se puede leer una vez y luego desaparece, manteniendo tu información segura sin guardarla permanentemente.",
+      "fr": "FlashPaper vous permet d’envoyer un mot de passe ou une note confidentielle qui ne peut être lue qu’une fois, puis disparaît, gardant vos informations en sécurité sans les stocker longtemps.",
+      "de": "FlashPaper ermöglicht das Senden eines Passworts oder einer privaten Notiz, die nur einmal gelesen werden kann und dann verschwindet, sodass Ihre Daten sicher bleiben, ohne dauerhaft gespeichert zu werden."
+    },
+    "download_url": "https://github.com/AndrewPaglusch/FlashPaper/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "tinykit",
     "name": "tinykit",
     "tagline": "Build custom web apps using AI",
@@ -68175,6 +68455,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "linkstack-docker",
+    "name": "linkstack-docker",
+    "tagline": "Self-hosted link-in-bio page",
+    "repo_url": "https://github.com/linkstackorg/linkstack-docker",
+    "full_name": "linkstackorg/linkstack-docker",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "link-in-bio",
+      "self-hosted"
+    ],
+    "icon": "/icons/linkstack-docker.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 528,
+    "tier": "tier2_webapp",
+    "summary": "Create a personal profile page to share all your links in one place.",
+    "i18n": {
+      "it": "Crea una pagina profilo personale per condividere tutti i tuoi link in un unico posto.",
+      "es": "Crea una página de perfil personal para compartir todos tus enlaces en un solo lugar.",
+      "fr": "Créez une page de profil personnelle pour partager tous vos liens en un seul endroit.",
+      "de": "Erstellen Sie eine persönliche Profilseite, um alle Ihre Links an einem Ort zu teilen."
+    },
+    "download_url": "https://linkstack.org/docker",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "bandori-pet-rev",
     "name": "Bandori-Pet-Rev",
     "tagline": "Bring your favorite animated desktop characters.",
@@ -68231,6 +68539,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "free-the-web-apps",
+    "name": "Free The Web Apps",
+    "tagline": "Turn any website into an app.",
+    "repo_url": "https://github.com/mathix420/free-the-web-apps",
+    "full_name": "mathix420/free-the-web-apps",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "webapp",
+      "desktop"
+    ],
+    "icon": "/icons/free-the-web-apps.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 523,
+    "tier": "tier2_webapp",
+    "summary": "Transform your favorite websites into standalone desktop applications without browser tabs and clutter.",
+    "i18n": {
+      "it": "Converti i tuoi siti web preferiti in applicazioni desktop autonome senza schede e confusione.",
+      "es": "Transforma tus sitios web favoritos en aplicaciones de escritorio independientes sin pestañas.",
+      "fr": "Convertissez vos sites web préférés en applications de bureau autonomes sans onglets superflus.",
+      "de": "Verwandeln Sie Ihre Lieblings-Websites in eigenständige Desktop-Anwendungen ganz ohne Browser-Tabs."
+    },
+    "download_url": "https://ftwa.mathix.dev",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "ginatra",
     "name": "Ginatra",
     "tagline": "Simple web interface for your code",
@@ -68257,6 +68593,34 @@
     },
     "download_url": "https://narkoz.github.io/ginatra",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "picoweb",
+    "name": "picoweb",
+    "tagline": "Extremely lightweight Python web framework",
+    "repo_url": "https://github.com/pfalcon/picoweb",
+    "full_name": "pfalcon/picoweb",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-framework",
+      "async"
+    ],
+    "icon": "/icons/picoweb.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 523,
+    "tier": "tier2_webapp",
+    "summary": "Build ultra-lightweight web applications using minimal Python dialects designed for constrained systems.",
+    "i18n": {
+      "it": "Crea applicazioni web ultra leggere utilizzando dialetti Python minimi progettati per sistemi con risorse limitate.",
+      "es": "Crea aplicaciones web ultraligeras utilizando dialectos de Python mínimos diseñados para sistemas limitados.",
+      "fr": "Créez des applications web ultra-légères en utilisant des dialectes Python minimaux conçus pour des systèmes limités.",
+      "de": "Erstellen Sie ultraleichte Webanwendungen mit minimalen Python-Dialekten für ressourcenbeschränkte Systeme."
+    },
+    "download_url": "https://github.com/pfalcon/pycopy",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "simpla",
@@ -68315,6 +68679,34 @@
     "updated_at": "2026-11-24"
   },
   {
+    "slug": "gemini-cli-desktop",
+    "name": "Gemini CLI Desktop",
+    "tagline": "Visual desktop workspace for developer AI models",
+    "repo_url": "https://github.com/piebald-ai/gemini-cli-desktop",
+    "full_name": "piebald-ai/gemini-cli-desktop",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "desktop"
+    ],
+    "icon": "/icons/gemini-cli-desktop.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 522,
+    "tier": "tier2_webapp",
+    "summary": "Manage conversations, code diffs, and AI tools across multiple developer assistants in a single desktop or web interface.",
+    "i18n": {
+      "it": "Gestisci conversazioni, modifiche di codice e strumenti di intelligenza artificiale in un'unica applicazione desktop o web.",
+      "es": "Gestiona conversaciones, cambios de código y herramientas de IA desde una única interfaz de escritorio o web.",
+      "fr": "Gérez vos conversations, modifications de code et outils IA depuis une seule interface de bureau ou web.",
+      "de": "Verwalten Sie Konversationen, Code-Änderungen und KI-Werkzeuge in einer einzigen Desktop- oder Web-Oberfläche."
+    },
+    "download_url": "https://github.com/Piebald-AI/gemini-cli-desktop/releases/download/v0.3.15/GeminiCLIDesktopSetup.exe",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "bitshares-ui",
     "name": "bitshares-ui",
     "tagline": "The official wallet for BitShares blockchain.",
@@ -68369,6 +68761,34 @@
     },
     "download_url": "https://github.com/voidcraft-dev/memory-forge-rs/releases/download/v3.8.0/Memory.Forge_3.8.0_x64-setup.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "go-webapp-sample",
+    "name": "Go Web App Sample",
+    "tagline": "Ready-to-use template for web applications",
+    "repo_url": "https://github.com/ybkuroki/go-webapp-sample",
+    "full_name": "ybkuroki/go-webapp-sample",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-app",
+      "template"
+    ],
+    "icon": "/icons/go-webapp-sample.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 517,
+    "tier": "tier2_webapp",
+    "summary": "Jumpstart your next web project with a complete template featuring user login, database tracking, and a built-in dashboard.",
+    "i18n": {
+      "it": "Inizia il tuo prossimo progetto web con un modello completo dotato di accesso utente e tracciamento del database.",
+      "es": "Inicia tu próximo proyecto web con una plantilla completa que incluye inicio de sesión y gestión de bases de datos.",
+      "fr": "Démarrez votre prochain projet web avec un modèle complet comprenant la connexion utilisateur et la base de données.",
+      "de": "Starten Sie Ihr nächstes Webprojekt mit einer vollständigen Vorlage inklusive Benutzeranmeldung und Datenbank."
+    },
+    "download_url": "https://github.com/ybkuroki/go-webapp-sample/releases/download/v1.5.7/checksums.txt",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "encrypted-note",
@@ -68453,6 +68873,34 @@
     },
     "download_url": "https://app.jotsy.dev",
     "updated_at": "2026-11-24"
+  },
+  {
+    "slug": "manimcat",
+    "name": "ManimCat",
+    "tagline": "AI-generated math animations from natural language.",
+    "repo_url": "https://github.com/wing900/manimcat",
+    "full_name": "wing900/manimcat",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "animation"
+    ],
+    "icon": "/icons/manimcat.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 515,
+    "tier": "tier2_webapp",
+    "summary": "Transform plain text descriptions into high-quality mathematical animations and diagrams using advanced artificial intelligence.",
+    "i18n": {
+      "it": "Trasforma semplici descrizioni testuali in animazioni e diagrammi matematici di alta qualità usando l'intelligenza artificiale.",
+      "es": "Transforma descripciones de texto simple en animaciones y diagramas matemáticos de alta calidad utilizando inteligencia artificial.",
+      "fr": "Transformez de simples descriptions textuelles en animations et diagrammes mathématiques de haute qualité grâce à l'intelligence artificielle.",
+      "de": "Verwandeln Sie einfache Textbeschreibungen mithilfe künstlicher Intelligenz in hochwertige mathematische Animationen und Diagramme."
+    },
+    "download_url": "https://manimcat.5051001.xyz/",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "markamd",
@@ -68651,6 +69099,90 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "django-webapp",
+    "name": "Django-WebApp",
+    "tagline": "Securely share files with friends online.",
+    "repo_url": "https://github.com/smahesh29/django-webapp",
+    "full_name": "smahesh29/django-webapp",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "file-sharing",
+      "collaboration"
+    ],
+    "icon": "/icons/django-webapp.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 506,
+    "tier": "tier2_webapp",
+    "summary": "An easy-to-use platform for uploading files, personalizing profiles, and sharing documents with other registered users.",
+    "i18n": {
+      "it": "Una piattaforma semplice per caricare file, personalizzare i profili e condividere documenti con altri utenti registrati.",
+      "es": "Una plataforma sencilla para subir archivos, personalizar perfiles y compartir documentos con otros usuarios registrados.",
+      "fr": "Une plateforme simple pour téléverser des fichiers, personnaliser les profils et partager des documents avec d'autres utilisateurs.",
+      "de": "Eine einfache Plattform zum Hochladen von Dateien, Anpassen von Profilen und Teilen von Dokumenten mit anderen Nutzern."
+    },
+    "download_url": "https://github.com/smahesh29/Django-WebApp/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
+    "slug": "r2-web",
+    "name": "r2-web",
+    "tagline": "Elegant browser-based storage file manager",
+    "repo_url": "https://github.com/vikiboss/r2-web",
+    "full_name": "vikiboss/r2-web",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "storage",
+      "file-manager"
+    ],
+    "icon": "/icons/r2-web.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 506,
+    "tier": "tier2_webapp",
+    "summary": "Manage cloud storage files directly in your web browser with an intuitive interface, fast uploads, and secure direct-to-cloud connections.",
+    "i18n": {
+      "it": "Gestisci i file di archiviazione cloud direttamente nel tuo browser web con un'interfaccia intuitiva e caricamenti veloci.",
+      "es": "Administra archivos de almacenamiento en la nube directamente en tu navegador web con una interfaz intuitiva y rápida.",
+      "fr": "Gérez vos fichiers de stockage cloud directement dans votre navigateur web avec une interface intuitive et rapide.",
+      "de": "Verwalten Sie Cloud-Speicherdateien direkt in Ihrem Webbrowser mit einer intuitiven Benutzeroberfläche und schnellen Uploads."
+    },
+    "download_url": "https://r2.viki.moe",
+    "updated_at": "2026-11-26"
+  },
+  {
+    "slug": "watsonwebserver",
+    "name": "WatsonWebserver",
+    "tagline": "Build scalable C# web services easily",
+    "repo_url": "https://github.com/dotnet/watsonwebserver",
+    "full_name": "dotnet/watsonwebserver",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "dotnet",
+      "webserver"
+    ],
+    "icon": "/icons/watsonwebserver.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 504,
+    "tier": "tier2_webapp",
+    "summary": "Create fast, lightweight REST web servers and APIs in C# with modern protocol support and clean routing.",
+    "i18n": {
+      "it": "Realizza server web REST leggeri e veloci in C# con supporto a protocolli moderni e routing pulito.",
+      "es": "Crea servidores web REST rápidos en C# con soporte para protocolos modernos y enrutamiento sencillo.",
+      "fr": "Créez des serveurs web REST légers et rapides en C# avec prise en charge des protocoles modernes.",
+      "de": "Entwickeln Sie schnelle REST-Webserver in C# mit moderner Protokollunterstützung und einfachem Routing."
+    },
+    "download_url": "https://github.com/dotnet/WatsonWebserver/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "hotclip",
     "name": "HotClip",
     "tagline": "Turn long videos into viral shorts.",
@@ -68677,6 +69209,34 @@
     },
     "download_url": "https://github.com/xixihhhh/hotclip/releases/download/v0.35.2/HotClip-0.35.2-win-x64.exe",
     "updated_at": "2026-11-21"
+  },
+  {
+    "slug": "llavavision",
+    "name": "llavavision",
+    "tagline": "AI camera helper that describes your surroundings",
+    "repo_url": "https://github.com/lxe/llavavision",
+    "full_name": "lxe/llavavision",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "ai",
+      "accessibility"
+    ],
+    "icon": "/icons/llavavision.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Custom Open License",
+    "stars": 503,
+    "tier": "tier2_webapp",
+    "summary": "An accessible web application that uses advanced computer vision to describe what your camera sees out loud.",
+    "i18n": {
+      "it": "Un'applicazione web accessibile che usa la visione artificiale avanzata per descrivere ad alta voce ciò che inquadri.",
+      "es": "Una aplicación web accesible que usa visión artificial avanzada para describir en voz alta lo que ve tu cámara.",
+      "fr": "Une application web accessible qui utilise la vision artificielle pour décrire à haute voix ce que voit votre caméra.",
+      "de": "Eine barrierefreie Web-Anwendung, die moderne Bilderkennung nutzt, um zu beschreiben, was deine Kamera sieht."
+    },
+    "download_url": "https://github.com/lxe/llavavision/releases",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "webjike",
@@ -68735,6 +69295,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "lxd-ui",
+    "name": "lxd-ui",
+    "tagline": "Manage servers via your browser",
+    "repo_url": "https://github.com/canonical/lxd-ui",
+    "full_name": "canonical/lxd-ui",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "server-management",
+      "virtualization"
+    ],
+    "icon": "/icons/lxd-ui.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (GPL v3)",
+    "stars": 501,
+    "tier": "tier2_webapp",
+    "summary": "A free, web-based dashboard that lets you create and control virtual machines and containers without typing complex commands.",
+    "i18n": {
+      "it": "Una dashboard web gratuita che ti permette di creare e controllare macchine virtuali e container senza digitare comandi complessi.",
+      "es": "Un panel web gratuito que te permite crear y controlar máquinas virtuales y contenedores sin escribir comandos complejos.",
+      "fr": "Un tableau de bord web gratuit qui vous permet de créer et de contrôler des machines virtuelles et des conteneurs sans taper de commandes complexes.",
+      "de": "Ein kostenloses Web-Dashboard, mit dem Sie virtuelle Maschinen und Container erstellen und steuern können, ohne komplexe Befehle einzugeben."
+    },
+    "download_url": "https://github.com/canonical/lxd-ui/releases",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "neverclick",
     "name": "neverclick",
     "tagline": "Control your mouse completely using keyboard shortcuts.",
@@ -68763,6 +69351,34 @@
     "updated_at": "2026-11-21"
   },
   {
+    "slug": "local-content-share",
+    "name": "Local Content Share",
+    "tagline": "Easily share files and text locally",
+    "repo_url": "https://github.com/tanq16/local-content-share",
+    "full_name": "tanq16/local-content-share",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "file-sharing",
+      "self-hosted"
+    ],
+    "icon": "/icons/local-content-share.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 498,
+    "tier": "tier2_webapp",
+    "summary": "A simple self-hosted app for sharing files, text snippets, and notes instantly across devices on your local network without any client setup.",
+    "i18n": {
+      "it": "Un'applicazione leggera per condividere file, testo e note tra i dispositivi della tua rete domestica senza configurazioni complesse.",
+      "es": "Una aplicación ligera para compartir archivos, fragmentos de texto y notas entre dispositivos de tu red local sin complicaciones.",
+      "fr": "Une application légère pour partager des fichiers, du texte et des notes entre les appareils de votre réseau local sans configuration.",
+      "de": "Eine einfache App zum schnellen Teilen von Dateien, Texten und Notizen auf allen Geräten in Ihrem Heimnetzwerk ohne Client-Setup."
+    },
+    "download_url": "https://github.com/Tanq16/local-content-share/releases/download/v37/local-content-share-windows-amd64.exe",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "asp-net-mvc-cms",
     "name": "ASP.NET-MVC-CMS",
     "tagline": "Build websites visually like building blocks.",
@@ -68789,6 +69405,34 @@
     },
     "download_url": "https://www.zkea.net/zkeacms",
     "updated_at": "2026-11-23"
+  },
+  {
+    "slug": "marten",
+    "name": "Marten",
+    "tagline": "Build fast web applications with Crystal.",
+    "repo_url": "https://github.com/martenframework/marten",
+    "full_name": "martenframework/marten",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "crystal",
+      "web-framework"
+    ],
+    "icon": "/icons/marten.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 490,
+    "tier": "tier2_webapp",
+    "summary": "Marten is a fully featured web framework for the Crystal programming language, giving you all the built-in tools needed to create secure apps.",
+    "i18n": {
+      "it": "Marten è un framework web completo per Crystal, che offre tutti gli strumenti integrati per creare applicazioni sicure ed efficienti.",
+      "es": "Marten es un marco web completo para Crystal que incluye todas las herramientas integradas para crear aplicaciones seguras.",
+      "fr": "Marten est un cadre web complet pour Crystal, fournissant tous les outils intégrés nécessaires pour créer des applications sécurisées.",
+      "de": "Marten ist ein umfassendes Web-Framework für Crystal, das alle integrierten Tools zur Erstellung sicherer Anwendungen bietet."
+    },
+    "download_url": "https://martenframework.com",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "scroll",
@@ -68903,6 +69547,34 @@
     "updated_at": "2026-11-23"
   },
   {
+    "slug": "palettum",
+    "name": "Palettum",
+    "tagline": "Recolor images and videos instantly",
+    "repo_url": "https://github.com/arrowpc/palettum",
+    "full_name": "arrowpc/palettum",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "color",
+      "pixel-art"
+    ],
+    "icon": "/icons/palettum.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (AGPL v3)",
+    "stars": 484,
+    "tier": "tier2_webapp",
+    "summary": "Transform your images, animations, and videos with custom color palettes using smart pixel snapping or smooth gradient blending.",
+    "i18n": {
+      "it": "Trasforma immagini e video con palette di colori personalizzate utilizzando la conversione pixel o la sfumatura graduale.",
+      "es": "Transforma tus imágenes, animaciones y vídeos con paletas de colores personalizadas mediante conversión de píxeles.",
+      "fr": "Transformez vos images et vidéos avec des palettes de couleurs personnalisées en utilisant le style pixel ou dégradé.",
+      "de": "Verwandeln Sie Bilder und Videos mit benutzerdefinierten Farbpaletten durch präzise Pixelanpassung oder sanfte Übergänge."
+    },
+    "download_url": "https://github.com/arrowpc/palettum/releases/download/v0.6.1/palettum-aarch64-apple-darwin-gpu.tar.gz.sha256",
+    "updated_at": "2026-11-26"
+  },
+  {
     "slug": "platformus",
     "name": "Platformus",
     "tagline": "Flexible open-source content management system",
@@ -68957,6 +69629,34 @@
     },
     "download_url": "https://andreisperid.github.io/E-TKT/",
     "updated_at": "2026-11-25"
+  },
+  {
+    "slug": "violit",
+    "name": "violit",
+    "tagline": "Build Python web apps without reruns",
+    "repo_url": "https://github.com/violit-dev/violit",
+    "full_name": "violit-dev/violit",
+    "category": "Web Apps & Cloud",
+    "tags": [
+      "web-framework",
+      "dashboard"
+    ],
+    "icon": "/icons/violit.png",
+    "is_webapp": true,
+    "app_type": "selfhosted",
+    "operatingSystem": "Self-Hosted / Browser",
+    "license": "Open Source (MIT)",
+    "stars": 478,
+    "tier": "tier2_webapp",
+    "summary": "Create reactive Python web applications and dashboards with Streamlit-like simplicity and modern performance.",
+    "i18n": {
+      "it": "Crea applicazioni web e dashboard reattive in Python con la semplicità di Streamlit e prestazioni moderne.",
+      "es": "Crea aplicaciones web y paneles interactivos en Python con la simplicidad de Streamlit y rendimiento moderno.",
+      "fr": "Créez des applications web et tableaux de bord réactifs en Python avec la simplicité de Streamlit.",
+      "de": "Erstellen Sie reaktive Python-Webanwendungen und Dashboards mit Streamlit-Einfachheit und moderner Leistung."
+    },
+    "download_url": "https://violit.cloud",
+    "updated_at": "2026-11-26"
   },
   {
     "slug": "leaa",

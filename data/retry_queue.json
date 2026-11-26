@@ -89,5 +89,40 @@
     "html_url": "https://github.com/dotenx/dotenx",
     "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons)",
     "queued_at": "2026-11-26T09:23:59.299329+00:00"
+  },
+  {
+    "full_name": "libaibaia/cloudSec",
+    "slug": "cloudsec",
+    "html_url": "https://github.com/libaibaia/cloudSec",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:25:48.413746+00:00"
+  },
+  {
+    "full_name": "l5yth/potato-mesh",
+    "slug": "potato-mesh",
+    "html_url": "https://github.com/l5yth/potato-mesh",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-26T09:27:23.314922+00:00"
+  },
+  {
+    "full_name": "Danmaku-Anywhere/danmaku-anywhere",
+    "slug": "danmaku-anywhere",
+    "html_url": "https://github.com/Danmaku-Anywhere/danmaku-anywhere",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-26T09:27:49.928359+00:00"
+  },
+  {
+    "full_name": "henripal/labnotebook",
+    "slug": "labnotebook",
+    "html_url": "https://github.com/henripal/labnotebook",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-26T09:29:33.309782+00:00"
+  },
+  {
+    "full_name": "alexwl/haskell-code-explorer",
+    "slug": "haskell-code-explorer",
+    "html_url": "https://github.com/alexwl/haskell-code-explorer",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:30:24.155815+00:00"
   }
 ]
