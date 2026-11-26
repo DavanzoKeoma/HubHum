@@ -1,9 +1,11 @@
 name: Nightly Programmatic SEO Builder & Instant Translator
 
 on:
-  schedule:
-    # Multiple daily catch-up windows resilient to GitHub free-tier cron delays/skips
-    - cron: "0 1,3,5,7,11,15,19,23 * * *"
+  # Paused to stabilize the current 2,625-app catalog in Google Search Console (anti Scaled Content Abuse).
+  # On-demand user/extension translations remain active via repository_dispatch, issues, and workflow_dispatch.
+  # schedule:
+  #   # Multiple daily catch-up windows resilient to GitHub free-tier cron delays/skips
+  #   - cron: "0 1,3,5,7,11,15,19,23 * * *"
   repository_dispatch:
     types: [translate-app, translate_app]
   issues:

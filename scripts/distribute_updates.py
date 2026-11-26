@@ -22,7 +22,87 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_GUIDES_DIR = PROJECT_ROOT / "content" / "guides"
 CONTENT_BUNDLES_DIR = PROJECT_ROOT / "content" / "bundles"
 SITE_URL_PREFIX = "https://davanzokeoma.github.io/HubHum"
-USER_AGENT = "HubHum-Distributor/1.1 (+https://davanzokeoma.github.io/HubHum/)"
+USER_AGENT = "HubHum-Distributor/1.2 (+https://davanzokeoma.github.io/HubHum/)"
+
+# Strictly block direct affiliate merchant domains/params from ever entering social/editorial payloads.
+FORBIDDEN_AFFILIATE_DOMAINS = (
+    "interserver.net",
+    "greengeeks.com",
+    "hosting.com",
+    "purevpn.com",
+    "adguard.com",
+    "fastestvpn.com",
+    "creativefabrica.com",
+    "systeme.io",
+    "namesilo.com",
+    "tradingview.com",
+    "topcashback.",
+)
+FORBIDDEN_AFFILIATE_URL_MARKERS = (
+    "aff=",
+    "aid=",
+    "fpr=",
+    "subid=",
+    "&sid=",
+    "?sid=",
+    "?sa=",
+    "/ref/",
+    "/track/",
+    "utm_source=fp_affiliate",
+)
+
+
+def _is_allowed_hubhum_url(url: str) -> bool:
+    """Return True iff url is a clean editorial URL under davanzokeoma.github.io/HubHum."""
+    cleaned = url.strip().rstrip(".,;)>]\"'")
+    if not (cleaned == SITE_URL_PREFIX or cleaned.startswith(f"{SITE_URL_PREFIX}/")):
+        return False
+    low = cleaned.lower()
+    if any(dom in low for dom in FORBIDDEN_AFFILIATE_DOMAINS):
+        return False
+    if any(marker in low for marker in FORBIDDEN_AFFILIATE_URL_MARKERS):
+        return False
+    return True
+
+
+def _enforce_editorial_hubhum_urls(text: str, fallback_url: str) -> str:
+    """Replace any non-HubHum external URLs in Markdown or plain text with the canonical HubHum editorial URL."""
+    safe_fallback = fallback_url if _is_allowed_hubhum_url(fallback_url) else f"{SITE_URL_PREFIX}/"
+
+    def _replace_md_link(match: re.Match[str]) -> str:
+        label = match.group(1)
+        url = match.group(2).strip()
+        if _is_allowed_hubhum_url(url):
+            return match.group(0)
+        return f"[{label}]({safe_fallback})"
+
+    # First sanitize Markdown links [label](https://...)
+    sanitized = re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", _replace_md_link, text)
+
+    # Then sanitize any bare URLs remaining outside allowed HubHum editorial prefix
+    def _replace_bare_url(match: re.Match[str]) -> str:
+        url = match.group(0)
+        trailing = ""
+        while url and url[-1] in ".,;)>]\"'":
+            trailing = url[-1] + trailing
+            url = url[:-1]
+        if _is_allowed_hubhum_url(url):
+            return url + trailing
+        return safe_fallback + trailing
+
+    sanitized = re.sub(r"https?://[^\s\)\]>\"']+", _replace_bare_url, sanitized)
+    return sanitized
+
+
+def _assert_editorial_only_urls(payload_text: str, channel: str) -> list[str]:
+    """Verify every URL in an outbound channel payload belongs strictly to davanzokeoma.github.io/HubHum."""
+    urls = [m.group(0).rstrip(".,;)>]\"'") for m in re.finditer(r"https?://[^\s\)\]>\"']+", payload_text)]
+    violations = [u for u in urls if not _is_allowed_hubhum_url(u)]
+    if violations:
+        raise ValueError(
+            f"[ZERO-BAN GUARD] Blocked outbound {channel} payload containing non-HubHum or affiliate URL(s): {violations}"
+        )
+    return urls
 
 
 def _post_json(url: str, payload: dict[str, object], headers: dict[str, str] | None = None) -> tuple[int, dict[str, object]]:
@@ -76,39 +156,46 @@ def _score_monetization_intent(kind: str, slug: str, meta: dict[str, object]) ->
 
 
 def select_target_content(target_slug: str | None = None, content_filter: str = "high-intent") -> dict[str, object]:
-    """Load the highest-intent Bundle, Level-3 Comparison guide, or '/deals/' hub for canonical syndication."""
+    """Load the highest-intent Bundle, Level-3 Comparison guide, or '/deals/' hub for canonical syndication.
+
+    ZERO-BAN GUARANTEE: Outbound syndication payloads contain EXCLUSIVELY editorial URLs under
+    https://davanzokeoma.github.io/HubHum/... and NEVER raw direct affiliate URLs.
+    """
     if target_slug and target_slug.strip("/").lower() == "deals":
         canonical_url = f"{SITE_URL_PREFIX}/deals/"
-        title = "Black Friday & Cyber Monday 2026: Best Cloud VPS, Privacy & Creator Companion Deals for Open-Source Stacks"
+        cloud_guide_url = f"{SITE_URL_PREFIX}/guides/deals/best-self-hosted-ai-vps-deals-2026/"
+        privacy_guide_url = f"{SITE_URL_PREFIX}/guides/deals/best-free-privacy-vpn-adblock-stack-2026/"
+        creator_guide_url = f"{SITE_URL_PREFIX}/guides/deals/best-free-creator-tools-holiday-freebies-2026/"
+        title = "Black Friday & Cyber Monday 2026: Best Cloud VPS, Privacy & Creator Companion Guides for Open-Source Stacks"
         summary = (
             "Pair 100% free open-source apps (n8n, Open WebUI, Immich, KeePassXC, LosslessCut, Shotcut) "
-            "with verified $3/mo Linux VPS hosting, audited VPN/AdBlock protection, and $0 holiday design freebies."
+            "with curated self-hosted VPS benchmarks, privacy stack walkthroughs, and $0 holiday creator guides."
         )
-        hook = "Compare all 3 curated open-source companion stacks and $0 holiday freebies on HubHum Deals."
+        hook = "Compare all 3 curated open-source companion stacks and $0 holiday guides on HubHum."
         article_md = (
             f"{summary}\n\n"
-            f"> **Explore the live interactive Deals & Freebies Hub:** [{title}]({canonical_url})\n\n"
-            f"*Affiliate transparency (#ad): Some partner links below are affiliate links that help fund HubHum at no extra cost to you.*\n\n"
+            f"> **Explore the live interactive Deals & Guides Hub:** [{title}]({canonical_url})\n\n"
             f"## 1. Self-Hosted & Local AI Cloud Stack\n"
-            f"Stop paying $50–$150/month for closed SaaS tools. Run [n8n]({SITE_URL_PREFIX}/apps/n8n/), "
-            f"[Open WebUI]({SITE_URL_PREFIX}/apps/open-webui/), [Immich]({SITE_URL_PREFIX}/apps/immich/), and "
-            f"[Uptime Kuma]({SITE_URL_PREFIX}/apps/uptime-kuma/) 24/7 on your own Linux server:\n"
-            f"- **InterServer Linux Cloud VPS (#ad):** Price-locked KVM slices starting from $3/month with root SSH & Docker support → [Launch on InterServer VPS](https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008)\n"
-            f"- **GreenGeeks Eco SSD Hosting (#ad):** 300% green-energy managed hosting with free SSL & nightly backups → [Explore GreenGeeks](https://www.greengeeks.com/track/affiliatechproject/cp-ffltc/lp-1?subid=hubhum_01_MER063)\n"
-            f"- **Hosting.com Managed Linux VPS (#ad):** High-speed NVMe Turbo managed servers → [View Hosting.com Managed VPS](https://hosting.com/hosting/vps-hosting/managed/linux/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062)\n\n"
+            f"Run [n8n]({SITE_URL_PREFIX}/apps/n8n/), [Open WebUI]({SITE_URL_PREFIX}/apps/open-webui/), "
+            f"[Immich]({SITE_URL_PREFIX}/apps/immich/), and [Uptime Kuma]({SITE_URL_PREFIX}/apps/uptime-kuma/) "
+            f"24/7 on your own Linux server.\n"
+            f"- Read the full comparison guide: [Best Self-Hosted & Local AI VPS Deals 2026]({cloud_guide_url})\n"
+            f"- Browse the starter stack: [AI Local & Privacy Pack]({SITE_URL_PREFIX}/bundles/ai-local-privacy-pack/)\n\n"
             f"## 2. Privacy, Security & Ad-Free Stack\n"
             f"Lock down credentials and media workflows with [KeePassXC]({SITE_URL_PREFIX}/apps/keepassxc/), "
-            f"[VLC]({SITE_URL_PREFIX}/apps/vlc/), [HandBrake]({SITE_URL_PREFIX}/apps/handbrake/), and [yt-dlp]({SITE_URL_PREFIX}/apps/yt-dlp/):\n"
-            f"- **PureVPN (#ad):** Always-on audited no-log VPN with 20 Gbps WireGuard servers → [Claim PureVPN Black Friday Deal](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047)\n"
-            f"- **AdGuard (#ad):** System-wide ad, tracker & phishing blocker for desktop and mobile → [Protect Devices with AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119)\n\n"
+            f"[VLC]({SITE_URL_PREFIX}/apps/vlc/), [HandBrake]({SITE_URL_PREFIX}/apps/handbrake/), and [yt-dlp]({SITE_URL_PREFIX}/apps/yt-dlp/).\n"
+            f"- Read the full breakdown: [Best Free Privacy, VPN & AdBlock Stack 2026]({privacy_guide_url})\n"
+            f"- Browse the starter stack: [Privacy & Security Starter Pack]({SITE_URL_PREFIX}/bundles/privacy-security-starter-pack/)\n\n"
             f"## 3. Creator & Holiday Freebies Stack ($0 Friction)\n"
-            f"Pair [LosslessCut]({SITE_URL_PREFIX}/apps/losslesscut/), [Shotcut]({SITE_URL_PREFIX}/apps/shotcut/), and [Audacity]({SITE_URL_PREFIX}/apps/audacity/) with commercial-safe creative assets and free-forever publishing:\n"
-            f"- **Creative Fabrica All Access Yearly (#ad):** Millions of commercial-safe fonts & SVGs → [Unlock Yearly Promo](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054)\n"
-            f"- **Verified $0 Holiday Freebies (#ad):** [Lightning Script Font](https://www.creativefabrica.com/product/lightning-script/ref/29328369/?subid=hubhum_01_MER054) · [Christmas Tree PNG Bundle](https://www.creativefabrica.com/product/christmas-tree-bundle-holiday-png-design/ref/29328369/?subid=hubhum_01_MER054) · [Christmas Font](https://www.creativefabrica.com/product/christmas-font/ref/29328369/?subid=hubhum_01_MER054)\n"
-            f"- **Systeme.io Free Forever ($0/mo, #ad):** Landing pages, 2,000 email contacts & digital product checkout with zero credit card → [Create Free Account](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061)\n\n"
+            f"Pair [LosslessCut]({SITE_URL_PREFIX}/apps/losslesscut/), [Shotcut]({SITE_URL_PREFIX}/apps/shotcut/), "
+            f"and [Audacity]({SITE_URL_PREFIX}/apps/audacity/) with free open-source creative workflows.\n"
+            f"- Read the full roundup: [Best Free Creator Tools & Holiday Freebies 2026]({creator_guide_url})\n"
+            f"- Browse the starter stack: [Creator Video & Audio Studio Bundle]({SITE_URL_PREFIX}/bundles/creator-video-audio-studio-bundle/)\n\n"
             f"---\n"
-            f"*Full comparison tables & 1,750+ plain-English open-source app guides: [Open HubHum Deals Hub]({canonical_url}).*\n"
+            f"*Full comparison tables & 2,600+ plain-English open-source app guides: [Open HubHum Deals Hub]({canonical_url}).*\n"
         )
+        article_md = _enforce_editorial_hubhum_urls(article_md, canonical_url)
+        _assert_editorial_only_urls(article_md, "select_target_content(deals)")
         return {
             "kind": "deals",
             "slug": "deals",
@@ -174,9 +261,14 @@ def select_target_content(target_slug: str | None = None, content_filter: str = 
     slug = str(meta.get("slug") or "").strip("/")
     route_prefix = "guides" if kind == "guide" else "bundles"
     canonical_url = f"{SITE_URL_PREFIX}/{route_prefix}/{slug}/"
-    title = str(meta.get("title") or slug).strip()
-    summary = str(meta.get("summary") or f"Plain-English guide on HubHum: {title}").strip()
+    title = _enforce_editorial_hubhum_urls(str(meta.get("title") or slug).strip(), canonical_url)
+    summary = _enforce_editorial_hubhum_urls(
+        str(meta.get("summary") or f"Plain-English guide on HubHum: {title}").strip(),
+        canonical_url,
+    )
+    hook = _enforce_editorial_hubhum_urls(hook, canonical_url)
     clean_body = re.sub(r"^\s*#.*$", "", body, count=1, flags=re.MULTILINE).strip()
+    clean_body = _enforce_editorial_hubhum_urls(clean_body, canonical_url)
     article_md = (
         f"{summary}\n\n"
         f"> **Interactive Comparison & Direct Official Downloads:** [{title}]({canonical_url})\n"
@@ -185,6 +277,8 @@ def select_target_content(target_slug: str | None = None, content_filter: str = 
         f"---\n"
         f"*Canonical interactive directory & setup picks: [Open {title} on HubHum]({canonical_url}).*\n"
     )
+    article_md = _enforce_editorial_hubhum_urls(article_md, canonical_url)
+    _assert_editorial_only_urls(article_md, f"select_target_content({slug})")
     return {
         "kind": kind,
         "slug": slug,
@@ -199,20 +293,43 @@ def select_target_content(target_slug: str | None = None, content_filter: str = 
     }
 
 
+def _build_bluesky_post_text(post: dict[str, object]) -> tuple[str, list[dict[str, object]]]:
+    """Construct and validate a Bluesky post payload containing ONLY editorial HubHum URLs."""
+    url_str = str(post["canonical_url"]).strip()
+    if not _is_allowed_hubhum_url(url_str):
+        raise ValueError(f"[ZERO-BAN GUARD] Invalid non-HubHum canonical_url for Bluesky: {url_str}")
+    clean_title = _enforce_editorial_hubhum_urls(str(post["title"]), url_str)
+    clean_summary = _enforce_editorial_hubhum_urls(str(post["summary"]), url_str)
+    prefix_budget = max(40, 295 - len(url_str) - 2)
+    blurb = f"{clean_title} — {clean_summary}"[:prefix_budget].rstrip()
+    text = f"{blurb}\n{url_str}"[:298]
+    _assert_editorial_only_urls(text, "Bluesky")
+    facets = _build_bluesky_link_facets(text)
+    for facet in facets:
+        for feat in facet.get("features", []):  # type: ignore[union-attr]
+            uri = str(feat.get("uri") or "")  # type: ignore[union-attr]
+            if not _is_allowed_hubhum_url(uri):
+                raise ValueError(f"[ZERO-BAN GUARD] Blocked non-HubHum Bluesky facet URI: {uri}")
+    return text, facets
+
+
 def publish_devto(post: dict[str, object], dry_run: bool = False) -> str:
+    safe_body = _enforce_editorial_hubhum_urls(str(post["body_markdown"]), str(post["canonical_url"]))
+    _assert_editorial_only_urls(safe_body, "Dev.to")
+    _assert_editorial_only_urls(str(post["canonical_url"]), "Dev.to")
     api_key = os.getenv("DEVTO_API_KEY", "").strip()
     if not api_key:
         print("[DISTRIBUTE SKIP] Dev.to: DEVTO_API_KEY not configured (opt-in inactive)")
         return "skipped"
     if dry_run:
-        print(f"[DISTRIBUTE DRY-RUN] Dev.to: ready for canonical_url={post['canonical_url']}")
+        print(f"[DISTRIBUTE DRY-RUN] Dev.to: verified editorial-only payload for canonical_url={post['canonical_url']}")
         return "dry-run"
     publish_live = os.getenv("DEVTO_PUBLISH", "false").lower() == "true"
     payload = {
         "article": {
             "title": post["title"],
             "published": publish_live,
-            "body_markdown": post["body_markdown"],
+            "body_markdown": safe_body,
             "canonical_url": post["canonical_url"],
             "tags": post["tags"],
         }
@@ -228,6 +345,9 @@ def publish_devto(post: dict[str, object], dry_run: bool = False) -> str:
 
 
 def publish_hashnode(post: dict[str, object], dry_run: bool = False) -> str:
+    safe_body = _enforce_editorial_hubhum_urls(str(post["body_markdown"]), str(post["canonical_url"]))
+    _assert_editorial_only_urls(safe_body, "Hashnode")
+    _assert_editorial_only_urls(str(post["canonical_url"]), "Hashnode")
     if os.getenv("HASHNODE_ENABLE_PRO", "false").lower() != "true":
         print("[DISTRIBUTE SKIP] Hashnode: disabled by default (free GraphQL API retired 301; set HASHNODE_ENABLE_PRO=true for Pro)")
         return "skipped"
@@ -237,7 +357,7 @@ def publish_hashnode(post: dict[str, object], dry_run: bool = False) -> str:
         print("[DISTRIBUTE SKIP] Hashnode: HASHNODE_TOKEN or HASHNODE_PUB_ID not configured (opt-in inactive)")
         return "skipped"
     if dry_run:
-        print(f"[DISTRIBUTE DRY-RUN] Hashnode: ready for originalArticleURL={post['canonical_url']}")
+        print(f"[DISTRIBUTE DRY-RUN] Hashnode: verified editorial-only payload for originalArticleURL={post['canonical_url']}")
         return "dry-run"
     mutation = """
     mutation PublishPost($input: PublishPostInput!) {
@@ -251,7 +371,7 @@ def publish_hashnode(post: dict[str, object], dry_run: bool = False) -> str:
         "variables": {
             "input": {
                 "title": post["title"],
-                "contentMarkdown": post["body_markdown"],
+                "contentMarkdown": safe_body,
                 "publicationId": pub_id,
                 "originalArticleURL": post["canonical_url"],
                 "tags": [{"slug": str(t), "name": str(t)} for t in list(post["tags"])[:4]],  # type: ignore[arg-type]
@@ -270,21 +390,23 @@ def publish_hashnode(post: dict[str, object], dry_run: bool = False) -> str:
 
 
 def publish_mastodon(post: dict[str, object], dry_run: bool = False) -> str:
+    status_text = (
+        f"{post['title']}\n\n{post['summary']}\n\n{post['cta_hook']}\n"
+        f"{post['canonical_url']}\n#OpenSource #SelfHosted #FreeSoftware #HubHum"
+    )
+    status_text = _enforce_editorial_hubhum_urls(status_text, str(post["canonical_url"]))[:490]
+    _assert_editorial_only_urls(status_text, "Mastodon")
     instance = os.getenv("MASTODON_INSTANCE_URL", "").strip().rstrip("/")
     token = os.getenv("MASTODON_ACCESS_TOKEN", "").strip()
     if not instance or not token:
         print("[DISTRIBUTE SKIP] Mastodon: MASTODON_INSTANCE_URL or MASTODON_ACCESS_TOKEN not configured (opt-in inactive)")
         return "skipped"
     if dry_run:
-        print(f"[DISTRIBUTE DRY-RUN] Mastodon: ready for {instance} ({post['canonical_url']})")
+        print(f"[DISTRIBUTE DRY-RUN] Mastodon: verified editorial-only payload for {instance} ({post['canonical_url']})")
         return "dry-run"
-    status_text = (
-        f"{post['title']}\n\n{post['summary']}\n\n{post['cta_hook']}\n"
-        f"{post['canonical_url']}\n#OpenSource #SelfHosted #FreeSoftware #HubHum"
-    )
     status, resp_data = _post_json(
         f"{instance}/api/v1/statuses",
-        {"status": status_text[:490], "visibility": "public"},
+        {"status": status_text, "visibility": "public"},
         headers={"Authorization": f"Bearer {token}"},
     )
     live_url = str(resp_data.get("url") or resp_data.get("uri") or "")
@@ -309,13 +431,14 @@ def _build_bluesky_link_facets(text: str) -> list[dict[str, object]]:
 
 
 def publish_bluesky(post: dict[str, object], dry_run: bool = False) -> str:
+    text, facets = _build_bluesky_post_text(post)
     handle = os.getenv("BLUESKY_HANDLE", "").strip()
     app_pw = os.getenv("BLUESKY_APP_PASSWORD", "").strip()
     if not handle or not app_pw:
         print("[DISTRIBUTE SKIP] Bluesky: BLUESKY_HANDLE or BLUESKY_APP_PASSWORD not configured (opt-in inactive)")
         return "skipped"
     if dry_run:
-        print(f"[DISTRIBUTE DRY-RUN] Bluesky: ready for {handle} ({post['canonical_url']})")
+        print(f"[DISTRIBUTE DRY-RUN] Bluesky: verified editorial-only payload ({len(facets)} HubHum link) for {handle} ({post['canonical_url']})")
         return "dry-run"
     from datetime import datetime, timezone
 
@@ -325,11 +448,6 @@ def publish_bluesky(post: dict[str, object], dry_run: bool = False) -> str:
     )
     access_jwt = str(sess.get("accessJwt") or "")
     did = str(sess.get("did") or "")
-    url_str = str(post["canonical_url"])
-    prefix_budget = max(40, 295 - len(url_str) - 2)
-    blurb = f"{post['title']} — {post['summary']}"[:prefix_budget].rstrip()
-    text = f"{blurb}\n{url_str}"[:298]
-    facets = _build_bluesky_link_facets(text)
     record: dict[str, object] = {
         "$type": "app.bsky.feed.post",
         "text": text,
@@ -353,15 +471,17 @@ def publish_bluesky(post: dict[str, object], dry_run: bool = False) -> str:
 
 
 def publish_telegram(post: dict[str, object], dry_run: bool = False) -> str:
+    msg = f"{post['title']}\n\n{post['summary']}\n\n{post['cta_hook']}\n{post['canonical_url']}"
+    msg = _enforce_editorial_hubhum_urls(msg, str(post["canonical_url"]))
+    _assert_editorial_only_urls(msg, "Telegram")
     bot_token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
     if not bot_token or not chat_id:
         print("[DISTRIBUTE SKIP] Telegram: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not configured (opt-in inactive)")
         return "skipped"
     if dry_run:
-        print(f"[DISTRIBUTE DRY-RUN] Telegram: ready for chat target ({post['canonical_url']})")
+        print(f"[DISTRIBUTE DRY-RUN] Telegram: verified editorial-only payload for chat target ({post['canonical_url']})")
         return "dry-run"
-    msg = f"{post['title']}\n\n{post['summary']}\n\n{post['cta_hook']}\n{post['canonical_url']}"
     status, _ = _post_json(
         f"https://api.telegram.org/bot{bot_token}/sendMessage",
         {"chat_id": chat_id, "text": msg, "disable_web_page_preview": False},
