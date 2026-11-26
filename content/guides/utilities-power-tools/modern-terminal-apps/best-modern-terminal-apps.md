@@ -11,7 +11,7 @@ summary: "Compare Gemini CLI vs Scrapling and 8 free tools for Modern Terminal E
 parent_slug: "utilities-power-tools/modern-terminal-apps"
 child_slugs: []
 sibling_slugs: ["utilities-power-tools/modern-terminal-apps/how-to-choose-modern-terminal-apps", "utilities-power-tools/modern-terminal-apps/troubleshooting-modern-terminal-apps"]
-app_slugs: ["gemini-cli", "scrapling", "fzf", "imgui", "tabby", "ripgrep", "alacritty", "bat"]
+app_slugs: ["gemini-cli", "scrapling", "fzf", "imgui", "tabby", "ripgrep", "alacritty", "warp"]
 updated_at: "2026-11-26"
 ---
 
@@ -30,7 +30,7 @@ Comparing **Gemini CLI** and **Scrapling** highlights two distinct approaches in
 | [Tabby](/HubHum/apps/tabby/) | Desktop App | Windows, macOS, Linux | ★ 75,507 | Open Source (MIT) |
 | [ripgrep](/HubHum/apps/ripgrep/) | CLI Tool | Linux | ★ 70,085 | Public Domain / Free |
 | [Alacritty](/HubHum/apps/alacritty/) | Desktop App | Windows, macOS, Linux | ★ 66,236 | Open Source (Apache 2.0) |
-| [bat](/HubHum/apps/bat/) | CLI Tool | Linux | ★ 61,326 | Open Source (Apache 2.0) |
+| [Warp](/HubHum/apps/warp/) | CLI Tool | Windows, macOS, Linux | ★ 66,062 | Open Source (AGPL v3) |
 
 ### When to Pick Which Option
 - **Choose [Gemini CLI](/HubHum/apps/gemini-cli/) (CLI Tool)** if you need what it specializes in: An intelligent command-line tool that lets you query codebases, automate tasks, and chat with AI directly from your computer terminal — it works in **CLI Tool** mode (Windows, macOS, Linux) (108,947 GitHub stars, vs Scrapling which runs as a CLI Tool).

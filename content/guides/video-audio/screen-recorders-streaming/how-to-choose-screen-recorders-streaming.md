@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Screen Recorders, Streaming & 
 parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/troubleshooting-screen-recorders-streaming"]
-app_slugs: ["ijkplayer", "animeko", "gsyvideoplayer", "kap", "ani-cli", "streamlink"]
+app_slugs: ["smarttube", "animeko", "kap", "ani-cli", "streamlink", "hghub"]
 updated_at: "2026-11-26"
 ---
 
@@ -25,9 +25,9 @@ Switching to free open-source tools in **Screen Recorders, Streaming & Media Pla
 
 ### Great Starting Points in Screen Recorders, Streaming & Media Players
 
-- **[ijkplayer](/HubHum/apps/ijkplayer/)** (Desktop App) — Smoothly play online and local videos on mobile devices with hardware acceleration and robust format support.
+- **[SmartTube](/HubHum/apps/smarttube/)** (Desktop App) — Enjoy seamless video streaming on your Android TV with custom speed controls, ad skipping, and a clean interface.
 - **[Animeko](/HubHum/apps/animeko/)** (Desktop App) — Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments.
-- **[GSYVideoPlayer](/HubHum/apps/gsyvideoplayer/)** (Desktop App) — An advanced video playback toolkit for mobile devices supporting multiple video engines, caching, and custom visual filters.
 - **[Kap](/HubHum/apps/kap/)** (Desktop App) — An open-source screen recorder for macOS that lets you capture your desktop with ease using a clean interface.
 - **[ani-cli](/HubHum/apps/ani-cli/)** (CLI Tool) — A simple tool that lets you search for and stream your favorite anime directly from your computer terminal.
 - **[Streamlink](/HubHum/apps/streamlink/)** (Desktop App) — Streamlink lets you watch live video content directly in your favorite media player instead of using resource-heavy web browsers.
+- **[HGhub](/HubHum/apps/hghub/)** (Desktop App) — HGhub is a flexible media player that lets you organize and watch content from various sources in one unified, easy-to-use interface.

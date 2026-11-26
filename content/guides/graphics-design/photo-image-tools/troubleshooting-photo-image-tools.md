@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "graphics-design/photo-image-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/how-to-choose-photo-image-tools"]
-app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad"]
+app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "easydict"]
 updated_at: "2026-11-26"
 ---
 
@@ -34,4 +34,4 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 - **[flameshot](/HubHum/apps/flameshot/)** (Desktop App) — Capture your screen instantly, highlight key details with built-in drawing tools, and share your images effortlessly.
 - **[svgo](/HubHum/apps/svgo/)** (Desktop App) — Automatically clean up and shrink SVG graphic files to speed up web pages and apps.
 - **[ImageToolbox](/HubHum/apps/imagetoolbox/)** (Desktop App) — ImageToolbox is an all-in-one photo editor that lets you crop, filter, erase backgrounds, and edit pictures directly on your phone.
-- **[OpenSCAD](/HubHum/apps/openscad/)** (Desktop App) — OpenSCAD is a specialized tool for designing precise 3D objects by writing descriptive instructions instead of drawing them by hand.
+- **[Easydict](/HubHum/apps/easydict/)** (Desktop App) — Easydict is a concise and elegant dictionary and translation application for macOS that lets you look up words and translate text instantly using multiple online services.

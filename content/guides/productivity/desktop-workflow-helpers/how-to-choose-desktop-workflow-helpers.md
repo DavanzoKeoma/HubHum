@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Window Switchers & Everyday Wo
 parent_slug: "productivity/desktop-workflow-helpers"
 child_slugs: []
 sibling_slugs: ["productivity/desktop-workflow-helpers/best-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"]
-app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "rustdesk", "orca"]
+app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "orca", "node"]
 updated_at: "2026-11-26"
 ---
 
@@ -29,5 +29,5 @@ Switching to free open-source tools in **Window Switchers & Everyday Workflow He
 - **[Clash Verge Rev](/HubHum/apps/clash-verge-rev/)** (Desktop App) — Manage network proxy rules and server connections easily with a clean, lightweight desktop application for Windows, macOS, and Linux.
 - **[CC Switch](/HubHum/apps/cc-switch/)** (Desktop App) — Switch between different AI service providers with a single click and organize your prompts, plugins, and helper tools in one unified dashboard.
 - **[PowerToys](/HubHum/apps/powertoys/)** (Desktop App) — PowerToys adds a set of small programs that let you tweak Windows, speed up everyday actions, and personalize your computer experience.
-- **[RustDesk](/HubHum/apps/rustdesk/)** (Desktop App) — Connect to your computers remotely with total data privacy and full control over your own secure hosting servers.
 - **[orca](/HubHum/apps/orca/)** (Desktop App) — Orca lets you run multiple AI coding assistants at the same time, giving each helper its own dedicated workspace so they never interfere with each other.
+- **[node](/HubHum/apps/node/)** (Desktop App) — Run your JavaScript code anywhere with a reliable platform that powers web servers and network utilities seamlessly.

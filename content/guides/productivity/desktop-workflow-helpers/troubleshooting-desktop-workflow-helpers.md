@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/desktop-workflow-helpers"
 child_slugs: []
 sibling_slugs: ["productivity/desktop-workflow-helpers/best-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers"]
-app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "rustdesk"]
+app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "orca"]
 updated_at: "2026-11-26"
 ---
 
@@ -34,4 +34,4 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 - **[Clash Verge Rev](/HubHum/apps/clash-verge-rev/)** (Desktop App) — Manage network proxy rules and server connections easily with a clean, lightweight desktop application for Windows, macOS, and Linux.
 - **[CC Switch](/HubHum/apps/cc-switch/)** (Desktop App) — Switch between different AI service providers with a single click and organize your prompts, plugins, and helper tools in one unified dashboard.
 - **[PowerToys](/HubHum/apps/powertoys/)** (Desktop App) — PowerToys adds a set of small programs that let you tweak Windows, speed up everyday actions, and personalize your computer experience.
-- **[RustDesk](/HubHum/apps/rustdesk/)** (Desktop App) — Connect to your computers remotely with total data privacy and full control over your own secure hosting servers.
+- **[orca](/HubHum/apps/orca/)** (Desktop App) — Orca lets you run multiple AI coding assistants at the same time, giving each helper its own dedicated workspace so they never interfere with each other.

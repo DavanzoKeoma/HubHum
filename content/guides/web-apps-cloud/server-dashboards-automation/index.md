@@ -11,13 +11,13 @@ summary: "Visual cloud panels that replace complex commands with one clean brows
 parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"]
 sibling_slugs: []
-app_slugs: ["dify", "uptime-kuma", "coolify", "serviette", "new-api", "clickhouse", "jeecgboot", "appsmith", "tooljet", "dokploy", "khoj", "casaos", "langfuse", "changedetection-io", "glances", "homepage", "meetily", "signoz"]
+app_slugs: ["dify", "uptime-kuma", "coolify", "serviette", "new-api", "clickhouse", "jeecgboot", "jan", "appsmith", "tooljet", "dokploy", "qwenpaw", "casaos", "langfuse", "glances", "homepage", "signoz", "analytics"]
 updated_at: "2026-11-26"
 ---
 
 ## Plain-English Overview: Server Dashboards, Monitoring & Cloud Panels
 
-This topic hub groups **197 vetted free tools** specializing in **Server Dashboards, Monitoring & Cloud Panels** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **189 vetted free tools** specializing in **Server Dashboards, Monitoring & Cloud Panels** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -31,8 +31,8 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[New API](/HubHum/apps/new-api/)** — Easily connect, manage, and monitor multiple artificial intelligence services through a single compatible control panel with built-in cost tracking. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
 - **[ClickHouse](/HubHum/apps/clickhouse/)** — ClickHouse is a powerful analytics system that helps you sort and examine massive amounts of data in real time. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
 - **[JeecgBoot](/HubHum/apps/jeecgboot/)** — JeecgBoot is a free, open-source platform that combines smart artificial intelligence with low-code tools to build business software. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
+- **[Jan](/HubHum/apps/jan/)** — Jan is an open-source alternative to online smart assistants that runs completely offline on your own personal computer. *(Self-Hosted Web App · License: Custom Open License)*
 - **[Appsmith](/HubHum/apps/appsmith/)** — Create custom internal tools, admin panels, and dashboards visually while connecting to your databases and web services. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
 - **[ToolJet](/HubHum/apps/tooljet/)** — Create powerful internal apps, dashboards, and operational tools using a visual builder or simple text prompts. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
 - **[Dokploy](/HubHum/apps/dokploy/)** — An open tool that lets you host websites, software, and databases on your own private server with simple controls. *(Self-Hosted Web App · License: Custom Open License)*
-- **[Khoj](/HubHum/apps/khoj/)** — Transform your daily workflow with an open-source AI assistant that chats with your personal documents, browses the web, and automates research. *(Self-Hosted Web App · License: Open Source (AGPL v3))*
-- **[CasaOS](/HubHum/apps/casaos/)** — CasaOS turns any computer into a simple, personal data center for managing your files and smart home devices with ease. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*
+- **[QwenPaw](/HubHum/apps/qwenpaw/)** — Manage chats, automate tasks, and connect across multiple messaging apps using your own private artificial intelligence assistant. *(Self-Hosted Web App · License: Open Source (Apache 2.0))*

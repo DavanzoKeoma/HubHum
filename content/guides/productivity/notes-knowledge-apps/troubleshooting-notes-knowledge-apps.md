@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps"]
-app_slugs: ["awesome", "react-native", "marktext", "motrix", "joplin"]
+app_slugs: ["awesome", "free-programming-books-zh-cn", "marktext", "drawio-desktop", "joplin"]
 updated_at: "2026-11-26"
 ---
 
@@ -31,7 +31,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 ### Recommended Alternatives Covered
 
 - **[Awesome](/HubHum/apps/awesome/)** (Open Reference) — Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.
-- **[React Native](/HubHum/apps/react-native/)** (Desktop App) — Create genuine mobile applications for Android and iOS using familiar coding languages and components.
+- **[Free Programming Books Chinese](/HubHum/apps/free-programming-books-zh-cn/)** (Desktop App) — Explore a massive, community-curated library of free programming books, tutorials, and development guides entirely in Chinese.
 - **[MarkText](/HubHum/apps/marktext/)** (Desktop App) — MarkText is a clean, modern tool for writing notes and documents using simple formatting that stays out of your way while you work.
-- **[Motrix](/HubHum/apps/motrix/)** (Desktop App) — Motrix is a modern, clean download manager that handles regular files, torrents, and magnet links with ease across multiple operating systems.
+- **[drawio-desktop](/HubHum/apps/drawio-desktop/)** (Desktop App) — Design flowcharts, network maps, and wireframes securely on your desktop without sharing data online.
 - **[Joplin](/HubHum/apps/joplin/)** (Desktop App) — Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.

@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/how-to-choose-audio-media-players"]
-app_slugs: ["scrcpy", "spotube", "iina", "pear-desktop", "yesplaymusic"]
+app_slugs: ["spotube", "iina", "pear-desktop", "yesplaymusic", "navidrome"]
 updated_at: "2026-11-26"
 ---
 
@@ -30,8 +30,8 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 ### Recommended Alternatives Covered
 
-- **[scrcpy](/HubHum/apps/scrcpy/)** (Desktop App) — Display and control your Android phone or tablet directly from your computer monitor without needing any extra apps.
 - **[Spotube](/HubHum/apps/spotube/)** (Desktop App) — Spotube lets you listen to music from many sources, keep your own playlists, and enjoy lyrics without any tracking.
 - **[iina](/HubHum/apps/iina/)** (Desktop App) — Enjoy seamless video and music playback on macOS with a gorgeous, customizable media player built specifically for Apple computers.
 - **[Pear Desktop](/HubHum/apps/pear-desktop/)** (Desktop App) — Pear Desktop provides a dedicated, native music player experience with custom themes and powerful plugin support for your computer.
 - **[YesPlayMusic](/HubHum/apps/yesplaymusic/)** (Desktop App) — Enjoy a clean, high-design music player for your favorite tracks with zero distracting social clutter.
+- **[Navidrome](/HubHum/apps/navidrome/)** (Self-Hosted Web App) — Turn your computer into a personal streaming server to enjoy your entire music collection from any browser or mobile device.

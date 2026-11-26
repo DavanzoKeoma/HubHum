@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what 3D Modeling & Visual Interface
 parent_slug: "graphics-design/3d-visual-design-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/3d-visual-design-tools/best-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "react-native-elements", "slint", "best-flutter-ui-templates", "easydict"]
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "material-design-icons", "lottie-android", "react-native-elements", "slint"]
 updated_at: "2026-11-26"
 ---
 
@@ -27,7 +27,7 @@ Switching to free open-source tools in **3D Modeling & Visual Interface Studios*
 
 - **[UI UX Pro Max Skill](/HubHum/apps/ui-ux-pro-max-skill/)** (Open Reference) — An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning.
 - **[open-design](/HubHum/apps/open-design/)** (Desktop App) — Create websites, prototypes, motion graphics, and presentations with your team and coding agents in one open workspace.
+- **[material-design-icons](/HubHum/apps/material-design-icons/)** (Open Reference) — Access thousands of official Google graphic icons and variable symbols to elevate your digital designs and user interfaces.
+- **[Lottie for Android](/HubHum/apps/lottie-android/)** (Desktop App) — Lottie lets designers turn animated designs into tiny files that run smoothly on Android phones, without extra work from developers.
 - **[React Native Elements](/HubHum/apps/react-native-elements/)** (Desktop App) — A complete set of ready-to-use visual building blocks designed to help you craft mobile applications for multiple devices effortlessly.
 - **[slint](/HubHum/apps/slint/)** (CLI Tool) — Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup.
-- **[Best-Flutter-UI-Templates](/HubHum/apps/best-flutter-ui-templates/)** (Desktop App) — This collection provides high-quality, ready-to-use visual designs for mobile applications.
-- **[Easydict](/HubHum/apps/easydict/)** (Desktop App) — Easydict is a concise and elegant dictionary and translation application for macOS that lets you look up words and translate text instantly using multiple online services.

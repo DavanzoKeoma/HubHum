@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Password Managers & Auth Vault
 parent_slug: "security-privacy/free-password-managers"
 child_slugs: []
 sibling_slugs: ["security-privacy/free-password-managers/best-free-password-managers", "security-privacy/free-password-managers/troubleshooting-free-password-managers"]
-app_slugs: ["gitleaks", "keepassxc", "hackbrowserdata", "clients", "pocket-id", "get-subscribe"]
+app_slugs: ["gitleaks", "ente", "keepassxc", "metube", "hackbrowserdata", "clients"]
 updated_at: "2026-11-26"
 ---
 
@@ -26,8 +26,8 @@ Switching to free open-source tools in **Password Managers & Auth Vaults** lets 
 ### Great Starting Points in Password Managers & Auth Vaults
 
 - **[Gitleaks](/HubHum/apps/gitleaks/)** (CLI Tool) — Scan your code repositories and directories to find accidentally exposed passwords, API keys, and sensitive tokens before they leak.
+- **[ente](/HubHum/apps/ente/)** (Desktop App) — Store your photos, passwords, and documents in a fully encrypted cloud that keeps your personal data private and secure.
 - **[KeePassXC](/HubHum/apps/keepassxc/)** (Desktop App) — Store all your logins, PINs, and recovery codes in an encrypted local vault on your device with zero monthly fees.
+- **[metube](/HubHum/apps/metube/)** (Self-Hosted Web App) — MeTube is a free, self-hosted web interface that lets you download videos, audio, and subtitles from YouTube and hundreds of other sites directly to your server.
 - **[HackBrowserData](/HubHum/apps/hackbrowserdata/)** (Desktop App) — This tool helps you securely extract and view saved passwords, history, and cookies from various web browsers on your computer.
 - **[Bitwarden](/HubHum/apps/clients/)** (Desktop App) — Bitwarden is a secure digital vault that remembers your passwords and sensitive information across all your devices.
-- **[Pocket ID](/HubHum/apps/pocket-id/)** (Self-Hosted Web App) — Pocket ID provides a secure and easy way to manage user logins for your applications using modern passkey technology instead of passwords.
-- **[Get Subscribe](/HubHum/apps/get-subscribe/)** (Desktop App) — Automatically gathers and updates free network subscription links for common internet configuration formats, helping users find working connections for testing.

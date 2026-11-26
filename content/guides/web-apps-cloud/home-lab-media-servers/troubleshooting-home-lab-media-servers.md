@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "web-apps-cloud/home-lab-media-servers"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers"]
-app_slugs: ["open-webui", "appwrite", "gogs", "jan", "qwenpaw"]
+app_slugs: ["open-webui", "appwrite", "gogs", "easyspider", "filament"]
 updated_at: "2026-11-26"
 ---
 
@@ -33,5 +33,5 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 - **[Open WebUI](/HubHum/apps/open-webui/)** (Self-Hosted Web App) — Run smart artificial intelligence models completely offline or connect to cloud services with a friendly, feature-packed web control panel.
 - **[Appwrite](/HubHum/apps/appwrite/)** (Self-Hosted Web App) — An open-source cloud backend that gives you secure user login, databases, file storage, and serverless functions in one unified place.
 - **[Gogs](/HubHum/apps/gogs/)** (Self-Hosted Web App) — Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle.
-- **[Jan](/HubHum/apps/jan/)** (Self-Hosted Web App) — Jan is an open-source alternative to online smart assistants that runs completely offline on your own personal computer.
-- **[QwenPaw](/HubHum/apps/qwenpaw/)** (Self-Hosted Web App) — Manage chats, automate tasks, and connect across multiple messaging apps using your own private artificial intelligence assistant.
+- **[EasySpider](/HubHum/apps/easyspider/)** (Self-Hosted Web App) — Extract public information from websites visually without writing any code. Automate repetitive browser tasks and save structured data instantly.
+- **[Filament](/HubHum/apps/filament/)** (Self-Hosted Web App) — Filament provides a set of ready-to-use tools that help developers create polished, functional business software with less effort.

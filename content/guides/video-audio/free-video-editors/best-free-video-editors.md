@@ -29,7 +29,7 @@ Comparing **yt-dlp** and **LosslessCut** highlights two distinct approaches in *
 | [HandBrake](/HubHum/apps/handbrake/) | Desktop App | Windows, macOS, Linux | ★ 25,054 | Custom Open License |
 | [Concat](/HubHum/apps/concat/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 19,264 | Open Source (AGPL v3) |
 | [Shotcut](/HubHum/apps/shotcut/) | Desktop App | Windows, macOS, Linux | ★ 15,750 | Open Source (GPL v3) |
-| [Metrolist](/HubHum/apps/metrolist/) | Desktop App | Windows, macOS, Linux, Android, iOS | ★ 14,932 | Open Source (GPL v3) |
+| [Metrolist](/HubHum/apps/metrolist/) | Desktop App | Windows, macOS, Linux, iOS | ★ 14,932 | Open Source (GPL v3) |
 | [Palmier Pro](/HubHum/apps/palmier-pro/) | Desktop App | macOS | ★ 14,800 | Open Source (GPL v3) |
 
 ### When to Pick Which Option

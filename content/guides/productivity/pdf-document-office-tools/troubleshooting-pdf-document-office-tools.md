@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools"]
-app_slugs: ["microsoft-activation-scripts", "node", "drawio-desktop", "open-source-ios-apps", "files"]
+app_slugs: ["microsoft-activation-scripts", "scrcpy", "react-native", "last30days-skill", "pake"]
 updated_at: "2026-11-26"
 ---
 
@@ -31,7 +31,7 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 ### Recommended Alternatives Covered
 
 - **[Microsoft-Activation-Scripts](/HubHum/apps/microsoft-activation-scripts/)** (Desktop App) — Activate Windows and Office operating systems easily using trusted open-source scripts and automated methods.
-- **[node](/HubHum/apps/node/)** (Desktop App) — Run your JavaScript code anywhere with a reliable platform that powers web servers and network utilities seamlessly.
-- **[drawio-desktop](/HubHum/apps/drawio-desktop/)** (Desktop App) — Design flowcharts, network maps, and wireframes securely on your desktop without sharing data online.
-- **[Open-Source iOS Apps](/HubHum/apps/open-source-ios-apps/)** (Desktop App) — Explore a curated, collaborative collection of thousands of open-source applications built for iPhone, iPad, Apple Watch, and Apple TV.
-- **[Files](/HubHum/apps/files/)** (Desktop App) — Files is a free, open-source file manager that makes organizing your documents and photos on Windows simple and fast.
+- **[scrcpy](/HubHum/apps/scrcpy/)** (Desktop App) — Display and control your Android phone or tablet directly from your computer monitor without needing any extra apps.
+- **[React Native](/HubHum/apps/react-native/)** (Desktop App) — Create genuine mobile applications for Android and iOS using familiar coding languages and components.
+- **[Last30Days Research Skill](/HubHum/apps/last30days-skill/)** (Desktop App) — An AI research assistant that scans Reddit, social networks, and live prediction markets to synthesize what people are truly discussing.
+- **[Pake](/HubHum/apps/pake/)** (Desktop App) — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.

@@ -11,7 +11,7 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming"]
-app_slugs: ["ijkplayer", "animeko", "gsyvideoplayer", "kap", "ani-cli"]
+app_slugs: ["smarttube", "animeko", "kap", "ani-cli", "streamlink"]
 updated_at: "2026-11-26"
 ---
 
@@ -30,8 +30,8 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 ### Recommended Alternatives Covered
 
-- **[ijkplayer](/HubHum/apps/ijkplayer/)** (Desktop App) — Smoothly play online and local videos on mobile devices with hardware acceleration and robust format support.
+- **[SmartTube](/HubHum/apps/smarttube/)** (Desktop App) — Enjoy seamless video streaming on your Android TV with custom speed controls, ad skipping, and a clean interface.
 - **[Animeko](/HubHum/apps/animeko/)** (Desktop App) — Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments.
-- **[GSYVideoPlayer](/HubHum/apps/gsyvideoplayer/)** (Desktop App) — An advanced video playback toolkit for mobile devices supporting multiple video engines, caching, and custom visual filters.
 - **[Kap](/HubHum/apps/kap/)** (Desktop App) — An open-source screen recorder for macOS that lets you capture your desktop with ease using a clean interface.
 - **[ani-cli](/HubHum/apps/ani-cli/)** (CLI Tool) — A simple tool that lets you search for and stream your favorite anime directly from your computer terminal.
+- **[Streamlink](/HubHum/apps/streamlink/)** (Desktop App) — Streamlink lets you watch live video content directly in your favorite media player instead of using resource-heavy web browsers.

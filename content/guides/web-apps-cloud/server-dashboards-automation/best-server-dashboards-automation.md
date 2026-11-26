@@ -11,7 +11,7 @@ summary: "Compare dify vs Uptime Kuma and 8 free tools for Server Dashboards, Mo
 parent_slug: "web-apps-cloud/server-dashboards-automation"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"]
-app_slugs: ["dify", "uptime-kuma", "coolify", "serviette", "new-api", "clickhouse", "jeecgboot", "appsmith"]
+app_slugs: ["dify", "uptime-kuma", "coolify", "serviette", "new-api", "clickhouse", "jeecgboot", "jan"]
 updated_at: "2026-11-26"
 ---
 
@@ -30,7 +30,7 @@ Comparing **dify** and **Uptime Kuma** highlights two distinct approaches in **S
 | [New API](/HubHum/apps/new-api/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 52,261 | Open Source (AGPL v3) |
 | [ClickHouse](/HubHum/apps/clickhouse/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 51,033 | Open Source (Apache 2.0) |
 | [JeecgBoot](/HubHum/apps/jeecgboot/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 48,539 | Open Source (Apache 2.0) |
-| [Appsmith](/HubHum/apps/appsmith/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 41,281 | Open Source (Apache 2.0) |
+| [Jan](/HubHum/apps/jan/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 45,908 | Custom Open License |
 
 ### When to Pick Which Option
 - **Choose [dify](/HubHum/apps/dify/) (Self-Hosted Web App)** if you need what it specializes in: Create custom artificial intelligence workflows, smart assistants, and document search pipelines easily on one collaborative workspace — it runs on your own private server or local computer so files stay under your control (161,552 GitHub stars, vs Uptime Kuma which runs as a Self-Hosted Web App).

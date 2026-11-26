@@ -11,7 +11,7 @@ summary: "Beginner-friendly guide explaining what Home Lab Media Servers, E-Book
 parent_slug: "web-apps-cloud/home-lab-media-servers"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"]
-app_slugs: ["open-webui", "appwrite", "gogs", "jan", "qwenpaw", "self-hosting-guide"]
+app_slugs: ["open-webui", "appwrite", "gogs", "easyspider", "filament", "proxmoxve"]
 updated_at: "2026-11-26"
 ---
 
@@ -28,6 +28,6 @@ Switching to free open-source tools in **Home Lab Media Servers, E-Books & Strea
 - **[Open WebUI](/HubHum/apps/open-webui/)** (Self-Hosted Web App) — Run smart artificial intelligence models completely offline or connect to cloud services with a friendly, feature-packed web control panel.
 - **[Appwrite](/HubHum/apps/appwrite/)** (Self-Hosted Web App) — An open-source cloud backend that gives you secure user login, databases, file storage, and serverless functions in one unified place.
 - **[Gogs](/HubHum/apps/gogs/)** (Self-Hosted Web App) — Gogs is a lightweight, self-hosted service for managing your programming code securely on your own private infrastructure without hassle.
-- **[Jan](/HubHum/apps/jan/)** (Self-Hosted Web App) — Jan is an open-source alternative to online smart assistants that runs completely offline on your own personal computer.
-- **[QwenPaw](/HubHum/apps/qwenpaw/)** (Self-Hosted Web App) — Manage chats, automate tasks, and connect across multiple messaging apps using your own private artificial intelligence assistant.
-- **[Self-Hosting-Guide](/HubHum/apps/self-hosting-guide/)** (Open Reference) — Learn how to locally host and manage your own software applications and private web servers instead of paying for costly monthly subscriptions.
+- **[EasySpider](/HubHum/apps/easyspider/)** (Self-Hosted Web App) — Extract public information from websites visually without writing any code. Automate repetitive browser tasks and save structured data instantly.
+- **[Filament](/HubHum/apps/filament/)** (Self-Hosted Web App) — Filament provides a set of ready-to-use tools that help developers create polished, functional business software with less effort.
+- **[ProxmoxVE](/HubHum/apps/proxmoxve/)** (Self-Hosted Web App) — This tool provides simple, one-command shortcuts to install hundreds of different services on your home server system.

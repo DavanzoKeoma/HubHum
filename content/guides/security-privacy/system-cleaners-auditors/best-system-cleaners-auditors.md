@@ -11,7 +11,7 @@ summary: "Compare Mole vs PentAGI and 8 free tools for Privacy Cleaners & System
 parent_slug: "security-privacy/system-cleaners-auditors"
 child_slugs: []
 sibling_slugs: ["security-privacy/system-cleaners-auditors/how-to-choose-system-cleaners-auditors", "security-privacy/system-cleaners-auditors/troubleshooting-system-cleaners-auditors"]
-app_slugs: ["mole", "pentagi", "termix", "metube", "winhance", "sophia-script-for-windows", "shadowrocket-rules", "sophiapp"]
+app_slugs: ["mole", "pentagi", "termix", "winhance", "sophia-script-for-windows", "cloud-torrent", "shadowrocket-rules", "sophiapp"]
 updated_at: "2026-11-26"
 ---
 
@@ -26,9 +26,9 @@ Comparing **Mole** and **PentAGI** highlights two distinct approaches in **Priva
 | [Mole](/HubHum/apps/mole/) | Desktop App | Windows, macOS | ★ 75,661 | Open Source (GPL v3) |
 | [PentAGI](/HubHum/apps/pentagi/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 34,653 | Open Source (MIT) |
 | [Termix](/HubHum/apps/termix/) | Desktop App | Windows, macOS, Linux | ★ 16,079 | Open Source (Apache 2.0) |
-| [metube](/HubHum/apps/metube/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 15,321 | Open Source (AGPL v3) |
 | [Winhance](/HubHum/apps/winhance/) | Desktop App | Windows | ★ 15,036 | Custom Open License |
 | [Sophia Script for Windows](/HubHum/apps/sophia-script-for-windows/) | Desktop App | Windows | ★ 9,971 | Open Source (MIT) |
+| [Cloud Torrent](/HubHum/apps/cloud-torrent/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 6,249 | Custom Open License |
 | [shadowrocket-rules](/HubHum/apps/shadowrocket-rules/) | Desktop App | iOS | ★ 5,842 | Open Source (GPL v3) |
 | [SophiApp](/HubHum/apps/sophiapp/) | Desktop App | Windows | ★ 5,257 | Open Source (MIT) |
 

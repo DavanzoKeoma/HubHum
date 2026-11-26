@@ -11,13 +11,13 @@ summary: "Compare video trimming, file conversion, subtitling, and media downloa
 parent_slug: "video-audio"
 child_slugs: ["video-audio/free-video-editors/best-free-video-editors", "video-audio/free-video-editors/how-to-choose-free-video-editors", "video-audio/free-video-editors/troubleshooting-free-video-editors"]
 sibling_slugs: []
-app_slugs: ["yt-dlp", "losslesscut", "recordly", "handbrake", "concat", "shotcut", "metrolist", "palmier-pro", "simpmusic", "youtube-dl-gui", "bili23-downloader", "olive", "openchatcut", "translate-subtitle-file", "bilibili-video-downloader", "gifcurry", "bilibililiverecorddownloader", "screenarc"]
+app_slugs: ["yt-dlp", "losslesscut", "recordly", "handbrake", "concat", "shotcut", "metrolist", "palmier-pro", "simpmusic", "youtube-dl-gui", "bili23-downloader", "olive", "ypimagepicker", "openchatcut", "translate-subtitle-file", "bilibili-video-downloader", "gifcurry", "subtitle-translator"]
 updated_at: "2026-11-26"
 ---
 
 ## Plain-English Overview: Video Cutters, Converters & Downloaders
 
-This topic hub groups **20 vetted free tools** specializing in **Video Cutters, Converters & Downloaders** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **24 vetted free tools** specializing in **Video Cutters, Converters & Downloaders** inside **Video & Audio**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

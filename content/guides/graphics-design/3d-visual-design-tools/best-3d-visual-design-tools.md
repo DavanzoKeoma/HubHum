@@ -11,7 +11,7 @@ summary: "Compare UI UX Pro Max Skill vs open-design and 8 free tools for 3D Mod
 parent_slug: "graphics-design/3d-visual-design-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/3d-visual-design-tools/how-to-choose-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "react-native-elements", "slint", "best-flutter-ui-templates", "easydict", "customtkinter", "lipgloss"]
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "material-design-icons", "lottie-android", "react-native-elements", "slint", "best-flutter-ui-templates", "nativebase"]
 updated_at: "2026-11-26"
 ---
 
@@ -25,12 +25,12 @@ Comparing **UI UX Pro Max Skill** and **open-design** highlights two distinct ap
 | --- | --- | --- | --- | --- |
 | [UI UX Pro Max Skill](/HubHum/apps/ui-ux-pro-max-skill/) | Open Reference | All / Reference | ★ 151,922 | Open Source (MIT) |
 | [open-design](/HubHum/apps/open-design/) | Desktop App | Windows, macOS | ★ 108,776 | Open Source (Apache 2.0) |
+| [material-design-icons](/HubHum/apps/material-design-icons/) | Open Reference | All / Reference | ★ 54,357 | Open Source (Apache 2.0) |
+| [Lottie for Android](/HubHum/apps/lottie-android/) | Desktop App | Android | ★ 35,782 | Open Source (Apache 2.0) |
 | [React Native Elements](/HubHum/apps/react-native-elements/) | Desktop App | iOS | ★ 25,869 | Open Source (MIT) |
 | [slint](/HubHum/apps/slint/) | CLI Tool | Windows | ★ 24,653 | Custom Open License |
 | [Best-Flutter-UI-Templates](/HubHum/apps/best-flutter-ui-templates/) | Desktop App | Windows, macOS, Linux | ★ 22,871 | Custom Open License |
-| [Easydict](/HubHum/apps/easydict/) | Desktop App | macOS | ★ 15,401 | Open Source (GPL v3) |
-| [CustomTkinter](/HubHum/apps/customtkinter/) | CLI Tool | Windows, macOS | ★ 13,619 | Open Source (MIT) |
-| [Lip Gloss](/HubHum/apps/lipgloss/) | Desktop App | Windows, macOS, Linux | ★ 12,034 | Open Source (MIT) |
+| [NativeBase](/HubHum/apps/nativebase/) | Desktop App | iOS | ★ 20,364 | Open Source (MIT) |
 
 ### When to Pick Which Option
 - **Choose [UI UX Pro Max Skill](/HubHum/apps/ui-ux-pro-max-skill/) (Open Reference)** if you need what it specializes in: An intelligent assistant skill that analyzes project requirements and generates complete, tailored design systems with industry-specific reasoning — it works in **Open Reference** mode (All / Reference) (151,922 GitHub stars, vs open-design which runs as a Desktop App).

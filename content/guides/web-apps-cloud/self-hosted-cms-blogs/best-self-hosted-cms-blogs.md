@@ -11,7 +11,7 @@ summary: "Compare System Design Primer vs Hugo and 8 free tools for Self-Hosted 
 parent_slug: "web-apps-cloud/self-hosted-cms-blogs"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/troubleshooting-self-hosted-cms-blogs"]
-app_slugs: ["system-design-primer", "hugo", "netdata", "strapi", "gatsby", "ghost", "huginn", "easyspider"]
+app_slugs: ["system-design-primer", "hugo", "netdata", "strapi", "gatsby", "ghost", "huginn", "puter"]
 updated_at: "2026-11-26"
 ---
 
@@ -30,7 +30,7 @@ Comparing **System Design Primer** and **Hugo** highlights two distinct approach
 | [Gatsby](/HubHum/apps/gatsby/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 55,916 | Open Source (MIT) |
 | [Ghost](/HubHum/apps/ghost/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 55,849 | Open Source (MIT) |
 | [Huginn](/HubHum/apps/huginn/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 50,594 | Open Source (MIT) |
-| [EasySpider](/HubHum/apps/easyspider/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 44,798 | Open Source (AGPL v3) |
+| [Puter](/HubHum/apps/puter/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 44,214 | Open Source (AGPL v3) |
 
 ### When to Pick Which Option
 - **Choose [System Design Primer](/HubHum/apps/system-design-primer/) (Self-Hosted Web App)** if you need what it specializes in: Learn how to build massive, scalable software architectures and prepare effectively for technical design interviews — it runs on your own private server or local computer so files stay under your control (379,100 GitHub stars, vs Hugo which runs as a Self-Hosted Web App).
