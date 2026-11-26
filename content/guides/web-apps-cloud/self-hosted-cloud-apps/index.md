@@ -12,12 +12,12 @@ parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/troubleshooting-self-hosted-cloud-apps"]
 sibling_slugs: []
 app_slugs: ["n8n", "immich", "stirling-pdf", "unsloth", "memos", "gitea", "nanobot", "siyuan", "cobalt", "reactive-resume", "puter", "ai-website-cloner-template", "onyx", "dokku", "karakeep", "archivebox", "openmausbot", "opengym"]
-updated_at: "2026-11-25"
+updated_at: "2026-11-26"
 ---
 
 ## Plain-English Overview: Personal Cloud Hubs, Photos & File Sharing
 
-This topic hub groups **118 vetted free tools** specializing in **Personal Cloud Hubs, Photos & File Sharing** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **123 vetted free tools** specializing in **Personal Cloud Hubs, Photos & File Sharing** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

@@ -11,8 +11,8 @@ summary: "Compare Microsoft-Activation-Scripts vs node and 8 free tools for PDF,
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
-app_slugs: ["microsoft-activation-scripts", "node", "pake", "files", "architecture-samples", "kazumi", "lottie-android", "gold-miner"]
-updated_at: "2026-11-25"
+app_slugs: ["microsoft-activation-scripts", "node", "drawio-desktop", "open-source-ios-apps", "files", "smarttube", "monitorcontrol", "gold-miner"]
+updated_at: "2026-11-26"
 ---
 
 ## Quick Answer: Microsoft-Activation-Scripts vs node
@@ -25,11 +25,11 @@ Comparing **Microsoft-Activation-Scripts** and **node** highlights two distinct 
 | --- | --- | --- | --- | --- |
 | [Microsoft-Activation-Scripts](/HubHum/apps/microsoft-activation-scripts/) | Desktop App | Windows | ★ 200,467 | Open Source (GPL v3) |
 | [node](/HubHum/apps/node/) | Desktop App | Windows, macOS, Linux | ★ 123,872 | Custom Open License |
-| [Pake](/HubHum/apps/pake/) | Desktop App | Windows, macOS, Linux | ★ 63,869 | Open Source (GPL v3) |
+| [drawio-desktop](/HubHum/apps/drawio-desktop/) | Desktop App | Windows, macOS, Linux | ★ 64,165 | Open Source (GPL v3) |
+| [Open-Source iOS Apps](/HubHum/apps/open-source-ios-apps/) | Desktop App | iOS | ★ 53,459 | Public Domain / Free |
 | [Files](/HubHum/apps/files/) | Desktop App | Windows | ★ 46,755 | Open Source (MIT) |
-| [architecture-samples](/HubHum/apps/architecture-samples/) | Desktop App | Android | ★ 45,912 | Open Source (Apache 2.0) |
-| [Kazumi](/HubHum/apps/kazumi/) | Desktop App | Windows, macOS, Linux, iOS | ★ 43,451 | Open Source (GPL v3) |
-| [Lottie for Android](/HubHum/apps/lottie-android/) | Desktop App | Android | ★ 35,782 | Open Source (Apache 2.0) |
+| [SmartTube](/HubHum/apps/smarttube/) | Desktop App | Android | ★ 36,622 | Open Source (MIT) |
+| [MonitorControl](/HubHum/apps/monitorcontrol/) | Desktop App | macOS | ★ 34,803 | Open Source (MIT) |
 | [Gold Miner](/HubHum/apps/gold-miner/) | Desktop App | Android, iOS | ★ 34,381 | Custom Open License |
 
 ### When to Pick Which Option

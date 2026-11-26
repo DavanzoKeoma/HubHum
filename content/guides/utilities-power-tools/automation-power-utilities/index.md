@@ -12,12 +12,12 @@ parent_slug: "utilities-power-tools"
 child_slugs: ["utilities-power-tools/automation-power-utilities/best-automation-power-utilities", "utilities-power-tools/automation-power-utilities/how-to-choose-automation-power-utilities", "utilities-power-tools/automation-power-utilities/troubleshooting-automation-power-utilities"]
 sibling_slugs: []
 app_slugs: ["rea", "ohmyzsh", "agent-reach", "tauri", "terminal", "playwright", "puppeteer", "rtk", "lazygit", "last30days-skill", "warp", "powershell", "herdr", "aider", "airflow", "cli", "zx", "fastlane"]
-updated_at: "2026-11-25"
+updated_at: "2026-11-26"
 ---
 
 ## Plain-English Overview: Automation & System Power Utilities
 
-This topic hub groups **183 vetted free tools** specializing in **Automation & System Power Utilities** inside **Utilities & Power Tools**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **195 vetted free tools** specializing in **Automation & System Power Utilities** inside **Utilities & Power Tools**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

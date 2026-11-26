@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/self-hosted-cms-blogs"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs"]
 app_slugs: ["system-design-primer", "hugo", "netdata", "strapi", "gatsby"]
-updated_at: "2026-11-25"
+updated_at: "2026-11-26"
 ---
 
 ## Fixing Common Problems with Free Self-Hosted CMS, Blogs & Publishing Platforms

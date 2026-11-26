@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what PDF, Document & E-Book Tools t
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
-app_slugs: ["microsoft-activation-scripts", "node", "pake", "files", "architecture-samples", "kazumi"]
-updated_at: "2026-11-25"
+app_slugs: ["microsoft-activation-scripts", "node", "drawio-desktop", "open-source-ios-apps", "files", "smarttube"]
+updated_at: "2026-11-26"
 ---
 
 ## How to Choose Free PDF, Document & E-Book Tools Without Getting Lost
@@ -27,7 +27,7 @@ Switching to free open-source tools in **PDF, Document & E-Book Tools** lets you
 
 - **[Microsoft-Activation-Scripts](/HubHum/apps/microsoft-activation-scripts/)** (Desktop App) — Activate Windows and Office operating systems easily using trusted open-source scripts and automated methods.
 - **[node](/HubHum/apps/node/)** (Desktop App) — Run your JavaScript code anywhere with a reliable platform that powers web servers and network utilities seamlessly.
-- **[Pake](/HubHum/apps/pake/)** (Desktop App) — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.
+- **[drawio-desktop](/HubHum/apps/drawio-desktop/)** (Desktop App) — Design flowcharts, network maps, and wireframes securely on your desktop without sharing data online.
+- **[Open-Source iOS Apps](/HubHum/apps/open-source-ios-apps/)** (Desktop App) — Explore a curated, collaborative collection of thousands of open-source applications built for iPhone, iPad, Apple Watch, and Apple TV.
 - **[Files](/HubHum/apps/files/)** (Desktop App) — Files is a free, open-source file manager that makes organizing your documents and photos on Windows simple and fast.
-- **[architecture-samples](/HubHum/apps/architecture-samples/)** (Desktop App) — A collection of example Android apps that use a simple to‑do list to show how to keep code tidy, testable, and easy to improve.
-- **[Kazumi](/HubHum/apps/kazumi/)** (Desktop App) — Kazumi is a flexible streaming application that lets you organize, watch, and enhance your favorite animated series effortlessly.
+- **[SmartTube](/HubHum/apps/smarttube/)** (Desktop App) — Enjoy seamless video streaming on your Android TV with custom speed controls, ad skipping, and a clean interface.

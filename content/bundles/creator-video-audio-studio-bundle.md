@@ -5,7 +5,7 @@ category: "Video & Audio"
 summary: "Cut footage without re-encoding, convert formats fast, record audio cleanly, and manage offline music libraries."
 tags: ["video", "audio", "creator", "media"]
 app_slugs: ["vlc", "handbrake", "losslesscut", "audacity", "yt-dlp", "navidrome"]
-updated_at: "2026-11-25"
+updated_at: "2026-11-26"
 ---
 
 ### Why this curated guide

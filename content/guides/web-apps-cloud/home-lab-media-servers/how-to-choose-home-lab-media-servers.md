@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/home-lab-media-servers"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"]
 app_slugs: ["open-webui", "appwrite", "gogs", "jan", "qwenpaw", "self-hosting-guide"]
-updated_at: "2026-11-25"
+updated_at: "2026-11-26"
 ---
 
 ## How to Choose Free Home Lab Media Servers, E-Books & Streaming Hubs Without Getting Lost

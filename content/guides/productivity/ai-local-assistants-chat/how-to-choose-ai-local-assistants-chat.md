@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what Local AI Assistants, LLM Studi
 parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/best-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
-app_slugs: ["free-programming-books-zh-cn", "nextchat", "motrix", "chatgpt", "material-design-icons", "brew"]
-updated_at: "2026-11-25"
+app_slugs: ["free-programming-books-zh-cn", "nextchat", "mkcert", "chatgpt", "okhttp", "uni-app"]
+updated_at: "2026-11-26"
 ---
 
 ## How to Choose Free Local AI Assistants, LLM Studios & Chat Workspaces Without Getting Lost
@@ -27,7 +27,7 @@ Switching to free open-source tools in **Local AI Assistants, LLM Studios & Chat
 
 - **[Free Programming Books Chinese](/HubHum/apps/free-programming-books-zh-cn/)** (Desktop App) — Explore a massive, community-curated library of free programming books, tutorials, and development guides entirely in Chinese.
 - **[NextChat](/HubHum/apps/nextchat/)** (Desktop App) — Easily converse with multiple artificial intelligence models in one clean interface without complex setup.
-- **[Motrix](/HubHum/apps/motrix/)** (Desktop App) — Motrix is a modern, clean download manager that handles regular files, torrents, and magnet links with ease across multiple operating systems.
+- **[mkcert](/HubHum/apps/mkcert/)** (Desktop App) — mkcert creates trusted local certificates with zero configuration, letting developers run HTTPS locally without browser warnings.
 - **[ChatGPT](/HubHum/apps/chatgpt/)** (Desktop App) — Access popular artificial intelligence assistants right from your computer desktop without opening a web browser.
-- **[material-design-icons](/HubHum/apps/material-design-icons/)** (Desktop App) — Access thousands of official Google graphic icons and variable symbols to elevate your digital designs and user interfaces.
-- **[brew](/HubHum/apps/brew/)** (Desktop App) — Homebrew is a simple tool that helps you quickly download, update, and organize applications and developer tools on your computer.
+- **[okhttp](/HubHum/apps/okhttp/)** (Desktop App) — An efficient network client that helps Java and Android applications load data faster and save bandwidth.
+- **[uni-app](/HubHum/apps/uni-app/)** (Desktop App) — Create native mobile, web, and mini-programs using a single unified codebase and familiar language syntax.

@@ -12,12 +12,12 @@ parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/troubleshooting-self-hosted-cms-blogs"]
 sibling_slugs: []
 app_slugs: ["system-design-primer", "hugo", "netdata", "strapi", "gatsby", "ghost", "huginn", "easyspider", "halo", "trilium", "directus", "glance", "filament", "proxmoxve", "skyvern", "companyos", "wagtail", "decap-cms"]
-updated_at: "2026-11-25"
+updated_at: "2026-11-26"
 ---
 
 ## Plain-English Overview: Self-Hosted CMS, Blogs & Publishing Platforms
 
-This topic hub groups **333 vetted free tools** specializing in **Self-Hosted CMS, Blogs & Publishing Platforms** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **332 vetted free tools** specializing in **Self-Hosted CMS, Blogs & Publishing Platforms** inside **Web Apps & Cloud**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.

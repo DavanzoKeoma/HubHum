@@ -12,7 +12,7 @@ parent_slug: "security-privacy/password-network-privacy"
 child_slugs: []
 sibling_slugs: ["security-privacy/password-network-privacy/best-password-network-privacy", "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"]
 app_slugs: ["sherlock", "v2rayng", "win11debloat", "sniffnet", "maigret", "setup-ipsec-vpn"]
-updated_at: "2026-11-25"
+updated_at: "2026-11-26"
 ---
 
 ## How to Choose Free Privacy Tools, VPNs & Network Monitors Without Getting Lost

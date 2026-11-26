@@ -5,7 +5,7 @@ category: "Productivity"
 summary: "Run AI chat workspaces, writing companions, voice transcription, and personal assistants locally without sending private notes to external clouds."
 tags: ["ai", "privacy", "local-llm", "productivity"]
 app_slugs: ["jan", "chat-ollama", "aider", "openwhispr", "incarnamind", "atomic-chat"]
-updated_at: "2026-11-25"
+updated_at: "2026-11-26"
 ---
 
 ### Why this curated guide
