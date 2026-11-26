@@ -5,8 +5,8 @@ tagline: "A clean vintage computer website theme."
 summary: "Transform your static website with a classic, retro computer terminal look featuring monospace fonts and custom color schemes."
 tags: ["blog", "theme", "retro", "design"]
 is_webapp: false
-app_type: "cli"
-category: "Websites & SEO"
+app_type: "desktop"
+category: "Graphics & Design"
 icon: "/icons/hugo-theme-terminal.png"
 stars: 2834
 source_url: "https://github.com/panr/hugo-theme-terminal"
@@ -14,15 +14,15 @@ download_url: "https://github.com/panr/hugo-theme-terminal/releases"
 downloadUrl: "https://github.com/panr/hugo-theme-terminal/releases"
 download_label: "Get Command-Line Tool →"
 license: "Open Source (MIT)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
-applicationCategory: "DeveloperApplication"
+applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_008"
-affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Host and publish your website faster on reliable cloud infrastructure and custom domains."
+affiliate_merchant_id: "MER_054"
+affiliate_name: "Creative Fabrica"
+affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
+affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-25"
@@ -65,8 +65,8 @@ You can download the theme files directly from the [Official Source Page](https:
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
-* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
+* **★ Top Recommended — Creative Fabrica:** Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals — [**Activate Creative Fabrica →**](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/panr/hugo-theme-terminal)

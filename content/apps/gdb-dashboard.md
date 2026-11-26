@@ -5,8 +5,8 @@ tagline: "A clearer view for program debugging."
 summary: "This tool adds a visual interface to your debugger, showing all important information in one place."
 tags: ["development", "debugging", "tools"]
 is_webapp: false
-app_type: "cli"
-category: "Utilities & Power Tools"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/gdb-dashboard.png"
 stars: 12287
 source_url: "https://github.com/cyrus-and/gdb-dashboard"
@@ -14,15 +14,15 @@ download_url: "https://github.com/cyrus-and/gdb-dashboard/releases"
 downloadUrl: "https://github.com/cyrus-and/gdb-dashboard/releases"
 download_label: "Get Command-Line Tool →"
 license: "Open Source (MIT)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_008"
-affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
+affiliate_merchant_id: "MER_061"
+affiliate_name: "Systeme.io"
+affiliate_url: "https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061"
+affiliate_pitch: "Automate everyday online workflows free forever and safeguard your devices and backups."
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: true
 updated_at: "2026-11-24"
@@ -63,8 +63,8 @@ To install the dashboard, download the [official configuration file](https://raw
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
-* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
+* **★ Top Recommended — Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [**Activate Systeme.io →**](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/cyrus-and/gdb-dashboard)

@@ -5,7 +5,7 @@ tagline: "Private, distraction-free music player"
 summary: "kew is a fast, lightweight music player that lets you enjoy your local audio files without any tracking or algorithmic interference."
 tags: ["audio", "music", "privacy"]
 is_webapp: false
-app_type: "cli"
+app_type: "desktop"
 category: "Video & Audio"
 icon: "/icons/kew.png"
 stars: 3220
@@ -14,7 +14,7 @@ download_url: "https://github.com/ravachol/kew/releases/download/v4.4.3/kew-4.4.
 downloadUrl: "https://github.com/ravachol/kew/releases/download/v4.4.3/kew-4.4.3-windows-x64.exe"
 download_label: "Download for Windows (.exe)"
 license: "Open Source (GPL v2)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
@@ -65,7 +65,7 @@ kew is a streamlined music player designed for people who want to listen to thei
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Creative Fabrica:** Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **★ Top Recommended — Creative Fabrica:** Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals — [**Activate Creative Fabrica →**](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
 * **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
 * **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
 

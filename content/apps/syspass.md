@@ -6,7 +6,7 @@ summary: "sysPass is a web-based tool that helps you store, organize, and share 
 tags: ["security", "passwords", "privacy"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/syspass.png"
 stars: 995
 source_url: "https://github.com/nuxsmin/sysPass"
@@ -16,7 +16,7 @@ download_label: "Official Setup & Docs →"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"
@@ -64,7 +64,7 @@ sysPass is a web-based application. You can find the official installation guide
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **★ Top Recommended — PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [**Activate PureVPN →**](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
 * **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
 * **FastestVPN:** Lifetime encrypted VPN protection with built-in ad blocking and WireGuard servers for private browsing — [FastestVPN](https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89&subid=hubhum_01_MER096) (#ad)
 

@@ -5,7 +5,7 @@ tagline: "Test local code against live cloud environments"
 summary: "Run any local code or AI assistant as if it were inside a live cloud server cluster with real settings and live data, without needing to perform manual system updates."
 tags: ["development", "cloud", "testing", "utilities"]
 is_webapp: false
-app_type: "cli"
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/mirrord.png"
 stars: 5427
@@ -14,7 +14,7 @@ download_url: "https://github.com/metalbear-co/mirrord/releases/download/3.290.0
 downloadUrl: "https://github.com/metalbear-co/mirrord/releases/download/3.290.0/mirrord.exe"
 download_label: "Download for Windows (.exe)"
 license: "Open Source (MIT)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
@@ -68,8 +68,8 @@ You can set up the tool using your preferred system installer or command manager
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **★ Top Recommended — Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [**Activate Systeme.io →**](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
 * **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/metalbear-co/mirrord)

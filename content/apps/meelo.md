@@ -6,7 +6,7 @@ summary: "Take full control of your personal music collection with a dedicated s
 tags: ["music", "self-hosted", "streaming", "audio"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Video & Audio"
 icon: "/icons/meelo.png"
 stars: 1452
 source_url: "https://github.com/Arthi-chaud/Meelo"
@@ -16,7 +16,7 @@ download_label: "Download for Android (.apk)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "MultimediaApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_054"
@@ -69,7 +69,7 @@ If you want to access your music on the go, you can also download the mobile com
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Creative Fabrica:** Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals — [Creative Fabrica](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
+* **★ Top Recommended — Creative Fabrica:** Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals — [**Activate Creative Fabrica →**](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
 * **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
 * **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
 

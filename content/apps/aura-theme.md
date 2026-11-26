@@ -5,8 +5,8 @@ tagline: "A beautiful dark theme for your apps"
 summary: "Aura Theme provides a cohesive and visually pleasing dark color scheme for your favorite code editors, terminals, and desktop applications."
 tags: ["design", "customization", "productivity"]
 is_webapp: false
-app_type: "cli"
-category: "Utilities & Power Tools"
+app_type: "desktop"
+category: "Graphics & Design"
 icon: "/icons/aura-theme.png"
 stars: 3833
 source_url: "https://github.com/daltonmenezes/aura-theme"
@@ -14,15 +14,15 @@ download_url: "https://github.com/daltonmenezes/aura-theme/releases"
 downloadUrl: "https://github.com/daltonmenezes/aura-theme/releases"
 download_label: "Get Command-Line Tool →"
 license: "Open Source (MIT)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows"
-applicationCategory: "UtilitiesApplication"
+applicationCategory: "DesignApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_061"
-affiliate_name: "Systeme.io"
-affiliate_url: "https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061"
-affiliate_pitch: "Automate everyday online workflows free forever and safeguard your devices and backups."
+affiliate_merchant_id: "MER_054"
+affiliate_name: "Creative Fabrica"
+affiliate_url: "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054"
+affiliate_pitch: "Download ready-to-use fonts, templates, and creative assets for your projects."
 ai_provider: "tier1_gemini:gemini-3.1-flash-lite"
 featured_weekly: true
 updated_at: "2026-11-25"
@@ -64,8 +64,8 @@ Aura Theme is not a single installer, but a collection of themes for specific ap
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
+* **★ Top Recommended — Creative Fabrica:** Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals — [**Activate Creative Fabrica →**](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054) (#ad)
 * **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
-* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/daltonmenezes/aura-theme)

@@ -6,7 +6,7 @@ summary: "Seal lets you save videos and audio from popular websites directly to 
 tags: ["downloader", "android", "media"]
 is_webapp: false
 app_type: "desktop"
-category: "Video & Audio"
+category: "Productivity"
 icon: "/icons/seal.png"
 stars: 30982
 source_url: "https://github.com/JunkFood02/Seal"
@@ -16,7 +16,7 @@ download_label: "Download for Android (.apk)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier1_gui"
 operatingSystem: "Android"
-applicationCategory: "MultimediaApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_047"
@@ -74,7 +74,7 @@ You can also find the stable version on the F-Droid store:
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [PureVPN](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **★ Top Recommended — PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [**Activate PureVPN →**](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
 * **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
 * **FastestVPN:** Lifetime encrypted VPN protection with built-in ad blocking and WireGuard servers for private browsing — [FastestVPN](https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89&subid=hubhum_01_MER096) (#ad)
 

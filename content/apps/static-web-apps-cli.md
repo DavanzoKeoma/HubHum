@@ -4,9 +4,9 @@ slug: "static-web-apps-cli"
 tagline: "Test modern websites locally before launching"
 summary: "Test and preview cloud-hosted websites right on your computer before publishing them live to the internet."
 tags: ["development", "cloud", "preview", "testing"]
-is_webapp: true
-app_type: "selfhosted"
-category: "Web Apps & Cloud"
+is_webapp: false
+app_type: "cli"
+category: "Utilities & Power Tools"
 icon: "/icons/static-web-apps-cli.png"
 stars: 668
 source_url: "https://github.com/Azure/static-web-apps-cli"
@@ -14,9 +14,9 @@ download_url: "https://aka.ms/swa/cli-local-development"
 downloadUrl: "https://aka.ms/swa/cli-local-development"
 download_label: "Official Setup & Docs →"
 license: "Open Source (MIT)"
-scouting_tier: "tier2_webapp"
+scouting_tier: "tier3_powertool"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_061"
@@ -65,8 +65,8 @@ To get started, visit the official [Local Development Guide](https://aka.ms/swa/
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **★ Top Recommended — Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [**Activate Systeme.io →**](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
 * **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/Azure/static-web-apps-cli)

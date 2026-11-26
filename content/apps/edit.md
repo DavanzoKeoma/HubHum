@@ -5,8 +5,8 @@ tagline: "Classic text editor with modern controls."
 summary: "Edit is a lightweight, classic-style text editor that brings modern controls and a familiar layout to everyday file editing tasks."
 tags: ["text-editor", "productivity", "utilities", "development"]
 is_webapp: false
-app_type: "cli"
-category: "Utilities & Power Tools"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/edit.png"
 stars: 14806
 source_url: "https://github.com/microsoft/edit"
@@ -14,7 +14,7 @@ download_url: "https://github.com/microsoft/edit/releases"
 downloadUrl: "https://github.com/microsoft/edit/releases"
 download_label: "Get Command-Line Tool →"
 license: "Open Source (MIT)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
@@ -66,8 +66,8 @@ You can download and install the application using official package managers or 
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **★ Top Recommended — Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [**Activate Systeme.io →**](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
 * **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/microsoft/edit)

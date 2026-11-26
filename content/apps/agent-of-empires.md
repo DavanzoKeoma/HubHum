@@ -5,8 +5,8 @@ tagline: "Manage your AI coding assistants easily"
 summary: "Agent of Empires keeps your AI coding tools running in the background so you can monitor and control them from your phone or computer."
 tags: ["productivity", "ai", "tools"]
 is_webapp: false
-app_type: "cli"
-category: "Utilities & Power Tools"
+app_type: "desktop"
+category: "Productivity"
 icon: "/icons/agent-of-empires.png"
 stars: 4834
 source_url: "https://github.com/agent-of-empires/agent-of-empires"
@@ -14,7 +14,7 @@ download_url: "https://github.com/agent-of-empires/agent-of-empires/releases/dow
 downloadUrl: "https://github.com/agent-of-empires/agent-of-empires/releases/download/v1.25.0/aoe-darwin-amd64.tar.gz.sha256"
 download_label: "Download (aoe-darwin-amd64.tar.gz.sha256)"
 license: "Open Source (MIT)"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
@@ -63,8 +63,8 @@ This tool is designed for Linux and macOS. You can install it using the Homebrew
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **★ Top Recommended — Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [**Activate Systeme.io →**](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
 * **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/agent-of-empires/agent-of-empires)

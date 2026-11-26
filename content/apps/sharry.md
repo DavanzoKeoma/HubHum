@@ -6,7 +6,7 @@ summary: "Share files securely using your own private server and generate custom
 tags: ["file-sharing", "self-hosted", "web-app", "collaboration"]
 is_webapp: true
 app_type: "selfhosted"
-category: "Web Apps & Cloud"
+category: "Security & Privacy"
 icon: "/icons/sharry.png"
 stars: 1357
 source_url: "https://github.com/eikek/sharry"
@@ -16,13 +16,13 @@ download_label: "Download for Linux (.deb)"
 license: "Open Source (GPL v3)"
 scouting_tier: "tier2_webapp"
 operatingSystem: "Self-Hosted / Browser"
-applicationCategory: "BusinessApplication"
+applicationCategory: "SecurityApplication"
 priceCurrency: "USD"
 price: "0"
-affiliate_merchant_id: "MER_008"
-affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting."
+affiliate_merchant_id: "MER_047"
+affiliate_name: "PureVPN"
+affiliate_url: "https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047"
+affiliate_pitch: "Protect your connection and block trackers before downloading or using this app."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-24"
@@ -67,8 +67,8 @@ Sharry is a private web space that lets you share large files with anyone by sen
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
-* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
+* **★ Top Recommended — PureVPN:** Encrypt connections on public Wi-Fi and safeguard private file transfers with high-speed zero-log VPN servers — [**Activate PureVPN →**](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047) (#ad)
+* **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
+* **FastestVPN:** Lifetime encrypted VPN protection with built-in ad blocking and WireGuard servers for private browsing — [FastestVPN](https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89&subid=hubhum_01_MER096) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/eikek/sharry)

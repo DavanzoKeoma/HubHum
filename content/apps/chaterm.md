@@ -5,7 +5,7 @@ tagline: "AI-powered terminal for cloud management"
 summary: "Manage cloud servers and infrastructure using natural language."
 tags: ["ai", "system-utility", "cloud", "infrastructure"]
 is_webapp: false
-app_type: "cli"
+app_type: "desktop"
 category: "Productivity"
 icon: "/icons/chaterm.png"
 stars: 3115
@@ -14,7 +14,7 @@ download_url: "https://github.com/chaterm/Chaterm/releases/download/v0.13.0/chat
 downloadUrl: "https://github.com/chaterm/Chaterm/releases/download/v0.13.0/chaterm-0.13.0-setup-x64.exe"
 download_label: "Download for Windows (.exe)"
 license: "Custom Open License"
-scouting_tier: "tier3_powertool"
+scouting_tier: "tier1_gui"
 operatingSystem: "Windows, macOS, Linux"
 applicationCategory: "UtilitiesApplication"
 priceCurrency: "USD"
@@ -69,8 +69,8 @@ Chaterm is an intelligent workspace terminal designed to help you interact with 
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [Systeme.io](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
+* **★ Top Recommended — Systeme.io:** Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees — [**Activate Systeme.io →**](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061) (#ad)
 * **AdGuard:** Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps — [AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119) (#ad)
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
+* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/chaterm/Chaterm)
