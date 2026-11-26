@@ -11,13 +11,13 @@ summary: "Time-saving automation utilities that simplify repetitive technical ro
 parent_slug: "utilities-power-tools"
 child_slugs: ["utilities-power-tools/automation-power-utilities/best-automation-power-utilities", "utilities-power-tools/automation-power-utilities/how-to-choose-automation-power-utilities", "utilities-power-tools/automation-power-utilities/troubleshooting-automation-power-utilities"]
 sibling_slugs: []
-app_slugs: ["rea", "ohmyzsh", "agent-reach", "tauri", "terminal", "playwright", "puppeteer", "rtk", "lazygit", "powershell", "dive", "aider", "cli", "bubbletea", "cobra", "pm2", "cheat-sh", "oh-my-claudecode"]
-updated_at: "2026-11-23"
+app_slugs: ["rea", "ohmyzsh", "agent-reach", "tauri", "terminal", "playwright", "puppeteer", "rtk", "lazygit", "last30days-skill", "warp", "powershell", "herdr", "aider", "airflow", "cli", "zx", "fastlane"]
+updated_at: "2026-11-26"
 ---
 
 ## Plain-English Overview: Automation & System Power Utilities
 
-This topic hub groups **164 vetted free tools** specializing in **Automation & System Power Utilities** inside **Utilities & Power Tools**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **195 vetted free tools** specializing in **Automation & System Power Utilities** inside **Utilities & Power Tools**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -33,6 +33,6 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Puppeteer](/HubHum/apps/puppeteer/)** — Puppeteer is a powerful tool that lets you control a web browser through simple instructions to perform repetitive tasks automatically. *(CLI Tool · License: Open Source (Apache 2.0))*
 - **[rtk](/HubHum/apps/rtk/)** — Smart tool that compresses command output before your AI coding assistant reads it, cutting token consumption by up to ninety percent. *(CLI Tool · License: Open Source (Apache 2.0))*
 - **[lazygit](/HubHum/apps/lazygit/)** — Lazygit transforms tedious command-line tasks into a fast, interactive experience right inside your terminal. *(CLI Tool · License: Open Source (MIT))*
+- **[Last30Days Research Skill](/HubHum/apps/last30days-skill/)** — An AI research assistant that scans Reddit, social networks, and live prediction markets to synthesize what people are truly discussing. *(CLI Tool · License: Open Source (MIT))*
+- **[Warp](/HubHum/apps/warp/)** — Warp reimagines the classic computer command line with modern collaboration tools, intelligent AI helpers, and smooth multi-user workflows. *(CLI Tool · License: Open Source (AGPL v3))*
 - **[PowerShell](/HubHum/apps/powershell/)** — PowerShell helps you automate repetitive system tasks, manage configurations, and process structured data seamlessly across Windows, Mac, and Linux. *(CLI Tool · License: Open Source (MIT))*
-- **[dive](/HubHum/apps/dive/)** — Dive helps you explore the contents of your container images to identify and remove unnecessary files that bloat your storage space. *(CLI Tool · License: Open Source (MIT))*
-- **[aider](/HubHum/apps/aider/)** — Collaborate with advanced artificial intelligence directly inside your computer terminal to create programs and update your software projects seamlessly. *(CLI Tool · License: Open Source (Apache 2.0))*

@@ -12,7 +12,7 @@ parent_slug: "productivity/desktop-workflow-helpers"
 child_slugs: []
 sibling_slugs: ["productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"]
 app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "rustdesk", "orca", "v2rayn", "openhands"]
-updated_at: "2026-11-23"
+updated_at: "2026-11-26"
 ---
 
 ## Quick Answer: Flutter vs Clash Verge Rev
@@ -27,7 +27,7 @@ Comparing **Flutter** and **Clash Verge Rev** highlights two distinct approaches
 | [Clash Verge Rev](/HubHum/apps/clash-verge-rev/) | Desktop App | Windows, macOS, Linux | ★ 159,942 | Open Source (GPL v3) |
 | [CC Switch](/HubHum/apps/cc-switch/) | Desktop App | Windows, macOS, Linux | ★ 156,134 | Open Source (MIT) |
 | [PowerToys](/HubHum/apps/powertoys/) | Desktop App | Windows | ★ 141,281 | Open Source (MIT) |
-| [RustDesk](/HubHum/apps/rustdesk/) | Desktop App | Windows, macOS, Linux, Android, iOS | ★ 130,713 | Open Source (AGPL v3) |
+| [RustDesk](/HubHum/apps/rustdesk/) | Desktop App | Windows, macOS, Linux, iOS | ★ 130,713 | Open Source (AGPL v3) |
 | [orca](/HubHum/apps/orca/) | Desktop App | Windows, macOS, Linux | ★ 130,248 | Open Source (MIT) |
 | [v2rayN](/HubHum/apps/v2rayn/) | Desktop App | Windows, macOS, Linux | ★ 121,158 | Open Source (GPL v3) |
 | [OpenHands](/HubHum/apps/openhands/) | Desktop App | Windows, macOS, Linux | ★ 93,879 | Open Source (MIT) |

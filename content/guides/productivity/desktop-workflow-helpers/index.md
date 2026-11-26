@@ -11,13 +11,13 @@ summary: "Lightweight free helpers that organize windows, speed up repetitive ta
 parent_slug: "productivity"
 child_slugs: ["productivity/desktop-workflow-helpers/best-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"]
 sibling_slugs: []
-app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "rustdesk", "orca", "v2rayn", "openhands", "termux-app", "motrix", "dbeaver", "bruno", "nvm", "ifixai", "stats", "kazumi", "spacedrive", "handy"]
-updated_at: "2026-11-23"
+app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "rustdesk", "orca", "v2rayn", "openhands", "ventoy", "termux-app", "pake", "dbeaver", "bruno", "nvm", "ifixai", "architecture-samples", "gkd", "retrofit"]
+updated_at: "2026-11-26"
 ---
 
 ## Plain-English Overview: Window Switchers & Everyday Workflow Helpers
 
-This topic hub groups **367 vetted free tools** specializing in **Window Switchers & Everyday Workflow Helpers** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **555 vetted free tools** specializing in **Window Switchers & Everyday Workflow Helpers** inside **Productivity**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -32,7 +32,7 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[orca](/HubHum/apps/orca/)** — Orca lets you run multiple AI coding assistants at the same time, giving each helper its own dedicated workspace so they never interfere with each other. *(Desktop App · License: Open Source (MIT))*
 - **[v2rayN](/HubHum/apps/v2rayn/)** — Manage secure internet connections effortlessly with a clean desktop control panel designed for Windows, Linux, and macOS. *(Desktop App · License: Open Source (GPL v3))*
 - **[OpenHands](/HubHum/apps/openhands/)** — OpenHands turns smart coding assistants into a reliable, always-on engineering team that automates your everyday tasks and workflows. *(Desktop App · License: Open Source (MIT))*
+- **[Ventoy](/HubHum/apps/ventoy/)** — Ventoy lets you turn any USB drive into a multi-boot tool just by copying system files directly onto it without constant reformatting. *(Desktop App · License: Open Source (GPL v3))*
 - **[Termux App](/HubHum/apps/termux-app/)** — Turn your Android device into a powerful Linux workstation with a complete command line environment and package manager. *(Desktop App · License: Custom Open License)*
-- **[Motrix](/HubHum/apps/motrix/)** — Motrix is a modern, clean download manager that handles regular files, torrents, and magnet links with ease across multiple operating systems. *(Desktop App · License: Custom Open License)*
+- **[Pake](/HubHum/apps/pake/)** — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat. *(Desktop App · License: Open Source (GPL v3))*
 - **[DBeaver](/HubHum/apps/dbeaver/)** — Universal database tool for viewing, editing, and managing hundreds of different database systems effortlessly. *(Desktop App · License: Open Source (Apache 2.0))*
-- **[Bruno](/HubHum/apps/bruno/)** — Bruno is a lightweight, offline-first application that helps developers explore, test, and organize web requests directly on their device. *(Desktop App · License: Open Source (MIT))*

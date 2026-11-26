@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what Photo Optimizers, Galleries & 
 parent_slug: "graphics-design/photo-image-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
-app_slugs: ["photoprism", "flameshot", "easydiffusion", "imageoptim", "stable-dreamfusion", "modly"]
-updated_at: "2026-11-23"
+app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "openscad", "easydiffusion"]
+updated_at: "2026-11-26"
 ---
 
 ## How to Choose Free Photo Optimizers, Galleries & Screen Capture Without Getting Lost
@@ -27,7 +27,7 @@ Switching to free open-source tools in **Photo Optimizers, Galleries & Screen Ca
 
 - **[PhotoPrism](/HubHum/apps/photoprism/)** (Self-Hosted Web App) — PhotoPrism is an intelligent, privacy-focused app designed to help you browse, organize, and search your entire media collection seamlessly.
 - **[flameshot](/HubHum/apps/flameshot/)** (Desktop App) — Capture your screen instantly, highlight key details with built-in drawing tools, and share your images effortlessly.
+- **[svgo](/HubHum/apps/svgo/)** (Desktop App) — Automatically clean up and shrink SVG graphic files to speed up web pages and apps.
+- **[ImageToolbox](/HubHum/apps/imagetoolbox/)** (Desktop App) — ImageToolbox is an all-in-one photo editor that lets you crop, filter, erase backgrounds, and edit pictures directly on your phone.
+- **[OpenSCAD](/HubHum/apps/openscad/)** (Desktop App) — OpenSCAD is a specialized tool for designing precise 3D objects by writing descriptive instructions instead of drawing them by hand.
 - **[Easy Diffusion](/HubHum/apps/easydiffusion/)** (Desktop App) — Turn text descriptions into breathtaking images right on your own computer with a simple, friendly control panel and zero technical setup.
-- **[ImageOptim](/HubHum/apps/imageoptim/)** (Desktop App) — Make your digital pictures load faster by shrinking their file sizes automatically without losing any visual quality.
-- **[Stable-Dreamfusion](/HubHum/apps/stable-dreamfusion/)** (Desktop App) — Transform simple text descriptions or single photos into fully rendered 3D objects using advanced AI diffusion models.
-- **[Modly](/HubHum/apps/modly/)** (Desktop App) — Transform any 2D photo into a realistic 3D model right on your computer using privacy-focused local artificial intelligence.

@@ -56,31 +56,150 @@
     "queued_at": "2026-11-21T19:51:36.364589+00:00"
   },
   {
-    "full_name": "SDWebImage/SDWebImage",
-    "slug": "sdwebimage",
-    "html_url": "https://github.com/SDWebImage/SDWebImage",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-23T08:35:13.172423+00:00"
+    "full_name": "amantus-ai/vibetunnel",
+    "slug": "vibetunnel",
+    "html_url": "https://github.com/amantus-ai/vibetunnel",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-24T07:16:46.171565+00:00"
   },
   {
-    "full_name": "kyleneideck/BackgroundMusic",
-    "slug": "backgroundmusic",
-    "html_url": "https://github.com/kyleneideck/BackgroundMusic",
-    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Regeln Sie App-Lautstärken einzeln, pausieren Sie Musik automatisch und nehmen Sie Systemaudio auf macOS auf.') | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
-    "queued_at": "2026-11-23T08:36:18.380823+00:00"
+    "full_name": "jirutka/ldap-passwd-webui",
+    "slug": "ldap-passwd-webui",
+    "html_url": "https://github.com/jirutka/ldap-passwd-webui",
+    "reason": "tier1_gemini: call error (Invalid IPv6 URL) | tier2_groq: call error (Invalid IPv6 URL)",
+    "queued_at": "2026-11-25T03:05:59.625224+00:00"
   },
   {
-    "full_name": "sarkistlt/graphql-auto-generating-cms",
-    "slug": "graphql-auto-generating-cms",
-    "html_url": "https://github.com/sarkistlt/graphql-auto-generating-cms",
+    "full_name": "LNPANDY/NX2Apple",
+    "slug": "nx2apple",
+    "html_url": "https://github.com/LNPANDY/NX2Apple",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.fr.summary' appears truncated or incomplete: 'Transformez facilement vos sauvegardes de jeux en applications natives pour appareils Apple grâce à un outil de bureau simple.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-25T23:34:02.204863+00:00"
+  },
+  {
+    "full_name": "PaoloCuscela/Cards",
+    "slug": "cards",
+    "html_url": "https://github.com/PaoloCuscela/Cards",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
-    "queued_at": "2026-11-23T08:42:47.152485+00:00"
+    "queued_at": "2026-11-26T09:17:38.635492+00:00"
   },
   {
-    "full_name": "donnemartin/dev-setup",
-    "slug": "dev-setup",
-    "html_url": "https://github.com/donnemartin/dev-setup",
-    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Richten Sie einen neuen Entwicklungscomputer auf macOS schnell mit organisierten Skripten ein.') | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
-    "queued_at": "2026-11-23T08:43:24.848448+00:00"
+    "full_name": "dotenx/dotenx",
+    "slug": "dotenx",
+    "html_url": "https://github.com/dotenx/dotenx",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons)",
+    "queued_at": "2026-11-26T09:23:59.299329+00:00"
+  },
+  {
+    "full_name": "libaibaia/cloudSec",
+    "slug": "cloudsec",
+    "html_url": "https://github.com/libaibaia/cloudSec",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### Who it's for; Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:25:48.413746+00:00"
+  },
+  {
+    "full_name": "l5yth/potato-mesh",
+    "slug": "potato-mesh",
+    "html_url": "https://github.com/l5yth/potato-mesh",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 413: Payload Too Large)",
+    "queued_at": "2026-11-26T09:27:23.314922+00:00"
+  },
+  {
+    "full_name": "Danmaku-Anywhere/danmaku-anywhere",
+    "slug": "danmaku-anywhere",
+    "html_url": "https://github.com/Danmaku-Anywhere/danmaku-anywhere",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-26T09:27:49.928359+00:00"
+  },
+  {
+    "full_name": "henripal/labnotebook",
+    "slug": "labnotebook",
+    "html_url": "https://github.com/henripal/labnotebook",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
+    "queued_at": "2026-11-26T09:29:33.309782+00:00"
+  },
+  {
+    "full_name": "alexwl/haskell-code-explorer",
+    "slug": "haskell-code-explorer",
+    "html_url": "https://github.com/alexwl/haskell-code-explorer",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:30:24.155815+00:00"
+  },
+  {
+    "full_name": "okbob/pspg",
+    "slug": "pspg",
+    "html_url": "https://github.com/okbob/pspg",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:02.790220+00:00"
+  },
+  {
+    "full_name": "joouha/euporie",
+    "slug": "euporie",
+    "html_url": "https://github.com/joouha/euporie",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:12.876101+00:00"
+  },
+  {
+    "full_name": "gnome-terminator/terminator",
+    "slug": "terminator",
+    "html_url": "https://github.com/gnome-terminator/terminator",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:18.112651+00:00"
+  },
+  {
+    "full_name": "go-musicfox/go-musicfox",
+    "slug": "go-musicfox",
+    "html_url": "https://github.com/go-musicfox/go-musicfox",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:23.265921+00:00"
+  },
+  {
+    "full_name": "Piebald-AI/tweakcc",
+    "slug": "tweakcc",
+    "html_url": "https://github.com/Piebald-AI/tweakcc",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:44.330203+00:00"
+  },
+  {
+    "full_name": "eneskirca/nodeterm",
+    "slug": "nodeterm",
+    "html_url": "https://github.com/eneskirca/nodeterm",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:51.314958+00:00"
+  },
+  {
+    "full_name": "mouredev/hello-bash-shell",
+    "slug": "hello-bash-shell",
+    "html_url": "https://github.com/mouredev/hello-bash-shell",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Lernen Sie Bash, beherrschen Sie die Befehlszeile und erstellen Sie nützliche Skripte von Grund auf.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:56.087350+00:00"
+  },
+  {
+    "full_name": "piotrmurach/tty",
+    "slug": "tty",
+    "html_url": "https://github.com/piotrmurach/tty",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:34:28.710604+00:00"
+  },
+  {
+    "full_name": "sinclairzx81/zero",
+    "slug": "zero",
+    "html_url": "https://github.com/sinclairzx81/zero",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:35:29.894855+00:00"
+  },
+  {
+    "full_name": "randy3k/radian",
+    "slug": "radian",
+    "html_url": "https://github.com/randy3k/radian",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:36:50.556332+00:00"
+  },
+  {
+    "full_name": "sharkdp/vivid",
+    "slug": "vivid",
+    "html_url": "https://github.com/sharkdp/vivid",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:36:55.416965+00:00"
   }
 ]

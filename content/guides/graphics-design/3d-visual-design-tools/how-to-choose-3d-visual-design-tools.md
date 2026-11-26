@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what 3D Modeling & Visual Interface
 parent_slug: "graphics-design/3d-visual-design-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/3d-visual-design-tools/best-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "react-native-elements", "slint", "best-flutter-ui-templates", "customtkinter"]
-updated_at: "2026-11-23"
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "react-native-elements", "slint", "best-flutter-ui-templates", "easydict"]
+updated_at: "2026-11-26"
 ---
 
 ## How to Choose Free 3D Modeling & Visual Interface Studios Without Getting Lost
@@ -30,4 +30,4 @@ Switching to free open-source tools in **3D Modeling & Visual Interface Studios*
 - **[React Native Elements](/HubHum/apps/react-native-elements/)** (Desktop App) — A complete set of ready-to-use visual building blocks designed to help you craft mobile applications for multiple devices effortlessly.
 - **[slint](/HubHum/apps/slint/)** (CLI Tool) — Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup.
 - **[Best-Flutter-UI-Templates](/HubHum/apps/best-flutter-ui-templates/)** (Desktop App) — This collection provides high-quality, ready-to-use visual designs for mobile applications.
-- **[CustomTkinter](/HubHum/apps/customtkinter/)** (CLI Tool) — Create gorgeous, modern desktop app interfaces in Python using sleek pre-made elements that automatically adapt to light and dark modes.
+- **[Easydict](/HubHum/apps/easydict/)** (Desktop App) — Easydict is a concise and elegant dictionary and translation application for macOS that lets you look up words and translate text instantly using multiple online services.

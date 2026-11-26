@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what Screen Recorders, Streaming & 
 parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/best-screen-recorders-streaming", "video-audio/screen-recorders-streaming/troubleshooting-screen-recorders-streaming"]
-app_slugs: ["kap", "streamlink", "hghub", "xdm", "openscreen", "esearch"]
-updated_at: "2026-11-23"
+app_slugs: ["ijkplayer", "animeko", "gsyvideoplayer", "kap", "ani-cli", "streamlink"]
+updated_at: "2026-11-26"
 ---
 
 ## How to Choose Free Screen Recorders, Streaming & Media Players Without Getting Lost
@@ -25,9 +25,9 @@ Switching to free open-source tools in **Screen Recorders, Streaming & Media Pla
 
 ### Great Starting Points in Screen Recorders, Streaming & Media Players
 
+- **[ijkplayer](/HubHum/apps/ijkplayer/)** (Desktop App) — Smoothly play online and local videos on mobile devices with hardware acceleration and robust format support.
+- **[Animeko](/HubHum/apps/animeko/)** (Desktop App) — Discover, stream, and keep track of your favorite animated series with synchronized cloud progress and community comments.
+- **[GSYVideoPlayer](/HubHum/apps/gsyvideoplayer/)** (Desktop App) — An advanced video playback toolkit for mobile devices supporting multiple video engines, caching, and custom visual filters.
 - **[Kap](/HubHum/apps/kap/)** (Desktop App) — An open-source screen recorder for macOS that lets you capture your desktop with ease using a clean interface.
-- **[Streamlink](/HubHum/apps/streamlink/)** (CLI Tool) — Streamlink lets you watch live video content directly in your favorite media player instead of using resource-heavy web browsers.
-- **[HGhub](/HubHum/apps/hghub/)** (Desktop App) — HGhub is a flexible media player that lets you organize and watch content from various sources in one unified, easy-to-use interface.
-- **[Xtreme Download Manager](/HubHum/apps/xdm/)** (Desktop App) — Accelerate your downloads, grab online videos, and seamlessly pick up interrupted files right where they left off.
-- **[OpenScreen](/HubHum/apps/openscreen/)** (Desktop App) — OpenScreen is a free, open-source tool that lets you record your screen and turn your captures into polished product demos and walkthroughs.
-- **[eSearch](/HubHum/apps/esearch/)** (Desktop App) — eSearch is a versatile utility that combines screen recording, text recognition, and instant translation into one seamless experience.
+- **[ani-cli](/HubHum/apps/ani-cli/)** (CLI Tool) — A simple tool that lets you search for and stream your favorite anime directly from your computer terminal.
+- **[Streamlink](/HubHum/apps/streamlink/)** (Desktop App) — Streamlink lets you watch live video content directly in your favorite media player instead of using resource-heavy web browsers.

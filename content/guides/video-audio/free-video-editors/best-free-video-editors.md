@@ -11,8 +11,8 @@ summary: "Compare yt-dlp vs LosslessCut and 8 free tools for Video Cutters, Conv
 parent_slug: "video-audio/free-video-editors"
 child_slugs: []
 sibling_slugs: ["video-audio/free-video-editors/how-to-choose-free-video-editors", "video-audio/free-video-editors/troubleshooting-free-video-editors"]
-app_slugs: ["yt-dlp", "losslesscut", "recordly", "handbrake", "concat", "shotcut", "palmier-pro", "simpmusic"]
-updated_at: "2026-11-23"
+app_slugs: ["yt-dlp", "losslesscut", "recordly", "handbrake", "concat", "shotcut", "metrolist", "palmier-pro"]
+updated_at: "2026-11-26"
 ---
 
 ## Quick Answer: yt-dlp vs LosslessCut
@@ -29,8 +29,8 @@ Comparing **yt-dlp** and **LosslessCut** highlights two distinct approaches in *
 | [HandBrake](/HubHum/apps/handbrake/) | Desktop App | Windows, macOS, Linux | ★ 25,054 | Custom Open License |
 | [Concat](/HubHum/apps/concat/) | Self-Hosted Web App | Self-Hosted / Browser | ★ 19,264 | Open Source (AGPL v3) |
 | [Shotcut](/HubHum/apps/shotcut/) | Desktop App | Windows, macOS, Linux | ★ 15,750 | Open Source (GPL v3) |
+| [Metrolist](/HubHum/apps/metrolist/) | Desktop App | Windows, macOS, Linux, Android, iOS | ★ 14,932 | Open Source (GPL v3) |
 | [Palmier Pro](/HubHum/apps/palmier-pro/) | Desktop App | macOS | ★ 14,800 | Open Source (GPL v3) |
-| [SimpMusic](/HubHum/apps/simpmusic/) | Desktop App | Windows, macOS, Linux, Android | ★ 13,744 | Open Source (GPL v3) |
 
 ### When to Pick Which Option
 - **Choose [yt-dlp](/HubHum/apps/yt-dlp/) (CLI Tool)** if you need what it specializes in: A reliable tool to save audio and video from thousands of online websites directly to your computer — it runs as fast terminal commands suited for automation and batch scripts (no graphical buttons) (209,259 GitHub stars, vs LosslessCut which runs as a Desktop App).

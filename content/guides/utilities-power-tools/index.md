@@ -8,13 +8,13 @@ intent: "pillar"
 summary: "Fast command-line tools, modern terminal apps, and smart file finders explained clearly without jargon."
 child_slugs: ["utilities-power-tools/modern-terminal-apps", "utilities-power-tools/automation-power-utilities"]
 sibling_slugs: []
-app_slugs: ["rea", "ohmyzsh", "agent-reach", "tauri", "gemini-cli", "terminal", "scrapling", "playwright", "puppeteer", "rtk", "fzf", "lazygit", "imgui", "tabby", "ripgrep", "alacritty", "warp", "bat"]
-updated_at: "2026-11-23"
+app_slugs: ["rea", "ohmyzsh", "agent-reach", "tauri", "gemini-cli", "terminal", "scrapling", "playwright", "puppeteer", "rtk", "fzf", "lazygit", "imgui", "tabby", "last30days-skill", "ripgrep", "alacritty", "warp"]
+updated_at: "2026-11-26"
 ---
 
 ## Why Explore Free Utilities & Power Tools Software?
 
-This central guide brings together **308 verified free applications** in the **Utilities & Power Tools** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **363 verified free applications** in the **Utilities & Power Tools** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Utilities & Power Tools
 

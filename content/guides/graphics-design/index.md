@@ -8,13 +8,13 @@ intent: "pillar"
 summary: "Discover free screenshot tools, image optimizers, photo galleries, and 3D creative software for everyday projects."
 child_slugs: ["graphics-design/photo-image-tools", "graphics-design/3d-visual-design-tools"]
 sibling_slugs: []
-app_slugs: ["ui-ux-pro-max-skill", "open-design", "photoprism", "flameshot", "react-native-elements", "slint", "best-flutter-ui-templates", "customtkinter", "easydiffusion", "tkinter-designer", "imageoptim", "dashboard-icons", "stable-dreamfusion", "modly", "open-codesign", "pyqt-fluent-widgets", "cura", "koharu"]
-updated_at: "2026-11-23"
+app_slugs: ["ui-ux-pro-max-skill", "open-design", "photoprism", "flameshot", "react-native-elements", "slint", "best-flutter-ui-templates", "svgo", "imagetoolbox", "easydict", "customtkinter", "lipgloss", "fluentui-system-icons", "openscad", "easydiffusion", "openframeworks", "tkinter-designer", "imageoptim"]
+updated_at: "2026-11-26"
 ---
 
 ## Why Explore Free Graphics & Design Software?
 
-This central guide brings together **26 verified free applications** in the **Graphics & Design** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
+This central guide brings together **45 verified free applications** in the **Graphics & Design** category. Every app listed on HubHum links strictly to official creator channels, translates confusing instructions into plain English, and clearly marks whether a program installs on your computer, opens as a cloud web app, or runs in your terminal.
 
 ### Explore Focus Guides Inside Graphics & Design
 
@@ -29,6 +29,6 @@ Choose the focus topic below that matches your task best to see step-by-step com
 - **[React Native Elements](/HubHum/apps/react-native-elements/)** (Desktop App, ★ 25,869) — A complete set of ready-to-use visual building blocks designed to help you craft mobile applications for multiple devices effortlessly.
 - **[slint](/HubHum/apps/slint/)** (CLI Tool, ★ 24,653) — Slint is an open-source toolkit that lets you design lightweight user interfaces for desktop, mobile, and embedded devices using simple markup.
 - **[Best-Flutter-UI-Templates](/HubHum/apps/best-flutter-ui-templates/)** (Desktop App, ★ 22,871) — This collection provides high-quality, ready-to-use visual designs for mobile applications.
-- **[CustomTkinter](/HubHum/apps/customtkinter/)** (CLI Tool, ★ 13,619) — Create gorgeous, modern desktop app interfaces in Python using sleek pre-made elements that automatically adapt to light and dark modes.
-- **[Easy Diffusion](/HubHum/apps/easydiffusion/)** (Desktop App, ★ 10,480) — Turn text descriptions into breathtaking images right on your own computer with a simple, friendly control panel and zero technical setup.
-- **[Tkinter Designer](/HubHum/apps/tkinter-designer/)** (Desktop App, ★ 10,246) — Tkinter Designer automatically converts visual screen layouts into working Python code, saving you hours of tedious manual coding.
+- **[svgo](/HubHum/apps/svgo/)** (Desktop App, ★ 22,834) — Automatically clean up and shrink SVG graphic files to speed up web pages and apps.
+- **[ImageToolbox](/HubHum/apps/imagetoolbox/)** (Desktop App, ★ 15,745) — ImageToolbox is an all-in-one photo editor that lets you crop, filter, erase backgrounds, and edit pictures directly on your phone.
+- **[Easydict](/HubHum/apps/easydict/)** (Desktop App, ★ 15,401) — Easydict is a concise and elegant dictionary and translation application for macOS that lets you look up words and translate text instantly using multiple online services.

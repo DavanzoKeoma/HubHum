@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools"]
-app_slugs: ["microsoft-activation-scripts", "node", "ventoy", "mkcert", "files"]
-updated_at: "2026-11-23"
+app_slugs: ["microsoft-activation-scripts", "node", "drawio-desktop", "open-source-ios-apps", "files"]
+updated_at: "2026-11-26"
 ---
 
 ## Fixing Common Problems with Free PDF, Document & E-Book Tools
@@ -32,6 +32,6 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 
 - **[Microsoft-Activation-Scripts](/HubHum/apps/microsoft-activation-scripts/)** (Desktop App) — Activate Windows and Office operating systems easily using trusted open-source scripts and automated methods.
 - **[node](/HubHum/apps/node/)** (Desktop App) — Run your JavaScript code anywhere with a reliable platform that powers web servers and network utilities seamlessly.
-- **[Ventoy](/HubHum/apps/ventoy/)** (Desktop App) — Ventoy lets you turn any USB drive into a multi-boot tool just by copying system files directly onto it without constant reformatting.
-- **[mkcert](/HubHum/apps/mkcert/)** (Desktop App) — mkcert creates trusted local certificates with zero configuration, letting developers run HTTPS locally without browser warnings.
+- **[drawio-desktop](/HubHum/apps/drawio-desktop/)** (Desktop App) — Design flowcharts, network maps, and wireframes securely on your desktop without sharing data online.
+- **[Open-Source iOS Apps](/HubHum/apps/open-source-ios-apps/)** (Desktop App) — Explore a curated, collaborative collection of thousands of open-source applications built for iPhone, iPad, Apple Watch, and Apple TV.
 - **[Files](/HubHum/apps/files/)** (Desktop App) — Files is a free, open-source file manager that makes organizing your documents and photos on Windows simple and fast.

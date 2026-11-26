@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what Self-Hosted CMS, Blogs & Publi
 parent_slug: "web-apps-cloud/self-hosted-cms-blogs"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/troubleshooting-self-hosted-cms-blogs"]
-app_slugs: ["n8n", "stirling-pdf", "hugo", "unsloth", "strapi", "gitea"]
-updated_at: "2026-11-23"
+app_slugs: ["system-design-primer", "hugo", "netdata", "strapi", "gatsby", "ghost"]
+updated_at: "2026-11-26"
 ---
 
 ## How to Choose Free Self-Hosted CMS, Blogs & Publishing Platforms Without Getting Lost
@@ -25,9 +25,9 @@ Switching to free open-source tools in **Self-Hosted CMS, Blogs & Publishing Pla
 
 ### Great Starting Points in Self-Hosted CMS, Blogs & Publishing Platforms
 
-- **[n8n](/HubHum/apps/n8n/)** (Self-Hosted Web App) — Connect your favorite online tools and artificial intelligence models to automate tedious tasks without writing complex code.
-- **[Stirling-PDF](/HubHum/apps/stirling-pdf/)** (Self-Hosted Web App) — Edit, convert, and secure your PDF documents locally without uploading your sensitive files to third-party web services.
+- **[System Design Primer](/HubHum/apps/system-design-primer/)** (Self-Hosted Web App) — Learn how to build massive, scalable software architectures and prepare effectively for technical design interviews.
 - **[Hugo](/HubHum/apps/hugo/)** (Self-Hosted Web App) — Hugo is a powerful tool that turns your text and images into fast, professional websites with minimal effort.
-- **[Unsloth](/HubHum/apps/unsloth/)** (Self-Hosted Web App) — Unsloth allows you to run and customize powerful artificial intelligence models directly on your own computer with ease.
+- **[Netdata](/HubHum/apps/netdata/)** (Self-Hosted Web App) — Netdata provides instant, high-resolution visibility into your computers, servers, and applications to help you spot and fix performance issues.
 - **[Strapi](/HubHum/apps/strapi/)** (Self-Hosted Web App) — Strapi is a tool that helps you organize and manage your website content, allowing you to display it anywhere you choose.
-- **[Gitea](/HubHum/apps/gitea/)** (Self-Hosted Web App) — Host your programming projects, review team code changes, and manage tasks easily on your own private server.
+- **[Gatsby](/HubHum/apps/gatsby/)** (Self-Hosted Web App) — Gatsby is a powerful web development tool that lets creators build incredibly fast websites and apps using modern component design.
+- **[Ghost](/HubHum/apps/ghost/)** (Self-Hosted Web App) — Launch a fast blog, digital magazine, or paid newsletter while keeping complete ownership of your reader list.

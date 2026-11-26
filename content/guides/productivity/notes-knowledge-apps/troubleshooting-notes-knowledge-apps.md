@@ -11,8 +11,8 @@ summary: "Practical troubleshooting tips for terminal tools vs GUI installers, s
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps"]
-app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin"]
-updated_at: "2026-11-23"
+app_slugs: ["awesome", "react-native", "marktext", "motrix", "joplin"]
+updated_at: "2026-11-26"
 ---
 
 ## Fixing Common Problems with Free Encrypted Notes, Wikis & Knowledge Apps
@@ -33,5 +33,5 @@ Windows users usually look for `.exe` or `.msi` installers, macOS users look for
 - **[Awesome](/HubHum/apps/awesome/)** (Open Reference) — Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.
 - **[React Native](/HubHum/apps/react-native/)** (Desktop App) — Create genuine mobile applications for Android and iOS using familiar coding languages and components.
 - **[MarkText](/HubHum/apps/marktext/)** (Desktop App) — MarkText is a clean, modern tool for writing notes and documents using simple formatting that stays out of your way while you work.
-- **[Pake](/HubHum/apps/pake/)** (Desktop App) — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.
+- **[Motrix](/HubHum/apps/motrix/)** (Desktop App) — Motrix is a modern, clean download manager that handles regular files, torrents, and magnet links with ease across multiple operating systems.
 - **[Joplin](/HubHum/apps/joplin/)** (Desktop App) — Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.

@@ -11,13 +11,13 @@ summary: "Speed up everyday navigation and file searches with fast, clean comman
 parent_slug: "utilities-power-tools"
 child_slugs: ["utilities-power-tools/modern-terminal-apps/best-modern-terminal-apps", "utilities-power-tools/modern-terminal-apps/how-to-choose-modern-terminal-apps", "utilities-power-tools/modern-terminal-apps/troubleshooting-modern-terminal-apps"]
 sibling_slugs: []
-app_slugs: ["gemini-cli", "scrapling", "fzf", "imgui", "tabby", "ripgrep", "alacritty", "warp", "bat", "herdr", "airflow", "zx", "fd", "yazi", "fastlane", "zoxide", "ink", "textual"]
-updated_at: "2026-11-23"
+app_slugs: ["gemini-cli", "scrapling", "fzf", "imgui", "tabby", "ripgrep", "alacritty", "bat", "dive", "bubbletea", "fd", "cobra", "yazi", "pm2", "cheat-sh", "zoxide", "oh-my-pi", "linux-command"]
+updated_at: "2026-11-26"
 ---
 
 ## Plain-English Overview: Modern Terminal Emulators & Fast File Finders
 
-This topic hub groups **144 vetted free tools** specializing in **Modern Terminal Emulators & Fast File Finders** inside **Utilities & Power Tools**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
+This topic hub groups **168 vetted free tools** specializing in **Modern Terminal Emulators & Fast File Finders** inside **Utilities & Power Tools**. Whether you want an easy installer for Windows or Mac or an instant web option, every tool below includes verified official download sources.
 
 ### Recommended Reading Guides
 Before picking your software, read our practical guides below covering head-to-head comparisons, beginner setup, and common problem fixes.
@@ -31,8 +31,8 @@ Before picking your software, read our practical guides below covering head-to-h
 - **[Tabby](/HubHum/apps/tabby/)** — Tabby is a modern, highly customizable terminal emulator and connection manager that brings all your remote servers and tools together cleanly. *(Desktop App · License: Open Source (MIT))*
 - **[ripgrep](/HubHum/apps/ripgrep/)** — Ripgrep is a blazing-fast utility that scans your directories for specific text patterns while automatically ignoring unwanted files and folders. *(CLI Tool · License: Public Domain / Free)*
 - **[Alacritty](/HubHum/apps/alacritty/)** — Alacritty is a high-performance terminal emulator that uses your graphics card to provide a smooth and responsive typing experience. *(Desktop App · License: Open Source (Apache 2.0))*
-- **[Warp](/HubHum/apps/warp/)** — Warp reimagines the classic computer command line with modern collaboration tools, intelligent AI helpers, and smooth multi-user workflows. *(CLI Tool · License: Open Source (AGPL v3))*
 - **[bat](/HubHum/apps/bat/)** — Bat is a modern command-line tool that displays file contents with bright colors, line numbers, and git change tracking. *(CLI Tool · License: Open Source (Apache 2.0))*
-- **[herdr](/HubHum/apps/herdr/)** — Herdr keeps your background coding assistants running safely, letting you detach, monitor progress, and manage multiple remote sessions effortlessly. *(CLI Tool · License: Open Source (Apache 2.0))*
-- **[Apache Airflow](/HubHum/apps/airflow/)** — Apache Airflow helps you organize, schedule, and monitor recurring tasks through simple code-based workflows. *(CLI Tool · License: Open Source (Apache 2.0))*
-- **[zx](/HubHum/apps/zx/)** — Simplify your command-line automation tasks by writing clean, readable scripts using JavaScript instead of clunky shell languages. *(CLI Tool · License: Open Source (Apache 2.0))*
+- **[dive](/HubHum/apps/dive/)** — Dive helps you explore the contents of your container images to identify and remove unnecessary files that bloat your storage space. *(CLI Tool · License: Open Source (MIT))*
+- **[Bubble Tea](/HubHum/apps/bubbletea/)** — Create gorgeous interactive terminal applications in Go using a fun, functional, and stateful architecture inspired by modern web design principles. *(CLI Tool · License: Open Source (MIT))*
+- **[fd](/HubHum/apps/fd/)** — An incredibly fast, user-friendly tool that helps you locate files and folders on your computer in seconds. *(CLI Tool · License: Open Source (Apache 2.0))*
+- **[Cobra](/HubHum/apps/cobra/)** — Cobra helps you create powerful software interfaces that allow users to interact with your programs using simple, intuitive text commands. *(CLI Tool · License: Open Source (Apache 2.0))*

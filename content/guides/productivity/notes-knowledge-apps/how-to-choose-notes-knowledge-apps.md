@@ -11,8 +11,8 @@ summary: "Beginner-friendly guide explaining what Encrypted Notes, Wikis & Knowl
 parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
-app_slugs: ["awesome", "react-native", "marktext", "pake", "joplin", "imhex"]
-updated_at: "2026-11-23"
+app_slugs: ["awesome", "react-native", "marktext", "motrix", "joplin", "imhex"]
+updated_at: "2026-11-26"
 ---
 
 ## How to Choose Free Encrypted Notes, Wikis & Knowledge Apps Without Getting Lost
@@ -28,6 +28,6 @@ Switching to free open-source tools in **Encrypted Notes, Wikis & Knowledge Apps
 - **[Awesome](/HubHum/apps/awesome/)** (Open Reference) — Explore carefully organized collections of interesting topics, software tools, and guides curated by experts.
 - **[React Native](/HubHum/apps/react-native/)** (Desktop App) — Create genuine mobile applications for Android and iOS using familiar coding languages and components.
 - **[MarkText](/HubHum/apps/marktext/)** (Desktop App) — MarkText is a clean, modern tool for writing notes and documents using simple formatting that stays out of your way while you work.
-- **[Pake](/HubHum/apps/pake/)** (Desktop App) — Transform any web page into a fast, lightweight standalone desktop application on your computer without bloat.
+- **[Motrix](/HubHum/apps/motrix/)** (Desktop App) — Motrix is a modern, clean download manager that handles regular files, torrents, and magnet links with ease across multiple operating systems.
 - **[Joplin](/HubHum/apps/joplin/)** (Desktop App) — Organize private notes, checklists, and web clips across your devices with end-to-end encryption and offline access.
 - **[ImHex](/HubHum/apps/imhex/)** (Desktop App) — ImHex is a powerful file inspection and editing tool built for examining raw data structures, with a focus on eye-friendly dark mode design.
