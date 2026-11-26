@@ -194,7 +194,8 @@ CLEAN_SPONSOR_COPY: dict[str, tuple[str, str]] = {
     "hubhum_01_MER119": ("AdGuard", "Block intrusive ads, tracking scripts, and phishing domains system-wide across all browsers and desktop apps"),
     "hubhum_01_MER096": ("FastestVPN", "Lifetime encrypted VPN protection with built-in ad blocking and WireGuard servers for private browsing"),
     "hubhum_01_MER008": ("InterServer", "Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month"),
-    "hubhum_01_MER062": ("Hosting.com (ex A2 Hosting)", "High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites"),
+    "hubhum_01_MER063": ("GreenGeeks", "Eco-friendly 300% green-energy SSD hosting with free SSL, nightly backups, and 1-click app installers"),
+    "hubhum_01_MER062": ("Hosting.com (ex A2 Hosting)", "High-speed NVMe Managed VPS and WordPress cloud hosting optimized for self-hosted apps and sites"),
     "hubhum_01_MER007": ("NameSilo", "Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup"),
     "hubhum_01_MER054": ("Creative Fabrica", "Download commercial-safe fonts, SVG bundles, graphic templates, and creative assets with All Access trial deals"),
     "hubhum_01_MER061": ("Systeme.io", "Free-forever all-in-one platform to build landing pages, newsletters, and automated workflows with zero monthly fees"),
@@ -342,11 +343,14 @@ def relocate_affiliate_links_to_sponsored_section(body: str, triplet: list[dict]
         SPONSORED_HEADING,
         "*Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*",
     ]
-    for p in chosen_partners[:3]:
+    for idx, p in enumerate(chosen_partners[:3]):
         sid = p["subid"]
         url = p["tracking_url"]
         label, desc = CLEAN_SPONSOR_COPY.get(sid, (p["name"], "Optional partner tool for cloud hosting or creative assets"))
-        partner_bullets.append(f"* **{label}:** {desc} — [{label}]({url}) (#ad)")
+        if idx == 0:
+            partner_bullets.append(f"* **★ Top Recommended — {label}:** {desc} — [**Activate {label} →**]({url}) (#ad)")
+        else:
+            partner_bullets.append(f"* **{label}:** {desc} — [{label}]({url}) (#ad)")
 
     parts = [clean_editorial.rstrip(), "", "\n".join(partner_bullets)]
     if credits_line:

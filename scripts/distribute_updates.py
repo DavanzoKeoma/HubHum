@@ -76,7 +76,52 @@ def _score_monetization_intent(kind: str, slug: str, meta: dict[str, object]) ->
 
 
 def select_target_content(target_slug: str | None = None, content_filter: str = "high-intent") -> dict[str, object]:
-    """Load the highest-intent Bundle or Level-3 Comparison guide for canonical syndication."""
+    """Load the highest-intent Bundle, Level-3 Comparison guide, or '/deals/' hub for canonical syndication."""
+    if target_slug and target_slug.strip("/").lower() == "deals":
+        canonical_url = f"{SITE_URL_PREFIX}/deals/"
+        title = "Black Friday & Cyber Monday 2026: Best Cloud VPS, Privacy & Creator Companion Deals for Open-Source Stacks"
+        summary = (
+            "Pair 100% free open-source apps (n8n, Open WebUI, Immich, KeePassXC, LosslessCut, Shotcut) "
+            "with verified $3/mo Linux VPS hosting, audited VPN/AdBlock protection, and $0 holiday design freebies."
+        )
+        hook = "Compare all 3 curated open-source companion stacks and $0 holiday freebies on HubHum Deals."
+        article_md = (
+            f"{summary}\n\n"
+            f"> **Explore the live interactive Deals & Freebies Hub:** [{title}]({canonical_url})\n\n"
+            f"*Affiliate transparency (#ad): Some partner links below are affiliate links that help fund HubHum at no extra cost to you.*\n\n"
+            f"## 1. Self-Hosted & Local AI Cloud Stack\n"
+            f"Stop paying $50–$150/month for closed SaaS tools. Run [n8n]({SITE_URL_PREFIX}/apps/n8n/), "
+            f"[Open WebUI]({SITE_URL_PREFIX}/apps/open-webui/), [Immich]({SITE_URL_PREFIX}/apps/immich/), and "
+            f"[Uptime Kuma]({SITE_URL_PREFIX}/apps/uptime-kuma/) 24/7 on your own Linux server:\n"
+            f"- **InterServer Linux Cloud VPS (#ad):** Price-locked KVM slices starting from $3/month with root SSH & Docker support → [Launch on InterServer VPS](https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008)\n"
+            f"- **GreenGeeks Eco SSD Hosting (#ad):** 300% green-energy managed hosting with free SSL & nightly backups → [Explore GreenGeeks](https://www.greengeeks.com/track/affiliatechproject/cp-ffltc/lp-1?subid=hubhum_01_MER063)\n"
+            f"- **Hosting.com Managed Linux VPS (#ad):** High-speed NVMe Turbo managed servers → [View Hosting.com Managed VPS](https://hosting.com/hosting/vps-hosting/managed/linux/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062)\n\n"
+            f"## 2. Privacy, Security & Ad-Free Stack\n"
+            f"Lock down credentials and media workflows with [KeePassXC]({SITE_URL_PREFIX}/apps/keepassxc/), "
+            f"[VLC]({SITE_URL_PREFIX}/apps/vlc/), [HandBrake]({SITE_URL_PREFIX}/apps/handbrake/), and [yt-dlp]({SITE_URL_PREFIX}/apps/yt-dlp/):\n"
+            f"- **PureVPN (#ad):** Always-on audited no-log VPN with 20 Gbps WireGuard servers → [Claim PureVPN Black Friday Deal](https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047)\n"
+            f"- **AdGuard (#ad):** System-wide ad, tracker & phishing blocker for desktop and mobile → [Protect Devices with AdGuard](https://adguard.com/?aid=138327&subid=hubhum_01_MER119)\n\n"
+            f"## 3. Creator & Holiday Freebies Stack ($0 Friction)\n"
+            f"Pair [LosslessCut]({SITE_URL_PREFIX}/apps/losslesscut/), [Shotcut]({SITE_URL_PREFIX}/apps/shotcut/), and [Audacity]({SITE_URL_PREFIX}/apps/audacity/) with commercial-safe creative assets and free-forever publishing:\n"
+            f"- **Creative Fabrica All Access Yearly (#ad):** Millions of commercial-safe fonts & SVGs → [Unlock Yearly Promo](https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054)\n"
+            f"- **Verified $0 Holiday Freebies (#ad):** [Lightning Script Font](https://www.creativefabrica.com/product/lightning-script/ref/29328369/?subid=hubhum_01_MER054) · [Christmas Tree PNG Bundle](https://www.creativefabrica.com/product/christmas-tree-bundle-holiday-png-design/ref/29328369/?subid=hubhum_01_MER054) · [Christmas Font](https://www.creativefabrica.com/product/christmas-font/ref/29328369/?subid=hubhum_01_MER054)\n"
+            f"- **Systeme.io Free Forever ($0/mo, #ad):** Landing pages, 2,000 email contacts & digital product checkout with zero credit card → [Create Free Account](https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061)\n\n"
+            f"---\n"
+            f"*Full comparison tables & 1,750+ plain-English open-source app guides: [Open HubHum Deals Hub]({canonical_url}).*\n"
+        )
+        return {
+            "kind": "deals",
+            "slug": "deals",
+            "vertical": "cloud_vps_hosting",
+            "epc_score": 100,
+            "cta_hook": hook,
+            "title": title,
+            "summary": summary,
+            "canonical_url": canonical_url,
+            "body_markdown": article_md,
+            "tags": ["opensource", "selfhosted", "devops", "productivity"],
+        }
+
     candidates: list[tuple[int, str, str, str, Path, dict[str, object], str]] = []
 
     for b_path in sorted(CONTENT_BUNDLES_DIR.glob("*.md")):
@@ -183,6 +228,9 @@ def publish_devto(post: dict[str, object], dry_run: bool = False) -> str:
 
 
 def publish_hashnode(post: dict[str, object], dry_run: bool = False) -> str:
+    if os.getenv("HASHNODE_ENABLE_PRO", "false").lower() != "true":
+        print("[DISTRIBUTE SKIP] Hashnode: disabled by default (free GraphQL API retired 301; set HASHNODE_ENABLE_PRO=true for Pro)")
+        return "skipped"
     token = os.getenv("HASHNODE_TOKEN", "").strip()
     pub_id = os.getenv("HASHNODE_PUB_ID", "").strip()
     if not token or not pub_id:

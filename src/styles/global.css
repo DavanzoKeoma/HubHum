@@ -1280,3 +1280,165 @@ select:focus-visible {
   font-weight: 700;
   color: var(--text);
 }
+
+/* Black Friday / Deals Banner & Hub */
+.deals-banner {
+  background: var(--cloud);
+  color: #ffffff;
+  font-size: 0.85rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.deals-banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+}
+
+.deals-banner-link {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.deals-banner-link:hover {
+  text-decoration: underline;
+}
+
+.deals-banner-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.deals-banner-close {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+  border-radius: var(--radius-md);
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-weight: 700;
+}
+
+.deals-banner-close:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.deals-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.deal-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.deal-card.primary {
+  border: 2px solid var(--cloud);
+  background: var(--aff-card-bg);
+}
+
+.deal-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.45rem;
+  margin-bottom: 0.6rem;
+}
+
+.deal-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.12rem;
+}
+
+.deal-bullets {
+  margin: 0 0 1rem;
+  padding-left: 1.15rem;
+  font-size: 0.87rem;
+  color: var(--text-muted);
+  display: grid;
+  gap: 0.3rem;
+}
+
+.freebies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.85rem;
+}
+
+.freebie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.45rem;
+  padding: 0.95rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg);
+  text-decoration: none !important;
+  color: var(--text) !important;
+}
+
+.freebie-card:hover {
+  border-color: var(--cloud);
+}
+
+/* Visually Prominent Primary CTA inside Sponsored Partner Tools (#ad) */
+.article-card h3[id*='sponsored-partner-tools'] + p + ul {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.article-card h3[id*='sponsored-partner-tools'] + p + ul > li {
+  padding: 0.72rem 0.9rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg);
+  font-size: 0.92rem;
+}
+
+.article-card h3[id*='sponsored-partner-tools'] + p + ul > li:first-child {
+  border: 2px solid var(--cloud);
+  background: var(--aff-card-bg);
+  padding: 0.95rem 1.05rem;
+}
+
+.article-card h3[id*='sponsored-partner-tools'] + p + ul > li:first-child a {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.25rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: var(--radius-md);
+  background: var(--cloud);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
+.article-card h3[id*='sponsored-partner-tools'] + p + ul > li:first-child a:hover {
+  background: var(--cloud-hover);
+}

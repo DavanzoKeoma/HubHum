@@ -108,6 +108,34 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
     </script>
   </head>
   <body>
+    <div id="bf-deals-banner" class="deals-banner" role="region" aria-label="Seasonal partner deals" style="display:none;">
+      <div class="container deals-banner-inner">
+        <a href={withBase('/deals/')} class="deals-banner-link">
+          <span class="deals-banner-badge">Black Friday 2026</span>
+          <span>Self-Hosted VPS from $3/mo, Privacy VPNs &amp; Holiday Design Freebies (#ad) →</span>
+        </a>
+        <button type="button" id="bf-deals-close" class="deals-banner-close" aria-label="Dismiss deals banner">✕</button>
+      </div>
+    </div>
+    <script is:inline>
+      (function () {
+        try {
+          var cutoff = new Date('2026-12-07T00:00:00Z').getTime();
+          if (Date.now() < cutoff && localStorage.getItem('hubhum_bf_banner_dismissed') !== '1') {
+            var b = document.getElementById('bf-deals-banner');
+            if (b) b.style.display = 'block';
+          }
+          var closeBtn = document.getElementById('bf-deals-close');
+          if (closeBtn) {
+            closeBtn.addEventListener('click', function () {
+              var b = document.getElementById('bf-deals-banner');
+              if (b) b.style.display = 'none';
+              try { localStorage.setItem('hubhum_bf_banner_dismissed', '1'); } catch (_) {}
+            });
+          }
+        } catch (_) {}
+      })();
+    </script>
     <header class="site-header">
       <div class="container header-inner">
         <a href={withBase('/')} class="brand" aria-label="HubHum — A Git Hub for Humans">
@@ -131,6 +159,14 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
         </script>
 
         <nav class="header-controls" aria-label="Main navigation">
+          <a
+            href={withBase('/deals/')}
+            class="icon-nav-link"
+            aria-label="Partner Deals and Freebies"
+          >
+            <span>★ Deals</span>
+          </a>
+
           <a
             href={withBase('/guides/')}
             class="icon-nav-link"
@@ -225,6 +261,7 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
       </div>
 
       <div id="mobile-drawer" class="container mobile-drawer" aria-label="Mobile navigation">
+        <a href={withBase('/deals/')} class="btn btn-primary">★ 2026 Deals &amp; Freebies</a>
         <a href={withBase('/guides/')} class="btn btn-outline" data-i18n="navGuides">Topic Guides</a>
         <a href={withBase('/#top-picks')} class="btn btn-outline" data-i18n="navTopPicks">Top Picks</a>
         <a href={withBase('/#submit')} class="btn btn-outline" data-i18n="navSubmit">Submit an App</a>
@@ -281,6 +318,7 @@ const gaMeasurementId = /^(G|GT|AW)-[A-Z0-9]+$/i.test(rawGaId) ? rawGaId : '';
           All listed software links strictly to official creator channels in full respect of open-source licenses.
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:1rem;margin-top:0.35rem;font-weight:600;color:var(--text);">
+          <a href={withBase('/deals/')} style="text-decoration:underline;">Deals &amp; Freebies</a>
           <a href={withBase('/guides/')} style="text-decoration:underline;" data-i18n="navGuides">Topic Guides</a>
           <a href={withBase('/about/')} style="text-decoration:underline;" data-i18n="aboutLink">About &amp; Transparency</a>
           <a href={withBase('/privacy/')} style="text-decoration:underline;" data-i18n="privacyLink">Privacy Policy</a>

@@ -17,6 +17,17 @@ def sync_affiliates() -> int:
     """Update affiliate_url and inline markdown links when data/affiliates_seed.json changes."""
     seed = json.loads(AFFILIATES_PATH.read_text(encoding="utf-8"))
     merchants_by_id = seed.get("merchants_by_id", {})
+    valid_urls_by_mid: dict[str, set[str]] = {}
+    for mid_k, m_obj in merchants_by_id.items():
+        if m_obj.get("tracking_url"):
+            valid_urls_by_mid.setdefault(mid_k, set()).add(str(m_obj["tracking_url"]))
+    for cat_obj in (seed.get("categories") or {}).values():
+        for m_obj in (cat_obj.get("merchants") or []) + (cat_obj.get("recommended_triplet") or []):
+            mk = str(m_obj.get("merchant_id") or "")
+            tu = str(m_obj.get("tracking_url") or "")
+            if mk and tu:
+                valid_urls_by_mid.setdefault(mk, set()).add(tu)
+
     updated_count = 0
 
     for md_path in sorted(CONTENT_APPS_DIR.glob("*.md")):
@@ -29,7 +40,7 @@ def sync_affiliates() -> int:
             continue
 
         new_url = merchant["tracking_url"]
-        if not new_url or old_url == new_url:
+        if not new_url or old_url == new_url or old_url in valid_urls_by_mid.get(mid, set()):
             continue
 
         updated = raw

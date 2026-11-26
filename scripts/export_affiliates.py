@@ -16,18 +16,27 @@ CONSUMER_BASE_URLS: dict[str, str] = {
     "MER_047": "https://billing.purevpn.com/aff.php?aff=49386762",
     "MER_119": "https://adguard.com/?aid=138327",
     "MER_096": "https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89",
-    "MER_008": "https://www.interserver.net/r/1196747?id={clickid}",
-    "MER_062": "https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi",
-    "MER_007": "https://www.namesilo.com/?rid=b01c445hx",
+    "MER_008": "https://www.interserver.net/vps?id=1196747&sid={clickid}",
+    "MER_063": "https://www.greengeeks.com/track/affiliatechproject/cp-ffltc/lp-1",
+    "MER_062": "https://hosting.com/hosting/vps-hosting/managed/linux/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi",
     "MER_054": "https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=[clickid]",
     "MER_061": "https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee",
+}
+
+CATEGORY_URL_OVERRIDES: dict[tuple[str, str], str] = {
+    ("webapp_cms", "MER_008"): "https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008",
+    ("webapp_cms", "MER_062"): "https://hosting.com/hosting/vps-hosting/managed/linux/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062",
+    ("webdev_wordpress", "MER_008"): "https://www.interserver.net/webhosting?id=1196747&sid=hubhum_01_MER008",
+    ("webdev_wordpress", "MER_062"): "https://hosting.com/hosting/platforms/wordpress-hosting/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062",
+    ("productivity_utilities", "MER_008"): "https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008",
 }
 
 VERIFIED_TRACKING_TOKENS = (
     "aff=",
     "aid=",
     "a_aid=",
-    "/r/1196747",
+    "id=1196747",
+    "/track/affiliatechproject/",
     "fpr=",
     "rid=",
     "/ref/29328369",
@@ -58,21 +67,21 @@ TRIPLET_DEFINITIONS: dict[str, list[dict[str, str]]] = {
     "webapp_cms": [
         {
             "merchant_id": "MER_008",
-            "context_role": "managed_cloud_hosting",
+            "context_role": "managed_cloud_vps",
             "section_hint": "### Sponsored Partner Tools (#ad)",
-            "tip_template": "Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month with [InterServer]({url}) (#ad).",
+            "tip_template": "Launch and host self-hosted web apps and Local AI stacks 24/7 on Linux Cloud VPS servers starting at $3/month with [InterServer VPS]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_063",
+            "context_role": "eco_managed_hosting",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Run web apps on 300% green-energy SSD hosting with free SSL, nightly backups, and 1-click setup via [GreenGeeks]({url}) (#ad).",
         },
         {
             "merchant_id": "MER_062",
-            "context_role": "high_speed_turbo_hosting",
+            "context_role": "high_speed_managed_vps",
             "section_hint": "### Sponsored Partner Tools (#ad)",
-            "tip_template": "Scale self-hosted web workspaces and databases with high-speed NVMe Turbo cloud hosting on [Hosting.com (ex A2 Hosting)]({url}) (#ad).",
-        },
-        {
-            "merchant_id": "MER_007",
-            "context_role": "domain_registrar",
-            "section_hint": "### Sponsored Partner Tools (#ad)",
-            "tip_template": "Connect a custom domain at wholesale rates with free lifetime WHOIS privacy and instant DNS via [NameSilo]({url}) (#ad).",
+            "tip_template": "Scale self-hosted web workspaces and databases with high-speed Managed Linux VPS on [Hosting.com (ex A2 Hosting)]({url}) (#ad).",
         },
     ],
     "graphics_video_design": [
@@ -98,21 +107,21 @@ TRIPLET_DEFINITIONS: dict[str, list[dict[str, str]]] = {
     "webdev_wordpress": [
         {
             "merchant_id": "MER_008",
-            "context_role": "reliable_cloud_hosting",
+            "context_role": "reliable_web_hosting",
             "section_hint": "### Sponsored Partner Tools (#ad)",
-            "tip_template": "Run your website or publishing stack 24/7 on dependable, budget-friendly cloud VPS hosting via [InterServer]({url}) (#ad).",
+            "tip_template": "Run your website or publishing stack 24/7 on dependable, price-locked web hosting via [InterServer Web Hosting]({url}) (#ad).",
+        },
+        {
+            "merchant_id": "MER_063",
+            "context_role": "eco_wordpress_hosting",
+            "section_hint": "### Sponsored Partner Tools (#ad)",
+            "tip_template": "Launch fast WordPress and publishing sites with free domain, SSL, and LiteSpeed caching on [GreenGeeks]({url}) (#ad).",
         },
         {
             "merchant_id": "MER_062",
-            "context_role": "turbo_web_hosting",
+            "context_role": "managed_wordpress_hosting",
             "section_hint": "### Sponsored Partner Tools (#ad)",
-            "tip_template": "Accelerate dynamic websites and publishing dashboards with NVMe Turbo servers on [Hosting.com (ex A2 Hosting)]({url}) (#ad).",
-        },
-        {
-            "merchant_id": "MER_007",
-            "context_role": "domain_privacy_dns",
-            "section_hint": "### Sponsored Partner Tools (#ad)",
-            "tip_template": "Register your project domain with free WHOIS privacy protection and straightforward DNS management on [NameSilo]({url}) (#ad).",
+            "tip_template": "Accelerate dynamic websites and publishing dashboards with Managed WordPress NVMe servers on [Hosting.com (ex A2 Hosting)]({url}) (#ad).",
         },
     ],
     "productivity_utilities": [
@@ -132,7 +141,7 @@ TRIPLET_DEFINITIONS: dict[str, list[dict[str, str]]] = {
             "merchant_id": "MER_008",
             "context_role": "cloud_backup_storage",
             "section_hint": "### Sponsored Partner Tools (#ad)",
-            "tip_template": "Store off-site backups and private cloud utilities reliably 24/7 on affordable VPS hosting via [InterServer]({url}) (#ad).",
+            "tip_template": "Store off-site backups and private cloud utilities reliably 24/7 on affordable Linux VPS hosting via [InterServer VPS]({url}) (#ad).",
         },
     ],
 }
@@ -166,24 +175,24 @@ CATEGORY_MAPPING: dict[str, dict[str, object]] = {
     "webapp_cms": {
         "label": "Web Apps, CMS & Cloud Tools",
         "human_tags": ["webapp", "cms", "cloud", "self-hosted", "blog", "automation"],
-        "merchant_ids": ["MER_008", "MER_062", "MER_007"],
-        "injection_message": "Prefer not to configure a server manually? Launch it in 1 click on managed cloud hosting.",
+        "merchant_ids": ["MER_008", "MER_063", "MER_062"],
+        "injection_message": "Prefer not to configure a server manually? Launch it in 1 click on a $3/mo Linux Cloud VPS.",
         "cta_label": "Open in Cloud (1-Click)",
         "i18n": {
             "it": {
-                "injection_message": "Non vuoi configurare un server a mano? Avvialo in 1 click su un hosting cloud gestito.",
+                "injection_message": "Non vuoi configurare un server a mano? Avvialo in 1 click su un VPS Cloud Linux da 3$/mese.",
                 "cta_label": "Apri nel Cloud (1-Click)",
             },
             "es": {
-                "injection_message": "¿No quieres configurar un servidor manualmente? Ábrelo en 1 clic en un hosting optimizado.",
+                "injection_message": "¿No quieres configurar un servidor manualmente? Ábrelo en 1 clic en un VPS Cloud Linux desde $3/mes.",
                 "cta_label": "Abrir en la Nube (1-Clic)",
             },
             "fr": {
-                "injection_message": "Vous ne voulez pas configurer un serveur manuellement ? Lancez-le en 1 clic sur un hébergement optimisé.",
+                "injection_message": "Vous ne voulez pas configurer un serveur manuellement ? Lancez-le en 1 clic sur un VPS Cloud Linux dès 3 $/mois.",
                 "cta_label": "Ouvrir dans le Cloud (1-Clic)",
             },
             "de": {
-                "injection_message": "Sie möchten keinen Server manuell einrichten? Starten Sie die App mit 1 Klick auf optimiertem Cloud-Hosting.",
+                "injection_message": "Sie möchten keinen Server manuell einrichten? Starten Sie die App mit 1 Klick auf einem Linux-Cloud-VPS ab 3 $/Monat.",
                 "cta_label": "In der Cloud öffnen (1-Klick)",
             },
         },
@@ -216,25 +225,25 @@ CATEGORY_MAPPING: dict[str, dict[str, object]] = {
     "webdev_wordpress": {
         "label": "Websites & Publishing",
         "human_tags": ["wordpress", "seo", "websites", "ecommerce", "landing", "productivity"],
-        "merchant_ids": ["MER_008", "MER_062", "MER_007"],
-        "injection_message": "Host and publish your website faster on reliable cloud infrastructure and custom domains.",
-        "cta_label": "Explore cloud hosting & domains",
+        "merchant_ids": ["MER_008", "MER_063", "MER_062"],
+        "injection_message": "Host and publish your website faster on price-locked web hosting and managed WordPress servers.",
+        "cta_label": "Explore web hosting deals",
         "i18n": {
             "it": {
-                "injection_message": "Ospita e pubblica il tuo sito più velocemente su infrastruttura cloud affidabile e domini dedicati.",
-                "cta_label": "Scopri hosting cloud e domini",
+                "injection_message": "Ospita e pubblica il tuo sito più velocemente su web hosting a prezzo bloccato e server WordPress gestiti.",
+                "cta_label": "Scopri offerte web hosting",
             },
             "es": {
-                "injection_message": "Aloja y publica tu sitio web más rápido con hosting cloud confiable y dominios propios.",
-                "cta_label": "Explorar hosting y dominios",
+                "injection_message": "Aloja y publica tu sitio web más rápido con web hosting a precio fijo y servidores WordPress gestionados.",
+                "cta_label": "Explorar ofertas hosting",
             },
             "fr": {
-                "injection_message": "Hébergez et publiez votre site plus vite sur une infrastructure cloud fiable et des domaines dédiés.",
-                "cta_label": "Découvrir hébergement et domaines",
+                "injection_message": "Hébergez et publiez votre site plus vite sur un hébergement à prix bloqué et des serveurs WordPress gérés.",
+                "cta_label": "Découvrir offres hébergement",
             },
             "de": {
-                "injection_message": "Hosten und veröffentlichen Sie Ihre Website schneller auf zuverlässiger Cloud-Infrastruktur mit eigener Domain.",
-                "cta_label": "Cloud-Hosting & Domains entdecken",
+                "injection_message": "Hosten und veröffentlichen Sie Ihre Website schneller auf preisstabilen Webhosting- und Managed-WordPress-Servern.",
+                "cta_label": "Webhosting-Angebote entdecken",
             },
         },
     },
@@ -345,9 +354,7 @@ def _build_merchant_entry(mid: str, cat_key: str, m: dict, link_cfg: dict | None
     subid = build_subid(mid)
     raw_template = link_cfg["URL_Affiliato"] if link_cfg else CONSUMER_BASE_URLS.get(mid, m["URL_Policy"])
     tracking_url = apply_subid_to_url(raw_template, subid)
-    has_verified_tracking = (bool(link_cfg) or ("aff=" in (m.get("URL_Policy") or ""))) and any(
-        tok in tracking_url for tok in VERIFIED_TRACKING_TOKENS
-    )
+    has_verified_tracking = any(tok in tracking_url for tok in VERIFIED_TRACKING_TOKENS)
     if not has_verified_tracking:
         raise RuntimeError(f"Merchant {mid} ({m['Nome']}) privo di Affiliate ID verificato in tracking_url: {tracking_url}")
 
@@ -386,20 +393,28 @@ def build_seed_payload(db_path: Path) -> dict:
         merchants_index[mid] = _build_merchant_entry(mid, cat_key, m, active_links.get(mid))
 
     for cat_key, cat_cfg in CATEGORY_MAPPING.items():
-        cat_merchants = [merchants_index[mid] for mid in cat_cfg["merchant_ids"]]  # type: ignore[index]
+        cat_merchants = []
+        for mid in cat_cfg["merchant_ids"]:  # type: ignore[index]
+            base_entry = dict(merchants_index[mid])
+            override_url = CATEGORY_URL_OVERRIDES.get((cat_key, mid))
+            if override_url:
+                base_entry["tracking_url"] = override_url
+            cat_merchants.append(base_entry)
 
         triplet_out = []
         for tdef in TRIPLET_DEFINITIONS[cat_key]:
-            m_entry = merchants_index[tdef["merchant_id"]]
+            mid = tdef["merchant_id"]
+            m_entry = merchants_index[mid]
+            eff_url = CATEGORY_URL_OVERRIDES.get((cat_key, mid), m_entry["tracking_url"])
             triplet_out.append(
                 {
                     "merchant_id": m_entry["merchant_id"],
                     "name": m_entry["name"],
-                    "tracking_url": m_entry["tracking_url"],
+                    "tracking_url": eff_url,
                     "subid": m_entry["subid"],
                     "context_role": tdef["context_role"],
                     "section_hint": tdef["section_hint"],
-                    "natural_tip": tdef["tip_template"].format(url=m_entry["tracking_url"]),
+                    "natural_tip": tdef["tip_template"].format(url=eff_url),
                 }
             )
 

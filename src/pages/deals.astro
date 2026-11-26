@@ -1,0 +1,386 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
+
+const siteOrigin = (Astro.site?.toString() || 'https://davanzokeoma.github.io').replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}${withBase('/deals/')}`;
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'HubHum Deals — Best Cloud VPS, Privacy & Creator Companion Offers (2026)',
+    description:
+      'Hand-picked partner deals and zero-cost freebies curated for open-source users: 1-click self-hosted VPS hosting, audited VPN & ad-blocking tools, and free commercial-safe creator assets.',
+    url: canonicalUrl,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'HubHum', item: `${siteOrigin}${withBase('/')}` },
+      { '@type': 'ListItem', position: 2, name: 'Partner Deals & Freebies', item: canonicalUrl },
+    ],
+  },
+];
+
+const links = {
+  interserverVps: 'https://www.interserver.net/vps?id=1196747&sid=hubhum_01_MER008',
+  interserverWeb: 'https://www.interserver.net/webhosting?id=1196747&sid=hubhum_01_MER008',
+  greengeeks: 'https://www.greengeeks.com/track/affiliatechproject/cp-ffltc/lp-1?subid=hubhum_01_MER063',
+  hostingVps:
+    'https://hosting.com/hosting/vps-hosting/managed/linux/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062',
+  hostingWp:
+    'https://hosting.com/hosting/platforms/wordpress-hosting/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062',
+  purevpn: 'https://billing.purevpn.com/aff.php?aff=49386762&subid=hubhum_01_MER047',
+  adguard: 'https://adguard.com/?aid=138327&subid=hubhum_01_MER119',
+  fastestvpn: 'https://fastestvpn.com/pro-lifetime-deal?a_aid=f17al0282rd89&subid=hubhum_01_MER096',
+  cfYearly: 'https://www.creativefabrica.com/promo/yearly/ref/29328369/?subid=hubhum_01_MER054',
+  cfFreeLightning: 'https://www.creativefabrica.com/product/lightning-script/ref/29328369/?subid=hubhum_01_MER054',
+  cfFreeXmasTree:
+    'https://www.creativefabrica.com/product/christmas-tree-bundle-holiday-png-design/ref/29328369/?subid=hubhum_01_MER054',
+  cfFreeXmasFont: 'https://www.creativefabrica.com/product/christmas-font/ref/29328369/?subid=hubhum_01_MER054',
+  cfFreebiesHub: 'https://www.creativefabrica.com/freebies/ref/29328369/?subid=hubhum_01_MER054',
+  systeme: 'https://systeme.io/?sa=sa023692845080664785297106081136cf8d3a59ee&subid=hubhum_01_MER061',
+};
+---
+
+<BaseLayout
+  title="Black Friday & Year-End Deals for Open-Source Stacks — HubHum"
+  description="Verified Black Friday & Cyber Monday 2026 partner deals and freebies for self-hosted cloud apps, privacy stacks, and open-source creators."
+  jsonLd={jsonLd}
+>
+  <div class="container detail-wrap">
+    <nav class="cluster-breadcrumbs" aria-label="Breadcrumb">
+      <a href={withBase('/')}>HubHum</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page" style="font-weight:700;color:var(--text);">Deals &amp; Freebies (2026)</span>
+    </nav>
+
+    <section class="detail-hero deals-hero">
+      <div style="max-width:760px;">
+        <div style="display:flex;flex-wrap:wrap;gap:0.45rem;align-items:center;margin-bottom:0.5rem;">
+          <span class="mode-badge cloud">Black Friday / Cyber Monday 2026</span>
+          <span class="new-badge">100% Verified Direct Links</span>
+          <span class="tag-chip">#ad Sponsored Partners</span>
+        </div>
+        <h1 style="margin:0;font-size:clamp(1.65rem,3.3vw,2.3rem);line-height:1.15;">
+          Best Companion Deals for Free &amp; Open-Source Stacks
+        </h1>
+        <p style="margin:0.55rem 0 0;color:var(--text-muted);font-size:0.98rem;">
+          Every open-source app on HubHum is 100% free. When you need a 24/7 cloud server, audited privacy tunnel, or commercial-safe creative assets to unlock your setup, these curated partner offers save you hours and money.
+        </p>
+      </div>
+      <div class="detail-actions">
+        <a href="#cloud-stack" class="btn btn-primary">Cloud &amp; Local AI</a>
+        <a href="#privacy-stack" class="btn btn-outline">Privacy &amp; AdBlock</a>
+        <a href="#creator-stack" class="btn btn-outline">Creator &amp; Freebies</a>
+      </div>
+    </section>
+
+    <div class="disclosure-note" style="margin-top:0;margin-bottom:1.5rem;">
+      <strong>Affiliate transparency (#ad):</strong> Links on this page are sponsored partner links. If you activate a plan or free trial through them, HubHum may earn a commission at no extra cost to you — funding our ad-free open-source catalog.
+    </div>
+
+    <!-- STACK 1: SELF-HOSTED & LOCAL AI -->
+    <section id="cloud-stack" class="section-block">
+      <div class="section-head">
+        <div>
+          <h2>1. Self-Hosted &amp; Local AI Cloud Stack</h2>
+          <span class="section-sub">
+            Run <a href={withBase('/apps/n8n/')} style="text-decoration:underline;font-weight:600;">n8n</a>,{' '}
+            <a href={withBase('/apps/open-webui/')} style="text-decoration:underline;font-weight:600;">Open WebUI</a>,{' '}
+            <a href={withBase('/apps/immich/')} style="text-decoration:underline;font-weight:600;">Immich</a>, and Ghost online 24/7 without keeping your home PC running.
+          </span>
+        </div>
+        <a href={withBase('/guides/deals/best-self-hosted-ai-vps-deals-2026/')} class="btn btn-outline">
+          Read Full Cloud VPS Comparison →
+        </a>
+      </div>
+
+      <div class="deals-stack-grid">
+        <article class="deal-card primary">
+          <div class="deal-card-head">
+            <span class="mode-badge cloud">★ Best Value VPS Pick (#ad)</span>
+            <span class="new-badge">From $3/mo</span>
+          </div>
+          <h3>InterServer Linux Cloud VPS</h3>
+          <p class="app-summary">
+            Flexible KVM slices with root SSH, Docker readiness, and InterServer's Price-Lock Guarantee. Ideal for self-hosting n8n workflows, Open WebUI, Vaultwarden, or Immich backups 24/7.
+          </p>
+          <ul class="deal-bullets">
+            <li>1-click Ubuntu / Debian / Docker templates</li>
+            <li>No surprise renewal price hikes</li>
+            <li>Also available: <a href={links.interserverWeb} target="_blank" rel="sponsored noopener noreferrer" style="text-decoration:underline;">Price-Locked Web Hosting (#ad)</a></li>
+          </ul>
+          <a href={links.interserverVps} target="_blank" rel="sponsored noopener noreferrer" class="btn btn-primary" style="width:100%;">
+            Launch on InterServer VPS (#ad) →
+          </a>
+        </article>
+
+        <article class="deal-card">
+          <div class="deal-card-head">
+            <span class="mode-badge selfhosted">Eco Managed Hosting (#ad)</span>
+            <span class="tag-chip">300% Green Energy</span>
+          </div>
+          <h3>GreenGeeks Eco SSD Hosting</h3>
+          <p class="app-summary">
+            Beginner-friendly managed hosting with LiteSpeed caching, free SSL, nightly automated backups, and 1-click CMS/blog installers for WordPress and open-source web portals.
+          </p>
+          <ul class="deal-bullets">
+            <li>Free domain for 1st year + free SSL</li>
+            <li>Automatic nightly backups included</li>
+            <li>30-day money-back guarantee</li>
+          </ul>
+          <a href={links.greengeeks} target="_blank" rel="sponsored noopener noreferrer" class="btn btn-outline" style="width:100%;">
+            Explore GreenGeeks Deal (#ad) →
+          </a>
+        </article>
+
+        <article class="deal-card">
+          <div class="deal-card-head">
+            <span class="mode-badge">Managed NVMe Turbo (#ad)</span>
+            <span class="tag-chip">Hands-Off Ops</span>
+          </div>
+          <h3>Hosting.com Managed Linux VPS</h3>
+          <p class="app-summary">
+            High-speed NVMe Managed VPS (formerly A2 Hosting) built for demanding self-hosted apps, team dashboards, and high-traffic sites that need 24/7 managed server support.
+          </p>
+          <ul class="deal-bullets">
+            <li>Managed Linux security patching &amp; NVMe speed</li>
+            <li>Dedicated support for server migrations</li>
+            <li>Need WordPress? <a href={links.hostingWp} target="_blank" rel="sponsored noopener noreferrer" style="text-decoration:underline;">Managed WordPress Hosting (#ad)</a></li>
+          </ul>
+          <a href={links.hostingVps} target="_blank" rel="sponsored noopener noreferrer" class="btn btn-outline" style="width:100%;">
+            View Hosting.com Managed VPS (#ad) →
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- STACK 2: PRIVACY, SECURITY & AD-FREE -->
+    <section id="privacy-stack" class="section-block">
+      <div class="section-head">
+        <div>
+          <h2>2. Privacy, Security &amp; Ad-Free Stack</h2>
+          <span class="section-sub">
+            Pair <a href={withBase('/apps/keepassxc/')} style="text-decoration:underline;font-weight:600;">KeePassXC</a>,{' '}
+            <a href={withBase('/apps/vlc/')} style="text-decoration:underline;font-weight:600;">VLC</a>,{' '}
+            <a href={withBase('/apps/handbrake/')} style="text-decoration:underline;font-weight:600;">HandBrake</a>, and{' '}
+            <a href={withBase('/apps/yt-dlp/')} style="text-decoration:underline;font-weight:600;">yt-dlp</a> with encrypted connections and system-wide tracker blocking.
+          </span>
+        </div>
+        <a href={withBase('/guides/deals/best-free-privacy-vpn-adblock-stack-2026/')} class="btn btn-outline">
+          Read Privacy Stack Guide →
+        </a>
+      </div>
+
+      <div class="deals-stack-grid">
+        <article class="deal-card primary">
+          <div class="deal-card-head">
+            <span class="mode-badge cloud">★ Top Privacy Pick (#ad)</span>
+            <span class="new-badge">Black Friday Promo</span>
+          </div>
+          <h3>PureVPN Encrypted Tunnel</h3>
+          <p class="app-summary">
+            Always-on audited no-log VPN with 20 Gbps WireGuard servers, split tunneling, and 10 simultaneous connections — keep large downloads and public Wi-Fi sessions private.
+          </p>
+          <ul class="deal-bullets">
+            <li>Independently audited always-on no-log policy</li>
+            <li>Native apps for Windows, macOS, Linux, Android &amp; iOS</li>
+            <li>31-day risk-free refund window</li>
+          </ul>
+          <a href={links.purevpn} target="_blank" rel="sponsored noopener noreferrer" class="btn btn-primary" style="width:100%;">
+            Claim PureVPN Offer (#ad) →
+          </a>
+        </article>
+
+        <article class="deal-card">
+          <div class="deal-card-head">
+            <span class="mode-badge selfhosted">System-Wide AdBlock (#ad)</span>
+            <span class="tag-chip">Desktop + Mobile</span>
+          </div>
+          <h3>AdGuard Ad &amp; Tracker Blocker</h3>
+          <p class="app-summary">
+            Works outside the browser to stop video ads, telemetry trackers, and phishing domains across every desktop and mobile app without breaking open-source tools.
+          </p>
+          <ul class="deal-bullets">
+            <li>Blocks ads across Chrome, Firefox, Edge &amp; native apps</li>
+            <li>Built-in DNS privacy &amp; anti-phishing filters</li>
+            <li>Available as affordable annual or lifetime license</li>
+          </ul>
+          <a href={links.adguard} target="_blank" rel="sponsored noopener noreferrer" class="btn btn-outline" style="width:100%;">
+            Protect Devices with AdGuard (#ad) →
+          </a>
+        </article>
+
+        <article class="deal-card">
+          <div class="deal-card-head">
+            <span class="mode-badge">One-Time Payment (#ad)</span>
+            <span class="tag-chip">Pro Lifetime Deal</span>
+          </div>
+          <h3>FastestVPN Pro Lifetime</h3>
+          <p class="app-summary">
+            Skip recurring monthly VPN bills with a single one-time payment covering WireGuard speeds, built-in malware protection, and up to 15 multi-login devices.
+          </p>
+          <ul class="deal-bullets">
+            <li>Pay once, zero recurring subscription renewals</li>
+            <li>Built-in ad blocker &amp; NAT firewall</li>
+            <li>31-day money-back guarantee</li>
+          </ul>
+          <a href={links.fastestvpn} target="_blank" rel="sponsored noopener noreferrer" class="btn btn-outline" style="width:100%;">
+            Check FastestVPN Lifetime (#ad) →
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- STACK 3: CREATOR & HOLIDAY FREEBIES -->
+    <section id="creator-stack" class="section-block">
+      <div class="section-head">
+        <div>
+          <h2>3. Creator &amp; Holiday Freebies Stack (Zero Friction)</h2>
+          <span class="section-sub">
+            Supercharge <a href={withBase('/apps/audacity/')} style="text-decoration:underline;font-weight:600;">Audacity</a>,{' '}
+            <a href={withBase('/apps/losslesscut/')} style="text-decoration:underline;font-weight:600;">LosslessCut</a>, and{' '}
+            <a href={withBase('/apps/shotcut/')} style="text-decoration:underline;font-weight:600;">Shotcut</a> with commercial-safe creative assets and free-forever publishing tools.
+          </span>
+        </div>
+        <a href={withBase('/guides/deals/best-free-creator-tools-holiday-freebies-2026/')} class="btn btn-outline">
+          Read Creator Freebies Guide →
+        </a>
+      </div>
+
+      <div class="deals-stack-grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));">
+        <article class="deal-card primary">
+          <div class="deal-card-head">
+            <span class="mode-badge cloud">★ Top Creator Deal (#ad)</span>
+            <span class="new-badge">All Access Promo</span>
+          </div>
+          <h3>Creative Fabrica All Access Yearly</h3>
+          <p class="app-summary">
+            Unlock millions of commercial-safe fonts, lower-thirds, SVG bundles, thumbnails, and graphic templates ready to drop directly into your free open-source video and design editors.
+          </p>
+          <ul class="deal-bullets">
+            <li>Commercial license included on every download</li>
+            <li>Compatible with Inkscape, GIMP, Shotcut, OBS &amp; Blender</li>
+            <li>Huge seasonal discount on the Yearly All Access pass</li>
+          </ul>
+          <a href={links.cfYearly} target="_blank" rel="sponsored noopener noreferrer" class="btn btn-primary" style="width:100%;">
+            Unlock Creative Fabrica Yearly Promo (#ad) →
+          </a>
+        </article>
+
+        <article class="deal-card primary">
+          <div class="deal-card-head">
+            <span class="mode-badge selfhosted">★ $0 Forever Free Tier (#ad)</span>
+            <span class="new-badge">No Credit Card</span>
+          </div>
+          <h3>Systeme.io All-in-One Creator Platform</h3>
+          <p class="app-summary">
+            Publish landing pages, collect up to 2,000 email subscribers, automate newsletters, and sell digital downloads or courses on a genuine Free Forever plan with zero monthly fees.
+          </p>
+          <ul class="deal-bullets">
+            <li>Free forever tier — no credit card required to start</li>
+            <li>Built-in blog, email automation &amp; digital checkout</li>
+            <li>Replaces 3–4 paid SaaS subscriptions immediately</li>
+          </ul>
+          <a href={links.systeme} target="_blank" rel="sponsored noopener noreferrer" class="btn btn-cloud" style="width:100%;">
+            Create Free Systeme.io Account (#ad) →
+          </a>
+        </article>
+      </div>
+
+      <div class="article-card" style="margin-top:1.15rem;">
+        <div class="section-head" style="margin-bottom:0.75rem;">
+          <div>
+            <h3 style="margin:0;font-size:1.12rem;">Free Fonts &amp; Holiday Design Freebies (#ad)</h3>
+            <span class="section-sub">
+              Start at $0: grab these verified seasonal assets directly from Creative Fabrica with commercial licensing included.
+            </span>
+          </div>
+          <a href={links.cfFreebiesHub} target="_blank" rel="sponsored noopener noreferrer" class="btn btn-outline">
+            Browse All Daily Freebies (#ad) →
+          </a>
+        </div>
+        <div class="freebies-grid">
+          <a href={links.cfFreeLightning} target="_blank" rel="sponsored noopener noreferrer" class="freebie-card">
+            <span class="new-badge">Free Font</span>
+            <strong>Lightning Script Font</strong>
+            <span class="section-sub">Hand-lettered display script ideal for YouTube thumbnails, posters, and brand titles.</span>
+            <span class="card-cta">Download Freebie (#ad) →</span>
+          </a>
+          <a href={links.cfFreeXmasTree} target="_blank" rel="sponsored noopener noreferrer" class="freebie-card">
+            <span class="new-badge">Holiday PNG Bundle</span>
+            <strong>Christmas Tree Holiday PNG Bundle</strong>
+            <span class="section-sub">High-resolution transparent PNG graphics ready for seasonal overlays, cards, and prints.</span>
+            <span class="card-cta">Download Freebie (#ad) →</span>
+          </a>
+          <a href={links.cfFreeXmasFont} target="_blank" rel="sponsored noopener noreferrer" class="freebie-card">
+            <span class="new-badge">Seasonal Display</span>
+            <strong>Christmas Font</strong>
+            <span class="section-sub">Festive decorative typeface ready for holiday banners, video titles, and social graphics.</span>
+            <span class="card-cta">Download Freebie (#ad) →</span>
+          </a>
+          <a href={links.cfFreebiesHub} target="_blank" rel="sponsored noopener noreferrer" class="freebie-card">
+            <span class="mode-badge cloud">Updated Daily</span>
+            <strong>Creative Fabrica Freebies Vault</strong>
+            <span class="section-sub">Explore fresh daily free fonts, SVG craft packs, and graphic templates at $0.</span>
+            <span class="card-cta">Open Freebies Vault (#ad) →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRANSACTIONAL GUIDES -->
+    <section class="section-block">
+      <div class="section-head">
+        <div>
+          <h2>In-Depth 2026 Buyer &amp; Setup Guides</h2>
+          <span class="section-sub">Side-by-side playbooks pairing HubHum's top open-source apps with the right partner stack</span>
+        </div>
+      </div>
+      <div class="apps-grid">
+        <a href={withBase('/guides/deals/best-self-hosted-ai-vps-deals-2026/')} class="app-card">
+          <div>
+            <div class="app-card-top">
+              <span class="mode-badge selfhosted">Cloud &amp; Local AI Guide</span>
+            </div>
+            <h3 class="app-title">Best Self-Hosted &amp; Local AI Alternatives + Cloud VPS Deals (2026)</h3>
+            <p class="app-summary">Compare n8n, Open WebUI, Immich, and Ghost with step-by-step VPS sizing on InterServer, GreenGeeks, and Hosting.com.</p>
+          </div>
+          <div class="app-card-foot">
+            <span class="popularity-stat">Black Friday Edition</span>
+            <span class="card-cta">Read guide →</span>
+          </div>
+        </a>
+        <a href={withBase('/guides/deals/best-free-privacy-vpn-adblock-stack-2026/')} class="app-card">
+          <div>
+            <div class="app-card-top">
+              <span class="mode-badge">Privacy &amp; Security Guide</span>
+            </div>
+            <h3 class="app-title">Best Free Privacy, Password &amp; Media Tools + VPN/AdBlock Stack (2026)</h3>
+            <p class="app-summary">Combine KeePassXC, VLC, HandBrake, and yt-dlp with PureVPN and AdGuard for a zero-tracker daily setup.</p>
+          </div>
+          <div class="app-card-foot">
+            <span class="popularity-stat">Black Friday Edition</span>
+            <span class="card-cta">Read guide →</span>
+          </div>
+        </a>
+        <a href={withBase('/guides/deals/best-free-creator-tools-holiday-freebies-2026/')} class="app-card">
+          <div>
+            <div class="app-card-top">
+              <span class="mode-badge cloud">Creator &amp; Freebies Guide</span>
+            </div>
+            <h3 class="app-title">Best Free Video/Audio Editors + Holiday Design Freebies &amp; $0 Creator Stack</h3>
+            <p class="app-summary">Replace paid creative suites using LosslessCut, Shotcut, Audacity, Creative Fabrica freebies, and Systeme.io Free Tier.</p>
+          </div>
+          <div class="app-card-foot">
+            <span class="popularity-stat">Black Friday Edition</span>
+            <span class="card-cta">Read guide →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

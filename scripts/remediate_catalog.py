@@ -242,8 +242,10 @@ def remediate_all() -> dict[str, object]:
         cat_block = aff_cats.get(aff_key) or aff_cats.get("productivity_utilities") or aff_cats.get("webapp_cms") or {}
         merchants_by_id = affiliates_data.get("merchants_by_id") or {}
         primary_id = str(cat_block.get("primary_merchant_id") or "")
-        if primary_id and primary_id in merchants_by_id:
-            pm = merchants_by_id[primary_id]
+        cat_merchants_list = cat_block.get("merchants") or []
+        pm_override = next((m for m in cat_merchants_list if m.get("merchant_id") == primary_id), None)
+        if primary_id and (pm_override or primary_id in merchants_by_id):
+            pm = pm_override or merchants_by_id[primary_id]
             meta["affiliate_merchant_id"] = pm.get("merchant_id", primary_id)
             meta["affiliate_name"] = pm.get("name", meta.get("affiliate_name", ""))
             meta["affiliate_url"] = pm.get("tracking_url", meta.get("affiliate_url", ""))

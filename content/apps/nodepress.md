@@ -21,8 +21,8 @@ priceCurrency: "USD"
 price: "0"
 affiliate_merchant_id: "MER_008"
 affiliate_name: "InterServer"
-affiliate_url: "https://www.interserver.net/r/1196747?id=hubhum_01_MER008"
-affiliate_pitch: "Host and publish your website faster on reliable cloud infrastructure and custom domains."
+affiliate_url: "https://www.interserver.net/webhosting?id=1196747&sid=hubhum_01_MER008"
+affiliate_pitch: "Host and publish your website faster on price-locked web hosting and managed WordPress servers."
 ai_provider: "tier1_gemini:gemini-flash-lite-latest"
 featured_weekly: true
 updated_at: "2026-11-22"
@@ -64,8 +64,8 @@ To review instructions and online documentation, visit the [Official API Documen
 
 ### Sponsored Partner Tools (#ad)
 *Optional commercial services unrelated to the open-source developer. Clicking an `#ad` link helps fund HubHum at no extra cost to you.*
-* **InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [InterServer](https://www.interserver.net/r/1196747?id=hubhum_01_MER008) (#ad)
-* **Hosting.com (ex A2 Hosting):** High-speed NVMe Turbo cloud hosting optimized for self-hosted web applications, databases, and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
-* **NameSilo:** Register custom domains at wholesale prices with free lifetime WHOIS privacy and instant DNS setup — [NameSilo](https://www.namesilo.com/?rid=b01c445hx&subid=hubhum_01_MER007) (#ad)
+* **★ Top Recommended — InterServer:** Launch and host self-hosted web apps 24/7 on managed Linux cloud VPS servers starting at $3/month — [**Activate InterServer →**](https://www.interserver.net/webhosting?id=1196747&sid=hubhum_01_MER008) (#ad)
+* **GreenGeeks:** Eco-friendly 300% green-energy SSD hosting with free SSL, nightly backups, and 1-click app installers — [GreenGeeks](https://www.greengeeks.com/track/affiliatechproject/cp-ffltc/lp-1?subid=hubhum_01_MER063) (#ad)
+* **Hosting.com (ex A2 Hosting):** High-speed NVMe Managed VPS and WordPress cloud hosting optimized for self-hosted apps and sites — [Hosting.com (ex A2 Hosting)](https://hosting.com/hosting/platforms/wordpress-hosting/?utm_source=fp_affiliate&utm_medium=15437677&utm_campaign=42825&utm_content=affiliates&fpr=h37jvi&subid=hubhum_01_MER062) (#ad)
 
 **Official Source & Credits:** [Official Source / Credits](https://github.com/surmon-china/nodepress)

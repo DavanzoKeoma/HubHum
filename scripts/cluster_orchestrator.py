@@ -334,6 +334,8 @@ def generate_clusters() -> dict[str, object]:
     # Clean stale generated guides so removed/reclassified clusters stay accurate
     if CONTENT_GUIDES_DIR.exists():
         for old_md in CONTENT_GUIDES_DIR.rglob("*.md"):
+            if "deals" in old_md.relative_to(CONTENT_GUIDES_DIR).parts:
+                continue
             old_md.unlink()
 
     manifest: dict[str, object] = {
