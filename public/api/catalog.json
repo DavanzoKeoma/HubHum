@@ -2,25 +2,25 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-26T09:31:41.875686+00:00",
-  "total_apps": 2600,
+  "generated_at": "2026-11-26T09:37:12.536236+00:00",
+  "total_apps": 2625,
   "tier_counts": {
-    "tier3_powertool": 389,
+    "tier3_powertool": 414,
     "tier2_webapp": 796,
     "tier1_gui": 1415
   },
   "app_type_counts": {
     "resource": 10,
-    "cli": 379,
+    "cli": 404,
     "selfhosted": 795,
     "desktop": 1415,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 45,
-    "Productivity": 1265,
+    "Productivity": 1272,
     "Security & Privacy": 60,
-    "Utilities & Power Tools": 345,
+    "Utilities & Power Tools": 363,
     "Video & Audio": 110,
     "Web Apps & Cloud": 771,
     "Websites & SEO": 4
@@ -32757,6 +32757,34 @@
       "updated_at": "2026-11-23"
     },
     {
+      "slug": "janus",
+      "name": "Janus",
+      "tagline": "Free terminal coding assistant with smart model routing",
+      "repo_url": "https://github.com/janus-sh/janus",
+      "full_name": "janus-sh/janus",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "coding"
+      ],
+      "icon": "/icons/janus.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 6558,
+      "tier": "tier3_powertool",
+      "summary": "Janus is a free coding assistant for your terminal that reads files, makes edits, and switches between smart free AI models automatically.",
+      "i18n": {
+        "it": "Janus è un assistente di programmazione gratuito per il terminale che legge file e gestisce in autonomia modelli IA intelligenti.",
+        "es": "Janus es un asistente de programación gratuito para tu terminal que edita archivos y cambia automáticamente entre modelos de IA gratuitos.",
+        "fr": "Janus est un assistant de codage gratuit pour votre terminal qui lit les fichiers et bascule automatiquement sur des modèles IA.",
+        "de": "Janus ist ein kostenloser Programmierassistent für Ihr Terminal, der Dateien bearbeitet und automatisch zwischen smarten KI-Modellen wechselt."
+      },
+      "download_url": "https://github.com/janus-sh/janus/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "sourcegit",
       "name": "sourcegit",
       "tagline": "Manage code history with a friendly visual screen.",
@@ -51122,6 +51150,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "tirith",
+      "name": "Tirith",
+      "tagline": "Terminal security for your everyday commands",
+      "repo_url": "https://github.com/sheeki03/tirith",
+      "full_name": "sheeki03/tirith",
+      "category": "Productivity",
+      "tags": [
+        "security",
+        "system-utility"
+      ],
+      "icon": "/icons/tirith.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Linux",
+      "license": "Open Source (AGPL v3)",
+      "stars": 2789,
+      "tier": "tier3_powertool",
+      "summary": "Tirith acts as a protective gate for your terminal, automatically blocking malicious commands and hidden threats before they can run.",
+      "i18n": {
+        "it": "Tirith protegge il tuo terminale bloccando automaticamente comandi dannosi e minacce nascoste prima che vengano eseguiti sul tuo sistema.",
+        "es": "Tirith actúa como un escudo para tu terminal, bloqueando automáticamente comandos maliciosos y amenazas ocultas antes de que se ejecuten.",
+        "fr": "Tirith protège votre terminal en bloquant automatiquement les commandes malveillantes et les menaces cachées avant leur exécution.",
+        "de": "Tirith schützt Ihr Terminal, indem es schädliche Befehle und versteckte Bedrohungen automatisch blockiert, bevor sie ausgeführt werden."
+      },
+      "download_url": "https://github.com/sheeki03/tirith/releases/download/v0.5.0/tirith_0.5.0_amd64.deb",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "changelog-com",
       "name": "Changelog.com",
       "tagline": "The open-source engine behind Changelog.",
@@ -51232,6 +51288,34 @@
       },
       "download_url": "https://github.com/boy1dr/SpleeterGui/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "patat",
+      "name": "patat",
+      "tagline": "Terminal presentations made simple",
+      "repo_url": "https://github.com/jaspervdj/patat",
+      "full_name": "jaspervdj/patat",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "presentations",
+        "system-utility"
+      ],
+      "icon": "/icons/patat.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v2)",
+      "stars": 2749,
+      "tier": "tier3_powertool",
+      "summary": "Create and present slides directly in your terminal using Markdown.",
+      "i18n": {
+        "it": "Crea e presenta slide direttamente nel terminale usando Markdown.",
+        "es": "Crea y presenta diapositivas directamente en tu terminal usando Markdown.",
+        "fr": "Créez et présentez des diapositives directement dans votre terminal en utilisant Markdown.",
+        "de": "Erstellen und präsentieren Sie Folien direkt in Ihrem Terminal mit Markdown."
+      },
+      "download_url": "https://github.com/jaspervdj/patat/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "tweb",
@@ -51766,6 +51850,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "nyaterm",
+      "name": "NyaTerm",
+      "tagline": "Modern remote terminal workspace for servers",
+      "repo_url": "https://github.com/nyakang/nyaterm",
+      "full_name": "nyakang/nyaterm",
+      "category": "Productivity",
+      "tags": [
+        "system-utility",
+        "ssh"
+      ],
+      "icon": "/icons/nyaterm.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 2629,
+      "tier": "tier3_powertool",
+      "summary": "Manage multiple remote servers, local shells, and file transfers smoothly inside a single secure desktop workspace.",
+      "i18n": {
+        "it": "Gestisci server remoti, shell locali e trasferimenti di file in un unico spazio di lavoro sicuro.",
+        "es": "Gestiona múltiples servidores remotos y transferencias de archivos en un único entorno seguro.",
+        "fr": "Gérez vos serveurs distants, shells locaux et transferts de fichiers dans un espace sécurisé.",
+        "de": "Verwalten Sie Remoteserver, lokale Shells und Dateiübertragungen in einer sicheren Umgebung."
+      },
+      "download_url": "https://github.com/nyakang/nyaterm/releases/download/v2.0.8/NyaTerm_2.0.8_windows_arm64-setup.exe",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "goneovim",
       "name": "goneovim",
       "tagline": "A visual interface for the Neovim editor",
@@ -51792,6 +51904,62 @@
       },
       "download_url": "https://github.com/akiyosi/goneovim/releases/download/v0.6.17/goneovim-v0.6.17-linux-arm64.tar.bz2",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "comtool",
+      "name": "COMTool",
+      "tagline": "Cross-platform hardware communication and debugging assistant",
+      "repo_url": "https://github.com/neutree/comtool",
+      "full_name": "neutree/comtool",
+      "category": "Productivity",
+      "tags": [
+        "hardware",
+        "serial"
+      ],
+      "icon": "/icons/comtool.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "macOS",
+      "license": "Open Source (LGPL)",
+      "stars": 2622,
+      "tier": "tier3_powertool",
+      "summary": "Test and communicate with serial ports, network sockets, and remote terminals across different operating systems with zero user interface lag.",
+      "i18n": {
+        "it": "Collauda porte seriali, socket di rete e terminali remoti su diversi sistemi operativi senza rallentamenti dell'interfaccia.",
+        "es": "Prueba y comunícate con puertos serie, sockets de red y terminales remotos en varios sistemas operativos sin retrasos.",
+        "fr": "Testez et communiquez avec les ports série, les sockets réseau et les terminaux distants sans ralentissement.",
+        "de": "Testen Sie serielle Schnittstellen, Netzwerksockets und Remoteterminals auf verschiedenen Betriebssystemen ohne Verzögerung."
+      },
+      "download_url": "https://github.com/Neutree/COMTool/releases/download/v3.4.1/comtool_macos_11_v3.4.1.dmg",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "s",
+      "name": "s",
+      "tagline": "Instant web searches from your command line.",
+      "repo_url": "https://github.com/zquestz/s",
+      "full_name": "zquestz/s",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "search"
+      ],
+      "icon": "/icons/s.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 2622,
+      "tier": "tier3_powertool",
+      "summary": "Launch web searches directly from your computer terminal and open results instantly in your preferred web browser.",
+      "i18n": {
+        "it": "Avvia ricerche web direttamente dal terminale del tuo computer e apri i risultati all'istante nel tuo browser preferito.",
+        "es": "Inicia búsquedas web directamente desde tu terminal y abre los resultados al instante en tu navegador web preferido.",
+        "fr": "Lancez des recherches web directement depuis votre terminal et ouvrez les résultats instantanément dans votre navigateur.",
+        "de": "Starten Sie Websuchen direkt über Ihr Terminal und öffnen Sie Ergebnisse sofort in Ihrem bevorzugten Webbrowser."
+      },
+      "download_url": "https://github.com/zquestz/s/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "cpu-features",
@@ -52074,6 +52242,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "astroterm",
+      "name": "astroterm",
+      "tagline": "A live planetarium for your terminal.",
+      "repo_url": "https://github.com/da-luce/astroterm",
+      "full_name": "da-luce/astroterm",
+      "category": "Productivity",
+      "tags": [
+        "astronomy",
+        "system-utility"
+      ],
+      "icon": "/icons/astroterm.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 2564,
+      "tier": "tier3_powertool",
+      "summary": "Explore the night sky directly from your command line with real-time star maps and planetary positions.",
+      "i18n": {
+        "it": "Esplora il cielo notturno direttamente dal tuo terminale con mappe stellari e posizioni planetarie in tempo reale.",
+        "es": "Explora el cielo nocturno directamente desde tu terminal con mapas estelares y posiciones planetarias en tiempo real.",
+        "fr": "Explorez le ciel nocturne directement depuis votre terminal avec des cartes du ciel et des positions planétaires en temps réel.",
+        "de": "Erkunden Sie den Nachthimmel direkt von Ihrem Terminal aus mit Echtzeit-Sternenkarten und Planetenpositionen."
+      },
+      "download_url": "https://github.com/da-luce/astroterm/releases/download/v1.2.0/astroterm-win-x86_64.exe",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "fluidsynth",
       "name": "FluidSynth",
       "tagline": "Turn your computer into a musical instrument",
@@ -52100,6 +52296,34 @@
       },
       "download_url": "https://www.fluidsynth.org",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "hacklock",
+      "name": "Hacklock",
+      "tagline": "Generate pattern security demonstration links safely",
+      "repo_url": "https://github.com/noob-hackers/hacklock",
+      "full_name": "noob-hackers/hacklock",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "security",
+        "system-utility"
+      ],
+      "icon": "/icons/hacklock.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 2554,
+      "tier": "tier3_powertool",
+      "summary": "Hacklock is a command-line script designed to demonstrate lock screen pattern recovery and testing concepts on Android devices.",
+      "i18n": {
+        "it": "Hacklock è uno script a riga di comando progettato per dimostrare concetti di verifica della sicurezza dei pattern Android.",
+        "es": "Hacklock es un script de línea de comandos para demostrar conceptos de recuperación de patrones de bloqueo en Android.",
+        "fr": "Hacklock est un script en ligne de commande conçu pour démontrer des concepts de test de sécurité de schémas Android.",
+        "de": "Hacklock ist ein Befehlszeilenskript zur Demonstration von Mustsicherheit und Sperrbildschirm-Tests auf Android."
+      },
+      "download_url": "https://www.noob-hackers.com",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "vscode-front-matter",
@@ -52184,6 +52408,34 @@
       },
       "download_url": "https://github.com/borgbase/vorta/releases/download/v0.12.2/Vorta-v0.12.2-arm.dmg",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "spinner",
+      "name": "Spinner",
+      "tagline": "Add professional progress indicators to terminals",
+      "repo_url": "https://github.com/briandowns/spinner",
+      "full_name": "briandowns/spinner",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "system-utility"
+      ],
+      "icon": "/icons/spinner.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 2533,
+      "tier": "tier3_powertool",
+      "summary": "Spinner is a simple tool that lets you add animated loading icons and progress indicators to your text-based computer programs.",
+      "i18n": {
+        "it": "Spinner è uno strumento semplice per aggiungere icone di caricamento animate e indicatori di progresso ai tuoi programmi su terminale.",
+        "es": "Spinner es una herramienta sencilla para añadir iconos de carga animados e indicadores de progreso a tus programas de terminal.",
+        "fr": "Spinner est un outil simple pour ajouter des icônes de chargement animées et des indicateurs de progression à vos programmes de terminal.",
+        "de": "Spinner ist ein einfaches Werkzeug, um animierte Ladesymbole und Fortschrittsanzeigen zu Ihren Terminal-Programmen hinzuzufügen."
+      },
+      "download_url": "https://github.com/briandowns/spinner/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "elawidgettools",
@@ -52326,6 +52578,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "mpb",
+      "name": "mpb",
+      "tagline": "Create multiple live terminal progress bars",
+      "repo_url": "https://github.com/vbauerster/mpb",
+      "full_name": "vbauerster/mpb",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "progress-bar"
+      ],
+      "icon": "/icons/mpb.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Public Domain / Free",
+      "stars": 2512,
+      "tier": "tier3_powertool",
+      "summary": "An open-source Go tool that renders multiple smooth progress bars in command-line terminal applications.",
+      "i18n": {
+        "it": "Uno strumento open-source in Go che mostra barre di avanzamento fluide nelle applicazioni da riga di comando.",
+        "es": "Una herramienta en Go de código abierto que renderiza múltiples barras de progreso fluidas en la terminal.",
+        "fr": "Un outil open-source en Go qui affiche plusieurs barres de progression fluides dans vos applications.",
+        "de": "Ein Open-Source-Go-Tool zur Anzeige flüssiger Fortschrittsleisten in Befehlszeilenanwendungen."
+      },
+      "download_url": "https://github.com/vbauerster/mpb/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "asciinema-server",
+      "name": "asciinema-server",
+      "tagline": "Host and share terminal session recordings",
+      "repo_url": "https://github.com/asciinema/asciinema-server",
+      "full_name": "asciinema/asciinema-server",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "server"
+      ],
+      "icon": "/icons/asciinema-server.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 2508,
+      "tier": "tier3_powertool",
+      "summary": "Host and share your terminal session recordings and live streams on your own private server with an intuitive web interface.",
+      "i18n": {
+        "it": "Ospita e condividi le registrazioni delle tue sessioni di terminale e streaming live sul tuo server privato.",
+        "es": "Aloja y comparte tus grabaciones de sesiones de terminal y transmisiones en vivo en tu propio servidor privado.",
+        "fr": "Hbergez et partagez vos enregistrements de sessions de terminal et flux en direct sur votre propre serveur privé.",
+        "de": "Hosten und teilen Sie Ihre Terminal-Sitzungsaufzeichnungen und Live-Streams auf Ihrem eigenen privaten Server."
+      },
+      "download_url": "https://docs.asciinema.org/manual/server/",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "dino",
       "name": "Dino",
       "tagline": "Secure chat for Linux desktops",
@@ -52382,6 +52690,62 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "smenu",
+      "name": "smenu",
+      "tagline": "Interactive selection menus for your terminal",
+      "repo_url": "https://github.com/p-gen/smenu",
+      "full_name": "p-gen/smenu",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "productivity",
+        "utilities"
+      ],
+      "icon": "/icons/smenu.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 2504,
+      "tier": "tier3_powertool",
+      "summary": "smenu turns long lists of text into easy-to-use, searchable menus that you can navigate with your keyboard or mouse.",
+      "i18n": {
+        "it": "smenu trasforma lunghi elenchi di testo in menu facili da usare e ricercabili, navigabili con tastiera o mouse.",
+        "es": "smenu convierte listas largas de texto en menús fáciles de usar y buscar que puedes navegar con tu teclado o ratón.",
+        "fr": "smenu transforme de longues listes de texte en menus faciles à utiliser et à parcourir avec votre clavier ou votre souris.",
+        "de": "smenu verwandelt lange Textlisten in einfach zu bedienende, durchsuchbare Menüs, die Sie mit Tastatur oder Maus steuern können."
+      },
+      "download_url": "https://github.com/p-gen/smenu/releases/download/v1.5.0/smenu-1.5.0-freebsd-x86_64-static.bz2",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "leaf",
+      "name": "leaf",
+      "tagline": "Fast terminal Markdown previewer and diff tool",
+      "repo_url": "https://github.com/rivolink/leaf",
+      "full_name": "rivolink/leaf",
+      "category": "Productivity",
+      "tags": [
+        "markdown",
+        "system-utility"
+      ],
+      "icon": "/icons/leaf.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows",
+      "license": "Open Source (MIT)",
+      "stars": 2495,
+      "tier": "tier3_powertool",
+      "summary": "Preview Markdown files and inspect code changes directly inside your command-line terminal with a smooth graphical feel.",
+      "i18n": {
+        "it": "Visualizza file Markdown e ispeziona le modifiche direttamente nel terminale con un'esperienza fluida.",
+        "es": "Previsualiza archivos Markdown e inspecciona cambios de código directamente en tu terminal con fluidez.",
+        "fr": "Prévisualisez des fichiers Markdown et inspectez les modifications directement dans le terminal.",
+        "de": "Vorschau von Markdown-Dateien und Code-Änderungen direkt im Terminal mit flüssiger Bedienung."
+      },
+      "download_url": "https://github.com/RivoLink/leaf/releases/download/1.29.3/leaf-windows-x86_64.exe",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "thatproject",
       "name": "ThatProject",
       "tagline": "Exciting microcontroller and hardware DIY tutorials",
@@ -52410,6 +52774,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "webtui",
+      "name": "webtui",
+      "tagline": "Bring terminal text styles to web pages.",
+      "repo_url": "https://github.com/webtui/webtui",
+      "full_name": "webtui/webtui",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "styling",
+        "design"
+      ],
+      "icon": "/icons/webtui.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 2488,
+      "tier": "tier3_powertool",
+      "summary": "A modular design library that gives modern web pages the nostalgic look of text-based computer terminals.",
+      "i18n": {
+        "it": "Una libreria di design modulare che regala alle pagine web l'aspetto nostalgico dei terminali di computer testuali.",
+        "es": "Una biblioteca de diseño modular que da a las páginas web modernas el aspecto nostálgico de los terminales de texto.",
+        "fr": "Une bibliothèque de design modulaire qui donne aux pages web modernes l'aspect nostalgique des terminaux textuels.",
+        "de": "Eine modulare Design-Bibliothek, die modernen Webseiten den nostalgischen Look textbasierter Computer-Terminals verleiht."
+      },
+      "download_url": "https://webtui.ironclad.sh",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "learnhouse",
       "name": "LearnHouse",
       "tagline": "A modern platform for online education",
@@ -52436,6 +52828,34 @@
       },
       "download_url": "https://learnhouse.app",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "elia",
+      "name": "elia",
+      "tagline": "Keyboard-focused terminal chat for smart models.",
+      "repo_url": "https://github.com/darrenburns/elia",
+      "full_name": "darrenburns/elia",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "ai"
+      ],
+      "icon": "/icons/elia.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 2484,
+      "tier": "tier3_powertool",
+      "summary": "Chat with popular large language models right from your command line interface with a fast, keyboard-driven assistant.",
+      "i18n": {
+        "it": "Parla con modelli intelligenti direttamente dalla riga di comando con un assistente rapido e gestito da tastiera.",
+        "es": "Chatea con modelos inteligentes directamente desde la línea de comandos con un asistente rápido impulsado por teclado.",
+        "fr": "Discutez avec des modèles intelligents directement depuis votre ligne de commande grâce à un assistant rapide.",
+        "de": "Chatten Sie direkt über die Befehlszeile mit intelligenten Sprachmodellen über einen schnellen Assistenten."
+      },
+      "download_url": "https://github.com/darrenburns/elia/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "opendaw",
@@ -52522,6 +52942,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "sclack",
+      "name": "sclack",
+      "tagline": "Lightning-fast text-based chat interface.",
+      "repo_url": "https://github.com/haskellcamargo/sclack",
+      "full_name": "haskellcamargo/sclack",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "chat"
+      ],
+      "icon": "/icons/sclack.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 2475,
+      "tier": "tier3_powertool",
+      "summary": "Chat with your team directly from your terminal using a fast, lightweight command-line messenger interface.",
+      "i18n": {
+        "it": "Chatta con il tuo team direttamente dal terminale utilizzando un'interfaccia di messaggistica leggera e veloce.",
+        "es": "Chatea con tu equipo directamente desde la terminal utilizando una interfaz de mensajería ligera y rápida.",
+        "fr": "Discutez avec votre équipe directement depuis votre terminal grâce à une interface de messagerie rapide et légère.",
+        "de": "Chatten Sie direkt von Ihrem Terminal aus mit Ihrem Team über eine schnelle und leichtgewichtige Oberfläche."
+      },
+      "download_url": "https://github.com/haskellcamargo/sclack/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "kivymd",
       "name": "KivyMD",
       "tagline": "Modern interface tools for Python apps",
@@ -52578,6 +53026,34 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "xed-editor",
+      "name": "Xed-Editor",
+      "tagline": "Powerful text editing on Android",
+      "repo_url": "https://github.com/xed-editor/xed-editor",
+      "full_name": "xed-editor/xed-editor",
+      "category": "Productivity",
+      "tags": [
+        "text-editor",
+        "android"
+      ],
+      "icon": "/icons/xed-editor.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Android",
+      "license": "Open Source (GPL v3)",
+      "stars": 2457,
+      "tier": "tier3_powertool",
+      "summary": "A versatile Android app for writing and editing text with smart code support and a built-in terminal.",
+      "i18n": {
+        "it": "Un'app versatile per scrivere e modificare testi su Android con supporto intelligente per il codice e un terminale integrato.",
+        "es": "Una aplicación versátil para escribir y editar textos en Android con soporte inteligente de código y terminal integrado.",
+        "fr": "Une application polyvalente pour écrire et modifier des textes sur Android avec un support intelligent du code et un terminal intégré.",
+        "de": "Eine vielseitige App zum Schreiben und Bearbeiten von Texten auf Android mit intelligenter Code-Unterstützung und integriertem Terminal."
+      },
+      "download_url": "https://github.com/Xed-Editor/Xed-Editor/releases/download/v3.4.5/xed-editor-v3.4.5.apk",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "iplug2",
       "name": "iPlug2",
       "tagline": "Create cross-platform audio plugins easily",
@@ -52604,6 +53080,34 @@
       },
       "download_url": "https://iplug2.github.io",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "oterm",
+      "name": "oterm",
+      "tagline": "Chat with AI straight from terminal",
+      "repo_url": "https://github.com/ggozad/oterm",
+      "full_name": "ggozad/oterm",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "ai",
+        "system-utility"
+      ],
+      "icon": "/icons/oterm.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 2450,
+      "tier": "tier3_powertool",
+      "summary": "A lightweight terminal application allowing you to chat with various artificial intelligence providers directly from your command line interface.",
+      "i18n": {
+        "it": "Una leggera applicazione da terminale che ti consente di chattare con vari servizi di intelligenza artificiale direttamente dalla riga di comando.",
+        "es": "Una aplicación de terminal ligera que te permite chatear con varios proveedores de inteligencia artificial directamente desde tu línea de comandos.",
+        "fr": "Une application de terminal légère qui vous permet de discuter avec divers fournisseurs d'intelligence artificielle directement depuis votre ligne de commande.",
+        "de": "Eine einfache Terminal-Anwendung, mit der Sie direkt über Ihre Befehlszeile mit verschiedenen Künstliche-Intelligenz-Diensten chatten können."
+      },
+      "download_url": "https://ggozad.github.io/oterm/",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "redisclient",
@@ -52914,6 +53418,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "calcure",
+      "name": "Calcure",
+      "tagline": "Minimalist terminal calendar and task manager",
+      "repo_url": "https://github.com/anufrievroman/calcure",
+      "full_name": "anufrievroman/calcure",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "calendar",
+        "tasks"
+      ],
+      "icon": "/icons/calcure.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 2406,
+      "tier": "tier3_powertool",
+      "summary": "Stay organized right inside your command window with a clean, customizable calendar and task list designed for speed.",
+      "i18n": {
+        "it": "Organizzati direttamente dal tuo terminale con un calendario pulito, leggero e personalizzabile per le tue attività.",
+        "es": "Organízate directamente en tu terminal con un calendario limpio y personalizable diseñado para la máxima velocidad.",
+        "fr": "Restez organisé directement dans votre terminal grâce à un calendrier épuré et ultra rapide pour vos tâches.",
+        "de": "Organisieren Sie sich direkt im Terminal mit einem sauberen, anpassbaren Kalender und Aufgabenmanager."
+      },
+      "download_url": "https://anufrievroman.gitbook.io/calcure",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "burpgpt",
       "name": "BurpGPT",
       "tagline": "AI-powered web security scanning",
@@ -52968,6 +53500,34 @@
       },
       "download_url": "https://github.com/viromedia/viro/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "muxy",
+      "name": "Muxy",
+      "tagline": "Lightweight window manager for command line",
+      "repo_url": "https://github.com/muxy-app/muxy",
+      "full_name": "muxy-app/muxy",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "utility"
+      ],
+      "icon": "/icons/muxy.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 2396,
+      "tier": "tier3_powertool",
+      "summary": "Muxy lets you run multiple command‑line programs in a single window, keep them alive after closing, and switch between them instantly, using very little memory.",
+      "i18n": {
+        "it": "Muxy ti permette di eseguire più programmi da riga di comando in una sola finestra, mantenerli attivi dopo aver chiuso l’app e passare da uno all’altro in un attimo, consumando pochissima memoria.",
+        "es": "Muxy te permite ejecutar varios programas de línea de comandos en una sola ventana, mantenerlos activos después de cerrar la aplicación y cambiar entre ellos al instante, usando muy poca memoria.",
+        "fr": "Muxy vous permet d’exécuter plusieurs programmes en ligne de commande dans une même fenêtre, de les garder actifs après la fermeture et de basculer entre eux instantanément.",
+        "de": "Muxy ermöglicht das Ausführen mehrerer Befehlszeilen‑Programme in einem Fenster, hält sie nach dem Schließen aktiv und lässt Sie sofort zwischen ihnen wechseln, bei sehr geringem Speicherverbrauch."
+      },
+      "download_url": "https://github.com/muxy-app/muxy/releases/download/v2.5.0/Muxy-2.5.0-arm64.dmg",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "tv-detox",
@@ -53250,6 +53810,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "mactop",
+      "name": "mactop",
+      "tagline": "Monitor your Apple Silicon chip performance",
+      "repo_url": "https://github.com/context-labs/mactop",
+      "full_name": "context-labs/mactop",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "utility",
+        "monitoring"
+      ],
+      "icon": "/icons/mactop.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "macOS",
+      "license": "Open Source (MIT)",
+      "stars": 2346,
+      "tier": "tier3_powertool",
+      "summary": "Track real-time processor usage, core activity, and power consumption on Apple Silicon computers in a sleek live display.",
+      "i18n": {
+        "it": "Tieni d'occhio l'utilizzo del processore e i consumi energetici sui computer Apple Silicon con una schermata chiara e in tempo reale.",
+        "es": "Supervisa el uso del procesador y el consumo de energía en ordenadores Apple Silicon con una interfaz clara y en tiempo real.",
+        "fr": "Suivez en temps réel l'utilisation du processeur et la consommation d'énergie sur les ordinateurs Apple Silicon.",
+        "de": "Überwachen Sie die Prozessorleistung und den Energieverbrauch auf Apple Silicon Computern in einer übersichtlichen Live-Ansicht."
+      },
+      "download_url": "https://github.com/context-labs/mactop/releases/download/v0.2.7/checksums.txt",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "tauri-ui",
       "name": "tauri-ui",
       "tagline": "Build native desktop apps easily",
@@ -53276,6 +53864,34 @@
       },
       "download_url": "https://github.com/agmmnn/tauri-ui/releases/download/create-tauri-ui%401.2.1/tauri-ui-smoke-v1.2.1-windows-x64-portable.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "lookatme",
+      "name": "lookatme",
+      "tagline": "Interactive presentations right in your terminal",
+      "repo_url": "https://github.com/d0c-s4vage/lookatme",
+      "full_name": "d0c-s4vage/lookatme",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "presentations",
+        "markdown"
+      ],
+      "icon": "/icons/lookatme.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 2333,
+      "tier": "tier3_powertool",
+      "summary": "Transform plain text documents into interactive slide shows running directly inside your command-line terminal window.",
+      "i18n": {
+        "it": "Trasforma semplici file di testo in presentazioni interattive eseguite direttamente all'interno della finestra del terminale.",
+        "es": "Convierte documentos de texto plano en presentaciones interactivas que se ejecutan directamente en la ventana de tu terminal.",
+        "fr": "Transformez des documents texte en diaporamas interactifs s'exécutant directement dans la fenêtre de votre terminal.",
+        "de": "Verwandeln Sie einfache Textdateien in interaktive Diashows, die direkt in Ihrem Befehlszeilen-Terminalfenster laufen."
+      },
+      "download_url": "https://lookatme.readthedocs.io/en/latest/",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "omnilogue",
@@ -53530,6 +54146,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "terminal-code",
+      "name": "terminal-code",
+      "tagline": "Bring your favorite code editor into the terminal.",
+      "repo_url": "https://github.com/zenbu-labs/terminal-code",
+      "full_name": "zenbu-labs/terminal-code",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "developer-tools",
+        "system-utility"
+      ],
+      "icon": "/icons/terminal-code.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (MIT)",
+      "stars": 2286,
+      "tier": "tier3_powertool",
+      "summary": "Run your everyday text editor directly inside your command-line interface without ever leaving your active window.",
+      "i18n": {
+        "it": "Esegui il tuo editor di testo preferito direttamente all'interno della riga di comando senza mai lasciare la finestra.",
+        "es": "Ejecuta tu editor de texto favorito directamente dentro de la interfaz de comandos sin salir de tu ventana activa.",
+        "fr": "Exécutez votre éditeur de texte préféré directement dans votre interface de commande sans quitter votre fenêtre.",
+        "de": "Führen Sie Ihren Lieblingstexteditor direkt in der Befehlszeile aus, ohne jemals das aktive Fenster zu verlassen."
+      },
+      "download_url": "https://terminal-code.com",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "open-cowork",
       "name": "Open Cowork",
       "tagline": "Your personal open-source AI desktop assistant",
@@ -53556,6 +54200,62 @@
       },
       "download_url": "https://github.com/OpenCoworkAI/open-cowork/releases/download/v3.3.1/Open.Cowork-3.3.1-win-x64.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "ls-colors",
+      "name": "LS_COLORS",
+      "tagline": "Vibrant custom file colors for your terminal",
+      "repo_url": "https://github.com/trapd00r/ls_colors",
+      "full_name": "trapd00r/ls_colors",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "system-utility",
+        "customization"
+      ],
+      "icon": "/icons/ls-colors.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 2280,
+      "tier": "tier3_powertool",
+      "summary": "Brighten up your command-line file lists with vibrant colors tailored to hundreds of different file types.",
+      "i18n": {
+        "it": "Rendi più vivaci gli elenchi di file nel terminale con colori brillanti adatti a centinaia di formati diversi.",
+        "es": "Ilumina las listas de archivos de tu terminal con colores vibrantes diseñados para cientos de formatos.",
+        "fr": "Illuminez vos listes de fichiers dans le terminal avec des couleurs éclatantes adaptées à des centaines de formats.",
+        "de": "Verleihen Sie Ihren Dateilisten im Terminal mit leuchtenden Farben für Hunderte von Dateitypen mehr Übersicht."
+      },
+      "download_url": "https://github.com/trapd00r/LS_COLORS/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "typeui",
+      "name": "typeui",
+      "tagline": "Build better app interfaces with AI",
+      "repo_url": "https://github.com/bergside/typeui",
+      "full_name": "bergside/typeui",
+      "category": "Utilities & Power Tools",
+      "tags": [
+        "ai",
+        "design"
+      ],
+      "icon": "/icons/typeui.png",
+      "is_webapp": false,
+      "app_type": "cli",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Custom Open License",
+      "stars": 2279,
+      "tier": "tier3_powertool",
+      "summary": "Enhance your AI coding assistant with curated design systems and layout prompts to generate stunning, professional user interfaces.",
+      "i18n": {
+        "it": "Migliora il tuo assistente di codifica IA con sistemi di design curati per generare interfacce utente professionali.",
+        "es": "Mejora tu asistente de programación con sistemas de diseño seleccionados para generar interfaces profesionales.",
+        "fr": "Améliorez votre assistant de code avec des systèmes de design sélectionnés pour générer des interfaces professionnelles.",
+        "de": "Verbessern Sie Ihren KI-Programmierassistenten mit kuratierten Designsystemen für professionelle Benutzeroberflächen."
+      },
+      "download_url": "https://www.typeui.sh",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "anubias",

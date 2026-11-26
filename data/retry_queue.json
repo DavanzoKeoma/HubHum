@@ -124,5 +124,82 @@
     "html_url": "https://github.com/alexwl/haskell-code-explorer",
     "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
     "queued_at": "2026-11-26T09:30:24.155815+00:00"
+  },
+  {
+    "full_name": "okbob/pspg",
+    "slug": "pspg",
+    "html_url": "https://github.com/okbob/pspg",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:02.790220+00:00"
+  },
+  {
+    "full_name": "joouha/euporie",
+    "slug": "euporie",
+    "html_url": "https://github.com/joouha/euporie",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:12.876101+00:00"
+  },
+  {
+    "full_name": "gnome-terminator/terminator",
+    "slug": "terminator",
+    "html_url": "https://github.com/gnome-terminator/terminator",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:18.112651+00:00"
+  },
+  {
+    "full_name": "go-musicfox/go-musicfox",
+    "slug": "go-musicfox",
+    "html_url": "https://github.com/go-musicfox/go-musicfox",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:23.265921+00:00"
+  },
+  {
+    "full_name": "Piebald-AI/tweakcc",
+    "slug": "tweakcc",
+    "html_url": "https://github.com/Piebald-AI/tweakcc",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:44.330203+00:00"
+  },
+  {
+    "full_name": "eneskirca/nodeterm",
+    "slug": "nodeterm",
+    "html_url": "https://github.com/eneskirca/nodeterm",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:51.314958+00:00"
+  },
+  {
+    "full_name": "mouredev/hello-bash-shell",
+    "slug": "hello-bash-shell",
+    "html_url": "https://github.com/mouredev/hello-bash-shell",
+    "reason": "tier1_gemini: validation failed (Field 'i18n.de.summary' appears truncated or incomplete: 'Lernen Sie Bash, beherrschen Sie die Befehlszeile und erstellen Sie nützliche Skripte von Grund auf.') | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:33:56.087350+00:00"
+  },
+  {
+    "full_name": "piotrmurach/tty",
+    "slug": "tty",
+    "html_url": "https://github.com/piotrmurach/tty",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:34:28.710604+00:00"
+  },
+  {
+    "full_name": "sinclairzx81/zero",
+    "slug": "zero",
+    "html_url": "https://github.com/sinclairzx81/zero",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:35:29.894855+00:00"
+  },
+  {
+    "full_name": "randy3k/radian",
+    "slug": "radian",
+    "html_url": "https://github.com/randy3k/radian",
+    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:36:50.556332+00:00"
+  },
+  {
+    "full_name": "sharkdp/vivid",
+    "slug": "vivid",
+    "html_url": "https://github.com/sharkdp/vivid",
+    "reason": "tier1_gemini: validation failed (Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons) | tier2_groq: call error (HTTP Error 429: Too Many Requests)",
+    "queued_at": "2026-11-26T09:36:55.416965+00:00"
   }
 ]
