@@ -2,27 +2,27 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-26T09:19:01.161482+00:00",
-  "total_apps": 2550,
+  "generated_at": "2026-11-26T09:24:54.198489+00:00",
+  "total_apps": 2575,
   "tier_counts": {
     "tier3_powertool": 389,
-    "tier2_webapp": 758,
-    "tier1_gui": 1403
+    "tier2_webapp": 771,
+    "tier1_gui": 1415
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 379,
-    "selfhosted": 757,
-    "desktop": 1403,
+    "selfhosted": 770,
+    "desktop": 1415,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 45,
-    "Productivity": 1254,
+    "Productivity": 1265,
     "Security & Privacy": 60,
     "Utilities & Power Tools": 345,
-    "Video & Audio": 109,
-    "Web Apps & Cloud": 733,
+    "Video & Audio": 110,
+    "Web Apps & Cloud": 746,
     "Websites & SEO": 4
   },
   "apps": [
@@ -1565,6 +1565,34 @@
       },
       "download_url": "https://github.com/marktext/marktext/releases/download/v0.23.0/marktext-win-arm64-0.23.0-setup.exe",
       "updated_at": "2026-11-22"
+    },
+    {
+      "slug": "drawio-desktop",
+      "name": "drawio-desktop",
+      "tagline": "Create clear diagrams completely offline.",
+      "repo_url": "https://github.com/jgraph/drawio-desktop",
+      "full_name": "jgraph/drawio-desktop",
+      "category": "Productivity",
+      "tags": [
+        "diagrams",
+        "flowcharts"
+      ],
+      "icon": "/icons/drawio-desktop.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (GPL v3)",
+      "stars": 64165,
+      "tier": "tier1_gui",
+      "summary": "Design flowcharts, network maps, and wireframes securely on your desktop without sharing data online.",
+      "i18n": {
+        "it": "Progetta diagrammi di flusso e mappe mentali in sicurezza sul tuo computer senza condividere dati online.",
+        "es": "Diseña diagramas de flujo y mapas mentales de forma segura en tu ordenador sin compartir datos en línea.",
+        "fr": "Concevez des organigrammes et des schémas en toute sécurité sur votre bureau sans partager de données en ligne.",
+        "de": "Entwerfen Sie Flussdiagramme und Netzwerkkarten sicher auf Ihrem Computer, ohne Daten online zu teilen."
+      },
+      "download_url": "https://github.com/jgraph/drawio-desktop/releases/download/v32.7.4/draw.io-32.7.4-windows-installer.exe",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "pake",
@@ -3497,6 +3525,34 @@
       },
       "download_url": "https://term.ink",
       "updated_at": "2026-11-20"
+    },
+    {
+      "slug": "insomnia",
+      "name": "Insomnia",
+      "tagline": "Test and design web services easily",
+      "repo_url": "https://github.com/kong/insomnia",
+      "full_name": "kong/insomnia",
+      "category": "Productivity",
+      "tags": [
+        "development",
+        "utilities"
+      ],
+      "icon": "/icons/insomnia.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 40192,
+      "tier": "tier1_gui",
+      "summary": "A user-friendly tool to connect, test, and design digital communication channels between different software systems.",
+      "i18n": {
+        "it": "Uno strumento intuitivo per connettere, testare e progettare canali di comunicazione digitale tra diversi sistemi software.",
+        "es": "Una herramienta intuitiva para conectar, probar y diseñar canales de comunicación digital entre diferentes sistemas de software.",
+        "fr": "Un outil intuitif pour connecter, tester et concevoir des canaux de communication numérique entre différents systèmes logiciels.",
+        "de": "Ein benutzerfreundliches Tool zum Verbinden, Testen und Entwerfen digitaler Kommunikationskanäle zwischen verschiedenen Softwaresystemen."
+      },
+      "download_url": "https://github.com/Kong/insomnia/releases/download/core%4013.5.0/Insomnia.Core-13.5.0.exe",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "dioxus",
@@ -44515,6 +44571,62 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "impactor",
+      "name": "Impactor",
+      "tagline": "Easily install custom mobile apps.",
+      "repo_url": "https://github.com/claration/impactor",
+      "full_name": "claration/impactor",
+      "category": "Productivity",
+      "tags": [
+        "utilities",
+        "mobile"
+      ],
+      "icon": "/icons/impactor.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4007,
+      "tier": "tier1_gui",
+      "summary": "A user-friendly tool to sign and install custom apps onto mobile Apple devices using your own account.",
+      "i18n": {
+        "it": "Uno strumento intuitivo per firmare e installare app personalizzate su dispositivi mobili Apple utilizzando il tuo account.",
+        "es": "Una herramienta sencilla para firmar e instalar aplicaciones personalizadas en dispositivos móviles Apple usando tu cuenta.",
+        "fr": "Un outil intuitif pour signer et installer des applications personnalisées sur les appareils mobiles Apple avec votre compte.",
+        "de": "Ein benutzerfreundliches Tool zum Signieren und Installieren eigener Apps auf mobilen Apple-Geräten mit Ihrem eigenen Konto."
+      },
+      "download_url": "https://github.com/claration/impactor/releases/download/v2.7.3/Impactor-windows-arm64-portable.exe",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "coobjc",
+      "name": "coobjc",
+      "tagline": "Modern asynchronous coroutines for iOS apps",
+      "repo_url": "https://github.com/alibaba/coobjc",
+      "full_name": "alibaba/coobjc",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "objective-c"
+      ],
+      "icon": "/icons/coobjc.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 4002,
+      "tier": "tier1_gui",
+      "summary": "Write clean, sequential asynchronous code in Objective-C and Swift without messy nested callbacks.",
+      "i18n": {
+        "it": "Scrivi codice asincrono sequenziale e pulito in Objective-C e Swift senza callback nidificati.",
+        "es": "Escribe código asíncrono secuencial y limpio en Objective-C y Swift sin devoluciones de llamadas.",
+        "fr": "Écrivez du code asynchrone séquentiel et propre en Objective-C et Swift sans rappels imbriqués.",
+        "de": "Schreiben Sie sauberen, sequenziellen asynchronen Code in Objective-C und Swift ohne verschachtelte Callbacks."
+      },
+      "download_url": "https://github.com/alibaba/coobjc",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "open-compute",
       "name": "open-compute",
       "tagline": "Run your web services on your hardware.",
@@ -44541,6 +44653,62 @@
       },
       "download_url": "https://github.com/elliothux/open-compute/releases/download/v0.4.0/ocd-v0.4.0-darwin-arm64",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "codeapp",
+      "name": "codeapp",
+      "tagline": "Desktop code editing on your iPad",
+      "repo_url": "https://github.com/thebaselab/codeapp",
+      "full_name": "thebaselab/codeapp",
+      "category": "Productivity",
+      "tags": [
+        "editor",
+        "ipad"
+      ],
+      "icon": "/icons/codeapp.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 3997,
+      "tier": "tier1_gui",
+      "summary": "Bring desktop-class coding tools, an embedded terminal, and multi-language support directly to your iPad for mobile development.",
+      "i18n": {
+        "it": "Porta strumenti di programmazione di livello desktop e un terminale integrato direttamente sul tuo iPad.",
+        "es": "Lleva herramientas de programación de escritorio y una terminal integrada directamente a tu iPad.",
+        "fr": "Apportez des outils de programmation de bureau et un terminal intégré directement sur votre iPad.",
+        "de": "Bringen Sie Desktop-Programmierwerkzeuge und ein integriertes Terminal direkt auf Ihr iPad."
+      },
+      "download_url": "https://github.com/thebaselab/codeapp/releases/download/1.12.4/Code.ipa",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "xcglogger",
+      "name": "XCGLogger",
+      "tagline": "Clear Swift debugging logs instantly",
+      "repo_url": "https://github.com/davewoodcom/xcglogger",
+      "full_name": "davewoodcom/xcglogger",
+      "category": "Productivity",
+      "tags": [
+        "debugging",
+        "logging"
+      ],
+      "icon": "/icons/xcglogger.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 3979,
+      "tier": "tier1_gui",
+      "summary": "XCGLogger is a debug log tool for Swift projects that outputs rich messages with timestamps and file details.",
+      "i18n": {
+        "it": "XCGLogger è uno strumento di log per Swift che mostra dettagli completi come timestamp e nomi di file.",
+        "es": "XCGLogger es una herramienta de registro para proyectos Swift que muestra detalles completos en la consola.",
+        "fr": "XCGLogger est un outil de journalisation pour les projets Swift affichant des détails enrichis.",
+        "de": "XCGLogger ist ein Protokollierungswerkzeug für Swift-Projekte, das detaillierte Konsolennachrichten liefert."
+      },
+      "download_url": "https://github.com/DaveWoodCom/XCGLogger/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "data-science-at-the-command-line",
@@ -44653,6 +44821,34 @@
       },
       "download_url": "https://feeluown.readthedocs.io",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "ipsw",
+      "name": "ipsw",
+      "tagline": "Apple firmware and binary analysis toolkit",
+      "repo_url": "https://github.com/blacktop/ipsw",
+      "full_name": "blacktop/ipsw",
+      "category": "Productivity",
+      "tags": [
+        "firmware",
+        "analysis"
+      ],
+      "icon": "/icons/ipsw.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, Linux, Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 3962,
+      "tier": "tier1_gui",
+      "summary": "Explore Apple device firmware, inspect system binaries, and investigate kernel files effortlessly with this comprehensive utility.",
+      "i18n": {
+        "it": "Esplora il firmware dei dispositivi Apple, ispeziona file binari di sistema e analizza i kernel con facilità.",
+        "es": "Explora el firmware de dispositivos Apple, inspecciona archivos binarios y analiza núcleos con facilidad.",
+        "fr": "Explorez le microgiciel des appareils Apple, inspectez les fichiers binaires et analysez les noyaux.",
+        "de": "Erkunden Sie Apple-Firmware, untersuchen Sie Systemdateien und analysieren Sie Kernel-Dateien mühelos."
+      },
+      "download_url": "https://github.com/blacktop/ipsw/releases/download/v3.1.752/ipswd_3.1.752_linux_arm64.apk",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "linkstack",
@@ -44795,6 +44991,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "s2arm",
+      "name": "S2Arm",
+      "tagline": "Run your console games natively on iOS and Mac.",
+      "repo_url": "https://github.com/jhaizhou-ops/s2arm",
+      "full_name": "jhaizhou-ops/s2arm",
+      "category": "Productivity",
+      "tags": [
+        "gaming",
+        "emulator"
+      ],
+      "icon": "/icons/s2arm.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 3946,
+      "tier": "tier1_gui",
+      "summary": "Translate and run console titles natively on your iPhone, iPad, and Mac with high performance and smooth frame rates.",
+      "i18n": {
+        "it": "Avvia i tuoi titoli per console in modo nativo su iPhone, iPad e Mac con prestazioni elevate e fluidità.",
+        "es": "Reproduce tus títulos de consola de forma nativa en tu iPhone, iPad y Mac con gran rendimiento y fluidez.",
+        "fr": "Lancez vos jeux de console de manière native sur iPhone, iPad et Mac avec d'excellentes performances.",
+        "de": "Führe deine Konsolenspiele nativ auf iPhone, iPad und Mac mit hoher Leistung und flüssigen Bildraten aus."
+      },
+      "download_url": "https://github.com/jhaizhou-ops/S2Arm/releases/download/v0.6.10/S2Arm-windows-x64-setup.exe",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "codex-desktop-linux",
       "name": "ChatGPT Community for Linux",
       "tagline": "Official ChatGPT experience tailored for Linux",
@@ -44935,6 +45159,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "wordpress-ios",
+      "name": "WordPress-iOS",
+      "tagline": "Manage your WordPress blog from iOS.",
+      "repo_url": "https://github.com/wordpress-mobile/wordpress-ios",
+      "full_name": "wordpress-mobile/wordpress-ios",
+      "category": "Productivity",
+      "tags": [
+        "wordpress",
+        "ios"
+      ],
+      "icon": "/icons/wordpress-ios.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (GPL v2)",
+      "stars": 3908,
+      "tier": "tier1_gui",
+      "summary": "Create, edit, and publish posts, pages, and media directly from your iPhone or iPad using the official app.",
+      "i18n": {
+        "it": "Crea, modifica e pubblica contenuti e foto direttamente dal tuo dispositivo mobile con l'app ufficiale.",
+        "es": "Crea, edita y publica artículos y fotos directamente desde tu iPhone o iPad usando la aplicación oficial.",
+        "fr": "Créez, modifiez et publiez des articles et des médias directement depuis votre iPhone ou iPad avec l'application.",
+        "de": "Erstelle, bearbeite und veröffentliche Beiträge und Medien direkt von deinem iPhone oder iPad mit der App."
+      },
+      "download_url": "https://ios.wordpress.org/",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "psmux",
       "name": "psmux",
       "tagline": "Native terminal multitasking for Windows",
@@ -45047,6 +45299,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "dev-blog",
+      "name": "dev-blog",
+      "tagline": "Insightful software development articles and notes",
+      "repo_url": "https://github.com/nixzhu/dev-blog",
+      "full_name": "nixzhu/dev-blog",
+      "category": "Productivity",
+      "tags": [
+        "blog",
+        "development"
+      ],
+      "icon": "/icons/dev-blog.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 3899,
+      "tier": "tier1_gui",
+      "summary": "Explore a rich collection of technical articles, translated guides, and programming notes focused on mobile and web development.",
+      "i18n": {
+        "it": "Esplora una ricca raccolta di articoli tecnici, guide tradotte e note di programmazione incentrate sullo sviluppo mobile e web.",
+        "es": "Explora una rica colección de artículos técnicos, guías traducidas y notas de programación enfocadas en desarrollo móvil y web.",
+        "fr": "Explorez une riche collection d'articles techniques, de guides traduits et de notes de programmation axés sur le développement mobile et web.",
+        "de": "Entdecken Sie eine reichhaltige Sammlung technischer Artikel, übersetzter Leitfäden und Programmiernotizen zur Mobile- und Webentwicklung."
+      },
+      "download_url": "https://apps.apple.com/cn/app/ducky-model-editor/id1525505933",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "adventurelog",
       "name": "AdventureLog",
       "tagline": "Your personal private travel diary",
@@ -45073,6 +45353,34 @@
       },
       "download_url": "https://adventurelog.app",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "react-native-share",
+      "name": "React Native Share",
+      "tagline": "Easily send content to other apps",
+      "repo_url": "https://github.com/react-native-share/react-native-share",
+      "full_name": "react-native-share/react-native-share",
+      "category": "Productivity",
+      "tags": [
+        "sharing",
+        "mobile"
+      ],
+      "icon": "/icons/react-native-share.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 3895,
+      "tier": "tier1_gui",
+      "summary": "A streamlined tool for app developers to let users share text, messages, and files between different mobile applications seamlessly.",
+      "i18n": {
+        "it": "Uno strumento per consentire agli utenti di condividere testi, messaggi e file tra diverse applicazioni mobili.",
+        "es": "Una herramienta para permitir a los usuarios compartir texto, mensajes y archivos entre diferentes aplicaciones móviles.",
+        "fr": "Un outil pour permettre aux utilisateurs de partager du texte, des messages et des fichiers entre différentes applications mobiles.",
+        "de": "Ein praktisches Tool, mit dem Benutzer Texte, Nachrichten und Dateien nahtlos zwischen verschiedenen Apps teilen können."
+      },
+      "download_url": "https://github.com/react-native-share/react-native-share/releases/download/v12.3.1/package.json",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "pimcore",
@@ -45409,6 +45717,34 @@
       },
       "download_url": "https://github.com/FuzzyGrim/Yamtrack/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "yattee",
+      "name": "Yattee",
+      "tagline": "Privacy-focused video player for Apple devices",
+      "repo_url": "https://github.com/yattee/yattee",
+      "full_name": "yattee/yattee",
+      "category": "Video & Audio",
+      "tags": [
+        "video",
+        "privacy"
+      ],
+      "icon": "/icons/yattee.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (AGPL v3)",
+      "stars": 3840,
+      "tier": "tier1_gui",
+      "summary": "Enjoy seamless video playback across iOS, tvOS, and macOS with built-in ad and sponsor skipping.",
+      "i18n": {
+        "it": "Goditi la riproduzione video fluida su iOS, tvOS e macOS con blocco di annunci e sponsor integrato.",
+        "es": "Disfruta de reproducción de video fluida en iOS, tvOS y macOS con bloqueo de anuncios y patrocinadores integrado.",
+        "fr": "Profitez d'une lecture vidéo fluide sur iOS, tvOS et macOS avec suppression intégrée des annonces et sponsors.",
+        "de": "Genießen Sie eine reibungslose Videowiedergabe auf iOS, tvOS und macOS mit integrierter Werbe- und Sponsorenunterdrückung."
+      },
+      "download_url": "https://github.com/yattee/yattee/releases/download/v1.5.1/Yattee-1.5.1-iOS.ipa",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "aura-theme",
@@ -64310,6 +64646,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "app-enfugue-ai",
+      "name": "app.enfugue.ai",
+      "tagline": "Create studio-grade AI images and videos.",
+      "repo_url": "https://github.com/painebenjamin/app.enfugue.ai",
+      "full_name": "painebenjamin/app.enfugue.ai",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "ai",
+        "art"
+      ],
+      "icon": "/icons/app-enfugue-ai.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 754,
+      "tier": "tier2_webapp",
+      "summary": "Enfugue is a flexible open-source web application for generating high-quality AI images and videos directly on your hardware.",
+      "i18n": {
+        "it": "Enfugue è un'applicazione web open source per generare immagini e video di alta qualità tramite intelligenza artificiale.",
+        "es": "Enfugue es una aplicación web de código abierto para generar imágenes y videos avanzados usando inteligencia artificial.",
+        "fr": "Enfugue est une application web open source pour générer des images et vidéos de haute qualité grâce à l'intelligence artificielle.",
+        "de": "Enfugue ist eine Open-Source-Webanwendung zum Erstellen hochwertiger KI-Bilder und Videos direkt auf Ihrem eigenen Computer."
+      },
+      "download_url": "https://github.com/painebenjamin/app.enfugue.ai/releases/download/0.3.3/enfugue-server-0.3.3-manylinux-cuda-x86_64.tar.gz.0",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "guark",
       "name": "Guark",
       "tagline": "Build native desktop apps with Go.",
@@ -64898,6 +65262,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "openvpn-web-ui",
+      "name": "OpenVPN Web UI",
+      "tagline": "Simple web control for OpenVPN",
+      "repo_url": "https://github.com/adamwalach/openvpn-web-ui",
+      "full_name": "adamwalach/openvpn-web-ui",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "vpn",
+        "web-ui"
+      ],
+      "icon": "/icons/openvpn-web-ui.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 706,
+      "tier": "tier2_webapp",
+      "summary": "A friendly web dashboard lets you watch your VPN server, add users, and download their connection files, all from a browser.",
+      "i18n": {
+        "it": "Una dashboard web intuitiva ti permette di monitorare il server VPN, aggiungere utenti e scaricare i file di configurazione, tutto dal browser.",
+        "es": "Un panel web fácil de usar te permite ver el estado del servidor VPN, crear usuarios y descargar sus archivos de configuración, todo desde el navegador.",
+        "fr": "Un tableau de bord web convivial vous permet de surveiller votre serveur VPN, d’ajouter des utilisateurs et de télécharger leurs fichiers de configuration, le tout depuis votre navigateur.",
+        "de": "Ein benutzerfreundliches Web‑Dashboard ermöglicht das Überwachen des VPN‑Servers, das Anlegen von Nutzern und das Herunterladen ihrer Konfigurationsdateien, alles im Browser."
+      },
+      "download_url": "https://github.com/adamwalach/openvpn-web-ui/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "docker-registry-browser",
       "name": "docker-registry-browser",
       "tagline": "Visual web dashboard for software registries",
@@ -65008,6 +65400,34 @@
       },
       "download_url": "https://ignis-sh.github.io/ignis/",
       "updated_at": "2026-11-24"
+    },
+    {
+      "slug": "nusmods",
+      "name": "nusmods",
+      "tagline": "Smart course planner and timetable builder",
+      "repo_url": "https://github.com/nusmodifications/nusmods",
+      "full_name": "nusmodifications/nusmods",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "education",
+        "scheduling"
+      ],
+      "icon": "/icons/nusmods.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 693,
+      "tier": "tier2_webapp",
+      "summary": "Plan your university semesters, browse course catalogues, and build conflict-free timetables effortlessly.",
+      "i18n": {
+        "it": "Pianifica i tuoi semestri universitari, consulta i cataloghi dei corsi e crea orari senza conflitti in modo semplice.",
+        "es": "Planifica tus semestres universitarios, explora catálogos de cursos y crea horarios sin conflictos fácilmente.",
+        "fr": "Planifiez vos semestres universitaires, parcourez les catalogues de cours et créez des emplois du temps sans conflits.",
+        "de": "Planen Sie Ihre Semester, durchsuchen Sie Kurskataloge und erstellen Sie mühelos überschneidungsfreie Stundenpläne."
+      },
+      "download_url": "https://nusmods.com",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "offline-file-converter-windows",
@@ -65206,6 +65626,62 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "monitorr",
+      "name": "Monitorr",
+      "tagline": "Live status board for network services.",
+      "repo_url": "https://github.com/monitorr/monitorr",
+      "full_name": "monitorr/monitorr",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "monitoring",
+        "dashboard"
+      ],
+      "icon": "/icons/monitorr.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 678,
+      "tier": "tier2_webapp",
+      "summary": "Monitorr is a self-hosted web tool that displays live status information for all your websites, applications, and network services.",
+      "i18n": {
+        "it": "Monitorr è uno strumento web per visualizzare lo stato di siti web, applicazioni e servizi di rete in tempo reale.",
+        "es": "Monitorr es una herramienta web para visualizar el estado en directo de tus sitios web, aplicaciones y servicios de red.",
+        "fr": "Monitorr est un outil web pour afficher l'état en direct de tous vos sites web, applications et services réseau.",
+        "de": "Monitorr ist ein Web-Tool zur Anzeige des Live-Status Ihrer Websites, Anwendungen und netzwerkbasierten Dienste."
+      },
+      "download_url": "https://github.com/monitorr",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "startup-landing",
+      "name": "Startup‑Landing",
+      "tagline": "Free, Fresh Landing Page Templates",
+      "repo_url": "https://github.com/startup-landing/startup-landing",
+      "full_name": "startup-landing/startup-landing",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "templates",
+        "landing-pages"
+      ],
+      "icon": "/icons/startup-landing.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Public Domain / Free",
+      "stars": 676,
+      "tier": "tier2_webapp",
+      "summary": "Startup‑Landing provides free, mobile‑optimized landing page templates you can download, edit, and deploy.",
+      "i18n": {
+        "it": "Startup‑Landing offre modelli di landing page gratuiti, ottimizzati per mobile, che puoi scaricare, modificare e distribuire.",
+        "es": "Startup‑Landing ofrece plantillas gratuitas de landing page, optimizadas para móvil, que puedes descargar, editar y desplegar.",
+        "fr": "Startup‑Landing propose des modèles de landing page gratuits, optimisés pour mobile, que vous pouvez télécharger, modifier et déployer.",
+        "de": "Startup‑Landing bietet kostenlose, mobiloptimierte Landing‑Page-Vorlagen, die Sie herunterladen, bearbeiten und bereitstellen können."
+      },
+      "download_url": "https://startuplanding.redq.io",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "unyo-app",
       "name": "Unyo",
       "tagline": "Stream anime and read manga ad-free.",
@@ -65288,6 +65764,118 @@
       },
       "download_url": "https://github.com/skipperbent/simple-php-router/releases",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "static-web-apps-cli",
+      "name": "Static Web Apps CLI",
+      "tagline": "Test modern websites locally before launching",
+      "repo_url": "https://github.com/azure/static-web-apps-cli",
+      "full_name": "azure/static-web-apps-cli",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "development",
+        "cloud"
+      ],
+      "icon": "/icons/static-web-apps-cli.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 668,
+      "tier": "tier2_webapp",
+      "summary": "Test and preview cloud-hosted websites right on your computer before publishing them live to the internet.",
+      "i18n": {
+        "it": "Prova e visualizza in anteprima siti web sul tuo computer prima di pubblicarli online in modo definitivo.",
+        "es": "Prueba y visualiza sitios web en tu computadora antes de publicarlos en vivo en internet.",
+        "fr": "Testez et prévisualisez des sites web directement sur votre ordinateur avant de les publier en ligne.",
+        "de": "Testen und betrachten Sie Websites direkt auf Ihrem Computer, bevor Sie diese live ins Netz stellen."
+      },
+      "download_url": "https://aka.ms/swa/cli-local-development",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "cat-printer",
+      "name": "Cat-Printer",
+      "tagline": "Connect and print with mini Bluetooth printers.",
+      "repo_url": "https://github.com/naitlee/cat-printer",
+      "full_name": "naitlee/cat-printer",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "utilities",
+        "bluetooth"
+      ],
+      "icon": "/icons/cat-printer.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 666,
+      "tier": "tier2_webapp",
+      "summary": "Easily connect to portable Bluetooth thermal printers across multiple devices using a clean web interface or an Android application.",
+      "i18n": {
+        "it": "Connettiti facilmente a stampanti termiche Bluetooth portatili su vari dispositivi tramite un'interfaccia web o un'app Android.",
+        "es": "Conéctate fácilmente a impresoras térmicas Bluetooth portátiles en varios dispositivos mediante una interfaz web o una aplicación de Android.",
+        "fr": "Connectez-vous facilement à des imprimantes thermiques Bluetooth portables sur plusieurs appareils via une interface web ou une application Android.",
+        "de": "Verbinden Sie sich ganz einfach mit tragbaren Bluetooth-Thermodruckern auf verschiedenen Geräten über eine Weboberfläche oder Android-App."
+      },
+      "download_url": "https://github.com/NaitLee/Cat-Printer/releases/download/0.6.3.0/cat-printer-android-0.6.3.0.apk",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "nestjs-bff",
+      "name": "nestjs-bff",
+      "tagline": "Build enterprise full-stack apps easily",
+      "repo_url": "https://github.com/ablestack/nestjs-bff",
+      "full_name": "ablestack/nestjs-bff",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "full-stack",
+        "starter-kit"
+      ],
+      "icon": "/icons/nestjs-bff.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 666,
+      "tier": "tier2_webapp",
+      "summary": "Jumpstart your full-stack development with a strongly typed enterprise template featuring built-in security, database tools, and logging.",
+      "i18n": {
+        "it": "Accelera lo sviluppo con un modello aziendale tipizzato che include sicurezza integrata, strumenti per database e log.",
+        "es": "Acelera tu desarrollo con una plantilla empresarial fuertemente tipada que incluye seguridad, herramientas de datos y registros.",
+        "fr": "Accélérez votre développement avec un modèle d'entreprise doté d'une sécurité intégrée, d'outils de base de données et de journaux.",
+        "de": "Beschleunigen Sie Ihre Entwicklung mit einer typsicheren Unternehmensvorlage inklusive integrierter Sicherheit und Datenbank-Tools."
+      },
+      "download_url": "https://github.com/ablestack/nestjs-bff/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "zhihudaily-vue",
+      "name": "zhihudaily-vue",
+      "tagline": "Web reader inspired by popular daily articles.",
+      "repo_url": "https://github.com/yatessss/zhihudaily-vue",
+      "full_name": "yatessss/zhihudaily-vue",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "reader",
+        "news"
+      ],
+      "icon": "/icons/zhihudaily-vue.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 666,
+      "tier": "tier2_webapp",
+      "summary": "Browse curated daily news and stories in a clean mobile web reader interface built with the Vue framework.",
+      "i18n": {
+        "it": "Sfoglia notizie e storie quotidiane curate in un'interfaccia di lettura web mobile pulita.",
+        "es": "Explora noticias e historias diarias seleccionadas en una interfaz de lectura web móvil limpia.",
+        "fr": "Parcourez des actualités et des histoires quotidiennes sélectionnées dans une interface web mobile épurée.",
+        "de": "Durchstöbern Sie kuratierte tägliche Nachrichten und Geschichten in einer übersichtlichen mobilen Web-Oberfläche."
+      },
+      "download_url": "https://github.com/yatessss/zhihudaily-vue/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "nativeshell",
@@ -65710,6 +66298,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "qrcode-show",
+      "name": "qrcode.show",
+      "tagline": "Generate quick response codes instantly",
+      "repo_url": "https://github.com/sayanarijit/qrcode.show",
+      "full_name": "sayanarijit/qrcode.show",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "utilities",
+        "web-tool"
+      ],
+      "icon": "/icons/qrcode-show.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (AGPL v3)",
+      "stars": 637,
+      "tier": "tier2_webapp",
+      "summary": "Easily turn website links or text into scannable matrix codes directly from your browser or command line without tracking.",
+      "i18n": {
+        "it": "Trasforma link o testi in codici scansionabili dal browser o dal terminale in modo semplice e sicuro.",
+        "es": "Convierte enlaces o textos en códigos escaneables directamente desde el navegador o la terminal sin seguimiento.",
+        "fr": "Transformez des liens ou du texte en codes scannables directement depuis votre navigateur ou terminal sans suivi.",
+        "de": "Verwandle Links oder Text direkt im Browser oder Terminal in scanbare Matrix-Codes ganz ohne Datenerfassung."
+      },
+      "download_url": "https://QRcode.show",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "tauri-tutorial",
       "name": "Tauri Tutorial",
       "tagline": "Build lightweight cross-platform desktop applications easily.",
@@ -65764,6 +66380,62 @@
       },
       "download_url": "https://github.com/ZJU-REAL/HugAgentOS/releases/download/desktop-v1.0.2/HugAgentOS_1.0.2_x64-setup.exe",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "converternow",
+      "name": "ConverterNOW",
+      "tagline": "Fast and private multi-platform unit converter",
+      "repo_url": "https://github.com/ferraridamiano/converternow",
+      "full_name": "ferraridamiano/converternow",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "utilities",
+        "calculator"
+      ],
+      "icon": "/icons/converternow.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (GPL v3)",
+      "stars": 634,
+      "tier": "tier2_webapp",
+      "summary": "Convert units instantly with a fast, private, and open-source tool that includes real-time currency updates and no annoying ads.",
+      "i18n": {
+        "it": "Converti unità all'istante con uno strumento aperto, privato e senza pubblicità che include tassi di cambio giornalieri.",
+        "es": "Convierte unidades al instante con una herramienta abierta y privada que incluye tasas de cambio diarias y sin anuncios.",
+        "fr": "Convertissez des unités instantanément avec un outil ouvert et privé qui inclut des taux de change quotidiens sans publicité.",
+        "de": "Rechnen Sie Einheiten sofort mit einem offenen, privaten Werkzeug um, das tägliche Währungskurse bietet und keine Werbung enthält."
+      },
+      "download_url": "https://github.com/ferraridamiano/ConverterNOW/releases/download/v4.7.1/converternow-windows-setup.exe",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "saltgui",
+      "name": "SaltGUI",
+      "tagline": "Easy web control for your servers",
+      "repo_url": "https://github.com/erwindon/saltgui",
+      "full_name": "erwindon/saltgui",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "server-management",
+        "automation"
+      ],
+      "icon": "/icons/saltgui.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Open Source (MIT)",
+      "stars": 632,
+      "tier": "tier2_webapp",
+      "summary": "Manage server networks and automate system tasks visually through a clean, user-friendly web interface.",
+      "i18n": {
+        "it": "Gestisci reti di server e automatizza le attività di sistema tramite un'interfaccia web pulita e intuitiva.",
+        "es": "Gestiona redes de servidores y automatiza tareas del sistema visualmente a través de una interfaz web clara.",
+        "fr": "Gérez des réseaux de serveurs et automatisez les tâches système via une interface web claire et intuitive.",
+        "de": "Verwalten Sie Server-Netzwerke und automatisieren Sie Systemaufgaben über eine übersichtliche Benutzeroberfläche."
+      },
+      "download_url": "https://github.com/erwindon/SaltGUI/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "dotplant2",
@@ -65876,6 +66548,34 @@
       },
       "download_url": "https://github.com/ikaros-dev/ikaros/releases/download/v1.2.6/ikaros-server.jar",
       "updated_at": "2026-11-23"
+    },
+    {
+      "slug": "cartoonize",
+      "name": "cartoonize",
+      "tagline": "Turn photos into cartoons instantly",
+      "repo_url": "https://github.com/experience-ml/cartoonize",
+      "full_name": "experience-ml/cartoonize",
+      "category": "Web Apps & Cloud",
+      "tags": [
+        "webapp",
+        "image-processing"
+      ],
+      "icon": "/icons/cartoonize.png",
+      "is_webapp": true,
+      "app_type": "selfhosted",
+      "operatingSystem": "Self-Hosted / Browser",
+      "license": "Custom Open License",
+      "stars": 624,
+      "tier": "tier2_webapp",
+      "summary": "Cartoonizer lets you upload photos or videos and instantly see them transformed into cartoon style images.",
+      "i18n": {
+        "it": "Cartoonizer ti permette di caricare foto o video e vederli trasformati in stile cartone animato in pochi secondi.",
+        "es": "Cartoonizer te permite subir fotos o videos y verlos transformados en estilo de dibujo animado en segundos.",
+        "fr": "Cartoonizer vous permet de télécharger des photos ou des vidéos et de les voir transformées en style dessin animé en quelques secondes.",
+        "de": "Cartoonizer ermöglicht es Ihnen, Fotos oder Videos hochzuladen und sie in wenigen Sekunden in Cartoonstil umzuwandeln."
+      },
+      "download_url": "https://cartoonize-lkqov62dia-de.a.run.app/",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "nuepress",

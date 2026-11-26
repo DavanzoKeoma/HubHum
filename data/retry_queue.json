@@ -77,17 +77,17 @@
     "queued_at": "2026-11-25T23:34:02.204863+00:00"
   },
   {
-    "full_name": "painebenjamin/app.enfugue.ai",
-    "slug": "app-enfugue-ai",
-    "html_url": "https://github.com/painebenjamin/app.enfugue.ai",
-    "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
-    "queued_at": "2026-11-25T23:45:13.671309+00:00"
-  },
-  {
     "full_name": "PaoloCuscela/Cards",
     "slug": "cards",
     "html_url": "https://github.com/PaoloCuscela/Cards",
     "reason": "tier1_gemini: validation failed (YAML frontmatter not closed with '---'.) | tier2_groq: validation failed (YAML frontmatter not closed with '---'.)",
     "queued_at": "2026-11-26T09:17:38.635492+00:00"
+  },
+  {
+    "full_name": "dotenx/dotenx",
+    "slug": "dotenx",
+    "html_url": "https://github.com/dotenx/dotenx",
+    "reason": "tier1_gemini: call error (HTTP Error 404: Not Found) | tier2_groq: validation failed (Missing required heading: ### Key features; Missing required heading: ### How to install (Download); Missing required heading: ### Pros and Cons)",
+    "queued_at": "2026-11-26T09:23:59.299329+00:00"
   }
 ]
