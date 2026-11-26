@@ -2,23 +2,23 @@
   "schema_version": "1.1",
   "project": "HubHum — A Git Hub for Humans",
   "site_url": "https://davanzokeoma.github.io/HubHum/",
-  "generated_at": "2026-11-26T09:14:29.767031+00:00",
-  "total_apps": 2525,
+  "generated_at": "2026-11-26T09:19:01.161482+00:00",
+  "total_apps": 2550,
   "tier_counts": {
     "tier3_powertool": 389,
     "tier2_webapp": 758,
-    "tier1_gui": 1378
+    "tier1_gui": 1403
   },
   "app_type_counts": {
     "resource": 10,
     "cli": 379,
     "selfhosted": 757,
-    "desktop": 1378,
+    "desktop": 1403,
     "webapp": 1
   },
   "categories": {
     "Graphics & Design": 45,
-    "Productivity": 1229,
+    "Productivity": 1254,
     "Security & Privacy": 60,
     "Utilities & Power Tools": 345,
     "Video & Audio": 109,
@@ -41940,6 +41940,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "mangayomi",
+      "name": "Mangayomi",
+      "tagline": "Free all-in-one manga and anime reader",
+      "repo_url": "https://github.com/kodjodevf/mangayomi",
+      "full_name": "kodjodevf/mangayomi",
+      "category": "Productivity",
+      "tags": [
+        "manga",
+        "anime"
+      ],
+      "icon": "/icons/mangayomi.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Linux, Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 4564,
+      "tier": "tier1_gui",
+      "summary": "Mangayomi is a free, open-source app that lets you read manga, novels, and watch anime on any device.",
+      "i18n": {
+        "it": "Mangayomi è un'app gratuita e open source per leggere manga, romanzi e guardare anime su qualsiasi dispositivo.",
+        "es": "Mangayomi es una aplicación gratuita y de código abierto para leer mangas, novelas y ver animes en cualquier dispositivo.",
+        "fr": "Mangayomi est une application gratuite et open source pour lire des mangas, des romans et regarder des animes sur n'importe quel appareil.",
+        "de": "Mangayomi ist eine kostenlose Open-Source-App zum Lesen von Mangas, Romanen und Ansehen von Animes auf jedem Gerät."
+      },
+      "download_url": "https://github.com/kodjodevf/mangayomi/releases/download/v0.9.97/Mangayomi-v0.9.97-windows.exe",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "strider",
       "name": "Strider",
       "tagline": "Automate your project testing and deployment",
@@ -42108,6 +42136,90 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "collectionkit",
+      "name": "CollectionKit",
+      "tagline": "Modern Swift collection view helper",
+      "repo_url": "https://github.com/soysaucelab/collectionkit",
+      "full_name": "soysaucelab/collectionkit",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "ui"
+      ],
+      "icon": "/icons/collectionkit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4518,
+      "tier": "tier1_gui",
+      "summary": "Build flexible, data-driven lists and grids in mobile apps with automatic updates and custom layouts.",
+      "i18n": {
+        "it": "Crea elenchi e griglie flessibili per app mobili con aggiornamenti automatici e layout personalizzati.",
+        "es": "Crea listas y cuadrículas flexibles en aplicaciones móviles con actualizaciones automáticas y diseños personalizados.",
+        "fr": "Créez des listes et des grilles flexibles dans les applications mobiles avec des mises à jour automatiques.",
+        "de": "Erstellen Sie flexible Listen und Raster in mobilen Apps mit automatischen Updates und eigenen Layouts."
+      },
+      "download_url": "https://github.com/SoySauceLab/CollectionKit/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "open-apps",
+      "name": "open-apps",
+      "tagline": "Discover production-grade open-source applications",
+      "repo_url": "https://github.com/tortuvshin/open-apps",
+      "full_name": "tortuvshin/open-apps",
+      "category": "Productivity",
+      "tags": [
+        "directory",
+        "open-source"
+      ],
+      "icon": "/icons/open-apps.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Custom Open License",
+      "stars": 4509,
+      "tier": "tier1_gui",
+      "summary": "Explore a curated, self-refreshing directory of real open-source software built to help you learn from production codebases and find projects to support.",
+      "i18n": {
+        "it": "Esplora una directory curata e sempre aggiornata di veri software open-source per imparare da codice reale e trovare progetti.",
+        "es": "Explora un directorio seleccionado de aplicaciones reales de código abierto diseñado para aprender de bases de código de producción.",
+        "fr": "Explorez un répertoire d'applications open-source réelles pour apprendre du code de production et trouver des projets à soutenir.",
+        "de": "Entdecken Sie ein kuratiertes Verzeichnis echter Open-Source-Apps, um von echtem Produktionscode zu lernen und Projekte zu finden."
+      },
+      "download_url": "https://openappscout.com",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "flutter-webrtc",
+      "name": "Flutter WebRTC",
+      "tagline": "Real-time audio and video for Flutter",
+      "repo_url": "https://github.com/flutter-webrtc/flutter-webrtc",
+      "full_name": "flutter-webrtc/flutter-webrtc",
+      "category": "Productivity",
+      "tags": [
+        "webrtc",
+        "flutter"
+      ],
+      "icon": "/icons/flutter-webrtc.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4502,
+      "tier": "tier1_gui",
+      "summary": "Add real-time voice, video, and data sharing capabilities to your cross-platform mobile, desktop, and web applications easily.",
+      "i18n": {
+        "it": "Aggiungi funzionalità di voce, video e condivisione dati in tempo reale alle tue applicazioni mobili, desktop e web.",
+        "es": "Agregue capacidades de voz, video y datos en tiempo real a sus aplicaciones móviles, de escritorio y web de forma sencilla.",
+        "fr": "Ajoutez des fonctionnalités vocales, vidéo et de partage de données en temps réel à vos applications mobiles et de bureau.",
+        "de": "Fügen Sie Ihren plattformübergreifenden Apps ganz einfach Echtzeit-Sprach-, Video- und Datenfreigabefunktionen hinzu."
+      },
+      "download_url": "https://github.com/flutter-webrtc/flutter-webrtc/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "parrot-live",
       "name": "parrot.live",
       "tagline": "Animated parrots for your terminal",
@@ -42218,6 +42330,34 @@
       },
       "download_url": "https://github.com/jeffreytse/zsh-vi-mode/releases",
       "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "ypimagepicker",
+      "name": "YPImagePicker",
+      "tagline": "Instagram-style media picker for iOS apps.",
+      "repo_url": "https://github.com/yummypets/ypimagepicker",
+      "full_name": "yummypets/ypimagepicker",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "photo-picker"
+      ],
+      "icon": "/icons/ypimagepicker.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4482,
+      "tier": "tier1_gui",
+      "summary": "An easy-to-use media selection tool for iOS developers that lets users pick, crop, filter, and edit photos and videos.",
+      "i18n": {
+        "it": "Un pratico strumento di selezione media per iOS che permette agli utenti di scegliere, ritagliare e modificare foto e video.",
+        "es": "Una herramienta de selección multimedia para iOS que permite a los usuarios elegir, recortar y editar fotos y vídeos.",
+        "fr": "Un outil de sélection de médias pour iOS qui permet aux utilisateurs de choisir, rogner et modifier des photos et vidéos.",
+        "de": "Ein praktisches Medienauswahl-Tool für iOS, mit dem Benutzer Fotos und Videos auswählen, zuschneiden und bearbeiten können."
+      },
+      "download_url": "https://github.com/Yummypets/YPImagePicker/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "wakapi",
@@ -42444,6 +42584,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "whatsnewkit",
+      "name": "WhatsNewKit",
+      "tagline": "Show off new app features easily",
+      "repo_url": "https://github.com/sventiigi/whatsnewkit",
+      "full_name": "sventiigi/whatsnewkit",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "ios"
+      ],
+      "icon": "/icons/whatsnewkit.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4439,
+      "tier": "tier1_gui",
+      "summary": "WhatsNewKit lets you quickly create a friendly screen that tells users about the latest updates in your iOS, macOS, or visionOS app, fully customizable and easy to add.",
+      "i18n": {
+        "it": "WhatsNewKit ti permette di creare rapidamente una schermata amichevole che informa gli utenti degli ultimi aggiornamenti della tua app iOS, macOS o visionOS.",
+        "es": "WhatsNewKit te permite crear rápidamente una pantalla amigable que informa a los usuarios sobre las últimas actualizaciones de tu aplicación iOS, macOS o visionOS, totalmente personalizable y fácil de integrar.",
+        "fr": "WhatsNewKit vous permet de créer rapidement une interface conviviale qui informe les utilisateurs des dernières mises à jour de votre application iOS, macOS ou visionOS.",
+        "de": "WhatsNewKit ermöglicht es Ihnen, schnell einen benutzerfreundlichen Bildschirm zu erstellen, der Nutzer über die neuesten Updates Ihrer iOS-, macOS‑ oder visionOS‑App informiert."
+      },
+      "download_url": "https://sventiigi.github.io/WhatsNewKit/",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "pow",
+      "name": "Pow",
+      "tagline": "Delightful animations and effects for apps",
+      "repo_url": "https://github.com/emergetools/pow",
+      "full_name": "emergetools/pow",
+      "category": "Productivity",
+      "tags": [
+        "swiftui",
+        "animations"
+      ],
+      "icon": "/icons/pow.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4436,
+      "tier": "tier1_gui",
+      "summary": "Pow brings lively visual effects, particle animations, and smooth screen transitions to native user interfaces.",
+      "i18n": {
+        "it": "Pow offre vivaci effetti visivi, animazioni di particelle e transizioni fluide per le interfacce utente native.",
+        "es": "Pow aporta efectos visuales animados, partículas y transiciones fluidas a las interfaces de usuario nativas.",
+        "fr": "Pow ajoute des effets visuels animés, des particules et des transitions fluides aux interfaces utilisateur natives.",
+        "de": "Pow bringt lebendige visuelle Effekte, Partikelanimationen und flüssige Bildschirmübergänge in native Oberflächen."
+      },
+      "download_url": "https://movingparts.io/pow",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "blackcandy",
       "name": "Black Candy",
       "tagline": "Your own private music streaming server",
@@ -42470,6 +42666,34 @@
       },
       "download_url": "https://github.com/blackcandy-org/blackcandy/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "bagel",
+      "name": "Bagel",
+      "tagline": "Inspect mobile network traffic effortlessly.",
+      "repo_url": "https://github.com/yagiz/bagel",
+      "full_name": "yagiz/bagel",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "networking"
+      ],
+      "icon": "/icons/bagel.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 4425,
+      "tier": "tier1_gui",
+      "summary": "Bagel is a native desktop and mobile companion that lets developers inspect app network traffic over local Wi-Fi without configuring tricky certificates.",
+      "i18n": {
+        "it": "Bagel è uno strumento nativo per ispezionare il traffico di rete delle applicazioni mobili senza configurare certificati complessi.",
+        "es": "Bagel es una herramienta nativa para inspeccionar el tráfico de red de aplicaciones móviles sin configurar certificados complejos.",
+        "fr": "Bagel est un outil natif pour inspecter le trafic réseau des applications mobiles sans configurer de certificats complexes.",
+        "de": "Bagel ist ein natives Tool zur Überwachung des Netzwerkverkehrs von mobilen Apps ohne komplexe Zertifikate."
+      },
+      "download_url": "https://github.com/yagiz/Bagel/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "simplcommerce",
@@ -42584,6 +42808,33 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "reactjs101",
+      "name": "reactjs101",
+      "tagline": "Learn React step‑by‑step in Chinese",
+      "repo_url": "https://github.com/kdchang/reactjs101",
+      "full_name": "kdchang/reactjs101",
+      "category": "Productivity",
+      "tags": [
+        "education"
+      ],
+      "icon": "/icons/reactjs101.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 4344,
+      "tier": "tier1_gui",
+      "summary": "A friendly guide that teaches the basics of building interactive web pages with React, using clear Chinese examples so beginners can start creating their own apps.",
+      "i18n": {
+        "it": "Una guida amichevole che spiega le basi per creare pagine web interattive con React, con esempi chiari in cinese per aiutare i principianti a realizzare le proprie app.",
+        "es": "Una guía sencilla que enseña los conceptos básicos para crear páginas web interactivas con React, con ejemplos claros en chino para que los principiantes desarrollen sus propias apps.",
+        "fr": "Un guide convivial qui explique les bases de la création de pages web interactives avec React, avec des exemples clairs en chinois pour que les débutants créent leurs propres apps.",
+        "de": "Ein leicht verständlicher Leitfaden, der die Grundlagen für interaktive Webseiten mit React erklärt und klare chinesische Beispiele bietet, damit Anfänger eigene Apps erstellen können."
+      },
+      "download_url": "https://www.gitbook.com/book/kdchang/react101/details",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "neriplayer",
       "name": "NeriPlayer",
       "tagline": "Unified music player for all sources",
@@ -42610,6 +42861,34 @@
       },
       "download_url": "https://github.com/cwuom/NeriPlayer/releases/download/NeriPlayer-09526815.11171823/NeriPlayer-09526815.11171823-arm64-v8a.apk",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "jdstatusbarnotification",
+      "name": "JDStatusBarNotification",
+      "tagline": "Custom status bar notifications for iOS",
+      "repo_url": "https://github.com/calimarkus/jdstatusbarnotification",
+      "full_name": "calimarkus/jdstatusbarnotification",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "notifications"
+      ],
+      "icon": "/icons/jdstatusbarnotification.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4326,
+      "tier": "tier1_gui",
+      "summary": "Create and display highly customizable alerts right beneath your iPhone's status bar, notch, or island with smooth animations.",
+      "i18n": {
+        "it": "Crea avvisi interattivi e personalizzabili sotto la barra di stato o la tacca del tuo iPhone con animazioni fluide.",
+        "es": "Crea alertas interactivas debajo de la barra de estado o muesca de tu iPhone con animaciones fluidas y sencillas.",
+        "fr": "Affichez des alertes élégantes sous la barre d'état ou l'encoche de votre iPhone avec des animations fluides.",
+        "de": "Erstellen Sie interaktive Warnungen unter der Statusleiste oder Notch Ihres iPhones mit flüssigen Animationen."
+      },
+      "download_url": "https://calimarkus.github.io/JDStatusBarNotification/documentation/jdstatusbarnotification",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "uptrace",
@@ -42668,6 +42947,34 @@
       "updated_at": "2026-11-24"
     },
     {
+      "slug": "swiftfin",
+      "name": "Swiftfin",
+      "tagline": "Stream self-hosted media on Apple devices.",
+      "repo_url": "https://github.com/jellyfin/swiftfin",
+      "full_name": "jellyfin/swiftfin",
+      "category": "Productivity",
+      "tags": [
+        "streaming",
+        "media-player"
+      ],
+      "icon": "/icons/swiftfin.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MPL 2.0)",
+      "stars": 4304,
+      "tier": "tier1_gui",
+      "summary": "Swiftfin is a modern native media client designed for Apple devices that lets you connect to your personal video library seamlessly.",
+      "i18n": {
+        "it": "Swiftfin è un client multimediale moderno e nativo per iOS e tvOS che si collega al tuo server domestico.",
+        "es": "Swiftfin es un cliente multimedia moderno para iOS y tvOS que se conecta a tu servidor personal.",
+        "fr": "Swiftfin est un lecteur multimédia moderne pour iOS et tvOS qui se connecte à votre serveur personnel.",
+        "de": "Swiftfin ist ein moderner Medienplayer für iOS und tvOS, der sich mit Ihrem Heimserver verbindet."
+      },
+      "download_url": "https://github.com/jellyfin/Swiftfin/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "terraink",
       "name": "terraink",
       "tagline": "Create unique custom map art posters",
@@ -42694,6 +43001,62 @@
       },
       "download_url": "https://terraink.app",
       "updated_at": "2026-11-25"
+    },
+    {
+      "slug": "konsta",
+      "name": "Konsta UI",
+      "tagline": "Pixel-perfect mobile design components",
+      "repo_url": "https://github.com/konstaui/konsta",
+      "full_name": "konstaui/konsta",
+      "category": "Productivity",
+      "tags": [
+        "ui-components",
+        "mobile-design"
+      ],
+      "icon": "/icons/konsta.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4297,
+      "tier": "tier1_gui",
+      "summary": "A free library of ready-made mobile interface parts that look exactly like native apps, helping developers build beautiful screens quickly.",
+      "i18n": {
+        "it": "Una libreria gratuita di parti di interfaccia mobile pronte all'uso che sembrano app native, aiutando gli sviluppatori a creare schermate belle rapidamente.",
+        "es": "Una biblioteca gratuita de partes de interfaz móvil listas para usar que parecen aplicaciones nativas, ayudando a los desarrolladores a crear pantallas hermosas rápidamente.",
+        "fr": "Une bibliothèque gratuite de parties d'interface mobile prêtes à l'emploi qui ressemblent à des applications natives, aidant les développeurs à créer de belles écrans rapidement.",
+        "de": "Eine kostenlose Bibliothek von fertigen mobilen Benutzeroberflächen-Teilen, die wie native Apps aussehen und Entwicklern helfen, schnell schöne Bildschirme zu erstellen."
+      },
+      "download_url": "https://konstaui.com",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "marqueelabel",
+      "name": "MarqueeLabel",
+      "tagline": "Smooth scrolling text labels for apps",
+      "repo_url": "https://github.com/cbpowell/marqueelabel",
+      "full_name": "cbpowell/marqueelabel",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "ui"
+      ],
+      "icon": "/icons/marqueelabel.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4296,
+      "tier": "tier1_gui",
+      "summary": "Easily display long text in tight spaces by adding an automatic scrolling marquee effect to your standard mobile app labels.",
+      "i18n": {
+        "it": "Mostra facilmente testi lunghi in spazi ristretti aggiungendo un effetto di scorrimento automatico alle etichette delle app.",
+        "es": "Muestra fácilmente textos largos en espacios reducidos añadiendo un efecto de desplazamiento automático a las etiquetas.",
+        "fr": "Affichez facilement des textes longs dans des espaces restreints en ajoutant un effet de défilement automatique.",
+        "de": "Zeigen Sie langen Text in engen Bereichen an, indem Sie Ihren App-Beschriftungen einen automatischen Laufeffekt hinzufügen."
+      },
+      "download_url": "https://github.com/cbpowell/MarqueeLabel/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "ironcalc",
@@ -43200,6 +43563,34 @@
       "updated_at": "2026-11-25"
     },
     {
+      "slug": "valet",
+      "name": "Valet",
+      "tagline": "Securely store sensitive data on Apple devices easily.",
+      "repo_url": "https://github.com/square/valet",
+      "full_name": "square/valet",
+      "category": "Productivity",
+      "tags": [
+        "security",
+        "ios"
+      ],
+      "icon": "/icons/valet.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "macOS, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 4171,
+      "tier": "tier1_gui",
+      "summary": "Store passwords and sensitive user data securely in Apple device secure storage boxes without dealing with complex system rules.",
+      "i18n": {
+        "it": "Memorizza password e informazioni riservate sui dispositivi Apple senza affrontare configurazioni complesse o comandi di sistema.",
+        "es": "Almacena contraseñas y datos privados de forma segura en tus dispositivos Apple sin complicaciones técnicas.",
+        "fr": "Enregistrez vos mots de passe et données privées en toute sécurité sur les appareils Apple sans complexité technique.",
+        "de": "Bewahren Sie Passwörter und private Daten sicher auf Apple-Geräten auf, ohne komplizierte Systemregeln verstehen zu müssen."
+      },
+      "download_url": "https://github.com/square/Valet/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "cpm-cmake",
       "name": "CPM.cmake",
       "tagline": "Simple dependency management for your projects.",
@@ -43424,6 +43815,62 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "cocoadebug",
+      "name": "CocoaDebug",
+      "tagline": "Inspect iOS app network traffic instantly",
+      "repo_url": "https://github.com/cocoadebug/cocoadebug",
+      "full_name": "cocoadebug/cocoadebug",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "developer-tools"
+      ],
+      "icon": "/icons/cocoadebug.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 4137,
+      "tier": "tier1_gui",
+      "summary": "An intuitive mobile application debugging assistant that monitors network traffic, app logs, crashes, and sandbox storage directly on iOS devices.",
+      "i18n": {
+        "it": "Un assistente di debug per dispositivi mobili che monitora il traffico di rete, i registri e i crash direttamente su iOS.",
+        "es": "Un asistente de depuración móvil que supervisa el tráfico de red, registros y fallos directamente en dispositivos iOS.",
+        "fr": "Un assistant de débogage mobile qui surveille le trafic réseau, les journaux et les plantages directement sur iOS.",
+        "de": "Ein mobiler Debugging-Assistent zur Überwachung von Netzwerkverkehr, Protokollen und Abstürzen direkt auf iOS-Geräten."
+      },
+      "download_url": "https://github.com/CocoaDebug/CocoaDebug/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "rtabmap",
+      "name": "rtabmap",
+      "tagline": "Turn depth camera scans into 3D maps.",
+      "repo_url": "https://github.com/introlab/rtabmap",
+      "full_name": "introlab/rtabmap",
+      "category": "Productivity",
+      "tags": [
+        "mapping",
+        "robotics"
+      ],
+      "icon": "/icons/rtabmap.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Windows, macOS, Android, iOS",
+      "license": "Custom Open License",
+      "stars": 4126,
+      "tier": "tier1_gui",
+      "summary": "Create detailed 3D maps of rooms and environments in real time using everyday cameras and sensors.",
+      "i18n": {
+        "it": "Trasforma le scansioni di telecamere e sensori in modelli tridimensionali accurati e completi.",
+        "es": "Crea mapas tridimensionales detallados de habitaciones en tiempo real usando cámaras y sensores.",
+        "fr": "Créez des cartes tridimensionnelles détaillées d'environnements en temps réel avec des capteurs.",
+        "de": "Generieren Sie in Echtzeit präzise dreidimensionale Karten von Räumen mit Kameras und Sensoren."
+      },
+      "download_url": "https://github.com/introlab/rtabmap/releases/download/0.24.2/RTABMap-0.24.2-win64.exe",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "fugleramme",
       "name": "fugleramme",
       "tagline": "Turn bird songs into vintage art",
@@ -43450,6 +43897,62 @@
       },
       "download_url": "https://github.com/arnegiacomo/fugleramme/releases/download/v0.33.0/uv.lock",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "moderncleanarchitectureswiftui",
+      "name": "ModernCleanArchitectureSwiftUI",
+      "tagline": "Modular clean architecture blueprint for apps.",
+      "repo_url": "https://github.com/sergdort/moderncleanarchitectureswiftui",
+      "full_name": "sergdort/moderncleanarchitectureswiftui",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "architecture"
+      ],
+      "icon": "/icons/moderncleanarchitectureswiftui.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 4097,
+      "tier": "tier1_gui",
+      "summary": "Learn how to structure scalable mobile apps using clean architecture principles and modular design patterns.",
+      "i18n": {
+        "it": "Scopri come strutturare app mobili scalabili utilizzando principi di architettura pulita e design modulare.",
+        "es": "Aprende a estructurar aplicaciones móviles escalables utilizando principios de arquitectura limpia y modular.",
+        "fr": "Apprenez à structurer des applications mobiles évolutives en utilisant des principes d'architecture propre.",
+        "de": "Erfahren Sie, wie Sie skalierbare mobile Apps mit sauberen Architekturprinzipien und modularem Design strukturieren."
+      },
+      "download_url": "https://github.com/sergdort/ModernCleanArchitectureSwiftUI/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "cherry-studio-app",
+      "name": "Cherry Studio Mobile",
+      "tagline": "AI chat & image creation on mobile",
+      "repo_url": "https://github.com/cherryhq/cherry-studio-app",
+      "full_name": "cherryhq/cherry-studio-app",
+      "category": "Productivity",
+      "tags": [
+        "mobile",
+        "ai"
+      ],
+      "icon": "/icons/cherry-studio-app.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (AGPL v3)",
+      "stars": 4096,
+      "tier": "tier1_gui",
+      "summary": "Chat with AI models, create images, and manage files all from your phone.",
+      "i18n": {
+        "it": "Parla con modelli AI, crea immagini e gestisci file direttamente dal tuo smartphone.",
+        "es": "Habla con modelos de IA, crea imágenes y gestiona archivos desde tu móvil.",
+        "fr": "Discutez avec des modèles IA, créez des images et gérez des fichiers depuis votre téléphone.",
+        "de": "Sprechen Sie mit KI-Modellen, erstellen Sie Bilder und verwalten Sie Dateien direkt von Ihrem Handy."
+      },
+      "download_url": "https://github.com/CherryHQ/cherry-studio-app/releases/download/v0.6.3/cherry-studio-0.6.3-android.apk",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "strawberry",
@@ -43536,6 +44039,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "body-scroll-lock",
+      "name": "body-scroll-lock",
+      "tagline": "Lock background scrolling on any device.",
+      "repo_url": "https://github.com/willmcpo/body-scroll-lock",
+      "full_name": "willmcpo/body-scroll-lock",
+      "category": "Productivity",
+      "tags": [
+        "web-development",
+        "ui-ux"
+      ],
+      "icon": "/icons/body-scroll-lock.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4085,
+      "tier": "tier1_gui",
+      "summary": "Easily freeze background scrolling when pop-ups or menus open without breaking scrolling inside the open window on mobile and desktop browsers.",
+      "i18n": {
+        "it": "Impedisci lo scorrimento della pagina quando si aprono finestre o menu, mantenendo fluido lo scroll interno su qualsiasi dispositivo.",
+        "es": "Evita que la página se desplace al abrir menús o ventanas flotantes, manteniendo el desplazamiento interno intacto en móviles y PC.",
+        "fr": "Empêchez la page de défiler lors de l'ouverture de fenêtres ou de menus, tout en gardant un défilement fluide sur mobile et bureau.",
+        "de": "Verhindern Sie das Scrollen der Hintergrundseite bei geöffneten Fenstern oder Menüs und erhalten Sie die volle Kontrolle auf allen Geräten."
+      },
+      "download_url": "https://github.com/willmcpo/body-scroll-lock/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "docker-zerotier-planet",
       "name": "Docker ZeroTier Planet",
       "tagline": "Self‑hosted ZeroTier network hub",
@@ -43562,6 +44093,34 @@
       },
       "download_url": "https://github.com/xubiaolin/docker-zerotier-planet/releases",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "shapeshifter",
+      "name": "ShapeShifter",
+      "tagline": "Create smooth SVG vector animations easily",
+      "repo_url": "https://github.com/alexjlockwood/shapeshifter",
+      "full_name": "alexjlockwood/shapeshifter",
+      "category": "Productivity",
+      "tags": [
+        "animation",
+        "svg"
+      ],
+      "icon": "/icons/shapeshifter.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "Android, iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 4076,
+      "tier": "tier1_gui",
+      "summary": "ShapeShifter is a web tool that lets you design and morph vector graphic animations for mobile apps and websites without manual code edits.",
+      "i18n": {
+        "it": "ShapeShifter è uno strumento web per progettare e trasformare animazioni grafiche vettoriali per app e siti senza modifiche manuali.",
+        "es": "ShapeShifter es una herramienta web para diseñar y transformar animaciones gráficas vectoriales para aplicaciones móviles y web.",
+        "fr": "ShapeShifter est un outil web pour concevoir et transformer des animations graphiques vectorielles pour applications et sites web.",
+        "de": "ShapeShifter ist ein Web-Tool zum Entwerfen und Transformieren von Vektorgrafik-Animationen für mobile Apps und Webseiten."
+      },
+      "download_url": "https://shapeshifter.design",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "next-pwa",
@@ -43620,6 +44179,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "hmsegmentedcontrol",
+      "name": "HMSegmentedControl",
+      "tagline": "Customizable navigation bars for mobile apps",
+      "repo_url": "https://github.com/heshammegid/hmsegmentedcontrol",
+      "full_name": "heshammegid/hmsegmentedcontrol",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "mobile-development"
+      ],
+      "icon": "/icons/hmsegmentedcontrol.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 4064,
+      "tier": "tier1_gui",
+      "summary": "HMSegmentedControl provides a flexible way for mobile app creators to build interactive navigation menus that support both text and images.",
+      "i18n": {
+        "it": "HMSegmentedControl offre un modo flessibile per creare menu di navigazione interattivi che supportano sia testo che immagini.",
+        "es": "HMSegmentedControl ofrece una forma flexible de crear menús de navegación interactivos que admiten tanto texto como imágenes.",
+        "fr": "HMSegmentedControl offre un moyen flexible de créer des menus de navigation interactifs prenant en charge le texte et les images.",
+        "de": "HMSegmentedControl bietet eine flexible Möglichkeit, interaktive Navigationsmenüs zu erstellen, die sowohl Text als auch Bilder unterstützen."
+      },
+      "download_url": "https://github.com/HeshamMegid/HMSegmentedControl/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "claude-devtools",
       "name": "claude-devtools",
       "tagline": "Visual debugger for AI coding sessions",
@@ -43648,6 +44235,34 @@
       "updated_at": "2026-11-21"
     },
     {
+      "slug": "apollo-ios",
+      "name": "Apollo iOS",
+      "tagline": "Swift tool for easy GraphQL data",
+      "repo_url": "https://github.com/apollographql/apollo-ios",
+      "full_name": "apollographql/apollo-ios",
+      "category": "Productivity",
+      "tags": [
+        "graphql",
+        "ios"
+      ],
+      "icon": "/icons/apollo-ios.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4041,
+      "tier": "tier1_gui",
+      "summary": "Apollo iOS lets your app request the exact data it needs from a GraphQL server and get ready‑made Swift objects, skipping manual JSON parsing.",
+      "i18n": {
+        "it": "Apollo iOS permette alla tua app di chiedere i dati esatti a un server GraphQL e di ottenere oggetti Swift pronti, senza dover analizzare JSON a mano.",
+        "es": "Apollo iOS permite que tu aplicación solicite los datos exactos a un servidor GraphQL y reciba objetos Swift listos para usar, sin necesidad de analizar JSON manualmente.",
+        "fr": "Apollo iOS permet à votre application de demander les données exactes à un serveur GraphQL et de recevoir des objets Swift prêts à l'emploi, sans analyser manuellement le JSON.",
+        "de": "Apollo iOS lässt Ihre App die genauen Daten von einem GraphQL‑Server anfordern und liefert fertige Swift‑Objekte, ohne dass Sie JSON manuell parsen müssen."
+      },
+      "download_url": "https://www.apollographql.com/docs/ios/",
+      "updated_at": "2026-11-26"
+    },
+    {
       "slug": "qtexamples",
       "name": "QtExamples",
       "tagline": "Master desktop app development in C++.",
@@ -43674,6 +44289,62 @@
       },
       "download_url": "https://product.xmuli.tech",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "xcpretty",
+      "name": "xcpretty",
+      "tagline": "Turn messy development logs into clean reading",
+      "repo_url": "https://github.com/xcpretty/xcpretty",
+      "full_name": "xcpretty/xcpretty",
+      "category": "Productivity",
+      "tags": [
+        "developer-tools",
+        "logging"
+      ],
+      "icon": "/icons/xcpretty.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Custom Open License",
+      "stars": 4030,
+      "tier": "tier1_gui",
+      "summary": "Transform chaotic software compilation logs into clean, easy-to-read formatting that highlights important errors instantly.",
+      "i18n": {
+        "it": "Rendi leggibili i log di compilazione software caotici evidenziando subito gli errori importanti.",
+        "es": "Transforma los registros de compilación caóticos en un formato limpio que destaca los errores al instante.",
+        "fr": "Transformez les journaux de compilation chaotiques en un affichage propre qui met en valeur les erreurs.",
+        "de": "Verwandeln Sie unübersichtliche Kompilierungsprotokolle in eine saubere Ansicht, die Fehler sofort zeigt."
+      },
+      "download_url": "https://github.com/xcpretty/xcpretty/releases",
+      "updated_at": "2026-11-26"
+    },
+    {
+      "slug": "pinremoteimage",
+      "name": "PINRemoteImage",
+      "tagline": "Fast and safe parallel image downloader",
+      "repo_url": "https://github.com/pinterest/pinremoteimage",
+      "full_name": "pinterest/pinremoteimage",
+      "category": "Productivity",
+      "tags": [
+        "ios",
+        "images"
+      ],
+      "icon": "/icons/pinremoteimage.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (Apache 2.0)",
+      "stars": 4026,
+      "tier": "tier1_gui",
+      "summary": "Download, process, and cache images smoothly in mobile apps without freezing your user interface or main screen.",
+      "i18n": {
+        "it": "Scarica, elabora e memorizza immagini in modo fluido nelle app mobili senza bloccare mai l'interfaccia utente.",
+        "es": "Descarga, procesa y guarda imágenes sin problemas en aplicaciones móviles sin congelar la interfaz de usuario.",
+        "fr": "Téléchargez, traitez et mettez en cache des images de manière fluide dans vos applications sans bloquer l'interface.",
+        "de": "Laden, bearbeiten und speichern Sie Bilder reibungslos in mobilen Apps, ohne die Benutzeroberfläche zu blockieren."
+      },
+      "download_url": "https://github.com/pinterest/PINRemoteImage/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "reminders-menubar",
@@ -43758,6 +44429,34 @@
       },
       "download_url": "https://github.com/isar/isar/releases/download/3.1.0%2B1/isar_windows_arm64.dll",
       "updated_at": "2026-11-21"
+    },
+    {
+      "slug": "frida-ios-dump",
+      "name": "frida-ios-dump",
+      "tagline": "Extract decrypted mobile application packages easily",
+      "repo_url": "https://github.com/alonemonkey/frida-ios-dump",
+      "full_name": "alonemonkey/frida-ios-dump",
+      "category": "Productivity",
+      "tags": [
+        "utilities",
+        "backup"
+      ],
+      "icon": "/icons/frida-ios-dump.png",
+      "is_webapp": false,
+      "app_type": "desktop",
+      "operatingSystem": "iOS",
+      "license": "Open Source (MIT)",
+      "stars": 4012,
+      "tier": "tier1_gui",
+      "summary": "Extract unlocked application files from modified mobile devices so you can test and back up your software.",
+      "i18n": {
+        "it": "Estrai file di applicazioni sbloccati da dispositivi mobili modificati per testare e salvare i tuoi programmi in tutta sicurezza.",
+        "es": "Extrae archivos de aplicaciones desbloqueados de dispositivos móviles modificados para probar y respaldar tus programas con facilidad.",
+        "fr": "Extrayez des fichiers d'applications déverrouillés depuis des appareils mobiles modifiés pour tester et sauvegarder vos logiciels.",
+        "de": "Extrahieren Sie entsperrte Anwendungsdateien von modifizierten Mobilgeräten, um Ihre Programme sicher zu testen und zu sichern."
+      },
+      "download_url": "https://github.com/AloneMonkey/frida-ios-dump/releases",
+      "updated_at": "2026-11-26"
     },
     {
       "slug": "laravel-zero",
