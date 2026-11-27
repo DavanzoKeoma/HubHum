@@ -12,7 +12,7 @@ parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
 app_slugs: ["rustdesk", "nextchat", "ventoy", "motrix", "chatgpt", "open-source-ios-apps", "codewhale", "sheetjs"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Quick Answer: RustDesk vs NextChat

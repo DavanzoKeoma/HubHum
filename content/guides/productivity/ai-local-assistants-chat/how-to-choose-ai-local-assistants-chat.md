@@ -12,7 +12,7 @@ parent_slug: "productivity/ai-local-assistants-chat"
 child_slugs: []
 sibling_slugs: ["productivity/ai-local-assistants-chat/best-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
 app_slugs: ["rustdesk", "nextchat", "ventoy", "motrix", "chatgpt", "open-source-ios-apps"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## How to Choose Free Local AI Assistants, LLM Studios & Chat Workspaces Without Getting Lost

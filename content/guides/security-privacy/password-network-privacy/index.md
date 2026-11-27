@@ -12,7 +12,7 @@ parent_slug: "security-privacy"
 child_slugs: ["security-privacy/password-network-privacy/best-password-network-privacy", "security-privacy/password-network-privacy/how-to-choose-password-network-privacy", "security-privacy/password-network-privacy/troubleshooting-password-network-privacy"]
 sibling_slugs: []
 app_slugs: ["sherlock", "win11debloat", "cobalt", "sniffnet", "maigret", "setup-ipsec-vpn", "pangolin", "safeline", "v2raya", "opensnitch", "esp32marauder", "netmaker", "pdfcpu", "gui-for-singbox", "canta", "bleachbit", "docker-ipsec-vpn-server", "vpnhotspot"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Privacy Tools, VPNs & Network Monitors

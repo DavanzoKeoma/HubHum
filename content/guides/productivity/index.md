@@ -9,7 +9,7 @@ summary: "Get more done every day with free note-taking apps, window managers, f
 child_slugs: ["productivity/notes-knowledge-apps", "productivity/pdf-document-office-tools", "productivity/desktop-workflow-helpers", "productivity/ai-local-assistants-chat"]
 sibling_slugs: []
 app_slugs: ["awesome", "microsoft-activation-scripts", "flutter", "clash-verge-rev", "cc-switch", "scrcpy", "powertoys", "rustdesk", "orca", "react-native", "node", "v2rayn", "free-programming-books-zh-cn", "openhands", "nextchat", "ventoy", "last30days-skill", "v2rayng"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Why Explore Free Productivity Software?

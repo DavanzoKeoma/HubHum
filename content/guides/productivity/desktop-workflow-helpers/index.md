@@ -12,7 +12,7 @@ parent_slug: "productivity"
 child_slugs: ["productivity/desktop-workflow-helpers/best-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/how-to-choose-desktop-workflow-helpers", "productivity/desktop-workflow-helpers/troubleshooting-desktop-workflow-helpers"]
 sibling_slugs: []
 app_slugs: ["flutter", "clash-verge-rev", "cc-switch", "powertoys", "orca", "node", "v2rayn", "openhands", "v2rayng", "termux-app", "mkcert", "dbeaver", "brew", "bruno", "nvm", "ifixai", "gkd", "retrofit"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Window Switchers & Everyday Workflow Helpers

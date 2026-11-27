@@ -12,7 +12,7 @@ parent_slug: "utilities-power-tools"
 child_slugs: ["utilities-power-tools/modern-terminal-apps/best-modern-terminal-apps", "utilities-power-tools/modern-terminal-apps/how-to-choose-modern-terminal-apps", "utilities-power-tools/modern-terminal-apps/troubleshooting-modern-terminal-apps"]
 sibling_slugs: []
 app_slugs: ["gemini-cli", "scrapling", "fzf", "imgui", "tabby", "ripgrep", "alacritty", "warp", "bat", "herdr", "airflow", "zx", "fd", "yazi", "fastlane", "zoxide", "ink", "textual"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Modern Terminal Emulators & Fast File Finders

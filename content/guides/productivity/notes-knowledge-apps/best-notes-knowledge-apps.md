@@ -12,7 +12,7 @@ parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
 app_slugs: ["awesome", "free-programming-books-zh-cn", "marktext", "drawio-desktop", "joplin", "imhex", "obsidian-skills", "architecture-samples"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Quick Answer: Awesome vs Free Programming Books Chinese

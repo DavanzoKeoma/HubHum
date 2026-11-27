@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/self-hosted-cms-blogs/best-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/troubleshooting-self-hosted-cms-blogs"]
 sibling_slugs: []
 app_slugs: ["system-design-primer", "hugo", "netdata", "strapi", "gatsby", "ghost", "huginn", "puter", "halo", "ai-website-cloner-template", "trilium", "directus", "glance", "onyx", "dokku", "openmausbot", "opengym", "wagtail"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Self-Hosted CMS, Blogs & Publishing Platforms

@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/server-dashboards-automation/best-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"]
 sibling_slugs: []
 app_slugs: ["dify", "uptime-kuma", "coolify", "serviette", "new-api", "clickhouse", "jeecgboot", "jan", "appsmith", "tooljet", "dokploy", "qwenpaw", "casaos", "langfuse", "glances", "homepage", "signoz", "analytics"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Server Dashboards, Monitoring & Cloud Panels

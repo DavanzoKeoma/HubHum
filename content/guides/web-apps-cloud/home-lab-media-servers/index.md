@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"]
 sibling_slugs: []
 app_slugs: ["open-webui", "appwrite", "gogs", "easyspider", "filament", "proxmoxve", "skyvern", "neko", "companyos", "wasp", "spellbook-of-modern-webdev", "docs", "pakeplus", "audiobookshelf", "quantdinger", "kavita", "docker-pi-hole", "owncast"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Home Lab Media Servers, E-Books & Streaming Hubs

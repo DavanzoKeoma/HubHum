@@ -12,7 +12,7 @@ parent_slug: "security-privacy/free-password-managers"
 child_slugs: []
 sibling_slugs: ["security-privacy/free-password-managers/best-free-password-managers", "security-privacy/free-password-managers/how-to-choose-free-password-managers"]
 app_slugs: ["gitleaks", "ente", "keepassxc", "metube", "hackbrowserdata"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Fixing Common Problems with Free Password Managers & Auth Vaults

@@ -12,7 +12,7 @@ parent_slug: "graphics-design/3d-visual-design-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/3d-visual-design-tools/how-to-choose-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
 app_slugs: ["ui-ux-pro-max-skill", "open-design", "material-design-icons", "lottie-android", "react-native-elements", "slint", "best-flutter-ui-templates", "nativebase"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Quick Answer: UI UX Pro Max Skill vs open-design

@@ -12,7 +12,7 @@ parent_slug: "graphics-design"
 child_slugs: ["graphics-design/3d-visual-design-tools/best-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/how-to-choose-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/troubleshooting-3d-visual-design-tools"]
 sibling_slugs: []
 app_slugs: ["ui-ux-pro-max-skill", "open-design", "material-design-icons", "lottie-android", "react-native-elements", "slint", "best-flutter-ui-templates", "nativebase", "androidautosize", "customtkinter", "lipgloss", "fluentui-system-icons", "nvactivityindicatorview", "openframeworks", "tkinter-designer", "dashboard-icons", "pyqt-fluent-widgets", "pixieditor"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: 3D Modeling & Visual Interface Studios

@@ -12,7 +12,7 @@ parent_slug: "security-privacy"
 child_slugs: ["security-privacy/free-password-managers/best-free-password-managers", "security-privacy/free-password-managers/how-to-choose-free-password-managers", "security-privacy/free-password-managers/troubleshooting-free-password-managers"]
 sibling_slugs: []
 app_slugs: ["gitleaks", "ente", "keepassxc", "metube", "hackbrowserdata", "clients", "pocket-id", "git-credential-manager", "keepassdx", "macpass", "lesspass", "personal-management-system", "nodewarden", "valet", "passwordpusher", "jasypt-spring-boot", "globalprotect-openconnect", "sharry"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Free Password Managers & Auth Vaults

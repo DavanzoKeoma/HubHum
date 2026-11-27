@@ -9,7 +9,7 @@ summary: "Protect passwords, monitor network traffic, and declutter operating sy
 child_slugs: ["security-privacy/free-password-managers", "security-privacy/password-network-privacy", "security-privacy/system-cleaners-auditors"]
 sibling_slugs: []
 app_slugs: ["sherlock", "mole", "win11debloat", "cobalt", "sniffnet", "maigret", "pentagi", "gitleaks", "ente", "keepassxc", "setup-ipsec-vpn", "pangolin", "safeline", "termix", "v2raya", "metube", "winhance", "hackbrowserdata"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Why Explore Free Security & Privacy Software?

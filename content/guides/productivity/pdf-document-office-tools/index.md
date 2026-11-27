@@ -12,7 +12,7 @@ parent_slug: "productivity"
 child_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools", "productivity/pdf-document-office-tools/troubleshooting-pdf-document-office-tools"]
 sibling_slugs: []
 app_slugs: ["microsoft-activation-scripts", "scrcpy", "react-native", "last30days-skill", "pake", "okhttp", "files", "uni-app", "monitorcontrol", "gold-miner", "jobs-applier-ai-agent", "jumpserver", "seal", "filee", "steamtools", "readest", "lsposed", "mihon"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Free PDF, Document & E-Book Tools

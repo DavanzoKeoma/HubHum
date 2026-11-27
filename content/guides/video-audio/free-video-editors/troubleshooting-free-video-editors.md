@@ -12,7 +12,7 @@ parent_slug: "video-audio/free-video-editors"
 child_slugs: []
 sibling_slugs: ["video-audio/free-video-editors/best-free-video-editors", "video-audio/free-video-editors/how-to-choose-free-video-editors"]
 app_slugs: ["yt-dlp", "losslesscut", "recordly", "handbrake", "concat"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Fixing Common Problems with Free Video Cutters, Converters & Downloaders

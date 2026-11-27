@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/self-hosted-cms-blogs"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cms-blogs/how-to-choose-self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cms-blogs/troubleshooting-self-hosted-cms-blogs"]
 app_slugs: ["system-design-primer", "hugo", "netdata", "strapi", "gatsby", "ghost", "huginn", "puter"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Quick Answer: System Design Primer vs Hugo

@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/server-dashboards-automation"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/server-dashboards-automation/how-to-choose-server-dashboards-automation", "web-apps-cloud/server-dashboards-automation/troubleshooting-server-dashboards-automation"]
 app_slugs: ["dify", "uptime-kuma", "coolify", "serviette", "new-api", "clickhouse", "jeecgboot", "jan"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Quick Answer: dify vs Uptime Kuma

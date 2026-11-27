@@ -12,7 +12,7 @@ parent_slug: "video-audio/audio-media-players"
 child_slugs: []
 sibling_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
 app_slugs: ["spotube", "iina", "pear-desktop", "yesplaymusic", "navidrome", "spotx"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## How to Choose Free Audio Editors & Music Players Without Getting Lost

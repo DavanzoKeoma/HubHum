@@ -12,7 +12,7 @@ parent_slug: "video-audio/screen-recorders-streaming"
 child_slugs: []
 sibling_slugs: ["video-audio/screen-recorders-streaming/how-to-choose-screen-recorders-streaming", "video-audio/screen-recorders-streaming/troubleshooting-screen-recorders-streaming"]
 app_slugs: ["smarttube", "animeko", "kap", "ani-cli", "streamlink", "hghub", "cloudstream", "iptvnator"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Quick Answer: SmartTube vs Animeko

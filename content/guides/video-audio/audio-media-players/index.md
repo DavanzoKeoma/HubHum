@@ -12,7 +12,7 @@ parent_slug: "video-audio"
 child_slugs: ["video-audio/audio-media-players/best-audio-media-players", "video-audio/audio-media-players/how-to-choose-audio-media-players", "video-audio/audio-media-players/troubleshooting-audio-media-players"]
 sibling_slugs: []
 app_slugs: ["spotube", "iina", "pear-desktop", "yesplaymusic", "navidrome", "spotx", "vlc", "blackhole", "spotify-tui", "audacity", "nuclear", "beets", "autoclip", "audiokit", "listen1-desktop", "spotiflyer", "captura", "spotifyd"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Audio Editors & Music Players

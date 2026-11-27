@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/home-lab-media-servers"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/troubleshooting-home-lab-media-servers"]
 app_slugs: ["open-webui", "appwrite", "gogs", "easyspider", "filament", "proxmoxve", "skyvern", "neko"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Quick Answer: Open WebUI vs Appwrite

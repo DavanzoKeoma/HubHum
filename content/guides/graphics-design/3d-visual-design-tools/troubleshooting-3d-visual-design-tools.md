@@ -12,7 +12,7 @@ parent_slug: "graphics-design/3d-visual-design-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/3d-visual-design-tools/best-3d-visual-design-tools", "graphics-design/3d-visual-design-tools/how-to-choose-3d-visual-design-tools"]
 app_slugs: ["ui-ux-pro-max-skill", "open-design", "material-design-icons", "lottie-android", "react-native-elements"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Fixing Common Problems with Free 3D Modeling & Visual Interface Studios

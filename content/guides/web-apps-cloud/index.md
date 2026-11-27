@@ -9,7 +9,7 @@ summary: "Run modern dashboards, publishing tools, bookmark hubs, and family clo
 child_slugs: ["web-apps-cloud/self-hosted-cms-blogs", "web-apps-cloud/self-hosted-cloud-apps", "web-apps-cloud/server-dashboards-automation", "web-apps-cloud/home-lab-media-servers"]
 sibling_slugs: []
 app_slugs: ["system-design-primer", "n8n", "dify", "open-webui", "immich", "stirling-pdf", "uptime-kuma", "hugo", "netdata", "unsloth", "strapi", "coolify", "memos", "gitea", "serviette", "appwrite", "gatsby", "ghost"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Why Explore Free Web Apps & Cloud Software?

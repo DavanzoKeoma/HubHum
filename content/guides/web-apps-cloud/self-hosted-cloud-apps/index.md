@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud"
 child_slugs: ["web-apps-cloud/self-hosted-cloud-apps/best-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/troubleshooting-self-hosted-cloud-apps"]
 sibling_slugs: []
 app_slugs: ["n8n", "immich", "stirling-pdf", "unsloth", "memos", "gitea", "nanobot", "siyuan", "reactive-resume", "khoj", "changedetection-io", "meetily", "nanoclaw", "karakeep", "archivebox", "nocobase", "marimo", "linkwarden"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Personal Cloud Hubs, Photos & File Sharing

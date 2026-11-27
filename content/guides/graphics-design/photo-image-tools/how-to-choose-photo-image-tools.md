@@ -12,7 +12,7 @@ parent_slug: "graphics-design/photo-image-tools"
 child_slugs: []
 sibling_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
 app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "easydict", "materialdesign"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## How to Choose Free Photo Optimizers, Galleries & Screen Capture Without Getting Lost

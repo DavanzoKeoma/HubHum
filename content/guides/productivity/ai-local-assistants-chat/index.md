@@ -12,7 +12,7 @@ parent_slug: "productivity"
 child_slugs: ["productivity/ai-local-assistants-chat/best-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/how-to-choose-ai-local-assistants-chat", "productivity/ai-local-assistants-chat/troubleshooting-ai-local-assistants-chat"]
 sibling_slugs: []
 app_slugs: ["rustdesk", "nextchat", "ventoy", "motrix", "chatgpt", "open-source-ios-apps", "codewhale", "sheetjs", "etcher", "claude-code-templates", "comprehensive-rust", "qtscrcpy", "dbx", "librepods", "tvapp", "invokeai", "android-guides", "libuv"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Local AI Assistants, LLM Studios & Chat Workspaces

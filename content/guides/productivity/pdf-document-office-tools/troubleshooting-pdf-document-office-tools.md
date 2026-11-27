@@ -12,7 +12,7 @@ parent_slug: "productivity/pdf-document-office-tools"
 child_slugs: []
 sibling_slugs: ["productivity/pdf-document-office-tools/best-pdf-document-office-tools", "productivity/pdf-document-office-tools/how-to-choose-pdf-document-office-tools"]
 app_slugs: ["microsoft-activation-scripts", "scrcpy", "react-native", "last30days-skill", "pake"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Fixing Common Problems with Free PDF, Document & E-Book Tools

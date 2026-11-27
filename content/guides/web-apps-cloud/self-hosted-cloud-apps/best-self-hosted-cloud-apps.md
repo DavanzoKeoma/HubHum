@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/self-hosted-cloud-apps"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/self-hosted-cloud-apps/how-to-choose-self-hosted-cloud-apps", "web-apps-cloud/self-hosted-cloud-apps/troubleshooting-self-hosted-cloud-apps"]
 app_slugs: ["n8n", "immich", "stirling-pdf", "unsloth", "memos", "gitea", "nanobot", "siyuan"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Quick Answer: n8n vs Immich

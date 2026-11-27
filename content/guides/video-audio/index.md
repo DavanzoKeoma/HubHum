@@ -9,7 +9,7 @@ summary: "Compare free desktop editors, media players, audio tools, and streamin
 child_slugs: ["video-audio/free-video-editors", "video-audio/audio-media-players", "video-audio/screen-recorders-streaming"]
 sibling_slugs: []
 app_slugs: ["yt-dlp", "spotube", "iina", "losslesscut", "recordly", "smarttube", "pear-desktop", "yesplaymusic", "handbrake", "navidrome", "spotx", "animeko", "vlc", "blackhole", "spotify-tui", "kap", "concat", "audacity"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Why Explore Free Video & Audio Software?

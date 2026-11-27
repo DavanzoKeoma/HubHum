@@ -12,7 +12,7 @@ parent_slug: "graphics-design"
 child_slugs: ["graphics-design/photo-image-tools/best-photo-image-tools", "graphics-design/photo-image-tools/how-to-choose-photo-image-tools", "graphics-design/photo-image-tools/troubleshooting-photo-image-tools"]
 sibling_slugs: []
 app_slugs: ["photoprism", "flameshot", "svgo", "imagetoolbox", "easydict", "materialdesign", "openscad", "easydiffusion", "imageoptim", "mahapps-metro", "stable-dreamfusion", "modly", "open-codesign", "app-store-screenshots", "jspaint", "esearch", "koharu", "pastel"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Photo Optimizers, Galleries & Screen Capture

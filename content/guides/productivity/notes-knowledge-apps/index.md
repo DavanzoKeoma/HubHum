@@ -12,7 +12,7 @@ parent_slug: "productivity"
 child_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/how-to-choose-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
 sibling_slugs: []
 app_slugs: ["awesome", "free-programming-books-zh-cn", "marktext", "drawio-desktop", "joplin", "imhex", "obsidian-skills", "architecture-samples", "kazumi", "insomnia", "freecad", "androidutilcode", "notepad-plus-plus", "wiki", "gopeed", "quasar", "flatbuffers", "editor"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Plain-English Overview: Encrypted Notes, Wikis & Knowledge Apps

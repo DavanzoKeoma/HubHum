@@ -12,7 +12,7 @@ parent_slug: "web-apps-cloud/home-lab-media-servers"
 child_slugs: []
 sibling_slugs: ["web-apps-cloud/home-lab-media-servers/best-home-lab-media-servers", "web-apps-cloud/home-lab-media-servers/how-to-choose-home-lab-media-servers"]
 app_slugs: ["open-webui", "appwrite", "gogs", "easyspider", "filament"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## Fixing Common Problems with Free Home Lab Media Servers, E-Books & Streaming Hubs

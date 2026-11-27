@@ -12,7 +12,7 @@ parent_slug: "productivity/notes-knowledge-apps"
 child_slugs: []
 sibling_slugs: ["productivity/notes-knowledge-apps/best-notes-knowledge-apps", "productivity/notes-knowledge-apps/troubleshooting-notes-knowledge-apps"]
 app_slugs: ["awesome", "free-programming-books-zh-cn", "marktext", "drawio-desktop", "joplin", "imhex"]
-updated_at: "2026-11-26"
+updated_at: "2026-11-27"
 ---
 
 ## How to Choose Free Encrypted Notes, Wikis & Knowledge Apps Without Getting Lost
